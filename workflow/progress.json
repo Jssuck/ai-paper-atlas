@@ -1,25 +1,20 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "church-1932-postulates",
-    "title": "A Set of Postulates for the Foundation of Logic",
-    "selection_confirmed": true,
-    "doi": "10.2307/1968337",
-    "chronology_note": "1932 formal-foundations gap-fill. Earlier uncovered candidates will be recorded separately; not an exhaustive chronology."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "goedel-1931-incompleteness",
-    "path": "papers/1931/godel-formally-undecidable.zh-CN.md",
+    "id": "church-1932-postulates",
+    "path": "papers/1932/church-postulates-logic.zh-CN.md",
     "version": "v1",
-    "content_commit": "a4763c3ece842e5de43d0af592c2abd57d0d9ec6",
-    "checks": "Independent mathematics and reproduction review passed; remote content and GitHub render/links verified."
+    "content_commit": "76c8f27b50ac8fadcd6c581cbc333f128c9a51af",
+    "checks": "Independent mathematics and code review, remote content, live math rendering, links and notebook preview verified."
   },
-  "updated_at": "2026-10-09T16:47:56Z",
+  "updated_at": "2026-10-09T16:52:53Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
-  }
+  },
+  "next_action": "At the next hourly turn, consult reading-paths/early-foundations-candidates.json and choose one earlier unfilled source-backed candidate; retain unavailable candidates and avoid prestige ranking. Use fenced math display blocks to preserve escapes on GitHub."
 }
