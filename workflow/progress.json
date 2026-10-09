@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "de-morgan-1847",
+    "stage": "researching",
+    "source": "https://archive.org/download/transactionsofca08camb/transactionsofca08camb.pdf",
+    "scope": "Original pp379–408 including Addition; Part III imprint1847, read9Nov1846, bound volume1849."
+  },
   "last_completed": {
     "id": "peirce-1880",
     "path": "papers/1880/peirce-algebra-of-logic.zh-CN.md",
@@ -10,12 +15,12 @@
     "checks": "Independent primary-source mathematical and code reviews passed; all 34 published files exactly verified on main; article 163 and appendix 95 formulas render without errors; linked evidence and 15-cell notebook static preview verified.",
     "scope": "Complete published installment pp15–57 including p57 corrective note; intended continuation and unfinished p30 branch not claimed complete. Original print discrepancies distinguished from teaching reconstructions and finite checks."
   },
-  "updated_at": "2026-10-09T22:07:21Z",
+  "updated_at": "2026-10-09T22:34:48Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled turn evaluate earlier explicitly recorded paper leads and preserved book gaps; choose one source-verified unfinished paper and retain unresolved chronology or availability gaps."
+  "next_action": "Read full original and Addition with corrections audit; distinguish categorical/existence assumptions and probability hypotheses; prepare proofs and finite teaching reproduction with independent review."
 }
