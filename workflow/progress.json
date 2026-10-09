@@ -1,26 +1,21 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "huntington-1904",
-    "stage": "verifying_publication",
-    "source": "https://archive.org/download/jstor-1986459/1986459.pdf",
-    "scope": "Original pages 288–309; bounded paper backfill while earlier book-length background remains explicitly pending."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "sheffer-1913",
-    "path": "papers/1913/sheffer-five-postulates.zh-CN.md",
+    "id": "huntington-1904",
+    "path": "papers/1904/huntington-independent-postulates.zh-CN.md",
     "version": "v1",
-    "content_commit": "19ae9fccd5a87a6c0d2c6190d342edcd32cd725f",
-    "checks": "Independent original-page mathematical and code review passed; all 26 published files exactly verified; GitHub article 179 formulas, six tables and eight-cell notebook static preview verified.",
-    "scope": "Original pages 481–488; ordinary independence distinguished from later complete independence; finite teaching checks do not replace general proofs."
+    "content_commit": "ba646854daa209749ffaef82a3f72ea9b295a1e6",
+    "checks": "Independent mathematical and code review passed; all 24 published files exactly verified on main; GitHub formulas, tables, linked evidence and nine-cell notebook static preview verified.",
+    "scope": "Original pages 288–309 and applicable 1904 p552 bibliographic erratum read; three axiom groups and original countermodels covered; infinite-model proofs distinguished from finite checks."
   },
-  "updated_at": "2026-10-09T20:53:30Z",
+  "updated_at": "2026-10-09T20:57:50Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify main commit, all exact file contents, math/table rendering and relative links before marking completed."
+  "next_action": "At next scheduled turn evaluate newly recorded earlier concrete paper leads and preserved book/background gaps; select only one unfinished paper with verified original source, without exhaustive coverage claims."
 }
