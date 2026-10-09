@@ -10,6 +10,7 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
+| 1880 | [Peirce《逻辑代数》精读](papers/1880/peirce-algebra-of-logic.zh-CN.md) | AI前史回填：类消元、关系四运算与有条件展开 | 深读v1 · 完整已刊部分及自注 |
 | 1904 | [Huntington《逻辑代数独立公设》精读](papers/1904/huntington-independent-postulates.zh-CN.md) | AI前史回填：三组公设、反模型与有限分类 | 深读v1 · 含实跑附件与正式勘误 |
 | 1913 | [Sheffer《布尔代数五公设》精读](papers/1913/sheffer-five-postulates.zh-CN.md) | AI 前史回填：独立性、NOR与逻辑原语 | 深读 v1 · 含实跑附件 |
 | 1924 | [Schönfinkel《数学逻辑的构件》精读](papers/1924/schonfinkel-building-blocks.zh-CN.md) | AI 前史回填：组合子与变量消除 | 深读 v1 · 含实跑附件 |
@@ -82,6 +83,15 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 
 原刊288–309全22页及同年552页适用勘误已核图。勘误仅补Leibniz书目，不改公设。23个原文有限反模型完成检查；第二组原列十条，但必须删6或7才得到九条独立基。9个Notebook代码格用标准库执行，非Jupyter内核；独立对照26,857张表/关系及16个换标签模型通过。无限反模型与有限分类另有数学解释，有限实验不替代一般证明。Boole1854、Schröder1890、Whitehead1898等可得书籍仍未完成，新发现1883/1890等前驱线索保留待读，1904也不是宣定历史起点。
 
+## Peirce1880可运行附件
+
+- [类消元、关系四运算与有限反例复现](reproduction/peirce-1880/README.md)
+- [教学Notebook](reproduction/peirce-1880/tutorial.ipynb)
+- [17项主测试日志](reproduction/peirce-1880/evidence/test-run.txt) · [逐页来源与校读](papers/1880/peirce-algebra-of-logic.sources.zh-CN.md)
+- [关系公式与条件展开附录](papers/1880/peirce-relative-formulae.zh-CN.md) · [独立代码复核](reproduction/peirce-1880/independent-review.zh-CN.md)
+
+原刊15–57全43页及末页Note to Page47已核图；完成的是1880已刊部分，原文仍标“To be Continued”。17项主测试、15个Notebook代码格实跑，后者用标准库执行器，非Jupyter内核。独立oracle另核262,405关系对、1,049,620四运算结果。本文区分正式自注、印式反例与教学修复；有限检查不替代一般定理或无限极限方法。更早论文线索、可得未读书籍和所有既有缺口继续保留。
+
 ## 每篇解析的共同标准
 
 - 原始书目信息、版本和全文来源
@@ -95,5 +105,6 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 公开内容与核验边界
 
 这里发布 AI 辅助撰写的原创中文解析、书目与原文链接，不镜像论文全文或 PDF。每篇注明实际阅读与核验范围；示意推导不冒充原文公式，概念练习不冒充已运行实验。发现错误后保留更正记录。原论文版权归各权利人所有。
+
 
 

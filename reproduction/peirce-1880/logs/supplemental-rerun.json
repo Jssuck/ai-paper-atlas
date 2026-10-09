@@ -1,0 +1,722 @@
+{
+  "python": "3.12.14",
+  "script_sha256": "3da30f2a40c70526f21a1155063f6e28658e7185f3d630f818602452b2e98810",
+  "domain": [
+    0,
+    1
+  ],
+  "relation_count": 16,
+  "encoding": "bit x*2+y denotes (x,y)",
+  "scope": "Finite exhaustive reconstruction, not an arbitrary-domain proof or literal check of all negation variants.",
+  "operation_oracles": {
+    "operation_evaluations": 1024,
+    "failures": 0
+  },
+  "atomic_tools": {
+    "assignments": 256,
+    "failures": 0
+  },
+  "distribution_simple": [
+    {
+      "formula": "D1",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D2",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D3",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D4",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D5",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D6",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D7",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "D8",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    }
+  ],
+  "distribution_developed": [
+    {
+      "formula": "DD1",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD2",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD3",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD4",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD5",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD6",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD7",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "DD8",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    }
+  ],
+  "association_simple": [
+    {
+      "formula": "S1",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S2",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S3",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S4",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S5",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S6",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S7",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    },
+    {
+      "formula": "S8",
+      "assignments": 4096,
+      "failures": 0,
+      "first_failure": null
+    }
+  ],
+  "association_developed": [
+    {
+      "class": 1,
+      "modern_sufficient_condition": "ran(c)=U",
+      "formulas": [
+        {
+          "formula": "C1.1",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              1,
+              0
+            ],
+            "left": 12,
+            "right": 0
+          }
+        },
+        {
+          "formula": "C1.2",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              3,
+              0
+            ],
+            "left": 12,
+            "right": 15
+          }
+        },
+        {
+          "formula": "C1.3",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              3,
+              0
+            ],
+            "left": 3,
+            "right": 0
+          }
+        },
+        {
+          "formula": "C1.4",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              1,
+              0
+            ],
+            "left": 3,
+            "right": 15
+          }
+        }
+      ],
+      "good_c_masks": [
+        3,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "condition_c_masks": [
+        3,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "finite_class_domain_matches": true
+    },
+    {
+      "class": 2,
+      "modern_sufficient_condition": "dom(not c)=U",
+      "formulas": [
+        {
+          "formula": "C2.1",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 3,
+            "other_inputs": [
+              0,
+              1
+            ],
+            "left": 14,
+            "right": 12
+          }
+        },
+        {
+          "formula": "C2.2",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 3,
+            "other_inputs": [
+              0,
+              5
+            ],
+            "left": 2,
+            "right": 3
+          }
+        },
+        {
+          "formula": "C2.3",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 3,
+            "other_inputs": [
+              0,
+              5
+            ],
+            "left": 5,
+            "right": 4
+          }
+        },
+        {
+          "formula": "C2.4",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 3,
+            "other_inputs": [
+              0,
+              1
+            ],
+            "left": 5,
+            "right": 7
+          }
+        }
+      ],
+      "good_c_masks": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "condition_c_masks": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "finite_class_domain_matches": true
+    },
+    {
+      "class": 3,
+      "modern_sufficient_condition": "ran(not c)=U",
+      "formulas": [
+        {
+          "formula": "C3.1",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 5,
+            "other_inputs": [
+              3,
+              0
+            ],
+            "left": 4,
+            "right": 5
+          }
+        },
+        {
+          "formula": "C3.2",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 5,
+            "other_inputs": [
+              1,
+              0
+            ],
+            "left": 14,
+            "right": 10
+          }
+        },
+        {
+          "formula": "C3.3",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 5,
+            "other_inputs": [
+              1,
+              0
+            ],
+            "left": 3,
+            "right": 7
+          }
+        },
+        {
+          "formula": "C3.4",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 5,
+            "other_inputs": [
+              3,
+              0
+            ],
+            "left": 3,
+            "right": 2
+          }
+        }
+      ],
+      "good_c_masks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        12
+      ],
+      "condition_c_masks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        12
+      ],
+      "finite_class_domain_matches": true
+    },
+    {
+      "class": 4,
+      "modern_sufficient_condition": "dom(c)=U",
+      "formulas": [
+        {
+          "formula": "C4.1",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              0,
+              5
+            ],
+            "left": 10,
+            "right": 15
+          }
+        },
+        {
+          "formula": "C4.2",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              0,
+              1
+            ],
+            "left": 10,
+            "right": 0
+          }
+        },
+        {
+          "formula": "C4.3",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              0,
+              1
+            ],
+            "left": 5,
+            "right": 15
+          }
+        },
+        {
+          "formula": "C4.4",
+          "all_assignments": 4096,
+          "assignments_satisfying_premise": 2304,
+          "conditional_failures": 0,
+          "failures_outside_premise": 672,
+          "first_outside_counterexample": {
+            "c": 0,
+            "other_inputs": [
+              0,
+              5
+            ],
+            "left": 5,
+            "right": 0
+          }
+        }
+      ],
+      "good_c_masks": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "condition_c_masks": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "finite_class_domain_matches": true
+    }
+  ],
+  "counterexamples": {
+    "p55_negative_simple_right_first_row": {
+      "domain": [
+        0
+      ],
+      "a": [
+        [
+          0,
+          0
+        ]
+      ],
+      "b": [
+        [
+          0,
+          0
+        ]
+      ],
+      "c": [],
+      "printed_left": false,
+      "printed_right": true,
+      "printed_equation_false": true,
+      "corrected_intersection_right": false,
+      "corrected_equation_true": true
+    },
+    "p54_printed_coordinate_step": {
+      "l": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "b": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "Q": [
+        [
+          0,
+          1
+        ]
+      ],
+      "both_totally_unlimited": true,
+      "left_P_l_b": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "printed_right": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "printed_inclusion_false": true,
+      "repaired_right": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "repaired_inclusion_true": true
+    },
+    "unlicensed_mixed_reassociation": {
+      "a": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "b": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "c": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "G_a_E_b_c": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "E_G_a_b_c": []
+    },
+    "class1_without_premise": {
+      "a": [
+        [
+          0,
+          0
+        ]
+      ],
+      "b": [],
+      "c": [],
+      "left": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "right": []
+    }
+  },
+  "unexpected_failures": 0
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "notebook": "tutorial.ipynb",
+  "total_cells": 31,
+  "code_cells": 15,
+  "code_cell_indices": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29
+  ],
+  "fresh_namespace_execution": true,
+  "cached_stream_outputs_match": true,
+  "ignored_output_difference": "unittest elapsed time only",
+  "runner": "CPython exec, not Jupyter kernel",
+  "reviewed_file_sha256": {
+    "tutorial.ipynb": "9ac3d50b557eedbf341e6110d2ec4bfd9a73f17216609d9004e278cb4edde502",
+    "peirce_finite.py": "5f2b7fe3ecf78c36cdc98763d7d96dbf564fc8dba67a7177925fdf2e94598596",
+    "tests/test_peirce_finite.py": "8a5090da2b112b264b5f642b1694232bfba7f8248452735b548ef32d3ace5711"
+  }
+}

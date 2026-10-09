@@ -1,0 +1,22 @@
+test_boolean_laws_all_class_triples_n0_to_3 (tests.test_peirce_finite.ClassLogicTests.test_boolean_laws_all_class_triples_n0_to_3) ... ok
+test_categorical_all_subject_predicate_pairs_n0_to_3 (tests.test_peirce_finite.ClassLogicTests.test_categorical_all_subject_predicate_pairs_n0_to_3) ... ok
+test_expansion_all_256_ternary_boolean_functions (tests.test_peirce_finite.ClassLogicTests.test_expansion_all_256_ternary_boolean_functions) ... ok
+test_m3_is_a_lattice_but_not_distributive (tests.test_peirce_finite.ClassLogicTests.test_m3_is_a_lattice_but_not_distributive) ... ok
+test_p39_elimination_rule_all_five_class_assignments_n0_to_2 (tests.test_peirce_finite.ClassLogicTests.test_p39_elimination_rule_all_five_class_assignments_n0_to_2) ... ok
+test_all_512_cnf_subsets_of_two_variable_canonical_clauses (tests.test_peirce_finite.EliminationTests.test_all_512_cnf_subsets_of_two_variable_canonical_clauses) ... ok
+test_all_729_ordered_clause_pairs_on_three_variables (tests.test_peirce_finite.EliminationTests.test_all_729_ordered_clause_pairs_on_three_variables) ... ok
+test_source_boole_p39_to_p41_and_p42_discrepancy (tests.test_peirce_finite.EliminationTests.test_source_boole_p39_to_p41_and_p42_discrepancy) ... ok
+test_tautology_empty_formula_empty_clause_and_chain (tests.test_peirce_finite.EliminationTests.test_tautology_empty_formula_empty_clause_and_chain) ... ok
+test_p48_counts_and_independent_stirling_recurrence (tests.test_peirce_finite.EqualityPatternTests.test_p48_counts_and_independent_stirling_recurrence) ... ok
+test_patterns_from_all_tuples_n0_to_4_arity0_to_5 (tests.test_peirce_finite.EqualityPatternTests.test_patterns_from_all_tuples_n0_to_4_arity0_to_5) ... ok
+test_all_four_operations_against_quantified_oracle_n0_to_2 (tests.test_peirce_finite.RelationTests.test_all_four_operations_against_quantified_oracle_n0_to_2) ... ok
+test_corrected_classification_and_identity_all_relations_n0_to_3 (tests.test_peirce_finite.RelationTests.test_corrected_classification_and_identity_all_relations_n0_to_3) ... ok
+test_counterexamples_are_actual_counterexamples (tests.test_peirce_finite.RelationTests.test_counterexamples_are_actual_counterexamples) ... ok
+test_four_variance_rules_all_nested_relation_pairs_n0_to_2 (tests.test_peirce_finite.RelationTests.test_four_variance_rules_all_nested_relation_pairs_n0_to_2) ... ok
+test_input_validation (tests.test_peirce_finite.RelationTests.test_input_validation) ... ok
+test_p55_eight_distribution_equalities_and_composition_association_n0_to_2 (tests.test_peirce_finite.RelationTests.test_p55_eight_distribution_equalities_and_composition_association_n0_to_2) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.795s
+
+OK

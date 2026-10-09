@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "reviewed_script": "supplemental_relation_checks.py",
+  "script_sha256": "3da30f2a40c70526f21a1155063f6e28658e7185f3d630f818602452b2e98810",
+  "fresh_process_exit_code": 0,
+  "rerun_matches_original_evidence": true,
+  "scope": "Separate supplemental review; not part of the 17-method main suite, and not an arbitrary-domain proof.",
+  "source_formula_match": "The 40 affirmative central equalities match the D/DD/S/C1-C4 ledger; printed negative variants were not checked by these loops.",
+  "formula_families": {
+    "distribution_simple": 8,
+    "distribution_developed": 8,
+    "association_simple": 8,
+    "conditional_association_developed": 16
+  },
+  "unconditional_formula_assignments": 98304,
+  "conditional_formula_all_assignments": 65536,
+  "conditional_formula_assignments_satisfying_premise": 36864,
+  "conditional_formula_failures_under_premise": 0,
+  "outside_premise_counterexamples_per_formula": 672,
+  "independently_checked_operation_results": 1024,
+  "complete_atom_coatom_indices_checked": 16,
+  "empty_union_is_zero": true,
+  "empty_intersection_is_top": true,
+  "distribution_index_domain": "All 16 binary relations for every development, not a selected sample.",
+  "development_index_domains": "All singleton subrelations of a/e and all coatom superrelations of a/e.",
+  "condition_c_counts": [
+    9,
+    9,
+    9,
+    9
+  ],
+  "class_1_or_2_coverage": 16,
+  "class_3_or_4_coverage": 16,
+  "all_saved_outside_counterexamples_rechecked": 16,
+  "documented_counterexamples_separately_asserted": true,
+  "nonblocking_test_harness_note": "The supplemental script prints documented counterexamples but does not include their truth in unexpected_failures; this review checked them explicitly.",
+  "main_notebook_review_record_modified": false,
+  "p55_negative_simple_right_first_row": {
+    "printed_operator": "union",
+    "corrected_De_Morgan_operator": "intersection",
+    "inputs": {
+      "a": 15,
+      "b": 15,
+      "c": 0
+    },
+    "left_mask": 0,
+    "printed_right_mask": 15,
+    "corrected_right_mask": 0,
+    "printed_equality_false": true,
+    "corrected_equality_true": true,
+    "source_image_visually_rechecked": true
+  },
+  "latest_supplemental_rerun_sha256": "6fc63268d7315f866856a5fddb09e969c0b848e83852cd8df6b5af5cb83cff90",
+  "p55_added_singleton_counterexample_rechecked": true
+}

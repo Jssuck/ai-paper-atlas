@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "peirce-1880",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "source": "https://archive.org/download/jstor-2369442/2369442.pdf",
     "scope": "Complete published installment pp15–57, including Note to Page 47 on p57; not claiming completion of its announced continuation."
   },
@@ -15,12 +15,12 @@
     "checks": "Independent mathematical and code review passed; all 24 published files exactly verified on main; GitHub formulas, tables, linked evidence and nine-cell notebook static preview verified.",
     "scope": "Original pages 288–309 and applicable 1904 p552 bibliographic erratum read; three axiom groups and original countermodels covered; infinite-model proofs distinguished from finite checks."
   },
-  "updated_at": "2026-10-09T21:38:30Z",
+  "updated_at": "2026-10-09T22:03:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read all original pages, final corrective note and relevant volume errata; reconstruct central algebraic arguments and bounded executable examples, then independent review."
+  "next_action": "Verify main commit, exact file contents, GitHub math/table rendering, notebook preview and links before marking this published installment completed."
 }

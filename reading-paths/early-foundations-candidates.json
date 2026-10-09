@@ -4,9 +4,9 @@
   "checked_on": "2026-10-09",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "回填Sheffer1913直接前驱Huntington1904；选择时已登记、边界明确的未完成论文中最早者。更早书籍已确认可得但尚未精读，不以书籍未完成否认该缺口。",
-    "main_window": "Huntington1904原刊288–309全22页及直接适用的1904p552勘误；更早文献仅做来源与引用范围核查。",
-    "coverage": "保留之前所有候选、状态与历史快照；新登记原文明确指向的Kempe1890论文及Ladd1883、Peirce1880/1885等前驱线索。",
+    "selection_context": "从Huntington1904直接引用回填Peirce1880；完成选定1880刊载部分，不声称穷尽所有更早论文或书籍。",
+    "main_window": "Peirce1880 AJM3(1),15–57全43页，含57页Note to Page47；查本卷索引勘误v–vi未见适用于15–57页的条目。",
+    "coverage": "保留原有候选和全部selection_history原样；本轮仅加入必要来源核验、1880完成事件与更早待核线索，不递归复制注册表。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -14,26 +14,29 @@
       "第二组显示十条但删6或7后才得九条独立基；不把逐项独立等同完全独立。",
       "原非封闭规则与有条件公设按原语义解释；有限枚举不替代无限反模型或一般定理。",
       "Curry1930第二部分、Church1933后页、Curry1931全文与所有既有缺口继续保留。",
-      "发表、收稿、报告日期分开；1904p552适用勘误已核图，仅补292页Leibniz文献脚注，不改数学公设。"
+      "发表、收稿、报告日期分开；1904p552适用勘误已核图，仅补292页Leibniz文献脚注，不改数学公设。",
+      "1880不是AI起点或最早逻辑论文；本篇末页To be Continued和p30未完成分支如实保留。",
+      "本文p33论据缺口、p38计数、p40列表、p42总结、p54坐标及p55否定表连接号核查不冒称作者正式勘误；有限集合模型不重现全部理想极限理论。"
     ],
-    "known_earlier_near_neighbor": "从本篇脚注继续发现1883、1890等具体论文线索；本篇完成不会使它们自动变成已读。"
+    "known_earlier_near_neighbor": "Boole1854等可得书籍仍未读完；Peirce1880引出的DeMorgan1846/1850/1858/1862、Peirce1867/1870、McColl1878等论文线索尚待独立核题名、页界及全文。"
   },
   "current_selection": {
-    "candidate_id": "huntington-1904",
-    "pages": "288–309",
-    "errata_pages": "552",
-    "why_selected": "回填Sheffer1913直接前驱Huntington1904；选择时已登记、边界明确的未完成论文中最早者。更早书籍已确认可得但尚未精读，不以书籍未完成否认该缺口。",
-    "mathematical_boundary": "§1十条、§2删6或7的九条、§3九条；守卫式非封闭规则、所有补见证、无限反模型、有限同构分类与程序检查分开。",
-    "completion": "原刊288–309全22页与正式勘误552已读核图；中文分析、三组公设/独立性、原创标准库复现、22项测试、9格执行Notebook和独立数学/代码复核完成；公开发布由远端提交另核。",
-    "article_path": "papers/1904/huntington-independent-postulates.zh-CN.md",
-    "source_ledger_path": "papers/1904/huntington-independent-postulates.sources.zh-CN.md",
-    "reproduction_path": "reproduction/huntington-1904/README.md"
+    "candidate_id": "peirce-1880",
+    "pages": "15–57",
+    "publication_scope": "完整1880已刊部分；原文标To be Continued，不自动包含1885作品。",
+    "why_selected": "Huntington1904明确引用的较早原文；在当前已定位的有界候选中优先回填，已确认完整页界及公开扫描，不作全历史最早断言。",
+    "mathematical_boundary": "经典类/关系幂集教学重构；存在见证、空类、理想极限、四关系运算、有条件展开与原印问题分别说明。",
+    "completion": "原刊15–57全部43页、57页自注及卷索引适用勘误范围已读核图；原创中文分析、关系公式附录、标准库复现、17项测试、15格顺序执行Notebook与独立数学/代码复核完成。只完成本期刊载部分，末页仍标To be Continued；公开提交与页面QA另核。",
+    "article_path": "papers/1880/peirce-algebra-of-logic.zh-CN.md",
+    "source_ledger_path": "papers/1880/peirce-algebra-of-logic.sources.zh-CN.md",
+    "formula_appendix_path": "papers/1880/peirce-relative-formulae.zh-CN.md",
+    "reproduction_path": "reproduction/peirce-1880/README.md"
   },
   "earlier_gap_priority": [
     {
       "priority": 1,
-      "subject": "更早可得书籍和原文新发现的1880/1883/1890线索",
-      "next_evidence_needed": "保留Boole1854、Schröder1890、Whitehead1898未读；核Peirce1880、Ladd1883与Kempe1890两篇的独立书目、完整页界与全文，再选下一篇。不要把1904当作穷尽起点。"
+      "subject": "更早可得书籍与Peirce1880新发现的前驱论文线索",
+      "next_evidence_needed": "保留Boole1854、Schröder1890、Whitehead1898可得未读状态；先核DeMorgan/Peirce1867/1870/McColl等更早具体论文的书目、篇幅与完整原文。Ladd1883、Peirce1885、Kempe日期歧义仍保留，不宣称1880为穷尽起点。"
     },
     {
       "priority": 2,
@@ -59,6 +62,49 @@
   ],
   "candidates": [
     {
+      "id": "peirce-1880",
+      "authors": [
+        "C. S. Peirce"
+      ],
+      "title": "On the Algebra of Logic",
+      "publication": {
+        "year": 1880,
+        "month": 3,
+        "journal": "American Journal of Mathematics",
+        "volume": "3",
+        "issue": "1",
+        "pages": "15–57",
+        "doi": "10.2307/2369442"
+      },
+      "sources": [
+        {
+          "kind": "bibliographic_record",
+          "url": "https://www.jstor.org/stable/2369442"
+        },
+        {
+          "kind": "original_scan",
+          "url": "https://archive.org/download/jstor-2369442/2369442.pdf",
+          "coverage": "44PDFpages=1addedcover+43originalpages;末页含Note to Page47及To be Continued。",
+          "sha256": "dbc23fdb30b48130d5e41a7bc49971d0b0d1c3292dd80e84ddf4e5f8152e7365"
+        },
+        {
+          "kind": "university_mirror",
+          "url": "https://www.unav.es/gep/OnTheAlgebraOfLogicCSP1880.pdf"
+        },
+        {
+          "kind": "volume_index_errata",
+          "url": "https://archive.org/download/sim_american-journal-of-mathematics_1880_3_index/sim_american-journal-of-mathematics_1880_3_index.pdf",
+          "coverage": "仅查印刷v–vi勘误，未发现适用于正文15–57页条目；不声称无其他勘误。"
+        }
+      ],
+      "status": {
+        "retrieval": "完整原刊公开扫描已取得。",
+        "reading": "原刊15–57全部43页、57页自注及卷索引适用勘误范围已读核图；原创中文分析、关系公式附录、标准库复现、17项测试、15格顺序执行Notebook与独立数学/代码复核完成。只完成本期刊载部分，末页仍标To be Continued；公开提交与页面QA另核。",
+        "limits": "只本期15–57，非作者全部未完工程；正式自注与本文发现分开。"
+      },
+      "selection_disposition": "本轮唯一深读论文，后续候选不同时启动。"
+    },
+    {
       "id": "kempe-1890-classes-points",
       "authors": [
         "A. B. Kempe"
@@ -83,7 +129,12 @@
         "reading": "尚未精读。",
         "limits": "书目信息来自Huntington引用，后续须核独立原刊记录与全文。"
       },
-      "selection_disposition": "新发现更早论文线索，保留下一轮来源和篇幅核查，不与当前1904同时启动。"
+      "selection_disposition": "新发现更早论文线索，保留下一轮来源和篇幅核查，不与当前1904同时启动。",
+      "source_audit_2026_10_09": {
+        "doi": "10.1112/plms/s1-21.1.147",
+        "publication_date_discrepancy": "出版社标November1889，同时记received9January1890；Huntington1904称January1890。保留歧义，待核实际刊期封套；未深读。",
+        "url": "https://doi.org/10.1112/plms/s1-21.1.147"
+      }
     },
     {
       "id": "kempe-1890-exact-thought",
@@ -110,7 +161,14 @@
         "reading": "尚未精读。",
         "limits": "独立书目与版本待核。"
       },
-      "selection_disposition": "新发现更早候选，未读，不因本次1904完成而省略。"
+      "selection_disposition": "新发现更早候选，未读，不因本次1904完成而省略。",
+      "source_audit_2026_10_09": {
+        "doi": "10.1038/043156a0",
+        "published": "1890-12-18",
+        "pages": "156–162",
+        "status": "完整期刊扫描已定位取得，但此篇仍未精读。",
+        "url": "https://doi.org/10.1038/043156a0"
+      }
     },
     {
       "id": "huntington-1904",
@@ -626,8 +684,8 @@
     }
   ],
   "next_source_gap": {
-    "subject": "Huntington脚注指向的更早逻辑代数文献",
-    "target": "先核更早书籍篇章与Peirce1880/Ladd1883/Kempe1890线索；1904已完成后再选择，不同时启动多篇。Curry1929、Curry1930PartII、Church1933后页、Curry1931等旧缺口原样保留。"
+    "subject": "早于1880的原文引文线索与可得未读书籍",
+    "target": "先核较早论文来源与篇章范围，再选择唯一下一篇。Ladd1883等只是有界来源检查；Curry1929、Curry1930PartII、Church1933后页、Curry1931等旧缺口继续保留。"
   },
   "selection_history": [
     {
@@ -1389,6 +1447,20 @@
         "§2十条显示含冗余，删6或7后才得九条独立基；第三组H原图为A,D,E,G。",
         "更早Kempe1890两篇、Ladd1883与Peirce1880/1885等线索保留未读；更早书籍可得但未完成。"
       ]
+    },
+    {
+      "checked_on": "2026-10-09",
+      "candidate_id": "peirce-1880",
+      "event": "completed_published_installment_deep_reading",
+      "pages": "15–57",
+      "previous_candidate_id": "huntington-1904",
+      "note": "原刊15–57全部43页、57页自注及卷索引适用勘误范围已读核图；原创中文分析、关系公式附录、标准库复现、17项测试、15格顺序执行Notebook与独立数学/代码复核完成。只完成本期刊载部分，末页仍标To be Continued；公开提交与页面QA另核。",
+      "article": "papers/1880/peirce-algebra-of-logic.zh-CN.md",
+      "new_source_findings": [
+        "p57自注修正p47空关系/全关系分类；本卷勘误v–vi未见15–57适用条目。",
+        "p33局部论证、p38计数、p40列表、p42遗漏方向、p54坐标、p55否定表连接号经独立原图与数学核查分层报告，非正式历史勘误。",
+        "更早引用线索仅登记待核；原有未读书籍与后续文章缺口保留。"
+      ]
     }
   ],
   "earlier_background_gaps": [
@@ -1433,12 +1505,22 @@
     {
       "subject": "Christine Ladd1883, On the algebra of logic",
       "evidence": "Huntington292页脚注：Studies in Logic by members of Johns Hopkins University1883,p18。",
-      "reading_status": "文章名与引用页已定位，完整文章页界/版本/全文待核；不冒充已完成1883论文。"
+      "reading_status": "完整篇章页界核为Studies in Logic1883,17–71，整卷扫描可得；仍未完成篇章精读。",
+      "previous_reading_status": "文章名与引用页已定位，完整文章页界/版本/全文待核；不冒充已完成1883论文。",
+      "sources": [
+        "https://archive.org/details/studiesinlogic00gilmgoog"
+      ]
     },
     {
       "subject": "Peirce1880与1885的分配律前文",
       "evidence": "Huntington300–301脚注：AJM3(1880)p18、33；AJM7(1885)p190，并明确纠正Schröder1884引年。",
-      "reading_status": "只读1904引文，尚未独立核完整题名、页界及全文。"
+      "reading_status": "1880的15–57全篇刊载部分本轮已精读；1885仍未精读。1885书目核为7(2)180–196（1月）及7(3)197–202（4月），不可统称1月。",
+      "previous_reading_status": "只读1904引文，尚未独立核完整题名、页界及全文。",
+      "sources": [
+        "https://doi.org/10.2307/2369442",
+        "https://doi.org/10.2307/2369451",
+        "https://doi.org/10.2307/2369269"
+      ]
     },
     {
       "subject": "Poretskii1901与有限逻辑域前驱",
@@ -1449,6 +1531,12 @@
       "subject": "Couturat1903的Leibniz未刊文集",
       "evidence": "Huntington1904正式勘误552补充原文292第二脚注。",
       "reading_status": "只读勘误引文，未精读1903文集；不作符号优先权穷尽结论。"
+    },
+    {
+      "subject": "Peirce1880原文新发现的更早论文与著作线索",
+      "evidence": "Peirce1880原刊20–25、32–34、42、52页及脚注。",
+      "reading_status": "DeMorgan1846/1850/1858/1862、Peirce1867/1870、McColl1877/1878、Boole1847、Jevons1864、R.Grassmann1872、Schröder1877等均仅依原文引文登记线索；完整独立书目与全文阅读仍待核。不以本文引用代替已读，不启动并行第二篇。",
+      "source": "https://archive.org/download/jstor-2369442/2369442.pdf"
     }
   ]
 }

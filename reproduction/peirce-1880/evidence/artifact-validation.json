@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "original_history_events_preserved": 8,
+  "appended_events": 1,
+  "old_candidates_preserved": 12,
+  "new_registry_bytes": 80105,
+  "local_markdown_links_checked": 93,
+  "inherited_readme_targets_not_in_incremental_release": [
+    "experiments/church1932/README.zh-CN.md",
+    "experiments/church1932/church1932.ipynb",
+    "experiments/church1932/independent_checks.log",
+    "experiments/church1932/tests.log",
+    "papers/1904/huntington-independent-postulates.sources.zh-CN.md",
+    "papers/1904/huntington-independent-postulates.zh-CN.md",
+    "papers/1913/sheffer-five-postulates.sources.zh-CN.md",
+    "papers/1913/sheffer-five-postulates.zh-CN.md",
+    "papers/1924/schonfinkel-building-blocks.zh-CN.md",
+    "papers/1930/curry-foundations-part1.sources.zh-CN.md",
+    "papers/1930/curry-foundations-part1.zh-CN.md",
+    "papers/1931/godel-formally-undecidable.zh-CN.md",
+    "papers/1932/church-postulates-logic.zh-CN.md",
+    "papers/1936-1937/turing-computable-numbers.zh-CN.md",
+    "reproduction/curry-1930-part1/README.md",
+    "reproduction/curry-1930-part1/logs/unit-tests.txt",
+    "reproduction/curry-1930-part1/tutorial.ipynb",
+    "reproduction/godel-1931/README.zh-CN.md",
+    "reproduction/godel-1931/godel1931_toy.ipynb",
+    "reproduction/godel-1931/logs/test-and-demo-run.txt",
+    "reproduction/huntington-1904/README.md",
+    "reproduction/huntington-1904/independent-review.zh-CN.md",
+    "reproduction/huntington-1904/results/tests.log",
+    "reproduction/huntington-1904/tutorial.zh-CN.ipynb",
+    "reproduction/schonfinkel-1924/README.md",
+    "reproduction/schonfinkel-1924/logs/unittest.txt",
+    "reproduction/schonfinkel-1924/tutorial.ipynb",
+    "reproduction/sheffer-1913/README.md",
+    "reproduction/sheffer-1913/independent-review.zh-CN.md",
+    "reproduction/sheffer-1913/results/tests.log",
+    "reproduction/sheffer-1913/tutorial.zh-CN.ipynb",
+    "reproduction/turing-1936/README.zh-CN.md",
+    "reproduction/turing-1936/results.json",
+    "reproduction/turing-1936/tests.log",
+    "reproduction/turing-1936/turing_teaching.zh-CN.ipynb",
+    "workflow/progress.json"
+  ],
+  "notebook_total_cells": 31,
+  "notebook_code_cells": 15,
+  "notebook_execution_counts": "1..15",
+  "no_source_scans_or_cache_in_release": true,
+  "python_ast_and_json_valid": true,
+  "python_imports": [
+    {
+      "python_file": "reproduction/peirce-1880/execute_notebook.py",
+      "imports": [
+        "argparse",
+        "contextlib",
+        "io",
+        "json",
+        "os",
+        "pathlib",
+        "sys",
+        "traceback"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/supplemental_relation_checks.py",
+      "imports": [
+        "__future__",
+        "argparse",
+        "functools",
+        "hashlib",
+        "itertools",
+        "json",
+        "pathlib",
+        "platform"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/demo.py",
+      "imports": [
+        "peirce_finite"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/independent_checks.py",
+      "imports": [
+        "itertools",
+        "json",
+        "peirce_finite",
+        "platform"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/peirce_finite.py",
+      "imports": [
+        "dataclasses",
+        "itertools",
+        "typing"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/tests/test_peirce_finite.py",
+      "imports": [
+        "itertools",
+        "peirce_finite",
+        "unittest"
+      ]
+    },
+    {
+      "python_file": "reproduction/peirce-1880/tests/__init__.py",
+      "imports": []
+    }
+  ],
+  "scope": "Local packaging validation only. Existing README links refer to unchanged remote repository files; no remote publishing/browser QA is asserted."
+}

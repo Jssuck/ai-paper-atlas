@@ -1,0 +1,38 @@
+1. Empty subjects (p23): {'A': True, 'E': True, 'I': False, 'O': False}
+
+2. Eliminate x (p39-inspired modern reconstruction):
+input:  (~a OR x) AND (b OR ~x)
+resolve: {'positive': '~a OR x', 'negative': 'b OR ~x', 'resolvent': '~a OR b', 'discarded_tautology': False}
+output: (~a OR b)
+
+3. Boole example: original p39 vs six premises p41 vs summary p42
+allowed xyzw: 0011, 0100, 0111, 1000, 1001, 1010, 1101, 1110
+p42 additionally admits: 1011, 1100, 1111
+six p41 clauses: (~w OR x OR z) AND (w OR x OR ~z) AND (~w OR ~x OR ~y OR ~z) AND (~w OR ~x OR y OR ~z) AND (w OR ~x OR ~y OR z) AND (w OR x OR y OR z)
+
+4. All four operations (p52): same operands, different quantifiers
+compose [(0, 2), (1, 2)]
+regressive [(0, 2), (1, 2), (2, 0), (2, 1), (2, 2)]
+progressive [(0, 1), (0, 2), (1, 1), (2, 1)]
+transadd [(0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
+Witnesses for compose at (0,2): (0, 1)
+
+5. Corrected classification (p47 + p57 Note), n=2
+zero concurrent, alio_relative, negative_of_opponent, negative_of_self_relative
+identity concurrent, self_relative, negative_of_opponent, negative_of_alio_relative
+diversity opponent, alio_relative, negative_of_concurrent, negative_of_self_relative
+top opponent, self_relative, negative_of_concurrent, negative_of_alio_relative
+
+6. Equality patterns (p48): ((0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (0, 1, 2))
+B0..B7: (1, 1, 2, 5, 15, 52, 203, 877)
+
+7. Intersection counterexample: two paths, no shared witness
+R;(S & T): []
+(R;S) & (R;T): [(0, 2)]
+separate witness sets: (0,) (1,)
+
+8. Mixed operations are not automatically associative
+(A reg B);C: []
+A reg (B;C): [(0, 0), (0, 1), (1, 0), (1, 1)]
+
+These are bounded finite checks, not a proof of all 1880 formulae.

@@ -1,0 +1,32 @@
+{
+  "python_version": "3.12.14",
+  "python_implementation": "CPython",
+  "platform_system": "Linux",
+  "machine_architecture": "x86_64",
+  "runtime_dependencies": "Python standard library only; no installation performed",
+  "execution_environment": "Local isolated workspace; no remote writes or network requests by the reproduction",
+  "source_document": {
+    "title": "On the Algebra of Logic",
+    "author": "Charles S. Peirce",
+    "year": 1880,
+    "printed_pages": "15-57",
+    "pdf_pages": 44,
+    "pdf_page_mapping": "one_based_pdf_page = printed_page - 13",
+    "sha256": "dbc23fdb30b48130d5e41a7bc49971d0b0d1c3292dd80e84ddf4e5f8152e7365"
+  },
+  "commands": [
+    "python -m unittest discover -v",
+    "python demo.py",
+    "python execute_notebook.py tutorial.ipynb"
+  ],
+  "notebook_execution": "CPython exec, ordered code cells in one fresh shared globals dictionary; not a Jupyter kernel",
+  "test_methods_discovered": 17,
+  "notebook_code_cells_executed": 15,
+  "randomness": "none; exhaustive enumerations and fixed examples only",
+  "optional_notebook_packages_available": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false,
+    "jupyter_client": false
+  }
+}

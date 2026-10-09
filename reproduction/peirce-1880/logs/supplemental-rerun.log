@@ -1,0 +1,51 @@
+Peirce 1880 supplemental relation checks
+U={0,1}; all 16 relations; row-major bits 00,01,10,11.
+DD p: all 16 relations; atoms: all singleton subsets; simples: all coatom supersets.
+Direct quantifier oracle: {'operation_evaluations': 1024, 'failures': 0}
+p53 atomic tools: {'assignments': 256, 'failures': 0}
+D1: 4096 assignments; failures=0
+D2: 4096 assignments; failures=0
+D3: 4096 assignments; failures=0
+D4: 4096 assignments; failures=0
+D5: 4096 assignments; failures=0
+D6: 4096 assignments; failures=0
+D7: 4096 assignments; failures=0
+D8: 4096 assignments; failures=0
+DD1: 4096 assignments; failures=0
+DD2: 4096 assignments; failures=0
+DD3: 4096 assignments; failures=0
+DD4: 4096 assignments; failures=0
+DD5: 4096 assignments; failures=0
+DD6: 4096 assignments; failures=0
+DD7: 4096 assignments; failures=0
+DD8: 4096 assignments; failures=0
+S1: 4096 assignments; failures=0
+S2: 4096 assignments; failures=0
+S3: 4096 assignments; failures=0
+S4: 4096 assignments; failures=0
+S5: 4096 assignments; failures=0
+S6: 4096 assignments; failures=0
+S7: 4096 assignments; failures=0
+S8: 4096 assignments; failures=0
+C1.1: all=4096; premise=2304; conditional failures=0; outside failures=672
+C1.2: all=4096; premise=2304; conditional failures=0; outside failures=672
+C1.3: all=4096; premise=2304; conditional failures=0; outside failures=672
+C1.4: all=4096; premise=2304; conditional failures=0; outside failures=672
+Class 1: condition ran(c)=U; good c=[3, 6, 7, 9, 11, 12, 13, 14, 15]; domain matches=True
+C2.1: all=4096; premise=2304; conditional failures=0; outside failures=672
+C2.2: all=4096; premise=2304; conditional failures=0; outside failures=672
+C2.3: all=4096; premise=2304; conditional failures=0; outside failures=672
+C2.4: all=4096; premise=2304; conditional failures=0; outside failures=672
+Class 2: condition dom(not c)=U; good c=[0, 1, 2, 4, 5, 6, 8, 9, 10]; domain matches=True
+C3.1: all=4096; premise=2304; conditional failures=0; outside failures=672
+C3.2: all=4096; premise=2304; conditional failures=0; outside failures=672
+C3.3: all=4096; premise=2304; conditional failures=0; outside failures=672
+C3.4: all=4096; premise=2304; conditional failures=0; outside failures=672
+Class 3: condition ran(not c)=U; good c=[0, 1, 2, 3, 4, 6, 8, 9, 12]; domain matches=True
+C4.1: all=4096; premise=2304; conditional failures=0; outside failures=672
+C4.2: all=4096; premise=2304; conditional failures=0; outside failures=672
+C4.3: all=4096; premise=2304; conditional failures=0; outside failures=672
+C4.4: all=4096; premise=2304; conditional failures=0; outside failures=672
+Class 4: condition dom(c)=U; good c=[5, 6, 7, 9, 10, 11, 13, 14, 15]; domain matches=True
+Counterexamples: {"class1_without_premise": {"a": [[0, 0]], "b": [], "c": [], "left": [[1, 0], [1, 1]], "right": []}, "p54_printed_coordinate_step": {"Q": [[0, 1]], "b": [[0, 1], [1, 0]], "both_totally_unlimited": true, "l": [[0, 1], [1, 0]], "left_P_l_b": [[0, 0], [1, 1]], "printed_inclusion_false": true, "printed_right": [[0, 1], [1, 1]], "repaired_inclusion_true": true, "repaired_right": [[0, 0], [1, 0], [1, 1]]}, "p55_negative_simple_right_first_row": {"a": [[0, 0]], "b": [[0, 0]], "c": [], "corrected_equation_true": true, "corrected_intersection_right": false, "domain": [0], "printed_equation_false": true, "printed_left": false, "printed_right": true}, "unlicensed_mixed_reassociation": {"E_G_a_b_c": [], "G_a_E_b_c": [[0, 0], [0, 1], [1, 0], [1, 1]], "a": [[0, 0], [0, 1], [1, 0], [1, 1]], "b": [[0, 0], [1, 1]], "c": [[0, 0], [0, 1], [1, 0], [1, 1]]}}
+Unexpected failures: 0

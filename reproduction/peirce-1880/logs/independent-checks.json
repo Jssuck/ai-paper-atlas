@@ -1,0 +1,123 @@
+{
+  "python": "3.12.14",
+  "scope": "Bounded finite verification; not a general mathematical proof.",
+  "categorical": {
+    "universe_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "subject_predicate_pairs": 341
+  },
+  "boole": {
+    "universe_sizes": [
+      0,
+      1,
+      2
+    ],
+    "original_set_assignments": 1057,
+    "projected_set_assignments": 273,
+    "exact_solution_set_assignments": 273,
+    "singleton_projected_models": 8,
+    "singleton_printed_summary_models": 11,
+    "extra_printed_summary_models_xyzw": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "elimination": {
+    "ternary_truth_functions": 256,
+    "variable_projections": 768,
+    "projected_truth_values": 3072,
+    "expansion_values": 6144,
+    "degenerate_formula_checks": 8
+  },
+  "p38_count_diagnostic": {
+    "example": "(x AND y) OR (y AND z)",
+    "m": 3,
+    "n": 4,
+    "p": 2,
+    "printed_general_count": 4,
+    "truth_table_full_clause_count": 5
+  },
+  "relations": {
+    "universe_sizes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ordered_relation_pairs": 262405,
+    "operation_results": 1049620,
+    "classifications": 531,
+    "edge_cases": [
+      {
+        "n": 0,
+        "zero": {
+          "concurrent": true,
+          "opponent": false,
+          "self_relative": false,
+          "alio_relative": true,
+          "negative_of_concurrent": true,
+          "negative_of_opponent": false,
+          "negative_of_self_relative": false,
+          "negative_of_alio_relative": true
+        },
+        "top": {
+          "concurrent": true,
+          "opponent": false,
+          "self_relative": false,
+          "alio_relative": true,
+          "negative_of_concurrent": true,
+          "negative_of_opponent": false,
+          "negative_of_self_relative": false,
+          "negative_of_alio_relative": true
+        },
+        "zero_equals_top": true
+      },
+      {
+        "n": 1,
+        "zero": {
+          "concurrent": true,
+          "opponent": false,
+          "self_relative": false,
+          "alio_relative": true,
+          "negative_of_concurrent": true,
+          "negative_of_opponent": false,
+          "negative_of_self_relative": true,
+          "negative_of_alio_relative": false
+        },
+        "top": {
+          "concurrent": true,
+          "opponent": false,
+          "self_relative": true,
+          "alio_relative": false,
+          "negative_of_concurrent": true,
+          "negative_of_opponent": false,
+          "negative_of_self_relative": false,
+          "negative_of_alio_relative": true
+        },
+        "zero_equals_top": false
+      }
+    ]
+  },
+  "status": "PASS"
+}
