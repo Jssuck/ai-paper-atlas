@@ -2,16 +2,18 @@
   "schema_version": 1,
   "status": "researching",
   "active_paper": {
-    "id": "early-foundations-backfill-next",
-    "title": "核验早期理论前驱，准备下一篇历史补读",
-    "selection_confirmed": false
+    "id": "goedel-1931-incompleteness",
+    "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+    "selection_confirmed": true,
+    "doi": "10.1007/BF01700692",
+    "chronology_note": "1931 predecessor backfill before the previously published Turing sample."
   },
   "last_completed": {
     "id": "turing-1936-1937",
     "path": "papers/1936-1937/turing-computable-numbers.zh-CN.md",
     "version": "v2"
   },
-  "updated_at": "2026-10-09T15:35:37Z",
+  "updated_at": "2026-10-09T15:36:27Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
