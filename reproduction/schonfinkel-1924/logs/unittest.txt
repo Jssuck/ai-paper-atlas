@@ -1,0 +1,21 @@
+test_bracket_abstraction_rules (test_combinators.CombinatorTests.test_bracket_abstraction_rules) ... ok
+test_budget_and_exact_boundary (test_combinators.CombinatorTests.test_budget_and_exact_boundary) ... ok
+test_exhaustive_finite_substitution_theorem (test_combinators.CombinatorTests.test_exhaustive_finite_substitution_theorem) ... ok
+test_finite_semantic_u (test_combinators.CombinatorTests.test_finite_semantic_u) ... ok
+test_higher_order_u_with_distinct_domains (test_combinators.CombinatorTests.test_higher_order_u_with_distinct_domains) ... ok
+test_immutable_ast_and_alias (test_combinators.CombinatorTests.test_immutable_ast_and_alias) ... ok
+test_leftmost_outermost_and_full_normal_form (test_combinators.CombinatorTests.test_leftmost_outermost_and_full_normal_form) ... ok
+test_missing_arguments_and_partial_application (test_combinators.CombinatorTests.test_missing_arguments_and_partial_application) ... ok
+test_no_capture_and_shadow_like_names (test_combinators.CombinatorTests.test_no_capture_and_shadow_like_names) ... ok
+test_original_elimination_identities_extensionally (test_combinators.CombinatorTests.test_original_elimination_identities_extensionally) ... ok
+test_original_rules (test_combinators.CombinatorTests.test_original_rules) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.044s
+
+OK
+Exhaustive finite substitution checks: 280 expressions × 5 replacements = 1400
+Finite U checks: all 8 × 8 Boolean-predicate pairs on domain {0,1,2} = 64
+Higher-order U: predicate domain all eight; encoded=True; direct=True
+Higher-order U: predicate domain only constant True; encoded=False; direct=False
+Original identities verified after fresh-variable arguments: I=SCC; Z=S(CS)C; T=S(ZZS)(CC)

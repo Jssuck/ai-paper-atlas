@@ -10,6 +10,7 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
+| 1924 | [Schönfinkel《数学逻辑的构件》精读](papers/1924/schonfinkel-building-blocks.zh-CN.md) | AI 前史回填：组合子与变量消除 | 深读 v1 · 含实跑附件 |
 | 1931 | [哥德尔不完备性论文精读](papers/1931/godel-formally-undecidable.zh-CN.md) | AI 前史回填：算术化、自指与形式系统边界 | 深读 v1 · 含实跑附件 |
 | 1932 | [Church《逻辑基础的一组公设》精读](papers/1932/church-postulates-logic.zh-CN.md) | AI 前史：函数、替换与逻辑基础 | 深读 v1 · 含实跑附件 |
 | 1936–1937 | [图灵《论可计算数》精读](papers/1936-1937/turing-computable-numbers.zh-CN.md) | AI 前史：可计算性基础 | 深读样稿 v2 · 含实跑附件 |
@@ -43,6 +44,14 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 已发现的早期文献缺口
 
 [候选与来源覆盖记录](reading-paths/early-foundations-candidates.json)列出本轮有限搜索发现的更早及同期文献、全文可得性和核查范围。后续优先核验较早的未读候选；无法取得原文的保留待补，不以名气或影响力排序，不声称此清单穷尽历史。
+
+## Schönfinkel 篇可运行附件
+
+- [组合子、变量消除与有限逻辑模型复现](reproduction/schonfinkel-1924/README.md)
+- [教学 Notebook](reproduction/schonfinkel-1924/tutorial.ipynb)
+- [11 项测试及分项检查](reproduction/schonfinkel-1924/logs/unittest.txt)
+
+实跑包含 1,400 个替换例、64 个谓词对、两个高阶 U 有限模型与 8 个 Notebook 代码单元。Notebook 用标准库顺序执行，不声称 Jupyter 内核验证；有限模型不构成一般逻辑一致性证明。
 
 ## 每篇解析的共同标准
 

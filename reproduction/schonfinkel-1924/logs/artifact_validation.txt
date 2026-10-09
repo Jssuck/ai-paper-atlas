@@ -1,0 +1,7 @@
+Python AST parse: execute_notebook.py OK
+Python AST parse: combinators.py OK
+Python AST parse: test_combinators.py OK
+Notebook structure: nbformat 4.5, unique cell IDs, 8 executed code cells, no error outputs: OK
+Portable invocation from unrelated working directory with absolute notebook path: OK
+Higher-order U with distinct object/predicate domains: full domain True; restricted domain False: OK
+No third-party imports or dependencies required.

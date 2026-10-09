@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "title": "早期逻辑与计算基础：本轮有界候选登记",
+  "title": "早期逻辑与计算基础：有界候选与补读记录",
   "checked_on": "2026-10-09",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "继Gödel 1931之后，本轮以函数表达、绑定和可执行符号变换为主线选择Church 1932作深入阅读。",
-    "main_window": "1930–1935年间与所选主线直接相邻的已知论文；另回溯Schönfinkel 1924。",
+    "selection_context": "已完成Gödel 1931、Church 1932与Turing 1936–1937节点后，按已知较早缺口回填Schönfinkel 1924。",
+    "main_window": "保留此前1930–1935主线的全部七项候选，本轮深入回溯1924；不宣称穷尽更早前史。",
     "coverage": "仅覆盖下列七个候选条目；Curry 1930两部分作为一个条目。每项分别记录书目、全文取得、实际阅读程度。",
     "nonexhaustive": true,
     "not_claimed": [
@@ -14,12 +14,15 @@
       "不把书目定位、取得全文、精读全文或完成证明核验当作同一状态。",
       "不把尚未取得的1933续篇后页说成已核对完整勘误。"
     ],
-    "known_earlier_near_neighbor": "Huntington 1932年2月的两页论文早于Church 1932年4月；其对象是布尔代数公设，因此本轮按研究主题而非纯日期顺序暂缓。"
+    "known_earlier_near_neighbor": "Huntington 1932年2月仍早于Church 1932年4月；此前按主题暂缓的记录保留于selection_history。本轮1924节点早于上述两者。"
   },
   "current_selection": {
-    "candidate_id": "church-1932",
-    "why_selected": "它将λ抽象、函数应用与转换规则明确嵌入一个逻辑基础方案，既可精读原始元证明，又可将转换机制与现代可运行教学实验严格区分。选择基于这条内容主线和全文可核验性，不构成全史优先权判断。",
-    "mathematical_boundary": "实验只重构纯项转换的现代教学投影；1932的五条程序规则、37条形式公设及存在性前提下的Theorem I均须按原逻辑另行解释。"
+    "candidate_id": "schonfinkel-1924",
+    "why_selected": "已登记七项中最早、且完整扫描可核验的尚未完成深读节点；补足Church 1932明示引用的逐次一元化与变量消除前驱。不是对所有早期文献的穷尽性优先判断。",
+    "mathematical_boundary": "原记号I/C/T/Z/S与现代I/K/C/B/S严格区分；逻辑U并未从纯C/S定义出来。正文重建括号抽象证明，程序只验证有限项及有限域；不声称原文给了完整一般消元证明、一致性证明或一般有效性判定。",
+    "completion": "原刊305–316全部图像已读并核主要公式；中文深读、标准库实验、实际日志与已执行Notebook已准备。",
+    "article_path": "papers/1924/schonfinkel-building-blocks.zh-CN.md",
+    "reproduction_path": "reproduction/schonfinkel-1924/README.md"
   },
   "earlier_gap_priority": [
     {
@@ -34,11 +37,6 @@
     },
     {
       "priority": 3,
-      "candidate_id": "schonfinkel-1924",
-      "next_evidence_needed": "对已定位原扫描作完整内容和公式核验，补足Church在1932年明示引用的一元化与变量消除前驱。"
-    },
-    {
-      "priority": 4,
       "candidate_id": "huntington-1932",
       "next_evidence_needed": "若扩展布尔代数路线，接读其1933年长篇与勘误；1932两页明说独立性模型和详证将在长文提供。"
     }
@@ -78,11 +76,18 @@
         }
       ],
       "status": {
-        "retrieval": "已取得完整原扫描。",
-        "reading": "本轮核对书目和Church的原始引用，未全篇精读。",
-        "limits": "扫描正文为图像；不能把自动提取的封面书目当作正文阅读。"
+        "retrieval": "已取得并逐页核对13张PDF页，其中1张数字化封面及原刊305–316完整12页；来源PDF不随仓库再发布。",
+        "reading": "已全篇精读并核图：五种函数、I/Z/T消去等式、U量化、314–315完整例子、315脚注5与316受限对应。正文含逐页主张账本、现代重构证明及独立数学/代码核验。",
+        "limits": "原文313明确省略完整一般消元证明；本篇现代括号抽象与有限测试不冒充原文全部逻辑体系、一致性或可判定性证明。",
+        "completion": "completed",
+        "completed_on": "2026-10-09"
       },
-      "selection_disposition": "回溯前驱，列入补读；不作本轮主文。"
+      "selection_disposition": "本轮完成主文；保留原扫描为外链，不再列为未完成补读。",
+      "deliverables": {
+        "article": "papers/1924/schonfinkel-building-blocks.zh-CN.md",
+        "reproduction": "reproduction/schonfinkel-1924/README.md",
+        "notebook": "reproduction/schonfinkel-1924/tutorial.ipynb"
+      }
     },
     {
       "id": "curry-1930",
@@ -263,7 +268,7 @@
         "reading": "全文已读；原刊355–366逐页核图，包括五条程序规则、37公设、Theorem I的16种归纳情况及Theorems II/III。",
         "limits": "原刊OCR严重误识Σ、λ、Π和下标；公式核验以扫描为准。程序实验并未验证全部公设或原文逻辑一致性。"
       },
-      "selection_disposition": "本轮主文。"
+      "selection_disposition": "此前已完成主文；本轮保留原阅读与证据记录。"
     },
     {
       "id": "church-1933",
@@ -345,5 +350,68 @@
   "next_source_gap": {
     "candidate_id": "church-1933",
     "target": "取得原刊840–864页，核对§1余下修订及明确勘误；目前缺口已公开披露，不用猜测内容填补。"
-  }
+  },
+  "selection_history": [
+    {
+      "checked_on": "2026-10-09",
+      "selection": {
+        "candidate_id": "church-1932",
+        "why_selected": "它将λ抽象、函数应用与转换规则明确嵌入一个逻辑基础方案，既可精读原始元证明，又可将转换机制与现代可运行教学实验严格区分。选择基于这条内容主线和全文可核验性，不构成全史优先权判断。",
+        "mathematical_boundary": "实验只重构纯项转换的现代教学投影；1932的五条程序规则、37条形式公设及存在性前提下的Theorem I均须按原逻辑另行解释。"
+      },
+      "scope": {
+        "selection_context": "继Gödel 1931之后，本轮以函数表达、绑定和可执行符号变换为主线选择Church 1932作深入阅读。",
+        "main_window": "1930–1935年间与所选主线直接相邻的已知论文；另回溯Schönfinkel 1924。",
+        "coverage": "仅覆盖下列七个候选条目；Curry 1930两部分作为一个条目。每项分别记录书目、全文取得、实际阅读程度。",
+        "nonexhaustive": true,
+        "not_claimed": [
+          "不声称穷尽该时期全部相关论文。",
+          "不声称Church 1932是Gödel 1931之后最早发表的任何相关论文。",
+          "不把书目定位、取得全文、精读全文或完成证明核验当作同一状态。",
+          "不把尚未取得的1933续篇后页说成已核对完整勘误。"
+        ],
+        "known_earlier_near_neighbor": "Huntington 1932年2月的两页论文早于Church 1932年4月；其对象是布尔代数公设，因此本轮按研究主题而非纯日期顺序暂缓。"
+      },
+      "earlier_gap_priority": [
+        {
+          "priority": 1,
+          "candidate_id": "curry-1931",
+          "next_evidence_needed": "取得154–180页原文，逐节比较量词、变量消除和推理内部化；现有作者后文引用与同期摘要不足以代替全文精读。"
+        },
+        {
+          "priority": 2,
+          "candidate_id": "curry-1930",
+          "next_evidence_needed": "取得并精读两部分全部74页，区分基础组合子理论与后来加入的逻辑公理。"
+        },
+        {
+          "priority": 3,
+          "candidate_id": "schonfinkel-1924",
+          "next_evidence_needed": "对已定位原扫描作完整内容和公式核验，补足Church在1932年明示引用的一元化与变量消除前驱。"
+        },
+        {
+          "priority": 4,
+          "candidate_id": "huntington-1932",
+          "next_evidence_needed": "若扩展布尔代数路线，接读其1933年长篇与勘误；1932两页明说独立性模型和详证将在长文提供。"
+        }
+      ]
+    },
+    {
+      "checked_on": "2026-10-09",
+      "candidate_id": "schonfinkel-1924",
+      "event": "completed_deep_reading",
+      "note": "原文全篇、中文分析、有限复现和执行记录已完成；仓库发布状态由提交记录核验。"
+    }
+  ],
+  "earlier_background_gaps": [
+    {
+      "subject": "Sheffer 1913原文",
+      "evidence": "Schönfinkel1924第306页脚注2直接引用",
+      "reading_status": "本轮只核1924原始引用，未精读1913全文。"
+    },
+    {
+      "subject": "Frege、Whitehead–Russell与Hilbert逻辑背景",
+      "evidence": "Schönfinkel1924第305–307页的背景说明",
+      "reading_status": "尚未以本篇为由声称完整覆盖或完成精读。"
+    }
+  ]
 }

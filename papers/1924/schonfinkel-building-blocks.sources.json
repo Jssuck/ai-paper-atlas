@@ -1,0 +1,33 @@
+{
+  "paper_id": "schonfinkel-1924",
+  "checked_on": "2026-10-09",
+  "title": "Über die Bausteine der mathematischen Logik",
+  "doi": "10.1007/BF01448013",
+  "publication": "Mathematische Annalen 92 (1924), 305–316",
+  "primary_sources": [
+    {
+      "kind": "publisher_record",
+      "url": "https://link.springer.com/article/10.1007/BF01448013",
+      "verified": ["author and title", "September 1924 publication", "15 March 1924 receipt", "7 December 1920 lecture", "Behmann preparation note"]
+    },
+    {
+      "kind": "original_journal_scan_mirror",
+      "url": "https://www.cip.ifi.lmu.de/~langeh/test/1924%20-%20Schoenfinkel%20-%20Ueber%20die%20Bausteine%20der%20mathematischen%20Logik.pdf",
+      "pdf_pages": 13,
+      "journal_pages": "305–316",
+      "page_mapping": "PDF 1 is digitization cover; PDF 2–13 are journal 305–316",
+      "sha256_of_inspected_bytes": "f8b388ce49653f7033e1a6d6182be90101d6c542bda444bfc5779f339dee3827",
+      "inspection": "All 12 journal-page images visually read; formula and footnote checking used rendered images, not cover-only text extraction.",
+      "redistribution": "No PDF, scan image, or full translation is included in this repository."
+    }
+  ],
+  "historical_boundaries": [
+    "Original C is modern K; original T is modern C; original Z is modern B.",
+    "Page 313 explicitly does not supply a complete general elimination proof.",
+    "Page 315 footnote 5 attributes the following discussion beginning at Dagegen to the editor; it does not attribute all of section 6 to Behmann.",
+    "Page 316 discusses restricted definition-based correspondence, not arbitrary semantic equivalence or a decision procedure."
+  ],
+  "reconstruction": "Modern bracket abstraction, structural induction, Python term rewriting, finite semantic U models, and exercises are original pedagogical additions.",
+  "claim_ledger": "schonfinkel-building-blocks.zh-CN.md section 13",
+  "notebook_execution": "Eight ordinary Python code cells executed sequentially by the included stdlib compile/exec runner; no Jupyter kernel was used."
+}

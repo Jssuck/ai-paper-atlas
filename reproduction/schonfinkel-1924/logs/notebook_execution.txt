@@ -1,0 +1,41 @@
+Cell 1: OK
+现代 K 与原 C 是同一个常量： True
+应用左结合： ((f x) y)
+Cell 2: OK
+(I x) → x
+((C x) y) → x
+(((T f) x) y) → ((f y) x)
+(((Z f) g) x) → (f (g x))
+(((S f) g) x) → ((f x) (g x))
+参数不足与额外参数：通过
+Cell 3: OK
+E = ((f x) (g x))
+[x]E = ((S ((S (C f)) I)) ((S (C g)) I))
+应用到 y 后 = ((f y) (g y)) ；步数 = 7
+自由变量： f, g
+Cell 4: OK
+I = ((S C) C) ；补足参数后 → x ；展开侧步数 2
+Z = ((S (C S)) C) ；补足参数后 → (f (g x)) ；展开侧步数 4
+T = ((S ((Z Z) S)) (C C)) ；补足参数后 → ((f y) x) ；展开侧步数 6
+Cell 5: OK
+Reduction budget exhausted after 25 steps; this alone does not prove divergence.
+C x Ω → x ；步数 = 1
+Cell 6: OK
+偶数与奇数没有共同元素： True
+偶数与等于 2 没有共同元素： False
+Cell 7: OK
+全部八个谓词 ：U 编码 = True ；直接 ∀f∃g 枚举 = True
+仅恒真谓词 ：U 编码 = False ；直接 ∀f∃g 枚举 = False
+Cell 8: OK
+Exhaustive finite substitution checks: 280 expressions × 5 replacements = 1400
+Finite U checks: all 8 × 8 Boolean-predicate pairs on domain {0,1,2} = 64
+Higher-order U: predicate domain all eight; encoded=True; direct=True
+Higher-order U: predicate domain only constant True; encoded=False; direct=False
+Original identities verified after fresh-variable arguments: I=SCC; Z=S(CS)C; T=S(ZZS)(CC)
+测试方法数： 11
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.038s
+
+OK
+Executed 8 Python cells successfully; outputs saved to tutorial.ipynb.

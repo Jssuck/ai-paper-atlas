@@ -1,0 +1,7 @@
+Python 3.12.14
+Implementation: CPython
+System: Linux x86_64
+
+Executed commands (relative to this directory):
+PYTHONDONTWRITEBYTECODE=1 python -m unittest -v test_combinators
+PYTHONDONTWRITEBYTECODE=1 python execute_notebook.py tutorial.ipynb
