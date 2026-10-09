@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "researching",
+  "active_paper": {
+    "id": "early-foundations-backfill-next",
+    "title": "核验早期理论前驱，准备下一篇历史补读",
+    "selection_confirmed": false
+  },
+  "last_completed": {
+    "id": "turing-1936-1937",
+    "path": "papers/1936-1937/turing-computable-numbers.zh-CN.md",
+    "version": "v2"
+  },
+  "updated_at": "2026-10-09T15:35:37Z",
+  "policy": {
+    "one_active_paper": true,
+    "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
+    "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
+    "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
+  }
+}
