@@ -1,0 +1,4 @@
+$ python execute_notebook.py tutorial.ipynb
+Executed 16 code cells successfully, top-to-bottom, using CPython exec (not a Jupyter kernel).
+
+[exit code: 0; wall seconds: 0.838143]

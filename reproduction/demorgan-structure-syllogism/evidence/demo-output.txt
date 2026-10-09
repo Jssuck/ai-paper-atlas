@@ -1,0 +1,19 @@
+$ python demo.py
+De Morgan 1847: deterministic teaching examples
+Overlap: 3/5 + 7/10 -> at least 3/10
+p.406: 50 + 60 - 100 -> at least 10 individuals
+Random fixed subsets (1000,100,100): overlap odds 68040.847:1
+Contiguous intervals (1/10,1/10): disjoint 64/81; overlap 17/81
+Testimonies 3/4, 4/5 -> 12/13
+p.396 audit: authority from mixture 19/26; literal printed formula 9/13
+Arguments a=3/4, b=1/2: {'for': '3/5', 'against': '1/5', 'inconclusive': '1/5'}
+Add mu=2/3 -> conclusion probability 4/5
+Unknown authority r=4: fixed mu=.5 -> .8; uniform -> 0.717202506169; Beta(2,2) -> 0.754126650216
+p.405 urn: red probability 5/14
+p.408: 193 proper occupancy models; 49 relation-pair cells
+64 premise pairs; 32 conclude; modern full weakening -> 24 directed / 12 counterpart classes
+The paper retains AA and ee and reports 26 directed / 14 counterpart classes.
+Same marginals and support do not imply the same joint probabilities.
+Wrote evidence/results.json
+
+[exit code: 0; wall seconds: 0.038252]

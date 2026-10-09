@@ -1,0 +1,438 @@
+{
+  "semantics": "modern finite sets; exact rational product-conditioning model",
+  "eight_propositions_example": {
+    "A": false,
+    "O": true,
+    "a": false,
+    "o": true,
+    "E": false,
+    "I": true,
+    "e": false,
+    "i": true
+  },
+  "overlap": {
+    "fractions": [
+      "3/5",
+      "7/10"
+    ],
+    "sharp_lower_bound": "3/10",
+    "p406_effective_counts": [
+      100,
+      50,
+      60
+    ],
+    "p406_guaranteed_count": 10
+  },
+  "random_subset_p385_386": {
+    "population": 1000,
+    "sizes": [
+      100,
+      100
+    ],
+    "disjoint_exact": "129077014461306429781708869772039720326652180438493910088920129279596443974700765444543084041267337773900729032778/8782638430519034570979439584467303145839068276766657318184398339063884095710793148616678634232737621078467697507074489",
+    "disjoint_decimal": 1.4696838026802188e-05,
+    "overlap_odds_to_one": 68040.8467003807
+  },
+  "random_intervals_p386_387": {
+    "lengths": [
+      "1/10",
+      "1/10"
+    ],
+    "disjoint": "64/81",
+    "overlap": "17/81"
+  },
+  "testimony_p394_395": {
+    "inputs": [
+      "3/4",
+      "4/5"
+    ],
+    "joint": "12/13"
+  },
+  "bias_p396_audit": {
+    "mu": "3/4",
+    "mu_prime": "4/5",
+    "lambda": "1/3",
+    "mixture_testimony": "45/52",
+    "authority_from_mixture": "19/26",
+    "literal_printed_authority": "9/13",
+    "status": "Printed second expression disagrees with first under a=2*mu-1."
+  },
+  "arguments_p397": {
+    "for": "3/5",
+    "against": "1/5",
+    "inconclusive": "1/5"
+  },
+  "combined_p398": {
+    "a": "3/4",
+    "b": "1/2",
+    "mu": "2/3",
+    "probability": "4/5"
+  },
+  "unknown_authority_p401": {
+    "r": 4,
+    "fixed_mu_half": 0.8,
+    "uniform": 0.7172025061689375,
+    "beta_2_2": 0.7541266502161666,
+    "uniform_quadrature": 0.7172025061689375,
+    "beta_2_2_quadrature": 0.7541266502161666,
+    "panels": 20000
+  },
+  "exactly_two_p404": {
+    "exponents": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "first_horn_included": "9/35"
+  },
+  "urn_p405": {
+    "conditional_distribution": {
+      "WWB": "3/14",
+      "WBW": "9/28",
+      "WBB": "3/28",
+      "RWB": "1/7",
+      "RBW": "3/14"
+    },
+    "red_probability": "5/14"
+  },
+  "seven_relations_p408": {
+    "proper_occupancy_models": 193,
+    "composition": {
+      "D_sub,D_sub": [
+        "C_sub",
+        "D",
+        "D_sub",
+        "D_super",
+        "P"
+      ],
+      "D_sub,D": [
+        "D_sub"
+      ],
+      "D_sub,D_super": [
+        "D_sub"
+      ],
+      "D_sub,C_sub": [
+        "C_sub"
+      ],
+      "D_sub,C": [
+        "C_sub"
+      ],
+      "D_sub,C_super": [
+        "C",
+        "C_sub",
+        "C_super",
+        "D_sub",
+        "P"
+      ],
+      "D_sub,P": [
+        "C_sub",
+        "D_sub",
+        "P"
+      ],
+      "D,D_sub": [
+        "D_super"
+      ],
+      "D,D": [
+        "D"
+      ],
+      "D,D_super": [
+        "D_sub"
+      ],
+      "D,C_sub": [
+        "C_sub"
+      ],
+      "D,C": [
+        "C"
+      ],
+      "D,C_super": [
+        "C_super"
+      ],
+      "D,P": [
+        "P"
+      ],
+      "D_super,D_sub": [
+        "D_super"
+      ],
+      "D_super,D": [
+        "D_super"
+      ],
+      "D_super,D_super": [
+        "C_super",
+        "D",
+        "D_sub",
+        "D_super",
+        "P"
+      ],
+      "D_super,C_sub": [
+        "C",
+        "C_sub",
+        "C_super",
+        "D_super",
+        "P"
+      ],
+      "D_super,C": [
+        "C_super"
+      ],
+      "D_super,C_super": [
+        "C_super"
+      ],
+      "D_super,P": [
+        "C_super",
+        "D_super",
+        "P"
+      ],
+      "C_sub,D_sub": [
+        "C_sub"
+      ],
+      "C_sub,D": [
+        "C_sub"
+      ],
+      "C_sub,D_super": [
+        "C",
+        "C_sub",
+        "C_super",
+        "D_sub",
+        "P"
+      ],
+      "C_sub,C_sub": [
+        "C_sub",
+        "D",
+        "D_sub",
+        "D_super",
+        "P"
+      ],
+      "C_sub,C": [
+        "D_sub"
+      ],
+      "C_sub,C_super": [
+        "D_sub"
+      ],
+      "C_sub,P": [
+        "C_sub",
+        "D_sub",
+        "P"
+      ],
+      "C,D_sub": [
+        "C_sub"
+      ],
+      "C,D": [
+        "C"
+      ],
+      "C,D_super": [
+        "C_super"
+      ],
+      "C,C_sub": [
+        "D_super"
+      ],
+      "C,C": [
+        "D"
+      ],
+      "C,C_super": [
+        "D_sub"
+      ],
+      "C,P": [
+        "P"
+      ],
+      "C_super,D_sub": [
+        "C",
+        "C_sub",
+        "C_super",
+        "D_super",
+        "P"
+      ],
+      "C_super,D": [
+        "C_super"
+      ],
+      "C_super,D_super": [
+        "C_super"
+      ],
+      "C_super,C_sub": [
+        "D_super"
+      ],
+      "C_super,C": [
+        "D_super"
+      ],
+      "C_super,C_super": [
+        "C_super",
+        "D",
+        "D_sub",
+        "D_super",
+        "P"
+      ],
+      "C_super,P": [
+        "C_super",
+        "D_super",
+        "P"
+      ],
+      "P,D_sub": [
+        "C_sub",
+        "D_super",
+        "P"
+      ],
+      "P,D": [
+        "P"
+      ],
+      "P,D_super": [
+        "C_super",
+        "D_sub",
+        "P"
+      ],
+      "P,C_sub": [
+        "C_sub",
+        "D_super",
+        "P"
+      ],
+      "P,C": [
+        "P"
+      ],
+      "P,C_super": [
+        "C_super",
+        "D_sub",
+        "P"
+      ],
+      "P,P": [
+        "C",
+        "C_sub",
+        "C_super",
+        "D",
+        "D_sub",
+        "D_super",
+        "P"
+      ]
+    }
+  },
+  "syllogism_census": {
+    "premise_pairs": 64,
+    "concluding_pairs": 32,
+    "redundant_pairs": [
+      "AA",
+      "Ae",
+      "EE",
+      "Ea",
+      "aE",
+      "aa",
+      "eA",
+      "ee"
+    ],
+    "minimal_directed": 24,
+    "counterpart_classes": 12,
+    "strongest": {
+      "AA": [
+        "i"
+      ],
+      "AO": [
+        "o"
+      ],
+      "Aa": [
+        "A"
+      ],
+      "AE": [
+        "E"
+      ],
+      "Ae": [
+        "o"
+      ],
+      "Ai": [
+        "i"
+      ],
+      "OA": [
+        "O"
+      ],
+      "Oe": [
+        "I"
+      ],
+      "aA": [
+        "a"
+      ],
+      "aa": [
+        "I"
+      ],
+      "ao": [
+        "O"
+      ],
+      "aE": [
+        "O"
+      ],
+      "aI": [
+        "I"
+      ],
+      "ae": [
+        "e"
+      ],
+      "oa": [
+        "o"
+      ],
+      "oE": [
+        "i"
+      ],
+      "EA": [
+        "E"
+      ],
+      "Ea": [
+        "o"
+      ],
+      "Eo": [
+        "i"
+      ],
+      "EE": [
+        "i"
+      ],
+      "EI": [
+        "o"
+      ],
+      "Ee": [
+        "A"
+      ],
+      "Ia": [
+        "I"
+      ],
+      "IE": [
+        "O"
+      ],
+      "eA": [
+        "O"
+      ],
+      "eO": [
+        "I"
+      ],
+      "ea": [
+        "e"
+      ],
+      "eE": [
+        "a"
+      ],
+      "ee": [
+        "I"
+      ],
+      "ei": [
+        "O"
+      ],
+      "iA": [
+        "i"
+      ],
+      "ie": [
+        "o"
+      ]
+    }
+  },
+  "historical_vs_modern_census": {
+    "paper_report": "32 concluding; remove 6; 26 directed / 14 counterpart classes",
+    "modern_full_weakening": "32 concluding; remove 8; 24 directed / 12 counterpart classes",
+    "extra_modern_weakenings": [
+      "AA -> Ai (conclusion i)",
+      "ee -> Oe (conclusion I)"
+    ]
+  },
+  "dependence_counterexample": {
+    "same_marginals": [
+      "1/2",
+      "1/2"
+    ],
+    "same_full_support": true,
+    "independent_P_11": "1/4",
+    "correlated_P_11": "2/5",
+    "independent_any": "3/4",
+    "correlated_any": "3/5"
+  }
+}

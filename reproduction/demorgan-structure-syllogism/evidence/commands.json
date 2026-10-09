@@ -1,0 +1,32 @@
+[
+  {
+    "command": "python -m unittest discover -v",
+    "exit_code": 0,
+    "wall_seconds": 0.82753,
+    "log": "evidence/test-run.txt"
+  },
+  {
+    "command": "python demo.py",
+    "exit_code": 0,
+    "wall_seconds": 0.038252,
+    "log": "evidence/demo-output.txt"
+  },
+  {
+    "command": "python execute_notebook.py tutorial.ipynb",
+    "exit_code": 0,
+    "wall_seconds": 0.838143,
+    "log": "evidence/notebook-run.txt"
+  },
+  {
+    "command": "python validate_notebook.py",
+    "exit_code": 0,
+    "wall_seconds": 0.024054,
+    "log": "evidence/notebook-validation.txt"
+  },
+  {
+    "command": "python evidence/independent-review/independent_review.py",
+    "exit_code": 0,
+    "wall_seconds": 1.099507,
+    "log": "evidence/independent-review/independent-run.txt"
+  }
+]
