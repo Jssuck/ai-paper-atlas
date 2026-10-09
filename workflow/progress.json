@@ -2,9 +2,11 @@
   "schema_version": 1,
   "status": "researching",
   "active_paper": {
-    "id": "curry-1930-part1-source-check",
-    "title": "核验 Curry 1930 第一部分原文及下一早期候选",
-    "selection_confirmed": false
+    "id": "curry-1930-part1",
+    "title": "Grundlagen der kombinatorischen Logik — Teil I",
+    "selection_confirmed": true,
+    "doi": "10.2307/2370619",
+    "chronology_note": "July 1930 pages 509–536 only. October Part II remains unfinished and must not be marked completed."
   },
   "last_completed": {
     "id": "schonfinkel-1924",
@@ -13,7 +15,7 @@
     "content_commit": "0854019a9eae166e1395fbfe55cf4c819b360d12",
     "checks": "Independent original-page, mathematics and code review passed. Remote content, live math rendering, evidence targets and notebook static preview verified."
   },
-  "updated_at": "2026-10-09T18:37:22Z",
+  "updated_at": "2026-10-09T18:38:19Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
