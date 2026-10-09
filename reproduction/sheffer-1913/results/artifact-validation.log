@@ -1,0 +1,6 @@
+nbformat validator unavailable; stdlib structural checks: PASS
+Notebook: 16 cells / 8 code cells; sequential execution counts 1..8; preserved outputs; 0 error outputs
+Execution method: Python stdlib exec, fresh shared namespace, sequential cells; not Jupyter/IPython kernel
+Execution Python: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Measured result JSON: PASS (19,700 tables, 592 formula/target/assignment checks)
+Regression suite: 25 tests passed, including exact large integer and float rejection cases

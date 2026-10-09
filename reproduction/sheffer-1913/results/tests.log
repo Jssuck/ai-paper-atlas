@@ -1,0 +1,30 @@
+test_enumeration_scope_guard (test_sheffer.ExhaustiveTableTests.test_enumeration_scope_guard) ... ok
+test_guarded_and_fast_checkers_agree_on_every_small_closed_table (test_sheffer.ExhaustiveTableTests.test_guarded_and_fast_checkers_agree_on_every_small_closed_table) ... ok
+test_measured_small_order_counts_and_truth_tables (test_sheffer.ExhaustiveTableTests.test_measured_small_order_counts_and_truth_tables) ... ok
+test_nor_and_nand_are_distinct_but_both_models (test_sheffer.ExhaustiveTableTests.test_nor_and_nand_are_distinct_but_both_models) ... ok
+test_closure_is_not_built_into_krule (test_sheffer.HistoricalModelsTests.test_closure_is_not_built_into_krule) ... ok
+test_incomplete_rule_rejected (test_sheffer.HistoricalModelsTests.test_incomplete_rule_rejected) ... ok
+test_original_consistency_model (test_sheffer.HistoricalModelsTests.test_original_consistency_model) ... ok
+test_original_independence_signatures (test_sheffer.HistoricalModelsTests.test_original_independence_signatures) ... ok
+test_outside_priming_is_guarded_not_evaluated (test_sheffer.HistoricalModelsTests.test_outside_priming_is_guarded_not_evaluated) ... ok
+test_p3_failure_witness (test_sheffer.HistoricalModelsTests.test_p3_failure_witness) ... ok
+test_p4_holds_exactly_at_zero_a (test_sheffer.HistoricalModelsTests.test_p4_holds_exactly_at_zero_a) ... ok
+test_p5_transcription_and_failure_witness (test_sheffer.HistoricalModelsTests.test_p5_transcription_and_failure_witness) ... ok
+test_rational_large_integer_inputs_stay_exact (test_sheffer.HistoricalModelsTests.test_rational_large_integer_inputs_stay_exact) ... ok
+test_rational_mixed_integer_fraction_inputs_stay_exact (test_sheffer.HistoricalModelsTests.test_rational_mixed_integer_fraction_inputs_stay_exact) ... ok
+test_rational_rejects_floats_and_unsupported_inputs (test_sheffer.HistoricalModelsTests.test_rational_rejects_floats_and_unsupported_inputs) ... ok
+test_rational_spot_checks_not_a_finite_model_claim (test_sheffer.HistoricalModelsTests.test_rational_spot_checks_not_a_finite_model_claim) ... ok
+test_rational_symbolic_p3_and_p5 (test_sheffer.HistoricalModelsTests.test_rational_symbolic_p3_and_p5) ... ok
+test_deliberately_wrong_or_encoding_detected (test_sheffer.TranslationTests.test_deliberately_wrong_or_encoding_detected) ... ok
+test_exhaustive_bounded_translation (test_sheffer.TranslationTests.test_exhaustive_bounded_translation) ... ok
+test_extended_connectives_both_bases (test_sheffer.TranslationTests.test_extended_connectives_both_bases) ... ok
+test_original_p487_definitions (test_sheffer.TranslationTests.test_original_p487_definitions) ... ok
+test_parser_precedence_and_associativity (test_sheffer.TranslationTests.test_parser_precedence_and_associativity) ... ok
+test_parser_rejects_malformed_input (test_sheffer.TranslationTests.test_parser_rejects_malformed_input) ... ok
+test_silently_swapping_nor_for_nand_is_detected (test_sheffer.TranslationTests.test_silently_swapping_nor_for_nand_is_detected) ... ok
+test_structural_validation_rejects_mixed_basis (test_sheffer.TranslationTests.test_structural_validation_rejects_mixed_basis) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.516s
+
+OK

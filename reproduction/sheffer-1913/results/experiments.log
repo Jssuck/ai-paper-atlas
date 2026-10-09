@@ -1,0 +1,14 @@
+Sheffer 1913: original teaching reconstruction, stdlib only
+consistency: P1–P5 = (True, True, True, True, True)
+independent_P1: P1–P5 = (False, True, True, True, True)
+independent_P2: P1–P5 = (True, False, True, True, True)
+independent_P3: P1–P5 = (True, True, False, True, True)
+independent_P5: P1–P5 = (True, True, True, True, False)
+Rational P4 counterexample: {'a': '1', 'b': '0', 'left': '-1/2', 'right': '-1'}
+n=1: 1 closed labeled tables; 0 satisfy P1–P5
+n=2: 16 closed labeled tables; 2 satisfy P1–P5
+n=3: 19683 closed labeled tables; 0 satisfy P1–P5
+Translation: {'source_formulas': 74, 'maximum_tree_height': 2, 'targets': ['nor', 'nand'], 'truth_assignments_per_formula': 4, 'formula_target_assignment_checks': 592, 'mismatches': 0, 'scope': 'Finite bounded test; the general construction is justified by structural induction.'}
+Negative controls: {'omitted_final_negation': {'equivalent': False, 'counterexample': {'p': False, 'q': False}}, 'nor_formula_relabeled_nand': {'equivalent': False, 'counterexample': {'p': False, 'q': True}}}
+Result JSON: results/experiments.json
+Runtime: 0.099533 seconds

@@ -10,6 +10,7 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
+| 1913 | [Sheffer《布尔代数五公设》精读](papers/1913/sheffer-five-postulates.zh-CN.md) | AI 前史回填：独立性、NOR与逻辑原语 | 深读 v1 · 含实跑附件 |
 | 1924 | [Schönfinkel《数学逻辑的构件》精读](papers/1924/schonfinkel-building-blocks.zh-CN.md) | AI 前史回填：组合子与变量消除 | 深读 v1 · 含实跑附件 |
 | 1930（第一部分） | [Curry《组合逻辑基础》第一部分精读](papers/1930/curry-foundations-part1.zh-CN.md) | AI 前史：形式系统与等式证明 | 深读 v1 · 第二部分待补 |
 | 1931 | [哥德尔不完备性论文精读](papers/1931/godel-formally-undecidable.zh-CN.md) | AI 前史回填：算术化、自指与形式系统边界 | 深读 v1 · 含实跑附件 |
@@ -62,6 +63,15 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 
 只完成第一部分 509–536 页；第二部分及其完整表示定理证明仍待补读。教学实验区分执行归约与形式等式推导，Notebook 使用标准库执行器，非 Jupyter 内核验证。
 
+## Sheffer 1913可运行附件
+
+- [五公设、反模型与单联结词翻译](reproduction/sheffer-1913/README.md)
+- [教学Notebook](reproduction/sheffer-1913/tutorial.zh-CN.ipynb)
+- [25项测试日志](reproduction/sheffer-1913/results/tests.log) · [逐页来源与校勘账本](papers/1913/sheffer-five-postulates.sources.zh-CN.md)
+- [独立数学与代码复核](reproduction/sheffer-1913/independent-review.zh-CN.md)
+
+1913原刊481–488八页全部核图。实际检查19,700张一至三元素封闭运算表及592次公式翻译真值比较；原非封闭反模型另保留成员条件。8个Notebook代码单元用标准库执行，非Jupyter内核。普通独立与完全独立分开解释；有限实验不替代一般证明。更早的Huntington1904等直接线索与既有缺口继续保留，1913不是宣定历史起点。
+
 ## 每篇解析的共同标准
 
 - 原始书目信息、版本和全文来源
@@ -75,3 +85,4 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 公开内容与核验边界
 
 这里发布 AI 辅助撰写的原创中文解析、书目与原文链接，不镜像论文全文或 PDF。每篇注明实际阅读与核验范围；示意推导不冒充原文公式，概念练习不冒充已运行实验。发现错误后保留更正记录。原论文版权归各权利人所有。
+

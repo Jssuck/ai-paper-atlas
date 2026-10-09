@@ -1,0 +1,323 @@
+{
+  "reconstruction": "Original teaching implementation; Sheffer 1913 did not publish software.",
+  "finite_historical_models": {
+    "consistency": {
+      "P1": {
+        "holds": true,
+        "size": 2
+      },
+      "P2": {
+        "holds": true,
+        "outside_count": 0,
+        "witness": null
+      },
+      "P3": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P4": {
+        "holds": true,
+        "checked": 4,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P5": {
+        "holds": true,
+        "checked": 8,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      }
+    },
+    "independent_P1": {
+      "P1": {
+        "holds": false,
+        "size": 1
+      },
+      "P2": {
+        "holds": true,
+        "outside_count": 0,
+        "witness": null
+      },
+      "P3": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P4": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P5": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      }
+    },
+    "independent_P2": {
+      "P1": {
+        "holds": true,
+        "size": 2
+      },
+      "P2": {
+        "holds": false,
+        "outside_count": 2,
+        "witness": [
+          "m",
+          "n",
+          "outside"
+        ]
+      },
+      "P3": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P4": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 2,
+        "failures": 0,
+        "witness": null
+      },
+      "P5": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 6,
+        "failures": 0,
+        "witness": null
+      }
+    },
+    "independent_P3": {
+      "P1": {
+        "holds": true,
+        "size": 2
+      },
+      "P2": {
+        "holds": true,
+        "outside_count": 0,
+        "witness": null
+      },
+      "P3": {
+        "holds": false,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 1,
+        "witness": {
+          "assignment": {
+            "a": "n"
+          },
+          "left": "m",
+          "right": "n"
+        }
+      },
+      "P4": {
+        "holds": true,
+        "checked": 4,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P5": {
+        "holds": true,
+        "checked": 8,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      }
+    },
+    "independent_P5": {
+      "P1": {
+        "holds": true,
+        "size": 3
+      },
+      "P2": {
+        "holds": true,
+        "outside_count": 0,
+        "witness": null
+      },
+      "P3": {
+        "holds": true,
+        "checked": 3,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P4": {
+        "holds": true,
+        "checked": 9,
+        "guard_skipped": 0,
+        "failures": 0,
+        "witness": null
+      },
+      "P5": {
+        "holds": false,
+        "checked": 27,
+        "guard_skipped": 0,
+        "failures": 16,
+        "witness": {
+          "assignment": {
+            "a": "l",
+            "b": "l",
+            "c": "m"
+          },
+          "left": "n",
+          "right": "m"
+        }
+      }
+    }
+  },
+  "infinite_rational_model": {
+    "P3": {
+      "holds_identically": true,
+      "left_coefficients_a_b_c": [
+        "1",
+        "0",
+        "0"
+      ],
+      "right_coefficients_a_b_c": [
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    "P4": {
+      "holds_identically": false,
+      "left_coefficients_a_b_c": [
+        "-1/2",
+        "0",
+        "0"
+      ],
+      "right_coefficients_a_b_c": [
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    "P5": {
+      "holds_identically": true,
+      "left_coefficients_a_b_c": [
+        "1/2",
+        "-1/4",
+        "-1/4"
+      ],
+      "right_coefficients_a_b_c": [
+        "1/2",
+        "-1/4",
+        "-1/4"
+      ]
+    },
+    "P4_witness": {
+      "a": "1",
+      "b": "0",
+      "left": "-1/2",
+      "right": "-1"
+    },
+    "scope": "Exact symbolic identities over Q; P1 and rational closure P2 are justified in README."
+  },
+  "closed_table_enumeration": [
+    {
+      "n": 1,
+      "tables_examined": 1,
+      "all_five_count": 0,
+      "all_five_tables_row_major": [],
+      "signature_counts": {
+        "01111": 1
+      },
+      "scope": "All labeled closed binary tables on range(n); no quotient by isomorphism."
+    },
+    {
+      "n": 2,
+      "tables_examined": 16,
+      "all_five_count": 2,
+      "all_five_tables_row_major": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "signature_counts": {
+        "11001": 4,
+        "11011": 4,
+        "11100": 2,
+        "11101": 2,
+        "11110": 2,
+        "11111": 2
+      },
+      "scope": "All labeled closed binary tables on range(n); no quotient by isomorphism."
+    },
+    {
+      "n": 3,
+      "tables_examined": 19683,
+      "all_five_count": 0,
+      "all_five_tables_row_major": [],
+      "signature_counts": {
+        "11000": 13724,
+        "11001": 2096,
+        "11010": 638,
+        "11011": 309,
+        "11100": 2821,
+        "11101": 28,
+        "11110": 67
+      },
+      "scope": "All labeled closed binary tables on range(n); no quotient by isomorphism."
+    }
+  ],
+  "translation": {
+    "source_formulas": 74,
+    "maximum_tree_height": 2,
+    "targets": [
+      "nor",
+      "nand"
+    ],
+    "truth_assignments_per_formula": 4,
+    "formula_target_assignment_checks": 592,
+    "mismatches": 0,
+    "scope": "Finite bounded test; the general construction is justified by structural induction."
+  },
+  "negative_controls": {
+    "omitted_final_negation": {
+      "equivalent": false,
+      "counterexample": {
+        "p": false,
+        "q": false
+      }
+    },
+    "nor_formula_relabeled_nand": {
+      "equivalent": false,
+      "counterexample": {
+        "p": false,
+        "q": true
+      }
+    }
+  },
+  "execution": {
+    "timestamp_utc": "2026-10-09T19:52:48.567624+00:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "runtime_seconds": 0.099533,
+    "dependencies": "Python standard library only",
+    "scope": "Finite table checks and bounded formula tests do not prove the general representation theorem."
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "sheffer-1913",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "source": "https://archive.org/download/jstor-1988701/1988701.pdf",
     "scope": "Original pages 481–488; historical backfill of explicitly recorded earlier gap."
   },
@@ -15,12 +15,12 @@
     "checks": "Independent primary-page mathematical and code review passed; remote exact content, math/tables, relative evidence links and notebook static preview verified.",
     "scope": "Part I, pages 509–536 only; Part II and its deferred proofs remain unfinished."
   },
-  "updated_at": "2026-10-09T19:37:30Z",
+  "updated_at": "2026-10-09T19:56:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read original paper and applicable corrections; prepare derivations and finite teaching reproduction, then independent review before publication."
+  "next_action": "Verify exact published content, main commit, relative links and GitHub mathematical rendering before marking completed."
 }

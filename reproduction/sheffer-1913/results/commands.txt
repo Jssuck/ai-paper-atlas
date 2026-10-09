@@ -1,0 +1,9 @@
+# Actual commands used; run from reproduction/sheffer-1913 unless stated otherwise.
+# Notebook was initially scaffolded with the installed helper:
+python new_notebook.py --kind tutorial --title 'Sheffer 1913: axioms, countermodels and rejection' --out tutorial.zh-CN.ipynb
+# The helper is a scaffold, not a runtime dependency; tutorial cells were then filled.
+python -m unittest -v > results/tests.log 2>&1
+python run_experiments.py --out results/experiments.json > results/experiments.log
+python execute_notebook.py tutorial.zh-CN.ipynb > results/notebook-execution.log
+# The saved notebook's 8th code cell independently runs the same test suite again.
+# No package installs, network calls, or remote repository edits were performed.

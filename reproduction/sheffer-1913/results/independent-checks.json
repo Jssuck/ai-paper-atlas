@@ -1,0 +1,238 @@
+{
+  "historical_models": {
+    "consistency": {
+      "P1": {
+        "holds": true
+      },
+      "P2": {
+        "holds": true
+      },
+      "P3": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P4": {
+        "holds": true,
+        "checked": 4,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P5": {
+        "holds": true,
+        "checked": 8,
+        "guard_skipped": 0,
+        "failures": 0
+      }
+    },
+    "P1": {
+      "P1": {
+        "holds": false
+      },
+      "P2": {
+        "holds": true
+      },
+      "P3": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P4": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P5": {
+        "holds": true,
+        "checked": 1,
+        "guard_skipped": 0,
+        "failures": 0
+      }
+    },
+    "P2": {
+      "P1": {
+        "holds": true
+      },
+      "P2": {
+        "holds": false
+      },
+      "P3": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P4": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 2,
+        "failures": 0
+      },
+      "P5": {
+        "holds": true,
+        "checked": 2,
+        "guard_skipped": 6,
+        "failures": 0
+      }
+    },
+    "P3": {
+      "P1": {
+        "holds": true
+      },
+      "P2": {
+        "holds": true
+      },
+      "P3": {
+        "holds": false,
+        "checked": 2,
+        "guard_skipped": 0,
+        "failures": 1
+      },
+      "P4": {
+        "holds": true,
+        "checked": 4,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P5": {
+        "holds": true,
+        "checked": 8,
+        "guard_skipped": 0,
+        "failures": 0
+      }
+    },
+    "P5": {
+      "P1": {
+        "holds": true
+      },
+      "P2": {
+        "holds": true
+      },
+      "P3": {
+        "holds": true,
+        "checked": 3,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P4": {
+        "holds": true,
+        "checked": 9,
+        "guard_skipped": 0,
+        "failures": 0
+      },
+      "P5": {
+        "holds": false,
+        "checked": 27,
+        "guard_skipped": 0,
+        "failures": 16
+      }
+    }
+  },
+  "closed_enumeration": [
+    {
+      "n": 1,
+      "tables": 1,
+      "all_five": 0,
+      "signature_counts": {
+        "01111": 1
+      }
+    },
+    {
+      "n": 2,
+      "tables": 16,
+      "all_five": 2,
+      "signature_counts": {
+        "11001": 4,
+        "11011": 4,
+        "11100": 2,
+        "11101": 2,
+        "11110": 2,
+        "11111": 2
+      }
+    },
+    {
+      "n": 3,
+      "tables": 19683,
+      "all_five": 0,
+      "signature_counts": {
+        "11000": 13724,
+        "11001": 2096,
+        "11010": 638,
+        "11011": 309,
+        "11100": 2821,
+        "11101": 28,
+        "11110": 67
+      }
+    }
+  ],
+  "nonclosed_comparisons": {
+    "tables": 84,
+    "scope": "All 0-, 1-, and 2-element rules with one external-output symbol; exact guards/counts match."
+  },
+  "powerset_models": [
+    {
+      "size": 2,
+      "basis": "nor",
+      "z": 0,
+      "u": 1,
+      "all_checks_passed": true
+    },
+    {
+      "size": 2,
+      "basis": "nand",
+      "z": 1,
+      "u": 0,
+      "all_checks_passed": true
+    },
+    {
+      "size": 4,
+      "basis": "nor",
+      "z": 0,
+      "u": 3,
+      "all_checks_passed": true
+    },
+    {
+      "size": 4,
+      "basis": "nand",
+      "z": 3,
+      "u": 0,
+      "all_checks_passed": true
+    },
+    {
+      "size": 8,
+      "basis": "nor",
+      "z": 0,
+      "u": 7,
+      "all_checks_passed": true
+    },
+    {
+      "size": 8,
+      "basis": "nand",
+      "z": 7,
+      "u": 0,
+      "all_checks_passed": true
+    }
+  ],
+  "independent_truth_vectors": {
+    "source_formulas": 786,
+    "bases": 2,
+    "valuations": 4,
+    "comparisons": 6288,
+    "mismatches": 0
+  },
+  "rational_regression": {
+    "distinct_samples": 19,
+    "triples": 6859,
+    "all_checks_passed": true,
+    "scope": "Finite regression only; universal algebraic derivation separately reviewed."
+  },
+  "exact_integer_api_regression": {
+    "large_integers": 3,
+    "invalid_inputs_rejected": 3,
+    "all_checks_passed": true
+  },
+  "elapsed_seconds": 1.046
+}
