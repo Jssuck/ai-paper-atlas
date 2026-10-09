@@ -1,23 +1,20 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "goedel-1931-incompleteness",
-    "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
-    "selection_confirmed": true,
-    "doi": "10.1007/BF01700692",
-    "chronology_note": "1931 predecessor backfill before the previously published Turing sample."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "turing-1936-1937",
-    "path": "papers/1936-1937/turing-computable-numbers.zh-CN.md",
-    "version": "v2"
+    "id": "goedel-1931-incompleteness",
+    "path": "papers/1931/godel-formally-undecidable.zh-CN.md",
+    "version": "v1",
+    "content_commit": "a4763c3ece842e5de43d0af592c2abd57d0d9ec6",
+    "checks": "Independent mathematics and reproduction review passed; remote content and GitHub render/links verified."
   },
-  "updated_at": "2026-10-09T15:52:00Z",
+  "updated_at": "2026-10-09T15:55:11Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
-  }
+  },
+  "next_action": "At the next hourly turn, search and select one unfinished historical paper with explicit chronology and source coverage; do not reprocess completed articles."
 }
