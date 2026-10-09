@@ -1,0 +1,5 @@
+PASS: 9 sequentially executed notebook cells with nonempty outputs and no errors.
+PASS: provenance explicitly labels stdlib execution, not Jupyter/IPython kernel.
+PASS: experiment JSON contains all 23 original finite examples.
+PASS: source, notebook and logs contain no private absolute paths or Bearer credentials.
+PASS: source scans are outside this deliverable.

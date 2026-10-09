@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "huntington-1904",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "source": "https://archive.org/download/jstor-1986459/1986459.pdf",
     "scope": "Original pages 288–309; bounded paper backfill while earlier book-length background remains explicitly pending."
   },
@@ -15,12 +15,12 @@
     "checks": "Independent original-page mathematical and code review passed; all 26 published files exactly verified; GitHub article 179 formulas, six tables and eight-cell notebook static preview verified.",
     "scope": "Original pages 481–488; ordinary independence distinguished from later complete independence; finite teaching checks do not replace general proofs."
   },
-  "updated_at": "2026-10-09T20:38:00Z",
+  "updated_at": "2026-10-09T20:53:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read all original pages and applicable corrections, reconstruct axiomatic proofs and finite countermodels, then independent review."
+  "next_action": "Verify main commit, all exact file contents, math/table rendering and relative links before marking completed."
 }

@@ -1,0 +1,2220 @@
+{
+  "description": "Finite checks of original 1904 examples plus labelled modern teaching experiments; not a general theorem proof",
+  "timestamp_utc": "2026-10-09T20:51:35.191845+00:00",
+  "python": "3.12.14",
+  "original_finite": {
+    "first": {
+      "Ia": {
+        "size": 2,
+        "name": "Ia",
+        "failed": [
+          "Ia"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 1,
+                "b": 1,
+                "output": "outside"
+              }
+            ],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 3,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 3,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 2,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "Ib": {
+        "size": 2,
+        "name": "Ib",
+        "failed": [
+          "Ib"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 0,
+                "b": 0,
+                "output": "outside"
+              }
+            ],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 3,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 2,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 3,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IIa": {
+        "size": 2,
+        "name": "IIa",
+        "failed": [
+          "IIa"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": false,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [
+              {
+                "candidates": []
+              }
+            ],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "V vacuous: identities do not both exist uniquely"
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IIb": {
+        "size": 2,
+        "name": "IIb",
+        "failed": [
+          "IIb"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": false,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [
+              {
+                "candidates": []
+              }
+            ],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "V vacuous: identities do not both exist uniquely"
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IIIa": {
+        "size": 2,
+        "name": "IIIa",
+        "failed": [
+          "IIIa"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 0,
+                  "b": 1
+                },
+                "left": 0,
+                "right": 1
+              },
+              {
+                "assignment": {
+                  "a": 1,
+                  "b": 0
+                },
+                "left": 1,
+                "right": 0
+              }
+            ],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "V vacuous: identities do not both exist uniquely"
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IIIb": {
+        "size": 2,
+        "name": "IIIb",
+        "failed": [
+          "IIIb"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 0,
+                  "b": 1
+                },
+                "left": 0,
+                "right": 1
+              },
+              {
+                "assignment": {
+                  "a": 1,
+                  "b": 0
+                },
+                "left": 1,
+                "right": 0
+              }
+            ],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "V vacuous: identities do not both exist uniquely"
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IVa": {
+        "size": 2,
+        "name": "IVa",
+        "failed": [
+          "IVa"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": false,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 1,
+                  "b": 0,
+                  "c": 1
+                },
+                "left": 1,
+                "right": 0
+              },
+              {
+                "assignment": {
+                  "a": 1,
+                  "b": 1,
+                  "c": 0
+                },
+                "left": 1,
+                "right": 0
+              }
+            ],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "IVb": {
+        "size": 2,
+        "name": "IVb",
+        "failed": [
+          "IVb"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": false,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 0,
+                  "b": 0,
+                  "c": 1
+                },
+                "left": 0,
+                "right": 1
+              },
+              {
+                "assignment": {
+                  "a": 0,
+                  "b": 1,
+                  "c": 0
+                },
+                "left": 0,
+                "right": 1
+              }
+            ],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "V": {
+        "size": 2,
+        "name": "V",
+        "failed": [
+          "V"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": false,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 1,
+                "complements": []
+              }
+            ],
+            "note": ""
+          },
+          "VI": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "VI": {
+        "size": 1,
+        "name": "powerset_0",
+        "failed": [
+          "VI"
+        ],
+        "checks": {
+          "Ia": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "Ib": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IIIb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVa": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "IVb": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "V": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "VI": {
+            "holds": false,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [
+              {
+                "size": 1
+              }
+            ],
+            "note": ""
+          }
+        }
+      }
+    },
+    "second": {
+      "1": {
+        "size": 4,
+        "name": "p302_1",
+        "failed": [
+          "1"
+        ],
+        "checks": {
+          "1": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 0
+              },
+              {
+                "a": 1
+              }
+            ],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 16,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 64,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 14,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 14,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "9": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "9 vacuous: one of 1,4,5,8 is false"
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "2": {
+        "size": 2,
+        "name": "p303_2",
+        "failed": [
+          "2"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 4,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 4,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "8 vacuous: bounds do not both exist uniquely"
+          },
+          "9": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 16,
+            "failures": [],
+            "note": ""
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "3": {
+        "size": 6,
+        "name": "p303_3",
+        "failed": [
+          "3"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 36,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": false,
+            "checked": 216,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 4,
+                "b": 3,
+                "c": 5
+              },
+              {
+                "a": 2,
+                "b": 4,
+                "c": 3
+              },
+              {
+                "a": 3,
+                "b": 5,
+                "c": 2
+              }
+            ],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 32,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 32,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "9": {
+            "holds": true,
+            "checked": 17,
+            "skipped": 19,
+            "failures": [],
+            "note": ""
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "6,7": {
+        "size": 14,
+        "name": "p303_6_7",
+        "failed": [
+          "6",
+          "7"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 14,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 196,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 2744,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": false,
+            "checked": 76,
+            "skipped": 120,
+            "failures": [
+              {
+                "a": 1,
+                "b": 8,
+                "joins": []
+              },
+              {
+                "a": 2,
+                "b": 4,
+                "joins": []
+              },
+              {
+                "a": 4,
+                "b": 2,
+                "joins": []
+              }
+            ],
+            "note": ""
+          },
+          "7": {
+            "holds": false,
+            "checked": 76,
+            "skipped": 120,
+            "failures": [
+              {
+                "a": 7,
+                "b": 14,
+                "meets": []
+              },
+              {
+                "a": 11,
+                "b": 13,
+                "meets": []
+              },
+              {
+                "a": 13,
+                "b": 11,
+                "meets": []
+              }
+            ],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 14,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "9": {
+            "holds": true,
+            "checked": 129,
+            "skipped": 67,
+            "failures": [],
+            "note": ""
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "8": {
+        "size": 3,
+        "name": "p304_8",
+        "failed": [
+          "8"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 3,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 9,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 27,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 9,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 9,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": false,
+            "checked": 3,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 2,
+                "complements": []
+              }
+            ],
+            "note": ""
+          },
+          "9": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "9 vacuous: one of 1,4,5,8 is false"
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "9": {
+        "size": 5,
+        "name": "p304_9",
+        "failed": [
+          "9"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 25,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 125,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 21,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 21,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "9": {
+            "holds": false,
+            "checked": 15,
+            "skipped": 15,
+            "failures": [
+              {
+                "a": 4,
+                "b": 3,
+                "bar_b": 2,
+                "zero": 0,
+                "witnesses": []
+              }
+            ],
+            "note": ""
+          },
+          "10": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "10": {
+        "size": 1,
+        "name": "p304_10",
+        "failed": [
+          "10"
+        ],
+        "checks": {
+          "1": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "2": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "3": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "4": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "5": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "6": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "7": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "8": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "9": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "10": {
+            "holds": false,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [
+              {
+                "size": 1
+              }
+            ],
+            "note": ""
+          }
+        }
+      }
+    },
+    "third": {
+      "B": {
+        "size": 2,
+        "name": "p307_B",
+        "failed": [
+          "B"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 2,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": false,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 0,
+                  "b": 1
+                },
+                "left": 0,
+                "right": 1
+              },
+              {
+                "assignment": {
+                  "a": 1,
+                  "b": 0
+                },
+                "left": 1,
+                "right": 0
+              }
+            ],
+            "note": ""
+          },
+          "C": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": true,
+            "checked": 4,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "G": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "G vacuous: bounds do not both exist uniquely"
+          },
+          "H": {
+            "holds": true,
+            "checked": 8,
+            "skipped": 8,
+            "failures": [],
+            "note": ""
+          },
+          "J": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "C": {
+        "size": 6,
+        "name": "p307_C",
+        "failed": [
+          "C"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": true,
+            "checked": 36,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "C": {
+            "holds": false,
+            "checked": 216,
+            "skipped": 0,
+            "failures": [
+              {
+                "assignment": {
+                  "a": 4,
+                  "b": 2,
+                  "c": 3
+                },
+                "left": 3,
+                "right": 1
+              },
+              {
+                "assignment": {
+                  "a": 4,
+                  "b": 2,
+                  "c": 5
+                },
+                "left": 1,
+                "right": 4
+              },
+              {
+                "assignment": {
+                  "a": 4,
+                  "b": 3,
+                  "c": 5
+                },
+                "left": 5,
+                "right": 1
+              }
+            ],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": true,
+            "checked": 36,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "G": {
+            "holds": true,
+            "checked": 6,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "H": {
+            "holds": true,
+            "checked": 17,
+            "skipped": 19,
+            "failures": [],
+            "note": ""
+          },
+          "J": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "F": {
+        "size": 14,
+        "name": "p308_F",
+        "failed": [
+          "F"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 14,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": true,
+            "checked": 192,
+            "skipped": 4,
+            "failures": [],
+            "note": ""
+          },
+          "C": {
+            "holds": true,
+            "checked": 2632,
+            "skipped": 112,
+            "failures": [],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": false,
+            "checked": 196,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 1,
+                "b": 8,
+                "output": 9
+              },
+              {
+                "a": 2,
+                "b": 4,
+                "output": 6
+              },
+              {
+                "a": 4,
+                "b": 2,
+                "output": 6
+              }
+            ],
+            "note": ""
+          },
+          "G": {
+            "holds": true,
+            "checked": 14,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "H": {
+            "holds": true,
+            "checked": 129,
+            "skipped": 67,
+            "failures": [],
+            "note": ""
+          },
+          "J": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "G": {
+        "size": 3,
+        "name": "p308_G",
+        "failed": [
+          "G"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 3,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": true,
+            "checked": 9,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "C": {
+            "holds": true,
+            "checked": 27,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": true,
+            "checked": 9,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "G": {
+            "holds": false,
+            "checked": 3,
+            "skipped": 0,
+            "failures": [
+              {
+                "a": 2,
+                "complements": []
+              }
+            ],
+            "note": ""
+          },
+          "H": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 0,
+            "failures": [],
+            "note": "H vacuous: one of A,D,E,G is false"
+          },
+          "J": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "H": {
+        "size": 5,
+        "name": "p308_H",
+        "failed": [
+          "H"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": true,
+            "checked": 25,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "C": {
+            "holds": true,
+            "checked": 125,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": true,
+            "checked": 25,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "G": {
+            "holds": true,
+            "checked": 5,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "H": {
+            "holds": false,
+            "checked": 15,
+            "skipped": 15,
+            "failures": [
+              {
+                "a": 4,
+                "b": 3,
+                "bar_b": 2,
+                "zero": 0,
+                "witnesses": []
+              }
+            ],
+            "note": ""
+          },
+          "J": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          }
+        }
+      },
+      "J": {
+        "size": 1,
+        "name": "p308_J",
+        "failed": [
+          "J"
+        ],
+        "checks": {
+          "A": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "B": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "C": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "D": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "E": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "F": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "G": {
+            "holds": true,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [],
+            "note": ""
+          },
+          "H": {
+            "holds": true,
+            "checked": 0,
+            "skipped": 1,
+            "failures": [],
+            "note": ""
+          },
+          "J": {
+            "holds": false,
+            "checked": 1,
+            "skipped": 0,
+            "failures": [
+              {
+                "size": 1
+              }
+            ],
+            "note": ""
+          }
+        }
+      }
+    }
+  },
+  "powersets": [
+    {
+      "bits": 1,
+      "size": 2,
+      "first_failed": [],
+      "second_failed": [],
+      "third_failed": []
+    },
+    {
+      "bits": 2,
+      "size": 4,
+      "first_failed": [],
+      "second_failed": [],
+      "third_failed": []
+    },
+    {
+      "bits": 3,
+      "size": 8,
+      "first_failed": [],
+      "second_failed": [],
+      "third_failed": []
+    },
+    {
+      "bits": 4,
+      "size": 16,
+      "first_failed": [],
+      "second_failed": [],
+      "third_failed": []
+    }
+  ],
+  "teaching_saturated_addition": {
+    "size": 3,
+    "name": "teaching_saturated_addition",
+    "failed": [
+      "A"
+    ],
+    "checks": {
+      "A": {
+        "holds": false,
+        "checked": 3,
+        "skipped": 0,
+        "failures": [
+          {
+            "assignment": {
+              "a": 1
+            },
+            "left": 2,
+            "right": 1
+          }
+        ],
+        "note": ""
+      },
+      "B": {
+        "holds": true,
+        "checked": 9,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "C": {
+        "holds": true,
+        "checked": 27,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "D": {
+        "holds": true,
+        "checked": 1,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "E": {
+        "holds": true,
+        "checked": 1,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "F": {
+        "holds": true,
+        "checked": 9,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "G": {
+        "holds": true,
+        "checked": 3,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      },
+      "H": {
+        "holds": true,
+        "checked": 0,
+        "skipped": 0,
+        "failures": [],
+        "note": "H vacuous: one of A,D,E,G is false"
+      },
+      "J": {
+        "holds": true,
+        "checked": 1,
+        "skipped": 0,
+        "failures": [],
+        "note": ""
+      }
+    }
+  },
+  "enumeration": {
+    "first": [
+      {
+        "n": 1,
+        "checked": 1,
+        "valid": 0
+      },
+      {
+        "n": 2,
+        "checked": 256,
+        "valid": 2
+      }
+    ],
+    "second": [
+      {
+        "n": 1,
+        "checked": 2,
+        "valid": 0
+      },
+      {
+        "n": 2,
+        "checked": 16,
+        "valid": 2
+      },
+      {
+        "n": 3,
+        "checked": 512,
+        "valid": 0
+      }
+    ],
+    "third": [
+      {
+        "n": 1,
+        "checked": 1,
+        "valid": 0
+      },
+      {
+        "n": 2,
+        "checked": 16,
+        "valid": 2
+      },
+      {
+        "n": 3,
+        "checked": 19683,
+        "valid": 0
+      }
+    ]
+  },
+  "original_infinite_not_machine_exhausted": {
+    "second": [
+      "4",
+      "5",
+      "separate 6/7 independence among first seven via planar regions"
+    ],
+    "third": [
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "runtime_seconds": 1.400979
+}

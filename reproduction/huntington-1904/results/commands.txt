@@ -1,0 +1,12 @@
+# Executed from reproduction/huntington-1904; outputs are genuine.
+python -m unittest -v > results/tests.log 2>&1
+python run_experiments.py --out results/experiments.json > results/experiments.log 2>&1
+python independent_checks.py > results/independent-checks.log 2>&1
+python build_notebook.py
+python execute_notebook.py tutorial.zh-CN.ipynb > results/notebook-execution.log 2>&1
+# Notebook was initially scaffolded with the installed jupyter-notebook skill's
+# scripts/new_notebook.py --kind tutorial, then filled by build_notebook.py.
+# The source PDF and page renders remain outside this deliverable.
+
+# Final validation reran unittest, experiments, independent checks, and notebook
+# on the current sources. All passed; see artifact-validation.log.

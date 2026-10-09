@@ -1,0 +1,27 @@
+test_all_seven_second_original_witnesses (test_huntington.HuntingtonTests.test_all_seven_second_original_witnesses) ... ok
+test_all_six_third_original_witnesses (test_huntington.HuntingtonTests.test_all_six_third_original_witnesses) ... ok
+test_all_ten_first_original_witnesses (test_huntington.HuntingtonTests.test_all_ten_first_original_witnesses) ... ok
+test_bounded_complete_counts (test_huntington.HuntingtonTests.test_bounded_complete_counts) ... ok
+test_closed_first_crosscheck_all_257_pairs (test_huntington.HuntingtonTests.test_closed_first_crosscheck_all_257_pairs) ... ok
+test_external_outputs_are_not_domain_members (test_huntington.HuntingtonTests.test_external_outputs_are_not_domain_members) ... ok
+test_first_complement_vacuity (test_huntington.HuntingtonTests.test_first_complement_vacuity) ... ok
+test_fourteen_union_guarded_associativity (test_huntington.HuntingtonTests.test_fourteen_union_guarded_associativity) ... ok
+test_guards_do_not_assume_closure (test_huntington.HuntingtonTests.test_guards_do_not_assume_closure) ... ok
+test_invalid_inputs (test_huntington.HuntingtonTests.test_invalid_inputs) ... ok
+test_joint_failure_and_reduced_independence (test_huntington.HuntingtonTests.test_joint_failure_and_reduced_independence) ... ok
+test_missing_subset_labels (test_huntington.HuntingtonTests.test_missing_subset_labels) ... ok
+test_modern_saturated_addition_only_A_fails (test_huntington.HuntingtonTests.test_modern_saturated_addition_only_A_fails) ... ok
+test_multiple_complements_never_choose_only_first (test_huntington.HuntingtonTests.test_multiple_complements_never_choose_only_first) ... ok
+test_original_nonassociativity (test_huntington.HuntingtonTests.test_original_nonassociativity) ... ok
+test_original_nontransitivity (test_huntington.HuntingtonTests.test_original_nontransitivity) ... ok
+test_original_relation_exempts_equal_bound (test_huntington.HuntingtonTests.test_original_relation_exempts_equal_bound) ... ok
+test_powersets_all_three_presentations (test_huntington.HuntingtonTests.test_powersets_all_three_presentations) ... ok
+test_projection_nonunique_bounds_convention (test_huntington.HuntingtonTests.test_projection_nonunique_bounds_convention) ... ok
+test_reconstruction_from_relation (test_huntington.HuntingtonTests.test_reconstruction_from_relation) ... ok
+test_singleton_nontriviality (test_huntington.HuntingtonTests.test_singleton_nontriviality) ... ok
+test_third_H_original_antecedent_has_D (test_huntington.HuntingtonTests.test_third_H_original_antecedent_has_D) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.486s
+
+OK

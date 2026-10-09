@@ -1,0 +1,7 @@
+UTC: 2026-10-09T20:51:51.107643+00:00
+Python: 3.12.14
+Implementation: CPython
+OS: Linux x86_64
+Dependencies: Python standard library only
+Notebook runner: sequential stdlib exec; NOT a Jupyter/IPython kernel
+No package installs, network services, remote publication or GPU.

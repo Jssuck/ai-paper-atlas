@@ -4,36 +4,36 @@
   "checked_on": "2026-10-09",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "按已登记的Schönfinkel1924第306页脚注2前驱缺口回填Sheffer1913；只处理这一篇，Curry1929本轮仅更新全文可得性。",
-    "main_window": "Sheffer1913原刊481–488全文；有界核查Huntington1904相关段落、PM1910第一版94–101、Schönfinkel1924第306页与Taylor1920第449–450页。",
-    "coverage": "此前七候选及全部历史记录保留；新增Sheffer1913、已取得未读的Curry1929及Huntington1904直接前驱条目。更早书目另列背景缺口，不冒充已完成全文检索。",
+    "selection_context": "回填Sheffer1913直接前驱Huntington1904；选择时已登记、边界明确的未完成论文中最早者。更早书籍已确认可得但尚未精读，不以书籍未完成否认该缺口。",
+    "main_window": "Huntington1904原刊288–309全22页及直接适用的1904p552勘误；更早文献仅做来源与引用范围核查。",
+    "coverage": "保留之前所有候选、状态与历史快照；新登记原文明确指向的Kempe1890论文及Ladd1883、Peirce1880/1885等前驱线索。",
     "nonexhaustive": true,
     "not_claimed": [
-      "不声称Sheffer1913是第一篇AI论文、最早单一二元运算公设化或最早逻辑前史。",
-      "不把书目定位、原文取得、指定页阅读、全文精读、数学核验与发布混同。",
-      "不把原五公设普通独立性说成完全独立性；有限枚举不证明一般定理。",
-      "Curry1930仍仅Part I完成，Part II及其一般表示定理证明未完成。",
-      "Church1933后页、Curry1931全文及其他既有缺口全部保留。",
-      "本轮未定位到适用正式勘误，不声称不存在；AMS访问失败与检索范围见来源账本。"
+      "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
+      "Boole1854、Schröder1890、Whitehead1898等公开书籍仍未完成精读；来源可得不等于已读。",
+      "第二组显示十条但删6或7后才得九条独立基；不把逐项独立等同完全独立。",
+      "原非封闭规则与有条件公设按原语义解释；有限枚举不替代无限反模型或一般定理。",
+      "Curry1930第二部分、Church1933后页、Curry1931全文与所有既有缺口继续保留。",
+      "发表、收稿、报告日期分开；1904p552适用勘误已核图，仅补292页Leibniz文献脚注，不改数学公设。"
     ],
-    "known_earlier_near_neighbor": "Sheffer引言明列Boole1854、Schröder1890、Whitehead1898、Huntington1904等；已登记它们的阅读范围，不能以当前已完成节点替代穷尽历史。"
+    "known_earlier_near_neighbor": "从本篇脚注继续发现1883、1890等具体论文线索；本篇完成不会使它们自动变成已读。"
   },
   "current_selection": {
-    "candidate_id": "sheffer-1913",
-    "pages": "481–488",
-    "why_selected": "回填既有earlier_background_gaps中由Schönfinkel1924原文明确指向的较早文献，原刊全文可核验；不是全史最早性判断。",
-    "mathematical_boundary": "保留K-rule可出K及P3–P5成员条件；主解释NOR与对偶NAND分开；普通独立不冒充完全独立；模型等价证明与有限程序测试分开。",
-    "completion": "原刊八页全部精读并核图，中文分析、来源账本、原创标准库代码、25项测试及8格执行Notebook已完成独立数学与代码复核；公开发布仍由远端提交另核。",
-    "article_path": "papers/1913/sheffer-five-postulates.zh-CN.md",
-    "source_ledger_path": "papers/1913/sheffer-five-postulates.sources.zh-CN.md",
-    "reproduction_path": "reproduction/sheffer-1913/README.md"
+    "candidate_id": "huntington-1904",
+    "pages": "288–309",
+    "errata_pages": "552",
+    "why_selected": "回填Sheffer1913直接前驱Huntington1904；选择时已登记、边界明确的未完成论文中最早者。更早书籍已确认可得但尚未精读，不以书籍未完成否认该缺口。",
+    "mathematical_boundary": "§1十条、§2删6或7的九条、§3九条；守卫式非封闭规则、所有补见证、无限反模型、有限同构分类与程序检查分开。",
+    "completion": "原刊288–309全22页与正式勘误552已读核图；中文分析、三组公设/独立性、原创标准库复现、22项测试、9格执行Notebook和独立数学/代码复核完成；公开发布由远端提交另核。",
+    "article_path": "papers/1904/huntington-independent-postulates.zh-CN.md",
+    "source_ledger_path": "papers/1904/huntington-independent-postulates.sources.zh-CN.md",
+    "reproduction_path": "reproduction/huntington-1904/README.md"
   },
   "earlier_gap_priority": [
     {
       "priority": 1,
-      "subject": "已发现的1913年前布尔代数文献",
-      "candidate_id": "huntington-1904",
-      "next_evidence_needed": "先核Boole1854、Schröder1890、Whitehead1898等更早著作的相关篇章与全文条件；Huntington1904为直接论文前驱但尚未全篇核图。不能以已完成1913节点宣布更早覆盖结束。"
+      "subject": "更早可得书籍和原文新发现的1880/1883/1890线索",
+      "next_evidence_needed": "保留Boole1854、Schröder1890、Whitehead1898未读；核Peirce1880、Ladd1883与Kempe1890两篇的独立书目、完整页界与全文，再选下一篇。不要把1904当作穷尽起点。"
     },
     {
       "priority": 2,
@@ -58,6 +58,60 @@
     }
   ],
   "candidates": [
+    {
+      "id": "kempe-1890-classes-points",
+      "authors": [
+        "A. B. Kempe"
+      ],
+      "title": "On the relation between the logical theory of classes and the geometrical theory of points",
+      "publication": {
+        "year": 1890,
+        "month": 1,
+        "journal": "Proceedings of the London Mathematical Society",
+        "volume": "21",
+        "pages": "147–182"
+      },
+      "sources": [
+        {
+          "kind": "original_citation",
+          "url": "https://archive.org/download/jstor-1986459/1986459.pdf#page=3",
+          "coverage": "Huntington1904原刊289页脚注明确题名、卷页、January1890。"
+        }
+      ],
+      "status": {
+        "retrieval": "本轮只定位原文引文，未取得论文全文。",
+        "reading": "尚未精读。",
+        "limits": "书目信息来自Huntington引用，后续须核独立原刊记录与全文。"
+      },
+      "selection_disposition": "新发现更早论文线索，保留下一轮来源和篇幅核查，不与当前1904同时启动。"
+    },
+    {
+      "id": "kempe-1890-exact-thought",
+      "authors": [
+        "A. B. Kempe"
+      ],
+      "title": "The subject-matter of exact thought",
+      "publication": {
+        "year": 1890,
+        "month": 12,
+        "journal": "Nature",
+        "volume": "43",
+        "pages": "156–162"
+      },
+      "sources": [
+        {
+          "kind": "original_citation",
+          "url": "https://archive.org/download/jstor-1986459/1986459.pdf#page=3",
+          "coverage": "Huntington1904原刊289页脚注明确题名、卷页、December1890。"
+        }
+      ],
+      "status": {
+        "retrieval": "本轮只定位原文引文，未取得全文。",
+        "reading": "尚未精读。",
+        "limits": "独立书目与版本待核。"
+      },
+      "selection_disposition": "新发现更早候选，未读，不因本次1904完成而省略。"
+    },
     {
       "id": "huntington-1904",
       "authors": [
@@ -84,14 +138,78 @@
           "kind": "direct_original_citation",
           "url": "https://archive.org/download/jstor-1988701/1988701.pdf#page=7",
           "coverage": "Sheffer486页原图重列第一组十公设并给双向定义。"
+        },
+        {
+          "kind": "complete_original_scan",
+          "url": "https://archive.org/download/jstor-1986459/1986459.pdf",
+          "coverage": "23PDF页，后加封面+原刊288–309全22页，全文已读并核图。"
+        },
+        {
+          "kind": "independent_original_scan",
+          "url": "https://zenodo.org/records/1431563/files/article.pdf?download=1",
+          "coverage": "22原刊页，逐页图像与表格核验。"
+        },
+        {
+          "kind": "applicable_formal_errata",
+          "url": "https://doi.org/10.1090/S0002-9947-1904-1500471-8",
+          "coverage": "1904卷5第4期552页正式勘误，已读取原图：补292页第二脚注Couturat1903 Leibniz文集，不改公设、证明或表格。"
+        },
+        {
+          "kind": "applicable_errata_scan",
+          "url": "https://archive.org/download/jstor-1986281/1986281.pdf#page=5",
+          "coverage": "5PDF页，封面后549–552；第5页本篇条目已核图。"
         }
       ],
       "status": {
-        "retrieval": "原文镜像文字可访问，独立本地下载失败。",
-        "reading": "有界前驱背景核查，非全篇精读。",
-        "limits": "未审计全部表格及各组等价证明；Sheffer已指出第三组先前只用一种组合规则。"
+        "retrieval": "两个有效原刊全22页扫描与正式勘误552均完整取得。",
+        "reading": "原刊288–309全文及公式/表格逐页核图；适用552勘误已核图整合。",
+        "limits": "不是证明助理认证；无限模型用数学论证，有限程序不替代一般定理；未精读前驱全书或解决305页问题后续史。",
+        "completion": "completed",
+        "completed_on": "2026-10-09",
+        "execution": "22单元测试、23个原文有限结构、9个Notebook代码格标准库exec执行；独立26857表/关系与16个换标签模型对照通过。"
       },
-      "selection_disposition": "较早直接前驱，保留下一次年代回填评估；更早书籍背景仍需先核范围和可得性。"
+      "selection_disposition": "本轮完成历史回填；仓库远端发布状态仍由提交核验，不把更早背景缺口计完成。",
+      "previous_record": {
+        "id": "huntington-1904",
+        "authors": [
+          "Edward V. Huntington"
+        ],
+        "title": "Sets of Independent Postulates for the Algebra of Logic",
+        "publication": {
+          "year": 1904,
+          "month": 7,
+          "journal": "Transactions of the American Mathematical Society",
+          "volume": "5",
+          "issue": "3",
+          "pages": "288–309",
+          "doi": "10.2307/1986459",
+          "ams_doi": "10.1090/S0002-9947-1904-1500675-4"
+        },
+        "sources": [
+          {
+            "kind": "original_scan_text",
+            "url": "https://home.engineering.iastate.edu/alexs/classes/2015_Fall_281/readings/Huntington_1904.pdf",
+            "coverage": "只核带原页码提取文字288–291、292–294、296、306–307；本地镜像下载失败，不称逐符视觉核验。"
+          },
+          {
+            "kind": "direct_original_citation",
+            "url": "https://archive.org/download/jstor-1988701/1988701.pdf#page=7",
+            "coverage": "Sheffer486页原图重列第一组十公设并给双向定义。"
+          }
+        ],
+        "status": {
+          "retrieval": "原文镜像文字可访问，独立本地下载失败。",
+          "reading": "有界前驱背景核查，非全篇精读。",
+          "limits": "未审计全部表格及各组等价证明；Sheffer已指出第三组先前只用一种组合规则。"
+        },
+        "selection_disposition": "较早直接前驱，保留下一次年代回填评估；更早书籍背景仍需先核范围和可得性。"
+      },
+      "deliverables": {
+        "article": "papers/1904/huntington-independent-postulates.zh-CN.md",
+        "source_ledger": "papers/1904/huntington-independent-postulates.sources.zh-CN.md",
+        "reproduction": "reproduction/huntington-1904/README.md",
+        "notebook": "reproduction/huntington-1904/tutorial.zh-CN.ipynb"
+      }
     },
     {
       "id": "sheffer-1913",
@@ -508,9 +626,8 @@
     }
   ],
   "next_source_gap": {
-    "subject": "1913年前直接前驱的来源与篇章核查",
-    "candidate_id": "huntington-1904",
-    "target": "结合Sheffer新发现的Boole1854、Schröder1890、Whitehead1898与Huntington1904线索，先核较早相关范围；不得据有界记录声称穷尽。Curry1929已取得未读，Curry1930第二部分及Church1933后页仍待补。"
+    "subject": "Huntington脚注指向的更早逻辑代数文献",
+    "target": "先核更早书籍篇章与Peirce1880/Ladd1883/Kempe1890线索；1904已完成后再选择，不同时启动多篇。Curry1929、Curry1930PartII、Church1933后页、Curry1931等旧缺口原样保留。"
   },
   "selection_history": [
     {
@@ -706,6 +823,572 @@
         "Huntington1904及更早书籍线索保留。",
         "Curry1929原刊取得但未精读，不另起活动论文。"
       ]
+    },
+    {
+      "checked_on": "2026-10-09",
+      "event": "preserved_before_huntington1904_backfill",
+      "snapshot": {
+        "schema_version": "1.0",
+        "title": "早期逻辑与计算基础：有界候选与补读记录",
+        "checked_on": "2026-10-09",
+        "language": "zh-CN",
+        "scope": {
+          "selection_context": "按已登记的Schönfinkel1924第306页脚注2前驱缺口回填Sheffer1913；只处理这一篇，Curry1929本轮仅更新全文可得性。",
+          "main_window": "Sheffer1913原刊481–488全文；有界核查Huntington1904相关段落、PM1910第一版94–101、Schönfinkel1924第306页与Taylor1920第449–450页。",
+          "coverage": "此前七候选及全部历史记录保留；新增Sheffer1913、已取得未读的Curry1929及Huntington1904直接前驱条目。更早书目另列背景缺口，不冒充已完成全文检索。",
+          "nonexhaustive": true,
+          "not_claimed": [
+            "不声称Sheffer1913是第一篇AI论文、最早单一二元运算公设化或最早逻辑前史。",
+            "不把书目定位、原文取得、指定页阅读、全文精读、数学核验与发布混同。",
+            "不把原五公设普通独立性说成完全独立性；有限枚举不证明一般定理。",
+            "Curry1930仍仅Part I完成，Part II及其一般表示定理证明未完成。",
+            "Church1933后页、Curry1931全文及其他既有缺口全部保留。",
+            "本轮未定位到适用正式勘误，不声称不存在；AMS访问失败与检索范围见来源账本。"
+          ],
+          "known_earlier_near_neighbor": "Sheffer引言明列Boole1854、Schröder1890、Whitehead1898、Huntington1904等；已登记它们的阅读范围，不能以当前已完成节点替代穷尽历史。"
+        },
+        "current_selection": {
+          "candidate_id": "sheffer-1913",
+          "pages": "481–488",
+          "why_selected": "回填既有earlier_background_gaps中由Schönfinkel1924原文明确指向的较早文献，原刊全文可核验；不是全史最早性判断。",
+          "mathematical_boundary": "保留K-rule可出K及P3–P5成员条件；主解释NOR与对偶NAND分开；普通独立不冒充完全独立；模型等价证明与有限程序测试分开。",
+          "completion": "原刊八页全部精读并核图，中文分析、来源账本、原创标准库代码、25项测试及8格执行Notebook已完成独立数学与代码复核；公开发布仍由远端提交另核。",
+          "article_path": "papers/1913/sheffer-five-postulates.zh-CN.md",
+          "source_ledger_path": "papers/1913/sheffer-five-postulates.sources.zh-CN.md",
+          "reproduction_path": "reproduction/sheffer-1913/README.md"
+        },
+        "earlier_gap_priority": [
+          {
+            "priority": 1,
+            "subject": "已发现的1913年前布尔代数文献",
+            "candidate_id": "huntington-1904",
+            "next_evidence_needed": "先核Boole1854、Schröder1890、Whitehead1898等更早著作的相关篇章与全文条件；Huntington1904为直接论文前驱但尚未全篇核图。不能以已完成1913节点宣布更早覆盖结束。"
+          },
+          {
+            "priority": 2,
+            "candidate_id": "curry-1929",
+            "next_evidence_needed": "原刊363–384全文现已取得但未读；保留在年代回填范围，不标记完成。"
+          },
+          {
+            "priority": 3,
+            "candidate_id": "curry-1930",
+            "part": "II",
+            "next_evidence_needed": "取得并精读789–834；接续II.C–E，核表示唯一性、存在性与proper combinator范围内的无变量等式证明。"
+          },
+          {
+            "priority": 4,
+            "candidate_id": "curry-1931",
+            "next_evidence_needed": "取得154–180原文，核正式刊期与全称量词机制；摘要与后文引用不替代全文。"
+          },
+          {
+            "priority": 5,
+            "candidate_id": "huntington-1932",
+            "next_evidence_needed": "1932年2月两页已读，完整深读与有限模型实验尚未完成；应在较晚候选前评估，不因主题热度越过。"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "huntington-1904",
+            "authors": [
+              "Edward V. Huntington"
+            ],
+            "title": "Sets of Independent Postulates for the Algebra of Logic",
+            "publication": {
+              "year": 1904,
+              "month": 7,
+              "journal": "Transactions of the American Mathematical Society",
+              "volume": "5",
+              "issue": "3",
+              "pages": "288–309",
+              "doi": "10.2307/1986459",
+              "ams_doi": "10.1090/S0002-9947-1904-1500675-4"
+            },
+            "sources": [
+              {
+                "kind": "original_scan_text",
+                "url": "https://home.engineering.iastate.edu/alexs/classes/2015_Fall_281/readings/Huntington_1904.pdf",
+                "coverage": "只核带原页码提取文字288–291、292–294、296、306–307；本地镜像下载失败，不称逐符视觉核验。"
+              },
+              {
+                "kind": "direct_original_citation",
+                "url": "https://archive.org/download/jstor-1988701/1988701.pdf#page=7",
+                "coverage": "Sheffer486页原图重列第一组十公设并给双向定义。"
+              }
+            ],
+            "status": {
+              "retrieval": "原文镜像文字可访问，独立本地下载失败。",
+              "reading": "有界前驱背景核查，非全篇精读。",
+              "limits": "未审计全部表格及各组等价证明；Sheffer已指出第三组先前只用一种组合规则。"
+            },
+            "selection_disposition": "较早直接前驱，保留下一次年代回填评估；更早书籍背景仍需先核范围和可得性。"
+          },
+          {
+            "id": "sheffer-1913",
+            "authors": [
+              "Henry Maurice Sheffer"
+            ],
+            "title": "A Set of Five Independent Postulates for Boolean Algebras, with Application to Logical Constants",
+            "publication": {
+              "year": 1913,
+              "month": 10,
+              "journal": "Transactions of the American Mathematical Society",
+              "volume": "14",
+              "issue": "4",
+              "pages": "481–488",
+              "doi": "10.2307/1988701",
+              "ams_doi": "10.1090/S0002-9947-1913-1500960-1",
+              "presentation_date": "1912-12-31",
+              "author_dateline": "1913-02"
+            },
+            "sources": [
+              {
+                "kind": "original_scan",
+                "url": "https://archive.org/download/jstor-1988701/1988701.pdf",
+                "coverage": "9页PDF，首封面后481–488全部八页；已逐页核图。"
+              },
+              {
+                "kind": "publication_record",
+                "url": "https://www.jstor.org/stable/1988701",
+                "coverage": "14(4),October1913,481–488。"
+              },
+              {
+                "kind": "publisher_metadata",
+                "url": "https://api.crossref.org/works/10.1090/S0002-9947-1913-1500960-1",
+                "coverage": "AMS DOI及题名卷页；AMS正文入口403，不据此声称已读。"
+              }
+            ],
+            "status": {
+              "retrieval": "全文取得，PDF189381字节；封面不算论文正文。",
+              "reading": "481–488全部精读并核图；全部公设、五个独立性模型、主要等价链与两项逻辑定理核验。",
+              "limits": "无证明助理认证；有界来源搜索未找到适用正式勘误。脚注G疑似缺竖线，单列教学校补，主证明不依赖它。Taylor1920的完全独立性加强只核449–450页，Dines1915仅核引文。"
+            },
+            "selection_disposition": "本轮完成目标为全八页；发布状态另由远端提交确认。",
+            "deliverables": {
+              "article": "papers/1913/sheffer-five-postulates.zh-CN.md",
+              "source_ledger": "papers/1913/sheffer-five-postulates.sources.zh-CN.md",
+              "reproduction": "reproduction/sheffer-1913/README.md",
+              "notebook": "reproduction/sheffer-1913/tutorial.zh-CN.ipynb"
+            }
+          },
+          {
+            "id": "schonfinkel-1924",
+            "authors": [
+              "M. Schönfinkel"
+            ],
+            "title": "Über die Bausteine der mathematischen Logik",
+            "publication": {
+              "year": 1924,
+              "month": 9,
+              "journal": "Mathematische Annalen",
+              "volume": "92",
+              "pages": "305–316",
+              "doi": "10.1007/BF01448013",
+              "received": "1924-03-15"
+            },
+            "chronology_note": "原刊说明内容来自1920-12-07 Göttingen演讲，出版文字由H. Behmann整理；演讲日期与1924刊期须分开。",
+            "sources": [
+              {
+                "kind": "publisher",
+                "url": "https://link.springer.com/article/10.1007/BF01448013",
+                "coverage": "标题、作者、页码、刊期、收稿及演讲/整理说明"
+              },
+              {
+                "kind": "original_scan_mirror",
+                "url": "https://www.cip.ifi.lmu.de/~langeh/test/1924%20-%20Schoenfinkel%20-%20Ueber%20die%20Bausteine%20der%20mathematischen%20Logik.pdf",
+                "coverage": "完整原页扫描"
+              },
+              {
+                "kind": "original_citation",
+                "url": "https://www.jstor.org/stable/1968337",
+                "coverage": "Church 1932原页352脚注11明示引用"
+              }
+            ],
+            "status": {
+              "retrieval": "已取得并逐页核对13张PDF页，其中1张数字化封面及原刊305–316完整12页；来源PDF不随仓库再发布。",
+              "reading": "已全篇精读并核图：五种函数、I/Z/T消去等式、U量化、314–315完整例子、315脚注5与316受限对应。正文含逐页主张账本、现代重构证明及独立数学/代码核验。",
+              "limits": "原文313明确省略完整一般消元证明；本篇现代括号抽象与有限测试不冒充原文全部逻辑体系、一致性或可判定性证明。",
+              "completion": "completed",
+              "completed_on": "2026-10-09"
+            },
+            "selection_disposition": "本轮完成主文；保留原扫描为外链，不再列为未完成补读。",
+            "deliverables": {
+              "article": "papers/1924/schonfinkel-building-blocks.zh-CN.md",
+              "reproduction": "reproduction/schonfinkel-1924/README.md",
+              "notebook": "reproduction/schonfinkel-1924/tutorial.ipynb"
+            }
+          },
+          {
+            "id": "curry-1929",
+            "authors": [
+              "Haskell B. Curry"
+            ],
+            "title": "An Analysis of Logical Substitution",
+            "publication": {
+              "year": 1929,
+              "month": 7,
+              "journal": "American Journal of Mathematics",
+              "volume": "51",
+              "issue": "3",
+              "pages": "363–384",
+              "doi": "10.2307/2370728"
+            },
+            "sources": [
+              {
+                "kind": "original_issue_scan",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/American_Journal_of_Mathematics_1929-07-_Vol_51_Iss_3_%28IA_sim_american-journal-of-mathematics_1929-07_51_3%29.pdf",
+                "coverage": "本轮来源核查已取得整期，PDF39–60对应原刊363–384；仅更新可得性。"
+              },
+              {
+                "kind": "direct_original_citation",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/American_Journal_of_Mathematics_1930-07-_Vol_52_Iss_3_%28IA_sim_american-journal-of-mathematics_1930-07_52_3%29.pdf#page=75",
+                "coverage": "既有Curry1930第一部分509、514页脚注。"
+              }
+            ],
+            "status": {
+              "retrieval": "完整原刊扫描已取得。",
+              "reading": "尚未精读1929全文；本轮唯一活动论文是Sheffer1913。",
+              "limits": "不能因取得全文而标记完成；未在本轮预审其全部论证。"
+            },
+            "selection_disposition": "保留年代回填候选，未因1930节点已完成而跳过。"
+          },
+          {
+            "id": "curry-1930",
+            "authors": [
+              "H. B. Curry"
+            ],
+            "title": "Grundlagen der kombinatorischen Logik",
+            "publication": {
+              "year": 1930,
+              "journal": "American Journal of Mathematics",
+              "volume": "52",
+              "parts": [
+                {
+                  "part": "I",
+                  "month": 7,
+                  "issue": "3",
+                  "pages": "509–536",
+                  "doi": "10.2307/2370619"
+                },
+                {
+                  "part": "II",
+                  "month": 10,
+                  "issue": "4",
+                  "pages": "789–834",
+                  "doi": "10.2307/2370716"
+                }
+              ]
+            },
+            "sources": [
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/2370619",
+                "coverage": "Teil I书目和刊期"
+              },
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/2370716",
+                "coverage": "Teil II书目和刊期，脚注标明Teil I页码"
+              },
+              {
+                "kind": "library_catalog",
+                "url": "https://ci.nii.ac.jp/ncid/BB01264202",
+                "coverage": "图书馆单行本记录交叉确认1930年7月/10月及两段页码"
+              },
+              {
+                "kind": "issue_scan",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/American_Journal_of_Mathematics_1930-07-_Vol_52_Iss_3_%28IA_sim_american-journal-of-mathematics_1930-07_52_3%29.pdf",
+                "coverage": "已定位含Teil I的原刊整期公开扫描，检索文本可见其起首页"
+              }
+            ],
+            "status": {
+              "retrieval": "已取得239页原刊整期公开扫描；PDF第75–102页对应Teil I原刊509–536全部28页。Teil II仅核书目，未读取全文。",
+              "reading": "Teil I全文已读；主要形式定义、规则、公理与证明按扫描图像核验，独立审查全部28页及中文数学推导。源码经独立有界反例和随机项审查；不把这些测试当作原理论完备性证明。",
+              "limits": "不能把后来的Curry合并逻辑体系不一致倒推到本篇；不能把方向性归约实验视作原体系全部等式推理；不能把Part II的表示定理及证明计入完成。",
+              "previous_record": {
+                "retrieval": "两部分书目已核；Teil I整期扫描已定位，但未完整下载；Teil II全文未取得。",
+                "reading": "未全篇精读。",
+                "limits": "不能把后来的Curry体系不一致结论直接倒推到这篇单独的公理系统。"
+              },
+              "completion": "partially_completed",
+              "parts": {
+                "I": {
+                  "pages": "509–536",
+                  "completion": "completed",
+                  "completed_on": "2026-10-09",
+                  "scope": "I章A–D、II章A–B；16组合子公理中BW实现采用534页明确重写，521页字面读法差异另有反例和版本披露。",
+                  "execution": "34单元测试通过；独立1500有限项与588步证书通过；Notebook10代码格标准库exec执行并逐格复跑输出相同，未启动Jupyter kernel。"
+                },
+                "II": {
+                  "pages": "789–834",
+                  "completion": "not_completed",
+                  "reading": "本轮仅核书目及Teil I中的指向，不声称阅读全文或核验其主定理证明。"
+                }
+              },
+              "source_critical_note": "521页Ax.(BW)字面括号读法与534页乘积重述呈可复算差异；此处只报告疑似排印问题，不声称取得官方勘误。533页结合律证明首项按定义作显式教学重构。"
+            },
+            "selection_disposition": "本轮完成目标为第一部分；第二部分保留缺口。",
+            "deliverables": {
+              "article": "papers/1930/curry-foundations-part1.zh-CN.md",
+              "source_ledger": "papers/1930/curry-foundations-part1.sources.zh-CN.md",
+              "reproduction": "reproduction/curry-1930-part1/README.md",
+              "notebook": "reproduction/curry-1930-part1/tutorial.ipynb"
+            }
+          },
+          {
+            "id": "curry-1931",
+            "authors": [
+              "H. B. Curry"
+            ],
+            "title": "The Universal Quantifier in Combinatory Logic",
+            "publication": {
+              "year": 1931,
+              "journal": "Annals of Mathematics",
+              "series": "Second Series",
+              "volume": "32",
+              "issue": "1",
+              "pages": "154–180",
+              "doi": "10.2307/1968422"
+            },
+            "sources": [
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/1968422",
+                "coverage": "原刊稳定项"
+              },
+              {
+                "kind": "author_bibliography",
+                "url": "https://www.jstage.jst.go.jp/article/tmj1911/41/0/41_0_371/_pdf",
+                "coverage": "Curry本人First Properties of Functionality in Combinatory Logic末页书目"
+              },
+              {
+                "kind": "contemporary_abstract",
+                "url": "https://www.ams.org/journals/bull/1930-36-03/S0002-9904-1930-04929-0/S0002-9904-1930-04929-0.pdf",
+                "coverage": "1930年AMS摘要125，说明以无变量形式处理量词/替换的目标"
+              },
+              {
+                "kind": "original_followup",
+                "url": "https://www.cis.upenn.edu/~cis5110/Kleene-InconsistencyCertainFormal-1935.pdf",
+                "coverage": "KR1935原页631脚注3及636脚注14"
+              }
+            ],
+            "status": {
+              "retrieval": "原刊论文全文未取得；书目、同期摘要及作者后文引用已定位。",
+              "reading": "已读相关摘要和引用，未精读1931原文。",
+              "limits": "不能据1931年份断言其发表晚于Gödel 1931；本轮未完成同年刊期排序。"
+            },
+            "selection_disposition": "主题直接相邻，列为优先补读；未被宣告不相关。"
+          },
+          {
+            "id": "huntington-1932",
+            "authors": [
+              "Edward V. Huntington"
+            ],
+            "title": "A New Set of Independent Postulates for the Algebra of Logic with Special Reference to Whitehead and Russell's Principia Mathematica",
+            "publication": {
+              "year": 1932,
+              "month": 2,
+              "journal": "Proceedings of the National Academy of Sciences",
+              "volume": "18",
+              "issue": "2",
+              "pages": "179–180",
+              "doi": "10.1073/pnas.18.2.179",
+              "communicated": "1932-01-14"
+            },
+            "chronology_note": "原页180注明1931年12月在AMS报告后又修订；刊期为1932年2月，早于Church 1932年4月。",
+            "sources": [
+              {
+                "kind": "original_article",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1076183/",
+                "coverage": "原刊书目与179、180两页扫描"
+              },
+              {
+                "kind": "original_page",
+                "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/869a/1076183/990472bb50c0/pnas01730-0047.png",
+                "coverage": "179页：六条布尔代数公设及背景"
+              },
+              {
+                "kind": "original_page",
+                "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/869a/1076183/d322d34fb1f9/pnas01730-0048.png",
+                "coverage": "180页：仅用蕴涵的公设组、独立性详证待后续长文及演讲时间"
+              }
+            ],
+            "status": {
+              "retrieval": "已取得两页原图；PDF入口本次返回HTML，未把它当作有效PDF。",
+              "reading": "两页原文已全部目视阅读。",
+              "limits": "此篇是摘要性短报；不能声称文内已给出所有独立性模型和完整等价证明。"
+            },
+            "selection_disposition": "已检查但暂缓。对象是布尔代数及命题演算公设；本轮选取更直接涉及函数抽象和应用的Church论文。"
+          },
+          {
+            "id": "church-1932",
+            "authors": [
+              "Alonzo Church"
+            ],
+            "title": "A Set of Postulates for the Foundation of Logic",
+            "publication": {
+              "year": 1932,
+              "month": 4,
+              "journal": "Annals of Mathematics",
+              "series": "Second Series",
+              "volume": "33",
+              "issue": "2",
+              "pages": "346–366",
+              "doi": "10.2307/1968337"
+            },
+            "sources": [
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/1968337",
+                "coverage": "原刊稳定项"
+              },
+              {
+                "kind": "original_scan_mirror",
+                "url": "https://github.com/emintham/Papers/blob/master/Church-%20A%20Set%20of%20Postulates%20for%20the%20Foundation%20of%20Logic.pdf",
+                "coverage": "完整原刊扫描"
+              },
+              {
+                "kind": "archival_catalog",
+                "url": "https://findingaids.library.upenn.edu/records/PRIN_MUDD_C0948",
+                "coverage": "Princeton Church档案目录交叉确认1932年4月及346–366"
+              }
+            ],
+            "status": {
+              "retrieval": "已取得完整21页正文及书目封面。",
+              "reading": "全文已读；原刊355–366逐页核图，包括五条程序规则、37公设、Theorem I的16种归纳情况及Theorems II/III。",
+              "limits": "原刊OCR严重误识Σ、λ、Π和下标；公式核验以扫描为准。程序实验并未验证全部公设或原文逻辑一致性。"
+            },
+            "selection_disposition": "此前已完成主文；本轮保留原阅读与证据记录。"
+          },
+          {
+            "id": "church-1933",
+            "authors": [
+              "Alonzo Church"
+            ],
+            "title": "A Set of Postulates for the Foundation of Logic (Second Paper)",
+            "publication": {
+              "year": 1933,
+              "month": 10,
+              "journal": "Annals of Mathematics",
+              "volume": "34",
+              "issue": "4",
+              "pages": "839–864",
+              "doi": "10.2307/1968702",
+              "received": "1933-01-03"
+            },
+            "sources": [
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/1968702",
+                "coverage": "原刊稳定项；本次PDF入口未提供可读全文"
+              },
+              {
+                "kind": "archival_catalog",
+                "url": "https://findingaids.library.upenn.edu/records/PRIN_MUDD_C0948",
+                "coverage": "Princeton Church档案目录交叉确认1933年10月及839–864"
+              },
+              {
+                "kind": "embedded_original_page",
+                "url": "https://lsv.ens-paris-saclay.fr/~goubault/Lambda/lambda-agreg-1_compressed.pdf",
+                "coverage": "第8张幻灯片内嵌Church续篇首面影像，可读§1前两段与收稿脚注；引用的是原文影像，不采纳幻灯片作者的历史归因"
+              }
+            ],
+            "status": {
+              "retrieval": "只取得原刊首面影像；840页以后全文未取得。",
+              "reading": "已核首面§1：Church承认原公理表需修订，并点名Postulate 19导致修改版Russell悖论。",
+              "limits": "未核完整替换公理及排印勘误；首面开始的悖论构造跨页未完，不能声称已经完整重证。"
+            },
+            "selection_disposition": "本轮作为修订背景使用；完整续篇仍需补读。"
+          },
+          {
+            "id": "kleene-rosser-1935",
+            "authors": [
+              "S. C. Kleene",
+              "J. B. Rosser"
+            ],
+            "title": "The Inconsistency of Certain Formal Logics",
+            "publication": {
+              "year": 1935,
+              "month": 7,
+              "journal": "Annals of Mathematics",
+              "volume": "36",
+              "issue": "3",
+              "pages": "630–636",
+              "doi": "10.2307/1968646",
+              "received": "1934-11-13"
+            },
+            "sources": [
+              {
+                "kind": "journal_record",
+                "url": "https://www.jstor.org/stable/1968646",
+                "coverage": "原刊稳定项"
+              },
+              {
+                "kind": "original_scan_mirror",
+                "url": "https://www.cis.upenn.edu/~cis5110/Kleene-InconsistencyCertainFormal-1935.pdf",
+                "coverage": "全文扫描"
+              }
+            ],
+            "status": {
+              "retrieval": "已取得完整七页原文。",
+              "reading": "已阅读全文，重点核对630–632的论证概述、定理A及631页脚注3、6、8，另核定理B–D的对象。",
+              "limits": "未从头重证其依赖的Kleene 1934、1935整数理论。定理A的I–V明确采用1934修订；Curry目标是五篇工作的合并体系，不是1930或1931单篇。"
+            },
+            "selection_disposition": "后见历史证据；不能把原逻辑不一致与纯λ项转换的等式理论混同。"
+          }
+        ],
+        "next_source_gap": {
+          "subject": "1913年前直接前驱的来源与篇章核查",
+          "candidate_id": "huntington-1904",
+          "target": "结合Sheffer新发现的Boole1854、Schröder1890、Whitehead1898与Huntington1904线索，先核较早相关范围；不得据有界记录声称穷尽。Curry1929已取得未读，Curry1930第二部分及Church1933后页仍待补。"
+        },
+        "earlier_background_gaps": [
+          {
+            "subject": "Sheffer 1913原文",
+            "evidence": "Schönfinkel1924第306页脚注2直接引用",
+            "reading_status": "本轮481–488全八页已精读并核图；旧的未读状态保留在selection_history的完整快照。"
+          },
+          {
+            "subject": "Frege、Whitehead–Russell与Hilbert逻辑背景",
+            "evidence": "Schönfinkel1924第305–307页的背景说明",
+            "reading_status": "尚未以本篇为由声称完整覆盖或完成精读。"
+          },
+          {
+            "subject": "Curry 1929, An Analysis of Logical Substitution",
+            "evidence": "Curry1930 TeilI原刊509页脚注与514页脚注；AJM51（July1929）,363–384。",
+            "reading_status": "本轮取得完整原刊363–384扫描，尚未精读；不启动第二篇工作，来源在curry-1929条目。"
+          },
+          {
+            "subject": "Boole1854、Schröder1890、Whitehead1898及Müller1909",
+            "evidence": "Sheffer481页脚注的实际书目引用。",
+            "reading_status": "只核1913引文，未据此声称读完早期著作或穷尽优先权；下一次选择应核来源和篇章范围。"
+          },
+          {
+            "subject": "Huntington1904完整公设研究",
+            "evidence": "Sheffer481–482、486及Huntington相关带页码原文文字。",
+            "reading_status": "仅有界核查，完整精读尚未完成，详见候选条目。"
+          },
+          {
+            "subject": "Dines1915与Taylor1920的完全独立性问题",
+            "evidence": "Taylor1920原刊449–450及449页Dines引文。",
+            "reading_status": "仅作Sheffer普通独立性的后续边界核查；Dines全文未取得，Taylor全篇未读。"
+          }
+        ]
+      },
+      "previous_history_preserved": "此前selection_history各项原样保留在本数组前缀，不作删减。"
+    },
+    {
+      "checked_on": "2026-10-09",
+      "candidate_id": "huntington-1904",
+      "event": "completed_full_deep_reading",
+      "pages": "288–309",
+      "errata_pages": "552",
+      "note": "原刊288–309全22页与正式勘误552已读核图；中文分析、三组公设/独立性、原创标准库复现、22项测试、9格执行Notebook和独立数学/代码复核完成；公开发布由远端提交另核。",
+      "article": "papers/1904/huntington-independent-postulates.zh-CN.md",
+      "new_source_findings": [
+        "适用1904p552勘误实际存在，已读：只补Leibniz书目，不改数学。",
+        "§2十条显示含冗余，删6或7后才得九条独立基；第三组H原图为A,D,E,G。",
+        "更早Kempe1890两篇、Ladd1883与Peirce1880/1885等线索保留未读；更早书籍可得但未完成。"
+      ]
     }
   ],
   "earlier_background_gaps": [
@@ -727,17 +1410,45 @@
     {
       "subject": "Boole1854、Schröder1890、Whitehead1898及Müller1909",
       "evidence": "Sheffer481页脚注的实际书目引用。",
-      "reading_status": "只核1913引文，未据此声称读完早期著作或穷尽优先权；下一次选择应核来源和篇章范围。"
+      "reading_status": "Boole1854、Schröder1890、Whitehead1898公开全书/扫描来源已定位，仍未完成相关篇章或全书精读；Müller1909也仅核公开书目文件。它们是可得未读缺口，不是无法获取。",
+      "previous_reading_status": "只核1913引文，未据此声称读完早期著作或穷尽优先权；下一次选择应核来源和篇章范围。",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:An_Investigation_of_the_Laws_of_Thought_(1854,_Boole,_investigationofl00boolrich).djvu",
+        "https://www.biodiversitylibrary.org/bibliography/29413",
+        "https://goobi.tib.eu/viewer/fulltext/1030682658/152/",
+        "https://commons.wikimedia.org/wiki/File:Whitehead.1898.pdf",
+        "https://dspace.lu.lv/items/d1437d70-60fa-47aa-a060-d6ddcb3d3a26/full"
+      ]
     },
     {
       "subject": "Huntington1904完整公设研究",
       "evidence": "Sheffer481–482、486及Huntington相关带页码原文文字。",
-      "reading_status": "仅有界核查，完整精读尚未完成，详见候选条目。"
+      "reading_status": "原刊22页及正式勘误552已精读核图，中文分析/原创复现/独立复核完成；旧状态保留历史快照。"
     },
     {
       "subject": "Dines1915与Taylor1920的完全独立性问题",
       "evidence": "Taylor1920原刊449–450及449页Dines引文。",
       "reading_status": "仅作Sheffer普通独立性的后续边界核查；Dines全文未取得，Taylor全篇未读。"
+    },
+    {
+      "subject": "Christine Ladd1883, On the algebra of logic",
+      "evidence": "Huntington292页脚注：Studies in Logic by members of Johns Hopkins University1883,p18。",
+      "reading_status": "文章名与引用页已定位，完整文章页界/版本/全文待核；不冒充已完成1883论文。"
+    },
+    {
+      "subject": "Peirce1880与1885的分配律前文",
+      "evidence": "Huntington300–301脚注：AJM3(1880)p18、33；AJM7(1885)p190，并明确纠正Schröder1884引年。",
+      "reading_status": "只读1904引文，尚未独立核完整题名、页界及全文。"
+    },
+    {
+      "subject": "Poretskii1901与有限逻辑域前驱",
+      "evidence": "Huntington309脚注：Théorie des égalités logiques à trois termes a,b et c，Paris1900会议论文集vol3(1901),201–233；同页亦致谢Moore。",
+      "reading_status": "仅核引文，未深读全文。"
+    },
+    {
+      "subject": "Couturat1903的Leibniz未刊文集",
+      "evidence": "Huntington1904正式勘误552补充原文292第二脚注。",
+      "reading_status": "只读勘误引文，未精读1903文集；不作符号优先权穷尽结论。"
     }
   ]
 }
