@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "goedel-1931-incompleteness",
     "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
@@ -13,7 +13,7 @@
     "path": "papers/1936-1937/turing-computable-numbers.zh-CN.md",
     "version": "v2"
   },
-  "updated_at": "2026-10-09T15:36:27Z",
+  "updated_at": "2026-10-09T15:52:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",

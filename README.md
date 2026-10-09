@@ -10,17 +10,26 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
+| 1931 | [哥德尔不完备性论文精读](papers/1931/godel-formally-undecidable.zh-CN.md) | AI 前史回填：算术化、自指与形式系统边界 | 深读 v1 · 含实跑附件 |
 | 1936–1937 | [图灵《论可计算数》精读](papers/1936-1937/turing-computable-numbers.zh-CN.md) | AI 前史：可计算性基础 | 深读样稿 v2 · 含实跑附件 |
 
 样稿不等于历史起点已被唯一确定，也不意味着更早或同期工作会被跳过。后续正式目录需按公开来源、纳入规则和年代逐步补齐，不以名气或引用量决定处理优先级。
 
-## 本篇可运行附件
+## 图灵篇可运行附件
 
 - [复现说明、模型定义和执行命令](reproduction/turing-1936/README.zh-CN.md)
 - [交互式教学 Notebook](reproduction/turing-1936/turing_teaching.zh-CN.ipynb)
 - [测试日志](reproduction/turing-1936/tests.log) · [运行结果](reproduction/turing-1936/results.json)
 
 已实际执行 15 项单元测试与 9 个 Notebook 代码单元；后者使用标准库顺序执行器，并未通过 Jupyter 内核执行或完成页面渲染验证。小模型实验不构成对一般不可判定性的实验证明，也不是原文通用机的完整复现。
+
+## 哥德尔篇可运行附件
+
+- [编码、替换和有限证明的复现说明](reproduction/godel-1931/README.zh-CN.md)
+- [教学 Notebook](reproduction/godel-1931/godel1931_toy.ipynb)
+- [45 项测试及演示运行日志](reproduction/godel-1931/logs/test-and-demo-run.txt)
+
+Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行过 Jupyter 内核。有限编码与证明检查示例并非对不完备定理的计算验证。
 
 ## 每篇解析的共同标准
 

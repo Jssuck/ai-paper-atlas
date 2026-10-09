@@ -1,0 +1,62 @@
+{
+  "paper_id": "goedel-1931",
+  "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+  "author": "Kurt Gödel",
+  "year": 1931,
+  "journal": "Monatshefte für Mathematik und Physik",
+  "volume": 38,
+  "pages": "173–198",
+  "doi": "10.1007/BF01700692",
+  "received_date": "1930-11-17",
+  "chronology_role": "predecessor_backfill_before_turing_1936_1937",
+  "selection_reason_zh_CN": "补齐已经发表的图灵精读所依赖的算术化与形式证明前置环节；不声称更早历史已覆盖完毕。",
+  "sources": [
+    {
+      "id": "godel1931-original",
+      "url": "https://www.w-k-essler.de/pdfs/goedel.pdf",
+      "type": "primary_original_scan",
+      "scope_read": "Original journal pages 173–198; key negation/substitution symbols checked from page images.",
+      "pdf_pages": 27,
+      "page_map": "PDF 1-based page = journal page - 171; the initial PDF page is a later cover.",
+      "positions": {
+        "typed_system_P": "176–178",
+        "symbol_and_sequence_coding": "179",
+        "primitive_recursion_and_bounds": "179–182",
+        "syntax_substitution": "183–185",
+        "proof_and_provability": "186, definitions 44–46",
+        "numeralwise_representability": "186–187, theorem V",
+        "first_incompleteness": "187–190, theorem VI",
+        "q_p_r_diagonal_construction": "188, equations (8.1)–(16)",
+        "arithmetic_language_and_remainder_coding": "191–193, theorems VII–VIII",
+        "second_incompleteness_sketch": "196–198, theorem XI",
+        "original_consistency_formula": "196, footnote 63; negation over Bew must be retained"
+      },
+      "redistributed": false
+    },
+    {
+      "id": "godel1931-publisher",
+      "url": "https://link.springer.com/article/10.1007/BF01700692",
+      "type": "publisher_bibliography",
+      "scope_read": "Bibliographic record; used to verify year, volume, pages and DOI."
+    },
+    {
+      "id": "rosser1936-opening",
+      "url": "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/extensions-of-some-theorems-of-godel-and-church/0461E34DC1F219C459EE84CC2FA89068",
+      "type": "primary_publisher_extract",
+      "citation": "Barkley Rosser, Extensions of some theorems of Gödel and Church, JSL 1(3), September 1936, 87–91, DOI 10.2307/2269028.",
+      "scope_read": "Original opening and metadata; primitive-recursive terminology and consistency strengthening. Full proof not audited."
+    },
+    {
+      "id": "lob1955-original",
+      "url": "https://math.umd.edu/~laskow/Pubs/713/Lob.pdf",
+      "type": "primary_original_scan",
+      "citation": "M. H. Löb, Solution of a Problem of Leon Henkin, JSL 20(2), June 1955, 115–118, DOI 10.2307/2266895.",
+      "scope_read": "Full article; conditions I, IV and V correspond to the modern D2, D1 and D3 used in the teaching supplement.",
+      "redistributed": false
+    }
+  ],
+  "version_scope": "1931 original and listed later primary sources only; no claim to an exhaustive author-note/correction history.",
+  "reproduction_scope": "Bounded toy coding, quantifier-free substitution and finite Horn proofs; no implementation or formal verification of either incompleteness theorem.",
+  "notebook_validation": "Seven plain-Python code cells executed via shared-namespace stdlib compile/exec; no Jupyter kernel/front-end verification.",
+  "verified_on": "2026-10-09"
+}
