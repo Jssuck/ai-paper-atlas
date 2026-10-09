@@ -2,9 +2,11 @@
   "schema_version": 1,
   "status": "researching",
   "active_paper": {
-    "id": "early-1930s-foundation-selection",
-    "title": "核验1930年代前期逻辑与计算原始文献",
-    "selection_confirmed": false
+    "id": "church-1932-postulates",
+    "title": "A Set of Postulates for the Foundation of Logic",
+    "selection_confirmed": true,
+    "doi": "10.2307/1968337",
+    "chronology_note": "1932 formal-foundations gap-fill. Earlier uncovered candidates will be recorded separately; not an exhaustive chronology."
   },
   "last_completed": {
     "id": "goedel-1931-incompleteness",
@@ -13,7 +15,7 @@
     "content_commit": "a4763c3ece842e5de43d0af592c2abd57d0d9ec6",
     "checks": "Independent mathematics and reproduction review passed; remote content and GitHub render/links verified."
   },
-  "updated_at": "2026-10-09T16:33:45Z",
+  "updated_at": "2026-10-09T16:34:17Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
