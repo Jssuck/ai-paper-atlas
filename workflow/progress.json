@@ -1,26 +1,21 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "sheffer-1913",
-    "stage": "verifying_publication",
-    "source": "https://archive.org/download/jstor-1988701/1988701.pdf",
-    "scope": "Original pages 481–488; historical backfill of explicitly recorded earlier gap."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "curry-1930-part1",
-    "path": "papers/1930/curry-foundations-part1.zh-CN.md",
+    "id": "sheffer-1913",
+    "path": "papers/1913/sheffer-five-postulates.zh-CN.md",
     "version": "v1",
-    "content_commit": "fae40ac4d11aae1672fb9832989a3989c87ff31d",
-    "checks": "Independent primary-page mathematical and code review passed; remote exact content, math/tables, relative evidence links and notebook static preview verified.",
-    "scope": "Part I, pages 509–536 only; Part II and its deferred proofs remain unfinished."
+    "content_commit": "19ae9fccd5a87a6c0d2c6190d342edcd32cd725f",
+    "checks": "Independent original-page mathematical and code review passed; all 26 published files exactly verified; GitHub article 179 formulas, six tables and eight-cell notebook static preview verified.",
+    "scope": "Original pages 481–488; ordinary independence distinguished from later complete independence; finite teaching checks do not replace general proofs."
   },
-  "updated_at": "2026-10-09T19:56:30Z",
+  "updated_at": "2026-10-09T20:00:55Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact published content, main commit, relative links and GitHub mathematical rendering before marking completed."
+  "next_action": "At next scheduled turn inspect earlier predecessor gaps and preserved candidate registry; choose one earliest feasible unfinished source, retaining partial and inaccessible gaps."
 }
