@@ -1,25 +1,20 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "schonfinkel-1924",
-    "title": "Über die Bausteine der mathematischen Logik",
-    "selection_confirmed": true,
-    "doi": "10.1007/BF01448013",
-    "chronology_note": "Backfill the earliest currently identified candidate with accessible primary full text; retain other earlier-history gaps."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "church-1932-postulates",
-    "path": "papers/1932/church-postulates-logic.zh-CN.md",
+    "id": "schonfinkel-1924",
+    "path": "papers/1924/schonfinkel-building-blocks.zh-CN.md",
     "version": "v1",
-    "content_commit": "76c8f27b50ac8fadcd6c581cbc333f128c9a51af",
-    "checks": "Independent mathematics and code review, remote content, live math rendering, links and notebook preview verified."
+    "content_commit": "0854019a9eae166e1395fbfe55cf4c819b360d12",
+    "checks": "Independent original-page, mathematics and code review passed. Remote content, live math rendering, evidence targets and notebook static preview verified."
   },
-  "updated_at": "2026-10-09T17:43:55Z",
+  "updated_at": "2026-10-09T17:47:24Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
-  }
+  },
+  "next_action": "Read preserved candidate registry and select one earliest feasible unfinished source-backed paper. Keep earlier unavailable candidates pending; do not pick by prestige. Only begin at next scheduled turn."
 }
