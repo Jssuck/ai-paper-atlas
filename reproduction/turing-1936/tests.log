@@ -1,0 +1,20 @@
+test_alternating_exact_trace (test_simulator.SimulatorTests.test_alternating_exact_trace) ... ok
+test_delay_boundary (test_simulator.SimulatorTests.test_delay_boundary) ... ok
+test_erasure_and_stationary_move (test_simulator.SimulatorTests.test_erasure_and_stationary_move) ... ok
+test_finite_enumeration_count_and_uniqueness (test_simulator.SimulatorTests.test_finite_enumeration_count_and_uniqueness) ... ok
+test_halt_exactly_at_cap (test_simulator.SimulatorTests.test_halt_exactly_at_cap) ... ok
+test_left_moves_negative_indices (test_simulator.SimulatorTests.test_left_moves_negative_indices) ... ok
+test_many_finite_delay_counterexamples (test_simulator.SimulatorTests.test_many_finite_delay_counterexamples) ... ok
+test_missing_rule_halts_at_start (test_simulator.SimulatorTests.test_missing_rule_halts_at_start) ... ok
+test_nonhalting_finite_output (test_simulator.SimulatorTests.test_nonhalting_finite_output) ... ok
+test_reject_invalid_rules (test_simulator.SimulatorTests.test_reject_invalid_rules) ... ok
+test_reject_negative_cap_and_delay (test_simulator.SimulatorTests.test_reject_negative_cap_and_delay) ... ok
+test_run_does_not_mutate_table (test_simulator.SimulatorTests.test_run_does_not_mutate_table) ... ok
+test_silent_output_observations_match_to_cap (test_simulator.SimulatorTests.test_silent_output_observations_match_to_cap) ... ok
+test_source_aligned_spacing (test_simulator.SimulatorTests.test_source_aligned_spacing) ... ok
+test_trace_invariants (test_simulator.SimulatorTests.test_trace_invariants) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.064s
+
+OK

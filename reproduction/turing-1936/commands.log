@@ -1,0 +1,25 @@
+$ python3 --version
+Python 3.12.14
+exit_code=0
+$ python3 -m unittest -v test_simulator > tests.log 2>&1
+exit_code=0
+$ python3 run_examples.py > results.json
+exit_code=0
+$ python3 make_report.py > trace_tables.zh-CN.md
+exit_code=0
+$ python3 build_notebook.py
+exit_code=0
+$ python3 verify_notebook.py
+9 code cells passed sequential Python execution; Jupyter kernel not executed.
+exit_code=0
+$ python3 -m unittest -v test_simulator > tests.log 2>&1
+exit_code=0
+$ python3 -m unittest -v test_simulator > tests.log 2>&1
+exit_code=0
+$ python3 run_examples.py > results.json
+exit_code=0
+$ python3 make_report.py > trace_tables.zh-CN.md
+exit_code=0
+$ python3 verify_notebook.py
+9 code cells passed sequential Python execution; Jupyter kernel not executed.
+exit_code=0

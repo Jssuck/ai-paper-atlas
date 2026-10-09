@@ -1,0 +1,55 @@
+{
+  "method": "Standard-library sequential exec in a fresh Python process",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "jupyter_kernel_executed": false,
+  "nbformat_schema_validator_used": false,
+  "code_cells_passed": 9,
+  "records": [
+    {
+      "cell_index": 2,
+      "status": "passed",
+      "stdout": "Python: 3.12.14\n模型：单工作带 + 只写不读的输出观察记录\n"
+    },
+    {
+      "cell_index": 4,
+      "status": "passed",
+      "stdout": "step state head scanned emitted output tape\n0 a 0 _ ε ε {}\n1 b 1 _ 0 0 {'0': '0'}\n2 a 2 _ 1 01 {'0': '0', '1': '1'}\n3 b 3 _ 0 010 {'0': '0', '1': '1', '2': '0'}\n4 a 4 _ 1 0101 {'0': '0', '1': '1', '2': '0', '3': '1'}\n5 b 5 _ 0 01010 {'0': '0', '1': '1', '2': '0', '3': '1', '4': '0'}\n6 a 6 _ 1 010101 {'0': '0', '1': '1', '2': '0', '3': '1', '4': '0', '5': '1'}\n状态: cap_reached\n"
+    },
+    {
+      "cell_index": 7,
+      "status": "passed",
+      "stdout": "6步简化版: 010101\n12步间隔版: 010101\n间隔版非空白格: {'0': '0', '2': '1', '4': '0', '6': '1', '8': '0', '10': '1'}\n"
+    },
+    {
+      "cell_index": 9,
+      "status": "passed",
+      "stdout": "已执行步数: 12\n累计输出: '0'\n末状态: silent\n读头位置: 12\n"
+    },
+    {
+      "cell_index": 12,
+      "status": "passed",
+      "stdout": "预算 T: ''\n预算 T+4: '0000'\n首次输出步数: 21\n"
+    },
+    {
+      "cell_index": 14,
+      "status": "passed",
+      "stdout": "前 T 步输出历史完全相同： True\n注意：只比较输出历史，没有声称状态或机器描述相同。\n"
+    },
+    {
+      "cell_index": 16,
+      "status": "passed",
+      "stdout": "观察输出长度 -> 机器数量\n0 -> 96\n1 -> 2\n10 -> 20\n19 -> 2\n20 -> 204\n总数: 324\n"
+    },
+    {
+      "cell_index": 18,
+      "status": "passed",
+      "stdout": "n= 0 预测= 0 观察= 0\nn= 20 预测= 0 观察= 0\nn= 21 预测= 1 观察= 1\nn= 27 预测= 7 观察= 7\n"
+    },
+    {
+      "cell_index": 20,
+      "status": "passed",
+      "stdout": "----------------------------------------------------------------------\nRan 15 tests in 0.073s\n\nOK\n"
+    }
+  ]
+}

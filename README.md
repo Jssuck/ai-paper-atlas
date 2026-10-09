@@ -10,9 +10,17 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
-| 1936–1937 | [图灵《论可计算数》精读](papers/1936-1937/turing-computable-numbers.zh-CN.md) | AI 前史：可计算性基础 | 样稿 v1.0 |
+| 1936–1937 | [图灵《论可计算数》精读](papers/1936-1937/turing-computable-numbers.zh-CN.md) | AI 前史：可计算性基础 | 深读样稿 v2 · 含实跑附件 |
 
 样稿不等于历史起点已被唯一确定，也不意味着更早或同期工作会被跳过。后续正式目录需按公开来源、纳入规则和年代逐步补齐，不以名气或引用量决定处理优先级。
+
+## 本篇可运行附件
+
+- [复现说明、模型定义和执行命令](reproduction/turing-1936/README.zh-CN.md)
+- [交互式教学 Notebook](reproduction/turing-1936/turing_teaching.zh-CN.ipynb)
+- [测试日志](reproduction/turing-1936/tests.log) · [运行结果](reproduction/turing-1936/results.json)
+
+已实际执行 15 项单元测试与 9 个 Notebook 代码单元；后者使用标准库顺序执行器，并未通过 Jupyter 内核执行或完成页面渲染验证。小模型实验不构成对一般不可判定性的实验证明，也不是原文通用机的完整复现。
 
 ## 每篇解析的共同标准
 

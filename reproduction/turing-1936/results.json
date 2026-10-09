@@ -1,0 +1,1094 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "implementation": "CPython",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "dependencies": "Python standard library only"
+  },
+  "model": "Modern deterministic one-work-tape transducer with observable emit annotation",
+  "cases": {
+    "alternating_6": {
+      "cap": 6,
+      "steps": 6,
+      "status": "cap_reached",
+      "output": "010101",
+      "trace": [
+        {
+          "step": 0,
+          "state": "a",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "b",
+          "head": 1,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "0",
+          "output": "0"
+        },
+        {
+          "step": 2,
+          "state": "a",
+          "head": 2,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "1": "1"
+          },
+          "emitted": "1",
+          "output": "01"
+        },
+        {
+          "step": 3,
+          "state": "b",
+          "head": 3,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "1": "1",
+            "2": "0"
+          },
+          "emitted": "0",
+          "output": "010"
+        },
+        {
+          "step": 4,
+          "state": "a",
+          "head": 4,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "1": "1",
+            "2": "0",
+            "3": "1"
+          },
+          "emitted": "1",
+          "output": "0101"
+        },
+        {
+          "step": 5,
+          "state": "b",
+          "head": 5,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "1": "1",
+            "2": "0",
+            "3": "1",
+            "4": "0"
+          },
+          "emitted": "0",
+          "output": "01010"
+        },
+        {
+          "step": 6,
+          "state": "a",
+          "head": 6,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "1": "1",
+            "2": "0",
+            "3": "1",
+            "4": "0",
+            "5": "1"
+          },
+          "emitted": "1",
+          "output": "010101"
+        }
+      ]
+    },
+    "source_aligned_alternating_12": {
+      "cap": 12,
+      "steps": 12,
+      "status": "cap_reached",
+      "output": "010101",
+      "trace": [
+        {
+          "step": 0,
+          "state": "p0",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "gap0",
+          "head": 1,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "0",
+          "output": "0"
+        },
+        {
+          "step": 2,
+          "state": "p1",
+          "head": 2,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 3,
+          "state": "gap1",
+          "head": 3,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1"
+          },
+          "emitted": "1",
+          "output": "01"
+        },
+        {
+          "step": 4,
+          "state": "p0",
+          "head": 4,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1"
+          },
+          "emitted": "",
+          "output": "01"
+        },
+        {
+          "step": 5,
+          "state": "gap0",
+          "head": 5,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0"
+          },
+          "emitted": "0",
+          "output": "010"
+        },
+        {
+          "step": 6,
+          "state": "p1",
+          "head": 6,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0"
+          },
+          "emitted": "",
+          "output": "010"
+        },
+        {
+          "step": 7,
+          "state": "gap1",
+          "head": 7,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1"
+          },
+          "emitted": "1",
+          "output": "0101"
+        },
+        {
+          "step": 8,
+          "state": "p0",
+          "head": 8,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1"
+          },
+          "emitted": "",
+          "output": "0101"
+        },
+        {
+          "step": 9,
+          "state": "gap0",
+          "head": 9,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1",
+            "8": "0"
+          },
+          "emitted": "0",
+          "output": "01010"
+        },
+        {
+          "step": 10,
+          "state": "p1",
+          "head": 10,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1",
+            "8": "0"
+          },
+          "emitted": "",
+          "output": "01010"
+        },
+        {
+          "step": 11,
+          "state": "gap1",
+          "head": 11,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1",
+            "8": "0",
+            "10": "1"
+          },
+          "emitted": "1",
+          "output": "010101"
+        },
+        {
+          "step": 12,
+          "state": "p0",
+          "head": 12,
+          "scanned": "_",
+          "tape": {
+            "0": "0",
+            "2": "1",
+            "4": "0",
+            "6": "1",
+            "8": "0",
+            "10": "1"
+          },
+          "emitted": "",
+          "output": "010101"
+        }
+      ]
+    },
+    "one_then_silent_12": {
+      "cap": 12,
+      "steps": 12,
+      "status": "cap_reached",
+      "output": "0",
+      "trace": [
+        {
+          "step": 0,
+          "state": "first",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "silent",
+          "head": 1,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "0",
+          "output": "0"
+        },
+        {
+          "step": 2,
+          "state": "silent",
+          "head": 2,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 3,
+          "state": "silent",
+          "head": 3,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 4,
+          "state": "silent",
+          "head": 4,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 5,
+          "state": "silent",
+          "head": 5,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 6,
+          "state": "silent",
+          "head": 6,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 7,
+          "state": "silent",
+          "head": 7,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 8,
+          "state": "silent",
+          "head": 8,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 9,
+          "state": "silent",
+          "head": 9,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 10,
+          "state": "silent",
+          "head": 10,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 11,
+          "state": "silent",
+          "head": 11,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        },
+        {
+          "step": 12,
+          "state": "silent",
+          "head": 12,
+          "scanned": "_",
+          "tape": {
+            "0": "0"
+          },
+          "emitted": "",
+          "output": "0"
+        }
+      ]
+    },
+    "delayed_20_at_cap_20": {
+      "cap": 20,
+      "steps": 20,
+      "status": "cap_reached",
+      "output": "",
+      "trace": [
+        {
+          "step": 0,
+          "state": "d0",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "d1",
+          "head": 1,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 2,
+          "state": "d2",
+          "head": 2,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 3,
+          "state": "d3",
+          "head": 3,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 4,
+          "state": "d4",
+          "head": 4,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 5,
+          "state": "d5",
+          "head": 5,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 6,
+          "state": "d6",
+          "head": 6,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 7,
+          "state": "d7",
+          "head": 7,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 8,
+          "state": "d8",
+          "head": 8,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 9,
+          "state": "d9",
+          "head": 9,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 10,
+          "state": "d10",
+          "head": 10,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 11,
+          "state": "d11",
+          "head": 11,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 12,
+          "state": "d12",
+          "head": 12,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 13,
+          "state": "d13",
+          "head": 13,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 14,
+          "state": "d14",
+          "head": 14,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 15,
+          "state": "d15",
+          "head": 15,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 16,
+          "state": "d16",
+          "head": 16,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 17,
+          "state": "d17",
+          "head": 17,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 18,
+          "state": "d18",
+          "head": 18,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 19,
+          "state": "d19",
+          "head": 19,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 20,
+          "state": "emit",
+          "head": 20,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        }
+      ]
+    },
+    "delayed_20_at_cap_24": {
+      "cap": 24,
+      "steps": 24,
+      "status": "cap_reached",
+      "output": "0000",
+      "trace": [
+        {
+          "step": 0,
+          "state": "d0",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "d1",
+          "head": 1,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 2,
+          "state": "d2",
+          "head": 2,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 3,
+          "state": "d3",
+          "head": 3,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 4,
+          "state": "d4",
+          "head": 4,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 5,
+          "state": "d5",
+          "head": 5,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 6,
+          "state": "d6",
+          "head": 6,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 7,
+          "state": "d7",
+          "head": 7,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 8,
+          "state": "d8",
+          "head": 8,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 9,
+          "state": "d9",
+          "head": 9,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 10,
+          "state": "d10",
+          "head": 10,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 11,
+          "state": "d11",
+          "head": 11,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 12,
+          "state": "d12",
+          "head": 12,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 13,
+          "state": "d13",
+          "head": 13,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 14,
+          "state": "d14",
+          "head": 14,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 15,
+          "state": "d15",
+          "head": 15,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 16,
+          "state": "d16",
+          "head": 16,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 17,
+          "state": "d17",
+          "head": 17,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 18,
+          "state": "d18",
+          "head": 18,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 19,
+          "state": "d19",
+          "head": 19,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 20,
+          "state": "emit",
+          "head": 20,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 21,
+          "state": "emit",
+          "head": 21,
+          "scanned": "_",
+          "tape": {
+            "20": "0"
+          },
+          "emitted": "0",
+          "output": "0"
+        },
+        {
+          "step": 22,
+          "state": "emit",
+          "head": 22,
+          "scanned": "_",
+          "tape": {
+            "20": "0",
+            "21": "0"
+          },
+          "emitted": "0",
+          "output": "00"
+        },
+        {
+          "step": 23,
+          "state": "emit",
+          "head": 23,
+          "scanned": "_",
+          "tape": {
+            "20": "0",
+            "21": "0",
+            "22": "0"
+          },
+          "emitted": "0",
+          "output": "000"
+        },
+        {
+          "step": 24,
+          "state": "emit",
+          "head": 24,
+          "scanned": "_",
+          "tape": {
+            "20": "0",
+            "21": "0",
+            "22": "0",
+            "23": "0"
+          },
+          "emitted": "0",
+          "output": "0000"
+        }
+      ]
+    },
+    "silent_at_cap_20": {
+      "cap": 20,
+      "steps": 20,
+      "status": "cap_reached",
+      "output": "",
+      "trace": [
+        {
+          "step": 0,
+          "state": "silent",
+          "head": 0,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 1,
+          "state": "silent",
+          "head": 1,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 2,
+          "state": "silent",
+          "head": 2,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 3,
+          "state": "silent",
+          "head": 3,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 4,
+          "state": "silent",
+          "head": 4,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 5,
+          "state": "silent",
+          "head": 5,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 6,
+          "state": "silent",
+          "head": 6,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 7,
+          "state": "silent",
+          "head": 7,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 8,
+          "state": "silent",
+          "head": 8,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 9,
+          "state": "silent",
+          "head": 9,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 10,
+          "state": "silent",
+          "head": 10,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 11,
+          "state": "silent",
+          "head": 11,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 12,
+          "state": "silent",
+          "head": 12,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 13,
+          "state": "silent",
+          "head": 13,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 14,
+          "state": "silent",
+          "head": 14,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 15,
+          "state": "silent",
+          "head": 15,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 16,
+          "state": "silent",
+          "head": 16,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 17,
+          "state": "silent",
+          "head": 17,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 18,
+          "state": "silent",
+          "head": 18,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 19,
+          "state": "silent",
+          "head": 19,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        },
+        {
+          "step": 20,
+          "state": "silent",
+          "head": 20,
+          "scanned": "_",
+          "tape": {},
+          "emitted": "",
+          "output": ""
+        }
+      ]
+    }
+  },
+  "finite_enumeration": {
+    "scope": "All total one-state tables over work alphabet {_,x}; 18 actions per entry",
+    "machine_count": 324,
+    "cap_per_machine": 20,
+    "observed_output_length_histogram": {
+      "0": 96,
+      "1": 2,
+      "10": 20,
+      "19": 2,
+      "20": 204
+    },
+    "observed_status_histogram": {
+      "cap_reached": 324
+    },
+    "warning": "No inferred circle-free classification; finite observations are not a general decision procedure."
+  }
+}
