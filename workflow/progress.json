@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "church-1932-postulates",
     "title": "A Set of Postulates for the Foundation of Logic",
@@ -15,7 +15,7 @@
     "content_commit": "a4763c3ece842e5de43d0af592c2abd57d0d9ec6",
     "checks": "Independent mathematics and reproduction review passed; remote content and GitHub render/links verified."
   },
-  "updated_at": "2026-10-09T16:34:17Z",
+  "updated_at": "2026-10-09T16:47:56Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",

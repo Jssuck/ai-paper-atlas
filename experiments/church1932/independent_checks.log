@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "python": "3.12.14",
+  "terms_checked": 2874,
+  "replacement_terms": 58,
+  "substitution_checks": 333384,
+  "actual_reduction_steps_checked": 4304,
+  "arithmetic_checks": 72,
+  "additional_freshness_checks": 3,
+  "scope": "Finite tests of educational code; not a general mathematical proof."
+}

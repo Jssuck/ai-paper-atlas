@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "python": "3.12.14",
+  "dependency_policy": "Python standard library only; no installations",
+  "historical_scope": {
+    "primary_reference": "Church 1932, pp. 352, 355–357",
+    "source_url": "https://www.jstor.org/stable/1968337",
+    "modern_mode": "Modern capture-avoiding beta; erasure allowed.",
+    "non_erasing_mode": "Only the occurrence restriction is isolated; not the full 1932 system.",
+    "numerals": "Later pedagogical reconstruction; not claimed as a 1932 result.",
+    "limits": "Finite tests do not prove confluence, normalization in general, or undecidability."
+  },
+  "capture_counterexample": {
+    "input": "(λy.x)",
+    "substitute": "x := y",
+    "correct": "(λy_0.y)",
+    "incorrect": "(λy.y)",
+    "correct_free_variables": [
+      "y"
+    ],
+    "incorrect_free_variables": [],
+    "alpha_equivalent": false
+  },
+  "alpha_checks": {
+    "renamed_identity": true,
+    "bound_vs_free": false,
+    "free_names_preserved": true
+  },
+  "reductions": {
+    "identity": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 1,
+      "term": "a",
+      "free_variables": [
+        "a"
+      ],
+      "trace": [
+        "((λx.x) a)",
+        "a"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "capture_avoiding_beta": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 1,
+      "term": "(λy_0.y)",
+      "free_variables": [
+        "y"
+      ],
+      "trace": [
+        "((λx.(λy.x)) y)",
+        "(λy_0.y)"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "constant_omega_normal_modern": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 2,
+      "term": "y",
+      "free_variables": [
+        "y"
+      ],
+      "trace": [
+        "(((λa.(λb.a)) y) ((λx.(x x)) (λx.(x x))))",
+        "((λb.y) ((λx.(x x)) (λx.(x x))))",
+        "y"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "constant_omega_applicative_modern": {
+      "strategy": "applicative",
+      "mode": "modern",
+      "status": "cycle_detected",
+      "steps": 2,
+      "term": "((λb.y) ((λx.(x x)) (λx.(x x))))",
+      "free_variables": [
+        "y"
+      ],
+      "trace": [
+        "(((λa.(λb.a)) y) ((λx.(x x)) (λx.(x x))))",
+        "((λb.y) ((λx.(x x)) (λx.(x x))))",
+        "((λb.y) ((λx.(x x)) (λx.(x x))))"
+      ],
+      "cycle_start": 1,
+      "cycle_length": 1
+    },
+    "constant_omega_normal_non_erasing": {
+      "strategy": "normal",
+      "mode": "non_erasing",
+      "status": "cycle_detected",
+      "steps": 2,
+      "term": "((λb.y) ((λx.(x x)) (λx.(x x))))",
+      "free_variables": [
+        "y"
+      ],
+      "trace": [
+        "(((λa.(λb.a)) y) ((λx.(x x)) (λx.(x x))))",
+        "((λb.y) ((λx.(x x)) (λx.(x x))))",
+        "((λb.y) ((λx.(x x)) (λx.(x x))))"
+      ],
+      "cycle_start": 1,
+      "cycle_length": 1
+    },
+    "erasure_modern": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 1,
+      "term": "y",
+      "free_variables": [
+        "y"
+      ],
+      "trace": [
+        "((λx.y) z)",
+        "y"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "erasure_non_erasing": {
+      "strategy": "normal",
+      "mode": "non_erasing",
+      "status": "normal_form",
+      "steps": 0,
+      "term": "((λx.y) z)",
+      "free_variables": [
+        "y",
+        "z"
+      ],
+      "trace": [
+        "((λx.y) z)"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "omega_cycle": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "cycle_detected",
+      "steps": 1,
+      "term": "((λx.(x x)) (λx.(x x)))",
+      "free_variables": [],
+      "trace": [
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))"
+      ],
+      "cycle_start": 0,
+      "cycle_length": 1
+    },
+    "omega_budget_only": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "step_limit",
+      "steps": 8,
+      "term": "((λx.(x x)) (λx.(x x)))",
+      "free_variables": [],
+      "trace": [
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))",
+        "((λx.(x x)) (λx.(x x)))"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    "growing_term_budget": {
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "step_limit",
+      "steps": 8,
+      "term": "((((((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+      "free_variables": [],
+      "trace": [
+        "((λx.((x x) x)) (λx.((x x) x)))",
+        "(((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x)))",
+        "((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "(((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "(((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "((((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "(((((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))",
+        "((((((((((λx.((x x) x)) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x))) (λx.((x x) x)))"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    }
+  },
+  "arithmetic": [
+    {
+      "operation": "add",
+      "left": 2,
+      "right": 3,
+      "decoded": 5,
+      "expected": 5,
+      "historical_scope": "later_pedagogical_reconstruction",
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 6,
+      "term": "(λf.(λx.(f (f (f (f (f x)))))))",
+      "free_variables": [],
+      "trace": [
+        "(((λm.(λn.(λf.(λx.((m f) ((n f) x)))))) (λf.(λx.(f (f x))))) (λf.(λx.(f (f (f x))))))",
+        "((λn.(λf.(λx.(((λf.(λx.(f (f x)))) f) ((n f) x))))) (λf.(λx.(f (f (f x))))))",
+        "(λf.(λx.(((λf.(λx.(f (f x)))) f) (((λf.(λx.(f (f (f x))))) f) x))))",
+        "(λf.(λx.((λx.(f (f x))) (((λf.(λx.(f (f (f x))))) f) x))))",
+        "(λf.(λx.(f (f (((λf.(λx.(f (f (f x))))) f) x)))))",
+        "(λf.(λx.(f (f ((λx.(f (f (f x)))) x)))))",
+        "(λf.(λx.(f (f (f (f (f x)))))))"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    {
+      "operation": "multiply",
+      "left": 2,
+      "right": 3,
+      "decoded": 6,
+      "expected": 6,
+      "historical_scope": "later_pedagogical_reconstruction",
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 7,
+      "term": "(λf.(λx.(f (f (f (f (f (f x))))))))",
+      "free_variables": [],
+      "trace": [
+        "(((λm.(λn.(λf.(m (n f))))) (λf.(λx.(f (f x))))) (λf.(λx.(f (f (f x))))))",
+        "((λn.(λf.((λf.(λx.(f (f x)))) (n f)))) (λf.(λx.(f (f (f x))))))",
+        "(λf.((λf.(λx.(f (f x)))) ((λf.(λx.(f (f (f x))))) f)))",
+        "(λf.(λx.(((λf.(λx.(f (f (f x))))) f) (((λf.(λx.(f (f (f x))))) f) x))))",
+        "(λf.(λx.((λx.(f (f (f x)))) (((λf.(λx.(f (f (f x))))) f) x))))",
+        "(λf.(λx.(f (f (f (((λf.(λx.(f (f (f x))))) f) x))))))",
+        "(λf.(λx.(f (f (f ((λx.(f (f (f x)))) x))))))",
+        "(λf.(λx.(f (f (f (f (f (f x))))))))"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    },
+    {
+      "operation": "multiply",
+      "left": 0,
+      "right": 3,
+      "decoded": 0,
+      "expected": 0,
+      "historical_scope": "later_pedagogical_reconstruction",
+      "strategy": "normal",
+      "mode": "modern",
+      "status": "normal_form",
+      "steps": 3,
+      "term": "(λf.(λx.x))",
+      "free_variables": [],
+      "trace": [
+        "(((λm.(λn.(λf.(m (n f))))) (λf.(λx.x))) (λf.(λx.(f (f (f x))))))",
+        "((λn.(λf.((λf.(λx.x)) (n f)))) (λf.(λx.(f (f (f x))))))",
+        "(λf.((λf.(λx.x)) ((λf.(λx.(f (f (f x))))) f)))",
+        "(λf.(λx.x))"
+      ],
+      "cycle_start": null,
+      "cycle_length": null
+    }
+  ]
+}

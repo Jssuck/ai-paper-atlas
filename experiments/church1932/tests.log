@@ -1,0 +1,37 @@
+test_alpha_is_not_beta_equivalence (test_experiment.AlphaTests.test_alpha_is_not_beta_equivalence) ... ok
+test_free_and_bound_differ (test_experiment.AlphaTests.test_free_and_bound_differ) ... ok
+test_identity_rename (test_experiment.AlphaTests.test_identity_rename) ... ok
+test_literal_free_names_matter (test_experiment.AlphaTests.test_literal_free_names_matter) ... ok
+test_shadowing_uses_nearest_binder (test_experiment.AlphaTests.test_shadowing_uses_nearest_binder) ... ok
+test_alpha_renamed_numeral (test_experiment.NumeralTests.test_alpha_renamed_numeral) ... ok
+test_invalid_numerals (test_experiment.NumeralTests.test_invalid_numerals) ... ok
+test_modern_addition_and_multiplication_small_grid (test_experiment.NumeralTests.test_modern_addition_and_multiplication_small_grid) ... ok
+test_round_trip (test_experiment.NumeralTests.test_round_trip) ... ok
+test_saved_experiment_contract (test_experiment.NumeralTests.test_saved_experiment_contract) ... ok
+test_budget_only_is_inconclusive (test_experiment.ReductionTests.test_budget_only_is_inconclusive) ... ok
+test_capture_avoiding_beta (test_experiment.ReductionTests.test_capture_avoiding_beta) ... ok
+test_constant_omega_modern_applicative (test_experiment.ReductionTests.test_constant_omega_modern_applicative) ... ok
+test_constant_omega_modern_normal (test_experiment.ReductionTests.test_constant_omega_modern_normal) ... ok
+test_constant_omega_non_erasing_normal (test_experiment.ReductionTests.test_constant_omega_non_erasing_normal) ... ok
+test_erasure_grammar_allowed_but_conversion_blocked (test_experiment.ReductionTests.test_erasure_grammar_allowed_but_conversion_blocked) ... ok
+test_exact_budget_still_recognizes_result (test_experiment.ReductionTests.test_exact_budget_still_recognizes_result) ... ok
+test_identity_both_strategies_and_modes (test_experiment.ReductionTests.test_identity_both_strategies_and_modes) ... ok
+test_invalid_options (test_experiment.ReductionTests.test_invalid_options) ... ok
+test_nonrepeating_growth_reaches_step_limit (test_experiment.ReductionTests.test_nonrepeating_growth_reaches_step_limit) ... ok
+test_omega_step_is_not_confused_with_normal_form (test_experiment.ReductionTests.test_omega_step_is_not_confused_with_normal_form) ... ok
+test_reduces_beneath_lambda (test_experiment.ReductionTests.test_reduces_beneath_lambda) ... ok
+test_restricted_mode_still_avoids_capture (test_experiment.ReductionTests.test_restricted_mode_still_avoids_capture) ... ok
+test_shadowed_occurrence_does_not_satisfy_occurrence_condition (test_experiment.ReductionTests.test_shadowed_occurrence_does_not_satisfy_occurrence_condition) ... ok
+test_zero_budget_distinguishes_normal_form (test_experiment.ReductionTests.test_zero_budget_distinguishes_normal_form) ... ok
+test_absent_variable (test_experiment.SubstitutionTests.test_absent_variable) ... ok
+test_bound_occurrence_is_not_replaced (test_experiment.SubstitutionTests.test_bound_occurrence_is_not_replaced) ... ok
+test_capture_counterexample (test_experiment.SubstitutionTests.test_capture_counterexample) ... ok
+test_free_variable_law_on_small_terms (test_experiment.SubstitutionTests.test_free_variable_law_on_small_terms) ... ok
+test_fresh_name_avoids_inner_binders (test_experiment.SubstitutionTests.test_fresh_name_avoids_inner_binders) ... ok
+test_identity (test_experiment.SubstitutionTests.test_identity) ... ok
+test_renaming_respects_shadowing (test_experiment.SubstitutionTests.test_renaming_respects_shadowing) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.093s
+
+OK

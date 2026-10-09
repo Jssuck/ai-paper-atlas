@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0",
+  "title": "早期逻辑与计算基础：本轮有界候选登记",
+  "checked_on": "2026-10-09",
+  "language": "zh-CN",
+  "scope": {
+    "selection_context": "继Gödel 1931之后，本轮以函数表达、绑定和可执行符号变换为主线选择Church 1932作深入阅读。",
+    "main_window": "1930–1935年间与所选主线直接相邻的已知论文；另回溯Schönfinkel 1924。",
+    "coverage": "仅覆盖下列七个候选条目；Curry 1930两部分作为一个条目。每项分别记录书目、全文取得、实际阅读程度。",
+    "nonexhaustive": true,
+    "not_claimed": [
+      "不声称穷尽该时期全部相关论文。",
+      "不声称Church 1932是Gödel 1931之后最早发表的任何相关论文。",
+      "不把书目定位、取得全文、精读全文或完成证明核验当作同一状态。",
+      "不把尚未取得的1933续篇后页说成已核对完整勘误。"
+    ],
+    "known_earlier_near_neighbor": "Huntington 1932年2月的两页论文早于Church 1932年4月；其对象是布尔代数公设，因此本轮按研究主题而非纯日期顺序暂缓。"
+  },
+  "current_selection": {
+    "candidate_id": "church-1932",
+    "why_selected": "它将λ抽象、函数应用与转换规则明确嵌入一个逻辑基础方案，既可精读原始元证明，又可将转换机制与现代可运行教学实验严格区分。选择基于这条内容主线和全文可核验性，不构成全史优先权判断。",
+    "mathematical_boundary": "实验只重构纯项转换的现代教学投影；1932的五条程序规则、37条形式公设及存在性前提下的Theorem I均须按原逻辑另行解释。"
+  },
+  "earlier_gap_priority": [
+    {
+      "priority": 1,
+      "candidate_id": "curry-1931",
+      "next_evidence_needed": "取得154–180页原文，逐节比较量词、变量消除和推理内部化；现有作者后文引用与同期摘要不足以代替全文精读。"
+    },
+    {
+      "priority": 2,
+      "candidate_id": "curry-1930",
+      "next_evidence_needed": "取得并精读两部分全部74页，区分基础组合子理论与后来加入的逻辑公理。"
+    },
+    {
+      "priority": 3,
+      "candidate_id": "schonfinkel-1924",
+      "next_evidence_needed": "对已定位原扫描作完整内容和公式核验，补足Church在1932年明示引用的一元化与变量消除前驱。"
+    },
+    {
+      "priority": 4,
+      "candidate_id": "huntington-1932",
+      "next_evidence_needed": "若扩展布尔代数路线，接读其1933年长篇与勘误；1932两页明说独立性模型和详证将在长文提供。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "schonfinkel-1924",
+      "authors": [
+        "M. Schönfinkel"
+      ],
+      "title": "Über die Bausteine der mathematischen Logik",
+      "publication": {
+        "year": 1924,
+        "month": 9,
+        "journal": "Mathematische Annalen",
+        "volume": "92",
+        "pages": "305–316",
+        "doi": "10.1007/BF01448013",
+        "received": "1924-03-15"
+      },
+      "chronology_note": "原刊说明内容来自1920-12-07 Göttingen演讲，出版文字由H. Behmann整理；演讲日期与1924刊期须分开。",
+      "sources": [
+        {
+          "kind": "publisher",
+          "url": "https://link.springer.com/article/10.1007/BF01448013",
+          "coverage": "标题、作者、页码、刊期、收稿及演讲/整理说明"
+        },
+        {
+          "kind": "original_scan_mirror",
+          "url": "https://www.cip.ifi.lmu.de/~langeh/test/1924%20-%20Schoenfinkel%20-%20Ueber%20die%20Bausteine%20der%20mathematischen%20Logik.pdf",
+          "coverage": "完整原页扫描"
+        },
+        {
+          "kind": "original_citation",
+          "url": "https://www.jstor.org/stable/1968337",
+          "coverage": "Church 1932原页352脚注11明示引用"
+        }
+      ],
+      "status": {
+        "retrieval": "已取得完整原扫描。",
+        "reading": "本轮核对书目和Church的原始引用，未全篇精读。",
+        "limits": "扫描正文为图像；不能把自动提取的封面书目当作正文阅读。"
+      },
+      "selection_disposition": "回溯前驱，列入补读；不作本轮主文。"
+    },
+    {
+      "id": "curry-1930",
+      "authors": [
+        "H. B. Curry"
+      ],
+      "title": "Grundlagen der kombinatorischen Logik",
+      "publication": {
+        "year": 1930,
+        "journal": "American Journal of Mathematics",
+        "volume": "52",
+        "parts": [
+          {
+            "part": "I",
+            "month": 7,
+            "issue": "3",
+            "pages": "509–536",
+            "doi": "10.2307/2370619"
+          },
+          {
+            "part": "II",
+            "month": 10,
+            "issue": "4",
+            "pages": "789–834",
+            "doi": "10.2307/2370716"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/2370619",
+          "coverage": "Teil I书目和刊期"
+        },
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/2370716",
+          "coverage": "Teil II书目和刊期，脚注标明Teil I页码"
+        },
+        {
+          "kind": "library_catalog",
+          "url": "https://ci.nii.ac.jp/ncid/BB01264202",
+          "coverage": "图书馆单行本记录交叉确认1930年7月/10月及两段页码"
+        },
+        {
+          "kind": "issue_scan",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/American_Journal_of_Mathematics_1930-07-_Vol_52_Iss_3_%28IA_sim_american-journal-of-mathematics_1930-07_52_3%29.pdf",
+          "coverage": "已定位含Teil I的原刊整期公开扫描，检索文本可见其起首页"
+        }
+      ],
+      "status": {
+        "retrieval": "两部分书目已核；Teil I整期扫描已定位，但未完整下载；Teil II全文未取得。",
+        "reading": "未全篇精读。",
+        "limits": "不能把后来的Curry体系不一致结论直接倒推到这篇单独的公理系统。"
+      },
+      "selection_disposition": "较早的重要组合逻辑路线，保留优先补读缺口。"
+    },
+    {
+      "id": "curry-1931",
+      "authors": [
+        "H. B. Curry"
+      ],
+      "title": "The Universal Quantifier in Combinatory Logic",
+      "publication": {
+        "year": 1931,
+        "journal": "Annals of Mathematics",
+        "series": "Second Series",
+        "volume": "32",
+        "issue": "1",
+        "pages": "154–180",
+        "doi": "10.2307/1968422"
+      },
+      "sources": [
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/1968422",
+          "coverage": "原刊稳定项"
+        },
+        {
+          "kind": "author_bibliography",
+          "url": "https://www.jstage.jst.go.jp/article/tmj1911/41/0/41_0_371/_pdf",
+          "coverage": "Curry本人First Properties of Functionality in Combinatory Logic末页书目"
+        },
+        {
+          "kind": "contemporary_abstract",
+          "url": "https://www.ams.org/journals/bull/1930-36-03/S0002-9904-1930-04929-0/S0002-9904-1930-04929-0.pdf",
+          "coverage": "1930年AMS摘要125，说明以无变量形式处理量词/替换的目标"
+        },
+        {
+          "kind": "original_followup",
+          "url": "https://www.cis.upenn.edu/~cis5110/Kleene-InconsistencyCertainFormal-1935.pdf",
+          "coverage": "KR1935原页631脚注3及636脚注14"
+        }
+      ],
+      "status": {
+        "retrieval": "原刊论文全文未取得；书目、同期摘要及作者后文引用已定位。",
+        "reading": "已读相关摘要和引用，未精读1931原文。",
+        "limits": "不能据1931年份断言其发表晚于Gödel 1931；本轮未完成同年刊期排序。"
+      },
+      "selection_disposition": "主题直接相邻，列为优先补读；未被宣告不相关。"
+    },
+    {
+      "id": "huntington-1932",
+      "authors": [
+        "Edward V. Huntington"
+      ],
+      "title": "A New Set of Independent Postulates for the Algebra of Logic with Special Reference to Whitehead and Russell's Principia Mathematica",
+      "publication": {
+        "year": 1932,
+        "month": 2,
+        "journal": "Proceedings of the National Academy of Sciences",
+        "volume": "18",
+        "issue": "2",
+        "pages": "179–180",
+        "doi": "10.1073/pnas.18.2.179",
+        "communicated": "1932-01-14"
+      },
+      "chronology_note": "原页180注明1931年12月在AMS报告后又修订；刊期为1932年2月，早于Church 1932年4月。",
+      "sources": [
+        {
+          "kind": "original_article",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1076183/",
+          "coverage": "原刊书目与179、180两页扫描"
+        },
+        {
+          "kind": "original_page",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/869a/1076183/990472bb50c0/pnas01730-0047.png",
+          "coverage": "179页：六条布尔代数公设及背景"
+        },
+        {
+          "kind": "original_page",
+          "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/869a/1076183/d322d34fb1f9/pnas01730-0048.png",
+          "coverage": "180页：仅用蕴涵的公设组、独立性详证待后续长文及演讲时间"
+        }
+      ],
+      "status": {
+        "retrieval": "已取得两页原图；PDF入口本次返回HTML，未把它当作有效PDF。",
+        "reading": "两页原文已全部目视阅读。",
+        "limits": "此篇是摘要性短报；不能声称文内已给出所有独立性模型和完整等价证明。"
+      },
+      "selection_disposition": "已检查但暂缓。对象是布尔代数及命题演算公设；本轮选取更直接涉及函数抽象和应用的Church论文。"
+    },
+    {
+      "id": "church-1932",
+      "authors": [
+        "Alonzo Church"
+      ],
+      "title": "A Set of Postulates for the Foundation of Logic",
+      "publication": {
+        "year": 1932,
+        "month": 4,
+        "journal": "Annals of Mathematics",
+        "series": "Second Series",
+        "volume": "33",
+        "issue": "2",
+        "pages": "346–366",
+        "doi": "10.2307/1968337"
+      },
+      "sources": [
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/1968337",
+          "coverage": "原刊稳定项"
+        },
+        {
+          "kind": "original_scan_mirror",
+          "url": "https://github.com/emintham/Papers/blob/master/Church-%20A%20Set%20of%20Postulates%20for%20the%20Foundation%20of%20Logic.pdf",
+          "coverage": "完整原刊扫描"
+        },
+        {
+          "kind": "archival_catalog",
+          "url": "https://findingaids.library.upenn.edu/records/PRIN_MUDD_C0948",
+          "coverage": "Princeton Church档案目录交叉确认1932年4月及346–366"
+        }
+      ],
+      "status": {
+        "retrieval": "已取得完整21页正文及书目封面。",
+        "reading": "全文已读；原刊355–366逐页核图，包括五条程序规则、37公设、Theorem I的16种归纳情况及Theorems II/III。",
+        "limits": "原刊OCR严重误识Σ、λ、Π和下标；公式核验以扫描为准。程序实验并未验证全部公设或原文逻辑一致性。"
+      },
+      "selection_disposition": "本轮主文。"
+    },
+    {
+      "id": "church-1933",
+      "authors": [
+        "Alonzo Church"
+      ],
+      "title": "A Set of Postulates for the Foundation of Logic (Second Paper)",
+      "publication": {
+        "year": 1933,
+        "month": 10,
+        "journal": "Annals of Mathematics",
+        "volume": "34",
+        "issue": "4",
+        "pages": "839–864",
+        "doi": "10.2307/1968702",
+        "received": "1933-01-03"
+      },
+      "sources": [
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/1968702",
+          "coverage": "原刊稳定项；本次PDF入口未提供可读全文"
+        },
+        {
+          "kind": "archival_catalog",
+          "url": "https://findingaids.library.upenn.edu/records/PRIN_MUDD_C0948",
+          "coverage": "Princeton Church档案目录交叉确认1933年10月及839–864"
+        },
+        {
+          "kind": "embedded_original_page",
+          "url": "https://lsv.ens-paris-saclay.fr/~goubault/Lambda/lambda-agreg-1_compressed.pdf",
+          "coverage": "第8张幻灯片内嵌Church续篇首面影像，可读§1前两段与收稿脚注；引用的是原文影像，不采纳幻灯片作者的历史归因"
+        }
+      ],
+      "status": {
+        "retrieval": "只取得原刊首面影像；840页以后全文未取得。",
+        "reading": "已核首面§1：Church承认原公理表需修订，并点名Postulate 19导致修改版Russell悖论。",
+        "limits": "未核完整替换公理及排印勘误；首面开始的悖论构造跨页未完，不能声称已经完整重证。"
+      },
+      "selection_disposition": "本轮作为修订背景使用；完整续篇仍需补读。"
+    },
+    {
+      "id": "kleene-rosser-1935",
+      "authors": [
+        "S. C. Kleene",
+        "J. B. Rosser"
+      ],
+      "title": "The Inconsistency of Certain Formal Logics",
+      "publication": {
+        "year": 1935,
+        "month": 7,
+        "journal": "Annals of Mathematics",
+        "volume": "36",
+        "issue": "3",
+        "pages": "630–636",
+        "doi": "10.2307/1968646",
+        "received": "1934-11-13"
+      },
+      "sources": [
+        {
+          "kind": "journal_record",
+          "url": "https://www.jstor.org/stable/1968646",
+          "coverage": "原刊稳定项"
+        },
+        {
+          "kind": "original_scan_mirror",
+          "url": "https://www.cis.upenn.edu/~cis5110/Kleene-InconsistencyCertainFormal-1935.pdf",
+          "coverage": "全文扫描"
+        }
+      ],
+      "status": {
+        "retrieval": "已取得完整七页原文。",
+        "reading": "已阅读全文，重点核对630–632的论证概述、定理A及631页脚注3、6、8，另核定理B–D的对象。",
+        "limits": "未从头重证其依赖的Kleene 1934、1935整数理论。定理A的I–V明确采用1934修订；Curry目标是五篇工作的合并体系，不是1930或1931单篇。"
+      },
+      "selection_disposition": "后见历史证据；不能把原逻辑不一致与纯λ项转换的等式理论混同。"
+    }
+  ],
+  "next_source_gap": {
+    "candidate_id": "church-1933",
+    "target": "取得原刊840–864页，核对§1余下修订及明确勘误；目前缺口已公开披露，不用猜测内容填补。"
+  }
+}
