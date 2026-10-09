@@ -1,0 +1,8 @@
+Command: python -B review_independent.py
+
+seed=1930; 1500 random depth<=4 terms round-trip and independent redex-enumerator checks PASS
+588 emitted steps independently recognized and certificate checked PASS
+16 axioms at stated symbolic arities PASS (selected p534 BW variant)
+5 malformed/extensionality certificates rejected PASS
+3 additional strategy/trace cases PASS
+3 theorem constructors with divergent WWW arguments PASS (finite structural proofs)

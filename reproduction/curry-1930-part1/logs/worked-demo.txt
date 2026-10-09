@@ -1,0 +1,88 @@
+Command: python -B run_demo.py
+
+Curry 1930 Teil I, pp.509–536 — standard-library reproduction
+Two layers: four-rule contextual reduction; separately checked equational certificates.
+No claim of full Q/Π/P/Λ formalization, consistency, completeness, or Part II reproduction.
+
+1. Identity is the defined term W K, not a primitive
+start: I x  [expanded: W K x]
+  01. W@root: K x x
+  02. K@root: x
+status=normal; contractions=2
+
+2. Context reduction and discarded nontermination
+start: f (I x)  [expanded: f (W K x)]
+  01. W@1: f (K x x)
+  02. K@1: f x
+status=normal; contractions=2
+start: K x (W W W)  [expanded: K x (W W W)]
+  01. K@root: x
+status=normal; contractions=1
+
+3. W W W contracts to itself; a step is not a normal form
+start: W W W  [expanded: W W W]
+  01. W@root: W W W
+status=cycle; contractions=1
+cycle_start=0; cycle_length=1
+start: W W W  [expanded: W W W]
+  01. W@root: W W W
+  02. W@root: W W W
+  03. W@root: W W W
+  04. W@root: W W W
+status=fuel_exhausted; contractions=4
+Fuel exhaustion alone does not prove nonnormalization.
+
+4. Indexed sequences (definitions pp.529, 531–532)
+B_3 f g x1 x2 x3 -> f (g x1 x2 x3)
+C_3 x0 x1 x2 x3 x4 -> x0 x1 x2 x4 x3
+W_3 x0 x1 x2 x3 -> x0 x1 x2 x3 x3
+K_3 x0 x1 x2 x3 -> x0 x1 x2
+
+5. Finite axioms checked after enough fresh symbolic arguments
+16 finite axioms: symbolic saturated actions (not derivations of bare axioms)
+  Ax.B   args=4; steps L/R=7/4; x0 (x1 (x2 x3))
+  Ax.C   args=4; steps L/R=7/6; x0 (x1 x3 x2)
+  Ax.W   args=3; steps L/R=5/6; x0 (x1 x2 x2)
+  Ax.K   args=3; steps L/R=5/5; x0 x1
+  Ax.I1  args=2; steps L/R=4/6; x0 x1
+  Ax.BC  args=4; steps L/R=3/7; x0 x3 (x1 x2)
+  Ax.BW  args=3; steps L/R=3/13; x0 (x1 x2) (x1 x2)
+  Ax.BK  args=3; steps L/R=3/3; x0
+  Ax.CC1 args=3; steps L/R=3/4; x0 x1 x2
+  Ax.CC2 args=4; steps L/R=7/6; x0 x3 x2 x1
+  Ax.CW  args=3; steps L/R=3/7; x0 x2 x2 x1
+  Ax.CK  args=3; steps L/R=3/2; x0 x1
+  Ax.WC  args=2; steps L/R=3/1; x0 x1 x1
+  Ax.WW  args=2; steps L/R=3/4; x0 x1 x1 x1
+  Ax.WK  args=2; steps L/R=3/3; x0 x1
+  Ax.I2  args=2; steps L/R=3/2; x0 x1
+
+6. Source-critical Ax.(BW) case
+p.521 literal-looking reading:
+  left : x0 (x1 x2) (x1 x2)
+  right: x0 (x1 (B x0)) (x1 x2)
+The implemented BW premise follows the unambiguous left-associated p.534 product.
+This is an observed discrepancy, not a claim to have found an official erratum.
+
+7. BI=I: different four-rule normal forms, explicit extra axiom
+normal(B I) = B (W K)
+normal(I)   = W K
+with x,y appended: x y = x y
+BI=I: B (W K) = W K
+  checked nodes=1; finite axioms=I2
+CBI=I: C B (W K) = W K
+  checked nodes=20; finite axioms=I1,I2
+B x I=x: B x (W K) = x
+  checked nodes=29; finite axioms=I1,I2
+
+8. Composition associativity needs an equational proof before application
+bare left NF : B (B x y) z
+bare right NF: B x (B y z)
+applied to u : x (y (z u)) = x (y (z u))
+B distributes over dot: B (B x y) = B (B x) (B y)
+  checked nodes=38; finite axioms=B
+dot associativity: B (B x y) z = B x (B y z)
+  checked nodes=47; finite axioms=B
+Finite associativity certificate also checked with all arguments W W W (no argument evaluation).
+
+PASS: all worked checks completed. See tests and README for limits.

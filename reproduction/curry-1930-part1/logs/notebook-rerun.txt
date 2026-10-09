@@ -1,0 +1,3 @@
+Command: python -B execute_notebook.py --check
+
+PASS: 10 code cells rerun; saved outputs exactly match (stdlib exec, no Jupyter kernel)

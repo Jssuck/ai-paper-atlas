@@ -11,6 +11,7 @@
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
 | 1924 | [Schönfinkel《数学逻辑的构件》精读](papers/1924/schonfinkel-building-blocks.zh-CN.md) | AI 前史回填：组合子与变量消除 | 深读 v1 · 含实跑附件 |
+| 1930（第一部分） | [Curry《组合逻辑基础》第一部分精读](papers/1930/curry-foundations-part1.zh-CN.md) | AI 前史：形式系统与等式证明 | 深读 v1 · 第二部分待补 |
 | 1931 | [哥德尔不完备性论文精读](papers/1931/godel-formally-undecidable.zh-CN.md) | AI 前史回填：算术化、自指与形式系统边界 | 深读 v1 · 含实跑附件 |
 | 1932 | [Church《逻辑基础的一组公设》精读](papers/1932/church-postulates-logic.zh-CN.md) | AI 前史：函数、替换与逻辑基础 | 深读 v1 · 含实跑附件 |
 | 1936–1937 | [图灵《论可计算数》精读](papers/1936-1937/turing-computable-numbers.zh-CN.md) | AI 前史：可计算性基础 | 深读样稿 v2 · 含实跑附件 |
@@ -52,6 +53,14 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 - [11 项测试及分项检查](reproduction/schonfinkel-1924/logs/unittest.txt)
 
 实跑包含 1,400 个替换例、64 个谓词对、两个高阶 U 有限模型与 8 个 Notebook 代码单元。Notebook 用标准库顺序执行，不声称 Jupyter 内核验证；有限模型不构成一般逻辑一致性证明。
+
+## Curry 1930 第一部分可运行附件
+
+- [归约器与等式证书核说明](reproduction/curry-1930-part1/README.md)
+- [教学 Notebook](reproduction/curry-1930-part1/tutorial.ipynb)
+- [34 项测试日志](reproduction/curry-1930-part1/logs/unit-tests.txt) · [原文逐页来源账本](papers/1930/curry-foundations-part1.sources.zh-CN.md)
+
+只完成第一部分 509–536 页；第二部分及其完整表示定理证明仍待补读。教学实验区分执行归约与形式等式推导，Notebook 使用标准库执行器，非 Jupyter 内核验证。
 
 ## 每篇解析的共同标准
 

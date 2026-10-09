@@ -1,0 +1,189 @@
+{
+  "source": "Curry 1930 Teil I, American Journal of Mathematics 52(3), 509–536",
+  "source_doi": "10.2307/2370619",
+  "executed_at_utc": "2026-10-09T18:54:34.064329+00:00",
+  "python": "3.12.14",
+  "runtime_dependencies": "Python standard library only",
+  "unit_tests_passed": 34,
+  "independent_random_terms": 1500,
+  "independently_recognized_steps": 588,
+  "independent_review_seed": 1930,
+  "notebook_execution": {
+    "method": "Python standard-library exec, shared namespace, explicit stdout/stderr capture",
+    "jupyter_kernel_used": false,
+    "python_version": "3.12.14",
+    "executed_at_utc": "2026-10-09T18:54:33.928549+00:00",
+    "code_cells_executed": 10,
+    "limitation": "No IPython rich display, magics, kernel protocol or full nbformat schema validation"
+  },
+  "notebook_rerun_matches_saved_outputs": true,
+  "finite_axiom_checks": [
+    {
+      "axiom": "B",
+      "symbolic_arity": 4,
+      "left_steps": 7,
+      "right_steps": 4,
+      "variable_only_normal_form": "x0 (x1 (x2 x3))"
+    },
+    {
+      "axiom": "C",
+      "symbolic_arity": 4,
+      "left_steps": 7,
+      "right_steps": 6,
+      "variable_only_normal_form": "x0 (x1 x3 x2)"
+    },
+    {
+      "axiom": "W",
+      "symbolic_arity": 3,
+      "left_steps": 5,
+      "right_steps": 6,
+      "variable_only_normal_form": "x0 (x1 x2 x2)"
+    },
+    {
+      "axiom": "K",
+      "symbolic_arity": 3,
+      "left_steps": 5,
+      "right_steps": 5,
+      "variable_only_normal_form": "x0 x1"
+    },
+    {
+      "axiom": "I1",
+      "symbolic_arity": 2,
+      "left_steps": 4,
+      "right_steps": 6,
+      "variable_only_normal_form": "x0 x1"
+    },
+    {
+      "axiom": "BC",
+      "symbolic_arity": 4,
+      "left_steps": 3,
+      "right_steps": 7,
+      "variable_only_normal_form": "x0 x3 (x1 x2)"
+    },
+    {
+      "axiom": "BW",
+      "symbolic_arity": 3,
+      "left_steps": 3,
+      "right_steps": 13,
+      "variable_only_normal_form": "x0 (x1 x2) (x1 x2)"
+    },
+    {
+      "axiom": "BK",
+      "symbolic_arity": 3,
+      "left_steps": 3,
+      "right_steps": 3,
+      "variable_only_normal_form": "x0"
+    },
+    {
+      "axiom": "CC1",
+      "symbolic_arity": 3,
+      "left_steps": 3,
+      "right_steps": 4,
+      "variable_only_normal_form": "x0 x1 x2"
+    },
+    {
+      "axiom": "CC2",
+      "symbolic_arity": 4,
+      "left_steps": 7,
+      "right_steps": 6,
+      "variable_only_normal_form": "x0 x3 x2 x1"
+    },
+    {
+      "axiom": "CW",
+      "symbolic_arity": 3,
+      "left_steps": 3,
+      "right_steps": 7,
+      "variable_only_normal_form": "x0 x2 x2 x1"
+    },
+    {
+      "axiom": "CK",
+      "symbolic_arity": 3,
+      "left_steps": 3,
+      "right_steps": 2,
+      "variable_only_normal_form": "x0 x1"
+    },
+    {
+      "axiom": "WC",
+      "symbolic_arity": 2,
+      "left_steps": 3,
+      "right_steps": 1,
+      "variable_only_normal_form": "x0 x1 x1"
+    },
+    {
+      "axiom": "WW",
+      "symbolic_arity": 2,
+      "left_steps": 3,
+      "right_steps": 4,
+      "variable_only_normal_form": "x0 x1 x1 x1"
+    },
+    {
+      "axiom": "WK",
+      "symbolic_arity": 2,
+      "left_steps": 3,
+      "right_steps": 3,
+      "variable_only_normal_form": "x0 x1"
+    },
+    {
+      "axiom": "I2",
+      "symbolic_arity": 2,
+      "left_steps": 3,
+      "right_steps": 2,
+      "variable_only_normal_form": "x0 x1"
+    }
+  ],
+  "bw_source_policy": "Use unambiguous p.534 left-associated product; p.521 literal-looking discrepancy preserved in test and notebook; no official erratum claimed",
+  "equational_certificates": [
+    {
+      "claim": "CBI=I",
+      "left": "C B (W K)",
+      "right": "W K",
+      "proof_tree_nodes": 20,
+      "finite_axioms_used": [
+        "I1",
+        "I2"
+      ]
+    },
+    {
+      "claim": "BXI=X",
+      "left": "B x (W K)",
+      "right": "x",
+      "proof_tree_nodes": 29,
+      "finite_axioms_used": [
+        "I1",
+        "I2"
+      ]
+    },
+    {
+      "claim": "B distributes over dot",
+      "left": "B (B x y)",
+      "right": "B (B x) (B y)",
+      "proof_tree_nodes": 38,
+      "finite_axioms_used": [
+        "B"
+      ]
+    },
+    {
+      "claim": "dot associativity",
+      "left": "B (B x y) z",
+      "right": "B x (B y z)",
+      "proof_tree_nodes": 47,
+      "finite_axioms_used": [
+        "B"
+      ]
+    }
+  ],
+  "www": {
+    "status": "cycle",
+    "steps": 1,
+    "cycle_start": 0,
+    "cycle_length": 1
+  },
+  "not_claimed": [
+    "full Q/Π/P/Λ formalization",
+    "original theory consistency or completeness",
+    "general termination or confluence proof",
+    "Part II reproduction",
+    "Jupyter kernel execution",
+    "formal verification of the Python kernel"
+  ]
+}

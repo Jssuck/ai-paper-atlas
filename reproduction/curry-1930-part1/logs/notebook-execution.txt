@@ -1,0 +1,3 @@
+Command: python -B execute_notebook.py
+
+PASS: 10 code cells executed and outputs saved (stdlib exec, no Jupyter kernel)

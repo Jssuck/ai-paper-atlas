@@ -1,0 +1,41 @@
+Command: python -B -m unittest -v test_curry
+
+test_all_sixteen_symbolic_actions (test_curry.AxiomTests.test_all_sixteen_symbolic_actions) ... ok
+test_bw_p521_literal_anomaly (test_curry.AxiomTests.test_bw_p521_literal_anomaly) ... ok
+test_independent_callable_semantics (test_curry.AxiomTests.test_independent_callable_semantics) ... ok
+test_insufficient_saturation_rejected (test_curry.AxiomTests.test_insufficient_saturation_rejected) ... ok
+test_product_notation_matches_each_side (test_curry.AxiomTests.test_product_notation_matches_each_side) ... ok
+test_associativity_proof_and_boundary (test_curry.ProofTests.test_associativity_proof_and_boundary) ... ok
+test_bi_i_boundary (test_curry.ProofTests.test_bi_i_boundary) ... ok
+test_bounded_random_traces_are_certified (test_curry.ProofTests.test_bounded_random_traces_are_certified) ... ok
+test_cbi_and_right_identity_proofs (test_curry.ProofTests.test_cbi_and_right_identity_proofs) ... ok
+test_distribution_proof (test_curry.ProofTests.test_distribution_proof) ... ok
+test_equality_properties (test_curry.ProofTests.test_equality_properties) ... ok
+test_reject_bad_certificates (test_curry.ProofTests.test_reject_bad_certificates) ... ok
+test_reject_forged_trace (test_curry.ProofTests.test_reject_forged_trace) ... ok
+test_substitution_is_simultaneous_and_protects_primitives (test_curry.ProofTests.test_substitution_is_simultaneous_and_protects_primitives) ... ok
+test_theorem_instantiation_with_divergent_arguments (test_curry.ProofTests.test_theorem_instantiation_with_divergent_arguments) ... ok
+test_context_in_argument (test_curry.ReductionTests.test_context_in_argument) ... ok
+test_context_in_function_before_argument (test_curry.ReductionTests.test_context_in_function_before_argument) ... ok
+test_fuel_and_cycle_status (test_curry.ReductionTests.test_fuel_and_cycle_status) ... ok
+test_i_trace_uses_w_and_k (test_curry.ReductionTests.test_i_trace_uses_w_and_k) ... ok
+test_normal_helper_rejects_inconclusive (test_curry.ReductionTests.test_normal_helper_rejects_inconclusive) ... ok
+test_outermost_discards_divergence (test_curry.ReductionTests.test_outermost_discards_divergence) ... ok
+test_overapplication (test_curry.ReductionTests.test_overapplication) ... ok
+test_partial_application_is_normal (test_curry.ReductionTests.test_partial_application_is_normal) ... ok
+test_primitive_rules (test_curry.ReductionTests.test_primitive_rules) ... ok
+test_self_loop_is_not_normal (test_curry.ReductionTests.test_self_loop_is_not_normal) ... ok
+test_b_sequence_action (test_curry.SequenceTests.test_b_sequence_action) ... ok
+test_c_w_k_sequence_actions (test_curry.SequenceTests.test_c_w_k_sequence_actions) ... ok
+test_exact_definitions_and_index_boundary (test_curry.SequenceTests.test_exact_definitions_and_index_boundary) ... ok
+test_sequence_lifting_identity (test_curry.SequenceTests.test_sequence_lifting_identity) ... ok
+test_i_is_expansion (test_curry.SyntaxTests.test_i_is_expansion) ... ok
+test_invalid_parser (test_curry.SyntaxTests.test_invalid_parser) ... ok
+test_left_association (test_curry.SyntaxTests.test_left_association) ... ok
+test_parentheses_and_whitespace (test_curry.SyntaxTests.test_parentheses_and_whitespace) ... ok
+test_round_trip (test_curry.SyntaxTests.test_round_trip) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.037s
+
+OK
