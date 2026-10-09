@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "de-morgan-1851",
+    "stage": "researching",
+    "source": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf",
+    "scope": "Second memoir original pp79–127 including July1850 bracketed revision and Addition; PartI imprint1851, read25Feb1850, boundvolume1856."
+  },
   "last_completed": {
     "id": "de-morgan-1847",
     "path": "papers/1847/demorgan-structure-syllogism.zh-CN.md",
@@ -10,12 +15,12 @@
     "checks": "Independent mathematical and code reviews passed; all 35 published files exactly verified on main; GitHub formulas, tables, evidence links and 16-cell notebook static preview verified.",
     "scope": "Original1847 pp379–408 with Addition read. Read1846 and bound-volume1849 distinguished from publication. Later annotations and printed amendments remain uncollated; no claim of complete version audit."
   },
-  "updated_at": "2026-10-09T22:56:15Z",
+  "updated_at": "2026-10-09T23:37:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled turn inspect current chronology and unfinished paper/version gaps; choose one source-verified task, preserve earlier book gaps and incomplete later-version collation."
+  "next_action": "Read all49original pages, built-in revisions and Addition; reconstruct logic and evidence probability with independent review, retaining1847 later-version collation gap."
 }
