@@ -1,25 +1,21 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "curry-1930-part1",
-    "title": "Grundlagen der kombinatorischen Logik — Teil I",
-    "selection_confirmed": true,
-    "doi": "10.2307/2370619",
-    "chronology_note": "July 1930 pages 509–536 only. October Part II remains unfinished and must not be marked completed."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "schonfinkel-1924",
-    "path": "papers/1924/schonfinkel-building-blocks.zh-CN.md",
+    "id": "curry-1930-part1",
+    "path": "papers/1930/curry-foundations-part1.zh-CN.md",
     "version": "v1",
-    "content_commit": "0854019a9eae166e1395fbfe55cf4c819b360d12",
-    "checks": "Independent original-page, mathematics and code review passed. Remote content, live math rendering, evidence targets and notebook static preview verified."
+    "content_commit": "fae40ac4d11aae1672fb9832989a3989c87ff31d",
+    "checks": "Independent primary-page mathematical and code review passed; remote exact content, math/tables, relative evidence links and notebook static preview verified.",
+    "scope": "Part I, pages 509–536 only; Part II and its deferred proofs remain unfinished."
   },
-  "updated_at": "2026-10-09T18:55:54Z",
+  "updated_at": "2026-10-09T18:59:53Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
-  }
+  },
+  "next_action": "At next scheduled turn inspect preserved candidate registry including newly identified Curry 1929 predecessor; choose earliest feasible unfinished source, retain unavailable gaps and Part II as pending."
 }
