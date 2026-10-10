@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "gergonne-1817-dialectique-rationnelle",
     "path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Historical backfill: original189–228 published1January1817, excluding adjacent Questions proposées; formalerrata386 corrections included."
-  },
-  "last_completed": {
-    "id": "drach-1852-sylvester-remark",
-    "path": "papers/1852/drach-sylvester-remark.zh-CN.md",
     "version": "v1",
-    "content_commit": "74288d204bdaffabebd9c9bb144a97de8682eb78",
-    "checks": "Independent original-source mathematics and exact-rational code review passed;18remote files exact-verified;134MathML formulas match source across six requested views, tables and links checked.",
-    "scope": "Complete December1852 p479 short note; correct cancellation identity separated from unproved geometric mapping and universal proof-method claims.8tests include625rational combinations; no geometry simulation."
+    "content_commit": "7dd130cd5906f94fb3d8f4d853f5f3fa459ba66f",
+    "checks": "Independent original-source mathematics and code review passed;30main and9independent tests;31remote files exact-verified;seven Markdown views,85article formulas,24tables and links independently browser-checked.",
+    "scope": "Historical backfill:1January1817 original40pages68paragraphs19footnotes and three formalerrata; p216printedCH versus proposedDH preserved separately.109patterns54relationtriples24validforms232countermodels; noNotebook claimed."
   },
-  "updated_at": "2026-10-10T20:02:15Z",
+  "updated_at": "2026-10-10T20:09:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify complete remote artifact contents and GitHub rendered formulas, tables, links before marking completed.",
+  "next_action": "Next scheduled paper turn may select one unfinished source; preserve earlier Euler/Condorcet/Condillac and existing book/version gaps. Verify every external operation result and recover pending same-paper work before selection.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
