@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "sylvester-1852-geometrical-method",
+    "stage": "researching",
+    "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf",
+    "scope": "OriginalNovember1852 pp366–369; newly identified precursor to December1852 De Morgan response. General proof-method criterion is a conjecture, not an established theorem."
+  },
   "last_completed": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-symbols-logic.zh-CN.md",
@@ -10,12 +15,12 @@
     "checks": "Independent source, mathematical and code reviews passed; all44published files exactly verified on main;630formulas across article/audits and22-cell notebook static preview verified without errors; tables and links checked.",
     "scope": "Original79–127all49pages, July1850 replacement paragraphs and Addition read; PartI1851 imprint distinguished from read1850/bound1856. Earlier books and1847later-version collation remain open."
   },
-  "updated_at": "2026-10-10T00:04:17Z",
+  "updated_at": "2026-10-10T00:39:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled turn inspect current registry and unfinished source/version gaps; choose one source-verified task with explicit chronological boundaries, preserving accessible unread books and amendments."
+  "next_action": "Read four-page original and applicable source-critical context; reconstruct geometric algebra, admissible roots and claimed proof-method inference; independently verify teaching reproduction."
 }
