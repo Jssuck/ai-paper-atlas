@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-10T20:48:20.084636+00:00",
+  "finished_at_utc": "2026-10-10T20:48:20.168865+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "oracle_method": "Independent pairs of subsets; point-membership counts; no production enumerators used for expectations",
+  "sizes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "labeled_models": 1364,
+  "labeled_models_both_terms_nonempty": 1245,
+  "labeled_by_size": {
+    "1": 4,
+    "2": 16,
+    "3": 64,
+    "4": 256,
+    "5": 1024
+  },
+  "nonempty_by_size": {
+    "1": 1,
+    "2": 9,
+    "3": 49,
+    "4": 225,
+    "5": 961
+  },
+  "consequence_queries": 128,
+  "modes": {
+    "allow_empty_terms": {
+      "occupancy_patterns": 15,
+      "true_counts": {
+        "A": 7,
+        "E": 7,
+        "I": 8,
+        "O": 8
+      },
+      "joint_truth_pattern_counts": {
+        "AE": 3,
+        "AI": 4,
+        "EO": 4,
+        "IO": 4
+      },
+      "strict_overlap_patterns": 2,
+      "nonreflexive_single_premise_implications": [],
+      "valid_consequence_queries": 40,
+      "countermodel_minimum_size_counts": {
+        "1": 20,
+        "2": 4
+      }
+    },
+    "nonempty_terms": {
+      "occupancy_patterns": 10,
+      "true_counts": {
+        "A": 4,
+        "E": 2,
+        "I": 8,
+        "O": 6
+      },
+      "joint_truth_pattern_counts": {
+        "AI": 4,
+        "EO": 2,
+        "IO": 4
+      },
+      "strict_overlap_patterns": 2,
+      "nonreflexive_single_premise_implications": [
+        "A=>I",
+        "E=>O"
+      ],
+      "valid_consequence_queries": 44,
+      "countermodel_minimum_size_counts": {
+        "2": 12,
+        "1": 8
+      }
+    }
+  },
+  "source_sha256": {
+    "euler_semantics.py": "86c8878f3be69cf0e0b8a4aed2543b1d4185eea1219c54258474c27278da8efc",
+    "run.py": "aa1202a6907b81c36d18bde45333aae7b6eca0549a5e443b8b4e96744569a386",
+    "tests/test_semantics.py": "c93c250dd6bb5eff08652d00fe9ed9e193c13605d369521c39f9fe7373c2aac0",
+    "README.zh-CN.md": "526117d5f90fe12e43650db3598a4a8beba1da4d11c566488b09718dc83adc1c",
+    "review/independent_oracle.py": "64d60a96984fb7b2888f15df452d1fd1d361c9077f71436526840615675dfb61"
+  }
+}

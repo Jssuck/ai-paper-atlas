@@ -1,0 +1,16 @@
+Euler CII: modern finite-set experiment
+Universe is nonempty in both modes.
+allow_empty_terms: 15 occupancy patterns
+  true counts: A=7, E=7, I=8, O=8
+  joint truth patterns: {"AE": 3, "AI": 4, "EO": 4, "IO": 4}
+  strict-overlap patterns: 2
+  non-reflexive single-premise implications: none
+nonempty_terms: 10 occupancy patterns
+  true counts: A=4, E=2, I=8, O=6
+  joint truth patterns: {"AI": 4, "EO": 2, "IO": 4}
+  strict-overlap patterns: 2
+  non-reflexive single-premise implications: A=>I, E=>O
+Exhaustive labeled cross-check in tests: sizes 1..4, 340 models; 284 have both terms nonempty.
+Consequence checks: 16 premise subsets x 4 conclusions x 2 modes = 128 queries.
+Bound: at most four elements suffice for these occupancy-invariant two-term formulas.
+NOT a reconstruction or completeness claim about Euler's historical logic.

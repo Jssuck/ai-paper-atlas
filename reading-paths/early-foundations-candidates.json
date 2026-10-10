@@ -4,9 +4,9 @@
   "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "已完成1852三篇后，本轮明确向1817回填，只精读Gergonne一篇；新发现更早前驱作局部来源核查，不据此完成其全书。",
-    "main_window": "Gergonne1817-01-01，第VII号，189–228全部40页、68段、19脚注；保留228页本篇底注，排除相邻Questions proposées；同卷386页三项适用勘误。",
-    "coverage": "18个旧候选对象、15项selection_history前缀和既有effective_status完整保留；追加Gergonne完成对象、Boole1848未读候选及一项紧凑事件，不嵌套复制历史。",
+    "selection_context": "已完成Gergonne1817后，明确向1768回填，仅完成Euler第二卷CII完整书信章节，不把整卷/全书或CIII/CIV标完成。",
+    "main_window": "1768原版第二卷CII，印95–100/PDF114–119，止于1761-02-14署日；六图块；排除CIII。",
+    "coverage": "完整保留20个旧候选、16项selection_history前缀、全部旧effective_status与书籍/版本缺口；追加CII对象及紧凑事件。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -38,22 +38,31 @@
       "1817为本篇真实刊年，1816–1817为卷年；1852→1817是非穷尽年代回填，不宣称最早AI或逻辑起点。",
       "109成员原子模式为现代有限语义重构，54为原文两两关系三元组；完整性限三个非空项与四类直言命题。",
       "Euler/Condorcet/Condillac只核相关书目或短段，未独立精读全书；Boole1848仅候选，分册刊期与同卷勘误核查仍未完成。",
-      "216页§55 N行原印CH有反模型，建议改为倒转C H（现代别名DH）；与386页三项正式勘误分开，不称原表全部正确。"
+      "216页§55 N行原印CH有反模型，建议改为倒转C H（现代别名DH）；与386页三项正式勘误分开，不称原表全部正确。",
+      "1768是出版年，1761-02-14是原信署日，E344为整卷编号；不称CII为独立期刊论文或已读全书。",
+      "特称图是容许配置，不能把交叠图额外区域当成命题必然约束；现代空项与存在性约定不冒归原文。",
+      "CIII102页仅有界上下文；CIII/CIV均未完整读完，110页遮挡需补清晰底本，101页四格图不属CII。",
+      "第二卷此扫描目录缺vi–vii、后段106–107重复，CII六页完整不等于整卷扫描完整；勘误检索有界，不断言绝无后期修订。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "gergonne-1817-dialectique-rationnelle",
-    "title": "Essai de dialectique rationnelle",
-    "pages": "189–228（全部68段及19脚注；排除228页相邻天文题）",
-    "publication_scope": "Annales de Mathématiques pures et appliquées, tome7(1816–1817), noVII, 1817-01-01；189页页脚核图。",
-    "why_selected": "在有界新增来源核查中发现更早完整可读论文，从1852向1817明确回填；不以名气或影响力裁定纳入，不声称早期来源已穷尽。",
-    "mathematical_boundary": "非空项语义、严格部分交叠与严格包含；54关系三元组、24有效式，现代109原子模式与小模型证明另标；作者格号不直接套现代格号。 216页§55原印CH与建议DH修复分开，保留原式反模型。",
-    "completion": "完整原文及适用正式勘误核图、原创中文精读、有限模型实跑和独立来源/数学/代码审计完成；远端提交与页面QA由发布步骤另核。",
-    "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
-    "source_ledger_path": "papers/1817/gergonne-dialectique-rationnelle.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1817/gergonne-dialectique-rationnelle.audit.zh-CN.md",
-    "reproduction_path": "reproduction/gergonne-1817/README.md"
+    "candidate_id": "euler-1768-letter-cii",
+    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CII",
+    "publication_year": 1768,
+    "letter_date": "1761-02-14",
+    "document_type": "完整书信章节，非独立期刊论文；E344为整卷编号",
+    "pages": "95–100（100页止于本信署日；下方CIII排除）",
+    "publication_scope": "Saint Pétersbourg, de l’Imprimerie de l’Académie Impériale des Sciences, 1768；出版月日未核定。",
+    "why_selected": "有界来源核查后由1817向1768回填；六页完整原始章节可读，不宣称最早逻辑图、第一篇AI或穷尽前史。",
+    "mathematical_boundary": "一般观念、四类直言命题与圆域表示；现代集合语义区分空项/非空项、一般/严格包含；特称交叠只是容许模型，不解释为some-but-not-all。",
+    "completion": "完整CII六页及六图块核图，原创中文精读、标准库复现及独立原典/数学/代码审查完成；远端提交与页面QA由发布步骤另核。",
+    "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
+    "source_ledger_path": "papers/1768/euler-letter-cii.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1768/euler-letter-cii.audit.zh-CN.md",
+    "reproduction_path": "reproduction/euler-1768-cii/README.zh-CN.md",
+    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=114",
+    "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/"
   },
   "earlier_gap_priority": [
     {
@@ -1007,6 +1016,25 @@
       "status": "full_original_available_unread_issue_and_errata_audit_pending",
       "selection_disposition": "仅登记后续候选；本轮不精读，先完成已锁定的1817篇；不关闭1847书籍依赖。",
       "source_boundary": "文章始于183页下部，止于198页上部，排除相邻文章；原文自身改正1847书66/80页，不是本篇183–198页的勘误；卷勘误图像核查仍待做。"
+    },
+    {
+      "candidate_id": "euler-1768-letter-cii",
+      "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CII",
+      "publication_year": 1768,
+      "letter_date": "1761-02-14",
+      "document_type": "完整书信章节，非独立期刊论文；E344为整卷编号",
+      "pages": "95–100（100页止于本信署日；下方CIII排除）",
+      "publication_scope": "Saint Pétersbourg, de l’Imprimerie de l’Académie Impériale des Sciences, 1768；出版月日未核定。",
+      "why_selected": "有界来源核查后由1817向1768回填；六页完整原始章节可读，不宣称最早逻辑图、第一篇AI或穷尽前史。",
+      "mathematical_boundary": "一般观念、四类直言命题与圆域表示；现代集合语义区分空项/非空项、一般/严格包含；特称交叠只是容许模型，不解释为some-but-not-all。",
+      "completion": "完整CII六页及六图块核图，原创中文精读、标准库复现及独立原典/数学/代码审查完成；远端提交与页面QA由发布步骤另核。",
+      "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
+      "source_ledger_path": "papers/1768/euler-letter-cii.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1768/euler-letter-cii.audit.zh-CN.md",
+      "reproduction_path": "reproduction/euler-1768-cii/README.zh-CN.md",
+      "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=114",
+      "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
+      "status": "completed_original_letter_chapter"
     }
   ],
   "next_source_gap": {
@@ -1863,6 +1891,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
       "note": "本轮由1852向1817明确回填；全40页、68段、19脚注与三正式勘误核图；54/24原表、109现代模型和24→14→11→6→2归约分层核验。Boole1848仅新增未读候选；前驱仅有界段落核查；旧候选、旧历史和缺口原样保留；远端与页面QA另核。 另识别216页N行CH的未列正式勘误错误，保留原印/反模型与建议DH修复。"
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "euler-1768-letter-cii",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
+      "note": "1817→1768回填；完整CII95–100及六图块，1761署日另记；特称非唯一模型、空项/存在性与一般包含分开；保留Nul A n’est pas B原印及上下文，不宣称正式勘误。CIII102只局部核查，CIII/CIV仍待补；全部旧候选、历史、有效状态及书籍/版本缺口保留；远端与页面QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -1986,6 +2021,11 @@
       "subject": "Boole1848与1847前置书籍",
       "evidence": "1848篇首183页脚注明示概述并扩展The Mathematical Analysis of Logic1847。",
       "reading_status": "1848论文完整原卷可得但未精读，具体刊期及卷勘误待核；1847书籍继续可得未读，不标为无法获取。"
+    },
+    {
+      "subject": "Euler第二卷与更早图解逻辑前驱",
+      "status": "partial_context_only_not_completed",
+      "note": "仅CII完整完成；CIII102及交接局部核查不等于CIII/CIV全读。未来CIII先补110页清晰图；亚里士多德、Galen、Port-Royal、’s Gravesande等仍待独立来源核查。"
     }
   ],
   "effective_status": {
@@ -2011,6 +2051,14 @@
       "pages": "189–228",
       "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
       "completion": "完整原文及适用正式勘误核图、原创中文精读、有限模型实跑和独立来源/数学/代码审计完成；远端提交与页面QA由发布步骤另核。"
+    },
+    "euler-1768-letter-cii": {
+      "status": "completed_original_letter_chapter",
+      "pages": "95–100（100页止于本信署日；下方CIII排除）",
+      "publication_year": 1768,
+      "letter_date": "1761-02-14",
+      "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
+      "not_completed": "第二卷/全书、CIII/CIV；CIII102只局部核查。"
     }
   }
 }

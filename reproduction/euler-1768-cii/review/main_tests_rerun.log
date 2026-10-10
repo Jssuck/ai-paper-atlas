@@ -1,0 +1,25 @@
+started_at_utc=2026-10-10T20:47:22Z
+$ python3 -m unittest discover -s tests -v
+test_all_340_labeled_models_match_quantified_oracle_and_compression (test_semantics.CategoricalSemanticsTests.test_all_340_labeled_models_match_quantified_oracle_and_compression) ... ok
+test_atom_partition (test_semantics.CategoricalSemanticsTests.test_atom_partition) ... ok
+test_contradictory_pairs_in_both_modes (test_semantics.CategoricalSemanticsTests.test_contradictory_pairs_in_both_modes) ... ok
+test_empty_predicate_is_separate_from_empty_subject (test_semantics.CategoricalSemanticsTests.test_empty_predicate_is_separate_from_empty_subject) ... ok
+test_empty_subject_vacuity (test_semantics.CategoricalSemanticsTests.test_empty_subject_vacuity) ... ok
+test_every_premise_subset_checked_against_labeled_models (test_semantics.CategoricalSemanticsTests.test_every_premise_subset_checked_against_labeled_models) ... ok
+test_exact_joint_truth_patterns (test_semantics.CategoricalSemanticsTests.test_exact_joint_truth_patterns) ... ok
+test_exact_mode_and_form_counts (test_semantics.CategoricalSemanticsTests.test_exact_mode_and_form_counts) ... ok
+test_exact_single_premise_entailments (test_semantics.CategoricalSemanticsTests.test_exact_single_premise_entailments) ... ok
+test_inclusion_is_not_strict (test_semantics.CategoricalSemanticsTests.test_inclusion_is_not_strict) ... ok
+test_invalid_modes_forms_and_sizes_raise (test_semantics.CategoricalSemanticsTests.test_invalid_modes_forms_and_sizes_raise) ... ok
+test_mask_validation_and_roundtrip (test_semantics.CategoricalSemanticsTests.test_mask_validation_and_roundtrip) ... ok
+test_some_does_not_mean_some_but_not_all (test_semantics.CategoricalSemanticsTests.test_some_does_not_mean_some_but_not_all) ... ok
+test_strict_overlap_is_an_example_not_a_definition (test_semantics.CategoricalSemanticsTests.test_strict_overlap_is_an_example_not_a_definition) ... ok
+test_subalternation_has_empty_subject_counterexamples (test_semantics.CategoricalSemanticsTests.test_subalternation_has_empty_subject_counterexamples) ... ok
+test_universe_and_term_validation (test_semantics.CategoricalSemanticsTests.test_universe_and_term_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.123s
+
+OK
+
+exit_code=0
