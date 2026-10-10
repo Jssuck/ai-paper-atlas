@@ -168,9 +168,11 @@ D_k=P(J=k)=\sum_s v_s C_{ks}.
 
 因此，在 $`D_k>0`$ 时，具体报告的可信度为
 
+**式（1）**
+
 ```math
 P_k=P(H=k\mid J=k)
-=\frac{v_k C_{kk}}{\sum_s v_s C_{ks}}.\tag{1}
+=\frac{v_k C_{kk}}{\sum_s v_s C_{ks}}.
 ```
 
 分子是“事实确为k且报告为k”；分母还包括一切事实不是k却报告为k的路径。公式正确，且并不需要各个真实状态独立，因为它们是互斥的备选状态。
@@ -261,9 +263,11 @@ C_{js}=\frac{1-\mu}{n-1}\quad(j\ne s).
 
 代入式（1）得
 
+**式（2）**
+
 ```math
 P_k=\frac{v_k\mu}
-{v_k\mu+(1-v_k)(1-\mu)/(n-1)}.\tag{2}
+{v_k\mu+(1-v_k)(1-\mu)/(n-1)}.
 ```
 
 当 $`0<\mu<1`$ 时，
@@ -340,9 +344,11 @@ N\ge\left\lceil\frac{\log(1/2)}{\log(1-2^{-15})}\right\rceil=22713.
 
 若“否认k”恰为“报告不是k”，则
 
+**式（3）**
+
 ```math
 P(H=k\mid J\ne k)
-=\frac{v_k(1-C_{kk})}{1-D_k},\tag{3}
+=\frac{v_k(1-C_{kk})}{1-D_k},
 ```
 
 而
@@ -359,8 +365,8 @@ P(H\ne k\mid J\ne k)
 否认k使k的概率下降，还需要证言有正确方向。由式（3），对非退化情况，
 
 ```math
-P(H=k\mid J\ne k)<v_k\iff C_{kk}>D_k
-\iff C_{kk}>P(J=k\mid H\ne k).
+P(H=k\mid J\ne k)\lt v_k\iff C_{kk}\gt D_k
+\iff C_{kk}\gt P(J=k\mid H\ne k).
 ```
 
 **反例：** 两个状态等概率，一个总会反着说的证人有 $`C_{11}=C_{22}=0`$。他否认状态1，恰恰证明状态1为真。原文的“一般会更加不可能”不能读成对任意证人的数学定理。
@@ -377,9 +383,11 @@ C_{js}=\lambda_j\frac{1-c_s}{1-\lambda_s}.
 
 它把“已经出错”时的报告，按证人的预期权重分配到其余状态。假定 $`\lambda_s<1`$，可核对每列总和为1。于是
 
+**式（4）**
+
 ```math
 P_k=\frac{v_kc_k}
-{v_kc_k+\lambda_k\sum_{s\ne k}v_s\frac{1-c_s}{1-\lambda_s}}.\tag{4}
+{v_kc_k+\lambda_k\sum_{s\ne k}v_s\frac{1-c_s}{1-\lambda_s}}.
 ```
 
 ### 1 何时报告完全无信息
@@ -422,9 +430,11 @@ c_s=1-\theta+\theta\lambda_s,
 
 且
 
+**式（5）**
+
 ```math
 P_k=\frac{v_k(1-\theta+\theta\lambda_k)}
-{(1-\theta)v_k+\theta\lambda_k}.\tag{5}
+{(1-\theta)v_k+\theta\lambda_k}.
 ```
 
 在参数使各概率合法且分母为正时，
@@ -455,10 +465,12 @@ T_{js}=P(J=j\mid H=s)=\sum_b L_{jb}C_{bs},
 
 于是
 
+**式（6）**
+
 ```math
 P(H=k\mid J=k)
 =\frac{v_k\sum_b C_{bk}L_{kb}}
-{\sum_s v_s\sum_b C_{bs}L_{kb}}.\tag{6}
+{\sum_s v_s\sum_b C_{bs}L_{kb}}.
 ```
 
 这正是原文对真实状态和中间判断作双重求和的现代形式。所谓“错上加错可能报对”，就是 $`b\ne k`$ 的路径仍可能以报告k结束。
@@ -467,8 +479,10 @@ P(H=k\mid J=k)
 
 若两个阶段分别以a、b的概率正确，所有错误均匀分到其余 $`n-1`$ 项，且真实状态均匀分布，则
 
+**式（7）**
+
 ```math
-P_k=ab+\frac{(1-a)(1-b)}{n-1}.\tag{7}
+P_k=ab+\frac{(1-a)(1-b)}{n-1}.
 ```
 
 第一项为两个阶段都正确；第二项为两个阶段都错误、最终恰好回到真相。n=2时，第二次错误必然把第一次错误翻回真相；n较大时，还须选中原来的正确状态。
@@ -485,10 +499,12 @@ P_k=ab+\frac{(1-a)(1-b)}{n-1}.\tag{7}
 
 若 $`c_k=C_{kk}`$，并令 $`D_k=\sum_s v_sC_{ks}`$ 是不考虑此类说谎时判断为k的概率，则
 
+**式（8）**
+
 ```math
 P_k(\kappa)
 =\frac{(1-\kappa)v_kc_k+\kappa v_k}
-{(1-\kappa)D_k+\kappa}.\tag{8}
+{(1-\kappa)D_k+\kappa}.
 ```
 
 对 $`D_k>0`$，可写成
@@ -521,10 +537,12 @@ T^{(i)}_{j_i s}=\sum_b L^{(i)}_{j_i b}C^{(i)}_{bs}.
 
 如果各证人的报告在给定真实状态后相互独立，则
 
+**式（9）**
+
 ```math
 P(H=t\mid J_1=j_1,\ldots,J_m=j_m)
 =\frac{v_t\prod_i T^{(i)}_{j_i t}}
-{\sum_s v_s\prod_i T^{(i)}_{j_i s}}.\tag{9}
+{\sum_s v_s\prod_i T^{(i)}_{j_i s}}.
 ```
 
 展开各个中间判断b的求和，就得到原文第125页的乘积与求和结构。若证人通道相同且全都报告k，则似然是 $`(T_{ks})^m`$。
@@ -634,3 +652,8 @@ T(a)\Rightarrow O G(a),\qquad\neg G(a)
 - 1850年7月3日附记：[第126至127页](https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf#page=142)。
 
 本附录逐页查看了上述17页扫描图像；OCR仅用于检索。数值例与现代符号推导均另作复算，不将OCR缺失的分数线、上下标、撇号或括号方向当作原刊事实。
+
+
+## 显示更正记录
+
+2026-10-10：修复 GitHub 渲染中一处分式后续不等式链的静默截断，改用明确的 `\lt`、`\gt` 数学命令；九个公式编号移至公式上方文字，避免编号导致左端异常竖排。数学表达式、推导和代码均未改变。

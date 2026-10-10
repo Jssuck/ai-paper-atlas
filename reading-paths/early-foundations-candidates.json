@@ -1760,6 +1760,13 @@
         "负参数推广需区分正向射线与任意整直线绝对长度；所有证明方法的结论是猜想。",
         "十二月De Morgan435–438与Drach479作为独立回应保留未完成状态；全部旧候选、历史和版本缺口保留。"
       ]
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "de-morgan-1851",
+      "event": "rendering_correction",
+      "note": "概率审计一处不等式链被GitHub静默截断；改用lt/gt，九个公式编号移到公式外以避免竖排。数学内容与代码不变；完整显示另行核验。",
+      "path": "papers/1851/demorgan-probability-audit.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [
