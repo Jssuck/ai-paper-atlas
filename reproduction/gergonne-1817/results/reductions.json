@@ -1,0 +1,270 @@
+{
+  "counts": [
+    24,
+    14,
+    11,
+    6,
+    2
+  ],
+  "caution": "24→14→11 uses equivalence; 11→6 uses entailment; 6→2 uses reductio, not equivalence classes.",
+  "premise_conversion_classes": [
+    [
+      "1:AAA"
+    ],
+    [
+      "1:AAa"
+    ],
+    [
+      "1:Aaa",
+      "4:Aaa"
+    ],
+    [
+      "1:NAN",
+      "3:NAN"
+    ],
+    [
+      "1:NAn",
+      "3:NAn"
+    ],
+    [
+      "1:Nan",
+      "2:Nan",
+      "3:Nan",
+      "4:Nan"
+    ],
+    [
+      "2:AAa"
+    ],
+    [
+      "2:ANN",
+      "3:ANN"
+    ],
+    [
+      "2:ANn",
+      "3:ANn"
+    ],
+    [
+      "2:NAn",
+      "4:NAn"
+    ],
+    [
+      "2:aAa",
+      "4:aAa"
+    ],
+    [
+      "3:Ann"
+    ],
+    [
+      "4:AAa"
+    ],
+    [
+      "4:nAn"
+    ]
+  ],
+  "with_conclusion_conversion_classes": [
+    [
+      "1:AAA"
+    ],
+    [
+      "1:AAa",
+      "2:AAa"
+    ],
+    [
+      "1:Aaa",
+      "2:aAa",
+      "4:Aaa",
+      "4:aAa"
+    ],
+    [
+      "1:NAN",
+      "2:ANN",
+      "3:ANN",
+      "3:NAN"
+    ],
+    [
+      "1:NAn",
+      "3:NAn"
+    ],
+    [
+      "1:Nan",
+      "2:Nan",
+      "3:Nan",
+      "4:Nan"
+    ],
+    [
+      "2:ANn",
+      "3:ANn"
+    ],
+    [
+      "2:NAn",
+      "4:NAn"
+    ],
+    [
+      "3:Ann"
+    ],
+    [
+      "4:AAa"
+    ],
+    [
+      "4:nAn"
+    ]
+  ],
+  "source_fourteen_representatives": [
+    "1:Nan",
+    "3:ANN",
+    "3:ANn",
+    "1:NAN",
+    "4:Aaa",
+    "1:NAn",
+    "2:aAa",
+    "4:NAn",
+    "1:AAA",
+    "1:AAa",
+    "3:Ann",
+    "4:AAa",
+    "4:nAn",
+    "2:AAa"
+  ],
+  "source_eleven_representatives": [
+    "1:Nan",
+    "3:ANn",
+    "1:NAN",
+    "4:Aaa",
+    "1:NAn",
+    "4:NAn",
+    "1:AAA",
+    "1:AAa",
+    "3:Ann",
+    "4:AAa",
+    "4:nAn"
+  ],
+  "class_subsumption_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "source_class_indices": [
+    0,
+    2,
+    3,
+    5,
+    8,
+    10
+  ],
+  "source_six_representatives": [
+    "1:AAA",
+    "1:NAN",
+    "4:Aaa",
+    "1:Nan",
+    "3:Ann",
+    "4:nAn"
+  ],
+  "six_closure_size": 24,
+  "four_reductio_certificates": [
+    {
+      "target": "4:Aaa",
+      "original_ascii": "A ra a",
+      "target_literals": [
+        "A(M,G)",
+        "a(M,P)",
+        "a(P,G)"
+      ],
+      "deny_conclusion": "N(P,G)",
+      "simple_conversion": "N(P,G) -> N(G,P)",
+      "base": "NAN",
+      "base_premises": [
+        "N(G,P)",
+        "A(M,G)"
+      ],
+      "derived": "N(M,P)",
+      "contradicts_original_premise": "a(M,P)"
+    },
+    {
+      "target": "1:Nan",
+      "original_ascii": "N a n",
+      "target_literals": [
+        "N(M,G)",
+        "a(P,M)",
+        "n(P,G)"
+      ],
+      "deny_conclusion": "A(P,G)",
+      "simple_conversion": "N(M,G) -> N(G,M)",
+      "base": "NAN",
+      "base_premises": [
+        "N(G,M)",
+        "A(P,G)"
+      ],
+      "derived": "N(P,M)",
+      "contradicts_original_premise": "a(P,M)"
+    },
+    {
+      "target": "3:Ann",
+      "original_ascii": "rA n n",
+      "target_literals": [
+        "A(G,M)",
+        "n(P,M)",
+        "n(P,G)"
+      ],
+      "deny_conclusion": "A(P,G)",
+      "simple_conversion": null,
+      "base": "AAA",
+      "base_premises": [
+        "A(G,M)",
+        "A(P,G)"
+      ],
+      "derived": "A(P,M)",
+      "contradicts_original_premise": "n(P,M)"
+    },
+    {
+      "target": "4:nAn",
+      "original_ascii": "n rA n",
+      "target_literals": [
+        "n(M,G)",
+        "A(M,P)",
+        "n(P,G)"
+      ],
+      "deny_conclusion": "A(P,G)",
+      "simple_conversion": null,
+      "base": "AAA",
+      "base_premises": [
+        "A(P,G)",
+        "A(M,P)"
+      ],
+      "derived": "A(M,G)",
+      "contradicts_original_premise": "n(M,G)"
+    }
+  ]
+}

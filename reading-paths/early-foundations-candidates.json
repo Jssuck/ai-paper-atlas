@@ -4,9 +4,9 @@
   "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "完成Sylvester十一月与De Morgan十二月1852后，本轮只精读Drach同月p479短评；旧书籍和版本缺口仍开放。",
-    "main_window": "Drach1852十二月p479短评标题至署日，PDF493；相邻锡染色报道和气象记录排除。",
-    "coverage": "18个旧候选对象及14项selection_history前缀完整保留；current_selection更新，追加一项紧凑事件；effective_status为当前有效状态，优先于候选旧快照。旧缺口保留出处并作必要现状澄清。",
+    "selection_context": "已完成1852三篇后，本轮明确向1817回填，只精读Gergonne一篇；新发现更早前驱作局部来源核查，不据此完成其全书。",
+    "main_window": "Gergonne1817-01-01，第VII号，189–228全部40页、68段、19脚注；保留228页本篇底注，排除相邻Questions proposées；同卷386页三项适用勘误。",
+    "coverage": "18个旧候选对象、15项selection_history前缀和既有effective_status完整保留；追加Gergonne完成对象、Boole1848未读候选及一项紧凑事件，不嵌套复制历史。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -34,22 +34,26 @@
       "p437回应对应Sylvester369页圆弦邀请，正文未印完整几何解；本文圆弦代数、真值表与Kripke模型均为现代教学重构。",
       "p437 inequality的in为OCR漏字，经放大原图核回，不是作者正式勘误；同卷viii勘误仅指359页。",
       "Drach代数和式不是几何求根方程；实系数消去不证明任意几何反设产生非实根，也不证明直接证明不可能。",
-      "Drach同月短评未明示De Morgan，不因署日先后推断阅读或影响关系。"
+      "Drach同月短评未明示De Morgan，不因署日先后推断阅读或影响关系。",
+      "1817为本篇真实刊年，1816–1817为卷年；1852→1817是非穷尽年代回填，不宣称最早AI或逻辑起点。",
+      "109成员原子模式为现代有限语义重构，54为原文两两关系三元组；完整性限三个非空项与四类直言命题。",
+      "Euler/Condorcet/Condillac只核相关书目或短段，未独立精读全书；Boole1848仅候选，分册刊期与同卷勘误核查仍未完成。",
+      "216页§55 N行原印CH有反模型，建议改为倒转C H（现代别名DH）；与386页三项正式勘误分开，不称原表全部正确。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "drach-1852-sylvester-remark",
-    "pages": "479（仅短评）",
-    "publication_scope": "第四辑4卷27号，December1852；署1852-11-22，非刊期。",
-    "why_selected": "同一有界来源链中的下一篇未完成回应；不以作者知名度排除短评，不声称按此顺序穷尽早期历史。",
-    "mathematical_boundary": "a,b,c,f为实数时虚部为b-c；缺少几何量映射和方法必然性证明。",
-    "completion": "短评全文核读、原创中文解析、来源/数学/代码独立复核与精确算术实跑完成；远端提交与页面QA由发布步骤另核。",
-    "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md",
-    "source_ledger_path": "papers/1852/drach-sylvester-remark.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1852/drach-sylvester-remark.audit.zh-CN.md",
-    "reproduction_path": "reproduction/drach-sylvester-remark/README.md",
-    "title": "Remark on Art. LVIII. (of Phil. Mag. for November) by Mr. Sylvester, “that the Non-existence of real Roots in Analytic Geometry corresponds to the reductio ad absurdum of Euclid.”"
+    "candidate_id": "gergonne-1817-dialectique-rationnelle",
+    "title": "Essai de dialectique rationnelle",
+    "pages": "189–228（全部68段及19脚注；排除228页相邻天文题）",
+    "publication_scope": "Annales de Mathématiques pures et appliquées, tome7(1816–1817), noVII, 1817-01-01；189页页脚核图。",
+    "why_selected": "在有界新增来源核查中发现更早完整可读论文，从1852向1817明确回填；不以名气或影响力裁定纳入，不声称早期来源已穷尽。",
+    "mathematical_boundary": "非空项语义、严格部分交叠与严格包含；54关系三元组、24有效式，现代109原子模式与小模型证明另标；作者格号不直接套现代格号。 216页§55原印CH与建议DH修复分开，保留原式反模型。",
+    "completion": "完整原文及适用正式勘误核图、原创中文精读、有限模型实跑和独立来源/数学/代码审计完成；远端提交与页面QA由发布步骤另核。",
+    "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
+    "source_ledger_path": "papers/1817/gergonne-dialectique-rationnelle.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1817/gergonne-dialectique-rationnelle.audit.zh-CN.md",
+    "reproduction_path": "reproduction/gergonne-1817/README.md"
   },
   "earlier_gap_priority": [
     {
@@ -939,12 +943,76 @@
         "limits": "并非Sylvester正式勘误或猜想证明。"
       },
       "selection_disposition": "保留回应线索，不计第二篇完成。"
+    },
+    {
+      "id": "gergonne-1817-dialectique-rationnelle",
+      "authors": [
+        "Joseph-Diez Gergonne"
+      ],
+      "title": "Essai de dialectique rationnelle",
+      "publication": {
+        "journal": "Annales de Mathématiques pures et appliquées",
+        "volume": "7(1816–1817)",
+        "issue": "VII",
+        "date": "1817-01-01",
+        "pages": "189–228",
+        "date_evidence": "原刊189页页脚；不把卷起始年1816当本篇刊年"
+      },
+      "sources": [
+        {
+          "url": "https://www.numdam.org/item/AMPA_1816-1817__7__189_0/",
+          "role": "书目与全文入口"
+        },
+        {
+          "url": "https://www.numdam.org/item/AMPA_1816-1817__7__189_0.pdf",
+          "role": "原刊40页扫描"
+        },
+        {
+          "url": "https://www.numdam.org/item/AMPA_1816-1817__7__386_0.pdf",
+          "role": "386页正式勘误：213末IG→IH；221行13补nA；222行9VII→VI"
+        }
+      ],
+      "status": "completed_original_40_pages_68_paragraphs_19_footnotes",
+      "selection_disposition": "本轮唯一完成论文；1817年代回填，前驱局部核查不是第二篇精读。",
+      "outputs": {
+        "article": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
+        "sources": "papers/1817/gergonne-dialectique-rationnelle.sources.zh-CN.md",
+        "audit": "papers/1817/gergonne-dialectique-rationnelle.audit.zh-CN.md",
+        "reproduction": "reproduction/gergonne-1817/README.md"
+      }
+    },
+    {
+      "id": "boole-1848-calculus-logic",
+      "authors": [
+        "George Boole"
+      ],
+      "title": "The Calculus of Logic",
+      "publication": {
+        "journal": "The Cambridge and Dublin Mathematical Journal",
+        "volume": "new series III (old sequence VII)",
+        "year": 1848,
+        "pages": "183–198",
+        "issue_date_status": "分册月份和日期未独立核图，不采用未经核实月日"
+      },
+      "sources": [
+        {
+          "url": "https://archive.org/download/sim_cambridge-and-dublin-mathematical-journal_1848_7/sim_cambridge-and-dublin-mathematical-journal_1848_7.pdf",
+          "role": "原卷完整扫描；篇首183及篇末198核图"
+        },
+        {
+          "url": "https://www.maths.tcd.ie/pub/HistMath/People/Boole/CalcLogic/CalcLogic.html",
+          "role": "学术机构转录入口"
+        }
+      ],
+      "status": "full_original_available_unread_issue_and_errata_audit_pending",
+      "selection_disposition": "仅登记后续候选；本轮不精读，先完成已锁定的1817篇；不关闭1847书籍依赖。",
+      "source_boundary": "文章始于183页下部，止于198页上部，排除相邻文章；原文自身改正1847书66/80页，不是本篇183–198页的勘误；卷勘误图像核查仍待做。"
     }
   ],
   "next_source_gap": {
-    "subject": "下一篇有界来源选择及既有版本缺口",
-    "completed_candidate_id": "drach-1852-sylvester-remark",
-    "target": "1852三篇现已分别完成；后续重新核较早未完成候选及具体篇界。Boole1847/1854、De Morgan书籍、Solly1839、Hamilton及1847后期版本、Curry/Church等旧缺口仍开放；1853措辞线索未因此完成，不预判下一篇或穷尽顺序。"
+    "subject": "更早前驱具体篇界、可得未读书籍与候选核验",
+    "completed_candidate_id": "gergonne-1817-dialectique-rationnelle",
+    "target": "下一轮须重新按有界来源选择；Euler、Condorcet、Condillac的相关全文范围尚未完成，Boole1848只有原刊篇界且刊期/勘误待核；所有1839/1847/1854书籍、Hamilton、De Morgan版本、Curry/Church等旧缺口保留。不预判下一篇或声称1817为历史起点。"
   },
   "selection_history": [
     {
@@ -1788,6 +1856,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md",
       "note": "完整短评及上下文、同卷勘误核图；独立来源/数学/代码审计、8项测试含625精确组合实跑。只新增本篇完成，不把类比升级为证明；保留18候选和14事件前缀，新增effective_status明确De Morgan已完成。远端与页面QA另核。"
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "gergonne-1817-dialectique-rationnelle",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
+      "note": "本轮由1852向1817明确回填；全40页、68段、19脚注与三正式勘误核图；54/24原表、109现代模型和24→14→11→6→2归约分层核验。Boole1848仅新增未读候选；前驱仅有界段落核查；旧候选、旧历史和缺口原样保留；远端与页面QA另核。 另识别216页N行CH的未列正式勘误错误，保留原印/反模型与建议DH修复。"
     }
   ],
   "earlier_background_gaps": [
@@ -1895,6 +1970,22 @@
       "reading_status": "Sylvester366–369、De Morgan435–438及Drach479短评现已分别完成原刊范围；正负小参数根数分类仍未全部解决，重印/手稿/后期更正未穷尽。",
       "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf",
       "previous_reading_status": "Sylvester原刊本轮完成；正负小参数根数分类未全部解决；De Morgan与Drach仅有限回应比较，未另篇完成；重印/手稿/后期更正未穷尽。"
+    },
+    {
+      "subject": "Gergonne1817明示前驱：Condorcet、Euler、Condillac",
+      "evidence": "原刊189–191、200、206页及脚注；本篇来源账本。",
+      "reading_status": "Condorcet Esquisse第五时期114–115只查转录；Euler1768第二卷书目和1775版CII–CIII局部；Condillac1798版I.VII64–65核图。均未完成全书，不确定Gergonne具体采用版本，不裁定优先权。",
+      "sources": [
+        "https://scholarlycommons.pacific.edu/euler-works/344/",
+        "https://www.hist-math.fr/textes/Euler1775_PrincesseAllemagne2.pdf",
+        "https://gallica.bnf.fr/ark:/12148/bpt6k101973s",
+        "https://archive.org/download/b28772581_0022/b28772581_0022.pdf"
+      ]
+    },
+    {
+      "subject": "Boole1848与1847前置书籍",
+      "evidence": "1848篇首183页脚注明示概述并扩展The Mathematical Analysis of Logic1847。",
+      "reading_status": "1848论文完整原卷可得但未精读，具体刊期及卷勘误待核；1847书籍继续可得未读，不标为无法获取。"
     }
   ],
   "effective_status": {
@@ -1914,6 +2005,12 @@
       "status": "completed_original_short_remark",
       "pages": "479（仅短评）",
       "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md"
+    },
+    "gergonne-1817-dialectique-rationnelle": {
+      "status": "completed_original_40_pages_68_paragraphs_19_footnotes",
+      "pages": "189–228",
+      "article_path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
+      "completion": "完整原文及适用正式勘误核图、原创中文精读、有限模型实跑和独立来源/数学/代码审计完成；远端提交与页面QA由发布步骤另核。"
     }
   }
 }

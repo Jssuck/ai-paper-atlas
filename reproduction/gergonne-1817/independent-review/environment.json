@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-10T05:00:04.026049+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "working_directory": ". (package root)",
+  "dependencies": "Python standard library only",
+  "installation_performed": false,
+  "network_used_for_checks": false,
+  "log_path_policy": "Commands use python and package-relative paths; private absolute paths are removed.",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.491795
+    },
+    {
+      "command": [
+        "python",
+        "independent-review/audit_checks.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.613204
+    },
+    {
+      "command": [
+        "python",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.059774
+    }
+  ],
+  "finished_utc": "2026-10-10T05:00:05.192102+00:00",
+  "all_passed": true,
+  "reviewed_sha256": {
+    "gergonne.py": "43e7ca3cb86b844880fd05846120880f6e2d5a2eeeb48ac7d11dffe4ae3b86ab",
+    "reproduce.py": "ff86416311ace2a1c1aed9faa07d1675501540b0f64a4a1af8994d11f7c42e67",
+    "walkthrough.py": "672e00612bc5b67d57f40913132f2e1592d0d6d4df717d76889787f83c39c8e1",
+    "run_checks.py": "87e4f94dc15fd7eb0fe978a59223ee38a4f7fe72ff6998e957873c046ef1d310",
+    "source_tables.json": "f1b8ab2f628c74e1b8a5e62a0c6456830b29ef808db2775a8a6a618e6ce04867",
+    "README.md": "1b8b9a8b3557d9be578039ee40bfd21277e538f22f6ef20a3fe4db9786954148",
+    "PROOF.md": "bfd6ff1e7321a2d494e8f6c2d1d4dbb1cc5a52d1444384f487d638ea9a3e22b5",
+    "tests/test_gergonne.py": "adddef9bf5f1d02f95fc4b30f862f2347b385b61b738278c27c4443d71ca2c6b",
+    "independent-review/audit_checks.py": "00c43f0c0c62676b673652f83b109c5dbb50bcf07173ae671af8c0a7a2bb4b42",
+    "independent-review/run_review.py": "fc98d2824daa5ea8e6b3e4180c1dd3f1e95b54d0487282efccff11be94c2aa3c",
+    "independent-review/review.zh-CN.md": "f2e2d4aed6f58a81f3e86029a93e298542bf23caf755a83f3838cec64296d131"
+  }
+}

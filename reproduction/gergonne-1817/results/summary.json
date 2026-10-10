@@ -1,0 +1,183 @@
+{
+  "source": {
+    "author": "J. D. Gergonne",
+    "title": "Essai de dialectique rationnelle",
+    "issue_date": "1817-01-01",
+    "printed_pages": "189–228",
+    "url": "https://www.numdam.org/item/AMPA_1816-1817__7__189_0/"
+  },
+  "implementation": "Original modern teaching reconstruction, Python standard library only",
+  "nonempty_term_semantics": {
+    "candidate_atom_patterns": 128,
+    "admissible_patterns": 109,
+    "distinct_relation_triples": 54,
+    "triple_coordinate_order": [
+      "M_G",
+      "P_M",
+      "P_G"
+    ],
+    "candidate_moods": 256,
+    "valid_moods": 24,
+    "invalid_moods_with_countermodels": 232,
+    "valid_per_original_figure": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6
+    },
+    "valid_by_conclusion_kind": {
+      "A": 1,
+      "N": 4,
+      "a": 7,
+      "n": 12
+    },
+    "max_minimal_countermodel_size": 3,
+    "all_premise_pairs_satisfiable": true,
+    "rule59_semantics_disagreements": [],
+    "conversion_targets": {
+      "A": [
+        "a"
+      ],
+      "N": [
+        "N",
+        "n"
+      ],
+      "a": [
+        "a"
+      ],
+      "n": []
+    },
+    "opposition": {
+      "column_order": [
+        "A",
+        "N",
+        "a",
+        "n"
+      ],
+      "truth_patterns": [
+        [
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          false
+        ]
+      ],
+      "contradictories_A_n": true,
+      "contradictories_N_a": true,
+      "contraries_A_N_never_both_true": true,
+      "subcontraries_a_n_never_both_false": true,
+      "subalternation_A_a": true,
+      "subalternation_N_n": true
+    }
+  },
+  "original_to_modern_figure": {
+    "1": 1,
+    "2": 4,
+    "3": 2,
+    "4": 3
+  },
+  "reductions": [
+    24,
+    14,
+    11,
+    6,
+    2
+  ],
+  "empty_term_semantics_valid_moods": 15,
+  "historical_table_crosscheck": {
+    "fixture": "source_tables.json",
+    "source": "Gergonne 1817, paragraph 49, original p213",
+    "transcription": "verified against source image, not generated from models",
+    "exact_set_match": true,
+    "expected_count": 54,
+    "computed_count": 54,
+    "missing": [],
+    "extra": [],
+    "computed_rows_H_X_I_C_D": {
+      "H": 13,
+      "X": 14,
+      "I": 5,
+      "C": 11,
+      "D": 11
+    },
+    "section55_printed_exact_match": false,
+    "section55_proposed_emended_exact_match": true,
+    "section55_printed_discrepancies": {
+      "N": {
+        "printed_but_not_valid": [
+          "CH"
+        ],
+        "valid_but_not_printed": [
+          "DH"
+        ]
+      }
+    },
+    "section55_proposed_emendation": {
+      "location": "p216 §55, N row, fourth pair",
+      "printed": "CH",
+      "proposed": "DH",
+      "status": "Proposed mathematical correction, not a correction listed in the volume errata",
+      "reason": "The immediately following §56 on p217 explicitly prints DH when regrouping the same pairs. §49 and §52 permit P_G=C when M_G=C and P_M=H, so CH cannot guarantee N(P,G); DH does guarantee it.",
+      "explicit_counterexample": {
+        "P": [
+          "p"
+        ],
+        "M": [
+          "m"
+        ],
+        "G": [
+          "p",
+          "m"
+        ]
+      },
+      "supporting_source_location": "§56, printed p217 (PDF page30 including cover)"
+    },
+    "section55_counterexample_to_printed_CH_entails_N": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      },
+      "relation_triple": [
+        "C",
+        "H",
+        "C"
+      ],
+      "N_P_G": false
+    },
+    "section55_pair_counts": {
+      "A": 4,
+      "N": 4,
+      "a": 12,
+      "n": 13
+    },
+    "section58_exact_match": true,
+    "sections63_64_representatives_exact_match": true
+  },
+  "execution_scope": "Finite extensional fragment only; not a replication of all philosophical claims or a software artifact from 1817."
+}

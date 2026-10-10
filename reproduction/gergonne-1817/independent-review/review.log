@@ -1,0 +1,126 @@
+独立复核实跑日志
+所有命令从复现包根目录执行。
+开始 UTC: 2026-10-10T05:00:04.026049+00:00
+Python: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Platform: Linux-6.18.44-x86_64-with-glibc2.41
+
+$ python -m unittest discover -s tests -v
+test_generation_is_deterministic_and_auditable (test_gergonne.ArtifactTests.test_generation_is_deterministic_and_auditable) ... ok
+test_historical_table_exact_image_transcription_match (test_gergonne.ArtifactTests.test_historical_table_exact_image_transcription_match) ... ok
+test_printed_section55_CH_N_error_has_nonempty_counterexample (test_gergonne.ArtifactTests.test_printed_section55_CH_N_error_has_nonempty_counterexample) ... ok
+test_reduction_representatives_match_source_selection (test_gergonne.ArtifactTests.test_reduction_representatives_match_source_selection) ... ok
+test_section55_printed_discrepancy_and_emended_match (test_gergonne.ArtifactTests.test_section55_printed_discrepancy_and_emended_match) ... ok
+test_five_relations_exclusive_and_exhaustive (test_gergonne.CanonicalModelTests.test_five_relations_exclusive_and_exhaustive) ... ok
+test_input_validation (test_gergonne.CanonicalModelTests.test_input_validation) ... ok
+test_masks_atoms_and_terms (test_gergonne.CanonicalModelTests.test_masks_atoms_and_terms) ... ok
+test_multiplicity_and_outside_objects_do_not_matter (test_gergonne.CanonicalModelTests.test_multiplicity_and_outside_objects_do_not_matter) ... ok
+test_pattern_count_by_inclusion_exclusion (test_gergonne.CanonicalModelTests.test_pattern_count_by_inclusion_exclusion) ... ok
+test_predicates_against_quantifier_oracle (test_gergonne.CanonicalModelTests.test_predicates_against_quantifier_oracle) ... ok
+test_relation_count_and_every_pair_present (test_gergonne.CanonicalModelTests.test_relation_count_and_every_pair_present) ... ok
+test_relations_reject_empty_terms (test_gergonne.CanonicalModelTests.test_relations_reject_empty_terms) ... ok
+test_empty_boundary_conversion_and_opposition (test_gergonne.PropositionTests.test_empty_boundary_conversion_and_opposition) ... ok
+test_original_conversion_table (test_gergonne.PropositionTests.test_original_conversion_table) ... ok
+test_original_opposition (test_gergonne.PropositionTests.test_original_opposition) ... ok
+test_11_to_6_entailment_sources_and_closure (test_gergonne.ReductionTests.test_11_to_6_entailment_sources_and_closure) ... ok
+test_24_to_14_to_11_computed_classes (test_gergonne.ReductionTests.test_24_to_14_to_11_computed_classes) ... ok
+test_6_to_2_explicit_reductio_certificates (test_gergonne.ReductionTests.test_6_to_2_explicit_reductio_certificates) ... ok
+test_conclusion_conversion_renaming (test_gergonne.ReductionTests.test_conclusion_conversion_renaming) ... ok
+test_invalid_conversion_and_base_are_rejected (test_gergonne.ReductionTests.test_invalid_conversion_and_base_are_rejected) ... ok
+test_premise_conversion_preserves_premise_truth (test_gergonne.ReductionTests.test_premise_conversion_preserves_premise_truth) ... ok
+test_all_232_countermodels_and_minimality (test_gergonne.SyllogismTests.test_all_232_countermodels_and_minimality) ... ok
+test_empty_term_boundary_loses_exactly_nine (test_gergonne.SyllogismTests.test_empty_term_boundary_loses_exactly_nine) ... ok
+test_enumeration_counts_and_no_vacuous_premise_pairs (test_gergonne.SyllogismTests.test_enumeration_counts_and_no_vacuous_premise_pairs) ... ok
+test_exact_section51_example (test_gergonne.SyllogismTests.test_exact_section51_example) ... ok
+test_exact_section52_example (test_gergonne.SyllogismTests.test_exact_section52_example) ... ok
+test_independent_concrete_set_oracle (test_gergonne.SyllogismTests.test_independent_concrete_set_oracle) ... ok
+test_rule59_matches_all_256_candidates (test_gergonne.SyllogismTests.test_rule59_matches_all_256_candidates) ... ok
+test_source_figure_order (test_gergonne.SyllogismTests.test_source_figure_order) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.425s
+
+OK
+
+Exit code: 0; elapsed: 0.491795 s
+
+$ python independent-review/audit_checks.py
+test_01_membership_partition_and_source_54 (__main__.IndependentAudit.test_01_membership_partition_and_source_54) ... ok
+test_02_source_truth_and_composition_tables (__main__.IndependentAudit.test_02_source_truth_and_composition_tables) ... ok
+test_03_symbolic_constraints_all_512_validity_cases (__main__.IndependentAudit.test_03_symbolic_constraints_all_512_validity_cases) ... ok
+test_04_four_object_universe_independent_truth (__main__.IndependentAudit.test_04_four_object_universe_independent_truth) ... ok
+test_05_every_published_countermodel_and_minimum (__main__.IndependentAudit.test_05_every_published_countermodel_and_minimum) ... ok
+test_06_graph_reductions_and_four_certificates (__main__.IndependentAudit.test_06_graph_reductions_and_four_certificates) ... ok
+test_07_published_examples_retain_original_directions (__main__.IndependentAudit.test_07_published_examples_retain_original_directions) ... ok
+test_07a_page216_printed_CH_is_not_a_valid_N_pair (__main__.IndependentAudit.test_07a_page216_printed_CH_is_not_a_valid_N_pair) ... ok
+test_08_fresh_output_matches_published_results (__main__.IndependentAudit.test_08_fresh_output_matches_published_results) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.542s
+
+OK
+
+Exit code: 0; elapsed: 0.613204 s
+
+$ python walkthrough.py
+1. 把一个对象的 P/M/G 归属写成三位码
+  原子 1: P
+  原子 2: M
+  原子 3: P,M
+  原子 4: G
+  原子 5: P,G
+  原子 6: M,G
+  原子 7: P,M,G
+每个非空原子保留一个代表；忽略三个类之外的对象。
+128 种占用模式中，P/M/G 都非空的模式数： 109
+
+2. 五种精确关系投影成 54 个三元组
+固定顺序：(M,G),(P,M),(P,G)；D 是原文反向 C 的现代 ASCII 别名。
+不同三元组数： 54
+
+3. 四种命题与换位
+A=所有第一类都是第二类；N=全不；a=有些是；n=有些不是。
+  A(P,G) 可推出的反向命题种类：('a',)
+  N(P,G) 可推出的反向命题种类：('N', 'n')
+  a(P,G) 可推出的反向命题种类：('a',)
+  n(P,G) 可推出的反向命题种类：()
+
+4. 必须保留作者的 figure 编号
+  原文 1：(('M', 'G'), ('P', 'M'))；对应现代 1
+  原文 2：(('G', 'M'), ('M', 'P'))；对应现代 4
+  原文 3：(('G', 'M'), ('P', 'M'))；对应现代 2
+  原文 4：(('M', 'G'), ('M', 'P'))；对应现代 3
+
+5. 原文 §§51–52 的对照例
+  §51：['A(G,M)', 'N(M,P)']
+   关系对 ['DH', 'IH'] ；结论关系 ['H']
+   可推出 ['N', 'n']
+  §52：['A(M,G)', 'N(M,P)']
+   关系对 ['CH', 'IH'] ；结论关系 ['C', 'H', 'X']
+   可推出 []
+
+6. 对 256 种候选逐一找反例
+有效数： 24
+  原文 1： ['A A A', 'A A a', 'A a a', 'N A N', 'N A n', 'N a n']
+  原文 2： ['rA rA a', 'rA rN N', 'rA rN n', 'rN rA n', 'rN ra n', 'ra rA a']
+  原文 3： ['rA N N', 'rA N n', 'rA n n', 'rN A N', 'rN A n', 'rN a n']
+  原文 4： ['A rA a', 'A ra a', 'N rA n', 'N ra n', 'a rA a', 'n rA n']
+  无效例 1:ANA，最小反例：{'mask': 33, 'occupied_atoms': [1, 6], 'size': 2, 'terms': {'P': [1], 'M': [6], 'G': [6]}}
+  两前提/结论的真值： [True, True, False]
+
+7. 24 → 14 → 11 → 6 → 2 不是同一种‘合并’
+  前两步为换位等价；11→6 为包含关系；6→2 为反证法。
+  4:Aaa 以 NAN 推出 N(M,P) ，与原前提矛盾。
+  1:Nan 以 NAN 推出 N(P,M) ，与原前提矛盾。
+  3:Ann 以 AAA 推出 A(P,M) ，与原前提矛盾。
+  4:nAn 以 AAA 推出 A(M,G) ，与原前提矛盾。
+
+8. 单独改变假设：允许空类
+  有效式从 24 减少到 15
+  AAa 的空类反例： {'mask': 0, 'occupied_atoms': [], 'size': 0, 'terms': {'P': [], 'M': [], 'G': []}}
+  空类边界是现代对照实验，不是原文五关系表的一部分。
+
+下一步：读 PROOF.md 的完备性证明，再运行 python run_checks.py。
+
+Exit code: 0; elapsed: 0.059774 s
+
+All passed: True

@@ -1,0 +1,300 @@
+{
+  "model_patterns": 128,
+  "five_way_relations_applicable": false,
+  "valid_mood_count": 15,
+  "valid_mood_ids": [
+    "1:AAA",
+    "1:Aaa",
+    "1:NAN",
+    "1:Nan",
+    "2:ANN",
+    "2:Nan",
+    "2:aAa",
+    "3:ANN",
+    "3:Ann",
+    "3:NAN",
+    "3:Nan",
+    "4:Aaa",
+    "4:Nan",
+    "4:aAa",
+    "4:nAn"
+  ],
+  "lost_nine_moods_with_witnesses": [
+    {
+      "id": "1:AAa",
+      "original_figure": 1,
+      "modern_figure": 1,
+      "letters": "AAa",
+      "original_ascii": "A A a",
+      "literals": [
+        "A(M,G)",
+        "A(P,M)",
+        "a(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "1:NAn",
+      "original_figure": 1,
+      "modern_figure": 1,
+      "letters": "NAn",
+      "original_ascii": "N A n",
+      "literals": [
+        "N(M,G)",
+        "A(P,M)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "2:AAa",
+      "original_figure": 2,
+      "modern_figure": 4,
+      "letters": "AAa",
+      "original_ascii": "rA rA a",
+      "literals": [
+        "A(G,M)",
+        "A(M,P)",
+        "a(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "2:ANn",
+      "original_figure": 2,
+      "modern_figure": 4,
+      "letters": "ANn",
+      "original_ascii": "rA rN n",
+      "literals": [
+        "A(G,M)",
+        "N(M,P)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "2:NAn",
+      "original_figure": 2,
+      "modern_figure": 4,
+      "letters": "NAn",
+      "original_ascii": "rN rA n",
+      "literals": [
+        "N(G,M)",
+        "A(M,P)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 16,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "3:ANn",
+      "original_figure": 3,
+      "modern_figure": 2,
+      "letters": "ANn",
+      "original_ascii": "rA N n",
+      "literals": [
+        "A(G,M)",
+        "N(P,M)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "3:NAn",
+      "original_figure": 3,
+      "modern_figure": 2,
+      "letters": "NAn",
+      "original_ascii": "rN A n",
+      "literals": [
+        "N(G,M)",
+        "A(P,M)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 8,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "4:AAa",
+      "original_figure": 4,
+      "modern_figure": 3,
+      "letters": "AAa",
+      "original_ascii": "A rA a",
+      "literals": [
+        "A(M,G)",
+        "A(M,P)",
+        "a(P,G)"
+      ],
+      "premise_model_count": 16,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    },
+    {
+      "id": "4:NAn",
+      "original_figure": 4,
+      "modern_figure": 3,
+      "letters": "NAn",
+      "original_ascii": "N rA n",
+      "literals": [
+        "N(M,G)",
+        "A(M,P)",
+        "n(P,G)"
+      ],
+      "premise_model_count": 16,
+      "valid": false,
+      "rule59_violations": [],
+      "countermodel": {
+        "mask": 0,
+        "occupied_atoms": [],
+        "size": 0,
+        "terms": {
+          "P": [],
+          "M": [],
+          "G": []
+        }
+      }
+    }
+  ],
+  "conversions": {
+    "A": [],
+    "N": [
+      "N"
+    ],
+    "a": [
+      "a"
+    ],
+    "n": []
+  },
+  "opposition": {
+    "column_order": [
+      "A",
+      "N",
+      "a",
+      "n"
+    ],
+    "truth_patterns": [
+      [
+        false,
+        false,
+        true,
+        true
+      ],
+      [
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        false
+      ]
+    ],
+    "contradictories_A_n": true,
+    "contradictories_N_a": true,
+    "contraries_A_N_never_both_true": false,
+    "subcontraries_a_n_never_both_false": false,
+    "subalternation_A_a": false,
+    "subalternation_N_n": false
+  },
+  "note": "Modern boundary experiment only. Universals are vacuous on an empty subject; the original five relations are not applied here."
+}

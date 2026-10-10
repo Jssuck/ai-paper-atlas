@@ -1,0 +1,26 @@
+M_G,P_M,possible_P_G,entailed_kinds,pattern_count
+H,H,H X I C D,,5
+H,X,H X D,n,5
+H,I,H,N n,1
+H,C,H,N n,1
+H,D,H X D,n,5
+X,H,H X C,,5
+X,X,H X I C D,,35
+X,I,X,a n,1
+X,C,H X C,,7
+X,D,X D,a n,5
+I,H,H,N n,1
+I,X,X,a n,1
+I,I,I,A a,1
+I,C,C,A a,1
+I,D,D,a n,1
+C,H,H X C,,5
+C,X,X C,a,5
+C,I,C,A a,1
+C,C,C,A a,1
+C,D,X I C D,a,5
+D,H,H,N n,1
+D,X,H X D,n,7
+D,I,D,a n,1
+D,C,H X I C D,,7
+D,D,D,a n,1

@@ -1,0 +1,305 @@
+{
+  "source": "Gergonne 1817, paragraph 49, original p213",
+  "orientation": [
+    "relation(M,G)",
+    "relation(P,M)",
+    "relation(P,G)"
+  ],
+  "notation": "D denotes the original reversed C",
+  "row_lists": {
+    "H": [
+      "HH",
+      "HX",
+      "HI",
+      "HC",
+      "HD",
+      "XH",
+      "XX",
+      "XC",
+      "IH",
+      "CH",
+      "DH",
+      "DX",
+      "DC"
+    ],
+    "X": [
+      "HH",
+      "HX",
+      "HD",
+      "XH",
+      "XX",
+      "XI",
+      "XC",
+      "XD",
+      "IX",
+      "CH",
+      "CX",
+      "CD",
+      "DX",
+      "DC"
+    ],
+    "I": [
+      "HH",
+      "XX",
+      "II",
+      "CD",
+      "DC"
+    ],
+    "C": [
+      "HH",
+      "XH",
+      "XX",
+      "XC",
+      "IC",
+      "CH",
+      "CX",
+      "CI",
+      "CC",
+      "CD",
+      "DC"
+    ],
+    "D": [
+      "HH",
+      "HX",
+      "HD",
+      "XX",
+      "XD",
+      "ID",
+      "CD",
+      "DX",
+      "DI",
+      "DC",
+      "DD"
+    ]
+  },
+  "counts": {
+    "H": 13,
+    "X": 14,
+    "I": 5,
+    "C": 11,
+    "D": 11
+  },
+  "total": 54,
+  "transcription": "verified against source image, not generated from models",
+  "section55": {
+    "source": "Gergonne 1817, paragraph 55, original p216",
+    "transcription": "Diplomatic image reading retains printed CH in the N row; the mathematically emended table is stored separately.",
+    "printed_premise_pairs_by_conclusion": {
+      "A": [
+        "II",
+        "IC",
+        "CI",
+        "CC"
+      ],
+      "N": [
+        "HI",
+        "HC",
+        "IH",
+        "CH"
+      ],
+      "a": [
+        "XI",
+        "XD",
+        "IX",
+        "II",
+        "IC",
+        "ID",
+        "CX",
+        "CI",
+        "CC",
+        "CD",
+        "DI",
+        "DD"
+      ],
+      "n": [
+        "HX",
+        "HI",
+        "HC",
+        "HD",
+        "XI",
+        "XD",
+        "IH",
+        "IX",
+        "ID",
+        "DH",
+        "DX",
+        "DI",
+        "DD"
+      ]
+    },
+    "proposed_emended_premise_pairs_by_conclusion": {
+      "A": [
+        "II",
+        "IC",
+        "CI",
+        "CC"
+      ],
+      "N": [
+        "HI",
+        "HC",
+        "IH",
+        "DH"
+      ],
+      "a": [
+        "XI",
+        "XD",
+        "IX",
+        "II",
+        "IC",
+        "ID",
+        "CX",
+        "CI",
+        "CC",
+        "CD",
+        "DI",
+        "DD"
+      ],
+      "n": [
+        "HX",
+        "HI",
+        "HC",
+        "HD",
+        "XI",
+        "XD",
+        "IH",
+        "IX",
+        "ID",
+        "DH",
+        "DX",
+        "DI",
+        "DD"
+      ]
+    },
+    "proposed_emendation": {
+      "location": "p216 §55, N row, fourth pair",
+      "printed": "CH",
+      "proposed": "DH",
+      "status": "Proposed mathematical correction, not a correction listed in the volume errata",
+      "reason": "The immediately following §56 on p217 explicitly prints DH when regrouping the same pairs. §49 and §52 permit P_G=C when M_G=C and P_M=H, so CH cannot guarantee N(P,G); DH does guarantee it.",
+      "explicit_counterexample": {
+        "P": [
+          "p"
+        ],
+        "M": [
+          "m"
+        ],
+        "G": [
+          "p",
+          "m"
+        ]
+      },
+      "supporting_source_location": "§56, printed p217 (PDF page30 including cover)"
+    }
+  },
+  "section58": {
+    "source": "Gergonne 1817, paragraph 58, original p219",
+    "transcription": "verified against source image, not generated from models",
+    "moods_by_original_figure": {
+      "1": [
+        "AAA",
+        "NAN",
+        "AAa",
+        "Aaa",
+        "NAn",
+        "Nan"
+      ],
+      "2": [
+        "ANN",
+        "AAa",
+        "aAa",
+        "NAn",
+        "ANn",
+        "Nan"
+      ],
+      "3": [
+        "NAN",
+        "ANN",
+        "ANn",
+        "Ann",
+        "NAn",
+        "Nan"
+      ],
+      "4": [
+        "AAa",
+        "aAa",
+        "Aaa",
+        "NAn",
+        "nAn",
+        "Nan"
+      ]
+    }
+  },
+  "sections63_64": {
+    "source": "Gergonne 1817, paragraphs 63–64, original pp225–226",
+    "transcription": "selected representatives and their order verified against source images",
+    "fourteen": [
+      "1:Nan",
+      "3:ANN",
+      "3:ANn",
+      "1:NAN",
+      "4:Aaa",
+      "1:NAn",
+      "2:aAa",
+      "4:NAn",
+      "1:AAA",
+      "1:AAa",
+      "3:Ann",
+      "4:AAa",
+      "4:nAn",
+      "2:AAa"
+    ],
+    "eleven": [
+      "1:Nan",
+      "3:ANn",
+      "1:NAN",
+      "4:Aaa",
+      "1:NAn",
+      "4:NAn",
+      "1:AAA",
+      "1:AAa",
+      "3:Ann",
+      "4:AAa",
+      "4:nAn"
+    ],
+    "six": [
+      "1:AAA",
+      "1:NAN",
+      "4:Aaa",
+      "1:Nan",
+      "3:Ann",
+      "4:nAn"
+    ]
+  },
+  "sections51_52": {
+    "source": "Gergonne 1817, paragraphs 51–52, original pp213–215; displayed French on p214",
+    "transcription": "French displayed examples and direction verified against source image; negative minor remains M,P",
+    "section51": {
+      "figure": 2,
+      "premises": [
+        "A(G,M)",
+        "N(M,P)"
+      ],
+      "first_syllogism_french": [
+        "Tout G est M ;",
+        "Or, nul M n’est P ;",
+        "Donc, nul P n’est G."
+      ],
+      "second_syllogism_french": [
+        "Tout G est M ;",
+        "Or, nul M n’est P ;",
+        "Donc, quelque P n’est pas G."
+      ]
+    },
+    "section52": {
+      "figure": 4,
+      "premises": [
+        "A(M,G)",
+        "N(M,P)"
+      ],
+      "premises_french": [
+        "Tout M est G ;",
+        "Nul M n’est P ;"
+      ]
+    }
+  }
+}

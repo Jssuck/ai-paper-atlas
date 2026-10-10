@@ -1,0 +1,157 @@
+{
+  "section51": {
+    "premises": [
+      "A(G,M)",
+      "N(M,P)"
+    ],
+    "original_premises_ascii": "rA rN",
+    "relation_pairs": [
+      "DH",
+      "IH"
+    ],
+    "possible_conclusion_relations": [
+      "H"
+    ],
+    "entailed_conclusion_kinds": [
+      "N",
+      "n"
+    ],
+    "premise_model_count": 2,
+    "minimal_witness_per_conclusion_relation": {
+      "H": {
+        "mask": 33,
+        "occupied_atoms": [
+          1,
+          6
+        ],
+        "size": 2,
+        "terms": {
+          "P": [
+            1
+          ],
+          "M": [
+            6
+          ],
+          "G": [
+            6
+          ]
+        }
+      }
+    }
+  },
+  "section52": {
+    "premises": [
+      "A(M,G)",
+      "N(M,P)"
+    ],
+    "original_premises_ascii": "A rN",
+    "relation_pairs": [
+      "CH",
+      "IH"
+    ],
+    "possible_conclusion_relations": [
+      "C",
+      "H",
+      "X"
+    ],
+    "entailed_conclusion_kinds": [],
+    "premise_model_count": 6,
+    "minimal_witness_per_conclusion_relation": {
+      "H": {
+        "mask": 33,
+        "occupied_atoms": [
+          1,
+          6
+        ],
+        "size": 2,
+        "terms": {
+          "P": [
+            1
+          ],
+          "M": [
+            6
+          ],
+          "G": [
+            6
+          ]
+        }
+      },
+      "X": {
+        "mask": 49,
+        "occupied_atoms": [
+          1,
+          5,
+          6
+        ],
+        "size": 3,
+        "terms": {
+          "P": [
+            1,
+            5
+          ],
+          "M": [
+            6
+          ],
+          "G": [
+            5,
+            6
+          ]
+        }
+      },
+      "C": {
+        "mask": 48,
+        "occupied_atoms": [
+          5,
+          6
+        ],
+        "size": 2,
+        "terms": {
+          "P": [
+            5
+          ],
+          "M": [
+            6
+          ],
+          "G": [
+            5,
+            6
+          ]
+        }
+      }
+    }
+  },
+  "source_note": "§51: apply the volume erratum IG→IH; D is the modern alias for reversed C.",
+  "direction_note": "The displayed original examples have N(M,P), not its equivalent simple converse N(P,M). They are original figures II and IV.",
+  "source_transcription": {
+    "source": "Gergonne 1817, paragraphs 51–52, original pp213–215; displayed French on p214",
+    "transcription": "French displayed examples and direction verified against source image; negative minor remains M,P",
+    "section51": {
+      "figure": 2,
+      "premises": [
+        "A(G,M)",
+        "N(M,P)"
+      ],
+      "first_syllogism_french": [
+        "Tout G est M ;",
+        "Or, nul M n’est P ;",
+        "Donc, nul P n’est G."
+      ],
+      "second_syllogism_french": [
+        "Tout G est M ;",
+        "Or, nul M n’est P ;",
+        "Donc, quelque P n’est pas G."
+      ]
+    },
+    "section52": {
+      "figure": 4,
+      "premises": [
+        "A(M,G)",
+        "N(M,P)"
+      ],
+      "premises_french": [
+        "Tout M est G ;",
+        "Nul M n’est P ;"
+      ]
+    }
+  }
+}

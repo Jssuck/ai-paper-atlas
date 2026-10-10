@@ -1,0 +1,8734 @@
+[
+  {
+    "id": "1:AAN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AAN",
+    "original_ascii": "A A N",
+    "literals": [
+      "A(M,G)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 4,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:AAn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AAn",
+    "original_ascii": "A A n",
+    "literals": [
+      "A(M,G)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 4,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ANA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ANA",
+    "original_ascii": "A N A",
+    "literals": [
+      "A(M,G)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ANN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ANN",
+    "original_ascii": "A N N",
+    "literals": [
+      "A(M,G)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ANa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ANa",
+    "original_ascii": "A N a",
+    "literals": [
+      "A(M,G)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ANn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ANn",
+    "original_ascii": "A N n",
+    "literals": [
+      "A(M,G)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:AaA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AaA",
+    "original_ascii": "A a A",
+    "literals": [
+      "A(M,G)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:AaN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AaN",
+    "original_ascii": "A a N",
+    "literals": [
+      "A(M,G)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Aan",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Aan",
+    "original_ascii": "A a n",
+    "literals": [
+      "A(M,G)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:AnA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AnA",
+    "original_ascii": "A n A",
+    "literals": [
+      "A(M,G)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:AnN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "AnN",
+    "original_ascii": "A n N",
+    "literals": [
+      "A(M,G)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Ana",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Ana",
+    "original_ascii": "A n a",
+    "literals": [
+      "A(M,G)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Ann",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Ann",
+    "original_ascii": "A n n",
+    "literals": [
+      "A(M,G)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NAA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NAA",
+    "original_ascii": "N A A",
+    "literals": [
+      "N(M,G)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NAa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NAa",
+    "original_ascii": "N A a",
+    "literals": [
+      "N(M,G)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NNA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NNA",
+    "original_ascii": "N N A",
+    "literals": [
+      "N(M,G)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NNN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NNN",
+    "original_ascii": "N N N",
+    "literals": [
+      "N(M,G)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NNa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NNa",
+    "original_ascii": "N N a",
+    "literals": [
+      "N(M,G)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NNn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NNn",
+    "original_ascii": "N N n",
+    "literals": [
+      "N(M,G)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NaA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NaA",
+    "original_ascii": "N a A",
+    "literals": [
+      "N(M,G)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NaN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NaN",
+    "original_ascii": "N a N",
+    "literals": [
+      "N(M,G)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Naa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Naa",
+    "original_ascii": "N a a",
+    "literals": [
+      "N(M,G)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NnA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NnA",
+    "original_ascii": "N n A",
+    "literals": [
+      "N(M,G)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:NnN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "NnN",
+    "original_ascii": "N n N",
+    "literals": [
+      "N(M,G)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Nna",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Nna",
+    "original_ascii": "N n a",
+    "literals": [
+      "N(M,G)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:Nnn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "Nnn",
+    "original_ascii": "N n n",
+    "literals": [
+      "N(M,G)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aAA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aAA",
+    "original_ascii": "a A A",
+    "literals": [
+      "a(M,G)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aAN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aAN",
+    "original_ascii": "a A N",
+    "literals": [
+      "a(M,G)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aAa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aAa",
+    "original_ascii": "a A a",
+    "literals": [
+      "a(M,G)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "V"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aAn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aAn",
+    "original_ascii": "a A n",
+    "literals": [
+      "a(M,G)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aNA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aNA",
+    "original_ascii": "a N A",
+    "literals": [
+      "a(M,G)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aNN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aNN",
+    "original_ascii": "a N N",
+    "literals": [
+      "a(M,G)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aNa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aNa",
+    "original_ascii": "a N a",
+    "literals": [
+      "a(M,G)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aNn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aNn",
+    "original_ascii": "a N n",
+    "literals": [
+      "a(M,G)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aaA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aaA",
+    "original_ascii": "a a A",
+    "literals": [
+      "a(M,G)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aaN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aaN",
+    "original_ascii": "a a N",
+    "literals": [
+      "a(M,G)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aaa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aaa",
+    "original_ascii": "a a a",
+    "literals": [
+      "a(M,G)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:aan",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "aan",
+    "original_ascii": "a a n",
+    "literals": [
+      "a(M,G)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:anA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "anA",
+    "original_ascii": "a n A",
+    "literals": [
+      "a(M,G)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:anN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "anN",
+    "original_ascii": "a n N",
+    "literals": [
+      "a(M,G)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ana",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ana",
+    "original_ascii": "a n a",
+    "literals": [
+      "a(M,G)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:ann",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "ann",
+    "original_ascii": "a n n",
+    "literals": [
+      "a(M,G)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nAA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nAA",
+    "original_ascii": "n A A",
+    "literals": [
+      "n(M,G)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nAN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nAN",
+    "original_ascii": "n A N",
+    "literals": [
+      "n(M,G)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nAa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nAa",
+    "original_ascii": "n A a",
+    "literals": [
+      "n(M,G)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nAn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nAn",
+    "original_ascii": "n A n",
+    "literals": [
+      "n(M,G)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "V"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nNA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nNA",
+    "original_ascii": "n N A",
+    "literals": [
+      "n(M,G)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nNN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nNN",
+    "original_ascii": "n N N",
+    "literals": [
+      "n(M,G)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nNa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nNa",
+    "original_ascii": "n N a",
+    "literals": [
+      "n(M,G)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nNn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nNn",
+    "original_ascii": "n N n",
+    "literals": [
+      "n(M,G)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:naA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "naA",
+    "original_ascii": "n a A",
+    "literals": [
+      "n(M,G)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:naN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "naN",
+    "original_ascii": "n a N",
+    "literals": [
+      "n(M,G)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:naa",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "naa",
+    "original_ascii": "n a a",
+    "literals": [
+      "n(M,G)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nan",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nan",
+    "original_ascii": "n a n",
+    "literals": [
+      "n(M,G)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nnA",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nnA",
+    "original_ascii": "n n A",
+    "literals": [
+      "n(M,G)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nnN",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nnN",
+    "original_ascii": "n n N",
+    "literals": [
+      "n(M,G)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nna",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nna",
+    "original_ascii": "n n a",
+    "literals": [
+      "n(M,G)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "1:nnn",
+    "original_figure": 1,
+    "modern_figure": 1,
+    "letters": "nnn",
+    "original_ascii": "n n n",
+    "literals": [
+      "n(M,G)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "V"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AAA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AAA",
+    "original_ascii": "rA rA A",
+    "literals": [
+      "A(G,M)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 4,
+    "valid": false,
+    "rule59_violations": [
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AAN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AAN",
+    "original_ascii": "rA rA N",
+    "literals": [
+      "A(G,M)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 4,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AAn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AAn",
+    "original_ascii": "rA rA n",
+    "literals": [
+      "A(G,M)",
+      "A(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 4,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:ANA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "ANA",
+    "original_ascii": "rA rN A",
+    "literals": [
+      "A(G,M)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:ANa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "ANa",
+    "original_ascii": "rA rN a",
+    "literals": [
+      "A(G,M)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AaA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AaA",
+    "original_ascii": "rA ra A",
+    "literals": [
+      "A(G,M)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AaN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AaN",
+    "original_ascii": "rA ra N",
+    "literals": [
+      "A(G,M)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Aaa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Aaa",
+    "original_ascii": "rA ra a",
+    "literals": [
+      "A(G,M)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Aan",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Aan",
+    "original_ascii": "rA ra n",
+    "literals": [
+      "A(G,M)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AnA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AnA",
+    "original_ascii": "rA rn A",
+    "literals": [
+      "A(G,M)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:AnN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "AnN",
+    "original_ascii": "rA rn N",
+    "literals": [
+      "A(G,M)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Ana",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Ana",
+    "original_ascii": "rA rn a",
+    "literals": [
+      "A(G,M)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Ann",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Ann",
+    "original_ascii": "rA rn n",
+    "literals": [
+      "A(G,M)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NAA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NAA",
+    "original_ascii": "rN rA A",
+    "literals": [
+      "N(G,M)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NAN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NAN",
+    "original_ascii": "rN rA N",
+    "literals": [
+      "N(G,M)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NAa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NAa",
+    "original_ascii": "rN rA a",
+    "literals": [
+      "N(G,M)",
+      "A(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NNA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NNA",
+    "original_ascii": "rN rN A",
+    "literals": [
+      "N(G,M)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NNN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NNN",
+    "original_ascii": "rN rN N",
+    "literals": [
+      "N(G,M)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NNa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NNa",
+    "original_ascii": "rN rN a",
+    "literals": [
+      "N(G,M)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NNn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NNn",
+    "original_ascii": "rN rN n",
+    "literals": [
+      "N(G,M)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NaA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NaA",
+    "original_ascii": "rN ra A",
+    "literals": [
+      "N(G,M)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NaN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NaN",
+    "original_ascii": "rN ra N",
+    "literals": [
+      "N(G,M)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Naa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Naa",
+    "original_ascii": "rN ra a",
+    "literals": [
+      "N(G,M)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NnA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NnA",
+    "original_ascii": "rN rn A",
+    "literals": [
+      "N(G,M)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:NnN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "NnN",
+    "original_ascii": "rN rn N",
+    "literals": [
+      "N(G,M)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Nna",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Nna",
+    "original_ascii": "rN rn a",
+    "literals": [
+      "N(G,M)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:Nnn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "Nnn",
+    "original_ascii": "rN rn n",
+    "literals": [
+      "N(G,M)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aAA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aAA",
+    "original_ascii": "ra rA A",
+    "literals": [
+      "a(G,M)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aAN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aAN",
+    "original_ascii": "ra rA N",
+    "literals": [
+      "a(G,M)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aAn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aAn",
+    "original_ascii": "ra rA n",
+    "literals": [
+      "a(G,M)",
+      "A(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aNA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aNA",
+    "original_ascii": "ra rN A",
+    "literals": [
+      "a(G,M)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aNN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aNN",
+    "original_ascii": "ra rN N",
+    "literals": [
+      "a(G,M)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aNa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aNa",
+    "original_ascii": "ra rN a",
+    "literals": [
+      "a(G,M)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aNn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aNn",
+    "original_ascii": "ra rN n",
+    "literals": [
+      "a(G,M)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aaA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aaA",
+    "original_ascii": "ra ra A",
+    "literals": [
+      "a(G,M)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aaN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aaN",
+    "original_ascii": "ra ra N",
+    "literals": [
+      "a(G,M)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aaa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aaa",
+    "original_ascii": "ra ra a",
+    "literals": [
+      "a(G,M)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:aan",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "aan",
+    "original_ascii": "ra ra n",
+    "literals": [
+      "a(G,M)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:anA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "anA",
+    "original_ascii": "ra rn A",
+    "literals": [
+      "a(G,M)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:anN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "anN",
+    "original_ascii": "ra rn N",
+    "literals": [
+      "a(G,M)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:ana",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "ana",
+    "original_ascii": "ra rn a",
+    "literals": [
+      "a(G,M)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:ann",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "ann",
+    "original_ascii": "ra rn n",
+    "literals": [
+      "a(G,M)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nAA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nAA",
+    "original_ascii": "rn rA A",
+    "literals": [
+      "n(G,M)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nAN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nAN",
+    "original_ascii": "rn rA N",
+    "literals": [
+      "n(G,M)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nAa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nAa",
+    "original_ascii": "rn rA a",
+    "literals": [
+      "n(G,M)",
+      "A(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nAn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nAn",
+    "original_ascii": "rn rA n",
+    "literals": [
+      "n(G,M)",
+      "A(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 18,
+    "valid": false,
+    "rule59_violations": [
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 72,
+      "occupied_atoms": [
+        4,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          4,
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nNA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nNA",
+    "original_ascii": "rn rN A",
+    "literals": [
+      "n(G,M)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nNN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nNN",
+    "original_ascii": "rn rN N",
+    "literals": [
+      "n(G,M)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nNa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nNa",
+    "original_ascii": "rn rN a",
+    "literals": [
+      "n(G,M)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nNn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nNn",
+    "original_ascii": "rn rN n",
+    "literals": [
+      "n(G,M)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:naA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "naA",
+    "original_ascii": "rn ra A",
+    "literals": [
+      "n(G,M)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:naN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "naN",
+    "original_ascii": "rn ra N",
+    "literals": [
+      "n(G,M)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:naa",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "naa",
+    "original_ascii": "rn ra a",
+    "literals": [
+      "n(G,M)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nan",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nan",
+    "original_ascii": "rn ra n",
+    "literals": [
+      "n(G,M)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 72,
+      "occupied_atoms": [
+        4,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          4,
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nnA",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nnA",
+    "original_ascii": "rn rn A",
+    "literals": [
+      "n(G,M)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nnN",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nnN",
+    "original_ascii": "rn rn N",
+    "literals": [
+      "n(G,M)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nna",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nna",
+    "original_ascii": "rn rn a",
+    "literals": [
+      "n(G,M)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "2:nnn",
+    "original_figure": 2,
+    "modern_figure": 4,
+    "letters": "nnn",
+    "original_ascii": "rn rn n",
+    "literals": [
+      "n(G,M)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 69,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VI"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AAA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AAA",
+    "original_ascii": "rA A A",
+    "literals": [
+      "A(G,M)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 10,
+    "valid": false,
+    "rule59_violations": [
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AAN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AAN",
+    "original_ascii": "rA A N",
+    "literals": [
+      "A(G,M)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 10,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AAa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AAa",
+    "original_ascii": "rA A a",
+    "literals": [
+      "A(G,M)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 10,
+    "valid": false,
+    "rule59_violations": [
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AAn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AAn",
+    "original_ascii": "rA A n",
+    "literals": [
+      "A(G,M)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 10,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:ANA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "ANA",
+    "original_ascii": "rA N A",
+    "literals": [
+      "A(G,M)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:ANa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "ANa",
+    "original_ascii": "rA N a",
+    "literals": [
+      "A(G,M)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AaA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AaA",
+    "original_ascii": "rA a A",
+    "literals": [
+      "A(G,M)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AaN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AaN",
+    "original_ascii": "rA a N",
+    "literals": [
+      "A(G,M)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Aaa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Aaa",
+    "original_ascii": "rA a a",
+    "literals": [
+      "A(G,M)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Aan",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Aan",
+    "original_ascii": "rA a n",
+    "literals": [
+      "A(G,M)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AnA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AnA",
+    "original_ascii": "rA n A",
+    "literals": [
+      "A(G,M)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:AnN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "AnN",
+    "original_ascii": "rA n N",
+    "literals": [
+      "A(G,M)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Ana",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Ana",
+    "original_ascii": "rA n a",
+    "literals": [
+      "A(G,M)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NAA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NAA",
+    "original_ascii": "rN A A",
+    "literals": [
+      "N(G,M)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NAa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NAa",
+    "original_ascii": "rN A a",
+    "literals": [
+      "N(G,M)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 2,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NNA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NNA",
+    "original_ascii": "rN N A",
+    "literals": [
+      "N(G,M)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NNN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NNN",
+    "original_ascii": "rN N N",
+    "literals": [
+      "N(G,M)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NNa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NNa",
+    "original_ascii": "rN N a",
+    "literals": [
+      "N(G,M)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NNn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NNn",
+    "original_ascii": "rN N n",
+    "literals": [
+      "N(G,M)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NaA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NaA",
+    "original_ascii": "rN a A",
+    "literals": [
+      "N(G,M)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NaN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NaN",
+    "original_ascii": "rN a N",
+    "literals": [
+      "N(G,M)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Naa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Naa",
+    "original_ascii": "rN a a",
+    "literals": [
+      "N(G,M)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NnA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NnA",
+    "original_ascii": "rN n A",
+    "literals": [
+      "N(G,M)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:NnN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "NnN",
+    "original_ascii": "rN n N",
+    "literals": [
+      "N(G,M)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Nna",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Nna",
+    "original_ascii": "rN n a",
+    "literals": [
+      "N(G,M)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:Nnn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "Nnn",
+    "original_ascii": "rN n n",
+    "literals": [
+      "N(G,M)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aAA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aAA",
+    "original_ascii": "ra A A",
+    "literals": [
+      "a(G,M)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aAN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aAN",
+    "original_ascii": "ra A N",
+    "literals": [
+      "a(G,M)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aAa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aAa",
+    "original_ascii": "ra A a",
+    "literals": [
+      "a(G,M)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aAn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aAn",
+    "original_ascii": "ra A n",
+    "literals": [
+      "a(G,M)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 20,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aNA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aNA",
+    "original_ascii": "ra N A",
+    "literals": [
+      "a(G,M)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aNN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aNN",
+    "original_ascii": "ra N N",
+    "literals": [
+      "a(G,M)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aNa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aNa",
+    "original_ascii": "ra N a",
+    "literals": [
+      "a(G,M)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aNn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aNn",
+    "original_ascii": "ra N n",
+    "literals": [
+      "a(G,M)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aaA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aaA",
+    "original_ascii": "ra a A",
+    "literals": [
+      "a(G,M)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aaN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aaN",
+    "original_ascii": "ra a N",
+    "literals": [
+      "a(G,M)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aaa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aaa",
+    "original_ascii": "ra a a",
+    "literals": [
+      "a(G,M)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:aan",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "aan",
+    "original_ascii": "ra a n",
+    "literals": [
+      "a(G,M)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:anA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "anA",
+    "original_ascii": "ra n A",
+    "literals": [
+      "a(G,M)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:anN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "anN",
+    "original_ascii": "ra n N",
+    "literals": [
+      "a(G,M)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:ana",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "ana",
+    "original_ascii": "ra n a",
+    "literals": [
+      "a(G,M)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:ann",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "ann",
+    "original_ascii": "ra n n",
+    "literals": [
+      "a(G,M)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nAA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nAA",
+    "original_ascii": "rn A A",
+    "literals": [
+      "n(G,M)",
+      "A(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nAN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nAN",
+    "original_ascii": "rn A N",
+    "literals": [
+      "n(G,M)",
+      "A(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 72,
+      "occupied_atoms": [
+        4,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          4,
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nAa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nAa",
+    "original_ascii": "rn A a",
+    "literals": [
+      "n(G,M)",
+      "A(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nAn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nAn",
+    "original_ascii": "rn A n",
+    "literals": [
+      "n(G,M)",
+      "A(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 72,
+      "occupied_atoms": [
+        4,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          4,
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nNA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nNA",
+    "original_ascii": "rn N A",
+    "literals": [
+      "n(G,M)",
+      "N(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nNN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nNN",
+    "original_ascii": "rn N N",
+    "literals": [
+      "n(G,M)",
+      "N(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nNa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nNa",
+    "original_ascii": "rn N a",
+    "literals": [
+      "n(G,M)",
+      "N(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nNn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nNn",
+    "original_ascii": "rn N n",
+    "literals": [
+      "n(G,M)",
+      "N(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 15,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:naA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "naA",
+    "original_ascii": "rn a A",
+    "literals": [
+      "n(G,M)",
+      "a(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:naN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "naN",
+    "original_ascii": "rn a N",
+    "literals": [
+      "n(G,M)",
+      "a(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:naa",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "naa",
+    "original_ascii": "rn a a",
+    "literals": [
+      "n(G,M)",
+      "a(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nan",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nan",
+    "original_ascii": "rn a n",
+    "literals": [
+      "n(G,M)",
+      "a(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 72,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 72,
+      "occupied_atoms": [
+        4,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          4,
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nnA",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nnA",
+    "original_ascii": "rn n A",
+    "literals": [
+      "n(G,M)",
+      "n(P,M)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 75,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nnN",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nnN",
+    "original_ascii": "rn n N",
+    "literals": [
+      "n(G,M)",
+      "n(P,M)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 75,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nna",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nna",
+    "original_ascii": "rn n a",
+    "literals": [
+      "n(G,M)",
+      "n(P,M)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 75,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "3:nnn",
+    "original_figure": 3,
+    "modern_figure": 2,
+    "letters": "nnn",
+    "original_ascii": "rn n n",
+    "literals": [
+      "n(G,M)",
+      "n(P,M)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 75,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AAA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AAA",
+    "original_ascii": "A rA A",
+    "literals": [
+      "A(M,G)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 8,
+    "valid": false,
+    "rule59_violations": [
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AAN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AAN",
+    "original_ascii": "A rA N",
+    "literals": [
+      "A(M,G)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 8,
+    "valid": false,
+    "rule59_violations": [
+      "IV",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AAn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AAn",
+    "original_ascii": "A rA n",
+    "literals": [
+      "A(M,G)",
+      "A(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 8,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ANA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ANA",
+    "original_ascii": "A rN A",
+    "literals": [
+      "A(M,G)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ANN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ANN",
+    "original_ascii": "A rN N",
+    "literals": [
+      "A(M,G)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ANa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ANa",
+    "original_ascii": "A rN a",
+    "literals": [
+      "A(M,G)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ANn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ANn",
+    "original_ascii": "A rN n",
+    "literals": [
+      "A(M,G)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AaA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AaA",
+    "original_ascii": "A ra A",
+    "literals": [
+      "A(M,G)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AaN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AaN",
+    "original_ascii": "A ra N",
+    "literals": [
+      "A(M,G)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Aan",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Aan",
+    "original_ascii": "A ra n",
+    "literals": [
+      "A(M,G)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AnA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AnA",
+    "original_ascii": "A rn A",
+    "literals": [
+      "A(M,G)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:AnN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "AnN",
+    "original_ascii": "A rn N",
+    "literals": [
+      "A(M,G)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Ana",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Ana",
+    "original_ascii": "A rn a",
+    "literals": [
+      "A(M,G)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Ann",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Ann",
+    "original_ascii": "A rn n",
+    "literals": [
+      "A(M,G)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NAA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NAA",
+    "original_ascii": "N rA A",
+    "literals": [
+      "N(M,G)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NAN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NAN",
+    "original_ascii": "N rA N",
+    "literals": [
+      "N(M,G)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NAa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NAa",
+    "original_ascii": "N rA a",
+    "literals": [
+      "N(M,G)",
+      "A(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 6,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NNA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NNA",
+    "original_ascii": "N rN A",
+    "literals": [
+      "N(M,G)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NNN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NNN",
+    "original_ascii": "N rN N",
+    "literals": [
+      "N(M,G)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NNa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NNa",
+    "original_ascii": "N rN a",
+    "literals": [
+      "N(M,G)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NNn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NNn",
+    "original_ascii": "N rN n",
+    "literals": [
+      "N(M,G)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 5,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NaA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NaA",
+    "original_ascii": "N ra A",
+    "literals": [
+      "N(M,G)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NaN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NaN",
+    "original_ascii": "N ra N",
+    "literals": [
+      "N(M,G)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Naa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Naa",
+    "original_ascii": "N ra a",
+    "literals": [
+      "N(M,G)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NnA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NnA",
+    "original_ascii": "N rn A",
+    "literals": [
+      "N(M,G)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:NnN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "NnN",
+    "original_ascii": "N rn N",
+    "literals": [
+      "N(M,G)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Nna",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Nna",
+    "original_ascii": "N rn a",
+    "literals": [
+      "N(M,G)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:Nnn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "Nnn",
+    "original_ascii": "N rn n",
+    "literals": [
+      "N(M,G)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aAA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aAA",
+    "original_ascii": "a rA A",
+    "literals": [
+      "a(M,G)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 65,
+      "occupied_atoms": [
+        1,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1,
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aAN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aAN",
+    "original_ascii": "a rA N",
+    "literals": [
+      "a(M,G)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aAn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aAn",
+    "original_ascii": "a rA n",
+    "literals": [
+      "a(M,G)",
+      "A(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 16,
+    "valid": false,
+    "rule59_violations": [
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aNA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aNA",
+    "original_ascii": "a rN A",
+    "literals": [
+      "a(M,G)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aNN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aNN",
+    "original_ascii": "a rN N",
+    "literals": [
+      "a(M,G)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aNa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aNa",
+    "original_ascii": "a rN a",
+    "literals": [
+      "a(M,G)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aNn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aNn",
+    "original_ascii": "a rN n",
+    "literals": [
+      "a(M,G)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 12,
+    "valid": false,
+    "rule59_violations": [
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aaA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aaA",
+    "original_ascii": "a ra A",
+    "literals": [
+      "a(M,G)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aaN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aaN",
+    "original_ascii": "a ra N",
+    "literals": [
+      "a(M,G)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aaa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aaa",
+    "original_ascii": "a ra a",
+    "literals": [
+      "a(M,G)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:aan",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "aan",
+    "original_ascii": "a ra n",
+    "literals": [
+      "a(M,G)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 80,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "IV"
+    ],
+    "countermodel": {
+      "mask": 64,
+      "occupied_atoms": [
+        7
+      ],
+      "size": 1,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:anA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "anA",
+    "original_ascii": "a rn A",
+    "literals": [
+      "a(M,G)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:anN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "anN",
+    "original_ascii": "a rn N",
+    "literals": [
+      "a(M,G)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ana",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ana",
+    "original_ascii": "a rn a",
+    "literals": [
+      "a(M,G)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 33,
+      "occupied_atoms": [
+        1,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:ann",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "ann",
+    "original_ascii": "a rn n",
+    "literals": [
+      "a(M,G)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 48,
+      "occupied_atoms": [
+        5,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          6
+        ],
+        "G": [
+          5,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nAA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nAA",
+    "original_ascii": "n rA A",
+    "literals": [
+      "n(M,G)",
+      "A(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nAN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nAN",
+    "original_ascii": "n rA N",
+    "literals": [
+      "n(M,G)",
+      "A(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nAa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nAa",
+    "original_ascii": "n rA a",
+    "literals": [
+      "n(M,G)",
+      "A(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 14,
+    "valid": false,
+    "rule59_violations": [
+      "I"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nNA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nNA",
+    "original_ascii": "n rN A",
+    "literals": [
+      "n(M,G)",
+      "N(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nNN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nNN",
+    "original_ascii": "n rN N",
+    "literals": [
+      "n(M,G)",
+      "N(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nNa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nNa",
+    "original_ascii": "n rN a",
+    "literals": [
+      "n(M,G)",
+      "N(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 11,
+      "occupied_atoms": [
+        1,
+        2,
+        4
+      ],
+      "size": 3,
+      "terms": {
+        "P": [
+          1
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nNn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nNn",
+    "original_ascii": "n rN n",
+    "literals": [
+      "n(M,G)",
+      "N(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 11,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:naA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "naA",
+    "original_ascii": "n ra A",
+    "literals": [
+      "n(M,G)",
+      "a(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:naN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "naN",
+    "original_ascii": "n ra N",
+    "literals": [
+      "n(M,G)",
+      "a(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 20,
+      "occupied_atoms": [
+        3,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3,
+          5
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:naa",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "naa",
+    "original_ascii": "n ra a",
+    "literals": [
+      "n(M,G)",
+      "a(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II"
+    ],
+    "countermodel": {
+      "mask": 12,
+      "occupied_atoms": [
+        3,
+        4
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3
+        ],
+        "G": [
+          4
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nan",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nan",
+    "original_ascii": "n ra n",
+    "literals": [
+      "n(M,G)",
+      "a(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 76,
+    "valid": false,
+    "rule59_violations": [
+      "II"
+    ],
+    "countermodel": {
+      "mask": 66,
+      "occupied_atoms": [
+        2,
+        7
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          7
+        ],
+        "M": [
+          2,
+          7
+        ],
+        "G": [
+          7
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nnA",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nnA",
+    "original_ascii": "n rn A",
+    "literals": [
+      "n(M,G)",
+      "n(M,P)",
+      "A(P,G)"
+    ],
+    "premise_model_count": 73,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nnN",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nnN",
+    "original_ascii": "n rn N",
+    "literals": [
+      "n(M,G)",
+      "n(M,P)",
+      "N(P,G)"
+    ],
+    "premise_model_count": 73,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nna",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nna",
+    "original_ascii": "n rn a",
+    "literals": [
+      "n(M,G)",
+      "n(M,P)",
+      "a(P,G)"
+    ],
+    "premise_model_count": 73,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 36,
+      "occupied_atoms": [
+        3,
+        6
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          3
+        ],
+        "M": [
+          3,
+          6
+        ],
+        "G": [
+          6
+        ]
+      }
+    }
+  },
+  {
+    "id": "4:nnn",
+    "original_figure": 4,
+    "modern_figure": 3,
+    "letters": "nnn",
+    "original_ascii": "n rn n",
+    "literals": [
+      "n(M,G)",
+      "n(M,P)",
+      "n(P,G)"
+    ],
+    "premise_model_count": 73,
+    "valid": false,
+    "rule59_violations": [
+      "I",
+      "II",
+      "III",
+      "VIII"
+    ],
+    "countermodel": {
+      "mask": 18,
+      "occupied_atoms": [
+        2,
+        5
+      ],
+      "size": 2,
+      "terms": {
+        "P": [
+          5
+        ],
+        "M": [
+          2
+        ],
+        "G": [
+          5
+        ]
+      }
+    }
+  }
+]
