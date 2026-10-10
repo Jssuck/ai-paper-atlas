@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "idle",
+  "status": "selecting_source",
   "active_paper": null,
   "last_completed": {
     "id": "drach-1852-sylvester-remark",
@@ -10,14 +10,14 @@
     "checks": "Independent original-source mathematics and exact-rational code review passed;18remote files exact-verified;134MathML formulas match source across six requested views, tables and links checked.",
     "scope": "Complete December1852 p479 short note; correct cancellation identity separated from unproved geometric mapping and universal proof-method claims.8tests include625rational combinations; no geometry simulation."
   },
-  "updated_at": "2026-10-10T03:45:00Z",
+  "updated_at": "2026-10-10T04:38:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled turn inspect one earlier or subsequent unfinished historical source, preserving existing book, version and paper gaps; no exhaustive chronology claim.",
+  "next_action": "Bounded search for an earlier uncompleted primary logic paper, including Boole1848 source verification; earlier accessible books remain open gaps. No paper drafting started.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
