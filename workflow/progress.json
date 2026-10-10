@@ -1,11 +1,7 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "de-morgan-1851",
-    "stage": "verifying_publication",
-    "scope": "Repair independently confirmed silent GitHub truncation of probability-audit inequality; verify complete affected expressions. No new paper started."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
     "id": "sylvester-1852-geometrical-method",
     "path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
@@ -14,12 +10,18 @@
     "checks": "Independent original-image mathematics and code review passed; all42remote files verified including two PNG blob identities; complete formula chains, tables, diagrams and11-cell notebook preview checked.",
     "scope": "November1852 original366–369; geometric theorem, directed-domain algebra and universal proof-method conjecture distinguished. December responses contextual only, not completed separately."
   },
-  "updated_at": "2026-10-10T01:38:30Z",
+  "updated_at": "2026-10-10T01:40:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Independently verify all nine labeled equations and complete probability equivalence chain after formatting-only correction."
+  "next_action": "Next scheduled turn inspect one unfinished source or remaining publication-quality concern. Raw angle inequalities and equation tags require complete rendered-content verification, not error-banner checks alone.",
+  "last_quality_correction": {
+    "id": "de-morgan-1851",
+    "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
+    "content_commit": "8ab0cbffc4464d1b099b29c7fe71ec5edd1144f7",
+    "checks": "Nine equation labels and one inequality-chain rendering corrected;49math blocks source-equivalent; all199unaffected rendered expressions unchanged; complete chain and horizontal layouts independently verified."
+  }
 }
