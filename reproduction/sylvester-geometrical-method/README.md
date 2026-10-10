@@ -46,7 +46,7 @@ python run_checks.py
 置 A、B 为三角形在基边 AB 两端的内角，c=AB。要求
 
 ```math
-0<A,\quad 0<B,\quad A+B<\pi,\quad c>0,\quad n\ne0.
+0\lt A,\quad 0\lt B,\quad A+B\lt \pi,\quad c\gt 0,\quad n\ne0.
 ```
 
 公共 Python 接口使用“度”，函数内部使用弧度。定义
@@ -214,8 +214,8 @@ x^2+ax=b^2.
 对于 a,b>0，两个实根为
 
 ```math
-x_+=\frac{-a+\sqrt{a^2+4b^2}}2>0,\qquad
-x_-=\frac{-a-\sqrt{a^2+4b^2}}2<0.
+x_+=\frac{-a+\sqrt{a^2+4b^2}}2\gt 0,\qquad
+x_-=\frac{-a-\sqrt{a^2+4b^2}}2\lt 0.
 ```
 
 API 名 `half_chord` 指的是“半个给定圆弧所对的弦” b=PU=PV，不是“基弦 UV 的一半”；本图 b=1，而 UV/2=√3/2。
