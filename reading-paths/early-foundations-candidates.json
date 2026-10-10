@@ -4,9 +4,9 @@
   "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "完成Sylvester十一月1852前驱后，本轮只深读De Morgan十二月1852的On Indirect Demonstration；Drach同月短评仅作回应上下文。",
-    "main_window": "De Morgan1852年12月原刊435–438全部四页，PDF449–452；438页正文止于11月1日署日。目录、分册首页及不适用卷勘误已核图。",
-    "coverage": "保留全部18个旧候选对象和13项selection_history前缀及所有旧缺口；仅更新current_selection并追加紧凑事件。候选对象中的旧status保留为当时来源状态，本次完成记录以current_selection及末尾事件为准，不递归复制历史。",
+    "selection_context": "完成Sylvester十一月与De Morgan十二月1852后，本轮只精读Drach同月p479短评；旧书籍和版本缺口仍开放。",
+    "main_window": "Drach1852十二月p479短评标题至署日，PDF493；相邻锡染色报道和气象记录排除。",
+    "coverage": "18个旧候选对象及14项selection_history前缀完整保留；current_selection更新，追加一项紧凑事件；effective_status为当前有效状态，优先于候选旧快照。旧缺口保留出处并作必要现状澄清。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -32,21 +32,24 @@
       "368页扫描字形与367页代数一致式的差异是本次原图/数学校核，不冒称作者正式勘误；负参数不能混同有向射线与无向整直线。",
       "De Morgan1852十二月文不是四条独立逻辑公理或普遍归谬消去定理；经典外延等价不等于所有逻辑体系中的证明同一。",
       "p437回应对应Sylvester369页圆弦邀请，正文未印完整几何解；本文圆弦代数、真值表与Kripke模型均为现代教学重构。",
-      "p437 inequality的in为OCR漏字，经放大原图核回，不是作者正式勘误；同卷viii勘误仅指359页。"
+      "p437 inequality的in为OCR漏字，经放大原图核回，不是作者正式勘误；同卷viii勘误仅指359页。",
+      "Drach代数和式不是几何求根方程；实系数消去不证明任意几何反设产生非实根，也不证明直接证明不可能。",
+      "Drach同月短评未明示De Morgan，不因署日先后推断阅读或影响关系。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "demorgan-1852-indirect-demonstration",
-    "pages": "435–438",
-    "publication_scope": "第四辑4卷27号，December1852；作者署1852-11-01，非刊期；438页后半Challis排除。",
-    "why_selected": "完成同一有界来源链中的Sylvester十一月前驱后，继续其明确可定位的十二月回应；保留更早书籍、Hamilton文本、1847后期版本等所有旧缺口。",
-    "mathematical_boundary": "经典共同论域逆否与反例见证等价；区分现代构造性反向只能得到双重否定、Euclid匹配边条件与圆弦正长度条件；不声称所有间接证明可消去。",
-    "completion": "全四页读核；原创中文精读、来源与数学审计、标准库实跑附件及独立复核完成；远端提交和页面QA由发布步骤另核。",
-    "article_path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md",
-    "source_ledger_path": "papers/1852/demorgan-indirect-demonstration.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1852/demorgan-indirect-demonstration.audit.zh-CN.md",
-    "reproduction_path": "reproduction/demorgan-indirect-demonstration/README.md"
+    "candidate_id": "drach-1852-sylvester-remark",
+    "pages": "479（仅短评）",
+    "publication_scope": "第四辑4卷27号，December1852；署1852-11-22，非刊期。",
+    "why_selected": "同一有界来源链中的下一篇未完成回应；不以作者知名度排除短评，不声称按此顺序穷尽早期历史。",
+    "mathematical_boundary": "a,b,c,f为实数时虚部为b-c；缺少几何量映射和方法必然性证明。",
+    "completion": "短评全文核读、原创中文解析、来源/数学/代码独立复核与精确算术实跑完成；远端提交与页面QA由发布步骤另核。",
+    "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md",
+    "source_ledger_path": "papers/1852/drach-sylvester-remark.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1852/drach-sylvester-remark.audit.zh-CN.md",
+    "reproduction_path": "reproduction/drach-sylvester-remark/README.md",
+    "title": "Remark on Art. LVIII. (of Phil. Mag. for November) by Mr. Sylvester, “that the Non-existence of real Roots in Analytic Geometry corresponds to the reductio ad absurdum of Euclid.”"
   },
   "earlier_gap_priority": [
     {
@@ -939,9 +942,9 @@
     }
   ],
   "next_source_gap": {
-    "subject": "有界核下一篇及既有版本缺口",
-    "completed_candidate_id": "sylvester-1852-geometrical-method",
-    "target": "De Morgan December1852 On Indirect Demonstration已取得435–438完整原刊，但本轮仅作回应比较，独立深读尚未完成；Drach短评和1853逻辑措辞线索继续保留。所有旧书籍/Hamilton/1847修订/Curry/Church等缺口不关闭。"
+    "subject": "下一篇有界来源选择及既有版本缺口",
+    "completed_candidate_id": "drach-1852-sylvester-remark",
+    "target": "1852三篇现已分别完成；后续重新核较早未完成候选及具体篇界。Boole1847/1854、De Morgan书籍、Solly1839、Hamilton及1847后期版本、Curry/Church等旧缺口仍开放；1853措辞线索未因此完成，不预判下一篇或穷尽顺序。"
   },
   "selection_history": [
     {
@@ -1778,6 +1781,13 @@
       "event": "deep_read_local_release",
       "note": "完成十二月435–438全四页及独立source/math/code核查；OCR inequality校读，经典与构造边界分开。18个旧候选对象与全部旧缺口原样保留；候选旧status为历史记录。Drach仅上下文，不算第二篇。远端与页面QA另核。",
       "article_path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md"
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "drach-1852-sylvester-remark",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md",
+      "note": "完整短评及上下文、同卷勘误核图；独立来源/数学/代码审计、8项测试含625精确组合实跑。只新增本篇完成，不把类比升级为证明；保留18候选和14事件前缀，新增effective_status明确De Morgan已完成。远端与页面QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -1882,8 +1892,28 @@
     {
       "subject": "Sylvester1852推广与后续回应",
       "evidence": "本卷366–369、435–438、479；De Morgan437页明确回应前一期。",
-      "reading_status": "Sylvester原刊本轮完成；正负小参数根数分类未全部解决；De Morgan与Drach仅有限回应比较，未另篇完成；重印/手稿/后期更正未穷尽。",
-      "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf"
+      "reading_status": "Sylvester366–369、De Morgan435–438及Drach479短评现已分别完成原刊范围；正负小参数根数分类仍未全部解决，重印/手稿/后期更正未穷尽。",
+      "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf",
+      "previous_reading_status": "Sylvester原刊本轮完成；正负小参数根数分类未全部解决；De Morgan与Drach仅有限回应比较，未另篇完成；重印/手稿/后期更正未穷尽。"
     }
-  ]
+  ],
+  "effective_status": {
+    "interpretation": "以下是当前完成范围，覆盖旧候选快照和历史事件中的过时未读描述；不删除原始来源状态。",
+    "sylvester-1852-geometrical-method": {
+      "status": "completed_original_four_pages",
+      "pages": "366–369",
+      "article_path": "papers/1852/sylvester-geometrical-method.zh-CN.md"
+    },
+    "demorgan-1852-indirect-demonstration": {
+      "status": "completed_original_four_pages",
+      "pages": "435–438",
+      "article_path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md",
+      "completion": "全四页读核；原创中文精读、来源与数学审计、标准库实跑附件及独立复核完成；远端提交和页面QA由发布步骤另核。"
+    },
+    "drach-1852-sylvester-remark": {
+      "status": "completed_original_short_remark",
+      "pages": "479（仅短评）",
+      "article_path": "papers/1852/drach-sylvester-remark.zh-CN.md"
+    }
+  }
 }

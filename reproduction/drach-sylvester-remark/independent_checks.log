@@ -1,0 +1,34 @@
+Independent exact-rational review
+recorded_at_utc=2026-10-10T03:40:10.237660+00:00
+python_version=3.12.14
+$ python3 -m unittest -v test_demo
+test_complex_coefficients_break_both_directions (test_demo.RemarkTests.test_complex_coefficients_break_both_directions) ... ok
+test_exact_rationals_and_reject_float (test_demo.RemarkTests.test_exact_rationals_and_reject_float) ... ok
+test_nonreal_intermediates_cancel (test_demo.RemarkTests.test_nonreal_intermediates_cancel) ... ok
+test_nonunique_decomposition (test_demo.RemarkTests.test_nonunique_decomposition) ... ok
+test_pair_arithmetic (test_demo.RemarkTests.test_pair_arithmetic) ... ok
+test_positive_length_constraint (test_demo.RemarkTests.test_positive_length_constraint) ... ok
+test_real_iff_equal_grid_625_cases (test_demo.RemarkTests.test_real_iff_equal_grid_625_cases) ... ok
+test_signed_differences (test_demo.RemarkTests.test_signed_differences) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.010s
+
+OK
+exit_code=0
+$ python3 reproduce.py
+8 tests passed; 625 grid cases checked; results and logs written.
+exit_code=0
+PASS: source and results.json unchanged byte-for-byte after reproduction
+PASS: discovered 8 test methods; environment metadata agrees
+PASS: independent 625-case grid; real=125, positive imaginary=250, negative imaginary=250
+PASS: independent scalar formulas for 1875 pair operations (625 each: add, subtract, multiply)
+PASS: 625 decomposition shifts and 625 complex-a/f identities
+PASS: 18 TypeError checks for unsupported real/imag inputs, including float and bool
+PASS: 2 precision edge cases with non-dyadic fractions and 101-digit integers
+PASS: all published numerical sections, root admissibility and both boundary counterexamples
+sha256 demo.py 4b06d3a1cab745959b98fd1c129556c9fd6546ac682d60dfc61422462cc44517
+sha256 test_demo.py 9b63de4c20d5c1239fe4b80361d8d0f145616e7eeae50487706628eea58d6597
+sha256 reproduce.py b07d79938fc1322b1c912800f884345ba3d8e6374dc1fb3ea65bc76287397187
+sha256 results.json 0665619e3b21867e455d48bc54250d75265819af8adb2ad597063663eef6db27
+RESULT: all checks passed; finite checks supplement, but do not replace, the algebraic proof.

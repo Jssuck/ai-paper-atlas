@@ -1,0 +1,170 @@
+{
+  "scope": "Modern teaching examples; not an experiment reported in 1852.",
+  "arithmetic": "Exact rational complex pairs; JSON rationals are strings.",
+  "real_coefficient_identity": "a + b*i + f - c*i = (a+f) + (b-c)*i",
+  "signed_real_differences": [
+    {
+      "left": "5",
+      "right": "3",
+      "difference": "2"
+    },
+    {
+      "left": "3",
+      "right": "5",
+      "difference": "-2"
+    },
+    {
+      "left": "3",
+      "right": "3",
+      "difference": "0"
+    }
+  ],
+  "imaginary_difference_cases": [
+    {
+      "a": "2",
+      "b": "5",
+      "f": "3",
+      "c": "3",
+      "value": {
+        "real": "5",
+        "imag": "2"
+      },
+      "is_real": false,
+      "b_equals_c": false
+    },
+    {
+      "a": "2",
+      "b": "3",
+      "f": "3",
+      "c": "5",
+      "value": {
+        "real": "5",
+        "imag": "-2"
+      },
+      "is_real": false,
+      "b_equals_c": false
+    },
+    {
+      "a": "2",
+      "b": "3",
+      "f": "3",
+      "c": "3",
+      "value": {
+        "real": "5",
+        "imag": "0"
+      },
+      "is_real": true,
+      "b_equals_c": true
+    }
+  ],
+  "nonunique_decompositions": [
+    {
+      "a": "2",
+      "b": "5",
+      "f": "3",
+      "c": "3",
+      "value": {
+        "real": "5",
+        "imag": "2"
+      }
+    },
+    {
+      "a": "1",
+      "b": "9",
+      "f": "4",
+      "c": "7",
+      "value": {
+        "real": "5",
+        "imag": "2"
+      }
+    }
+  ],
+  "nonreal_intermediates_real_result": {
+    "sum_operands": [
+      {
+        "real": "2",
+        "imag": "3"
+      },
+      {
+        "real": "3",
+        "imag": "-3"
+      }
+    ],
+    "sum": {
+      "real": "5",
+      "imag": "0"
+    },
+    "product_operands": [
+      {
+        "real": "1",
+        "imag": "1"
+      },
+      {
+        "real": "1",
+        "imag": "-1"
+      }
+    ],
+    "product": {
+      "real": "2",
+      "imag": "0"
+    }
+  },
+  "positive_length_constraint": {
+    "equation": "x^2 + 3*x = 4",
+    "factorization": "(x-1)*(x+4) = 0",
+    "real_roots": [
+      "1",
+      "-4"
+    ],
+    "residuals": [
+      "0",
+      "0"
+    ],
+    "admissibility_assumption": "x is an ordinary length, so x > 0",
+    "admissible_roots": [
+      "1"
+    ],
+    "excluded_real_roots": [
+      "-4"
+    ],
+    "interpretation": "A real algebraic root may violate a geometric domain constraint."
+  },
+  "complex_a_f_caveat": [
+    {
+      "a": {
+        "real": "0",
+        "imag": "1"
+      },
+      "b": "1",
+      "f": {
+        "real": "0",
+        "imag": "0"
+      },
+      "c": "1",
+      "value": {
+        "real": "0",
+        "imag": "1"
+      },
+      "b_equals_c": true,
+      "is_real": false
+    },
+    {
+      "a": {
+        "real": "0",
+        "imag": "-1"
+      },
+      "b": "2",
+      "f": {
+        "real": "0",
+        "imag": "0"
+      },
+      "c": "1",
+      "value": {
+        "real": "0",
+        "imag": "0"
+      },
+      "b_equals_c": false,
+      "is_real": true
+    }
+  ]
+}

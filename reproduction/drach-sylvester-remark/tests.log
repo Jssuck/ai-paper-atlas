@@ -1,0 +1,13 @@
+test_complex_coefficients_break_both_directions (test_demo.RemarkTests.test_complex_coefficients_break_both_directions) ... ok
+test_exact_rationals_and_reject_float (test_demo.RemarkTests.test_exact_rationals_and_reject_float) ... ok
+test_nonreal_intermediates_cancel (test_demo.RemarkTests.test_nonreal_intermediates_cancel) ... ok
+test_nonunique_decomposition (test_demo.RemarkTests.test_nonunique_decomposition) ... ok
+test_pair_arithmetic (test_demo.RemarkTests.test_pair_arithmetic) ... ok
+test_positive_length_constraint (test_demo.RemarkTests.test_positive_length_constraint) ... ok
+test_real_iff_equal_grid_625_cases (test_demo.RemarkTests.test_real_iff_equal_grid_625_cases) ... ok
+test_signed_differences (test_demo.RemarkTests.test_signed_differences) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.010s
+
+OK

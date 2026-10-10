@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "drach-1852-sylvester-remark",
     "path": "papers/1852/drach-sylvester-remark.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "December1852 p479 short note; imaginary-part cancellation and its claimed relation to reductio, with explicit limits."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Original-source mathematics and independent code review passed; all26remote files exact-verified;122article and50reproduction formulas, tables, links and four-cell notebook saved-output preview independently checked.",
     "scope": "December1852 original435–438; classical contraposition, Euclid reconstruction and explicitly modern Kripke teaching models. Geometry hand-derived and reviewed, not claimed as code experiments."
   },
-  "updated_at": "2026-10-10T03:34:35Z",
+  "updated_at": "2026-10-10T03:42:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read full note and original context, audit algebra and inferential gaps, build minimal exact teaching tests and independently review before publication.",
+  "next_action": "Verify exact remote files, complete math and table rendering, links and main commit before marking complete.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

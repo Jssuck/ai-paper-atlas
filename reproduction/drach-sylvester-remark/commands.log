@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest -v test_demo
+exit_code=0
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 demo.py
+exit_code=0

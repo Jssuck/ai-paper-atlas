@@ -14,6 +14,7 @@
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
 | 1852（十一月） | [Sylvester《几何方法的猜想原则》精读](papers/1852/sylvester-geometrical-method.zh-CN.md) | AI前史回填：几何可行域、代数根与直接/间接证明 | 深读v1 · 完整四页及独立审计 |
 | 1852（十二月） | [De Morgan《间接证明》精读](papers/1852/demorgan-indirect-demonstration.zh-CN.md) | AI前史回填：命题逆否、几何证明与逻辑规则 | 深读v1 · 完整四页及独立审计 |
+| 1852（十二月） | [Drach《评Sylvester第LVIII篇》精读](papers/1852/drach-sylvester-remark.zh-CN.md) | AI前史回填：虚部消去、几何约束与方法论边界 | 深读v1 · 完整短评及独立审计 |
 | 1880 | [Peirce《逻辑代数》精读](papers/1880/peirce-algebra-of-logic.zh-CN.md) | AI前史回填：类消元、关系四运算与有条件展开 | 深读v1 · 完整已刊部分及自注 |
 | 1904 | [Huntington《逻辑代数独立公设》精读](papers/1904/huntington-independent-postulates.zh-CN.md) | AI前史回填：三组公设、反模型与有限分类 | 深读v1 · 含实跑附件与正式勘误 |
 | 1913 | [Sheffer《布尔代数五公设》精读](papers/1913/sheffer-five-postulates.zh-CN.md) | AI 前史回填：独立性、NOR与逻辑原语 | 深读 v1 · 含实跑附件 |
@@ -122,7 +123,7 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 - [逐页来源与字形账本](papers/1852/sylvester-geometrical-method.sources.zh-CN.md) · [独立数学审计](papers/1852/sylvester-geometrical-method.audit.zh-CN.md)
 - [运行与独立代码复核](reproduction/sylvester-geometrical-method/independent-review.zh-CN.md)
 
-原刊366–369全四页、图与脚注已读核；同卷viii页勘误只针对359页。十一月刊期与10月4日署日分开。368页半参数式的可辨字形与通式/90°例子冲突，保留原式与教学修复；369页逆向式为a(a+x)=b²。代码严格区分有向射线与任意整直线绝对长度；40项主测试、4,010个精确分数代入、4,760个有限网格样本实跑，另有一般多项式系数证书。11个Notebook代码格按标准库顺序执行，非Jupyter内核验证；日志与独立复核见附件。几何定理与关于所有证明方法的猜想分开，有限实验不证明后者。该篇先读新发现十一月前驱；当时十二月De Morgan与Drach仅作回应上下文。De Morgan现已另篇完成，Drach仍只作上下文；全部旧候选、书籍及版本缺口保留。
+原刊366–369全四页、图与脚注已读核；同卷viii页勘误只针对359页。十一月刊期与10月4日署日分开。368页半参数式的可辨字形与通式/90°例子冲突，保留原式与教学修复；369页逆向式为a(a+x)=b²。代码严格区分有向射线与任意整直线绝对长度；40项主测试、4,010个精确分数代入、4,760个有限网格样本实跑，另有一般多项式系数证书。11个Notebook代码格按标准库顺序执行，非Jupyter内核验证；日志与独立复核见附件。几何定理与关于所有证明方法的猜想分开，有限实验不证明后者。该篇先读新发现十一月前驱；当时十二月De Morgan与Drach仅作回应上下文。De Morgan与Drach现均已另篇完成；全部旧候选、书籍及版本缺口保留。
 
 ## De Morgan1852十二月可运行附件
 
@@ -130,7 +131,15 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 - [中文教学Notebook](reproduction/demorgan-indirect-demonstration/tutorial.ipynb)
 - [逐页来源与版本核查](papers/1852/demorgan-indirect-demonstration.sources.zh-CN.md) · [独立来源与数学审计](papers/1852/demorgan-indirect-demonstration.audit.zh-CN.md)
 
-原刊435–438全四页与脚注读核，十二月刊期和11月1日署日分开；卷勘误仅改359页。四种证明的分类、Euclid I.6的匹配边条件与圆弦回应逐步展开；原文观点、现代重构和实跑分开。现代两世界Kripke反模型显示一般反向逆否的构造性边界，不归给1852原文。24项主测试、5,461类对、34个预序上的674持久模型/49,400公式比较通过；反向式有92个不强迫点，正向0。4格Notebook代码实跑；精确范围与独立复核见附件。有限实跑不是一般证明或全部几何证明的分类。Notebook为标准库顺序执行，非Jupyter内核验证。全部18个旧候选对象、历史前缀和更早书籍/版本缺口保留；Drach不算第二篇完成。
+原刊435–438全四页与脚注读核，十二月刊期和11月1日署日分开；卷勘误仅改359页。四种证明的分类、Euclid I.6的匹配边条件与圆弦回应逐步展开；原文观点、现代重构和实跑分开。现代两世界Kripke反模型显示一般反向逆否的构造性边界，不归给1852原文。24项主测试、5,461类对、34个预序上的674持久模型/49,400公式比较通过；反向式有92个不强迫点，正向0。4格Notebook代码实跑；精确范围与独立复核见附件。有限实跑不是一般证明或全部几何证明的分类。Notebook为标准库顺序执行，非Jupyter内核验证。全部18个旧候选对象、历史前缀和更早书籍/版本缺口保留；该轮未将Drach算为第二篇完成，Drach现已随后另篇精读。
+
+## Drach1852十二月可运行附件
+
+- [虚部抵消与实数域条件复现](reproduction/drach-sylvester-remark/README.md)
+- [原文逐句证据与版本账本](papers/1852/drach-sylvester-remark.sources.zh-CN.md) · [独立来源与数学审计](papers/1852/drach-sylvester-remark.audit.zh-CN.md)
+- [8项测试日志](reproduction/drach-sylvester-remark/tests.log) · [实际结果](reproduction/drach-sylvester-remark/results.json) · [独立代码复核](reproduction/drach-sylvester-remark/code_review.zh-CN.md)
+
+原刊479页短评全文、目录与同卷不适用勘误核图；十二月刊期与11月22日署日分开。实系数下虚部消去成立，但几何两量到系数的映射未给出，不把启发性短评写成普遍归谬定理。8项主测试含625个精确有理数组合实跑；非实中间量、实负根不可作正长度及系数域反例分开。附件规模与原文相称，不制作无必要Notebook；代码不是历史实验或猜想证明。登记新增当前有效状态，保留旧候选与全部历史；此前De Morgan完成状态可直接检索，所有旧书籍与版本缺口继续开放。
 
 ## 每篇解析的共同标准
 
@@ -145,6 +154,7 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 公开内容与核验边界
 
 这里发布 AI 辅助撰写的原创中文解析、书目与原文链接，不镜像论文全文或 PDF。每篇注明实际阅读与核验范围；示意推导不冒充原文公式，概念练习不冒充已运行实验。发现错误后保留更正记录。原论文版权归各权利人所有。
+
 
 
 
