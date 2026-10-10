@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "demorgan-1852-indirect-demonstration",
+    "path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md",
+    "stage": "researching",
+    "scope": "December1852 original435–438; original proof-method critique and bounded teaching reconstruction."
+  },
   "last_completed": {
     "id": "sylvester-1852-geometrical-method",
     "path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent original-image mathematics and code review passed; all42remote files verified including two PNG blob identities; complete formula chains, tables, diagrams and11-cell notebook preview checked.",
     "scope": "November1852 original366–369; geometric theorem, directed-domain algebra and universal proof-method conjecture distinguished. December responses contextual only, not completed separately."
   },
-  "updated_at": "2026-10-10T01:40:15Z",
+  "updated_at": "2026-10-10T02:40:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled turn inspect one unfinished source or remaining publication-quality concern. Raw angle inequalities and equation tags require complete rendered-content verification, not error-banner checks alone.",
+  "next_action": "Read original four pages and applicable corrections, reconstruct examples, independently review mathematics and reproduction before publication.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
