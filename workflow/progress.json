@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "demorgan-1852-indirect-demonstration",
     "path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "December1852 original435–438; original proof-method critique and bounded teaching reconstruction."
-  },
-  "last_completed": {
-    "id": "sylvester-1852-geometrical-method",
-    "path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
     "version": "v1",
-    "content_commit": "66839e56f90b8e0a6bf3fde9014cb552f72ced98",
-    "checks": "Independent original-image mathematics and code review passed; all42remote files verified including two PNG blob identities; complete formula chains, tables, diagrams and11-cell notebook preview checked.",
-    "scope": "November1852 original366–369; geometric theorem, directed-domain algebra and universal proof-method conjecture distinguished. December responses contextual only, not completed separately."
+    "content_commit": "b17853bd60bec67ff9553795605965c3c00a30ff",
+    "checks": "Original-source mathematics and independent code review passed; all26remote files exact-verified;122article and50reproduction formulas, tables, links and four-cell notebook saved-output preview independently checked.",
+    "scope": "December1852 original435–438; classical contraposition, Euclid reconstruction and explicitly modern Kripke teaching models. Geometry hand-derived and reviewed, not claimed as code experiments."
   },
-  "updated_at": "2026-10-10T02:51:20Z",
+  "updated_at": "2026-10-10T02:56:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote content, complete GitHub math/table/link/notebook rendering, then mark complete.",
+  "next_action": "Next scheduled turn inspect one unfinished historical source and existing publication state; preserve earlier source and version gaps.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
