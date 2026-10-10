@@ -1,0 +1,38 @@
+{
+  "source_url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf",
+  "printed_pages": [
+    79,
+    127
+  ],
+  "volume_pdf_pages": [
+    95,
+    143
+  ],
+  "network_download_during_this_build": false,
+  "inputs": [
+    {
+      "filename": "demorgan-symbols-pp79-127.pdf",
+      "sha256": "bcc75e168f3c9970f3ecc8e3a4d85ae90b2142b44f147f3246393022660d8b56",
+      "bytes": 3465801
+    },
+    {
+      "filename": "demorgan-symbols-pp79-127.txt",
+      "sha256": "8e3673fef08745a11b3017ec4658103c1577e5b6429d887e666fadf2dee48556",
+      "bytes": 192606
+    }
+  ],
+  "notebook_scaffold": {
+    "source": "Installed official jupyter-notebook skill",
+    "helper": "scripts/new_notebook.py",
+    "helper_sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+    "actual_arguments": [
+      "--kind",
+      "tutorial",
+      "--title",
+      "De Morgan 1851：从符号到关系与证言",
+      "--out",
+      "tutorial.ipynb"
+    ],
+    "note": "Output path normalized to project-relative name; helper was actually executed before filling tutorial content."
+  }
+}

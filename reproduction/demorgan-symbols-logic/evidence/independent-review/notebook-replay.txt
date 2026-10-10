@@ -1,0 +1,33 @@
+$ python evidence/independent-review/replay_notebook.py
+PASS demorgan-002 execution 1 saved output matches replay
+PASS demorgan-004 execution 2 saved output matches replay
+PASS demorgan-006 execution 3 saved output matches replay
+PASS demorgan-008 execution 4 saved output matches replay
+PASS demorgan-010 execution 5 saved output matches replay
+PASS demorgan-012 execution 6 saved output matches replay
+PASS demorgan-014 execution 7 saved output matches replay
+PASS demorgan-016 execution 8 saved output matches replay
+PASS demorgan-018 execution 9 saved output matches replay
+PASS demorgan-020 execution 10 saved output matches replay
+PASS demorgan-022 execution 11 saved output matches replay
+PASS demorgan-024 execution 12 saved output matches replay
+PASS demorgan-026 execution 13 saved output matches replay
+PASS demorgan-028 execution 14 saved output matches replay
+PASS demorgan-030 execution 15 saved output matches replay
+PASS demorgan-032 execution 16 saved output matches replay
+PASS demorgan-034 execution 17 saved output matches replay
+PASS demorgan-036 execution 18 saved output matches replay
+PASS demorgan-038 execution 19 saved output matches replay
+PASS demorgan-040 execution 20 saved output matches replay
+PASS demorgan-042 execution 21 saved output matches replay
+PASS demorgan-044 execution 22 saved output matches replay
+{
+  "status": "PASS",
+  "total_cells": 45,
+  "code_cells_replayed": 22,
+  "exact_saved_output_matches": 22,
+  "notebook_modified": false,
+  "execution": "fresh shared Python namespace; CPython exec; not Jupyter"
+}
+
+[exit code: 0; wall seconds: 0.060332]

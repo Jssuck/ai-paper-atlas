@@ -11,6 +11,7 @@
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
+| 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
 | 1880 | [Peirce《逻辑代数》精读](papers/1880/peirce-algebra-of-logic.zh-CN.md) | AI前史回填：类消元、关系四运算与有条件展开 | 深读v1 · 完整已刊部分及自注 |
 | 1904 | [Huntington《逻辑代数独立公设》精读](papers/1904/huntington-independent-postulates.zh-CN.md) | AI前史回填：三组公设、反模型与有限分类 | 深读v1 · 含实跑附件与正式勘误 |
 | 1913 | [Sheffer《布尔代数五公设》精读](papers/1913/sheffer-five-postulates.zh-CN.md) | AI 前史回填：独立性、NOR与逻辑原语 | 深读 v1 · 含实跑附件 |
@@ -102,6 +103,16 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 
 原刊379–408全部30页及Addition已读核图；分册刊年1847、宣读年1846与合订卷年1849分开记录。17项主测试和16个Notebook代码单元实跑，后者为标准库顺序执行，非Jupyter内核或页面渲染验证。核查保留396页原印公式不一致，以及原26/14分类与现代全语义弱化24/12的准则差异；概率公式明确依赖独立基础模型再条件化。有限实验不替代一般证明，Heath1966所述后期批注及修订仍未全校；所有旧候选、可得未读书籍和未完论文缺口继续保留。
 
+## De Morgan1851可运行附件
+
+- [符号、关系与证言通道复现](reproduction/demorgan-symbols-logic/README.md)
+- [中文教学Notebook](reproduction/demorgan-symbols-logic/tutorial.ipynb)
+- [21项主测试日志](reproduction/demorgan-symbols-logic/evidence/test-run.txt) · [逐页来源与版本账本](papers/1851/demorgan-symbols-logic.sources.zh-CN.md)
+- [系词数学审计](papers/1851/demorgan-copula-audit.zh-CN.md) · [概率与修订审计](papers/1851/demorgan-probability-audit.zh-CN.md)
+- [独立代码与Notebook复核](reproduction/demorgan-symbols-logic/evidence/independent-review/review.zh-CN.md)
+
+原刊79–127全部49页已读核图，包含1850年7月1日替换段114–116与7月3日Addition126–127；1851分册、1850宣读和1856合订卷年分开。21项主测试、22个Notebook代码单元实跑，Notebook使用CPython顺序执行器，非Jupyter内核或页面渲染验证。反名32式、exemplar恒等36式与共有21式按明确存在/选择条件核验；95页原印疑误保留原式及反模型。证言模型显式区分报告方向、误报机制、两阶段结构与条件独立，复制证人不重复计证据。有限检查不替代一般证明；更早书籍、Hamilton文本及1847后期批注/修订等全部旧缺口继续保留。
+
 ## 每篇解析的共同标准
 
 - 原始书目信息、版本和全文来源
@@ -115,6 +126,7 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 公开内容与核验边界
 
 这里发布 AI 辅助撰写的原创中文解析、书目与原文链接，不镜像论文全文或 PDF。每篇注明实际阅读与核验范围；示意推导不冒充原文公式，概念练习不冒充已运行实验。发现错误后保留更正记录。原论文版权归各权利人所有。
+
 
 
 

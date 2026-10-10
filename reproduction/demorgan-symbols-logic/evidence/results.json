@@ -1,0 +1,420 @@
+{
+  "scope": "Modern finite teaching reconstruction; original printed pp.79–127, 1851 part imprint, read 1850-02-25.",
+  "symbolic_counts": {
+    "universal": 8,
+    "particular": 16,
+    "strengthened": 8
+  },
+  "proper_atom_models": 193,
+  "exemplar_licensed": 36,
+  "common_symbolic_schemas": 21,
+  "contrary_system_inferences": [
+    {
+      "first": "))",
+      "second": "))",
+      "conclusion": "))",
+      "kind": "universal"
+    },
+    {
+      "first": "))",
+      "second": "((",
+      "conclusion": ")(",
+      "kind": "strengthened"
+    },
+    {
+      "first": "))",
+      "second": ").(",
+      "conclusion": ").(",
+      "kind": "universal"
+    },
+    {
+      "first": "))",
+      "second": "(.)",
+      "conclusion": ").)",
+      "kind": "strengthened"
+    },
+    {
+      "first": "))",
+      "second": ")(",
+      "conclusion": ")(",
+      "kind": "particular"
+    },
+    {
+      "first": "))",
+      "second": ").)",
+      "conclusion": ").)",
+      "kind": "particular"
+    },
+    {
+      "first": "((",
+      "second": "))",
+      "conclusion": "()",
+      "kind": "strengthened"
+    },
+    {
+      "first": "((",
+      "second": "((",
+      "conclusion": "((",
+      "kind": "universal"
+    },
+    {
+      "first": "((",
+      "second": ").(",
+      "conclusion": "(.(",
+      "kind": "strengthened"
+    },
+    {
+      "first": "((",
+      "second": "(.)",
+      "conclusion": "(.)",
+      "kind": "universal"
+    },
+    {
+      "first": "((",
+      "second": "()",
+      "conclusion": "()",
+      "kind": "particular"
+    },
+    {
+      "first": "((",
+      "second": "(.(",
+      "conclusion": "(.(",
+      "kind": "particular"
+    },
+    {
+      "first": ").(",
+      "second": "))",
+      "conclusion": ").)",
+      "kind": "strengthened"
+    },
+    {
+      "first": ").(",
+      "second": "((",
+      "conclusion": ").(",
+      "kind": "universal"
+    },
+    {
+      "first": ").(",
+      "second": ").(",
+      "conclusion": ")(",
+      "kind": "strengthened"
+    },
+    {
+      "first": ").(",
+      "second": "(.)",
+      "conclusion": "))",
+      "kind": "universal"
+    },
+    {
+      "first": ").(",
+      "second": "()",
+      "conclusion": ").)",
+      "kind": "particular"
+    },
+    {
+      "first": ").(",
+      "second": "(.(",
+      "conclusion": ")(",
+      "kind": "particular"
+    },
+    {
+      "first": "(.)",
+      "second": "))",
+      "conclusion": "(.)",
+      "kind": "universal"
+    },
+    {
+      "first": "(.)",
+      "second": "((",
+      "conclusion": "(.(",
+      "kind": "strengthened"
+    },
+    {
+      "first": "(.)",
+      "second": ").(",
+      "conclusion": "((",
+      "kind": "universal"
+    },
+    {
+      "first": "(.)",
+      "second": "(.)",
+      "conclusion": "()",
+      "kind": "strengthened"
+    },
+    {
+      "first": "(.)",
+      "second": ")(",
+      "conclusion": "(.(",
+      "kind": "particular"
+    },
+    {
+      "first": "(.)",
+      "second": ").)",
+      "conclusion": "()",
+      "kind": "particular"
+    },
+    {
+      "first": "()",
+      "second": "))",
+      "conclusion": "()",
+      "kind": "particular"
+    },
+    {
+      "first": "()",
+      "second": ").(",
+      "conclusion": "(.(",
+      "kind": "particular"
+    },
+    {
+      "first": ")(",
+      "second": "((",
+      "conclusion": ")(",
+      "kind": "particular"
+    },
+    {
+      "first": ")(",
+      "second": "(.)",
+      "conclusion": ").)",
+      "kind": "particular"
+    },
+    {
+      "first": "(.(",
+      "second": "((",
+      "conclusion": "(.(",
+      "kind": "particular"
+    },
+    {
+      "first": "(.(",
+      "second": "(.)",
+      "conclusion": "()",
+      "kind": "particular"
+    },
+    {
+      "first": ").)",
+      "second": "))",
+      "conclusion": ").)",
+      "kind": "particular"
+    },
+    {
+      "first": ").)",
+      "second": ").(",
+      "conclusion": ")(",
+      "kind": "particular"
+    }
+  ],
+  "exemplar_system_inferences": [
+    {
+      "first": "))",
+      "second": "))",
+      "conclusion": "))"
+    },
+    {
+      "first": "))",
+      "second": ").(",
+      "conclusion": ").("
+    },
+    {
+      "first": "))",
+      "second": ")(",
+      "conclusion": ")("
+    },
+    {
+      "first": "))",
+      "second": ").)",
+      "conclusion": ").)"
+    },
+    {
+      "first": "((",
+      "second": "))",
+      "conclusion": "()"
+    },
+    {
+      "first": "((",
+      "second": "((",
+      "conclusion": "(("
+    },
+    {
+      "first": "((",
+      "second": ").(",
+      "conclusion": "(.("
+    },
+    {
+      "first": "((",
+      "second": "(.)",
+      "conclusion": "(.)"
+    },
+    {
+      "first": "((",
+      "second": "()",
+      "conclusion": "()"
+    },
+    {
+      "first": "((",
+      "second": ")(",
+      "conclusion": "(("
+    },
+    {
+      "first": "((",
+      "second": "(.(",
+      "conclusion": "(.("
+    },
+    {
+      "first": "((",
+      "second": ").)",
+      "conclusion": "(.)"
+    },
+    {
+      "first": ").(",
+      "second": "))",
+      "conclusion": ").)"
+    },
+    {
+      "first": ").(",
+      "second": "((",
+      "conclusion": ").("
+    },
+    {
+      "first": ").(",
+      "second": "()",
+      "conclusion": ").)"
+    },
+    {
+      "first": ").(",
+      "second": ")(",
+      "conclusion": ").("
+    },
+    {
+      "first": "(.)",
+      "second": "))",
+      "conclusion": "(.)"
+    },
+    {
+      "first": "(.)",
+      "second": ")(",
+      "conclusion": "(.("
+    },
+    {
+      "first": "()",
+      "second": "))",
+      "conclusion": "()"
+    },
+    {
+      "first": "()",
+      "second": ").(",
+      "conclusion": "(.("
+    },
+    {
+      "first": "()",
+      "second": ")(",
+      "conclusion": "(("
+    },
+    {
+      "first": "()",
+      "second": ").)",
+      "conclusion": "(.)"
+    },
+    {
+      "first": ")(",
+      "second": "))",
+      "conclusion": "))"
+    },
+    {
+      "first": ")(",
+      "second": "((",
+      "conclusion": ")("
+    },
+    {
+      "first": ")(",
+      "second": ").(",
+      "conclusion": ").("
+    },
+    {
+      "first": ")(",
+      "second": "(.)",
+      "conclusion": ").)"
+    },
+    {
+      "first": ")(",
+      "second": "()",
+      "conclusion": "))"
+    },
+    {
+      "first": ")(",
+      "second": ")(",
+      "conclusion": ")("
+    },
+    {
+      "first": ")(",
+      "second": "(.(",
+      "conclusion": ").("
+    },
+    {
+      "first": ")(",
+      "second": ").)",
+      "conclusion": ").)"
+    },
+    {
+      "first": "(.(",
+      "second": "))",
+      "conclusion": "(.)"
+    },
+    {
+      "first": "(.(",
+      "second": "((",
+      "conclusion": "(.("
+    },
+    {
+      "first": "(.(",
+      "second": "()",
+      "conclusion": "(.)"
+    },
+    {
+      "first": "(.(",
+      "second": ")(",
+      "conclusion": "(.("
+    },
+    {
+      "first": ").)",
+      "second": "))",
+      "conclusion": ").)"
+    },
+    {
+      "first": ").)",
+      "second": ")(",
+      "conclusion": ").("
+    }
+  ],
+  "copula": {
+    "persuade_then_command": [
+      [
+        "John",
+        "William"
+      ]
+    ],
+    "neither_original_relation_contains_result": true,
+    "three_sources_five_targets_twelve_edges_common_lower_bound": 2
+  },
+  "testimony": {
+    "named_card_52_states": "9/10",
+    "same_model_coarsened": "9/10",
+    "different_binary_error_model": "3/20",
+    "coarsened_other_to_target_error": "1/510",
+    "two_stage_n4": "37/60",
+    "no_information_bias_model": [
+      "1/10",
+      "3/10",
+      "3/5"
+    ],
+    "independent_two_accurate_witnesses": "81/82",
+    "perfectly_copied_second_witness": "9/10",
+    "targeted_falsehood_prior_1_over_52_bias_1_over_10": "10/61"
+  },
+  "boundaries": [
+    "Proper nonempty terms for 32-case contrary canon; 24 remain without existence.",
+    "Nonempty terms and identity copula for 36-case exemplar enumeration.",
+    "pp.114–116 special contrary/relation assumptions are not imposed on arbitrary relations.",
+    "Denial means complement of the reported label in the same reporting channel.",
+    "Multiple-witness multiplication assumes conditional independence given the event.",
+    "Tests check the stated models, not every historical claim."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "executor_clock_utc": "2026-10-09T23:59:33.420720+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "network_used": false,
+  "installation_performed": false,
+  "jupyter_kernel_executed": false,
+  "runs": [
+    {
+      "command": "python -m unittest discover -v",
+      "exit_code": 0,
+      "wall_seconds": 0.677945,
+      "log": "unit-tests.txt"
+    },
+    {
+      "command": "python evidence/independent-review/independent_review.py",
+      "exit_code": 0,
+      "wall_seconds": 1.80553,
+      "log": "math-audit.txt"
+    },
+    {
+      "command": "python evidence/independent-review/replay_notebook.py",
+      "exit_code": 0,
+      "wall_seconds": 0.060332,
+      "log": "notebook-replay.txt"
+    },
+    {
+      "command": "python validate_notebook.py",
+      "exit_code": 0,
+      "wall_seconds": 0.023016,
+      "log": "notebook-structure.txt"
+    }
+  ],
+  "reviewed_sha256": {
+    "demorgan.py": "edf0c9a43905adcbd50c2b7c3982625d7d31f66b5f196ce031f52d307d9131e1",
+    "tests/test_demorgan.py": "cae1cf1f1c29427bc6831baa685521c2b71df1519a0298d331d6840f903e25c5",
+    "demo.py": "f233aa193644161fb08ff44332f575251f96374b036663ccb45738510351c692",
+    "tutorial.ipynb": "aa1a1693ad610e990abaa4cb274238df5aef523221bba21e5358e3a98df86e67",
+    "execute_notebook.py": "9763d3e426725da2713aa996692aedddf0e9144f7cce59409a3e9bd701cc95da",
+    "validate_notebook.py": "46282be0fed919c8a733f999d6842a7df74da9fd47f27dc2963a8864c946f19b",
+    "run_checks.py": "13a25cc365fefb70c43dca41896e4b83fa62976d29e2c8a70b58c37145451b3d",
+    "README.md": "8e8aef3aaf81ab78a76405d0e59cb978358f68c25ed3c8416aeee84348613291",
+    "SOURCE_LEDGER.md": "a3f5ecb68ac0ec09ba36a9f190fbd1c00a1d04365e59a792cf22d6bab1dd932a",
+    "evidence/independent-review/independent_review.py": "0472906dfc30c505a733d8c4aef3ca0dd9d2bba15e4d9f1fe00f39858f07e0d3",
+    "evidence/independent-review/replay_notebook.py": "95c31f7520d224485b0513a98252416d20b363fdd928c3fdaf59e4180af6e2cf",
+    "evidence/independent-review/capture_review.py": "d5bd6c0114e3e4f8ac81e9e2ec41eeb17ba17ddc0cc309bb93e52c93ebfb1876",
+    "evidence/independent-review/review.zh-CN.md": "8330ea358a1b93df9257602cc2b9c8f8b9cf3eb39eba21576d8933252a4af43f"
+  },
+  "privacy": "No usernames, hostnames, absolute paths, environment variables or credentials recorded."
+}

@@ -1,0 +1,13 @@
+$ python evidence/source-math-review/source_math_review.py
+Source-math review: PASS
+Contraries: 32 rules; categories 8 universal, 16 particular, 8 strengthened.
+Nonempty proper model assignments: 2744; failed rules: 0.
+Unrestricted model assignments: 4096; failed rules: 8 (all strengthened).
+Exemplar: 36 rules; nonempty assignments: 3375; failed rules: 0.
+Common symbolic triples: 21.
+Page 95: 48 formula cells checked; lower-right row 8 is the sole mismatch.
+Printed: ))(.)=(.( ; expected by p.94 rule: ))(.)=).) .
+Named countermodels: PASS.
+Detailed evidence: results.json (complete 48-cell trace included).
+
+[exit code: 0; wall seconds: 0.330704]

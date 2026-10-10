@@ -1,0 +1,29 @@
+$ python -m unittest discover -v
+test_bias_no_information_and_theta_family (tests.test_demorgan.ProbabilityTests.test_bias_no_information_and_theta_family) ... ok
+test_binary_grid_independent_joint_mass_oracle (tests.test_demorgan.ProbabilityTests.test_binary_grid_independent_joint_mass_oracle) ... ok
+test_card_vs_binary_and_correct_aggregation (tests.test_demorgan.ProbabilityTests.test_card_vs_binary_and_correct_aggregation) ... ok
+test_independent_witnesses_latent_oracle_and_copying (tests.test_demorgan.ProbabilityTests.test_independent_witnesses_latent_oracle_and_copying) ... ok
+test_laplace_closed_form_all_parameters (tests.test_demorgan.ProbabilityTests.test_laplace_closed_form_all_parameters) ... ok
+test_probability_validation (tests.test_demorgan.ProbabilityTests.test_probability_validation) ... ok
+test_targeted_falsehood (tests.test_demorgan.ProbabilityTests.test_targeted_falsehood) ... ok
+test_two_stage_full_latent_enumeration (tests.test_demorgan.ProbabilityTests.test_two_stage_full_latent_enumeration) ... ok
+test_uniform_error_formula_and_stationarity (tests.test_demorgan.ProbabilityTests.test_uniform_error_formula_and_stationarity) ... ok
+test_arbitrary_relations_do_not_inherit_contraries (tests.test_demorgan.RelationTests.test_arbitrary_relations_do_not_inherit_contraries) ... ok
+test_common_target_bound_exhaustive (tests.test_demorgan.RelationTests.test_common_target_bound_exhaustive) ... ok
+test_composition_oracle_and_negative_opponents (tests.test_demorgan.RelationTests.test_composition_oracle_and_negative_opponents) ... ok
+test_exemplar_is_not_bilateral_coverage (tests.test_demorgan.RelationTests.test_exemplar_is_not_bilateral_coverage) ... ok
+test_relational_complex_term_monotonicity (tests.test_demorgan.RelationTests.test_relational_complex_term_monotonicity) ... ok
+test_transitivity_and_converse_512_relations (tests.test_demorgan.RelationTests.test_transitivity_and_converse_512_relations) ... ok
+test_all_forms_transformations_and_contradictions (tests.test_demorgan.SymbolTests.test_all_forms_transformations_and_contradictions) ... ok
+test_canon_32_and_24_without_strengthening (tests.test_demorgan.SymbolTests.test_canon_32_and_24_without_strengthening) ... ok
+test_exemplar_36_and_21_common_schemas (tests.test_demorgan.SymbolTests.test_exemplar_36_and_21_common_schemas) ... ok
+test_existential_negative_control (tests.test_demorgan.SymbolTests.test_existential_negative_control) ... ok
+test_p95_printed_conclusion_regression (tests.test_demorgan.SymbolTests.test_p95_printed_conclusion_regression) ... ok
+test_syntax_and_validation (tests.test_demorgan.SymbolTests.test_syntax_and_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.607s
+
+OK
+
+[exit code: 0; wall seconds: 0.677945]

@@ -1,0 +1,47 @@
+$ python evidence/independent-review/independent_review.py
+{
+  "symbols": {
+    "proper_occupancy_models": 193,
+    "all_occupancy_models": 256,
+    "contrary_rules": {
+      "universal": 8,
+      "particular": 16,
+      "strengthened": 8
+    },
+    "valid_without_existence": 24,
+    "nonempty_exemplar_models": 6342,
+    "exemplar_rules": 36,
+    "shared_symbolic_schemas": 21,
+    "p95_print_counterexample": "verified",
+    "mixed_quantifier_dependency_controls": "passed"
+  },
+  "relations": {
+    "rectangular_composition_pairs": 4096,
+    "three_object_relations": 512,
+    "associativity_triples": 4096,
+    "degree_vectors": 15029,
+    "sharp_bound_cases": 255
+  },
+  "testimony": {
+    "source_orientation": "report rows, actual-event columns; input explicitly transposed",
+    "ternary_prior_channel_cases": 2160,
+    "defined_ternary_posteriors": 4455,
+    "zero_evidence_rejections": 2025,
+    "partition_posterior_checks": 50,
+    "valid_bias_channels": 351,
+    "uniform_error_formula_checks": 184,
+    "uniform_error_zero_evidence_rejections": 16,
+    "speaking_selection_countermodel": "verified",
+    "invalid_bias_channels_rejected": 54,
+    "rectangular_latent_reports": 4,
+    "targeted_falsehood_checks": 12,
+    "mixed_alphabet_witness_reports": 6,
+    "markov_countermodel": "verified",
+    "independent_witness_posterior": "81/82",
+    "copied_witness_posterior": "9/10"
+  },
+  "status": "PASS",
+  "scope": "Specified finite teaching semantics; not a formalization of every historical claim."
+}
+
+[exit code: 0; wall seconds: 1.731900]

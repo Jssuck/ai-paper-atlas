@@ -4,9 +4,9 @@
   "checked_on": "2026-10-09",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "沿Peirce1880明确引用线索历史回填De Morgan首篇；核定1847分册刊年，不把1846宣读误作出版。只处理这一篇，不声称其为AI或逻辑历史起点。",
-    "main_window": "De Morgan卷VIII PartIII(1847),379–408完整30页，含Addition；底本整卷PDF401–430。",
-    "coverage": "所有原有候选及selection_history前缀逐项保留；本轮仅添加单篇完成事件、版本核查和必要缺口，不递归复制注册表。",
+    "selection_context": "沿De Morgan1847及Peirce1880所引后续论文作有界历史回填；本轮只处理De Morgan第二篇，按1851分册刊年记录。",
+    "main_window": "De Morgan卷IX PartI(1851),79–127完整49页；PDF95–143；纳入7月1日替换段及7月3日Addition。",
+    "coverage": "全部14个既有候选对象和selection_history前缀逐项不变；本次新增一篇完成记录及紧凑事件，不递归复制历史。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -21,23 +21,32 @@
       "1847分册年、1846-11-09宣读、1846-10-03正文署日、1847-02-27补篇署日和1849合订卷年分别保留；确切发行日与DOI未核定。",
       "1966选集省略概率部分并纳入后期改动；注释单行本及印刷修订未全对勘，不能宣称无修订。",
       "原文26有向/14类与现代全部语义弱化24/12分开；396页相邻式不一致为本文版本核查，不冒称正式历史勘误。",
-      "概率乘积规则按独立基础权重再条件化解释，不冒称由边际与逻辑约束可决定任意相关联合分布；有限实跑不替代一般证明。"
+      "概率乘积规则按独立基础权重再条件化解释，不冒称由边际与逻辑约束可决定任意相关联合分布；有限实跑不替代一般证明。",
+      "不声称De Morgan1851是第一篇AI论文、最早关系逻辑或概率公式；选择限当前核实的具体论文列表。",
+      "1849概率节署日、1850正文署日/宣读/两次修订、1851分册与1856合订卷分别记录；不猜具体发行日。",
+      "p95下表右下式原印与p94规则冲突为本篇源图/数学核查，不冒称作者正式勘误。",
+      "32/36/21分类具有解释和存在条件；有限枚举和22格CPython exec不等于一般定理证明或Jupyter内核验证。",
+      "罕见报告的后验依赖完整误报通道；忠实聚合不增添证据，多证人乘积仅在给定真相后条件独立时成立。"
     ],
-    "known_earlier_near_neighbor": "1846是本篇主文署日及宣读年，1847是PartIII题名页刊年；更早或同期书籍/论文尚未穷尽。Boole1847/1854、Hamilton相关著作、De Morgan后续论文及既有Peirce/McColl线索仍保留未完成范围。"
+    "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "demorgan-1847-structure-syllogism",
-    "pages": "379–408",
-    "publication_scope": "完整1847原刊主文379–405及Addition406–408；不是省略概率的后期选集。",
-    "why_selected": "当前有界注册记录中Peirce1880直接引出的较早可识别论文线索；已定位完整原刊及分册题名页，历史回填而非穷尽最早断言。",
-    "mathematical_boundary": "原文存在承诺下的现代有限类模型；数量重叠；独立基础权重经相容条件化；语义弱化与作者分类分开。",
-    "completion": "1847分册原刊379–408全部30页（含406–408Addition）已读核图；原创中文解析、逐页账本、标准库复现、执行Notebook及独立数学/代码复核完成。刊年、宣读年、署日与合订卷年分开；后期批注及修订未全部对勘。公开提交与页面QA另核。",
-    "article_path": "papers/1847/demorgan-structure-syllogism.zh-CN.md",
-    "source_ledger_path": "papers/1847/demorgan-structure-syllogism.sources.zh-CN.md",
-    "mathematical_review_path": "papers/1847/demorgan-mathematical-review.zh-CN.md",
-    "reproduction_path": "reproduction/demorgan-structure-syllogism/README.md"
+    "candidate_id": "de-morgan-1851",
+    "pages": "79–127",
+    "publication_scope": "完整1851原刊，包括114–116的1850-07-01替换段和126–127的1850-07-03Addition；不是后期删节本。",
+    "why_selected": "前篇与Peirce后引提供的后续论文线索；在当前已核实的具体论文列表内按年代继续，完整底本与分册刊年可核。不将可得未读书籍或待核Hamilton线索视作已关闭。",
+    "mathematical_boundary": "反名32式含项/反名非空；exemplar36式有限核验限恒等系词及非空项。一般关系合成与114–116强约束扩张分开；完整报告矩阵、多阶段Markov条件和多证人条件独立显式记录。",
+    "completion": "1851分册原刊79–127全部49页已读核图，含1850-07-01替换段114–116与1850-07-03 Addition126–127。原创中文深读、逐页账本、两份独立数学审计、标准库代码与实际执行Notebook已完成；远程提交与页面QA由发布步骤另核。",
+    "article_path": "papers/1851/demorgan-symbols-logic.zh-CN.md",
+    "source_ledger_path": "papers/1851/demorgan-symbols-logic.sources.zh-CN.md",
+    "reproduction_path": "reproduction/demorgan-symbols-logic/README.md"
   },
   "earlier_gap_priority": [
+    {
+      "priority": 0,
+      "subject": "继续核最早未完成具体来源，同时保留书籍与修订缺口",
+      "next_evidence_needed": "本轮1851篇底本完成，不关闭更早书籍、Hamilton文本、De Morgan1847后期批注/修订、1839 Solly及De Morgan早期著作线索。下一篇选择仍须限定到可核的具体作品与页界。"
+    },
     {
       "priority": 0,
       "subject": "1847更早/同期线索及既有未读著作",
@@ -124,6 +133,69 @@
         "sources": "papers/1847/demorgan-structure-syllogism.sources.zh-CN.md",
         "mathematical_review": "papers/1847/demorgan-mathematical-review.zh-CN.md",
         "reproduction": "reproduction/demorgan-structure-syllogism/README.md"
+      }
+    },
+    {
+      "id": "de-morgan-1851",
+      "authors": [
+        "Augustus De Morgan"
+      ],
+      "title": "On the Symbols of Logic, the Theory of the Syllogism, and in particular of the Copula, and the application of the Theory of Probabilities to some questions of evidence",
+      "publication": {
+        "year": 1851,
+        "journal": "Transactions of the Cambridge Philosophical Society",
+        "volume": "IX",
+        "part": "I",
+        "pages": "79–127",
+        "read_date": "1850-02-25",
+        "main_text_dateline": "1850-01-07",
+        "probability_section_separate_dateline": "1849-11-19",
+        "replacement_passage_dateline": "1850-07-01",
+        "addition_dateline": "1850-07-03",
+        "bound_volume_title_year": 1856,
+        "exact_publication_day": "未核定",
+        "doi": "未核定"
+      },
+      "sources": [
+        {
+          "kind": "original_complete_scan",
+          "url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf",
+          "coverage": "原刊79–127，对应整卷PDF95–143，49页；含两层1850年修订。",
+          "sha256": "f063767a7cadb9fb2139e35e213bcca6ac9761b324d40d8de703848bc32c8307"
+        },
+        {
+          "kind": "part_title_primary_year",
+          "url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf#page=15",
+          "coverage": "IX PartI分册题名页印1851。"
+        },
+        {
+          "kind": "bound_volume_title",
+          "url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf#page=7",
+          "coverage": "合订卷题名页印1856，不能混为分册刊年。"
+        },
+        {
+          "kind": "replacement_passage",
+          "url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf#page=130",
+          "coverage": "114–116方括号段替换原稿，114脚注署1850-07-01。"
+        },
+        {
+          "kind": "addition",
+          "url": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf#page=142",
+          "coverage": "Addition126–127，127末署1850-07-03。"
+        }
+      ],
+      "status": {
+        "retrieval": "完整公开原刊、分册/整卷题名页、卷内勘误与卷末索引范围已定位。",
+        "reading": "1851分册原刊79–127全部49页已读核图，含1850-07-01替换段114–116与1850-07-03 Addition126–127。原创中文深读、逐页账本、两份独立数学审计、标准库代码与实际执行Notebook已完成；远程提交与页面QA由发布步骤另核。",
+        "limits": "未据此完成1847后期批注/修订校勘，未读完更早书籍或Hamilton原著；无真实证人数据、学习训练或AI性能实验。"
+      },
+      "selection_disposition": "本轮唯一精读论文；选择限当前核实的具体论文列表，不声称此前无文献或全史已穷尽。",
+      "outputs": {
+        "article": "papers/1851/demorgan-symbols-logic.zh-CN.md",
+        "sources": "papers/1851/demorgan-symbols-logic.sources.zh-CN.md",
+        "copula_audit": "papers/1851/demorgan-copula-audit.zh-CN.md",
+        "probability_audit": "papers/1851/demorgan-probability-audit.zh-CN.md",
+        "reproduction": "reproduction/demorgan-symbols-logic/README.md"
       }
     },
     {
@@ -749,9 +821,9 @@
     }
   ],
   "next_source_gap": {
-    "subject": "继续有界历史回填及版本对勘",
-    "completed_candidate_id": "demorgan-1847-structure-syllogism",
-    "target": "优先核较早未读具体论文/相关著作篇章；De Morgan后期批注修订、Boole1847/1854、Hamilton相关文本及旧Peirce/McColl/Curry/Church等缺口均保留。不得以1847篇完成关闭其他范围。"
+    "subject": "继续有界历史回填及独立版本对勘",
+    "completed_candidate_id": "de-morgan-1851",
+    "target": "核当前登记列表中的下一篇完整具体论文；所有既有书籍/Hamilton/1847后期修订/Curry/Church等缺口保留。本轮来源引文不代表已读前驱全文。"
   },
   "selection_history": [
     {
@@ -1542,6 +1614,22 @@
         "原作者26/14分类与现代全部语义弱化24/12差异显式保留；七类表按非空真子集语义核查。",
         "397页局部模型保留意见与405页一般化并读；Heath1966所述后期批注和修订未全对勘。"
       ]
+    },
+    {
+      "checked_on": "2026-10-09",
+      "candidate_id": "de-morgan-1851",
+      "event": "completed_original_full_paper_with_replacement_and_addition",
+      "pages": "79–127",
+      "previous_candidate_id": "demorgan-1847-structure-syllogism",
+      "note": "1851分册原刊79–127全部49页已读核图，含1850-07-01替换段114–116与1850-07-03 Addition126–127。原创中文深读、逐页账本、两份独立数学审计、标准库代码与实际执行Notebook已完成；远程提交与页面QA由发布步骤另核。",
+      "article": "papers/1851/demorgan-symbols-logic.zh-CN.md",
+      "new_source_findings": [
+        "1851分册题名页与1850宣读、1856合订卷区别；正文125与概率节116的不同署日保留。",
+        "114–116方括号署1850-07-01替换原段，Addition126–127署1850-07-03，两者都纳入。",
+        "p95下表最右末格原印 ))(.)=(.( 与p94消去规则及上表重复项冲突；非空反模型支持按规则作 ).)，不冒称作者正式勘误。",
+        "反名32式、exemplar恒等36式及共有21式以独立有限模型复核，存在与量词依存条件显式。",
+        "报告矩阵、偏误、两阶段误报及条件独立多证人模型有可执行复现和复制证人反例；更早书籍及旧缺口不关闭。"
+      ]
     }
   ],
   "earlier_background_gaps": [
@@ -1636,6 +1724,12 @@
       "sources": [
         "https://archive.org/download/transactionsofca08camb/transactionsofca08camb.pdf#page=428"
       ]
+    },
+    {
+      "subject": "De Morgan第二篇明示的早期文献与版本范围",
+      "evidence": "原刊79、85、88–90、96、99、119、126–127页引文；本篇逐页账本。",
+      "reading_status": "Solly Syllabus of Logic1839 p47、De Morgan First Notions of Logic1839、Formal Logic1847、Thomson Outline第2版1849、Hamilton/Reid及Mansel等只登记明确引文，未据此完成原著全文。Laplace第3版446–451仅按本篇引文/公式范围讨论，不冒称本轮独立读完其全书。1847篇后期批注及印刷修订校勘继续开放。",
+      "source": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf"
     }
   ]
 }

@@ -1,0 +1,13 @@
+$ python validate_notebook.py
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "cells": 45,
+  "code_cells": 22,
+  "all_executed_in_order": true,
+  "error_outputs": 0,
+  "execution_mode": "CPython exec; not Jupyter kernel",
+  "validation": "Restricted JSON/structure/output validation; official nbformat validation not performed"
+}
+
+[exit code: 0; wall seconds: 0.027868]

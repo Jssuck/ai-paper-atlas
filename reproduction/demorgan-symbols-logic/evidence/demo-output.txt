@@ -1,0 +1,17 @@
+$ python demo.py
+Contrary-system canon: 8 universal + 16 particular + 8 strengthened = 32.
+Exemplar canon: 36; shared symbolic schemas: 21.
+Proper atom-occupancy models: 193
+Relation composition: [('John', 'William')]
+named_card_52_states: 9/10
+same_model_coarsened: 9/10
+different_binary_error_model: 3/20
+coarsened_other_to_target_error: 1/510
+two_stage_n4: 37/60
+no_information_bias_model: ['1/10', '3/10', '3/5']
+independent_two_accurate_witnesses: 81/82
+perfectly_copied_second_witness: 9/10
+targeted_falsehood_prior_1_over_52_bias_1_over_10: 10/61
+Wrote evidence/results.json with all 32 + 36 licensed schemas and assumptions.
+
+[exit code: 0; wall seconds: 0.059115]

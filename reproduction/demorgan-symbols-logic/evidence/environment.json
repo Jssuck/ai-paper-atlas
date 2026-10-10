@@ -1,0 +1,17 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "third_party_packages_required": [],
+  "optional_notebook_packages_present": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  },
+  "network_required": false,
+  "installation_performed": false,
+  "randomness_used": false,
+  "execution_time_utc": "2026-10-09T23:59:33.451546+00:00",
+  "privacy": "No usernames, hostnames, home paths, environment variables or credentials recorded."
+}
