@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "reviewing",
+  "active_paper": {
+    "id": "de-morgan-1851",
+    "stage": "reviewing",
+    "scope": "Repair independently confirmed silent GitHub truncation of probability-audit inequality; verify complete affected expressions. No new paper started."
+  },
   "last_completed": {
     "id": "sylvester-1852-geometrical-method",
     "path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
@@ -10,12 +14,12 @@
     "checks": "Independent original-image mathematics and code review passed; all42remote files verified including two PNG blob identities; complete formula chains, tables, diagrams and11-cell notebook preview checked.",
     "scope": "November1852 original366–369; geometric theorem, directed-domain algebra and universal proof-method conjecture distinguished. December responses contextual only, not completed separately."
   },
-  "updated_at": "2026-10-10T01:04:45Z",
+  "updated_at": "2026-10-10T01:37:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled turn inspect unfinished sources and publication quality; check complete mathematical rendering, since raw angle inequalities can silently truncate GitHub formulas. Advance only one paper task."
+  "next_action": "Correct math delimiters in the1851paper package without changing mathematical content; independently verify complete rendered formulas and exact remote contents."
 }
