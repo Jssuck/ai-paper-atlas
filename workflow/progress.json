@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "selecting_source",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "euler-1768-letter-cii",
+    "path": "papers/1768/euler-letter-cii.zh-CN.md",
+    "stage": "researching",
+    "scope": "Historical backfill: original1768volumeII LetterCII pp95–100, dated14February1761; complete letter chapter, not journal paper or whole syllogistic system."
+  },
   "last_completed": {
     "id": "gergonne-1817-dialectique-rationnelle",
     "path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent original-source mathematics and code review passed;30main and9independent tests;31remote files exact-verified;seven Markdown views,85article formulas,24tables and links independently browser-checked.",
     "scope": "Historical backfill:1January1817 original40pages68paragraphs19footnotes and three formalerrata; p216printedCH versus proposedDH preserved separately.109patterns54relationtriples24validforms232countermodels; noNotebook claimed."
   },
-  "updated_at": "2026-10-10T20:34:45Z",
+  "updated_at": "2026-10-10T20:40:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify original1768 Euler LetterCII as earlier primary-source chapter; distinguish1761letter date from1768publication and1775later edition. No new article drafting until scope verified.",
+  "next_action": "Read all six original letter pages and six diagram blocks, audit existential assumptions, reconstruct examples and independent minimal reproduction before publication.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
