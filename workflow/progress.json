@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "idle",
+  "status": "selecting_source",
   "active_paper": null,
   "last_completed": {
     "id": "gergonne-1817-dialectique-rationnelle",
@@ -10,14 +10,14 @@
     "checks": "Independent original-source mathematics and code review passed;30main and9independent tests;31remote files exact-verified;seven Markdown views,85article formulas,24tables and links independently browser-checked.",
     "scope": "Historical backfill:1January1817 original40pages68paragraphs19footnotes and three formalerrata; p216printedCH versus proposedDH preserved separately.109patterns54relationtriples24validforms232countermodels; noNotebook claimed."
   },
-  "updated_at": "2026-10-10T20:09:30Z",
+  "updated_at": "2026-10-10T20:34:45Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled paper turn may select one unfinished source; preserve earlier Euler/Condorcet/Condillac and existing book/version gaps. Verify every external operation result and recover pending same-paper work before selection.",
+  "next_action": "Verify original1768 Euler LetterCII as earlier primary-source chapter; distinguish1761letter date from1768publication and1775later edition. No new article drafting until scope verified.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
