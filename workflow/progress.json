@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "selecting_source",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "gergonne-1817-dialectique-rationnelle",
+    "path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
+    "stage": "researching",
+    "scope": "Historical backfill: original189–228 published1January1817, excluding adjacent Questions proposées; formalerrata386 corrections included."
+  },
   "last_completed": {
     "id": "drach-1852-sylvester-remark",
     "path": "papers/1852/drach-sylvester-remark.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent original-source mathematics and exact-rational code review passed;18remote files exact-verified;134MathML formulas match source across six requested views, tables and links checked.",
     "scope": "Complete December1852 p479 short note; correct cancellation identity separated from unproved geometric mapping and universal proof-method claims.8tests include625rational combinations; no geometry simulation."
   },
-  "updated_at": "2026-10-10T04:38:00Z",
+  "updated_at": "2026-10-10T04:42:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Bounded search for an earlier uncompleted primary logic paper, including Boole1848 source verification; earlier accessible books remain open gaps. No paper drafting started.",
+  "next_action": "Read original40pages and three applicable errata; reconstruct categorical logic with independent source/mathematics/code review. Earlier Euler and Condorcet leads remain uncompleted.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
