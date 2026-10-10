@@ -1,0 +1,26 @@
+[
+  {
+    "command": [
+      "inkscape",
+      "output/divider-domains.svg",
+      "--export-type=png",
+      "--export-filename=evidence/independent-review/divider-domains.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:8): WARNING **: 17:52:57.395: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:8): WARNING **: 17:52:57.480: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+    "png_bytes": 190202
+  },
+  {
+    "command": [
+      "inkscape",
+      "output/equal-chords.svg",
+      "--export-type=png",
+      "--export-filename=evidence/independent-review/equal-chords.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:15): WARNING **: 17:52:57.629: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:15): WARNING **: 17:52:57.711: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n",
+    "png_bytes": 115720
+  }
+]

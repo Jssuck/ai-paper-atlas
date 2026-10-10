@@ -1,0 +1,48 @@
+$ python -m unittest -v
+test_factor_and_sign (test_sylvester.BisectorTests.test_factor_and_sign) ... ok
+test_factor_identity_exact_integer_grid (test_sylvester.BisectorTests.test_factor_identity_exact_integer_grid) ... ok
+test_invalid_sides (test_sylvester.BisectorTests.test_invalid_sides) ... ok
+test_n2_sine_geometry_matches_side_formula (test_sylvester.BisectorTests.test_n2_sine_geometry_matches_side_formula) ... ok
+test_unrepresentable_squares_raise_domain_error (test_sylvester.BisectorTests.test_unrepresentable_squares_raise_domain_error) ... ok
+test_circle_incidence_and_chord_identity (test_sylvester.ChordTests.test_circle_incidence_and_chord_identity) ... ok
+test_converse_domain (test_sylvester.ChordTests.test_converse_domain) ... ok
+test_converse_is_b_squared_not_zero (test_sylvester.ChordTests.test_converse_is_b_squared_not_zero) ... ok
+test_equal_remote_and_equal_near (test_sylvester.ChordTests.test_equal_remote_and_equal_near) ... ok
+test_extreme_but_representable_roots (test_sylvester.ChordTests.test_extreme_but_representable_roots) ... ok
+test_extreme_representable_converse (test_sylvester.ChordTests.test_extreme_representable_converse) ... ok
+test_fixed_circle_admissibility (test_sylvester.ChordTests.test_fixed_circle_admissibility) ... ok
+test_invalid_root_inputs (test_sylvester.ChordTests.test_invalid_root_inputs) ... ok
+test_positive_monotonic_factor_exact (test_sylvester.ChordTests.test_positive_monotonic_factor_exact) ... ok
+test_positive_root_and_negative_other_root (test_sylvester.ChordTests.test_positive_root_and_negative_other_root) ... ok
+test_exact_opposite_sign_example (test_sylvester.DividerTests.test_exact_opposite_sign_example) ... ok
+test_line_incidence_independently (test_sylvester.DividerTests.test_line_incidence_independently) ... ok
+test_n1_meets_at_vertex (test_sylvester.DividerTests.test_n1_meets_at_vertex) ... ok
+test_n2_is_internal (test_sylvester.DividerTests.test_n2_is_internal) ... ok
+test_n2_isosceles_equal (test_sylvester.DividerTests.test_n2_isosceles_equal) ... ok
+test_negative_half_equal_extensions (test_sylvester.DividerTests.test_negative_half_equal_extensions) ... ok
+test_negative_one_isosceles_is_parallel_despite_zero_residual (test_sylvester.DividerTests.test_negative_one_isosceles_is_parallel_despite_zero_residual) ... ok
+test_negative_one_nonisosceles_has_opposite_signs (test_sylvester.DividerTests.test_negative_one_nonisosceles_has_opposite_signs) ... ok
+test_opposite_sign_branch_is_not_original_signed_equation (test_sylvester.DividerTests.test_opposite_sign_branch_is_not_original_signed_equation) ... ok
+test_parallel_in_other_case (test_sylvester.DividerTests.test_parallel_in_other_case) ... ok
+test_positive_half_equal_extensions (test_sylvester.DividerTests.test_positive_half_equal_extensions) ... ok
+test_scaling (test_sylvester.DividerTests.test_scaling) ... ok
+test_sine_and_cross_equations_consistent (test_sylvester.DividerTests.test_sine_and_cross_equations_consistent) ... ok
+test_all_coefficients_vanish (test_sylvester.PolynomialCertificateTests.test_all_coefficients_vanish) ... ok
+test_bracket (test_sylvester.RootFinderTests.test_bracket) ... ok
+test_rejects_nan_inside_bracket (test_sylvester.RootFinderTests.test_rejects_nan_inside_bracket) ... ok
+test_corrected_second_numerator (test_sylvester.TangentAuditTests.test_corrected_second_numerator) ... ok
+test_half_cases_have_minus_one (test_sylvester.TangentAuditTests.test_half_cases_have_minus_one) ... ok
+test_half_sine_factorizations (test_sylvester.TangentAuditTests.test_half_sine_factorizations) ... ok
+test_isosceles_tangent_undefined (test_sylvester.TangentAuditTests.test_isosceles_tangent_undefined) ... ok
+test_tangent_pole (test_sylvester.TangentAuditTests.test_tangent_pole) ... ok
+test_invalid_angles_and_base (test_sylvester.TriangleDomainTests.test_invalid_angles_and_base) ... ok
+test_invalid_n (test_sylvester.TriangleDomainTests.test_invalid_n) ... ok
+test_negative_n_keeps_signed_alpha_beta (test_sylvester.TriangleDomainTests.test_negative_n_keeps_signed_alpha_beta) ... ok
+test_valid_triangle (test_sylvester.TriangleDomainTests.test_valid_triangle) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.114s
+
+OK
+
+exit_code=0

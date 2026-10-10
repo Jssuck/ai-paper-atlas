@@ -1,0 +1,15 @@
+{
+  ".gitignore": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+  "README.md": "b63fc8c9b5615146e3b136fc1699390e11dcb4668888bbcae89ff66951664a78",
+  "build_notebook.py": "284aef14079ac73efd4c6b4330604ba7074b4f84c7b057c06abe4e5a4e5c72d6",
+  "output/divider-domains.svg": "5f1de2a4884b9cce8fc31d9a5db569373d25969f8b94cc0574a93f4f54a2ac88",
+  "output/equal-chords.svg": "29a7999fd18e58c881a99053d4d3c17c90f691930f1d3811235c0878a6a9faad",
+  "output/results.json": "108ab2c68970975bb1bf35cfb37acc0a51c79f40b2f4278ee0048ea465d31bd6",
+  "polynomial_certificate.py": "63d10e1fbabeace23bb5832a23e5c5f4b57401940229b0f23e91937db71713bf",
+  "reproduce.py": "4a5c47b5021bd1f56b70b65a29daaa63b52767b6b0ef4c7b4c16b01dcacaaa58",
+  "run_checks.py": "1134ff22dc6cdbd25b8533964423a477218ecc964070932fe3bcfa1335489a3d",
+  "sylvester.py": "c95ace7aca85606ca7bc3689f26b5b2be53b7c0c64fc8434670e6cc7261cb42c",
+  "test_sylvester.py": "d2eadbad306d77016f5941a3b4dac337c9b10254b450939e5480fa3f979dce2f",
+  "tutorial.ipynb": "e213d656925ac8adb856d0d04b0a290fa89c000e622fa98c844f08ea8cf15339",
+  "validate_notebook.py": "05c4465c094376cf4d8da8500f1af7dfe691fc80a676cd6ed0a7e034f7641d7b"
+}

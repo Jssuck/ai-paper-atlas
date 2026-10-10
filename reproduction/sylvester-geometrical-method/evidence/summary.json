@@ -1,0 +1,50 @@
+{
+  "all_checks_passed": true,
+  "commands": [
+    {
+      "command": "python -m unittest -v",
+      "exit_code": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "command": "python polynomial_certificate.py",
+      "exit_code": 0,
+      "log": "polynomial-certificate.log"
+    },
+    {
+      "command": "python reproduce.py",
+      "exit_code": 0,
+      "log": "reproduction.log"
+    },
+    {
+      "command": "python validate_notebook.py --execute",
+      "exit_code": 0,
+      "log": "notebook-validation.log"
+    }
+  ],
+  "unit_tests": 40,
+  "exact_rational_triangle_substitutions": 4010,
+  "finite_grid_cases": 4760,
+  "notebook_cells": 27,
+  "notebook_code_cells_executed": 11,
+  "notebook_saved_error_outputs": 0,
+  "svg_checks": [
+    {
+      "file": "output/divider-domains.svg",
+      "valid_xml": true,
+      "title_and_description": true,
+      "external_href_count": 0
+    },
+    {
+      "file": "output/equal-chords.svg",
+      "valid_xml": true,
+      "title_and_description": true,
+      "external_href_count": 0
+    }
+  ],
+  "boundaries": [
+    "Finite checks do not establish universal theorems.",
+    "The polynomial coefficient identity and positivity argument are distinct from grid sampling.",
+    "No Jupyter execution or formal proof-assistant verification is claimed."
+  ]
+}

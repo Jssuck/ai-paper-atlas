@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "title": "早期逻辑与计算基础：有界候选与补读记录",
-  "checked_on": "2026-10-09",
+  "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "沿De Morgan1847及Peirce1880所引后续论文作有界历史回填；本轮只处理De Morgan第二篇，按1851分册刊年记录。",
-    "main_window": "De Morgan卷IX PartI(1851),79–127完整49页；PDF95–143；纳入7月1日替换段及7月3日Addition。",
-    "coverage": "全部14个既有候选对象和selection_history前缀逐项不变；本次新增一篇完成记录及紧凑事件，不递归复制历史。",
+    "selection_context": "沿已核实的De Morgan十二月1852回应回溯其明确指向的Sylvester十一月前驱；本轮只深读Sylvester366–369，后续回应仅作有界比较。",
+    "main_window": "Sylvester1852年11月原刊366–369全部四页，PDF380–383；同卷viii页勘误不适用。",
+    "coverage": "全部15个旧候选对象、11项selection_history前缀及所有旧缺口保持不变；只追加本篇与回应来源记录及紧凑事件，不递归复制历史快照。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -26,20 +26,23 @@
       "1849概率节署日、1850正文署日/宣读/两次修订、1851分册与1856合订卷分别记录；不猜具体发行日。",
       "p95下表右下式原印与p94规则冲突为本篇源图/数学核查，不冒称作者正式勘误。",
       "32/36/21分类具有解释和存在条件；有限枚举和22格CPython exec不等于一般定理证明或Jupyter内核验证。",
-      "罕见报告的后验依赖完整误报通道；忠实聚合不增添证据，多证人乘积仅在给定真相后条件独立时成立。"
+      "罕见报告的后验依赖完整误报通道；忠实聚合不增添证据，多证人乘积仅在给定真相后条件独立时成立。",
+      "不声称1852是第一篇AI论文、最早证明方法研究或已穷尽此前书籍与论文。",
+      "基本几何定理、带方向的推广及所有证明方法的猜想分开；有限实验不能证明普遍证明方法判据。",
+      "368页扫描字形与367页代数一致式的差异是本次原图/数学校核，不冒称作者正式勘误；负参数不能混同有向射线与无向整直线。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "de-morgan-1851",
-    "pages": "79–127",
-    "publication_scope": "完整1851原刊，包括114–116的1850-07-01替换段和126–127的1850-07-03Addition；不是后期删节本。",
-    "why_selected": "前篇与Peirce后引提供的后续论文线索；在当前已核实的具体论文列表内按年代继续，完整底本与分册刊年可核。不将可得未读书籍或待核Hamilton线索视作已关闭。",
-    "mathematical_boundary": "反名32式含项/反名非空；exemplar36式有限核验限恒等系词及非空项。一般关系合成与114–116强约束扩张分开；完整报告矩阵、多阶段Markov条件和多证人条件独立显式记录。",
-    "completion": "1851分册原刊79–127全部49页已读核图，含1850-07-01替换段114–116与1850-07-03 Addition126–127。原创中文深读、逐页账本、两份独立数学审计、标准库代码与实际执行Notebook已完成；远程提交与页面QA由发布步骤另核。",
-    "article_path": "papers/1851/demorgan-symbols-logic.zh-CN.md",
-    "source_ledger_path": "papers/1851/demorgan-symbols-logic.sources.zh-CN.md",
-    "reproduction_path": "reproduction/demorgan-symbols-logic/README.md"
+    "candidate_id": "sylvester-1852-geometrical-method",
+    "pages": "366–369",
+    "publication_scope": "第四辑4卷26号，November1852；作者署1852-10-04；不是十二月回应。",
+    "why_selected": "最初核到De Morgan十二月1852的具体论文，再由其437页前一期引文发现十一月Sylvester；按该有界来源链先读前驱。旧书籍、Hamilton文本及1847后期版本缺口继续保留。",
+    "mathematical_boundary": "内部角平分线定理成立；扩展参数明确有向交点、正向射线、零分母及退化条件；关于任何证明都必须归谬是未形式化的猜想，不是已证定理。",
+    "completion": "原刊全四页读核，原创中文深读、逐页来源账本、数学审计及标准库复现包完成；远端提交与页面QA由发布步骤另核。",
+    "article_path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
+    "source_ledger_path": "papers/1852/sylvester-geometrical-method.sources.zh-CN.md",
+    "reproduction_path": "reproduction/sylvester-geometrical-method/README.md"
   },
   "earlier_gap_priority": [
     {
@@ -818,12 +821,123 @@
         "limits": "未从头重证其依赖的Kleene 1934、1935整数理论。定理A的I–V明确采用1934修订；Curry目标是五篇工作的合并体系，不是1930或1931单篇。"
       },
       "selection_disposition": "后见历史证据；不能把原逻辑不一致与纯λ项转换的等式理论混同。"
+    },
+    {
+      "id": "sylvester-1852-geometrical-method",
+      "authors": [
+        "J. J. Sylvester"
+      ],
+      "title": "LVIII. On a simple Geometrical Problem illustrating a conjectured Principle in the Theory of Geometrical Method",
+      "publication": {
+        "year": 1852,
+        "month": 11,
+        "journal": "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science",
+        "series": "Fourth Series",
+        "volume": "4",
+        "issue": "26",
+        "pages": "366–369",
+        "author_dateline": "1852-10-04",
+        "read_date": "未见印出，未核定",
+        "exact_publication_day": "未核定",
+        "doi": "10.1080/14786445208647142",
+        "metadata_caution": "DOI元数据simpel误拼，原刊simple。"
+      },
+      "sources": [
+        {
+          "kind": "original_complete_scan",
+          "url": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf#page=380",
+          "coverage": "原刊366–369=PDF380–383，四页全文、图和脚注。",
+          "sha256": "8d09201f20cc2f06903df54d72e1d913c8148e07aa832854636ff56ebc670c8b"
+        },
+        {
+          "kind": "volume_errata",
+          "url": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf#page=14",
+          "coverage": "印刷viii页仅改359页7行；不适用于本文。"
+        },
+        {
+          "kind": "doi_record",
+          "url": "https://doi.org/10.1080/14786445208647142"
+        }
+      ],
+      "status": {
+        "retrieval": "完整原刊和分册/卷首/勘误范围已取得核图。",
+        "reading": "366–369全四页读核；原创中文深读、逐页账本、数学审计和可运行代码/Notebook完成；远端发布及页面QA另核。",
+        "limits": "原刊单一扫描底本；未穷尽重印/手稿或后续更正；小参数根数问题未完整解决，证明方法猜想未被形式化或证明。"
+      },
+      "selection_disposition": "本轮唯一深读论文；新发现十一月前驱先于已核十二月回应。",
+      "outputs": {
+        "article": "papers/1852/sylvester-geometrical-method.zh-CN.md",
+        "sources": "papers/1852/sylvester-geometrical-method.sources.zh-CN.md",
+        "mathematical_audit": "papers/1852/sylvester-geometrical-method.audit.zh-CN.md",
+        "reproduction": "reproduction/sylvester-geometrical-method/README.md"
+      }
+    },
+    {
+      "id": "demorgan-1852-indirect-demonstration",
+      "authors": [
+        "Augustus De Morgan"
+      ],
+      "title": "LXIX. On Indirect Demonstration",
+      "publication": {
+        "year": 1852,
+        "month": 12,
+        "journal": "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science",
+        "series": "Fourth Series",
+        "volume": "4",
+        "issue": "27",
+        "pages": "435–438",
+        "author_dateline": "1852-11-01",
+        "exact_publication_day": "未核定",
+        "doi": "10.1080/14786445208647158"
+      },
+      "sources": [
+        {
+          "kind": "original_complete_scan",
+          "url": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf#page=449",
+          "coverage": "435–438=PDF449–452；438页仅开头属于本文。"
+        }
+      ],
+      "status": {
+        "retrieval": "完整原刊已取得核页界。",
+        "reading": "为Sylvester方法论猜想作有界回应比较，已读相关四页；没有独立深读、复现与发布验收，不标完成。",
+        "limits": "形式/材料与四类证明的完整独立研究仍待后续任务。"
+      },
+      "selection_disposition": "已核十二月回应，但发现其十一月前驱后先读前驱；未并行启动第二篇。"
+    },
+    {
+      "id": "drach-1852-sylvester-remark",
+      "authors": [
+        "S. M. Drach"
+      ],
+      "title": "Remark on Art. LVIII. (of Phil. Mag. for November) by Mr. Sylvester",
+      "publication": {
+        "year": 1852,
+        "month": 12,
+        "journal": "The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science",
+        "series": "Fourth Series",
+        "volume": "4",
+        "pages": "479",
+        "author_dateline": "1852-11-22"
+      },
+      "sources": [
+        {
+          "kind": "original_page",
+          "url": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf#page=493",
+          "coverage": "479页仅Drach短评，不含同页气象观察。"
+        }
+      ],
+      "status": {
+        "retrieval": "原刊一页取得核图。",
+        "reading": "仅作同时代回应上下文，未另立完整深读任务。",
+        "limits": "并非Sylvester正式勘误或猜想证明。"
+      },
+      "selection_disposition": "保留回应线索，不计第二篇完成。"
     }
   ],
   "next_source_gap": {
-    "subject": "继续有界历史回填及独立版本对勘",
-    "completed_candidate_id": "de-morgan-1851",
-    "target": "核当前登记列表中的下一篇完整具体论文；所有既有书籍/Hamilton/1847后期修订/Curry/Church等缺口保留。本轮来源引文不代表已读前驱全文。"
+    "subject": "有界核下一篇及既有版本缺口",
+    "completed_candidate_id": "sylvester-1852-geometrical-method",
+    "target": "De Morgan December1852 On Indirect Demonstration已取得435–438完整原刊，但本轮仅作回应比较，独立深读尚未完成；Drach短评和1853逻辑措辞线索继续保留。所有旧书籍/Hamilton/1847修订/Curry/Church等缺口不关闭。"
   },
   "selection_history": [
     {
@@ -1630,6 +1744,22 @@
         "反名32式、exemplar恒等36式及共有21式以独立有限模型复核，存在与量词依存条件显式。",
         "报告矩阵、偏误、两阶段误报及条件独立多证人模型有可执行复现和复制证人反例；更早书籍及旧缺口不关闭。"
       ]
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "sylvester-1852-geometrical-method",
+      "event": "completed_original_four_page_deep_reading",
+      "pages": "366–369",
+      "previous_candidate_id": "de-morgan-1851",
+      "selection_order": "先核De Morgan December1852，再从437页引文发现Sylvester November1852；本轮先读前驱。",
+      "note": "全文四页及图、脚注核读，源图字形、数学域、原创代码与Notebook分层；远程提交和页面QA另核。",
+      "article": "papers/1852/sylvester-geometrical-method.zh-CN.md",
+      "new_source_findings": [
+        "368页特殊式可辨字形与367页通式和90°例子冲突，明确保留原式/校核式层级，非正式历史勘误。",
+        "369页逆向圆弦式为a(a+x)=b²，OCR的=0不可靠。",
+        "负参数推广需区分正向射线与任意整直线绝对长度；所有证明方法的结论是猜想。",
+        "十二月De Morgan435–438与Drach479作为独立回应保留未完成状态；全部旧候选、历史和版本缺口保留。"
+      ]
     }
   ],
   "earlier_background_gaps": [
@@ -1730,6 +1860,12 @@
       "evidence": "原刊79、85、88–90、96、99、119、126–127页引文；本篇逐页账本。",
       "reading_status": "Solly Syllabus of Logic1839 p47、De Morgan First Notions of Logic1839、Formal Logic1847、Thomson Outline第2版1849、Hamilton/Reid及Mansel等只登记明确引文，未据此完成原著全文。Laplace第3版446–451仅按本篇引文/公式范围讨论，不冒称本轮独立读完其全书。1847篇后期批注及印刷修订校勘继续开放。",
       "source": "https://archive.org/download/transactionsofca09camb/transactionsofca09camb.pdf"
+    },
+    {
+      "subject": "Sylvester1852推广与后续回应",
+      "evidence": "本卷366–369、435–438、479；De Morgan437页明确回应前一期。",
+      "reading_status": "Sylvester原刊本轮完成；正负小参数根数分类未全部解决；De Morgan与Drach仅有限回应比较，未另篇完成；重印/手稿/后期更正未穷尽。",
+      "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf"
     }
   ]
 }

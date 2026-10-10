@@ -1,0 +1,18 @@
+{
+  "runtime_reported_utc": "2026-10-10T00:54:18.914454+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "operating_system": "Linux",
+  "architecture": "x86_64",
+  "required_dependencies": "Python standard library only",
+  "network_access_required": false,
+  "packages_installed_for_this_reproduction": [],
+  "notebook_execution": "Plain sequential CPython exec; not Jupyter",
+  "notebook_validation": "Basic custom nbformat-4 structure/AST checks; not full official schema",
+  "optional_notebook_modules_present": {
+    "jupyter": false,
+    "nbformat": false,
+    "nbclient": false
+  },
+  "redaction": "Allowlist only: no environment variables, username, hostname, absolute paths, credentials or external data."
+}

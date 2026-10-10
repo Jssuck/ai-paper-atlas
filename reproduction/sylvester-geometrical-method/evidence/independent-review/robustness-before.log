@@ -1,0 +1,39 @@
+{
+  "implementation_sha256": "d2bdbdb83858d06348a6dbd9cba405e96bce30ed299e150a346e77af4b4e6ca2",
+  "results": [
+    {
+      "case": "near_segment(1e200,1)",
+      "exception": "DomainError",
+      "message": "positive root cannot be represented at this floating-point scale"
+    },
+    {
+      "case": "near_segment(1e308,1)",
+      "exception": "DomainError",
+      "message": "positive root cannot be represented at this floating-point scale"
+    },
+    {
+      "case": "bisector_squares(1e200,1e200,1e200)",
+      "exception": "OverflowError",
+      "message": "(34, 'Numerical result out of range')"
+    },
+    {
+      "case": "bisector_squares(1e-200,1e-200,1e-200)",
+      "exception": "ZeroDivisionError",
+      "message": "float division by zero"
+    },
+    {
+      "case": "factored_bisector_difference(1e200,1e200,1e200)",
+      "exception": "OverflowError",
+      "message": "(34, 'Numerical result out of range')"
+    },
+    {
+      "case": "factored_bisector_difference(1e-200,1e-200,1e-200)",
+      "exception": "ZeroDivisionError",
+      "message": "float division by zero"
+    },
+    {
+      "case": "bisect_root(f,0,1), f(0)=-1,f(1)=1,NaN inside",
+      "return": "1.0"
+    }
+  ]
+}

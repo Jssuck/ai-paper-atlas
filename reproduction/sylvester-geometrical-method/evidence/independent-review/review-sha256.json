@@ -1,0 +1,17 @@
+{
+  "independent-review.zh-CN.md": "53aff3ff2ba5dfe907f99044011ee1ad21212a2069edd4c6e6f00d321b80927a",
+  "evidence/independent-review/divider-domains.png": "7a420b0fdc00f8a004d1c381c258464654b714cc7858929903c9994a8b52836c",
+  "evidence/independent-review/equal-chords.png": "c2352a6d3d07e32f33dbe53aab7371301fbebc6fd18862d20fcb0fa65b74e719",
+  "evidence/independent-review/inverse-robustness-before.log": "2f34a6ef76c5c0737019afb8fa4cee8a26ca9fdd754f9d412a123672c7859001",
+  "evidence/independent-review/notebook.log": "53dd073eb6649c2068573513906a4ab215703fb15541f4fc3d4f3a61dc9c0fc9",
+  "evidence/independent-review/oracles.log": "3327972b30e7f7461ec2a2ea6b213b1a0b5a4136234fb8b07a6c8797568f1222",
+  "evidence/independent-review/regressions.log": "fb7cd4ef0e4a434060c5a42789a7fbaa3b901c7ec79cec3ac2f1a01e2b37a1b8",
+  "evidence/independent-review/render.log": "03d58b4e8cd82d747c2a7d85b12eacbffe59a8911e02e6f98e02fc9e890abca5",
+  "evidence/independent-review/review_oracles.py": "d9b98a7291c2bab8fac6f36e9578bfb3c5fb6afd37698c23dab0a7cf8fc09732",
+  "evidence/independent-review/robustness-after.log": "c743157ba717b727d4eae4dd61ef465206bf805948ecc5a0c67dfb7eae4627f1",
+  "evidence/independent-review/robustness-before.log": "2a40cc17ecc31131ef821b99a614238a2166ded416e43fbe65b54fd0a57af8bb",
+  "evidence/independent-review/robustness_probes.py": "91a992adadaf2aeb15d53755902cca58f2d3169927474f599c559c88806a4466",
+  "evidence/independent-review/unit-tests.log": "23cd75a38cf1d27f834807ec35219403b1926c815996d0def501fee4f3043adf",
+  "evidence/independent-review/verify_notebook_independently.py": "6389e8621034c2c8d992c57acb22352c0be036e670fce7f408429430729c0ddd",
+  "evidence/independent-review/verify_regressions.py": "71ecf7ec0e359f9dbec90fe2fdef8ac8bc49f0a3fb730c2d3d6d12113f9ba504"
+}

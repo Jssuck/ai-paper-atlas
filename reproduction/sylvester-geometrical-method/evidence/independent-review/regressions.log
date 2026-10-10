@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "targeted_representable_root_cases": 3,
+  "expected_DomainError_cases": 3,
+  "inverse_actual": 1.000011132941258e+300,
+  "inverse_decimal_reference": 1.000011132941258e+300,
+  "implementation_manifest_files_matching": 13,
+  "scope": "Specific regression cases only; not exhaustive floating-point correctness."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "seed": 1852,
+  "coordinate_divider_cases": 1200,
+  "oracle_near_parallel_excluded": 0,
+  "max_scaled_coordinate_error": 7.123849085788386e-13,
+  "coordinate_bisector_cases": 500,
+  "polynomial_certificate": {
+    "method": "dense univariate coefficients with injective base-7 exponent encoding; total degree 6",
+    "left_nonzero_terms": 14,
+    "residual_nonzero_terms": 0
+  },
+  "circle_intersection_cases": 119,
+  "decimal_root_cases": 4,
+  "special_case_corrected_ratios": [
+    {
+      "A": 30,
+      "B": 60,
+      "n": 0.5,
+      "ratios": [
+        -1.0,
+        -1.0000000000000004
+      ]
+    },
+    {
+      "A": 15,
+      "B": 105,
+      "n": -0.5,
+      "ratios": [
+        -0.9999999999999991,
+        -1.0
+      ]
+    }
+  ],
+  "signed_opposite_branch_B_degrees": 22.735086799602197,
+  "exact_opposite_branch": {
+    "A": 96.0,
+    "B": 24.0,
+    "t_A": -1.0,
+    "t_B": 1.0
+  },
+  "svg_checks": [
+    {
+      "file": "output/divider-domains.svg",
+      "xml_parsed": true,
+      "embedded_or_external_images": false
+    },
+    {
+      "file": "output/equal-chords.svg",
+      "xml_parsed": true,
+      "embedded_or_external_images": false
+    }
+  ],
+  "scope": "Finite geometry checks plus an exact polynomial identity; no proof of a universal proof-method criterion."
+}

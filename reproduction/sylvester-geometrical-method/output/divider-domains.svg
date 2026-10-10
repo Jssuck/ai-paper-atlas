@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950" role="img">
+<title>Signed dividers, rays and internal cevians</title><desc>Four original coordinate constructions. Blue is AD; orange is BE. D and E may lie on extended sides. A negative t parameter is not on the selected ray.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#152f43} .title{font-size:22px;font-weight:700}.label{font-size:17px}.small{font-size:15px}.note{font-size:14px}</style>
+<rect width="1200" height="950" fill="#f7fafc"/>
+<text x="28.00" y="34.00" class="title" >Same-length statements need a geometric domain</text>
+<text x="28.00" y="60.00" class="small" >Blue: AD   Orange: BE   Gray dashed: side extensions   Dashed blue: negative line parameter</text>
+<rect x="12" y="80" width="576" height="408" rx="12" fill="white" stroke="#d7e1e8"/>
+<text x="28.00" y="110.00" class="label" >n = 2: ordinary internal bisectors</text>
+<text x="28.00" y="135.00" class="small" >A = 50 deg, B = 70 deg, AB = 1</text>
+<line x1="155.632" y1="405.000" x2="444.368" y2="405.000" stroke="#596775" stroke-width="2.5"/>
+<line x1="155.632" y1="405.000" x2="357.016" y2="165.000" stroke="#596775" stroke-width="2"/>
+<line x1="444.368" y1="405.000" x2="357.016" y2="165.000" stroke="#596775" stroke-width="2"/>
+<line x1="357.016" y1="165.000" x2="402.474" y2="289.896" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="357.016" y1="165.000" x2="262.492" y2="277.649" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="155.632" y1="405.000" x2="402.474" y2="289.896" stroke="#146b9c" stroke-width="3"/>
+<line x1="444.368" y1="405.000" x2="262.492" y2="277.649" stroke="#c76324" stroke-width="3"/>
+<circle cx="155.632" cy="405.000" r="3.5" fill="#152f43"/>
+<text x="133.63" y="423.00" class="label" >A</text>
+<circle cx="444.368" cy="405.000" r="3.5" fill="#152f43"/>
+<text x="451.37" y="425.00" class="label" >B</text>
+<circle cx="357.016" cy="165.000" r="3.5" fill="#152f43"/>
+<text x="349.02" y="152.00" class="label" >C</text>
+<circle cx="402.474" cy="289.896" r="3.5" fill="#152f43"/>
+<text x="382.47" y="279.90" class="label" >D</text>
+<circle cx="262.492" cy="277.649" r="3.5" fill="#152f43"/>
+<text x="271.49" y="269.65" class="label" >E</text>
+<text x="28.00" y="445.00" class="small" >signed tA = 0.9432820939; tB = 0.7689706084</text>
+<text x="28.00" y="470.00" class="small" >Internal cevians: yes; both rays: yes</text>
+<rect x="612" y="80" width="576" height="408" rx="12" fill="white" stroke="#d7e1e8"/>
+<text x="628.00" y="110.00" class="label" >n = 1/2: non-isosceles, both rays forward</text>
+<text x="628.00" y="135.00" class="small" >A = 30 deg, B = 60 deg, AB = 1</text>
+<line x1="692.154" y1="405.000" x2="969.282" y2="405.000" stroke="#596775" stroke-width="2.5"/>
+<line x1="692.154" y1="405.000" x2="900.000" y2="285.000" stroke="#596775" stroke-width="2"/>
+<line x1="969.282" y1="405.000" x2="900.000" y2="285.000" stroke="#596775" stroke-width="2"/>
+<line x1="900.000" y1="285.000" x2="830.718" y2="165.000" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="900.000" y1="285.000" x2="1107.846" y2="165.000" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="692.154" y1="405.000" x2="830.718" y2="165.000" stroke="#146b9c" stroke-width="3"/>
+<line x1="969.282" y1="405.000" x2="1107.846" y2="165.000" stroke="#c76324" stroke-width="3"/>
+<circle cx="692.154" cy="405.000" r="3.5" fill="#152f43"/>
+<text x="670.15" y="423.00" class="label" >A</text>
+<circle cx="969.282" cy="405.000" r="3.5" fill="#152f43"/>
+<text x="976.28" y="425.00" class="label" >B</text>
+<circle cx="900.000" cy="285.000" r="3.5" fill="#152f43"/>
+<text x="892.00" y="272.00" class="label" >C</text>
+<circle cx="830.718" cy="165.000" r="3.5" fill="#152f43"/>
+<text x="810.72" y="155.00" class="label" >D</text>
+<circle cx="1107.846" cy="165.000" r="3.5" fill="#152f43"/>
+<text x="1116.85" y="157.00" class="label" >E</text>
+<text x="628.00" y="445.00" class="small" >signed tA = 1.0000000000; tB = 1.0000000000</text>
+<text x="628.00" y="470.00" class="small" >Internal cevians: no; both rays: yes</text>
+<rect x="12" y="505" width="576" height="408" rx="12" fill="white" stroke="#d7e1e8"/>
+<text x="28.00" y="535.00" class="label" >n = -1/2: non-isosceles, both rays forward</text>
+<text x="28.00" y="560.00" class="small" >A = 15 deg, B = 105 deg, AB = 1</text>
+<line x1="76.077" y1="710.000" x2="316.077" y2="710.000" stroke="#596775" stroke-width="2.5"/>
+<line x1="76.077" y1="710.000" x2="334.641" y2="640.718" stroke="#596775" stroke-width="2"/>
+<line x1="316.077" y1="710.000" x2="334.641" y2="640.718" stroke="#596775" stroke-width="2"/>
+<line x1="334.641" y1="640.718" x2="283.923" y2="830.000" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="334.641" y1="640.718" x2="523.923" y2="590.000" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="76.077" y1="710.000" x2="283.923" y2="830.000" stroke="#146b9c" stroke-width="3"/>
+<line x1="316.077" y1="710.000" x2="523.923" y2="590.000" stroke="#c76324" stroke-width="3"/>
+<circle cx="76.077" cy="710.000" r="3.5" fill="#152f43"/>
+<text x="54.08" y="728.00" class="label" >A</text>
+<circle cx="316.077" cy="710.000" r="3.5" fill="#152f43"/>
+<text x="323.08" y="730.00" class="label" >B</text>
+<circle cx="334.641" cy="640.718" r="3.5" fill="#152f43"/>
+<text x="326.64" y="627.72" class="label" >C</text>
+<circle cx="283.923" cy="830.000" r="3.5" fill="#152f43"/>
+<text x="263.92" y="820.00" class="label" >D</text>
+<circle cx="523.923" cy="590.000" r="3.5" fill="#152f43"/>
+<text x="532.92" y="582.00" class="label" >E</text>
+<text x="28.00" y="870.00" class="small" >signed tA = 1.0000000000; tB = 1.0000000000</text>
+<text x="28.00" y="895.00" class="small" >Internal cevians: no; both rays: yes</text>
+<rect x="612" y="505" width="576" height="408" rx="12" fill="white" stroke="#d7e1e8"/>
+<text x="628.00" y="535.00" class="label" >n = -2: equal absolute lengths only</text>
+<text x="628.00" y="560.00" class="small" >A = 96 deg, B = 24 deg, AB = 1</text>
+<line x1="863.153" y1="755.517" x2="1085.879" y2="755.517" stroke="#596775" stroke-width="2.5"/>
+<line x1="863.153" y1="755.517" x2="852.219" y2="651.485" stroke="#596775" stroke-width="2"/>
+<line x1="1085.879" y1="755.517" x2="852.219" y2="651.485" stroke="#596775" stroke-width="2"/>
+<line x1="852.219" y1="651.485" x2="714.121" y2="590.000" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="852.219" y1="651.485" x2="868.021" y2="801.824" stroke="#596775" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="863.153" y1="755.517" x2="714.121" y2="590.000" stroke="#146b9c" stroke-width="3" stroke-dasharray="7 5"/>
+<line x1="1085.879" y1="755.517" x2="868.021" y2="801.824" stroke="#c76324" stroke-width="3"/>
+<line x1="863.153" y1="755.517" x2="930.218" y2="830.000" stroke="#146b9c" stroke-width="1.5"/>
+<text x="915.22" y="850.00" class="note" >chosen A-ray</text>
+<circle cx="863.153" cy="755.517" r="3.5" fill="#152f43"/>
+<text x="873.15" y="758.52" class="label" >A</text>
+<circle cx="1085.879" cy="755.517" r="3.5" fill="#152f43"/>
+<text x="1092.88" y="775.52" class="label" >B</text>
+<circle cx="852.219" cy="651.485" r="3.5" fill="#152f43"/>
+<text x="862.22" y="647.49" class="label" >C</text>
+<circle cx="714.121" cy="590.000" r="3.5" fill="#152f43"/>
+<text x="694.12" y="580.00" class="label" >D</text>
+<circle cx="868.021" cy="801.824" r="3.5" fill="#152f43"/>
+<text x="845.02" y="819.82" class="label" >E</text>
+<text x="628.00" y="870.00" class="small" >signed tA = -1.0000000000; tB = 1.0000000000</text>
+<text x="628.00" y="895.00" class="small" >Internal cevians: no; both rays: no</text>
+<text x="28.00" y="946.00" class="note" >Coordinate-generated original diagrams. Last panel: exact angles A=96 deg, B=24 deg give tA=-1 and tB=1.</text>
+</svg>

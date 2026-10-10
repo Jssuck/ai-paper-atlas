@@ -1,0 +1,8 @@
+$ python validate_notebook.py --execute
+Basic notebook structure and AST: 27 cells, 11 code cells; PASS
+Local figure links: PASS
+Ordinary CPython sequential execution: 11/11 code cells; PASS
+No Jupyter kernel was launched. No official nbformat schema validator was used.
+Saved error outputs: 0
+
+exit_code=0

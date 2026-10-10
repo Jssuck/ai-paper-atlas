@@ -1,0 +1,10 @@
+$ python polynomial_certificate.py
+{
+  "left_nonzero_terms": 14,
+  "right_nonzero_terms": 14,
+  "residual_nonzero_terms": 0,
+  "identity_verified": true,
+  "arithmetic": "exact Python integers; coefficient comparison"
+}
+
+exit_code=0

@@ -12,6 +12,7 @@
 | --- | --- | --- | --- |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
+| 1852（十一月） | [Sylvester《几何方法的猜想原则》精读](papers/1852/sylvester-geometrical-method.zh-CN.md) | AI前史回填：几何可行域、代数根与直接/间接证明 | 深读v1 · 完整四页及独立审计 |
 | 1880 | [Peirce《逻辑代数》精读](papers/1880/peirce-algebra-of-logic.zh-CN.md) | AI前史回填：类消元、关系四运算与有条件展开 | 深读v1 · 完整已刊部分及自注 |
 | 1904 | [Huntington《逻辑代数独立公设》精读](papers/1904/huntington-independent-postulates.zh-CN.md) | AI前史回填：三组公设、反模型与有限分类 | 深读v1 · 含实跑附件与正式勘误 |
 | 1913 | [Sheffer《布尔代数五公设》精读](papers/1913/sheffer-five-postulates.zh-CN.md) | AI 前史回填：独立性、NOR与逻辑原语 | 深读 v1 · 含实跑附件 |
@@ -113,6 +114,15 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 
 原刊79–127全部49页已读核图，包含1850年7月1日替换段114–116与7月3日Addition126–127；1851分册、1850宣读和1856合订卷年分开。21项主测试、22个Notebook代码单元实跑，Notebook使用CPython顺序执行器，非Jupyter内核或页面渲染验证。反名32式、exemplar恒等36式与共有21式按明确存在/选择条件核验；95页原印疑误保留原式及反模型。证言模型显式区分报告方向、误报机制、两阶段结构与条件独立，复制证人不重复计证据。有限检查不替代一般证明；更早书籍、Hamilton文本及1847后期批注/修订等全部旧缺口继续保留。
 
+## Sylvester1852可运行附件
+
+- [有向分角线、圆弦与证明方法边界](reproduction/sylvester-geometrical-method/README.md)
+- [中文教学Notebook](reproduction/sylvester-geometrical-method/tutorial.ipynb)
+- [逐页来源与字形账本](papers/1852/sylvester-geometrical-method.sources.zh-CN.md) · [独立数学审计](papers/1852/sylvester-geometrical-method.audit.zh-CN.md)
+- [运行与独立代码复核](reproduction/sylvester-geometrical-method/independent-review.zh-CN.md)
+
+原刊366–369全四页、图与脚注已读核；同卷viii页勘误只针对359页。十一月刊期与10月4日署日分开。368页半参数式的可辨字形与通式/90°例子冲突，保留原式与教学修复；369页逆向式为a(a+x)=b²。代码严格区分有向射线与任意整直线绝对长度；40项主测试、4,010个精确分数代入、4,760个有限网格样本实跑，另有一般多项式系数证书。11个Notebook代码格按标准库顺序执行，非Jupyter内核验证；日志与独立复核见附件。几何定理与关于所有证明方法的猜想分开，有限实验不证明后者。先读新发现十一月前驱，十二月De Morgan与Drach仅作回应上下文；全部旧候选、书籍及版本缺口保留。
+
 ## 每篇解析的共同标准
 
 - 原始书目信息、版本和全文来源
@@ -126,6 +136,7 @@ Notebook 的 7 个代码单元使用标准库执行器运行；不声称执行�
 ## 公开内容与核验边界
 
 这里发布 AI 辅助撰写的原创中文解析、书目与原文链接，不镜像论文全文或 PDF。每篇注明实际阅读与核验范围；示意推导不冒充原文公式，概念练习不冒充已运行实验。发现错误后保留更正记录。原论文版权归各权利人所有。
+
 
 
 

@@ -1,0 +1,279 @@
+{
+  "scope": "Modern original reconstruction of selected equations in Sylvester 1852, pp. 367–369; not a reproduction of every historical geometric proof.",
+  "limitations": [
+    "Finite sweeps are observations, not proofs of universal claims.",
+    "No result decides the universal claim that indirect proof is necessary.",
+    "Supporting-line parameters, forward rays, and internal cevians are reported separately.",
+    "Page 368 corrected special-case equations are reconstructions, not diplomatic transcriptions."
+  ],
+  "examples": [
+    {
+      "triangle": {
+        "A_deg": 50.0,
+        "B_deg": 70.0,
+        "base": 1.0
+      },
+      "n": 2.0,
+      "theta": 0.4363323129985824,
+      "phi": 0.6108652381980153,
+      "t_A": 0.9432820939379928,
+      "t_B": 0.7689706084426765,
+      "D": [
+        0.8549039071082396,
+        0.39864823887120165
+      ],
+      "E": [
+        0.3700961540960317,
+        0.44106342124924597
+      ],
+      "bc_fraction": 0.4796016830980579,
+      "ac_fraction": 0.5306301108543724,
+      "ordinary_lengths": [
+        0.9432820939379928,
+        0.7689706084426765
+      ],
+      "both_forward_rays": true,
+      "both_internal_cevians": true,
+      "sine_residual": 0.24031156571554568
+    },
+    {
+      "triangle": {
+        "A_deg": 30.0,
+        "B_deg": 60.0,
+        "base": 1.0
+      },
+      "n": 0.5,
+      "theta": 1.0471975511965976,
+      "phi": 2.0943951023931953,
+      "t_A": 0.9999999999999999,
+      "t_B": 0.9999999999999992,
+      "D": [
+        0.5,
+        0.8660254037844385
+      ],
+      "E": [
+        1.4999999999999993,
+        0.866025403784438
+      ],
+      "bc_fraction": 2.0,
+      "ac_fraction": 1.9999999999999991,
+      "ordinary_lengths": [
+        0.9999999999999999,
+        0.9999999999999992
+      ],
+      "both_forward_rays": true,
+      "both_internal_cevians": false,
+      "sine_residual": 6.661338147750939e-16
+    },
+    {
+      "triangle": {
+        "A_deg": 15.0,
+        "B_deg": 105.0,
+        "base": 1.0
+      },
+      "n": -0.5,
+      "theta": -0.5235987755982988,
+      "phi": -3.6651914291880923,
+      "t_A": 1.0,
+      "t_B": 0.9999999999999998,
+      "D": [
+        0.8660254037844387,
+        -0.49999999999999994
+      ],
+      "E": [
+        1.8660254037844384,
+        0.5
+      ],
+      "bc_fraction": -1.7320508075688765,
+      "ac_fraction": 1.7320508075688772,
+      "ordinary_lengths": [
+        1.0,
+        0.9999999999999998
+      ],
+      "both_forward_rays": true,
+      "both_internal_cevians": false,
+      "sine_residual": 2.220446049250313e-16
+    },
+    {
+      "triangle": {
+        "A_deg": 96.0,
+        "B_deg": 24.0,
+        "base": 1.0
+      },
+      "n": -2.0,
+      "theta": -0.8377580409572782,
+      "phi": -0.20943951023931956,
+      "t_A": -1.0,
+      "t_B": 1.0,
+      "D": [
+        -0.6691306063588582,
+        0.7431448254773942
+      ],
+      "E": [
+        0.02185239926619431,
+        -0.20791169081775934
+      ],
+      "bc_fraction": 1.5910229377854124,
+      "ac_fraction": -0.4451249040350966,
+      "ordinary_lengths": [
+        1.0,
+        1.0
+      ],
+      "both_forward_rays": false,
+      "both_internal_cevians": false,
+      "sine_residual": 2.0
+    }
+  ],
+  "supplementary_numerical_root": {
+    "triangle": {
+      "A_deg": 90.0,
+      "B_deg": 22.735086799602197,
+      "base": 1.0
+    },
+    "n": -2.0,
+    "theta": -0.7853981633974483,
+    "phi": -0.1984010601898793,
+    "t_A": -1.0200095423028666,
+    "t_B": 1.0200095423028666,
+    "D": [
+      -0.7212556642373436,
+      0.7212556642373434
+    ],
+    "E": [
+      0.0,
+      -0.20104593104289192
+    ],
+    "bc_fraction": 1.7212556642373436,
+    "ac_fraction": -0.4797902668055484,
+    "ordinary_lengths": [
+      1.0200095423028666,
+      1.0200095423028666
+    ],
+    "both_forward_rays": false,
+    "both_internal_cevians": false,
+    "sine_residual": 1.960765970369863
+  },
+  "half_case_tangent_ratios": [
+    [
+      -1.0,
+      -1.0000000000000004
+    ],
+    [
+      -0.9999999999999991,
+      -1.0
+    ]
+  ],
+  "polynomial_certificate": {
+    "left_nonzero_terms": 14,
+    "right_nonzero_terms": 14,
+    "residual_nonzero_terms": 0,
+    "identity_verified": true,
+    "arithmetic": "exact Python integers; coefficient comparison"
+  },
+  "exact_integer_triangle_substitutions": 4010,
+  "finite_sweeps": [
+    {
+      "n": -3,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 16,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    },
+    {
+      "n": -2,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 22,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    },
+    {
+      "n": -1,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 17,
+      "signed_equal_isosceles": 0,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    },
+    {
+      "n": -0.5,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 32,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 16,
+      "absolute_equal_nonisosceles": 16,
+      "tolerance": 1e-10
+    },
+    {
+      "n": 0.5,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 33,
+      "signed_equal_isosceles": 16,
+      "signed_equal_nonisosceles": 16,
+      "absolute_equal_nonisosceles": 16,
+      "tolerance": 1e-10
+    },
+    {
+      "n": 1,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 0,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    },
+    {
+      "n": 2,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 0,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    },
+    {
+      "n": 3,
+      "angle_step_degrees": 5,
+      "triangles_tested": 595,
+      "degenerate_intersections": 0,
+      "signed_equal_isosceles": 17,
+      "signed_equal_nonisosceles": 0,
+      "absolute_equal_nonisosceles": 0,
+      "tolerance": 1e-10
+    }
+  ],
+  "chord_example": {
+    "theta_deg": 30.0,
+    "P": [
+      0.0,
+      1.0
+    ],
+    "S": [
+      0.2886751345948128,
+      0.5
+    ],
+    "Q": [
+      0.8660254037844386,
+      -0.5000000000000002
+    ],
+    "near": 0.5773502691896257,
+    "remote": 1.1547005383792517,
+    "half_chord": 1.0
+  },
+  "root_example": {
+    "remote_a": 2,
+    "half_chord_b": 3,
+    "near_x": 2.1622776601683795
+  }
+}

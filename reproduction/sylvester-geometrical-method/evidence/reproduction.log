@@ -1,0 +1,7 @@
+$ python reproduce.py
+Wrote output/results.json and 2 original SVG diagrams.
+Exact polynomial coefficient residual: 0
+Grid cases: 4760
+Finite observations only; no universal proof-method claim is established.
+
+exit_code=0

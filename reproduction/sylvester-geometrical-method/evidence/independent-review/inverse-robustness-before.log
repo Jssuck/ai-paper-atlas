@@ -1,0 +1,7 @@
+{
+  "case": "remote_segment(1e-320,1e-10)",
+  "independent_decimal_expected": "1.0000111329412580686779298710746500479264467958783761284683775219534383732884461E+300",
+  "sylvester_sha256": "37bcf7b53a7dff62aef0b5624196b2287346f44eec2bc14a9a9edd315799cbd0",
+  "exception": "DomainError",
+  "message": "positive remote segment is outside floating-point representability"
+}

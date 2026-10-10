@@ -1,0 +1,40 @@
+{
+  "implementation_sha256": "c95ace7aca85606ca7bc3689f26b5b2be53b7c0c64fc8434670e6cc7261cb42c",
+  "results": [
+    {
+      "case": "remote_segment(1e-320,1e-10)",
+      "return": "1.000011132941258e+300"
+    },
+    {
+      "case": "near_segment(1e200,1)",
+      "return": "1e-200"
+    },
+    {
+      "case": "near_segment(1e308,1)",
+      "return": "1e-308"
+    },
+    {
+      "case": "bisector_squares(1e200,1e200,1e200)",
+      "exception": "DomainError",
+      "message": "squared bisector lengths are outside floating-point representability"
+    },
+    {
+      "case": "bisector_squares(1e-200,1e-200,1e-200)",
+      "exception": "DomainError",
+      "message": "squared bisector lengths are outside floating-point representability"
+    },
+    {
+      "case": "factored_bisector_difference(1e200,1e200,1e200)",
+      "return": "0.0"
+    },
+    {
+      "case": "factored_bisector_difference(1e-200,1e-200,1e-200)",
+      "return": "0.0"
+    },
+    {
+      "case": "bisect_root(f,0,1), f(0)=-1,f(1)=1,NaN inside",
+      "exception": "DomainError",
+      "message": "root finder encountered a non-finite interior value"
+    }
+  ]
+}

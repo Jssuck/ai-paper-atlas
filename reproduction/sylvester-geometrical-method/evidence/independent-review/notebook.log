@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "execution_engine": "CPython exec, shared cell namespace, fresh disposable copy",
+  "not_jupyter_kernel": true,
+  "not_official_nbformat_schema_validation": true,
+  "notebook_sha256": "e213d656925ac8adb856d0d04b0a290fa89c000e622fa98c844f08ea8cf15339",
+  "code_cells_executed": 11,
+  "code_cells": [
+    {
+      "cell": 3,
+      "execution_count": 1,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 5,
+      "execution_count": 2,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 7,
+      "execution_count": 3,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 10,
+      "execution_count": 4,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 12,
+      "execution_count": 5,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 15,
+      "execution_count": 6,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 17,
+      "execution_count": 7,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 20,
+      "execution_count": 8,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 22,
+      "execution_count": 9,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 24,
+      "execution_count": 10,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    },
+    {
+      "cell": 26,
+      "execution_count": 11,
+      "stdout_matches_saved": true,
+      "stderr_matches_saved": true
+    }
+  ]
+}
