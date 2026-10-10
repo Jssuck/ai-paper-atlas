@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-cii",
     "path": "papers/1768/euler-letter-cii.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Historical backfill: original1768volumeII LetterCII pp95–100, dated14February1761; complete letter chapter, not journal paper or whole syllogistic system."
-  },
-  "last_completed": {
-    "id": "gergonne-1817-dialectique-rationnelle",
-    "path": "papers/1817/gergonne-dialectique-rationnelle.zh-CN.md",
     "version": "v1",
-    "content_commit": "7dd130cd5906f94fb3d8f4d853f5f3fa459ba66f",
-    "checks": "Independent original-source mathematics and code review passed;30main and9independent tests;31remote files exact-verified;seven Markdown views,85article formulas,24tables and links independently browser-checked.",
-    "scope": "Historical backfill:1January1817 original40pages68paragraphs19footnotes and three formalerrata; p216printedCH versus proposedDH preserved separately.109patterns54relationtriples24validforms232countermodels; noNotebook claimed."
+    "content_commit": "aa0e2bb03c44f4262a6f6110e7672b04b8ed4ebb",
+    "checks": "Original-source mathematics and independent code review passed;16main tests;30remote text files exact-verified and PNG blob identity verified;seven Markdown views,32article formulas,eight tables and SVG/PNG pixels/links independently checked.",
+    "scope": "1768volumeII LetterCII pp95–100,dated14February1761;complete letter chapter and six original diagram blocks,not journal paper or full syllogistic system.340main models and1364independent models overlap; noNotebook claimed."
   },
-  "updated_at": "2026-10-10T20:49:40Z",
+  "updated_at": "2026-10-10T20:57:05Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify full remote text and image identity, GitHub math, tables, diagram and links before completion.",
+  "next_action": "Next scheduled paper turn may select one unfinished primary-source unit. CIII needs clear p110 before full reading; preserve all earlier source and book gaps.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
