@@ -1,0 +1,272 @@
+{
+  "classical_truth_table": [
+    {
+      "not_q_implies_not_p": true,
+      "p": false,
+      "p_implies_q": true,
+      "q": false,
+      "q_implies_p": true
+    },
+    {
+      "not_q_implies_not_p": true,
+      "p": false,
+      "p_implies_q": true,
+      "q": true,
+      "q_implies_p": false
+    },
+    {
+      "not_q_implies_not_p": false,
+      "p": true,
+      "p_implies_q": false,
+      "q": false,
+      "q_implies_p": true
+    },
+    {
+      "not_q_implies_not_p": true,
+      "p": true,
+      "p_implies_q": true,
+      "q": true,
+      "q_implies_p": true
+    }
+  ],
+  "converse_counterexample": {
+    "A": [
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "all_A_are_B": true,
+    "all_not_B_are_not_A": true,
+    "contrapositive_counterexamples": [],
+    "converse_all_B_are_A": false,
+    "domain": [
+      0,
+      1
+    ],
+    "positive_counterexamples": []
+  },
+  "finite_class_enumeration": {
+    "by_size": [
+      {
+        "both_false": 0,
+        "both_true": 1,
+        "class_pairs": 1,
+        "domain_size": 0,
+        "empty_A_cases": 1
+      },
+      {
+        "both_false": 1,
+        "both_true": 3,
+        "class_pairs": 4,
+        "domain_size": 1,
+        "empty_A_cases": 2
+      },
+      {
+        "both_false": 7,
+        "both_true": 9,
+        "class_pairs": 16,
+        "domain_size": 2,
+        "empty_A_cases": 4
+      },
+      {
+        "both_false": 37,
+        "both_true": 27,
+        "class_pairs": 64,
+        "domain_size": 3,
+        "empty_A_cases": 8
+      },
+      {
+        "both_false": 175,
+        "both_true": 81,
+        "class_pairs": 256,
+        "domain_size": 4,
+        "empty_A_cases": 16
+      },
+      {
+        "both_false": 781,
+        "both_true": 243,
+        "class_pairs": 1024,
+        "domain_size": 5,
+        "empty_A_cases": 32
+      },
+      {
+        "both_false": 3367,
+        "both_true": 729,
+        "class_pairs": 4096,
+        "domain_size": 6,
+        "empty_A_cases": 64
+      }
+    ],
+    "maximum_domain_size": 6,
+    "mismatches": 0,
+    "total_class_pairs": 5461
+  },
+  "schema_version": 1,
+  "scope": "Original modern teaching reconstruction; not historical software or proof search",
+  "small_frame_oracle": {
+    "atoms": [
+      "p",
+      "q"
+    ],
+    "bound": 3,
+    "by_size": [
+      {
+        "formula_world_comparisons": 100,
+        "forward_counterexamples": 0,
+        "frames": 1,
+        "models": 4,
+        "persistence_violations": 0,
+        "reverse_counterexamples": 0,
+        "world_evaluations": 4,
+        "worlds": 1
+      },
+      {
+        "formula_world_comparisons": 1900,
+        "forward_counterexamples": 0,
+        "frames": 4,
+        "models": 38,
+        "persistence_violations": 0,
+        "reverse_counterexamples": 2,
+        "world_evaluations": 76,
+        "worlds": 2
+      },
+      {
+        "formula_world_comparisons": 47400,
+        "forward_counterexamples": 0,
+        "frames": 29,
+        "models": 632,
+        "persistence_violations": 0,
+        "reverse_counterexamples": 90,
+        "world_evaluations": 1896,
+        "worlds": 3
+      }
+    ],
+    "formula_count": 25,
+    "formulas": [
+      "bottom",
+      "p",
+      "q",
+      "not_p",
+      "not_q",
+      "p_implies_q",
+      "q_implies_p",
+      "not_q_implies_not_p",
+      "forward_contraposition",
+      "reverse_contraposition",
+      "not_of_p_implies_q",
+      "double_not_q",
+      "double_negation_elimination_q",
+      "excluded_middle_q",
+      "p_and_q",
+      "p_or_q",
+      "p_and_not_p",
+      "explosion",
+      "identity",
+      "and_elimination",
+      "or_introduction",
+      "not_or",
+      "and_of_negations",
+      "not_and",
+      "or_of_negations"
+    ],
+    "frames_are": "all labeled preorders",
+    "totals": {
+      "formula_world_comparisons": 49400,
+      "forward_counterexamples": 0,
+      "frames": 34,
+      "models": 674,
+      "persistence_violations": 0,
+      "reverse_counterexamples": 92,
+      "world_evaluations": 1976
+    }
+  },
+  "two_world_countermodel": {
+    "forcing": [
+      {
+        "and_elimination": true,
+        "and_of_negations": false,
+        "bottom": false,
+        "double_negation_elimination_q": false,
+        "double_not_q": true,
+        "excluded_middle_q": false,
+        "explosion": true,
+        "forward_contraposition": true,
+        "identity": true,
+        "not_and": false,
+        "not_of_p_implies_q": false,
+        "not_or": false,
+        "not_p": false,
+        "not_q": false,
+        "not_q_implies_not_p": true,
+        "or_introduction": true,
+        "or_of_negations": false,
+        "p": true,
+        "p_and_not_p": false,
+        "p_and_q": false,
+        "p_implies_q": false,
+        "p_or_q": true,
+        "q": false,
+        "q_implies_p": true,
+        "reverse_contraposition": false,
+        "world": 0
+      },
+      {
+        "and_elimination": true,
+        "and_of_negations": false,
+        "bottom": false,
+        "double_negation_elimination_q": true,
+        "double_not_q": true,
+        "excluded_middle_q": true,
+        "explosion": true,
+        "forward_contraposition": true,
+        "identity": true,
+        "not_and": false,
+        "not_of_p_implies_q": false,
+        "not_or": false,
+        "not_p": false,
+        "not_q": false,
+        "not_q_implies_not_p": true,
+        "or_introduction": true,
+        "or_of_negations": false,
+        "p": true,
+        "p_and_not_p": false,
+        "p_and_q": true,
+        "p_implies_q": true,
+        "p_or_q": true,
+        "q": true,
+        "q_implies_p": true,
+        "reverse_contraposition": true,
+        "world": 1
+      }
+    ],
+    "relation": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "valuation": {
+      "p": [
+        0,
+        1
+      ],
+      "q": [
+        1
+      ]
+    },
+    "worlds": [
+      0,
+      1
+    ]
+  }
+}

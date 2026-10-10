@@ -1,0 +1,14 @@
+{
+  "python_implementation": "CPython",
+  "python_version": "3.12.14",
+  "system": "Linux",
+  "machine": "x86_64",
+  "libc": [
+    "glibc",
+    "2.41"
+  ],
+  "external_dependencies": [],
+  "packages_installed_for_this_task": false,
+  "network_required": false,
+  "execution_method": "CPython standard library; no Jupyter kernel"
+}

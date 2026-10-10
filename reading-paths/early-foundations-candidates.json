@@ -4,9 +4,9 @@
   "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "沿已核实的De Morgan十二月1852回应回溯其明确指向的Sylvester十一月前驱；本轮只深读Sylvester366–369，后续回应仅作有界比较。",
-    "main_window": "Sylvester1852年11月原刊366–369全部四页，PDF380–383；同卷viii页勘误不适用。",
-    "coverage": "全部15个旧候选对象、11项selection_history前缀及所有旧缺口保持不变；只追加本篇与回应来源记录及紧凑事件，不递归复制历史快照。",
+    "selection_context": "完成Sylvester十一月1852前驱后，本轮只深读De Morgan十二月1852的On Indirect Demonstration；Drach同月短评仅作回应上下文。",
+    "main_window": "De Morgan1852年12月原刊435–438全部四页，PDF449–452；438页正文止于11月1日署日。目录、分册首页及不适用卷勘误已核图。",
+    "coverage": "保留全部18个旧候选对象和13项selection_history前缀及所有旧缺口；仅更新current_selection并追加紧凑事件。候选对象中的旧status保留为当时来源状态，本次完成记录以current_selection及末尾事件为准，不递归复制历史。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -29,20 +29,24 @@
       "罕见报告的后验依赖完整误报通道；忠实聚合不增添证据，多证人乘积仅在给定真相后条件独立时成立。",
       "不声称1852是第一篇AI论文、最早证明方法研究或已穷尽此前书籍与论文。",
       "基本几何定理、带方向的推广及所有证明方法的猜想分开；有限实验不能证明普遍证明方法判据。",
-      "368页扫描字形与367页代数一致式的差异是本次原图/数学校核，不冒称作者正式勘误；负参数不能混同有向射线与无向整直线。"
+      "368页扫描字形与367页代数一致式的差异是本次原图/数学校核，不冒称作者正式勘误；负参数不能混同有向射线与无向整直线。",
+      "De Morgan1852十二月文不是四条独立逻辑公理或普遍归谬消去定理；经典外延等价不等于所有逻辑体系中的证明同一。",
+      "p437回应对应Sylvester369页圆弦邀请，正文未印完整几何解；本文圆弦代数、真值表与Kripke模型均为现代教学重构。",
+      "p437 inequality的in为OCR漏字，经放大原图核回，不是作者正式勘误；同卷viii勘误仅指359页。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "sylvester-1852-geometrical-method",
-    "pages": "366–369",
-    "publication_scope": "第四辑4卷26号，November1852；作者署1852-10-04；不是十二月回应。",
-    "why_selected": "最初核到De Morgan十二月1852的具体论文，再由其437页前一期引文发现十一月Sylvester；按该有界来源链先读前驱。旧书籍、Hamilton文本及1847后期版本缺口继续保留。",
-    "mathematical_boundary": "内部角平分线定理成立；扩展参数明确有向交点、正向射线、零分母及退化条件；关于任何证明都必须归谬是未形式化的猜想，不是已证定理。",
-    "completion": "原刊全四页读核，原创中文深读、逐页来源账本、数学审计及标准库复现包完成；远端提交与页面QA由发布步骤另核。",
-    "article_path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
-    "source_ledger_path": "papers/1852/sylvester-geometrical-method.sources.zh-CN.md",
-    "reproduction_path": "reproduction/sylvester-geometrical-method/README.md"
+    "candidate_id": "demorgan-1852-indirect-demonstration",
+    "pages": "435–438",
+    "publication_scope": "第四辑4卷27号，December1852；作者署1852-11-01，非刊期；438页后半Challis排除。",
+    "why_selected": "完成同一有界来源链中的Sylvester十一月前驱后，继续其明确可定位的十二月回应；保留更早书籍、Hamilton文本、1847后期版本等所有旧缺口。",
+    "mathematical_boundary": "经典共同论域逆否与反例见证等价；区分现代构造性反向只能得到双重否定、Euclid匹配边条件与圆弦正长度条件；不声称所有间接证明可消去。",
+    "completion": "全四页读核；原创中文精读、来源与数学审计、标准库实跑附件及独立复核完成；远端提交和页面QA由发布步骤另核。",
+    "article_path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md",
+    "source_ledger_path": "papers/1852/demorgan-indirect-demonstration.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1852/demorgan-indirect-demonstration.audit.zh-CN.md",
+    "reproduction_path": "reproduction/demorgan-indirect-demonstration/README.md"
   },
   "earlier_gap_priority": [
     {
@@ -1767,6 +1771,13 @@
       "event": "rendering_correction",
       "note": "概率审计一处不等式链被GitHub静默截断；改用lt/gt，九个公式编号移到公式外以避免竖排。数学内容与代码不变；完整显示另行核验。",
       "path": "papers/1851/demorgan-probability-audit.zh-CN.md"
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "demorgan-1852-indirect-demonstration",
+      "event": "deep_read_local_release",
+      "note": "完成十二月435–438全四页及独立source/math/code核查；OCR inequality校读，经典与构造边界分开。18个旧候选对象与全部旧缺口原样保留；候选旧status为历史记录。Drach仅上下文，不算第二篇。远端与页面QA另核。",
+      "article_path": "papers/1852/demorgan-indirect-demonstration.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [

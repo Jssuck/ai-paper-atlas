@@ -1,0 +1,31 @@
+{
+  "method": "stdlib JSON checks and sequential compile/exec",
+  "jupyter_kernel_executed": false,
+  "nbformat_schema_validator_used": false,
+  "execution_counts_are_null": true,
+  "ui_rendering_checked": false,
+  "total_cells": 8,
+  "code_cells_passed": 4,
+  "cells": [
+    {
+      "cell_number": 2,
+      "status": "passed",
+      "stdout": "{'p': False, 'q': False, 'p_implies_q': True, 'not_q_implies_not_p': True, 'q_implies_p': True}\n{'p': False, 'q': True, 'p_implies_q': True, 'not_q_implies_not_p': True, 'q_implies_p': False}\n{'p': True, 'q': False, 'p_implies_q': False, 'not_q_implies_not_p': False, 'q_implies_p': True}\n{'p': True, 'q': True, 'p_implies_q': True, 'not_q_implies_not_p': True, 'q_implies_p': True}\n"
+    },
+    {
+      "cell_number": 4,
+      "status": "passed",
+      "stdout": "两种反例集合： [0] [0]\n论域大小 0–6；类对数： 5461 ；不一致数： 0\n"
+    },
+    {
+      "cell_number": 6,
+      "status": "passed",
+      "stdout": "世界 0 {'p': True, 'q': False, 'not_q': False, 'p_implies_q': False, 'not_q_implies_not_p': True, 'not_of_p_implies_q': False}\n世界 1 {'p': True, 'q': True, 'not_q': False, 'p_implies_q': True, 'not_q_implies_not_p': True, 'not_of_p_implies_q': False}\n"
+    },
+    {
+      "cell_number": 8,
+      "status": "passed",
+      "stdout": "{'frames': 34, 'models': 674, 'world_evaluations': 1976, 'formula_world_comparisons': 49400, 'forward_counterexamples': 0, 'reverse_counterexamples': 92, 'persistence_violations': 0}\n完整单元测试命令：python3 -m unittest -v test_logic\n"
+    }
+  ]
+}

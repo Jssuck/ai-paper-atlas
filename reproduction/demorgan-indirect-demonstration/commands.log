@@ -1,0 +1,14 @@
+Working directory: this package directory
+Launcher: python3 reproduce.py
+Environment saved to environment.json; no hostname, username, or absolute path logged.
+$ python3 -m unittest -v test_logic > tests.log 2>&1
+exit_code=0
+$ python3 run_examples.py > results.json 2>&1
+exit_code=0
+$ python3 make_report.py > trace_tables.zh-CN.md 2>&1
+exit_code=0
+$ python3 build_notebook.py > notebook_build.log 2>&1
+exit_code=0
+$ python3 verify_notebook.py > notebook_verify.log 2>&1
+exit_code=0
+Generated SHA256SUMS after all evidence and commands.log were written.
