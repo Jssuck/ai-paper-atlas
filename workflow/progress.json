@@ -1,26 +1,21 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
-    "id": "sylvester-1852-geometrical-method",
-    "stage": "verifying_publication",
-    "source": "https://archive.org/download/londonedinburghp04maga/londonedinburghp04maga.pdf",
-    "scope": "OriginalNovember1852 pp366–369; newly identified precursor to December1852 De Morgan response. General proof-method criterion is a conjecture, not an established theorem."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "de-morgan-1851",
-    "path": "papers/1851/demorgan-symbols-logic.zh-CN.md",
+    "id": "sylvester-1852-geometrical-method",
+    "path": "papers/1852/sylvester-geometrical-method.zh-CN.md",
     "version": "v1",
-    "content_commit": "28f3d5c8940778d9b636dcc87f0468505d2e7ae5",
-    "checks": "Independent source, mathematical and code reviews passed; all44published files exactly verified on main;630formulas across article/audits and22-cell notebook static preview verified without errors; tables and links checked.",
-    "scope": "Original79–127all49pages, July1850 replacement paragraphs and Addition read; PartI1851 imprint distinguished from read1850/bound1856. Earlier books and1847later-version collation remain open."
+    "content_commit": "66839e56f90b8e0a6bf3fde9014cb552f72ced98",
+    "checks": "Independent original-image mathematics and code review passed; all42remote files verified including two PNG blob identities; complete formula chains, tables, diagrams and11-cell notebook preview checked.",
+    "scope": "November1852 original366–369; geometric theorem, directed-domain algebra and universal proof-method conjecture distinguished. December responses contextual only, not completed separately."
   },
-  "updated_at": "2026-10-10T00:57:23Z",
+  "updated_at": "2026-10-10T01:04:45Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote text and image blob identities, main branch, rendered math/diagrams, evidence links and notebook preview."
+  "next_action": "Next scheduled turn inspect unfinished sources and publication quality; check complete mathematical rendering, since raw angle inequalities can silently truncate GitHub formulas. Advance only one paper task."
 }
