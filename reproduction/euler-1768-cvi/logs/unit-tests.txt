@@ -1,0 +1,23 @@
+test_15_24_19_are_computed_not_assumed (test_syllogisms.ExhaustiveValidityTests.test_15_24_19_are_computed_not_assumed) ... ok
+test_all_2048_checks_and_countermodel_certificates (test_syllogisms.ExhaustiveValidityTests.test_all_2048_checks_and_countermodel_certificates) ... ok
+test_all_premise_pairs_satisfiable_in_every_regime (test_syllogisms.ExhaustiveValidityTests.test_all_premise_pairs_satisfiable_in_every_regime) ... ok
+test_alternative_Q_M_nonempty_background (test_syllogisms.ExhaustiveValidityTests.test_alternative_Q_M_nonempty_background) ... ok
+test_dominance_is_regime_global_not_premise_relative (test_syllogisms.ExhaustiveValidityTests.test_dominance_is_regime_global_not_premise_relative) ... ok
+test_equivocation_really_has_true_premises_false_conclusion (test_syllogisms.ExhaustiveValidityTests.test_equivocation_really_has_true_premises_false_conclusion) ... ok
+test_four_conditional_source_moods (test_syllogisms.ExhaustiveValidityTests.test_four_conditional_source_moods) ... ok
+test_minimal_assumptions_sufficiency_necessity_and_completeness (test_syllogisms.ExhaustiveValidityTests.test_minimal_assumptions_sufficiency_necessity_and_completeness) ... ok
+test_all_atomic_propositions_against_independent_sets (test_syllogisms.SourceAndModelTests.test_all_atomic_propositions_against_independent_sets) ... ok
+test_empty_terms_universals_vacuous_particulars_false (test_syllogisms.SourceAndModelTests.test_empty_terms_universals_vacuous_particulars_false) ... ok
+test_exact_source_order_and_figures (test_syllogisms.SourceAndModelTests.test_exact_source_order_and_figures) ... ok
+test_multiplicity_does_not_affect_truth (test_syllogisms.SourceAndModelTests.test_multiplicity_does_not_affect_truth) ... ok
+test_support_counts_and_coverage (test_syllogisms.SourceAndModelTests.test_support_counts_and_coverage) ... ok
+test_cli_bad_inputs_fail_cleanly (test_syllogisms.ValidationAndCLITests.test_cli_bad_inputs_fail_cleanly) ... ok
+test_cli_good_query (test_syllogisms.ValidationAndCLITests.test_cli_good_query) ... ok
+test_invalid_model_inputs (test_syllogisms.ValidationAndCLITests.test_invalid_model_inputs) ... ok
+test_invalid_public_api_inputs (test_syllogisms.ValidationAndCLITests.test_invalid_public_api_inputs) ... ok
+test_report_structure (test_syllogisms.ValidationAndCLITests.test_report_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 9.436s
+
+OK

@@ -1,0 +1,29 @@
+{
+  "figure": 3,
+  "mood": "AAI",
+  "existence_assumptions": [],
+  "supports_in_regime": 255,
+  "premises_satisfiable": true,
+  "premise_models": 31,
+  "valid": false,
+  "countermodel_count": 7,
+  "countermodel": {
+    "support": 1,
+    "atoms_PQM": [
+      "000"
+    ],
+    "domain": [
+      "x1"
+    ],
+    "classes": {
+      "P": [],
+      "Q": [],
+      "M": []
+    }
+  },
+  "minimal_existence_assumptions": [
+    [
+      "M"
+    ]
+  ]
+}

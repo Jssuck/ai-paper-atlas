@@ -1,0 +1,188 @@
+UTC execution start: 2026-10-11T09:42:09Z
+
+$ python3 syllogisms.py environment
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "dependencies": "Python standard library only"
+}
+
+$ python3 -m unittest discover -s tests -v
+test_15_24_19_are_computed_not_assumed (test_syllogisms.ExhaustiveValidityTests.test_15_24_19_are_computed_not_assumed) ... ok
+test_all_2048_checks_and_countermodel_certificates (test_syllogisms.ExhaustiveValidityTests.test_all_2048_checks_and_countermodel_certificates) ... ok
+test_all_premise_pairs_satisfiable_in_every_regime (test_syllogisms.ExhaustiveValidityTests.test_all_premise_pairs_satisfiable_in_every_regime) ... ok
+test_alternative_Q_M_nonempty_background (test_syllogisms.ExhaustiveValidityTests.test_alternative_Q_M_nonempty_background) ... ok
+test_dominance_is_regime_global_not_premise_relative (test_syllogisms.ExhaustiveValidityTests.test_dominance_is_regime_global_not_premise_relative) ... ok
+test_equivocation_really_has_true_premises_false_conclusion (test_syllogisms.ExhaustiveValidityTests.test_equivocation_really_has_true_premises_false_conclusion) ... ok
+test_four_conditional_source_moods (test_syllogisms.ExhaustiveValidityTests.test_four_conditional_source_moods) ... ok
+test_minimal_assumptions_sufficiency_necessity_and_completeness (test_syllogisms.ExhaustiveValidityTests.test_minimal_assumptions_sufficiency_necessity_and_completeness) ... ok
+test_all_atomic_propositions_against_independent_sets (test_syllogisms.SourceAndModelTests.test_all_atomic_propositions_against_independent_sets) ... ok
+test_empty_terms_universals_vacuous_particulars_false (test_syllogisms.SourceAndModelTests.test_empty_terms_universals_vacuous_particulars_false) ... ok
+test_exact_source_order_and_figures (test_syllogisms.SourceAndModelTests.test_exact_source_order_and_figures) ... ok
+test_multiplicity_does_not_affect_truth (test_syllogisms.SourceAndModelTests.test_multiplicity_does_not_affect_truth) ... ok
+test_support_counts_and_coverage (test_syllogisms.SourceAndModelTests.test_support_counts_and_coverage) ... ok
+test_cli_bad_inputs_fail_cleanly (test_syllogisms.ValidationAndCLITests.test_cli_bad_inputs_fail_cleanly) ... ok
+test_cli_good_query (test_syllogisms.ValidationAndCLITests.test_cli_good_query) ... ok
+test_invalid_model_inputs (test_syllogisms.ValidationAndCLITests.test_invalid_model_inputs) ... ok
+test_invalid_public_api_inputs (test_syllogisms.ValidationAndCLITests.test_invalid_public_api_inputs) ... ok
+test_report_structure (test_syllogisms.ValidationAndCLITests.test_report_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 9.436s
+
+OK
+
+$ python3 tests/independent_audit.py
+Independent 255-model set oracle: all 2048 form/regime checks, premise counts, countermodel counts and certificate truths PASS
+Independent minima for all 256 forms PASS
+Direct labelled-domain countermodel minimality PASS; maximum certificate size: 3 ; histogram: {1: 713, 2: 1107, 3: 72}
+Valid counts by assumptions: {'none': 15, 'P': 20, 'Q': 16, 'M': 18, 'PQ': 21, 'PM': 23, 'QM': 19, 'PQM': 24}
+Source-transcription deletion leaves validity counts 15/24/nonweakened19 unchanged: PASS
+Existence-dependent valid forms and inclusion-minimal assumptions: [(1, 'AAI', [['P']]), (1, 'EAO', [['P']]), (2, 'AEO', [['P']]), (2, 'EAO', [['P']]), (3, 'AAI', [['M']]), (3, 'EAO', [['M']]), (4, 'AAI', [['Q']]), (4, 'AEO', [['P']]), (4, 'EAO', [['M']])]
+
+$ python3 syllogisms.py report --output results/report.json
+{
+  "supports_nonempty_domain": 255,
+  "supports_all_terms_nonempty": 218,
+  "forms_examined": 256,
+  "listed_count": 19,
+  "valid_without_term_existence": 15,
+  "valid_with_all_terms_nonempty": 24,
+  "nonweakened_valid_with_all_terms_nonempty": 19,
+  "nonweakened_set_equals_euler_list": true,
+  "all_premise_pairs_satisfiable_with_all_terms_nonempty": true
+}
+Weakened extras: 1-AAI, 1-EAO, 2-AEO, 2-EAO, 4-AEO
+Full report written to results/report.json
+
+$ python3 syllogisms.py query 3 AAI
+{
+  "figure": 3,
+  "mood": "AAI",
+  "existence_assumptions": [],
+  "supports_in_regime": 255,
+  "premises_satisfiable": true,
+  "premise_models": 31,
+  "valid": false,
+  "countermodel_count": 7,
+  "countermodel": {
+    "support": 1,
+    "atoms_PQM": [
+      "000"
+    ],
+    "domain": [
+      "x1"
+    ],
+    "classes": {
+      "P": [],
+      "Q": [],
+      "M": []
+    }
+  },
+  "minimal_existence_assumptions": [
+    [
+      "M"
+    ]
+  ]
+}
+
+$ python3 syllogisms.py query 3 AAI --exists M
+{
+  "figure": 3,
+  "mood": "AAI",
+  "existence_assumptions": [
+    "M"
+  ],
+  "supports_in_regime": 240,
+  "premises_satisfiable": true,
+  "premise_models": 16,
+  "valid": true,
+  "countermodel_count": 0,
+  "countermodel": null,
+  "minimal_existence_assumptions": [
+    [
+      "M"
+    ]
+  ]
+}
+
+$ python3 syllogisms.py query 4 AAI --exists P M
+{
+  "figure": 4,
+  "mood": "AAI",
+  "existence_assumptions": [
+    "P",
+    "M"
+  ],
+  "supports_in_regime": 228,
+  "premises_satisfiable": true,
+  "premise_models": 12,
+  "valid": false,
+  "countermodel_count": 4,
+  "countermodel": {
+    "support": 32,
+    "atoms_PQM": [
+      "101"
+    ],
+    "domain": [
+      "x1"
+    ],
+    "classes": {
+      "P": [
+        "x1"
+      ],
+      "Q": [],
+      "M": [
+        "x1"
+      ]
+    }
+  },
+  "minimal_existence_assumptions": [
+    [
+      "Q"
+    ]
+  ]
+}
+
+$ python3 syllogisms.py query 4 AAI --exists Q
+{
+  "figure": 4,
+  "mood": "AAI",
+  "existence_assumptions": [
+    "Q"
+  ],
+  "supports_in_regime": 240,
+  "premises_satisfiable": true,
+  "premise_models": 8,
+  "valid": true,
+  "countermodel_count": 0,
+  "countermodel": null,
+  "minimal_existence_assumptions": [
+    [
+      "Q"
+    ]
+  ]
+}
+
+$ python3 syllogisms.py query 1 AAI --exists P
+{
+  "figure": 1,
+  "mood": "AAI",
+  "existence_assumptions": [
+    "P"
+  ],
+  "supports_in_regime": 240,
+  "premises_satisfiable": true,
+  "premise_models": 8,
+  "valid": true,
+  "countermodel_count": 0,
+  "countermodel": null,
+  "minimal_existence_assumptions": [
+    [
+      "P"
+    ]
+  ]
+}
+
+UTC execution finish: 2026-10-11T09:42:25Z

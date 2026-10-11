@@ -1,0 +1,13 @@
+{
+  "supports_nonempty_domain": 255,
+  "supports_all_terms_nonempty": 218,
+  "forms_examined": 256,
+  "listed_count": 19,
+  "valid_without_term_existence": 15,
+  "valid_with_all_terms_nonempty": 24,
+  "nonweakened_valid_with_all_terms_nonempty": 19,
+  "nonweakened_set_equals_euler_list": true,
+  "all_premise_pairs_satisfiable_with_all_terms_nonempty": true
+}
+Weakened extras: 1-AAI, 1-EAO, 2-AEO, 2-EAO, 4-AEO
+Full report written to results/report.json

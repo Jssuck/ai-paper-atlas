@@ -1,0 +1,18 @@
+{
+  "figure": 3,
+  "mood": "AAI",
+  "existence_assumptions": [
+    "M"
+  ],
+  "supports_in_regime": 240,
+  "premises_satisfiable": true,
+  "premise_models": 16,
+  "valid": true,
+  "countermodel_count": 0,
+  "countermodel": null,
+  "minimal_existence_assumptions": [
+    [
+      "M"
+    ]
+  ]
+}

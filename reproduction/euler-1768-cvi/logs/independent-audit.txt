@@ -1,0 +1,6 @@
+Independent 255-model set oracle: all 2048 form/regime checks, premise counts, countermodel counts and certificate truths PASS
+Independent minima for all 256 forms PASS
+Direct labelled-domain countermodel minimality PASS; maximum certificate size: 3 ; histogram: {1: 713, 2: 1107, 3: 72}
+Valid counts by assumptions: {'none': 15, 'P': 20, 'Q': 16, 'M': 18, 'PQ': 21, 'PM': 23, 'QM': 19, 'PQM': 24}
+Source-transcription deletion leaves validity counts 15/24/nonweakened19 unchanged: PASS
+Existence-dependent valid forms and inclusion-minimal assumptions: [(1, 'AAI', [['P']]), (1, 'EAO', [['P']]), (2, 'AEO', [['P']]), (2, 'EAO', [['P']]), (3, 'AAI', [['M']]), (3, 'EAO', [['M']]), (4, 'AAI', [['Q']]), (4, 'AEO', [['P']]), (4, 'EAO', [['M']])]

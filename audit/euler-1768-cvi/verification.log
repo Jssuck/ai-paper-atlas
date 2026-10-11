@@ -1,0 +1,6 @@
+PASS: 128 representatives; 109 have all terms nonempty.
+PASS: 256 forms; 15 valid with empty terms allowed; 24 valid with all terms nonempty.
+PASS: The 19 nonweakened forms and the 19 Q/M-nonempty forms both equal the source list.
+PASS: All invalid forms have explicit countermodels of at most 3 objects.
+PASS: All 64 premise pairs are satisfiable with all terms nonempty.
+PASS: All 512 validity decisions and 256 source-list flags agree with the independent main reproduction.

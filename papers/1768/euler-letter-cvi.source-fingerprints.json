@@ -1,0 +1,199 @@
+{
+  "audited_on": "2026-10-11",
+  "scope": "One bounded letter: Euler, Tome second (1768), Lettre CVI, printed 126 lower–134 upper, dated 28 February 1761. 1770 same letter is a supplement and collation witness, not a second newly read unit.",
+  "primary": {
+    "edition": 1768,
+    "volume": 2,
+    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf",
+    "downloaded_this_audit": false,
+    "bytes": 13683251,
+    "sha256": "30bb818e1ba33bfddfa931e1bbc02b9c475e6fe2ee2a88ab7d09fdad325dad18",
+    "rendered_images": [
+      {
+        "print_page": 126,
+        "pdf_page": 147,
+        "bounded_use": "CVI opening below title",
+        "bytes": 875801,
+        "sha256": "ec8f6ac412b0a9129fad92516a04ddfeb11c1aeafbed9952e15e7397274475ae"
+      },
+      {
+        "print_page": 127,
+        "pdf_page": 148,
+        "bounded_use": "CVI",
+        "bytes": 162606,
+        "sha256": "dc591ecd156ab3d4450b82d9290e59dafa5af09e4bf0d936bbf2858cca40e977"
+      },
+      {
+        "print_page": 128,
+        "pdf_page": 149,
+        "bounded_use": "CVI",
+        "bytes": 827895,
+        "sha256": "8b968e9814df530cb1d1ff0380151a1d58da40c6bd7bc141167afe4c395fbf08"
+      },
+      {
+        "print_page": 129,
+        "pdf_page": 150,
+        "bounded_use": "CVI",
+        "bytes": 142030,
+        "sha256": "7477ad50b418933d0c81a1f20a5b9a22daf771244043a99f7d0f9f242b3cb8bc"
+      },
+      {
+        "print_page": 130,
+        "pdf_page": 151,
+        "bounded_use": "CVI",
+        "bytes": 299544,
+        "sha256": "a7f833fdf54628aa442b6f4a36286d998468c297824fb92510e51a311b62854e"
+      },
+      {
+        "print_page": 131,
+        "pdf_page": 152,
+        "bounded_use": "CVI",
+        "bytes": 161526,
+        "sha256": "d1acc40a7d5aeb9dc64922abc40345e30eb5df9e4695b0784fbae2a0d2474adb"
+      },
+      {
+        "print_page": 132,
+        "pdf_page": 153,
+        "bounded_use": "CVI",
+        "bytes": 424886,
+        "sha256": "abcf7b8fd86f7b02d70f3c19a410bbfd0d3b29dac1eee6711be9c8f06a5b8554"
+      },
+      {
+        "print_page": 133,
+        "pdf_page": 154,
+        "bounded_use": "CVI",
+        "bytes": 107034,
+        "sha256": "85d652f5aa5ff7b78ce18311fb4ed38d2042b83fe1d9ed4f162fca650f966fcd"
+      },
+      {
+        "print_page": 134,
+        "pdf_page": 155,
+        "bounded_use": "CVI through dated signature only",
+        "bytes": 814124,
+        "sha256": "bb6c9b9deaecaf4d68ca0f59f1dfc6e1cb694ac8f4a42f6cbfd51d4efc8d6f0f"
+      }
+    ]
+  },
+  "supplement": {
+    "edition": 1770,
+    "volume": 2,
+    "institution": "ETH-Bibliothek Zürich, Rar 5101: 2",
+    "manifest_url": "https://www.e-rara.ch/i3f/v20/2380138/manifest",
+    "manifest": {
+      "bytes": 275141,
+      "sha256": "27f6e34e4891b9b0c73c78b4ada2270b70375add0fbb13dfbd827076c4d91204"
+    },
+    "retrieved_this_audit": true,
+    "same_letter_complete_visual_collation": true,
+    "images": [
+      {
+        "canvas_1based": 143,
+        "manifest_label": "131",
+        "printed_label": "131",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380282",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380282/full/full/0/default.jpg",
+        "bytes": 507179,
+        "sha256": "1c461a1d34231a8107c8f9d36a37f0acf1bfd5a939f7544479c0c68abf451491",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 144,
+        "manifest_label": "132",
+        "printed_label": "132",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380283",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380283/full/full/0/default.jpg",
+        "bytes": 505898,
+        "sha256": "29ac43d5b7a7514dc12878e60cc03182a63d9490a3fb4aa1895ef5fe24e84386",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 145,
+        "manifest_label": "133",
+        "printed_label": "133",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380284",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380284/full/full/0/default.jpg",
+        "bytes": 498490,
+        "sha256": "25fed86ba652705b14fc6b9953e147b3e159c09a52964a031fa7fa96bbb75d72",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 146,
+        "manifest_label": "134",
+        "printed_label": "134",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380285",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380285/full/full/0/default.jpg",
+        "bytes": 443863,
+        "sha256": "18384a12d188652e7fba594c7f767154ad16857cea793aa85567a75e0d98d345",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 147,
+        "manifest_label": "135",
+        "printed_label": "135",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380286",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380286/full/full/0/default.jpg",
+        "bytes": 464543,
+        "sha256": "6ce6141143b1d8ca555796171d3607603e8cc8655ec59c84b539c1eec2881cf8",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 148,
+        "manifest_label": "136",
+        "printed_label": "136",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380287",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380287/full/full/0/default.jpg",
+        "bytes": 472138,
+        "sha256": "a3ac73299bd2cd9a2bcb105ee8fd2fbb769b3af1f1b8b20b8512c10695414c50",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 149,
+        "manifest_label": "137",
+        "printed_label": "137",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380288",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380288/full/full/0/default.jpg",
+        "bytes": 469207,
+        "sha256": "6faafe323438190f3ea627d34af57bbb411232b61f2c32e7861238e2c5905826",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 150,
+        "manifest_label": "138",
+        "printed_label": "128 [misprint; sequential 138]",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380289",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380289/full/full/0/default.jpg",
+        "bytes": 447768,
+        "sha256": "f550f1e07ab9467b0e49bb568ea9f2dc2daaeb0627249bf03f70a5f756a3b849",
+        "actual_images_read": true
+      },
+      {
+        "canvas_1based": 151,
+        "manifest_label": "139",
+        "printed_label": "139",
+        "canvas_url": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380290",
+        "image_url": "https://www.e-rara.ch/i3f/v20/2380290/full/full/0/default.jpg",
+        "bytes": 498372,
+        "sha256": "9375c2c19ebe30c8be1a65b80eeb196ce15efc5fa0d49fb3ebd4a14fc4e5b8f6",
+        "actual_images_read": true
+      }
+    ]
+  },
+  "errata_check": {
+    "edition": 1772,
+    "volume": 3,
+    "source_url": "https://archive.org/download/lettresuneprinc00eulegoog/lettresuneprinc00eulegoog.pdf",
+    "bytes": 15704343,
+    "sha256": "b5f631226545927d398770a3df39ee9c7151543895f2bf4cad31729ffd1baf4f",
+    "corrections_pdf_page": 22,
+    "own_print129_pdf_page": 152,
+    "conclusion": "Both p.129 entries match volume III magnetic-apparatus wording Soit AB and IA; they do not correct volume II Lettre CVI."
+  },
+  "source_limitations": [
+    "1768 print130/pdf151 central white obstruction and right-edge clipping; 1770 print135 used for complete reading.",
+    "1768 scan lacks contents leaves vi–vii; 1770 contents wording must not be attributed as independently verified 1768 text.",
+    "1770 canvas150 manifest138 is misprinted128 on page.",
+    "Bounded errata checks do not exhaust all editions, manuscripts or scholarship."
+  ],
+  "raw_scan_publication": false,
+  "remote_write_performed_by_source_auditor": false
+}

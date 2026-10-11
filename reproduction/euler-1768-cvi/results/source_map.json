@@ -1,0 +1,163 @@
+{
+  "scope": "Lettre CVI only; adjacent letters excluded",
+  "primary_pdf": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf",
+  "publication_year_label": 1768,
+  "letter_date_as_printed": "le 28 Fevrier 1761",
+  "source_units": [
+    {
+      "image_filename": "original-147.png",
+      "pdf_page_1_based": 147,
+      "printed_page": 126,
+      "included_scope": "Only LETTRE CVI title and following text; prior-letter ending excluded",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-148.png",
+      "pdf_page_1_based": 148,
+      "printed_page": 127,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-149.png",
+      "pdf_page_1_based": 149,
+      "printed_page": 128,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-150.png",
+      "pdf_page_1_based": 150,
+      "printed_page": 129,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-151.png",
+      "pdf_page_1_based": 151,
+      "printed_page": 130,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-152.png",
+      "pdf_page_1_based": 152,
+      "printed_page": 131,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-153.png",
+      "pdf_page_1_based": 153,
+      "printed_page": 132,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-154.png",
+      "pdf_page_1_based": 154,
+      "printed_page": 133,
+      "included_scope": "CVI page",
+      "verified_by": "direct image inspection"
+    },
+    {
+      "image_filename": "original-155.png",
+      "pdf_page_1_based": 155,
+      "printed_page": 134,
+      "included_scope": "CVI ending through dated signature only; LETTRE CVII and following text excluded",
+      "verified_by": "direct image inspection"
+    }
+  ],
+  "figure_premise_pairs": {
+    "I": [
+      [
+        "M",
+        "Q"
+      ],
+      [
+        "P",
+        "M"
+      ]
+    ],
+    "II": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "P",
+        "M"
+      ]
+    ],
+    "III": [
+      [
+        "M",
+        "Q"
+      ],
+      [
+        "M",
+        "P"
+      ]
+    ],
+    "IV": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "M",
+        "P"
+      ]
+    ]
+  },
+  "source_mood_order": {
+    "I": [
+      "AAA",
+      "AII",
+      "EAE",
+      "EIO"
+    ],
+    "II": [
+      "AEE",
+      "AOO",
+      "EAE",
+      "EIO"
+    ],
+    "III": [
+      "AAI",
+      "IAI",
+      "AII",
+      "EAO",
+      "EIO",
+      "OAO"
+    ],
+    "IV": [
+      "AAI",
+      "IAI",
+      "AEE",
+      "EAO",
+      "EIO"
+    ]
+  },
+  "source_table_pages": {
+    "I": 131,
+    "II": 131,
+    "III": 132,
+    "IV": 133
+  },
+  "source_class_names_on_printed_127": {
+    "class_A": "M",
+    "class_B": "Q",
+    "class_C": "P"
+  },
+  "modern_additions": [
+    "Boolean class semantics with potentially empty terms",
+    "Eight-atom support compression and exhaustive search",
+    "Explicit minimal existence-assumption search",
+    "15/24/19 semantic comparison and conclusion-dominance filter",
+    "Alternative Q,M-nonempty background comparison",
+    "New proofs and countermodels",
+    "Four-term bank-equivocation teaching example"
+  ],
+  "input_image_hashes": "See the parent reading’s paper.source-fingerprints.json; not duplicated here."
+}
