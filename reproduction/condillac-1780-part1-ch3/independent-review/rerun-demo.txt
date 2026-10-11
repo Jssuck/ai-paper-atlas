@@ -1,0 +1,61 @@
+A: retain every operation, side, and bracket
+  expression: (2 - (0 + 1))
+  full prefix: (('SUB',), ('LEAF', 2), ('ADD',), ('LEAF', 0), ('LEAF', 1))
+  ordered leaves: (2, 0, 1)
+  leaf bag: (0, 1, 2)
+  integer output: 1
+  exact round trip: True
+B: change the operation
+  expression: (0 + 1)
+  full prefix: (('ADD',), ('LEAF', 0), ('LEAF', 1))
+  ordered leaves: (0, 1)
+  leaf bag: (0, 1)
+  integer output: 1
+  exact round trip: True
+C: same ordered leaves as B, different output
+  expression: (0 - 1)
+  full prefix: (('SUB',), ('LEAF', 0), ('LEAF', 1))
+  ordered leaves: (0, 1)
+  leaf bag: (0, 1)
+  integer output: -1
+  exact round trip: True
+D: exchange C's two parts
+  expression: (1 - 0)
+  full prefix: (('SUB',), ('LEAF', 1), ('LEAF', 0))
+  ordered leaves: (1, 0)
+  leaf bag: (0, 1)
+  integer output: 1
+  exact round trip: True
+E: left-associated subtraction
+  expression: ((0 - 0) - 1)
+  full prefix: (('SUB',), ('SUB',), ('LEAF', 0), ('LEAF', 0), ('LEAF', 1))
+  ordered leaves: (0, 0, 1)
+  leaf bag: (0, 0, 1)
+  integer output: -1
+  exact round trip: True
+F: right-associated subtraction
+  expression: (0 - (0 - 1))
+  full prefix: (('SUB',), ('LEAF', 0), ('SUB',), ('LEAF', 0), ('LEAF', 1))
+  ordered leaves: (0, 0, 1)
+  leaf bag: (0, 0, 1)
+  integer output: 1
+  exact round trip: True
+G: a bare zero
+  expression: 0
+  full prefix: (('LEAF', 0),)
+  ordered leaves: (0,)
+  leaf bag: (0,)
+  integer output: 0
+  exact round trip: True
+H: same output as G, different parts
+  expression: (1 - 1)
+  full prefix: (('SUB',), ('LEAF', 1), ('LEAF', 1))
+  ordered leaves: (1, 1)
+  leaf bag: (1, 1)
+  integer output: 0
+  exact round trip: True
+STRICT PARSER REJECTIONS
+  () -> ValueError: empty prefix has no tree
+  (('ADD',), ('LEAF', 0)) -> ValueError: truncated prefix: operation needs two children
+  (('LEAF', 0), ('LEAF', 1)) -> ValueError: surplus prefix: exactly one complete tree is required
+  (('LEAF', True),) -> TypeError: LEAF payload must have exact type int (not bool)

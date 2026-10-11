@@ -1,0 +1,272 @@
+{
+  "review_kind": "independent finite oracle; modern syntactic model only",
+  "python": "3.12.14",
+  "optimize": 0,
+  "oracle_sha256": "1b36272af3110feee624438766de393bf69a34d53764920cb60785d138fdc68c",
+  "finite_domain": {
+    "total": 3477,
+    "shape_counts": {
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 5
+    },
+    "leaf_counts": {
+      "1": 3,
+      "2": 18,
+      "3": 216,
+      "4": 3240
+    },
+    "projections": {
+      "full_prefix": {
+        "classes": 3477,
+        "singleton_classes": 3477,
+        "collision_classes": 0,
+        "colliding_unordered_pairs": 0,
+        "largest_class": 1,
+        "minimal_structural_collision": null
+      },
+      "ordered_leaves": {
+        "classes": 120,
+        "singleton_classes": 3,
+        "collision_classes": 117,
+        "colliding_unordered_pairs": 63945,
+        "largest_class": 40,
+        "minimal_structural_collision": {
+          "first": "(0 + 0)",
+          "second": "(0 - 0)",
+          "first_prefix": [
+            [
+              "ADD"
+            ],
+            [
+              "LEAF",
+              0
+            ],
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "second_prefix": [
+            [
+              "SUB"
+            ],
+            [
+              "LEAF",
+              0
+            ],
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "first_output": 0,
+          "second_output": 0,
+          "max_leaves": 2,
+          "sum_leaves": 4
+        }
+      },
+      "leaf_bag": {
+        "classes": 34,
+        "singleton_classes": 3,
+        "collision_classes": 31,
+        "colliding_unordered_pairs": 512469,
+        "largest_class": 480,
+        "minimal_structural_collision": {
+          "first": "(0 + 0)",
+          "second": "(0 - 0)",
+          "first_prefix": [
+            [
+              "ADD"
+            ],
+            [
+              "LEAF",
+              0
+            ],
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "second_prefix": [
+            [
+              "SUB"
+            ],
+            [
+              "LEAF",
+              0
+            ],
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "first_output": 0,
+          "second_output": 0,
+          "max_leaves": 2,
+          "sum_leaves": 4
+        }
+      },
+      "integer_output": {
+        "classes": 15,
+        "singleton_classes": 0,
+        "collision_classes": 15,
+        "colliding_unordered_pairs": 711386,
+        "largest_class": 565,
+        "minimal_structural_collision": {
+          "first": "0",
+          "second": "(0 + 0)",
+          "first_prefix": [
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "second_prefix": [
+            [
+              "ADD"
+            ],
+            [
+              "LEAF",
+              0
+            ],
+            [
+              "LEAF",
+              0
+            ]
+          ],
+          "first_output": 0,
+          "second_output": 0,
+          "max_leaves": 2,
+          "sum_leaves": 3
+        }
+      }
+    },
+    "output_histogram": {
+      "-6": 5,
+      "-5": 20,
+      "-4": 67,
+      "-3": 146,
+      "-2": 277,
+      "-1": 408,
+      "0": 533,
+      "1": 565,
+      "2": 533,
+      "3": 408,
+      "4": 277,
+      "5": 146,
+      "6": 67,
+      "7": 20,
+      "8": 5
+    },
+    "alternate_integer_trees": 237
+  },
+  "token_grammar": {
+    "max_tokens": 7,
+    "alphabet_size": 5,
+    "sequences": 97656,
+    "accepted": 3477,
+    "rejected": 94179
+  },
+  "malformed": {
+    "invalid_prefix_cases": 75,
+    "invalid_tree_objects": 16,
+    "tree_entrypoints": 7,
+    "invalid_tree_calls": 112,
+    "invalid_constructor_cases": 5,
+    "invalid_generator_cases": 10
+  },
+  "resource_probes": {
+    "deep_paths": [
+      {
+        "side": "left",
+        "branch_depth": 5000,
+        "leaves": 5001,
+        "tokens": 10001,
+        "output": 9
+      },
+      {
+        "side": "right",
+        "branch_depth": 5000,
+        "leaves": 5001,
+        "tokens": 10001,
+        "output": 9
+      }
+    ],
+    "distinct_deep_dataclass_equality": "RecursionError",
+    "shared_dag_unique_nodes": 13,
+    "shared_dag_expanded_leaves": 4096,
+    "integer_digits": 5001,
+    "runtime_digit_limit": 4300,
+    "integer_display": "ValueError",
+    "note": "Finite probes only; no arbitrary-size resource or performance guarantee."
+  },
+  "targeted_mutations": {
+    "cases": [
+      {
+        "mutation": "serialize_swap_children",
+        "detected": true,
+        "property": "serializer"
+      },
+      {
+        "mutation": "parse_swap_children",
+        "detected": true,
+        "property": "parser"
+      },
+      {
+        "mutation": "paired_swaps_roundtrip_can_hide",
+        "detected": true,
+        "property": "serializer",
+        "both_roundtrips_hold_for_witness": true
+      },
+      {
+        "mutation": "subtraction_becomes_addition",
+        "detected": true,
+        "property": "semantics"
+      },
+      {
+        "mutation": "multiset_drops_multiplicity",
+        "detected": true,
+        "property": "bag"
+      },
+      {
+        "mutation": "ignore_surplus_expressions",
+        "detected": true,
+        "property": "surplus"
+      },
+      {
+        "mutation": "leaf_payload_accepts_bool",
+        "detected": true,
+        "property": "bool"
+      },
+      {
+        "mutation": "generator_omits_split",
+        "detected": true,
+        "property": "generator"
+      }
+    ],
+    "caveat": "Eight deliberately selected fault injections, not an exhaustive mutation score or proof of test completeness."
+  },
+  "examples": {
+    "demo_examples": 8,
+    "walkthrough_outputs": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      0
+    ],
+    "article_T1_to_T4_outputs": [
+      1,
+      -1,
+      0,
+      2
+    ]
+  },
+  "explicit_checks": 185435,
+  "status": "PASS"
+}

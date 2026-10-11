@@ -1,0 +1,21 @@
+Original diagram rendering; separate from dependency-free core model.
+UTC: 2026-10-11T15:47:41.204512+00:00
+$ python -c import sys,PIL; print(sys.version); print("Pillow",PIL.__version__)
+exit code: 0
+3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Pillow 12.3.0
+
+
+$ python figures/build_figure.py
+exit code: 0
+
+
+$ python figures/render_png.py
+exit code: 0
+
+
+Visual review: same leaf sequence (2,1,1); left (2-1)-1=0, right 2-(1-1)=2; labels visible, no overlap; original teaching figure.
+build_figure.py bytes=1961 sha256=a4bf0b03e625fe38e520db273588042f7f433f402f04d508ec54c4b6d296ac59
+render_png.py bytes=1219 sha256=acc52853660be39dc375d2f237065a7ed2c942b75573d158c12223861fc5a65e
+structure.svg bytes=2638 sha256=21cf65e12bfafba02c136c899e181ae9c21b987a9d7346c0bab824f6a821bb13
+structure.png bytes=24689 sha256=6ff38fb588673f719cebbaf66fb142ff7ad29bdbb5639afea9fa5d979e1d7e63

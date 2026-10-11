@@ -1,0 +1,195 @@
+{
+  "scope": "Original modern syntactic teaching model; no empirical or historical-algorithm claim.",
+  "leaf_alphabet": [
+    0,
+    1,
+    2
+  ],
+  "operations": [
+    "ADD",
+    "SUB"
+  ],
+  "leaf_counts": {
+    "1": 3,
+    "2": 18,
+    "3": 216,
+    "4": 3240
+  },
+  "closed_form_counts": {
+    "1": 3,
+    "2": 18,
+    "3": 216,
+    "4": 3240
+  },
+  "recurrence_counts": {
+    "1": 3,
+    "2": 18,
+    "3": 216,
+    "4": 3240
+  },
+  "total": 3477,
+  "unique_full_prefixes": 3477,
+  "tree_round_trips": 3477,
+  "prefix_round_trips": 3477,
+  "output_values": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "output_histogram": {
+    "-6": 5,
+    "-5": 20,
+    "-4": 67,
+    "-3": 146,
+    "-2": 277,
+    "-1": 408,
+    "0": 533,
+    "1": 565,
+    "2": 533,
+    "3": 408,
+    "4": 277,
+    "5": 146,
+    "6": 67,
+    "7": 20,
+    "8": 5
+  },
+  "projections": {
+    "full_prefix": {
+      "classes": 3477,
+      "singleton_classes": 3477,
+      "collision_classes": 0,
+      "colliding_unordered_pairs": 0,
+      "largest_class": 1,
+      "minimal_structural_collision": null
+    },
+    "ordered_leaves": {
+      "classes": 120,
+      "singleton_classes": 3,
+      "collision_classes": 117,
+      "colliding_unordered_pairs": 63945,
+      "largest_class": 40,
+      "minimal_structural_collision": {
+        "first": "(0 + 0)",
+        "second": "(0 - 0)",
+        "first_prefix": [
+          [
+            "ADD"
+          ],
+          [
+            "LEAF",
+            0
+          ],
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "second_prefix": [
+          [
+            "SUB"
+          ],
+          [
+            "LEAF",
+            0
+          ],
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "first_output": 0,
+        "second_output": 0,
+        "max_leaves": 2,
+        "sum_leaves": 4
+      }
+    },
+    "leaf_bag": {
+      "classes": 34,
+      "singleton_classes": 3,
+      "collision_classes": 31,
+      "colliding_unordered_pairs": 512469,
+      "largest_class": 480,
+      "minimal_structural_collision": {
+        "first": "(0 + 0)",
+        "second": "(0 - 0)",
+        "first_prefix": [
+          [
+            "ADD"
+          ],
+          [
+            "LEAF",
+            0
+          ],
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "second_prefix": [
+          [
+            "SUB"
+          ],
+          [
+            "LEAF",
+            0
+          ],
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "first_output": 0,
+        "second_output": 0,
+        "max_leaves": 2,
+        "sum_leaves": 4
+      }
+    },
+    "integer_output": {
+      "classes": 15,
+      "singleton_classes": 0,
+      "collision_classes": 15,
+      "colliding_unordered_pairs": 711386,
+      "largest_class": 565,
+      "minimal_structural_collision": {
+        "first": "0",
+        "second": "(0 + 0)",
+        "first_prefix": [
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "second_prefix": [
+          [
+            "ADD"
+          ],
+          [
+            "LEAF",
+            0
+          ],
+          [
+            "LEAF",
+            0
+          ]
+        ],
+        "first_output": 0,
+        "second_output": 0,
+        "max_leaves": 2,
+        "sum_leaves": 3
+      }
+    }
+  },
+  "minimality_rule": "Minimize (maximum leaf count, sum of leaf counts, first tree rank, second tree rank); tree rank is (leaf count, typed prefix), with the pair sorted by tree rank."
+}

@@ -1,0 +1,14 @@
+{
+  "model.py": "f4b65ea791756b8a9788f4538b322ef8d09cdaf921ca4cf431d242d5e58820d1",
+  "enumerate_model.py": "770a2855a09ce3b4b78120fe5ea53e2fba8f926903ac6628a2f4f199f80f1387",
+  "demo.py": "176785dfaa755403637dc98ed109fb1f8215367e185f068147f694713d844cf7",
+  "verify.py": "3a16433182e4ca876d9d00596c68a27e99ded9f7a49803f492b637f73e67b030",
+  "tests/test_model.py": "8b1fe7e2067a976864af79d738a2af1da554f1b9de56b20b3a558cc47230235b",
+  "README.md": "693e1cc1e1ff293751cb1b64057b8f6d6cf94d7f331656c872fcc135763ea94c",
+  "MODEL.zh-CN.md": "4e2b9dc96ac674bc96b0edb5792ebe5b6c54868860d42014ee0bea9d8b0e375d",
+  "WALKTHROUGH.zh-CN.md": "4663ef0a2571a9efab703565ef5e6db4a7d4c55c7ac1d6bdbd1e40ea5b8524e6",
+  "validation/census.json": "c6210e3a54853e68cf149ad249be97bcce510040955e718ad46b0755a216ab13",
+  "validation/demo-output.txt": "ff4777c3f0551e1e39246311d969d232c8ef4e9ba71a4d2fb353b37cda10cb36",
+  "validation/manifest.json": "c6d520d29f7a6e011acb063811aa4dbd59cc8445bc79bd2d74e5f2565575d7b0",
+  "validation/author-validation.log": "feb8625a9319edad9b2ba96490f86955a22440c00fc3ccd981c2ba08b2381026"
+}

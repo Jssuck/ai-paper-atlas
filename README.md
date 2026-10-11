@@ -20,6 +20,7 @@
 | 1768（原信署1761-03-10） | [Euler第CIX信精读](papers/1768/euler-letter-cix.zh-CN.md) | AI认知前史：保持、回想、再认与心灵论证的边界 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.I精读](papers/1780/condillac-logic-part1-ch1.zh-CN.md) | AI认知前史：分辨、经验纠错与满意信号的边界 | 深读v1 · 完整书籍章节5–15及跨页脚注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.II精读](papers/1780/condillac-logic-part1-ch2.zh-CN.md) | AI认知前史：观察次序、关系重建与整体覆盖 | 深读v1 · 完整书籍章节16–24及七条边注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.III精读](papers/1780/condillac-logic-part1-ch3.zh-CN.md) | AI认知前史：结构表象、实践技能与分析法边界 | 深读v1 · 完整书籍章节25–31及五条边注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -289,3 +290,15 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 - [中文逐步示例与一般证明](reproduction/condillac-1780-part1-ch2/MODEL.zh-CN.md) · [独立代码复核](reproduction/condillac-1780-part1-ch2/independent-review/review.zh-CN.md)
 
 1798《全集》XXII卷I.II印16–24完整九页与七条边注双扫描核图；1780仅为作品版书目年，不认证最早版次、该版原页码或逐字文字。分解必须重组，整体在场与局部清晰分开；18道练习附答案。精确整数关系模型说明一致性、连通性、平移歧义及遗漏边界，不能检验同时意识或证明显眼对象优先的最优性。实际标准库运行、环境和独立复核见附件；有限枚举不替代一般证明或真实心理实验。无Notebook或Jupyter执行声明。仅新增本章，第三章及后续、全书和全部旧候选/版本缺口保留；Euler CX仍只筛题材。
+
+
+## Condillac逻辑学第一部第三章可运行附件
+
+- [结构记录、无损重建与任务等价的现代教学模型](reproduction/condillac-1780-part1-ch3/README.md)
+- [逐页来源与同版扫描校读](papers/1780/condillac-logic-part1-ch3.sources.zh-CN.md) · [独立全文论证审计](papers/1780/condillac-logic-part1-ch3.audit.zh-CN.md)
+- [形式定义、一般证明与碰撞反例](reproduction/condillac-1780-part1-ch3/MODEL.zh-CN.md) · [中文逐步手算](reproduction/condillac-1780-part1-ch3/WALKTHROUGH.zh-CN.md)
+- [实际运行与有界枚举](reproduction/condillac-1780-part1-ch3/validation/author-validation.log) · [独立代码复核](reproduction/condillac-1780-part1-ch3/independent-review/review.zh-CN.md) · [原创结构对照图](reproduction/condillac-1780-part1-ch3/figures/structure.png)
+
+仅完成1798《全集》XXII卷I.III印25–31完整七页、五条边注及31页作者自引，两份同版扫描逐页核图；1780仅为版书目年，不认证最早版次、原页码或逐字文字。感觉/回忆、机器与样衣、默会分析、品味/天才、错误方法及全称发现主张全部讨论，18题附答案。“最短”在本章仍是后文预告，不冒称已证。
+
+现代有序树模型区分结构、叶次序、叶多重集与数值输出，提供一般往返证明和有损记录反例；18项主测试在普通、-O、-OO模式通过。3477树的完整前缀/叶序列/叶多重集/输出分别有3477/120/34/15类，有限计数不是认知概率或一般证明。独立审计与实跑范围见附件；无Notebook或Jupyter声明。结构往返不证明观察真实、分析唯一或人类心理机制。Port-Royal只核有限背景段落，未计第二单位；I.IV及后续、全书和全部旧候选/版本缺口保留。

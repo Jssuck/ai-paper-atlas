@@ -56,42 +56,44 @@
     "current_unit_notice_cviii": "旧scope、候选、历史、缺口及有效状态对象原样保留历史语境；本次只追加CVIII，当前完成以各信effective_status为准，不关闭CIX或旧版本/全书缺口。",
     "current_unit_notice_cix": "旧scope、候选、历史、缺口及有效状态对象原样保留历史语境；本次只追加CIX认知/表征书信章节。旧CIX未读描述以effective_status本次具体完成范围为准，不关闭CX、旧版本、全书或其他学科文献缺口。",
     "current_unit_notice_condillac_i1": "仅新增Condillac《逻辑学》第一部第一章，1780为书目年，1798第二十二卷5–15为实际逐页底本。保留全部旧scope字段、候选、历史、状态和缺口；旧Condillac局部背景不等于本轮完成全书，Euler CX题材筛选不计第二篇。",
-    "current_unit_notice_condillac_i2": "仅新增Condillac《逻辑学》第一部第二章，1780为版书目年，1798第二十二卷16–24为实际完整底本。保留全部旧scope、候选、历史、状态和缺口；旧I.II未读描述以本次有效状态为准，不关闭III及后续或全书。"
+    "current_unit_notice_condillac_i2": "仅新增Condillac《逻辑学》第一部第二章，1780为版书目年，1798第二十二卷16–24为实际完整底本。保留全部旧scope、候选、历史、状态和缺口；旧I.II未读描述以本次有效状态为准，不关闭III及后续或全书。",
+    "current_unit_notice_condillac_i3": "仅新增Condillac I.III完整书籍章节，实际1798卷XXII印25–31；1780为版书目年。全部旧scope字段、候选、历史、状态及缺口原样保留，旧未读描述以最新有效状态的具体完成范围为准，不完成IV及后续或全书。"
   },
   "current_selection": {
-    "candidate_id": "condillac-1780-logic-part1-ch2",
+    "candidate_id": "condillac-1780-logic-part1-ch3",
     "authors": [
       "Étienne Bonnot de Condillac"
     ],
-    "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre II",
-    "chapter_title": "Que l’analyse est l’unique méthode pour acquérir des connoissances. Comment nous l’apprenons de la nature même.",
+    "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre III",
+    "chapter_title": "Que l’analyse fait les esprits justes",
     "publication_year": 1780,
-    "publication_year_basis": "作品的1780版书目年，BnF检索结果及CiNii独立书目；未取得可审阅1780年版章内图像，不认证其逐字文字或页码。",
+    "publication_year_basis": "1780为作品一版的书目年，BnF馆藏检索结果支持；未读取该版章内影像，不认证最早版次、原页码或逐字文字。",
     "read_edition": {
       "year": 1798,
       "collection": "Œuvres de Condillac",
       "volume": "XXII",
       "publisher": "Paris, de l’imprimerie de Ch. Houel",
       "title_page_date": "An VI — 1798",
-      "pages": "16–24",
-      "pdf_pages": "IA/Wellcome24–32；Google同版独立扫描26–34全章交叉核图"
+      "pages": "25–31",
+      "pdf_pages": "IA/Wellcome33–39；Google同版另一册扫描35–41，全章双扫描核图"
     },
-    "document_type": "完整哲学与教学书籍章节，含七条边注；非独立期刊论文，非全书",
-    "pages": "1798版第一部第二章16–24；25页第三章排除；原1780页码未核，不倒用1798页码",
-    "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
-    "why_selected": "先核远端README、已刊目录、idle进度和候选，接续I.I已完成范围，选取论有序观察、分解重组和整体覆盖的I.II完整单章。只一单位，不补发追赶，不声称历史穷尽。",
-    "mathematical_boundary": "原文无数学公式或算法；带方向整数差值关系、闭环一致性、连通分量、平移歧义与覆盖检查均为现代教学重构。一般证明与有限实跑区分，不模拟灵魂或同时意识，不声称心理实验或主要对象优先的最优性。",
-    "completion": "1798完整九页和七条边注双扫描核图；原创中文精读18题含答案、有界勘误查核、一般有条件证明、标准库实跑与独立来源/全篇论证/代码审计。远端发布和实际浏览器QA由发布步骤另核。",
-    "article_path": "papers/1780/condillac-logic-part1-ch2.zh-CN.md",
-    "source_ledger_path": "papers/1780/condillac-logic-part1-ch2.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch2.audit.zh-CN.md",
-    "reproduction_path": "reproduction/condillac-1780-part1-ch2/README.md",
-    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=24",
+    "document_type": "完整哲学与教学书籍章节，五条页边摘要及正文自引；非独立期刊论文，非全书",
+    "pages": "1798版第一部第三章25–31；32页第四章仅确认边界；1780章内页码未核",
+    "publication_scope": "1798为实际正文；两扫描不是两版对校，1780书目年与实际阅读严格区分。",
+    "why_selected": "先核远端README、完整已刊树、idle进度及候选；接续I.II完成范围，选关于结构表象、实践技能、默会分析和方法排他性的I.III完整单章。仅一单位，不补发追赶，非穷尽回填。",
+    "mathematical_boundary": "原文没有表达式树、前缀码或算法。有限有序ADD/SUB整数树、严格解析、往返归纳与信息丢失反例都是现代教学重构。树已给定，故不证明结构如何从感觉习得；结构准确不保证外部事实真实，有限实跑不证明心理机制或分析唯一/最短。",
+    "completion": "完整七页与五条边注双扫描核图；原创中文全章精读18题含答案、有界勘误核查、一般有条件证明、标准库实跑与独立来源/全篇论证/代码审计。远端及浏览器QA由发布步骤另核。",
+    "article_path": "papers/1780/condillac-logic-part1-ch3.zh-CN.md",
+    "source_ledger_path": "papers/1780/condillac-logic-part1-ch3.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch3.audit.zh-CN.md",
+    "reproduction_path": "reproduction/condillac-1780-part1-ch3/README.md",
+    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=33",
     "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
-    "bibliographic_record": "https://ci.nii.ac.jp/ncid/BA19976385.amp?l=en",
+    "bibliographic_record": "https://catalogue.bnf.fr/ark:/12148/cb30263583k",
+    "bibliographic_record_scope": "此记录为1798全集；1780年证据为来源账本所链BnF检索结果，不能混用。",
     "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
-    "not_completed": "1780年版章内图像、原页码、全异文/全部更正史；1798第三章及后续、全书和前驱影响；真实视觉/心理学证据与未实施模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。",
-    "source_findings": "I.II原页16–24及七条边注双扫描完整核图；正文16页边注idée单数与目录224页idées复数有细小差别，18页d’un objet sur un objet及23页composition先于décomposition原印保留。未发现适用独立勘误表，不断言所有版本无勘误。"
+    "not_completed": "1780版章内图像与页码、全部异文/更正史、I.IV及后续和全书；Art de penser II.4仅核自引，Port-Royal只读有限背景转写且见证为1878整理本，不完成其全书或原版。真实心理/机械实验及所有旧候选、书籍、Euler扫描/版本、Curry/Church缺口继续开放。",
+    "source_findings": "印25–31及五条页边摘要双扫描完整核图，无脚注；31页是正文括注自引。28页imaginée经放大确认，IA墨斑处l’avons由Google补核，不冒称印误；本次未发现确定实质排印错误或适用独立勘误表。30页最短为后文承诺。"
   },
   "earlier_gap_priority": [
     {
@@ -1283,6 +1285,42 @@
       "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
       "not_completed": "1780年版章内图像、原页码、全异文/全部更正史；1798第三章及后续、全书和前驱影响；真实视觉/心理学证据与未实施模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。",
       "source_findings": "I.II原页16–24及七条边注双扫描完整核图；正文16页边注idée单数与目录224页idées复数有细小差别，18页d’un objet sur un objet及23页composition先于décomposition原印保留。未发现适用独立勘误表，不断言所有版本无勘误。"
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part1-ch3",
+      "authors": [
+        "Étienne Bonnot de Condillac"
+      ],
+      "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre III",
+      "chapter_title": "Que l’analyse fait les esprits justes",
+      "publication_year": 1780,
+      "publication_year_basis": "1780为作品一版的书目年，BnF馆藏检索结果支持；未读取该版章内影像，不认证最早版次、原页码或逐字文字。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "25–31",
+        "pdf_pages": "IA/Wellcome33–39；Google同版另一册扫描35–41，全章双扫描核图"
+      },
+      "document_type": "完整哲学与教学书籍章节，五条页边摘要及正文自引；非独立期刊论文，非全书",
+      "pages": "1798版第一部第三章25–31；32页第四章仅确认边界；1780章内页码未核",
+      "publication_scope": "1798为实际正文；两扫描不是两版对校，1780书目年与实际阅读严格区分。",
+      "why_selected": "先核远端README、完整已刊树、idle进度及候选；接续I.II完成范围，选关于结构表象、实践技能、默会分析和方法排他性的I.III完整单章。仅一单位，不补发追赶，非穷尽回填。",
+      "mathematical_boundary": "原文没有表达式树、前缀码或算法。有限有序ADD/SUB整数树、严格解析、往返归纳与信息丢失反例都是现代教学重构。树已给定，故不证明结构如何从感觉习得；结构准确不保证外部事实真实，有限实跑不证明心理机制或分析唯一/最短。",
+      "completion": "完整七页与五条边注双扫描核图；原创中文全章精读18题含答案、有界勘误核查、一般有条件证明、标准库实跑与独立来源/全篇论证/代码审计。远端及浏览器QA由发布步骤另核。",
+      "article_path": "papers/1780/condillac-logic-part1-ch3.zh-CN.md",
+      "source_ledger_path": "papers/1780/condillac-logic-part1-ch3.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch3.audit.zh-CN.md",
+      "reproduction_path": "reproduction/condillac-1780-part1-ch3/README.md",
+      "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=33",
+      "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+      "bibliographic_record": "https://catalogue.bnf.fr/ark:/12148/cb30263583k",
+      "bibliographic_record_scope": "此记录为1798全集；1780年证据为来源账本所链BnF检索结果，不能混用。",
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "not_completed": "1780版章内图像与页码、全部异文/更正史、I.IV及后续和全书；Art de penser II.4仅核自引，Port-Royal只读有限背景转写且见证为1878整理本，不完成其全书或原版。真实心理/机械实验及所有旧候选、书籍、Euler扫描/版本、Curry/Church缺口继续开放。",
+      "source_findings": "印25–31及五条页边摘要双扫描完整核图，无脚注；31页是正文括注自引。28页imaginée经放大确认，IA墨斑处l’avons由Google补核，不冒称印误；本次未发现确定实质排印错误或适用独立勘误表。30页最短为后文承诺。"
     }
   ],
   "next_source_gap": {
@@ -2209,6 +2247,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1780/condillac-logic-part1-ch2.zh-CN.md",
       "note": "仅1798版I.II印16–24完整九页、七条边注；1780书目年与1798实际文字分开，双扫描核图及有界勘误检查。18道含答案练习，整数关系图一般证明、标准库实跑与独立来源/全文论证/代码审计；所有旧对象和缺口保留，远端及浏览器QA另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "condillac-1780-logic-part1-ch3",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1780/condillac-logic-part1-ch3.zh-CN.md",
+      "note": "仅1798 I.III印25–31完整七页和五条边注，作者自引与有界勘误查核；1780书目年分开。18道含答案练习、结构往返与信息丢失一般证明、标准库实跑及三类独立审计；Port-Royal仅背景，所有旧对象/缺口保留，远端和浏览器另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2347,6 +2392,15 @@
       "subject": "Euler CIV裁切字面、XVI版本史与CV后续",
       "status": "CIV_composite_reading_completed_original_scan_gap_open",
       "note": "CIV复合底本完成覆盖旧快照的CIV未读状态；1768印112/114/116/118仍待独立清晰同版副本，1770补核不能认证遮失字逐字一致。XVI原表B/展开C不一致未发现正式勘误；CV仅交界，第二卷整体/全书与更早图解来源未完成。CIII106/110旧字面缺口及所有旧书籍/版本缺口继续保留。"
+    },
+    {
+      "subject": "Condillac I.III自引与分析/综合的有限前驱对照",
+      "status": "bounded_context_only_not_completed",
+      "note": "本章31页指Cours d’Études, Art de penser II.4，仅核自引。Port-Royal IV.II开头及相关段落仅读1878 Belin整理本公开转写作概念对照，不完成全章/全书、早期版次对校或直接影响考证。",
+      "sources": [
+        "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=39",
+        "https://fr.wikisource.org/wiki/La_Logique_de_Port-Royal/Quatri%C3%A8me_partie#CHAPITRE_II"
+      ]
     }
   ],
   "effective_status": {
@@ -2477,6 +2531,24 @@
       "pages": "1798版第一部第二章16–24；25页第三章排除；原1780页码未核，不倒用1798页码",
       "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
       "not_completed": "1780年版章内图像、原页码、全异文/全部更正史；1798第三章及后续、全书和前驱影响；真实视觉/心理学证据与未实施模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。"
+    },
+    "condillac-1780-logic-part1-ch3": {
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "publication_year": 1780,
+      "publication_year_basis": "1780为作品一版的书目年，BnF馆藏检索结果支持；未读取该版章内影像，不认证最早版次、原页码或逐字文字。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "25–31",
+        "pdf_pages": "IA/Wellcome33–39；Google同版另一册扫描35–41，全章双扫描核图"
+      },
+      "article_path": "papers/1780/condillac-logic-part1-ch3.zh-CN.md",
+      "pages": "1798版第一部第三章25–31；32页第四章仅确认边界；1780章内页码未核",
+      "publication_scope": "1798为实际正文；两扫描不是两版对校，1780书目年与实际阅读严格区分。",
+      "not_completed": "1780版章内图像与页码、全部异文/更正史、I.IV及后续和全书；Art de penser II.4仅核自引，Port-Royal只读有限背景转写且见证为1878整理本，不完成其全书或原版。真实心理/机械实验及所有旧候选、书籍、Euler扫描/版本、Curry/Church缺口继续开放。"
     }
   }
 }
