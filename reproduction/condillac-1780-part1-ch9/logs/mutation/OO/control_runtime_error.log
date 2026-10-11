@@ -1,0 +1,455 @@
+test_ambiguous_expression_is_not_emitted (test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted) ... ERROR
+test_clear_only_removes_active_event (test_model.EmbodimentTests.test_clear_only_removes_active_event) ... ERROR
+test_demo_scenarios_have_expected_outcomes (test_model.EmbodimentTests.test_demo_scenarios_have_expected_outcomes) ... ERROR
+test_feedback_not_independent_external_evidence (test_model.EmbodimentTests.test_feedback_not_independent_external_evidence) ... ERROR
+test_feedback_obeys_incoming_gate (test_model.EmbodimentTests.test_feedback_obeys_incoming_gate) ... ERROR
+test_forgetting_reaches_three_tables (test_model.EmbodimentTests.test_forgetting_reaches_three_tables) ... ok
+test_incoming_and_outgoing_paths_are_separate (test_model.EmbodimentTests.test_incoming_and_outgoing_paths_are_separate) ... ERROR
+test_missing_or_ambiguous_sensation_clears_stale_active (test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active) ... ERROR
+test_source_attribution_survives_replay (test_model.EmbodimentTests.test_source_attribution_survives_replay) ... ERROR
+test_teaching_and_recall_do_not_implicitly_reinforce (test_model.EmbodimentTests.test_teaching_and_recall_do_not_implicitly_reinforce) ... ERROR
+test_unactivated_recall_is_error (test_model.EmbodimentTests.test_unactivated_recall_is_error) ... ok
+test_validation_is_atomic (test_model.EmbodimentTests.test_validation_is_atomic) ... ok
+test_additive_forgetting_and_pruning (test_model.HabitTests.test_additive_forgetting_and_pruning) ... ok
+test_capacity_weakest_then_oldest (test_model.HabitTests.test_capacity_weakest_then_oldest) ... ok
+test_end_is_distinct_from_missing (test_model.HabitTests.test_end_is_distinct_from_missing) ... ERROR
+test_invalid_arguments_are_explicit_exceptions (test_model.HabitTests.test_invalid_arguments_are_explicit_exceptions) ... ok
+test_missing (test_model.HabitTests.test_missing) ... ERROR
+test_new_weak_edge_can_evict_itself (test_model.HabitTests.test_new_weak_edge_can_evict_itself) ... ok
+test_reinforcement_changes_strength (test_model.HabitTests.test_reinforcement_changes_strength) ... ERROR
+test_reintroduced_edge_has_new_birth (test_model.HabitTests.test_reintroduced_edge_has_new_birth) ... ok
+test_snapshot_is_copy (test_model.HabitTests.test_snapshot_is_copy) ... ok
+test_tie_is_not_arbitrary_winner (test_model.HabitTests.test_tie_is_not_arbitrary_winner) ... ERROR
+test_unique_strongest_not_first_inserted (test_model.HabitTests.test_unique_strongest_not_first_inserted) ... ERROR
+test_zero_forgetting_is_identity (test_model.HabitTests.test_zero_forgetting_is_identity) ... ok
+test_context_does_not_repair_internal_repetition (test_model.SequenceTests.test_context_does_not_repair_internal_repetition) ... ERROR
+test_context_repairs_cross_episode_collision (test_model.SequenceTests.test_context_repairs_cross_episode_collision) ... ERROR
+test_cycle_stops_by_budget (test_model.SequenceTests.test_cycle_stops_by_budget) ... ERROR
+test_exact_recovery_and_end_decision (test_model.SequenceTests.test_exact_recovery_and_end_decision) ... ERROR
+test_exhaustive_single_episode_recovery_363_cases (test_model.SequenceTests.test_exhaustive_single_episode_recovery_363_cases) ... ERROR
+test_exhaustive_two_episode_reference_392_queries (test_model.SequenceTests.test_exhaustive_two_episode_reference_392_queries) ... ERROR
+test_invalid_episode_does_not_partially_train (test_model.SequenceTests.test_invalid_episode_does_not_partially_train) ... ok
+test_loss_of_entire_first_edge (test_model.SequenceTests.test_loss_of_entire_first_edge) ... ERROR
+test_missing_cue_returns_only_cue (test_model.SequenceTests.test_missing_cue_returns_only_cue) ... ERROR
+test_noninjective_history_even_with_eviction_metadata (test_model.SequenceTests.test_noninjective_history_even_with_eviction_metadata) ... ERROR
+test_practice_selects_frequency_not_intention (test_model.SequenceTests.test_practice_selects_frequency_not_intention) ... ERROR
+test_replay_is_read_only (test_model.SequenceTests.test_replay_is_read_only) ... ERROR
+test_shared_cue_collision (test_model.SequenceTests.test_shared_cue_collision) ... ERROR
+test_single_token_episode (test_model.SequenceTests.test_single_token_episode) ... ERROR
+test_terminal_competes_with_continuation (test_model.SequenceTests.test_terminal_competes_with_continuation) ... ERROR
+test_zero_budget_and_exact_boundary (test_model.SequenceTests.test_zero_budget_and_exact_boundary) ... ERROR
+
+======================================================================
+ERROR: test_ambiguous_expression_is_not_emitted (test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 316, in test_ambiguous_expression_is_not_emitted
+    self.assertIsNone(agent.express())
+                      ^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 242, in express
+    choice = self.outgoing.choose((context, self.active.idea))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_clear_only_removes_active_event (test_model.EmbodimentTests.test_clear_only_removes_active_event)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 252, in test_clear_only_removes_active_event
+    agent.sense(Signal("hand", "A"))
+  File "ISOLATED_TEST_COPY/model.py", line 236, in sense
+    return self._receive(signal, context, "external")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 228, in _receive
+    choice = self.incoming.choose((context, signal))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_demo_scenarios_have_expected_outcomes (test_model.EmbodimentTests.test_demo_scenarios_have_expected_outcomes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 349, in test_demo_scenarios_have_expected_outcomes
+    data = scenarios()
+           ^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/demo.py", line 16, in scenarios
+    output["exact_recovery"] = display_replay(m, "do")
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/demo.py", line 7, in display_replay
+    result = memory.replay(cue, context, budget)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_feedback_not_independent_external_evidence (test_model.EmbodimentTests.test_feedback_not_independent_external_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 270, in test_feedback_not_independent_external_evidence
+    body = agent.express()
+           ^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 242, in express
+    choice = self.outgoing.choose((context, self.active.idea))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_feedback_obeys_incoming_gate (test_model.EmbodimentTests.test_feedback_obeys_incoming_gate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 298, in test_feedback_obeys_incoming_gate
+    body = agent.express()
+           ^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 242, in express
+    choice = self.outgoing.choose((context, self.active.idea))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_incoming_and_outgoing_paths_are_separate (test_model.EmbodimentTests.test_incoming_and_outgoing_paths_are_separate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 286, in test_incoming_and_outgoing_paths_are_separate
+    result = agent.recall()
+             ^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 259, in recall
+    result = self.brain.replay(first.idea, context, max_transitions)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_missing_or_ambiguous_sensation_clears_stale_active (test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 305, in test_missing_or_ambiguous_sensation_clears_stale_active
+    self.assertEqual(agent.sense(Signal("hand", "missing")).status, "missing")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 236, in sense
+    return self._receive(signal, context, "external")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 228, in _receive
+    choice = self.incoming.choose((context, signal))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_source_attribution_survives_replay (test_model.EmbodimentTests.test_source_attribution_survives_replay)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 260, in test_source_attribution_survives_replay
+    agent.sense(Signal("hand", "A"))
+  File "ISOLATED_TEST_COPY/model.py", line 236, in sense
+    return self._receive(signal, context, "external")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 228, in _receive
+    choice = self.incoming.choose((context, signal))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_teaching_and_recall_do_not_implicitly_reinforce (test_model.EmbodimentTests.test_teaching_and_recall_do_not_implicitly_reinforce)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 331, in test_teaching_and_recall_do_not_implicitly_reinforce
+    agent.sense(Signal("hand", "A"))
+  File "ISOLATED_TEST_COPY/model.py", line 236, in sense
+    return self._receive(signal, context, "external")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 228, in _receive
+    choice = self.incoming.choose((context, signal))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_end_is_distinct_from_missing (test_model.HabitTests.test_end_is_distinct_from_missing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 36, in test_end_is_distinct_from_missing
+    self.assertEqual(h.choose("a").status, "chosen")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_missing (test_model.HabitTests.test_missing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 12, in test_missing
+    self.assertEqual(WeightedHabits().choose("absent").status, "missing")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_reinforcement_changes_strength (test_model.HabitTests.test_reinforcement_changes_strength)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 18, in test_reinforcement_changes_strength
+    self.assertEqual(h.choose("a").strength, 5)
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_tie_is_not_arbitrary_winner (test_model.HabitTests.test_tie_is_not_arbitrary_winner)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 24, in test_tie_is_not_arbitrary_winner
+    self.assertEqual(h.choose("a").status, "ambiguous")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_unique_strongest_not_first_inserted (test_model.HabitTests.test_unique_strongest_not_first_inserted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 31, in test_unique_strongest_not_first_inserted
+    self.assertEqual(h.choose("a").value, "c")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_context_does_not_repair_internal_repetition (test_model.SequenceTests.test_context_does_not_repair_internal_repetition)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 146, in test_context_does_not_repair_internal_repetition
+    self.assertEqual(m.replay("A", "one").stop, "ambiguous")
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_context_repairs_cross_episode_collision (test_model.SequenceTests.test_context_repairs_cross_episode_collision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 139, in test_context_repairs_cross_episode_collision
+    self.assertEqual(m.replay("A", "left").tokens, ("A", "B"))
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_cycle_stops_by_budget (test_model.SequenceTests.test_cycle_stops_by_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 157, in test_cycle_stops_by_budget
+    result = m.replay("A", max_transitions=3)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_exact_recovery_and_end_decision (test_model.SequenceTests.test_exact_recovery_and_end_decision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 105, in test_exact_recovery_and_end_decision
+    result = m.replay("do", max_transitions=3)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_exhaustive_single_episode_recovery_363_cases (test_model.SequenceTests.test_exhaustive_single_episode_recovery_363_cases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 213, in test_exhaustive_single_episode_recovery_363_cases
+    result = m.replay(sequence[0], max_transitions=length)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_exhaustive_two_episode_reference_392_queries (test_model.SequenceTests.test_exhaustive_two_episode_reference_392_queries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 237, in test_exhaustive_two_episode_reference_392_queries
+    result = m.replay(sequence[0], max_transitions=len(sequence))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_loss_of_entire_first_edge (test_model.SequenceTests.test_loss_of_entire_first_edge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 181, in test_loss_of_entire_first_edge
+    self.assertEqual(m.replay("A").stop, "missing")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_missing_cue_returns_only_cue (test_model.SequenceTests.test_missing_cue_returns_only_cue)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 117, in test_missing_cue_returns_only_cue
+    result = SequenceMemory().replay("unknown")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_noninjective_history_even_with_eviction_metadata (test_model.SequenceTests.test_noninjective_history_even_with_eviction_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 190, in test_noninjective_history_even_with_eviction_metadata
+    self.assertEqual(left.replay("A"), right.replay("A"))
+                     ^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_practice_selects_frequency_not_intention (test_model.SequenceTests.test_practice_selects_frequency_not_intention)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 132, in test_practice_selects_frequency_not_intention
+    self.assertEqual(m.replay("A").tokens, ("A", "C"))
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_replay_is_read_only (test_model.SequenceTests.test_replay_is_read_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 174, in test_replay_is_read_only
+    m.replay("A")
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_shared_cue_collision (test_model.SequenceTests.test_shared_cue_collision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 125, in test_shared_cue_collision
+    self.assertEqual(m.replay("A").stop, "ambiguous")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_single_token_episode (test_model.SequenceTests.test_single_token_episode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 113, in test_single_token_episode
+    self.assertEqual(m.replay("A").tokens, ("A",))
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_terminal_competes_with_continuation (test_model.SequenceTests.test_terminal_competes_with_continuation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 152, in test_terminal_competes_with_continuation
+    self.assertEqual(m.replay("A").stop, "ambiguous")
+                     ^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+======================================================================
+ERROR: test_zero_budget_and_exact_boundary (test_model.SequenceTests.test_zero_budget_and_exact_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 167, in test_zero_budget_and_exact_boundary
+    self.assertEqual(m.replay("A", max_transitions=1).stop, "budget")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 123, in replay
+    choice = self.habits.choose((context, output[-1]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ISOLATED_TEST_COPY/model.py", line 67, in choose
+    raise RuntimeError("intentional test error")
+RuntimeError: intentional test error
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.017s
+
+FAILED (errors=29)
+
+RESULT_JSON={"errors": 29, "failures": 0, "ids": ["test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted", "test_model.EmbodimentTests.test_clear_only_removes_active_event", "test_model.EmbodimentTests.test_demo_scenarios_have_expected_outcomes", "test_model.EmbodimentTests.test_feedback_not_independent_external_evidence", "test_model.EmbodimentTests.test_feedback_obeys_incoming_gate", "test_model.EmbodimentTests.test_forgetting_reaches_three_tables", "test_model.EmbodimentTests.test_incoming_and_outgoing_paths_are_separate", "test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active", "test_model.EmbodimentTests.test_source_attribution_survives_replay", "test_model.EmbodimentTests.test_teaching_and_recall_do_not_implicitly_reinforce", "test_model.EmbodimentTests.test_unactivated_recall_is_error", "test_model.EmbodimentTests.test_validation_is_atomic", "test_model.HabitTests.test_additive_forgetting_and_pruning", "test_model.HabitTests.test_capacity_weakest_then_oldest", "test_model.HabitTests.test_end_is_distinct_from_missing", "test_model.HabitTests.test_invalid_arguments_are_explicit_exceptions", "test_model.HabitTests.test_missing", "test_model.HabitTests.test_new_weak_edge_can_evict_itself", "test_model.HabitTests.test_reinforcement_changes_strength", "test_model.HabitTests.test_reintroduced_edge_has_new_birth", "test_model.HabitTests.test_snapshot_is_copy", "test_model.HabitTests.test_tie_is_not_arbitrary_winner", "test_model.HabitTests.test_unique_strongest_not_first_inserted", "test_model.HabitTests.test_zero_forgetting_is_identity", "test_model.SequenceTests.test_context_does_not_repair_internal_repetition", "test_model.SequenceTests.test_context_repairs_cross_episode_collision", "test_model.SequenceTests.test_cycle_stops_by_budget", "test_model.SequenceTests.test_exact_recovery_and_end_decision", "test_model.SequenceTests.test_exhaustive_single_episode_recovery_363_cases", "test_model.SequenceTests.test_exhaustive_two_episode_reference_392_queries", "test_model.SequenceTests.test_invalid_episode_does_not_partially_train", "test_model.SequenceTests.test_loss_of_entire_first_edge", "test_model.SequenceTests.test_missing_cue_returns_only_cue", "test_model.SequenceTests.test_noninjective_history_even_with_eviction_metadata", "test_model.SequenceTests.test_practice_selects_frequency_not_intention", "test_model.SequenceTests.test_replay_is_read_only", "test_model.SequenceTests.test_shared_cue_collision", "test_model.SequenceTests.test_single_token_episode", "test_model.SequenceTests.test_terminal_competes_with_continuation", "test_model.SequenceTests.test_zero_budget_and_exact_boundary"], "optimized": 2, "skipped": 0, "stage": "complete", "tests": 40}

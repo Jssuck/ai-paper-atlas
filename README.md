@@ -26,6 +26,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VI精读](papers/1780/condillac-logic-part1-ch6.zh-CN.md) | AI认知前史：习惯、行动解释与规范根据的边界 | 深读v1 · 完整书籍章节54–57及四条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VII精读](papers/1780/condillac-logic-part1-ch7.zh-CN.md) | AI认知前史：注意、比较、性质重组与隐含推理 | 深读v1 · 完整书籍章节58–66、九边注及一脚注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VIII精读](papers/1780/condillac-logic-part1-ch8.zh-CN.md) | AI认知前史：需要、欲望、习惯性激情与意志判断 | 深读v1 · 完整书籍章节67–71、九边注及一组自引 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.IX精读](papers/1780/condillac-logic-part1-ch9.zh-CN.md) | AI认知前史：身体习惯、序列再现与来源归因的边界 | 深读v1 · 完整书籍章节72–94、十九边注及全集勘误核验 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -357,3 +358,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 - [独立代码审计](reproduction/condillac-1780-part1-ch8/independent-review/review.zh-CN.md)
 
 实际1798卷XXII印67–71全五页、九条边注及70页一组自引/三个章位双扫描核图；无编号脚注，1780仅作一版书目年。客观缺少与剥夺之苦、习惯想象与亲历享受、潜在激情与当前欲望、期待与狭义/广义意志均分开。现代模型明示非空信念支持、实际情形与经验习惯输入；无阻碍到获得须另加桥梁，主观确信不保证真实成功。20道含答案练习、一般证明、标准库实跑和独立核验见附件；有限检查不证明心理、感觉论或全部意志能力。只完成该章，I.IX、全书、自引三章、Locke全章及全部旧版本/候选缺口继续保留。
+
+## Condillac《逻辑学》I.IX可运行附件
+
+- [身体习惯与记忆再现的中文精读](papers/1780/condillac-logic-part1-ch9.zh-CN.md)
+- [二十三页、十九边注及全集勘误账本](papers/1780/condillac-logic-part1-ch9.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part1-ch9.audit.zh-CN.md)
+- [模型、环境、命令与实跑日志](reproduction/condillac-1780-part1-ch9/README.md) · [逐步教学](reproduction/condillac-1780-part1-ch9/WALKTHROUGH.zh-CN.md)
+- [独立代码审计](reproduction/condillac-1780-part1-ch9/independent-review/review.zh-CN.md)
+
+仅完成实际1798《Œuvres》XXII卷I.IX印72–94全23页、19条边注，两册同版逐页核图；无编号脚注、自引或具名外部引文。1780只作已核一版书目年。新增核读XXIII卷末全集勘误三页，其唯一《逻辑》订正是第8页confirmation→conformation，不适用本章；I.I旧说明的跨篇校订另记待办，本次未改旧篇。
+
+全文区分当前观念与持久再现倾向、身体/脑往返关系、局部转移与完整历史、内容与来源。26题附答案；现代确定性序列模型有一般恢复条件、重复状态限制、完整状态碰撞与来源丢失证明，容量/衰减均明确为新增规则。标准库作者和两路独立实跑覆盖普通、-O、-OO模式，变异行为检出与装置失败分开；精确计数及日志见附件，不把有限检查当一般证明。无Notebook、人类心理或神经科学实证声称。第二部、全书、1780文字、版本史、洛克全章及全部旧候选/书籍缺口保留。

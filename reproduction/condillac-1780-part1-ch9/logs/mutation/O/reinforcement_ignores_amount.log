@@ -1,0 +1,120 @@
+test_ambiguous_expression_is_not_emitted (test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted) ... FAIL
+test_clear_only_removes_active_event (test_model.EmbodimentTests.test_clear_only_removes_active_event) ... ok
+test_demo_scenarios_have_expected_outcomes (test_model.EmbodimentTests.test_demo_scenarios_have_expected_outcomes) ... ok
+test_feedback_not_independent_external_evidence (test_model.EmbodimentTests.test_feedback_not_independent_external_evidence) ... ok
+test_feedback_obeys_incoming_gate (test_model.EmbodimentTests.test_feedback_obeys_incoming_gate) ... ok
+test_forgetting_reaches_three_tables (test_model.EmbodimentTests.test_forgetting_reaches_three_tables) ... ok
+test_incoming_and_outgoing_paths_are_separate (test_model.EmbodimentTests.test_incoming_and_outgoing_paths_are_separate) ... ok
+test_missing_or_ambiguous_sensation_clears_stale_active (test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active) ... FAIL
+test_source_attribution_survives_replay (test_model.EmbodimentTests.test_source_attribution_survives_replay) ... ok
+test_teaching_and_recall_do_not_implicitly_reinforce (test_model.EmbodimentTests.test_teaching_and_recall_do_not_implicitly_reinforce) ... ok
+test_unactivated_recall_is_error (test_model.EmbodimentTests.test_unactivated_recall_is_error) ... ok
+test_validation_is_atomic (test_model.EmbodimentTests.test_validation_is_atomic) ... ok
+test_additive_forgetting_and_pruning (test_model.HabitTests.test_additive_forgetting_and_pruning) ... FAIL
+test_capacity_weakest_then_oldest (test_model.HabitTests.test_capacity_weakest_then_oldest) ... FAIL
+test_end_is_distinct_from_missing (test_model.HabitTests.test_end_is_distinct_from_missing) ... ok
+test_invalid_arguments_are_explicit_exceptions (test_model.HabitTests.test_invalid_arguments_are_explicit_exceptions) ... ok
+test_missing (test_model.HabitTests.test_missing) ... ok
+test_new_weak_edge_can_evict_itself (test_model.HabitTests.test_new_weak_edge_can_evict_itself) ... FAIL
+test_reinforcement_changes_strength (test_model.HabitTests.test_reinforcement_changes_strength) ... FAIL
+test_reintroduced_edge_has_new_birth (test_model.HabitTests.test_reintroduced_edge_has_new_birth) ... ok
+test_snapshot_is_copy (test_model.HabitTests.test_snapshot_is_copy) ... ok
+test_tie_is_not_arbitrary_winner (test_model.HabitTests.test_tie_is_not_arbitrary_winner) ... ok
+test_unique_strongest_not_first_inserted (test_model.HabitTests.test_unique_strongest_not_first_inserted) ... FAIL
+test_zero_forgetting_is_identity (test_model.HabitTests.test_zero_forgetting_is_identity) ... ok
+test_context_does_not_repair_internal_repetition (test_model.SequenceTests.test_context_does_not_repair_internal_repetition) ... ok
+test_context_repairs_cross_episode_collision (test_model.SequenceTests.test_context_repairs_cross_episode_collision) ... ok
+test_cycle_stops_by_budget (test_model.SequenceTests.test_cycle_stops_by_budget) ... ok
+test_exact_recovery_and_end_decision (test_model.SequenceTests.test_exact_recovery_and_end_decision) ... ok
+test_exhaustive_single_episode_recovery_363_cases (test_model.SequenceTests.test_exhaustive_single_episode_recovery_363_cases) ... ok
+test_exhaustive_two_episode_reference_392_queries (test_model.SequenceTests.test_exhaustive_two_episode_reference_392_queries) ... ok
+test_invalid_episode_does_not_partially_train (test_model.SequenceTests.test_invalid_episode_does_not_partially_train) ... ok
+test_loss_of_entire_first_edge (test_model.SequenceTests.test_loss_of_entire_first_edge) ... ok
+test_missing_cue_returns_only_cue (test_model.SequenceTests.test_missing_cue_returns_only_cue) ... ok
+test_noninjective_history_even_with_eviction_metadata (test_model.SequenceTests.test_noninjective_history_even_with_eviction_metadata) ... ok
+test_practice_selects_frequency_not_intention (test_model.SequenceTests.test_practice_selects_frequency_not_intention) ... ok
+test_replay_is_read_only (test_model.SequenceTests.test_replay_is_read_only) ... ok
+test_shared_cue_collision (test_model.SequenceTests.test_shared_cue_collision) ... ok
+test_single_token_episode (test_model.SequenceTests.test_single_token_episode) ... ok
+test_terminal_competes_with_continuation (test_model.SequenceTests.test_terminal_competes_with_continuation) ... ok
+test_zero_budget_and_exact_boundary (test_model.SequenceTests.test_zero_budget_and_exact_boundary) ... ok
+
+======================================================================
+FAIL: test_ambiguous_expression_is_not_emitted (test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 316, in test_ambiguous_expression_is_not_emitted
+    self.assertIsNone(agent.express())
+AssertionError: BodyEvent(signal=Signal(organ='hand', value='A'), cause=IdeaEvent(idea='A', source='cue')) is not None
+
+======================================================================
+FAIL: test_missing_or_ambiguous_sensation_clears_stale_active (test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 309, in test_missing_or_ambiguous_sensation_clears_stale_active
+    self.assertEqual(agent.sense(signal).status, "ambiguous")
+AssertionError: 'chosen' != 'ambiguous'
+- chosen
++ ambiguous
+
+
+======================================================================
+FAIL: test_additive_forgetting_and_pruning (test_model.HabitTests.test_additive_forgetting_and_pruning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 52, in test_additive_forgetting_and_pruning
+    self.assertEqual(h.snapshot(), {("a", "b"): 2})
+AssertionError: {} != {('a', 'b'): 2}
+- {}
++ {('a', 'b'): 2}
+
+======================================================================
+FAIL: test_capacity_weakest_then_oldest (test_model.HabitTests.test_capacity_weakest_then_oldest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 69, in test_capacity_weakest_then_oldest
+    self.assertEqual(h.snapshot(), {("a", "b"): 2, ("a", "d"): 1})
+AssertionError: {('a', 'c'): 1, ('a', 'd'): 1} != {('a', 'b'): 2, ('a', 'd'): 1}
+- {('a', 'c'): 1, ('a', 'd'): 1}
+?         ^    ^
+
++ {('a', 'b'): 2, ('a', 'd'): 1}
+?         ^    ^
+
+
+======================================================================
+FAIL: test_new_weak_edge_can_evict_itself (test_model.HabitTests.test_new_weak_edge_can_evict_itself)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 76, in test_new_weak_edge_can_evict_itself
+    self.assertEqual(h.snapshot(), {("a", "b"): 2})
+AssertionError: {('a', 'c'): 1} != {('a', 'b'): 2}
+- {('a', 'c'): 1}
+?         ^    ^
+
++ {('a', 'b'): 2}
+?         ^    ^
+
+
+======================================================================
+FAIL: test_reinforcement_changes_strength (test_model.HabitTests.test_reinforcement_changes_strength)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 18, in test_reinforcement_changes_strength
+    self.assertEqual(h.choose("a").strength, 5)
+AssertionError: 2 != 5
+
+======================================================================
+FAIL: test_unique_strongest_not_first_inserted (test_model.HabitTests.test_unique_strongest_not_first_inserted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 31, in test_unique_strongest_not_first_inserted
+    self.assertEqual(h.choose("a").value, "c")
+AssertionError: None != 'c'
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.027s
+
+FAILED (failures=7)
+
+RESULT_JSON={"errors": 0, "failures": 7, "ids": ["test_model.EmbodimentTests.test_ambiguous_expression_is_not_emitted", "test_model.EmbodimentTests.test_clear_only_removes_active_event", "test_model.EmbodimentTests.test_demo_scenarios_have_expected_outcomes", "test_model.EmbodimentTests.test_feedback_not_independent_external_evidence", "test_model.EmbodimentTests.test_feedback_obeys_incoming_gate", "test_model.EmbodimentTests.test_forgetting_reaches_three_tables", "test_model.EmbodimentTests.test_incoming_and_outgoing_paths_are_separate", "test_model.EmbodimentTests.test_missing_or_ambiguous_sensation_clears_stale_active", "test_model.EmbodimentTests.test_source_attribution_survives_replay", "test_model.EmbodimentTests.test_teaching_and_recall_do_not_implicitly_reinforce", "test_model.EmbodimentTests.test_unactivated_recall_is_error", "test_model.EmbodimentTests.test_validation_is_atomic", "test_model.HabitTests.test_additive_forgetting_and_pruning", "test_model.HabitTests.test_capacity_weakest_then_oldest", "test_model.HabitTests.test_end_is_distinct_from_missing", "test_model.HabitTests.test_invalid_arguments_are_explicit_exceptions", "test_model.HabitTests.test_missing", "test_model.HabitTests.test_new_weak_edge_can_evict_itself", "test_model.HabitTests.test_reinforcement_changes_strength", "test_model.HabitTests.test_reintroduced_edge_has_new_birth", "test_model.HabitTests.test_snapshot_is_copy", "test_model.HabitTests.test_tie_is_not_arbitrary_winner", "test_model.HabitTests.test_unique_strongest_not_first_inserted", "test_model.HabitTests.test_zero_forgetting_is_identity", "test_model.SequenceTests.test_context_does_not_repair_internal_repetition", "test_model.SequenceTests.test_context_repairs_cross_episode_collision", "test_model.SequenceTests.test_cycle_stops_by_budget", "test_model.SequenceTests.test_exact_recovery_and_end_decision", "test_model.SequenceTests.test_exhaustive_single_episode_recovery_363_cases", "test_model.SequenceTests.test_exhaustive_two_episode_reference_392_queries", "test_model.SequenceTests.test_invalid_episode_does_not_partially_train", "test_model.SequenceTests.test_loss_of_entire_first_edge", "test_model.SequenceTests.test_missing_cue_returns_only_cue", "test_model.SequenceTests.test_noninjective_history_even_with_eviction_metadata", "test_model.SequenceTests.test_practice_selects_frequency_not_intention", "test_model.SequenceTests.test_replay_is_read_only", "test_model.SequenceTests.test_shared_cue_collision", "test_model.SequenceTests.test_single_token_episode", "test_model.SequenceTests.test_terminal_competes_with_continuation", "test_model.SequenceTests.test_zero_budget_and_exact_boundary"], "optimized": 1, "skipped": 0, "stage": "complete", "tests": 40}

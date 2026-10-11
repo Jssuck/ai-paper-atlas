@@ -1,0 +1,170 @@
+{
+  "recorded_at_utc": "2026-10-11T21:49:54.349846+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "platform_release": "6.18.44",
+  "machine": "x86_64",
+  "interpreter_name": "python3",
+  "python_dependencies": "standard library only",
+  "minimum_syntax_version": "3.10",
+  "working_directory": ".",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "returncode": 0,
+      "log": "logs/demo.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "mutation_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/mutation-summary.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-normal.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-O.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-OO.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-OO.log"
+    }
+  ],
+  "source_sha256": {
+    "MODEL.zh-CN.md": "36c1b7b1803fd97a7afa1c30d3ab89a44244811a5466d454b42f51e79bfc039d",
+    "README.md": "c610794cbb8a491b71bee6a5d0988f0d191657692caa1124497875d618a808ef",
+    "WALKTHROUGH.zh-CN.md": "2dc1d7197be30f3a6a6ed14eb781a8bf1ffad5e5a4870a673db7c60b21847ec0",
+    "demo.py": "79e0172f6ab3f25cadfb9353ee746c4fdff8b85343a68b49adfc0c642ffe3174",
+    "independent-review/audit_harness.py": "b04701089029231f3b88b995dad7e94605613ca8d85fa336c5f9a01280d96ab6",
+    "independent-review/test_independent.py": "d3a682342ac0bbcf23936469b150140432b228229bf21cd1a59867c8df1551fd",
+    "independent_check.py": "e480f19f0cc071676406e255d00ad80789f6bf47f260a4d53365db4cc5c4e88a",
+    "model.py": "da91aafcf519886ee7bb317eab74ccce1f1ff8d5a082cd223702c6eefe622444",
+    "mutation_check.py": "6430fcd738e0045e4814cc45113a075fe5ec06c00771ca6265a04c6b8ff17a4b",
+    "run_all.py": "fea5b3573995a41deb21a9a18318eda9d2c3f6c411a811773947817b7a2df871",
+    "test_model.py": "ac9c5b75d2f9ecaef99356c4d8d30492b8110b7096033287f332608021cd3b84"
+  }
+}

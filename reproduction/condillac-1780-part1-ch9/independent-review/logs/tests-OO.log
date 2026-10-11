@@ -1,0 +1,14 @@
+INDEPENDENT_RESULT={"bare_asserts": 0, "errors": 0, "failures": 0, "metrics": {"bounded_practice_queries": 1080, "capacity_decay_histories": 16384, "capacity_decay_prefixes": 65536, "complete_state_collision_checks": 4, "embodied_contract_groups": 9, "exact_theorem_queries": 86022, "graph_replay_queries": 15309, "invalid_operation_checks": 12, "metamorphic_groups": 5, "minimum_practice_queries": 10196, "minimum_practice_states_targets": 2916, "offline_episode_counts": 1092, "weight_graphs": 729}, "model_sha256": "da91aafcf519886ee7bb317eab74ccce1f1ff8d5a082cd223702c6eefe622444", "optimized": 2, "skips": 0, "stage": "complete", "tests": 8}
+test_all_small_weight_graphs_and_exact_recovery_contract (__main__.IndependentContractTests.test_all_small_weight_graphs_and_exact_recovery_contract) ... ok
+test_embodiment_direction_context_gates_provenance_and_stable_trace (__main__.IndependentContractTests.test_embodiment_direction_context_gates_provenance_and_stable_trace) ... ok
+test_episode_practice_matches_offline_counts_and_copy_boundary (__main__.IndependentContractTests.test_episode_practice_matches_offline_counts_and_copy_boundary) ... ok
+test_exhaustive_capacity_decay_histories_against_record_oracle (__main__.IndependentContractTests.test_exhaustive_capacity_decay_histories_against_record_oracle) ... ok
+test_history_collision_includes_retained_metadata_and_future_behavior (__main__.IndependentContractTests.test_history_collision_includes_retained_metadata_and_future_behavior) ... ok
+test_invalid_inputs_atomicity_and_frozen_return_values (__main__.IndependentContractTests.test_invalid_inputs_atomicity_and_frozen_return_values) ... ok
+test_metamorphic_relabel_scale_decay_and_context_isolation (__main__.IndependentContractTests.test_metamorphic_relabel_scale_decay_and_context_isolation) ... ok
+test_minimum_practice_formula_and_finite_capacity_boundary (__main__.IndependentContractTests.test_minimum_practice_formula_and_finite_capacity_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.969s
+
+OK

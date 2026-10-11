@@ -1,0 +1,10 @@
+{
+  "all_14_commands_passed": true,
+  "source_hashes_verified": 11,
+  "mutation_behavioral_kills": 45,
+  "private_path_matches": 0,
+  "unwanted_release_items": 0,
+  "python": "3.12.14",
+  "model_sha256": "da91aafcf519886ee7bb317eab74ccce1f1ff8d5a082cd223702c6eefe622444",
+  "harness_sha256": "6430fcd738e0045e4814cc45113a075fe5ec06c00771ca6265a04c6b8ff17a4b"
+}

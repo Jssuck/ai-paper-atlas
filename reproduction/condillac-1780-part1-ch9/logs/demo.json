@@ -1,0 +1,151 @@
+{
+  "exact_recovery": {
+    "tokens": [
+      "do",
+      "mi",
+      "sol"
+    ],
+    "stop": "end",
+    "decision_count": 3
+  },
+  "shared_cue_tie": {
+    "tokens": [
+      "do"
+    ],
+    "stop": "ambiguous",
+    "decision_count": 1
+  },
+  "practice_resolves_tie_but_not_intention": {
+    "tokens": [
+      "do",
+      "mi",
+      "sol"
+    ],
+    "stop": "end",
+    "decision_count": 3
+  },
+  "context_repair": [
+    {
+      "tokens": [
+        "do",
+        "mi",
+        "sol"
+      ],
+      "stop": "end",
+      "decision_count": 3
+    },
+    {
+      "tokens": [
+        "do",
+        "fa",
+        "la"
+      ],
+      "stop": "end",
+      "decision_count": 3
+    }
+  ],
+  "within_piece_ambiguity": {
+    "tokens": [
+      "A"
+    ],
+    "stop": "ambiguous",
+    "decision_count": 1
+  },
+  "after_two_decay_units": {
+    "edges": 2,
+    "recall": {
+      "tokens": [
+        "A",
+        "B"
+      ],
+      "stop": "end",
+      "decision_count": 2
+    }
+  },
+  "after_three_decay_units": {
+    "edges": 0,
+    "recall": {
+      "tokens": [
+        "A"
+      ],
+      "stop": "missing",
+      "decision_count": 1
+    }
+  },
+  "capacity_two": {
+    "edges": 2,
+    "recall": {
+      "tokens": [
+        "A"
+      ],
+      "stop": "missing",
+      "decision_count": 1
+    }
+  },
+  "different_histories_same_weights": {
+    "equal_snapshots": true,
+    "equal_birth_metadata": true,
+    "equal_serial": true,
+    "left": {
+      "tokens": [
+        "A"
+      ],
+      "stop": "ambiguous",
+      "decision_count": 1
+    },
+    "right": {
+      "tokens": [
+        "A"
+      ],
+      "stop": "ambiguous",
+      "decision_count": 1
+    }
+  },
+  "reciprocal_paths_and_provenance": {
+    "ideas": [
+      {
+        "idea": "do",
+        "source": "external",
+        "external_evidence": true
+      },
+      {
+        "idea": "mi",
+        "source": "replay",
+        "external_evidence": false
+      },
+      {
+        "idea": "sol",
+        "source": "replay",
+        "external_evidence": false
+      }
+    ],
+    "body_signals": [
+      "do",
+      "mi",
+      "sol"
+    ],
+    "feedback_source": "feedback",
+    "feedback_external_evidence": false,
+    "active_after_clear": null,
+    "dispositions_unchanged": true
+  },
+  "blocked_incoming_path": "blocked",
+  "central_replay_without_body_output": {
+    "tokens": [
+      "do",
+      "mi",
+      "sol"
+    ],
+    "nonempty_outputs": 0
+  },
+  "cycle_guard": {
+    "tokens": [
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "stop": "budget",
+    "decision_count": 3
+  }
+}

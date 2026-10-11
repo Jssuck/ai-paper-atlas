@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "optimization": 1,
+  "two_state_weight_assignments": 729,
+  "reference_replay_checks": 8748,
+  "exact_recovery_iff_checks": 21870,
+  "capacity_decay_full_state_checks": 10000,
+  "noninjective_full_state_pair": [
+    "ABACABACA",
+    "ABACACABA"
+  ],
+  "provenance_collision_checked": true,
+  "limits": [
+    "finite tests do not prove unbounded theorems",
+    "provenance flag describes trusted caller route, not world truth",
+    "no medical or neuroscience validation"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "success": true,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "returncode": 0,
+      "log": "logs/demo.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "mutation_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/mutation-summary.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-normal.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-O.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent_check.py"
+      ],
+      "returncode": 0,
+      "log": "logs/independent-check-OO.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "independent-review/audit_harness.py"
+      ],
+      "returncode": 0,
+      "log": "independent-review/logs/harness-OO.log"
+    }
+  ]
+}

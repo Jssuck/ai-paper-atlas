@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "bare_asserts_in_tests": 0,
+  "modes": {
+    "normal": {
+      "baseline_tests": 40,
+      "behavioral_kills": 15,
+      "control_checks_passed": true
+    },
+    "O": {
+      "baseline_tests": 40,
+      "behavioral_kills": 15,
+      "control_checks_passed": true
+    },
+    "OO": {
+      "baseline_tests": 40,
+      "behavioral_kills": 15,
+      "control_checks_passed": true
+    }
+  }
+}

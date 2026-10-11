@@ -1,0 +1,9 @@
+RESULT_JSON={"stage": "bootstrap_error"}
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/_runner.py", line 4, in <module>
+    import test_model
+  File "ISOLATED_TEST_COPY/test_model.py", line 5, in <module>
+    from model import (BodyEvent, EmbodiedMemory, IdeaEvent, Observation, SequenceMemory,
+  File "ISOLATED_TEST_COPY/model.py", line 1, in <module>
+    raise ImportError("independent control")
+ImportError: independent control
