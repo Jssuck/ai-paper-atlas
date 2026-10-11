@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-cv",
     "path": "papers/1768/euler-letter-cv.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete Letter CV,1768 volumeII printed pp119–126,dated24February1761;verify scan gaps and explicitly label any companion edition."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-civ",
-    "path": "papers/1768/euler-letter-civ.zh-CN.md",
     "version": "v1",
-    "content_commit": "54dd0ad6fae260c31946768064aae34ddbd5d95d",
-    "checks": "Independent source/mathematics and code audits passed;23 main tests,8653 independent field comparisons,three teaching examples;28 remote blob identities and26 text contents verified. All48 article formulas,four tables,42anchors,related Markdown and original SVG/PNG pixels checked in browser.",
-    "scope": "Complete Letter CIV,1768 pp111–119,dated21February1761;clipped112/114/116/118 supplemented by1770 pp116–124 with explicit version limits. Printed XVI and evidence-based teaching repair kept separate;no formal erratum claimed."
+    "content_commit": "86cb3ec0965a8f84c37bc560b67741d4d955b327",
+    "checks": "Independent source,mathematics and code reviews passed;22 tests,255 support models,4680 independent labeled models,42 input-error checks.28 remote blob identities and27 text contents verified.192 formulas,twelve tables,seven Markdown pages,25 repository destinations and original SVG/PNG pixels checked in browser.IIIF manifest browser check blocked by client;catalog,images and PDF sources opened.",
+    "scope": "Complete Letter CV,1768 pp119–126,dated24February1761;1770 pp124–131 comparison and partial supplement for clipped original120.Original122 diagram-text tension retained as qualified analysis,not formal erratum."
   },
-  "updated_at": "2026-10-11T08:56:00Z",
+  "updated_at": "2026-10-11T09:06:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote files, formulas, tables, links and original diagrams after independent audits; retain original page120 companion-edition supplement and page122 diagram-text tension.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
