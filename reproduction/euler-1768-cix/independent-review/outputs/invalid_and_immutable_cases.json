@@ -1,0 +1,870 @@
+[
+  {
+    "case": "invalid finite constructor (0, 0, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 0, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 1, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 2, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (0, 3, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 0, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 1, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 1, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 1, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 1, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 1, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 2, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (1, 3, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 0, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 1, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 2, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 2, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 2, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 2, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 2, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 0, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (2, 3, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 0, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 1, 0, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 1, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 1, 2, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 1, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 1, 2, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 2, 0, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 2, 1, 0)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 2, 1, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 2, 1, 2)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "invalid finite constructor (3, 2, 2, 1)",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state type retained/0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/2",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/3",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/4",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/5",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/6",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type retained/7",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/2",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/3",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/4",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type recallable/5",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type attention/0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type attention/1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type attention/2",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type attention/3",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type attention/4",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type sensory/0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type sensory/1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type sensory/2",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type sensory/3",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state type sensory/4",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition recall/Cue.FIRE",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition False/None",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition None/None",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition Kind.RECALL/None",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition Kind.RECALL/False",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition Kind.PERCEIVE/fire",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition Kind.MAKE_INACCESSIBLE/1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action type/precondition Kind.WITHDRAW/Cue.FIRE",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action type/precondition Kind.SET_ASIDE/Cue.BELL",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action type/precondition Kind.ERASE_ALL/Cue.FIRE",
+    "exception": "ValueError"
+  },
+  {
+    "case": "transition argument type NoneType/Action",
+    "exception": "TypeError"
+  },
+  {
+    "case": "transition argument type dict/Action",
+    "exception": "TypeError"
+  },
+  {
+    "case": "transition argument type State/NoneType",
+    "exception": "TypeError"
+  },
+  {
+    "case": "transition argument type State/dict",
+    "exception": "TypeError"
+  },
+  {
+    "case": "transition argument type StateSubclass/Action",
+    "exception": "TypeError"
+  },
+  {
+    "case": "transition argument type State/ActionSubclass",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 2",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 3",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 4",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 5",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 6",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 7",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 8",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 9",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 10",
+    "exception": "ValueError"
+  },
+  {
+    "case": "state deserialization 11",
+    "exception": "TypeError"
+  },
+  {
+    "case": "state deserialization 12",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 0",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 1",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 2",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action deserialization 3",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action deserialization 4",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 5",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 6",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action deserialization 7",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action deserialization 8",
+    "exception": "TypeError"
+  },
+  {
+    "case": "action deserialization 9",
+    "exception": "ValueError"
+  },
+  {
+    "case": "action deserialization 10",
+    "exception": "ValueError"
+  },
+  {
+    "case": "immutable state (0, 0, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (1, 0, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (1, 1, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (1, 1, 0, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (1, 1, 1, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (1, 1, 1, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (2, 0, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (2, 2, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (2, 2, 0, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (2, 2, 2, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (2, 2, 2, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 0, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 1, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 1, 0, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 1, 1, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 1, 1, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 2, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 2, 0, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 2, 2, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 2, 2, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 0, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 0, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 0, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 1, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 1, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 1, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 2, 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 2, 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable state (3, 3, 2, 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('perceive', 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('perceive', 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('withdraw', 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('set_aside', 0)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('recall', 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('recall', 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('make_inaccessible', 1)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('make_inaccessible', 2)",
+    "exception": "FrozenInstanceError"
+  },
+  {
+    "case": "immutable action ('erase_all', 0)",
+    "exception": "FrozenInstanceError"
+  }
+]

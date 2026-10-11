@@ -1,0 +1,13 @@
+Command: python3 run_all.py
+CWD: ./independent-review/runner-copy-yxxq_u5y
+Started UTC: 2026-10-11T12:50:47.562060+00:00
+Exit code: 0
+Elapsed seconds: 1.062235
+
+STDOUT:
+tests: exit=0, elapsed=0.808s
+demo: exit=0, elapsed=0.088s
+exhaustive: exit=0, elapsed=0.100s
+PASS: tests, examples, and exhaustive model checks; see logs/ and outputs/.
+
+STDERR:

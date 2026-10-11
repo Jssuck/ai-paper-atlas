@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "scope": "Independent software verification of a stipulated modern teaching model; not historical or empirical validation.",
+  "oracle": "independent integer/bit-mask specification; direct constructor domain and complete reachable graph",
+  "graph": {
+    "states": 29,
+    "reachable_states": 29,
+    "actions": 9,
+    "state_action_pairs": 261,
+    "successful_transitions": 235,
+    "rejected_preconditions": 26,
+    "rejection_reasons": {
+      "unretained": 12,
+      "currently_presented": 14
+    },
+    "longest_shortest_path": 5,
+    "per_action": {
+      "perceive:fire": {
+        "valid": 29
+      },
+      "perceive:bell": {
+        "valid": 29
+      },
+      "withdraw": {
+        "valid": 29
+      },
+      "set_aside": {
+        "valid": 29
+      },
+      "recall:fire": {
+        "valid": 29
+      },
+      "recall:bell": {
+        "valid": 29
+      },
+      "make_inaccessible:fire": {
+        "unretained": 6,
+        "valid": 16,
+        "currently_presented": 7
+      },
+      "make_inaccessible:bell": {
+        "unretained": 6,
+        "valid": 16,
+        "currently_presented": 7
+      },
+      "erase_all": {
+        "valid": 29
+      }
+    }
+  },
+  "contracts": {
+    "constructor_domain_candidates": 144,
+    "valid_constructors": 29,
+    "invalid_constructors": 115,
+    "negative_and_immutability_cases": 217,
+    "state_round_trips": 29,
+    "action_round_trips": 9
+  },
+  "examples": {
+    "traces": 7,
+    "trace_steps": 24,
+    "observer_witness_verified": true
+  },
+  "mutation_tests": {
+    "plausible_mutations": 7,
+    "detected": 7
+  },
+  "CLI_and_author_tests": {
+    "CLI_commands": 13,
+    "checker_fault_injection_detected_normal_and_optimized": true,
+    "author_suite_passed": true,
+    "author_test_count": 28,
+    "hash_seed_independent_output": true
+  },
+  "packaged_runner": {
+    "published_hashes_verified": 5,
+    "isolated_runner_exit_code": 0,
+    "deterministic_output_files_matched": 2
+  },
+  "source_sha256": {
+    "memory_model.py": "c10a1f04aac6ac11c65e741479b586659a1fc2c7e8ebbe355058d09c09d68026",
+    "tests/test_memory_model.py": "978ff0ac1e9d5a1b83af32169d7dee2aae9fa9cf482c550b99e0f8e01d8a5891",
+    "run_all.py": "6013dafcdd44b0026326b10a2749d83758257176fa58bce2a776c6c3c74e428b",
+    "independent-review/audit_model.py": "ef143532537fe1a5614c1452b17f3bcd4bb332e36c0e938a93793f73953ac6e0"
+  }
+}

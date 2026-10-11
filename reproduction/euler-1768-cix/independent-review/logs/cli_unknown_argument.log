@@ -1,0 +1,11 @@
+Command: python3 ./memory_model.py --invalid
+CWD: .
+Started UTC: 2026-10-11T12:50:45.550856+00:00
+Exit code: 2
+Elapsed seconds: 0.115724
+
+STDOUT:
+
+STDERR:
+usage: memory_model.py [-h] [--demo | --check] [--output OUTPUT]
+memory_model.py: error: unrecognized arguments: --invalid

@@ -1,0 +1,756 @@
+[
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": []
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "make_inaccessible",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "set_aside",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "recall",
+        "cue": "fire"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "withdraw",
+        "cue": null
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      },
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "recall",
+        "cue": "bell"
+      }
+    ]
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "shortest_path": [
+      {
+        "kind": "perceive",
+        "cue": "fire"
+      },
+      {
+        "kind": "perceive",
+        "cue": "bell"
+      }
+    ]
+  }
+]

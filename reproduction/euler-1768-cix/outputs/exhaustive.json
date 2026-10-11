@@ -1,0 +1,18 @@
+{
+  "model_kind": "modern teaching countermodel, not empirical cognition",
+  "states": 29,
+  "reachable_states": 29,
+  "actions": 9,
+  "state_action_pairs": 261,
+  "successful_transitions": 235,
+  "rejected_preconditions": 26,
+  "checks": [
+    "state invariants",
+    "equal-state/equal-action consistency",
+    "recall does not create sensory input",
+    "recognition checks prior retention",
+    "retention persists under non-erasing control actions",
+    "all valid states reachable"
+  ],
+  "status": "PASS"
+}

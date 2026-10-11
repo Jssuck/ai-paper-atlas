@@ -1,0 +1,111 @@
+[
+  {
+    "mutation": "recognize_after_encoding",
+    "witness_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "perceive",
+      "cue": "fire"
+    }
+  },
+  {
+    "mutation": "recall_creates_sensory_input",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "recall",
+      "cue": "fire"
+    }
+  },
+  {
+    "mutation": "set_aside_erases_memory",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "set_aside",
+      "cue": null
+    }
+  },
+  {
+    "mutation": "inaccessibility_erases_retention",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    }
+  },
+  {
+    "mutation": "reset_keeps_history",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "erase_all",
+      "cue": null
+    }
+  },
+  {
+    "mutation": "failed_recall_clears_attention",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "recall",
+      "cue": "bell"
+    }
+  },
+  {
+    "mutation": "conviction_follows_attention",
+    "witness_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "witness_action": {
+      "kind": "recall",
+      "cue": "fire"
+    }
+  }
+]

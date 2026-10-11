@@ -17,6 +17,7 @@
 | 1768（原信署1761-02-28） | [Euler第CVI信精读](papers/1768/euler-letter-cvi.zh-CN.md) | AI前史：项位、四格十九式与存在条件 | 深读v1 · 完整书信章节；1768＋1770复合底本 |
 | 1768（原信署1761-03-03） | [Euler第CVII信精读](papers/1768/euler-letter-cvii.zh-CN.md) | AI前史：必要条件、单称命题与共同见证 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1768（原信署1761-03-07） | [Euler第CVIII信精读](papers/1768/euler-letter-cviii.zh-CN.md) | AI前史：条件推理的方向、覆盖与互斥 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
+| 1768（原信署1761-03-10） | [Euler第CIX信精读](papers/1768/euler-letter-cix.zh-CN.md) | AI认知前史：保持、回想、再认与心灵论证的边界 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -254,3 +255,15 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成CVIII书信章节：1768印139下–144署日，署1761-03-07；非期刊论文。完整六页原文可读，1770同信144下–149全篇对校；其149页页眉CIX不改变页首CVIII归属。1770印147两处孤立pro列为排印差异，未冒称正式勘误。
 
 两正确/两错误条件式、报纸和平例及实体析取例全部展开；材料真假与必要后果、穷尽与互斥、论域/存在、空真与事实真实性分别说明，14题附答案。31项主测试与21个案例实际运行，其中10有效、11无效，2个有效例明确标出空真；独立来源/全篇数学/代码审计见附件。代码是标准库现代教学重构，无Notebook或Jupyter核验声称；有限执行不代替一般证明，不认定AI或逻辑史起点。所有旧README文字、候选、历史、状态、书籍/扫描/版本缺口保留；CIX、整卷与全书未完成。
+
+
+
+## Euler第CIX信可运行附件
+
+- [保持、注意、输入与再认的现代教学模型](reproduction/euler-1768-cix/README.md) · [中文逐步手算](reproduction/euler-1768-cix/WALKTHROUGH.zh-CN.md)
+- [逐页来源及版本账本](papers/1768/euler-letter-cix.sources.zh-CN.md) · [独立全篇论证审计](papers/1768/euler-letter-cix.audit.zh-CN.md)
+- [28项主测试日志](reproduction/euler-1768-cix/logs/tests.log) · [7例24步实跑结果](reproduction/euler-1768-cix/outputs/demo.json) · [独立代码复核](reproduction/euler-1768-cix/independent-review/review.zh-CN.md)
+
+仅完成CIX书信章节：1768印144下–148署日，署1761-03-10；非期刊论文。完整五页原文可读，1770同信149下–153全篇对校；两版idées existent réellement原印措辞与对象当前实在性的上下文解释分开。未发现指定材料中适用的正式勘误。
+
+本信由逻辑转向认知与心灵哲学：感觉、保持、回想、遗忘/再认、脑变化与印痕反驳、抽象、自由及恶的结尾全部读核，15题附答案。三状态反例与完整状态不可区分证明明确属于现代重构；可执行扩展实际检查29个可达状态、9操作、261对（235合法、26预期拒绝），28项主测试和7例24步通过，另有独立整数oracle与故障检出复核。无Notebook或Jupyter核验声称。有限程序不证明人类记忆规律、物质主义、体验或自由意志，也不宣定AI历史起点。全部旧README、候选、历史、状态、书籍/扫描/版本缺口保留；CX、整卷与全书未完成。

@@ -1,0 +1,41 @@
+Command: python3 -m unittest discover -s tests -v
+Started UTC: 2026-10-11T12:47:57.060649+00:00
+Exit code: 0
+Elapsed seconds: 1.107796
+
+STDOUT:
+
+STDERR:
+test_cli_outputs_json_to_stdout_and_file (test_memory_model.CompleteDomainAndCliTests.test_cli_outputs_json_to_stdout_and_file) ... ok
+test_cli_rejects_conflicting_modes (test_memory_model.CompleteDomainAndCliTests.test_cli_rejects_conflicting_modes) ... ok
+test_demo_is_deterministic_and_contains_true_witnesses (test_memory_model.CompleteDomainAndCliTests.test_demo_is_deterministic_and_contains_true_witnesses) ... ok
+test_every_valid_state_and_action_checked (test_memory_model.CompleteDomainAndCliTests.test_every_valid_state_and_action_checked) ... ok
+test_exhaustive_checker_runs_under_optimized_python (test_memory_model.CompleteDomainAndCliTests.test_exhaustive_checker_runs_under_optimized_python) ... ok
+test_attention_and_sensory_input_can_have_different_contents (test_memory_model.DistinctionTests.test_attention_and_sensory_input_can_have_different_contents) ... ok
+test_complete_reset_has_no_surviving_history_flag (test_memory_model.DistinctionTests.test_complete_reset_has_no_surviving_history_flag) ... ok
+test_equal_states_stay_equal_under_a_shared_future_sequence (test_memory_model.DistinctionTests.test_equal_states_stay_equal_under_a_shared_future_sequence) ... ok
+test_failed_recall_does_not_delete_unrelated_attention (test_memory_model.DistinctionTests.test_failed_recall_does_not_delete_unrelated_attention) ... ok
+test_first_perception_stores_and_supplies_conviction (test_memory_model.DistinctionTests.test_first_perception_stores_and_supplies_conviction) ... ok
+test_inaccessible_is_retained_and_can_be_recognized (test_memory_model.DistinctionTests.test_inaccessible_is_retained_and_can_be_recognized) ... ok
+test_inputs_not_mutated_and_results_not_aliased_mutably (test_memory_model.DistinctionTests.test_inputs_not_mutated_and_results_not_aliased_mutably) ... ok
+test_memory_is_token_specific (test_memory_model.DistinctionTests.test_memory_is_token_specific) ... ok
+test_never_seen_recall_fails_and_first_perception_is_not_recognition (test_memory_model.DistinctionTests.test_never_seen_recall_fails_and_first_perception_is_not_recognition) ... ok
+test_recall_can_coexist_with_independent_current_input (test_memory_model.DistinctionTests.test_recall_can_coexist_with_independent_current_input) ... ok
+test_recall_failure_does_not_tell_inaccessible_from_absent (test_memory_model.DistinctionTests.test_recall_failure_does_not_tell_inaccessible_from_absent) ... ok
+test_recalled_fire_does_not_produce_fire_conviction (test_memory_model.DistinctionTests.test_recalled_fire_does_not_produce_fire_conviction) ... ok
+test_recognition_uses_retention_before_new_encoding (test_memory_model.DistinctionTests.test_recognition_uses_retention_before_new_encoding) ... ok
+test_set_aside_does_not_erase_current_input (test_memory_model.DistinctionTests.test_set_aside_does_not_erase_current_input) ... ok
+test_storage_can_outlast_attention_and_input (test_memory_model.DistinctionTests.test_storage_can_outlast_attention_and_input) ... ok
+test_withdrawing_input_need_not_remove_attended_idea (test_memory_model.DistinctionTests.test_withdrawing_input_need_not_remove_attended_idea) ... ok
+test_action_serialization_requires_exact_keys_and_types (test_memory_model.ValidationTests.test_action_serialization_requires_exact_keys_and_types) ... ok
+test_cannot_block_never_retained_or_currently_presented_cue (test_memory_model.ValidationTests.test_cannot_block_never_retained_or_currently_presented_cue) ... ok
+test_invalid_action_types_and_arguments (test_memory_model.ValidationTests.test_invalid_action_types_and_arguments) ... ok
+test_invalid_state_types_and_invariants (test_memory_model.ValidationTests.test_invalid_state_types_and_invariants) ... ok
+test_rejects_invalid_transition_argument_types (test_memory_model.ValidationTests.test_rejects_invalid_transition_argument_types) ... ok
+test_serialization_round_trips_entire_finite_domain (test_memory_model.ValidationTests.test_serialization_round_trips_entire_finite_domain) ... ok
+test_state_serialization_requires_exact_keys_and_types (test_memory_model.ValidationTests.test_state_serialization_requires_exact_keys_and_types) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.933s
+
+OK

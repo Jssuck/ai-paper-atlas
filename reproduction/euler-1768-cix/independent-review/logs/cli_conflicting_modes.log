@@ -1,0 +1,11 @@
+Command: python3 ./memory_model.py --demo --check
+CWD: .
+Started UTC: 2026-10-11T12:50:45.450419+00:00
+Exit code: 2
+Elapsed seconds: 0.099834
+
+STDOUT:
+
+STDERR:
+usage: memory_model.py [-h] [--demo | --check] [--output OUTPUT]
+memory_model.py: error: argument --check: not allowed with argument --demo

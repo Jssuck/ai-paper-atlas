@@ -1,0 +1,21 @@
+Command: python3 ./memory_model.py --help
+CWD: .
+Started UTC: 2026-10-11T12:50:45.765265+00:00
+Exit code: 0
+Elapsed seconds: 0.086991
+
+STDOUT:
+usage: memory_model.py [-h] [--demo | --check] [--output OUTPUT]
+
+A modern teaching countermodel for distinctions in Euler's Lettre CIX. This is
+not Euler's algorithm, a reconstruction of a historical machine, a
+psychological simulation, or evidence for or against substance dualism. Python
+3.10+; standard library only. No randomness, network, or hidden history.
+
+options:
+  -h, --help       show this help message and exit
+  --demo           emit deterministic step-by-step examples (default)
+  --check          exhaustively check the finite model
+  --output OUTPUT  write JSON here instead of standard output
+
+STDERR:

@@ -1,0 +1,673 @@
+Command: python3 ./memory_model.py
+CWD: .
+Started UTC: 2026-10-11T12:50:44.122420+00:00
+Exit code: 0
+Elapsed seconds: 0.095822
+
+STDOUT:
+{
+  "schema_version": 1,
+  "scope": "Original teaching construction for Euler, Lettre CIX, 10 March 1761; not a historical algorithm or empirical simulation.",
+  "source_printed_pages": "144-148 (1768 volume II)",
+  "token_note": "fire follows Euler's example; bell is an invented contrast token",
+  "cases": {
+    "retained_is_not_currently_attended": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "withdraw",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": null
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 3,
+          "action": {
+            "kind": "set_aside",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 4,
+          "action": {
+            "kind": "set_aside",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        }
+      ]
+    },
+    "recalled_fire_without_present_sensory_conviction": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "withdraw",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": null
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 3,
+          "action": {
+            "kind": "set_aside",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 4,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": null
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": true
+          }
+        }
+      ]
+    },
+    "inaccessible_then_recognized": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "withdraw",
+            "cue": null
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": null
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 3,
+          "action": {
+            "kind": "make_inaccessible",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 4,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": false
+          }
+        },
+        {
+          "step": 5,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": true,
+            "recall_succeeded": null
+          }
+        }
+      ]
+    },
+    "never_seen_then_not_recognized": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [],
+            "recallable": [],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": false
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        }
+      ]
+    },
+    "complete_erasure_then_not_recognized": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "erase_all",
+            "cue": null
+          },
+          "state": {
+            "retained": [],
+            "recallable": [],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 3,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [],
+            "recallable": [],
+            "attention": null,
+            "sensory": null
+          },
+          "output": {
+            "attention": null,
+            "sensory_input": null,
+            "current_existence_conviction": null,
+            "recognized": null,
+            "recall_succeeded": false
+          }
+        },
+        {
+          "step": 4,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        }
+      ]
+    },
+    "recall_fire_while_perceiving_bell": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "perceive",
+            "cue": "bell"
+          },
+          "state": {
+            "retained": [
+              "bell",
+              "fire"
+            ],
+            "recallable": [
+              "bell",
+              "fire"
+            ],
+            "attention": "bell",
+            "sensory": "bell"
+          },
+          "output": {
+            "attention": "bell",
+            "sensory_input": "bell",
+            "current_existence_conviction": "bell",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 3,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "bell",
+              "fire"
+            ],
+            "recallable": [
+              "bell",
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "bell"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "bell",
+            "current_existence_conviction": "bell",
+            "recognized": null,
+            "recall_succeeded": true
+          }
+        }
+      ]
+    },
+    "recall_with_independent_current_fire_input": {
+      "initial_state": {
+        "retained": [],
+        "recallable": [],
+        "attention": null,
+        "sensory": null
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": {
+            "kind": "perceive",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": false,
+            "recall_succeeded": null
+          }
+        },
+        {
+          "step": 2,
+          "action": {
+            "kind": "recall",
+            "cue": "fire"
+          },
+          "state": {
+            "retained": [
+              "fire"
+            ],
+            "recallable": [
+              "fire"
+            ],
+            "attention": "fire",
+            "sensory": "fire"
+          },
+          "output": {
+            "attention": "fire",
+            "sensory_input": "fire",
+            "current_existence_conviction": "fire",
+            "recognized": null,
+            "recall_succeeded": true
+          }
+        }
+      ]
+    }
+  },
+  "equal_state_witness": {
+    "erased_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "fresh_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "same_complete_state": true,
+    "same_next_action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "same_next_state_and_output": true,
+    "recognition_after_either_history": false,
+    "warning": "Different observer histories cannot matter unless some difference survives in model state or subsequent input."
+  }
+}
+
+STDERR:

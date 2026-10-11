@@ -1,0 +1,16 @@
+Command: python3 -O -c 'import memory_model as m; from dataclasses import replace; original=m.transition; m.transition=lambda s,a: (lambda z:(z[0],replace(z[1],current_existence_conviction=None)))(original(s,a)); m.exhaustive_check()'
+CWD: .
+Started UTC: 2026-10-11T12:50:46.138941+00:00
+Exit code: 1
+Elapsed seconds: 0.385516
+
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "./memory_model.py", line 236, in exhaustive_check
+    _require(output.current_existence_conviction == after.sensory, "conviction/input mismatch")
+  File "./memory_model.py", line 214, in _require
+    raise AssertionError(message)
+AssertionError: conviction/input mismatch

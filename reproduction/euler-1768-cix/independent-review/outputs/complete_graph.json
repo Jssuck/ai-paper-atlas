@@ -1,0 +1,8621 @@
+[
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": false,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "unretained"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": false
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": null
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "fire"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "fire"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "fire",
+      "current_existence_conviction": "fire",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "perceive",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": true,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "withdraw",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": null
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "set_aside",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": null,
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "fire",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "fire",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "recall",
+      "cue": "bell"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": true
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "fire"
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "output": {
+      "attention": "bell",
+      "sensory_input": "bell",
+      "current_existence_conviction": "bell",
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "make_inaccessible",
+      "cue": "bell"
+    },
+    "status": "currently_presented"
+  },
+  {
+    "state": {
+      "retained": [
+        "bell",
+        "fire"
+      ],
+      "recallable": [
+        "bell",
+        "fire"
+      ],
+      "attention": "bell",
+      "sensory": "bell"
+    },
+    "action": {
+      "kind": "erase_all",
+      "cue": null
+    },
+    "status": "valid",
+    "next_state": {
+      "retained": [],
+      "recallable": [],
+      "attention": null,
+      "sensory": null
+    },
+    "output": {
+      "attention": null,
+      "sensory_input": null,
+      "current_existence_conviction": null,
+      "recognized": null,
+      "recall_succeeded": null
+    }
+  }
+]

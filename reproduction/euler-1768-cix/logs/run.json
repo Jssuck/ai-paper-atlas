@@ -1,0 +1,52 @@
+{
+  "commands": [
+    {
+      "name": "tests",
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.1077958610003407,
+      "log": "logs/tests.log"
+    },
+    {
+      "name": "demo",
+      "argv": [
+        "python3",
+        "memory_model.py",
+        "--demo",
+        "--output",
+        "outputs/demo.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.08012472599875764,
+      "log": "logs/demo.log"
+    },
+    {
+      "name": "exhaustive",
+      "argv": [
+        "python3",
+        "memory_model.py",
+        "--check",
+        "--output",
+        "outputs/exhaustive.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.17757603399877553,
+      "log": "logs/exhaustive.log"
+    }
+  ],
+  "sha256": {
+    "memory_model.py": "c10a1f04aac6ac11c65e741479b586659a1fc2c7e8ebbe355058d09c09d68026",
+    "tests/test_memory_model.py": "978ff0ac1e9d5a1b83af32169d7dee2aae9fa9cf482c550b99e0f8e01d8a5891",
+    "run_all.py": "6013dafcdd44b0026326b10a2749d83758257176fa58bce2a776c6c3c74e428b",
+    "outputs/demo.json": "8ec21e7742ee1ec222dff5394823bb87c4daf72371831e47e5e41e8511330928",
+    "outputs/exhaustive.json": "0ed8109600c6e1c3188130d1dd4e7e97b000aff5de835e296d601611a51f0fe9"
+  }
+}
