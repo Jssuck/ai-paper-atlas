@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-cvi",
     "path": "papers/1768/euler-letter-cvi.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete CVI,1768 printed126–134,date28February1761;original130 supplemented from1770 counterpart with explicit version anomalies."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-cv",
-    "path": "papers/1768/euler-letter-cv.zh-CN.md",
     "version": "v1",
-    "content_commit": "86cb3ec0965a8f84c37bc560b67741d4d955b327",
-    "checks": "Independent source,mathematics and code reviews passed;22 tests,255 support models,4680 independent labeled models,42 input-error checks.28 remote blob identities and27 text contents verified.192 formulas,twelve tables,seven Markdown pages,25 repository destinations and original SVG/PNG pixels checked in browser.IIIF manifest browser check blocked by client;catalog,images and PDF sources opened.",
-    "scope": "Complete Letter CV,1768 pp119–126,dated24February1761;1770 pp124–131 comparison and partial supplement for clipped original120.Original122 diagram-text tension retained as qualified analysis,not formal erratum."
+    "content_commit": "78406a4277d618dc52048ba82f7221fbd9c2dc8e",
+    "checks": "Independent source,whole-article mathematics and code reviews passed;18 tests,2048-combination oracle and512-decision cross-check.31 remote blob identities,30 exact text files and preserved CRLF CSV verified.133 formulas,21 actual GitHub tables,seven Markdown pages and140 anchors checked;43 link destinations preserved.Browser sans-serif label typography varies without mathematical loss;external destinations not all revisited.",
+    "scope": "Complete CVI,1768 pp126–134,dated28February1761;original130 supplemented by1770 p135 with explicit version anomalies.1772 page129 correction concerns volumeIII magnetism,not this letter.19 proofs and four existence conditions;not fullvolume."
   },
-  "updated_at": "2026-10-11T09:49:20Z",
+  "updated_at": "2026-10-11T09:56:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote file identities and GitHub formula/table/link rendering after completed independent audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
