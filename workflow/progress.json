@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part1-ch1",
     "path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Condillac La Logique I.I,1798 collected edition XXII pp5–15 actually read;1780 edition verified bibliographically,not initial-edition wording or priority."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-cix",
-    "path": "papers/1768/euler-letter-cix.zh-CN.md",
     "version": "v1",
-    "content_commit": "34a4b48526adb58164239df8a2c90ea35ad55650",
-    "checks": "Independent source,whole-argument and code audits passed;28tests,7traces/24steps,29states/261pairs,217negative/immutability checks,7mutation variants and13CLI probes.53remote text/blob identities verified.209formulas,nine new tables,eight Markdown pages and166 repository destinations checked;Pacific and Internet Archive opened,e-rara live source recheck limited by browser challenge.",
-    "scope": "Complete CIX,1768 pp144–148,dated10March1761;1770 pp149–153 complete comparison.Original ideas/objects ambiguity retained;modern memory countermodels are stipulated teaching models,not Euler algorithms or empirical proof about consciousness.15answered exercises."
+    "content_commit": "51dc9130e324ebde936c59c7740052215d5c31fa",
+    "checks": "Independent source,whole-argument and code audits passed;11tests,340-model reproduction,967-model/181720-history independent audit andfive detected fault variants.39remote text/blob identities verified,source-link repair exact-verified.86formulas,11tables,seven Markdown pages and167anchors checked in GitHub;external sources not comprehensively reopened.",
+    "scope": "Complete La Logique I.I,actual1798 collected editionXXII pp5–15 with two scans;1780 edition verified bibliographically,not initial-edition priority or wording.17answered exercises and bounded modern learning reconstruction,not empirical recreation."
   },
-  "updated_at": "2026-10-11T13:55:40Z",
+  "updated_at": "2026-10-11T14:03:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote contents and actual GitHub formulas,tables,links after completed source,argument and code audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
