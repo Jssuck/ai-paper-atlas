@@ -49,27 +49,29 @@
       "256原始掩码补外部见证后只有255个不同占位模型；A5有8原始/7不同反模型，不把重复当新反例；现代覆盖限固定三一元项的直言命题。",
       "旧对象与历史中CIII未读/待补的描述保留其当时语境；本次当前状态只更新CIII复合底本完成，不关闭原1768缺字直接证据或CIV及旧书籍缺口。"
     ],
-    "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
+    "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。",
+    "current_unit_notice": "旧scope文字保留其历史记录语境；当前新完成单位以current_selection和各effective_status的最新条目为准。本次仅追加CV，旧“CV未读”等为旧时点状态，不表示旧版本缺口已补齐。"
   },
   "current_selection": {
-    "candidate_id": "euler-1768-letter-civ",
-    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CIV",
+    "candidate_id": "euler-1768-letter-cv",
+    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CV",
     "publication_year": 1768,
-    "letter_date": "1761-02-21",
+    "letter_date": "1761-02-24",
     "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
-    "pages": "1768印111下部–119上部署日；复合底本1770印116下部–124上部",
-    "publication_scope": "1768 Saint Pétersbourg原版；1770 Mietau et Leipsic,Steidel et Compagnie补核。原112/114/116/118裁切，非逐字同版认证。",
-    "why_selected": "接续CIII之后的唯一完整CIV章节，继续1768前史回填；只完成本信，不同时另读CV。",
-    "mathematical_boundary": "19图、四展开式、20汇总式；XVI原印与教学修复分开；四存在条件、十九/九等价判准、15/24现代候选计数分别说明。",
-    "completion": "原创中文精读、复合底本全信核图、一般证明与标准库实跑及独立来源/数学/代码审计；远端提交与浏览器QA由发布步骤另核。",
-    "article_path": "papers/1768/euler-letter-civ.zh-CN.md",
-    "source_ledger_path": "papers/1768/euler-letter-civ.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1768/euler-letter-civ.audit.zh-CN.md",
-    "reproduction_path": "reproduction/euler-1768-civ/README.md",
-    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=132",
+    "pages": "1768印119中部CV标题–126署日；1770印124–131同信对校",
+    "publication_scope": "1768 Saint Pétersbourg为主底本；原120页少数字尾裁切由1770 Mietau et Leipsic版局部补读，并对校全信。非1768每字无缺认证。",
+    "why_selected": "接续CIV后的唯一完整CV逻辑书信，不按信号盲接物理篇；不是另一次更早年代回填，不同时完成CVI。",
+    "mathematical_boundary": "同一见证的有效式、无效换向式、反模型、真假单向约束；九关系配置及六单圆图例。122上图图文张力与教学重构分开；255/218支持模型和三式计数限现代AEIO语义。",
+    "completion": "完整单信中文精读、1768/1770实际核图、一般证明、12道有答案练习、标准库实跑与独立来源/数学/代码审计；远端发布和浏览器QA另核。",
+    "article_path": "papers/1768/euler-letter-cv.zh-CN.md",
+    "source_ledger_path": "papers/1768/euler-letter-cv.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1768/euler-letter-cv.audit.zh-CN.md",
+    "reproduction_path": "reproduction/euler-1768-cv/README.md",
+    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=140",
     "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
     "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
-    "status": "completed_composite_source_letter_chapter"
+    "status": "completed_original_with_supplement_letter_chapter",
+    "not_completed": "原120裁切字尾的独立1768同版认证；122图文问题成因/正式更正史；CVI及后续、整卷、全书；全部既有候选、书籍与版本缺口。"
   },
   "earlier_gap_priority": [
     {
@@ -1082,6 +1084,27 @@
       "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
       "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
       "status": "completed_composite_source_letter_chapter"
+    },
+    {
+      "candidate_id": "euler-1768-letter-cv",
+      "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CV",
+      "publication_year": 1768,
+      "letter_date": "1761-02-24",
+      "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
+      "pages": "1768印119中部CV标题–126署日；1770印124–131同信对校",
+      "publication_scope": "1768 Saint Pétersbourg为主底本；原120页少数字尾裁切由1770 Mietau et Leipsic版局部补读，并对校全信。非1768每字无缺认证。",
+      "why_selected": "接续CIV后的唯一完整CV逻辑书信，不按信号盲接物理篇；不是另一次更早年代回填，不同时完成CVI。",
+      "mathematical_boundary": "同一见证的有效式、无效换向式、反模型、真假单向约束；九关系配置及六单圆图例。122上图图文张力与教学重构分开；255/218支持模型和三式计数限现代AEIO语义。",
+      "completion": "完整单信中文精读、1768/1770实际核图、一般证明、12道有答案练习、标准库实跑与独立来源/数学/代码审计；远端发布和浏览器QA另核。",
+      "article_path": "papers/1768/euler-letter-cv.zh-CN.md",
+      "source_ledger_path": "papers/1768/euler-letter-cv.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1768/euler-letter-cv.audit.zh-CN.md",
+      "reproduction_path": "reproduction/euler-1768-cv/README.md",
+      "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=140",
+      "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
+      "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
+      "status": "completed_original_with_supplement_letter_chapter",
+      "not_completed": "原120裁切字尾的独立1768同版认证；122图文问题成因/正式更正史；CVI及后续、整卷、全书；全部既有候选、书籍与版本缺口。"
     }
   ],
   "next_source_gap": {
@@ -1959,6 +1982,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1768/euler-letter-civ.zh-CN.md",
       "note": "CIV完整复合底本章节，1768印111–119与1770印116–124；19图、20式与XVI原印/修复分轨。窄判准19、宽判准9和标准15/24区分；全部旧候选、历史、有效状态及书籍/版本缺口原样保留；不递归快照，不完成CV或全卷；远端与页面QA另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "euler-1768-letter-cv",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1768/euler-letter-cv.zh-CN.md",
+      "note": "只完成CV：1768印119–126，署1761-02-24；1770局部补读120字尾及124–131全信对校。九配置加六图例，122上图问题非正式勘误。255/218支持模型与三式独立复核；所有旧对象、历史前缀、effective_status和缺口逐项原样保留。远端与浏览器QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2146,6 +2176,15 @@
       "article_path": "papers/1768/euler-letter-civ.zh-CN.md",
       "source_scope": "1768印111下部–119上部署日；复合底本1770印116下部–124上部",
       "not_completed": "1768裁切字面、XVI正式修订版本史、CV及后续、整卷与全书；CIII106/110及全部旧来源/书籍缺口继续保留。"
+    },
+    "euler-1768-letter-cv": {
+      "status": "completed_original_with_supplement_letter_chapter",
+      "publication_year": 1768,
+      "letter_date": "1761-02-24",
+      "article_path": "papers/1768/euler-letter-cv.zh-CN.md",
+      "pages": "1768印119中部CV标题–126署日；1770印124–131同信对校",
+      "publication_scope": "1768 Saint Pétersbourg为主底本；原120页少数字尾裁切由1770 Mietau et Leipsic版局部补读，并对校全信。非1768每字无缺认证。",
+      "not_completed": "原120裁切字尾的独立1768同版认证；122图文问题成因/正式更正史；CVI及后续、整卷、全书；全部既有候选、书籍与版本缺口。"
     }
   }
 }

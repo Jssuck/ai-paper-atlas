@@ -13,6 +13,7 @@
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
 | 1768（原信署1761-02-17） | [Euler第CIII信精读](papers/1768/euler-letter-ciii.zh-CN.md) | AI前史：三项图解推理、存在见证与形式覆盖 | 深读v1 · 完整书信章节；1768＋1770复合底本 |
 | 1768（原信署1761-02-21） | [Euler第CIV信精读](papers/1768/euler-letter-civ.zh-CN.md) | AI前史回填：特称见证、二十式校读与十九式判准 | 深读v1 · 完整书信章节；1768＋1770复合底本 |
+| 1768（原信署1761-02-24） | [Euler第CV信精读](papers/1768/euler-letter-cv.zh-CN.md) | AI前史：同一见证、反模型与保真性的方向 | 深读v1 · 完整书信章节；1768主底本及1770局部补读对校 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -204,3 +205,15 @@ CIV完整章节为1768印111下部–119署日，1761-02-21是信件署日。原
 
 
 
+
+
+## Euler第CV信可运行附件
+
+- [见证传递、反模型与支持模型复现](reproduction/euler-1768-cv/README.md)
+- [逐页来源账本](papers/1768/euler-letter-cv.sources.zh-CN.md) · [来源与数学独立复核](papers/1768/euler-letter-cv.audit.zh-CN.md)
+- [22项主测试日志](reproduction/euler-1768-cv/logs/tests.txt) · [机器可读结果](reproduction/euler-1768-cv/logs/report.json) · [独立代码审计](reproduction/euler-1768-cv/review/README.md)
+- [原创五模型成员图](reproduction/euler-1768-cv/figures/membership-models.png)
+
+只完成1768原印119中部–126署日的CV；书信署1761-02-24，并非1761年刊发的期刊论文。原120页少数字尾由1770对应页局部补读，全信以1770印124–131对校；不声称1768每字无缺。九个关系配置、六个单圆图例均核图；122页上图的图文张力不冒称作者正式勘误。
+
+任意论域的见证证明与八类型压缩定理和实跑分开。255个非空支持中，三式各有32个前提模型，反模型依次0/16/0；要求三类非空时为218个支持、24个前提模型及0/8/0反模型。这是支持计数，不是现实概率。22项主测试和独立直接量词oracle核查通过；有限运行不代替一般证明。不关闭CIII/CIV的扫描/版本缺口，也不将CVI、全卷、全书或旧候选标为完成。

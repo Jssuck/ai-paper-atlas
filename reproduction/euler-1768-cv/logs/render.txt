@@ -1,0 +1,66 @@
+Publication note: absolute runtime configuration paths are replaced by [runtime-config-dir]. All command results, warnings, failures, and exit codes are otherwise preserved.
+
+$ convert -version
+Version: ImageMagick 7.1.1-43 Q16 x86_64 22550 https://imagemagick.org
+Copyright: (C) 1999 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC Modules OpenMP(4.5) 
+Delegates (built-in): bzlib djvu fftw fontconfig freetype heic jbig jng jp2 jpeg lcms lqr ltdl lzma openexr pangocairo png raw tiff webp wmf x xml zlib zstd
+Compiler: gcc (14.2)
+
+$ convert -background white figures/membership-models.svg figures/membership-models.png
+convert: delegate failed `'rsvg-convert' --dpi-x %x --dpi-y %y -o '%o' '%i'' @ error/delegate.c/InvokeDelegate/1919.
+convert: unable to open file '/tmp/magick-v2gAY191v8hcwdJyiAJ2YjZ-H358KzGD': No such file or directory @ error/constitute.c/ReadImage/785.
+convert: no images defined `figures/membership-models.png' @ error/deprecate.c/ConvertImageCommand/3371.
+exit_code=1
+
+Fallback to preinstalled Inkscape (ImageMagick requires missing rsvg-convert).
+$ inkscape --version
+
+** (process:5): WARNING **: 01:46:07.280: Unable to create profile directory (Read-only file system) (30)
+Inkscape 1.4 (e7c3feb100, 2024-10-09)
+
+$ inkscape figures/membership-models.svg --export-type=png --export-filename=figures/membership-models.png
+
+** (process:8): WARNING **: 01:46:07.420: Unable to create profile directory (Read-only file system) (30)
+
+** (inkscape:8): WARNING **: 01:46:07.431: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+** Message: 01:46:08.485: Cannot create profile directory [runtime-config-dir].
+** Message: 01:46:08.485: Inkscape will run with default settings, and new settings will not be saved. 
+
+** (inkscape:8): WARNING **: 01:46:08.653: Could not create directory '[runtime-config-dir]'
+
+** (inkscape:8): WARNING **: 01:46:08.653: Could not create extension error log file '[runtime-config-dir]/extension-errors.log'
+
+** (inkscape:8): WARNING **: 01:46:08.726: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.
+exit_code=0

@@ -1,0 +1,84 @@
+Execution of Euler Letter CV teaching reconstruction
+
+$ python: version and platform
+3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Linux 6.18.44 x86_64
+
+$ python -m unittest -v test_euler_cv.py
+test_candidate_conclusion_can_also_be_true (test_euler_cv.ArgumentTests.test_candidate_conclusion_can_also_be_true) ... ok
+test_cli_json (test_euler_cv.ArgumentTests.test_cli_json) ... ok
+test_contrapositive_requires_validity (test_euler_cv.ArgumentTests.test_contrapositive_requires_validity) ... ok
+test_corrected_witness_transfers_to_conclusion (test_euler_cv.ArgumentTests.test_corrected_witness_transfers_to_conclusion) ... ok
+test_empty_C_allows_one_element_countermodel (test_euler_cv.ArgumentTests.test_empty_C_allows_one_element_countermodel) ... ok
+test_exact_counts (test_euler_cv.ArgumentTests.test_exact_counts) ... ok
+test_explicit_nonempty_countermodel_is_minimal (test_euler_cv.ArgumentTests.test_explicit_nonempty_countermodel_is_minimal) ... ok
+test_false_premises_can_have_true_conclusion (test_euler_cv.ArgumentTests.test_false_premises_can_have_true_conclusion) ... ok
+test_remainder_not_required_to_exist (test_euler_cv.ArgumentTests.test_remainder_not_required_to_exist) ... ok
+test_three_remainder_possibilities (test_euler_cv.ArgumentTests.test_three_remainder_possibilities) ... ok
+test_valid_witness_transfers_to_conclusion (test_euler_cv.ArgumentTests.test_valid_witness_transfers_to_conclusion) ... ok
+test_all_supports_round_trip_and_no_extra_outside_element (test_euler_cv.EncodingTests.test_all_supports_round_trip_and_no_extra_outside_element) ... ok
+test_inputs_are_frozen (test_euler_cv.EncodingTests.test_inputs_are_frozen) ... ok
+test_reject_empty_universe_and_bad_supports (test_euler_cv.EncodingTests.test_reject_empty_universe_and_bad_supports) ... ok
+test_reject_non_subsets_and_unknown_terms (test_euler_cv.EncodingTests.test_reject_non_subsets_and_unknown_terms) ... ok
+test_support_not_multiplicity (test_euler_cv.EncodingTests.test_support_not_multiplicity) ... ok
+test_type_bit_order (test_euler_cv.EncodingTests.test_type_bit_order) ... ok
+test_empty_subject_vacuity (test_euler_cv.SemanticTests.test_empty_subject_vacuity) ... ok
+test_nonempty_filter_exactly_matches_sets (test_euler_cv.SemanticTests.test_nonempty_filter_exactly_matches_sets) ... ok
+test_reduction_preserves_all_aeio_and_existential_witnesses (test_euler_cv.SemanticTests.test_reduction_preserves_all_aeio_and_existential_witnesses) ... ok
+test_some_means_at_least_one_not_some_but_not_all (test_euler_cv.SemanticTests.test_some_means_at_least_one_not_some_but_not_all) ... ok
+test_witness_api_rejects_universal_claims (test_euler_cv.SemanticTests.test_witness_api_rejects_universal_claims) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.266s
+
+OK
+exit_code=0
+
+$ python euler_cv.py
+Euler Letter CV: modern finite-set teaching check
+
+empty_classes_allowed:
+  valid: E(A,B) & I(B,C) => O(C,A) | total=255 premises=32 countermodels=0 minimum_countermodel_size=None
+  invalid: I(A,B) & E(B,C) => O(C,A) | total=255 premises=32 countermodels=16 minimum_countermodel_size=1
+  corrected: I(A,B) & E(B,C) => O(A,C) | total=255 premises=32 countermodels=0 minimum_countermodel_size=None
+
+all_classes_nonempty:
+  valid: E(A,B) & I(B,C) => O(C,A) | total=218 premises=24 countermodels=0 minimum_countermodel_size=None
+  invalid: I(A,B) & E(B,C) => O(C,A) | total=218 premises=24 countermodels=8 minimum_countermodel_size=2
+  corrected: I(A,B) & E(B,C) => O(A,C) | total=218 premises=24 countermodels=0 minimum_countermodel_size=None
+
+Named teaching examples (first premise, second premise, conclusion):
+  valid_remainder_disjoint_A: [True, True, True] support=82
+    U={a, r, w}; A={a}; B={w}; C={r, w}
+    conclusion witnesses=['r', 'w']
+  valid_remainder_subset_A: [True, True, True] support=96
+    U={r, w}; A={r}; B={w}; C={r, w}
+    conclusion witnesses=['w']
+  valid_remainder_mixed_A: [True, True, True] support=112
+    U={q, r, w}; A={r}; B={w}; C={q, r, w}
+    conclusion witnesses=['q', 'w']
+  invalid_countermodel_nonempty: [True, True, False] support=40
+    U={s, v}; A={s, v}; B={s}; C={v}
+    conclusion witnesses=[]
+  invalid_true_conclusion_alternative: [True, True, True] support=24
+    U={s, v}; A={s}; B={s}; C={v}
+    conclusion witnesses=['v']
+  valid_both_premises_false_conclusion_true: [False, False, True] support=24
+    U={s, v}; A={s}; B={s}; C={v}
+    conclusion witnesses=['v']
+  valid_no_remainder: [True, True, True] support=66
+    U={a, w}; A={a}; B={w}; C={w}
+    conclusion witnesses=['w']
+
+Scope: these are counts of occupied-type supports, not of all finite labeled models.
+The general eight-type reduction needs the proof in README.md; test output alone is not a proof.
+The false-conclusion inference is licensed by validity: false conclusion implies at least
+one false premise only for a valid form. The invalid form has true-premise exceptions above.
+exit_code=0
+
+$ python euler_cv.py --json > logs/report.json
+exit_code=0
+
+$ python make_figures.py
+Wrote figures/membership-models.svg (original; generated from named_examples()).
+exit_code=0

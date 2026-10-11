@@ -1,0 +1,124 @@
+{
+  "checks": [
+    "all 36 AEIO predicates including same-term cases",
+    "exact witnesses and quotient witness images",
+    "all report fields, full countermodel lists, examples, CLI, saved reports",
+    "invalid inputs, mutable-input freezing, empty and Unicode string labels"
+  ],
+  "metrics": {
+    "argument_status_and_countermodel_comparisons": 14829,
+    "direct_quantifier_truth_comparisons": 177948,
+    "exact_witness_set_comparisons": 88974,
+    "expected_input_errors": 42,
+    "labeled_models": 4680,
+    "reduced_truth_comparisons": 177948,
+    "reduced_witness_image_comparisons": 88974,
+    "support_models": 255
+  },
+  "results": {
+    "all_classes_nonempty": {
+      "corrected": {
+        "all_classes_nonempty": true,
+        "argument": "I(A,B) & E(B,C) => O(A,C)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": null,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": true
+      },
+      "invalid": {
+        "all_classes_nonempty": true,
+        "argument": "I(A,B) & E(B,C) => O(C,A)",
+        "countermodel_supports": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "countermodels": 8,
+        "false_conclusion_and_true_premises": 8,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": 2,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": false
+      },
+      "valid": {
+        "all_classes_nonempty": true,
+        "argument": "E(A,B) & I(B,C) => O(C,A)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": null,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": true
+      }
+    },
+    "empty_classes_allowed": {
+      "corrected": {
+        "all_classes_nonempty": false,
+        "argument": "I(A,B) & E(B,C) => O(A,C)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": null,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": true
+      },
+      "invalid": {
+        "all_classes_nonempty": false,
+        "argument": "I(A,B) & E(B,C) => O(C,A)",
+        "countermodel_supports": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "countermodels": 16,
+        "false_conclusion_and_true_premises": 16,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": 1,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": false
+      },
+      "valid": {
+        "all_classes_nonempty": false,
+        "argument": "E(A,B) & I(B,C) => O(C,A)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": null,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": true
+      }
+    }
+  },
+  "scope": "Three stated arguments only; finite checks do not replace the general reduction proof.",
+  "status": "PASS"
+}

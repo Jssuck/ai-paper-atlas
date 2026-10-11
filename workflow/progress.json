@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "euler-1768-letter-cv",
     "path": "papers/1768/euler-letter-cv.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "Complete Letter CV,1768 volumeII printed pp119–126,dated24February1761;verify scan gaps and explicitly label any companion edition."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source/mathematics and code audits passed;23 main tests,8653 independent field comparisons,three teaching examples;28 remote blob identities and26 text contents verified. All48 article formulas,four tables,42anchors,related Markdown and original SVG/PNG pixels checked in browser.",
     "scope": "Complete Letter CIV,1768 pp111–119,dated21February1761;clipped112/114/116/118 supplemented by1770 pp116–124 with explicit version limits. Printed XVI and evidence-based teaching repair kept separate;no formal erratum claimed."
   },
-  "updated_at": "2026-10-11T08:37:30Z",
+  "updated_at": "2026-10-11T08:56:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete primary letter, document source limits, reconstruct arguments and countermodels, run minimal examples and independent source/code audits.",
+  "next_action": "Verify remote files, formulas, tables, links and original diagrams after independent audits; retain original page120 companion-edition supplement and page122 diagram-text tension.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

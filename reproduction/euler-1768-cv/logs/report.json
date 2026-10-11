@@ -1,0 +1,320 @@
+{
+  "examples": {
+    "invalid_countermodel_nonempty": {
+      "A": [
+        "s",
+        "v"
+      ],
+      "B": [
+        "s"
+      ],
+      "C": [
+        "v"
+      ],
+      "U": [
+        "s",
+        "v"
+      ],
+      "argument": "I(A,B) & E(B,C) => O(C,A)",
+      "conclusion_witnesses": [],
+      "occupied_types": [
+        3,
+        5
+      ],
+      "support": 40,
+      "truth_statuses": [
+        true,
+        true,
+        false
+      ]
+    },
+    "invalid_true_conclusion_alternative": {
+      "A": [
+        "s"
+      ],
+      "B": [
+        "s"
+      ],
+      "C": [
+        "v"
+      ],
+      "U": [
+        "s",
+        "v"
+      ],
+      "argument": "I(A,B) & E(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "v"
+      ],
+      "occupied_types": [
+        3,
+        4
+      ],
+      "support": 24,
+      "truth_statuses": [
+        true,
+        true,
+        true
+      ]
+    },
+    "valid_both_premises_false_conclusion_true": {
+      "A": [
+        "s"
+      ],
+      "B": [
+        "s"
+      ],
+      "C": [
+        "v"
+      ],
+      "U": [
+        "s",
+        "v"
+      ],
+      "argument": "E(A,B) & I(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "v"
+      ],
+      "occupied_types": [
+        3,
+        4
+      ],
+      "support": 24,
+      "truth_statuses": [
+        false,
+        false,
+        true
+      ]
+    },
+    "valid_no_remainder": {
+      "A": [
+        "a"
+      ],
+      "B": [
+        "w"
+      ],
+      "C": [
+        "w"
+      ],
+      "U": [
+        "a",
+        "w"
+      ],
+      "argument": "E(A,B) & I(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "w"
+      ],
+      "occupied_types": [
+        1,
+        6
+      ],
+      "support": 66,
+      "truth_statuses": [
+        true,
+        true,
+        true
+      ]
+    },
+    "valid_remainder_disjoint_A": {
+      "A": [
+        "a"
+      ],
+      "B": [
+        "w"
+      ],
+      "C": [
+        "r",
+        "w"
+      ],
+      "U": [
+        "a",
+        "r",
+        "w"
+      ],
+      "argument": "E(A,B) & I(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "r",
+        "w"
+      ],
+      "occupied_types": [
+        1,
+        4,
+        6
+      ],
+      "support": 82,
+      "truth_statuses": [
+        true,
+        true,
+        true
+      ]
+    },
+    "valid_remainder_mixed_A": {
+      "A": [
+        "r"
+      ],
+      "B": [
+        "w"
+      ],
+      "C": [
+        "q",
+        "r",
+        "w"
+      ],
+      "U": [
+        "q",
+        "r",
+        "w"
+      ],
+      "argument": "E(A,B) & I(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "q",
+        "w"
+      ],
+      "occupied_types": [
+        4,
+        5,
+        6
+      ],
+      "support": 112,
+      "truth_statuses": [
+        true,
+        true,
+        true
+      ]
+    },
+    "valid_remainder_subset_A": {
+      "A": [
+        "r"
+      ],
+      "B": [
+        "w"
+      ],
+      "C": [
+        "r",
+        "w"
+      ],
+      "U": [
+        "r",
+        "w"
+      ],
+      "argument": "E(A,B) & I(B,C) => O(C,A)",
+      "conclusion_witnesses": [
+        "w"
+      ],
+      "occupied_types": [
+        5,
+        6
+      ],
+      "support": 96,
+      "truth_statuses": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "results": {
+    "all_classes_nonempty": {
+      "corrected": {
+        "all_classes_nonempty": true,
+        "argument": "I(A,B) & E(B,C) => O(A,C)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": null,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": true
+      },
+      "invalid": {
+        "all_classes_nonempty": true,
+        "argument": "I(A,B) & E(B,C) => O(C,A)",
+        "countermodel_supports": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "countermodels": 8,
+        "false_conclusion_and_true_premises": 8,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": 2,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": false
+      },
+      "valid": {
+        "all_classes_nonempty": true,
+        "argument": "E(A,B) & I(B,C) => O(C,A)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 44,
+        "minimal_countermodel_size": null,
+        "premise_models": 24,
+        "total_support_models": 218,
+        "valid_on_support_models": true
+      }
+    },
+    "empty_classes_allowed": {
+      "corrected": {
+        "all_classes_nonempty": false,
+        "argument": "I(A,B) & E(B,C) => O(A,C)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": null,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": true
+      },
+      "invalid": {
+        "all_classes_nonempty": false,
+        "argument": "I(A,B) & E(B,C) => O(C,A)",
+        "countermodel_supports": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "countermodels": 16,
+        "false_conclusion_and_true_premises": 16,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": 1,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": false
+      },
+      "valid": {
+        "all_classes_nonempty": false,
+        "argument": "E(A,B) & I(B,C) => O(C,A)",
+        "countermodel_supports": [],
+        "countermodels": 0,
+        "false_conclusion_and_true_premises": 0,
+        "false_conclusion_models": 63,
+        "minimal_countermodel_size": null,
+        "premise_models": 32,
+        "total_support_models": 255,
+        "valid_on_support_models": true
+      }
+    }
+  }
+}

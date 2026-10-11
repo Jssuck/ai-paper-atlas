@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100" role="img" aria-labelledby="title desc">
+<title id="title">Same witnesses, different conclusions: five finite membership models</title>
+<desc id="desc">The top three models satisfy E(A,B), I(B,C), and O(C,A), while C minus B is outside A, inside A, or partly inside A. The bottom two models both satisfy I(A,B) and E(B,C), but O(C,A) is false in the left model and true in the right. Filled dots show membership; open circles show nonmembership. Highlighted rows are the existential premise witnesses.</desc>
+<rect x="0" y="0" width="1500" height="1100" rx="0" fill="#eef4f5" stroke="none"/>
+<text x="48" y="60" font-family="DejaVu Sans, sans-serif" font-size="37" font-weight="bold" fill="#203544">Follow the same witness</text>
+<text x="48" y="99" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">Three models of E(A,B) and I(B,C). In each, w proves O(C,A).</text>
+<text x="48" y="137" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#526b79">Filled dot = member    Open circle = not a member    Highlight = premise witness</text>
+<rect x="48" y="168" width="452" height="340" rx="14" fill="#ffffff" stroke="#d3dfe3"/>
+<text x="72" y="210" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#203544">Remainder outside A</text>
+<text x="72" y="245" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">C minus B = {r}</text>
+<text x="78" y="288" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">Object</text>
+<text x="255.95999999999998" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#087f8c">A</text>
+<text x="337.32" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#7556a0">B</text>
+<text x="418.68" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#bd6424">C</text>
+<rect x="64" y="299" width="420" height="39" rx="8" fill="#fff4ce" stroke="none"/>
+<text x="84" y="327" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#203544">w</text>
+<circle cx="264.96" cy="319" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="346.32" cy="319" r="9" fill="#7556a0" stroke="#7556a0" stroke-width="2"/>
+<circle cx="427.68" cy="319" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="84" y="373" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">r</text>
+<circle cx="264.96" cy="365" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="346.32" cy="365" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="427.68" cy="365" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="84" y="419" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">a</text>
+<circle cx="264.96" cy="411" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="346.32" cy="411" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="427.68" cy="411" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<text x="72" y="473" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#203544">w is in B and C, but outside A.</text>
+<rect x="524" y="168" width="452" height="340" rx="14" fill="#ffffff" stroke="#d3dfe3"/>
+<text x="548" y="210" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#203544">Remainder inside A</text>
+<text x="548" y="245" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">C minus B = {r}</text>
+<text x="554" y="288" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">Object</text>
+<text x="731.96" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#087f8c">A</text>
+<text x="813.3199999999999" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#7556a0">B</text>
+<text x="894.6800000000001" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#bd6424">C</text>
+<rect x="540" y="299" width="420" height="39" rx="8" fill="#fff4ce" stroke="none"/>
+<text x="560" y="327" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#203544">w</text>
+<circle cx="740.96" cy="319" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="822.3199999999999" cy="319" r="9" fill="#7556a0" stroke="#7556a0" stroke-width="2"/>
+<circle cx="903.6800000000001" cy="319" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="560" y="373" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">r</text>
+<circle cx="740.96" cy="365" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="822.3199999999999" cy="365" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="903.6800000000001" cy="365" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="548" y="473" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#203544">w is in B and C, but outside A.</text>
+<rect x="1000" y="168" width="452" height="340" rx="14" fill="#ffffff" stroke="#d3dfe3"/>
+<text x="1024" y="210" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#203544">Mixed remainder</text>
+<text x="1024" y="245" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">C minus B = {q, r}</text>
+<text x="1030" y="288" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">Object</text>
+<text x="1207.96" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#087f8c">A</text>
+<text x="1289.32" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#7556a0">B</text>
+<text x="1370.68" y="288" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#bd6424">C</text>
+<rect x="1016" y="299" width="420" height="39" rx="8" fill="#fff4ce" stroke="none"/>
+<text x="1036" y="327" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#203544">w</text>
+<circle cx="1216.96" cy="319" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1298.32" cy="319" r="9" fill="#7556a0" stroke="#7556a0" stroke-width="2"/>
+<circle cx="1379.68" cy="319" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="1036" y="373" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">r</text>
+<circle cx="1216.96" cy="365" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="1298.32" cy="365" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1379.68" cy="365" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="1036" y="419" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">q</text>
+<circle cx="1216.96" cy="411" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1298.32" cy="411" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1379.68" cy="411" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="1024" y="473" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#203544">w is in B and C, but outside A.</text>
+<text x="48" y="548" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" fill="#526b79">These are possible models. A remainder, or an extra outside object, need not exist.</text>
+<text x="48" y="611" font-family="DejaVu Sans, sans-serif" font-size="32" font-weight="bold" fill="#203544">Same premises, opposite outcomes</text>
+<text x="48" y="650" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">Both models satisfy I(A,B) and E(B,C). The proposed O(C,A) is not guaranteed.</text>
+<rect x="48" y="681" width="690" height="340" rx="14" fill="#ffffff" stroke="#d3dfe3"/>
+<text x="72" y="723" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#203544">Countermodel: O(C,A) is false</text>
+<text x="72" y="758" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">U = {s, v}; all three classes are nonempty</text>
+<text x="78" y="801" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">Object</text>
+<text x="370.2" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#087f8c">A</text>
+<text x="494.40000000000003" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#7556a0">B</text>
+<text x="618.6" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#bd6424">C</text>
+<rect x="64" y="812" width="658" height="39" rx="8" fill="#fff4ce" stroke="none"/>
+<text x="84" y="840" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#203544">s</text>
+<circle cx="379.2" cy="832" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="503.40000000000003" cy="832" r="9" fill="#7556a0" stroke="#7556a0" stroke-width="2"/>
+<circle cx="627.6" cy="832" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<text x="84" y="886" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">v</text>
+<circle cx="379.2" cy="878" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="503.40000000000003" cy="878" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="627.6" cy="878" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="72" y="986" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#203544">Every C is A. The conclusion has no witness.</text>
+<rect x="762" y="681" width="690" height="340" rx="14" fill="#ffffff" stroke="#d3dfe3"/>
+<text x="786" y="723" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" fill="#203544">Alternative: O(C,A) is true</text>
+<text x="786" y="758" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">U = {s, v}; all three classes are nonempty</text>
+<text x="792" y="801" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#526b79">Object</text>
+<text x="1084.2" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#087f8c">A</text>
+<text x="1208.4" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#7556a0">B</text>
+<text x="1332.6" y="801" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#bd6424">C</text>
+<rect x="778" y="812" width="658" height="39" rx="8" fill="#fff4ce" stroke="none"/>
+<text x="798" y="840" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="bold" fill="#203544">s</text>
+<circle cx="1093.2" cy="832" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="1217.4" cy="832" r="9" fill="#7556a0" stroke="#7556a0" stroke-width="2"/>
+<circle cx="1341.6" cy="832" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<text x="798" y="886" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" fill="#203544">v</text>
+<circle cx="1093.2" cy="878" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1217.4" cy="878" r="9" fill="#ffffff" stroke="#aabac2" stroke-width="2"/>
+<circle cx="1341.6" cy="878" r="9" fill="#bd6424" stroke="#bd6424" stroke-width="2"/>
+<text x="786" y="986" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#203544">v is a C outside A, so it witnesses the conclusion.</text>
+<text x="48" y="1065" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#526b79">Original teaching diagram for Euler, Letter CV (1768 edition, pp. 119–126); modern finite-set models.</text>
+</svg>

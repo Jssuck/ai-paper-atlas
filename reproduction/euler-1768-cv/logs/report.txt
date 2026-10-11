@@ -1,0 +1,39 @@
+Euler Letter CV: modern finite-set teaching check
+
+empty_classes_allowed:
+  valid: E(A,B) & I(B,C) => O(C,A) | total=255 premises=32 countermodels=0 minimum_countermodel_size=None
+  invalid: I(A,B) & E(B,C) => O(C,A) | total=255 premises=32 countermodels=16 minimum_countermodel_size=1
+  corrected: I(A,B) & E(B,C) => O(A,C) | total=255 premises=32 countermodels=0 minimum_countermodel_size=None
+
+all_classes_nonempty:
+  valid: E(A,B) & I(B,C) => O(C,A) | total=218 premises=24 countermodels=0 minimum_countermodel_size=None
+  invalid: I(A,B) & E(B,C) => O(C,A) | total=218 premises=24 countermodels=8 minimum_countermodel_size=2
+  corrected: I(A,B) & E(B,C) => O(A,C) | total=218 premises=24 countermodels=0 minimum_countermodel_size=None
+
+Named teaching examples (first premise, second premise, conclusion):
+  valid_remainder_disjoint_A: [True, True, True] support=82
+    U={a, r, w}; A={a}; B={w}; C={r, w}
+    conclusion witnesses=['r', 'w']
+  valid_remainder_subset_A: [True, True, True] support=96
+    U={r, w}; A={r}; B={w}; C={r, w}
+    conclusion witnesses=['w']
+  valid_remainder_mixed_A: [True, True, True] support=112
+    U={q, r, w}; A={r}; B={w}; C={q, r, w}
+    conclusion witnesses=['q', 'w']
+  invalid_countermodel_nonempty: [True, True, False] support=40
+    U={s, v}; A={s, v}; B={s}; C={v}
+    conclusion witnesses=[]
+  invalid_true_conclusion_alternative: [True, True, True] support=24
+    U={s, v}; A={s}; B={s}; C={v}
+    conclusion witnesses=['v']
+  valid_both_premises_false_conclusion_true: [False, False, True] support=24
+    U={s, v}; A={s}; B={s}; C={v}
+    conclusion witnesses=['v']
+  valid_no_remainder: [True, True, True] support=66
+    U={a, w}; A={a}; B={w}; C={w}
+    conclusion witnesses=['w']
+
+Scope: these are counts of occupied-type supports, not of all finite labeled models.
+The general eight-type reduction needs the proof in README.md; test output alone is not a proof.
+The false-conclusion inference is licensed by validity: false conclusion implies at least
+one false premise only for a valid form. The invalid form has true-premise exceptions above.

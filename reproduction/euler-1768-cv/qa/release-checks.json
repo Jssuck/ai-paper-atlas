@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-10-11",
+  "passed": true,
+  "scope": "Local release integrity and static conversion only. Remote publication and GitHub browser QA are not claimed.",
+  "preserved_old_candidates": 23,
+  "preserved_history_prefix": 19,
+  "preserved_old_effective_status_objects": 8,
+  "preserved_old_background_gaps": 20,
+  "all_old_scope_priority_and_next_source_fields_preserved": true,
+  "compact_history_no_recursive_snapshot": true,
+  "markdown_files_checked": 8,
+  "new_relative_links_checked": 45,
+  "new_inline_math_count": 165,
+  "new_display_math_count": 27,
+  "static_mathml_conversion": [
+    {
+      "path": "papers/1768/euler-letter-cv.audit.zh-CN.md",
+      "mathml_elements": 54,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "papers/1768/euler-letter-cv.sources.zh-CN.md",
+      "mathml_elements": 0,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "papers/1768/euler-letter-cv.zh-CN.md",
+      "mathml_elements": 130,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "reproduction/euler-1768-cv/VERIFICATION.md",
+      "mathml_elements": 0,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "reproduction/euler-1768-cv/README.md",
+      "mathml_elements": 8,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "reproduction/euler-1768-cv/ENVIRONMENT.md",
+      "mathml_elements": 0,
+      "pandoc_warnings": 0
+    },
+    {
+      "path": "reproduction/euler-1768-cv/review/README.md",
+      "mathml_elements": 0,
+      "pandoc_warnings": 0
+    }
+  ],
+  "no_scanned_pdf_or_private_paths": true,
+  "recorded_code_hashes_match": true,
+  "independent_report_matches": true,
+  "main_tests": 22,
+  "independent_labeled_models": 4680,
+  "independent_support_models": 255,
+  "independent_input_error_checks": 42,
+  "primary_source_scope": "1768 CV printed 119 middle–126 dateline; 1770 printed 124–131 comparison and partial supplement for clipped line endings on original 120.",
+  "source_math_review": "Independent source and article mathematics reviews passed; no unresolved must-fix.",
+  "visual_qa": "All original chapter diagrams and 1770 counterpart images reviewed; generated 1500x1100 PNG inspected; all 36 memberships separately checked. Supplemental local browser launch was blocked by socket permissions, not claimed as passed."
+}

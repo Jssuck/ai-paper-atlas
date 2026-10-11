@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "note": "Fingerprints identify reviewed input bytes; scans are not mirrored in the repository. 1770 is a separate edition, not a 1768 facsimile.",
+  "sources": [
+    {
+      "source_id": "1768-original-volume2",
+      "url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf",
+      "bytes": 13683251,
+      "sha256": "30bb818e1ba33bfddfa931e1bbc02b9c475e6fe2ee2a88ab7d09fdad325dad18",
+      "coverage": "CV: printed 119 middle–126 dateline; PDF 140–147; some line endings on printed 120 are clipped"
+    },
+    {
+      "source_id": "1770-page-124",
+      "url": "https://www.e-rara.ch/i3f/v20/2380275/full/full/0/default.jpg",
+      "bytes": 428281,
+      "sha256": "806aecdf757cf3f7c23490a8e0750680ac9ac50185d24753612a6b3a24f02679",
+      "coverage": "1770 printed 124; corresponding 1768 printed 119; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-125",
+      "url": "https://www.e-rara.ch/i3f/v20/2380276/full/full/0/default.jpg",
+      "bytes": 452408,
+      "sha256": "3dac8d977bdaf442ca8a8f86e4f8d4720ab0171c4e0bd017e4b2f5dfddf65839",
+      "coverage": "1770 printed 125; corresponding 1768 printed 120; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-126",
+      "url": "https://www.e-rara.ch/i3f/v20/2380277/full/full/0/default.jpg",
+      "bytes": 417490,
+      "sha256": "2ddc895581dd20e57e342c12f6a3b3b5d4383a559536d73420c99bf9665d4605",
+      "coverage": "1770 printed 126; corresponding 1768 printed 121; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-127",
+      "url": "https://www.e-rara.ch/i3f/v20/2380278/full/full/0/default.jpg",
+      "bytes": 435441,
+      "sha256": "f890a8a13a0742673cb6c8123404cc70afcf4e13df06b54b90cc131af3407add",
+      "coverage": "1770 printed 127; corresponding 1768 printed 122; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-128",
+      "url": "https://www.e-rara.ch/i3f/v20/2380279/full/full/0/default.jpg",
+      "bytes": 396261,
+      "sha256": "6a193cf483708e6369eeaeb28d258edde45d76f9d69af62301b8724795b2b70c",
+      "coverage": "1770 printed 128; corresponding 1768 printed 123; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-129",
+      "url": "https://www.e-rara.ch/i3f/v20/2380280/full/full/0/default.jpg",
+      "bytes": 408213,
+      "sha256": "127d41b6b6f2bdde5de1d6e452a71f9b5a2305bc6b09bfea65a2638407df16de",
+      "coverage": "1770 printed 129; corresponding 1768 printed 124; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-130",
+      "url": "https://www.e-rara.ch/i3f/v20/2380281/full/full/0/default.jpg",
+      "bytes": 419200,
+      "sha256": "87adca4ee9bbb34086f51ed54078eab4d81e1959da4db0cccdf951cc47480921",
+      "coverage": "1770 printed 130; corresponding 1768 printed 125; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1770-page-131",
+      "url": "https://www.e-rara.ch/i3f/v20/2380282/full/full/0/default.jpg",
+      "bytes": 507179,
+      "sha256": "1c461a1d34231a8107c8f9d36a37f0acf1bfd5a939f7544479c0c68abf451491",
+      "coverage": "1770 printed 131; corresponding 1768 printed 126; only the CV portion on the first and last pages"
+    },
+    {
+      "source_id": "1772-volume3-corrections-only",
+      "url": "https://archive.org/download/lettresuneprinc00eulegoog/lettresuneprinc00eulegoog.pdf#page=22",
+      "bytes": 15704343,
+      "sha256": "b5f631226545927d398770a3df39ee9c7151543895f2bf4cad31729ffd1baf4f",
+      "coverage": "Only the corrections table on PDF 22 was used; the whole volume was not read"
+    }
+  ]
+}
