@@ -1,0 +1,439 @@
+{
+  "accuracy_and_completeness": {
+    "disclaimer": "Completeness is only relative to the finite table, never to all properties of a real object.",
+    "finite_reference": {
+      "fruit_kind": "none",
+      "height": 5.0,
+      "visible_green": true
+    },
+    "overclaim": {
+      "height": 7.0,
+      "visible_green": true
+    },
+    "overclaim_accurate": false,
+    "partial_claim": {
+      "visible_green": true
+    },
+    "partial_claim_accurate": true,
+    "partial_claim_covers_all_reference_fields": false
+  },
+  "boundary_names": {
+    "all_plant_classes": 1,
+    "all_plant_sufficient_for_display": true,
+    "convention": "height below 4: shrub; above 6: tree; inclusive [4,6] or unknown: plant",
+    "label_scope": "The three report-label groups are not concept extensions: plant as a parent concept includes every tree and shrub too.",
+    "report_label_classes": 3,
+    "rows": [
+      {
+        "display_action": "keep",
+        "height": 3.0,
+        "id": "b1",
+        "name": "shrub"
+      },
+      {
+        "display_action": "keep",
+        "height": 4.0,
+        "id": "b2",
+        "name": "plant"
+      },
+      {
+        "display_action": "keep",
+        "height": 5.0,
+        "id": "b3",
+        "name": "plant"
+      },
+      {
+        "display_action": "keep",
+        "height": 6.0,
+        "id": "b4",
+        "name": "plant"
+      },
+      {
+        "display_action": "keep",
+        "height": 7.0,
+        "id": "b5",
+        "name": "tree"
+      },
+      {
+        "display_action": "keep",
+        "height": null,
+        "id": "b6",
+        "name": "plant"
+      }
+    ],
+    "warning": "The coarse name is acceptable only for this declared common action; it is not always safe for new tasks."
+  },
+  "data_status": "All 8 objects, attributes, outputs and thresholds are invented inputs.",
+  "naming": {
+    "disclaimer": "This sequence is scripted, not inferred child behavior.",
+    "first_encounter": {
+      "assigned_name": "tree",
+      "object_id": "a1"
+    },
+    "later_reuse": {
+      "assigned_name": "tree",
+      "objects": [
+        "a1",
+        "a2",
+        "c1",
+        "g1",
+        "h1",
+        "o1",
+        "p1",
+        "s1"
+      ]
+    },
+    "sufficient_for_harvest": false
+  },
+  "objects": [
+    {
+      "attributes": {
+        "fruit_kind": "apple",
+        "height": 4.5,
+        "shade_ready": false,
+        "visible_green": true
+      },
+      "object_id": "a1",
+      "targets": {
+        "harvest": "collect",
+        "shade": "skip",
+        "sort_fruit": "apple"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "apple",
+        "height": 7.0,
+        "shade_ready": true,
+        "visible_green": true
+      },
+      "object_id": "a2",
+      "targets": {
+        "harvest": "collect",
+        "shade": "use",
+        "sort_fruit": "apple"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "pear",
+        "height": 7.0,
+        "shade_ready": true,
+        "visible_green": true
+      },
+      "object_id": "p1",
+      "targets": {
+        "harvest": "collect",
+        "shade": "use",
+        "sort_fruit": "pear"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "cherry",
+        "height": 4.0,
+        "shade_ready": false,
+        "visible_green": true
+      },
+      "object_id": "c1",
+      "targets": {
+        "harvest": "collect",
+        "shade": "skip",
+        "sort_fruit": "cherry"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "peach",
+        "height": 3.5,
+        "shade_ready": false,
+        "visible_green": true
+      },
+      "object_id": "h1",
+      "targets": {
+        "harvest": "collect",
+        "shade": "skip",
+        "sort_fruit": "peach"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "none",
+        "height": 8.0,
+        "shade_ready": true,
+        "visible_green": true
+      },
+      "object_id": "o1",
+      "targets": {
+        "harvest": "skip",
+        "shade": "use",
+        "sort_fruit": "none"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "none",
+        "height": 2.0,
+        "shade_ready": false,
+        "visible_green": true
+      },
+      "object_id": "s1",
+      "targets": {
+        "harvest": "skip",
+        "shade": "skip",
+        "sort_fruit": "none"
+      }
+    },
+    {
+      "attributes": {
+        "fruit_kind": "none",
+        "height": 0.5,
+        "shade_ready": false,
+        "visible_green": true
+      },
+      "object_id": "g1",
+      "targets": {
+        "harvest": "skip",
+        "shade": "skip",
+        "sort_fruit": "none"
+      }
+    }
+  ],
+  "observation_limit": {
+    "conflicting_pairs_count": 15,
+    "enriched_observation_fields": [
+      "fruit_kind"
+    ],
+    "first_witness": {
+      "different_needs": [
+        "harvest"
+      ],
+      "objects": [
+        "a1",
+        "g1"
+      ]
+    },
+    "observed_fields": [
+      "visible_green"
+    ],
+    "observed_partition": [
+      [
+        "a1",
+        "a2",
+        "c1",
+        "g1",
+        "h1",
+        "o1",
+        "p1",
+        "s1"
+      ]
+    ],
+    "remaining_conflicts_after_enrichment": [],
+    "target_needs": [
+      "harvest"
+    ]
+  },
+  "refinement": {
+    "added_need_refines": true,
+    "joint_equals_common_refinement": true,
+    "removed_need_allows_coarsening": true,
+    "renaming_changes_membership": false
+  },
+  "source_scope": "Condillac, La Logique, I.IV, printed pp.32–48; IA PDF pp.40–56",
+  "stages": [
+    {
+      "classes": 1,
+      "needs": [],
+      "partition": [
+        [
+          "a1",
+          "a2",
+          "c1",
+          "g1",
+          "h1",
+          "o1",
+          "p1",
+          "s1"
+        ]
+      ],
+      "stage": "no_distinction_needed",
+      "sufficient": true
+    },
+    {
+      "classes": 2,
+      "needs": [
+        "harvest"
+      ],
+      "partition": [
+        [
+          "a1",
+          "a2",
+          "c1",
+          "h1",
+          "p1"
+        ],
+        [
+          "g1",
+          "o1",
+          "s1"
+        ]
+      ],
+      "stage": "harvest",
+      "sufficient": true
+    },
+    {
+      "classes": 5,
+      "needs": [
+        "sort_fruit"
+      ],
+      "partition": [
+        [
+          "a1",
+          "a2"
+        ],
+        [
+          "c1"
+        ],
+        [
+          "g1",
+          "o1",
+          "s1"
+        ],
+        [
+          "h1"
+        ],
+        [
+          "p1"
+        ]
+      ],
+      "stage": "sort_fruit",
+      "sufficient": true
+    },
+    {
+      "classes": 7,
+      "needs": [
+        "sort_fruit",
+        "shade"
+      ],
+      "partition": [
+        [
+          "a1"
+        ],
+        [
+          "a2"
+        ],
+        [
+          "c1"
+        ],
+        [
+          "g1",
+          "s1"
+        ],
+        [
+          "h1"
+        ],
+        [
+          "o1"
+        ],
+        [
+          "p1"
+        ]
+      ],
+      "stage": "sort_and_shade",
+      "sufficient": true
+    },
+    {
+      "classes": 8,
+      "needs": [
+        "sort_fruit",
+        "shade"
+      ],
+      "partition": [
+        [
+          "a1"
+        ],
+        [
+          "a2"
+        ],
+        [
+          "c1"
+        ],
+        [
+          "g1"
+        ],
+        [
+          "h1"
+        ],
+        [
+          "o1"
+        ],
+        [
+          "p1"
+        ],
+        [
+          "s1"
+        ]
+      ],
+      "stage": "one_name_per_individual",
+      "sufficient": true,
+      "unnecessary_extra_classes_for_current_needs": 1
+    },
+    {
+      "classes": 5,
+      "needs": [
+        "sort_fruit"
+      ],
+      "partition": [
+        [
+          "a1",
+          "a2"
+        ],
+        [
+          "c1"
+        ],
+        [
+          "g1",
+          "o1",
+          "s1"
+        ],
+        [
+          "h1"
+        ],
+        [
+          "p1"
+        ]
+      ],
+      "stage": "shade_need_removed",
+      "sufficient": true
+    }
+  ],
+  "status": "modern_teaching_reconstruction_not_historical_algorithm_or_empirical_psychology",
+  "unknown": {
+    "observations": [
+      {
+        "observed": true,
+        "truth": "true"
+      },
+      {
+        "observed": false,
+        "truth": "false"
+      },
+      {
+        "observed": null,
+        "truth": "unknown"
+      }
+    ],
+    "unknown_equals_false": false,
+    "unknown_objects_can_need_different_actions": [
+      {
+        "different_needs": [
+          "shade"
+        ],
+        "objects": [
+          "u1",
+          "u2"
+        ]
+      }
+    ]
+  }
+}

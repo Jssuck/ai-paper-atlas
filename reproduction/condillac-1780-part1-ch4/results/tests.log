@@ -1,0 +1,53 @@
+test_accurate_does_not_imply_complete (test_model.BoundaryAndEvidenceTests.test_accurate_does_not_imply_complete) ... ok
+test_arbitrary_size_finite_integers_do_not_overflow (test_model.BoundaryAndEvidenceTests.test_arbitrary_size_finite_integers_do_not_overflow) ... ok
+test_boundary_thresholds_are_explicit_convention (test_model.BoundaryAndEvidenceTests.test_boundary_thresholds_are_explicit_convention) ... ok
+test_claim_field_names_and_mapping_types_validated (test_model.BoundaryAndEvidenceTests.test_claim_field_names_and_mapping_types_validated) ... ok
+test_common_name_sufficient_only_for_current_need (test_model.BoundaryAndEvidenceTests.test_common_name_sufficient_only_for_current_need) ... ok
+test_empty_claims_accurate_vacuously_but_not_informative (test_model.BoundaryAndEvidenceTests.test_empty_claims_accurate_vacuously_but_not_informative) ... ok
+test_invalid_height_rejected (test_model.BoundaryAndEvidenceTests.test_invalid_height_rejected) ... ok
+test_invalid_thresholds_rejected (test_model.BoundaryAndEvidenceTests.test_invalid_thresholds_rejected) ... ok
+test_three_valued_truth_cannot_silently_coerce_to_boolean (test_model.BoundaryAndEvidenceTests.test_three_valued_truth_cannot_silently_coerce_to_boolean) ... ok
+test_threshold_edges_use_parent_name (test_model.BoundaryAndEvidenceTests.test_threshold_edges_use_parent_name) ... ok
+test_unknown_distinct_from_false (test_model.BoundaryAndEvidenceTests.test_unknown_distinct_from_false) ... ok
+test_unknown_reference_does_not_verify_a_claim (test_model.BoundaryAndEvidenceTests.test_unknown_reference_does_not_verify_a_claim) ... ok
+test_unknown_reports_do_not_identify_true_state (test_model.BoundaryAndEvidenceTests.test_unknown_reports_do_not_identify_true_state) ... ok
+test_wrong_or_unverifiable_claim_rejected (test_model.BoundaryAndEvidenceTests.test_wrong_or_unverifiable_claim_rejected) ... ok
+test_individual_partition_sufficient_but_needlessly_fine (test_model.FixtureTests.test_individual_partition_sufficient_but_needlessly_fine) ... ok
+test_joint_refines_each_need (test_model.FixtureTests.test_joint_refines_each_need) ... ok
+test_object_and_field_order_do_not_change_partition (test_model.FixtureTests.test_object_and_field_order_do_not_change_partition) ... ok
+test_observation_conflicts_and_resolution (test_model.FixtureTests.test_observation_conflicts_and_resolution) ... ok
+test_overgeneralization_breaks_harvest (test_model.FixtureTests.test_overgeneralization_breaks_harvest) ... ok
+test_pipeline_all_declared_sufficient (test_model.FixtureTests.test_pipeline_all_declared_sufficient) ... ok
+test_pipeline_counts (test_model.FixtureTests.test_pipeline_counts) ... ok
+test_redundant_new_need_does_not_strictly_refine (test_model.FixtureTests.test_redundant_new_need_does_not_strictly_refine) ... ok
+test_removed_need_can_coarsen (test_model.FixtureTests.test_removed_need_can_coarsen) ... ok
+test_renaming_class_labels_preserves_membership (test_model.FixtureTests.test_renaming_class_labels_preserves_membership) ... ok
+test_repeated_need_is_idempotent (test_model.FixtureTests.test_repeated_need_is_idempotent) ... ok
+test_summary_contains_the_computed_class_counts (test_model.FixtureTests.test_summary_contains_the_computed_class_counts) ... ok
+test_summary_uses_actual_values_not_fixed_success_text (test_model.FixtureTests.test_summary_uses_actual_values_not_fixed_success_text) ... ok
+test_target_outputs_not_inferred_from_attributes (test_model.FixtureTests.test_target_outputs_not_inferred_from_attributes) ... ok
+test_coarsest_sufficient_exhaustive_binary_up_to_five (test_model.GeneralPropertyTests.test_coarsest_sufficient_exhaustive_binary_up_to_five) ... ok
+test_coarsest_sufficient_exhaustive_ternary_four (test_model.GeneralPropertyTests.test_coarsest_sufficient_exhaustive_ternary_four) ... ok
+test_combining_needs_is_common_refinement_all_binary_pairs_on_four (test_model.GeneralPropertyTests.test_combining_needs_is_common_refinement_all_binary_pairs_on_four) ... ok
+test_common_refinement_symmetric_and_idempotent (test_model.GeneralPropertyTests.test_common_refinement_symmetric_and_idempotent) ... ok
+test_empty_domain (test_model.GeneralPropertyTests.test_empty_domain) ... ok
+test_observation_identifiability_iff_no_conflict_exhaustive (test_model.GeneralPropertyTests.test_observation_identifiability_iff_no_conflict_exhaustive) ... ok
+test_partition_enumerator_bell_counts (test_model.GeneralPropertyTests.test_partition_enumerator_bell_counts) ... ok
+test_singleton_domain (test_model.GeneralPropertyTests.test_singleton_domain) ... ok
+test_bare_strings_not_accepted_as_collection (test_model.ValidationTests.test_bare_strings_not_accepted_as_collection) ... ok
+test_duplicate_object_id_rejected (test_model.ValidationTests.test_duplicate_object_id_rejected) ... ok
+test_empty_block_and_repeated_members_rejected (test_model.ValidationTests.test_empty_block_and_repeated_members_rejected) ... ok
+test_empty_or_nonstring_object_id_rejected (test_model.ValidationTests.test_empty_or_nonstring_object_id_rejected) ... ok
+test_missing_field_rejected (test_model.ValidationTests.test_missing_field_rejected) ... ok
+test_non_items_and_non_mapping_fields_rejected (test_model.ValidationTests.test_non_items_and_non_mapping_fields_rejected) ... ok
+test_nonfinite_or_compound_attributes_rejected (test_model.ValidationTests.test_nonfinite_or_compound_attributes_rejected) ... ok
+test_nonmatching_partition_domains_rejected (test_model.ValidationTests.test_nonmatching_partition_domains_rejected) ... ok
+test_observation_equality_is_type_sensitive (test_model.ValidationTests.test_observation_equality_is_type_sensitive) ... ok
+test_one_shot_iterators_rejected_instead_of_silently_consumed (test_model.ValidationTests.test_one_shot_iterators_rejected_instead_of_silently_consumed) ... ok
+test_target_string_subclasses_rejected_consistently (test_model.ValidationTests.test_target_string_subclasses_rejected_consistently) ... ok
+test_unknown_or_nonstring_target_not_treated_as_known_output (test_model.ValidationTests.test_unknown_or_nonstring_target_not_treated_as_known_output) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.145s
+
+OK

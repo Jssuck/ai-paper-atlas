@@ -1,0 +1,82 @@
+[
+  {
+    "detector": "oracle_tasks",
+    "failure": "AssertionError: Task output relation mismatch",
+    "mutation": "drop_second_task",
+    "replacement": {
+      "new": "key = tuple(_atom_key(values[field]) for field in fields[:1])",
+      "old": "key = tuple(_atom_key(values[field]) for field in fields)"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "oracle_tasks",
+    "failure": "AssertionError: Sufficiency disagrees with direct pairwise target comparison",
+    "mutation": "sufficiency_any_block",
+    "replacement": {
+      "new": "return any(\n        len({tuple(by_id[oid].targets[field]",
+      "old": "return all(\n        len({tuple(by_id[oid].targets[field]"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "oracle_observations",
+    "failure": "AssertionError: Missing, spurious, or wrongly labelled conflict witness",
+    "mutation": "hide_conflicts",
+    "replacement": {
+      "new": "if False:\n",
+      "old": "if different:\n"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "oracle_observations",
+    "failure": "AssertionError: Observation equality uses target or collapses different report types",
+    "mutation": "collapse_scalar_types",
+    "replacement": {
+      "new": "return \"collapsed\", value",
+      "old": "return type(value).__name__, value"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "evidence_cases",
+    "failure": "AssertionError: Three-state evidence misclassified",
+    "mutation": "unknown_as_false",
+    "replacement": {
+      "new": "if value is None:\n        return Truth.FALSE",
+      "old": "if value is None:\n        return Truth.UNKNOWN"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "evidence_cases",
+    "failure": "AssertionError: Expected TypeError, returned normally",
+    "mutation": "truthy_unknown",
+    "replacement": {
+      "new": "return True",
+      "old": "raise TypeError(\"Three-valued evidence needs an explicit TRUE/FALSE/UNKNOWN branch\")"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "evidence_cases",
+    "failure": "AssertionError: Boundary convention mismatch",
+    "mutation": "include_lower_endpoint_in_shrub",
+    "replacement": {
+      "new": "if height <= low:",
+      "old": "if height < low:"
+    },
+    "status": "detected"
+  },
+  {
+    "detector": "validation_cases",
+    "failure": "AssertionError: Expected ValueError, returned normally",
+    "mutation": "permit_duplicate_ids",
+    "replacement": {
+      "new": "if False:",
+      "old": "if item.object_id in seen:"
+    },
+    "status": "detected"
+  }
+]

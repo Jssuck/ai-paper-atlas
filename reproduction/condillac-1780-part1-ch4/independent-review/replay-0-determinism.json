@@ -1,0 +1,25 @@
+{
+  "files": {
+    "results.json": {
+      "byte_identical": true,
+      "delivered_sha256": "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89",
+      "repeat_sha256": [
+        "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89",
+        "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89"
+      ]
+    },
+    "summary.txt": {
+      "byte_identical": true,
+      "delivered_sha256": "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3",
+      "repeat_sha256": [
+        "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3",
+        "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3"
+      ]
+    }
+  },
+  "hash_seeds": [
+    0,
+    137
+  ],
+  "scope": "Deterministic model results only; environment, timing and logs can vary."
+}

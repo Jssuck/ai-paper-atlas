@@ -1,0 +1,72 @@
+{
+  "status": "failed",
+  "started_utc": "2026-10-11T16:53:02.705294+00:00",
+  "finished_utc": "2026-10-11T16:53:02.960737+00:00",
+  "seconds": 0.2554436970021925,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "frozen_files": 15,
+  "subject_unchanged": true,
+  "independent_case_counts": {
+    "partition_pair_cases": 225,
+    "two_task_assignments": 225,
+    "independent_sufficiency_and_minimum_cases": 3375,
+    "observation_and_decision_table_cases": 320,
+    "invalid_input_calls": 40
+  },
+  "checks": [
+    {
+      "check": "oracle_lattice",
+      "status": "passed",
+      "seconds": 0.007250386999658076
+    },
+    {
+      "check": "oracle_tasks",
+      "status": "passed",
+      "seconds": 0.09317523099889513
+    },
+    {
+      "check": "oracle_observations",
+      "status": "passed",
+      "seconds": 0.02542067500326084
+    },
+    {
+      "check": "evidence_cases",
+      "status": "passed",
+      "seconds": 0.00020602600125130266
+    },
+    {
+      "check": "validation_cases",
+      "status": "passed",
+      "seconds": 0.00028759999986505136
+    },
+    {
+      "check": "summary_result_dictionary_fault_injection",
+      "status": "passed"
+    },
+    {
+      "check": "audit_failure",
+      "status": "failed",
+      "error": "AssertionError: A specified fault survived"
+    }
+  ],
+  "limits": [
+    "Finite small-domain implementation checks are not a general theorem proof.",
+    "No empirical psychological, botanical, or historical influence validation.",
+    "Python 3.10 grammar parsed; only the listed runtime interpreters were executed.",
+    "Timing, environment paths and execution-log bytes are not deterministic outputs.",
+    "No concurrent mutation, adversarial custom container classes or infinite-input test."
+  ]
+}
+Traceback (most recent call last):
+  File "PACKAGE_PATH/independent-review/audit.py", line 422, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "PACKAGE_PATH/independent-review/audit.py", line 343, in main
+    mutation_results = mutation_checks(source)
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "PACKAGE_PATH/independent-review/audit.py", line 304, in mutation_checks
+    require(all(row['status'] == 'detected' for row in results), 'A specified fault survived')
+  File "PACKAGE_PATH/independent-review/audit.py", line 50, in require
+    raise AssertionError(message)
+AssertionError: A specified fault survived

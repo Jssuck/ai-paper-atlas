@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">同一批对象，任务增加后分类细化</title>
+<desc id="desc">现代教学重构。任务T将a和b分在同一类，c和d分在另一类。加入任务S后a和b分开，c和d仍同类。观察相同不保证任务输出相同。</desc>
+<rect width="1200" height="660" fill="#f6f7fb"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#172b4d">
+<text x="54" y="58" font-size="29" font-weight="bold">分类保留的是任务所需的区别</text>
+<text x="54" y="91" font-size="17" fill="#52647b">原创现代教学重构 · 四个虚构对象 · 不是原书插图或心理实验</text>
+<rect x="45" y="120" width="520" height="290" rx="18" fill="white" stroke="#ccd6e0"/>
+<rect x="635" y="120" width="520" height="290" rx="18" fill="white" stroke="#ccd6e0"/>
+<text x="72" y="159" font-size="24" font-weight="bold">只要求任务 T</text>
+<text x="662" y="159" font-size="24" font-weight="bold">同时要求任务 T 和 S</text>
+<rect x="78" y="185" width="208" height="156" rx="14" fill="#e8eefb" stroke="#345cb4" stroke-width="2"/>
+<rect x="315" y="185" width="208" height="156" rx="14" fill="#e2f2ee" stroke="#2e816d" stroke-width="2"/>
+<text x="104" y="219" font-size="21">T = A</text><text x="341" y="219" font-size="21">T = B</text>
+<text x="111" y="290" font-size="37" font-weight="bold">a　b</text><text x="349" y="290" font-size="37" font-weight="bold">c　d</text>
+<rect x="665" y="185" width="134" height="156" rx="14" fill="#e8eefb" stroke="#345cb4" stroke-width="2"/>
+<rect x="815" y="185" width="134" height="156" rx="14" fill="#e8eefb" stroke="#345cb4" stroke-width="2"/>
+<rect x="965" y="185" width="160" height="156" rx="14" fill="#e2f2ee" stroke="#2e816d" stroke-width="2"/>
+<text x="684" y="218" font-size="19">(A, 0)</text><text x="834" y="218" font-size="19">(A, 1)</text><text x="997" y="218" font-size="19">(B, 0)</text>
+<text x="719" y="290" font-size="37" font-weight="bold">a</text><text x="869" y="290" font-size="37" font-weight="bold">b</text><text x="990" y="290" font-size="37" font-weight="bold">c　d</text>
+<text x="79" y="378" font-size="20">2 类：{a,b} / {c,d}</text>
+<text x="666" y="378" font-size="20">3 类：{a} / {b} / {c,d}</text>
+<path d="M 575 261 L 623 261 M 611 249 L 623 261 L 611 273" fill="none" stroke="#52647b" stroke-width="3"/>
+<rect x="45" y="440" width="1110" height="174" rx="18" fill="#fff9eb" stroke="#d8ba6b"/>
+<text x="73" y="477" font-size="23" font-weight="bold">但分类规则不能凭空增加观察</text>
+<text x="73" y="514" font-size="21">若 o(a) = o(b)，而任务要求 r(a) ≠ r(b)，只用 o 的确定规则就不可能全对。</text>
+<text x="73" y="549" font-size="19">上方允许使用已给定的正确任务表；下方问的是这张表能否从指定观察恢复。</text>
+<text x="73" y="581" font-size="19">“最粗充分分类”与“能够学到这项分类”，是两个不同问题。</text>
+</g></svg>

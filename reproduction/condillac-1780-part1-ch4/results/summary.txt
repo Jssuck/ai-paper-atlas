@@ -1,0 +1,18 @@
+Condillac I.IV：现代有限分类教学模型（非原作者算法）
+数据全部虚构；没有心理学经验复现。
+
+no_distinction_needed: 1 classes; sufficient=True
+harvest: 2 classes; sufficient=True
+sort_fruit: 5 classes; sufficient=True
+sort_and_shade: 7 classes; sufficient=True
+one_name_per_individual: 8 classes; sufficient=True
+shade_need_removed: 5 classes; sufficient=True
+
+合并需要 = 分区共同细化: True
+只有绿色观测：15 对冲突；首例 ['a1', 'g1']
+增加 fruit_kind 观测后的采收冲突数: 0
+当前陈列任务：全部改用 plant 后仍充分: True
+未知 = 假: False
+部分断言：准确 True；覆盖有限参照表所有字段 False
+
+结论只对已声明的对象、需要与证据成立；不自动推广到新对象。

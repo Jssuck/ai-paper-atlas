@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-11T16:53:30.978917+00:00",
+  "finished_utc": "2026-10-11T16:53:32.972809+00:00",
+  "seconds": 1.9938965149995056,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "frozen_files": 15,
+  "subject_unchanged": true,
+  "independent_case_counts": {
+    "partition_pair_cases": 225,
+    "two_task_assignments": 225,
+    "independent_sufficiency_and_minimum_cases": 3375,
+    "observation_and_decision_table_cases": 320,
+    "invalid_input_calls": 41
+  },
+  "checks": [
+    {
+      "check": "oracle_lattice",
+      "status": "passed",
+      "seconds": 0.006678619000012986
+    },
+    {
+      "check": "oracle_tasks",
+      "status": "passed",
+      "seconds": 0.08772352500091074
+    },
+    {
+      "check": "oracle_observations",
+      "status": "passed",
+      "seconds": 0.026093420998222427
+    },
+    {
+      "check": "evidence_cases",
+      "status": "passed",
+      "seconds": 0.00013759600187768228
+    },
+    {
+      "check": "validation_cases",
+      "status": "passed",
+      "seconds": 0.00020212200251989998
+    },
+    {
+      "check": "summary_result_dictionary_fault_injection",
+      "status": "passed"
+    },
+    {
+      "check": "source_mutations",
+      "status": "passed",
+      "detected": 8
+    },
+    {
+      "check": "author_replays",
+      "status": "passed",
+      "runs": [
+        {
+          "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "command": [
+            "python3",
+            "-B",
+            "run_all.py"
+          ],
+          "returncode": 0,
+          "deterministic_hashes": {
+            "results.json": "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89",
+            "summary.txt": "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3"
+          },
+          "delivered_bytes_match": true
+        },
+        {
+          "python_version": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+          "command": [
+            "/usr/bin/python3.13",
+            "-B",
+            "run_all.py"
+          ],
+          "returncode": 0,
+          "deterministic_hashes": {
+            "results.json": "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89",
+            "summary.txt": "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3"
+          },
+          "delivered_bytes_match": true
+        }
+      ]
+    },
+    {
+      "check": "runner_fails_closed_after_injected_test_failure",
+      "status": "passed",
+      "injected_run_returncode": 1
+    }
+  ],
+  "limits": [
+    "Finite small-domain implementation checks are not a general theorem proof.",
+    "No empirical psychological, botanical, or historical influence validation.",
+    "Python 3.10 grammar parsed; only the listed runtime interpreters were executed.",
+    "Timing, environment paths and execution-log bytes are not deterministic outputs.",
+    "No concurrent mutation, adversarial custom container classes or infinite-input test."
+  ]
+}

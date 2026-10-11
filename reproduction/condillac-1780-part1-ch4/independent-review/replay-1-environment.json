@@ -1,0 +1,62 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3.13",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "elapsed_seconds": 0.2408961730034207,
+      "label": "unit_tests",
+      "pythonhashseed": "0",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3.13",
+        "run_experiments.py"
+      ],
+      "elapsed_seconds": 0.0701536339984159,
+      "label": "main_experiments",
+      "pythonhashseed": "0",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3.13",
+        "run_experiments.py",
+        "--output-dir",
+        "TEMP_DIR/0"
+      ],
+      "elapsed_seconds": 0.08503196500168997,
+      "label": "determinism_0",
+      "pythonhashseed": "0",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3.13",
+        "run_experiments.py",
+        "--output-dir",
+        "TEMP_DIR/137"
+      ],
+      "elapsed_seconds": 0.08748827700037509,
+      "label": "determinism_137",
+      "pythonhashseed": "137",
+      "returncode": 0
+    }
+  ],
+  "dependency_policy": "Python standard library only; no install, network, API call, or paid service",
+  "elapsed_seconds_total": 0.5136278060017503,
+  "error": null,
+  "executable_name": "python3.13",
+  "finished_utc": "2026-10-11T16:58:19.949852+00:00",
+  "log_path_policy": "Interpreter path is reduced to its filename; TEMP_DIR denotes the real temporary output directory.",
+  "machine": "x86_64",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python_version": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "started_utc": "2026-10-11T16:58:19.443003+00:00",
+  "status": "passed",
+  "working_directory": "this package directory"
+}

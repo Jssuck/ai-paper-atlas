@@ -21,6 +21,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.I精读](papers/1780/condillac-logic-part1-ch1.zh-CN.md) | AI认知前史：分辨、经验纠错与满意信号的边界 | 深读v1 · 完整书籍章节5–15及跨页脚注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.II精读](papers/1780/condillac-logic-part1-ch2.zh-CN.md) | AI认知前史：观察次序、关系重建与整体覆盖 | 深读v1 · 完整书籍章节16–24及七条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.III精读](papers/1780/condillac-logic-part1-ch3.zh-CN.md) | AI认知前史：结构表象、实践技能与分析法边界 | 深读v1 · 完整书籍章节25–31及五条边注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.IV精读](papers/1780/condillac-logic-part1-ch4.zh-CN.md) | AI认知前史：按需分类、观察边界与准确而不完整 | 深读v1 · 完整书籍章节32–48及17条边注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -302,3 +303,15 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成1798《全集》XXII卷I.III印25–31完整七页、五条边注及31页作者自引，两份同版扫描逐页核图；1780仅为版书目年，不认证最早版次、原页码或逐字文字。感觉/回忆、机器与样衣、默会分析、品味/天才、错误方法及全称发现主张全部讨论，18题附答案。“最短”在本章仍是后文预告，不冒称已证。
 
 现代有序树模型区分结构、叶次序、叶多重集与数值输出，提供一般往返证明和有损记录反例；18项主测试在普通、-O、-OO模式通过。3477树的完整前缀/叶序列/叶多重集/输出分别有3477/120/34/15类，有限计数不是认知概率或一般证明。独立审计与实跑范围见附件；无Notebook或Jupyter声明。结构往返不证明观察真实、分析唯一或人类心理机制。Port-Royal只核有限背景段落，未计第二单位；I.IV及后续、全书和全部旧候选/版本缺口保留。
+
+
+## Condillac逻辑学第一部第四章可运行附件
+
+- [任务签名、最粗充分分类与观察冲突的现代教学模型](reproduction/condillac-1780-part1-ch4/README.md)
+- [逐页来源、17条边注与同版排印校读](papers/1780/condillac-logic-part1-ch4.sources.zh-CN.md) · [独立全文论证审计](papers/1780/condillac-logic-part1-ch4.audit.zh-CN.md)
+- [形式定义与一般证明](reproduction/condillac-1780-part1-ch4/MODEL.zh-CN.md) · [中文逐步手算](reproduction/condillac-1780-part1-ch4/WALKTHROUGH.zh-CN.md)
+- [独立代码复核](reproduction/condillac-1780-part1-ch4/independent-review/review.zh-CN.md) · [原创任务分类图](papers/1780/assets/condillac-ch4-task-partitions.png)
+
+仅完成1798《全集》XXII卷I.IV印32–48完整17页、17条边注（含45–46跨页一条）及48页三项作者自引，两份同版扫描逐页核图；1780仅为一版书目年，不认证最早版次、原页码或逐字文字。全文讨论从已知到未知、个别观念与骤然泛化、需要驱动细分、一般名称与自然属种、过细区分、树/灌木交界、准确不完整及分析唯一性，20题附答案。44页局部排印异常、39页末字异常和目录/边注措辞差异保留，不冒充作者正式勘误。
+
+现代有限任务模型给出唯一最粗充分分区、需要增加的细化与观察可识别性的一般证明；八个虚构植物对象仅作教学数据。有限枚举、主测试、环境命令、实际日志和独立代码审计的精确范围见运行附件，不把小模型称为儿童心理实验或一般证明。程序不验证感觉论、自然种类本体论或分析方法唯一性。Locke只读有限前驱段落，I.V及后续、全书、自引文献及全部旧候选/版本缺口继续开放。

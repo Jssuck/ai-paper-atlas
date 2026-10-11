@@ -1,0 +1,17 @@
+{
+  "MODEL.zh-CN.md": "a0f1527891315856cc0bf539694df0f32fb4fe5968b9da224dfccb95bc757582",
+  "README.md": "3e25386cc5de348dc8adf45a08ea647b4e79638f13ff13bc07adbc019689c31d",
+  "WALKTHROUGH.zh-CN.md": "6c8a9beb4b022d22f564e472692545f24c7c64d16ee232a2cbd7962cf2ba549e",
+  "fixtures.py": "954a3e695f26d5cfe2f72dae356f81349585dcfa46911c93534fa38ceea5f050",
+  "model.py": "8a00206ac16661bddf1e031ed5a854def60e069fbbf2b71c886df537d08c7cca",
+  "results/determinism.json": "5a875a19fe8fc671d8ca914933dd360e37dc8c42d3fa409a4612efa8e831ecd3",
+  "results/environment.json": "a85a7d761b0cc4f022adb14954348bd9a019491ccc8030d8054dedd1572eefa2",
+  "results/execution.log": "14990eaa9b6ec99c6cae8a0b9a14f40a258eddf0556fc553c8cd12f5e25bbdcc",
+  "results/manifest.sha256": "c22f5387386d994a5f3836c15e3c55177abff7bebc220eae03788bf607ea493b",
+  "results/results.json": "fd4b85ac0f64bae2381e7d2a21855cc5cca5ce790bb6ebc89ebc1a65a386ae89",
+  "results/summary.txt": "6226c62083bb2dedbde04a0e75a91f98d6ff11fad09b94b3b80f68be63d74ab3",
+  "results/tests.log": "582e2ab3eca99d92ed071558fac19b39f970cf5a1c2fffbe69dbf2499998291d",
+  "run_all.py": "cc5ea7d1fa54cf34da9981f4d417208d50654a93cd8b089ee8b63bd59c62bfeb",
+  "run_experiments.py": "4367c853684d95b0c94e5bbf878bf6ebf0458cafe9339bca8897f9662028133c",
+  "test_model.py": "0c06c6a3f0e57b70c2a64ddeb2684dd6d53022064ad6bcedc9809e38310809d7"
+}
