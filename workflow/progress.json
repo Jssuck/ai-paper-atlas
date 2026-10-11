@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "euler-1768-letter-civ",
+    "path": "papers/1768/euler-letter-civ.zh-CN.md",
+    "stage": "researching",
+    "scope": "Complete Letter CIV,1768 volumeII printed pp111–119,dated21February1761. Verify obscured page118 against explicitly identified companion edition;not whole volume."
+  },
   "last_completed": {
     "id": "euler-1768-letter-ciii",
     "path": "papers/1768/euler-letter-ciii.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent original-source/mathematics and code audits passed;30 main tests and eight independent oracle groups;35 remote Git blob identities and32 text contents verified;27 article formulas,five tables,related Markdown,original SVG/PNG pixels and primary-source/artifact link spot checks passed.",
     "scope": "Complete Letter CIII,1768 volumeII pp100–111,dated17February1761;1768 base with obscured pp106/110 checked against1770 pp111/115. Composite-source limits retained;not whole volume.768 candidate/regime checks are finite teaching reconstruction,not proof by experiment."
   },
-  "updated_at": "2026-10-11T06:54:30Z",
+  "updated_at": "2026-10-11T07:39:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At the next scheduled paper iteration, inspect current state before selecting one subsequent historical source; no catch-up.",
+  "next_action": "Read original letter and applicable corrections, document edition limits, reconstruct mathematics and minimal examples, obtain independent source/code review.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
