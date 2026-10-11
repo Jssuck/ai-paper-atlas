@@ -1,0 +1,14 @@
+{
+  "allowed_world_count": 3,
+  "counterexamples": [
+    {
+      "body": true,
+      "spirit": true
+    }
+  ],
+  "premise_world_count": 2,
+  "premises_consistent": true,
+  "theory_consistent": true,
+  "valid": false,
+  "warning": null
+}

@@ -1,0 +1,264 @@
+{
+  "cases": {
+    "affirming_consequent": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": false,
+          "q": true
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "both_body_to_not_spirit": {
+      "allowed_world_count": 2,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "both_not_body_to_spirit": {
+      "allowed_world_count": 2,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "conditional_alone_not_not_p": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": true,
+          "q": true
+        }
+      ],
+      "premise_world_count": 3,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "conditional_alone_not_not_q": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": false,
+          "q": true
+        },
+        {
+          "p": true,
+          "q": true
+        }
+      ],
+      "premise_world_count": 3,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "conditional_alone_not_p": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": false,
+          "q": false
+        },
+        {
+          "p": false,
+          "q": true
+        }
+      ],
+      "premise_world_count": 3,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "conditional_alone_not_q": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": false,
+          "q": false
+        }
+      ],
+      "premise_world_count": 3,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "constrained_p_entails_q": {
+      "allowed_world_count": 3,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "denying_antecedent": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": false,
+          "q": true
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "empty_theory": {
+      "allowed_world_count": 0,
+      "counterexamples": [],
+      "premise_world_count": 0,
+      "premises_consistent": false,
+      "theory_consistent": false,
+      "valid": true,
+      "warning": "empty theory: validity is vacuous; no allowed world exists"
+    },
+    "exclusive_body_to_not_spirit": {
+      "allowed_world_count": 3,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "exclusive_not_body_to_spirit": {
+      "allowed_world_count": 3,
+      "counterexamples": [
+        {
+          "body": false,
+          "spirit": false
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "exhaustive_body_to_not_spirit": {
+      "allowed_world_count": 3,
+      "counterexamples": [
+        {
+          "body": true,
+          "spirit": true
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "exhaustive_not_body_to_spirit": {
+      "allowed_world_count": 3,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "explicit_worlds_p_entails_q": {
+      "allowed_world_count": 3,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "inconsistent_premises": {
+      "allowed_world_count": 4,
+      "counterexamples": [],
+      "premise_world_count": 0,
+      "premises_consistent": false,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": "inconsistent premises in this theory: validity is vacuous"
+    },
+    "modus_ponens": {
+      "allowed_world_count": 4,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "modus_tollens": {
+      "allowed_world_count": 4,
+      "counterexamples": [],
+      "premise_world_count": 1,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": true,
+      "warning": null
+    },
+    "neither_body_to_not_spirit": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "body": true,
+          "spirit": true
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "neither_not_body_to_spirit": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "body": false,
+          "spirit": false
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    },
+    "unrestricted_p_entails_q": {
+      "allowed_world_count": 4,
+      "counterexamples": [
+        {
+          "p": true,
+          "q": false
+        }
+      ],
+      "premise_world_count": 2,
+      "premises_consistent": true,
+      "theory_consistent": true,
+      "valid": false,
+      "warning": null
+    }
+  },
+  "scope": "modern finite classical teaching model, not Euler's formal system",
+  "single_assignment": {
+    "material_implication_true": true,
+    "world": {
+      "p": false,
+      "q": true
+    }
+  }
+}

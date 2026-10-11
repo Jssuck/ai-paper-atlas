@@ -1,0 +1,23 @@
+{
+  "files_checked": [
+    "README.md",
+    "SOURCES.md",
+    "WALKTHROUGH.zh.md",
+    "example.json",
+    "experiments.py",
+    "logic.py",
+    "logs/demo-repeat.json",
+    "logs/demo.json",
+    "logs/environment.txt",
+    "logs/example-result.json",
+    "logs/tests.txt",
+    "logs/verification.txt",
+    "main.py",
+    "reproduce.sh",
+    "tests/test_logic.py"
+  ],
+  "pattern_hits": [],
+  "symlinks": [],
+  "image_or_archive_files": [],
+  "limitation": "Targeted text-pattern and file-inventory review only; not proof of absence of all secrets."
+}

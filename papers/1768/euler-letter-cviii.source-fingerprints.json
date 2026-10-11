@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-10-11",
+  "scope": "Letter CVIII only, original1768 pp139lower–144date;comparison1770 pp144lower–149date. Files below are fingerprints, not redistributed scans.",
+  "primary_pdf": {
+    "url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf",
+    "sha256": "30bb818e1ba33bfddfa931e1bbc02b9c475e6fe2ee2a88ab7d09fdad325dad18",
+    "page_range_1based": [
+      160,
+      165
+    ]
+  },
+  "comparison_pages": [
+    {
+      "canvas": 156,
+      "page": "144",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380295",
+      "sha256": "613a20790fb4e03274dcce9773efbb093bbf097a82bf73186202b2f3f1e58727"
+    },
+    {
+      "canvas": 157,
+      "page": "145",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380296",
+      "sha256": "345fab07c4b517702c7d851c7775b69974003f5bd1e4a83fd0fd1b5f8b1546b8"
+    },
+    {
+      "canvas": 158,
+      "page": "146",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380297",
+      "sha256": "86053130502d95a12274d8e416e4ebfcf1e333f57c78b413142b70180fc65208"
+    },
+    {
+      "canvas": 159,
+      "page": "147",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380298",
+      "sha256": "5d4a7b890dbe69b5ad9858885eb10eaa6b30083ae0eaef684080c13c7d8803ba"
+    },
+    {
+      "canvas": 160,
+      "page": "148",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380299",
+      "sha256": "11d31b99e2612fd994113dae468b4c5956ed631e0a5dfb9a85516b58cbc567a9"
+    },
+    {
+      "canvas": 161,
+      "page": "149",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380300",
+      "sha256": "2e169a4a09be2a4cead45b8968b371f96eb58a2e68ce44b10f8f69b74ec95604"
+    },
+    {
+      "canvas": 162,
+      "page": "150",
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380301",
+      "sha256": "67f60467d2bd344d59e750374dadc5b9c1747e1f57e1bd908de64a08fa3d39b4"
+    }
+  ],
+  "corrections_volume3_pdf": {
+    "url": "https://archive.org/download/lettresuneprinc00eulegoog/lettresuneprinc00eulegoog.pdf",
+    "sha256": "b5f631226545927d398770a3df39ee9c7151543895f2bf4cad31729ffd1baf4f",
+    "checked": "PDF22correctionstable;PDF161printed138magnetism identity. No applicable CVIII correction found in bounded check."
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "euler-1768-letter-cviii",
     "path": "papers/1768/euler-letter-cviii.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "Complete Letter CVIII,1768 volumeII printed139–144,dated7March1761;compound and conditional propositions,valid/invalid inference and disjunction;exclude CIX."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source,whole-main mathematics and code audits passed;11tests,512decisions,473minimum countermodels,121088support truth comparisons,157invalid-input checks.18remote text/blob identities verified.119formulas,eight tables,five new Markdown pages and116anchors checked in GitHub browser.Source links preserved;Euler Archive and Internet Archive opened,e-rara record stopped at browser security challenge.",
     "scope": "Complete CVII,1768 pp134–139,dated3March1761;ten observations and singular propositions,1770 full comparison.1772 p138 correction is volumeIII magnetism,not this letter.Original six pages readable;not wholevolume."
   },
-  "updated_at": "2026-10-11T11:39:00Z",
+  "updated_at": "2026-10-11T11:54:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read primary text and applicable corrections, reconstruct arguments and examples with independent source/math/code review.",
+  "next_action": "Verify remote contents and actual GitHub math/table/link rendering after independent source/math/code audits.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

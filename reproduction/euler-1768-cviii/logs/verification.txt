@@ -1,0 +1,6 @@
+Commands completed successfully: unittest, demo (twice), check example.json
+Determinism: both demo JSON outputs are byte-identical (cmp exit 0)
+Cases: 21
+Valid cases: 10
+Invalid cases: 11
+Vacuity warnings: 2

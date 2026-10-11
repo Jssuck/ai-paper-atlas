@@ -1,0 +1,6 @@
+{
+  "atoms": ["body", "spirit"],
+  "constraints": [["or", "body", "spirit"]],
+  "premises": ["body"],
+  "conclusion": ["not", "spirit"]
+}

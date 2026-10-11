@@ -1,0 +1,36 @@
+test_check_invalid_argument_is_successful_computation (test_logic.CLITests.test_check_invalid_argument_is_successful_computation) ... ok
+test_demo_deterministic_json (test_logic.CLITests.test_demo_deterministic_json) ... ok
+test_malformed_or_duplicate_json (test_logic.CLITests.test_malformed_or_duplicate_json) ... ok
+test_missing_file (test_logic.CLITests.test_missing_file) ... ok
+test_payload_validation (test_logic.CLITests.test_payload_validation) ... ok
+test_boolean_values_are_strict (test_logic.EvaluationTests.test_boolean_values_are_strict) ... ok
+test_constants_and_zero_atoms (test_logic.EvaluationTests.test_constants_and_zero_atoms) ... ok
+test_depth_limit (test_logic.EvaluationTests.test_depth_limit) ... ok
+test_nested_substitution (test_logic.EvaluationTests.test_nested_substitution) ... ok
+test_no_short_circuit_validation_escape (test_logic.EvaluationTests.test_no_short_circuit_validation_escape) ... ok
+test_truth_tables (test_logic.EvaluationTests.test_truth_tables) ... ok
+test_unknown_operator_and_arity (test_logic.EvaluationTests.test_unknown_operator_and_arity) ... ok
+test_world_must_be_dictionary (test_logic.EvaluationTests.test_world_must_be_dictionary) ... ok
+test_both_fallacies_same_counterexample (test_logic.ReadingExperimentsTests.test_both_fallacies_same_counterexample) ... ok
+test_conditional_alone_asserts_neither_constituent (test_logic.ReadingExperimentsTests.test_conditional_alone_asserts_neither_constituent) ... ok
+test_counterexamples_really_refute (test_logic.ReadingExperimentsTests.test_counterexamples_really_refute) ... ok
+test_disjunction_counterexamples (test_logic.ReadingExperimentsTests.test_disjunction_counterexamples) ... ok
+test_exhaustiveness_and_exclusivity_separate (test_logic.ReadingExperimentsTests.test_exhaustiveness_and_exclusivity_separate) ... ok
+test_inconsistency_warnings (test_logic.ReadingExperimentsTests.test_inconsistency_warnings) ... ok
+test_mp_mt_valid_and_nonvacuous (test_logic.ReadingExperimentsTests.test_mp_mt_valid_and_nonvacuous) ... ok
+test_single_truth_does_not_establish_law (test_logic.ReadingExperimentsTests.test_single_truth_does_not_establish_law) ... ok
+test_atom_validation (test_logic.TheoryTests.test_atom_validation) ... ok
+test_constraints_intersect_explicit_worlds (test_logic.TheoryTests.test_constraints_intersect_explicit_worlds) ... ok
+test_constraints_validation (test_logic.TheoryTests.test_constraints_validation) ... ok
+test_deterministic_atom_and_counterexample_order (test_logic.TheoryTests.test_deterministic_atom_and_counterexample_order) ... ok
+test_duplicate_worlds_normalized_and_sorted (test_logic.TheoryTests.test_duplicate_worlds_normalized_and_sorted) ... ok
+test_explicit_empty_is_not_unrestricted (test_logic.TheoryTests.test_explicit_empty_is_not_unrestricted) ... ok
+test_input_mutation_cannot_change_theory (test_logic.TheoryTests.test_input_mutation_cannot_change_theory) ... ok
+test_invalid_conclusion_checked_even_in_empty_theory (test_logic.TheoryTests.test_invalid_conclusion_checked_even_in_empty_theory) ... ok
+test_premises_must_be_sequence (test_logic.TheoryTests.test_premises_must_be_sequence) ... ok
+test_world_validation (test_logic.TheoryTests.test_world_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.014s
+
+OK
