@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-civ",
     "path": "papers/1768/euler-letter-civ.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete Letter CIV,1768 pp111–119,dated21February1761;clipped112/114/116/118 checked against1770 complete letter pp116–124,composite-source limitations retained."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-ciii",
-    "path": "papers/1768/euler-letter-ciii.zh-CN.md",
     "version": "v1",
-    "content_commit": "49a2a2ddcae6a8eb4a7b7f27454ce3162cc9ccde",
-    "checks": "Independent original-source/mathematics and code audits passed;30 main tests and eight independent oracle groups;35 remote Git blob identities and32 text contents verified;27 article formulas,five tables,related Markdown,original SVG/PNG pixels and primary-source/artifact link spot checks passed.",
-    "scope": "Complete Letter CIII,1768 volumeII pp100–111,dated17February1761;1768 base with obscured pp106/110 checked against1770 pp111/115. Composite-source limits retained;not whole volume.768 candidate/regime checks are finite teaching reconstruction,not proof by experiment."
+    "content_commit": "54dd0ad6fae260c31946768064aae34ddbd5d95d",
+    "checks": "Independent source/mathematics and code audits passed;23 main tests,8653 independent field comparisons,three teaching examples;28 remote blob identities and26 text contents verified. All48 article formulas,four tables,42anchors,related Markdown and original SVG/PNG pixels checked in browser.",
+    "scope": "Complete Letter CIV,1768 pp111–119,dated21February1761;clipped112/114/116/118 supplemented by1770 pp116–124 with explicit version limits. Printed XVI and evidence-based teaching repair kept separate;no formal erratum claimed."
   },
-  "updated_at": "2026-10-11T08:01:00Z",
+  "updated_at": "2026-10-11T08:06:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote content identities, formulas, tables, links and original diagrams before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
