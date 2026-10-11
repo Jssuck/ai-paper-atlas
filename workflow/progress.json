@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part1-ch7",
     "path": "papers/1780/condillac-logic-part1-ch7.zh-CN.md",
-    "stage": "remote_content_and_render_verification",
-    "scope": "La Logique I.VII, actual 1798 Œuvres XXII pp.58–66; 1780 bibliographic edition date only."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part1-ch6",
-    "path": "papers/1780/condillac-logic-part1-ch6.zh-CN.md",
     "version": "v1",
-    "content_commit": "895759eb99eea7f4d9442c7d8552da02953dcd18",
-    "checks": "Independent source, whole-argument and code reviews passed. 27 author and 18 independent tests pass normal/-O/-OO; 23 independent mutations yield 69 valid detections. All 57 remote blob identities and exact UTF-8 texts verified. Nine live GitHub Markdown bodies, 440 formulas, 11 tables, 26 exercises/answers, 256 relative targets and 167 heading anchors checked. BnF/Hiroshima/Locke readable; IA/Google availability unverified after access failures.",
-    "scope": "Complete La Logique I.VI, actual 1798 Œuvres XXII pp.54–57, two scans, four margins and two self-citation groups. 1780 bibliographic dating only. Print anomalies retained. Habit, action-inference and norm-family models are modern teaching reconstructions."
+    "content_commit": "c2e0827cd289d656bfb4c60017020caddd67edb7",
+    "checks": "Independent source, whole-argument and code reviews passed. 18 author tests pass normal/-O/-OO; independent 18600 Horn theories, 73728 comparisons, 8052 certificates and 13 mutations across three modes pass. All 30 remote files exactly verified. Unsupported domain macro repaired and independently rechecked. Eight live Markdown bodies, 342 formulas, 13 tables, 22 answers, 169 headings and 228 relative links/206 targets pass. IA/BnF/Hiroshima/Locke reachable; Google Books CAPTCHA limits fresh availability.",
+    "scope": "Complete La Logique I.VII, actual 1798 Œuvres XXII pp.58–66, two scans, nine margins, full p.65 footnote and three self-citation locations. 1780 bibliographic dating only. Footnote containment-direction tension retained; models explicitly modern."
   },
-  "updated_at": "2026-10-11T19:57:40Z",
+  "updated_at": "2026-10-11T20:06:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify every remote artifact and actual GitHub mathematical rendering before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
