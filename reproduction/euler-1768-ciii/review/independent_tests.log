@@ -1,0 +1,102 @@
+$ python3 review/independent_oracle.py
+test_01_model_space_and_all_atomic_relations (__main__.IndependentReview.test_01_model_space_and_all_atomic_relations) ... ok
+test_02_nine_independently_transcribed_forms (__main__.IndependentReview.test_02_nine_independently_transcribed_forms) ... ok
+test_03_expanded_256_candidates_and_matching (__main__.IndependentReview.test_03_expanded_256_candidates_and_matching) ... ok
+test_04_conversions_permutations_and_premise_exchange (__main__.IndependentReview.test_04_conversions_permutations_and_premise_exchange) ... ok
+test_05_focused_existence_and_missing_cases (__main__.IndependentReview.test_05_focused_existence_and_missing_cases) ... ok
+test_06_named_examples_are_true_as_reported (__main__.IndependentReview.test_06_named_examples_are_true_as_reported) ... ok
+test_07_small_universe_quotient_with_repeated_witnesses (__main__.IndependentReview.test_07_small_universe_quotient_with_repeated_witnesses) ... ok
+test_08_generated_report_matches_current_sources (__main__.IndependentReview.test_08_generated_report_matches_current_sources) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.339s
+
+OK
+
+Independent oracle summary:
+{
+  "checks": {
+    "arbitrary_small_models": 584,
+    "atomic_model_statement_combinations": 9216,
+    "candidate_regime_combinations": 768,
+    "catalog_regime_combinations": 27,
+    "distinct_renamed_converted_premise_exchanged_formulas": 192,
+    "explicit_EI_variants": 28,
+    "named_examples": 8,
+    "quotient_statement_combinations": 21024,
+    "saved_report_and_source_hashes_current": true,
+    "transformed_formula_regime_combinations": 576
+  },
+  "inventory_counts": [
+    {
+      "EI_classes": 6,
+      "candidate_count": 128,
+      "first": "A",
+      "matched_ordered": 10,
+      "matched_unordered": 11,
+      "regime": "empty_terms_allowed",
+      "valid": 12
+    },
+    {
+      "EI_classes": 12,
+      "candidate_count": 128,
+      "first": "A",
+      "matched_ordered": 12,
+      "matched_unordered": 15,
+      "regime": "all_terms_nonempty",
+      "valid": 24
+    },
+    {
+      "EI_classes": 10,
+      "candidate_count": 128,
+      "first": "A",
+      "matched_ordered": 12,
+      "matched_unordered": 13,
+      "regime": "A_nonempty_only",
+      "valid": 20
+    },
+    {
+      "EI_classes": 4,
+      "candidate_count": 128,
+      "first": "E",
+      "matched_ordered": 8,
+      "matched_unordered": 8,
+      "regime": "empty_terms_allowed",
+      "valid": 8
+    },
+    {
+      "EI_classes": 10,
+      "candidate_count": 128,
+      "first": "E",
+      "matched_ordered": 8,
+      "matched_unordered": 8,
+      "regime": "all_terms_nonempty",
+      "valid": 14
+    },
+    {
+      "EI_classes": 6,
+      "candidate_count": 128,
+      "first": "E",
+      "matched_ordered": 8,
+      "matched_unordered": 8,
+      "regime": "A_nonempty_only",
+      "valid": 10
+    }
+  ],
+  "model_counts": {
+    "A_nonempty_only": {
+      "distinct": 240,
+      "raw": 240
+    },
+    "all_terms_nonempty": {
+      "distinct": 218,
+      "raw": 218
+    },
+    "empty_terms_allowed": {
+      "distinct": 255,
+      "raw": 256
+    }
+  },
+  "passed": true
+}
+Saved independent results: review/independent_results.json

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "euler-1768-letter-ciii",
     "path": "papers/1768/euler-letter-ciii.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "LetterCIII:1768base pp100–111 with obscured106/110 checked against1770Mietau/Leipsic edition pp111/115; composite-source limits retained."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Original-source mathematics and independent code review passed;16main tests;30remote text files exact-verified and PNG blob identity verified;seven Markdown views,32article formulas,eight tables and SVG/PNG pixels/links independently checked.",
     "scope": "1768volumeII LetterCII pp95–100,dated14February1761;complete letter chapter and six original diagram blocks,not journal paper or full syllogistic system.340main models and1364independent models overlap; noNotebook claimed."
   },
-  "updated_at": "2026-10-10T21:46:00Z",
+  "updated_at": "2026-10-11T06:50:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Complete composite-source comparison and independent mathematics/code review; do not claim direct recovery of obscured1768wording.",
+  "next_action": "Verify published contents, Git blob identities, links, formulas, tables and original diagrams before marking completed.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

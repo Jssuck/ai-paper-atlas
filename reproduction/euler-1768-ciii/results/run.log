@@ -1,0 +1,147 @@
+Euler Letter CIII: modern set-semantics reproduction
+===================================================
+Modern set-theoretic reconstruction of nine supplied CIII forms; not a claim about all of Euler's syllogistic.
+
+MODEL SPACE
+256 raw occupancy masks; 255 distinct nonempty-universe models.
+Raw mask 0 is given an outside witness and duplicates raw mask 1.
+A, E have no existential import. I, O assert a witness.
+A/E/I/O use all/subset, disjoint, some/intersection, some-not/difference.
+The finite check is complete for this fragment by PROOF.md's reduction.
+
+NINE DISPLAYED FORMS
+empty_terms_allowed: 256 raw masks / 255 distinct models
+  A1: VALID; A(A,B) & A(C,A) => A(C,B); premise masks=16 raw/15 distinct; counterexample masks=0 raw/0 distinct
+  A2: VALID; A(A,B) & I(C,A) => I(C,B); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  A3: VALID; A(A,B) & E(C,B) => E(C,A); premise masks=16 raw/15 distinct; counterexample masks=0 raw/0 distinct
+  A4: VALID; A(A,B) & O(C,B) => O(C,A); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  A5: INVALID; A(A,B) & A(B,C) => I(C,A); premise masks=16 raw/15 distinct; counterexample masks=8 raw/7 distinct
+  E1: VALID; E(A,B) & A(C,B) => E(C,A); premise masks=16 raw/15 distinct; counterexample masks=0 raw/0 distinct
+  E2: VALID; E(A,B) & A(C,A) => E(C,B); premise masks=16 raw/15 distinct; counterexample masks=0 raw/0 distinct
+  E3: VALID; E(A,B) & I(C,A) => O(C,B); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  E4: VALID; E(A,B) & I(C,B) => O(C,A); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+all_terms_nonempty: 218 raw masks / 218 distinct models
+  A1: VALID; A(A,B) & A(C,A) => A(C,B); premise masks=8 raw/8 distinct; counterexample masks=0 raw/0 distinct
+  A2: VALID; A(A,B) & I(C,A) => I(C,B); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  A3: VALID; A(A,B) & E(C,B) => E(C,A); premise masks=4 raw/4 distinct; counterexample masks=0 raw/0 distinct
+  A4: VALID; A(A,B) & O(C,B) => O(C,A); premise masks=24 raw/24 distinct; counterexample masks=0 raw/0 distinct
+  A5: VALID; A(A,B) & A(B,C) => I(C,A); premise masks=8 raw/8 distinct; counterexample masks=0 raw/0 distinct
+  E1: VALID; E(A,B) & A(C,B) => E(C,A); premise masks=4 raw/4 distinct; counterexample masks=0 raw/0 distinct
+  E2: VALID; E(A,B) & A(C,A) => E(C,B); premise masks=4 raw/4 distinct; counterexample masks=0 raw/0 distinct
+  E3: VALID; E(A,B) & I(C,A) => O(C,B); premise masks=24 raw/24 distinct; counterexample masks=0 raw/0 distinct
+  E4: VALID; E(A,B) & I(C,B) => O(C,A); premise masks=24 raw/24 distinct; counterexample masks=0 raw/0 distinct
+A_nonempty_only: 240 raw masks / 240 distinct models
+  A1: VALID; A(A,B) & A(C,A) => A(C,B); premise masks=12 raw/12 distinct; counterexample masks=0 raw/0 distinct
+  A2: VALID; A(A,B) & I(C,A) => I(C,B); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  A3: VALID; A(A,B) & E(C,B) => E(C,A); premise masks=8 raw/8 distinct; counterexample masks=0 raw/0 distinct
+  A4: VALID; A(A,B) & O(C,B) => O(C,A); premise masks=24 raw/24 distinct; counterexample masks=0 raw/0 distinct
+  A5: VALID; A(A,B) & A(B,C) => I(C,A); premise masks=8 raw/8 distinct; counterexample masks=0 raw/0 distinct
+  E1: VALID; E(A,B) & A(C,B) => E(C,A); premise masks=8 raw/8 distinct; counterexample masks=0 raw/0 distinct
+  E2: VALID; E(A,B) & A(C,A) => E(C,B); premise masks=12 raw/12 distinct; counterexample masks=0 raw/0 distinct
+  E3: VALID; E(A,B) & I(C,A) => O(C,B); premise masks=32 raw/32 distinct; counterexample masks=0 raw/0 distinct
+  E4: VALID; E(A,B) & I(C,B) => O(C,A); premise masks=24 raw/24 distinct; counterexample masks=0 raw/0 distinct
+
+CONVERSION AND EXISTENCE CHECKS
+empty_terms_allowed: 28 explicit E/I conversion variants; 26 valid.
+all_terms_nonempty: 28 explicit E/I conversion variants; 28 valid.
+A_nonempty_only: 28 explicit E/I conversion variants; 28 valid.
+A(A,B) => A(B,A): INVALID
+E(A,B) => E(B,A): VALID
+I(A,B) => I(B,A): VALID
+O(A,B) => O(B,A): INVALID
+I(A,B) => O(A,B): INVALID in all three regimes.
+Under A5's premises, I(C,A) iff A is nonempty: True
+
+FIXED-FIRST-PREMISE AUDIT
+Each row checks 128 candidates: 16 second premises x 8 endpoint conclusions.
+Matching always permits bijective term renaming and E/I conversion.
+Ordered matching keeps premise order; unordered matching also exchanges the premises.
+Neither matching adds subalternation or chains derived rules.
+Additional candidates are not automatically historical omissions; see PROOF.md.
+empty_terms_allowed, first A(A,B):
+  valid=12/128; E/I-only classes=6; displayed matches ordered=10, unordered=11
+  Additional valid candidates even with unordered matching:
+    A(A,B) & O(A,C) => O(B,C)
+empty_terms_allowed, first E(A,B):
+  valid=8/128; E/I-only classes=4; displayed matches ordered=8, unordered=8
+  Additional valid candidates even with unordered matching:
+    (none)
+all_terms_nonempty, first A(A,B):
+  valid=24/128; E/I-only classes=12; displayed matches ordered=12, unordered=15
+  Additional valid candidates even with unordered matching:
+    A(A,B) & E(C,A) => O(B,C)
+    A(A,B) & A(A,C) => I(C,B)
+    A(A,B) & A(A,C) => I(B,C)
+    A(A,B) & E(A,C) => O(B,C)
+    A(A,B) & O(A,C) => O(B,C)
+    A(A,B) & E(C,B) => O(C,A)
+    A(A,B) & E(C,B) => O(A,C)
+    A(A,B) & E(B,C) => O(C,A)
+    A(A,B) & E(B,C) => O(A,C)
+all_terms_nonempty, first E(A,B):
+  valid=14/128; E/I-only classes=10; displayed matches ordered=8, unordered=8
+  Additional valid candidates even with unordered matching:
+    E(A,B) & A(C,A) => O(C,B)
+    E(A,B) & A(C,A) => O(B,C)
+    E(A,B) & A(A,C) => O(C,B)
+    E(A,B) & A(C,B) => O(C,A)
+    E(A,B) & A(C,B) => O(A,C)
+    E(A,B) & A(B,C) => O(C,A)
+A_nonempty_only, first A(A,B):
+  valid=20/128; E/I-only classes=10; displayed matches ordered=12, unordered=13
+  Additional valid candidates even with unordered matching:
+    A(A,B) & E(C,A) => O(B,C)
+    A(A,B) & A(A,C) => I(C,B)
+    A(A,B) & A(A,C) => I(B,C)
+    A(A,B) & E(A,C) => O(B,C)
+    A(A,B) & O(A,C) => O(B,C)
+    A(A,B) & E(C,B) => O(A,C)
+    A(A,B) & E(B,C) => O(A,C)
+A_nonempty_only, first E(A,B):
+  valid=10/128; E/I-only classes=6; displayed matches ordered=8, unordered=8
+  Additional valid candidates even with unordered matching:
+    E(A,B) & A(A,C) => O(C,B)
+    E(A,B) & A(C,B) => O(A,C)
+
+FOCUSED COMMON-SUBJECT CASE
+A(A,B) & A(A,C) => I(C,B)
+  empty_terms_allowed: INVALID
+  all_terms_nonempty: VALID
+  A_nonempty_only: VALID
+A valid existence-dependent common-subject case absent from the nine displayed formulas under either explicit matching convention. Historical 'form' equivalence may be broader; no claim to have reconstructed it.
+
+EXPLICIT NAMED EXAMPLES
+A5_empty_A_counterexample: A5 fails with A empty even when B and C are nonempty
+  universe=['b']; terms={'A': [], 'B': ['b'], 'C': ['b']}
+  premises=A(A,B) & A(B,C); true=True
+  conclusion=I(C,A); true=False
+I_does_not_imply_O: One shared witness, no witness in A minus B
+  universe=['p']; terms={'A': ['p'], 'B': ['p'], 'C': ['p']}
+  premises=I(A,B); true=True
+  conclusion=O(A,B); true=False
+common_subject_empty_A_counterexample: A(A,B) and A(A,C) do not ensure I(C,B) when A is empty
+  universe=['b', 'c']; terms={'A': [], 'B': ['b'], 'C': ['c']}
+  premises=A(A,B) & A(A,C); true=True
+  conclusion=I(C,B); true=False
+no_inference_from_A_subset_B_and_C_disjoint_A: C disjoint from B
+  universe=['a', 'b', 'c']; terms={'A': ['a'], 'B': ['a', 'b'], 'C': ['c']}
+  premises=A(A,B) & E(C,A); true=True
+  C-to-B A/E/I/O={'A': False, 'E': True, 'I': False, 'O': True}
+no_inference_from_A_subset_B_and_C_disjoint_A: C wholly in B
+  universe=['a', 'b', 'c']; terms={'A': ['a'], 'B': ['a', 'b'], 'C': ['b']}
+  premises=A(A,B) & E(C,A); true=True
+  C-to-B A/E/I/O={'A': True, 'E': False, 'I': True, 'O': False}
+no_inference_from_A_subset_B_and_C_disjoint_A: C partially overlaps B
+  universe=['a', 'b', 'c']; terms={'A': ['a'], 'B': ['a', 'b'], 'C': ['b', 'c']}
+  premises=A(A,B) & E(C,A); true=True
+  C-to-B A/E/I/O={'A': False, 'E': False, 'I': True, 'O': True}
+pear_tree_equality_counterexample: A=trees, B=pear trees; inclusion and some pears allow equality
+  universe=['pear']; terms={'A': ['pear'], 'B': ['pear'], 'C': []}
+  premises=A(B,A) & I(A,B); true=True
+  conclusion=O(A,B); true=False
+pear_tree_strict_inclusion_example: A=trees, B=pear trees; the extra non-pear tree supplies strictness
+  universe=['pear', 'oak']; terms={'A': ['pear', 'oak'], 'B': ['pear'], 'C': []}
+  premises=A(B,A) & O(A,B); true=True
+  conclusion=O(A,B); true=True
+
+Wrote results/report.json, results/report.txt, and results/environment.json

@@ -4,9 +4,9 @@
   "checked_on": "2026-10-10",
   "language": "zh-CN",
   "scope": {
-    "selection_context": "已完成Gergonne1817后，明确向1768回填，仅完成Euler第二卷CII完整书信章节，不把整卷/全书或CIII/CIV标完成。",
-    "main_window": "1768原版第二卷CII，印95–100/PDF114–119，止于1761-02-14署日；六图块；排除CIII。",
-    "coverage": "完整保留20个旧候选、16项selection_history前缀、全部旧effective_status与书籍/版本缺口；追加CII对象及紧凑事件。",
+    "selection_context": "接续CII，只完成下一CIII完整书信章节的复合底本精读；不启动或标完成CIV、整卷或全书。",
+    "main_window": "1768原印100下部–111署日，原106/110扫描遮挡对应1770印111/115补核；1770 CIII105–116全信对照，26配置，止1761-02-17。",
+    "coverage": "保留21个旧候选、17项历史前缀、6项旧effective_status与全部书籍/版本缺口；仅追加CIII对象、当前有效状态和一项紧凑完成事件，不递归保存current_selection快照。",
     "nonexhaustive": true,
     "not_claimed": [
       "不声称1904是AI起点、最早逻辑论文或已穷尽全部早期文献。",
@@ -42,27 +42,34 @@
       "1768是出版年，1761-02-14是原信署日，E344为整卷编号；不称CII为独立期刊论文或已读全书。",
       "特称图是容许配置，不能把交叠图额外区域当成命题必然约束；现代空项与存在性约定不冒归原文。",
       "CIII102页仅有界上下文；CIII/CIV均未完整读完，110页遮挡需补清晰底本，101页四格图不属CII。",
-      "第二卷此扫描目录缺vi–vii、后段106–107重复，CII六页完整不等于整卷扫描完整；勘误检索有界，不断言绝无后期修订。"
+      "第二卷此扫描目录缺vi–vii、后段106–107重复，CII六页完整不等于整卷扫描完整；勘误检索有界，不断言绝无后期修订。",
+      "CIII完成采用1768基础与1770补核复合底本；原1768的106/110遮挡未直接逐字读清，后版九式/图序一致不认证被遮原字逐字同版。",
+      "CIII原信署1761-02-17，出版1768；1770仅为补本年，非独立期刊论文；CIV、整卷和全书仍未完成。",
+      "九展示式不是九个独立现代等价类；A5需A存在，AOO及共同主项AAI补充按明示现代准则，不冒称正式历史勘误或完整Euler三段论体系。",
+      "256原始掩码补外部见证后只有255个不同占位模型；A5有8原始/7不同反模型，不把重复当新反例；现代覆盖限固定三一元项的直言命题。",
+      "旧对象与历史中CIII未读/待补的描述保留其当时语境；本次当前状态只更新CIII复合底本完成，不关闭原1768缺字直接证据或CIV及旧书籍缺口。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。"
   },
   "current_selection": {
-    "candidate_id": "euler-1768-letter-cii",
-    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CII",
+    "candidate_id": "euler-1768-letter-ciii",
+    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CIII",
     "publication_year": 1768,
-    "letter_date": "1761-02-14",
-    "document_type": "完整书信章节，非独立期刊论文；E344为整卷编号",
-    "pages": "95–100（100页止于本信署日；下方CIII排除）",
-    "publication_scope": "Saint Pétersbourg, de l’Imprimerie de l’Académie Impériale des Sciences, 1768；出版月日未核定。",
-    "why_selected": "有界来源核查后由1817向1768回填；六页完整原始章节可读，不宣称最早逻辑图、第一篇AI或穷尽前史。",
-    "mathematical_boundary": "一般观念、四类直言命题与圆域表示；现代集合语义区分空项/非空项、一般/严格包含；特称交叠只是容许模型，不解释为some-but-not-all。",
-    "completion": "完整CII六页及六图块核图，原创中文精读、标准库复现及独立原典/数学/代码审查完成；远端提交与页面QA由发布步骤另核。",
-    "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
-    "source_ledger_path": "papers/1768/euler-letter-cii.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1768/euler-letter-cii.audit.zh-CN.md",
-    "reproduction_path": "reproduction/euler-1768-cii/README.zh-CN.md",
-    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=114",
-    "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/"
+    "letter_date": "1761-02-17",
+    "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
+    "pages": "1768印100下部–111署日止；复合底本补核1770印105下部–116署日止",
+    "publication_scope": "1768 Saint Pétersbourg原版基础，1770 Mietau et Leipsic, Steidel et Compagnie补核；具体发行月日未核定。",
+    "why_selected": "接续唯一下一完整书信章节CIII；1768原扫描106/110遮挡，以机构1770同期版补核，不能声称原1768被遮文字逐字认证。",
+    "mathematical_boundary": "第一前提为全称（第二前提可特称）的九个展示式及26图配置；A5需A非空；图为容许模型不附带所有存在性；现代128候选/首前提及比较准则与作者历史式数分开。",
+    "completion": "1768可见CIII与1770完整对应章节复合底本精读、原创中文证明、30主测试及8独立oracle组、原典/数学审计完成；原1768遮挡字面仍待独立扫描，远端提交和实际页面QA另核。",
+    "article_path": "papers/1768/euler-letter-ciii.zh-CN.md",
+    "source_ledger_path": "papers/1768/euler-letter-ciii.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1768/euler-letter-ciii.audit.zh-CN.md",
+    "reproduction_path": "reproduction/euler-1768-ciii/README.md",
+    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=119",
+    "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
+    "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
+    "status": "completed_composite_source_letter_chapter"
   },
   "earlier_gap_priority": [
     {
@@ -1035,6 +1042,26 @@
       "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=114",
       "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
       "status": "completed_original_letter_chapter"
+    },
+    {
+      "candidate_id": "euler-1768-letter-ciii",
+      "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CIII",
+      "publication_year": 1768,
+      "letter_date": "1761-02-17",
+      "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
+      "pages": "1768印100下部–111署日止；复合底本补核1770印105下部–116署日止",
+      "publication_scope": "1768 Saint Pétersbourg原版基础，1770 Mietau et Leipsic, Steidel et Compagnie补核；具体发行月日未核定。",
+      "why_selected": "接续唯一下一完整书信章节CIII；1768原扫描106/110遮挡，以机构1770同期版补核，不能声称原1768被遮文字逐字认证。",
+      "mathematical_boundary": "第一前提为全称（第二前提可特称）的九个展示式及26图配置；A5需A非空；图为容许模型不附带所有存在性；现代128候选/首前提及比较准则与作者历史式数分开。",
+      "completion": "1768可见CIII与1770完整对应章节复合底本精读、原创中文证明、30主测试及8独立oracle组、原典/数学审计完成；原1768遮挡字面仍待独立扫描，远端提交和实际页面QA另核。",
+      "article_path": "papers/1768/euler-letter-ciii.zh-CN.md",
+      "source_ledger_path": "papers/1768/euler-letter-ciii.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1768/euler-letter-ciii.audit.zh-CN.md",
+      "reproduction_path": "reproduction/euler-1768-ciii/README.md",
+      "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=119",
+      "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
+      "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
+      "status": "completed_composite_source_letter_chapter"
     }
   ],
   "next_source_gap": {
@@ -1898,6 +1925,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
       "note": "1817→1768回填；完整CII95–100及六图块，1761署日另记；特称非唯一模型、空项/存在性与一般包含分开；保留Nul A n’est pas B原印及上下文，不宣称正式勘误。CIII102只局部核查，CIII/CIV仍待补；全部旧候选、历史、有效状态及书籍/版本缺口保留；远端与页面QA另核。"
+    },
+    {
+      "checked_on": "2026-10-10",
+      "candidate_id": "euler-1768-letter-ciii",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1768/euler-letter-ciii.zh-CN.md",
+      "note": "CIII以1768基础+1770同期版补核完整章节；原106/110遮挡仍标来源缺口，26图/九式、A5存在条件及现代覆盖边界完成；30主测试/8独立oracle组，保留全部旧候选/历史/有效状态/缺口；不递归快照，CIV未开始，远端与页面QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2026,6 +2060,11 @@
       "subject": "Euler第二卷与更早图解逻辑前驱",
       "status": "partial_context_only_not_completed",
       "note": "仅CII完整完成；CIII102及交接局部核查不等于CIII/CIV全读。未来CIII先补110页清晰图；亚里士多德、Galen、Port-Royal、’s Gravesande等仍待独立来源核查。"
+    },
+    {
+      "subject": "Euler CIII原1768直接字面与CIV后续",
+      "status": "CIII_composite_reading_completed_original_scan_gap_open",
+      "note": "CIII复合底本完成；1768印106/110被遮原字仍待独立清晰副本，1770印111/115补核不作逐字同版认证；CIV与全套后续推理仍未读，更早图解逻辑及全部旧书籍/版本缺口保留。"
     }
   ],
   "effective_status": {
@@ -2059,6 +2098,14 @@
       "letter_date": "1761-02-14",
       "article_path": "papers/1768/euler-letter-cii.zh-CN.md",
       "not_completed": "第二卷/全书、CIII/CIV；CIII102只局部核查。"
+    },
+    "euler-1768-letter-ciii": {
+      "status": "completed_composite_source_letter_chapter",
+      "publication_year": 1768,
+      "letter_date": "1761-02-17",
+      "article_path": "papers/1768/euler-letter-ciii.zh-CN.md",
+      "source_scope": "1768印100下部–111署日止；复合底本补核1770印105下部–116署日止",
+      "not_completed": "1768遮挡字面独立扫描、CIV、第二卷整体、全书、完整三段论体系。"
     }
   }
 }

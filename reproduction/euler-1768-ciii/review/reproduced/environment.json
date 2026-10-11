@@ -1,0 +1,14 @@
+{
+  "dependencies": "Python standard library only; no packages installed",
+  "machine": "x86_64",
+  "network_used_by_reproduction": false,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python_implementation": "CPython",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "recorded_utc": "2026-10-10T21:52:31.938086+00:00",
+  "source_sha256": {
+    "euler_logic.py": "2cd0f55661d6fa7f774099fec352aab5b3aba846e237e1deaba4295592be8151",
+    "reproduce.py": "e1a7d483fcc89d7b7d38c745d996f9ed65b900ef88d649398291c92fdaf87ea0",
+    "tests/test_euler_logic.py": "cbbc3360462b33bb7b4fb9a56e9bf47b759d62826619f52004663c9a5044d7aa"
+  }
+}

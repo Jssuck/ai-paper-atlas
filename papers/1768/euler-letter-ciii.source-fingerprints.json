@@ -1,0 +1,123 @@
+{
+  "checked_on": "2026-10-10",
+  "scope": "Identity of privately inspected source images, no scan mirror. 1768 obscured text is not certified character-for-character by 1770.",
+  "images": [
+    {
+      "edition": 1770,
+      "printed_page": 105,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 117,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380256",
+      "bytes": 460038,
+      "sha256": "dc6a384a9ec9e47d38545b1f5fbf093b9232ca722f9deac73c6665bbfeaa3ddb"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 106,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 118,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380257",
+      "bytes": 455564,
+      "sha256": "85217753972a5f76bba470985822088816646c3eee8c8e9688ca53e6f697289d"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 107,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 119,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380258",
+      "bytes": 464971,
+      "sha256": "5b903f5d8aa88c3f8a37026ea6cca818de9505188a91d8c47af0c95e73dd13e4"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 108,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 120,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380259",
+      "bytes": 396471,
+      "sha256": "eb7dfc4dc3aaaf96b1384d25bdf0e7110fad393e4f4bbb3511ee9cf572b2e817"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 109,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 121,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380260",
+      "bytes": 426310,
+      "sha256": "64112e89fe85013fb1a73bd2a8dc008bb2774f21841c602bab7bc70a510ca29d"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 110,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 122,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380261",
+      "bytes": 402214,
+      "sha256": "bf9560f0cf2088ea2a4ea1735f6280822ff1642ff4498252e4217a947d6dfafd"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 111,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 123,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380262",
+      "bytes": 388425,
+      "sha256": "ccd4f991677cc09c9c1673a8eacfb453f8b7eca9f928ccc97c424d6ccb67e52d"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 112,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 124,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380263",
+      "bytes": 368549,
+      "sha256": "cf6032cbd55268caaf078d8a7299dbfa2ac5574e73d2afbabd07b3be28cc6af8"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 113,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 125,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380264",
+      "bytes": 415506,
+      "sha256": "dcf0f2fc81ccffa373a9c4784ba3daf64179c85b1e242edfae2f29e2831120ac"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 114,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 126,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380265",
+      "bytes": 388851,
+      "sha256": "8acfd00258ccf1da468ffd30ae640fed0bb7cbd538894c18e397458ecf5276e3"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 115,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 127,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380266",
+      "bytes": 400907,
+      "sha256": "8f645b189b60891fd838531ada8d1e7392aa29256c3a0858f5273fb0e4e07347"
+    },
+    {
+      "edition": 1770,
+      "printed_page": 116,
+      "role": "CIII comparison; start/end pages bounded at title/date",
+      "canvas_1based": 128,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380267",
+      "bytes": 456441,
+      "sha256": "019d787f15b2aaaf90b4c532372e7c714023f3a938dcf86c7de89e20c6a37710"
+    },
+    {
+      "edition": 1770,
+      "printed_page": null,
+      "role": "title",
+      "canvas_1based": 5,
+      "url": "https://www.e-rara.ch/download/webcache/1000/2380144",
+      "bytes": 412905,
+      "sha256": "ec79d7570e2620c31f3e763852de20a967735cf89a00c62087f12e7e9ac386f9"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+test_A5_conclusion_iff_A_exists_under_its_premises (test_euler_logic.DisplayedFormsTests.test_A5_conclusion_iff_A_exists_under_its_premises) ... ok
+test_A5_exact_counterexample_masks (test_euler_logic.DisplayedFormsTests.test_A5_exact_counterexample_masks) ... ok
+test_all_28_explicit_conversion_variants_have_same_results (test_euler_logic.DisplayedFormsTests.test_all_28_explicit_conversion_variants_have_same_results) ... ok
+test_catalog_under_all_three_regimes (test_euler_logic.DisplayedFormsTests.test_catalog_under_all_three_regimes) ... ok
+test_nine_unique_catalog_labels (test_euler_logic.DisplayedFormsTests.test_nine_unique_catalog_labels) ... ok
+test_all_named_example_premises_are_true (test_euler_logic.ExamplesTests.test_all_named_example_premises_are_true) ... ok
+test_disjoint_wholly_contained_and_partial_overlap_models (test_euler_logic.ExamplesTests.test_disjoint_wholly_contained_and_partial_overlap_models) ... ok
+test_explicit_counterexamples_really_falsify_conclusions (test_euler_logic.ExamplesTests.test_explicit_counterexamples_really_falsify_conclusions) ... ok
+test_strict_pear_tree_model_has_extra_tree_witness (test_euler_logic.ExamplesTests.test_strict_pear_tree_model_has_extra_tree_witness) ... ok
+test_A_and_O_are_not_silently_converted_by_matching (test_euler_logic.InventoryTests.test_A_and_O_are_not_silently_converted_by_matching) ... ok
+test_common_subject_case_is_existence_dependent_and_unmatched (test_euler_logic.InventoryTests.test_common_subject_case_is_existence_dependent_and_unmatched) ... ok
+test_each_displayed_form_matches_itself_and_renamings (test_euler_logic.InventoryTests.test_each_displayed_form_matches_itself_and_renamings) ... ok
+test_exact_candidate_scope_and_no_duplicate_ordered_formulas (test_euler_logic.InventoryTests.test_exact_candidate_scope_and_no_duplicate_ordered_formulas) ... ok
+test_inventory_has_witnesses_for_every_invalid_candidate (test_euler_logic.InventoryTests.test_inventory_has_witnesses_for_every_invalid_candidate) ... ok
+test_premise_exchange_is_explicit_and_optional (test_euler_logic.InventoryTests.test_premise_exchange_is_explicit_and_optional) ... ok
+test_all_256_masks_and_255_distinct_nonempty_universes (test_euler_logic.ModelTests.test_all_256_masks_and_255_distinct_nonempty_universes) ... ok
+test_all_masks_roundtrip_through_sets (test_euler_logic.ModelTests.test_all_masks_roundtrip_through_sets) ... ok
+test_arbitrary_small_models_preserve_relations_when_abstracted (test_euler_logic.ModelTests.test_arbitrary_small_models_preserve_relations_when_abstracted) ... ok
+test_bit_evaluator_agrees_with_set_evaluator_exhaustively (test_euler_logic.ModelTests.test_bit_evaluator_agrees_with_set_evaluator_exhaustively) ... ok
+test_empty_raw_mask_adds_only_an_outside_witness (test_euler_logic.ModelTests.test_empty_raw_mask_adds_only_an_outside_witness) ... ok
+test_invalid_masks_and_regimes_rejected (test_euler_logic.ModelTests.test_invalid_masks_and_regimes_rejected) ... ok
+test_invalid_statements_rejected (test_euler_logic.ModelTests.test_invalid_statements_rejected) ... ok
+test_named_universe_validation (test_euler_logic.ModelTests.test_named_universe_validation) ... ok
+test_regime_counts_and_term_conditions (test_euler_logic.ModelTests.test_regime_counts_and_term_conditions) ... ok
+test_cli_writes_parseable_outputs_and_succeeds (test_euler_logic.ReportTests.test_cli_writes_parseable_outputs_and_succeeds) ... ok
+test_report_is_serializable_and_core_results_are_explicit (test_euler_logic.ReportTests.test_report_is_serializable_and_core_results_are_explicit) ... ok
+test_I_does_not_imply_O_even_when_all_terms_exist (test_euler_logic.SemanticsTests.test_I_does_not_imply_O_even_when_all_terms_exist) ... ok
+test_contradictory_pairs_for_every_model_and_term_pair (test_euler_logic.SemanticsTests.test_contradictory_pairs_for_every_model_and_term_pair) ... ok
+test_empty_subject_universals_are_vacuously_true (test_euler_logic.SemanticsTests.test_empty_subject_universals_are_vacuously_true) ... ok
+test_only_E_and_I_have_unconditional_simple_converse (test_euler_logic.SemanticsTests.test_only_E_and_I_have_unconditional_simple_converse) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.892s
+
+OK
