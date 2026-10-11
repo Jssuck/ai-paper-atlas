@@ -1,0 +1,10 @@
+PASS source hash map: logs/source-hashes.json 8 files
+PASS source hash map: logs/optimized/source-hashes.json 8 files
+PASS source hash map: independent-review/logs/audited-code-sha256.json 5 files
+PASS result: matrix-audit-normal.json
+PASS result: matrix-audit-optimized.json
+PASS result: fixed-guard-probes.json
+PASS result: execution-audit.json
+PASS: all review links resolve
+PASS final artifact manifest: 14 files
+PASS: main article SHA-256 a6000cb3e586a2a2e57974607f50efab79b3a4fc001c425034555b53f0cef209

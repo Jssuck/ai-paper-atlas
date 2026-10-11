@@ -1,0 +1,65 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "normalization": "Local absolute interpreter and source paths omitted; probe outcomes unchanged.",
+  "source_sha256": {
+    "model.py": "3e9b725488f3f05284863d1dc9e4b09f35c9e68d1ca18b3ec61e9366d926ecc0",
+    "exhaustive.py": "9a9c145c3527481538dedcc1c9791343a498120341c1237edf5dc69f1efbd280",
+    "walkthrough.py": "d273828849cdecd5055c3f6def9d14bb169457e228022f2dd6559535759fc4c2"
+  },
+  "probes": [
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "normal",
+      "portable_command": "python3 -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: (1, (None, None, None), 'A', 'B', 'pair')",
+      "stderr": ""
+    },
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "-O",
+      "portable_command": "python3 -O -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 0,
+      "wrong_result_rejected": false,
+      "stdout": "PASS returned despite injected wrong result",
+      "stderr": ""
+    },
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "-OO",
+      "portable_command": "python3 -OO -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 0,
+      "wrong_result_rejected": false,
+      "stdout": "PASS returned despite injected wrong result",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "normal",
+      "portable_command": "python3 -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError:",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "-O",
+      "portable_command": "python3 -O -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 0,
+      "wrong_result_rejected": false,
+      "stdout": "PASS returned despite injected wrong result",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "-OO",
+      "portable_command": "python3 -OO -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 0,
+      "wrong_result_rejected": false,
+      "stdout": "PASS returned despite injected wrong result",
+      "stderr": ""
+    }
+  ]
+}

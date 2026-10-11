@@ -1,0 +1,199 @@
+{
+  "status": "PASS",
+  "normalization": "Only known local absolute paths replaced with portable placeholders.",
+  "source_sha256": {
+    "model.py": "b4008857f0cf14cea32826a5e7cfeeb2c3e832f014017f5985fd37a0dee4eec2",
+    "walkthrough.py": "1ac6c5236d4a00c7a0fafd14a7f888dedf132b216d3ebfe51fa4d8d750488a2b",
+    "exhaustive.py": "ebf671855512cbde2f381726b5ac24f27bc77feb4ff524b64f9775530eaa9634",
+    "run_all.py": "5bd9861cef92c78581254e1534264c97ad951e05122bd632eb9a0f118c090e54",
+    "tests/test_model.py": "426c44ae783dc483d08090e0e3ce13f7e36b5ac8df38c287da3383c27e22d3f7"
+  },
+  "modes": [
+    {
+      "mode": "normal",
+      "command": "python3 <isolated-package-copy>/run_all.py",
+      "initial_working_directory": "unrelated directory outside isolated package copy",
+      "exit_code": 0,
+      "stdout": "{\"command\": \"python3 -m unittest discover -s tests -v\", \"output\": \"logs/unit-tests.txt\", \"optimization_level\": 0, \"exit_code\": 0, \"elapsed_seconds\": 0.181068}\n{\"command\": \"python3 walkthrough.py\", \"output\": \"outputs/walkthrough.json\", \"optimization_level\": 0, \"exit_code\": 0, \"elapsed_seconds\": 0.108971}\n{\"command\": \"python3 exhaustive.py\", \"output\": \"outputs/exhaustive.json\", \"optimization_level\": 0, \"exit_code\": 0, \"elapsed_seconds\": 1.611752}\nPASS: unit tests, walkthrough, and finite independent-oracle comparisons\n",
+      "stderr": "",
+      "children": [
+        {
+          "command": "python3 -m unittest discover -s tests -v",
+          "output": "logs/unit-tests.txt",
+          "optimization_level": 0,
+          "exit_code": 0,
+          "elapsed_seconds": 0.181068
+        },
+        {
+          "command": "python3 walkthrough.py",
+          "output": "outputs/walkthrough.json",
+          "optimization_level": 0,
+          "exit_code": 0,
+          "elapsed_seconds": 0.108971
+        },
+        {
+          "command": "python3 exhaustive.py",
+          "output": "outputs/exhaustive.json",
+          "optimization_level": 0,
+          "exit_code": 0,
+          "elapsed_seconds": 1.611752
+        }
+      ],
+      "environment": {
+        "run_started_utc_from_executor_clock": "2026-10-11T14:57:23.572808+00:00",
+        "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "python_executable": "python3",
+        "implementation": "CPython",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "dependencies": "Python standard library only",
+        "network_used": false,
+        "randomness_used": false,
+        "notebook_used": false,
+        "optimization_level": 0,
+        "working_directory": ". (package root)"
+      },
+      "exhaustive": {
+        "status": "PASS",
+        "scope": "3 labeled vertices; each of 3 unordered pairs absent or one listed offset",
+        "oracle": "direct bounded assignment enumeration; no production graph solver helpers",
+        "families": [
+          {
+            "dimension": 1,
+            "vertices": 3,
+            "edge_coordinate_values": [
+              -2,
+              -1,
+              0,
+              1,
+              2
+            ],
+            "oracle_coordinate_bound": 4,
+            "graph_cases": 216,
+            "consistent_graphs": 110,
+            "inconsistent_graphs": 106,
+            "brute_force_assignments": 17496,
+            "pair_queries": 330,
+            "reversed_graph_checks": 216
+          },
+          {
+            "dimension": 2,
+            "vertices": 3,
+            "edge_coordinate_values": [
+              -1,
+              0,
+              1
+            ],
+            "oracle_coordinate_bound": 2,
+            "graph_cases": 1000,
+            "consistent_graphs": 320,
+            "inconsistent_graphs": 680,
+            "brute_force_assignments": 625000,
+            "pair_queries": 960,
+            "reversed_graph_checks": 1000
+          }
+        ],
+        "totals": {
+          "graph_cases": 1216,
+          "consistent_graphs": 430,
+          "inconsistent_graphs": 786,
+          "brute_force_assignments": 642496,
+          "pair_queries": 1290,
+          "reversed_graph_checks": 1216
+        }
+      }
+    },
+    {
+      "mode": "optimized",
+      "command": "python3 -O <isolated-package-copy>/run_all.py",
+      "initial_working_directory": "unrelated directory outside isolated package copy",
+      "exit_code": 0,
+      "stdout": "{\"command\": \"python3 -O -m unittest discover -s tests -v\", \"output\": \"logs/optimized/unit-tests.txt\", \"optimization_level\": 1, \"exit_code\": 0, \"elapsed_seconds\": 0.49457}\n{\"command\": \"python3 -O walkthrough.py\", \"output\": \"outputs/optimized/walkthrough.json\", \"optimization_level\": 1, \"exit_code\": 0, \"elapsed_seconds\": 0.261068}\n{\"command\": \"python3 -O exhaustive.py\", \"output\": \"outputs/optimized/exhaustive.json\", \"optimization_level\": 1, \"exit_code\": 0, \"elapsed_seconds\": 1.790389}\nPASS: unit tests, walkthrough, and finite independent-oracle comparisons\n",
+      "stderr": "",
+      "children": [
+        {
+          "command": "python3 -O -m unittest discover -s tests -v",
+          "output": "logs/optimized/unit-tests.txt",
+          "optimization_level": 1,
+          "exit_code": 0,
+          "elapsed_seconds": 0.49457
+        },
+        {
+          "command": "python3 -O walkthrough.py",
+          "output": "outputs/optimized/walkthrough.json",
+          "optimization_level": 1,
+          "exit_code": 0,
+          "elapsed_seconds": 0.261068
+        },
+        {
+          "command": "python3 -O exhaustive.py",
+          "output": "outputs/optimized/exhaustive.json",
+          "optimization_level": 1,
+          "exit_code": 0,
+          "elapsed_seconds": 1.790389
+        }
+      ],
+      "environment": {
+        "run_started_utc_from_executor_clock": "2026-10-11T14:57:25.742472+00:00",
+        "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "python_executable": "python3",
+        "implementation": "CPython",
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "dependencies": "Python standard library only",
+        "network_used": false,
+        "randomness_used": false,
+        "notebook_used": false,
+        "optimization_level": 1,
+        "working_directory": ". (package root)"
+      },
+      "exhaustive": {
+        "status": "PASS",
+        "scope": "3 labeled vertices; each of 3 unordered pairs absent or one listed offset",
+        "oracle": "direct bounded assignment enumeration; no production graph solver helpers",
+        "families": [
+          {
+            "dimension": 1,
+            "vertices": 3,
+            "edge_coordinate_values": [
+              -2,
+              -1,
+              0,
+              1,
+              2
+            ],
+            "oracle_coordinate_bound": 4,
+            "graph_cases": 216,
+            "consistent_graphs": 110,
+            "inconsistent_graphs": 106,
+            "brute_force_assignments": 17496,
+            "pair_queries": 330,
+            "reversed_graph_checks": 216
+          },
+          {
+            "dimension": 2,
+            "vertices": 3,
+            "edge_coordinate_values": [
+              -1,
+              0,
+              1
+            ],
+            "oracle_coordinate_bound": 2,
+            "graph_cases": 1000,
+            "consistent_graphs": 320,
+            "inconsistent_graphs": 680,
+            "brute_force_assignments": 625000,
+            "pair_queries": 960,
+            "reversed_graph_checks": 1000
+          }
+        ],
+        "totals": {
+          "graph_cases": 1216,
+          "consistent_graphs": 430,
+          "inconsistent_graphs": 786,
+          "brute_force_assignments": 642496,
+          "pair_queries": 1290,
+          "reversed_graph_checks": 1216
+        }
+      }
+    }
+  ]
+}

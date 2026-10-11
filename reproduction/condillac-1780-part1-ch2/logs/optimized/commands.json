@@ -1,0 +1,23 @@
+[
+  {
+    "command": "python3 -O -m unittest discover -s tests -v",
+    "output": "logs/optimized/unit-tests.txt",
+    "optimization_level": 1,
+    "exit_code": 0,
+    "elapsed_seconds": 0.732923
+  },
+  {
+    "command": "python3 -O walkthrough.py",
+    "output": "outputs/optimized/walkthrough.json",
+    "optimization_level": 1,
+    "exit_code": 0,
+    "elapsed_seconds": 0.254848
+  },
+  {
+    "command": "python3 -O exhaustive.py",
+    "output": "outputs/optimized/exhaustive.json",
+    "optimization_level": 1,
+    "exit_code": 0,
+    "elapsed_seconds": 1.671996
+  }
+]

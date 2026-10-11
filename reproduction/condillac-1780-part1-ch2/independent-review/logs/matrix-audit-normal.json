@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "optimized": false,
+  "working_directory": "outside package root",
+  "model_sha256": "b4008857f0cf14cea32826a5e7cfeeb2c3e832f014017f5985fd37a0dee4eec2",
+  "oracle": "exact Fraction RREF and row-space query membership",
+  "finite_families": [
+    {
+      "vertices": 3,
+      "dimension": 1,
+      "coordinate_edge_values": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "graphs": 216,
+      "consistent_graphs": 110
+    },
+    {
+      "vertices": 3,
+      "dimension": 2,
+      "coordinate_edge_values": [
+        -1,
+        0,
+        1
+      ],
+      "graphs": 1000,
+      "consistent_graphs": 320
+    },
+    {
+      "vertices": 4,
+      "dimension": 1,
+      "coordinate_edge_values": [
+        -1,
+        0,
+        1
+      ],
+      "graphs": 4096,
+      "consistent_graphs": 1040
+    }
+  ],
+  "adversarial_graphs": 39,
+  "additional_invalid_operation_checks": 35,
+  "counts": {
+    "graphs": 5351,
+    "consistent_graphs": 1506,
+    "inconsistent_graphs": 3845,
+    "ordered_pair_queries": 21337,
+    "instantiated_equations": 8884
+  },
+  "mutations": [
+    {
+      "mutation": "reverse_sign",
+      "detected": true,
+      "reason": "('consistency', ObservationBook(inventory=('A', 'B', 'C'), dimension=1, seen=('A', 'B', 'C'), relations=(Relation(u='A', v='B', offset=(2,)), Relation(u='A', v='B', offset=(2,)), Relation(u='B', v='A', offset=(-2,)))))"
+    },
+    {
+      "mutation": "difference_sign",
+      "detected": true,
+      "reason": "('consistency', ObservationBook(inventory=('A', 'B', 'C'), dimension=1, seen=('A', 'B', 'C'), relations=(Relation(u='A', v='B', offset=(2,)), Relation(u='A', v='B', offset=(2,)), Relation(u='B', v='A', offset=(-2,)))))"
+    },
+    {
+      "mutation": "ignore_conflicts",
+      "detected": true,
+      "reason": "('consistency', ObservationBook(inventory=('A',), dimension=3, seen=('A',), relations=(Relation(u='A', v='A', offset=(0, 1, 0)),)))"
+    },
+    {
+      "mutation": "ignore_disconnection",
+      "detected": true,
+      "reason": "relative completion"
+    },
+    {
+      "mutation": "omit_vector_dimension",
+      "detected": true,
+      "reason": "nullity"
+    },
+    {
+      "mutation": "drop_missing_objects",
+      "detected": true,
+      "reason": "missing inventory"
+    }
+  ],
+  "limits": "Finite code checks are not the general structural proof."
+}

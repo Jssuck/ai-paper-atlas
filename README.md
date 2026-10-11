@@ -19,6 +19,7 @@
 | 1768（原信署1761-03-07） | [Euler第CVIII信精读](papers/1768/euler-letter-cviii.zh-CN.md) | AI前史：条件推理的方向、覆盖与互斥 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1768（原信署1761-03-10） | [Euler第CIX信精读](papers/1768/euler-letter-cix.zh-CN.md) | AI认知前史：保持、回想、再认与心灵论证的边界 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.I精读](papers/1780/condillac-logic-part1-ch1.zh-CN.md) | AI认知前史：分辨、经验纠错与满意信号的边界 | 深读v1 · 完整书籍章节5–15及跨页脚注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.II精读](papers/1780/condillac-logic-part1-ch2.zh-CN.md) | AI认知前史：观察次序、关系重建与整体覆盖 | 深读v1 · 完整书籍章节16–24及七条边注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -279,3 +280,12 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成《逻辑学》第一部第一章：1780为所核版本书目年，本次实际读1798全集第二十二卷5–15全十一页、边注及12–14跨页脚注。IA/Wellcome为主，Google同版扫描补核书沟及疑字；不声称读到1780逐字初版。三处印字appliquerons、confirmation、nous se savons和正文/目录标题异文保留；解释性拟校不冒作正式勘误。
 
 全章感觉、灵魂与偶因、需要/组织、造物者保证、乳母分辨、苦乐反馈失效、空词/成见、练习与15页方法限界均读核，17题附答案。现代有限模型有明确假设与一般证明；11个主测试方法含37非法输入子例，五段走查，以及340模型、18780历史、42568转换实跑；其中20256次区分查询严格缩小候选。计数包含重复前缀，不相加充作独立实验。另有独立代码审计。无婴儿数据、历史算法、习惯训练或Jupyter执行声称，有限程序不证明作者全部心理学和哲学命题。Euler CX只作题材筛选，未计第二篇；全书、初版异文与全部旧候选/书籍/版本缺口继续开放。
+
+
+## Condillac逻辑学第一部第二章可运行附件
+
+- [有序观察、关系重建与覆盖边界的现代教学模型](reproduction/condillac-1780-part1-ch2/README.md)
+- [逐页来源与同版扫描校读](papers/1780/condillac-logic-part1-ch2.sources.zh-CN.md) · [独立全文与论证审计](papers/1780/condillac-logic-part1-ch2.audit.zh-CN.md)
+- [中文逐步示例与一般证明](reproduction/condillac-1780-part1-ch2/MODEL.zh-CN.md) · [独立代码复核](reproduction/condillac-1780-part1-ch2/independent-review/review.zh-CN.md)
+
+1798《全集》XXII卷I.II印16–24完整九页与七条边注双扫描核图；1780仅为作品版书目年，不认证最早版次、该版原页码或逐字文字。分解必须重组，整体在场与局部清晰分开；18道练习附答案。精确整数关系模型说明一致性、连通性、平移歧义及遗漏边界，不能检验同时意识或证明显眼对象优先的最优性。实际标准库运行、环境和独立复核见附件；有限枚举不替代一般证明或真实心理实验。无Notebook或Jupyter执行声明。仅新增本章，第三章及后续、全书和全部旧候选/版本缺口保留；Euler CX仍只筛题材。

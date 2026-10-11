@@ -1,0 +1,23 @@
+test_all_24_relation_orders_have_same_final_result (test_model.ModelTests.test_all_24_relation_orders_have_same_final_result) ... ok
+test_component_translations_preserve_all_equations (test_model.ModelTests.test_component_translations_preserve_all_equations) ... ok
+test_cycle_inconsistency_never_returns_a_picture (test_model.ModelTests.test_cycle_inconsistency_never_returns_a_picture) ... ok
+test_empty_observation_book (test_model.ModelTests.test_empty_observation_book) ... ok
+test_full_tutorial (test_model.ModelTests.test_full_tutorial) ... ok
+test_invalid_books_rejected (test_model.ModelTests.test_invalid_books_rejected) ... ok
+test_invalid_operations_rejected (test_model.ModelTests.test_invalid_operations_rejected) ... ok
+test_inventory_order_changes_only_component_origins (test_model.ModelTests.test_inventory_order_changes_only_component_origins) ... ok
+test_misbinding_can_be_consistent_and_wrong (test_model.ModelTests.test_misbinding_can_be_consistent_and_wrong) ... ok
+test_missing_object_and_disconnected_relations_are_different (test_model.ModelTests.test_missing_object_and_disconnected_relations_are_different) ... ok
+test_object_inventory_is_not_relational_knowledge (test_model.ModelTests.test_object_inventory_is_not_relational_knowledge) ... ok
+test_order_score_is_only_a_declared_prefix_metric (test_model.ModelTests.test_order_score_is_only_a_declared_prefix_metric) ... ok
+test_parallel_inconsistent_relations (test_model.ModelTests.test_parallel_inconsistent_relations) ... ok
+test_repetition_and_reverse_edge_add_no_information (test_model.ModelTests.test_repetition_and_reverse_edge_add_no_information) ... ok
+test_single_object_gauge (test_model.ModelTests.test_single_object_gauge) ... ok
+test_spanning_tree_identifies_unobserved_pairs (test_model.ModelTests.test_spanning_tree_identifies_unobserved_pairs) ... ok
+test_vector_offsets_and_negative_values (test_model.ModelTests.test_vector_offsets_and_negative_values) ... ok
+test_zero_and_nonzero_self_relations (test_model.ModelTests.test_zero_and_nonzero_self_relations) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.010s
+
+OK

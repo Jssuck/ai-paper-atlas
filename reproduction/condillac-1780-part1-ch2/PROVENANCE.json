@@ -1,0 +1,15 @@
+{
+  "historical_work": "Condillac, La Logique, Première partie, chapitre II",
+  "work_year_label": 1780,
+  "year_scope": "Bibliographic year of the work's 1780 edition; no determination of earliest edition or actual distribution date",
+  "edition_actually_read": "Œuvres de Condillac, tome XXII, 1798",
+  "printed_pages_inclusive": [16, 24],
+  "pdf_pages_one_based_inclusive": [24, 32],
+  "public_primary_pdf_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=24",
+  "public_primary_metadata_url": "https://archive.org/metadata/b28772581_0022",
+  "provided_pdf_sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529",
+  "provided_text_sha256": "1d569be6f6e0b149f8c08074a06abf1b52aa1b86894ac1acd524a55799bddea9",
+  "read_method": "pdftotext -f 24 -l 32 -layout on provided PDF; visual inspection of supplied scans of printed pages 19, 22, 23, 24",
+  "scope_limit": "No word-for-word verification of the 1780 edition claimed; no other chapter modeled",
+  "code_status": "Original modern teaching construction; not historical code or experimental replication"
+}

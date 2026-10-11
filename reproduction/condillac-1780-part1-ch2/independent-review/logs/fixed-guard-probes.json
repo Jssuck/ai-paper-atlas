@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "normalization": "Local absolute interpreter and source paths omitted; probe outcomes unchanged.",
+  "source_sha256": {
+    "model.py": "b4008857f0cf14cea32826a5e7cfeeb2c3e832f014017f5985fd37a0dee4eec2",
+    "exhaustive.py": "ebf671855512cbde2f381726b5ac24f27bc77feb4ff524b64f9775530eaa9634",
+    "walkthrough.py": "1ac6c5236d4a00c7a0fafd14a7f888dedf132b216d3ebfe51fa4d8d750488a2b"
+  },
+  "probes": [
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "normal",
+      "portable_command": "python3 -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: (1, (None, None, None), 'A', 'B', 'pair')",
+      "stderr": ""
+    },
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "-O",
+      "portable_command": "python3 -O -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: (1, (None, None, None), 'A', 'B', 'pair')",
+      "stderr": ""
+    },
+    {
+      "probe": "exhaustive_wrong_query",
+      "optimization": "-OO",
+      "portable_command": "python3 -OO -c <bounded exhaustive_wrong_query probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: (1, (None, None, None), 'A', 'B', 'pair')",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "normal",
+      "portable_command": "python3 -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: ordered reconstruction must equal the teaching fixture",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "-O",
+      "portable_command": "python3 -O -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: ordered reconstruction must equal the teaching fixture",
+      "stderr": ""
+    },
+    {
+      "probe": "walkthrough_wrong_fixture",
+      "optimization": "-OO",
+      "portable_command": "python3 -OO -c <bounded walkthrough_wrong_fixture probe in this script>",
+      "exit_code": 2,
+      "wrong_result_rejected": true,
+      "stdout": "AssertionError: ordered reconstruction must equal the teaching fixture",
+      "stderr": ""
+    }
+  ]
+}

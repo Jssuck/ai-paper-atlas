@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "condillac-1780-logic-part1-ch2",
     "path": "papers/1780/condillac-logic-part1-ch2.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "Complete La Logique I.II,actual1798 collected editionXXII printed16–24;excludeIII beginning25.1780 edition-year bibliographic evidence only.Ordered observation,decomposition/recomposition and coverage."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source,whole-argument and code audits passed;11tests,340-model reproduction,967-model/181720-history independent audit andfive detected fault variants.39remote text/blob identities verified,source-link repair exact-verified.86formulas,11tables,seven Markdown pages and167anchors checked in GitHub;external sources not comprehensively reopened.",
     "scope": "Complete La Logique I.I,actual1798 collected editionXXII pp5–15 with two scans;1780 edition verified bibliographically,not initial-edition priority or wording.17answered exercises and bounded modern learning reconstruction,not empirical recreation."
   },
-  "updated_at": "2026-10-11T14:36:10Z",
+  "updated_at": "2026-10-11T15:00:50Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete primary chapter and source context,reconstruct bounded arguments/examples and obtain independent source,argument and code audits.",
+  "next_action": "Verify remote exact contents and actual GitHub formulas,tables,links after completed independent source,argument and code audits.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

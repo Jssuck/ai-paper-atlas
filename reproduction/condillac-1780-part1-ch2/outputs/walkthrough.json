@@ -1,0 +1,879 @@
+{
+  "status": "PASS",
+  "interpretation": "现代关系表示教学重构；不是原著算法、心理实验或性能结论",
+  "labels": {
+    "A": "主楼",
+    "B": "塔",
+    "C": "磨坊",
+    "D": "桥",
+    "E": "树林"
+  },
+  "fixture_coordinates": {
+    "A": [
+      0
+    ],
+    "B": [
+      6
+    ],
+    "C": [
+      2
+    ],
+    "D": [
+      9
+    ],
+    "E": [
+      12
+    ]
+  },
+  "ordered_decomposition_recomposition": [
+    {
+      "stage": "00_空白记录",
+      "consistent": true,
+      "observed_objects": 0,
+      "inventory_objects": 5,
+      "missing_objects": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "directly_observed_pairs": 0,
+      "identifiable_pairs": 0,
+      "all_inventory_pairs": 10,
+      "components": [],
+      "component_relative_positions": {},
+      "translation_parameters": 0,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    {
+      "stage": "01_辨出两个主要对象",
+      "consistent": true,
+      "observed_objects": 2,
+      "inventory_objects": 5,
+      "missing_objects": [
+        "C",
+        "D",
+        "E"
+      ],
+      "directly_observed_pairs": 0,
+      "identifiable_pairs": 0,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "translation_parameters": 2,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    {
+      "stage": "02_确定主要对象之间的关系",
+      "consistent": true,
+      "observed_objects": 2,
+      "inventory_objects": 5,
+      "missing_objects": [
+        "C",
+        "D",
+        "E"
+      ],
+      "directly_observed_pairs": 1,
+      "identifiable_pairs": 1,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ]
+      },
+      "translation_parameters": 1,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    {
+      "stage": "03_至05_纳入C",
+      "consistent": true,
+      "observed_objects": 3,
+      "inventory_objects": 5,
+      "missing_objects": [
+        "D",
+        "E"
+      ],
+      "directly_observed_pairs": 2,
+      "identifiable_pairs": 3,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          2
+        ]
+      },
+      "translation_parameters": 1,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    {
+      "stage": "03_至05_纳入D",
+      "consistent": true,
+      "observed_objects": 4,
+      "inventory_objects": 5,
+      "missing_objects": [
+        "E"
+      ],
+      "directly_observed_pairs": 3,
+      "identifiable_pairs": 6,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          2
+        ],
+        "D": [
+          9
+        ]
+      },
+      "translation_parameters": 1,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    {
+      "stage": "03_至05_纳入E",
+      "consistent": true,
+      "observed_objects": 5,
+      "inventory_objects": 5,
+      "missing_objects": [],
+      "directly_observed_pairs": 4,
+      "identifiable_pairs": 10,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          2
+        ],
+        "D": [
+          9
+        ],
+        "E": [
+          12
+        ]
+      },
+      "translation_parameters": 1,
+      "relative_complete": true,
+      "conflicts": []
+    }
+  ],
+  "object_list_only": {
+    "consistent": true,
+    "observed_objects": 5,
+    "inventory_objects": 5,
+    "missing_objects": [],
+    "directly_observed_pairs": 0,
+    "identifiable_pairs": 0,
+    "all_inventory_pairs": 10,
+    "components": [
+      [
+        "A"
+      ],
+      [
+        "B"
+      ],
+      [
+        "C"
+      ],
+      [
+        "D"
+      ],
+      [
+        "E"
+      ]
+    ],
+    "component_relative_positions": {
+      "A": [
+        0
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        0
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        0
+      ]
+    },
+    "translation_parameters": 5,
+    "relative_complete": false,
+    "conflicts": []
+  },
+  "repeated_same_object_list": {
+    "repetitions": 3,
+    "state_changed": false
+  },
+  "repeated_exact_relation": {
+    "state_changed": false
+  },
+  "missing_object": {
+    "consistent": true,
+    "observed_objects": 4,
+    "inventory_objects": 5,
+    "missing_objects": [
+      "E"
+    ],
+    "directly_observed_pairs": 3,
+    "identifiable_pairs": 6,
+    "all_inventory_pairs": 10,
+    "components": [
+      [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    ],
+    "component_relative_positions": {
+      "A": [
+        0
+      ],
+      "B": [
+        6
+      ],
+      "C": [
+        2
+      ],
+      "D": [
+        9
+      ]
+    },
+    "translation_parameters": 1,
+    "relative_complete": false,
+    "conflicts": []
+  },
+  "disconnected_relations": {
+    "summary": {
+      "consistent": true,
+      "observed_objects": 5,
+      "inventory_objects": 5,
+      "missing_objects": [],
+      "directly_observed_pairs": 3,
+      "identifiable_pairs": 4,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "D",
+          "E"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          0
+        ],
+        "C": [
+          2
+        ],
+        "D": [
+          3
+        ],
+        "E": [
+          6
+        ]
+      },
+      "translation_parameters": 2,
+      "relative_complete": false,
+      "conflicts": []
+    },
+    "valid_placement_1": {
+      "A": [
+        0
+      ],
+      "C": [
+        2
+      ],
+      "B": [
+        6
+      ],
+      "D": [
+        9
+      ],
+      "E": [
+        12
+      ]
+    },
+    "valid_placement_2": {
+      "A": [
+        0
+      ],
+      "C": [
+        2
+      ],
+      "B": [
+        20
+      ],
+      "D": [
+        23
+      ],
+      "E": [
+        26
+      ]
+    },
+    "A_to_B_is_identified": false
+  },
+  "misbinding": {
+    "summary": {
+      "consistent": true,
+      "observed_objects": 5,
+      "inventory_objects": 5,
+      "missing_objects": [],
+      "directly_observed_pairs": 4,
+      "identifiable_pairs": 10,
+      "all_inventory_pairs": 10,
+      "components": [
+        [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      ],
+      "component_relative_positions": {
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          8
+        ],
+        "D": [
+          9
+        ],
+        "E": [
+          12
+        ]
+      },
+      "translation_parameters": 1,
+      "relative_complete": true,
+      "conflicts": []
+    },
+    "fixture_comparison_wrong_objects": [
+      "C"
+    ],
+    "adding_correct_A_C_relation_is_consistent": false
+  },
+  "inconsistent_cycle": {
+    "consistent": false,
+    "observed_objects": 5,
+    "inventory_objects": 5,
+    "missing_objects": [],
+    "directly_observed_pairs": 5,
+    "identifiable_pairs": null,
+    "all_inventory_pairs": 10,
+    "components": [
+      [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    ],
+    "component_relative_positions": {},
+    "translation_parameters": null,
+    "relative_complete": false,
+    "conflicts": [
+      {
+        "u": "B",
+        "v": "D",
+        "stated": [
+          3
+        ],
+        "implied": [
+          2
+        ]
+      }
+    ]
+  },
+  "gauge_ambiguity": {
+    "origin_at_zero": {
+      "A": [
+        0
+      ],
+      "B": [
+        6
+      ],
+      "C": [
+        2
+      ],
+      "D": [
+        9
+      ],
+      "E": [
+        12
+      ]
+    },
+    "same_relations_origin_at_100": {
+      "A": [
+        100
+      ],
+      "B": [
+        106
+      ],
+      "C": [
+        102
+      ],
+      "D": [
+        109
+      ],
+      "E": [
+        112
+      ]
+    }
+  },
+  "order_permutations": {
+    "permutations": 24,
+    "all_final_reconstructions_equal": true,
+    "toy_prefix_sum_values": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "traces": [
+      {
+        "edge_order": [
+          "A->B",
+          "A->C",
+          "B->D",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->B",
+          "A->C",
+          "B->E",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->B",
+          "B->D",
+          "A->C",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->B",
+          "B->D",
+          "B->E",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->B",
+          "B->E",
+          "A->C",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->B",
+          "B->E",
+          "B->D",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "A->B",
+          "B->D",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "A->B",
+          "B->E",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 6
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "B->D",
+          "A->B",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          3,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "B->D",
+          "B->E",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          3,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 9
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "B->E",
+          "A->B",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          3,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "A->C",
+          "B->E",
+          "B->D",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          3,
+          3,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 9
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "A->B",
+          "A->C",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "A->B",
+          "B->E",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "A->C",
+          "A->B",
+          "B->E"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          3,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 8
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "A->C",
+          "B->E",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          3,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 10
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "B->E",
+          "A->B",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          4,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 9
+      },
+      {
+        "edge_order": [
+          "B->D",
+          "B->E",
+          "A->C",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          4,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 11
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "A->B",
+          "A->C",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "A->B",
+          "B->D",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          2,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 7
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "A->C",
+          "A->B",
+          "B->D"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          3,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 8
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "A->C",
+          "B->D",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          3,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 10
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "B->D",
+          "A->B",
+          "A->C"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          4,
+          1,
+          0
+        ],
+        "toy_prefix_sum": 9
+      },
+      {
+        "edge_order": [
+          "B->E",
+          "B->D",
+          "A->C",
+          "A->B"
+        ],
+        "prefix_anchor_unresolved": [
+          4,
+          4,
+          3,
+          0
+        ],
+        "toy_prefix_sum": 11
+      }
+    ],
+    "inconsistent_triangle_orders_rejected": 6
+  }
+}

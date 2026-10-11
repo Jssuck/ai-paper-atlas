@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "3 labeled vertices; each of 3 unordered pairs absent or one listed offset",
+  "oracle": "direct bounded assignment enumeration; no production graph solver helpers",
+  "families": [
+    {
+      "dimension": 1,
+      "vertices": 3,
+      "edge_coordinate_values": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "oracle_coordinate_bound": 4,
+      "graph_cases": 216,
+      "consistent_graphs": 110,
+      "inconsistent_graphs": 106,
+      "brute_force_assignments": 17496,
+      "pair_queries": 330,
+      "reversed_graph_checks": 216
+    },
+    {
+      "dimension": 2,
+      "vertices": 3,
+      "edge_coordinate_values": [
+        -1,
+        0,
+        1
+      ],
+      "oracle_coordinate_bound": 2,
+      "graph_cases": 1000,
+      "consistent_graphs": 320,
+      "inconsistent_graphs": 680,
+      "brute_force_assignments": 625000,
+      "pair_queries": 960,
+      "reversed_graph_checks": 1000
+    }
+  ],
+  "totals": {
+    "graph_cases": 1216,
+    "consistent_graphs": 430,
+    "inconsistent_graphs": 786,
+    "brute_force_assignments": 642496,
+    "pair_queries": 1290,
+    "reversed_graph_checks": 1216
+  }
+}

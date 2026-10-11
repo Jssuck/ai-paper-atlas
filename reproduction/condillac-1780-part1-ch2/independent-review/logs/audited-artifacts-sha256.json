@@ -1,0 +1,20 @@
+{
+  "base_directory": "reproduction/condillac-1780-part1-ch2",
+  "scope": "Final code, numerical/model prose, and independent review artifacts; no claim of independent primary-scan collation.",
+  "sha256": {
+    "model.py": "b4008857f0cf14cea32826a5e7cfeeb2c3e832f014017f5985fd37a0dee4eec2",
+    "walkthrough.py": "1ac6c5236d4a00c7a0fafd14a7f888dedf132b216d3ebfe51fa4d8d750488a2b",
+    "exhaustive.py": "ebf671855512cbde2f381726b5ac24f27bc77feb4ff524b64f9775530eaa9634",
+    "run_all.py": "5bd9861cef92c78581254e1534264c97ad951e05122bd632eb9a0f118c090e54",
+    "tests/test_model.py": "426c44ae783dc483d08090e0e3ce13f7e36b5ac8df38c287da3383c27e22d3f7",
+    "README.md": "cf08a6ef6c52990e9076bbe6a9cbc34c75a61a2ab07ae8f9be6590dcc0a2b4e8",
+    "MODEL.zh-CN.md": "e42d57ffdd6c199a4f476a78d53481553ea3b03fc7a725cf55cd65b01007aeeb",
+    "WALKTHROUGH.zh-CN.md": "45600695c3da479473b558bdef0ba93012556f783eb5b217099a410010de79f9",
+    "PROVENANCE.json": "4fb3c8c468ed50e6638e0755528c203a57afbc673fc6ad21d5e1212cd6c404b3",
+    "independent-review/audit_model.py": "2ca69409d8ba3061f8cb679775c59fdf5616dafa795a09a0bcc22c56ea614a60",
+    "independent-review/audit_execution.py": "9490ab5ac3ace8b5b08b30b3c6d6258057a6568ba1669f3d3297b0da132ddf28",
+    "independent-review/verify_validation_guards.py": "469b24564a3c2d4a5c2bdc4a2ee4f1ba6029c2563e9b0a51264eac13e1cd46cf",
+    "independent-review/review.zh-CN.md": "92229ed9def67551d4cb21600deb8068cafe32bb53b48220c529acc0705bf5e8",
+    "../../papers/1780/condillac-logic-part1-ch2.zh-CN.md": "a6000cb3e586a2a2e57974607f50efab79b3a4fc001c425034555b53f0cef209"
+  }
+}
