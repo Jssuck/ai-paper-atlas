@@ -161,7 +161,7 @@ Step只保存原子与规则名，前提由Theory中相应规则查得，并非�
 
 | 文件 | 字节数 | SHA-256 |
 |---|---:|---|
-| 主文 | 47790 | `ba8c93f6b4dff9a707dfe3ed8e68164e66584864a44de0f0d0b6c51a6e4c3bd6` |
+| 主文 | 47784 | `9191b05fe4107e3100e7bc173ae8ffd37c4d144987ce3dee6b115b678da751e9` |
 | 来源账本 | 21607 | `d1a02dc60daa132db7f580436039120b9d169ff4a6eac3e98976ccf38011e8bd` |
 | MODEL | 14411 | `e694f5d069137d3657d4e5c55ddf0fc977af34d0d8979a89ebb6e6723247a8bb` |
 | WALKTHROUGH | 7544 | `bc1aa80137d6b9480572fcaa99f4b0f1b410cfc8c7192a133ce609fb852c6201` |
