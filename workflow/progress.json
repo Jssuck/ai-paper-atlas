@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-cix",
     "path": "papers/1768/euler-letter-cix.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete Letter CIX,1768 volumeII pp144–148,dated10March1761;cognitive/representation prehistory on sensation,memory,recall and abstraction,not an algorithm or further syllogism chapter."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-cviii",
-    "path": "papers/1768/euler-letter-cviii.zh-CN.md",
     "version": "v1",
-    "content_commit": "71a627e444ff684ac60d80349b889966208485a0",
-    "checks": "Independent source,whole-article mathematics and code reviews passed;31 tests,21 cases,4321 independent evaluations,14425 consequence comparisons,46 invalid inputs and9CLI checks.26remote text/blob identities verified.458formulas,nine tables,seven new Markdown bodies and128anchors checked in GitHub browser;external source URLs preserved but not all reopened.",
-    "scope": "Complete CVIII,1768 pp139–144,dated7March1761,with1770 whole-letter comparison.Conditional inference,necessity versus material implication,and coverage/exclusivity assumptions;14answered exercises.Original reasoning and modern semantic reconstruction separated."
+    "content_commit": "34a4b48526adb58164239df8a2c90ea35ad55650",
+    "checks": "Independent source,whole-argument and code audits passed;28tests,7traces/24steps,29states/261pairs,217negative/immutability checks,7mutation variants and13CLI probes.53remote text/blob identities verified.209formulas,nine new tables,eight Markdown pages and166 repository destinations checked;Pacific and Internet Archive opened,e-rara live source recheck limited by browser challenge.",
+    "scope": "Complete CIX,1768 pp144–148,dated10March1761;1770 pp149–153 complete comparison.Original ideas/objects ambiguity retained;modern memory countermodels are stipulated teaching models,not Euler algorithms or empirical proof about consciousness.15answered exercises."
   },
-  "updated_at": "2026-10-11T12:55:20Z",
+  "updated_at": "2026-10-11T13:02:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote file identities and actual GitHub rendering after independent source,argument and teaching-code audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
