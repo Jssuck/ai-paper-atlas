@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "command": "python test_model.py",
+      "result_file": "results/tests-normal.log",
+      "exit_code": 0
+    },
+    {
+      "command": "python -O test_model.py",
+      "result_file": "results/tests-O.log",
+      "exit_code": 0
+    },
+    {
+      "command": "python -OO test_model.py",
+      "result_file": "results/tests-OO.log",
+      "exit_code": 0
+    },
+    {
+      "command": "python demo.py",
+      "result_file": "results/demo.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python mutation_check.py",
+      "result_file": "results/mutations.json",
+      "exit_code": 0
+    }
+  ],
+  "all_passed": true
+}

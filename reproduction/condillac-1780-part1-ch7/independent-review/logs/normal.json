@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "optimization": 0,
+  "source_sha256": "d835708004b6ae49abacec6a065f2046851d6433de3a7a3b126929613389900e",
+  "review_script_sha256": "895e2779f3ef1b83a706f8bac243cd4391f0aca9cf73408f1de41489c7e96478",
+  "counts": {
+    "catalogs": 64,
+    "partitions": 256,
+    "refinement_pairs": 576,
+    "attention_records": 1536,
+    "comparisons": 73728,
+    "missing_pool_rejections": 1984,
+    "imagination_queries": 10304,
+    "imagined_concepts": 14948,
+    "closure_certificate_queries": 55800,
+    "production_oracle_queries": 200,
+    "horn_theories": 18600,
+    "arbitrary_certificate_queries": 24156,
+    "arbitrary_certificates": 8052,
+    "inclusion_triples": 4681,
+    "input_rejections": 35,
+    "resource_boundary_checks": 2
+  },
+  "scope": "Finite software checks only; not a validation of historical psychological claims."
+}

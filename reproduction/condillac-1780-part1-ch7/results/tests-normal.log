@@ -1,0 +1,23 @@
+test_all_feature_subsets_are_equivalence_relations_and_refine (__main__.ObservationTests.test_all_feature_subsets_are_equivalence_relations_and_refine) ... ok
+test_empty_catalog (__main__.ObservationTests.test_empty_catalog) ... ok
+test_imagination_budget (__main__.ObservationTests.test_imagination_budget) ... ok
+test_imagination_product_and_witnesses (__main__.ObservationTests.test_imagination_product_and_witnesses) ... ok
+test_invalid_catalogs (__main__.ObservationTests.test_invalid_catalogs) ... ok
+test_invalid_observations_and_calls (__main__.ObservationTests.test_invalid_observations_and_calls) ... ok
+test_projection_and_recalled_provenance (__main__.ObservationTests.test_projection_and_recalled_provenance) ... ok
+test_reflection_and_hidden_feature (__main__.ObservationTests.test_reflection_and_hidden_feature) ... ok
+test_unknown_is_not_equality_or_difference (__main__.ObservationTests.test_unknown_is_not_equality_or_difference) ... ok
+test_bad_theories_and_certificates (__main__.ReasoningTests.test_bad_theories_and_certificates) ... ok
+test_conjunction_and_empty_antecedent (__main__.ReasoningTests.test_conjunction_and_empty_antecedent) ... ok
+test_exhaustive_two_atom_theories_against_independent_oracle (__main__.ReasoningTests.test_exhaustive_two_atom_theories_against_independent_oracle) ... ok
+test_intermediates_make_conclusion_explicit (__main__.ReasoningTests.test_intermediates_make_conclusion_explicit) ... ok
+test_missing_bridge_and_cycle_without_facts (__main__.ReasoningTests.test_missing_bridge_and_cycle_without_facts) ... ok
+test_no_optimizable_assert_statements_and_oracle_independence (__main__.ReasoningTests.test_no_optimizable_assert_statements_and_oracle_independence) ... ok
+test_proof_checker_rejects_forgery_and_cycles (__main__.ReasoningTests.test_proof_checker_rejects_forgery_and_cycles) ... ok
+test_seeded_three_atom_theories_and_rule_order (__main__.ReasoningTests.test_seeded_three_atom_theories_and_rule_order) ... ok
+test_subset_syllogism_including_vacuity (__main__.ReasoningTests.test_subset_syllogism_including_vacuity) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.105s
+
+OK

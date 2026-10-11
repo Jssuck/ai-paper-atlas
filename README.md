@@ -24,6 +24,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.IV精读](papers/1780/condillac-logic-part1-ch4.zh-CN.md) | AI认知前史：按需分类、观察边界与准确而不完整 | 深读v1 · 完整书籍章节32–48及17条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.V精读](papers/1780/condillac-logic-part1-ch5.zh-CN.md) | AI认知前史：不可见原因、命名、关系测量与属性推论 | 深读v1 · 完整书籍章节49–53及两条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VI精读](papers/1780/condillac-logic-part1-ch6.zh-CN.md) | AI认知前史：习惯、行动解释与规范根据的边界 | 深读v1 · 完整书籍章节54–57及四条边注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.VII精读](papers/1780/condillac-logic-part1-ch7.zh-CN.md) | AI认知前史：注意、比较、性质重组与隐含推理 | 深读v1 · 完整书籍章节58–66、九边注及一脚注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -337,3 +338,12 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 - [独立代码复核](reproduction/condillac-1780-part1-ch6/independent-review/review.zh-CN.md)
 
 完成1798第二十二卷I.VI印54–57全四页、四条边注及两组自引的双扫描核读；1780只作书目年，两册不是两版。55页疑似paroisssent多s、正文Idées与目录Idée区别保留；未见勘误表仅限列明检查范围。习惯、从身体判断心理、行动语言、道德规则及自然/神学根据全部解释。三个现代教学模型有一般证明、准确命令、实跑日志和独立核验，具体计数见附件；不把程序成功当作心理或规范学说证明。20道含答案练习，无需额外Notebook。I.VII、全书、自引、原版更正史及全部旧候选缺口保留。
+
+## Condillac《逻辑学》I.VII可运行附件
+
+- [部分观察、性质重组与有限推理复现](reproduction/condillac-1780-part1-ch7/README.md)
+- [模型定义与一般证明](reproduction/condillac-1780-part1-ch7/MODEL.zh-CN.md) · [逐步教学](reproduction/condillac-1780-part1-ch7/WALKTHROUGH.zh-CN.md)
+- [来源与完整页面账本](papers/1780/condillac-logic-part1-ch7.sources.zh-CN.md) · [独立全论证与数学复核](papers/1780/condillac-logic-part1-ch7.audit.zh-CN.md)
+- [作者实际运行汇总](reproduction/condillac-1780-part1-ch7/results/run-summary.json) · [独立代码复核](reproduction/condillac-1780-part1-ch7/independent-review/review.zh-CN.md)
+
+本轮只完成1798《Œuvres》XXII第一部第七章印58–66九页，两册同版扫描全核，含九条边注、一条完整脚注及两组自引。1780仅作已核书目年，不认证该版文字或页码。脚注A包含与A被包含的方向差别保留；六种能力与九条摘要分开。22道练习均附答案。部分观察、重组与目录见证、正Horn闭包及证书为现代教学约定，普通与优化模式的实跑范围见附件；一般证明不由有限测试替代，代码不证明心理、感觉论或教学效果。第八章仅核边界，未完成全书、三个自引单位或洛克全章；全部旧候选、历史及版本缺口继续保留。

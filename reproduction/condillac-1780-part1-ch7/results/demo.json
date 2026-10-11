@@ -1,0 +1,274 @@
+{
+  "scope": "modern finite teaching model; no psychological or physical validation",
+  "attention": {
+    "current": {
+      "object_name": "a",
+      "attributes": [
+        [
+          "color",
+          "red"
+        ],
+        [
+          "shape",
+          "round"
+        ]
+      ],
+      "provenance": "current"
+    },
+    "recalled": {
+      "object_name": "b",
+      "attributes": [
+        [
+          "color",
+          "red"
+        ],
+        [
+          "shape",
+          "round"
+        ]
+      ],
+      "provenance": "recalled"
+    }
+  },
+  "comparison": {
+    "color": "equal",
+    "material": "unknown"
+  },
+  "reflection": {
+    "sequence": [
+      [
+        "color",
+        "equal"
+      ],
+      [
+        "shape",
+        "equal"
+      ],
+      [
+        "material",
+        "unknown"
+      ]
+    ],
+    "selected_classes": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c"
+      ]
+    ],
+    "all_feature_classes": [
+      [
+        "a"
+      ],
+      [
+        "b"
+      ],
+      [
+        "c"
+      ]
+    ]
+  },
+  "imagination": [
+    {
+      "attributes": [
+        [
+          "color",
+          "blue"
+        ],
+        [
+          "shape",
+          "round"
+        ]
+      ],
+      "witnesses": []
+    },
+    {
+      "attributes": [
+        [
+          "color",
+          "blue"
+        ],
+        [
+          "shape",
+          "square"
+        ]
+      ],
+      "witnesses": [
+        "c"
+      ]
+    },
+    {
+      "attributes": [
+        [
+          "color",
+          "red"
+        ],
+        [
+          "shape",
+          "round"
+        ]
+      ],
+      "witnesses": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "attributes": [
+        [
+          "color",
+          "red"
+        ],
+        [
+          "shape",
+          "square"
+        ]
+      ],
+      "witnesses": []
+    }
+  ],
+  "reasoning": {
+    "intermediate_chain": {
+      "facts": [
+        "p"
+      ],
+      "rules": [
+        {
+          "name": "qr",
+          "premises": [
+            "q"
+          ],
+          "conclusion": "r"
+        },
+        {
+          "name": "pq",
+          "premises": [
+            "p"
+          ],
+          "conclusion": "q"
+        }
+      ],
+      "proof": [
+        {
+          "atom": "p",
+          "rule_name": null
+        },
+        {
+          "atom": "q",
+          "rule_name": "pq"
+        },
+        {
+          "atom": "r",
+          "rule_name": "qr"
+        }
+      ],
+      "entailed": [
+        "p",
+        "q",
+        "r"
+      ],
+      "satisfying_valuations": 1,
+      "certificates_verified": true
+    },
+    "missing_bridge": {
+      "facts": [
+        "air_has_weight"
+      ],
+      "rules": [
+        {
+          "name": "illustrative_bridge",
+          "premises": [
+            "air_has_weight",
+            "pressure_bridge"
+          ],
+          "conclusion": "column_supported"
+        }
+      ],
+      "proof": [
+        {
+          "atom": "air_has_weight",
+          "rule_name": null
+        }
+      ],
+      "entailed": [
+        "air_has_weight"
+      ],
+      "satisfying_valuations": 3,
+      "certificates_verified": true
+    },
+    "bridge_assumed": {
+      "facts": [
+        "air_has_weight",
+        "pressure_bridge"
+      ],
+      "rules": [
+        {
+          "name": "illustrative_bridge",
+          "premises": [
+            "air_has_weight",
+            "pressure_bridge"
+          ],
+          "conclusion": "column_supported"
+        }
+      ],
+      "proof": [
+        {
+          "atom": "air_has_weight",
+          "rule_name": null
+        },
+        {
+          "atom": "pressure_bridge",
+          "rule_name": null
+        },
+        {
+          "atom": "column_supported",
+          "rule_name": "illustrative_bridge"
+        }
+      ],
+      "entailed": [
+        "air_has_weight",
+        "pressure_bridge",
+        "column_supported"
+      ],
+      "satisfying_valuations": 1,
+      "certificates_verified": true
+    },
+    "unseeded_cycle": {
+      "facts": [],
+      "rules": [
+        {
+          "name": "pq",
+          "premises": [
+            "p"
+          ],
+          "conclusion": "q"
+        },
+        {
+          "name": "qp",
+          "premises": [
+            "q"
+          ],
+          "conclusion": "p"
+        }
+      ],
+      "proof": [],
+      "entailed": [],
+      "satisfying_valuations": 2,
+      "certificates_verified": true
+    }
+  },
+  "subset_example": {
+    "premises": true,
+    "conclusion": true,
+    "implication": true,
+    "small_nonempty": true
+  },
+  "empty_small_set": {
+    "premises": true,
+    "conclusion": true,
+    "implication": true,
+    "small_nonempty": false
+  }
+}

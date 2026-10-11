@@ -1,0 +1,8 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "third_party_dependencies": [],
+  "execution": "local CPU; no network; no install step"
+}

@@ -1,0 +1,84 @@
+{
+  "baseline": "18 tests passed",
+  "mutations": [
+    {
+      "mutation": "unknown_as_equal",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_reflection_and_hidden_feature (__main__.ObservationTests.test_reflection_and_hidden_feature)",
+        "FAIL: test_unknown_is_not_equality_or_difference (__main__.ObservationTests.test_unknown_is_not_equality_or_difference)"
+      ]
+    },
+    {
+      "mutation": "ignore_selected_features",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_all_feature_subsets_are_equivalence_relations_and_refine (__main__.ObservationTests.test_all_feature_subsets_are_equivalence_relations_and_refine)",
+        "FAIL: test_reflection_and_hidden_feature (__main__.ObservationTests.test_reflection_and_hidden_feature)"
+      ]
+    },
+    {
+      "mutation": "invent_catalog_witnesses",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_imagination_product_and_witnesses (__main__.ObservationTests.test_imagination_product_and_witnesses)"
+      ]
+    },
+    {
+      "mutation": "disjunction_instead_of_conjunction",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_conjunction_and_empty_antecedent (__main__.ReasoningTests.test_conjunction_and_empty_antecedent)",
+        "FAIL: test_exhaustive_two_atom_theories_against_independent_oracle (__main__.ReasoningTests.test_exhaustive_two_atom_theories_against_independent_oracle)",
+        "FAIL: test_seeded_three_atom_theories_and_rule_order (__main__.ReasoningTests.test_seeded_three_atom_theories_and_rule_order)"
+      ]
+    },
+    {
+      "mutation": "unfounded_initial_proof",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_conjunction_and_empty_antecedent (__main__.ReasoningTests.test_conjunction_and_empty_antecedent)",
+        "FAIL: test_exhaustive_two_atom_theories_against_independent_oracle (__main__.ReasoningTests.test_exhaustive_two_atom_theories_against_independent_oracle)",
+        "FAIL: test_intermediates_make_conclusion_explicit (__main__.ReasoningTests.test_intermediates_make_conclusion_explicit)",
+        "FAIL: test_missing_bridge_and_cycle_without_facts (__main__.ReasoningTests.test_missing_bridge_and_cycle_without_facts)",
+        "FAIL: test_seeded_three_atom_theories_and_rule_order (__main__.ReasoningTests.test_seeded_three_atom_theories_and_rule_order)"
+      ]
+    },
+    {
+      "mutation": "skip_certificate_dependencies",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_proof_checker_rejects_forgery_and_cycles (__main__.ReasoningTests.test_proof_checker_rejects_forgery_and_cycles) (proof=(Step(atom='r', rule_name='qr'),))",
+        "FAIL: test_proof_checker_rejects_forgery_and_cycles (__main__.ReasoningTests.test_proof_checker_rejects_forgery_and_cycles) (proof=(Step(atom='p', rule_name=None), Step(atom='r', rule_name='qr'), Step(atom='q', rule_name='pq')))",
+        "FAIL: test_proof_checker_rejects_forgery_and_cycles (__main__.ReasoningTests.test_proof_checker_rejects_forgery_and_cycles)"
+      ]
+    },
+    {
+      "mutation": "ignore_certificate_conclusion",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_proof_checker_rejects_forgery_and_cycles (__main__.ReasoningTests.test_proof_checker_rejects_forgery_and_cycles) (proof=(Step(atom='p', rule_name=None), Step(atom='r', rule_name='pq')))"
+      ]
+    },
+    {
+      "mutation": "reverse_semantic_implication",
+      "killed_by_behavioral_failure": true,
+      "exit_code": 1,
+      "failing_tests": [
+        "FAIL: test_conjunction_and_empty_antecedent (__main__.ReasoningTests.test_conjunction_and_empty_antecedent)",
+        "FAIL: test_exhaustive_two_atom_theories_against_independent_oracle (__main__.ReasoningTests.test_exhaustive_two_atom_theories_against_independent_oracle)",
+        "FAIL: test_intermediates_make_conclusion_explicit (__main__.ReasoningTests.test_intermediates_make_conclusion_explicit)",
+        "FAIL: test_seeded_three_atom_theories_and_rule_order (__main__.ReasoningTests.test_seeded_three_atom_theories_and_rule_order)"
+      ]
+    }
+  ],
+  "killed": 8,
+  "total": 8
+}

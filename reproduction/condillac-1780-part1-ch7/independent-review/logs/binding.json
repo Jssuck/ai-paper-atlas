@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "verified_date": "2026-10-11",
+  "files": [
+    {
+      "path": "model.py",
+      "bytes": 12565,
+      "sha256": "d835708004b6ae49abacec6a065f2046851d6433de3a7a3b126929613389900e"
+    },
+    {
+      "path": "test_model.py",
+      "bytes": 13972,
+      "sha256": "ef35393b42974ab56aca81ada8c5383290137d0d1327a41a7e014fc57631377e"
+    },
+    {
+      "path": "demo.py",
+      "bytes": 3135,
+      "sha256": "ffd009fceec418b7961614669d92cb670d5090846f493cb90589fc1093f53d87"
+    },
+    {
+      "path": "mutation_check.py",
+      "bytes": 3169,
+      "sha256": "821e0dc99ca4fd59ef74e29c54cad2fcb4eea7ea3a73a026a274f313671352f3"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2144,
+      "sha256": "d5764f86a97b2f4791c496cfe76311d771b774b87e1ba2676d441c68c1d42801"
+    },
+    {
+      "path": "MODEL.zh-CN.md",
+      "bytes": 14411,
+      "sha256": "e694f5d069137d3657d4e5c55ddf0fc977af34d0d8979a89ebb6e6723247a8bb"
+    },
+    {
+      "path": "WALKTHROUGH.zh-CN.md",
+      "bytes": 7544,
+      "sha256": "bc1aa80137d6b9480572fcaa99f4b0f1b410cfc8c7192a133ce609fb852c6201"
+    },
+    {
+      "path": "independent-review/review_model.py",
+      "bytes": 11111,
+      "sha256": "895e2779f3ef1b83a706f8bac243cd4391f0aca9cf73408f1de41489c7e96478"
+    },
+    {
+      "path": "independent-review/mutation_review.py",
+      "bytes": 3767,
+      "sha256": "973d125300481de5c61933e11e6fb1a78d157d206b844ea01b993643c021b481"
+    },
+    {
+      "path": "independent-review/logs/normal.json",
+      "bytes": 853,
+      "sha256": "57ba1abf516799e6283a265e112aefefaa72cc8fc5c57121ed1f8a23d515e6e6"
+    },
+    {
+      "path": "independent-review/logs/O.json",
+      "bytes": 853,
+      "sha256": "2376fd3bc9783140c22fea297330030094f0930a25910c608a24ec398bd74ac4"
+    },
+    {
+      "path": "independent-review/logs/OO.json",
+      "bytes": 853,
+      "sha256": "a5d5eff25d2a04dd38b12dc46e12e791b511c29aee72e5cba7d9ddb49444049d"
+    },
+    {
+      "path": "independent-review/logs/mutations.json",
+      "bytes": 2723,
+      "sha256": "91b7090e8b5e22b06c1925ed5cf3e6958536fdfe48dd5fd6d35141e66fc670f4"
+    },
+    {
+      "path": "independent-review/logs/mutations-O.json",
+      "bytes": 2723,
+      "sha256": "b779e7bc0bb15eb32b418d80996ec2fcba11a8bfe2ab7e625a1454a1ef93a491"
+    },
+    {
+      "path": "independent-review/logs/mutations-OO.json",
+      "bytes": 2723,
+      "sha256": "712ca6b80db874877c3eb2b450ccf6ac5a1c61754fad9a0cc4d59680baff6a13"
+    }
+  ]
+}
