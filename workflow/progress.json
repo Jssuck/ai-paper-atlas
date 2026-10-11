@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part1-ch2",
     "path": "papers/1780/condillac-logic-part1-ch2.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete La Logique I.II,actual1798 collected editionXXII printed16–24;excludeIII beginning25.1780 edition-year bibliographic evidence only.Ordered observation,decomposition/recomposition and coverage."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part1-ch1",
-    "path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
     "version": "v1",
-    "content_commit": "51dc9130e324ebde936c59c7740052215d5c31fa",
-    "checks": "Independent source,whole-argument and code audits passed;11tests,340-model reproduction,967-model/181720-history independent audit andfive detected fault variants.39remote text/blob identities verified,source-link repair exact-verified.86formulas,11tables,seven Markdown pages and167anchors checked in GitHub;external sources not comprehensively reopened.",
-    "scope": "Complete La Logique I.I,actual1798 collected editionXXII pp5–15 with two scans;1780 edition verified bibliographically,not initial-edition priority or wording.17answered exercises and bounded modern learning reconstruction,not empirical recreation."
+    "content_commit": "bbe3b5fa58e15648653f8630a21f9e945271b58a",
+    "checks": "Independent source,whole-argument and code reviews passed;18tests,40invalid-input subcases,1216author-oracle graphs,5351independent graphs,21337queries andsix detected mutations.Optimization guards tested normally,-O,-OO.40remote text/blob identities verified.144formulas,11new tables,eight Markdown pages,headings/anchors and link destinations checked in GitHub;external endpoints not all reopened.",
+    "scope": "Complete La Logique I.II,actual1798XXII pp16–24,two scans andseven marginal summaries;1780 bibliographic dating only.18answered exercises;bounded modern observation/coverage model,not empirical historical recreation."
   },
-  "updated_at": "2026-10-11T15:00:50Z",
+  "updated_at": "2026-10-11T15:07:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote exact contents and actual GitHub formulas,tables,links after completed independent source,argument and code audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
