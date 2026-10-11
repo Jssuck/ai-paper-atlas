@@ -112,7 +112,7 @@ python independent-review/run_review.py
 
 它只覆盖 `independent-review/` 中的执行结果，不改作者文件。`verify.py` 的源代码已审阅；为避免覆盖作者日志，本次直接运行其组成命令，没有在原目录执行会写入 `validation/` 的作者统一入口。
 
-- [oracle-normal.json](oracle-normal.json)、[oracle-O.json](oracle-O.json)、[oracle-OO.json)：三个模式的完整独立结果
+- [oracle-normal.json](oracle-normal.json)、[oracle-O.json](oracle-O.json)、[oracle-OO.json](oracle-OO.json)：三个模式的完整独立结果
 - [results.json](results.json)：退出码、前后输入哈希、作者产物核对及脚本哈希
 - [execution.log](execution.log)：真实完整运行输出
 - [reviewed-inputs.json](reviewed-inputs.json)：便于冻结检查的受审路径到 SHA-256 的直接映射
