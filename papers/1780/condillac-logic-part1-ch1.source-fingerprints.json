@@ -80,6 +80,41 @@
       "provenance_note": "The exact Google Books ID occurs in two URI annotations in the reviewed PDF. A public unauthenticated GET of the linked Google Books record returned HTTP 200 on 2026-10-11 and matched the title, author, publisher Houel an VI, year 1798, 231 printed pages, and original holding institution. No fresh PDF download or account sign-in was used.",
       "bytes": 8054092,
       "sha256": "5d201b82bd64174ce74bbbcf39b2a152c0b574e7e569b3141281fc03e94a9a1e"
+    },
+    {
+      "witness_id": "wellcome-ia-1798-xxiii-errata",
+      "public_basename": "b28772581_0023.pdf",
+      "source_url": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf",
+      "catalogue_url": "https://archive.org/details/b28772581_0023",
+      "metadata_url": "https://archive.org/metadata/b28772581_0023",
+      "holding_institution": "Wellcome Library",
+      "pdf_pages": 496,
+      "bytes": 16085299,
+      "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52",
+      "volume": "XXIII",
+      "title_pdf_page": 5,
+      "errata_pdf_pages": [
+        491,
+        492,
+        493
+      ],
+      "errata_printed_pages": [
+        "[485]",
+        "486",
+        "487"
+      ],
+      "scope": "Title/volume identification and complete three-page collected-edition errata only; not a complete reading of La Langue des Calculs.",
+      "applicable_entry": {
+        "errata_printed_page": 486,
+        "errata_pdf_page": 492,
+        "target_work": "La Logique (volume XXII)",
+        "target_printed_page": 8,
+        "target_line": 23,
+        "printed": "confirmation",
+        "corrected": "conformation"
+      },
+      "attribution_limit": "Edition-printed erratum; compiler unnamed, not attributed to the author personally."
     }
-  ]
+  ],
+  "erratum_addendum_checked_on": "2026-10-11"
 }

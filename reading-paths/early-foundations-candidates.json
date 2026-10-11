@@ -2540,6 +2540,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1780/condillac-logic-part1-ch9.zh-CN.md",
       "note": "仅1798 I.IX72–94完整23页；1780书目年。19边注/无脚注自引，全集勘误三页核验无本章条目；I.I第8页新勘误另记待校。26道含答案练习、现代序列/来源模型实跑与独立来源/全论证/代码复核；远端发布与浏览器另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "condillac-1780-logic-part1-ch1",
+      "event": "bounded_official_erratum_quality_correction",
+      "record_path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
+      "note": "仅修正既有I.I第8页confirmation→conformation的证据归属；1798全集三页正式勘误及两册原正文复核。原完成事件和I.IX发现时待校记录保留，当前有效状态另记解决。新增完整阅读单位0，公式、论证、教学程序不变；远端身份和实际浏览器QA由发布步骤另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2847,7 +2854,24 @@
       "article_path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
       "pages": "1798版第一部第一章5–15；16页第二章排除；原1780页码未核，不倒用1798页码",
       "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
-      "not_completed": "1780初版章内图像、原页码、全异文/全部更正史；1798后续章节及全书、自引历史读物及前驱影响；真实心理学/学习数据与模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。"
+      "not_completed": "1780初版章内图像、原页码、全异文/全部更正史；1798后续章节及全书、自引历史读物及前驱影响；真实心理学/学习数据与模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。",
+      "latest_quality_correction": {
+        "id": "condillac-1780-logic-part1-ch1-erratum",
+        "checked_on": "2026-10-11",
+        "target": "condillac-1780-logic-part1-ch1",
+        "status": "completed_local_bounded_correction_remote_qa_separate",
+        "record_path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
+        "source": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf#page=492",
+        "source_volume": "1798 Œuvres XXIII",
+        "errata_scope": "完整三页[485]–487／PDF491–493；条目486／PDF492",
+        "target_page_line": "La Logique p.8 line23",
+        "printed": "confirmation",
+        "corrected": "conformation",
+        "attribution": "该版印行的正式勘误；订正者未署名，不归为作者亲自发布。",
+        "new_complete_reading_units": 0,
+        "argument_math_and_code_changed": false,
+        "historical_events_preserved": true
+      }
     },
     "condillac-1780-logic-part1-ch2": {
       "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
@@ -2991,7 +3015,7 @@
       "article_path": "papers/1780/condillac-logic-part1-ch9.zh-CN.md",
       "pages": "实际1798第一部第九章72–94；95页第二部引入及96页其第一章只核边界；1780本章页码未核",
       "publication_scope": "两份1798同版不同册扫描，不是两版对校；1780只作书目归年。",
-      "not_completed": "1780本章影像/页码、全部版本异文与更正史、第二部及全书、匿名学说具体来源；Locke II.X1–8仅数字转写有限比较，非历史版核图/全章/直接影响证明。真实心理数据、未实现扩展与全部旧候选、书籍、Euler版本、Curry/Church缺口保留。新增全集勘误对I.I第8页旧来源说明的校订待另行处理，本次未修改I.I。",
+      "not_completed": "1780本章影像/页码、全部版本异文与更正史、第二部及全书、匿名学说具体来源；Locke II.X1–8仅数字转写有限比较，非历史版核图/全章/直接影响证明。真实心理数据、未实现扩展与全部旧候选、书籍、Euler版本、Curry/Church缺口保留。I.IX原发布时未修改I.I；当时待校的第8页旧说明现由独立有界更正处理，见cross_unit_correction_resolution。",
       "new_cross_unit_correction_pending": {
         "target": "condillac-1780-logic-part1-ch1",
         "status": "pending_separate_bounded_correction_not_applied",
@@ -3002,7 +3026,42 @@
         "printed": "confirmation",
         "corrected": "conformation",
         "note": "仅记录新发现及后续校订事项，不新增第二完成单位，不修改旧篇/旧scope/旧状态。"
-      }
+      },
+      "cross_unit_correction_resolution": {
+        "id": "condillac-1780-logic-part1-ch1-erratum",
+        "checked_on": "2026-10-11",
+        "target": "condillac-1780-logic-part1-ch1",
+        "status": "completed_local_bounded_correction_remote_qa_separate",
+        "record_path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
+        "source": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf#page=492",
+        "source_volume": "1798 Œuvres XXIII",
+        "errata_scope": "完整三页[485]–487／PDF491–493；条目486／PDF492",
+        "target_page_line": "La Logique p.8 line23",
+        "printed": "confirmation",
+        "corrected": "conformation",
+        "attribution": "该版印行的正式勘误；订正者未署名，不归为作者亲自发布。",
+        "new_complete_reading_units": 0,
+        "argument_math_and_code_changed": false,
+        "historical_events_preserved": true
+      },
+      "new_cross_unit_correction_pending_is_historical": true
     }
+  },
+  "latest_quality_correction": {
+    "id": "condillac-1780-logic-part1-ch1-erratum",
+    "checked_on": "2026-10-11",
+    "target": "condillac-1780-logic-part1-ch1",
+    "status": "completed_local_bounded_correction_remote_qa_separate",
+    "record_path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
+    "source": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf#page=492",
+    "source_volume": "1798 Œuvres XXIII",
+    "errata_scope": "完整三页[485]–487／PDF491–493；条目486／PDF492",
+    "target_page_line": "La Logique p.8 line23",
+    "printed": "confirmation",
+    "corrected": "conformation",
+    "attribution": "该版印行的正式勘误；订正者未署名，不归为作者亲自发布。",
+    "new_complete_reading_units": 0,
+    "argument_math_and_code_changed": false,
+    "historical_events_preserved": true
   }
 }

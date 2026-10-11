@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "correction_id": "condillac-1780-logic-part1-ch1-erratum",
+  "checked_on": "2026-10-11",
+  "kind": "existing_unit_bounded_source_quality_correction",
+  "target_reading_id": "condillac-1780-logic-part1-ch1",
+  "base_content_commit": "7bb9b0482a84579fe0e4d64cb8bf1763a79bd3d1",
+  "claimed_main_commit": "f353d3fd44f33ccf02ead3d25c3d0fba76fa5890",
+  "scope": "仅更正1798《La Logique》I.I第8页订正的证据归属；不新增完整阅读单位。",
+  "new_complete_reading_units": 0,
+  "correction": {
+    "original_printed": "confirmation",
+    "corrected_reading": "conformation",
+    "target_work": "La Logique, Œuvres XXII (1798)",
+    "target_printed_page": 8,
+    "errata_target_line": 23,
+    "word_split": "con-在正文第23行末；firmation续于第24行，不计页眉和边注。",
+    "original_page_pdf_positions": {
+      "ia_wellcome": 16,
+      "google_complutense": 18
+    },
+    "previous_claim": "仅据上下文作解释性拟校；已查范围未检得适用正式勘误。",
+    "corrected_claim": "1798全集卷末印行的正式勘误已明确支持conformation；原正文仍印confirmation。",
+    "attribution_limit": "勘误表未署订正者，不以作品题名页的作者修订声明证明此项由作者亲自发布。",
+    "unchanged_interpretation": "器官构造／组织",
+    "other_conjectures_unchanged": [
+      "卷首p.4 appliquerons→expliquerons",
+      "p.12 nous se savons→nous ne savons"
+    ]
+  },
+  "primary_errata": {
+    "collection": "Œuvres de Condillac",
+    "volume": "XXIII",
+    "title": "La Langue des Calculs",
+    "imprint": "Paris, Ch. Houel, an VI–1798",
+    "title_pdf_page": 5,
+    "volume_number_evidence": "扫描对象馆藏元数据Vol. 23；题名页未印卷数。",
+    "catalogue_url": "https://archive.org/details/b28772581_0023",
+    "metadata_url": "https://archive.org/metadata/b28772581_0023",
+    "source_url": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf#page=492",
+    "bytes": 16085299,
+    "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52",
+    "pdf_pages": 496,
+    "full_errata_pdf_pages": [
+      491,
+      492,
+      493
+    ],
+    "full_errata_printed_pages": [
+      "[485]",
+      "486",
+      "487"
+    ],
+    "pagination_note": "起页未印页码，[485]由前页484和后页486推定；487有FIN DE L’ERRATA。",
+    "entry_printed_page": 486,
+    "entry_pdf_page": 492,
+    "short_entry_normalized_spacing": "Page 8, ligne 23, confirmation, lisez : conformation.",
+    "la_logique_entries_in_this_table": 1,
+    "applies_to_I_IX": false,
+    "reading_limit": "只核题名/元数据、完整三页勘误及两册XXII的目标页；不计完成XXIII著作或新增I.I阅读单位。"
+  },
+  "independent_review": {
+    "primary_source_review": "passed_after_removing_unsupported_volume_marker_claim",
+    "primary_checks": [
+      "三页全集勘误逐项核图",
+      "两份XXII第8页原印与行号核图",
+      "题名、版年、页序和文件指纹",
+      "未署名订正者及两处仍为拟校的边界"
+    ],
+    "seven_existing_file_diff_review": "passed",
+    "diff_checks": [
+      "主文仅两个来源归属段落改变",
+      "主文8个公式围栏及44处行内数学、审计4个公式围栏及30处行内数学逐项不变",
+      "旧主文SHA明确为历史绑定；三项新SHA对应当前文件",
+      "37候选、22当前有效单位及全部既有历史事件和缺口保留",
+      "未修改代码、模型、练习、运行日志或原有来源见证"
+    ],
+    "final_record_and_manifest_review": "发布前另核本记录及外部清单；本记录不自含散列，避免循环认证。",
+    "new_code_execution_claimed": false,
+    "remote_identity_and_live_browser_qa": "由发布步骤另核；本记录只证明本地有界更正。"
+  },
+  "historical_preservation": {
+    "old_article_sha256": "87e999a1944309a7c5a222ca075a91cfb387913d33fc6e71a0eaa7bbccca24e9",
+    "old_audit_section_8_retained_as_history": true,
+    "registry_previous_selection_history_entries": 33,
+    "registry_correction_events_added": 1,
+    "registry_candidates_unchanged": 37,
+    "registry_effective_units_unchanged": 22,
+    "I_IX_discovery_and_old_pending_snapshots_preserved": true,
+    "current_resolution_location": "reading-paths/early-foundations-candidates.json: latest_quality_correction and effective_status",
+    "last_completed_reading_preserved": "condillac-1780-logic-part1-ch9",
+    "workflow_owned_by_publication_step": true
+  },
+  "remaining_limits": [
+    "1780正文影像、原页码和勘误未核",
+    "未完成全部版本更正史或全书",
+    "不因一项正式勘误推断其他字样均正确",
+    "未认定作者本人或任何具体编辑是该项订正者",
+    "没有新的心理学、模型或程序实验证明"
+  ],
+  "distribution": {
+    "scan_pdf_or_images_in_release": false,
+    "full_transcription_or_translation_in_release": false,
+    "private_paths_or_secrets_in_release": false
+  },
+  "file_bindings": [
+    {
+      "path": "README.md",
+      "before": {
+        "bytes": 47475,
+        "sha256": "cb9359d7ca37613d38dcbc416c119d0f3c12cde8c27b94f55554e604a4a41ff4",
+        "git_blob_sha1": "bdb3d876ab1d49451ce4df4cab5a0bc7ca294be2",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 48034,
+        "sha256": "ca8924b70233f4abbb34c6ea8fad9253b6925246c354d9984a03583bdc212e74",
+        "git_blob_sha1": "0e597fa7beecc09d9d075d0ea63dffcb6d3e3370",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "papers/1780/condillac-logic-part1-ch1.audit.zh-CN.md",
+      "before": {
+        "bytes": 38053,
+        "sha256": "75d4724f06134bb9f9b5c93d318db8bd2fbff9e61613870eddc0dfb904dc4962",
+        "git_blob_sha1": "a7ffa38fdd1567533f9d45545a242501cc26ab8d",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 40110,
+        "sha256": "3b45d73ee206ac0d494a4cf9175d348b045a28732c373f13650d18a7e9520ed5",
+        "git_blob_sha1": "1a8381b95d7b4e15c0cda98cf1ccae41dc95b179",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "papers/1780/condillac-logic-part1-ch1.source-fingerprints.json",
+      "before": {
+        "bytes": 2656,
+        "sha256": "c0129107facd278695203c84c84d943b4ec0c5dd250486926fffe0eb458a5fe5",
+        "git_blob_sha1": "6ed33d4e5d8ff2526432b5a194022a011c30eb91",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 3987,
+        "sha256": "23d8c3017d4efa4d304a39924b1b11177f3b98561b3f3f1b7baca179f0644afd",
+        "git_blob_sha1": "2bb9c6ec4dfd19fe07cb22fcf1d4303cfe888e67",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "papers/1780/condillac-logic-part1-ch1.sources.zh-CN.md",
+      "before": {
+        "bytes": 6988,
+        "sha256": "9241c2336549aaa2467718403821dbdaa10fbcfb52d4bf577d682bc2624ea921",
+        "git_blob_sha1": "f5788609bc444f516a6ababb0a87ebef086224a2",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 9012,
+        "sha256": "2cc79bb75087eb5e5f8cc7dec5f2431cd6e37040877b724e9ef82a4f43b41e1e",
+        "git_blob_sha1": "57c3d54732fd40ba008500ec583a6edd121839d9",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
+      "before": {
+        "bytes": 42961,
+        "sha256": "87e999a1944309a7c5a222ca075a91cfb387913d33fc6e71a0eaa7bbccca24e9",
+        "git_blob_sha1": "39b1e38e0186247be1a75ee8718824599a38d335",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 43405,
+        "sha256": "5bc6848a6cc72211f7f84447d8415a44b72af63dc7adc1cf4d39b6267b5cce6c",
+        "git_blob_sha1": "da8a43955affdbd2ddc7b48c188faf4b74e3b2c8",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "papers/1780/condillac-logic-part1-ch9.sources.zh-CN.md",
+      "before": {
+        "bytes": 30619,
+        "sha256": "61a83176c720c11fa7990b8dd3efc472cffde1afd2f3907d925a8794377dd8a2",
+        "git_blob_sha1": "42c6a13ee50faa554a343192da1dd3f5f8b50c0e",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 30919,
+        "sha256": "3edcae78938de6c5afce3c546eff807ecb680609dbc5e23095db048b95815bbe",
+        "git_blob_sha1": "b9451ed6613e982924c5235d2d93c1332673c6e0",
+        "encoding": "utf-8"
+      }
+    },
+    {
+      "path": "reading-paths/early-foundations-candidates.json",
+      "before": {
+        "bytes": 199664,
+        "sha256": "c4d32252d4c339250633441945968f99eba33c5147b5de7fb6cdd889b1f19b0b",
+        "git_blob_sha1": "c726ab8b197cc57d8bf06e556fe9a0a55dc67458",
+        "encoding": "utf-8"
+      },
+      "after": {
+        "bytes": 203147,
+        "sha256": "9cb7a60464974505610e15d52bd4ba609f71b20be6c0e570ca57c92b72ffe77a",
+        "git_blob_sha1": "d8adcaece019920a22a062958a43d958437d2eae",
+        "encoding": "utf-8"
+      }
+    }
+  ],
+  "binding_note": "上述七项是本次全部既有文件变更；本JSON是唯一新增记录。工作流进度由独立发布步骤处理；其他远端文件必须保持原blob。"
+}

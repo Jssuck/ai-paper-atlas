@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
-    "stage": "official_erratum_verification",
+    "stage": "remote_correction_verification",
     "scope": "Narrow correction of I.I p.8 line23 using the collected 1798 edition's official errata; no new source unit."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source, whole-argument and code audits passed. 40 author tests and 15 semantic mutations across normal/-O/-OO; independent suites and 14 lead rerun commands pass. All 127 remote text files and blob identities verified. Eight live Markdown bodies, 208 actual formulas (local Pandoc counted 207), nine tables, 26 answers and 245 relative paths verified. Source href integrity checked; fresh external availability not asserted.",
     "scope": "Complete La Logique I.IX, actual 1798 Œuvres XXII pp.72–94, both scans and 19 margins. Collected-edition errata read; no I.IX correction. Newly discovered I.I p.8 confirmation→conformation erratum remains separately pending. 1780 bibliographic dating only; sequence-memory models are modern teaching reconstructions."
   },
-  "updated_at": "2026-10-11T22:39:45Z",
+  "updated_at": "2026-10-11T22:47:55Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify the newly located official erratum and independently review bounded corrections before publication.",
+  "next_action": "Verify bounded correction bytes and live GitHub rendering before closing the correction task.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
