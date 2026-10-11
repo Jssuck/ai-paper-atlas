@@ -1,0 +1,363 @@
+{
+  "status": "PASS",
+  "optimization": 1,
+  "source_sha256": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+  "review_script_sha256": "9a327f6e24eb0a91e48d814dcccc7e9278f14bf2e18a4657d05d774bf5ad80c4",
+  "mutation_script_sha256": "9d21fc0a6dfcb2a298c2445392164e5191cac33c60b35574e7edc56c1e05f34d",
+  "baseline": {
+    "status": "survived",
+    "exit_code": 0,
+    "verifier_report": {
+      "status": "PASS",
+      "optimization": 1,
+      "source_sha256": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+      "review_script_sha256": "9a327f6e24eb0a91e48d814dcccc7e9278f14bf2e18a4657d05d774bf5ad80c4",
+      "counts": {
+        "directed_counterexamples": 5,
+        "factivity_predicate_cases": 64,
+        "four_world_complete_label_cases": 9600,
+        "habit_rows": 4,
+        "immutability_cases": 4,
+        "invalid_api_inputs": 139,
+        "nonvacuous_bridge_implication_cases": 4,
+        "rejected_affect_rows": 24,
+        "rejected_empty_restrictions": 60,
+        "rejected_expansions": 640,
+        "restriction_monotonicity_label_cases": 1300,
+        "three_world_complete_label_cases": 215040,
+        "valid_affect_rows": 40,
+        "valid_restrictions": 260,
+        "world_order_cases": 1440,
+        "world_universe_cases": 184
+      },
+      "scope": "Finite explicit affect table, all 4-world supports/actualities, all 3-world truth assignments; no empirical or historical-algorithm claim."
+    }
+  },
+  "results": [
+    {
+      "name": "mere_lack_as_deprivation",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 1 deprivation: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "require_both_pleasure_histories",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 7 deprivation: expected True; got False",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "deny_imagined_pleasure_path",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 11 deprivation: expected True; got False",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "allow_unknown_pleasure_object",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: affect 4",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "erase_need_stipulation",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 7 need: expected True; got False",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "ignore_faculty_direction",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 7 desire: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "desire_from_direction_alone",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 16 desire: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "erase_latent_passion",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 32 passion_disposition: expected True; got False",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "enjoyment_habit_is_passion",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 6 passion_disposition: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "activate_all_dispositions",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "affect 32 passion_active: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "existential_judgment",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=3, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': True, 'bridge_holds_on_support': False}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': True, 'bridge_holds_on_support': False}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "judge_entire_universe",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=2, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "inject_actual_into_support",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=2, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "actuality_from_first_world",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=1, actual=1: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': True, 'actual_in_support': False, 'bridge_holds_on_support': True}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "claim_actual_always_supported",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=1, actual=1: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': True, 'actual_in_support': False, 'bridge_holds_on_support': True}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': True, 'actual_in_support': True, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "hope_without_desire",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=4, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': True, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': True, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': True, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "hope_from_actuality",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=23, habit=0, worlds=(0, 1, 2, 3), support=1, actual=2: expected {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': True, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}; got {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': True, 'narrow_will': False, 'actual_obtaining': True, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "ignore_experience_origin",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "habit 1: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "ignore_established_habit",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "habit 2: expected False; got True",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "will_ignores_current_judgment",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=23, habit=3, worlds=(0, 1, 2, 3), support=1, actual=0: expected {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': True, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': True, 'bridge_holds_on_support': True}; got {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': True, 'hope': False, 'narrow_will': True, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': True, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "will_requires_hope_without_bridge",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=23, habit=3, worlds=(0, 1, 2, 3), support=2, actual=0: expected {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': True, 'hope': False, 'narrow_will': True, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}; got {'objective_lack': True, 'deprivation': True, 'deprivation_suffering': True, 'need': True, 'desire': True, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': True, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "identify_obstacles_with_attainment",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=2, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': False, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "reverse_bridge",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "four_world_complete_label_cases: affect=0, habit=0, worlds=(0, 1, 2, 3), support=2, actual=0: expected {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': False}; got {'objective_lack': False, 'deprivation': False, 'deprivation_suffering': False, 'need': False, 'desire': False, 'passion_disposition': False, 'passion_active': False, 'judges_obtaining': False, 'judges_no_obstacle': True, 'experience_backed_habit': False, 'hope': False, 'narrow_will': False, 'actual_obtaining': False, 'actual_no_obstacle': False, 'actual_in_support': False, 'bridge_holds_on_support': True}",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "allow_empty_support",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: contradictory evidence",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "allow_duplicate_world_names",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: duplicate world",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "allow_evidence_expansion",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: expansion",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "ignore_evidence_restriction",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: contradictory evidence",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "truthiness_instead_of_bool_contract",
+      "status": "detected_by_behavior",
+      "exit_code": 1,
+      "verifier_report": {
+        "status": "SEMANTIC_FAILURE",
+        "detail": "accepted invalid input: Affect.lacking",
+        "optimization": 1
+      }
+    }
+  ],
+  "detected": 28,
+  "total": 28,
+  "negative_controls": [
+    {
+      "name": "syntax_error",
+      "status": "harness_failure",
+      "exit_code": 2,
+      "verifier_report": {
+        "status": "HARNESS_FAILURE",
+        "exception": "SyntaxError",
+        "detail": "invalid syntax (model.py, line 1)",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "import_exception",
+      "status": "harness_failure",
+      "exit_code": 2,
+      "verifier_report": {
+        "status": "HARNESS_FAILURE",
+        "exception": "RuntimeError",
+        "detail": "deliberate import failure",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "runtime_exception",
+      "status": "harness_failure",
+      "exit_code": 2,
+      "verifier_report": {
+        "status": "HARNESS_FAILURE",
+        "exception": "RuntimeError",
+        "detail": "deliberate runtime failure",
+        "optimization": 1
+      }
+    },
+    {
+      "name": "timeout",
+      "status": "harness_failure",
+      "exception": "TimeoutExpired"
+    }
+  ],
+  "controls_correctly_classified": true,
+  "production_source_unchanged": true,
+  "scope": "These specified semantic mutants only; exceptions, syntax/import errors, timeouts and unknown exits never count as detection."
+}

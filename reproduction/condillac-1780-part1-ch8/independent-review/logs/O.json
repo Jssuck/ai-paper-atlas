@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "optimization": 1,
+  "source_sha256": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+  "review_script_sha256": "9a327f6e24eb0a91e48d814dcccc7e9278f14bf2e18a4657d05d774bf5ad80c4",
+  "counts": {
+    "directed_counterexamples": 5,
+    "factivity_predicate_cases": 64,
+    "four_world_complete_label_cases": 9600,
+    "habit_rows": 4,
+    "immutability_cases": 4,
+    "invalid_api_inputs": 139,
+    "nonvacuous_bridge_implication_cases": 4,
+    "rejected_affect_rows": 24,
+    "rejected_empty_restrictions": 60,
+    "rejected_expansions": 640,
+    "restriction_monotonicity_label_cases": 1300,
+    "three_world_complete_label_cases": 215040,
+    "valid_affect_rows": 40,
+    "valid_restrictions": 260,
+    "world_order_cases": 1440,
+    "world_universe_cases": 184
+  },
+  "scope": "Finite explicit affect table, all 4-world supports/actualities, all 3-world truth assignments; no empirical or historical-algorithm claim."
+}

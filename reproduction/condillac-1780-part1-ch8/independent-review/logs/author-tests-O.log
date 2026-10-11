@@ -1,0 +1,33 @@
+test_01_boolean_inputs_are_strict (__main__.ModelTests.test_01_boolean_inputs_are_strict) ... ok
+test_02_pleasure_context_requires_known_object (__main__.ModelTests.test_02_pleasure_context_requires_known_object) ... ok
+test_03_unknown_objective_lack_is_not_need (__main__.ModelTests.test_03_unknown_objective_lack_is_not_need) ... ok
+test_04_known_but_unvalued_lack_is_not_need (__main__.ModelTests.test_04_known_but_unvalued_lack_is_not_need) ... ok
+test_05_habitual_imagination_needs_no_past_enjoyment (__main__.ModelTests.test_05_habitual_imagination_needs_no_past_enjoyment) ... ok
+test_06_habitual_enjoyment_is_another_path (__main__.ModelTests.test_06_habitual_enjoyment_is_another_path) ... ok
+test_07_present_object_is_not_deprivation (__main__.ModelTests.test_07_present_object_is_not_deprivation) ... ok
+test_08_direction_is_explicit (__main__.ModelTests.test_08_direction_is_explicit) ... ok
+test_09_passion_can_be_latent (__main__.ModelTests.test_09_passion_can_be_latent) ... ok
+test_10_empty_support_is_rejected (__main__.ModelTests.test_10_empty_support_is_rejected) ... ok
+test_11_world_universe_is_validated (__main__.ModelTests.test_11_world_universe_is_validated) ... ok
+test_12_wrong_types_and_unknown_predicates_are_rejected (__main__.ModelTests.test_12_wrong_types_and_unknown_predicates_are_rejected) ... ok
+test_13_judgment_is_universal_not_existential (__main__.ModelTests.test_13_judgment_is_universal_not_existential) ... ok
+test_14_hope_requires_desire (__main__.ModelTests.test_14_hope_requires_desire) ... ok
+test_15_narrow_will_requires_both_habit_qualifications (__main__.ModelTests.test_15_narrow_will_requires_both_habit_qualifications) ... ok
+test_16_hope_does_not_require_no_obstacle (__main__.ModelTests.test_16_hope_does_not_require_no_obstacle) ... ok
+test_17_no_implicit_success_bridge (__main__.ModelTests.test_17_no_implicit_success_bridge) ... ok
+test_18_false_confidence_is_representable (__main__.ModelTests.test_18_false_confidence_is_representable) ... ok
+test_19_actual_in_support_gives_factivity_finite_check (__main__.ModelTests.test_19_actual_in_support_gives_factivity_finite_check) ... ok
+test_20_support_restriction_preserves_judgments_finite_check (__main__.ModelTests.test_20_support_restriction_preserves_judgments_finite_check) ... ok
+test_21_invalid_restriction_cannot_vacuously_validate_everything (__main__.ModelTests.test_21_invalid_restriction_cannot_vacuously_validate_everything) ... ok
+test_22_bridge_supports_will_to_hope_finite_check (__main__.ModelTests.test_22_bridge_supports_will_to_hope_finite_check) ... ok
+test_23_finite_cross_product_matches_independent_truth_table (__main__.ModelTests.test_23_finite_cross_product_matches_independent_truth_table) ... ok
+test_24_habit_does_not_replace_current_judgment (__main__.ModelTests.test_24_habit_does_not_replace_current_judgment) ... ok
+test_25_actual_world_does_not_silently_rewrite_support (__main__.ModelTests.test_25_actual_world_does_not_silently_rewrite_support) ... ok
+test_26_world_values_are_strict (__main__.ModelTests.test_26_world_values_are_strict) ... ok
+test_27_enjoyment_habit_is_not_automatically_desire_habit (__main__.ModelTests.test_27_enjoyment_habit_is_not_automatically_desire_habit) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.010s
+
+OK
+{"errors": 0, "failures": 0, "finite_checks": {"bridge_supports": 15, "classification_cases": 480, "factivity_predicate_cases": 64, "restriction_predicate_cases": 130}, "optimization": 1, "skipped": 0, "successful": true, "tests_run": 27}

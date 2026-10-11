@@ -1,0 +1,246 @@
+{
+  "schema": "condillac-i8-teaching-v1",
+  "examples": [
+    {
+      "case": "01_unknown_lack",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": false,
+        "deprivation_suffering": false,
+        "need": false,
+        "desire": false,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": false,
+        "narrow_will": false,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "02_never_enjoyed_but_imagined",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": true,
+        "narrow_will": true,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "03_hope_without_narrow_will",
+      "support": [
+        "success_obstacle"
+      ],
+      "actual": "success_obstacle",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": false,
+        "experience_backed_habit": true,
+        "hope": true,
+        "narrow_will": false,
+        "actual_obtaining": true,
+        "actual_no_obstacle": false,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "04_narrow_will_without_bridge",
+      "support": [
+        "failure_clear"
+      ],
+      "actual": "failure_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": false,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": false,
+        "narrow_will": true,
+        "actual_obtaining": false,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": false
+      }
+    },
+    {
+      "case": "05_false_confidence",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "failure_obstacle",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": true,
+        "narrow_will": true,
+        "actual_obtaining": false,
+        "actual_no_obstacle": false,
+        "actual_in_support": false,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "06_uncertain_support",
+      "support": [
+        "failure_obstacle",
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": false,
+        "judges_no_obstacle": false,
+        "experience_backed_habit": true,
+        "hope": false,
+        "narrow_will": false,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "07_experience_without_habit",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": false,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": false,
+        "hope": true,
+        "narrow_will": false,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "08_suspended_passion",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": false,
+        "deprivation": false,
+        "deprivation_suffering": false,
+        "need": false,
+        "desire": false,
+        "passion_disposition": true,
+        "passion_active": false,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": false,
+        "narrow_will": false,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    },
+    {
+      "case": "09_active_passion",
+      "support": [
+        "success_clear"
+      ],
+      "actual": "success_clear",
+      "labels": {
+        "objective_lack": true,
+        "deprivation": true,
+        "deprivation_suffering": true,
+        "need": true,
+        "desire": true,
+        "passion_disposition": true,
+        "passion_active": true,
+        "judges_obtaining": true,
+        "judges_no_obstacle": true,
+        "experience_backed_habit": true,
+        "hope": true,
+        "narrow_will": true,
+        "actual_obtaining": true,
+        "actual_no_obstacle": true,
+        "actual_in_support": true,
+        "bridge_holds_on_support": true
+      }
+    }
+  ],
+  "support_restriction": {
+    "before": [
+      "failure_obstacle",
+      "success_clear"
+    ],
+    "after": [
+      "success_clear"
+    ],
+    "before_judges_obtaining": false,
+    "after_judges_obtaining": true,
+    "actual_obtaining_before": false,
+    "actual_obtaining_after": false,
+    "actual_obtaining_unchanged": true,
+    "empty_restriction_error": "belief support must be nonempty"
+  }
+}

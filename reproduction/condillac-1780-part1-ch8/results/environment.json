@@ -1,0 +1,18 @@
+{
+  "run_started_utc": "2026-10-11T20:46:01.555459+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "third_party_dependencies": [],
+  "execution": "local CPU; no network; no installation",
+  "source_sha256": {
+    "model.py": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+    "test_model.py": "749936aa6f92f9092b5df27436668d64f8dbe2bae719cebef3887c6b985b756f",
+    "demo.py": "5666fa5a40f0a85381d7c22bd59b402345eb240e1ecd420a7decd4da42623438",
+    "mutation_check.py": "e5743d0a702cc15eba8e962cd9edb68d66042f270c5d3a3fa4835329a8d4bffe",
+    "verify.py": "5af3c864b70d8cb3527561b18da660a8fb541186fddc8b213d1998172da265df",
+    "independent-review/review_model.py": "9a327f6e24eb0a91e48d814dcccc7e9278f14bf2e18a4657d05d774bf5ad80c4",
+    "independent-review/mutation_review.py": "9d21fc0a6dfcb2a298c2445392164e5191cac33c60b35574e7edc56c1e05f34d"
+  }
+}

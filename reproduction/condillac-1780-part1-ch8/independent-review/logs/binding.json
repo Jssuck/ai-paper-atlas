@@ -1,0 +1,95 @@
+{
+  "schema": "condillac-i8-independent-binding-v1",
+  "bound_utc": "2026-10-11T20:47:45.571259+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "source_sha256": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+  "path_base": "reproduction/condillac-1780-part1-ch8",
+  "scope": "Frozen model-directory source/documents and independent-review artifacts. Excludes this self-referential manifest, upstream results, article text and source images.",
+  "artifacts": {
+    "model.py": {
+      "sha256": "6692eab4160bbdf7c8158984bf096d608184405dc8a247fbfadc1a4f0ba03f41",
+      "bytes": 6622
+    },
+    "test_model.py": {
+      "sha256": "749936aa6f92f9092b5df27436668d64f8dbe2bae719cebef3887c6b985b756f",
+      "bytes": 10636
+    },
+    "demo.py": {
+      "sha256": "5666fa5a40f0a85381d7c22bd59b402345eb240e1ecd420a7decd4da42623438",
+      "bytes": 2896
+    },
+    "mutation_check.py": {
+      "sha256": "e5743d0a702cc15eba8e962cd9edb68d66042f270c5d3a3fa4835329a8d4bffe",
+      "bytes": 5722
+    },
+    "verify.py": {
+      "sha256": "5af3c864b70d8cb3527561b18da660a8fb541186fddc8b213d1998172da265df",
+      "bytes": 3644
+    },
+    "README.md": {
+      "sha256": "1dc3b30bfbe62b5cf6daad04ff654c7639a26fdbfe792f9a8b0376275521dbd2",
+      "bytes": 3973
+    },
+    "MODEL.zh-CN.md": {
+      "sha256": "4afdb06eed0d464ac140708e393e4a5303476c62e7a95889746fcb5282b90d52",
+      "bytes": 13302
+    },
+    "WALKTHROUGH.zh-CN.md": {
+      "sha256": "931756ecb068cb5df8a0b1a42417a284d1e2b1d755cc2c03f74381ae8bf591e4",
+      "bytes": 7090
+    },
+    "independent-review/review_model.py": {
+      "sha256": "9a327f6e24eb0a91e48d814dcccc7e9278f14bf2e18a4657d05d774bf5ad80c4",
+      "bytes": 16836
+    },
+    "independent-review/mutation_review.py": {
+      "sha256": "9d21fc0a6dfcb2a298c2445392164e5191cac33c60b35574e7edc56c1e05f34d",
+      "bytes": 8436
+    },
+    "independent-review/review.zh-CN.md": {
+      "sha256": "d11b3c13d3ba73da1078dadce5c5d002e15b05cae427134902754d6bdcbc1483",
+      "bytes": 10680
+    },
+    "independent-review/logs/O.json": {
+      "sha256": "66c3aacc50be302349be35fcf9f0b7fbcb5e1ede89dcdd4e6fca047ebdc49f57",
+      "bytes": 965
+    },
+    "independent-review/logs/OO.json": {
+      "sha256": "39c7f0bb7dd30beb9f038c6ba6e8302d105554e394ed101e4044a49ce5892b77",
+      "bytes": 965
+    },
+    "independent-review/logs/author-tests-O.log": {
+      "sha256": "65f5e53f0528f6a9b780fb2feeca50908756ebb9c53b929f96bf6bdb90c791e6",
+      "bytes": 3573
+    },
+    "independent-review/logs/author-tests-OO.log": {
+      "sha256": "7c5a32208d8e3aa961959667b2344116b807c147b9157957fd13d50e43216269",
+      "bytes": 3573
+    },
+    "independent-review/logs/author-tests-normal.log": {
+      "sha256": "24a40cec6318fcd55567edd90e4a2ec8ea909f3369041e3edb00282e5703ca87",
+      "bytes": 3573
+    },
+    "independent-review/logs/demo.json": {
+      "sha256": "366018078a7ab5ea5bab643d088bbf34f786ba3331498193e4f6ad016803f0fb",
+      "bytes": 6724
+    },
+    "independent-review/logs/mutations-O.json": {
+      "sha256": "cccdef134a5c9e5649170432bb9e0473c57b0d748ddaf27fd967641fb4a53097",
+      "bytes": 20337
+    },
+    "independent-review/logs/mutations-OO.json": {
+      "sha256": "3c83e38e5ee17f02e548908a3adf3d322d3d07bf80dd22c25970ccb9284b2a2b",
+      "bytes": 20337
+    },
+    "independent-review/logs/mutations-normal.json": {
+      "sha256": "91ed98a9687e8929c11d78b5f2d66d56b46fe94a4b684329a015e01c21944f82",
+      "bytes": 20337
+    },
+    "independent-review/logs/normal.json": {
+      "sha256": "521e8a312f3e610f2a7bd12601be16be201526077ad2c6c83f486c2265783a87",
+      "bytes": 965
+    }
+  }
+}

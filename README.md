@@ -25,6 +25,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.V精读](papers/1780/condillac-logic-part1-ch5.zh-CN.md) | AI认知前史：不可见原因、命名、关系测量与属性推论 | 深读v1 · 完整书籍章节49–53及两条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VI精读](papers/1780/condillac-logic-part1-ch6.zh-CN.md) | AI认知前史：习惯、行动解释与规范根据的边界 | 深读v1 · 完整书籍章节54–57及四条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VII精读](papers/1780/condillac-logic-part1-ch7.zh-CN.md) | AI认知前史：注意、比较、性质重组与隐含推理 | 深读v1 · 完整书籍章节58–66、九边注及一脚注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.VIII精读](papers/1780/condillac-logic-part1-ch8.zh-CN.md) | AI认知前史：需要、欲望、习惯性激情与意志判断 | 深读v1 · 完整书籍章节67–71、九边注及一组自引 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -347,3 +348,12 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 - [作者实际运行汇总](reproduction/condillac-1780-part1-ch7/results/run-summary.json) · [独立代码复核](reproduction/condillac-1780-part1-ch7/independent-review/review.zh-CN.md)
 
 本轮只完成1798《Œuvres》XXII第一部第七章印58–66九页，两册同版扫描全核，含九条边注、一条完整脚注及两组自引。1780仅作已核书目年，不认证该版文字或页码。脚注A包含与A被包含的方向差别保留；六种能力与九条摘要分开。22道练习均附答案。部分观察、重组与目录见证、正Horn闭包及证书为现代教学约定，普通与优化模式的实跑范围见附件；一般证明不由有限测试替代，代码不证明心理、感觉论或教学效果。第八章仅核边界，未完成全书、三个自引单位或洛克全章；全部旧候选、历史及版本缺口继续保留。
+
+## Condillac《逻辑学》I.VIII可运行附件
+
+- [需要、欲望与意志判断的中文精读](papers/1780/condillac-logic-part1-ch8.zh-CN.md)
+- [原文逐页、九边注与版本账本](papers/1780/condillac-logic-part1-ch8.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part1-ch8.audit.zh-CN.md)
+- [模型、环境、命令与日志](reproduction/condillac-1780-part1-ch8/README.md) · [逐步教学](reproduction/condillac-1780-part1-ch8/WALKTHROUGH.zh-CN.md)
+- [独立代码审计](reproduction/condillac-1780-part1-ch8/independent-review/review.zh-CN.md)
+
+实际1798卷XXII印67–71全五页、九条边注及70页一组自引/三个章位双扫描核图；无编号脚注，1780仅作一版书目年。客观缺少与剥夺之苦、习惯想象与亲历享受、潜在激情与当前欲望、期待与狭义/广义意志均分开。现代模型明示非空信念支持、实际情形与经验习惯输入；无阻碍到获得须另加桥梁，主观确信不保证真实成功。20道含答案练习、一般证明、标准库实跑和独立核验见附件；有限检查不证明心理、感觉论或全部意志能力。只完成该章，I.IX、全书、自引三章、Locke全章及全部旧版本/候选缺口继续保留。
