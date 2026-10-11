@@ -54,29 +54,43 @@
     "current_unit_notice_cvi": "旧scope字段及旧未读描述按原样保留；当前单位与各信完成范围以current_selection和effective_status最新对象为准。本次仅追加CVI，不关闭扫描、版本或全书缺口。",
     "current_unit_notice_cvii": "旧scope/候选/历史/缺口描述原样保留其历史语境；本次只追加CVII，当前完成以各信effective_status为准，不关闭CVIII或旧版本/全书缺口。",
     "current_unit_notice_cviii": "旧scope、候选、历史、缺口及有效状态对象原样保留历史语境；本次只追加CVIII，当前完成以各信effective_status为准，不关闭CIX或旧版本/全书缺口。",
-    "current_unit_notice_cix": "旧scope、候选、历史、缺口及有效状态对象原样保留历史语境；本次只追加CIX认知/表征书信章节。旧CIX未读描述以effective_status本次具体完成范围为准，不关闭CX、旧版本、全书或其他学科文献缺口。"
+    "current_unit_notice_cix": "旧scope、候选、历史、缺口及有效状态对象原样保留历史语境；本次只追加CIX认知/表征书信章节。旧CIX未读描述以effective_status本次具体完成范围为准，不关闭CX、旧版本、全书或其他学科文献缺口。",
+    "current_unit_notice_condillac_i1": "仅新增Condillac《逻辑学》第一部第一章，1780为书目年，1798第二十二卷5–15为实际逐页底本。保留全部旧scope字段、候选、历史、状态和缺口；旧Condillac局部背景不等于本轮完成全书，Euler CX题材筛选不计第二篇。"
   },
   "current_selection": {
-    "candidate_id": "euler-1768-letter-cix",
-    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CIX",
-    "publication_year": 1768,
-    "letter_date": "1761-03-10",
-    "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
-    "pages": "1768印144下部CIX标题–148署日，PDF165–169；1770同信149下–153署日",
-    "publication_scope": "1768 Saint-Pétersbourg完整五页可读；1770 Mietau et Leipsic同信全篇对校，非补代缺文。1770印149页首仍属CVIII，153页眉L.CX而署日前仍属CIX；按正文标题与署日划界。",
-    "why_selected": "先核远端空闲/CVIII完成、已刊目录和旧候选，再核CIX篇界。CIX明说此前已讲逻辑基础，转向感觉、记忆、再认、抽象与意志；按AI多方向思想前史纳入认知/表征单元，不强装成下一封三段论或作者算法。仅一信，不启动CX或全书。",
-    "mathematical_boundary": "保持不等于当前读出；访问受阻不等于全部历史差异消失。明确现代三状态反例、完整状态/同规则/同输入的归纳证明与四字段可执行扩展；有限实跑不证明人类心理、物质论、体验、自由意志或神义论。",
-    "completion": "完整单信原创中文精读、1768/1770逐图核读、有界正式更正核查、两类反模型与条件性证明、15道有答案练习、标准库实跑及独立来源/全篇论证/代码审计。远端发布和实际浏览器QA另核。",
-    "article_path": "papers/1768/euler-letter-cix.zh-CN.md",
-    "source_ledger_path": "papers/1768/euler-letter-cix.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1768/euler-letter-cix.audit.zh-CN.md",
-    "reproduction_path": "reproduction/euler-1768-cix/README.md",
-    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=165",
-    "comparison_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
-    "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
-    "status": "completed_original_with_full_comparison_letter_chapter",
-    "not_completed": "1768缺失目录叶、未具名唯物论者身份及前驱影响考证、全部异文/更正史、CX及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口；现代记忆科学与心理学实证并非本轮完成范围。",
-    "source_findings": "两版均印idées existent réellement；结合火灾例作对象当前实在性解释时明示解释层，不静默改为objets。原文承认脑变化、明说灵魂精神性与人的自由为诸恶唯一来源，完整保留并审查桥梁。已查范围未发现适用正式勘误。"
+    "candidate_id": "condillac-1780-logic-part1-ch1",
+    "authors": [
+      "Étienne Bonnot de Condillac"
+    ],
+    "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre premier",
+    "chapter_title": "Comment la nature donne les premières leçons de l’art de penser",
+    "publication_year": 1780,
+    "publication_year_basis": "作品的1780版书目年，BnF检索结果及CiNii独立书目；未取得可审阅1780初版章内图像，不认证其逐字文字或页码。",
+    "read_edition": {
+      "year": 1798,
+      "collection": "Œuvres de Condillac",
+      "volume": "XXII",
+      "publisher": "Paris, de l’imprimerie de Ch. Houel",
+      "title_page_date": "An VI — 1798",
+      "pages": "5–15",
+      "pdf_pages": "IA/Wellcome13–23；Google同版扫描补核书沟及疑字"
+    },
+    "document_type": "完整哲学与教学书籍章节，含边注及12–14页跨页脚注；非独立期刊论文，非全书",
+    "pages": "1798版第一部第一章5–15；16页第二章排除；原1780页码未核，不倒用1798页码",
+    "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
+    "why_selected": "远端CIX完成/空闲及既有目录核验后，先筛Euler CX148–152的神义论题材，不机械续读；回到已登记Condillac缺口，选学习、分辨、经验纠错这个完整单章。非穷尽时间线，不并行第二单位。",
+    "mathematical_boundary": "原文无数学公式或算法；候选筛选、观察不可区分性、可靠证据保留、最多n−1次严格区分查询为现代有条件教学重构。满意与正确性、无法检验与拒绝证据分别建模，不模拟灵魂、婴儿心理或习惯形成。",
+    "completion": "1798完整十一页、边注和跨页脚注读核；原创中文精读17题含答案、有界勘误查核、一般有条件证明、标准库实跑与独立来源/全篇论证/代码审计。远端发布与实际浏览器QA另核。",
+    "article_path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
+    "source_ledger_path": "papers/1780/condillac-logic-part1-ch1.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch1.audit.zh-CN.md",
+    "reproduction_path": "reproduction/condillac-1780-part1-ch1/README.md",
+    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=13",
+    "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+    "bibliographic_record": "https://ci.nii.ac.jp/ncid/BA19976385.amp?l=en",
+    "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+    "not_completed": "1780初版章内图像、原页码、全异文/全部更正史；1798后续章节及全书、自引历史读物及前驱影响；真实心理学/学习数据与模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。",
+    "source_findings": "1798原文5页章题无nous，223页目录有nous。两份同版扫描共同印appliquerons、confirmation、nous se savons；上下文拟校与原印、正式勘误分开。已查整卷OCR和首末/目录未发现适用勘误表，不断言所有版本无勘误。"
   },
   "earlier_gap_priority": [
     {
@@ -1198,6 +1212,41 @@
       "status": "completed_original_with_full_comparison_letter_chapter",
       "not_completed": "1768缺失目录叶、未具名唯物论者身份及前驱影响考证、全部异文/更正史、CX及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口；现代记忆科学与心理学实证并非本轮完成范围。",
       "source_findings": "两版均印idées existent réellement；结合火灾例作对象当前实在性解释时明示解释层，不静默改为objets。原文承认脑变化、明说灵魂精神性与人的自由为诸恶唯一来源，完整保留并审查桥梁。已查范围未发现适用正式勘误。"
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part1-ch1",
+      "authors": [
+        "Étienne Bonnot de Condillac"
+      ],
+      "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre premier",
+      "chapter_title": "Comment la nature donne les premières leçons de l’art de penser",
+      "publication_year": 1780,
+      "publication_year_basis": "作品的1780版书目年，BnF检索结果及CiNii独立书目；未取得可审阅1780初版章内图像，不认证其逐字文字或页码。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "5–15",
+        "pdf_pages": "IA/Wellcome13–23；Google同版扫描补核书沟及疑字"
+      },
+      "document_type": "完整哲学与教学书籍章节，含边注及12–14页跨页脚注；非独立期刊论文，非全书",
+      "pages": "1798版第一部第一章5–15；16页第二章排除；原1780页码未核，不倒用1798页码",
+      "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
+      "why_selected": "远端CIX完成/空闲及既有目录核验后，先筛Euler CX148–152的神义论题材，不机械续读；回到已登记Condillac缺口，选学习、分辨、经验纠错这个完整单章。非穷尽时间线，不并行第二单位。",
+      "mathematical_boundary": "原文无数学公式或算法；候选筛选、观察不可区分性、可靠证据保留、最多n−1次严格区分查询为现代有条件教学重构。满意与正确性、无法检验与拒绝证据分别建模，不模拟灵魂、婴儿心理或习惯形成。",
+      "completion": "1798完整十一页、边注和跨页脚注读核；原创中文精读17题含答案、有界勘误查核、一般有条件证明、标准库实跑与独立来源/全篇论证/代码审计。远端发布与实际浏览器QA另核。",
+      "article_path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
+      "source_ledger_path": "papers/1780/condillac-logic-part1-ch1.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch1.audit.zh-CN.md",
+      "reproduction_path": "reproduction/condillac-1780-part1-ch1/README.md",
+      "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=13",
+      "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+      "bibliographic_record": "https://ci.nii.ac.jp/ncid/BA19976385.amp?l=en",
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "not_completed": "1780初版章内图像、原页码、全异文/全部更正史；1798后续章节及全书、自引历史读物及前驱影响；真实心理学/学习数据与模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。",
+      "source_findings": "1798原文5页章题无nous，223页目录有nous。两份同版扫描共同印appliquerons、confirmation、nous se savons；上下文拟校与原印、正式勘误分开。已查整卷OCR和首末/目录未发现适用勘误表，不断言所有版本无勘误。"
     }
   ],
   "next_source_gap": {
@@ -2110,6 +2159,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1768/euler-letter-cix.zh-CN.md",
       "note": "仅CIX完整书信：1768印144下–148，署1761-03-10；1770印149下–153全篇对校。原文感觉、记忆、再认、印痕反驳、抽象、自由及恶的结尾全部读核；现代反模型与条件性证明不裁决形而上学。28项主测试、7例24步、29状态261对及独立整数oracle实跑。全部旧候选、历史、有效状态、scope与缺口保留；远端与浏览器QA另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "condillac-1780-logic-part1-ch1",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
+      "note": "仅1798版I.I印5–15完整章节、边注与12–14长脚注。1780书目年与实际1798版区分；两扫描核三处印字疑点及目录异文。17道有答案练习；现代有限模型11主测试/37非法输入子例，340模型/18780历史/42568转换；独立来源、论证和代码审计。所有旧对象、历史、状态和缺口保留；远端及浏览器QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2342,6 +2398,24 @@
       "pages": "1768印144下部CIX标题–148署日，PDF165–169；1770同信149下–153署日",
       "publication_scope": "1768 Saint-Pétersbourg完整五页可读；1770 Mietau et Leipsic同信全篇对校，非补代缺文。1770印149页首仍属CVIII，153页眉L.CX而署日前仍属CIX；按正文标题与署日划界。",
       "not_completed": "1768缺失目录叶、未具名唯物论者身份及前驱影响考证、全部异文/更正史、CX及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口；现代记忆科学与心理学实证并非本轮完成范围。"
+    },
+    "condillac-1780-logic-part1-ch1": {
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "publication_year": 1780,
+      "publication_year_basis": "作品的1780版书目年，BnF检索结果及CiNii独立书目；未取得可审阅1780初版章内图像，不认证其逐字文字或页码。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "5–15",
+        "pdf_pages": "IA/Wellcome13–23；Google同版扫描补核书沟及疑字"
+      },
+      "article_path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
+      "pages": "1798版第一部第一章5–15；16页第二章排除；原1780页码未核，不倒用1798页码",
+      "publication_scope": "1798正文为实际底本；两份同版扫描不是两版对校。1780书目年与1798实际文字严格区分。",
+      "not_completed": "1780初版章内图像、原页码、全异文/全部更正史；1798后续章节及全书、自引历史读物及前驱影响；真实心理学/学习数据与模型扩展；所有旧候选、书籍、Curry/Church、Euler扫描及版本缺口保留。CX只筛题材，不算完成。"
     }
   }
 }

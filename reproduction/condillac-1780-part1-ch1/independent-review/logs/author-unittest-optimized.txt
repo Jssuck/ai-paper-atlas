@@ -1,0 +1,16 @@
+test_contradiction_is_rejected_without_mutation (test_model.ModelTests.test_contradiction_is_rejected_without_mutation) ... ok
+test_dataclasses_are_frozen (test_model.ModelTests.test_dataclasses_are_frozen) ... ok
+test_distinguishing_and_repeated_query (test_model.ModelTests.test_distinguishing_and_repeated_query) ... ok
+test_empty_history_is_full_domain (test_model.ModelTests.test_empty_history_is_full_domain) ... ok
+test_false_consistent_input_can_mislead (test_model.ModelTests.test_false_consistent_input_can_mislead) ... ok
+test_feedback_retains_truth_and_history (test_model.ModelTests.test_feedback_retains_truth_and_history) ... ok
+test_indistinguishable_worlds_survive (test_model.ModelTests.test_indistinguishable_worlds_survive) ... ok
+test_refusal_preserves_identity (test_model.ModelTests.test_refusal_preserves_identity) ... ok
+test_satisfaction_all_four_combinations (test_model.ModelTests.test_satisfaction_all_four_combinations) ... ok
+test_types_and_domains_are_rejected (test_model.ModelTests.test_types_and_domains_are_rejected) ... ok
+test_zero_queries_and_singleton_domain (test_model.ModelTests.test_zero_queries_and_singleton_domain) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.002s
+
+OK

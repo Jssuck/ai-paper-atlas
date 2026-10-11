@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "reading_id": "condillac-1780-logic-part1-ch1",
+  "checked_at_utc": "2026-10-11T13:48:48.621056+00:00",
+  "bibliographic_edition_year": 1780,
+  "actual_witness_edition_year": 1798,
+  "unit": {
+    "part": 1,
+    "chapter": 1,
+    "printed_page_start": 5,
+    "printed_page_end": 15,
+    "next_chapter_printed_page": 16
+  },
+  "original_1780_pixels_verified": false,
+  "scans_redistributed": false,
+  "witnesses": [
+    {
+      "witness_id": "wellcome-ia-1798",
+      "public_basename": "b28772581_0022.pdf",
+      "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf",
+      "catalogue_url": "https://archive.org/details/b28772581_0022",
+      "metadata_url": "https://archive.org/metadata/b28772581_0022",
+      "holding_institution": "Wellcome Library",
+      "pdf_pages": 244,
+      "printed_to_pdf_offset": 8,
+      "title_pdf_page": 7,
+      "chapter_pdf_pages": [
+        13,
+        23
+      ],
+      "checked_pixel_pages": [
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        231,
+        240,
+        241,
+        242,
+        243,
+        244
+      ],
+      "provenance_note": "Title-page pixels and Internet Archive metadata independently identify Paris, Ch. Houel, an VI–1798, volume XXII. Metadata notes gutter cropping at leaf 20 and 89; these are not treated as 1-based PDF page numbers.",
+      "bytes": 8442845,
+      "sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529"
+    },
+    {
+      "witness_id": "google-complutense-1798",
+      "public_basename": null,
+      "source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+      "embedded_source_uri": "http://google.it/books?id=tdSdMhj8gcwC",
+      "holding_institution": "Complutense University of Madrid",
+      "pdf_pages": 246,
+      "printed_to_pdf_offset": 10,
+      "title_pdf_page": 9,
+      "chapter_pdf_pages": [
+        15,
+        25
+      ],
+      "checked_pixel_pages": [
+        9,
+        14,
+        18,
+        22,
+        23,
+        24,
+        25
+      ],
+      "provenance_note": "The exact Google Books ID occurs in two URI annotations in the reviewed PDF. A public unauthenticated GET of the linked Google Books record returned HTTP 200 on 2026-10-11 and matched the title, author, publisher Houel an VI, year 1798, 231 printed pages, and original holding institution. No fresh PDF download or account sign-in was used.",
+      "bytes": 8054092,
+      "sha256": "5d201b82bd64174ce74bbbcf39b2a152c0b574e7e569b3141281fc03e94a9a1e"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "author_source_fingerprints_match": {
+    "exhaustive.py": true,
+    "model.py": true,
+    "test_model.py": true,
+    "verify.py": true,
+    "walkthrough.py": true,
+    "README.md": true,
+    "WALKTHROUGH.zh-CN.md": true
+  },
+  "author_output_fingerprints_match": {
+    "logs/walkthrough.txt": true,
+    "logs/unit-tests.txt": true,
+    "logs/exhaustive.json": true,
+    "logs/exhaustive-optimized.json": true
+  },
+  "author_ast_assert_counts": {
+    "walkthrough.py": 0,
+    "model.py": 0,
+    "test_model.py": 0,
+    "verify.py": 0,
+    "exhaustive.py": 0
+  },
+  "audit_sources_compile": [
+    "check_counts_and_mutations.py",
+    "independent_oracle.py",
+    "run_review.py",
+    "test_robustness.py"
+  ]
+}

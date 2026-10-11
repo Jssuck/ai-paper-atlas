@@ -1,0 +1,6 @@
+walkthrough.txt: exit 0
+unit-tests.txt: exit 0
+exhaustive.json: exit 0
+exhaustive-optimized.json: exit 0
+normal and optimized oracle outputs equal: True
+overall: PASS; details: logs/verification.json

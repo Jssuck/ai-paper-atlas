@@ -18,6 +18,7 @@
 | 1768（原信署1761-03-03） | [Euler第CVII信精读](papers/1768/euler-letter-cvii.zh-CN.md) | AI前史：必要条件、单称命题与共同见证 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1768（原信署1761-03-07） | [Euler第CVIII信精读](papers/1768/euler-letter-cviii.zh-CN.md) | AI前史：条件推理的方向、覆盖与互斥 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
 | 1768（原信署1761-03-10） | [Euler第CIX信精读](papers/1768/euler-letter-cix.zh-CN.md) | AI认知前史：保持、回想、再认与心灵论证的边界 | 深读v1 · 完整书信章节；1768原文及1770全篇对校 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.I精读](papers/1780/condillac-logic-part1-ch1.zh-CN.md) | AI认知前史：分辨、经验纠错与满意信号的边界 | 深读v1 · 完整书籍章节5–15及跨页脚注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -267,3 +268,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成CIX书信章节：1768印144下–148署日，署1761-03-10；非期刊论文。完整五页原文可读，1770同信149下–153全篇对校；两版idées existent réellement原印措辞与对象当前实在性的上下文解释分开。未发现指定材料中适用的正式勘误。
 
 本信由逻辑转向认知与心灵哲学：感觉、保持、回想、遗忘/再认、脑变化与印痕反驳、抽象、自由及恶的结尾全部读核，15题附答案。三状态反例与完整状态不可区分证明明确属于现代重构；可执行扩展实际检查29个可达状态、9操作、261对（235合法、26预期拒绝），28项主测试和7例24步通过，另有独立整数oracle与故障检出复核。无Notebook或Jupyter核验声称。有限程序不证明人类记忆规律、物质主义、体验或自由意志，也不宣定AI历史起点。全部旧README、候选、历史、状态、书籍/扫描/版本缺口保留；CX、整卷与全书未完成。
+
+
+## Condillac逻辑学第一部第一章可运行附件
+
+- [有限观察与证据筛选的现代教学模型](reproduction/condillac-1780-part1-ch1/README.md) · [中文逐步走查](reproduction/condillac-1780-part1-ch1/WALKTHROUGH.zh-CN.md)
+- [逐页来源与版本校读](papers/1780/condillac-logic-part1-ch1.sources.zh-CN.md) · [独立全篇论证审计](papers/1780/condillac-logic-part1-ch1.audit.zh-CN.md)
+- [11项主测试日志](reproduction/condillac-1780-part1-ch1/logs/unit-tests.txt) · [有界穷举实跑](reproduction/condillac-1780-part1-ch1/logs/exhaustive.json) · [独立代码复核](reproduction/condillac-1780-part1-ch1/independent-review/review.zh-CN.md)
+
+仅完成《逻辑学》第一部第一章：1780为所核版本书目年，本次实际读1798全集第二十二卷5–15全十一页、边注及12–14跨页脚注。IA/Wellcome为主，Google同版扫描补核书沟及疑字；不声称读到1780逐字初版。三处印字appliquerons、confirmation、nous se savons和正文/目录标题异文保留；解释性拟校不冒作正式勘误。
+
+全章感觉、灵魂与偶因、需要/组织、造物者保证、乳母分辨、苦乐反馈失效、空词/成见、练习与15页方法限界均读核，17题附答案。现代有限模型有明确假设与一般证明；11个主测试方法含37非法输入子例，五段走查，以及340模型、18780历史、42568转换实跑；其中20256次区分查询严格缩小候选。计数包含重复前缀，不相加充作独立实验。另有独立代码审计。无婴儿数据、历史算法、习惯训练或Jupyter执行声称，有限程序不证明作者全部心理学和哲学命题。Euler CX只作题材筛选，未计第二篇；全书、初版异文与全部旧候选/书籍/版本缺口继续开放。

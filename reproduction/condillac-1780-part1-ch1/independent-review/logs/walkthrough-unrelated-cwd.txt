@@ -1,0 +1,37 @@
+MODERN STIPULATED MODEL; not Condillac's algorithm or empirical psychology.
+1. Hasty guess and correcting observation (invented scene).
+initial: candidates=('nurse', 'lookalike', 'visitor'), recognized=None
+  retained=()
+distant: candidates=('nurse', 'lookalike'), recognized=None
+  retained=(('distant_view', 'familiar'),)
+guess=nurse, correct=False, satisfied=True
+The guess is not accepted evidence; the two candidates are retained.
+closer_view distinguishes=True
+closer: candidates=('lookalike',), recognized=lookalike
+  retained=(('distant_view', 'familiar'), ('closer_view', 'face_B'))
+original state unchanged=True
+
+2. Refusal blocks this otherwise available correction.
+refused: candidates=('nurse', 'lookalike'), recognized=None
+  retained=(('distant_view', 'familiar'),)
+same state=True
+Refusal is stipulated by accept=False; no psychology is inferred.
+
+3. Available observations cannot separate every pair.
+after repeated queries: candidates=('A', 'B'), recognized=None
+  retained=(('shape', 'round'), ('sound', 'soft'), ('shape', 'round'), ('sound', 'soft'))
+full signature fiber(A)=('A', 'B')
+
+4. Satisfaction is supplied independently of correctness.
+guess=nurse, correct=False, satisfied=False
+guess=nurse, correct=False, satisfied=True
+guess=lookalike, correct=True, satisfied=False
+guess=lookalike, correct=True, satisfied=True
+This counterexample refutes only a proposed universal implication
+within our stipulated model; it measures no real person's feelings.
+
+5. Practice as repeated execution, without a skill-acquisition claim.
+case=nurse, recognized=nurse, observations=2
+case=lookalike, recognized=lookalike, observations=2
+case=visitor, recognized=visitor, observations=2
+No training, speed-up, historical experiment, or empirical result is claimed.

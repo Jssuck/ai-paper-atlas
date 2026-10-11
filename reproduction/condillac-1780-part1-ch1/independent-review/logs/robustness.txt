@@ -1,0 +1,15 @@
+test_adaptive_progress_bound (__main__.Robustness.test_adaptive_progress_bound) ... ok
+test_deep_state_has_only_immutable_values (__main__.Robustness.test_deep_state_has_only_immutable_values) ... ok
+test_duplicate_evidence_order_and_hash (__main__.Robustness.test_duplicate_evidence_order_and_hash) ... ok
+test_false_but_consistent_is_not_truth_verification (__main__.Robustness.test_false_but_consistent_is_not_truth_verification) ... ok
+test_full_fiber_is_not_current_knowledge (__main__.Robustness.test_full_fiber_is_not_current_knowledge) ... ok
+test_invalid_method_labels_and_flags (__main__.Robustness.test_invalid_method_labels_and_flags) ... ok
+test_mutable_and_subclass_inputs_rejected (__main__.Robustness.test_mutable_and_subclass_inputs_rejected) ... ok
+test_refusing_one_query_does_not_preclude_other_correction (__main__.Robustness.test_refusing_one_query_does_not_preclude_other_correction) ... ok
+test_signatures_do_not_expose_truth_to_observe (__main__.Robustness.test_signatures_do_not_expose_truth_to_observe) ... ok
+test_unicode_and_exact_labels (__main__.Robustness.test_unicode_and_exact_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.013s
+
+OK

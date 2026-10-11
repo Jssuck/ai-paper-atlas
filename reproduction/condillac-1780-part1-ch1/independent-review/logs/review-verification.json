@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-11T13:50:43.022761+00:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "network_used": false
+  },
+  "author_sources_unchanged_during_run": true,
+  "path_note": "Package paths are recorded relative to the release root; the isolated CLI copy is labeled <temporary-copy>. Commands actually received resolved absolute script paths when invoked from /tmp.",
+  "normal_optimized_json_equal": {
+    "author-exhaustive": true,
+    "independent-oracle": true,
+    "counts-mutations": true
+  },
+  "subprocesses": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "cwd": "reproduction/condillac-1780-part1-ch1",
+      "started_at_utc": "2026-10-11T13:49:32.762200+00:00",
+      "exit_code": 0,
+      "log": "logs/author-unittest.txt",
+      "sha256": "f039693fbad086a8fc1df773f83526fa09167c46187066502509d6df56ce87d2"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "reproduction/condillac-1780-part1-ch1/exhaustive.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:49:32.937360+00:00",
+      "exit_code": 0,
+      "log": "logs/author-exhaustive.json",
+      "sha256": "15d78adc7388de57150db754e3b45c4bdaa8b0dafee09c82c5d6497b2d34244b"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "reproduction/condillac-1780-part1-ch1/independent-review/test_robustness.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:49:35.084834+00:00",
+      "exit_code": 0,
+      "log": "logs/robustness.txt",
+      "sha256": "d2670b356be5af94677a9ae3f239f917a15754e86f451fcfa563395550d065ac"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "reproduction/condillac-1780-part1-ch1/independent-review/independent_oracle.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:49:35.490465+00:00",
+      "exit_code": 0,
+      "log": "logs/independent-oracle.json",
+      "sha256": "a2bedcd235153d1ef7b18a08e707dd68b9c47b729f7efc5d6570a3cbc9ec56de"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "reproduction/condillac-1780-part1-ch1/independent-review/check_counts_and_mutations.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:06.208291+00:00",
+      "exit_code": 0,
+      "log": "logs/counts-mutations.json",
+      "sha256": "ca25cad0f19a0b60effc285c1932663fdb7ac387fc37cc4f5d17618fbdc2edd0"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "cwd": "reproduction/condillac-1780-part1-ch1",
+      "started_at_utc": "2026-10-11T13:50:06.458493+00:00",
+      "exit_code": 0,
+      "log": "logs/author-unittest-optimized.txt",
+      "sha256": "e75f9138559b059b9e0c03149e5eab982509e68c4550654b4a4d3a73b4ee7539"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "reproduction/condillac-1780-part1-ch1/exhaustive.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:07.028886+00:00",
+      "exit_code": 0,
+      "log": "logs/author-exhaustive-optimized.json",
+      "sha256": "15d78adc7388de57150db754e3b45c4bdaa8b0dafee09c82c5d6497b2d34244b"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "reproduction/condillac-1780-part1-ch1/independent-review/test_robustness.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:12.069850+00:00",
+      "exit_code": 0,
+      "log": "logs/robustness-optimized.txt",
+      "sha256": "5431fcda260e0673c9811d36d50dcd8a303e915e033f56ca94f47c6555cc2d3d"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "reproduction/condillac-1780-part1-ch1/independent-review/independent_oracle.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:13.629907+00:00",
+      "exit_code": 0,
+      "log": "logs/independent-oracle-optimized.json",
+      "sha256": "a2bedcd235153d1ef7b18a08e707dd68b9c47b729f7efc5d6570a3cbc9ec56de"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "reproduction/condillac-1780-part1-ch1/independent-review/check_counts_and_mutations.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:37.572781+00:00",
+      "exit_code": 0,
+      "log": "logs/counts-mutations-optimized.json",
+      "sha256": "ca25cad0f19a0b60effc285c1932663fdb7ac387fc37cc4f5d17618fbdc2edd0"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "reproduction/condillac-1780-part1-ch1/walkthrough.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:38.064122+00:00",
+      "exit_code": 0,
+      "log": "logs/walkthrough-unrelated-cwd.txt",
+      "sha256": "3cece043f1dfe55d8493d84ec023a9001f8c512916180ddb76e5224c070f68fa"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<temporary-copy>/verify.py"
+      ],
+      "cwd": "/tmp",
+      "started_at_utc": "2026-10-11T13:50:38.200520+00:00",
+      "exit_code": 0,
+      "log": "logs/verify-unrelated-cwd.txt",
+      "sha256": "a0c98121958405c99abc34c6d9be2b525fbf3dcda7b38e9164f58c834fcf8ec5"
+    }
+  ],
+  "audited_source_sha256": {
+    "reproduction/condillac-1780-part1-ch1/exhaustive.py": "c827c2dc0661bff8edcb10ff99875de034d7a743172a9c30a001b3ac62ae0dde",
+    "reproduction/condillac-1780-part1-ch1/model.py": "f0149ff0f27357ae06e0a12aa16ea560ac1c8a7bba650e257f26a41459d4251f",
+    "reproduction/condillac-1780-part1-ch1/test_model.py": "f6cf190d8e8b2fd82a2eeffb89c83935d1ea7dd151cc1a9e89700b93348fd7fe",
+    "reproduction/condillac-1780-part1-ch1/verify.py": "3e31ac1fefc2406c7493dd27948d50ea091dc5fb58475c77a0e7fdc478155f3c",
+    "reproduction/condillac-1780-part1-ch1/walkthrough.py": "00ab4ae979b48e62e99b6e0dd3386162c5f3f33cacfc89dbd7cefbc549cc1adf",
+    "reproduction/condillac-1780-part1-ch1/README.md": "dfd68fb1ffaae36e5d960385ba8cdeed65f3bcde936856c3bcd8ee98f866854c",
+    "reproduction/condillac-1780-part1-ch1/WALKTHROUGH.zh-CN.md": "be9e63e1946e7c20adccffc8695e6059fa81ee29efc58ae3a257f1cd7734f591",
+    "papers/1780/condillac-logic-part1-ch1.zh-CN.md": "87e999a1944309a7c5a222ca075a91cfb387913d33fc6e71a0eaa7bbccca24e9"
+  },
+  "review_code_sha256": {
+    "check_counts_and_mutations.py": "39f3e210211faf2bed082aa4fb484b171f612a5422272c6271a39de29ae5e796",
+    "independent_oracle.py": "5d257aab82944ea75ba444ab707366a109740b8ddc78ef6e316e25ef80ac9c78",
+    "run_review.py": "377f140127f569ffaa56e9e6b3c073cc295cc89cd07f91fdf7416e907bc92712",
+    "test_robustness.py": "c55dbcd13a010afc17e3e3e60999025e38ee2d47277c1ed782b5cae9fa62eb78"
+  }
+}

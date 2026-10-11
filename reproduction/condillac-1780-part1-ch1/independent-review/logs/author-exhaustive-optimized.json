@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "bounds": {
+    "world_count": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "binary_queries": 2,
+    "maximum_history_length": 3
+  },
+  "counts": {
+    "models": 340,
+    "true_world_cases": 1252,
+    "histories": 18780,
+    "accepted_transitions": 42568,
+    "distinguishing_transitions": 20256,
+    "refusal_checks": 42568,
+    "full_fiber_checks": 1252,
+    "indistinguishable_pair_history_checks": 13080
+  }
+}

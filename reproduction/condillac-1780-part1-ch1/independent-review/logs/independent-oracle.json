@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "oracle": "world-major integer bit masks",
+  "maximum_arbitrary_history_length": 3,
+  "counts": {
+    "accepted_extensions": 184844,
+    "accepted_histories": 61128,
+    "arbitrary_extension_checks": 343752,
+    "arbitrary_histories": 181720,
+    "inconsistent_histories_rejected": 67908,
+    "models": 967,
+    "order_invariance_checks": 61128,
+    "out_of_range_histories_rejected": 52684,
+    "signature_and_fiber_checks": 3036,
+    "truthful_and_refusal_extensions": 238608
+  }
+}

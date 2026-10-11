@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "condillac-1780-logic-part1-ch1",
     "path": "papers/1780/condillac-logic-part1-ch1.zh-CN.md",
-    "stage": "researching",
-    "scope": "Condillac La Logique,Part I chapter I;1798 collected edition volumeXXII pp5–15 verified.Confirm1780 original-publication bibliography and explicitly distinguish editions;not whole book."
+    "stage": "verifying_publication",
+    "scope": "Condillac La Logique I.I,1798 collected edition XXII pp5–15 actually read;1780 edition verified bibliographically,not initial-edition wording or priority."
   },
   "last_completed": {
     "id": "euler-1768-letter-cix",
@@ -15,14 +15,14 @@
     "checks": "Independent source,whole-argument and code audits passed;28tests,7traces/24steps,29states/261pairs,217negative/immutability checks,7mutation variants and13CLI probes.53remote text/blob identities verified.209formulas,nine new tables,eight Markdown pages and166 repository destinations checked;Pacific and Internet Archive opened,e-rara live source recheck limited by browser challenge.",
     "scope": "Complete CIX,1768 pp144–148,dated10March1761;1770 pp149–153 complete comparison.Original ideas/objects ambiguity retained;modern memory countermodels are stipulated teaching models,not Euler algorithms or empirical proof about consciousness.15answered exercises."
   },
-  "updated_at": "2026-10-11T13:35:20Z",
+  "updated_at": "2026-10-11T13:55:40Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify original-publication date,read complete chapter and source context,independently audit argument and carefully bounded teaching reconstruction.",
+  "next_action": "Verify remote contents and actual GitHub formulas,tables,links after completed source,argument and code audits.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

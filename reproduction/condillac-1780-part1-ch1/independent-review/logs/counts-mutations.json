@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "author_counts_independently_confirmed": {
+    "models": 340,
+    "true_world_cases": 1252,
+    "histories": 18780,
+    "accepted_transitions": 42568,
+    "distinguishing_transitions": 20256,
+    "refusal_checks": 42568,
+    "full_fiber_checks": 1252,
+    "indistinguishable_pair_history_checks": 13080
+  },
+  "synthetic_mutations_detected": {
+    "omit_filtering": "extension intersection",
+    "ignore_refusal": "refusal identity",
+    "recognize_ambiguous": "recognition must be exactly singleton",
+    "never_distinguish": "distinguishing query classification",
+    "forget_history": "append changed prefix"
+  }
+}
