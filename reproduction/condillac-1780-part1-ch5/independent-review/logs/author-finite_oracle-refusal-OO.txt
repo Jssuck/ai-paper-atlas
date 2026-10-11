@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "./independent-review/review-source-u5jaggxb/finite_oracle.py", line 53, in <module>
+    print(json.dumps(run(), indent=2))
+                     ^^^^^
+  File "./independent-review/review-source-u5jaggxb/finite_oracle.py", line 17, in run
+    raise RuntimeError("Do not use -O: this oracle requires assertions")
+RuntimeError: Do not use -O: this oracle requires assertions

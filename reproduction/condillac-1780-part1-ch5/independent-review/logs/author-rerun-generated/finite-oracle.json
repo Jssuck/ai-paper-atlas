@@ -1,0 +1,31 @@
+{
+  "state_counts": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "observation_alphabet": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "boolean_queries_checked": 4681,
+  "current_answers_checked": 23405,
+  "observation_extensions_checked": 4681,
+  "result": "PASS"
+}

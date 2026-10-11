@@ -1,0 +1,4 @@
+demo: PASS (0.156s)
+unit-tests: PASS (0.387s)
+finite-oracle: PASS (0.651s)
+mutations: PASS (2.520s)

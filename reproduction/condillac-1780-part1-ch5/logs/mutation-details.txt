@@ -1,0 +1,495 @@
+BASELINE
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.003s
+
+OK
+
+
+MUTANT any_answer_means_identified
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... FAIL
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... FAIL
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... FAIL
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... FAIL
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... FAIL
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-0qqsg5x7/tests/test_model.py", line 48, in test_added_probe_identifies_attribute_not_count
+    self.assertEqual(new.answer((1, 7), self.q["number_of_causes"]).status, "ambiguous")
+AssertionError: 'identified' != 'ambiguous'
+- identified
++ ambiguous
+
+
+======================================================================
+FAIL: test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-0qqsg5x7/tests/test_model.py", line 16, in test_existence_does_not_identify_count_identity_or_attribute
+    self.assertEqual(self.model.answer((1,), self.q[query]).status, "ambiguous")
+AssertionError: 'identified' != 'ambiguous'
+- identified
++ ambiguous
+
+
+======================================================================
+FAIL: test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-0qqsg5x7/tests/test_model.py", line 25, in test_global_differs_from_at_observation
+    self.assertFalse(self.model.globally_identifiable(self.q["cause_identity"]))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-0qqsg5x7/tests/test_model.py", line 65, in test_relaxing_causal_premise_loses_existence_identification
+    self.assertEqual(wide.answer((1,), {"caused": True, "uncaused": False}).status, "ambiguous")
+AssertionError: 'identified' != 'ambiguous'
+- identified
++ ambiguous
+
+
+======================================================================
+FAIL: test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-0qqsg5x7/tests/test_model.py", line 70, in test_zero_columns_all_states_equivalent
+    self.assertEqual(model.answer((), {"x": 1, "y": 2}).status, "ambiguous")
+AssertionError: 'identified' != 'ambiguous'
+- identified
++ ambiguous
+
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.013s
+
+FAILED (failures=5)
+
+
+MUTANT empty_fiber_means_identified
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... FAIL
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... FAIL
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-2yst7e3p/tests/test_model.py", line 61, in test_empty_assumption_has_no_current_answer
+    self.assertEqual(new.answer((1,), {}).status, "inconsistent")
+AssertionError: 'identified' != 'inconsistent'
+- identified
++ inconsistent
+
+
+======================================================================
+FAIL: test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-2yst7e3p/tests/test_model.py", line 21, in test_no_vacuous_answer
+    self.assertEqual((result.status, result.candidates, result.values), ("inconsistent", (), ()))
+AssertionError: Tuples differ: ('identified', (), ()) != ('inconsistent', (), ())
+
+First differing element 0:
+'identified'
+'inconsistent'
+
+- ('identified', (), ())
++ ('inconsistent', (), ())
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.005s
+
+FAILED (failures=2)
+
+
+MUTANT names_become_observations
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... FAIL
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... FAIL
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-zmbvzkqm/tests/test_model.py", line 30, in test_naming_is_not_observing_even_unique_names
+    self.assertEqual(named.fibers(), self.model.fibers())
+AssertionError: Tuples differ: (('none',), ('A',), ('B',), ('A+B',)) != (('none',), ('A', 'B', 'A+B'))
+
+First differing element 1:
+('A',)
+('A', 'B', 'A+B')
+
+First tuple contains 2 additional elements.
+First extra element 2:
+('B',)
+
+- (('none',), ('A',), ('B',), ('A+B',))
+?                  ^^^^    ^^^^     -
+
++ (('none',), ('A', 'B', 'A+B'))
+?                  ^    ^
+
+
+======================================================================
+FAIL: test_demo_contract (test_model.RatioTests.test_demo_contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-zmbvzkqm/tests/test_model.py", line 160, in test_demo_contract
+    self.assertTrue(data["finite"]["labels_preserve_fibers"])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.005s
+
+FAILED (failures=2)
+
+
+MUTANT new_probe_erases_old_data
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... FAIL
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-79oautyf/tests/test_model.py", line 46, in test_added_probe_identifies_attribute_not_count
+    self.assertEqual(new.candidates((1, 7)), ("A", "A+B"))
+AssertionError: Tuples differ: () != ('A', 'A+B')
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+'A'
+
+- ()
++ ('A', 'A+B')
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.010s
+
+FAILED (failures=1)
+
+
+MUTANT ignore_known_gain
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... FAIL
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-dhl8sht2/tests/test_model.py", line 114, in test_gain_cannot_be_silently_assumed_one
+    self.assertEqual(calibrated_coefficient((1, 2), (6, 12), 2), F(3))
+AssertionError: Fraction(6, 1) != Fraction(3, 1)
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.004s
+
+FAILED (failures=1)
+
+
+MUTANT break_parameter_symmetry
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... FAIL
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... FAIL
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_demo_contract (test_model.RatioTests.test_demo_contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-nnw_fsow/tests/test_model.py", line 161, in test_demo_contract
+    self.assertTrue(data["ratios"]["all_pairs_match"])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-nnw_fsow/tests/test_model.py", line 120, in test_gauge_symmetry
+    self.assertEqual(k * g, F(6))
+AssertionError: Fraction(6, 49) != Fraction(6, 1)
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.007s
+
+FAILED (failures=2)
+
+
+MUTANT zero_inputs_identify_product
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... FAIL
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... FAIL
+
+======================================================================
+FAIL: test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-ku7w1u4c/tests/test_model.py", line 155, in test_relative_coefficient_rejects_unidentified_products
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-ku7w1u4c/tests/test_model.py", line 125, in test_zero_only_is_uninformative
+    self.assertEqual(infer_product((0, 0), (0, 0)).status, "uninformative")
+AssertionError: 'identified' != 'uninformative'
+- identified
++ uninformative
+
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.004s
+
+FAILED (failures=2)
+
+
+MUTANT ignore_conflicting_measurements
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... FAIL
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... ok
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_inconsistent_data (test_model.RatioTests.test_inconsistent_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-mh2f7fth/tests/test_model.py", line 132, in test_inconsistent_data
+    self.assertEqual(infer_product(inputs, outputs).status, "inconsistent")
+AssertionError: 'identified' != 'inconsistent'
+- identified
++ inconsistent
+
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.006s
+
+FAILED (failures=1)
+
+
+MUTANT invert_relative_measurement
+test_added_probe_identifies_attribute_not_count (test_model.FiniteTests.test_added_probe_identifies_attribute_not_count) ... ok
+test_assumption_filters_without_observation (test_model.FiniteTests.test_assumption_filters_without_observation) ... ok
+test_derived_coordinate_gives_no_new_discrimination (test_model.FiniteTests.test_derived_coordinate_gives_no_new_discrimination) ... ok
+test_empty_assumption_has_no_current_answer (test_model.FiniteTests.test_empty_assumption_has_no_current_answer) ... ok
+test_existence_does_not_identify_count_identity_or_attribute (test_model.FiniteTests.test_existence_does_not_identify_count_identity_or_attribute) ... ok
+test_global_differs_from_at_observation (test_model.FiniteTests.test_global_differs_from_at_observation) ... ok
+test_naming_is_not_observing_even_unique_names (test_model.FiniteTests.test_naming_is_not_observing_even_unique_names) ... ok
+test_no_vacuous_answer (test_model.FiniteTests.test_no_vacuous_answer) ... ok
+test_refinement_is_independent_of_row_order (test_model.FiniteTests.test_refinement_is_independent_of_row_order) ... ok
+test_reject_bad_signatures_and_duplicate_identifiers (test_model.FiniteTests.test_reject_bad_signatures_and_duplicate_identifiers) ... ok
+test_reject_mismatched_domains (test_model.FiniteTests.test_reject_mismatched_domains) ... ok
+test_relaxing_causal_premise_loses_existence_identification (test_model.FiniteTests.test_relaxing_causal_premise_loses_existence_identification) ... ok
+test_zero_columns_all_states_equivalent (test_model.FiniteTests.test_zero_columns_all_states_equivalent) ... ok
+test_bad_shapes_and_nonpositive_parameters (test_model.RatioTests.test_bad_shapes_and_nonpositive_parameters) ... ok
+test_demo_contract (test_model.RatioTests.test_demo_contract) ... ok
+test_exact_decimal_fraction (test_model.RatioTests.test_exact_decimal_fraction) ... ok
+test_gain_cannot_be_silently_assumed_one (test_model.RatioTests.test_gain_cannot_be_silently_assumed_one) ... ok
+test_gauge_symmetry (test_model.RatioTests.test_gauge_symmetry) ... ok
+test_inconsistent_data (test_model.RatioTests.test_inconsistent_data) ... ok
+test_product_from_multiple_measurements (test_model.RatioTests.test_product_from_multiple_measurements) ... ok
+test_relative_coefficient_rejects_unidentified_products (test_model.RatioTests.test_relative_coefficient_rejects_unidentified_products) ... ok
+test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain) ... FAIL
+test_zero_only_is_uninformative (test_model.RatioTests.test_zero_only_is_uninformative) ... ok
+
+======================================================================
+FAIL: test_relative_coefficient_requires_common_gain (test_model.RatioTests.test_relative_coefficient_requires_common_gain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./.mutation-bf8zb408/tests/test_model.py", line 149, in test_relative_coefficient_requires_common_gain
+    self.assertEqual(relative_coefficient(iter((1, 2)), (6, 12), (10, 20)), F(3, 5))
+AssertionError: Fraction(5, 3) != Fraction(3, 5)
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.004s
+
+FAILED (failures=1)

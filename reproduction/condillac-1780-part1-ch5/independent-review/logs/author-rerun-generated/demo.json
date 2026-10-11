@@ -1,0 +1,164 @@
+{
+  "warning": "Modern stipulated model; not Condillac's algorithm or a physical/theological validation.",
+  "finite": {
+    "observed": [
+      1
+    ],
+    "fibers": [
+      [
+        "none"
+      ],
+      [
+        "A",
+        "B",
+        "A+B"
+      ]
+    ],
+    "queries": {
+      "cause_exists": {
+        "status": "identified",
+        "candidates": [
+          "A",
+          "B",
+          "A+B"
+        ],
+        "values": [
+          true
+        ]
+      },
+      "number_of_causes": {
+        "status": "ambiguous",
+        "candidates": [
+          "A",
+          "B",
+          "A+B"
+        ],
+        "values": [
+          1,
+          2
+        ]
+      },
+      "cause_identity": {
+        "status": "ambiguous",
+        "candidates": [
+          "A",
+          "B",
+          "A+B"
+        ],
+        "values": [
+          "A",
+          "B",
+          "A+B"
+        ]
+      },
+      "attribute": {
+        "status": "ambiguous",
+        "candidates": [
+          "A",
+          "B",
+          "A+B"
+        ],
+        "values": [
+          "red",
+          "blue"
+        ]
+      }
+    },
+    "labels_preserve_fibers": true,
+    "derived_word_preserves_fibers": true,
+    "new_probe_candidates": [
+      "A",
+      "A+B"
+    ],
+    "new_probe_attribute": {
+      "status": "identified",
+      "candidates": [
+        "A",
+        "A+B"
+      ],
+      "values": [
+        "red"
+      ]
+    },
+    "new_probe_number": {
+      "status": "ambiguous",
+      "candidates": [
+        "A",
+        "A+B"
+      ],
+      "values": [
+        1,
+        2
+      ]
+    },
+    "assume_B_identity": {
+      "status": "identified",
+      "candidates": [
+        "B"
+      ],
+      "values": [
+        "B"
+      ]
+    },
+    "assumption_preserves_columns": true,
+    "out_of_model_observation": {
+      "status": "inconsistent",
+      "candidates": [],
+      "values": []
+    },
+    "wider_model_existence": {
+      "status": "ambiguous",
+      "candidates": [
+        "A",
+        "B",
+        "A+B",
+        "spontaneous"
+      ],
+      "values": [
+        true,
+        false
+      ]
+    }
+  },
+  "ratios": {
+    "inputs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "outputs": [
+      "6",
+      "12",
+      "18"
+    ],
+    "product": {
+      "status": "identified",
+      "product": "6"
+    },
+    "known_gain_2_coefficient": "3",
+    "unknown_gain_equivalent_pairs_k_g": [
+      [
+        "3/2",
+        "4"
+      ],
+      [
+        "3",
+        "2"
+      ],
+      [
+        "6",
+        "1"
+      ]
+    ],
+    "all_pairs_match": true,
+    "all_zero_inputs": {
+      "status": "uninformative",
+      "product": null
+    },
+    "incompatible_data": {
+      "status": "inconsistent",
+      "product": null
+    },
+    "shared_gain_relative_coefficient": "3/5"
+  }
+}

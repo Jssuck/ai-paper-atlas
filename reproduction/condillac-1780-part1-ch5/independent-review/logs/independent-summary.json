@@ -1,0 +1,1079 @@
+{
+  "started_utc": "2026-10-11T17:54:05.555196+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_sha256": {
+    "MODEL.zh-CN.md": "a3b4480d1872d4f366650a3920e17a8621bb6dff210b0fac353be166fdfc3571",
+    "README.md": "39776ae8dc6badb916d8aea60ef134518eef17e86cb732e464b5fee9f0922195",
+    "WALKTHROUGH.zh-CN.md": "a45f8be4e5549cbdeeccf479d0293b61097e21357bc763c7dea1fb916d001d98",
+    "demo.py": "f5afa6e63914cbb51e5ad1fb8c6b3dcef3769f5555ad7a3c78ceb079b0a37b0a",
+    "finite_model.py": "f2bb45d26019ca5a3d863ef2f695ce44111aa33a0db21177f56c285323097203",
+    "finite_oracle.py": "64db3f83f372c2be397ae3d04c7261c73ae6c0d12250fc9974bc8a0e37687423",
+    "mutation_check.py": "43b505788b84132b361bde6d17a933ee8f08f3ae9d41ca4b6e87bb8864ed0b6e",
+    "ratios.py": "b0e77ccf5594d704c6e65abe43cf57898d874e93e82eb4bcddb60272dcefad5c",
+    "tests/test_model.py": "28fc7f56539f229ad83b896ee407a620c013f0f8132d08a6caa4ac7132432005",
+    "verify.py": "40a4ed0dc39af6f549665a7a4e21dd2e93c454427458364407152a6ecc22336b"
+  },
+  "reviewer_sha256": {
+    "run_independent_review.py": "bd74c2f0f902ecd463db6616358768e0fbb5272aca5a7d2af058bd046024a8a4",
+    "reviewer_check.py": "2ecd3d618453fe5d06a0a00682cb9a8668b35b41c57f2ed1d78238ebd1f17325"
+  },
+  "stages": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 3.918265,
+      "log": "author-verify-normal.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.194172,
+      "log": "author-tests-normal.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-source-u5jaggxb"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 2.679831,
+      "log": "reviewer-normal.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.414461,
+      "log": "author-tests-O.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-source-u5jaggxb"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 3.089792,
+      "log": "reviewer-O.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "finite_oracle.py"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.39399,
+      "log": "author-finite_oracle-refusal-O.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.270504,
+      "log": "author-verify-refusal-O.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.407885,
+      "log": "author-tests-OO.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-source-u5jaggxb"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 3.183256,
+      "log": "reviewer-OO.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "finite_oracle.py"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.372288,
+      "log": "author-finite_oracle-refusal-OO.txt",
+      "section": null
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "verify.py"
+      ],
+      "working_directory": "./independent-review/review-source-u5jaggxb",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.298271,
+      "log": "author-verify-refusal-OO.txt",
+      "section": null
+    }
+  ],
+  "mutations": [
+    {
+      "name": "ambiguous_as_identified",
+      "mode": "normal",
+      "assertion_failures": 5,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-ksl5cjf_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-ksl5cjf_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.179183,
+      "log": "mutations.log",
+      "section": "ambiguous_as_identified / normal"
+    },
+    {
+      "name": "ambiguous_as_identified",
+      "mode": "O",
+      "assertion_failures": 5,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-ksl5cjf_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-ksl5cjf_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.576666,
+      "log": "mutations.log",
+      "section": "ambiguous_as_identified / O"
+    },
+    {
+      "name": "ambiguous_as_identified",
+      "mode": "OO",
+      "assertion_failures": 5,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-ksl5cjf_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-ksl5cjf_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.610413,
+      "log": "mutations.log",
+      "section": "ambiguous_as_identified / OO"
+    },
+    {
+      "name": "empty_fiber_as_identified",
+      "mode": "normal",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-f9nwkedr",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-f9nwkedr",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.16372,
+      "log": "mutations.log",
+      "section": "empty_fiber_as_identified / normal"
+    },
+    {
+      "name": "empty_fiber_as_identified",
+      "mode": "O",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-f9nwkedr",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-f9nwkedr",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.699362,
+      "log": "mutations.log",
+      "section": "empty_fiber_as_identified / O"
+    },
+    {
+      "name": "empty_fiber_as_identified",
+      "mode": "OO",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-f9nwkedr",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-f9nwkedr",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.897615,
+      "log": "mutations.log",
+      "section": "empty_fiber_as_identified / OO"
+    },
+    {
+      "name": "labels_leak_state_index",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-yqdod7dv",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-yqdod7dv",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.18266,
+      "log": "mutations.log",
+      "section": "labels_leak_state_index / normal"
+    },
+    {
+      "name": "labels_leak_state_index",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-yqdod7dv",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-yqdod7dv",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.378744,
+      "log": "mutations.log",
+      "section": "labels_leak_state_index / O"
+    },
+    {
+      "name": "labels_leak_state_index",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-yqdod7dv",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-yqdod7dv",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.460674,
+      "log": "mutations.log",
+      "section": "labels_leak_state_index / OO"
+    },
+    {
+      "name": "new_data_erase_old",
+      "mode": "normal",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-bir7upj0",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-bir7upj0",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.18579,
+      "log": "mutations.log",
+      "section": "new_data_erase_old / normal"
+    },
+    {
+      "name": "new_data_erase_old",
+      "mode": "O",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-bir7upj0",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-bir7upj0",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.049107,
+      "log": "mutations.log",
+      "section": "new_data_erase_old / O"
+    },
+    {
+      "name": "new_data_erase_old",
+      "mode": "OO",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-bir7upj0",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-bir7upj0",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.272649,
+      "log": "mutations.log",
+      "section": "new_data_erase_old / OO"
+    },
+    {
+      "name": "assumption_ignored",
+      "mode": "normal",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-1pmfafmd",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-1pmfafmd",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.188999,
+      "log": "mutations.log",
+      "section": "assumption_ignored / normal"
+    },
+    {
+      "name": "assumption_ignored",
+      "mode": "O",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-1pmfafmd",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-1pmfafmd",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.65346,
+      "log": "mutations.log",
+      "section": "assumption_ignored / O"
+    },
+    {
+      "name": "assumption_ignored",
+      "mode": "OO",
+      "assertion_failures": 3,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-1pmfafmd",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-1pmfafmd",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.697438,
+      "log": "mutations.log",
+      "section": "assumption_ignored / OO"
+    },
+    {
+      "name": "refinement_always_true",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-spypnr0c",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-spypnr0c",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.191783,
+      "log": "mutations.log",
+      "section": "refinement_always_true / normal"
+    },
+    {
+      "name": "refinement_always_true",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-spypnr0c",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-spypnr0c",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.112999,
+      "log": "mutations.log",
+      "section": "refinement_always_true / O"
+    },
+    {
+      "name": "refinement_always_true",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-spypnr0c",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-spypnr0c",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.661853,
+      "log": "mutations.log",
+      "section": "refinement_always_true / OO"
+    },
+    {
+      "name": "global_any_fiber_suffices",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-6ais4pvx",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-6ais4pvx",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.203505,
+      "log": "mutations.log",
+      "section": "global_any_fiber_suffices / normal"
+    },
+    {
+      "name": "global_any_fiber_suffices",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-6ais4pvx",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-6ais4pvx",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.47981,
+      "log": "mutations.log",
+      "section": "global_any_fiber_suffices / O"
+    },
+    {
+      "name": "global_any_fiber_suffices",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-6ais4pvx",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-6ais4pvx",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.752553,
+      "log": "mutations.log",
+      "section": "global_any_fiber_suffices / OO"
+    },
+    {
+      "name": "gain_silently_one",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-3g3os80_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-3g3os80_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.347375,
+      "log": "mutations.log",
+      "section": "gain_silently_one / normal"
+    },
+    {
+      "name": "gain_silently_one",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-3g3os80_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-3g3os80_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.977862,
+      "log": "mutations.log",
+      "section": "gain_silently_one / O"
+    },
+    {
+      "name": "gain_silently_one",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-3g3os80_",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-3g3os80_",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.218867,
+      "log": "mutations.log",
+      "section": "gain_silently_one / OO"
+    },
+    {
+      "name": "scale_wrong_direction",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-b792dd0v",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-b792dd0v",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.391873,
+      "log": "mutations.log",
+      "section": "scale_wrong_direction / normal"
+    },
+    {
+      "name": "scale_wrong_direction",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-b792dd0v",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-b792dd0v",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.670898,
+      "log": "mutations.log",
+      "section": "scale_wrong_direction / O"
+    },
+    {
+      "name": "scale_wrong_direction",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-b792dd0v",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-b792dd0v",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.969739,
+      "log": "mutations.log",
+      "section": "scale_wrong_direction / OO"
+    },
+    {
+      "name": "zero_only_identifies",
+      "mode": "normal",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-_y8dgups",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-_y8dgups",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.233952,
+      "log": "mutations.log",
+      "section": "zero_only_identifies / normal"
+    },
+    {
+      "name": "zero_only_identifies",
+      "mode": "O",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-_y8dgups",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-_y8dgups",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.577211,
+      "log": "mutations.log",
+      "section": "zero_only_identifies / O"
+    },
+    {
+      "name": "zero_only_identifies",
+      "mode": "OO",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-_y8dgups",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-_y8dgups",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.633181,
+      "log": "mutations.log",
+      "section": "zero_only_identifies / OO"
+    },
+    {
+      "name": "conflicting_ratios_ignored",
+      "mode": "normal",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-pbx467o2",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-pbx467o2",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.355996,
+      "log": "mutations.log",
+      "section": "conflicting_ratios_ignored / normal"
+    },
+    {
+      "name": "conflicting_ratios_ignored",
+      "mode": "O",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-pbx467o2",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-pbx467o2",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.505175,
+      "log": "mutations.log",
+      "section": "conflicting_ratios_ignored / O"
+    },
+    {
+      "name": "conflicting_ratios_ignored",
+      "mode": "OO",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-pbx467o2",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-pbx467o2",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.575368,
+      "log": "mutations.log",
+      "section": "conflicting_ratios_ignored / OO"
+    },
+    {
+      "name": "relative_ratio_inverted",
+      "mode": "normal",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-r9q4wj3w",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-r9q4wj3w",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.185377,
+      "log": "mutations.log",
+      "section": "relative_ratio_inverted / normal"
+    },
+    {
+      "name": "relative_ratio_inverted",
+      "mode": "O",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-r9q4wj3w",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-r9q4wj3w",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.69719,
+      "log": "mutations.log",
+      "section": "relative_ratio_inverted / O"
+    },
+    {
+      "name": "relative_ratio_inverted",
+      "mode": "OO",
+      "assertion_failures": 2,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-r9q4wj3w",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-r9q4wj3w",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 1.034049,
+      "log": "mutations.log",
+      "section": "relative_ratio_inverted / OO"
+    },
+    {
+      "name": "zero_input_conflict_ignored",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-z2w5kqbs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-z2w5kqbs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.180559,
+      "log": "mutations.log",
+      "section": "zero_input_conflict_ignored / normal"
+    },
+    {
+      "name": "zero_input_conflict_ignored",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-z2w5kqbs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-z2w5kqbs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.574682,
+      "log": "mutations.log",
+      "section": "zero_input_conflict_ignored / O"
+    },
+    {
+      "name": "zero_input_conflict_ignored",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-z2w5kqbs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-z2w5kqbs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.526278,
+      "log": "mutations.log",
+      "section": "zero_input_conflict_ignored / OO"
+    },
+    {
+      "name": "bool_accepted_as_exact",
+      "mode": "normal",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-78nrovqs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-78nrovqs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.170259,
+      "log": "mutations.log",
+      "section": "bool_accepted_as_exact / normal"
+    },
+    {
+      "name": "bool_accepted_as_exact",
+      "mode": "O",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-78nrovqs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-78nrovqs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.548305,
+      "log": "mutations.log",
+      "section": "bool_accepted_as_exact / O"
+    },
+    {
+      "name": "bool_accepted_as_exact",
+      "mode": "OO",
+      "assertion_failures": 1,
+      "errors": 0,
+      "result": "KILLED",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "./independent-review/reviewer_check.py",
+        "--target",
+        "./independent-review/review-mutant-78nrovqs",
+        "--unit-only"
+      ],
+      "working_directory": "./independent-review/review-mutant-78nrovqs",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "elapsed_seconds": 0.812106,
+      "log": "mutations.log",
+      "section": "bool_accepted_as_exact / OO"
+    }
+  ],
+  "limits": {
+    "max_states": 4,
+    "observation_columns": 2,
+    "observation_values": [
+      0,
+      1
+    ],
+    "query_values": [
+      0,
+      1,
+      2
+    ],
+    "extension_values": [
+      0,
+      1,
+      2
+    ],
+    "rational_parameter_values": "distinct a/b, 1<=a,b<=4",
+    "rational_inputs": "distinct a/b, -4<=a<=4, 1<=b<=4"
+  },
+  "finished_utc": "2026-10-11T17:54:45.713302+00:00",
+  "author_sources_unchanged": true,
+  "mutation_runs": 42,
+  "unique_mutants": 14,
+  "result": "PASS"
+}

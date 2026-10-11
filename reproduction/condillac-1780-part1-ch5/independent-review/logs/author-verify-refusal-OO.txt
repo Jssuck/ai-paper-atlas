@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "./independent-review/review-source-u5jaggxb/verify.py", line 57, in <module>
+    sys.exit(0 if run() else 1)
+                  ^^^^^
+  File "./independent-review/review-source-u5jaggxb/verify.py", line 23, in run
+    raise RuntimeError("Run without -O or -OO; assertions must stay enabled")
+RuntimeError: Run without -O or -OO; assertions must stay enabled

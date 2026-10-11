@@ -1,0 +1,69 @@
+{
+  "baseline": "PASS",
+  "mutants": [
+    {
+      "mutation": "any_answer_means_identified",
+      "exit_code": 1,
+      "assertion_failures": 5,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "empty_fiber_means_identified",
+      "exit_code": 1,
+      "assertion_failures": 2,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "names_become_observations",
+      "exit_code": 1,
+      "assertion_failures": 2,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "new_probe_erases_old_data",
+      "exit_code": 1,
+      "assertion_failures": 1,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "ignore_known_gain",
+      "exit_code": 1,
+      "assertion_failures": 1,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "break_parameter_symmetry",
+      "exit_code": 1,
+      "assertion_failures": 2,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "zero_inputs_identify_product",
+      "exit_code": 1,
+      "assertion_failures": 2,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "ignore_conflicting_measurements",
+      "exit_code": 1,
+      "assertion_failures": 1,
+      "test_errors": 0,
+      "result": "KILLED"
+    },
+    {
+      "mutation": "invert_relative_measurement",
+      "exit_code": 1,
+      "assertion_failures": 1,
+      "test_errors": 0,
+      "result": "KILLED"
+    }
+  ],
+  "result": "PASS"
+}

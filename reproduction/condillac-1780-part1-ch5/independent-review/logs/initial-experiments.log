@@ -1,0 +1,176 @@
+===== initial-runner.txt =====
+Traceback (most recent call last):
+  File "./independent-review/run_independent_review.py", line 127, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "./independent-review/run_independent_review.py", line 116, in main
+    require(killed, f'mutant not killed by completed assertion-only failures: {name} {mode}')
+  File "./independent-review/run_independent_review.py", line 46, in require
+    raise RuntimeError(message)
+RuntimeError: mutant not killed by completed assertion-only failures: assumption_ignored normal
+
+
+===== initial-mutant-assumption_ignored-normal.txt =====
+test_added_observation_preserves_old_coordinates (__main__.ReviewerFiniteTests.test_added_observation_preserves_old_coordinates) ... ok
+test_added_probe_can_identify_attribute_without_number (__main__.ReviewerFiniteTests.test_added_probe_can_identify_attribute_without_number) ... ok
+test_assumption_filters_without_adding_data (__main__.ReviewerFiniteTests.test_assumption_filters_without_adding_data) ... FAIL
+test_bijective_state_renaming_transports_query_and_candidates (__main__.ReviewerFiniteTests.test_bijective_state_renaming_transports_query_and_candidates) ... ok
+test_constructor_rejects_mutability_duplicate_and_invalid_identifiers (__main__.ReviewerFiniteTests.test_constructor_rejects_mutability_duplicate_and_invalid_identifiers) ... ok
+test_derived_and_constant_observations_do_not_split (__main__.ReviewerFiniteTests.test_derived_and_constant_observations_do_not_split) ... ok
+test_empty_fiber_is_inconsistent_not_identified (__main__.ReviewerFiniteTests.test_empty_fiber_is_inconsistent_not_identified) ... ok
+test_empty_model_global_vacuity_and_local_conflict (__main__.ReviewerFiniteTests.test_empty_model_global_vacuity_and_local_conflict) ... ok
+test_exact_integer_signatures_reject_bool_float_and_shape_errors (__main__.ReviewerFiniteTests.test_exact_integer_signatures_reject_bool_float_and_shape_errors) ... ok
+test_fiber_contains_all_and_only_matching_states (__main__.ReviewerFiniteTests.test_fiber_contains_all_and_only_matching_states) ... ok
+test_metadata_and_probe_domains_are_total (__main__.ReviewerFiniteTests.test_metadata_and_probe_domains_are_total) ... ok
+test_names_do_not_change_observations (__main__.ReviewerFiniteTests.test_names_do_not_change_observations) ... ok
+test_no_observation_columns_provide_no_discrimination (__main__.ReviewerFiniteTests.test_no_observation_columns_provide_no_discrimination) ... ok
+test_one_question_can_be_identified_while_identity_is_not (__main__.ReviewerFiniteTests.test_one_question_can_be_identified_while_identity_is_not) ... ok
+test_refinement_ignores_row_order_not_domain (__main__.ReviewerFiniteTests.test_refinement_ignores_row_order_not_domain) ... FAIL
+test_reject_duplicate_probe_and_noninteger_probe (__main__.ReviewerFiniteTests.test_reject_duplicate_probe_and_noninteger_probe) ... ok
+test_relaxing_candidate_assumption_can_destroy_identification (__main__.ReviewerFiniteTests.test_relaxing_candidate_assumption_can_destroy_identification) ... ok
+test_total_query_domain_is_required (__main__.ReviewerFiniteTests.test_total_query_domain_is_required) ... ok
+test_two_causes_not_inferred_from_existence (__main__.ReviewerFiniteTests.test_two_causes_not_inferred_from_existence) ... ok
+test_wrong_assumption_can_conflict_with_observation (__main__.ReviewerFiniteTests.test_wrong_assumption_can_conflict_with_observation) ... ERROR
+test_common_gain_relative_coefficient (__main__.ReviewerRatioTests.test_common_gain_relative_coefficient) ... ok
+test_conflicting_ratios_are_inconsistent (__main__.ReviewerRatioTests.test_conflicting_ratios_are_inconsistent) ... ok
+test_empty_and_mismatched_data_are_rejected (__main__.ReviewerRatioTests.test_empty_and_mismatched_data_are_rejected) ... ok
+test_exact_domain_rejects_float_bool_and_string (__main__.ReviewerRatioTests.test_exact_domain_rejects_float_bool_and_string) ... ok
+test_fraction_response_exact_not_float (__main__.ReviewerRatioTests.test_fraction_response_exact_not_float) ... ok
+test_iterators_and_negative_inputs_supported (__main__.ReviewerRatioTests.test_iterators_and_negative_inputs_supported) ... ok
+test_known_gain_is_divisor_not_default_one (__main__.ReviewerRatioTests.test_known_gain_is_divisor_not_default_one) ... ok
+test_nonpositive_parameters_rejected (__main__.ReviewerRatioTests.test_nonpositive_parameters_rejected) ... ok
+test_nonpositive_product_conflicts_with_positive_parameters (__main__.ReviewerRatioTests.test_nonpositive_product_conflicts_with_positive_parameters) ... ok
+test_nonzero_input_identifies_product (__main__.ReviewerRatioTests.test_nonzero_input_identifies_product) ... ok
+test_parameter_scaling_preserves_every_selected_input (__main__.ReviewerRatioTests.test_parameter_scaling_preserves_every_selected_input) ... ok
+test_unequal_gain_is_a_counterexample_to_unconditional_ratio (__main__.ReviewerRatioTests.test_unequal_gain_is_a_counterexample_to_unconditional_ratio) ... ok
+test_unidentified_relative_comparison_rejected (__main__.ReviewerRatioTests.test_unidentified_relative_comparison_rejected) ... ok
+test_zero_input_nonzero_output_is_conflict (__main__.ReviewerRatioTests.test_zero_input_nonzero_output_is_conflict) ... ok
+test_zero_only_input_does_not_identify (__main__.ReviewerRatioTests.test_zero_only_input_does_not_identify) ... ok
+
+======================================================================
+ERROR: test_wrong_assumption_can_conflict_with_observation (__main__.ReviewerFiniteTests.test_wrong_assumption_can_conflict_with_observation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/reviewer_check.py", line 108, in test_wrong_assumption_can_conflict_with_observation
+    self.assertEqual(m.answer((1,), {'none': False}).status, 'inconsistent')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./independent-review/review-mutant-terjl_ma/finite_model.py", line 64, in answer
+    self._check_domain(query)
+  File "./independent-review/review-mutant-terjl_ma/finite_model.py", line 50, in _check_domain
+    raise ValueError("mapping domain must equal the model state set")
+ValueError: mapping domain must equal the model state set
+
+======================================================================
+FAIL: test_assumption_filters_without_adding_data (__main__.ReviewerFiniteTests.test_assumption_filters_without_adding_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/reviewer_check.py", line 102, in test_assumption_filters_without_adding_data
+    self.assertEqual((m.columns, m.states, m.signatures), (('x',), ('b',), ((1,),)))
+AssertionError: Tuples differ: (('x',), ('none', 'a', 'b', 'ab'), ((0,), (1,), (1,), (1,))) != (('x',), ('b',), ((1,),))
+
+First differing element 1:
+('none', 'a', 'b', 'ab')
+('b',)
+
+- (('x',), ('none', 'a', 'b', 'ab'), ((0,), (1,), (1,), (1,)))
++ (('x',), ('b',), ((1,),))
+
+======================================================================
+FAIL: test_refinement_ignores_row_order_not_domain (__main__.ReviewerFiniteTests.test_refinement_ignores_row_order_not_domain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/reviewer_check.py", line 118, in test_refinement_ignores_row_order_not_domain
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.005s
+
+FAILED (failures=2, errors=1)
+
+
+===== runner.txt =====
+Traceback (most recent call last):
+  File "./independent-review/run_independent_review.py", line 135, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "./independent-review/run_independent_review.py", line 124, in main
+    require(killed, f'mutant not killed by completed assertion-only failures: {name} {mode}')
+  File "./independent-review/run_independent_review.py", line 46, in require
+    raise RuntimeError(message)
+RuntimeError: mutant not killed by completed assertion-only failures: zero_only_identifies normal
+
+
+===== mutant-zero_only_identifies-normal.txt =====
+test_added_observation_preserves_old_coordinates (__main__.ReviewerFiniteTests.test_added_observation_preserves_old_coordinates) ... ok
+test_added_probe_can_identify_attribute_without_number (__main__.ReviewerFiniteTests.test_added_probe_can_identify_attribute_without_number) ... ok
+test_assumption_filters_without_adding_data (__main__.ReviewerFiniteTests.test_assumption_filters_without_adding_data) ... ok
+test_bijective_state_renaming_transports_query_and_candidates (__main__.ReviewerFiniteTests.test_bijective_state_renaming_transports_query_and_candidates) ... ok
+test_constructor_rejects_mutability_duplicate_and_invalid_identifiers (__main__.ReviewerFiniteTests.test_constructor_rejects_mutability_duplicate_and_invalid_identifiers) ... ok
+test_derived_and_constant_observations_do_not_split (__main__.ReviewerFiniteTests.test_derived_and_constant_observations_do_not_split) ... ok
+test_empty_fiber_is_inconsistent_not_identified (__main__.ReviewerFiniteTests.test_empty_fiber_is_inconsistent_not_identified) ... ok
+test_empty_model_global_vacuity_and_local_conflict (__main__.ReviewerFiniteTests.test_empty_model_global_vacuity_and_local_conflict) ... ok
+test_exact_integer_signatures_reject_bool_float_and_shape_errors (__main__.ReviewerFiniteTests.test_exact_integer_signatures_reject_bool_float_and_shape_errors) ... ok
+test_fiber_contains_all_and_only_matching_states (__main__.ReviewerFiniteTests.test_fiber_contains_all_and_only_matching_states) ... ok
+test_metadata_and_probe_domains_are_total (__main__.ReviewerFiniteTests.test_metadata_and_probe_domains_are_total) ... ok
+test_names_do_not_change_observations (__main__.ReviewerFiniteTests.test_names_do_not_change_observations) ... ok
+test_no_observation_columns_provide_no_discrimination (__main__.ReviewerFiniteTests.test_no_observation_columns_provide_no_discrimination) ... ok
+test_one_question_can_be_identified_while_identity_is_not (__main__.ReviewerFiniteTests.test_one_question_can_be_identified_while_identity_is_not) ... ok
+test_refinement_ignores_row_order_not_domain (__main__.ReviewerFiniteTests.test_refinement_ignores_row_order_not_domain) ... ok
+test_reject_duplicate_probe_and_noninteger_probe (__main__.ReviewerFiniteTests.test_reject_duplicate_probe_and_noninteger_probe) ... ok
+test_relaxing_candidate_assumption_can_destroy_identification (__main__.ReviewerFiniteTests.test_relaxing_candidate_assumption_can_destroy_identification) ... ok
+test_total_query_domain_is_required (__main__.ReviewerFiniteTests.test_total_query_domain_is_required) ... ok
+test_two_causes_not_inferred_from_existence (__main__.ReviewerFiniteTests.test_two_causes_not_inferred_from_existence) ... ok
+test_wrong_assumption_can_conflict_with_observation (__main__.ReviewerFiniteTests.test_wrong_assumption_can_conflict_with_observation) ... ok
+test_common_gain_relative_coefficient (__main__.ReviewerRatioTests.test_common_gain_relative_coefficient) ... ok
+test_conflicting_ratios_are_inconsistent (__main__.ReviewerRatioTests.test_conflicting_ratios_are_inconsistent) ... ok
+test_empty_and_mismatched_data_are_rejected (__main__.ReviewerRatioTests.test_empty_and_mismatched_data_are_rejected) ... ok
+test_exact_domain_rejects_float_bool_and_string (__main__.ReviewerRatioTests.test_exact_domain_rejects_float_bool_and_string) ... ok
+test_fraction_response_exact_not_float (__main__.ReviewerRatioTests.test_fraction_response_exact_not_float) ... ok
+test_iterators_and_negative_inputs_supported (__main__.ReviewerRatioTests.test_iterators_and_negative_inputs_supported) ... ok
+test_known_gain_is_divisor_not_default_one (__main__.ReviewerRatioTests.test_known_gain_is_divisor_not_default_one) ... ok
+test_nonpositive_parameters_rejected (__main__.ReviewerRatioTests.test_nonpositive_parameters_rejected) ... ok
+test_nonpositive_product_conflicts_with_positive_parameters (__main__.ReviewerRatioTests.test_nonpositive_product_conflicts_with_positive_parameters) ... ok
+test_nonzero_input_identifies_product (__main__.ReviewerRatioTests.test_nonzero_input_identifies_product) ... ok
+test_parameter_scaling_preserves_every_selected_input (__main__.ReviewerRatioTests.test_parameter_scaling_preserves_every_selected_input) ... ok
+test_unequal_gain_is_a_counterexample_to_unconditional_ratio (__main__.ReviewerRatioTests.test_unequal_gain_is_a_counterexample_to_unconditional_ratio) ... ok
+test_unidentified_relative_comparison_rejected (__main__.ReviewerRatioTests.test_unidentified_relative_comparison_rejected) ... ERROR
+test_zero_input_nonzero_output_is_conflict (__main__.ReviewerRatioTests.test_zero_input_nonzero_output_is_conflict) ... ok
+test_zero_only_input_does_not_identify (__main__.ReviewerRatioTests.test_zero_only_input_does_not_identify) ... FAIL
+
+======================================================================
+ERROR: test_unidentified_relative_comparison_rejected (__main__.ReviewerRatioTests.test_unidentified_relative_comparison_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/reviewer_check.py", line 227, in test_unidentified_relative_comparison_rejected
+    relative_coefficient(*args)
+  File "./independent-review/review-mutant-kd_linhf/ratios.py", line 68, in relative_coefficient
+    return a.product / b.product
+           ~~~~~~~~~~^~~~~~~~~~~
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/fractions.py", line 615, in forward
+    return monomorphic_operator(a, b)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/fractions.py", line 763, in _div
+    raise ZeroDivisionError('Fraction(%s, 0)' % db)
+ZeroDivisionError: Fraction(1, 0)
+
+======================================================================
+FAIL: test_zero_only_input_does_not_identify (__main__.ReviewerRatioTests.test_zero_only_input_does_not_identify)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/reviewer_check.py", line 184, in test_zero_only_input_does_not_identify
+    self.assertEqual((r.status, r.product), ('uninformative', None))
+AssertionError: Tuples differ: ('identified', Fraction(0, 1)) != ('uninformative', None)
+
+First differing element 0:
+'identified'
+'uninformative'
+
+- ('identified', Fraction(0, 1))
++ ('uninformative', None)
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.009s
+
+FAILED (failures=1, errors=1)

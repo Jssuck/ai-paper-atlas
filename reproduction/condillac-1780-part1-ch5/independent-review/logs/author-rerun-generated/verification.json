@@ -1,0 +1,63 @@
+{
+  "finished_utc": "2026-10-11T17:54:09.462522+00:00",
+  "source_sha256": {
+    "MODEL.zh-CN.md": "a3b4480d1872d4f366650a3920e17a8621bb6dff210b0fac353be166fdfc3571",
+    "README.md": "39776ae8dc6badb916d8aea60ef134518eef17e86cb732e464b5fee9f0922195",
+    "WALKTHROUGH.zh-CN.md": "a45f8be4e5549cbdeeccf479d0293b61097e21357bc763c7dea1fb916d001d98",
+    "demo.py": "f5afa6e63914cbb51e5ad1fb8c6b3dcef3769f5555ad7a3c78ceb079b0a37b0a",
+    "finite_model.py": "f2bb45d26019ca5a3d863ef2f695ce44111aa33a0db21177f56c285323097203",
+    "finite_oracle.py": "64db3f83f372c2be397ae3d04c7261c73ae6c0d12250fc9974bc8a0e37687423",
+    "mutation_check.py": "43b505788b84132b361bde6d17a933ee8f08f3ae9d41ca4b6e87bb8864ed0b6e",
+    "ratios.py": "b0e77ccf5594d704c6e65abe43cf57898d874e93e82eb4bcddb60272dcefad5c",
+    "tests/test_model.py": "28fc7f56539f229ad83b896ee407a620c013f0f8132d08a6caa4ac7132432005",
+    "verify.py": "40a4ed0dc39af6f549665a7a4e21dd2e93c454427458364407152a6ecc22336b"
+  },
+  "stages": [
+    {
+      "stage": "demo",
+      "command": [
+        "python",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.156417,
+      "output": "logs/demo.json"
+    },
+    {
+      "stage": "unit-tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.386656,
+      "output": "logs/unit-tests.txt"
+    },
+    {
+      "stage": "finite-oracle",
+      "command": [
+        "python",
+        "finite_oracle.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.651148,
+      "output": "logs/finite-oracle.json"
+    },
+    {
+      "stage": "mutations",
+      "command": [
+        "python",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.520458,
+      "output": "logs/mutations.json"
+    }
+  ],
+  "result": "PASS"
+}

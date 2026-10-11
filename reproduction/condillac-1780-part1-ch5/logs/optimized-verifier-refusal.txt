@@ -1,0 +1,9 @@
+command: python -OO verify.py
+Traceback (most recent call last):
+  File "./verify.py", line 57, in <module>
+    sys.exit(0 if run() else 1)
+                  ^^^^^
+  File "./verify.py", line 23, in run
+    raise RuntimeError("Run without -O or -OO; assertions must stay enabled")
+RuntimeError: Run without -O or -OO; assertions must stay enabled
+exit_code=1
