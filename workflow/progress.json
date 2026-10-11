@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "euler-1768-letter-cvii",
     "path": "papers/1768/euler-letter-cvii.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete Letter CVII,1768 volumeII pp134–139,dated3March1761;ten observations on syllogism restrictions and singular propositions;verify edition and scan limits."
-  },
-  "last_completed": {
-    "id": "euler-1768-letter-cvi",
-    "path": "papers/1768/euler-letter-cvi.zh-CN.md",
     "version": "v1",
-    "content_commit": "78406a4277d618dc52048ba82f7221fbd9c2dc8e",
-    "checks": "Independent source,whole-article mathematics and code reviews passed;18 tests,2048-combination oracle and512-decision cross-check.31 remote blob identities,30 exact text files and preserved CRLF CSV verified.133 formulas,21 actual GitHub tables,seven Markdown pages and140 anchors checked;43 link destinations preserved.Browser sans-serif label typography varies without mathematical loss;external destinations not all revisited.",
-    "scope": "Complete CVI,1768 pp126–134,dated28February1761;original130 supplemented by1770 p135 with explicit version anomalies.1772 page129 correction concerns volumeIII magnetism,not this letter.19 proofs and four existence conditions;not fullvolume."
+    "content_commit": "a9710df9d3e82c0a4f835321f83afb170ffb0210",
+    "checks": "Independent source,whole-main mathematics and code audits passed;11tests,512decisions,473minimum countermodels,121088support truth comparisons,157invalid-input checks.18remote text/blob identities verified.119formulas,eight tables,five new Markdown pages and116anchors checked in GitHub browser.Source links preserved;Euler Archive and Internet Archive opened,e-rara record stopped at browser security challenge.",
+    "scope": "Complete CVII,1768 pp134–139,dated3March1761;ten observations and singular propositions,1770 full comparison.1772 p138 correction is volumeIII magnetism,not this letter.Original six pages readable;not wholevolume."
   },
-  "updated_at": "2026-10-11T10:50:30Z",
+  "updated_at": "2026-10-11T10:56:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote file identities and GitHub formulas,tables,links after completed independent source/math/code audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
