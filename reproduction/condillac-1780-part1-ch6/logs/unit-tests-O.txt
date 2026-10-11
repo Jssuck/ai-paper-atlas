@@ -1,0 +1,32 @@
+test_action_indicator (test_model.HabitTests.test_action_indicator) ... ok
+test_bad_action_labels (test_model.HabitTests.test_bad_action_labels) ... ok
+test_bad_domains (test_model.HabitTests.test_bad_domains) ... ok
+test_bad_rationals (test_model.HabitTests.test_bad_rationals) ... ok
+test_closed_form_nonzero_initial (test_model.HabitTests.test_closed_form_nonzero_initial) ... ok
+test_connected_trace (test_model.HabitTests.test_connected_trace) ... ok
+test_empty_input (test_model.HabitTests.test_empty_input) ... ok
+test_endpoint_fixed_points (test_model.HabitTests.test_endpoint_fixed_points) ... ok
+test_initial_difference_contracts (test_model.HabitTests.test_initial_difference_contracts) ... ok
+test_order_matters (test_model.HabitTests.test_order_matters) ... ok
+test_repetition_and_disuse (test_model.HabitTests.test_repetition_and_disuse) ... ok
+test_empty_universe_has_one_code (test_model.NormTests.test_empty_universe_has_one_code) ... ok
+test_full_bridge (test_model.NormTests.test_full_bridge) ... ok
+test_inconsistent_bridge (test_model.NormTests.test_inconsistent_bridge) ... ok
+test_invalid_norms (test_model.NormTests.test_invalid_norms) ... ok
+test_partial_bridge (test_model.NormTests.test_partial_bridge) ... ok
+test_same_habit_opposite_norms (test_model.NormTests.test_same_habit_opposite_norms) ... ok
+test_single_empty_code_forbids (test_model.NormTests.test_single_empty_code_forbids) ... ok
+test_unconstrained_family (test_model.NormTests.test_unconstrained_family) ... ok
+test_empty_policy (test_model.PolicyTests.test_empty_policy) ... ok
+test_equivalence_refinement (test_model.PolicyTests.test_equivalence_refinement) ... ok
+test_impossible_and_conflicting (test_model.PolicyTests.test_impossible_and_conflicting) ... ok
+test_invalid_observations_and_contexts (test_model.PolicyTests.test_invalid_observations_and_contexts) ... ok
+test_invalid_policy (test_model.PolicyTests.test_invalid_policy) ... ok
+test_prefix_candidates (test_model.PolicyTests.test_prefix_candidates) ... ok
+test_repeated_observation (test_model.PolicyTests.test_repeated_observation) ... ok
+test_transfer_counterexample (test_model.PolicyTests.test_transfer_counterexample) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.005s
+
+OK

@@ -1,0 +1,107 @@
+{
+  "status": "FAIL",
+  "scope": "10 targeted valid author-written semantic mutations; not exhaustive or external review",
+  "mode": "-OO",
+  "mutations": [
+    {
+      "name": "remove_decay",
+      "module": "habit_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 7,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "invert_practice",
+      "module": "habit_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 6,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "reverse_time_weights",
+      "module": "habit_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 0,
+      "errors": 0,
+      "exit_code": 0,
+      "status": "NOT_VALIDLY_KILLED"
+    },
+    {
+      "name": "invert_action_indicator",
+      "module": "habit_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 1,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "any_observation_suffices",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 3,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "discard_later_observations",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 3,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "discard_later_contexts",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 1,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "ignore_required_actions",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 2,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "ignore_forbidden_actions",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 2,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    },
+    {
+      "name": "empty_family_permits",
+      "module": "action_model.py",
+      "syntax_valid": true,
+      "tests_run": 27,
+      "failures": 1,
+      "errors": 0,
+      "exit_code": 1,
+      "status": "KILLED"
+    }
+  ]
+}

@@ -59,43 +59,44 @@
     "current_unit_notice_condillac_i2": "仅新增Condillac《逻辑学》第一部第二章，1780为版书目年，1798第二十二卷16–24为实际完整底本。保留全部旧scope、候选、历史、状态和缺口；旧I.II未读描述以本次有效状态为准，不关闭III及后续或全书。",
     "current_unit_notice_condillac_i3": "仅新增Condillac I.III完整书籍章节，实际1798卷XXII印25–31；1780为版书目年。全部旧scope字段、候选、历史、状态及缺口原样保留，旧未读描述以最新有效状态的具体完成范围为准，不完成IV及后续或全书。",
     "current_unit_notice_condillac_i4": "仅新增I.IV完整书籍章节，实际1798XXII印32–48，1780为一版书目年。所有旧scope字段、对象、历史、状态与缺口原样保留；旧未读描述按最新有效状态的有界完成范围理解，不表示I.V及后续或全书完成。",
-    "current_unit_notice_condillac_i5": "仅新增I.V完整五页，实际1798XXII印49–53；1780只作一版书目年。全部旧scope、候选对象、历史、有效状态及缺口原样保留；旧I.V未读描述按本次有界有效状态理解，不完成I.VI、全书、自引或Locke全章。"
+    "current_unit_notice_condillac_i5": "仅新增I.V完整五页，实际1798XXII印49–53；1780只作一版书目年。全部旧scope、候选对象、历史、有效状态及缺口原样保留；旧I.V未读描述按本次有界有效状态理解，不完成I.VI、全书、自引或Locke全章。",
+    "current_unit_notice_condillac_i6": "仅追加1798I.VI54–57完整四页；1780书目年。所有旧scope、候选、历史、状态与缺口原样保留，旧I.VI未读描述按最新有效状态理解；不完成VII、全书、自引或Locke全章。"
   },
   "current_selection": {
-    "candidate_id": "condillac-1780-logic-part1-ch5",
+    "candidate_id": "condillac-1780-logic-part1-ch6",
     "authors": [
       "Étienne Bonnot de Condillac"
     ],
-    "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre V",
-    "chapter_title": "Des idées des choses qui ne tombent pas sous les sens",
+    "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre VI",
+    "chapter_title": "Continuation du même sujet",
     "publication_year": 1780,
-    "publication_year_basis": "1780为作品一版书目年；本次实际读1798版，不认证最早版次、1780章内页码或逐字文字。",
+    "publication_year_basis": "1780仅作已核一版书目年；实际读1798，不认证最早版次、1780原页码或逐字正文。",
     "read_edition": {
       "year": 1798,
       "collection": "Œuvres de Condillac",
       "volume": "XXII",
       "publisher": "Paris, de l’imprimerie de Ch. Houel",
       "title_page_date": "An VI — 1798",
-      "pages": "49–53",
-      "pdf_pages": "IA/Wellcome57–61；Google同版另一册59–63，完整五页双扫描核图"
+      "pages": "54–57",
+      "pdf_pages": "IA/Wellcome62–65；Google同版另一册64–67，四页均双扫描核图"
     },
-    "document_type": "完整哲学与教学书籍章节，五页、两条页边摘要和两组正文自引；非独立期刊论文，非全书",
-    "pages": "1798第一部第五章49–53；54页第六章只核边界；1780章内页码未核",
-    "publication_scope": "实际文字限1798版；两份同版扫描不是两个版本。1780只作已核书目年。",
-    "why_selected": "先读远端README、已刊目录、idle进度及候选；选择I.V关于未观察原因、名称与认识、关系性测量和属性推论的完整有界单位，相关于隐变量解释的前提与可识别性。不是自动遍历全书，不补发追赶，不完成第二来源或宣称穷尽。",
-    "mathematical_boundary": "有限候选、观测纤维、问题可识别性、命名不增区分、新观察细化、假设过滤和精确有理比例y=gku均为现代教学约定；非孔狄亚克算法、牛顿定律或神学/心理实验。有限枚举不替代一般证明，也不裁定第一原因和神性属性。",
-    "completion": "完整五页、两条边注与两组自引双扫描核图；原创中文全章精读、20道含答案练习、一般有条件证明、实际标准库运行与独立来源/全篇论证/代码复核。远端身份及浏览器QA由发布步骤另核。",
-    "article_path": "papers/1780/condillac-logic-part1-ch5.zh-CN.md",
-    "source_ledger_path": "papers/1780/condillac-logic-part1-ch5.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch5.audit.zh-CN.md",
-    "reproduction_path": "reproduction/condillac-1780-part1-ch5/README.md",
-    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=57",
+    "document_type": "完整四页哲学教学书籍章节，四条页边摘要、两组正文自引/三个引书位置；非独立期刊论文，非全书",
+    "pages": "实际1798第一部第六章54–57；58页第七章只核边界；1780本章页码未核",
+    "publication_scope": "两份1798同版不同册扫描，不是两版对校；1780只作书目归年。",
+    "why_selected": "先核当前README、已刊目录、idle进度和完整候选；I.VI关于习惯、由行动判断不可见心理、行动语言及规则评价有独立认知前史相关性。选择具体篇界而非自动遍历全书；本轮只完成该章，不补发追赶。",
+    "mathematical_boundary": "精确有理习惯递推、情境动作表反演与等价类、规范规则族枚举均为现代教学约定；不证明经验心理、他心、道德、自然法或神学。一般结论有证明，有限实跑仅核实现。",
+    "completion": "四页全文及边注/自引两扫描实际核读；原创中文全论证、20道含答案练习、现代模型证明、低成本标准库运行与独立来源/全文数学/代码审计；远端身份及实际GitHub浏览器另核。",
+    "article_path": "papers/1780/condillac-logic-part1-ch6.zh-CN.md",
+    "source_ledger_path": "papers/1780/condillac-logic-part1-ch6.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch6.audit.zh-CN.md",
+    "reproduction_path": "reproduction/condillac-1780-part1-ch6/README.md",
+    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=62",
     "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
     "bibliographic_record": "https://catalogue.bnf.fr/ark:/12148/cb30263583k",
-    "bibliographic_record_scope": "1798全集记录；1780由来源账本所链广岛经济大学馆藏目录第90项另核，不混同。",
+    "bibliographic_record_scope": "1798全集；1780另由广岛经济大学馆藏目录第90项核书目，不混同。",
     "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
-    "not_completed": "1780本章影像/原页码、全异文和更正史、I.VI及后续、全书及两组自引原著。Locke IV.X仅核1–6节数字转写作前驱比较，非全章/全书/原版核图或直接影响证明。真实心理/测量数据、模型扩展与所有旧候选、书籍、Euler扫描/版本、Curry/Church等缺口保留。",
-    "source_findings": "两册完整五页与两条边注相合；50页que parce nous sommes疑似缺第二个que按原印保留，拟校不冒充正式勘误；两组自引分开列四个对象/位置。未见适用独立勘误表的结论仅限明列范围。后半章全部第一原因与神性属性论证保留。"
+    "not_completed": "1780本章影像/页码、全部版本异文与更正史、I.VII及后续、全书及三个自引单位；Locke II.XXVIII仅4–8/14–16/20节数字转写有限比较，非原版影像/全章/直接影响证明。真实心理/规范数据、未实现模型扩展和全部旧候选、书籍、Euler版本、Curry/Church缺口保留。",
+    "source_findings": "四条边注和两组自引全核；55页paroisssent疑似重复s，两册一致，非正式勘误；正文Idées与目录Idée分别保留。未见独立勘误表仅限列明范围。灵魂、自然法及上帝立法论证未删改。"
   },
   "earlier_gap_priority": [
     {
@@ -1395,6 +1396,42 @@
       "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
       "not_completed": "1780本章影像/原页码、全异文和更正史、I.VI及后续、全书及两组自引原著。Locke IV.X仅核1–6节数字转写作前驱比较，非全章/全书/原版核图或直接影响证明。真实心理/测量数据、模型扩展与所有旧候选、书籍、Euler扫描/版本、Curry/Church等缺口保留。",
       "source_findings": "两册完整五页与两条边注相合；50页que parce nous sommes疑似缺第二个que按原印保留，拟校不冒充正式勘误；两组自引分开列四个对象/位置。未见适用独立勘误表的结论仅限明列范围。后半章全部第一原因与神性属性论证保留。"
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part1-ch6",
+      "authors": [
+        "Étienne Bonnot de Condillac"
+      ],
+      "title": "La Logique, ou les premiers développemens de l’art de penser, Première partie, Chapitre VI",
+      "chapter_title": "Continuation du même sujet",
+      "publication_year": 1780,
+      "publication_year_basis": "1780仅作已核一版书目年；实际读1798，不认证最早版次、1780原页码或逐字正文。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "54–57",
+        "pdf_pages": "IA/Wellcome62–65；Google同版另一册64–67，四页均双扫描核图"
+      },
+      "document_type": "完整四页哲学教学书籍章节，四条页边摘要、两组正文自引/三个引书位置；非独立期刊论文，非全书",
+      "pages": "实际1798第一部第六章54–57；58页第七章只核边界；1780本章页码未核",
+      "publication_scope": "两份1798同版不同册扫描，不是两版对校；1780只作书目归年。",
+      "why_selected": "先核当前README、已刊目录、idle进度和完整候选；I.VI关于习惯、由行动判断不可见心理、行动语言及规则评价有独立认知前史相关性。选择具体篇界而非自动遍历全书；本轮只完成该章，不补发追赶。",
+      "mathematical_boundary": "精确有理习惯递推、情境动作表反演与等价类、规范规则族枚举均为现代教学约定；不证明经验心理、他心、道德、自然法或神学。一般结论有证明，有限实跑仅核实现。",
+      "completion": "四页全文及边注/自引两扫描实际核读；原创中文全论证、20道含答案练习、现代模型证明、低成本标准库运行与独立来源/全文数学/代码审计；远端身份及实际GitHub浏览器另核。",
+      "article_path": "papers/1780/condillac-logic-part1-ch6.zh-CN.md",
+      "source_ledger_path": "papers/1780/condillac-logic-part1-ch6.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1780/condillac-logic-part1-ch6.audit.zh-CN.md",
+      "reproduction_path": "reproduction/condillac-1780-part1-ch6/README.md",
+      "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=62",
+      "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+      "bibliographic_record": "https://catalogue.bnf.fr/ark:/12148/cb30263583k",
+      "bibliographic_record_scope": "1798全集；1780另由广岛经济大学馆藏目录第90项核书目，不混同。",
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "not_completed": "1780本章影像/页码、全部版本异文与更正史、I.VII及后续、全书及三个自引单位；Locke II.XXVIII仅4–8/14–16/20节数字转写有限比较，非原版影像/全章/直接影响证明。真实心理/规范数据、未实现模型扩展和全部旧候选、书籍、Euler版本、Curry/Church缺口保留。",
+      "source_findings": "四条边注和两组自引全核；55页paroisssent疑似重复s，两册一致，非正式勘误；正文Idées与目录Idée分别保留。未见独立勘误表仅限列明范围。灵魂、自然法及上帝立法论证未删改。"
     }
   ],
   "next_source_gap": {
@@ -2342,6 +2379,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1780/condillac-logic-part1-ch5.zh-CN.md",
       "note": "仅1798I.V印49–53完整五页、两条边注及两组自引；1780书目年分开。20道含答案练习，可识别性与比例装置为现代教学模型，一般证明、真实标准库运行及三类独立复核。保留全部旧对象和缺口，远端与浏览器另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "condillac-1780-logic-part1-ch6",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1780/condillac-logic-part1-ch6.zh-CN.md",
+      "note": "仅1798I.VI54–57四页；四边注、两自引/三个位置，1780书目年分开。20道含答案练习、习惯/动作反演/规范集合现代模型与三类独立审计；旧对象和缺口保留，远端与浏览器另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2507,6 +2551,11 @@
         "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=57",
         "https://englishphilosophy.org/locke/ehu/4/10"
       ]
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part1-ch6",
+      "status": "bounded_chapter_only_remaining_gaps_open",
+      "gap": "1780本章影像/页码、全部版本异文与更正史、I.VII及后续、全书及三个自引单位；Locke II.XXVIII仅4–8/14–16/20节数字转写有限比较，非原版影像/全章/直接影响证明。真实心理/规范数据、未实现模型扩展和全部旧候选、书籍、Euler版本、Curry/Church缺口保留。"
     }
   ],
   "effective_status": {
@@ -2691,6 +2740,24 @@
       "pages": "1798第一部第五章49–53；54页第六章只核边界；1780章内页码未核",
       "publication_scope": "实际文字限1798版；两份同版扫描不是两个版本。1780只作已核书目年。",
       "not_completed": "1780本章影像/原页码、全异文和更正史、I.VI及后续、全书及两组自引原著。Locke IV.X仅核1–6节数字转写作前驱比较，非全章/全书/原版核图或直接影响证明。真实心理/测量数据、模型扩展与所有旧候选、书籍、Euler扫描/版本、Curry/Church等缺口保留。"
+    },
+    "condillac-1780-logic-part1-ch6": {
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "publication_year": 1780,
+      "publication_year_basis": "1780仅作已核一版书目年；实际读1798，不认证最早版次、1780原页码或逐字正文。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "54–57",
+        "pdf_pages": "IA/Wellcome62–65；Google同版另一册64–67，四页均双扫描核图"
+      },
+      "article_path": "papers/1780/condillac-logic-part1-ch6.zh-CN.md",
+      "pages": "实际1798第一部第六章54–57；58页第七章只核边界；1780本章页码未核",
+      "publication_scope": "两份1798同版不同册扫描，不是两版对校；1780只作书目归年。",
+      "not_completed": "1780本章影像/页码、全部版本异文与更正史、I.VII及后续、全书及三个自引单位；Locke II.XXVIII仅4–8/14–16/20节数字转写有限比较，非原版影像/全章/直接影响证明。真实心理/规范数据、未实现模型扩展和全部旧候选、书籍、Euler版本、Curry/Church缺口保留。"
     }
   }
 }

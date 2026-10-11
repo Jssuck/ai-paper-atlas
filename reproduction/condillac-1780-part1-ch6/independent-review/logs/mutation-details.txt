@@ -1,0 +1,3002 @@
+===== erase_initial_trace; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 92, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), ()), (Q(2, 5),))
+AssertionError: Tuples differ: (Fraction(0, 1),) != (Fraction(2, 5),)
+
+First differing element 0:
+Fraction(0, 1)
+Fraction(2, 5)
+
+- (Fraction(0, 1),)
+?           ^  ^
+
++ (Fraction(2, 5),)
+?           ^  ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== erase_initial_trace; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 92, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), ()), (Q(2, 5),))
+AssertionError: Tuples differ: (Fraction(0, 1),) != (Fraction(2, 5),)
+
+First differing element 0:
+Fraction(0, 1)
+Fraction(2, 5)
+
+- (Fraction(0, 1),)
+?           ^  ^
+
++ (Fraction(2, 5),)
+?           ^  ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== erase_initial_trace; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 92, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), ()), (Q(2, 5),))
+AssertionError: Tuples differ: (Fraction(0, 1),) != (Fraction(2, 5),)
+
+First differing element 0:
+Fraction(0, 1)
+Fraction(2, 5)
+
+- (Fraction(0, 1),)
+?           ^  ^
+
++ (Fraction(2, 5),)
+?           ^  ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== alpha_decay_instead_of_complement; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(6, 35) != Fraction(8, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(108, 2401) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== alpha_decay_instead_of_complement; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(6, 35) != Fraction(8, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(108, 2401) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== alpha_decay_instead_of_complement; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(6, 35) != Fraction(8, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(108, 2401) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== unweighted_practice; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(43, 35) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(48, 343) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== unweighted_practice; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(43, 35) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(48, 343) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== unweighted_practice; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 96, in test_habit_fraction_and_empty
+    self.assertEqual(habit_trace(Q(3, 7), Q(2, 5), bits)[-1], expected)
+AssertionError: Fraction(43, 35) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(48, 343) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== one_extra_initial_decay; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(8, 35) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
+
+FAILED (failures=1)
+
+===== one_extra_initial_decay; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(8, 35) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== one_extra_initial_decay; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(8, 35) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== one_extra_input_decay; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 97, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), bits), expected)
+AssertionError: Fraction(116, 245) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(576, 16807) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== one_extra_input_decay; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 97, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), bits), expected)
+AssertionError: Fraction(116, 245) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(576, 16807) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== one_extra_input_decay; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... FAIL
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 97, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), bits), expected)
+AssertionError: Fraction(116, 245) != Fraction(23, 35)
+
+======================================================================
+FAIL: test_habit_order (__main__.RegressionTests.test_habit_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 105, in test_habit_order
+    self.assertEqual(evaluator(alpha, initial, later) - evaluator(alpha, initial, earlier), delta)
+AssertionError: Fraction(576, 16807) != Fraction(144, 2401)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== closed_form_adds_baseline; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(7, 5) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
+
+FAILED (failures=1)
+
+===== closed_form_adds_baseline; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(7, 5) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== closed_form_adds_baseline; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... FAIL
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 93, in test_habit_fraction_and_empty
+    self.assertEqual(habit_closed_form(Q(3, 7), Q(2, 5), ()), Q(2, 5))
+AssertionError: Fraction(7, 5) != Fraction(2, 5)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_boolean_initial; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 112, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_boolean_initial; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 112, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_boolean_initial; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 112, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(TypeError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TypeError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== accept_boolean_inputs; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 121, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_boolean_inputs; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 121, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_boolean_inputs; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 121, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_endpoint_alpha; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 115, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_endpoint_alpha; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 115, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== accept_endpoint_alpha; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... FAIL
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 115, in test_habit_rejects_malformed_numbers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== indicator_always_one; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... FAIL
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_action_indicator (__main__.RegressionTests.test_action_indicator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 127, in test_action_indicator
+    self.assertEqual(action_inputs(iter(("pause", "go", "pause")), "pause"), (1, 0, 1))
+AssertionError: Tuples differ: (1, 1, 1) != (1, 0, 1)
+
+First differing element 1:
+1
+0
+
+- (1, 1, 1)
+?     ^
+
++ (1, 0, 1)
+?     ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== indicator_always_one; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... FAIL
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_action_indicator (__main__.RegressionTests.test_action_indicator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 127, in test_action_indicator
+    self.assertEqual(action_inputs(iter(("pause", "go", "pause")), "pause"), (1, 0, 1))
+AssertionError: Tuples differ: (1, 1, 1) != (1, 0, 1)
+
+First differing element 1:
+1
+0
+
+- (1, 1, 1)
+?     ^
+
++ (1, 0, 1)
+?     ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== indicator_always_one; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... FAIL
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_action_indicator (__main__.RegressionTests.test_action_indicator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 127, in test_action_indicator
+    self.assertEqual(action_inputs(iter(("pause", "go", "pause")), "pause"), (1, 0, 1))
+AssertionError: Tuples differ: (1, 1, 1) != (1, 0, 1)
+
+First differing element 1:
+1
+0
+
+- (1, 1, 1)
+?     ^
+
++ (1, 0, 1)
+?     ^
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== ignore_intention_row; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 168, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0",)), (("i0", "i1"), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i1', 'i2'),) != (('i0', 'i1'), ('i2',))
+
+First differing element 0:
+('i0', 'i1', 'i2')
+('i0', 'i1')
+
+Second tuple contains 1 additional elements.
+First extra element 1:
+('i2',)
+
+- (('i0', 'i1', 'i2'),)
+?                   -
+
++ (('i0', 'i1'), ('i2',))
+?             +  +      +
+
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i1', 'i2') != ('i0',)
+
+First tuple contains 2 additional elements.
+First extra element 1:
+'i1'
+
+- ('i0', 'i1', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== ignore_intention_row; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 168, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0",)), (("i0", "i1"), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i1', 'i2'),) != (('i0', 'i1'), ('i2',))
+
+First differing element 0:
+('i0', 'i1', 'i2')
+('i0', 'i1')
+
+Second tuple contains 1 additional elements.
+First extra element 1:
+('i2',)
+
+- (('i0', 'i1', 'i2'),)
+?                   -
+
++ (('i0', 'i1'), ('i2',))
+?             +  +      +
+
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i1', 'i2') != ('i0',)
+
+First tuple contains 2 additional elements.
+First extra element 1:
+'i1'
+
+- ('i0', 'i1', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== ignore_intention_row; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 168, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0",)), (("i0", "i1"), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i1', 'i2'),) != (('i0', 'i1'), ('i2',))
+
+First differing element 0:
+('i0', 'i1', 'i2')
+('i0', 'i1')
+
+Second tuple contains 1 additional elements.
+First extra element 1:
+('i2',)
+
+- (('i0', 'i1', 'i2'),)
+?                   -
+
++ (('i0', 'i1'), ('i2',))
+?             +  +      +
+
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i1', 'i2') != ('i0',)
+
+First tuple contains 2 additional elements.
+First extra element 1:
+'i1'
+
+- ('i0', 'i1', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== only_last_observation; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i2') != ('i0',)
+
+First tuple contains 1 additional elements.
+First extra element 1:
+'i2'
+
+- ('i0', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== only_last_observation; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i2') != ('i0',)
+
+First tuple contains 1 additional elements.
+First extra element 1:
+'i2'
+
+- ('i0', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== only_last_observation; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: ('i0', 'i2') != ('i0',)
+
+First tuple contains 1 additional elements.
+First extra element 1:
+'i2'
+
+- ('i0', 'i2')
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== reject_matching_observations; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: () != ('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== reject_matching_observations; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: () != ('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== reject_matching_observations; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 160, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, (("c0", "a"), ("c1", "a"))), ("i0",))
+AssertionError: Tuples differ: () != ('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0',)
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== empty_record_has_no_candidates; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 177, in test_empty_shapes_and_snapshot
+    self.assertEqual(compatible_intentions(p, ()), ("i0", "i1"))
+AssertionError: Tuples differ: () != ('i0', 'i1')
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1')
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 159, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, ()), p.intentions)
+AssertionError: Tuples differ: () != ('i0', 'i1', 'i2')
+
+Second tuple contains 3 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1', 'i2')
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== empty_record_has_no_candidates; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 177, in test_empty_shapes_and_snapshot
+    self.assertEqual(compatible_intentions(p, ()), ("i0", "i1"))
+AssertionError: Tuples differ: () != ('i0', 'i1')
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1')
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 159, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, ()), p.intentions)
+AssertionError: Tuples differ: () != ('i0', 'i1', 'i2')
+
+Second tuple contains 3 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1', 'i2')
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== empty_record_has_no_candidates; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... FAIL
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 177, in test_empty_shapes_and_snapshot
+    self.assertEqual(compatible_intentions(p, ()), ("i0", "i1"))
+AssertionError: Tuples differ: () != ('i0', 'i1')
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1')
+
+======================================================================
+FAIL: test_policy_intersection (__main__.RegressionTests.test_policy_intersection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 159, in test_policy_intersection
+    self.assertEqual(compatible_intentions(p, ()), p.intentions)
+AssertionError: Tuples differ: () != ('i0', 'i1', 'i2')
+
+Second tuple contains 3 additional elements.
+First extra element 0:
+'i0'
+
+- ()
++ ('i0', 'i1', 'i2')
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== last_context_partition_only; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 169, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0", "c1")), (("i0",), ("i1",), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i2'), ('i1',)) != (('i0',), ('i1',), ('i2',))
+
+First differing element 0:
+('i0', 'i2')
+('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 2:
+('i2',)
+
+- (('i0', 'i2'), ('i1',))
++ (('i0',), ('i1',), ('i2',))
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== last_context_partition_only; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 169, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0", "c1")), (("i0",), ("i1",), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i2'), ('i1',)) != (('i0',), ('i1',), ('i2',))
+
+First differing element 0:
+('i0', 'i2')
+('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 2:
+('i2',)
+
+- (('i0', 'i2'), ('i1',))
++ (('i0',), ('i1',), ('i2',))
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== last_context_partition_only; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 169, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ("c0", "c1")), (("i0",), ("i1",), ("i2",)))
+AssertionError: Tuples differ: (('i0', 'i2'), ('i1',)) != (('i0',), ('i1',), ('i2',))
+
+First differing element 0:
+('i0', 'i2')
+('i0',)
+
+Second tuple contains 1 additional elements.
+First extra element 2:
+('i2',)
+
+- (('i0', 'i2'), ('i1',))
++ (('i0',), ('i1',), ('i2',))
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== never_merge_equivalent_intentions; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 178, in test_empty_shapes_and_snapshot
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1"),))
+AssertionError: Tuples differ: (('i0',), ('i1',)) != (('i0', 'i1'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1')
+
+First tuple contains 1 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',))
+?        ^^^^      -
+
++ (('i0', 'i1'),)
+?        ^    +
+
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 167, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1", "i2"),))
+AssertionError: Tuples differ: (('i0',), ('i1',), ('i2',)) != (('i0', 'i1', 'i2'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1', 'i2')
+
+First tuple contains 2 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',), ('i2',))
+?        ^^^^     ^^^^      -
+
++ (('i0', 'i1', 'i2'),)
+?        ^     ^    +
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== never_merge_equivalent_intentions; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 178, in test_empty_shapes_and_snapshot
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1"),))
+AssertionError: Tuples differ: (('i0',), ('i1',)) != (('i0', 'i1'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1')
+
+First tuple contains 1 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',))
+?        ^^^^      -
+
++ (('i0', 'i1'),)
+?        ^    +
+
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 167, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1", "i2"),))
+AssertionError: Tuples differ: (('i0',), ('i1',), ('i2',)) != (('i0', 'i1', 'i2'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1', 'i2')
+
+First tuple contains 2 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',), ('i2',))
+?        ^^^^     ^^^^      -
+
++ (('i0', 'i1', 'i2'),)
+?        ^     ^    +
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== never_merge_equivalent_intentions; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... FAIL
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... FAIL
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 178, in test_empty_shapes_and_snapshot
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1"),))
+AssertionError: Tuples differ: (('i0',), ('i1',)) != (('i0', 'i1'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1')
+
+First tuple contains 1 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',))
+?        ^^^^      -
+
++ (('i0', 'i1'),)
+?        ^    +
+
+
+======================================================================
+FAIL: test_partition_refinement (__main__.RegressionTests.test_partition_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 167, in test_partition_refinement
+    self.assertEqual(behavioral_classes(p, ()), (("i0", "i1", "i2"),))
+AssertionError: Tuples differ: (('i0',), ('i1',), ('i2',)) != (('i0', 'i1', 'i2'),)
+
+First differing element 0:
+('i0',)
+('i0', 'i1', 'i2')
+
+First tuple contains 2 additional elements.
+First extra element 1:
+('i1',)
+
+- (('i0',), ('i1',), ('i2',))
+?        ^^^^     ^^^^      -
+
++ (('i0', 'i1', 'i2'),)
+?        ^     ^    +
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=2)
+
+===== required_strict_subset; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the second set but not the first:
+frozenset({'a'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== required_strict_subset; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the second set but not the first:
+frozenset({'a'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== required_strict_subset; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the second set but not the first:
+frozenset({'a'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== forbidden_means_required; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the first set but not the second:
+frozenset({'b', 'a', 'c', 'd'})
+frozenset({'b', 'a', 'd'})
+Items in the second set but not the first:
+frozenset({'a', 'c'})
+frozenset({'a'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== forbidden_means_required; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the first set but not the second:
+frozenset({'a', 'd', 'b'})
+frozenset({'a', 'c', 'd', 'b'})
+Items in the second set but not the first:
+frozenset({'a'})
+frozenset({'a', 'c'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== forbidden_means_required; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 218, in test_norm_family_constraints
+    self.assertEqual(set(admissible_norms(u, ("a",), ("b", "d"))),
+AssertionError: Items in the first set but not the second:
+frozenset({'d', 'b', 'a'})
+frozenset({'c', 'd', 'b', 'a'})
+Items in the second set but not the first:
+frozenset({'c', 'a'})
+frozenset({'a'})
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== overlap_has_one_code; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 220, in test_norm_family_constraints
+    self.assertEqual(admissible_norms(u, ("a",), ("a",)), ())
+AssertionError: Tuples differ: (frozenset({'a'}),) != ()
+
+First tuple contains 1 additional elements.
+First extra element 0:
+frozenset({'a'})
+
+- (frozenset({'a'}),)
++ ()
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.006s
+
+FAILED (failures=1)
+
+===== overlap_has_one_code; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 220, in test_norm_family_constraints
+    self.assertEqual(admissible_norms(u, ("a",), ("a",)), ())
+AssertionError: Tuples differ: (frozenset({'a'}),) != ()
+
+First tuple contains 1 additional elements.
+First extra element 0:
+frozenset({'a'})
+
+- (frozenset({'a'}),)
++ ()
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== overlap_has_one_code; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... FAIL
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 220, in test_norm_family_constraints
+    self.assertEqual(admissible_norms(u, ("a",), ("a",)), ())
+AssertionError: Tuples differ: (frozenset({'a'}),) != ()
+
+First tuple contains 1 additional elements.
+First extra element 0:
+frozenset({'a'})
+
+- (frozenset({'a'}),)
++ ()
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== empty_family_forbids; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 225, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ()), "inconsistent")
+AssertionError: 'all_forbid' != 'inconsistent'
+- all_forbid
++ inconsistent
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== empty_family_forbids; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 225, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ()), "inconsistent")
+AssertionError: 'all_forbid' != 'inconsistent'
+- all_forbid
++ inconsistent
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== empty_family_forbids; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 225, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ()), "inconsistent")
+AssertionError: 'all_forbid' != 'inconsistent'
+- all_forbid
++ inconsistent
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== any_permit_means_all_permit; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_permit' != 'underdetermined'
+- all_permit
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== any_permit_means_all_permit; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_permit' != 'underdetermined'
+- all_permit
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== any_permit_means_all_permit; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_permit' != 'underdetermined'
+- all_permit
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.004s
+
+FAILED (failures=1)
+
+===== any_forbid_means_all_forbid; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_forbid' != 'underdetermined'
+- all_forbid
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+FAILED (failures=1)
+
+===== any_forbid_means_all_forbid; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_forbid' != 'underdetermined'
+- all_forbid
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== any_forbid_means_all_forbid; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 1,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... FAIL
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 228, in test_four_normative_statuses
+    self.assertEqual(normative_status("a", u, ((), ("a",))), "underdetermined")
+AssertionError: 'all_forbid' != 'underdetermined'
+- all_forbid
++ underdetermined
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=1)
+
+===== allow_duplicate_labels; mode=normal =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 0,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... FAIL
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... FAIL
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_malformed (__main__.RegressionTests.test_norm_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 234, in test_norm_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_policy_malformed (__main__.RegressionTests.test_policy_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 196, in test_policy_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)
+
+===== allow_duplicate_labels; mode=O =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 1,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... FAIL
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... FAIL
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_malformed (__main__.RegressionTests.test_norm_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 234, in test_norm_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_policy_malformed (__main__.RegressionTests.test_policy_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 196, in test_policy_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
+
+FAILED (failures=2)
+
+===== allow_duplicate_labels; mode=OO =====
+{
+  "status": "FAIL",
+  "tests": 12,
+  "failures": 2,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {}
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... FAIL
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... FAIL
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+
+======================================================================
+FAIL: test_norm_malformed (__main__.RegressionTests.test_norm_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 234, in test_norm_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_policy_malformed (__main__.RegressionTests.test_policy_malformed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent-review/test_independent.py", line 196, in test_policy_malformed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.003s
+
+FAILED (failures=2)

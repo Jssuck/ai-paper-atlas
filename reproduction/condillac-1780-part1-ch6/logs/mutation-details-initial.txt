@@ -1,0 +1,449 @@
+===== remove_decay =====
+....FF.FFFF.....F..........
+======================================================================
+FAIL: test_closed_form_nonzero_initial (test_model.HabitTests.test_closed_form_nonzero_initial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 18, in test_closed_form_nonzero_initial
+    self.assertEqual(habit_trace(Q(2, 3), Q(1, 4), (1, 0, 1))[-1], Q(3, 4))
+AssertionError: Fraction(19, 12) != Fraction(3, 4)
+
+======================================================================
+FAIL: test_connected_trace (test_model.HabitTests.test_connected_trace)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 13, in test_connected_trace
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1, 1, 1, 0, 0)),
+AssertionError: Tuples differ: (Frac[30 chars]action(1, 1), Fraction(3, 2), Fraction(3, 2), Fraction(3, 2)) != (Frac[30 chars]action(3, 4), Fraction(7, 8), Fraction(7, 16), Fraction(7, 32))
+
+First differing element 2:
+Fraction(1, 1)
+Fraction(3, 4)
+
+  (Fraction(0, 1),
+   Fraction(1, 2),
+-  Fraction(1, 1),
+-  Fraction(3, 2),
+?              ^
+
++  Fraction(3, 4),
+?              ^
+
+-  Fraction(3, 2),
+?           ^  ^
+
++  Fraction(7, 8),
+?           ^  ^
+
++  Fraction(7, 16),
+-  Fraction(3, 2))
+?            --
+
++  Fraction(7, 32))
+?           +++
+
+
+======================================================================
+FAIL: test_endpoint_fixed_points (test_model.HabitTests.test_endpoint_fixed_points)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 38, in test_endpoint_fixed_points
+    self.assertEqual(habit_trace(Q(1, 3), 1, (1, 1)), (Q(1),) * 3)
+AssertionError: Tuples differ: (Fraction(1, 1), Fraction(4, 3), Fraction(5, 3)) != (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1))
+
+First differing element 1:
+Fraction(4, 3)
+Fraction(1, 1)
+
+- (Fraction(1, 1), Fraction(4, 3), Fraction(5, 3))
+?                           ^  ^            ^  ^
+
++ (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1))
+?                           ^  ^            ^  ^
+
+
+======================================================================
+FAIL: test_initial_difference_contracts (test_model.HabitTests.test_initial_difference_contracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 35, in test_initial_difference_contracts
+    self.assertEqual(difference, (1 - a) ** len(path) * Q(3, 5))
+AssertionError: Fraction(3, 5) != Fraction(243, 3125)
+
+======================================================================
+FAIL: test_order_matters (test_model.HabitTests.test_order_matters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 29, in test_order_matters
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1, 0))[-1], Q(1, 4))
+AssertionError: Fraction(1, 2) != Fraction(1, 4)
+
+======================================================================
+FAIL: test_repetition_and_disuse (test_model.HabitTests.test_repetition_and_disuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 25, in test_repetition_and_disuse
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1,) * 8)[-1], Q(255, 256))
+AssertionError: Fraction(4, 1) != Fraction(255, 256)
+
+======================================================================
+FAIL: test_same_habit_opposite_norms (test_model.NormTests.test_same_habit_opposite_norms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 186, in test_same_habit_opposite_norms
+    self.assertEqual(value, Q(7, 8))
+AssertionError: Fraction(3, 2) != Fraction(7, 8)
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.009s
+
+FAILED (failures=7)
+
+===== invert_practice =====
+....FF.F.FF.....F..........
+======================================================================
+FAIL: test_closed_form_nonzero_initial (test_model.HabitTests.test_closed_form_nonzero_initial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 18, in test_closed_form_nonzero_initial
+    self.assertEqual(habit_trace(Q(2, 3), Q(1, 4), (1, 0, 1))[-1], Q(3, 4))
+AssertionError: Fraction(25, 108) != Fraction(3, 4)
+
+======================================================================
+FAIL: test_connected_trace (test_model.HabitTests.test_connected_trace)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 13, in test_connected_trace
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1, 1, 1, 0, 0)),
+AssertionError: Tuples differ: (Frac[16 chars]tion(0, 1), Fraction(0, 1), Fraction(0, 1), Fr[24 chars], 4)) != (Frac[16 chars]tion(1, 2), Fraction(3, 4), Fraction(7, 8), Fr[26 chars] 32))
+
+First differing element 1:
+Fraction(0, 1)
+Fraction(1, 2)
+
+  (Fraction(0, 1),
+-  Fraction(0, 1),
+-  Fraction(0, 1),
+-  Fraction(0, 1),
+   Fraction(1, 2),
+-  Fraction(3, 4))
+?                ^
+
++  Fraction(3, 4),
+?                ^
+
++  Fraction(7, 8),
++  Fraction(7, 16),
++  Fraction(7, 32))
+
+======================================================================
+FAIL: test_endpoint_fixed_points (test_model.HabitTests.test_endpoint_fixed_points)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 38, in test_endpoint_fixed_points
+    self.assertEqual(habit_trace(Q(1, 3), 1, (1, 1)), (Q(1),) * 3)
+AssertionError: Tuples differ: (Fraction(1, 1), Fraction(2, 3), Fraction(4, 9)) != (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1))
+
+First differing element 1:
+Fraction(2, 3)
+Fraction(1, 1)
+
+- (Fraction(1, 1), Fraction(2, 3), Fraction(4, 9))
+?                           ^  ^            ^  ^
+
++ (Fraction(1, 1), Fraction(1, 1), Fraction(1, 1))
+?                           ^  ^            ^  ^
+
+
+======================================================================
+FAIL: test_order_matters (test_model.HabitTests.test_order_matters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 29, in test_order_matters
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1, 0))[-1], Q(1, 4))
+AssertionError: Fraction(1, 2) != Fraction(1, 4)
+
+======================================================================
+FAIL: test_repetition_and_disuse (test_model.HabitTests.test_repetition_and_disuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 25, in test_repetition_and_disuse
+    self.assertEqual(habit_trace(Q(1, 2), 0, (1,) * 8)[-1], Q(255, 256))
+AssertionError: Fraction(0, 1) != Fraction(255, 256)
+
+======================================================================
+FAIL: test_same_habit_opposite_norms (test_model.NormTests.test_same_habit_opposite_norms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 186, in test_same_habit_opposite_norms
+    self.assertEqual(value, Q(7, 8))
+AssertionError: Fraction(0, 1) != Fraction(7, 8)
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.005s
+
+FAILED (failures=6)
+
+===== reverse_time_weights =====
+...........................
+----------------------------------------------------------------------
+Ran 27 tests in 0.003s
+
+OK
+
+===== invert_action_indicator =====
+F..........................
+======================================================================
+FAIL: test_action_indicator (test_model.HabitTests.test_action_indicator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 42, in test_action_indicator
+    self.assertEqual(action_inputs(("withdraw", "stay", "withdraw"), "withdraw"), (1, 0, 1))
+AssertionError: Tuples differ: (0, 1, 0) != (1, 0, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 1, 0)
++ (1, 0, 1)
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.004s
+
+FAILED (failures=1)
+
+===== any_observation_suffices =====
+.....................F..F.F
+======================================================================
+FAIL: test_impossible_and_conflicting (test_model.PolicyTests.test_impossible_and_conflicting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 92, in test_impossible_and_conflicting
+    self.assertEqual(compatible_intentions(self.policy, (("alarm", "withdraw"), ("alarm", "stay"))), ())
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ()
+
+First tuple contains 3 additional elements.
+First extra element 0:
+'fear_harm'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
++ ()
+
+======================================================================
+FAIL: test_prefix_candidates (test_model.PolicyTests.test_prefix_candidates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 79, in test_prefix_candidates
+    self.assertEqual(compatible_intentions(self.policy, observations[:2]), ("fear_harm", "desire_rest"))
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ('fear_harm', 'desire_rest')
+
+First differing element 1:
+'desire_quiet'
+'desire_rest'
+
+First tuple contains 1 additional elements.
+First extra element 2:
+'desire_rest'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
+?              ----------------
+
++ ('fear_harm', 'desire_rest')
+
+======================================================================
+FAIL: test_transfer_counterexample (test_model.PolicyTests.test_transfer_counterexample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 109, in test_transfer_counterexample
+    self.assertEqual(data["inferred_with_observers_table"], ("fear_harm",))
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ('fear_harm',)
+
+First tuple contains 2 additional elements.
+First extra element 1:
+'desire_quiet'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
++ ('fear_harm',)
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.007s
+
+FAILED (failures=3)
+
+===== discard_later_observations =====
+.....................F..F.F
+======================================================================
+FAIL: test_impossible_and_conflicting (test_model.PolicyTests.test_impossible_and_conflicting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 92, in test_impossible_and_conflicting
+    self.assertEqual(compatible_intentions(self.policy, (("alarm", "withdraw"), ("alarm", "stay"))), ())
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ()
+
+First tuple contains 3 additional elements.
+First extra element 0:
+'fear_harm'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
++ ()
+
+======================================================================
+FAIL: test_prefix_candidates (test_model.PolicyTests.test_prefix_candidates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 79, in test_prefix_candidates
+    self.assertEqual(compatible_intentions(self.policy, observations[:2]), ("fear_harm", "desire_rest"))
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ('fear_harm', 'desire_rest')
+
+First differing element 1:
+'desire_quiet'
+'desire_rest'
+
+First tuple contains 1 additional elements.
+First extra element 2:
+'desire_rest'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
+?              ----------------
+
++ ('fear_harm', 'desire_rest')
+
+======================================================================
+FAIL: test_transfer_counterexample (test_model.PolicyTests.test_transfer_counterexample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 109, in test_transfer_counterexample
+    self.assertEqual(data["inferred_with_observers_table"], ("fear_harm",))
+AssertionError: Tuples differ: ('fear_harm', 'desire_quiet', 'desire_rest') != ('fear_harm',)
+
+First tuple contains 2 additional elements.
+First extra element 1:
+'desire_quiet'
+
+- ('fear_harm', 'desire_quiet', 'desire_rest')
++ ('fear_harm',)
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.004s
+
+FAILED (failures=3)
+
+===== discard_later_contexts =====
+....................F......
+======================================================================
+FAIL: test_equivalence_refinement (test_model.PolicyTests.test_equivalence_refinement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 85, in test_equivalence_refinement
+    self.assertEqual(behavioral_classes(self.policy, ("alarm", "quiet")),
+AssertionError: Tuples differ: (('fear_harm', 'desire_quiet', 'desire_rest'),) != (('fear_harm', 'desire_rest'), ('desire_quiet',))
+
+First differing element 0:
+('fear_harm', 'desire_quiet', 'desire_rest')
+('fear_harm', 'desire_rest')
+
+Second tuple contains 1 additional elements.
+First extra element 1:
+('desire_quiet',)
+
+- (('fear_harm', 'desire_quiet', 'desire_rest'),)
++ (('fear_harm', 'desire_rest'), ('desire_quiet',))
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.004s
+
+FAILED (failures=1)
+
+===== ignore_required_actions =====
+............F..F...........
+======================================================================
+FAIL: test_full_bridge (test_model.NormTests.test_full_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 158, in test_full_bridge
+    self.assertEqual(codes, (frozenset(("withdraw", "stay")),))
+AssertionError: Tuples differ: (frozenset(), frozenset({'withdraw'}), frozenset({'s[35 chars]y'})) != (frozenset({'withdraw', 'stay'}),)
+
+First differing element 0:
+frozenset()
+frozenset({'withdraw', 'stay'})
+
+First tuple contains 3 additional elements.
+First extra element 1:
+frozenset({'withdraw'})
+
+- (frozenset(),
+-  frozenset({'withdraw'}),
+-  frozenset({'stay'}),
+-  frozenset({'withdraw', 'stay'}))
+? ^
+
++ (frozenset({'withdraw', 'stay'}),)
+? ^                               +
+
+
+======================================================================
+FAIL: test_partial_bridge (test_model.NormTests.test_partial_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 151, in test_partial_bridge
+    self.assertEqual(set(codes), {frozenset(("stay",)), frozenset(("stay", "withdraw"))})
+AssertionError: Items in the first set but not the second:
+frozenset()
+frozenset({'withdraw'})
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.005s
+
+FAILED (failures=2)
+
+===== ignore_forbidden_actions =====
+............F..F...........
+======================================================================
+FAIL: test_full_bridge (test_model.NormTests.test_full_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 158, in test_full_bridge
+    self.assertEqual(codes, (frozenset(("withdraw", "stay")),))
+AssertionError: Tuples differ: (frozenset({'withdraw', 'stay'}), frozenset({'withdraw', 'stay', 'approach'})) != (frozenset({'withdraw', 'stay'}),)
+
+First tuple contains 1 additional elements.
+First extra element 1:
+frozenset({'withdraw', 'stay', 'approach'})
+
+- (frozenset({'withdraw', 'stay'}), frozenset({'withdraw', 'stay', 'approach'}))
++ (frozenset({'withdraw', 'stay'}),)
+
+======================================================================
+FAIL: test_partial_bridge (test_model.NormTests.test_partial_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 151, in test_partial_bridge
+    self.assertEqual(set(codes), {frozenset(("stay",)), frozenset(("stay", "withdraw"))})
+AssertionError: Items in the first set but not the second:
+frozenset({'stay', 'approach'})
+frozenset({'withdraw', 'stay', 'approach'})
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.011s
+
+FAILED (failures=2)
+
+===== empty_family_permits =====
+.............F.............
+======================================================================
+FAIL: test_inconsistent_bridge (test_model.NormTests.test_inconsistent_bridge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_model.py", line 164, in test_inconsistent_bridge
+    self.assertEqual(normative_status("withdraw", self.universe, codes), "inconsistent")
+AssertionError: 'all_permit' != 'inconsistent'
+- all_permit
++ inconsistent
+
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.003s
+
+FAILED (failures=1)

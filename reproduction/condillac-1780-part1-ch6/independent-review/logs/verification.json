@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "utc_started": "2026-10-11T19:01:10.911802+00:00",
+  "utc_finished": "2026-10-11T19:01:45.240904+00:00",
+  "scope": "Independent reviewer scripts; bounded checks and targeted mutations are not a proof of all inputs or philosophical claims.",
+  "sources_unchanged_during_run": true,
+  "bare_assert_nodes": [],
+  "reviewer_summaries_identical_except_optimize": true,
+  "demo_text_identical": true,
+  "private_path_hits": [],
+  "independent_summaries": [
+    {
+      "status": "PASS",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "optimize": 0,
+      "counts": {
+        "arbitrary_family_status_queries": 768,
+        "arbitrary_norm_families": 256,
+        "bridge_status_queries": 1252,
+        "candidate_equals_equivalence_class": 12288,
+        "habit_histories": 3175,
+        "habit_metamorphic_cases": 15,
+        "norm_bridge_pairs": 341,
+        "partition_refinements": 13824,
+        "policy_partitions": 4096,
+        "policy_records": 132608,
+        "policy_tables": 512,
+        "reset_histories_integrated": 136525
+      }
+    },
+    {
+      "status": "PASS",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "optimize": 1,
+      "counts": {
+        "arbitrary_family_status_queries": 768,
+        "arbitrary_norm_families": 256,
+        "bridge_status_queries": 1252,
+        "candidate_equals_equivalence_class": 12288,
+        "habit_histories": 3175,
+        "habit_metamorphic_cases": 15,
+        "norm_bridge_pairs": 341,
+        "partition_refinements": 13824,
+        "policy_partitions": 4096,
+        "policy_records": 132608,
+        "policy_tables": 512,
+        "reset_histories_integrated": 136525
+      }
+    },
+    {
+      "status": "PASS",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "optimize": 2,
+      "counts": {
+        "arbitrary_family_status_queries": 768,
+        "arbitrary_norm_families": 256,
+        "bridge_status_queries": 1252,
+        "candidate_equals_equivalence_class": 12288,
+        "habit_histories": 3175,
+        "habit_metamorphic_cases": 15,
+        "norm_bridge_pairs": 341,
+        "partition_refinements": 13824,
+        "policy_partitions": 4096,
+        "policy_records": 132608,
+        "policy_tables": 512,
+        "reset_histories_integrated": 136525
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage": "independent-normal",
+      "command": [
+        "python",
+        "-B",
+        "independent-review/test_independent.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 3.818659,
+      "log": "logs/independent-normal.txt"
+    },
+    {
+      "stage": "author-unit-normal",
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.113834,
+      "log": "logs/author-unit-normal.txt"
+    },
+    {
+      "stage": "author-oracle-normal",
+      "command": [
+        "python",
+        "-B",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.637648,
+      "log": "logs/author-oracle-normal.txt"
+    },
+    {
+      "stage": "demo-normal",
+      "command": [
+        "python",
+        "-B",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.051817,
+      "log": "logs/demo-normal.txt"
+    },
+    {
+      "stage": "independent-O",
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "independent-review/test_independent.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 4.025397,
+      "log": "logs/independent-O.txt"
+    },
+    {
+      "stage": "author-unit-O",
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.315314,
+      "log": "logs/author-unit-O.txt"
+    },
+    {
+      "stage": "author-oracle-O",
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.769634,
+      "log": "logs/author-oracle-O.txt"
+    },
+    {
+      "stage": "demo-O",
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.198578,
+      "log": "logs/demo-O.txt"
+    },
+    {
+      "stage": "independent-OO",
+      "command": [
+        "python",
+        "-B",
+        "-OO",
+        "independent-review/test_independent.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 4.016036,
+      "log": "logs/independent-OO.txt"
+    },
+    {
+      "stage": "author-unit-OO",
+      "command": [
+        "python",
+        "-B",
+        "-OO",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.333834,
+      "log": "logs/author-unit-OO.txt"
+    },
+    {
+      "stage": "author-oracle-OO",
+      "command": [
+        "python",
+        "-B",
+        "-OO",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.740371,
+      "log": "logs/author-oracle-OO.txt"
+    },
+    {
+      "stage": "demo-OO",
+      "command": [
+        "python",
+        "-B",
+        "-OO",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.207239,
+      "log": "logs/demo-OO.txt"
+    },
+    {
+      "stage": "independent-semantic-mutations-all-modes",
+      "command": [
+        "python",
+        "-B",
+        "independent-review/mutations_independent.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 19.057944,
+      "log": "logs/mutations.json"
+    }
+  ],
+  "source_sha256": {
+    "MODEL.zh-CN.md": "5223fff1f096694989fc3de142e9f1ad3bf52b2cd3b77b83f55a58d7b268124c",
+    "README.md": "91686d5a0ea5d672d0ff2e9be679d5ba1e4047260a49f29d715e5e5178d61341",
+    "WALKTHROUGH.zh-CN.md": "532764afcb87eaaa71e62b90fe0fa1f62cb7b0be5a47865d1c900b0c0ec12819",
+    "action_model.py": "11ae65148d998a9eb08d42c9e12315c6ff837256092bb7de00ac347e20301f27",
+    "demo.py": "b158bc9401bb40a382b772c3cd37959b9bbfa4b27f035619504a3cff084b8132",
+    "finite_oracle.py": "7c8c050ed6994faa0da350e0821919521b250017ddb80230c8c1f63300f8c580",
+    "habit_model.py": "e7989872c3b4ef7160a08534cbe6efd92f04d4534900f41d1dfb75e46f1dc311",
+    "independent-review/README.md": "f1bfa3722abcdeee6995dbfd06b4738e82ecd44d2c5ee23077ac3680e3783c22",
+    "independent-review/mutations_independent.py": "ee70ef0eb6d86241277663d3e2ca7d27582c229752707b705500a5be547a1a7a",
+    "independent-review/run_review.py": "d9925687be7d70582c3db4ce5a5b42fb16e95b8b01314f46a366811290422193",
+    "independent-review/test_independent.py": "e8d8adc471ea8372c20f6b315e6bcfe0d5081a57f2bbf8fbf5d47c33d8a81dba",
+    "mutation_check.py": "5382236781e74a437c4eb5687dffc9819c90b396ec9773fffcfc564d57e16ffe",
+    "tests/test_model.py": "57261a6438862b719f68fcf9b5650af1723331958a9bf28a5373a5628a4d5f41",
+    "verify.py": "8e87bee91f75a2c72d9e5a155aa5baea8bb3d63966e67f74a95fa0399e03d7e1"
+  }
+}

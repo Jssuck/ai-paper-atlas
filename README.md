@@ -23,6 +23,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.III精读](papers/1780/condillac-logic-part1-ch3.zh-CN.md) | AI认知前史：结构表象、实践技能与分析法边界 | 深读v1 · 完整书籍章节25–31及五条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.IV精读](papers/1780/condillac-logic-part1-ch4.zh-CN.md) | AI认知前史：按需分类、观察边界与准确而不完整 | 深读v1 · 完整书籍章节32–48及17条边注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.V精读](papers/1780/condillac-logic-part1-ch5.zh-CN.md) | AI认知前史：不可见原因、命名、关系测量与属性推论 | 深读v1 · 完整书籍章节49–53及两条边注 |
+| 1780（本次读1798版） | [Condillac《逻辑学》I.VI精读](papers/1780/condillac-logic-part1-ch6.zh-CN.md) | AI认知前史：习惯、行动解释与规范根据的边界 | 深读v1 · 完整书籍章节54–57及四条边注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -327,3 +328,12 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成1798《全集》XXII卷I.V印49–53完整五页、两条边注与两组正文自引，两份同版扫描逐页核图；1780仅为一版书目年，不认证最早版本、原页码或逐字文字。全章包含力的命名、关系性测量、局部准确认识，以及第一原因、智慧、自由和神性属性的全部论证，20题附答案。50页两册共同疑似漏que按原印记录；未见适用勘误表只限明确核查范围。
 
 现代有限候选模型严格区分原因存在、身份、属性、证据与附加假设，精确有理比例装置展示乘积可识别而分量不唯一；均非历史算法、牛顿定律、心理实验或神学检验。一般证明、有限枚举、变异测试、实际环境命令与独立审计见运行附件；有限检查不证明一般定理或形而上学结论。I.VI及后续、全书、1780文字与版本史、自引原著、Locke全章及所有既有候选/书籍缺口保留。无Notebook或Jupyter执行声称。
+
+## Condillac逻辑学第一部第六章可运行附件
+
+- [习惯递推、动作反演与规范集合](reproduction/condillac-1780-part1-ch6/README.md)
+- [模型与一般证明](reproduction/condillac-1780-part1-ch6/MODEL.zh-CN.md) · [逐步教学](reproduction/condillac-1780-part1-ch6/WALKTHROUGH.zh-CN.md)
+- [原文与校勘账本](papers/1780/condillac-logic-part1-ch6.sources.zh-CN.md) · [独立全论证审计](papers/1780/condillac-logic-part1-ch6.audit.zh-CN.md)
+- [独立代码复核](reproduction/condillac-1780-part1-ch6/independent-review/review.zh-CN.md)
+
+完成1798第二十二卷I.VI印54–57全四页、四条边注及两组自引的双扫描核读；1780只作书目年，两册不是两版。55页疑似paroisssent多s、正文Idées与目录Idée区别保留；未见勘误表仅限列明检查范围。习惯、从身体判断心理、行动语言、道德规则及自然/神学根据全部解释。三个现代教学模型有一般证明、准确命令、实跑日志和独立核验，具体计数见附件；不把程序成功当作心理或规范学说证明。20道含答案练习，无需额外Notebook。I.VII、全书、自引、原版更正史及全部旧候选缺口保留。

@@ -1,0 +1,203 @@
+{
+  "scope": "Modern stipulated teaching model; not psychology, ethics, history, or theology proof.",
+  "habit": {
+    "tracked_action": "withdraw",
+    "alpha": "1/2",
+    "initial": "0",
+    "actions": [
+      "withdraw",
+      "withdraw",
+      "withdraw",
+      "stay",
+      "stay"
+    ],
+    "inputs": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "trace": [
+      "0",
+      "1/2",
+      "3/4",
+      "7/8",
+      "7/16",
+      "7/32"
+    ],
+    "closed_form_final": "7/32",
+    "same_count_different_order": {
+      "10": "1/4",
+      "01": "1/2"
+    },
+    "repetition_eight": "255/256",
+    "disuse_eight_from_one": "1/256"
+  },
+  "inference": {
+    "contexts": [
+      "alarm",
+      "quiet",
+      "invitation"
+    ],
+    "intentions": [
+      "fear_harm",
+      "desire_quiet",
+      "desire_rest"
+    ],
+    "policy_rows": [
+      [
+        "withdraw",
+        "stay",
+        "approach"
+      ],
+      [
+        "withdraw",
+        "withdraw",
+        "withdraw"
+      ],
+      [
+        "withdraw",
+        "stay",
+        "stay"
+      ]
+    ],
+    "observations": [
+      [
+        "alarm",
+        "withdraw"
+      ],
+      [
+        "quiet",
+        "stay"
+      ],
+      [
+        "invitation",
+        "approach"
+      ]
+    ],
+    "candidates_by_prefix": [
+      [
+        "fear_harm",
+        "desire_quiet",
+        "desire_rest"
+      ],
+      [
+        "fear_harm",
+        "desire_quiet",
+        "desire_rest"
+      ],
+      [
+        "fear_harm",
+        "desire_rest"
+      ],
+      [
+        "fear_harm"
+      ]
+    ],
+    "classes_alarm": [
+      [
+        "fear_harm",
+        "desire_quiet",
+        "desire_rest"
+      ]
+    ],
+    "classes_alarm_quiet": [
+      [
+        "fear_harm",
+        "desire_rest"
+      ],
+      [
+        "desire_quiet"
+      ]
+    ],
+    "classes_all": [
+      [
+        "fear_harm"
+      ],
+      [
+        "desire_quiet"
+      ],
+      [
+        "desire_rest"
+      ]
+    ],
+    "contradictory_record": [],
+    "transfer_counterexample": {
+      "target_true_intention": "desire_quiet",
+      "target_observations": [
+        [
+          "alarm",
+          "withdraw"
+        ],
+        [
+          "quiet",
+          "stay"
+        ],
+        [
+          "invitation",
+          "approach"
+        ]
+      ],
+      "inferred_with_observers_table": [
+        "fear_harm"
+      ]
+    }
+  },
+  "norms": {
+    "observed_feasible_actions": [
+      "stay",
+      "withdraw"
+    ],
+    "feasibility_is_not_a_normative_bridge": true,
+    "unconstrained_code_count": 8,
+    "withdraw_unconstrained": "underdetermined",
+    "partial_bridge": {
+      "required": [
+        "stay"
+      ],
+      "forbidden": [
+        "approach"
+      ],
+      "codes": [
+        [
+          "stay"
+        ],
+        [
+          "stay",
+          "withdraw"
+        ]
+      ],
+      "withdraw_status": "underdetermined"
+    },
+    "full_bridge": {
+      "required": [
+        "stay",
+        "withdraw"
+      ],
+      "forbidden": [
+        "approach"
+      ],
+      "codes": [
+        [
+          "stay",
+          "withdraw"
+        ]
+      ],
+      "withdraw_status": "all_permit"
+    },
+    "same_high_habit_opposite_judgments": {
+      "habit_after_three_withdrawals": "7/8",
+      "code_1": [
+        "stay"
+      ],
+      "code_1_judgment": "forbid",
+      "code_2": [
+        "stay",
+        "withdraw"
+      ],
+      "code_2_judgment": "permit"
+    },
+    "contradictory_bridge_status": "inconsistent"
+  }
+}

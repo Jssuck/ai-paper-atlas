@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "tests": 18,
+  "failures": 0,
+  "errors": 0,
+  "optimize": 2,
+  "counts": {
+    "arbitrary_family_status_queries": 768,
+    "arbitrary_norm_families": 256,
+    "bridge_status_queries": 1252,
+    "candidate_equals_equivalence_class": 12288,
+    "habit_histories": 3175,
+    "habit_metamorphic_cases": 15,
+    "norm_bridge_pairs": 341,
+    "partition_refinements": 13824,
+    "policy_partitions": 4096,
+    "policy_records": 132608,
+    "policy_tables": 512,
+    "reset_histories_integrated": 136525
+  }
+}
+test_action_indicator (__main__.RegressionTests.test_action_indicator) ... ok
+test_empty_shapes_and_snapshot (__main__.RegressionTests.test_empty_shapes_and_snapshot) ... ok
+test_four_normative_statuses (__main__.RegressionTests.test_four_normative_statuses) ... ok
+test_habit_fraction_and_empty (__main__.RegressionTests.test_habit_fraction_and_empty) ... ok
+test_habit_order (__main__.RegressionTests.test_habit_order) ... ok
+test_habit_rejects_malformed_numbers (__main__.RegressionTests.test_habit_rejects_malformed_numbers) ... ok
+test_norm_family_constraints (__main__.RegressionTests.test_norm_family_constraints) ... ok
+test_norm_malformed (__main__.RegressionTests.test_norm_malformed) ... ok
+test_partition_refinement (__main__.RegressionTests.test_partition_refinement) ... ok
+test_policy_intersection (__main__.RegressionTests.test_policy_intersection) ... ok
+test_policy_malformed (__main__.RegressionTests.test_policy_malformed) ... ok
+test_scalar_collection_regression (__main__.RegressionTests.test_scalar_collection_regression) ... ok
+test_arbitrary_norm_families_via_union_intersection (__main__.ExhaustiveTests.test_arbitrary_norm_families_via_union_intersection) ... ok
+test_documented_demo_examples (__main__.ExhaustiveTests.test_documented_demo_examples) ... ok
+test_habit_metamorphic_laws (__main__.ExhaustiveTests.test_habit_metamorphic_laws) ... ok
+test_habit_reset_sample_space (__main__.ExhaustiveTests.test_habit_reset_sample_space) ... ok
+test_norm_families_recursive_oracle (__main__.ExhaustiveTests.test_norm_families_recursive_oracle) ... ok
+test_policy_relations_and_refinement (__main__.ExhaustiveTests.test_policy_relations_and_refinement) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 3.682s
+
+OK

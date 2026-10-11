@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Author-written bounded algorithmically separate oracle, not external audit",
+  "habits": {
+    "histories": 6375,
+    "trace_prefix_values": 44825,
+    "alpha_values": 5,
+    "initial_values": 5,
+    "maximum_history_length": 7
+  },
+  "policies": {
+    "tables": 64,
+    "candidate_queries": 576,
+    "partitions": 256,
+    "nested_context_pairs": 576,
+    "intentions": 3,
+    "contexts": 2,
+    "actions": 2
+  },
+  "norms": {
+    "universe_size": 3,
+    "bridge_pairs": 64,
+    "inconsistent_bridge_pairs": 37,
+    "status_queries": 192
+  }
+}

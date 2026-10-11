@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "utc_finished": "2026-10-11T18:55:52.328681+00:00",
+  "scope": "Author verification only; finite tests are not general proofs or an independent audit",
+  "bare_assert_nodes": [],
+  "demo_identical_across_optimization_modes": true,
+  "stages": [
+    {
+      "name": "unit-tests-normal",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.150669,
+      "log": "logs/unit-tests-normal.txt"
+    },
+    {
+      "name": "finite-oracle-normal",
+      "command": [
+        "python3",
+        "-B",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.718534,
+      "log": "logs/finite-oracle-normal.json"
+    },
+    {
+      "name": "demo-normal",
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.061324,
+      "log": "logs/demo-normal.json"
+    },
+    {
+      "name": "unit-tests-O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.402457,
+      "log": "logs/unit-tests-O.txt"
+    },
+    {
+      "name": "finite-oracle-O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.913515,
+      "log": "logs/finite-oracle-O.json"
+    },
+    {
+      "name": "demo-O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.243365,
+      "log": "logs/demo-O.json"
+    },
+    {
+      "name": "unit-tests-OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.340183,
+      "log": "logs/unit-tests-OO.txt"
+    },
+    {
+      "name": "finite-oracle-OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "finite_oracle.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.877368,
+      "log": "logs/finite-oracle-OO.json"
+    },
+    {
+      "name": "demo-OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 0.265582,
+      "log": "logs/demo-OO.json"
+    },
+    {
+      "name": "valid-semantic-mutations-OO",
+      "command": [
+        "python3",
+        "-B",
+        "mutation_check.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "seconds": 3.445087,
+      "log": "logs/mutations.json"
+    }
+  ],
+  "source_sha256": {
+    "MODEL.zh-CN.md": "5223fff1f096694989fc3de142e9f1ad3bf52b2cd3b77b83f55a58d7b268124c",
+    "README.md": "91686d5a0ea5d672d0ff2e9be679d5ba1e4047260a49f29d715e5e5178d61341",
+    "WALKTHROUGH.zh-CN.md": "532764afcb87eaaa71e62b90fe0fa1f62cb7b0be5a47865d1c900b0c0ec12819",
+    "action_model.py": "11ae65148d998a9eb08d42c9e12315c6ff837256092bb7de00ac347e20301f27",
+    "demo.py": "b158bc9401bb40a382b772c3cd37959b9bbfa4b27f035619504a3cff084b8132",
+    "finite_oracle.py": "7c8c050ed6994faa0da350e0821919521b250017ddb80230c8c1f63300f8c580",
+    "habit_model.py": "e7989872c3b4ef7160a08534cbe6efd92f04d4534900f41d1dfb75e46f1dc311",
+    "mutation_check.py": "5382236781e74a437c4eb5687dffc9819c90b396ec9773fffcfc564d57e16ffe",
+    "tests/test_model.py": "57261a6438862b719f68fcf9b5650af1723331958a9bf28a5373a5628a4d5f41",
+    "verify.py": "8e87bee91f75a2c72d9e5a155aa5baea8bb3d63966e67f74a95fa0399e03d7e1"
+  }
+}

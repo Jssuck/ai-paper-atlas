@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "stages": 10,
+  "tests_per_mode": 27,
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "demo_identical": true,
+  "details": "logs/verification.json"
+}
