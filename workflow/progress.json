@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "euler-1768-letter-cvi",
+    "path": "papers/1768/euler-letter-cvi.zh-CN.md",
+    "stage": "researching",
+    "scope": "Complete Letter CVI,1768 volumeII printed pp126–134,dated28February1761;six numbered sections on terms,figures and syllogistic moods;exclude CVII."
+  },
   "last_completed": {
     "id": "euler-1768-letter-cv",
     "path": "papers/1768/euler-letter-cv.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent source,mathematics and code reviews passed;22 tests,255 support models,4680 independent labeled models,42 input-error checks.28 remote blob identities and27 text contents verified.192 formulas,twelve tables,seven Markdown pages,25 repository destinations and original SVG/PNG pixels checked in browser.IIIF manifest browser check blocked by client;catalog,images and PDF sources opened.",
     "scope": "Complete Letter CV,1768 pp119–126,dated24February1761;1770 pp124–131 comparison and partial supplement for clipped original120.Original122 diagram-text tension retained as qualified analysis,not formal erratum."
   },
-  "updated_at": "2026-10-11T09:06:00Z",
+  "updated_at": "2026-10-11T09:32:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Read primary letter and applicable corrections, document scan limits, reconstruct arguments with minimal reproduction and independent source/code review.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
