@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" role="img" aria-labelledby="title desc">
+<title id="title">Same premises, three positions of C</title>
+<desc id="desc">A contains a, B contains a and b. C contains b, c, or both b and c. In every panel a is in B and outside C. Regions contain only the labelled points, not every geometric point.</desc>
+<rect width="1140" height="500" fill="#fff"/>
+<style>text{font-family:DejaVu Sans, sans-serif;fill:#172437}.small{font-size:17px}.body{font-size:20px}.header{font-size:26px;font-weight:bold}.region{fill:none;stroke-width:3}.A{stroke:#ac3346}.B{stroke:#576577}.C{stroke:#19709d}</style>
+<text x="30" y="38" class="header" >Same premises, three positions of C</text>
+<text x="30" y="70" class="body" >A = {a},  B = {a, b};  some A is B,  no A is C</text>
+<text x="185" y="108" class="body" text-anchor="middle">C = {b}</text>
+<rect x="30" y="122" width="320" height="300" rx="10" fill="#f7f9fc" stroke="#d0d6df"/>
+<text x="40" y="144" class="small" >U = {a, b, c}</text>
+<rect x="54" y="170" width="212" height="95" rx="28" class="region B"/>
+<circle cx="100" cy="220" r="28" class="region A"/>
+<text x="78" y="186" class="small" >A</text>
+<text x="165" y="190" class="small" >B</text>
+<circle cx="215" cy="220" r="37" class="region C"/>
+<text x="290" y="217" class="small" >C</text>
+<circle cx="100" cy="220" r="4" fill="#ac3346"/>
+<text x="109" y="226" class="small" >a</text>
+<circle cx="215" cy="220" r="4" fill="#172437"/>
+<text x="224" y="226" class="small" >b</text>
+<circle cx="215" cy="335" r="4" fill="#172437"/>
+<text x="224" y="341" class="small" >c</text>
+<text x="190" y="395" class="small" text-anchor="middle">All C are B</text>
+<text x="565" y="108" class="body" text-anchor="middle">C = {c}</text>
+<rect x="410" y="122" width="320" height="300" rx="10" fill="#f7f9fc" stroke="#d0d6df"/>
+<text x="420" y="144" class="small" >U = {a, b, c}</text>
+<rect x="434" y="170" width="212" height="95" rx="28" class="region B"/>
+<circle cx="480" cy="220" r="28" class="region A"/>
+<text x="458" y="186" class="small" >A</text>
+<text x="545" y="190" class="small" >B</text>
+<circle cx="595" cy="335" r="37" class="region C"/>
+<text x="640" y="332" class="small" >C</text>
+<circle cx="480" cy="220" r="4" fill="#ac3346"/>
+<text x="489" y="226" class="small" >a</text>
+<circle cx="595" cy="220" r="4" fill="#172437"/>
+<text x="604" y="226" class="small" >b</text>
+<circle cx="595" cy="335" r="4" fill="#172437"/>
+<text x="604" y="341" class="small" >c</text>
+<text x="570" y="395" class="small" text-anchor="middle">No C is B</text>
+<text x="945" y="108" class="body" text-anchor="middle">C = {b, c}</text>
+<rect x="790" y="122" width="320" height="300" rx="10" fill="#f7f9fc" stroke="#d0d6df"/>
+<text x="800" y="144" class="small" >U = {a, b, c}</text>
+<rect x="814" y="170" width="212" height="95" rx="28" class="region B"/>
+<circle cx="860" cy="220" r="28" class="region A"/>
+<text x="838" y="186" class="small" >A</text>
+<text x="925" y="190" class="small" >B</text>
+<ellipse cx="975" cy="277.5" rx="56" ry="102" class="region C"/>
+<text x="1039" y="282" class="small" >C</text>
+<circle cx="860" cy="220" r="4" fill="#ac3346"/>
+<text x="869" y="226" class="small" >a</text>
+<circle cx="975" cy="220" r="4" fill="#172437"/>
+<text x="984" y="226" class="small" >b</text>
+<circle cx="975" cy="335" r="4" fill="#172437"/>
+<text x="984" y="341" class="small" >c</text>
+<text x="950" y="395" class="small" text-anchor="middle">Some C are B;</text>
+<text x="950" y="415" class="small" text-anchor="middle">some C are not B</text>
+<text x="30" y="457" class="body" >In all three models: a is in B and outside C.  Therefore some B is not C.</text>
+<text x="30" y="484" class="small" >Only labelled points are objects; enclosed area and circle size have no logical meaning.</text>
+</svg>

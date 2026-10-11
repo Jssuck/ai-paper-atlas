@@ -1,0 +1,67 @@
+{
+  "checked_on": "2026-10-11",
+  "scope": "CIV complete composite-source chapter; source images are not redistributed",
+  "base_pdf": {
+    "url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf",
+    "bytes": 13683251,
+    "sha256": "30bb818e1ba33bfddfa931e1bbc02b9c475e6fe2ee2a88ab7d09fdad325dad18",
+    "pdf_pages": "132–140",
+    "printed_pages": "111 lower–119 upper"
+  },
+  "supplement_1770": [
+    {
+      "page": 116,
+      "url": "https://www.e-rara.ch/i3f/v20/2380267/full/full/0/default.jpg",
+      "bytes": 456441,
+      "sha256": "019d787f15b2aaaf90b4c532372e7c714023f3a938dcf86c7de89e20c6a37710"
+    },
+    {
+      "page": 117,
+      "url": "https://www.e-rara.ch/i3f/v20/2380268/full/full/0/default.jpg",
+      "bytes": 397290,
+      "sha256": "143961a48dca40b5170d45fde5d1deeb3bb6093ab0fbc2de8ee8ee431829547b"
+    },
+    {
+      "page": 118,
+      "url": "https://www.e-rara.ch/i3f/v20/2380269/full/full/0/default.jpg",
+      "bytes": 401262,
+      "sha256": "00e7bc1e326c3e83c3090d2129277618066d8eb2148f6a3843d22ea8d203907d"
+    },
+    {
+      "page": 119,
+      "url": "https://www.e-rara.ch/i3f/v20/2380270/full/full/0/default.jpg",
+      "bytes": 454037,
+      "sha256": "e9822e9fab2897a88dcbf43c5b9d2c3ddeb9d08bec108e3a11927f354d7f8b80"
+    },
+    {
+      "page": 120,
+      "url": "https://www.e-rara.ch/i3f/v20/2380271/full/full/0/default.jpg",
+      "bytes": 413616,
+      "sha256": "281e21baf95f0de70809fb0d431ddf336a5df95bfe7b37d5568de454615f94a9"
+    },
+    {
+      "page": 121,
+      "url": "https://www.e-rara.ch/i3f/v20/2380272/full/full/0/default.jpg",
+      "bytes": 422561,
+      "sha256": "2e03a0666329ba663274aac927aa23279c51c8bae96ee1b063344bf009910a34"
+    },
+    {
+      "page": 122,
+      "url": "https://www.e-rara.ch/i3f/v20/2380273/full/full/0/default.jpg",
+      "bytes": 440085,
+      "sha256": "2c748bf1919102cb057e89ad045e6af7edb2979e1eca4ee9b60249ce8e07aedc"
+    },
+    {
+      "page": 123,
+      "url": "https://www.e-rara.ch/i3f/v20/2380274/full/full/0/default.jpg",
+      "bytes": 499959,
+      "sha256": "e6a8950d7915c860309fba98f598e17e47ddcaf967ab1d94864d394e6365025c"
+    },
+    {
+      "page": 124,
+      "url": "https://www.e-rara.ch/i3f/v20/2380275/full/full/0/default.jpg",
+      "bytes": 428281,
+      "sha256": "806aecdf757cf3f7c23490a8e0750680ac9ac50185d24753612a6b3a24f02679"
+    }
+  ]
+}

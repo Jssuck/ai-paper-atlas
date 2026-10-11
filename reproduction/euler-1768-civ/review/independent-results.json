@@ -1,0 +1,2359 @@
+{
+  "direct_standard_coverage": {
+    "all_nonempty_valid": 24,
+    "comparison": "Global term renaming plus premise swap; E/I exchange excluded.",
+    "covered": 19,
+    "missing": [
+      "AAI-1",
+      "EAO-1",
+      "AEO-2",
+      "EAO-2",
+      "AEO-4"
+    ],
+    "repaired_recap_to_standard": {
+      "I": [
+        "AAA-1"
+      ],
+      "II": [
+        "AII-1"
+      ],
+      "III": [
+        "AEE-2"
+      ],
+      "IV": [
+        "AEE-4"
+      ],
+      "IX": [
+        "EIO-1"
+      ],
+      "V": [
+        "AOO-2"
+      ],
+      "VI": [
+        "AAI-4"
+      ],
+      "VII": [
+        "EAE-1"
+      ],
+      "VIII": [
+        "EAE-2"
+      ],
+      "X": [
+        "EIO-3"
+      ],
+      "XI": [
+        "EIO-2"
+      ],
+      "XII": [
+        "EIO-4"
+      ],
+      "XIII": [
+        "IAI-3"
+      ],
+      "XIV": [
+        "IAI-4"
+      ],
+      "XIX": [
+        "EAO-4"
+      ],
+      "XV": [
+        "OAO-3"
+      ],
+      "XVI": [
+        "AOO-2"
+      ],
+      "XVII": [
+        "AII-3"
+      ],
+      "XVIII": [
+        "EAO-3"
+      ],
+      "XX": [
+        "AAI-3"
+      ]
+    }
+  },
+  "euler_style_512": {
+    "candidates": 512,
+    "regimes": {
+      "all_three_terms_nonempty": {
+        "recap_covered_valid_class_count": 9,
+        "recap_uncovered_valid_classes": [
+          {
+            "canonical_key": "AAB,EBC=>OAC",
+            "members": [
+              "AAB,EBC=>OAC",
+              "EAB,ACA=>OCB",
+              "AAB,ECB=>OAC",
+              "EAB,ACB=>OCA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OCA",
+            "members": [
+              "AAB,EBC=>OCA",
+              "EAB,ACA=>OBC",
+              "EAB,ACB=>OAC",
+              "AAB,ECB=>OCA"
+            ]
+          }
+        ],
+        "valid_count": 48,
+        "valid_ids": [
+          "AAB,AAC=>IBC",
+          "AAB,EAC=>OBC",
+          "AAB,IAC=>IBC",
+          "AAB,OAC=>OBC",
+          "IAB,AAC=>IBC",
+          "IAB,EAC=>OBC",
+          "AAB,AAC=>ICB",
+          "AAB,IAC=>ICB",
+          "EAB,AAC=>OCB",
+          "EAB,IAC=>OCB",
+          "IAB,AAC=>ICB",
+          "OAB,AAC=>OCB",
+          "AAB,ABC=>AAC",
+          "AAB,ABC=>IAC",
+          "AAB,EBC=>EAC",
+          "AAB,EBC=>OAC",
+          "IAB,ABC=>IAC",
+          "IAB,EBC=>OAC",
+          "AAB,ABC=>ICA",
+          "AAB,EBC=>ECA",
+          "AAB,EBC=>OCA",
+          "EAB,ABC=>OCA",
+          "EAB,IBC=>OCA",
+          "IAB,ABC=>ICA",
+          "AAB,ACA=>IBC",
+          "AAB,ECA=>OBC",
+          "AAB,ICA=>IBC",
+          "EAB,ACA=>EBC",
+          "EAB,ACA=>OBC",
+          "IAB,ECA=>OBC",
+          "AAB,ACA=>ACB",
+          "AAB,ACA=>ICB",
+          "AAB,ICA=>ICB",
+          "EAB,ACA=>ECB",
+          "EAB,ACA=>OCB",
+          "EAB,ICA=>OCB",
+          "AAB,ECB=>EAC",
+          "AAB,ECB=>OAC",
+          "EAB,ACB=>EAC",
+          "EAB,ACB=>OAC",
+          "IAB,ECB=>OAC",
+          "OAB,ACB=>OAC",
+          "AAB,ECB=>ECA",
+          "AAB,ECB=>OCA",
+          "AAB,OCB=>OCA",
+          "EAB,ACB=>ECA",
+          "EAB,ACB=>OCA",
+          "EAB,ICB=>OCA"
+        ],
+        "valid_structural_class_count": 11,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,AAC=>IBC",
+            "members": [
+              "AAB,AAC=>IBC",
+              "AAB,AAC=>ICB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,ABC=>AAC",
+            "members": [
+              "AAB,ABC=>AAC",
+              "AAB,ACA=>ACB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,ABC=>IAC",
+            "members": [
+              "AAB,ABC=>IAC",
+              "AAB,ABC=>ICA",
+              "AAB,ACA=>IBC",
+              "AAB,ACA=>ICB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EAC=>OBC",
+            "members": [
+              "AAB,EAC=>OBC",
+              "EAB,AAC=>OCB",
+              "EAB,ABC=>OCA",
+              "AAB,ECA=>OBC"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>EAC",
+            "members": [
+              "AAB,EBC=>EAC",
+              "AAB,EBC=>ECA",
+              "EAB,ACA=>EBC",
+              "EAB,ACA=>ECB",
+              "AAB,ECB=>EAC",
+              "EAB,ACB=>EAC",
+              "AAB,ECB=>ECA",
+              "EAB,ACB=>ECA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OAC",
+            "members": [
+              "AAB,EBC=>OAC",
+              "EAB,ACA=>OCB",
+              "AAB,ECB=>OAC",
+              "EAB,ACB=>OCA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OCA",
+            "members": [
+              "AAB,EBC=>OCA",
+              "EAB,ACA=>OBC",
+              "EAB,ACB=>OAC",
+              "AAB,ECB=>OCA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "AAB,IAC=>IBC",
+              "IAB,AAC=>IBC",
+              "AAB,IAC=>ICB",
+              "IAB,AAC=>ICB",
+              "IAB,ABC=>IAC",
+              "IAB,ABC=>ICA",
+              "AAB,ICA=>IBC",
+              "AAB,ICA=>ICB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "AAB,OAC=>OBC",
+              "OAB,AAC=>OCB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "OAB,ACB=>OAC",
+              "AAB,OCB=>OCA"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "IAB,EAC=>OBC",
+              "EAB,IAC=>OCB",
+              "IAB,EBC=>OAC",
+              "EAB,IBC=>OCA",
+              "IAB,ECA=>OBC",
+              "EAB,ICA=>OCB",
+              "IAB,ECB=>OAC",
+              "EAB,ICB=>OCA"
+            ]
+          }
+        ]
+      },
+      "term_empty_permitted": {
+        "recap_covered_valid_class_count": 6,
+        "recap_uncovered_valid_classes": [],
+        "valid_count": 30,
+        "valid_ids": [
+          "AAB,IAC=>IBC",
+          "AAB,OAC=>OBC",
+          "IAB,AAC=>IBC",
+          "IAB,EAC=>OBC",
+          "AAB,IAC=>ICB",
+          "EAB,IAC=>OCB",
+          "IAB,AAC=>ICB",
+          "OAB,AAC=>OCB",
+          "AAB,ABC=>AAC",
+          "AAB,EBC=>EAC",
+          "IAB,ABC=>IAC",
+          "IAB,EBC=>OAC",
+          "AAB,EBC=>ECA",
+          "EAB,IBC=>OCA",
+          "IAB,ABC=>ICA",
+          "AAB,ICA=>IBC",
+          "EAB,ACA=>EBC",
+          "IAB,ECA=>OBC",
+          "AAB,ACA=>ACB",
+          "AAB,ICA=>ICB",
+          "EAB,ACA=>ECB",
+          "EAB,ICA=>OCB",
+          "AAB,ECB=>EAC",
+          "EAB,ACB=>EAC",
+          "IAB,ECB=>OAC",
+          "OAB,ACB=>OAC",
+          "AAB,ECB=>ECA",
+          "AAB,OCB=>OCA",
+          "EAB,ACB=>ECA",
+          "EAB,ICB=>OCA"
+        ],
+        "valid_structural_class_count": 6,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,ABC=>AAC",
+            "members": [
+              "AAB,ABC=>AAC",
+              "AAB,ACA=>ACB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>EAC",
+            "members": [
+              "AAB,EBC=>EAC",
+              "AAB,EBC=>ECA",
+              "EAB,ACA=>EBC",
+              "EAB,ACA=>ECB",
+              "AAB,ECB=>EAC",
+              "EAB,ACB=>EAC",
+              "AAB,ECB=>ECA",
+              "EAB,ACB=>ECA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "AAB,IAC=>IBC",
+              "IAB,AAC=>IBC",
+              "AAB,IAC=>ICB",
+              "IAB,AAC=>ICB",
+              "IAB,ABC=>IAC",
+              "IAB,ABC=>ICA",
+              "AAB,ICA=>IBC",
+              "AAB,ICA=>ICB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "AAB,OAC=>OBC",
+              "OAB,AAC=>OCB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "OAB,ACB=>OAC",
+              "AAB,OCB=>OCA"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "IAB,EAC=>OBC",
+              "EAB,IAC=>OCB",
+              "IAB,EBC=>OAC",
+              "EAB,IBC=>OCA",
+              "IAB,ECA=>OBC",
+              "EAB,ICA=>OCB",
+              "IAB,ECB=>OAC",
+              "EAB,ICB=>OCA"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "method": "Independent combinations of membership vectors, set semantics, explicit transformation orbits; imports no implementation functions.",
+  "model_counts_by_required_terms": {
+    "A": 240,
+    "AB": 228,
+    "ABC": 218,
+    "AC": 228,
+    "B": 240,
+    "BC": 228,
+    "C": 240,
+    "none": 255
+  },
+  "models": 255,
+  "models_all_terms_nonempty": 218,
+  "negative_controls": [
+    {
+      "mutation": "extra_model",
+      "rejected": true
+    },
+    {
+      "mutation": "silently_repaired_source",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_existence_minimum",
+      "rejected": true
+    },
+    {
+      "mutation": "missing_candidate",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_witness",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_narrow_count",
+      "rejected": true
+    }
+  ],
+  "particular_first_256": {
+    "candidates": 256,
+    "regimes": {
+      "all_three_terms_nonempty": {
+        "recap_covered_valid_class_count": 4,
+        "recap_uncovered_valid_classes": [],
+        "valid_count": 10,
+        "valid_ids": [
+          "IAB,AAC=>IBC",
+          "IAB,EAC=>OBC",
+          "IAB,AAC=>ICB",
+          "OAB,AAC=>OCB",
+          "IAB,ABC=>IAC",
+          "IAB,EBC=>OAC",
+          "IAB,ABC=>ICA",
+          "IAB,ECA=>OBC",
+          "IAB,ECB=>OAC",
+          "OAB,ACB=>OAC"
+        ],
+        "valid_structural_class_count": 4,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "IAB,AAC=>IBC",
+              "IAB,AAC=>ICB",
+              "IAB,ABC=>IAC",
+              "IAB,ABC=>ICA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "OAB,AAC=>OCB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "OAB,ACB=>OAC"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "IAB,EAC=>OBC",
+              "IAB,EBC=>OAC",
+              "IAB,ECA=>OBC",
+              "IAB,ECB=>OAC"
+            ]
+          }
+        ]
+      },
+      "term_empty_permitted": {
+        "recap_covered_valid_class_count": 4,
+        "recap_uncovered_valid_classes": [],
+        "valid_count": 10,
+        "valid_ids": [
+          "IAB,AAC=>IBC",
+          "IAB,EAC=>OBC",
+          "IAB,AAC=>ICB",
+          "OAB,AAC=>OCB",
+          "IAB,ABC=>IAC",
+          "IAB,EBC=>OAC",
+          "IAB,ABC=>ICA",
+          "IAB,ECA=>OBC",
+          "IAB,ECB=>OAC",
+          "OAB,ACB=>OAC"
+        ],
+        "valid_structural_class_count": 4,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "IAB,AAC=>IBC",
+              "IAB,AAC=>ICB",
+              "IAB,ABC=>IAC",
+              "IAB,ABC=>ICA"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "OAB,AAC=>OCB"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "OAB,ACB=>OAC"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "IAB,EAC=>OBC",
+              "IAB,EBC=>OAC",
+              "IAB,ECA=>OBC",
+              "IAB,ECB=>OAC"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "recap": {
+    "printed": {
+      "classes_with_ei_symmetry": [
+        {
+          "canonical_key": "AAB,AAC=>IBC",
+          "members": [
+            "XX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>AAC",
+          "members": [
+            "I"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>IAC",
+          "members": [
+            "VI"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EAC=>OBC",
+          "members": [
+            "XVIII",
+            "XIX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>EAC",
+          "members": [
+            "III",
+            "IV",
+            "VII",
+            "VIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>IBC",
+          "members": [
+            "II",
+            "XIII",
+            "XIV",
+            "XVII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OAC=>OBC",
+          "members": [
+            "XV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCA",
+          "members": [
+            "V"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCB",
+          "members": [
+            "XVI"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IAC=>OCB",
+          "members": [
+            "IX",
+            "X",
+            "XI",
+            "XII"
+          ]
+        }
+      ],
+      "classes_without_ei_symmetry": [
+        {
+          "canonical_key": "AAB,AAC=>IBC",
+          "members": [
+            "XX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>AAC",
+          "members": [
+            "I"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>ICA",
+          "members": [
+            "VI"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EAC=>OBC",
+          "members": [
+            "XVIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>EAC",
+          "members": [
+            "VII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>ECA",
+          "members": [
+            "IV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECA=>OBC",
+          "members": [
+            "XIX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECB=>EAC",
+          "members": [
+            "VIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECB=>ECA",
+          "members": [
+            "III"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>IBC",
+          "members": [
+            "XIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>ICB",
+          "members": [
+            "XVII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ICA=>IBC",
+          "members": [
+            "XIV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ICA=>ICB",
+          "members": [
+            "II"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OAC=>OBC",
+          "members": [
+            "XV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCA",
+          "members": [
+            "V"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCB",
+          "members": [
+            "XVI"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IAC=>OCB",
+          "members": [
+            "X"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IBC=>OCA",
+          "members": [
+            "XII"
+          ]
+        },
+        {
+          "canonical_key": "EAB,ICA=>OCB",
+          "members": [
+            "IX"
+          ]
+        },
+        {
+          "canonical_key": "EAB,ICB=>OCA",
+          "members": [
+            "XI"
+          ]
+        }
+      ],
+      "entries": 20,
+      "forms": [
+        {
+          "formulas": [
+            "AAB",
+            "ACA",
+            "ACB"
+          ],
+          "id": "I",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 8,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ICA",
+            "ICB"
+          ],
+          "id": "II",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ECB",
+            "ECA"
+          ],
+          "id": "III",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "EBC",
+            "ECA"
+          ],
+          "id": "IV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "OCB",
+            "OCA"
+          ],
+          "id": "V",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ABC",
+            "ICA"
+          ],
+          "id": "VI",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 8,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ACA",
+            "ECB"
+          ],
+          "id": "VII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ACB",
+            "ECA"
+          ],
+          "id": "VIII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ICA",
+            "OCB"
+          ],
+          "id": "IX",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "IAC",
+            "OCB"
+          ],
+          "id": "X",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ICB",
+            "OCA"
+          ],
+          "id": "XI",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "IBC",
+            "OCA"
+          ],
+          "id": "XII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "IAB",
+            "AAC",
+            "ICB"
+          ],
+          "id": "XIII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "IAB",
+            "ABC",
+            "ICA"
+          ],
+          "id": "XIV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "OAB",
+            "AAC",
+            "OCB"
+          ],
+          "id": "XV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 28,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "OAB",
+            "ACB",
+            "OAB"
+          ],
+          "id": "XVI",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "IAC",
+            "ICB"
+          ],
+          "id": "XVII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "AAC",
+            "OCB"
+          ],
+          "id": "XVIII",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 12,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ABC",
+            "OCA"
+          ],
+          "id": "XIX",
+          "minimal_nonempty_assumptions": [
+            [
+              "B"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 12,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "AAC",
+            "ICB"
+          ],
+          "id": "XX",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 16,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        }
+      ],
+      "valid_all_nonempty": 20,
+      "valid_empty_allowed": 16
+    },
+    "repaired": {
+      "classes_with_ei_symmetry": [
+        {
+          "canonical_key": "AAB,AAC=>IBC",
+          "members": [
+            "XX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>AAC",
+          "members": [
+            "I"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>IAC",
+          "members": [
+            "VI"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EAC=>OBC",
+          "members": [
+            "XVIII",
+            "XIX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>EAC",
+          "members": [
+            "III",
+            "IV",
+            "VII",
+            "VIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>IBC",
+          "members": [
+            "II",
+            "XIII",
+            "XIV",
+            "XVII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OAC=>OBC",
+          "members": [
+            "XV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCA",
+          "members": [
+            "V",
+            "XVI"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IAC=>OCB",
+          "members": [
+            "IX",
+            "X",
+            "XI",
+            "XII"
+          ]
+        }
+      ],
+      "classes_without_ei_symmetry": [
+        {
+          "canonical_key": "AAB,AAC=>IBC",
+          "members": [
+            "XX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>AAC",
+          "members": [
+            "I"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ABC=>ICA",
+          "members": [
+            "VI"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EAC=>OBC",
+          "members": [
+            "XVIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>EAC",
+          "members": [
+            "VII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,EBC=>ECA",
+          "members": [
+            "IV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECA=>OBC",
+          "members": [
+            "XIX"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECB=>EAC",
+          "members": [
+            "VIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ECB=>ECA",
+          "members": [
+            "III"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>IBC",
+          "members": [
+            "XIII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,IAC=>ICB",
+          "members": [
+            "XVII"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ICA=>IBC",
+          "members": [
+            "XIV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,ICA=>ICB",
+          "members": [
+            "II"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OAC=>OBC",
+          "members": [
+            "XV"
+          ]
+        },
+        {
+          "canonical_key": "AAB,OCB=>OCA",
+          "members": [
+            "V",
+            "XVI"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IAC=>OCB",
+          "members": [
+            "X"
+          ]
+        },
+        {
+          "canonical_key": "EAB,IBC=>OCA",
+          "members": [
+            "XII"
+          ]
+        },
+        {
+          "canonical_key": "EAB,ICA=>OCB",
+          "members": [
+            "IX"
+          ]
+        },
+        {
+          "canonical_key": "EAB,ICB=>OCA",
+          "members": [
+            "XI"
+          ]
+        }
+      ],
+      "entries": 20,
+      "forms": [
+        {
+          "formulas": [
+            "AAB",
+            "ACA",
+            "ACB"
+          ],
+          "id": "I",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 8,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ICA",
+            "ICB"
+          ],
+          "id": "II",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ECB",
+            "ECA"
+          ],
+          "id": "III",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "EBC",
+            "ECA"
+          ],
+          "id": "IV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "OCB",
+            "OCA"
+          ],
+          "id": "V",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "ABC",
+            "ICA"
+          ],
+          "id": "VI",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 8,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ACA",
+            "ECB"
+          ],
+          "id": "VII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ACB",
+            "ECA"
+          ],
+          "id": "VIII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 4,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 15,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ICA",
+            "OCB"
+          ],
+          "id": "IX",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "IAC",
+            "OCB"
+          ],
+          "id": "X",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ICB",
+            "OCA"
+          ],
+          "id": "XI",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "IBC",
+            "OCA"
+          ],
+          "id": "XII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "IAB",
+            "AAC",
+            "ICB"
+          ],
+          "id": "XIII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "IAB",
+            "ABC",
+            "ICA"
+          ],
+          "id": "XIV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "OAB",
+            "AAC",
+            "OCB"
+          ],
+          "id": "XV",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 28,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "OAB",
+            "ACB",
+            "OAC"
+          ],
+          "id": "XVI",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 24,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "IAC",
+            "ICB"
+          ],
+          "id": "XVII",
+          "minimal_nonempty_assumptions": [
+            []
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 32,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 255,
+              "premise_satisfying_models": 32,
+              "valid": true
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "AAC",
+            "OCB"
+          ],
+          "id": "XVIII",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 12,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "EAB",
+            "ABC",
+            "OCA"
+          ],
+          "id": "XIX",
+          "minimal_nonempty_assumptions": [
+            [
+              "B"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 12,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        },
+        {
+          "formulas": [
+            "AAB",
+            "AAC",
+            "ICB"
+          ],
+          "id": "XX",
+          "minimal_nonempty_assumptions": [
+            [
+              "A"
+            ]
+          ],
+          "regimes": {
+            "all_three_terms_nonempty": {
+              "counterexample_count": 0,
+              "minimal_counterexample": null,
+              "models_checked": 218,
+              "premise_satisfying_models": 16,
+              "valid": true
+            },
+            "term_empty_permitted": {
+              "counterexample_count": 7,
+              "minimal_counterexample": {
+                "conclusion_true": false,
+                "occupancy": 1,
+                "occupied_atoms": [
+                  0
+                ],
+                "premises_true": [
+                  true,
+                  true
+                ],
+                "sets": {
+                  "A": [],
+                  "B": [],
+                  "C": []
+                },
+                "universe": [
+                  "x0"
+                ],
+                "universe_size": 1
+              },
+              "models_checked": 255,
+              "premise_satisfying_models": 31,
+              "valid": false
+            }
+          }
+        }
+      ],
+      "valid_all_nonempty": 20,
+      "valid_empty_allowed": 16
+    }
+  },
+  "report_field_comparisons": 8653,
+  "sha256": {
+    "euler_civ.py": "46f4b7338635f626f13f323681cc17293817eb44afedaa1253a6c5b7372fff2c",
+    "outputs/report.json": "f4f6a795cc1c1fa4db0820949682b0afa4fc927a56ae210571e73fa56400ee24",
+    "report.py": "cb47167b1fc94df178c613bec24b7b8d0d63b5d96102a77306fd11699f02f1cc",
+    "review/independent_oracle.py": "13b3fb179f55f9667fe12264ce9782550df329a599088d5bd88d200f1a9ecd53",
+    "tests/test_euler_civ.py": "f216d3543fe302117347c1acc82257b1886dd65d8854379a0da68ba1acf18209"
+  },
+  "standard_256": {
+    "candidates": 256,
+    "regimes": {
+      "all_three_terms_nonempty": {
+        "recap_covered_valid_class_count": 9,
+        "recap_uncovered_valid_classes": [
+          {
+            "canonical_key": "AAB,EBC=>OAC",
+            "members": [
+              "EAO-1",
+              "EAO-2"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OCA",
+            "members": [
+              "AEO-2",
+              "AEO-4"
+            ]
+          }
+        ],
+        "valid_count": 24,
+        "valid_ids": [
+          "AAA-1",
+          "AAI-1",
+          "AII-1",
+          "EAE-1",
+          "EAO-1",
+          "EIO-1",
+          "AEE-2",
+          "AEO-2",
+          "AOO-2",
+          "EAE-2",
+          "EAO-2",
+          "EIO-2",
+          "AAI-3",
+          "AII-3",
+          "EAO-3",
+          "EIO-3",
+          "IAI-3",
+          "OAO-3",
+          "AAI-4",
+          "AEE-4",
+          "AEO-4",
+          "EAO-4",
+          "EIO-4",
+          "IAI-4"
+        ],
+        "valid_structural_class_count": 11,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,AAC=>IBC",
+            "members": [
+              "AAI-3"
+            ]
+          },
+          {
+            "canonical_key": "AAB,ABC=>AAC",
+            "members": [
+              "AAA-1"
+            ]
+          },
+          {
+            "canonical_key": "AAB,ABC=>IAC",
+            "members": [
+              "AAI-1",
+              "AAI-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EAC=>OBC",
+            "members": [
+              "EAO-3",
+              "EAO-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>EAC",
+            "members": [
+              "EAE-1",
+              "AEE-2",
+              "EAE-2",
+              "AEE-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OAC",
+            "members": [
+              "EAO-1",
+              "EAO-2"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>OCA",
+            "members": [
+              "AEO-2",
+              "AEO-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "AII-1",
+              "AII-3",
+              "IAI-3",
+              "IAI-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "OAO-3"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "AOO-2"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "EIO-1",
+              "EIO-2",
+              "EIO-3",
+              "EIO-4"
+            ]
+          }
+        ]
+      },
+      "term_empty_permitted": {
+        "recap_covered_valid_class_count": 6,
+        "recap_uncovered_valid_classes": [],
+        "valid_count": 15,
+        "valid_ids": [
+          "AAA-1",
+          "AII-1",
+          "EAE-1",
+          "EIO-1",
+          "AEE-2",
+          "AOO-2",
+          "EAE-2",
+          "EIO-2",
+          "AII-3",
+          "EIO-3",
+          "IAI-3",
+          "OAO-3",
+          "AEE-4",
+          "EIO-4",
+          "IAI-4"
+        ],
+        "valid_structural_class_count": 6,
+        "valid_structural_classes": [
+          {
+            "canonical_key": "AAB,ABC=>AAC",
+            "members": [
+              "AAA-1"
+            ]
+          },
+          {
+            "canonical_key": "AAB,EBC=>EAC",
+            "members": [
+              "EAE-1",
+              "AEE-2",
+              "EAE-2",
+              "AEE-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,IAC=>IBC",
+            "members": [
+              "AII-1",
+              "AII-3",
+              "IAI-3",
+              "IAI-4"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OAC=>OBC",
+            "members": [
+              "OAO-3"
+            ]
+          },
+          {
+            "canonical_key": "AAB,OCB=>OCA",
+            "members": [
+              "AOO-2"
+            ]
+          },
+          {
+            "canonical_key": "EAB,IAC=>OCB",
+            "members": [
+              "EIO-1",
+              "EIO-2",
+              "EIO-3",
+              "EIO-4"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "status": "PASS"
+}

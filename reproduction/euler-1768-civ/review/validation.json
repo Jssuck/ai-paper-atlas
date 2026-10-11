@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "command": "python3 report.py --check outputs/report.json",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -v",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 run_checks.py",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 -c <TEACHING.md-example-1>",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 -c <TEACHING.md-example-2>",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 -c <TEACHING.md-example-3>",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 review/independent_oracle.py",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 report.py --output <temporary-report.json>",
+      "exit_status": 0,
+      "expected_exit_status": 0,
+      "passed": true
+    },
+    {
+      "check": "fresh report byte identity",
+      "passed": true
+    },
+    {
+      "command": "python3 report.py --check <deliberately-corrupted-report.json>",
+      "exit_status": 1,
+      "expected_exit_status": 1,
+      "passed": true
+    }
+  ],
+  "dependencies": "Python standard library only; no installation or network",
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "machine": "x86_64",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python_implementation": "CPython",
+  "python_version": "3.12.14",
+  "sha256": {
+    "README.md": "aa5fa843adfe9268e2959a19877e629ee3cc5dee3ee9adfa2302eaaad861b792",
+    "TEACHING.md": "bcdcb9a83b5034699fe94f6cb7057eb307eb9664a7889ba50814df1c690c1fb4",
+    "euler_civ.py": "46f4b7338635f626f13f323681cc17293817eb44afedaa1253a6c5b7372fff2c",
+    "outputs/environment.json": "285c7186c85403230943181c0374d341652390cc5a29f9b0d6e285b70256a169",
+    "outputs/report.json": "f4f6a795cc1c1fa4db0820949682b0afa4fc927a56ae210571e73fa56400ee24",
+    "report.py": "cb47167b1fc94df178c613bec24b7b8d0d63b5d96102a77306fd11699f02f1cc",
+    "review/independent-results.json": "18c4a8fa1e45423339006ec9b4044148550bcab2377a007346effb672e640074",
+    "review/independent_oracle.py": "13b3fb179f55f9667fe12264ce9782550df329a599088d5bd88d200f1a9ecd53",
+    "review/run_independent_checks.py": "826e4b81d6fe13bf42f87662b555b019caba28ab7177f4bafc4ac5f0bd2df311",
+    "run_checks.py": "55b65fecac2f3c82aa3d53a6afe0f553ec902165f9086576f843914ffbb177dc",
+    "tests/test_euler_civ.py": "f216d3543fe302117347c1acc82257b1886dd65d8854379a0da68ba1acf18209"
+  },
+  "status": "PASS"
+}

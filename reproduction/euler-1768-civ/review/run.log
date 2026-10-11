@@ -1,0 +1,175 @@
+$ python3 report.py --check outputs/report.json
+Euler 1768 Letter CIV: finite-model teaching reconstruction
+Models: 255 occupied-atom configurations
+Printed recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 20
+  classes with E/I conversion: 10
+Repaired recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 19
+  classes with E/I conversion: 9
+standard_256: 256 candidates
+  term_empty_permitted: 15 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 24 valid; 11 structural classes; 9 covered by repaired recap
+euler_style_512: 512 candidates
+  term_empty_permitted: 30 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 48 valid; 11 structural classes; 9 covered by repaired recap
+particular_first_256: 256 candidates
+  term_empty_permitted: 10 valid; 4 structural classes; 4 covered by repaired recap
+  all_three_terms_nonempty: 10 valid; 4 structural classes; 4 covered by repaired recap
+Report SHA-256: f4f6a795cc1c1fa4db0820949682b0afa4fc927a56ae210571e73fa56400ee24
+Exit status: 0; expected: 0
+
+$ python3 -m unittest discover -s tests -v
+test_class_counts_and_specific_memberships (test_euler_civ.EquivalenceTests.test_class_counts_and_specific_memberships) ... ok
+test_equivalence_is_invariant_under_all_allowed_operations (test_euler_civ.EquivalenceTests.test_equivalence_is_invariant_under_all_allowed_operations) ... ok
+test_no_ei_conversion_gives_nineteen_and_five_uncovered_moods (test_euler_civ.EquivalenceTests.test_no_ei_conversion_gives_nineteen_and_five_uncovered_moods) ... ok
+test_two_nonempty_classes_missing_from_repaired_recap (test_euler_civ.EquivalenceTests.test_two_nonempty_classes_missing_from_repaired_recap) ... ok
+test_all_candidates_validity_against_separate_set_oracle (test_euler_civ.ExhaustivenessTests.test_all_candidates_validity_against_separate_set_oracle) ... ok
+test_larger_scope_and_particular_first_exact_coverage (test_euler_civ.ExhaustivenessTests.test_larger_scope_and_particular_first_exact_coverage) ... ok
+test_particular_premise_no_existential_only_additions_in_fixed_scope (test_euler_civ.ExhaustivenessTests.test_particular_premise_no_existential_only_additions_in_fixed_scope) ... ok
+test_standard_generator_is_exact_cartesian_product (test_euler_civ.ExhaustivenessTests.test_standard_generator_is_exact_cartesian_product) ... ok
+test_all_twenty_scan_transcriptions (test_euler_civ.HistoricalFormsTests.test_all_twenty_scan_transcriptions) ... ok
+test_all_twenty_under_both_regimes_and_minimal_assumptions (test_euler_civ.HistoricalFormsTests.test_all_twenty_under_both_regimes_and_minimal_assumptions) ... ok
+test_every_reported_counterexample_is_smallest_and_sound (test_euler_civ.HistoricalFormsTests.test_every_reported_counterexample_is_smallest_and_sound) ... ok
+test_printed_xvi_tautology_and_repair_nontrivial (test_euler_civ.HistoricalFormsTests.test_printed_xvi_tautology_and_repair_nontrivial) ... ok
+test_json_is_deterministic_and_matches_checked_in_report (test_euler_civ.ReportTests.test_json_is_deterministic_and_matches_checked_in_report) ... ok
+test_report_has_full_census_and_explicit_xvi_caveat (test_euler_civ.ReportTests.test_report_has_full_census_and_explicit_xvi_caveat) ... ok
+test_concrete_four_object_domains_collapse_without_truth_loss (test_euler_civ.SemanticsTests.test_concrete_four_object_domains_collapse_without_truth_loss) ... ok
+test_e_i_symmetric_and_a_o_not_assumed_symmetric (test_euler_civ.SemanticsTests.test_e_i_symmetric_and_a_o_not_assumed_symmetric) ... ok
+test_every_statement_every_model_against_set_oracle (test_euler_civ.SemanticsTests.test_every_statement_every_model_against_set_oracle) ... ok
+test_exact_255_occupancies_and_minimal_order (test_euler_civ.SemanticsTests.test_exact_255_occupancies_and_minimal_order) ... ok
+test_universal_vacuity_and_particular_existence (test_euler_civ.SemanticsTests.test_universal_vacuity_and_particular_existence) ... ok
+test_reject_invalid_assumptions_arguments_and_generators (test_euler_civ.ValidationTests.test_reject_invalid_assumptions_arguments_and_generators) ... ok
+test_reject_invalid_formulas (test_euler_civ.ValidationTests.test_reject_invalid_formulas) ... ok
+test_reject_invalid_model_masks (test_euler_civ.ValidationTests.test_reject_invalid_model_masks) ... ok
+test_unrepairable_inference_has_no_sufficient_term_existence_set (test_euler_civ.ValidationTests.test_unrepairable_inference_has_no_sufficient_term_existence_set) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 4.199s
+
+OK
+Exit status: 0; expected: 0
+
+$ python3 run_checks.py
+Commands display the interpreter as python3; subprocesses use the current sys.executable.
+
+$ python3 report.py --check outputs/report.json
+Euler 1768 Letter CIV: finite-model teaching reconstruction
+Models: 255 occupied-atom configurations
+Printed recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 20
+  classes with E/I conversion: 10
+Repaired recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 19
+  classes with E/I conversion: 9
+standard_256: 256 candidates
+  term_empty_permitted: 15 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 24 valid; 11 structural classes; 9 covered by repaired recap
+euler_style_512: 512 candidates
+  term_empty_permitted: 30 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 48 valid; 11 structural classes; 9 covered by repaired recap
+particular_first_256: 256 candidates
+  term_empty_permitted: 10 valid; 4 structural classes; 4 covered by repaired recap
+  all_three_terms_nonempty: 10 valid; 4 structural classes; 4 covered by repaired recap
+Report SHA-256: f4f6a795cc1c1fa4db0820949682b0afa4fc927a56ae210571e73fa56400ee24
+Exit status: 0
+
+$ python3 -m unittest discover -s tests -v
+test_class_counts_and_specific_memberships (test_euler_civ.EquivalenceTests.test_class_counts_and_specific_memberships) ... ok
+test_equivalence_is_invariant_under_all_allowed_operations (test_euler_civ.EquivalenceTests.test_equivalence_is_invariant_under_all_allowed_operations) ... ok
+test_no_ei_conversion_gives_nineteen_and_five_uncovered_moods (test_euler_civ.EquivalenceTests.test_no_ei_conversion_gives_nineteen_and_five_uncovered_moods) ... ok
+test_two_nonempty_classes_missing_from_repaired_recap (test_euler_civ.EquivalenceTests.test_two_nonempty_classes_missing_from_repaired_recap) ... ok
+test_all_candidates_validity_against_separate_set_oracle (test_euler_civ.ExhaustivenessTests.test_all_candidates_validity_against_separate_set_oracle) ... ok
+test_larger_scope_and_particular_first_exact_coverage (test_euler_civ.ExhaustivenessTests.test_larger_scope_and_particular_first_exact_coverage) ... ok
+test_particular_premise_no_existential_only_additions_in_fixed_scope (test_euler_civ.ExhaustivenessTests.test_particular_premise_no_existential_only_additions_in_fixed_scope) ... ok
+test_standard_generator_is_exact_cartesian_product (test_euler_civ.ExhaustivenessTests.test_standard_generator_is_exact_cartesian_product) ... ok
+test_all_twenty_scan_transcriptions (test_euler_civ.HistoricalFormsTests.test_all_twenty_scan_transcriptions) ... ok
+test_all_twenty_under_both_regimes_and_minimal_assumptions (test_euler_civ.HistoricalFormsTests.test_all_twenty_under_both_regimes_and_minimal_assumptions) ... ok
+test_every_reported_counterexample_is_smallest_and_sound (test_euler_civ.HistoricalFormsTests.test_every_reported_counterexample_is_smallest_and_sound) ... ok
+test_printed_xvi_tautology_and_repair_nontrivial (test_euler_civ.HistoricalFormsTests.test_printed_xvi_tautology_and_repair_nontrivial) ... ok
+test_json_is_deterministic_and_matches_checked_in_report (test_euler_civ.ReportTests.test_json_is_deterministic_and_matches_checked_in_report) ... ok
+test_report_has_full_census_and_explicit_xvi_caveat (test_euler_civ.ReportTests.test_report_has_full_census_and_explicit_xvi_caveat) ... ok
+test_concrete_four_object_domains_collapse_without_truth_loss (test_euler_civ.SemanticsTests.test_concrete_four_object_domains_collapse_without_truth_loss) ... ok
+test_e_i_symmetric_and_a_o_not_assumed_symmetric (test_euler_civ.SemanticsTests.test_e_i_symmetric_and_a_o_not_assumed_symmetric) ... ok
+test_every_statement_every_model_against_set_oracle (test_euler_civ.SemanticsTests.test_every_statement_every_model_against_set_oracle) ... ok
+test_exact_255_occupancies_and_minimal_order (test_euler_civ.SemanticsTests.test_exact_255_occupancies_and_minimal_order) ... ok
+test_universal_vacuity_and_particular_existence (test_euler_civ.SemanticsTests.test_universal_vacuity_and_particular_existence) ... ok
+test_reject_invalid_assumptions_arguments_and_generators (test_euler_civ.ValidationTests.test_reject_invalid_assumptions_arguments_and_generators) ... ok
+test_reject_invalid_formulas (test_euler_civ.ValidationTests.test_reject_invalid_formulas) ... ok
+test_reject_invalid_model_masks (test_euler_civ.ValidationTests.test_reject_invalid_model_masks) ... ok
+test_unrepairable_inference_has_no_sufficient_term_existence_set (test_euler_civ.ValidationTests.test_unrepairable_inference_has_no_sufficient_term_existence_set) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 4.194s
+
+OK
+Exit status: 0
+Exit status: 0; expected: 0
+
+$ python3 -c <TEACHING.md-example-1>
+{'code': 'AAB,ABC=>ICA', 'premises': ['AAB', 'ABC'], 'conclusion': 'ICA', 'english': ['All A are B', 'All B are C', 'Some C are A']}
+{'valid': False, 'models_checked': 255, 'premise_satisfying_models': 15, 'counterexample_count': 7, 'minimal_counterexample': {'occupancy': 1, 'occupied_atoms': [0], 'universe_size': 1, 'universe': ['x0'], 'sets': {'A': [], 'B': [], 'C': []}, 'premises_true': [True, True], 'conclusion_true': False}}
+{'valid': False, 'models_checked': 228, 'premise_satisfying_models': 12, 'counterexample_count': 4, 'minimal_counterexample': {'occupancy': 64, 'occupied_atoms': [6], 'universe_size': 1, 'universe': ['x6'], 'sets': {'A': [], 'B': ['x6'], 'C': ['x6']}, 'premises_true': [True, True], 'conclusion_true': False}}
+(('A',),)
+Exit status: 0; expected: 0
+
+$ python3 -c <TEACHING.md-example-2>
+{'occupancy': 32, 'occupied_atoms': [5], 'universe_size': 1, 'universe': ['x5'], 'sets': {'A': ['x5'], 'B': [], 'C': ['x5']}}
+IAC True
+OAB True
+OAC False
+ACB False
+Exit status: 0; expected: 0
+
+$ python3 -c <TEACHING.md-example-3>
+{'valid': False, 'models_checked': 218, 'premise_satisfying_models': 160, 'counterexample_count': 16, 'minimal_counterexample': {'occupancy': 40, 'occupied_atoms': [3, 5], 'universe_size': 2, 'universe': ['x3', 'x5'], 'sets': {'A': ['x3', 'x5'], 'B': ['x3'], 'C': ['x5']}, 'premises_true': [True, True], 'conclusion_true': False}}
+Exit status: 0; expected: 0
+
+$ python3 review/independent_oracle.py
+PASS: 8653 exact report-field comparisons; 255 models, 218 all-nonempty.
+Printed/repaired: 16/20 valid with empty terms; 20/20 all-nonempty.
+Narrow classes: 20 printed, 19 repaired. With E/I exchange: 10 printed, 9 repaired.
+Standard: 15/24 valid; direct table covers 19/24; five missing: AAI-1, EAO-1, AEO-2, EAO-2, AEO-4
+Six deliberate report mutations were all rejected.
+Results: review/independent-results.json
+Exit status: 0; expected: 0
+
+$ python3 report.py --output <temporary-report.json>
+Euler 1768 Letter CIV: finite-model teaching reconstruction
+Models: 255 occupied-atom configurations
+Printed recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 20
+  classes with E/I conversion: 10
+Repaired recap: 20 entries
+  term_empty_permitted: 16 valid; invalid: VI, XVIII, XIX, XX
+  all_three_terms_nonempty: 20 valid; invalid: none
+  classes without E/I conversion: 19
+  classes with E/I conversion: 9
+standard_256: 256 candidates
+  term_empty_permitted: 15 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 24 valid; 11 structural classes; 9 covered by repaired recap
+euler_style_512: 512 candidates
+  term_empty_permitted: 30 valid; 6 structural classes; 6 covered by repaired recap
+  all_three_terms_nonempty: 48 valid; 11 structural classes; 9 covered by repaired recap
+particular_first_256: 256 candidates
+  term_empty_permitted: 10 valid; 4 structural classes; 4 covered by repaired recap
+  all_three_terms_nonempty: 10 valid; 4 structural classes; 4 covered by repaired recap
+Report SHA-256: f4f6a795cc1c1fa4db0820949682b0afa4fc927a56ae210571e73fa56400ee24
+Exit status: 0; expected: 0
+
+Fresh report byte-identical to outputs/report.json: True
+
+$ python3 report.py --check <deliberately-corrupted-report.json>
+Report differs from stored reference.
+Exit status: 1; expected: 1
+
