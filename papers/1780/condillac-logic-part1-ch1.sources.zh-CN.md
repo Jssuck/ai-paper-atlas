@@ -38,7 +38,7 @@
 
 ### 第二份1798年扫描
 
-本次还检查了[Google Books数字本（tdSdMhj8gcwC）](https://books.google.com/books?id=tdSdMhj8gcwC)的本地PDF。该ID由PDF内的原有链接注释直接取得（原注释URI为 http://google.it/books?id=tdSdMhj8gcwC），非根据书名推测。2026-10-11公开书目页面正常返回，确认Houel、an VI、1798及231个印刷页，并列原藏机构为马德里康普顿斯大学（Complutense University of Madrid）；这与PDF题名页馆藏章相符。其题名页同样为Houel、an VI–1798，属于不同于Wellcome馆藏的同版册本。该PDF比IA文件多两页前置说明：书上第4、8、12–15页分别对应PDF第14、18、22–25页。主要用途是核对印刷疑点和补查IA的书沟遮挡；不能把两个扫描当作两个不同版本。
+本次还检查了[Google Books数字本（tdSdMhj8gcwC）](https://books.google.com/books?id=tdSdMhj8gcwC)的本地PDF。该ID由PDF内的原有链接注释直接取得（原注释URI为 `http://google.it/books?id=tdSdMhj8gcwC`），非根据书名推测。2026-10-11公开书目页面正常返回，确认Houel、an VI、1798及231个印刷页，并列原藏机构为马德里康普顿斯大学（Complutense University of Madrid）；这与PDF题名页馆藏章相符。其题名页同样为Houel、an VI–1798，属于不同于Wellcome馆藏的同版册本。该PDF比IA文件多两页前置说明：书上第4、8、12–15页分别对应PDF第14、18、22–25页。主要用途是核对印刷疑点和补查IA的书沟遮挡；不能把两个扫描当作两个不同版本。
 
 ## 三、容易被“校正”错的印刷字样
 
