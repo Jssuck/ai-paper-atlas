@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "condillac-1780-logic-part1-ch8",
+    "path": "papers/1780/condillac-logic-part1-ch8.zh-CN.md",
+    "stage": "primary_source_reading",
+    "scope": "La Logique I.VIII, actual 1798 Œuvres XXII pp.67–71; 1780 bibliographic edition date only."
+  },
   "last_completed": {
     "id": "condillac-1780-logic-part1-ch7",
     "path": "papers/1780/condillac-logic-part1-ch7.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent source, whole-argument and code reviews passed. 18 author tests pass normal/-O/-OO; independent 18600 Horn theories, 73728 comparisons, 8052 certificates and 13 mutations across three modes pass. All 30 remote files exactly verified. Unsupported domain macro repaired and independently rechecked. Eight live Markdown bodies, 342 formulas, 13 tables, 22 answers, 169 headings and 228 relative links/206 targets pass. IA/BnF/Hiroshima/Locke reachable; Google Books CAPTCHA limits fresh availability.",
     "scope": "Complete La Logique I.VII, actual 1798 Œuvres XXII pp.58–66, two scans, nine margins, full p.65 footnote and three self-citation locations. 1780 bibliographic dating only. Footnote containment-direction tension retained; models explicitly modern."
   },
-  "updated_at": "2026-10-11T20:06:20Z",
+  "updated_at": "2026-10-11T20:33:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Read and independently audit the complete bounded chapter; reconstruct and test clearly labelled teaching models before publication.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
