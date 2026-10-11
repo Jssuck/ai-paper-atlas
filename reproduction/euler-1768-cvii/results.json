@@ -1,0 +1,1127 @@
+{
+  "model": {
+    "bits": {
+      "M": 4,
+      "P": 1,
+      "Q": 2
+    },
+    "conclusion": "P–Q",
+    "forms": 256,
+    "nonempty_universe": true
+  },
+  "regimes": {
+    "all_terms_nonempty": {
+      "filter_survivors": 48,
+      "per_rule": {
+        "affirmative_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 32
+        },
+        "negative_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 96
+        },
+        "particular_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 96
+        },
+        "two_negative": {
+          "valid_violating_forms": 0,
+          "violating_forms": 64
+        },
+        "two_particular": {
+          "valid_violating_forms": 0,
+          "violating_forms": 64
+        }
+      },
+      "supports": 218,
+      "surviving_invalid_count": 24,
+      "surviving_invalid_countermodels": {
+        "AAA2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "AAA3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 130,
+          "types": [
+            1,
+            7
+          ]
+        },
+        "AAA4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 130,
+          "types": [
+            1,
+            7
+          ]
+        },
+        "AAI2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "AEE1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AEE3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AEO1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AEO3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AII2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "AII4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "AOO1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AOO3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "AOO4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              1
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 144,
+          "types": [
+            4,
+            7
+          ]
+        },
+        "EAE3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 40,
+          "types": [
+            3,
+            5
+          ]
+        },
+        "EAE4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 40,
+          "types": [
+            3,
+            5
+          ]
+        },
+        "IAI1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "IAI2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 96,
+          "types": [
+            5,
+            6
+          ]
+        },
+        "IEO1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "IEO2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "IEO3": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "IEO4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              0
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 72,
+          "types": [
+            3,
+            6
+          ]
+        },
+        "OAO1": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              0,
+              1
+            ],
+            "P": [
+              1
+            ],
+            "Q": [
+              1
+            ]
+          },
+          "support": 144,
+          "types": [
+            4,
+            7
+          ]
+        },
+        "OAO2": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 132,
+          "types": [
+            2,
+            7
+          ]
+        },
+        "OAO4": {
+          "cardinality": 2,
+          "extensions": {
+            "M": [
+              1
+            ],
+            "P": [
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ]
+          },
+          "support": 132,
+          "types": [
+            2,
+            7
+          ]
+        }
+      },
+      "valid_count": 24,
+      "valid_forms": [
+        "AAA1",
+        "AAI1",
+        "AII1",
+        "EAE1",
+        "EAO1",
+        "EIO1",
+        "AEE2",
+        "AEO2",
+        "AOO2",
+        "EAE2",
+        "EAO2",
+        "EIO2",
+        "AAI3",
+        "AII3",
+        "EAO3",
+        "EIO3",
+        "IAI3",
+        "OAO3",
+        "AAI4",
+        "AEE4",
+        "AEO4",
+        "EAO4",
+        "EIO4",
+        "IAI4"
+      ]
+    },
+    "modern": {
+      "filter_survivors": 48,
+      "per_rule": {
+        "affirmative_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 32
+        },
+        "negative_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 96
+        },
+        "particular_conclusion": {
+          "valid_violating_forms": 0,
+          "violating_forms": 96
+        },
+        "two_negative": {
+          "valid_violating_forms": 0,
+          "violating_forms": 64
+        },
+        "two_particular": {
+          "valid_violating_forms": 0,
+          "violating_forms": 64
+        }
+      },
+      "supports": 255,
+      "surviving_invalid_count": 33,
+      "surviving_invalid_countermodels": {
+        "AAA2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [
+              0
+            ],
+            "Q": []
+          },
+          "support": 32,
+          "types": [
+            5
+          ]
+        },
+        "AAA3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": []
+          },
+          "support": 2,
+          "types": [
+            1
+          ]
+        },
+        "AAA4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": []
+          },
+          "support": 2,
+          "types": [
+            1
+          ]
+        },
+        "AAI1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AAI2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AAI3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AAI4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AEE1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 8,
+          "types": [
+            3
+          ]
+        },
+        "AEE3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 8,
+          "types": [
+            3
+          ]
+        },
+        "AEO1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AEO2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AEO3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AEO4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "AII2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [
+              0
+            ],
+            "Q": []
+          },
+          "support": 32,
+          "types": [
+            5
+          ]
+        },
+        "AII4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [
+              0
+            ],
+            "Q": []
+          },
+          "support": 32,
+          "types": [
+            5
+          ]
+        },
+        "AOO1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 8,
+          "types": [
+            3
+          ]
+        },
+        "AOO3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "AOO4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": []
+          },
+          "support": 16,
+          "types": [
+            4
+          ]
+        },
+        "EAE3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 8,
+          "types": [
+            3
+          ]
+        },
+        "EAE4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [
+              0
+            ],
+            "Q": [
+              0
+            ]
+          },
+          "support": 8,
+          "types": [
+            3
+          ]
+        },
+        "EAO1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "EAO2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "EAO3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "EAO4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": []
+          },
+          "support": 1,
+          "types": [
+            0
+          ]
+        },
+        "IAI1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "IAI2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "IEO1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "IEO2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "IEO3": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "IEO4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 64,
+          "types": [
+            6
+          ]
+        },
+        "OAO1": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [
+              0
+            ],
+            "P": [],
+            "Q": []
+          },
+          "support": 16,
+          "types": [
+            4
+          ]
+        },
+        "OAO2": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 4,
+          "types": [
+            2
+          ]
+        },
+        "OAO4": {
+          "cardinality": 1,
+          "extensions": {
+            "M": [],
+            "P": [],
+            "Q": [
+              0
+            ]
+          },
+          "support": 4,
+          "types": [
+            2
+          ]
+        }
+      },
+      "valid_count": 15,
+      "valid_forms": [
+        "AAA1",
+        "AII1",
+        "EAE1",
+        "EIO1",
+        "AEE2",
+        "AOO2",
+        "EAE2",
+        "EIO2",
+        "AII3",
+        "EIO3",
+        "IAI3",
+        "OAO3",
+        "AEE4",
+        "EIO4",
+        "IAI4"
+      ]
+    }
+  },
+  "singular_names": {
+    "independent_witnesses_countermodel": {
+      "M": [
+        0,
+        1
+      ],
+      "P": [
+        0
+      ],
+      "Q": [
+        1
+      ],
+      "form": "III3",
+      "n": 2
+    },
+    "non_denoting_name_countermodel": {
+      "N": [],
+      "P": [],
+      "Q": [],
+      "conclusion_false": "I(P,Q)",
+      "n": 1,
+      "premises": [
+        "A(N,P)",
+        "A(N,Q)"
+      ]
+    },
+    "required_name_constraint": "|N| = 1; both premises use the SAME N",
+    "shared_singleton_exhaustion": [
+      {
+        "A_I_disagreements": 0,
+        "E_O_disagreements": 0,
+        "assignments": 4,
+        "counterexamples": 0,
+        "n": 1,
+        "premise_pairs_true": 1
+      },
+      {
+        "A_I_disagreements": 0,
+        "E_O_disagreements": 0,
+        "assignments": 32,
+        "counterexamples": 0,
+        "n": 2,
+        "premise_pairs_true": 8
+      },
+      {
+        "A_I_disagreements": 0,
+        "E_O_disagreements": 0,
+        "assignments": 192,
+        "counterexamples": 0,
+        "n": 3,
+        "premise_pairs_true": 48
+      },
+      {
+        "A_I_disagreements": 0,
+        "E_O_disagreements": 0,
+        "assignments": 1024,
+        "counterexamples": 0,
+        "n": 4,
+        "premise_pairs_true": 256
+      }
+    ]
+  }
+}

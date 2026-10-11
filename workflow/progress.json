@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "euler-1768-letter-cvii",
     "path": "papers/1768/euler-letter-cvii.zh-CN.md",
-    "stage": "researching",
+    "stage": "verifying_publication",
     "scope": "Complete Letter CVII,1768 volumeII pp134–139,dated3March1761;ten observations on syllogism restrictions and singular propositions;verify edition and scan limits."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source,whole-article mathematics and code reviews passed;18 tests,2048-combination oracle and512-decision cross-check.31 remote blob identities,30 exact text files and preserved CRLF CSV verified.133 formulas,21 actual GitHub tables,seven Markdown pages and140 anchors checked;43 link destinations preserved.Browser sans-serif label typography varies without mathematical loss;external destinations not all revisited.",
     "scope": "Complete CVI,1768 pp126–134,dated28February1761;original130 supplemented by1770 p135 with explicit version anomalies.1772 page129 correction concerns volumeIII magnetism,not this letter.19 proofs and four existence conditions;not fullvolume."
   },
-  "updated_at": "2026-10-11T10:36:40Z",
+  "updated_at": "2026-10-11T10:50:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete primary source and corrections, reconstruct proofs and counterexamples with independent source/code audits.",
+  "next_action": "Verify remote file identities and GitHub formulas,tables,links after completed independent source/math/code audits.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",

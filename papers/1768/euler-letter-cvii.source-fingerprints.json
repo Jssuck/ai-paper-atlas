@@ -1,0 +1,78 @@
+{
+  "audit_date": "2026-10-11",
+  "purpose": "Public primary-source identity and page mapping; no source-image redistribution",
+  "1770_images": [
+    {
+      "canvas_1_based": 5,
+      "label": "[5]",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380144",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380144",
+      "sha256": "9ed31fdd0e33125f4072fc26c41c6d6bd01246fb875cbb2b3d35e895575a966f",
+      "bytes": 187138
+    },
+    {
+      "canvas_1_based": 9,
+      "label": "V",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380148",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380148",
+      "sha256": "c7c25512ac5a4db281abcf7ab493baca74aed860644564246aa5f4b700beaa1f",
+      "bytes": 221921
+    },
+    {
+      "canvas_1_based": 151,
+      "label": "139",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380290",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380290",
+      "sha256": "f5a7203ca52836958ddae0c711c965197486e1bb4ee25dc22f073a60ddf531c6",
+      "bytes": 236004
+    },
+    {
+      "canvas_1_based": 152,
+      "label": "140",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380291",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380291",
+      "sha256": "83892cf3edb05cd5d711e1688c83e89688d9b42a3b2e4139d26733943ca0bbf5",
+      "bytes": 228308
+    },
+    {
+      "canvas_1_based": 153,
+      "label": "141",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380292",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380292",
+      "sha256": "565ad0b3beec8f50e39233629710298c3d2c08b8f2c5bfea3a82f20128b41587",
+      "bytes": 248723
+    },
+    {
+      "canvas_1_based": 154,
+      "label": "142",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380293",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380293",
+      "sha256": "77f9d63117b46453c3e8140a7c9427b915705fc8382ee3a62627575e65850690",
+      "bytes": 248964
+    },
+    {
+      "canvas_1_based": 155,
+      "label": "143",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380294",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380294",
+      "sha256": "474784e99adae8525c07ecc5baa1888acd3f2fe598dd45fc676816ffd97cf214",
+      "bytes": 235675
+    },
+    {
+      "canvas_1_based": 156,
+      "label": "144",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380295",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380295",
+      "sha256": "613a20790fb4e03274dcce9773efbb093bbf097a82bf73186202b2f3f1e58727",
+      "bytes": 235142
+    },
+    {
+      "canvas_1_based": 157,
+      "label": "145",
+      "canvas": "https://www.e-rara.ch/i3f/v20/2380138/canvas/2380296",
+      "source_url": "https://www.e-rara.ch/download/webcache/1000/2380296",
+      "sha256": "345fab07c4b517702c7d851c7775b69974003f5bd1e4a83fd0fd1b5f8b1546b8",
+      "bytes": 233832
+    }
+  ]
+}

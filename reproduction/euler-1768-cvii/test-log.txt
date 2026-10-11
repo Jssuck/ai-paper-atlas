@@ -1,0 +1,17 @@
+Python 3.12.14
+test_empty_classes_and_existential_import (test_euler_cvii.ReproductionTests.test_empty_classes_and_existential_import) ... ok
+test_euler_term_roles_and_figures (test_euler_cvii.ReproductionTests.test_euler_term_roles_and_figures) ... ok
+test_every_countermodel_and_minimality (test_euler_cvii.ReproductionTests.test_every_countermodel_and_minimality) ... ok
+test_filters_necessary_not_sufficient (test_euler_cvii.ReproductionTests.test_filters_necessary_not_sufficient) ... ok
+test_independent_native_set_oracle_n_le_3 (test_euler_cvii.ReproductionTests.test_independent_native_set_oracle_n_le_3) ... ok
+test_known_valid_forms (test_euler_cvii.ReproductionTests.test_known_valid_forms) ... ok
+test_malformed_inputs (test_euler_cvii.ReproductionTests.test_malformed_inputs) ... ok
+test_saved_report_and_determinism (test_euler_cvii.ReproductionTests.test_saved_report_and_determinism) ... ok
+test_shared_singleton_n_le_4 (test_euler_cvii.ReproductionTests.test_shared_singleton_n_le_4) ... ok
+test_support_counts_and_uniqueness (test_euler_cvii.ReproductionTests.test_support_counts_and_uniqueness) ... ok
+test_two_witnesses_and_non_denoting_name (test_euler_cvii.ReproductionTests.test_two_witnesses_and_non_denoting_name) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 6.854s
+
+OK

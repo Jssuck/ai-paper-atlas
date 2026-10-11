@@ -1,0 +1,10 @@
+$ python3 --version
+Python 3.12.14
+$ python3 independent_mathematics_audit.py
+109 models; 24 valid moods; all necessary conditions passed.
+nonempty_terms=False: reduced=128, full=255, valid=15; exact agreement
+nonempty_terms=True: reduced=109, full=218, valid=24; exact agreement
+Two uniform negative-premise countermodels: all 16 figure/premise pairs passed.
+Explicit countermodels, II-AEO existence condition, singleton equivalences: passed.
+No production module imported; all assertions passed.
+Necessary-rule violating counts=[64, 64, 96, 96, 32]; survivors=48; invalid survivors=33 (empty allowed), 24 (all nonempty).

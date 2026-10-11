@@ -51,29 +51,30 @@
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。",
     "current_unit_notice": "旧scope文字保留其历史记录语境；当前新完成单位以current_selection和各effective_status的最新条目为准。本次仅追加CV，旧“CV未读”等为旧时点状态，不表示旧版本缺口已补齐。",
-    "current_unit_notice_cvi": "旧scope字段及旧未读描述按原样保留；当前单位与各信完成范围以current_selection和effective_status最新对象为准。本次仅追加CVI，不关闭扫描、版本或全书缺口。"
+    "current_unit_notice_cvi": "旧scope字段及旧未读描述按原样保留；当前单位与各信完成范围以current_selection和effective_status最新对象为准。本次仅追加CVI，不关闭扫描、版本或全书缺口。",
+    "current_unit_notice_cvii": "旧scope/候选/历史/缺口描述原样保留其历史语境；本次只追加CVII，当前完成以各信effective_status为准，不关闭CVIII或旧版本/全书缺口。"
   },
   "current_selection": {
-    "candidate_id": "euler-1768-letter-cvi",
-    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CVI",
+    "candidate_id": "euler-1768-letter-cvii",
+    "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CVII",
     "publication_year": 1768,
-    "letter_date": "1761-02-28",
+    "letter_date": "1761-03-03",
     "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
-    "pages": "1768印126下部CVI标题–134署日；1770印131下部–139署日，其中应序138原误印128",
-    "publication_scope": "1768 Saint Pétersbourg主底本；原130中央遮挡及右缘裁切由1770 Mietau et Leipsic同信135补读，1770全信另逐页对校。非1768每字直接可见认证。",
-    "why_selected": "核实接续CV的CVI仍为逻辑书信；只选四格十九式这一完整章节，不机械接读物理篇，也不同时完成CVII。",
-    "mathematical_boundary": "六条原文、三项角色、四格与十九式；现代空类语义15式、全项非空24式及按共同背景删除弱化后19式；四项存在补充、八类型压缩与明确反模型。",
-    "completion": "完整单信中文精读、1768/1770核图、适用勘误查核、十九式一般证明、14道有答案练习、标准库实跑与独立来源/数学/代码审计。远端发布与浏览器QA另核。",
-    "article_path": "papers/1768/euler-letter-cvi.zh-CN.md",
-    "source_ledger_path": "papers/1768/euler-letter-cvi.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1768/euler-letter-cvi.audit.zh-CN.md",
-    "reproduction_path": "reproduction/euler-1768-cvi/README.md",
-    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=147",
-    "supplement_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
+    "pages": "1768印134下部CVII标题–139署日，PDF155–160；1770同信139下–144署日",
+    "publication_scope": "1768 Saint Pétersbourg完整六页可读；1770 Mietau et Leipsic同信全篇对校，非补代缺文；另版重排，不认证逐字一致。",
+    "why_selected": "先核远端空闲/CVI完成及已刊目录，再确认CVII仍是逻辑书信；只完成必要规则与单称命题这个完整单元，不同时开启CVIII或全书。",
+    "mathematical_boundary": "原I–X完整；五个必要非充分限制、两全称存在条件、单元素A/I和E/O等价、同一见证与独立见证、无指称边界。255/218支持与128/109商分开；256式15/24有效，48筛选存留中33/24无效。",
+    "completion": "完整单信原创中文精读、1768/1770逐图核读、1772更正归属核查、一般证明与反模型、15道有答案练习、标准库实跑及独立来源/数学/代码审计。远端发布和实际浏览器QA另核。",
+    "article_path": "papers/1768/euler-letter-cvii.zh-CN.md",
+    "source_ledger_path": "papers/1768/euler-letter-cvii.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1768/euler-letter-cvii.audit.zh-CN.md",
+    "reproduction_path": "reproduction/euler-1768-cvii/README.md",
+    "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=155",
+    "comparison_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
     "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
-    "status": "completed_composite_source_letter_chapter",
-    "not_completed": "1768原130清晰同版逐字认证、缺目录叶、全异文与更正版本史；CVII及后续、整卷、全书；全部旧候选、书籍与版本缺口。",
-    "source_findings": "1770目录写132而正文CVI起于131下；应序138页误印128。1772更正表129两项直接匹配第三卷自身磁性文字，不适用第二卷CVI。"
+    "status": "completed_original_with_full_comparison_letter_chapter",
+    "not_completed": "1768缺失目录叶、未具名前驱考证、全部异文/更正史、CVIII及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口。",
+    "source_findings": "1768本信正文未发现实质遮挡缺失；1770目录v所述题名不可冒充1768缺叶原题。1772更正表138行13正向匹配第三卷磁铁AABB，不属于本信。"
   },
   "earlier_gap_priority": [
     {
@@ -1129,6 +1130,28 @@
       "status": "completed_composite_source_letter_chapter",
       "not_completed": "1768原130清晰同版逐字认证、缺目录叶、全异文与更正版本史；CVII及后续、整卷、全书；全部旧候选、书籍与版本缺口。",
       "source_findings": "1770目录写132而正文CVI起于131下；应序138页误印128。1772更正表129两项直接匹配第三卷自身磁性文字，不适用第二卷CVI。"
+    },
+    {
+      "candidate_id": "euler-1768-letter-cvii",
+      "title": "Lettres à une princesse d’Allemagne, Tome second, Lettre CVII",
+      "publication_year": 1768,
+      "letter_date": "1761-03-03",
+      "document_type": "完整教学书信章节，非独立期刊论文；E344为整卷编号",
+      "pages": "1768印134下部CVII标题–139署日，PDF155–160；1770同信139下–144署日",
+      "publication_scope": "1768 Saint Pétersbourg完整六页可读；1770 Mietau et Leipsic同信全篇对校，非补代缺文；另版重排，不认证逐字一致。",
+      "why_selected": "先核远端空闲/CVI完成及已刊目录，再确认CVII仍是逻辑书信；只完成必要规则与单称命题这个完整单元，不同时开启CVIII或全书。",
+      "mathematical_boundary": "原I–X完整；五个必要非充分限制、两全称存在条件、单元素A/I和E/O等价、同一见证与独立见证、无指称边界。255/218支持与128/109商分开；256式15/24有效，48筛选存留中33/24无效。",
+      "completion": "完整单信原创中文精读、1768/1770逐图核读、1772更正归属核查、一般证明与反模型、15道有答案练习、标准库实跑及独立来源/数学/代码审计。远端发布和实际浏览器QA另核。",
+      "article_path": "papers/1768/euler-letter-cvii.zh-CN.md",
+      "source_ledger_path": "papers/1768/euler-letter-cvii.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1768/euler-letter-cvii.audit.zh-CN.md",
+      "reproduction_path": "reproduction/euler-1768-cvii/README.md",
+      "source_url": "https://archive.org/download/lettresuneprinc01eulegoog/lettresuneprinc01eulegoog.pdf#page=155",
+      "comparison_source_url": "https://www.e-rara.ch/zut/content/titleinfo/2380138",
+      "institutional_record": "https://scholarlycommons.pacific.edu/euler-works/344/",
+      "status": "completed_original_with_full_comparison_letter_chapter",
+      "not_completed": "1768缺失目录叶、未具名前驱考证、全部异文/更正史、CVIII及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口。",
+      "source_findings": "1768本信正文未发现实质遮挡缺失；1770目录v所述题名不可冒充1768缺叶原题。1772更正表138行13正向匹配第三卷磁铁AABB，不属于本信。"
     }
   ],
   "next_source_gap": {
@@ -2020,6 +2043,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1768/euler-letter-cvi.zh-CN.md",
       "note": "仅CVI完整章节：原126下–134署日，1761-02-28；1770补130及全信对校。四格十九式原顺序、15/24/19不同准则与四个存在条件分开；页码误植和不适用第三卷129更正已核。全部旧候选/历史/状态/缺口保留。远端和浏览器QA另核。"
+    },
+    {
+      "checked_on": "2026-10-11",
+      "candidate_id": "euler-1768-letter-cvii",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1768/euler-letter-cvii.zh-CN.md",
+      "note": "仅CVII完整书信：1768印134下–139，署1761-03-03；1770全篇对校，无实质原文缺损。十项与全部实例、五条必要限制及共享单称见证、255/218和128/109模型分轨核验；1772p138磁性勘误不适用。全部旧候选/历史/有效状态/缺口保留；远端与浏览器QA另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -2225,6 +2255,15 @@
       "pages": "1768印126下部CVI标题–134署日；1770印131下部–139署日，其中应序138原误印128",
       "publication_scope": "1768 Saint Pétersbourg主底本；原130中央遮挡及右缘裁切由1770 Mietau et Leipsic同信135补读，1770全信另逐页对校。非1768每字直接可见认证。",
       "not_completed": "1768原130清晰同版逐字认证、缺目录叶、全异文与更正版本史；CVII及后续、整卷、全书；全部旧候选、书籍与版本缺口。"
+    },
+    "euler-1768-letter-cvii": {
+      "status": "completed_original_with_full_comparison_letter_chapter",
+      "publication_year": 1768,
+      "letter_date": "1761-03-03",
+      "article_path": "papers/1768/euler-letter-cvii.zh-CN.md",
+      "pages": "1768印134下部CVII标题–139署日，PDF155–160；1770同信139下–144署日",
+      "publication_scope": "1768 Saint Pétersbourg完整六页可读；1770 Mietau et Leipsic同信全篇对校，非补代缺文；另版重排，不认证逐字一致。",
+      "not_completed": "1768缺失目录叶、未具名前驱考证、全部异文/更正史、CVIII及后续、整卷与全书；CIII/CIV/CV/CVI旧扫描及版本缺口、所有旧候选和书籍缺口。"
     }
   }
 }
