@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part1-ch4",
     "path": "papers/1780/condillac-logic-part1-ch4.zh-CN.md",
-    "stage": "verifying_publication",
-    "scope": "Complete La Logique I.IV,actual1798XXII printed32–48;I.V begins49 excluded.1780 bibliographic edition date only.Observation,particular/general ideas,classification and completeness limits."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part1-ch3",
-    "path": "papers/1780/condillac-logic-part1-ch3.zh-CN.md",
     "version": "v1",
-    "content_commit": "464155cdeeedba19bf3037f9ebf9043b508f3f15",
-    "checks": "Independent source,whole-argument and code audits passed;18tests in normal/-O/-OO,3477trees,97656token sequences andeight detected faults.36remote blob identities,35text files and final review-link repair verified.60formulas,10new tables,eight Markdown bodies,anchors and245link occurrences checked;original SVG/PNG pixels verified.External source availability not comprehensively rechecked.",
-    "scope": "Complete La Logique I.III,actual1798XXII pp25–31,two scans,five marginal summaries andauthor self-reference;1780 bibliographic dating only.18answered exercises and bounded structural reconstruction model,not historical empirical reproduction."
+    "content_commit": "d96c69a4616264c379d45c8c8ff980741e65d464",
+    "checks": "Independent source,whole-argument and code audits passed;48final tests,Python3.12/3.13 reruns,3375candidate partitions,320observation-decision combinations andeight detected mutations.46remote blob identities and45text contents verified.80formulas,eight new tables,eight Markdown previews,228relative links and original SVG/PNG pixels checked.BnF/Locke reachable;IA/Google fresh web checks limited,rendered source URLs intact.",
+    "scope": "Complete La Logique I.IV,actual1798XXII pp32–48,two scans,17marginal summaries andthree self-references;1780 bibliographic dating only.Print anomalies and contents/marginal wording difference retained.20answered exercises,bounded task-relative classification model."
   },
-  "updated_at": "2026-10-11T17:01:10Z",
+  "updated_at": "2026-10-11T17:07:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify remote exact contents and GitHub formulas,tables,links and original classification diagram after independent audits.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "de-morgan-1851",
     "path": "papers/1851/demorgan-probability-audit.zh-CN.md",
