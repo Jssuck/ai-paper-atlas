@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-12",
+  "generated_at_utc": "2026-10-12T10:54:09.500687+00:00",
+  "status": "pass_with_disclosed_limits",
+  "scope": "Full introduction, 15 sections and 20 answered exercises; separate AI-assisted argument review and bounded implementation checks, not formal certification",
+  "artifacts": [
+    {
+      "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
+      "bytes": 44170,
+      "sha256": "320b7cbfbd77361a509ccfd04e5d0ae84b279538c1a1ff90a827b69e8c1f37ee"
+    },
+    {
+      "path": "papers/1798/condillac-potocki-exchange.sources.zh-CN.md",
+      "bytes": 11887,
+      "sha256": "adf3700b9e6bd0b23bdf6f71251b63a9ffcef679fcbabebec46d1d52a900cb61"
+    },
+    {
+      "path": "papers/1798/condillac-potocki-exchange.audit.zh-CN.md",
+      "bytes": 12469,
+      "sha256": "79c581bf9155677ddbd00f21b1291fe9249de3b27a4d6f630d9e3b017aada4d1"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/README.md",
+      "bytes": 1974,
+      "sha256": "047813c2477f0e4a39b6e178fae188fc2f78b9a4e916901dc717e66294b771f2"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/MODEL.md",
+      "bytes": 7778,
+      "sha256": "5e118b4d8983737b29d4cca43fef12a0076be7105ecaadd600c633e1eed4bd93"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/WALKTHROUGH.md",
+      "bytes": 4116,
+      "sha256": "3f2bbcc8fad22bf872aa87703a3efb2da6b6732df0d5f427cd677cd1c7d2e856"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/RESULTS.md",
+      "bytes": 3288,
+      "sha256": "fd7912f5ac9b3ba32c405a3de4454e69799fb0bba3878a00fa21496478db180a"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/model.py",
+      "bytes": 9365,
+      "sha256": "31703d9946ca9ed4769bae297a8d3657a1d2935db56c437821463bd6f7225586"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/demo.py",
+      "bytes": 3293,
+      "sha256": "06e76ef896e756a3b1d34dd125a86a411df180d9096215196905f291f81967e6"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/test_model.py",
+      "bytes": 16227,
+      "sha256": "2d1b9dd337a743cea877e5e528740072dfb4285dc7d0e70411f0ac4a80c7c7c1"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/run_checks.py",
+      "bytes": 2343,
+      "sha256": "2568a89fc8d98cae06d676d5b54700926c6a381a97d339a2062586a1422346ff"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/logs/environment.json",
+      "bytes": 648,
+      "sha256": "7a4a420f17d3b8347bf3e38bbd31e59f795fe4c5aed27962e222747c917471c2"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/logs/normal.log",
+      "bytes": 3961,
+      "sha256": "5c5ebcdf88af6404aa841fd27902f039281be7d433a1b6026bfabf737d4d6456"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/logs/optimized.log",
+      "bytes": 3970,
+      "sha256": "e7d884dedaa20820aa62e9c111edfc0c848cdebfa3ba746fd8d38f22643558a6"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/logs/double-optimized.log",
+      "bytes": 3973,
+      "sha256": "d29ddebef483bc7445007c0e8d77827430e085e5702990121d754230ca698e55"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/audit/independent_checks.py",
+      "bytes": 7846,
+      "sha256": "33ce64d2849a565b2ac996009d043d4bb43672d8f98b79604701bab09275441f"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/audit/independent-normal.json",
+      "bytes": 926,
+      "sha256": "53bdc0a488613f25c942331e72a0ab7ec114e28bee8b545477ed77032ff08884"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/audit/independent-double-optimized.json",
+      "bytes": 926,
+      "sha256": "7b3df13ef6f5475aa8661fdf8acfb3b1ffd492807a770cd575e927f571c7c1ab"
+    },
+    {
+      "path": "reproduction/condillac-1798-potocki-exchange/audit/author-tests-rerun.log",
+      "bytes": 2771,
+      "sha256": "37a08bd5e9f02048eaae3b610881f32869518b62fa5df7ad0f824e660204b30b"
+    }
+  ],
+  "historical_review": {
+    "independently_viewed_printed_pages": [
+      199,
+      200,
+      201,
+      202
+    ],
+    "primary_pdf_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf",
+    "primary_pdf_sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529",
+    "secondary_errata_pdf_sha256_checked": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52",
+    "title_contents_errata_images_independently_rechecked_by_this_auditor": false,
+    "comparison_texts_read": [
+      "Condillac II.IX printed186–191 PDF text layer",
+      "Rousseau Emile III 1782 transcription, three specified paragraphs"
+    ],
+    "remote_writes": false
+  },
+  "resolved_findings": [
+    {
+      "id": "A1",
+      "location": "3.4;4;exercise4;source ledger",
+      "issue": "Reversed direction of best performance versus self-discovery",
+      "resolution": "Original implication direction restored",
+      "status": "resolved"
+    },
+    {
+      "id": "A2",
+      "location": "3.3;10.2",
+      "issue": "Modernized spelling used as original wording",
+      "resolution": "Original paroissent restored",
+      "status": "resolved"
+    },
+    {
+      "id": "A3",
+      "location": "2",
+      "issue": "Existing success omitted while future success discussed",
+      "resolution": "Existing works success separated from conditional new-work success",
+      "status": "resolved"
+    },
+    {
+      "id": "A4",
+      "location": "7.1",
+      "issue": "Abstract predecessor description differs from path-storing implementation",
+      "resolution": "Implementation and closure precheck explicitly distinguished",
+      "status": "resolved"
+    },
+    {
+      "id": "A5",
+      "location": "exercise7",
+      "issue": "Monotonicity and deletion assumptions conflated",
+      "resolution": "Positive prerequisites and serializability roles separated",
+      "status": "resolved"
+    },
+    {
+      "id": "A6",
+      "location": "MODEL.md final paragraph",
+      "issue": "Unique effectiveness stronger than exclusive-use norm",
+      "resolution": "Normative exclusive-use wording restored",
+      "status": "resolved"
+    },
+    {
+      "id": "A7",
+      "location": "10.3",
+      "issue": "Zero-information counterexample could attack an unstated historical premise",
+      "resolution": "Counterexample limited to extreme interpretation not attributed to source",
+      "status": "resolved"
+    },
+    {
+      "id": "A8",
+      "location": "opening scope",
+      "issue": "Only one unprinted title-page number disclosed",
+      "resolution": "Both 199 and 201 identified through adjacent numbering and contents",
+      "status": "resolved"
+    }
+  ],
+  "mathematical_claims": [
+    {
+      "sections": "6.1–6.3",
+      "claim": "Inflationarity, monotonicity, finite stabilization, least closure",
+      "proof_review": "pass"
+    },
+    {
+      "sections": "6.4–6.5",
+      "claim": "Target reachable iff subset of closure; serializability; seeded cycle distinction",
+      "proof_review": "pass"
+    },
+    {
+      "sections": "5;7",
+      "claim": "Unit-cost BFS minimality, finite state bound, strict-growth path bound, greedy and cost counterexamples",
+      "proof_review": "pass"
+    },
+    {
+      "sections": "8",
+      "claim": "Observation conjunction, order/duplicate invariance, contradictions, nonempty behavior identification",
+      "proof_review": "pass"
+    },
+    {
+      "sections": "9",
+      "claim": "Realizability-conditional difference-hitting equivalence; exhaustive minimum; empty-domain and duplicate-row boundaries",
+      "proof_review": "pass"
+    },
+    {
+      "sections": "10–12",
+      "claim": "Observational indistinguishability, evidence/learning separation, empirical and historical limits",
+      "proof_review": "pass"
+    }
+  ],
+  "exercises": {
+    "reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "status": "pass"
+  },
+  "independent_execution": {
+    "modes": [
+      0,
+      2
+    ],
+    "python": "CPython 3.12.14",
+    "planning_oracle": "Increasing bit-mask dynamic programming, distinct from implementation BFS and author permutation oracle",
+    "planning": {
+      "skills": 3,
+      "maximum_distinct_rules": 2,
+      "rule_kinds": 56,
+      "course_families": 1597,
+      "oracle_dp_runs": 12776,
+      "goal_cases": 102208
+    },
+    "teaching_oracle": "Dynamic programming over eliminated wrong-row masks",
+    "teaching": {
+      "domain_sizes": [
+        0,
+        1,
+        2
+      ],
+      "ordered_row_family_lengths": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duplicates_included": true,
+      "minimum_target_cases": 374,
+      "target_subset_hitting_cases": 1424,
+      "target_observation_cases": 5564
+    },
+    "author_unittest_rerun": {
+      "mode": 0,
+      "tests": 27,
+      "status": "pass"
+    },
+    "status": "pass"
+  },
+  "unresolved_findings": [],
+  "limitations": [
+    "Finite checks do not prove arbitrary-input correctness",
+    "No human-expert or proof-assistant certification",
+    "No new title-page/contents/errata image review by this auditor",
+    "No manuscript or first-publication verification",
+    "No real learner, psychological, or AI-training experiment",
+    "No historical algorithm or direct influence attribution",
+    "No weighted, noisy, forgetting, adaptive, infinite-domain or performance guarantee"
+  ]
+}

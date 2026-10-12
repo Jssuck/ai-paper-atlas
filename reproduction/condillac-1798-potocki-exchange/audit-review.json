@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-12T10:51:16.927260+00:00",
+  "status": "pass_with_stated_boundaries",
+  "scope": "Independent implementation and contract review of two finite modern teaching models; no historical or psychological validation.",
+  "independence": "Separate review task and separately written oracles, relative to the original author implementation and tests; not third-party certification or formal verification.",
+  "model_changes_required": false,
+  "model_defects_found": [],
+  "auditor_preflight_corrections": [
+    "Corrected an audit-only identification-case-count constant from 208954 to 208594 before the three recorded final executions."
+  ],
+  "runtime_environment": "logs/audit-environment.json",
+  "modes_passed": [
+    0,
+    1,
+    2
+  ],
+  "test_methods_per_mode": 4,
+  "counts_per_mode": {
+    "planning_systems": 3193,
+    "planning_initial_goal_cases": 204352,
+    "hypothesis_families": 689,
+    "target_cases": 5054,
+    "observation_sequences": 27049,
+    "identification_cases": 208594,
+    "invalid_input_cases": 153,
+    "frozen_assignment_checks": 3
+  },
+  "planning_bound": {
+    "skill_count": 3,
+    "ordered_rule_lengths": [
+      0,
+      1,
+      2
+    ],
+    "duplicate_semantic_rules_included": true,
+    "all_initial_and_goal_sets": true
+  },
+  "hypothesis_bound": {
+    "domain_widths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ordered_family_lengths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "duplicate_rows_included": true,
+    "observation_sequence_lengths": [
+      0,
+      1,
+      2
+    ],
+    "all_binary_targets": true
+  },
+  "original_suite_independent_recheck": {
+    "modes": [
+      0,
+      1,
+      2
+    ],
+    "test_methods_per_mode": 27,
+    "demo_each_mode": true,
+    "successful_subprocesses": 6,
+    "log": "logs/audit-author-recheck.log"
+  },
+  "verified_original_source_hashes_match": true,
+  "verified_supplementary_argument_audit_source_hashes_match": true,
+  "reviewed_file_sha256": {
+    "model.py": "31703d9946ca9ed4769bae297a8d3657a1d2935db56c437821463bd6f7225586",
+    "demo.py": "06e76ef896e756a3b1d34dd125a86a411df180d9096215196905f291f81967e6",
+    "test_model.py": "2d1b9dd337a743cea877e5e528740072dfb4285dc7d0e70411f0ac4a80c7c7c1",
+    "run_checks.py": "2568a89fc8d98cae06d676d5b54700926c6a381a97d339a2062586a1422346ff",
+    "audit_model.py": "63632d93cd65628a61325ce0a2a1439d8cb1797795b6438a5b83ce150466ab0e",
+    "README.md": "047813c2477f0e4a39b6e178fae188fc2f78b9a4e916901dc717e66294b771f2",
+    "MODEL.md": "5e118b4d8983737b29d4cca43fef12a0076be7105ecaadd600c633e1eed4bd93",
+    "WALKTHROUGH.md": "3f2bbcc8fad22bf872aa87703a3efb2da6b6732df0d5f427cd677cd1c7d2e856",
+    "RESULTS.md": "fd7912f5ac9b3ba32c405a3de4454e69799fb0bba3878a00fa21496478db180a",
+    "AUDIT.md": "26650015546f161146281e346f98b02f7234b310b94922e389953bddc35683d3"
+  },
+  "evidence_file_sha256": {
+    "audit/author-tests-rerun.log": "37a08bd5e9f02048eaae3b610881f32869518b62fa5df7ad0f824e660204b30b",
+    "audit/independent-double-optimized.json": "7b3df13ef6f5475aa8661fdf8acfb3b1ffd492807a770cd575e927f571c7c1ab",
+    "audit/independent-normal.json": "53bdc0a488613f25c942331e72a0ab7ec114e28bee8b545477ed77032ff08884",
+    "audit/independent_checks.py": "33ce64d2849a565b2ac996009d043d4bb43672d8f98b79604701bab09275441f",
+    "logs/audit-author-recheck.log": "e1e8a8e3958238ea205d49c7932a18f05623e67290a8eb2b322a7de8af4c183a",
+    "logs/audit-double-optimized.log": "4af6a521f1a9d755fb41a8bfea40be5589182aad8b6c5b6e07b677fad79d1356",
+    "logs/audit-environment.json": "2a6efa80d4116ab02bcc4ab98089d7e7f106a8a16223d09505e9f6a9e4760abf",
+    "logs/audit-normal.log": "f312ca438b2c9405c9695be7afaee50876b58efe40d00890e87fb42d0f36e637",
+    "logs/audit-optimized.log": "f46b7f1014ac3f67e795fe3eaf3321d2d3a7f5641859d48a9c6a11ade944d718",
+    "logs/double-optimized.log": "d29ddebef483bc7445007c0e8d77827430e085e5702990121d754230ca698e55",
+    "logs/environment.json": "7a4a420f17d3b8347bf3e38bbd31e59f795fe4c5aed27962e222747c917471c2",
+    "logs/normal.log": "5c5ebcdf88af6404aa841fd27902f039281be7d433a1b6026bfabf737d4d6456",
+    "logs/optimized.log": "e7d884dedaa20820aa62e9c111edfc0c848cdebfa3ba746fd8d38f22643558a6"
+  },
+  "limits": [
+    "Bounded exhaustive and targeted checks, not all finite inputs.",
+    "Only CPython 3.12.14 on the recorded Linux environment was executed.",
+    "No learner data, psychological experiment, historical algorithm reconstruction, noise model, or large-instance performance claim.",
+    "Ordinary frozen-object usage only; no adversarial constructor bypass or resource-exhaustion guarantee."
+  ],
+  "manifest": "SHA256SUMS",
+  "manifest_scope": "All delivered files under this reproduction directory, excluding the manifest itself and regenerable __pycache__; no article files outside this directory."
+}

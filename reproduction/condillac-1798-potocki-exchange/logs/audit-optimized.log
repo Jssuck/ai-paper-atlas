@@ -1,0 +1,15 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -O audit_model.py
+started_at_utc: 2026-10-12T10:47:45.031080+00:00
+Python: 3.12.14; optimization level: 1
+test_deeper_ties_and_longer_dependencies (__main__.IndependentAudit.test_deeper_ties_and_longer_dependencies) ... ok
+test_duplicate_inclusive_hypothesis_families (__main__.IndependentAudit.test_duplicate_inclusive_hypothesis_families) ... ok
+test_strict_validation_and_immutability (__main__.IndependentAudit.test_strict_validation_and_immutability) ... ok
+test_three_skill_ordered_rule_systems (__main__.IndependentAudit.test_three_skill_ordered_rule_systems) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 4.529s
+
+OK
+completed_case_counts: {"frozen_assignment_checks": 3, "hypothesis_families": 689, "identification_cases": 208594, "invalid_input_cases": 153, "observation_sequences": 27049, "planning_initial_goal_cases": 204352, "planning_systems": 3193, "target_cases": 5054}
+exit_code: 0
+finished_at_utc: 2026-10-12T10:47:50.007732+00:00

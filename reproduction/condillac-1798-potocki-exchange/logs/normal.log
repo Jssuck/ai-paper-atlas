@@ -1,0 +1,72 @@
+$ python3 -c "import sys; print('optimization level:', sys.flags.optimize)"
+optimization level: 0
+exit_code: 0
+
+$ python3 -m unittest -v test_model
+test_cycle_with_seed (test_model.PlanningTests.test_cycle_with_seed) ... ok
+test_cycle_without_seed (test_model.PlanningTests.test_cycle_without_seed) ... ok
+test_empty_universe (test_model.PlanningTests.test_empty_universe) ... ok
+test_exhaustive_two_skill_up_to_three_rules (test_model.PlanningTests.test_exhaustive_two_skill_up_to_three_rules) ... ok
+test_goal_already_met (test_model.PlanningTests.test_goal_already_met) ... ok
+test_missing_rule_unreachable (test_model.PlanningTests.test_missing_rule_unreachable) ... ok
+test_partial_path_allowed (test_model.PlanningTests.test_partial_path_allowed) ... ok
+test_redundant_transitions_rejected (test_model.PlanningTests.test_redundant_transitions_rejected) ... ok
+test_supplied_counterexample (test_model.PlanningTests.test_supplied_counterexample) ... ok
+test_ties_follow_supplied_order (test_model.PlanningTests.test_ties_follow_supplied_order) ... ok
+test_contradictions_and_repeated_observations (test_model.TeachingTests.test_contradictions_and_repeated_observations) ... ok
+test_duplicate_rows_are_behavior_equivalent (test_model.TeachingTests.test_duplicate_rows_are_behavior_equivalent) ... ok
+test_empty_domain (test_model.TeachingTests.test_empty_domain) ... ok
+test_empty_family (test_model.TeachingTests.test_empty_family) ... ok
+test_exhaustive_three_point_families_targets (test_model.TeachingTests.test_exhaustive_three_point_families_targets) ... ok
+test_exhaustive_two_point_observation_patterns (test_model.TeachingTests.test_exhaustive_two_point_observation_patterns) ... ok
+test_full_domain_not_only_observed_performance (test_model.TeachingTests.test_full_domain_not_only_observed_performance) ... ok
+test_supplied_filtering_and_minimum (test_model.TeachingTests.test_supplied_filtering_and_minimum) ... ok
+test_unrealizable_is_distinct_from_current_empty_space (test_model.TeachingTests.test_unrealizable_is_distinct_from_current_empty_space) ... ok
+test_zero_examples_for_one_behavior (test_model.TeachingTests.test_zero_examples_for_one_behavior) ... ok
+test_hypothesis_structure (test_model.ValidationTests.test_hypothesis_structure) ... ok
+test_lesson_container_and_scalar_types (test_model.ValidationTests.test_lesson_container_and_scalar_types) ... ok
+test_observation_validation (test_model.ValidationTests.test_observation_validation) ... ok
+test_problem_structure (test_model.ValidationTests.test_problem_structure) ... ok
+test_public_planner_inputs (test_model.ValidationTests.test_public_planner_inputs) ... ok
+test_subclasses_not_coerced (test_model.ValidationTests.test_subclasses_not_coerced) ... ok
+test_target_validation (test_model.ValidationTests.test_target_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.227s
+
+OK
+exit_code: 0
+
+$ python3 demo.py
+MODEL 1: fixed deterministic prerequisite transitions
+closure: a,b,c,g,u,v,w
+BFS: ('E', 'F'); length=2
+  after 0: empty
+  after 1: c
+  after 2: c,g
+greedy: ('D', 'A', 'B', 'C'); length=4
+  after 0: empty
+  after 1: u,v,w
+  after 2: a,u,v,w
+  after 3: a,b,u,v,w
+  after 4: a,b,g,u,v,w
+cycle closure: ()
+cycle shortest plan: None
+MODEL 2: noiseless full-domain truth-table identification
+realizable: True
+minimum teaching set: (('x0', 0), ('x1', 0), ('x2', 0))
+  after 0: rows=(0, 1, 2, 3); identified=False
+  after 1: rows=(0, 2, 3); identified=False
+  after 2: rows=(0, 3); identified=False
+  after 3: rows=(0,); identified=True
+alternative size-3 set identified: True
+conflicting observations: ()
+empty survivors identified: False
+absent target realizable: False
+absent target teaching set: None
+duplicate equivalent survivors: (0, 1)
+duplicate behavior identified: True
+empty-domain teaching set: ()
+Scope: synthetic finite behavior only; no difficulty, confidence, or self-discovery measured.
+exit_code: 0
+

@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-10-12T10:46:40.147518+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "optimization_level": 0,
+  "source_sha256": {
+    "model.py": "31703d9946ca9ed4769bae297a8d3657a1d2935db56c437821463bd6f7225586",
+    "independent_checks.py": "33ce64d2849a565b2ac996009d043d4bb43672d8f98b79604701bab09275441f"
+  },
+  "planning": {
+    "skill_count": 3,
+    "maximum_distinct_rules": 2,
+    "rule_kinds": 56,
+    "oracle_dp_runs": 12776,
+    "goal_cases": 102208
+  },
+  "teaching": {
+    "domain_sizes": [
+      0,
+      1,
+      2
+    ],
+    "ordered_family_lengths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "duplicates_included": true,
+    "minimum_target_cases": 374,
+    "target_subset_hitting_cases": 1424,
+    "target_observation_cases": 5564
+  },
+  "status": "pass",
+  "limitation": "Bounded implementation checks; not a general proof or educational experiment."
+}

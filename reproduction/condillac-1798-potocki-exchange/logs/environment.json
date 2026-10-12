@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-12T10:43:18.870496+00:00",
+  "python_version": "3.12.14",
+  "python_implementation": "CPython",
+  "os": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "pythonhashseed": "0",
+  "pythondontwritebytecode": "1",
+  "source_sha256": {
+    "model.py": "31703d9946ca9ed4769bae297a8d3657a1d2935db56c437821463bd6f7225586",
+    "demo.py": "06e76ef896e756a3b1d34dd125a86a411df180d9096215196905f291f81967e6",
+    "test_model.py": "2d1b9dd337a743cea877e5e528740072dfb4285dc7d0e70411f0ac4a80c7c7c1",
+    "run_checks.py": "2568a89fc8d98cae06d676d5b54700926c6a381a97d339a2062586a1422346ff"
+  }
+}

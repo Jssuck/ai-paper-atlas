@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_primary_source_and_historical_claims_review",
+  "status": "pass_with_disclosed_limits",
+  "reviewed_at": "2026-10-12T10:50:28Z",
+  "reading_unit_id": "condillac-1798-potocki-exchange",
+  "scope": "One coherent commissioning exchange comprising two separately titled documents; 1798 Oeuvres XXII, printed pp. 199–202 / PDF pages 207–210. No new claim to complete whole book or correspondence corpus.",
+  "components": [
+    {
+      "title": "Lettre du comte Ignace Potocki, Grand Notaire de Lithuanie, à M. l’abbé de Condillac",
+      "author": "Ignace Potocki",
+      "addressee": "Condillac",
+      "printed_pages": [
+        199,
+        200
+      ],
+      "pdf_pages": [
+        207,
+        208
+      ],
+      "printed_place": "Varsovie",
+      "printed_date": "1777-09-02"
+    },
+    {
+      "title": "Réponse de M. l’abbé de Condillac",
+      "author": "Condillac",
+      "addressee": "Ignace Potocki",
+      "printed_pages": [
+        201,
+        202
+      ],
+      "pdf_pages": [
+        209,
+        210
+      ],
+      "printed_date": null,
+      "printed_date_status": "No independent reply date printed in this witness."
+    }
+  ],
+  "edition": {
+    "year": 1798,
+    "volume": "XXII",
+    "work": "La Logique, ou les premiers développemens de l’art de penser",
+    "printer": "Ch. Houel",
+    "place": "Paris",
+    "title_page_pdf": 7,
+    "volume_leaf_pdf": 5,
+    "dating_claim": "Verified edition year only; no first-publication or autograph date certification."
+  },
+  "primary_files": [
+    {
+      "filename": "b28772581_0022.pdf",
+      "bytes": 8442845,
+      "sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529",
+      "record_url": "https://archive.org/details/b28772581_0022",
+      "download_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf"
+    },
+    {
+      "filename": "b28772581_0023.pdf",
+      "bytes": 16085299,
+      "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52",
+      "record_url": "https://archive.org/details/b28772581_0023",
+      "download_url": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf"
+    }
+  ],
+  "visual_reading": {
+    "all_four_exchange_pages_viewed_as_pixels": true,
+    "title_and_volume_leaves_viewed_as_pixels": true,
+    "contents_printed_page": 231,
+    "contents_pdf_page": 239,
+    "contents_viewed_as_pixels": true,
+    "following_boundary_printed_page": 203,
+    "following_boundary_pdf_page": 211,
+    "following_boundary_viewed_as_pixels": true,
+    "following_discourse_completed": false,
+    "title_leaves_suppress_printed_page_numbers": [
+      199,
+      201
+    ],
+    "footnotes": 0,
+    "substantive_marginal_headings": 0,
+    "figures": 0,
+    "formulas": 0,
+    "ocr_only_reading": false
+  },
+  "errata": {
+    "volume": "XXIII",
+    "printed_pages": [
+      485,
+      486,
+      487
+    ],
+    "pdf_pages": [
+      491,
+      492,
+      493
+    ],
+    "all_three_pages_viewed_as_pixels": true,
+    "logique_entry": "Printed p. 486: p. 8, line 23, confirmation to conformation.",
+    "applicable_correction_for_printed199_202_found": false,
+    "limit": "No entry in this checked list is not proof of error-free printing or exhaustive edition history."
+  },
+  "source_sensitive_checks": {
+    "two_titles_and_authors_preserved": true,
+    "reply_not_assigned_request_date": true,
+    "december1779_is_requested_deadline_not_delivery_record": true,
+    "remuneration_acceptance_preserved": true,
+    "earlier_work_success_distinguished_from_new_book_future_success": true,
+    "propose_printing_not_silently_emended": true,
+    "paroissent_original_spelling_restored": true,
+    "best_to_self_direction_preserved_without_converse": true,
+    "short_path_not_claimed_as_global_shortest": true,
+    "confidence_not_equated_with_competence": true,
+    "exclusive_method_norm_not_claimed_empirically_proved": true,
+    "modern_no_information_counterexample_not_misattributed_to_author": true,
+    "prospectus_and_programme_full_contents_not_invented": true,
+    "modern_models_not_historical_algorithms": true,
+    "no_direct_ai_influence_claim": true
+  },
+  "auxiliary_sources": [
+    {
+      "url": "https://ci.nii.ac.jp/ncid/BB03951189",
+      "role": "Independent bibliographic record only",
+      "checked": "Lists the two distinct titles and 2 September 1777 request date.",
+      "full_text_collation": false
+    },
+    {
+      "url": "https://www.gutenberg.org/files/55483/55483-h/55483-h.htm",
+      "role": "Modern HTML transcription of the 1910 Baguenault de Puchesse biography, chapter VIII quoted correspondence",
+      "checked": "Bounded quoted-letter passage and title/year, not whole biography. Transcription gives 7 September 1777, whereas actual 1798 body and contents give 2 September.",
+      "historical_scan_read": false,
+      "date_variant_resolved": false,
+      "used_to_establish_first_publication": false
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/bpt6k80138k",
+      "role": "Attempted 1780 edition access",
+      "result": "Web open returned internal error; no pages read.",
+      "collation_claimed": false
+    }
+  ],
+  "bounded_comparisons_reviewed": [
+    {
+      "work": "Rousseau, Emile, Livre III",
+      "url": "https://fr.wikisource.org/wiki/%C3%89mile,_ou_De_l%E2%80%99%C3%A9ducation/%C3%89dition_1782/Livre_III",
+      "mode": "Primary-work HTML transcription presented as a 1782 edition; not historical page-image collation",
+      "paragraph_starts": [
+        "Rendez votre Éleve attentif",
+        "Élevé dans l’esprit de nos maximes",
+        "On dispute sur le choix"
+      ],
+      "claim_checked": "Guided self-solution and selected questions; analysis/synthesis may be combined.",
+      "whole_work_completed": false,
+      "direct_influence_established": false
+    },
+    {
+      "work": "Condillac, La Logique II.IX",
+      "scope": "Printed pp. 186–191 / PDF pages 194–199 of the same 1798 volume XXII; extracted text reread to check chapter-end study advice",
+      "mode": "Bounded text-layer comparison in this audit, not a new full chapter pixel audit",
+      "claim_checked": "Repeated reflective reading, appropriate sequence, use of method and author explanation of difficulty.",
+      "new_completed_reading_unit": false
+    }
+  ],
+  "main_article": {
+    "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
+    "bytes": 44170,
+    "sha256": "320b7cbfbd77361a509ccfd04e5d0ae84b279538c1a1ff90a827b69e8c1f37ee"
+  },
+  "source_ledger": {
+    "path": "papers/1798/condillac-potocki-exchange.sources.zh-CN.md",
+    "bytes": 11887,
+    "sha256": "adf3700b9e6bd0b23bdf6f71251b63a9ffcef679fcbabebec46d1d52a900cb61"
+  },
+  "historical_article_final_review": {
+    "status": "pass",
+    "scope": "Entire main article first read, then all final source-sensitive sections, exercises, answers and conclusion reread after revisions; source ledger complete.",
+    "no_blocking_source_adherence_issues": true,
+    "final_main_hash_bound": true,
+    "approval_limits": "Source adherence and historical interpretation only. Does not certify code results, general mathematics, browser rendering, first publication, manuscripts, classroom effectiveness, or human expert approval."
+  },
+  "disclosed_limits": [
+    "One actual historical scan witness for the full exchange; catalogue and later transcription do not count as second historical-scan collation.",
+    "1777-09-02 is the date printed in the 1798 request, not a certified autograph date; the reply is undated in this witness.",
+    "Later HTML transcription has a 7 September date; variant recorded without resolving autograph date.",
+    "First publication, 1780 collation, actual completion/delivery, remuneration payment, and administrative adoption records not independently established.",
+    "No erratum for these pages found in checked collection list; absence is not proof that all original printing is correct.",
+    "Educational claims, modern formal models, and finite code execution remain distinct evidence levels.",
+    "Rousseau comparison is bounded digital transcription, not whole-book reading or evidence of direct borrowing."
+  ]
+}
