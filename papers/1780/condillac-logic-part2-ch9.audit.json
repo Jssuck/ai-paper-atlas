@@ -6,8 +6,8 @@
   "artifacts": [
     {
       "path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
-      "bytes": 51497,
-      "sha256": "1ed026be81f0690928d2f86d0fd8177c8ec95ab790f3134b7954b3b684c9016c"
+      "bytes": 51500,
+      "sha256": "0a0e3da6cf66f6e7d4f833b4b381e9682ae945607f073c88109c69f50812e0de"
     },
     {
       "path": "papers/1780/condillac-logic-part2-ch9.sources.zh-CN.md",
@@ -17,12 +17,12 @@
     {
       "path": "papers/1780/condillac-logic-part2-ch9.source-review.json",
       "bytes": 4566,
-      "sha256": "adb657a1399397fb85291c00eb27899a97b1476e8f6e1aa6bd966240c2c163d1"
+      "sha256": "0d20c1125aa7948c0cf688bf28b9ea9450d81518fb3cf0ab1ed99b54e6d2ac18"
     },
     {
       "path": "papers/1780/condillac-logic-part2-ch9.audit.zh-CN.md",
-      "bytes": 15032,
-      "sha256": "c563c59d49257bb7af0a0b70d8b18a3b28d570244f4dba2bf205fbcef820e841"
+      "bytes": 15519,
+      "sha256": "3619cda86dd9e3c3f741895344d40e0fda9694e4b815b63817f2f46ddbd502a7"
     },
     {
       "path": "reproduction/condillac-1780-part2-ch9/model.py",
@@ -135,6 +135,15 @@
       "location": "12.3 and source ledger Newton entry",
       "issue": "Rule III property qualifications omitted from compressed summary",
       "resolution": "Degree invariance and all experimentally accessible bodies restrictions restored"
+    },
+    {
+      "id": "A4",
+      "location": "11.3",
+      "issue": "Raw < in sum subscript caused reported web math rendering failure",
+      "resolution": "Exactly one i<j replaced with i\\lt j; reverse substitution independently recovers original audited main SHA256",
+      "semantic_equivalence": "Both index the same strictly ordered pairs; no model/code changes",
+      "post_fix_browser_success_verified_by_this_auditor": false,
+      "original_audited_main_sha256": "1ed026be81f0690928d2f86d0fd8177c8ec95ab790f3134b7954b3b684c9016c"
     }
   ],
   "mathematical_claims": [
