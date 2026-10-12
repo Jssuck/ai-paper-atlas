@@ -1,0 +1,329 @@
+{
+  "started_utc": "2026-10-12T03:55:04.876734+00:00",
+  "environment": {
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "implementation": "CPython",
+    "system": "Linux",
+    "release": "6.18.44",
+    "machine": "x86_64",
+    "working_directory": ".",
+    "working_directory_basis": "package root; absolute host path omitted"
+  },
+  "source_sha256_before": {
+    "MODEL.zh-CN.md": "b4c8660563af8ea5b2d72a75c666a92bb1963e5c60bdfef8fadfe59a33bcb570",
+    "README.md": "b0ab02462fe63cc386db628fe811538269b3601e60a4d333f7e8b855180303a1",
+    "WALKTHROUGH.zh-CN.md": "70a41373a07e4ee4901508d39ddf25c67f760b52f923197b4200bea1f5c522b7",
+    "demo.py": "c39f0726b4be1999ac3c3c0600aacb35b58745b1de3b808d9e87b5a9e011c3b6",
+    "examples.py": "9c2e1cbfab1bfa0feafd52d2db9c1f29ffd4bdabe7a95976f09983560f96f529",
+    "independent-review/check_independent.py": "af89b472ca1a9f408f2498ba19a28a5502b119aae35abe7bd0ae798ea952a4dd",
+    "independent-review/record_independent.py": "b75e95bb94dd62e1673abf4ce24a358eb47042a55805eabe105f4259bbb073c5",
+    "independent-review/review.zh-CN.md": "433e745bf9a30b9bbd0cd9986e8259f0a0e7759d1dd6dbfdd8870c5c94aedea6",
+    "mutation_check.py": "a89936fbe924eff145e45985d3b68161770cf384e5987b748cb13bc99411637d",
+    "named_classes.py": "f65ca4bd2f356bed89b7d39e78c6ba58bcecd8f8b486ce0df1356a6278fd75fe",
+    "quality_check.py": "6369db0cb61b90a3a7840844d3785764325df532d53314515188386b897b204b",
+    "record_evidence.py": "90b534a61a2faea08ceba8df7552fdeb1dbf4fabc194b3f1cc4d7a12625722c4",
+    "semantic_probes.py": "49db979d237830990e5ecf59f1fccb47f5ac9b2b7769dabf4add658ba789c063",
+    "test_named_classes.py": "66d91cd283dd26165307f45ca71ca39f6f6a7df75cfbd70afd00bdbd880a66af",
+    "verify.py": "7c717f528c148e97f7d06957dccd99a3484c18da4d869367b0cffe87305d618b"
+  },
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/check_independent.py"
+      ],
+      "working_directory": ".",
+      "mode": "normal",
+      "exit_code": 0,
+      "actual_optimization_level": 0,
+      "log": "check-normal.txt",
+      "log_sha256": "bf1e72745fb0f302c8d93d36d2c20ae1ea81fd19f0b7e7bd6327e7f3ee1c9e37"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "independent-review/check_independent.py"
+      ],
+      "working_directory": ".",
+      "mode": "O",
+      "exit_code": 0,
+      "actual_optimization_level": 1,
+      "log": "check-O.txt",
+      "log_sha256": "6382f11349d693e934833d6f0de70c6442135073e57ae479fc19bc6957a7cfb2"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "independent-review/check_independent.py"
+      ],
+      "working_directory": ".",
+      "mode": "OO",
+      "exit_code": 0,
+      "actual_optimization_level": 2,
+      "log": "check-OO.txt",
+      "log_sha256": "4143ae1cd1d0a56786e98345621a2eb8cf26e08d5fa7ff64f3e146f3b99163d2"
+    }
+  ],
+  "original_evidence_reconciliation": {
+    "unit_tests_per_mode": 31,
+    "independently_recounted_original_domain": {
+      "extension_assignments": 64,
+      "graph_contexts": 4096,
+      "valid_graphs": 904,
+      "invalid_graphs": 3192,
+      "reachability_queries": 36864,
+      "semantic_queries": 36864,
+      "certified_queries": 8136,
+      "true_unencoded_queries": 1620,
+      "failed_inclusions": 10752,
+      "mutual_reachability_pairs": 3564,
+      "renamed_valid_graphs": 5424,
+      "renamed_queries": 48816
+    },
+    "demo_fields_checked": 22,
+    "author_evidence_sha256": "84f445e099a019d2c4bab12bcb9eafccb61d090ad9ae563f6cdad00d30cf534d",
+    "source_quality_evidence_sha256": "36abeb5d2d3e191a740fd568dfaaac6d5e95f47c99d23c50167701db968381ea"
+  },
+  "source_quality": {
+    "markdown_source_table_rows": [
+      {
+        "file": "README.md",
+        "line": 64,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 65,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 66,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 67,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 68,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 69,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 70,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 71,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 72,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 73,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 74,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 75,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 76,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 77,
+        "cells": 3
+      },
+      {
+        "file": "README.md",
+        "line": 108,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 109,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 110,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 111,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 112,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 113,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 114,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 115,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 116,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 117,
+        "cells": 2
+      },
+      {
+        "file": "README.md",
+        "line": 118,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 9,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 10,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 11,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 12,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 13,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 14,
+        "cells": 2
+      },
+      {
+        "file": "WALKTHROUGH.zh-CN.md",
+        "line": 15,
+        "cells": 2
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 27,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 28,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 29,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 30,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 31,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 32,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 33,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 34,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 35,
+        "cells": 3
+      },
+      {
+        "file": "independent-review/review.zh-CN.md",
+        "line": 36,
+        "cells": 3
+      }
+    ],
+    "private_absolute_path_scan": "passed",
+    "scope": "Source only; not a rendered-browser, pixel, or security certification."
+  },
+  "source_sha256_after": {
+    "MODEL.zh-CN.md": "b4c8660563af8ea5b2d72a75c666a92bb1963e5c60bdfef8fadfe59a33bcb570",
+    "README.md": "b0ab02462fe63cc386db628fe811538269b3601e60a4d333f7e8b855180303a1",
+    "WALKTHROUGH.zh-CN.md": "70a41373a07e4ee4901508d39ddf25c67f760b52f923197b4200bea1f5c522b7",
+    "demo.py": "c39f0726b4be1999ac3c3c0600aacb35b58745b1de3b808d9e87b5a9e011c3b6",
+    "examples.py": "9c2e1cbfab1bfa0feafd52d2db9c1f29ffd4bdabe7a95976f09983560f96f529",
+    "independent-review/check_independent.py": "af89b472ca1a9f408f2498ba19a28a5502b119aae35abe7bd0ae798ea952a4dd",
+    "independent-review/record_independent.py": "b75e95bb94dd62e1673abf4ce24a358eb47042a55805eabe105f4259bbb073c5",
+    "independent-review/review.zh-CN.md": "433e745bf9a30b9bbd0cd9986e8259f0a0e7759d1dd6dbfdd8870c5c94aedea6",
+    "mutation_check.py": "a89936fbe924eff145e45985d3b68161770cf384e5987b748cb13bc99411637d",
+    "named_classes.py": "f65ca4bd2f356bed89b7d39e78c6ba58bcecd8f8b486ce0df1356a6278fd75fe",
+    "quality_check.py": "6369db0cb61b90a3a7840844d3785764325df532d53314515188386b897b204b",
+    "record_evidence.py": "90b534a61a2faea08ceba8df7552fdeb1dbf4fabc194b3f1cc4d7a12625722c4",
+    "semantic_probes.py": "49db979d237830990e5ecf59f1fccb47f5ac9b2b7769dabf4add658ba789c063",
+    "test_named_classes.py": "66d91cd283dd26165307f45ca71ca39f6f6a7df75cfbd70afd00bdbd880a66af",
+    "verify.py": "7c717f528c148e97f7d06957dccd99a3484c18da4d869367b0cffe87305d618b"
+  },
+  "status": "passed",
+  "sources_unchanged": true,
+  "cross_mode_summaries_identical": true,
+  "finished_utc": "2026-10-12T03:55:09.376812+00:00"
+}

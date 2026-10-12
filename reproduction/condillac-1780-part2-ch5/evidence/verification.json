@@ -1,0 +1,155 @@
+{
+  "started_utc": "2026-10-12T03:54:40.640438+00:00",
+  "environment": {
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "implementation": "CPython",
+    "python_build": [
+      "main",
+      "Aug 25 2026 14:00:49"
+    ],
+    "python_compiler": "Clang 22.1.3 ",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "uname": {
+      "system": "Linux",
+      "release": "6.18.44",
+      "version": "#1 SMP Sat Sep 26 20:02:31 UTC 2026",
+      "machine": "x86_64",
+      "processor": ""
+    },
+    "machine": "x86_64",
+    "byteorder": "little",
+    "filesystem_encoding": "utf-8",
+    "preferred_encoding": "UTF-8",
+    "working_directory": ".",
+    "recorder_flags": "sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=4300)",
+    "environment_scope": "Runtime and OS details only; account secrets, hostnames, and unrelated environment variables are not recorded.",
+    "working_directory_note": "Published cwd is normalized to the package-relative directory . for portable public evidence; the absolute execution path is omitted."
+  },
+  "source_sha256_before": {
+    "MODEL.zh-CN.md": "b4c8660563af8ea5b2d72a75c666a92bb1963e5c60bdfef8fadfe59a33bcb570",
+    "README.md": "b0ab02462fe63cc386db628fe811538269b3601e60a4d333f7e8b855180303a1",
+    "WALKTHROUGH.zh-CN.md": "70a41373a07e4ee4901508d39ddf25c67f760b52f923197b4200bea1f5c522b7",
+    "demo.py": "c39f0726b4be1999ac3c3c0600aacb35b58745b1de3b808d9e87b5a9e011c3b6",
+    "examples.py": "9c2e1cbfab1bfa0feafd52d2db9c1f29ffd4bdabe7a95976f09983560f96f529",
+    "mutation_check.py": "a89936fbe924eff145e45985d3b68161770cf384e5987b748cb13bc99411637d",
+    "named_classes.py": "f65ca4bd2f356bed89b7d39e78c6ba58bcecd8f8b486ce0df1356a6278fd75fe",
+    "quality_check.py": "6369db0cb61b90a3a7840844d3785764325df532d53314515188386b897b204b",
+    "record_evidence.py": "90b534a61a2faea08ceba8df7552fdeb1dbf4fabc194b3f1cc4d7a12625722c4",
+    "semantic_probes.py": "49db979d237830990e5ecf59f1fccb47f5ac9b2b7769dabf4add658ba789c063",
+    "test_named_classes.py": "66d91cd283dd26165307f45ca71ca39f6f6a7df75cfbd70afd00bdbd880a66af",
+    "verify.py": "7c717f528c148e97f7d06957dccd99a3484c18da4d869367b0cffe87305d618b"
+  },
+  "runs": [
+    {
+      "mode": "normal",
+      "program": "verify.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "verify.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 0,
+      "exit_code": 0,
+      "log": "verify-normal.txt",
+      "log_sha256": "7b539994a69e3e72ee930cc08d6a154321f440defa9dd1ccd708d02235af08e8"
+    },
+    {
+      "mode": "normal",
+      "program": "demo.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "demo.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 0,
+      "exit_code": 0,
+      "log": "demo-normal.txt",
+      "log_sha256": "88346aa425278a919976ba9d3038df808a49ff273ab5b364bb5668510f5a9ebc"
+    },
+    {
+      "mode": "O",
+      "program": "verify.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "verify.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 1,
+      "exit_code": 0,
+      "log": "verify-O.txt",
+      "log_sha256": "1eb568beac041f6c26d0cdbe7da57b745ba657b03370d49d49b0034c054862dc"
+    },
+    {
+      "mode": "O",
+      "program": "demo.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "demo.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 1,
+      "exit_code": 0,
+      "log": "demo-O.txt",
+      "log_sha256": "88346aa425278a919976ba9d3038df808a49ff273ab5b364bb5668510f5a9ebc"
+    },
+    {
+      "mode": "OO",
+      "program": "verify.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "verify.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 2,
+      "exit_code": 0,
+      "log": "verify-OO.txt",
+      "log_sha256": "d7e387eb24e29ffba4580b60e56f5bf6f92d05b15136b37b42879de815d1d66e"
+    },
+    {
+      "mode": "OO",
+      "program": "demo.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "demo.py"
+      ],
+      "working_directory": ".",
+      "optimization_level": 2,
+      "exit_code": 0,
+      "log": "demo-OO.txt",
+      "log_sha256": "88346aa425278a919976ba9d3038df808a49ff273ab5b364bb5668510f5a9ebc"
+    }
+  ],
+  "source_sha256_after": {
+    "MODEL.zh-CN.md": "b4c8660563af8ea5b2d72a75c666a92bb1963e5c60bdfef8fadfe59a33bcb570",
+    "README.md": "b0ab02462fe63cc386db628fe811538269b3601e60a4d333f7e8b855180303a1",
+    "WALKTHROUGH.zh-CN.md": "70a41373a07e4ee4901508d39ddf25c67f760b52f923197b4200bea1f5c522b7",
+    "demo.py": "c39f0726b4be1999ac3c3c0600aacb35b58745b1de3b808d9e87b5a9e011c3b6",
+    "examples.py": "9c2e1cbfab1bfa0feafd52d2db9c1f29ffd4bdabe7a95976f09983560f96f529",
+    "mutation_check.py": "a89936fbe924eff145e45985d3b68161770cf384e5987b748cb13bc99411637d",
+    "named_classes.py": "f65ca4bd2f356bed89b7d39e78c6ba58bcecd8f8b486ce0df1356a6278fd75fe",
+    "quality_check.py": "6369db0cb61b90a3a7840844d3785764325df532d53314515188386b897b204b",
+    "record_evidence.py": "90b534a61a2faea08ceba8df7552fdeb1dbf4fabc194b3f1cc4d7a12625722c4",
+    "semantic_probes.py": "49db979d237830990e5ecf59f1fccb47f5ac9b2b7769dabf4add658ba789c063",
+    "test_named_classes.py": "66d91cd283dd26165307f45ca71ca39f6f6a7df75cfbd70afd00bdbd880a66af",
+    "verify.py": "7c717f528c148e97f7d06957dccd99a3484c18da4d869367b0cffe87305d618b"
+  },
+  "sources_unchanged": true,
+  "demo_outputs_byte_identical": true,
+  "verification_semantic_summaries_identical": true,
+  "actual_child_optimization_levels_verified": true,
+  "source_quality": "passed",
+  "source_quality_sha256": "36abeb5d2d3e191a740fd568dfaaac6d5e95f47c99d23c50167701db968381ea",
+  "finished_utc": "2026-10-12T03:54:44.842716+00:00",
+  "status": "passed"
+}

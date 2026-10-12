@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "markdown_files": [
+    "MODEL.zh-CN.md",
+    "README.md",
+    "WALKTHROUGH.zh-CN.md"
+  ],
+  "source_tables": [
+    {
+      "file": "README.md",
+      "start_line": 64,
+      "columns": 3,
+      "rows": [
+        {
+          "line": 64,
+          "cells": 3
+        },
+        {
+          "line": 65,
+          "cells": 3
+        },
+        {
+          "line": 66,
+          "cells": 3
+        },
+        {
+          "line": 67,
+          "cells": 3
+        },
+        {
+          "line": 68,
+          "cells": 3
+        },
+        {
+          "line": 69,
+          "cells": 3
+        },
+        {
+          "line": 70,
+          "cells": 3
+        },
+        {
+          "line": 71,
+          "cells": 3
+        },
+        {
+          "line": 72,
+          "cells": 3
+        },
+        {
+          "line": 73,
+          "cells": 3
+        },
+        {
+          "line": 74,
+          "cells": 3
+        },
+        {
+          "line": 75,
+          "cells": 3
+        },
+        {
+          "line": 76,
+          "cells": 3
+        },
+        {
+          "line": 77,
+          "cells": 3
+        }
+      ]
+    },
+    {
+      "file": "README.md",
+      "start_line": 108,
+      "columns": 2,
+      "rows": [
+        {
+          "line": 108,
+          "cells": 2
+        },
+        {
+          "line": 109,
+          "cells": 2
+        },
+        {
+          "line": 110,
+          "cells": 2
+        },
+        {
+          "line": 111,
+          "cells": 2
+        },
+        {
+          "line": 112,
+          "cells": 2
+        },
+        {
+          "line": 113,
+          "cells": 2
+        },
+        {
+          "line": 114,
+          "cells": 2
+        },
+        {
+          "line": 115,
+          "cells": 2
+        },
+        {
+          "line": 116,
+          "cells": 2
+        },
+        {
+          "line": 117,
+          "cells": 2
+        },
+        {
+          "line": 118,
+          "cells": 2
+        }
+      ]
+    },
+    {
+      "file": "WALKTHROUGH.zh-CN.md",
+      "start_line": 9,
+      "columns": 2,
+      "rows": [
+        {
+          "line": 9,
+          "cells": 2
+        },
+        {
+          "line": 10,
+          "cells": 2
+        },
+        {
+          "line": 11,
+          "cells": 2
+        },
+        {
+          "line": 12,
+          "cells": 2
+        },
+        {
+          "line": 13,
+          "cells": 2
+        },
+        {
+          "line": 14,
+          "cells": 2
+        },
+        {
+          "line": 15,
+          "cells": 2
+        }
+      ]
+    }
+  ],
+  "python_files_without_assert_statements": [
+    "demo.py",
+    "examples.py",
+    "mutation_check.py",
+    "named_classes.py",
+    "quality_check.py",
+    "record_evidence.py",
+    "semantic_probes.py",
+    "test_named_classes.py",
+    "verify.py"
+  ],
+  "boundary": "Source-level checks only; no claim of rendered Markdown or image inspection."
+}

@@ -1,0 +1,40 @@
+RUNTIME {"optimization_level": 0, "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"}
+test_bad_domain_names (test_named_classes.ClassTests.test_bad_domain_names) ... ok
+test_bad_edges (test_named_classes.ClassTests.test_bad_edges) ... ok
+test_bad_extension_shape (test_named_classes.ClassTests.test_bad_extension_shape) ... ok
+test_bad_rename (test_named_classes.ClassTests.test_bad_rename) ... ok
+test_bijective_rename (test_named_classes.ClassTests.test_bijective_rename) ... ok
+test_chain (test_named_classes.ClassTests.test_chain) ... ok
+test_cycle_keeps_names (test_named_classes.ClassTests.test_cycle_keeps_names) ... ok
+test_duplicate_objects_or_labels (test_named_classes.ClassTests.test_duplicate_objects_or_labels) ... ok
+test_empty_labels_rejected (test_named_classes.ClassTests.test_empty_labels_rejected) ... ok
+test_empty_universe (test_named_classes.ClassTests.test_empty_universe) ... ok
+test_empty_vacuity (test_named_classes.ClassTests.test_empty_vacuity) ... ok
+test_equal_extensions_need_not_share_scc (test_named_classes.ClassTests.test_equal_extensions_need_not_share_scc) ... ok
+test_false_inclusion_witness (test_named_classes.ClassTests.test_false_inclusion_witness) ... ok
+test_global_gate_even_unrelated_query (test_named_classes.ClassTests.test_global_gate_even_unrelated_query) ... ok
+test_immutable_fields (test_named_classes.ClassTests.test_immutable_fields) ... ok
+test_invalid_graph_raw_path (test_named_classes.ClassTests.test_invalid_graph_raw_path) ... ok
+test_matching_partitions_need_not_be_complete (test_named_classes.ClassTests.test_matching_partitions_need_not_be_complete) ... ok
+test_no_edges_does_not_mean_no_truth (test_named_classes.ClassTests.test_no_edges_does_not_mean_no_truth) ... ok
+test_one_label_and_self_loop (test_named_classes.ClassTests.test_one_label_and_self_loop) ... ok
+test_outside_extension_rejected (test_named_classes.ClassTests.test_outside_extension_rejected) ... ok
+test_overlap_is_not_inclusion (test_named_classes.ClassTests.test_overlap_is_not_inclusion) ... ok
+test_prototype_is_not_universal (test_named_classes.ClassTests.test_prototype_is_not_universal) ... ok
+test_prototype_membership_required (test_named_classes.ClassTests.test_prototype_membership_required) ... ok
+test_reflexive_zero_edge (test_named_classes.ClassTests.test_reflexive_zero_edge) ... ok
+test_rename_swapping_existing_labels (test_named_classes.ClassTests.test_rename_swapping_existing_labels) ... ok
+test_reverse_direction_not_assumed (test_named_classes.ClassTests.test_reverse_direction_not_assumed) ... ok
+test_shortest_path_and_edge_order (test_named_classes.ClassTests.test_shortest_path_and_edge_order) ... ok
+test_synonyms_are_distinct (test_named_classes.ClassTests.test_synonyms_are_distinct) ... ok
+test_true_unencoded (test_named_classes.ClassTests.test_true_unencoded) ... ok
+test_unknown_queries (test_named_classes.ClassTests.test_unknown_queries) ... ok
+test_witness_respects_declared_order (test_named_classes.ClassTests.test_witness_respects_declared_order) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.003s
+
+OK
+EXHAUSTIVE {"certified_queries": 8136, "extension_assignments": 64, "failed_inclusions": 10752, "graph_contexts": 4096, "invalid_graphs": 3192, "mutual_reachability_pairs": 3564, "reachability_queries": 36864, "renamed_queries": 48816, "renamed_valid_graphs": 5424, "semantic_queries": 36864, "true_unencoded_queries": 1620, "valid_graphs": 904}
+MUTATION {"controls": [{"errors": [], "failures": [], "name": "unchanged_control", "status": "survived"}, {"error_type": "SyntaxError", "name": "syntax_error_control", "stage": "compile_or_import", "status": "harness_error"}, {"errors": [{"message": "division by zero", "probe": "inclusion", "type": "ZeroDivisionError"}, {"message": "division by zero", "probe": "empty", "type": "ZeroDivisionError"}, {"message": "division by zero", "probe": "chain", "type": "ZeroDivisionError"}, {"message": "division by zero", "probe": "global_gate", "type": "ZeroDivisionError"}, {"message": "division by zero", "probe": "missing_edge", "type": "ZeroDivisionError"}], "failures": [], "name": "runtime_error_control", "status": "harness_error"}], "counts": {"harness_error": 0, "killed_semantic": 10, "survived": 0}, "semantic_mutants": [{"errors": [], "failures": [{"message": "one positive member cannot prove inclusion", "probe": "inclusion"}, {"message": "invalid disconnected edge did not block whole-graph certification", "probe": "global_gate"}], "name": "prototype_for_universal", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "one positive member cannot prove inclusion", "probe": "inclusion"}, {"message": "empty antecedent must be a subset", "probe": "empty"}, {"message": "a known-valid graph was rejected", "probe": "chain"}, {"message": "invalid disconnected edge did not block whole-graph certification", "probe": "global_gate"}], "name": "overlap_for_inclusion", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "inclusion must be reflexive", "probe": "inclusion"}], "name": "strict_for_nonstrict", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "missing concrete counterexample", "probe": "witness"}], "name": "erase_counterexample", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "missing zero-edge path", "probe": "reflexivity"}, {"message": "coincident extensions are not graph SCCs", "probe": "synonyms"}], "name": "remove_zero_edge_path", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "edge direction reversed or path invented", "probe": "direction"}, {"message": "transitive chain lost", "probe": "chain"}], "name": "reverse_edges", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "transitive chain lost", "probe": "chain"}], "name": "direct_edges_only", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "invalid disconnected edge did not block whole-graph certification", "probe": "global_gate"}], "name": "bypass_whole_graph_gate", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "coincident extensions are not graph SCCs", "probe": "synonyms"}], "name": "merge_coincident_extensions", "status": "killed_semantic"}, {"errors": [], "failures": [{"message": "renaming changed an extension", "probe": "renaming"}], "name": "rename_reverses_extensions", "status": "killed_semantic"}]}
+PASS: unit tests, finite oracles, semantic mutants, controls, and no-assert audit

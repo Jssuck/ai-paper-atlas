@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "imports_release_implementation": false,
+  "closure_method": "set saturation until a fixed point",
+  "counts": {
+    "extension_assignments": 64,
+    "graph_contexts": 4096,
+    "valid_graphs": 904,
+    "invalid_graphs": 3192,
+    "reachability_queries": 36864,
+    "semantic_queries": 36864,
+    "certified_queries": 8136,
+    "true_unencoded_queries": 1620,
+    "failed_inclusions": 10752,
+    "mutual_reachability_pairs": 3564,
+    "renamed_valid_graphs": 5424,
+    "renamed_queries": 48816,
+    "equal_partitions_but_incomplete_valid_graphs": 138
+  },
+  "boundaries": {
+    "zero_label_mathematical_model": true,
+    "empty_universe_two_label_graphs_including_self_loops": 16
+  },
+  "caution": "Finite relation arithmetic is not an independent rerun of the implementation and not a general proof."
+}
