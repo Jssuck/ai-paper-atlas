@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "berkeley-1710-principles-introduction",
+    "path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+    "stage": "primary_source_boundary_verification",
+    "scope": "Complete Introduction §§1–25 to Principles, intended actual 1710 first edition; page boundaries and errata being verified. Explicit chronological backfill and bounded response to Locke abstraction debate."
+  },
   "last_completed": {
     "id": "locke-1690-understanding-ii11",
     "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Three independent audits passed; 78 exact bindings verified, genuine three-mode tests and 36 mutation detections retained. All 46 final remote contents and blob identities verified. Actual GitHub browser checked eight complete bodies, 207 headings, 268 formulas, ten tables/503 raw-source cells, 339 relative paths and 20 answers. Main, six appendices and new README additions visually inspected. Rare date-bracket typography repaired equivalently and source binding refreshed.",
     "scope": "Complete 1690 first-edition Essay II.XI §§1–17, printed pp.68–72, including both applicable p72 errata. Explicit chronological backfill. Original examples and stronger first-edition animal claim retained, later Berkeley quotation/version differences bounded and disclosed. No full-book or exhaustive coverage claim."
   },
-  "updated_at": "2026-10-12T22:13:40Z",
+  "updated_at": "2026-10-12T22:38:25Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Verify complete primary introduction and applicable errata, reconstruct argument and complete independent reviews for this unit.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
