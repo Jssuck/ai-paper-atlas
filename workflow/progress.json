@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part2-ch2",
     "path": "papers/1780/condillac-logic-part2-ch2.zh-CN.md",
-    "stage": "remote_content_and_render_verification",
-    "scope": "La Logique II.II, actual 1798 Œuvres XXII pp.109–117; 1780 bibliographic edition date only."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part2-ch1",
-    "path": "papers/1780/condillac-logic-part2-ch1.zh-CN.md",
     "version": "v1",
-    "content_commit": "825c02824e99c8abad583dad618b83d337ab204b",
-    "checks": "Independent source, whole-argument/math and code audits passed; genuine normal/-O/-OO checks, behavioral mutations distinguished from harness failures; final integration and lead rerun commands pass. All 183 remote UTF-8 files and blob identities verified. Eight live Markdown bodies, 596 formulas, 231 headings, seven tables, 24 answers and 264 relative paths checked. Long fingerprint table is accessible by horizontal scroll. BnF/Hiroshima readable; IA/Google fresh availability unverified.",
-    "scope": "Complete La Logique II.I, actual 1798 Œuvres XXII pp.96–108, both scans and four margins; p.95 introduction contextual only. Applicable collected-edition errata and bounded Bacon comparison checked; exact French Bacon source remains unidentified. 1780 bibliographic dating only. Modern evidence/support models do not validate historical psychology."
+    "content_commit": "aacf6890c4419b5293011244b88ab05672569e5f",
+    "checks": "Independent source, whole-argument/math and code audits passed. Author and independent code checks cover normal/-O/-OO; independent mathematical enumeration is normal mode only. All 23 remote UTF-8 files and blob identities verified. Eight live Markdown bodies, 196 formulas, 210 headings, nine tables, 24 questions/answers and 249 relative paths checked. Source href fidelity verified; fresh external availability not asserted.",
+    "scope": "Complete La Logique II.II, actual 1798 Œuvres XXII pp.109–117, both scans and four margins; collected-edition errata checked. 1780 bibliographic dating only. Simultaneous expression is not inherently information-losing; sequential-sign models are explicitly modern teaching reconstructions."
   },
-  "updated_at": "2026-10-12T01:01:50Z",
+  "updated_at": "2026-10-12T01:10:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify every remote artifact and actual GitHub mathematical rendering before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
