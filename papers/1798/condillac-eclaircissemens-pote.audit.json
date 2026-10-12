@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "audit_type": "independent_argument_review",
+  "audited_at_utc": "2026-10-12T09:51:22.890118+00:00",
+  "status": "passed_with_explicit_limits",
+  "blocking_issues": [],
+  "scope": {
+    "main_sections": 15,
+    "exercise_answers": 20,
+    "historical_fidelity": "Compared complete article with independently pixel-checked source ledger; this argument reviewer did not claim an additional pixel collation.",
+    "mathematics": [
+      "change-count bound and equality criterion",
+      "non-identifiability construction",
+      "stutter equivalence and compression identity",
+      "fiber factorization iff criterion",
+      "joint observation injectivity conditional on alignment",
+      "common refinement coverage, projection, and minimal endpoint scope"
+    ],
+    "implementation": "Theorem/API alignment and log claims checked; detailed implementation audit is separately published."
+  },
+  "independent_execution": {
+    "command": "python audit/condillac-1798-eclaircissemens-pote/check_arguments.py",
+    "working_directory": "release",
+    "exit_code": 0,
+    "trace_map_cases": 960,
+    "fiber_cases": 64,
+    "candidate_total_decoders_per_fiber_case": 4,
+    "hidden_change_parameters": [
+      0,
+      1,
+      2,
+      5,
+      10
+    ],
+    "separately_compressed_joint_injective_counterexample": {
+      "joint_codes": {
+        "a": [
+          "0",
+          "0"
+        ],
+        "b": [
+          "0",
+          "1"
+        ],
+        "c": [
+          "1",
+          "0"
+        ]
+      },
+      "traces": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "a",
+          "c"
+        ]
+      ],
+      "identical_marginal_words": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ]
+    }
+  },
+  "resolved_suggestions": [
+    "Specific bounded Locke and Leibniz comparisons added.",
+    "Shared interval wording specifies rational endpoints."
+  ],
+  "limits": [
+    "Finite tests do not prove universal theorems.",
+    "No human expert or proof-assistant certification.",
+    "No new second-scan collation, manuscript, or first-publication verification.",
+    "No cognitive or physical-time validation."
+  ],
+  "files": [
+    {
+      "path": "papers/1798/condillac-eclaircissemens-pote.zh-CN.md",
+      "bytes": 50976,
+      "sha256": "f6df51fccad3f4b6a263576c0bf932e3789b6e5483c0acc7531f03a9855c2d85"
+    },
+    {
+      "path": "papers/1798/condillac-eclaircissemens-pote.sources.zh-CN.md",
+      "bytes": 12645,
+      "sha256": "6190c959d19e002ea6613abdbcf3c75932b05fe89d86092bcc21cebe63566104"
+    },
+    {
+      "path": "reproduction/condillac-1798-eclaircissemens-pote/model.py",
+      "bytes": 3792,
+      "sha256": "7b99ee1f82c94f738819f98c5c31230276ec34052c3f1ae7715ea6e8901e564e"
+    },
+    {
+      "path": "reproduction/condillac-1798-eclaircissemens-pote/MODEL.md",
+      "bytes": 5677,
+      "sha256": "95a0074f073c5ff5303d9cf29eaf0ee2ffa9014cd3744e7d7a13630886a850b1"
+    },
+    {
+      "path": "papers/1798/condillac-eclaircissemens-pote.audit.zh-CN.md",
+      "bytes": 6190,
+      "sha256": "d42a1b71d7460265131f39663abe2ca73c0ca99412424e3f359573427166aae1"
+    },
+    {
+      "path": "audit/condillac-1798-eclaircissemens-pote/check_arguments.py",
+      "bytes": 2436,
+      "sha256": "67c5444a5c472ff819c11ed523625cb43d34ad10363121f4f33a255a68e527a3"
+    },
+    {
+      "path": "audit/condillac-1798-eclaircissemens-pote/check_arguments.log",
+      "bytes": 712,
+      "sha256": "715591928adc134bad83759828e01597daa80f9c481cbb403029f308066ce2b3"
+    }
+  ]
+}

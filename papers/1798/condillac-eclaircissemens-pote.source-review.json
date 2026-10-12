@@ -1,0 +1,128 @@
+{
+  "review_type": "independent_primary_source_reading",
+  "status": "pass_with_disclosed_limits",
+  "reviewed_at": "2026-10-12T09:50:00Z",
+  "scope": "One independently titled appendix, printed192–198,1798 Oeuvres XXII; not following Potocki letters",
+  "primary_files": [
+    {
+      "filename": "condillac-1798-xxii.pdf",
+      "bytes": 8442845,
+      "sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529"
+    },
+    {
+      "filename": "condillac-1798-xxiii.pdf",
+      "bytes": 16085299,
+      "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52"
+    }
+  ],
+  "source_ledger": {
+    "path": "papers/1798/condillac-eclaircissemens-pote.sources.zh-CN.md",
+    "bytes": 12645,
+    "sha256": "6190c959d19e002ea6613abdbcf3c75932b05fe89d86092bcc21cebe63566104"
+  },
+  "visual_reading": {
+    "appendix_printed_pages": [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198
+    ],
+    "appendix_pdf_pages": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "all_seven_pages_viewed_as_pixels": true,
+    "following_boundary_printed_page": 199,
+    "volume_and_title_pdf_pages": [
+      5,
+      7
+    ],
+    "contents_printed_page": 231,
+    "contents_pdf_page": 239,
+    "errata_volume": "XXIII",
+    "errata_printed_pages": [
+      485,
+      486,
+      487
+    ],
+    "errata_pdf_pages": [
+      491,
+      492,
+      493
+    ],
+    "all_errata_pages_viewed_as_pixels": true,
+    "footnotes": 0,
+    "substantive_marginal_headings": 0,
+    "notre_nous_printing_confirmed": true,
+    "errata_for_appendix_found": false
+  },
+  "comparison_reading": [
+    {
+      "author": "Locke",
+      "url": "https://barryfvaughan.org/text/philtext/locke/bk2/14.html",
+      "scope": "II.XIV §§3–4,6–12,17,21,24–27,30–31",
+      "method": "primary text modern HTML transcription; not historical edition scan",
+      "whole_work_completed": false
+    },
+    {
+      "author": "Leibniz",
+      "url": "https://www.andrew.cmu.edu/user/kk3n/80-300/leibniz-monadology.htm",
+      "scope": "Monadology §§1–3,10–17",
+      "method": "English primary text translation/transcription; not historical French scan",
+      "direct_source_identified": false,
+      "whole_work_completed": false
+    }
+  ],
+  "second_copy": {
+    "url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+    "landing_direct_get_status": 200,
+    "pdf_download_status": 429,
+    "pages_read": false,
+    "collation_claimed": false
+  },
+  "dating": {
+    "verified_edition": 1798,
+    "composition_date_verified": false,
+    "first_publication_date_verified": false,
+    "potocki_1777_date_not_transferred": true
+  },
+  "main_article": {
+    "path": "papers/1798/condillac-eclaircissemens-pote.zh-CN.md",
+    "bytes": 50976,
+    "sha256": "f6df51fccad3f4b6a263576c0bf932e3789b6e5483c0acc7531f03a9855c2d85"
+  },
+  "historical_article_final_review": {
+    "scope": "Complete main article sections1–15 including source claims, modern-model/historical separation, conclusion, exercises and answers; full sources ledger",
+    "status": "pass",
+    "no_blocking_source_adherence_issues": true,
+    "creation_of_duration_step_added": true,
+    "bounded_locke_leibniz_comparisons_added": true,
+    "pronoun_hazard_retained": true,
+    "modern_model_not_claimed_as_historical_theory": true,
+    "conclusions_do_not_infer_no_common_time_from_observation_loss_alone": true,
+    "final_article_hash_bound": true,
+    "approval_limits": "Historical and source-adherence approval only; does not replace independent mathematical/code audit, historical edition collation, manuscript study or human expert certification."
+  },
+  "source_urls": [
+    "https://archive.org/details/b28772581_0022",
+    "https://archive.org/download/b28772581_0022/b28772581_0022.pdf",
+    "https://archive.org/details/b28772581_0023",
+    "https://archive.org/download/b28772581_0023/b28772581_0023.pdf"
+  ],
+  "disclosed_limits": [
+    "Single actual scan witness; Google book landing accessible but PDF returned429.",
+    "Edition year1798 verified; composition and first-publication dates not verified.",
+    "No manuscript or1780 text collation.",
+    "No erratum for appendix found in collection errata485–487; this does not establish error-free printing.",
+    "Printed notre/nous remains uncorrected; contextual interpretation is not witnessed emendation.",
+    "Locke and Leibniz bounded primary-text transcription comparisons, not complete-work reading or verified direct influence."
+  ]
+}

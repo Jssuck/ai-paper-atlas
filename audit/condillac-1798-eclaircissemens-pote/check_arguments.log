@@ -1,0 +1,10 @@
+A inequality/equality and B: 8 maps x 120 traces = 960 cases passed
+Fiber criterion: 64 length-3 binary observation/target pairs vs 4 candidate total decoders: 64 passed
+Joint state code is injective: a=(0,0), b=(0,1), c=(1,0).
+Nevertheless separate compressed logs have distinct compressed-state preimages: (('b', 'c'), ('b', 'a', 'c'), (('0', '1'), ('1', '0')))
+Hidden-change construction k=0 observed=('same',)
+Hidden-change construction k=1 observed=('same',)
+Hidden-change construction k=2 observed=('same',)
+Hidden-change construction k=5 observed=('same',)
+Hidden-change construction k=10 observed=('same',)
+All checks passed. Finite checks do not establish a universal theorem or physical-time ontology.

@@ -36,6 +36,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》II.VII精读](papers/1780/condillac-logic-part2-ch7.zh-CN.md) | AI表征与推理前史：语言简化、代数同解与证据边界 | 深读v1 · 完整书籍章节152–169、七边题及两条跨页脚注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.VIII精读](papers/1780/condillac-logic-part2-ch8.zh-CN.md) | AI表征与推理前史：数据充分性、问题表述与生成解释的边界 | 深读v1 · 完整书籍章节170–176、三边题及四公式 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.IX精读](papers/1780/condillac-logic-part2-ch9.zh-CN.md) | AI认识论与推理前史：明证、猜测、因果类比与学习方法的界限 | 深读v1 · 完整书籍章节177–191、六边题及一脚注 |
+| 1798（所读版次，初刊年未核） | [Condillac《答Poté澄清文字》精读](papers/1798/condillac-eclaircissemens-pote.zh-CN.md) | AI认识论与认知前史：观念相继、观测漏变与共同时间的推论边界 | 深读v1 · 独立附录完整192–198七页 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -477,3 +478,15 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成实际1798《Œuvres》XXII卷II.IX印177–191十五页、六边题、一编号脚注和正文自引；186–191学习建议不漏读、不另计篇。192另起澄清文字。IA单册全章核图，Google第二册本次未取回，不沿用前篇双册声称；1780只作书目年。全集正式勘误无本章条目，I.I第8页更正继续解决，II.VII164内证校读仍不升级正式勘误。Locke、Hume、Newton所列原典段落仅电子转录有界比较，不认证作者用本或直接传承。
 
 全文重建明证来源、黄金观察、存在论跨步、猜测与简单性、三类类比、因果反向、自然方法及全部学习建议；20题附答案。现代有限模型证明非空支持下确定性、特征纤维判准、有限后验支持条件、测试划分与分辨条件，区分概率一和结构必然。代码的最少测试搜索只识别完整候选，目标感知版本明确未实现。标准库作者9测试方法及独立144,933显式检查分别在普通、-O、-OO实际运行；有限执行不替代一般证明，不验证心理、教学、语言史或天文学。1780正文、第二册对校、完整版本史、192以后附录、自引原著及全部旧候选和书籍缺口继续保留。
+
+## Condillac《答Poté澄清文字》可运行附件
+
+- [一个观察者的瞬间 为什么不能直接充当世界的时钟](papers/1798/condillac-eclaircissemens-pote.zh-CN.md)
+- [七页原典、字形与来源账本](papers/1798/condillac-eclaircissemens-pote.sources.zh-CN.md) · [独立全论证与数学审计](papers/1798/condillac-eclaircissemens-pote.audit.zh-CN.md)
+- [模型、命令与真实运行日志](reproduction/condillac-1798-eclaircissemens-pote/README.md) · [逐步走查](reproduction/condillac-1798-eclaircissemens-pote/WALKTHROUGH.md) · [独立代码审计](reproduction/condillac-1798-eclaircissemens-pote/AUDIT.md)
+
+仅新增实际1798《Œuvres》XXII卷《Éclaircissemens que m’a demandés M. Poté》印192–198完整七页独立附录；不是II.X章、后续通信或全卷。1798只作所读版次年，初刊年与写作年未核，不沿用《逻辑学》的1780书目年或Potocki信的1777署日。七页、题名、目录和XXIII全部勘误页逐图核验；无脚注或实质边题，194–195原印notre／nous保留为文本风险，不冒称正式勘误。Google第二册下载429，未声称双册对校。
+
+全文覆盖单纯性与广延、停留与在场、自己的与外物的相继、创造绵延、永恒及绝对绵延的强否定；20题均附答案。Locke II.XIV和Leibniz指定段落仅作原典转录有界比较，不认证直接借用或全书完成。现代模型分别证明观测变化不增、压缩相容、纤维判准与已给共享坐标的共同细分；不把认识限制直接推成不存在共同时间。
+
+标准库原测试每模式实跑2,904轨迹映射、256纤维表、2,916事件表对、3反例及20非法输入；独立代码审计每模式1,134轨迹映射、1,554解码例、5,832三观察者组合及50异常边界，普通、-O、-OO均通过。一般证明不由有限测试替代，代码不验证人的心理、神学或物理时间。全部旧候选、书籍、版本和历史缺口原样保留；I.I正式勘误继续解决，II.VII164内证校读不升级为正式勘误。

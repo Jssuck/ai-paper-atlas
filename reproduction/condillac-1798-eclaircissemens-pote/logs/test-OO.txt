@@ -1,0 +1,6 @@
+PASS trace-map cases: 2904
+PASS finite fiber cases: 256
+PASS schedules: 54; ordered pairs: 2916
+PASS fixed adversarial examples: 3
+PASS invalid-input cases: 20
+All checks execute with and without Python optimization.

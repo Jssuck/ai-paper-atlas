@@ -1,0 +1,10 @@
+HIDDEN CHANGES (one observation label, unequal latent counts)
+trace=('a',); idea_word=('still',); latent_changes=0
+trace=('a', 'b', 'a', 'b'); idea_word=('still',); latent_changes=3
+JOINT OBSERVATION (neither marginal injective; product injective)
+(('a', '0', '0'), ('b', '0', '1'), ('c', '1', '0'))
+ALIGNMENT LOSS (same marginal idea words, two supplied timelines)
+A early, B late: [0,1/3):0,0; [1/3,2/3):1,0; [2/3,1):1,1
+A late, B early: [0,1/3):0,0; [1/3,2/3):0,1; [2/3,1):1,1
+Both marginal compressed words are (0,1); they do not determine event order.
+These event coordinates are inputs, not inferred absolute time.

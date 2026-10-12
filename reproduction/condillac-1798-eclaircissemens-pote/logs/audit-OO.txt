@@ -1,0 +1,6 @@
+PASS independent trace-map cases: 1134
+PASS exhaustive decoder-existence cases: 1554
+PASS schedules: 18; ordered triples: 5832
+PASS exact exception boundary cases: 50
+PASS valid extra mapping key and singleton schedule
+All audit checks use explicit exceptions, not assert.
