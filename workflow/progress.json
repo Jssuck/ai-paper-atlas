@@ -4,8 +4,9 @@
   "active_paper": {
     "id": "condillac-1768-academy-discourse",
     "path": "papers/1768/condillac-academy-discourse.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222. Delivery date independently corroborated; not asserted first-publication year. Explicit chronological backfill."
+    "stage": "waiting_for_browser_verification",
+    "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222. Delivery date independently corroborated; not asserted first-publication year. Explicit chronological backfill.",
+    "failure_reason": "Cloud browser error 9 interrupts complete live rendering verification; independent audits and exact remote-file checks passed. Same-unit recovery in progress."
   },
   "last_completed": {
     "id": "condillac-1798-potocki-exchange",
@@ -15,14 +16,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed; 86 exact bindings and all 32 final remote files/blob identities verified. Live browser verified nine complete DOM bodies, 164 headings, 98 formula tokens/structures and pixels, eight tables/303 raw-source cells, 326 relative paths and 20 answers. Unintended prose emphasis and new catalog typography repaired, review bindings refreshed. New article/appendix pixels and new README row/section verified; older README content checked by complete DOM preservation, not a full repeated pixel sweep.",
     "scope": "One commissioning exchange comprising two separately titled letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02; later date discrepancy disclosed; reply undated. 1798 verified edition date only. Historical claims, modern teaching models and empirical limits separated."
   },
-  "updated_at": "2026-10-12T13:19:00Z",
+  "updated_at": "2026-10-12T13:40:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and actual GitHub rendering for this discourse before marking complete.",
+  "next_action": "Recover the same live browser gate; do not start another source or mark complete before required verification.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
