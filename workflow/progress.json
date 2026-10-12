@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part2-ch3",
     "path": "papers/1780/condillac-logic-part2-ch3.zh-CN.md",
-    "stage": "remote_content_and_render_verification",
-    "scope": "La Logique II.III, actual 1798 Œuvres XXII pp.118–124; 1780 bibliographic edition date only."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part2-ch2",
-    "path": "papers/1780/condillac-logic-part2-ch2.zh-CN.md",
     "version": "v1",
-    "content_commit": "aacf6890c4419b5293011244b88ab05672569e5f",
-    "checks": "Independent source, whole-argument/math and code audits passed. Author and independent code checks cover normal/-O/-OO; independent mathematical enumeration is normal mode only. All 23 remote UTF-8 files and blob identities verified. Eight live Markdown bodies, 196 formulas, 210 headings, nine tables, 24 questions/answers and 249 relative paths checked. Source href fidelity verified; fresh external availability not asserted.",
-    "scope": "Complete La Logique II.II, actual 1798 Œuvres XXII pp.109–117, both scans and four margins; collected-edition errata checked. 1780 bibliographic dating only. Simultaneous expression is not inherently information-losing; sequential-sign models are explicitly modern teaching reconstructions."
+    "content_commit": "48949e170e67fc7f069f11a6735a72070b68e709",
+    "checks": "Independent source, whole-argument/math and code audits passed; 682785 independent checks per normal/-O/-OO mode. All 21 final remote files and blob identities verified. Eight live Markdown bodies, 303 formulas, 228 headings, 13 tables, 24 answers and 266 relative links checked. README emphasis and truncated audit-table cell repaired; bound run evidence rerun and both fixes visually verified. Google Books reCAPTCHA limits availability, not URL integrity.",
+    "scope": "Complete La Logique II.III, actual 1798 Œuvres XXII pp.118–124, both scans and five margins; applicable errata and bounded 1775 Grammaire context checked. Contents p.229 prints next chapter page15 versus actual125, recorded as an anomaly. 1780 bibliographic dating only. Consistency and vocabulary breadth distinguished from truth and clarity; models explicitly modern."
   },
-  "updated_at": "2026-10-12T02:06:35Z",
+  "updated_at": "2026-10-12T02:17:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify every remote artifact and actual GitHub mathematical rendering before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
