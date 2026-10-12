@@ -84,7 +84,7 @@ python3 -m unittest -v test_model
 
 本报告针对以下精确字节版本：
 
-- 正文 SHA-256：`320b7cbfbd77361a509ccfd04e5d0ae84b279538c1a1ff90a827b69e8c1f37ee`
+- 正文 SHA-256：`2bcebc24a572477049ae485f29e6411e7d61a8ef2237ec67525bde3b7eb9b48c`
 - 来源账本 SHA-256：`adf3700b9e6bd0b23bdf6f71251b63a9ffcef679fcbabebec46d1d52a900cb61`
 - model.py SHA-256：`31703d9946ca9ed4769bae297a8d3657a1d2935db56c437821463bd6f7225586`
 

@@ -7,8 +7,8 @@
   "artifacts": [
     {
       "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
-      "bytes": 44170,
-      "sha256": "320b7cbfbd77361a509ccfd04e5d0ae84b279538c1a1ff90a827b69e8c1f37ee"
+      "bytes": 44286,
+      "sha256": "2bcebc24a572477049ae485f29e6411e7d61a8ef2237ec67525bde3b7eb9b48c"
     },
     {
       "path": "papers/1798/condillac-potocki-exchange.sources.zh-CN.md",
@@ -18,7 +18,7 @@
     {
       "path": "papers/1798/condillac-potocki-exchange.audit.zh-CN.md",
       "bytes": 12469,
-      "sha256": "79c581bf9155677ddbd00f21b1291fe9249de3b27a4d6f630d9e3b017aada4d1"
+      "sha256": "d430ec6c6b4ea635671844e1cc531d1427731b928ca9f0337bd9c130bb011e7d"
     },
     {
       "path": "reproduction/condillac-1798-potocki-exchange/README.md",
@@ -282,5 +282,25 @@
     "No real learner, psychological, or AI-training experiment",
     "No historical algorithm or direct influence attribution",
     "No weighted, noisy, forgetting, adaptive, infinite-domain or performance guarantee"
-  ]
+  ],
+  "formatting_repair_review": {
+    "reviewed_at_utc": "2026-10-12T11:25:35.232972+00:00",
+    "status": "pass_semantic_equivalence_local_structure",
+    "description": "Nineteen bare mathematical symbols were enclosed in GitHub inline math with adjacent spacing: fourteen K_*, one each K_r, K_{r+1}, K_0, and two Delta_i; the latter preserve the Greek Delta identity using \\Delta_i.",
+    "affected_sections": [
+      "6.3",
+      "6.4",
+      "6.5",
+      "7.2",
+      "9.1",
+      "9.2",
+      "14 answer 9"
+    ],
+    "exact_old_main_sha256": "320b7cbfbd77361a509ccfd04e5d0ae84b279538c1a1ff90a827b69e8c1f37ee",
+    "exact_new_main_sha256": "2bcebc24a572477049ae485f29e6411e7d61a8ef2237ec67525bde3b7eb9b48c",
+    "substantive_prose_and_mathematics_unchanged": true,
+    "historical_review_scope_unchanged": true,
+    "public_reproduction_code_logs_and_checksums_unchanged": true,
+    "limits": "Formatting-only semantic review and local MathML structural checks; no new historical-page review, no broader proof or empirical certification, and no claim that repaired live GitHub pixels have been inspected."
+  }
 }
