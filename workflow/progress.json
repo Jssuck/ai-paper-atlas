@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "condillac-1798-eclaircissemens-pote",
+    "path": "papers/1798/condillac-eclaircissemens-pote.zh-CN.md",
+    "stage": "primary_reading_and_reconstruction",
+    "scope": "Complete Éclaircissemens response to Poté, actual 1798 Œuvres XXII pp.192–198; separate Potocki letter begins p199. 1798 is verified edition date, not asserted first-publication date."
+  },
   "last_completed": {
     "id": "condillac-1780-logic-part2-ch9",
     "path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed; 81 hash bindings verified. Three modes each passed nine author tests, 144933 independent code checks and 127640 argument checks. All 50 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 163 headings, 70 formulas, seven tables/358 raw-source cells, 307 relative paths and 20 answers. Strict-pair formula rendering repaired equivalently with review bindings refreshed and actual pixels rechecked.",
     "scope": "Complete La Logique II.IX, actual 1798 Œuvres XXII pp.177–191 including concluding advice, six margins and one footnote; collected errata checked. Single available scan limitation disclosed; 1780 bibliographic dating only. Modern finite certainty, causal converse, Bayesian and experiment-selection models distinguished from historical claims."
   },
-  "updated_at": "2026-10-12T09:27:40Z",
+  "updated_at": "2026-10-12T09:36:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Complete source reading, bounded chronology and independent reviews for this same appendix before publication.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
