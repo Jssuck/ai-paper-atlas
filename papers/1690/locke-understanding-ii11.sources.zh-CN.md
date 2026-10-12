@@ -4,7 +4,7 @@
 
 ## 1. 主底本：题名页印1690的首版
 
-John Locke，*An Essay Concerning Humane Understanding. In Four Books*，London：Printed by **Eliz. Holt, for Thomas Basset**，MDCXC〔1690〕。
+John Locke，*An Essay Concerning Humane Understanding. In Four Books*，London：Printed by **Eliz. Holt, for Thomas Basset**，MDCXC (1690).
 
 - [历史题名页：扫描第5页](https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/5)：书名、印刷者、书商、地点及罗马数字印年均已核图。
 - [Commons扫描记录](https://commons.wikimedia.org/wiki/File:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu)：将此扫描标为首版，来源为Google Books书目号VKVdAAAAcAAJ。

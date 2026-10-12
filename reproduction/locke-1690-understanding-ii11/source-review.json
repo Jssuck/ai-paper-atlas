@@ -83,8 +83,8 @@
     },
     {
       "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
-      "bytes": 16754,
-      "sha256": "7949c4b0bab3f6d3b4e2d88932e36c6d7a4b820bc7f7a17aab5fded47193c877",
+      "bytes": 16749,
+      "sha256": "68a33bc05420a73c918cdc19769a0b4bc95ae4239764a9560dbf07d9a6b72dae",
       "review_scope": "Complete source ledger, verified page boundaries, errata, edition distinctions, bibliographic attribution and comparison scopes."
     },
     {
@@ -110,6 +110,37 @@
       "bytes": 10421,
       "sha256": "20faec0f8f8449513fb978ae20b096bc8cba5f753d6bc4bacb5e7f2fad406c9f",
       "review_scope": "Final source-review report."
+    }
+  ],
+  "incremental_rechecks": [
+    {
+      "checked_at_utc": "2026-10-12T22:09:26Z",
+      "scope": "Incremental typography-only verification of one changed source-ledger line; original full source audit retained.",
+      "changed_path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+      "changed_line_1_based": 7,
+      "prior_sha256": "7949c4b0bab3f6d3b4e2d88932e36c6d7a4b820bc7f7a17aab5fded47193c877",
+      "new_sha256": "68a33bc05420a73c918cdc19769a0b4bc95ae4239764a9560dbf07d9a6b72dae",
+      "exact_delta": "Replaced the single date suffix using U+3014/U+3015 and a U+3002 full stop with an ASCII space, parentheses and full stop: MDCXC (1690).",
+      "semantic_result": "Unchanged title-page date MDCXC = 1690, author, title, place, printer and bookseller; the changed bibliographic line was freshly reread and the historical title image freshly viewed.",
+      "markdown_scan": {
+        "files_scanned": 8,
+        "code_points": [
+          "U+3014",
+          "U+3015"
+        ],
+        "remaining_occurrences": 0
+      },
+      "other_audited_file_bindings": "All five non-ledger files retain their prior byte counts and SHA-256 values.",
+      "freshly_viewed_historical_images": 1,
+      "retained_evidence": "The original 26-image and complete-chapter audit remains prior evidence; it was not rerun in full in this incremental check.",
+      "not_rerun": [
+        "Complete-chapter source audit",
+        "All 26-image inspection",
+        "Mathematical or code checks",
+        "Browser rendering or DOM checks",
+        "Remote publication checks"
+      ],
+      "status": "pass_semantically_equivalent_punctuation_only"
     }
   ]
 }
