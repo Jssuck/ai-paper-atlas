@@ -1,0 +1,152 @@
+{
+  "all_commands_passed": true,
+  "all_modes_verified": true,
+  "commands": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-c",
+        "import json,sys; print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'bytecode_writes_disabled':sys.dont_write_bytecode},sort_keys=True))"
+      ],
+      "elapsed_seconds": 0.04098878599870659,
+      "exit_code": 0,
+      "kind": "environment",
+      "mode": "normal",
+      "stderr_log": "logs/environment.normal.stderr.log",
+      "stdout_or_combined_log": "logs/environment.normal.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "elapsed_seconds": 0.24604695000016363,
+      "exit_code": 0,
+      "kind": "tests",
+      "mode": "normal",
+      "stderr_log": "logs/tests.normal.stderr.log",
+      "stdout_or_combined_log": "logs/tests.normal.log",
+      "tests_run": 47
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "examples.py"
+      ],
+      "elapsed_seconds": 0.18558295300135796,
+      "exit_code": 0,
+      "kind": "examples",
+      "mode": "normal",
+      "output_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "stderr_log": "logs/examples.normal.stderr.log",
+      "stdout_or_combined_log": "logs/examples.normal.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "-c",
+        "import json,sys; print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'bytecode_writes_disabled':sys.dont_write_bytecode},sort_keys=True))"
+      ],
+      "elapsed_seconds": 0.13978765400133852,
+      "exit_code": 0,
+      "kind": "environment",
+      "mode": "O",
+      "stderr_log": "logs/environment.O.stderr.log",
+      "stdout_or_combined_log": "logs/environment.O.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "elapsed_seconds": 0.4657991550011502,
+      "exit_code": 0,
+      "kind": "tests",
+      "mode": "O",
+      "stderr_log": "logs/tests.O.stderr.log",
+      "stdout_or_combined_log": "logs/tests.O.log",
+      "tests_run": 47
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "examples.py"
+      ],
+      "elapsed_seconds": 0.3730355759998929,
+      "exit_code": 0,
+      "kind": "examples",
+      "mode": "O",
+      "output_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "stderr_log": "logs/examples.O.stderr.log",
+      "stdout_or_combined_log": "logs/examples.O.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "-c",
+        "import json,sys; print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'bytecode_writes_disabled':sys.dont_write_bytecode},sort_keys=True))"
+      ],
+      "elapsed_seconds": 0.14157634600087476,
+      "exit_code": 0,
+      "kind": "environment",
+      "mode": "OO",
+      "stderr_log": "logs/environment.OO.stderr.log",
+      "stdout_or_combined_log": "logs/environment.OO.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "elapsed_seconds": 0.4509273399999074,
+      "exit_code": 0,
+      "kind": "tests",
+      "mode": "OO",
+      "stderr_log": "logs/tests.OO.stderr.log",
+      "stdout_or_combined_log": "logs/tests.OO.log",
+      "tests_run": 47
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "examples.py"
+      ],
+      "elapsed_seconds": 0.360834540999349,
+      "exit_code": 0,
+      "kind": "examples",
+      "mode": "OO",
+      "output_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "stderr_log": "logs/examples.OO.stderr.log",
+      "stdout_or_combined_log": "logs/examples.OO.json"
+    }
+  ],
+  "example_outputs_byte_identical": true,
+  "finished_at_utc": "2026-10-12T21:44:37.986437+00:00",
+  "started_at_utc": "2026-10-12T21:44:35.570416+00:00",
+  "success": true,
+  "test_counts_read_from_logs": true
+}

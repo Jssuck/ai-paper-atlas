@@ -1,0 +1,297 @@
+{
+  "binding_note": "This file intentionally does not hash itself or unrelated mutable audit reports. Re-running the audit changes timed evidence and requires reviewed hash rebinding; verification alone is read-only.",
+  "checks": {
+    "all_author_reported_counts_independently_confirmed": true,
+    "article_examples_match": true,
+    "author_tests_per_interpreter_mode": 47,
+    "byte_identical_example_outputs": true,
+    "framework_failure_probes": 3,
+    "framework_failures_counted_as_semantic": 0,
+    "independent_counts": {
+      "invalid_input_cases": 96,
+      "multisets": {
+        "addition_pairs": 729,
+        "associativity_cases": 19683,
+        "injectivity_maps": 60,
+        "input_multisets": 27,
+        "projection_cases": 5832,
+        "renaming_cases": 5832,
+        "scale_cases": 2916,
+        "source_atoms": 3
+      },
+      "policies": {
+        "all_admissible_subsets": true,
+        "class_partial_observation_cases": 7070,
+        "empty_queries": 5770,
+        "prediction_queries": 21036,
+        "stimulus_sizes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "unanimous_queries": 12060,
+        "underdetermined_queries": 3206
+      },
+      "relations": {
+        "available_labels": 3,
+        "by_domain_size": [
+          {
+            "cases": 1,
+            "domain_size": 0,
+            "successful": 1
+          },
+          {
+            "cases": 6,
+            "domain_size": 1,
+            "successful": 6
+          },
+          {
+            "cases": 144,
+            "domain_size": 2,
+            "successful": 102
+          },
+          {
+            "cases": 13824,
+            "domain_size": 3,
+            "successful": 3366
+          }
+        ],
+        "conflict_certificates": 18852,
+        "failed": 10500,
+        "relation_cases": 13975,
+        "representation_tables": 40,
+        "successful": 3475,
+        "unary_cases": 259,
+        "unary_successful": 163
+      },
+      "targeted_probes": "passed"
+    },
+    "interpreter_optimization_levels": [
+      0,
+      1,
+      2
+    ],
+    "recorded_subcommands": 54,
+    "semantic_mutant_detections_total": 36,
+    "semantic_mutants_per_mode": 12,
+    "stored_author_results_match_new_runs": true,
+    "transient_mutant_sources_removed": true
+  },
+  "evidence_files": [
+    {
+      "bytes": 4311,
+      "path": "results.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "bytes": 1102,
+      "path": "environment.json",
+      "sha256": "98f5b193186f9d1761ec99b5a0cad59fe8038d2022c359b41201cabf268b457a"
+    },
+    {
+      "bytes": 4911,
+      "path": "run_summary.json",
+      "sha256": "e0dfb40435731a1f74b6d77b97719b1c709ff83131075fbc6493df6099ca9ba7"
+    },
+    {
+      "bytes": 11322,
+      "path": "AUDIT.md",
+      "sha256": "55d80d4a60ff6281e26e1ffc3587eaa28c79f812061c781a8bbb3ef52814c409"
+    },
+    {
+      "bytes": 22232,
+      "path": "audit/independent_checks.py",
+      "sha256": "33f704d61b74c67f4f71bed1ed3aa983c271c57cbfc46713b1ab2a77b1952795"
+    },
+    {
+      "bytes": 16567,
+      "path": "audit/run_audit.py",
+      "sha256": "70565a995db224619391c517a3e881c7c3273312bd4d76350ce427bf1472756f"
+    },
+    {
+      "bytes": 3736,
+      "path": "audit/verify_evidence.py",
+      "sha256": "c7a767070f45cf83d7b4be683465b6ca243417306bc18d12643595d9dc8cc840"
+    },
+    {
+      "bytes": 71089,
+      "path": "audit/execution_report.json",
+      "sha256": "e2f35369feb0bd965cd6a55c20e5cf58af314509293f8735ccff3e8b619e3208"
+    },
+    {
+      "bytes": 213,
+      "path": "logs/environment.O.json",
+      "sha256": "1ceef3020291333ac5f2db4b5ef868949c446b8a5df5f41084b4f594c6a19a7a"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/environment.O.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 213,
+      "path": "logs/environment.OO.json",
+      "sha256": "cdf9f236842aa248696d7cc6656975b832a7704a6fe8c34147369024c304e2fb"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/environment.OO.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 213,
+      "path": "logs/environment.normal.json",
+      "sha256": "777a98433b3f7236d3c9f775842d51cd0f71584b57231b1409e735e8074692ea"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/environment.normal.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4311,
+      "path": "logs/examples.O.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/examples.O.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4311,
+      "path": "logs/examples.OO.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/examples.OO.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4311,
+      "path": "logs/examples.normal.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/examples.normal.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.O.log",
+      "sha256": "b2eb74d695778f1bd8ae1fd63cf93261cd3be37dd9fedb3e3b734250e2e7dee1"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.O.stderr.log",
+      "sha256": "b2eb74d695778f1bd8ae1fd63cf93261cd3be37dd9fedb3e3b734250e2e7dee1"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.OO.log",
+      "sha256": "ff92eb88b6897df7e848ddea7dda2799f6e8d3e63b1253c1e217d91f12e75814"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.OO.stderr.log",
+      "sha256": "ff92eb88b6897df7e848ddea7dda2799f6e8d3e63b1253c1e217d91f12e75814"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.normal.log",
+      "sha256": "5317d7f277bb95d1028ef816ef30fb157c0a5a25f2ef8a97376db888ef0933b0"
+    },
+    {
+      "bytes": 5731,
+      "path": "logs/tests.normal.stderr.log",
+      "sha256": "5317d7f277bb95d1028ef816ef30fb157c0a5a25f2ef8a97376db888ef0933b0"
+    },
+    {
+      "bytes": 23746,
+      "path": "audit/logs/O.log",
+      "sha256": "240eacd5033bf40694a08e94807c7aa61d8e41488a382026e5dd498660b41617"
+    },
+    {
+      "bytes": 23782,
+      "path": "audit/logs/OO.log",
+      "sha256": "dfd814338431b6f398f308f4e213052da58df4b36b5927d2fe98b91981416c7f"
+    },
+    {
+      "bytes": 23728,
+      "path": "audit/logs/normal.log",
+      "sha256": "c2a3f55cb2fdb3ac7799f313556281ac78d7bbc7382236d7e22308b886493427"
+    }
+  ],
+  "open_defects": [],
+  "paths_relative_to": "reproduction directory containing AUDIT.md",
+  "reproduce": [
+    "python3 -B audit/run_audit.py",
+    "python3 -B audit/verify_evidence.py --current-run-only"
+  ],
+  "resolved_findings": [
+    {
+      "resolution": "Article, README and WALKTHROUGH now distinguish ValueError at input validation from a returned empty_version_space.",
+      "severity": "documentation_clarification",
+      "subject": "Contradictory observations versus legal records excluded by the candidate class"
+    }
+  ],
+  "review_kind": "independent_stdlib_implementation_and_example_audit",
+  "reviewed_at_utc": "2026-10-12T21:51:44.495044+00:00",
+  "reviewed_inputs": [
+    {
+      "bytes": 11932,
+      "path": "model.py",
+      "sha256": "fca0060b9651de219ed76dd0d0001894d0db2e2c9a9b71d18dc41988bbea13bc"
+    },
+    {
+      "bytes": 9099,
+      "path": "finite_checks.py",
+      "sha256": "0e6d5c77a7635eba614974e47bb8328127f056a3d8795c07f25746b0ce377ddb"
+    },
+    {
+      "bytes": 15955,
+      "path": "test_model.py",
+      "sha256": "1be603f061fc2c19dbffa1960ae264661f7e40d2c3e37e23593ba2e13f134fec"
+    },
+    {
+      "bytes": 4925,
+      "path": "examples.py",
+      "sha256": "72ee070abd769272087737350258f8b44fbd73de4d45d641a8b73af27afafc02"
+    },
+    {
+      "bytes": 4466,
+      "path": "run_checks.py",
+      "sha256": "d9d2eacd219da990818c20ded82a93eede118bafaf3e3811e01eb44c1bcea57d"
+    },
+    {
+      "bytes": 14673,
+      "path": "README.md",
+      "sha256": "11cb18b7543e14e874cfd4144fc0e094594d0fb5769943f78c40f15277136e7e"
+    },
+    {
+      "bytes": 12012,
+      "path": "WALKTHROUGH.md",
+      "sha256": "93dce0ec57b69195a193e1eabcbe3bb8c816f00aee56a03aafbf73fda1e66249"
+    },
+    {
+      "bytes": 41444,
+      "path": "../../papers/1690/locke-understanding-ii11.zh-CN.md",
+      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c"
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "article": "Sections 3, 4 and 6: formal specifications and synthetic examples; whole-file digest prevents version mismatch",
+    "code": "All five author Python source files, including runner and original tests",
+    "documentation": [
+      "README.md",
+      "WALKTHROUGH.md"
+    ],
+    "excluded": "Historical-source authentication, other reviewer reports, empirical cognition claims and untested Python versions"
+  },
+  "status": "pass",
+  "verify_frozen_delivery": "python3 -B audit/verify_evidence.py"
+}

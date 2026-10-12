@@ -1,0 +1,2146 @@
+{
+  "baseline_code_sha256": {
+    "examples.py": "72ee070abd769272087737350258f8b44fbd73de4d45d641a8b73af27afafc02",
+    "finite_checks.py": "0e6d5c77a7635eba614974e47bb8328127f056a3d8795c07f25746b0ce377ddb",
+    "model.py": "fca0060b9651de219ed76dd0d0001894d0db2e2c9a9b71d18dc41988bbea13bc",
+    "run_checks.py": "d9d2eacd219da990818c20ded82a93eede118bafaf3e3811e01eb44c1bcea57d",
+    "test_model.py": "1be603f061fc2c19dbffa1960ae264661f7e40d2c3e37e23593ba2e13f134fec"
+  },
+  "commands": [
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-c",
+        "import json,sys,platform,os;print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'dont_write_bytecode':sys.dont_write_bytecode,'platform':platform.platform(),'implementation':platform.python_implementation(),'machine':platform.machine(),'PYTHONHASHSEED':os.environ.get('PYTHONHASHSEED')},sort_keys=True))"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06041339299918036,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 1,
+      "mode": "normal",
+      "name": "environment",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 332,
+      "stdout_sha256": "4232dff41f750c55df73fc2c98d33f7deeabd72aab2f8497c264b2bd417fbc4c"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.28781518299911113,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 2,
+      "mode": "normal",
+      "name": "author_tests",
+      "stderr_bytes": 5731,
+      "stderr_sha256": "c741426e5061b75b238f1d55c5401728993bad335c684d7c39a25f93aedf6c22",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests_run": 47
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.9578756930004602,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 3,
+      "mode": "normal",
+      "name": "independent_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1391,
+      "stdout_sha256": "4f55878cd62fa078c4ccf3ebb7ecb210802d48637c5ea98ee127c89e225485ff"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "finite_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.22372689500116394,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 4,
+      "mode": "normal",
+      "name": "author_finite_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1014,
+      "stdout_sha256": "c3b32f03045eb8288baaa8a995065249944e066a05852b85485c3093eda028a9"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "examples.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.5142570289990545,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 5,
+      "mode": "normal",
+      "name": "author_examples",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4311,
+      "stdout_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "-c",
+        "import json,sys,platform,os;print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'dont_write_bytecode':sys.dont_write_bytecode,'platform':platform.platform(),'implementation':platform.python_implementation(),'machine':platform.machine(),'PYTHONHASHSEED':os.environ.get('PYTHONHASHSEED')},sort_keys=True))"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.13503213799958758,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 1,
+      "mode": "O",
+      "name": "environment",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 332,
+      "stdout_sha256": "c5e32f6189c0532c438c27be9a2449adbf98fa304eaefc5c7642654c72242f99"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.4137377970000671,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 2,
+      "mode": "O",
+      "name": "author_tests",
+      "stderr_bytes": 5731,
+      "stderr_sha256": "e1b5ce831c477a39a208a98db37445de5c00e81d25c3f69e4a279912133b1d13",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests_run": 47
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 1.7556362570012425,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 3,
+      "mode": "O",
+      "name": "independent_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1391,
+      "stdout_sha256": "4f55878cd62fa078c4ccf3ebb7ecb210802d48637c5ea98ee127c89e225485ff"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "finite_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.49636666500009596,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 4,
+      "mode": "O",
+      "name": "author_finite_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1014,
+      "stdout_sha256": "c3b32f03045eb8288baaa8a995065249944e066a05852b85485c3093eda028a9"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "examples.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.4654968529994221,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 5,
+      "mode": "O",
+      "name": "author_examples",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4311,
+      "stdout_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "-c",
+        "import json,sys,platform,os;print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'dont_write_bytecode':sys.dont_write_bytecode,'platform':platform.platform(),'implementation':platform.python_implementation(),'machine':platform.machine(),'PYTHONHASHSEED':os.environ.get('PYTHONHASHSEED')},sort_keys=True))"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.1366419309997582,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 1,
+      "mode": "OO",
+      "name": "environment",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 332,
+      "stdout_sha256": "680b879215427ce537745165c791649ce53fe4fd1a5e9a9b92f9eb99863fd797"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.6341900859988527,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 2,
+      "mode": "OO",
+      "name": "author_tests",
+      "stderr_bytes": 5731,
+      "stderr_sha256": "96ff93b266b9c3642e1777df8af3f804a03f7806dbf5252b67d95c4f524c0ca1",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests_run": 47
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 1.159652616999665,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 3,
+      "mode": "OO",
+      "name": "independent_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1391,
+      "stdout_sha256": "4f55878cd62fa078c4ccf3ebb7ecb210802d48637c5ea98ee127c89e225485ff"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "finite_checks.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.4028356110011373,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 4,
+      "mode": "OO",
+      "name": "author_finite_checks",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1014,
+      "stdout_sha256": "c3b32f03045eb8288baaa8a995065249944e066a05852b85485c3093eda028a9"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "examples.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.32220081699961156,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log_block": 5,
+      "mode": "OO",
+      "name": "author_examples",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4311,
+      "stdout_sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_partial_quotient.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.08729946899984498,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 6,
+      "mode": "normal",
+      "name": "mutation_accept_partial_quotient",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 114,
+      "stdout_sha256": "805fc5113394863a6cbb7895fa636a904d64599cfa220d7eba33a80914ad7af5"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_partial_quotient.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2839369630000874,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 6,
+      "mode": "O",
+      "name": "mutation_accept_partial_quotient",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 114,
+      "stdout_sha256": "805fc5113394863a6cbb7895fa636a904d64599cfa220d7eba33a80914ad7af5"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_partial_quotient.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.27150080499995966,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 6,
+      "mode": "OO",
+      "name": "mutation_accept_partial_quotient",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 114,
+      "stdout_sha256": "805fc5113394863a6cbb7895fa636a904d64599cfa220d7eba33a80914ad7af5"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/omit_bad_rectangles.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06518176200006565,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 7,
+      "mode": "normal",
+      "name": "mutation_omit_bad_rectangles",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 160,
+      "stdout_sha256": "e4c34ce3066a5f6cd8b13ee003ffc50d15ffd1a7291cb0436e532708a835ac67"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/omit_bad_rectangles.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2536447799993766,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 7,
+      "mode": "O",
+      "name": "mutation_omit_bad_rectangles",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 160,
+      "stdout_sha256": "e4c34ce3066a5f6cd8b13ee003ffc50d15ffd1a7291cb0436e532708a835ac67"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/omit_bad_rectangles.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2668085240002256,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 7,
+      "mode": "OO",
+      "name": "mutation_omit_bad_rectangles",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 160,
+      "stdout_sha256": "e4c34ce3066a5f6cd8b13ee003ffc50d15ffd1a7291cb0436e532708a835ac67"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/symmetrize_ordered_labels.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06854738100082614,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 8,
+      "mode": "normal",
+      "name": "mutation_symmetrize_ordered_labels",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 234,
+      "stdout_sha256": "3af2744f618931fed23e84b83fa099866b277e07075110272fe18d6c9cb2eaf7"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/symmetrize_ordered_labels.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2872213999999076,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 8,
+      "mode": "O",
+      "name": "mutation_symmetrize_ordered_labels",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 234,
+      "stdout_sha256": "3af2744f618931fed23e84b83fa099866b277e07075110272fe18d6c9cb2eaf7"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/symmetrize_ordered_labels.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.3098828090005554,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 8,
+      "mode": "OO",
+      "name": "mutation_symmetrize_ordered_labels",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 234,
+      "stdout_sha256": "3af2744f618931fed23e84b83fa099866b277e07075110272fe18d6c9cb2eaf7"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/empty_quotient_is_failure.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.11660788100016362,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 9,
+      "mode": "normal",
+      "name": "mutation_empty_quotient_is_failure",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 106,
+      "stdout_sha256": "7eb92511f464fbd10d4a86dcddfcf7483fc0eea7ed8b8bef80daa44f26461896"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/empty_quotient_is_failure.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.285288760000185,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 9,
+      "mode": "O",
+      "name": "mutation_empty_quotient_is_failure",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 106,
+      "stdout_sha256": "7eb92511f464fbd10d4a86dcddfcf7483fc0eea7ed8b8bef80daa44f26461896"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/empty_quotient_is_failure.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.3405673960005515,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 9,
+      "mode": "OO",
+      "name": "mutation_empty_quotient_is_failure",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 106,
+      "stdout_sha256": "7eb92511f464fbd10d4a86dcddfcf7483fc0eea7ed8b8bef80daa44f26461896"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_integer_relations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06873504500072158,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 10,
+      "mode": "normal",
+      "name": "mutation_accept_integer_relations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "907ab4df696e02ae41554faa914ddcf5df0f725c6164dccb0f5529c4797e4e7a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_integer_relations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2738221870004054,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 10,
+      "mode": "O",
+      "name": "mutation_accept_integer_relations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "907ab4df696e02ae41554faa914ddcf5df0f725c6164dccb0f5529c4797e4e7a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_integer_relations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.28328232599960756,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 10,
+      "mode": "OO",
+      "name": "mutation_accept_integer_relations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "907ab4df696e02ae41554faa914ddcf5df0f725c6164dccb0f5529c4797e4e7a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/max_instead_of_multiset_add.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.07496888100104115,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 11,
+      "mode": "normal",
+      "name": "mutation_max_instead_of_multiset_add",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 112,
+      "stdout_sha256": "af69219a8f12f557eb4da603bd2c68f864ddb7dcaa95f9edd8c706ec708360de"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/max_instead_of_multiset_add.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.27018630300153745,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 11,
+      "mode": "O",
+      "name": "mutation_max_instead_of_multiset_add",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 112,
+      "stdout_sha256": "af69219a8f12f557eb4da603bd2c68f864ddb7dcaa95f9edd8c706ec708360de"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/max_instead_of_multiset_add.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2626091840011213,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 11,
+      "mode": "OO",
+      "name": "mutation_max_instead_of_multiset_add",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 112,
+      "stdout_sha256": "af69219a8f12f557eb4da603bd2c68f864ddb7dcaa95f9edd8c706ec708360de"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/overwrite_rename_collisions.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.0721953600004781,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 12,
+      "mode": "normal",
+      "name": "mutation_overwrite_rename_collisions",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 110,
+      "stdout_sha256": "b9c4a5bde62df4498a49903295d07d2d4ad36aeb146e2127b7f775f99a452441"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/overwrite_rename_collisions.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2804985080001643,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 12,
+      "mode": "O",
+      "name": "mutation_overwrite_rename_collisions",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 110,
+      "stdout_sha256": "b9c4a5bde62df4498a49903295d07d2d4ad36aeb146e2127b7f775f99a452441"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/overwrite_rename_collisions.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.26528212199991685,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 12,
+      "mode": "OO",
+      "name": "mutation_overwrite_rename_collisions",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 110,
+      "stdout_sha256": "b9c4a5bde62df4498a49903295d07d2d4ad36aeb146e2127b7f775f99a452441"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/include_zero_in_support_dict.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.07216864399924816,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 13,
+      "mode": "normal",
+      "name": "mutation_include_zero_in_support_dict",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 138,
+      "stdout_sha256": "116d6fe96c6d56bb21d5a44bc50384720d0ae7741a359c27fa4383fbf897011a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/include_zero_in_support_dict.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.25732634700034396,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 13,
+      "mode": "O",
+      "name": "mutation_include_zero_in_support_dict",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 138,
+      "stdout_sha256": "116d6fe96c6d56bb21d5a44bc50384720d0ae7741a359c27fa4383fbf897011a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/include_zero_in_support_dict.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2641824940001243,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 13,
+      "mode": "OO",
+      "name": "mutation_include_zero_in_support_dict",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 138,
+      "stdout_sha256": "116d6fe96c6d56bb21d5a44bc50384720d0ae7741a359c27fa4383fbf897011a"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_bool_counts.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06658379800137482,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 14,
+      "mode": "normal",
+      "name": "mutation_accept_bool_counts",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "547f29ee8bdbdfb24ca1c2efdfb75d864d19067ad24226129fd7d073332759b3"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_bool_counts.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.28374033300133306,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 14,
+      "mode": "O",
+      "name": "mutation_accept_bool_counts",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "547f29ee8bdbdfb24ca1c2efdfb75d864d19067ad24226129fd7d073332759b3"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/accept_bool_counts.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.27975130699996953,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 14,
+      "mode": "OO",
+      "name": "mutation_accept_bool_counts",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "547f29ee8bdbdfb24ca1c2efdfb75d864d19067ad24226129fd7d073332759b3"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/admit_incompatible_policies.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06749035400025605,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 15,
+      "mode": "normal",
+      "name": "mutation_admit_incompatible_policies",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 164,
+      "stdout_sha256": "be6fd826974218a2d2d549755f8b41e6c1ce98a70be69a3f05f1f9156fa24d93"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/admit_incompatible_policies.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2814037459993415,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 15,
+      "mode": "O",
+      "name": "mutation_admit_incompatible_policies",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 164,
+      "stdout_sha256": "be6fd826974218a2d2d549755f8b41e6c1ce98a70be69a3f05f1f9156fa24d93"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/admit_incompatible_policies.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.3525035359998583,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 15,
+      "mode": "OO",
+      "name": "mutation_admit_incompatible_policies",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 164,
+      "stdout_sha256": "be6fd826974218a2d2d549755f8b41e6c1ce98a70be69a3f05f1f9156fa24d93"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/predict_from_empty_class.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.06917207100013911,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 16,
+      "mode": "normal",
+      "name": "mutation_predict_from_empty_class",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 113,
+      "stdout_sha256": "0af693e8b70d0b671ceb8fe84b0a929864123ab4e34437c07befaa4b4ac36f8e"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/predict_from_empty_class.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.26168619499912893,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 16,
+      "mode": "O",
+      "name": "mutation_predict_from_empty_class",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 113,
+      "stdout_sha256": "0af693e8b70d0b671ceb8fe84b0a929864123ab4e34437c07befaa4b4ac36f8e"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/predict_from_empty_class.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2844132289992558,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 16,
+      "mode": "OO",
+      "name": "mutation_predict_from_empty_class",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 113,
+      "stdout_sha256": "0af693e8b70d0b671ceb8fe84b0a929864123ab4e34437c07befaa4b4ac36f8e"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/permit_conflicting_observations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.07363699599954998,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 17,
+      "mode": "normal",
+      "name": "mutation_permit_conflicting_observations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 127,
+      "stdout_sha256": "e373a416089ec85e50b7d72ed879bc3fbdc0fc89cf5eb4377d5f3af043930fad"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/permit_conflicting_observations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.27201325799978804,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 17,
+      "mode": "O",
+      "name": "mutation_permit_conflicting_observations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 127,
+      "stdout_sha256": "e373a416089ec85e50b7d72ed879bc3fbdc0fc89cf5eb4377d5f3af043930fad"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/mutations/permit_conflicting_observations.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.2701096479995613,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "log_block": 17,
+      "mode": "OO",
+      "name": "mutation_permit_conflicting_observations",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 127,
+      "stdout_sha256": "e373a416089ec85e50b7d72ed879bc3fbdc0fc89cf5eb4377d5f3af043930fad"
+    },
+    {
+      "combined_evidence_log": "audit/logs/normal.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/nonexistent-model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.04574696400050016,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "log_block": 18,
+      "mode": "normal",
+      "name": "framework_missing_module_probe",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 122,
+      "stdout_sha256": "2a55535c291b575af6b609a542b83fea26c5100ee907777672b9174efb4ddfe1"
+    },
+    {
+      "combined_evidence_log": "audit/logs/O.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/nonexistent-model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.16683481099971686,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "log_block": 18,
+      "mode": "O",
+      "name": "framework_missing_module_probe",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 122,
+      "stdout_sha256": "2a55535c291b575af6b609a542b83fea26c5100ee907777672b9174efb4ddfe1"
+    },
+    {
+      "combined_evidence_log": "audit/logs/OO.log",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-OO",
+        "audit/independent_checks.py",
+        "--group",
+        "probes",
+        "--model-path",
+        "audit/nonexistent-model.py"
+      ],
+      "cwd": ".",
+      "elapsed_seconds": 0.16526100000010047,
+      "environment_overrides": {
+        "PYTHONHASHSEED": "0"
+      },
+      "exit_code": 3,
+      "expected_exit_code": 3,
+      "log_block": 18,
+      "mode": "OO",
+      "name": "framework_missing_module_probe",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 122,
+      "stdout_sha256": "2a55535c291b575af6b609a542b83fea26c5100ee907777672b9174efb4ddfe1"
+    }
+  ],
+  "example_outputs_byte_identical": true,
+  "finished_at_utc": "2026-10-12T21:49:04.857768+00:00",
+  "framework_failure_probes": [
+    {
+      "failure": "model input does not exist: nonexistent-model.py",
+      "mode": "normal",
+      "status": "framework_error",
+      "type": "FileNotFoundError"
+    },
+    {
+      "failure": "model input does not exist: nonexistent-model.py",
+      "mode": "O",
+      "status": "framework_error",
+      "type": "FileNotFoundError"
+    },
+    {
+      "failure": "model input does not exist: nonexistent-model.py",
+      "mode": "OO",
+      "status": "framework_error",
+      "type": "FileNotFoundError"
+    }
+  ],
+  "framework_failures_counted_as_semantic_detections": 0,
+  "independent_outputs_byte_identical": true,
+  "modes": [
+    {
+      "author_result_verification": {
+        "advertised_counts": {
+          "multisets": {
+            "alphabet_size": 2,
+            "associativity_cases": 729,
+            "input_counts_per_atom": [
+              0,
+              1,
+              2
+            ],
+            "multisets": 9,
+            "ordered_addition_pairs": 81,
+            "projection_homomorphism_cases": 324,
+            "projection_subsets": 4,
+            "renaming_homomorphism_cases": 324,
+            "renaming_maps": 4,
+            "scale_distribution_cases": 324,
+            "scale_factors": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "policies": {
+            "actions": 2,
+            "individual_prediction_checks": 228,
+            "stimulus_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "truth_observation_cases": 85
+          },
+          "relations": {
+            "available_representation_labels": 2,
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "failed_descents": 4024,
+            "relation_cases": 4165,
+            "representation_tables": 15,
+            "successful_descents": 141
+          },
+          "unary_predicates": {
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "predicate_cases": 85,
+            "successful_descents": 45
+          }
+        },
+        "all_numeric_and_structured_example_fields_checked": true,
+        "article_example_sections_checked": [
+          "3.3",
+          "4.3",
+          "4.4",
+          "6.4"
+        ]
+      },
+      "environment": {
+        "PYTHONHASHSEED": "0",
+        "dont_write_bytecode": true,
+        "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "implementation": "CPython",
+        "machine": "x86_64",
+        "optimization": 0,
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+      },
+      "independent_counts": {
+        "invalid_input_cases": 96,
+        "multisets": {
+          "addition_pairs": 729,
+          "associativity_cases": 19683,
+          "injectivity_maps": 60,
+          "input_multisets": 27,
+          "projection_cases": 5832,
+          "renaming_cases": 5832,
+          "scale_cases": 2916,
+          "source_atoms": 3
+        },
+        "policies": {
+          "all_admissible_subsets": true,
+          "class_partial_observation_cases": 7070,
+          "empty_queries": 5770,
+          "prediction_queries": 21036,
+          "stimulus_sizes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "unanimous_queries": 12060,
+          "underdetermined_queries": 3206
+        },
+        "relations": {
+          "available_labels": 3,
+          "by_domain_size": [
+            {
+              "cases": 1,
+              "domain_size": 0,
+              "successful": 1
+            },
+            {
+              "cases": 6,
+              "domain_size": 1,
+              "successful": 6
+            },
+            {
+              "cases": 144,
+              "domain_size": 2,
+              "successful": 102
+            },
+            {
+              "cases": 13824,
+              "domain_size": 3,
+              "successful": 3366
+            }
+          ],
+          "conflict_certificates": 18852,
+          "failed": 10500,
+          "relation_cases": 13975,
+          "representation_tables": 40,
+          "successful": 3475,
+          "unary_cases": 259,
+          "unary_successful": 163
+        },
+        "targeted_probes": "passed"
+      },
+      "mode": "normal"
+    },
+    {
+      "author_result_verification": {
+        "advertised_counts": {
+          "multisets": {
+            "alphabet_size": 2,
+            "associativity_cases": 729,
+            "input_counts_per_atom": [
+              0,
+              1,
+              2
+            ],
+            "multisets": 9,
+            "ordered_addition_pairs": 81,
+            "projection_homomorphism_cases": 324,
+            "projection_subsets": 4,
+            "renaming_homomorphism_cases": 324,
+            "renaming_maps": 4,
+            "scale_distribution_cases": 324,
+            "scale_factors": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "policies": {
+            "actions": 2,
+            "individual_prediction_checks": 228,
+            "stimulus_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "truth_observation_cases": 85
+          },
+          "relations": {
+            "available_representation_labels": 2,
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "failed_descents": 4024,
+            "relation_cases": 4165,
+            "representation_tables": 15,
+            "successful_descents": 141
+          },
+          "unary_predicates": {
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "predicate_cases": 85,
+            "successful_descents": 45
+          }
+        },
+        "all_numeric_and_structured_example_fields_checked": true,
+        "article_example_sections_checked": [
+          "3.3",
+          "4.3",
+          "4.4",
+          "6.4"
+        ]
+      },
+      "environment": {
+        "PYTHONHASHSEED": "0",
+        "dont_write_bytecode": true,
+        "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "implementation": "CPython",
+        "machine": "x86_64",
+        "optimization": 1,
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+      },
+      "independent_counts": {
+        "invalid_input_cases": 96,
+        "multisets": {
+          "addition_pairs": 729,
+          "associativity_cases": 19683,
+          "injectivity_maps": 60,
+          "input_multisets": 27,
+          "projection_cases": 5832,
+          "renaming_cases": 5832,
+          "scale_cases": 2916,
+          "source_atoms": 3
+        },
+        "policies": {
+          "all_admissible_subsets": true,
+          "class_partial_observation_cases": 7070,
+          "empty_queries": 5770,
+          "prediction_queries": 21036,
+          "stimulus_sizes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "unanimous_queries": 12060,
+          "underdetermined_queries": 3206
+        },
+        "relations": {
+          "available_labels": 3,
+          "by_domain_size": [
+            {
+              "cases": 1,
+              "domain_size": 0,
+              "successful": 1
+            },
+            {
+              "cases": 6,
+              "domain_size": 1,
+              "successful": 6
+            },
+            {
+              "cases": 144,
+              "domain_size": 2,
+              "successful": 102
+            },
+            {
+              "cases": 13824,
+              "domain_size": 3,
+              "successful": 3366
+            }
+          ],
+          "conflict_certificates": 18852,
+          "failed": 10500,
+          "relation_cases": 13975,
+          "representation_tables": 40,
+          "successful": 3475,
+          "unary_cases": 259,
+          "unary_successful": 163
+        },
+        "targeted_probes": "passed"
+      },
+      "mode": "O"
+    },
+    {
+      "author_result_verification": {
+        "advertised_counts": {
+          "multisets": {
+            "alphabet_size": 2,
+            "associativity_cases": 729,
+            "input_counts_per_atom": [
+              0,
+              1,
+              2
+            ],
+            "multisets": 9,
+            "ordered_addition_pairs": 81,
+            "projection_homomorphism_cases": 324,
+            "projection_subsets": 4,
+            "renaming_homomorphism_cases": 324,
+            "renaming_maps": 4,
+            "scale_distribution_cases": 324,
+            "scale_factors": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "policies": {
+            "actions": 2,
+            "individual_prediction_checks": 228,
+            "stimulus_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "truth_observation_cases": 85
+          },
+          "relations": {
+            "available_representation_labels": 2,
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "failed_descents": 4024,
+            "relation_cases": 4165,
+            "representation_tables": 15,
+            "successful_descents": 141
+          },
+          "unary_predicates": {
+            "domain_sizes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "predicate_cases": 85,
+            "successful_descents": 45
+          }
+        },
+        "all_numeric_and_structured_example_fields_checked": true,
+        "article_example_sections_checked": [
+          "3.3",
+          "4.3",
+          "4.4",
+          "6.4"
+        ]
+      },
+      "environment": {
+        "PYTHONHASHSEED": "0",
+        "dont_write_bytecode": true,
+        "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "implementation": "CPython",
+        "machine": "x86_64",
+        "optimization": 2,
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+      },
+      "independent_counts": {
+        "invalid_input_cases": 96,
+        "multisets": {
+          "addition_pairs": 729,
+          "associativity_cases": 19683,
+          "injectivity_maps": 60,
+          "input_multisets": 27,
+          "projection_cases": 5832,
+          "renaming_cases": 5832,
+          "scale_cases": 2916,
+          "source_atoms": 3
+        },
+        "policies": {
+          "all_admissible_subsets": true,
+          "class_partial_observation_cases": 7070,
+          "empty_queries": 5770,
+          "prediction_queries": 21036,
+          "stimulus_sizes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "unanimous_queries": 12060,
+          "underdetermined_queries": 3206
+        },
+        "relations": {
+          "available_labels": 3,
+          "by_domain_size": [
+            {
+              "cases": 1,
+              "domain_size": 0,
+              "successful": 1
+            },
+            {
+              "cases": 6,
+              "domain_size": 1,
+              "successful": 6
+            },
+            {
+              "cases": 144,
+              "domain_size": 2,
+              "successful": 102
+            },
+            {
+              "cases": 13824,
+              "domain_size": 3,
+              "successful": 3366
+            }
+          ],
+          "conflict_certificates": 18852,
+          "failed": 10500,
+          "relation_cases": 13975,
+          "representation_tables": 40,
+          "successful": 3475,
+          "unary_cases": 259,
+          "unary_successful": 163
+        },
+        "targeted_probes": "passed"
+      },
+      "mode": "OO"
+    }
+  ],
+  "semantic_mutants_detected_per_mode": 12,
+  "semantic_mutations": [
+    {
+      "after": "return RelationDescent(quotient, tuple(conflicts))",
+      "before": "return RelationDescent(None if conflicts else quotient, tuple(conflicts))",
+      "generated_temporary_path": "audit/mutations/accept_partial_quotient.py",
+      "id": "accept_partial_quotient",
+      "outcomes": [
+        {
+          "failure": "probe.relation.reject_conflicting_quotient: actual={}; expected=None",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.reject_conflicting_quotient: actual={}; expected=None",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.reject_conflicting_quotient: actual={}; expected=None",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "074caddf90282ec45c9ffe44c986da01d81a829279703ae1ddafc4db88c152e6"
+    },
+    {
+      "after": "return RelationDescent(None if conflicts else quotient, tuple(conflicts[:1]))",
+      "before": "return RelationDescent(None if conflicts else quotient, tuple(conflicts))",
+      "generated_temporary_path": "audit/mutations/omit_bad_rectangles.py",
+      "id": "omit_bad_rectangles",
+      "outcomes": [
+        {
+          "failure": "probe.relation.every_bad_rectangle: actual={('a', 'a')}; expected={('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')}",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.every_bad_rectangle: actual={('a', 'a')}; expected={('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')}",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.every_bad_rectangle: actual={('a', 'a')}; expected={('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')}",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "401aebd3a213c4a13070c36addf9a635041b95b4f0f1c2a301064884ae1c3b64"
+    },
+    {
+      "after": "quotient[tuple(sorted(block))] = next(iter(witnesses))",
+      "before": "quotient[block] = next(iter(witnesses))",
+      "generated_temporary_path": "audit/mutations/symmetrize_ordered_labels.py",
+      "id": "symmetrize_ordered_labels",
+      "outcomes": [
+        {
+          "failure": "probe.relation.direction_is_retained: actual={('a', 'a'): False, ('a', 'b'): False, ('b', 'b'): False}; expected={('a', 'a'): False, ('a', 'b'): True, ('b', 'a'): False, ('b', 'b'): False}",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.direction_is_retained: actual={('a', 'a'): False, ('a', 'b'): False, ('b', 'b'): False}; expected={('a', 'a'): False, ('a', 'b'): True, ('b', 'a'): False, ('b', 'b'): False}",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.direction_is_retained: actual={('a', 'a'): False, ('a', 'b'): False, ('b', 'b'): False}; expected={('a', 'a'): False, ('a', 'b'): True, ('b', 'a'): False, ('b', 'b'): False}",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "fea508e4bf519d5b42354169358fb10fb9bd1fef9994f879dcaa52db70da51af"
+    },
+    {
+      "after": "return bool(self.quotient)",
+      "before": "return self.quotient is not None",
+      "generated_temporary_path": "audit/mutations/empty_quotient_is_failure.py",
+      "id": "empty_quotient_is_failure",
+      "outcomes": [
+        {
+          "failure": "probe.relation.empty_is_success: actual=False; expected=True",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.empty_is_success: actual=False; expected=True",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.empty_is_success: actual=False; expected=True",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "7b4a80dfea1461afb03dc7149594e98ca6a4cd504b3b54fce722d947d8261654"
+    },
+    {
+      "after": "if any(value not in (False, True) for value in relation.values()):",
+      "before": "if any(type(value) is not bool for value in relation.values()):",
+      "generated_temporary_path": "audit/mutations/accept_integer_relations.py",
+      "id": "accept_integer_relations",
+      "outcomes": [
+        {
+          "failure": "probe.relation.integer_is_not_bool: expected ValueError but input was accepted",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.integer_is_not_bool: expected ValueError but input was accepted",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.relation.integer_is_not_bool: expected ValueError but input was accepted",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "21f2e734c93078d22b655efd70a5370b3dd65baf8d15b7f1aec7fc96dcd26d5d"
+    },
+    {
+      "after": "tuple(max(a, b) for a, b in zip(self.counts, other.counts))",
+      "before": "tuple(a + b for a, b in zip(self.counts, other.counts))",
+      "generated_temporary_path": "audit/mutations/max_instead_of_multiset_add.py",
+      "id": "max_instead_of_multiset_add",
+      "outcomes": [
+        {
+          "failure": "probe.multiset.coordinate_addition: actual=(2, 2); expected=(3, 3)",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.coordinate_addition: actual=(2, 2); expected=(3, 3)",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.coordinate_addition: actual=(2, 2); expected=(3, 3)",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "e45d623d35c03d2774835c5677cb80955d34138a27585ad4bb6baf8890a2056c"
+    },
+    {
+      "after": "values[atom] = _natural(count, \"count\")",
+      "before": "values[atom] += _natural(count, \"count\")",
+      "generated_temporary_path": "audit/mutations/overwrite_rename_collisions.py",
+      "id": "overwrite_rename_collisions",
+      "outcomes": [
+        {
+          "failure": "probe.multiset.collision_adds_counts: actual=(1,); expected=(3,)",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.collision_adds_counts: actual=(1,); expected=(3,)",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.collision_adds_counts: actual=(1,); expected=(3,)",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "8ab534b2ef58186c9f2f8375d4f1c61d4d23230fda2b6f6bd3c37ae64679eeb5"
+    },
+    {
+      "after": "return {atom: count for atom, count in zip(self.alphabet, self.counts)}",
+      "before": "return {atom: count for atom, count in zip(self.alphabet, self.counts) if count}",
+      "generated_temporary_path": "audit/mutations/include_zero_in_support_dict.py",
+      "id": "include_zero_in_support_dict",
+      "outcomes": [
+        {
+          "failure": "probe.multiset.duplicates_accumulate_zero_absent: actual={'a': 5, 'b': 0}; expected={'a': 5}",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.duplicates_accumulate_zero_absent: actual={'a': 5, 'b': 0}; expected={'a': 5}",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.duplicates_accumulate_zero_absent: actual={'a': 5, 'b': 0}; expected={'a': 5}",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "de95986c1f41a8d9df7a03fce0e60fb0367c0b48458e41349949a8cb47a45fc1"
+    },
+    {
+      "after": "if not isinstance(value, int) or value < 0:",
+      "before": "if type(value) is not int or value < 0:",
+      "generated_temporary_path": "audit/mutations/accept_bool_counts.py",
+      "id": "accept_bool_counts",
+      "outcomes": [
+        {
+          "failure": "probe.multiset.bool_is_not_natural: expected ValueError but input was accepted",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.bool_is_not_natural: expected ValueError but input was accepted",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.multiset.bool_is_not_natural: expected ValueError but input was accepted",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "ad99d2121aa6de61bcdaae02cf432de0451bb5962142b70cee7246233f93477f"
+    },
+    {
+      "after": "if True or all(policy.response(s) == a for s, a in observed.items()))",
+      "before": "if all(policy.response(s) == a for s, a in observed.items()))",
+      "generated_temporary_path": "audit/mutations/admit_incompatible_policies.py",
+      "id": "admit_incompatible_policies",
+      "outcomes": [
+        {
+          "failure": "probe.policy.compatibility: actual={('0', '0'), ('0', '1'), ('1', '1'), ('1', '0')}; expected={('1', '0'), ('1', '1')}",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.compatibility: actual={('0', '0'), ('0', '1'), ('1', '1'), ('1', '0')}; expected={('1', '0'), ('1', '1')}",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.compatibility: actual={('0', '0'), ('0', '1'), ('1', '1'), ('1', '0')}; expected={('1', '0'), ('1', '1')}",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "3ca0daef29d14f87411451aa5dd0eb5f15f2f63e42c937c60cf25328a241daf7"
+    },
+    {
+      "after": "return possibilities[0] if len(possibilities) == 1 else ('0' if not possibilities else None)",
+      "before": "return possibilities[0] if len(possibilities) == 1 else None",
+      "generated_temporary_path": "audit/mutations/predict_from_empty_class.py",
+      "id": "predict_from_empty_class",
+      "outcomes": [
+        {
+          "failure": "probe.policy.no_empty_vacuous_prediction: actual='0'; expected=None",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.no_empty_vacuous_prediction: actual='0'; expected=None",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.no_empty_vacuous_prediction: actual='0'; expected=None",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "610377295be14bccca3a92906fbd3f1c8724585c9c81e45d1d061c22ed3cd437"
+    },
+    {
+      "after": "if False:",
+      "before": "if stimulus in observed and observed[stimulus] != response:",
+      "generated_temporary_path": "audit/mutations/permit_conflicting_observations.py",
+      "id": "permit_conflicting_observations",
+      "outcomes": [
+        {
+          "failure": "probe.policy.conflicting_observations: expected ValueError but input was accepted",
+          "mode": "normal",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.conflicting_observations: expected ValueError but input was accepted",
+          "mode": "O",
+          "status": "semantic_failure"
+        },
+        {
+          "failure": "probe.policy.conflicting_observations: expected ValueError but input was accepted",
+          "mode": "OO",
+          "status": "semantic_failure"
+        }
+      ],
+      "sha256": "ec579c86260aa81126649001e7bfa5cc8574c964e089c837d75a50a1b15e1994"
+    }
+  ],
+  "started_at_utc": "2026-10-12T21:48:48.847596+00:00",
+  "stored_author_results_and_logs_match": true,
+  "success": true
+}

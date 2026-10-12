@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-12",
+  "description": "公开图像的指定数字对象指纹；不包含图像本身，不认证OCR或整个版本。",
+  "images": [
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 5,
+      "printed_page": null,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page5-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 293922,
+      "sha256": "ad31c3f1dc136e911cd6d396405dc1f6e14a28b1bb2deff9a609ddc75ed7c01f",
+      "width_px": 1280,
+      "height_px": 2192,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 16,
+      "printed_page": null,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page16-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 356230,
+      "sha256": "cdcd46c45e7dfac88f282d64f6f8673254e288a9629dd15934d1f7aacf44ed37",
+      "width_px": 1280,
+      "height_px": 2138,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 83,
+      "printed_page": 67,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page83-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 426107,
+      "sha256": "444aa87c8581ccb8220de8f86eb8c4f6d990eaf6859c661de2fde4b95baae466",
+      "width_px": 1280,
+      "height_px": 2185,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 84,
+      "printed_page": 68,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page84-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 439861,
+      "sha256": "768a3509b17257dbbf5df64639ecabd9f8333552b620c286e05f91c0f4cc1197",
+      "width_px": 1280,
+      "height_px": 2167,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 85,
+      "printed_page": 69,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page85-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 471921,
+      "sha256": "33c81a2e8e4e9abedab0eb83e75de971098c522c07fde708835e9c75226355b7",
+      "width_px": 1280,
+      "height_px": 2168,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 86,
+      "printed_page": 70,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page86-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 472326,
+      "sha256": "9d48c8afdc41fe7085d3ebd7afaf48a47d3dff44018c91e9747a88f4ef955a77",
+      "width_px": 1280,
+      "height_px": 2180,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 87,
+      "printed_page": 71,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page87-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 466349,
+      "sha256": "0854be8ad2dcd0da4d7bda7ea54a55d36861ee14247881642e8c0c8732865631",
+      "width_px": 1280,
+      "height_px": 2172,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 88,
+      "printed_page": 72,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page88-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 409498,
+      "sha256": "b786f72e4a228d05147f2cd3a7513a212c4ae139c28e35184502d2fbb3b5319b",
+      "width_px": 1280,
+      "height_px": 2177,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "John Locke, Essay, title-page date 1690",
+      "scan_page_1_based": 89,
+      "printed_page": 73,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/page89-1280px-An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu.jpg",
+      "bytes": 437453,
+      "sha256": "9dc22aa785aac20a5b12d5b715a7f7f6b1a33f4f80ccb28aad2d9557ddf39e9a",
+      "width_px": 1280,
+      "height_px": 2187,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "Descartes, Discourse, John Veitch translation, second edition, 1853",
+      "scan_page_1_based": 5,
+      "printed_page": null,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu/page5-1280px-Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu.jpg",
+      "bytes": 194491,
+      "sha256": "596ac4bbbad5eedb3241bc5ae98b0a710390079d41afc20356ef8aacb1170ee3",
+      "width_px": 1280,
+      "height_px": 2362,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "Descartes, Discourse, John Veitch translation, second edition, 1853",
+      "scan_page_1_based": 99,
+      "printed_page": 97,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu/page99-1280px-Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu.jpg",
+      "bytes": 530220,
+      "sha256": "0b498c3d0e9ec44133d0644715045db27f74e5f334cde9708976d38e966eac12",
+      "width_px": 1280,
+      "height_px": 2353,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "Descartes, Discourse, John Veitch translation, second edition, 1853",
+      "scan_page_1_based": 100,
+      "printed_page": 98,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu/page100-1280px-Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu.jpg",
+      "bytes": 551782,
+      "sha256": "3fce8e0ceabaf4ee55bf8e45e33d284a3ed938e4b0271ab7322cb73c91e28872",
+      "width_px": 1280,
+      "height_px": 2334,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "Descartes, Discourse, John Veitch translation, second edition, 1853",
+      "scan_page_1_based": 101,
+      "printed_page": 99,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu/page101-1280px-Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu.jpg",
+      "bytes": 541323,
+      "sha256": "8bcf379d96cb705e849be11c8ba02e3aef4ae92ad5522247bf2d520e7d64311f",
+      "width_px": 1280,
+      "height_px": 2335,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "Descartes, Discourse, John Veitch translation, second edition, 1853",
+      "scan_page_1_based": 102,
+      "printed_page": 100,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu/page102-1280px-Discourse_on_the_method_of_rightly_conducting_the_reason%2C_and_seeking_truth_in_the_sciences_-_Descartes_%28trans._Veitch%29.djvu.jpg",
+      "bytes": 502176,
+      "sha256": "15fa8df311a2bb1f6686f8e0ab3e517c82ec591e2ee2a076ba29186a03678c61",
+      "width_px": 1280,
+      "height_px": 2339,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 3,
+      "printed_page": null,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page3-1280px-thumbnail.pdf.jpg",
+      "bytes": 315375,
+      "sha256": "377852e761f8b4b6dbe33f80ad13706a679ed620d5c6894ab9c693f7923475a0",
+      "width_px": 1280,
+      "height_px": 2054,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 20,
+      "printed_page": 10,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page20-1280px-thumbnail.pdf.jpg",
+      "bytes": 500956,
+      "sha256": "1a632020fbf78c629a4168a31531c09b844b7ce1c94375a5ca44df3884ccc522",
+      "width_px": 1280,
+      "height_px": 2145,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 21,
+      "printed_page": 11,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page21-1280px-thumbnail.pdf.jpg",
+      "bytes": 453103,
+      "sha256": "af5d9e0f66295e9cf88b0b86da6f7b5d9585fd697ca1b8d9ac16febe7c658fcb",
+      "width_px": 1280,
+      "height_px": 2118,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 22,
+      "printed_page": 12,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page22-1280px-thumbnail.pdf.jpg",
+      "bytes": 457147,
+      "sha256": "232355d950ac9da07ca3fafa39adb636f65c79b42fae6135f479a1567bd0c377",
+      "width_px": 1280,
+      "height_px": 2080,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 23,
+      "printed_page": 13,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page23-1280px-thumbnail.pdf.jpg",
+      "bytes": 476286,
+      "sha256": "abd1aa86fd746459e6fbb6e2e3e702e91853b8de1aab76ee53120678ca033b1c",
+      "width_px": 1280,
+      "height_px": 2133,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 24,
+      "printed_page": 14,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page24-1280px-thumbnail.pdf.jpg",
+      "bytes": 481860,
+      "sha256": "dc04f7ddda83e7d808420a61b659dfc2c64b686cd0765cae3d6c23260f549ab1",
+      "width_px": 1280,
+      "height_px": 2133,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 25,
+      "printed_page": 15,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page25-1280px-thumbnail.pdf.jpg",
+      "bytes": 493897,
+      "sha256": "6fc578b8725b15190dfe56eefa5121ad6623b16acb7855a933f3a5b0ff326852",
+      "width_px": 1280,
+      "height_px": 2145,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 26,
+      "printed_page": 16,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page26-1280px-thumbnail.pdf.jpg",
+      "bytes": 461828,
+      "sha256": "d9f33c06a16b8c05c9979583e4c4772bc08075b84d4987052cba9e41a181b400",
+      "width_px": 1280,
+      "height_px": 2135,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 27,
+      "printed_page": 17,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page27-1280px-thumbnail.pdf.jpg",
+      "bytes": 444455,
+      "sha256": "227e5e4d62e0b0c0f32fa17daf8c634ad48cc048f9dedb0e61f2b974f7cd7dad",
+      "width_px": 1280,
+      "height_px": 2136,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 28,
+      "printed_page": 18,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page28-1280px-thumbnail.pdf.jpg",
+      "bytes": 455447,
+      "sha256": "9c04b12859f92cfa156442554855de8bd8ff9a71423873493a7044ebc7006305",
+      "width_px": 1280,
+      "height_px": 2136,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 29,
+      "printed_page": 19,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page29-1280px-thumbnail.pdf.jpg",
+      "bytes": 476131,
+      "sha256": "15ab41e7d237c51026f121b4a85337d7627a5947a0ae2e320e0adf66ba5e81c0",
+      "width_px": 1280,
+      "height_px": 2143,
+      "visual_check": "completed"
+    },
+    {
+      "witness": "George Berkeley, Principles, Dublin, 1710",
+      "scan_page_1_based": 30,
+      "printed_page": 20,
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page30-1280px-thumbnail.pdf.jpg",
+      "bytes": 460946,
+      "sha256": "e6b8e6a8805b45a9ddfe1debd2bf0d151fcb4713b34c4a222d5271e25345e95d",
+      "width_px": 1280,
+      "height_px": 2063,
+      "visual_check": "completed"
+    }
+  ]
+}

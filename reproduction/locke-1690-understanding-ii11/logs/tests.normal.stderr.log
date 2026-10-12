@@ -1,0 +1,52 @@
+test_addition_rejects_different_alphabets (test_model.MultisetTests.test_addition_rejects_different_alphabets) ... ok
+test_alphabet_input_order_is_normalized (test_model.MultisetTests.test_alphabet_input_order_is_normalized) ... ok
+test_bad_counts_and_factors_rejected_including_boolean (test_model.MultisetTests.test_bad_counts_and_factors_rejected_including_boolean) ... ok
+test_bounded_multiset_checks (test_model.MultisetTests.test_bounded_multiset_checks) ... ok
+test_direct_constructor_validates_canonical_storage (test_model.MultisetTests.test_direct_constructor_validates_canonical_storage) ... ok
+test_dozen_is_not_singleton (test_model.MultisetTests.test_dozen_is_not_singleton) ... ok
+test_duplicate_alphabet_rejected (test_model.MultisetTests.test_duplicate_alphabet_rejected) ... ok
+test_empty_alphabet_and_empty_support (test_model.MultisetTests.test_empty_alphabet_and_empty_support) ... ok
+test_invalid_projection_and_renaming_rejected (test_model.MultisetTests.test_invalid_projection_and_renaming_rejected) ... ok
+test_negative_entry_cannot_cancel_positive (test_model.MultisetTests.test_negative_entry_cannot_cancel_positive) ... ok
+test_noninjective_renaming_loses_color_preserves_total (test_model.MultisetTests.test_noninjective_renaming_loses_color_preserves_total) ... ok
+test_projection_loses_discarded_counts (test_model.MultisetTests.test_projection_loses_discarded_counts) ... ok
+test_repeated_atoms_add_and_zero_is_canonical (test_model.MultisetTests.test_repeated_atoms_add_and_zero_is_canonical) ... ok
+test_unknown_atom_even_at_zero_rejected (test_model.MultisetTests.test_unknown_atom_even_at_zero_rejected) ... ok
+test_zero_scaling_and_projection_to_empty (test_model.MultisetTests.test_zero_scaling_and_projection_to_empty) ... ok
+test_admissible_policy_must_match_domain_and_actions (test_model.PolicyTests.test_admissible_policy_must_match_domain_and_actions) ... ok
+test_all_tables_cardinality_and_observation_filter (test_model.PolicyTests.test_all_tables_cardinality_and_observation_filter) ... ok
+test_bounded_policy_checks (test_model.PolicyTests.test_bounded_policy_checks) ... ok
+test_conflicting_observation_rejected (test_model.PolicyTests.test_conflicting_observation_rejected) ... ok
+test_duplicate_names_and_invalid_labels_rejected (test_model.PolicyTests.test_duplicate_names_and_invalid_labels_rejected) ... ok
+test_empty_admissible_class_is_allowed_and_reported (test_model.PolicyTests.test_empty_admissible_class_is_allowed_and_reported) ... ok
+test_empty_stimulus_universe_has_one_total_table (test_model.PolicyTests.test_empty_stimulus_universe_has_one_total_table) ... ok
+test_empty_version_space_is_not_vacuous_unanimity (test_model.PolicyTests.test_empty_version_space_is_not_vacuous_unanimity) ... ok
+test_equal_complete_behavior_does_not_identify_mechanism (test_model.PolicyTests.test_equal_complete_behavior_does_not_identify_mechanism) ... ok
+test_new_observation_separates_these_two_policies_only (test_model.PolicyTests.test_new_observation_separates_these_two_policies_only) ... ok
+test_policy_requires_total_table_and_valid_names (test_model.PolicyTests.test_policy_requires_total_table_and_valid_names) ... ok
+test_repeated_identical_observation_is_idempotent (test_model.PolicyTests.test_repeated_identical_observation_is_idempotent) ... ok
+test_restricting_class_creates_conditional_unanimity (test_model.PolicyTests.test_restricting_class_creates_conditional_unanimity) ... ok
+test_rule_and_lookup_agree_observed_but_disagree_held_out (test_model.PolicyTests.test_rule_and_lookup_agree_observed_but_disagree_held_out) ... ok
+test_unknown_observation_rejected (test_model.PolicyTests.test_unknown_observation_rejected) ... ok
+test_unknown_prediction_stimulus_rejected (test_model.PolicyTests.test_unknown_prediction_stimulus_rejected) ... ok
+test_all_false_is_not_failure (test_model.RelationTests.test_all_false_is_not_failure) ... ok
+test_bounded_relation_oracle (test_model.RelationTests.test_bounded_relation_oracle) ... ok
+test_bounded_unary_oracle (test_model.RelationTests.test_bounded_unary_oracle) ... ok
+test_conflict_in_one_rectangle_returns_explicit_witnesses (test_model.RelationTests.test_conflict_in_one_rectangle_returns_explicit_witnesses) ... ok
+test_empty_image_has_unique_empty_quotient (test_model.RelationTests.test_empty_image_has_unique_empty_quotient) ... ok
+test_injective_representation_preserves_any_relation (test_model.RelationTests.test_injective_representation_preserves_any_relation) ... ok
+test_integer_boolean_surrogates_rejected (test_model.RelationTests.test_integer_boolean_surrogates_rejected) ... ok
+test_invalid_domain_rejected (test_model.RelationTests.test_invalid_domain_rejected) ... ok
+test_invalid_unary_table_rejected (test_model.RelationTests.test_invalid_unary_table_rejected) ... ok
+test_missing_or_extra_relation_pair_rejected (test_model.RelationTests.test_missing_or_extra_relation_pair_rejected) ... ok
+test_one_witness_for_every_bad_rectangle (test_model.RelationTests.test_one_witness_for_every_bad_rectangle) ... ok
+test_ordered_pairs_are_not_symmetrized (test_model.RelationTests.test_ordered_pairs_are_not_symmetrized) ... ok
+test_representation_requires_exact_keys_and_valid_labels (test_model.RelationTests.test_representation_requires_exact_keys_and_valid_labels) ... ok
+test_singleton_relation (test_model.RelationTests.test_singleton_relation) ... ok
+test_unary_color_survives_while_rank_order_does_not (test_model.RelationTests.test_unary_color_survives_while_rank_order_does_not) ... ok
+test_unary_conflict_and_empty_domain (test_model.RelationTests.test_unary_conflict_and_empty_domain) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.124s
+
+OK

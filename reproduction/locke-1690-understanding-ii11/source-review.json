@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "review_id": "locke-1690-understanding-ii11-independent-source-review",
+  "reviewed_on_utc": "2026-10-12",
+  "status": "pass_with_explicit_scope",
+  "review_type": "Independent AI-assisted source audit; no human expert certification.",
+  "complete_reading_unit": "Locke, Essay, 1690 title-page edition, Book II Chapter XI, sections 1–17, printed pages 68–72.",
+  "historical_images_independently_viewed": 26,
+  "image_groups": [
+    {
+      "witness": "Locke 1690",
+      "scan_pages_1_based": [
+        5,
+        16,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "chapter_printed_pages": "68–72",
+      "role": "title, errata, complete chapter, neighboring boundaries"
+    },
+    {
+      "witness": "Descartes, Veitch translation, second edition 1853",
+      "scan_pages_1_based": [
+        5,
+        99,
+        100,
+        101,
+        102
+      ],
+      "printed_pages": "97–100",
+      "role": "title and bounded machine/language/animal comparison"
+    },
+    {
+      "witness": "Berkeley 1710",
+      "scan_pages_1_based": [
+        3,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "printed_pages": "Introduction 10–20",
+      "role": "title, preceding context, complete bounded sections 10–13 on pages 11–20"
+    }
+  ],
+  "resolved_findings": [
+    "Preserved the original strength of Locke section 1 before giving critical interpretation.",
+    "Restored every sensory example in section 3 and exact length units in section 6.",
+    "Restored the reported fox-nursing anecdote condition in section 7.",
+    "Preserved section 12 confidence separately from evidential evaluation; restored section 13 consequential actions and qualifications.",
+    "Restored section 17 explicit knowledge-entry claim and actual closing transition.",
+    "Applied official section 16 and 17 errata without inventing conceptual consequences.",
+    "Distinguished Locke 1690 wording from Berkeley later quotation, and Berkeley 1710 from 1734 section 10.",
+    "Verified complete source ledger and source claims in new catalog/registration records."
+  ],
+  "limitations": [
+    "No independent proof or code-execution certification in this review.",
+    "No complete-book, complete-edition-history, manuscript or contemporaneous release-record audit.",
+    "The December 1689 publication statement is attributed to directly checked EPTO bibliographic metadata, not independently established from archival publication records.",
+    "Previously completed Condillac audits are referenced rather than repeated in full.",
+    "Historical medical, disability and animal-cognition claims are interpreted critically, not endorsed as current clinical or empirical findings.",
+    "No remote publication or browser-rendering certification.",
+    "Hashes cover entire file bytes; review_scope limits which content claims this review certifies. Any file change requires reconciliation before reuse of this record."
+  ],
+  "audited_files": [
+    {
+      "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+      "bytes": 41444,
+      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
+      "review_scope": "Complete historical argument and original examples; modern-model material checked only for source attribution, not code/proof correctness."
+    },
+    {
+      "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+      "bytes": 16754,
+      "sha256": "7949c4b0bab3f6d3b4e2d88932e36c6d7a4b820bc7f7a17aab5fded47193c877",
+      "review_scope": "Complete source ledger, verified page boundaries, errata, edition distinctions, bibliographic attribution and comparison scopes."
+    },
+    {
+      "path": "papers/1690/locke-understanding-ii11.source-fingerprints.json",
+      "bytes": 16294,
+      "sha256": "1c014d9ed212ba91ca8a37b023c3d48daa4657fea87d094e52dbfea3a33e18e0",
+      "review_scope": "All 26 referenced images independently inspected; SHA-256, bytes and dimensions recomputed or rechecked."
+    },
+    {
+      "path": "README.md",
+      "bytes": 75381,
+      "sha256": "86f7d295fa0b47e59de3138fe43b4515c175d87c16773be4ef4cde4b74186b23",
+      "review_scope": "New Locke catalog row and Locke appendix source claims only; pre-existing text and run counts are outside this source review."
+    },
+    {
+      "path": "reading-paths/early-foundations-candidates.json",
+      "bytes": 291705,
+      "sha256": "dff780b4441a6557f5d189c233e04c4aa628191882f7ff589e3ed24cb4d0a48e",
+      "review_scope": "Current selection and newly appended Locke source claims only; preservation of previous objects and operational status are separate checks."
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/SOURCE-AUDIT.md",
+      "bytes": 10421,
+      "sha256": "20faec0f8f8449513fb978ae20b096bc8cba5f753d6bc4bacb5e7f2fad406c9f",
+      "review_scope": "Final source-review report."
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+=== COMMAND {"block": 1, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "-c", "import json,sys,platform,os;print(json.dumps({'executable':sys.executable,'version':sys.version,'optimization':sys.flags.optimize,'dont_write_bytecode':sys.dont_write_bytecode,'platform':platform.platform(),'implementation':platform.python_implementation(),'machine':platform.machine(),'PYTHONHASHSEED':os.environ.get('PYTHONHASHSEED')},sort_keys=True))"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 0, "expected_exit_code": 0, "mode": "OO", "name": "environment", "stderr_bytes": 0, "stdout_bytes": 332} ===
+--- STDOUT (332 bytes) ---
+{"PYTHONHASHSEED": "0", "dont_write_bytecode": true, "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "implementation": "CPython", "machine": "x86_64", "optimization": 2, "platform": "Linux-6.18.44-x86_64-with-glibc2.41", "version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 2, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "-m", "unittest", "-v", "test_model.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 0, "expected_exit_code": 0, "mode": "OO", "name": "author_tests", "stderr_bytes": 5731, "stdout_bytes": 0} ===
+--- STDOUT (0 bytes) ---
+
+--- STDERR (5731 bytes) ---
+test_addition_rejects_different_alphabets (test_model.MultisetTests.test_addition_rejects_different_alphabets) ... ok
+test_alphabet_input_order_is_normalized (test_model.MultisetTests.test_alphabet_input_order_is_normalized) ... ok
+test_bad_counts_and_factors_rejected_including_boolean (test_model.MultisetTests.test_bad_counts_and_factors_rejected_including_boolean) ... ok
+test_bounded_multiset_checks (test_model.MultisetTests.test_bounded_multiset_checks) ... ok
+test_direct_constructor_validates_canonical_storage (test_model.MultisetTests.test_direct_constructor_validates_canonical_storage) ... ok
+test_dozen_is_not_singleton (test_model.MultisetTests.test_dozen_is_not_singleton) ... ok
+test_duplicate_alphabet_rejected (test_model.MultisetTests.test_duplicate_alphabet_rejected) ... ok
+test_empty_alphabet_and_empty_support (test_model.MultisetTests.test_empty_alphabet_and_empty_support) ... ok
+test_invalid_projection_and_renaming_rejected (test_model.MultisetTests.test_invalid_projection_and_renaming_rejected) ... ok
+test_negative_entry_cannot_cancel_positive (test_model.MultisetTests.test_negative_entry_cannot_cancel_positive) ... ok
+test_noninjective_renaming_loses_color_preserves_total (test_model.MultisetTests.test_noninjective_renaming_loses_color_preserves_total) ... ok
+test_projection_loses_discarded_counts (test_model.MultisetTests.test_projection_loses_discarded_counts) ... ok
+test_repeated_atoms_add_and_zero_is_canonical (test_model.MultisetTests.test_repeated_atoms_add_and_zero_is_canonical) ... ok
+test_unknown_atom_even_at_zero_rejected (test_model.MultisetTests.test_unknown_atom_even_at_zero_rejected) ... ok
+test_zero_scaling_and_projection_to_empty (test_model.MultisetTests.test_zero_scaling_and_projection_to_empty) ... ok
+test_admissible_policy_must_match_domain_and_actions (test_model.PolicyTests.test_admissible_policy_must_match_domain_and_actions) ... ok
+test_all_tables_cardinality_and_observation_filter (test_model.PolicyTests.test_all_tables_cardinality_and_observation_filter) ... ok
+test_bounded_policy_checks (test_model.PolicyTests.test_bounded_policy_checks) ... ok
+test_conflicting_observation_rejected (test_model.PolicyTests.test_conflicting_observation_rejected) ... ok
+test_duplicate_names_and_invalid_labels_rejected (test_model.PolicyTests.test_duplicate_names_and_invalid_labels_rejected) ... ok
+test_empty_admissible_class_is_allowed_and_reported (test_model.PolicyTests.test_empty_admissible_class_is_allowed_and_reported) ... ok
+test_empty_stimulus_universe_has_one_total_table (test_model.PolicyTests.test_empty_stimulus_universe_has_one_total_table) ... ok
+test_empty_version_space_is_not_vacuous_unanimity (test_model.PolicyTests.test_empty_version_space_is_not_vacuous_unanimity) ... ok
+test_equal_complete_behavior_does_not_identify_mechanism (test_model.PolicyTests.test_equal_complete_behavior_does_not_identify_mechanism) ... ok
+test_new_observation_separates_these_two_policies_only (test_model.PolicyTests.test_new_observation_separates_these_two_policies_only) ... ok
+test_policy_requires_total_table_and_valid_names (test_model.PolicyTests.test_policy_requires_total_table_and_valid_names) ... ok
+test_repeated_identical_observation_is_idempotent (test_model.PolicyTests.test_repeated_identical_observation_is_idempotent) ... ok
+test_restricting_class_creates_conditional_unanimity (test_model.PolicyTests.test_restricting_class_creates_conditional_unanimity) ... ok
+test_rule_and_lookup_agree_observed_but_disagree_held_out (test_model.PolicyTests.test_rule_and_lookup_agree_observed_but_disagree_held_out) ... ok
+test_unknown_observation_rejected (test_model.PolicyTests.test_unknown_observation_rejected) ... ok
+test_unknown_prediction_stimulus_rejected (test_model.PolicyTests.test_unknown_prediction_stimulus_rejected) ... ok
+test_all_false_is_not_failure (test_model.RelationTests.test_all_false_is_not_failure) ... ok
+test_bounded_relation_oracle (test_model.RelationTests.test_bounded_relation_oracle) ... ok
+test_bounded_unary_oracle (test_model.RelationTests.test_bounded_unary_oracle) ... ok
+test_conflict_in_one_rectangle_returns_explicit_witnesses (test_model.RelationTests.test_conflict_in_one_rectangle_returns_explicit_witnesses) ... ok
+test_empty_image_has_unique_empty_quotient (test_model.RelationTests.test_empty_image_has_unique_empty_quotient) ... ok
+test_injective_representation_preserves_any_relation (test_model.RelationTests.test_injective_representation_preserves_any_relation) ... ok
+test_integer_boolean_surrogates_rejected (test_model.RelationTests.test_integer_boolean_surrogates_rejected) ... ok
+test_invalid_domain_rejected (test_model.RelationTests.test_invalid_domain_rejected) ... ok
+test_invalid_unary_table_rejected (test_model.RelationTests.test_invalid_unary_table_rejected) ... ok
+test_missing_or_extra_relation_pair_rejected (test_model.RelationTests.test_missing_or_extra_relation_pair_rejected) ... ok
+test_one_witness_for_every_bad_rectangle (test_model.RelationTests.test_one_witness_for_every_bad_rectangle) ... ok
+test_ordered_pairs_are_not_symmetrized (test_model.RelationTests.test_ordered_pairs_are_not_symmetrized) ... ok
+test_representation_requires_exact_keys_and_valid_labels (test_model.RelationTests.test_representation_requires_exact_keys_and_valid_labels) ... ok
+test_singleton_relation (test_model.RelationTests.test_singleton_relation) ... ok
+test_unary_color_survives_while_rank_order_does_not (test_model.RelationTests.test_unary_color_survives_while_rank_order_does_not) ... ok
+test_unary_conflict_and_empty_domain (test_model.RelationTests.test_unary_conflict_and_empty_domain) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.166s
+
+OK
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 3, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 0, "expected_exit_code": 0, "mode": "OO", "name": "independent_checks", "stderr_bytes": 0, "stdout_bytes": 1391} ===
+--- STDOUT (1391 bytes) ---
+{
+  "counts": {
+    "invalid_input_cases": 96,
+    "multisets": {
+      "addition_pairs": 729,
+      "associativity_cases": 19683,
+      "injectivity_maps": 60,
+      "input_multisets": 27,
+      "projection_cases": 5832,
+      "renaming_cases": 5832,
+      "scale_cases": 2916,
+      "source_atoms": 3
+    },
+    "policies": {
+      "all_admissible_subsets": true,
+      "class_partial_observation_cases": 7070,
+      "empty_queries": 5770,
+      "prediction_queries": 21036,
+      "stimulus_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unanimous_queries": 12060,
+      "underdetermined_queries": 3206
+    },
+    "relations": {
+      "available_labels": 3,
+      "by_domain_size": [
+        {
+          "cases": 1,
+          "domain_size": 0,
+          "successful": 1
+        },
+        {
+          "cases": 6,
+          "domain_size": 1,
+          "successful": 6
+        },
+        {
+          "cases": 144,
+          "domain_size": 2,
+          "successful": 102
+        },
+        {
+          "cases": 13824,
+          "domain_size": 3,
+          "successful": 3366
+        }
+      ],
+      "conflict_certificates": 18852,
+      "failed": 10500,
+      "relation_cases": 13975,
+      "representation_tables": 40,
+      "successful": 3475,
+      "unary_cases": 259,
+      "unary_successful": 163
+    },
+    "targeted_probes": "passed"
+  },
+  "status": "passed"
+}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 4, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "finite_checks.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 0, "expected_exit_code": 0, "mode": "OO", "name": "author_finite_checks", "stderr_bytes": 0, "stdout_bytes": 1014} ===
+--- STDOUT (1014 bytes) ---
+{
+  "multisets": {
+    "alphabet_size": 2,
+    "associativity_cases": 729,
+    "input_counts_per_atom": [
+      0,
+      1,
+      2
+    ],
+    "multisets": 9,
+    "ordered_addition_pairs": 81,
+    "projection_homomorphism_cases": 324,
+    "projection_subsets": 4,
+    "renaming_homomorphism_cases": 324,
+    "renaming_maps": 4,
+    "scale_distribution_cases": 324,
+    "scale_factors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "policies": {
+    "actions": 2,
+    "individual_prediction_checks": 228,
+    "stimulus_sizes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "truth_observation_cases": 85
+  },
+  "relations": {
+    "available_representation_labels": 2,
+    "domain_sizes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "failed_descents": 4024,
+    "relation_cases": 4165,
+    "representation_tables": 15,
+    "successful_descents": 141
+  },
+  "unary_predicates": {
+    "domain_sizes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "predicate_cases": 85,
+    "successful_descents": 45
+  }
+}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 5, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "examples.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 0, "expected_exit_code": 0, "mode": "OO", "name": "author_examples", "stderr_bytes": 0, "stdout_bytes": 4311} ===
+--- STDOUT (4311 bytes) ---
+{
+  "composition": {
+    "dozen_total": 12,
+    "dozen_units": {
+      "unit": 12
+    },
+    "duplicate_entries_add": {
+      "unit": 12
+    },
+    "one_unit": {
+      "unit": 1
+    },
+    "ordinary_set_cardinality": 1,
+    "projection_loss": {
+      "different_inputs": [
+        {
+          "blue": 1,
+          "red": 2
+        },
+        {
+          "blue": 7,
+          "red": 2
+        }
+      ],
+      "outputs_equal": true,
+      "same_output": {
+        "red": 2
+      }
+    },
+    "renaming_loss": {
+      "different_inputs": [
+        {
+          "blue": 1,
+          "red": 2
+        },
+        {
+          "blue": 2,
+          "red": 1
+        }
+      ],
+      "outputs_equal": true,
+      "same_output": {
+        "token": 3
+      }
+    }
+  },
+  "finite_checks": {
+    "multisets": {
+      "alphabet_size": 2,
+      "associativity_cases": 729,
+      "input_counts_per_atom": [
+        0,
+        1,
+        2
+      ],
+      "multisets": 9,
+      "ordered_addition_pairs": 81,
+      "projection_homomorphism_cases": 324,
+      "projection_subsets": 4,
+      "renaming_homomorphism_cases": 324,
+      "renaming_maps": 4,
+      "scale_distribution_cases": 324,
+      "scale_factors": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "policies": {
+      "actions": 2,
+      "individual_prediction_checks": 228,
+      "stimulus_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "truth_observation_cases": 85
+    },
+    "relations": {
+      "available_representation_labels": 2,
+      "domain_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "failed_descents": 4024,
+      "relation_cases": 4165,
+      "representation_tables": 15,
+      "successful_descents": 141
+    },
+    "unary_predicates": {
+      "domain_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predicate_cases": 85,
+      "successful_descents": 45
+    }
+  },
+  "finite_observations": {
+    "admissible_total_tables": 16,
+    "held_out": "white_square",
+    "held_out_possible_actions": [
+      "0",
+      "1"
+    ],
+    "held_out_status": "underdetermined",
+    "lookup_table": {
+      "blue_circle": "0",
+      "blue_square": "0",
+      "white_circle": "1",
+      "white_square": "0"
+    },
+    "named_stimuli_colors": {
+      "blue_circle": "blue",
+      "blue_square": "blue",
+      "white_circle": "white",
+      "white_square": "white"
+    },
+    "observations": [
+      [
+        "white_circle",
+        "1"
+      ],
+      [
+        "blue_circle",
+        "0"
+      ]
+    ],
+    "restricted_rule_only_prediction": "1",
+    "restricted_rule_only_status": "unanimous",
+    "rule_table": {
+      "blue_circle": "0",
+      "blue_square": "0",
+      "white_circle": "1",
+      "white_square": "1"
+    },
+    "survivors": 4,
+    "two_candidate_survivors_after_positive_holdout": [
+      "color_rule"
+    ],
+    "warning": "Unanimity depends on the admitted policies; behavioral tables do not identify an internal mechanism."
+  },
+  "relation_descent": {
+    "color_representation": {
+      "blue_3": "blue",
+      "white_1": "white",
+      "white_2": "white"
+    },
+    "empty_domain_quotient": {},
+    "objects": [
+      "white_1",
+      "white_2",
+      "blue_3"
+    ],
+    "rank": {
+      "blue_3": 3,
+      "white_1": 1,
+      "white_2": 2
+    },
+    "same_color_descends": true,
+    "same_color_quotient": [
+      {
+        "pair": [
+          "white",
+          "white"
+        ],
+        "value": true
+      },
+      {
+        "pair": [
+          "white",
+          "blue"
+        ],
+        "value": false
+      },
+      {
+        "pair": [
+          "blue",
+          "white"
+        ],
+        "value": false
+      },
+      {
+        "pair": [
+          "blue",
+          "blue"
+        ],
+        "value": true
+      }
+    ],
+    "strict_rank_order_conflicts": [
+      {
+        "false_pair": [
+          "white_1",
+          "white_1"
+        ],
+        "representation_pair": [
+          "white",
+          "white"
+        ],
+        "true_pair": [
+          "white_1",
+          "white_2"
+        ]
+      }
+    ],
+    "strict_rank_order_descends": false,
+    "unary_is_white_quotient": {
+      "blue": false,
+      "white": true
+    }
+  },
+  "scope": "Synthetic finite teaching reconstruction; no claim to recreate a mind or establish incapacity."
+}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 6, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/accept_partial_quotient.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_accept_partial_quotient", "stderr_bytes": 0, "stdout_bytes": 114} ===
+--- STDOUT (114 bytes) ---
+{"failure": "probe.relation.reject_conflicting_quotient: actual={}; expected=None", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 7, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/omit_bad_rectangles.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_omit_bad_rectangles", "stderr_bytes": 0, "stdout_bytes": 160} ===
+--- STDOUT (160 bytes) ---
+{"failure": "probe.relation.every_bad_rectangle: actual={('a', 'a')}; expected={('a', 'a'), ('a', 'b'), ('b', 'a'), ('b', 'b')}", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 8, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/symmetrize_ordered_labels.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_symmetrize_ordered_labels", "stderr_bytes": 0, "stdout_bytes": 234} ===
+--- STDOUT (234 bytes) ---
+{"failure": "probe.relation.direction_is_retained: actual={('a', 'a'): False, ('a', 'b'): False, ('b', 'b'): False}; expected={('a', 'a'): False, ('a', 'b'): True, ('b', 'a'): False, ('b', 'b'): False}", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 9, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/empty_quotient_is_failure.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_empty_quotient_is_failure", "stderr_bytes": 0, "stdout_bytes": 106} ===
+--- STDOUT (106 bytes) ---
+{"failure": "probe.relation.empty_is_success: actual=False; expected=True", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 10, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/accept_integer_relations.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_accept_integer_relations", "stderr_bytes": 0, "stdout_bytes": 124} ===
+--- STDOUT (124 bytes) ---
+{"failure": "probe.relation.integer_is_not_bool: expected ValueError but input was accepted", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 11, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/max_instead_of_multiset_add.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_max_instead_of_multiset_add", "stderr_bytes": 0, "stdout_bytes": 112} ===
+--- STDOUT (112 bytes) ---
+{"failure": "probe.multiset.coordinate_addition: actual=(2, 2); expected=(3, 3)", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 12, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/overwrite_rename_collisions.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_overwrite_rename_collisions", "stderr_bytes": 0, "stdout_bytes": 110} ===
+--- STDOUT (110 bytes) ---
+{"failure": "probe.multiset.collision_adds_counts: actual=(1,); expected=(3,)", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 13, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/include_zero_in_support_dict.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_include_zero_in_support_dict", "stderr_bytes": 0, "stdout_bytes": 138} ===
+--- STDOUT (138 bytes) ---
+{"failure": "probe.multiset.duplicates_accumulate_zero_absent: actual={'a': 5, 'b': 0}; expected={'a': 5}", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 14, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/accept_bool_counts.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_accept_bool_counts", "stderr_bytes": 0, "stdout_bytes": 124} ===
+--- STDOUT (124 bytes) ---
+{"failure": "probe.multiset.bool_is_not_natural: expected ValueError but input was accepted", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 15, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/admit_incompatible_policies.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_admit_incompatible_policies", "stderr_bytes": 0, "stdout_bytes": 164} ===
+--- STDOUT (164 bytes) ---
+{"failure": "probe.policy.compatibility: actual={('0', '0'), ('0', '1'), ('1', '1'), ('1', '0')}; expected={('1', '0'), ('1', '1')}", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 16, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/predict_from_empty_class.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_predict_from_empty_class", "stderr_bytes": 0, "stdout_bytes": 113} ===
+--- STDOUT (113 bytes) ---
+{"failure": "probe.policy.no_empty_vacuous_prediction: actual='0'; expected=None", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 17, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/mutations/permit_conflicting_observations.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 2, "expected_exit_code": 2, "mode": "OO", "name": "mutation_permit_conflicting_observations", "stderr_bytes": 0, "stdout_bytes": 127} ===
+--- STDOUT (127 bytes) ---
+{"failure": "probe.policy.conflicting_observations: expected ValueError but input was accepted", "status": "semantic_failure"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+
+=== COMMAND {"block": 18, "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3", "-B", "-OO", "audit/independent_checks.py", "--group", "probes", "--model-path", "audit/nonexistent-model.py"], "cwd": ".", "environment_overrides": {"PYTHONHASHSEED": "0"}, "exit_code": 3, "expected_exit_code": 3, "mode": "OO", "name": "framework_missing_module_probe", "stderr_bytes": 0, "stdout_bytes": 122} ===
+--- STDOUT (122 bytes) ---
+{"failure": "model input does not exist: nonexistent-model.py", "status": "framework_error", "type": "FileNotFoundError"}
+
+--- STDERR (0 bytes) ---
+
+=== END COMMAND ===
+

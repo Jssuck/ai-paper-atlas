@@ -75,44 +75,59 @@
     "current_unit_notice_condillac_ii9": "仅新增II.IX十五页，实际1798XXII177–191，包括186–191学习建议；六边题、一脚注、自引和全集勘误核验。IA单册，不沿用前篇双册声称。1780书目年；不完成192以后附录、全卷或全部版本。旧scope字段、候选、历史、状态和缺口原样保留；I.I更正继续解决，II.VII164内证不升级正式勘误。",
     "current_unit_notice_condillac_pote": "仅追加1798XXII192–198独立Poté澄清附录七页；1798所读版次年，初刊/写作日期未核。旧scope/候选/历史/状态/缺口原样保留，旧192以后未读范围由新有界状态补充，不完成199以后通信、全卷或全部版本。I.I更正继续解决，II.VII164内证不升级正式勘误。",
     "current_unit_notice_condillac_potocki": "仅追加1798XXII199–202一个完整约稿往复单元，两封分别题名的信/作者/日期分开。旧scope、候选、历史、缺口和有效对象全部原样保留；新有界状态补充旧199以后未读描述，不完成203以后或全卷/全部版本。I.I正式更正继续解决，II.VII内证不升级正式勘误。",
-    "current_unit_notice_condillac_discourse": "仅追加Condillac1768-12-22完整入院演说；实际1798XXII203–222二十页，按宣读年回填而不冒称初刊。全部旧scope、候选、历史、缺口、有效对象原样保留；旧203以后未读描述由新有界状态补充，不表示全卷、全书、Batteux答辞或全部版本完成。I.I正式更正继续解决，II.VII内证不升级正式勘误。"
+    "current_unit_notice_condillac_discourse": "仅追加Condillac1768-12-22完整入院演说；实际1798XXII203–222二十页，按宣读年回填而不冒称初刊。全部旧scope、候选、历史、缺口、有效对象原样保留；旧203以后未读描述由新有界状态补充，不表示全卷、全书、Batteux答辞或全部版本完成。I.I正式更正继续解决，II.VII内证不升级正式勘误。",
+    "current_unit_notice_locke_ii11": "仅新增1690首版Locke II.XI印68–72、17节一个完整章，明确年代回填。首版两项p72正式勘误已核；旧背景描述保留历史语境。全部旧对象、历史、缺口和有效状态不变，不完成全书或穷尽更早文献。"
   },
   "current_selection": {
-    "candidate_id": "condillac-1768-academy-discourse",
+    "candidate_id": "locke-1690-understanding-ii11",
     "authors": [
-      "Étienne Bonnot de Condillac"
+      "John Locke"
     ],
-    "title": "Discours prononcé le 22 décembre 1768, par M. l’abbé de Condillac, lorsqu’il fut reçu à l’Académie française à la place de M. l’abbé d’Olivet",
-    "title_basis": "据1798卷末231页目录的长题名规范化记录；203篇首题名较短，不冒充203逐字抄录。",
-    "chronology_year": 1768,
-    "chronology_year_basis": "1768-12-22为1798题头与学院官方记录共同支持的宣读日期；按事件年作明确回填，不冒称最早印行年。",
-    "delivery_date": "1768-12-22",
-    "first_publication_year": null,
-    "first_publication_status": "未核实最早印行；学院历史扫描无书名页，不据文件名推定刊年。",
+    "title": "An Essay Concerning Humane Understanding, Book II, Chapter XI: Of Discerning, and other Operations of the Mind",
+    "chronology_year": 1690,
+    "chronology_year_basis": "实际首版题名页MDCXC；按印年作明确回填，不把题名印年等同发行日。现代书目所述1689年末发行另列，不在本次独立核定确切日期。",
     "read_edition": {
-      "year": 1798,
-      "collection": "Œuvres de Condillac",
-      "volume": "XXII",
-      "publisher": "Paris, de l’imprimerie de Ch. Houel",
-      "title_page_date": "An VI — 1798",
-      "pages": "[203]–222",
-      "pdf_pages": "IA/Wellcome211–230完整二十页核图；203题首页码不显，由邻页及目录确定"
+      "year": 1690,
+      "publisher": "London, printed by Eliz. Holt, for Thomas Basset",
+      "pages": "68–72",
+      "scan_leaves": "84–88；题名5、勘误16、前后边界83/89"
     },
-    "document_type": "完整独立入院演说；不是期刊论文、La Logique新章或全卷",
-    "pages": "1798XXII[203]–222；202前通信、223目录及231目录条目核边界",
-    "publication_scope": "只此演说一个完整单元；按1768演说事件回填，1798为实际底本。学院另印本98–115全篇核图，年代和版次未定；不能合计为两册1798版。",
-    "why_selected": "先核README、最新全树、idle进度、年代注册及图灵v2基准。211–215明确讨论方法、观察习惯、迅速判断、语言模具与学科联系；全文历史叙述、制度赞颂和前任悼颂共同构成论证，未按卷内相邻自动完成附录。",
-    "mathematical_boundary": "现代有限树编译的输出等价、抽象成本与域外限制；有理权重表示纤维的全域/正支持充分性和最小风险；同步有向传播的路径判准、边增加单调性与真假无关。>=2标签和未限制真实函数才作未见点不可保证反证。一般证明与有限实跑分开，不实验验证人类趣味、历史因果或学科迁移。",
-    "completion": "全二十页、题名目录边界、全集三页勘误及学院九张双页历史扫描核图；原创中文全论证和20题答案，标准库普通/-O/-OO真实运行及独立来源/完整论证数学/代码审计。远端与实际浏览器另核。",
-    "article_path": "papers/1768/condillac-academy-discourse.zh-CN.md",
-    "source_ledger_path": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
-    "reproduction_path": "reproduction/condillac-1768-academy-discourse/README.md",
-    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=211",
-    "comparison_source_status": "学院历史扫描printed98–115/PDF1–9，首3行属上篇，末115结束本演说，不含Batteux。Batteux官方转录仅三个明确段落组有界比较，非历史原图核验或整篇完成。",
-    "status": "completed_bounded_discourse_1768_delivery_1798_read_edition_first_print_unverified",
-    "not_completed": "最早印行时间、手稿、全部版本异文、学院历史扫描的具体刊印年及版次未核；只一册1798主本，Google第二册未成功核验。Batteux只读三个明确段落组，不完成整篇答辞或全典礼；作者的欧洲历史、心理、语言与制度因果未作实证认证。全卷/全书及所有既有书籍、Euler版本与Curry/Church缺口保留；I.I正式勘误继续解决，II.VII164内证不升级正式勘误。真实学习数据、带噪标注、未知权重、训练算法、跨域选择与带验证传播未实现。",
-    "source_findings": "两历史扫描支持lentement与forme，学院现代转录为seulement与force；按图像保留，非正式勘误。学院网页Du développement de l’esprit humain小标题及Batteux识别脚注不见于两印本，不倒写原题原注。1798二十页无脚注/边注/原公式；全集勘误无203–222适用项。"
+    "document_type": "完整书籍章节II.XI §§1–17；非期刊论文、非全书",
+    "pages": "首版印68–72完整五页，§2/7/11/14跨页均读完",
+    "why_selected": "先核最新README、1876项未截断已刊树、idle进度、年代注册与Turing v2基准。II.XI此前仅作Condillac I.VII与II.II的有界背景，现回填完整辨别/比较/组合/抽象论证及动物能力推断、历史异常分类和方法收束。具体前驱缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes等仍开放。",
+    "mathematical_boundary": "现代有限有向二元关系在实际表示像集上的下降充要判准、细化；多重集加法、重命名同态/总数/单射判准；有限确定性策略、相容集合、非空一致预测和未见点反例。一般证明与有限实跑分离，不验证人或动物能力，不背书历史医疗分类。",
+    "completion": "五页主本及题名/邻界/正式勘误核图；全部17节和20题答案；有界前驱/后继比较、标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
+    "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+    "source_ledger_path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
+    "reproduction_path": "reproduction/locke-1690-understanding-ii11/README.md",
+    "source_url": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/84",
+    "errata": {
+      "source_leaf": 16,
+      "applicable": [
+        {
+          "page": 72,
+          "line": 23,
+          "printed": "seems",
+          "read": "seem",
+          "section": "II.XI.16"
+        },
+        {
+          "page": 72,
+          "line": 34,
+          "printed": "sights",
+          "read": "sight",
+          "section": "II.XI.17"
+        }
+      ],
+      "scope": "同册正式印刷勘误；不混同p67/p73邻章条目；p70 quali-残词另记非正式校读。"
+    },
+    "limits": [
+      "只有一册1690完整主本，后版/手稿/发行日和完整版本史未核；现代1700导向转录不替代首版。",
+      "只完成II.XI，不完成全书、Descartes/ Berkeley全篇或全部历史前驱；不认证直接AI影响链。",
+      "历史心理、动物和医疗分类只作为作者观点分析，非现代实证认证；有限模型不证明真实认知机制。",
+      "所有旧目录、候选、历史、缺口和有效状态原样保留；I.I正式conformation勘误已解决，II.VII164上下文校读仍非正式。"
+    ]
   },
   "earlier_gap_priority": [
     {
@@ -2013,6 +2028,57 @@
       "status": "completed_bounded_discourse_1768_delivery_1798_read_edition_first_print_unverified",
       "not_completed": "最早印行时间、手稿、全部版本异文、学院历史扫描的具体刊印年及版次未核；只一册1798主本，Google第二册未成功核验。Batteux只读三个明确段落组，不完成整篇答辞或全典礼；作者的欧洲历史、心理、语言与制度因果未作实证认证。全卷/全书及所有既有书籍、Euler版本与Curry/Church缺口保留；I.I正式勘误继续解决，II.VII164内证不升级正式勘误。真实学习数据、带噪标注、未知权重、训练算法、跨域选择与带验证传播未实现。",
       "source_findings": "两历史扫描支持lentement与forme，学院现代转录为seulement与force；按图像保留，非正式勘误。学院网页Du développement de l’esprit humain小标题及Batteux识别脚注不见于两印本，不倒写原题原注。1798二十页无脚注/边注/原公式；全集勘误无203–222适用项。"
+    },
+    {
+      "candidate_id": "locke-1690-understanding-ii11",
+      "authors": [
+        "John Locke"
+      ],
+      "title": "An Essay Concerning Humane Understanding, Book II, Chapter XI: Of Discerning, and other Operations of the Mind",
+      "chronology_year": 1690,
+      "chronology_year_basis": "实际首版题名页MDCXC；按印年作明确回填，不把题名印年等同发行日。现代书目所述1689年末发行另列，不在本次独立核定确切日期。",
+      "read_edition": {
+        "year": 1690,
+        "publisher": "London, printed by Eliz. Holt, for Thomas Basset",
+        "pages": "68–72",
+        "scan_leaves": "84–88；题名5、勘误16、前后边界83/89"
+      },
+      "document_type": "完整书籍章节II.XI §§1–17；非期刊论文、非全书",
+      "pages": "首版印68–72完整五页，§2/7/11/14跨页均读完",
+      "why_selected": "先核最新README、1876项未截断已刊树、idle进度、年代注册与Turing v2基准。II.XI此前仅作Condillac I.VII与II.II的有界背景，现回填完整辨别/比较/组合/抽象论证及动物能力推断、历史异常分类和方法收束。具体前驱缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes等仍开放。",
+      "mathematical_boundary": "现代有限有向二元关系在实际表示像集上的下降充要判准、细化；多重集加法、重命名同态/总数/单射判准；有限确定性策略、相容集合、非空一致预测和未见点反例。一般证明与有限实跑分离，不验证人或动物能力，不背书历史医疗分类。",
+      "completion": "五页主本及题名/邻界/正式勘误核图；全部17节和20题答案；有界前驱/后继比较、标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
+      "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+      "source_ledger_path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
+      "reproduction_path": "reproduction/locke-1690-understanding-ii11/README.md",
+      "source_url": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/84",
+      "errata": {
+        "source_leaf": 16,
+        "applicable": [
+          {
+            "page": 72,
+            "line": 23,
+            "printed": "seems",
+            "read": "seem",
+            "section": "II.XI.16"
+          },
+          {
+            "page": 72,
+            "line": 34,
+            "printed": "sights",
+            "read": "sight",
+            "section": "II.XI.17"
+          }
+        ],
+        "scope": "同册正式印刷勘误；不混同p67/p73邻章条目；p70 quali-残词另记非正式校读。"
+      },
+      "limits": [
+        "只有一册1690完整主本，后版/手稿/发行日和完整版本史未核；现代1700导向转录不替代首版。",
+        "只完成II.XI，不完成全书、Descartes/ Berkeley全篇或全部历史前驱；不认证直接AI影响链。",
+        "历史心理、动物和医疗分类只作为作者观点分析，非现代实证认证；有限模型不证明真实认知机制。",
+        "所有旧目录、候选、历史、缺口和有效状态原样保留；I.I正式conformation勘误已解决，II.VII164上下文校读仍非正式。"
+      ]
     }
   ],
   "next_source_gap": {
@@ -3079,6 +3145,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1768/condillac-academy-discourse.zh-CN.md",
       "note": "仅新增完整入院演说1798XXII203–222二十页；1768-12-22为演说日期回填，非初刊认证。学院另一年代未定印本全篇核图，两处现代转录异文如实区分。20题答案、现代有限模型、三模式实跑与三类独立审核；远端浏览器另核，旧对象历史保留。"
+    },
+    {
+      "event": "complete_bounded_reading_unit",
+      "candidate_id": "locke-1690-understanding-ii11",
+      "completed_on": "2026-10-12",
+      "scope": "1690 title-page edition, II.XI pp68–72 §§1–17, two applicable errata. One new unit; actual remote/browser acceptance follows separately.",
+      "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [
@@ -3335,6 +3408,11 @@
       "candidate_id": "condillac-1768-academy-discourse",
       "status": "bounded_discourse_only_remaining_gaps_open",
       "gap": "最早印行时间、手稿、全部版本异文、学院历史扫描的具体刊印年及版次未核；只一册1798主本，Google第二册未成功核验。Batteux只读三个明确段落组，不完成整篇答辞或全典礼；作者的欧洲历史、心理、语言与制度因果未作实证认证。全卷/全书及所有既有书籍、Euler版本与Curry/Church缺口保留；I.I正式勘误继续解决，II.VII164内证不升级正式勘误。真实学习数据、带噪标注、未知权重、训练算法、跨域选择与带验证传播未实现。"
+    },
+    {
+      "candidate_id": "locke-1690-understanding-ii11",
+      "status": "bounded_chapter_only_remaining_gaps_open",
+      "gap": "1690实际发行日、更多同版见证、手稿与全部版本修订史、全书及所有更早Port-Royal/Descartes等缺口开放。EPTO1700导向文本和Berkeley后版引文不倒写入1690；只有指定原典段落比较，不完成比较文本全篇。动物/人类能力、语言发生、历史医疗分类均未实证验证；噪声、顺序角色组合、主动学习及无限域扩展未实现。所有旧候选、书籍、Euler版本与Curry/Church缺口保留，I.I已解正式勘误与II.VII非正式校读状态不变。"
     }
   ],
   "effective_status": {
@@ -3872,6 +3950,12 @@
       "pages": "1798XXII[203]–222；202前通信、223目录及231目录条目核边界",
       "publication_scope": "只此演说一个完整单元；按1768演说事件回填，1798为实际底本。学院另印本98–115全篇核图，年代和版次未定；不能合计为两册1798版。",
       "not_completed": "最早印行时间、手稿、全部版本异文、学院历史扫描的具体刊印年及版次未核；只一册1798主本，Google第二册未成功核验。Batteux只读三个明确段落组，不完成整篇答辞或全典礼；作者的欧洲历史、心理、语言与制度因果未作实证认证。全卷/全书及所有既有书籍、Euler版本与Curry/Church缺口保留；I.I正式勘误继续解决，II.VII164内证不升级正式勘误。真实学习数据、带噪标注、未知权重、训练算法、跨域选择与带验证传播未实现。"
+    },
+    "locke-1690-understanding-ii11": {
+      "status": "completed_bounded_reading",
+      "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+      "version": "v1",
+      "scope": "1690首版II.XI印68–72 §§1–17；题名、邻界及两项p72正式勘误核图。全文原创中文、20题答案、一般证明和标准库有限实跑；非全书/历史穷尽。"
     }
   },
   "latest_quality_correction": {

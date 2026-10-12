@@ -1,0 +1,220 @@
+{
+  "composition": {
+    "dozen_total": 12,
+    "dozen_units": {
+      "unit": 12
+    },
+    "duplicate_entries_add": {
+      "unit": 12
+    },
+    "one_unit": {
+      "unit": 1
+    },
+    "ordinary_set_cardinality": 1,
+    "projection_loss": {
+      "different_inputs": [
+        {
+          "blue": 1,
+          "red": 2
+        },
+        {
+          "blue": 7,
+          "red": 2
+        }
+      ],
+      "outputs_equal": true,
+      "same_output": {
+        "red": 2
+      }
+    },
+    "renaming_loss": {
+      "different_inputs": [
+        {
+          "blue": 1,
+          "red": 2
+        },
+        {
+          "blue": 2,
+          "red": 1
+        }
+      ],
+      "outputs_equal": true,
+      "same_output": {
+        "token": 3
+      }
+    }
+  },
+  "finite_checks": {
+    "multisets": {
+      "alphabet_size": 2,
+      "associativity_cases": 729,
+      "input_counts_per_atom": [
+        0,
+        1,
+        2
+      ],
+      "multisets": 9,
+      "ordered_addition_pairs": 81,
+      "projection_homomorphism_cases": 324,
+      "projection_subsets": 4,
+      "renaming_homomorphism_cases": 324,
+      "renaming_maps": 4,
+      "scale_distribution_cases": 324,
+      "scale_factors": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "policies": {
+      "actions": 2,
+      "individual_prediction_checks": 228,
+      "stimulus_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "truth_observation_cases": 85
+    },
+    "relations": {
+      "available_representation_labels": 2,
+      "domain_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "failed_descents": 4024,
+      "relation_cases": 4165,
+      "representation_tables": 15,
+      "successful_descents": 141
+    },
+    "unary_predicates": {
+      "domain_sizes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predicate_cases": 85,
+      "successful_descents": 45
+    }
+  },
+  "finite_observations": {
+    "admissible_total_tables": 16,
+    "held_out": "white_square",
+    "held_out_possible_actions": [
+      "0",
+      "1"
+    ],
+    "held_out_status": "underdetermined",
+    "lookup_table": {
+      "blue_circle": "0",
+      "blue_square": "0",
+      "white_circle": "1",
+      "white_square": "0"
+    },
+    "named_stimuli_colors": {
+      "blue_circle": "blue",
+      "blue_square": "blue",
+      "white_circle": "white",
+      "white_square": "white"
+    },
+    "observations": [
+      [
+        "white_circle",
+        "1"
+      ],
+      [
+        "blue_circle",
+        "0"
+      ]
+    ],
+    "restricted_rule_only_prediction": "1",
+    "restricted_rule_only_status": "unanimous",
+    "rule_table": {
+      "blue_circle": "0",
+      "blue_square": "0",
+      "white_circle": "1",
+      "white_square": "1"
+    },
+    "survivors": 4,
+    "two_candidate_survivors_after_positive_holdout": [
+      "color_rule"
+    ],
+    "warning": "Unanimity depends on the admitted policies; behavioral tables do not identify an internal mechanism."
+  },
+  "relation_descent": {
+    "color_representation": {
+      "blue_3": "blue",
+      "white_1": "white",
+      "white_2": "white"
+    },
+    "empty_domain_quotient": {},
+    "objects": [
+      "white_1",
+      "white_2",
+      "blue_3"
+    ],
+    "rank": {
+      "blue_3": 3,
+      "white_1": 1,
+      "white_2": 2
+    },
+    "same_color_descends": true,
+    "same_color_quotient": [
+      {
+        "pair": [
+          "white",
+          "white"
+        ],
+        "value": true
+      },
+      {
+        "pair": [
+          "white",
+          "blue"
+        ],
+        "value": false
+      },
+      {
+        "pair": [
+          "blue",
+          "white"
+        ],
+        "value": false
+      },
+      {
+        "pair": [
+          "blue",
+          "blue"
+        ],
+        "value": true
+      }
+    ],
+    "strict_rank_order_conflicts": [
+      {
+        "false_pair": [
+          "white_1",
+          "white_1"
+        ],
+        "representation_pair": [
+          "white",
+          "white"
+        ],
+        "true_pair": [
+          "white_1",
+          "white_2"
+        ]
+      }
+    ],
+    "strict_rank_order_descends": false,
+    "unary_is_white_quotient": {
+      "blue": false,
+      "white": true
+    }
+  },
+  "scope": "Synthetic finite teaching reconstruction; no claim to recreate a mind or establish incapacity."
+}

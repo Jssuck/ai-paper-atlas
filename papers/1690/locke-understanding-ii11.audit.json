@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "audit_kind": "independent_chinese_argument_and_mathematics_review",
+  "reviewed_at_utc": "2026-10-12T21:52:06.765866+00:00",
+  "verdict": "pass_with_stated_scope_limits",
+  "blocking_findings": [],
+  "reviewer_statement": "独立AI复核；不是正文作者自检，不代表人类专家或形式证明助理认证。",
+  "main_document": "papers/1690/locke-understanding-ii11.zh-CN.md",
+  "audit_report": "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
+  "path_base": "release/",
+  "hash_algorithm": "SHA-256",
+  "coverage": {
+    "primary_chapter": "John Locke, An Essay Concerning Humane Understanding, 1690 first-edition printed pp. 68–72, Book II Chapter XI §§1–17",
+    "article": "全部章节、数学定义与证明、例子和反例",
+    "self_test_answers_reviewed": 20,
+    "self_test_answers_passed": 20,
+    "primary_chapter_page_images_visually_reviewed": 5
+  },
+  "proof_checks": [
+    {
+      "claim": "二元关系下降当且仅当每个非空纤维笛卡尔积恒值",
+      "result": "pass",
+      "checks": [
+        "必要性",
+        "充分性",
+        "实际像集上的唯一性",
+        "空对象域",
+        "外部未用标签不受约束",
+        "有向对与自配对",
+        "冲突见证",
+        "更细表示保持可表示性"
+      ]
+    },
+    {
+      "claim": "多重集加法、重命名加法相容、总次数守恒以及单射充要条件",
+      "result": "pass",
+      "checks": [
+        "逐坐标结合交换与零元",
+        "有限求和分配",
+        "纤维划分计数",
+        "原子映射单射可逐项读回",
+        "非单射单位向量反例",
+        "空原子表",
+        "非空源到空目标不存在全映射",
+        "同态不等于全部信息保持",
+        "只保证像内恢复而非目标全空间双射"
+      ]
+    },
+    {
+      "claim": "有限策略条件性一致预测与全函数类候选计数",
+      "result": "pass",
+      "checks": [
+        "域内查询",
+        "真实策略在候选类且观测无误",
+        "非空版本空间",
+        "一致预测充要性",
+        "空集不提供预测保证",
+        "合法一致记录按不同刺激计数",
+        "全函数计数b^(n-k)",
+        "四卡两观测四候选",
+        "重复记录与矛盾记录区别",
+        "完整域表不决定内部机制",
+        "不同名称描述不等于不同外延函数"
+      ]
+    },
+    {
+      "claim": "有限核验数量的独立算术推导",
+      "result": "pass",
+      "expected_counts": {
+        "relation_cases": 4165,
+        "successful_relation_descents": 141,
+        "failed_relation_descents": 4024,
+        "unary_cases": 85,
+        "successful_unary_descents": 45,
+        "renaming_checks": 324,
+        "projection_checks": 324,
+        "associativity_checks": 729,
+        "scale_distribution_checks": 324,
+        "truth_observation_cases": 85,
+        "prediction_checks": 228
+      }
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "ARG-01",
+      "finding": "初稿软化§1原文的肯定因果归属",
+      "resolution": "修订分别报告原文强断言和本文较弱的证据评价",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "ARG-02",
+      "finding": "未见行为的演绎否定与经验反面证据须区分",
+      "resolution": "正文明确可撤回证据与必然结论的区别",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "LINK-01",
+      "finding": "正文手算实例与附件早稿输入、候选数及走查文件名未统一",
+      "resolution": "三卡、红蓝3计数、四候选及WALKTHROUGH.md链接均对齐；合法见证不唯一已说明",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "MATH-01",
+      "finding": "总次数守恒、空原子边界、观测和查询域需显式说明",
+      "resolution": "正文补充并通过独立推导核对",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "MATH-02",
+      "finding": "有限行为不能决定规则的标题过于无条件",
+      "resolution": "改为有限观察与规则可识别性",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "DOC-01",
+      "finding": "观测域公式中的转义及README翻写中的两处多余加号",
+      "resolution": "最终正文与README公式修正并复核",
+      "status": "verified_resolved"
+    },
+    {
+      "id": "API-01",
+      "finding": "数学空版本空间与矛盾输入异常、具名描述与外延函数计数须区分",
+      "resolution": "正文与附件明确区分接口路线和计数口径",
+      "status": "verified_resolved"
+    }
+  ],
+  "record_checks": {
+    "author_tests_per_mode": {
+      "normal": 47,
+      "O": 47,
+      "OO": 47
+    },
+    "author_interpreter": "CPython 3.12.14",
+    "author_optimization_flags": [
+      0,
+      1,
+      2
+    ],
+    "all_author_command_exit_codes_zero": true,
+    "three_author_example_outputs_and_results_byte_identical": true,
+    "argument_auditor_reran_full_implementation": false
+  },
+  "scope_limits": [
+    "来源版本与比较文献细部由独立来源审计负责；本审计独立目视了主章五页。",
+    "代码独立执行审计由另一个审计报告负责；这里绑定已读文件并核对其数学规格及作者记录。",
+    "没有现实人类、动物或临床数据，没有经验性能力或意识结论。",
+    "没有全书或全部版本史阅读，没有证明到现代AI的直接影响链。",
+    "哈希只辨认绑定字节，不把有限测试替代一般证明。"
+  ],
+  "files": [
+    {
+      "path": "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
+      "sha256": "9fcd86cc8c670d6b02120fb1c2239e096177c241b82d1eaf36a98a1e73e0975a",
+      "bytes": 25793,
+      "review_scope": "本独立中文论证数学审计报告"
+    },
+    {
+      "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
+      "bytes": 41444,
+      "review_scope": "完整中文论证、全部定义证明、例子反例与20道答案逐项复核"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/README.md",
+      "sha256": "11cb18b7543e14e874cfd4144fc0e094594d0fb5769943f78c40f15277136e7e",
+      "bytes": 14673,
+      "review_scope": "全文数学定义与证明、正文示例及输出解释的一致性复核"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/WALKTHROUGH.md",
+      "sha256": "93dce0ec57b69195a193e1eabcbe3bb8c816f00aee56a03aafbf73fda1e66249",
+      "bytes": 12012,
+      "review_scope": "全文数学定义与证明、正文示例及输出解释的一致性复核"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/environment.json",
+      "sha256": "98f5b193186f9d1761ec99b5a0cad59fe8038d2022c359b41201cabf268b457a",
+      "bytes": 1102,
+      "review_scope": "读取真实作者执行记录，并核对样例结果、环境、测试数与输出字节一致性"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/examples.py",
+      "sha256": "72ee070abd769272087737350258f8b44fbd73de4d45d641a8b73af27afafc02",
+      "bytes": 4925,
+      "review_scope": "读取接口、测试与运行器，核对数学规格、示例、枚举边界和记录口径；不替代独立代码执行审计"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/finite_checks.py",
+      "sha256": "0e6d5c77a7635eba614974e47bb8328127f056a3d8795c07f25746b0ce377ddb",
+      "bytes": 9099,
+      "review_scope": "读取接口、测试与运行器，核对数学规格、示例、枚举边界和记录口径；不替代独立代码执行审计"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.O.json",
+      "sha256": "1ceef3020291333ac5f2db4b5ef868949c446b8a5df5f41084b4f594c6a19a7a",
+      "bytes": 213,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.O.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.OO.json",
+      "sha256": "cdf9f236842aa248696d7cc6656975b832a7704a6fe8c34147369024c304e2fb",
+      "bytes": 213,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.OO.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.normal.json",
+      "sha256": "777a98433b3f7236d3c9f775842d51cd0f71584b57231b1409e735e8074692ea",
+      "bytes": 213,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/environment.normal.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.O.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "bytes": 4311,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.O.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.OO.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "bytes": 4311,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.OO.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.normal.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "bytes": 4311,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/examples.normal.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.O.log",
+      "sha256": "b2eb74d695778f1bd8ae1fd63cf93261cd3be37dd9fedb3e3b734250e2e7dee1",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.O.stderr.log",
+      "sha256": "b2eb74d695778f1bd8ae1fd63cf93261cd3be37dd9fedb3e3b734250e2e7dee1",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.OO.log",
+      "sha256": "ff92eb88b6897df7e848ddea7dda2799f6e8d3e63b1253c1e217d91f12e75814",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.OO.stderr.log",
+      "sha256": "ff92eb88b6897df7e848ddea7dda2799f6e8d3e63b1253c1e217d91f12e75814",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.normal.log",
+      "sha256": "5317d7f277bb95d1028ef816ef30fb157c0a5a25f2ef8a97376db888ef0933b0",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/logs/tests.normal.stderr.log",
+      "sha256": "5317d7f277bb95d1028ef816ef30fb157c0a5a25f2ef8a97376db888ef0933b0",
+      "bytes": 5731,
+      "review_scope": "作者原始日志绑定；核对测试数、结束状态、解释器模式或输出字节，未由本论证审计重新执行"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/model.py",
+      "sha256": "fca0060b9651de219ed76dd0d0001894d0db2e2c9a9b71d18dc41988bbea13bc",
+      "bytes": 11932,
+      "review_scope": "读取接口、测试与运行器，核对数学规格、示例、枚举边界和记录口径；不替代独立代码执行审计"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/results.json",
+      "sha256": "94e2a608f5b02642db6198b6560803f61374b62f6cddaac770a2f8f019461ce1",
+      "bytes": 4311,
+      "review_scope": "读取真实作者执行记录，并核对样例结果、环境、测试数与输出字节一致性"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/run_checks.py",
+      "sha256": "d9d2eacd219da990818c20ded82a93eede118bafaf3e3811e01eb44c1bcea57d",
+      "bytes": 4466,
+      "review_scope": "读取接口、测试与运行器，核对数学规格、示例、枚举边界和记录口径；不替代独立代码执行审计"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/run_summary.json",
+      "sha256": "e0dfb40435731a1f74b6d77b97719b1c709ff83131075fbc6493df6099ca9ba7",
+      "bytes": 4911,
+      "review_scope": "读取真实作者执行记录，并核对样例结果、环境、测试数与输出字节一致性"
+    },
+    {
+      "path": "reproduction/locke-1690-understanding-ii11/test_model.py",
+      "sha256": "1be603f061fc2c19dbffa1960ae264661f7e40d2c3e37e23593ba2e13f134fec",
+      "bytes": 15955,
+      "review_scope": "读取接口、测试与运行器，核对数学规格、示例、枚举边界和记录口径；不替代独立代码执行审计"
+    }
+  ],
+  "primary_visual_evidence": [
+    {
+      "printed_page": 68,
+      "scan_leaf": 84,
+      "public_source_page": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/84",
+      "sha256": "768a3509b17257dbbf5df64639ecabd9f8333552b620c286e05f91c0f4cc1197",
+      "bytes": 439861,
+      "review_scope": "该章整页图像目视核对；不是外交式转录或全版本校勘"
+    },
+    {
+      "printed_page": 69,
+      "scan_leaf": 85,
+      "public_source_page": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/85",
+      "sha256": "33c81a2e8e4e9abedab0eb83e75de971098c522c07fde708835e9c75226355b7",
+      "bytes": 471921,
+      "review_scope": "该章整页图像目视核对；不是外交式转录或全版本校勘"
+    },
+    {
+      "printed_page": 70,
+      "scan_leaf": 86,
+      "public_source_page": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/86",
+      "sha256": "9d48c8afdc41fe7085d3ebd7afaf48a47d3dff44018c91e9747a88f4ef955a77",
+      "bytes": 472326,
+      "review_scope": "该章整页图像目视核对；不是外交式转录或全版本校勘"
+    },
+    {
+      "printed_page": 71,
+      "scan_leaf": 87,
+      "public_source_page": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/87",
+      "sha256": "0854be8ad2dcd0da4d7bda7ea54a55d36861ee14247881642e8c0c8732865631",
+      "bytes": 466349,
+      "review_scope": "该章整页图像目视核对；不是外交式转录或全版本校勘"
+    },
+    {
+      "printed_page": 72,
+      "scan_leaf": 88,
+      "public_source_page": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/88",
+      "sha256": "b786f72e4a228d05147f2cd3a7513a212c4ae139c28e35184502d2fbb3b5319b",
+      "bytes": 409498,
+      "review_scope": "该章整页图像目视核对；不是外交式转录或全版本校勘"
+    }
+  ],
+  "excluded_from_binding": [
+    "本JSON自身",
+    "其他独立审计包装文件与清单",
+    "由来源审计单独绑定的来源账本"
+  ],
+  "invalidation_rule": "任一已绑定文件改动后必须重新核对该改动并更新本清单；不能用旧绑定替新版本背书。"
+}
