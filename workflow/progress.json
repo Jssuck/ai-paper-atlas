@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "locke-1690-understanding-ii11",
     "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "Complete 1690 first-edition Essay II.XI §§1–17, printed pp.68–72, including applicable p72 errata. Explicit earlier-predecessor backfill; bounded reception/version differences disclosed."
-  },
-  "last_completed": {
-    "id": "condillac-1768-academy-discourse",
-    "path": "papers/1768/condillac-academy-discourse.zh-CN.md",
     "version": "v1",
-    "content_commit": "ca3f44aafd9025d0b7fa6da196c56b300da49c16",
-    "checks": "Three independent audits passed; 66 exact bindings, 20 author and 16 independent tests per three modes, four injected faults detected. All 31 remote files and blob identities verified. Recovered live browser gate passed nine full DOM bodies, 183 headings, 160 formulas, ten tables/470 raw-source cells, 319 relative paths and 20 answers. All new-document pixels and new README row/section inspected; older README content preserved by complete DOM check.",
-    "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222; explicit chronological backfill. Academy historical scan and modern transcription compared; lentement/seulement and forme/force transcription discrepancies disclosed. Delivery date not asserted first-publication year. Modern teaching models distinguished from original claims."
+    "content_commit": "71a8df341d42588cf7e32ad3bb78df66c373fd16",
+    "checks": "Three independent audits passed; 78 exact bindings verified, genuine three-mode tests and 36 mutation detections retained. All 46 final remote contents and blob identities verified. Actual GitHub browser checked eight complete bodies, 207 headings, 268 formulas, ten tables/503 raw-source cells, 339 relative paths and 20 answers. Main, six appendices and new README additions visually inspected. Rare date-bracket typography repaired equivalently and source binding refreshed.",
+    "scope": "Complete 1690 first-edition Essay II.XI §§1–17, printed pp.68–72, including both applicable p72 errata. Explicit chronological backfill. Original examples and stronger first-edition animal claim retained, later Berkeley quotation/version differences bounded and disclosed. No full-book or exhaustive coverage claim."
   },
-  "updated_at": "2026-10-12T21:55:30Z",
+  "updated_at": "2026-10-12T22:13:40Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and actual GitHub rendering for this chapter before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
