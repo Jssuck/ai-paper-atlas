@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part2-ch7",
     "path": "papers/1780/condillac-logic-part2-ch7.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "Complete La Logique II.VII, actual 1798 Œuvres XXII pp.152–169; 1780 bibliographic dating only."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part2-ch6",
-    "path": "papers/1780/condillac-logic-part2-ch6.zh-CN.md",
     "version": "v1",
-    "content_commit": "0c40908556debe9b4550513a1cf06b395add4139",
-    "checks": "Independent source, whole-argument/math and code audits passed; 45 tests per normal/-O/-OO mode, six semantic mutants with zero harness errors, independent exhaustive checks and 15 executed walkthrough blocks. All 60 final remote files and blob identities verified. Nine live Markdown bodies, 361 formulas, 226 headings, 14 tables/510 raw-source cells, 24 answers and 296 relative links checked. Unsupported semantic brackets replaced equivalently, bound evidence refreshed, all five affected formulas visually rechecked.",
-    "scope": "Complete La Logique II.VI, actual 1798 Œuvres XXII pp.141–151, both scans, five margins and three references; collected-edition errata checked. Port-Royal and Encyclopédie disagreements examined via bounded primary transcriptions with image limits stated. 1780 bibliographic dating only; definition/evidence/dependency models explicitly modern."
+    "content_commit": "ac36c9cddde45ba616abdff294154ad0c1184cb4",
+    "checks": "Independent source, whole-argument/math and code audits passed. Author nine tests and eight semantic mutants per normal/-O/-OO mode; independent checks include 35308 systems and 176540 row operations per mode. All 97 final remote files and blob identities verified. Nine live Markdown bodies, 188 formulas, 181 headings, seven tables/302 raw-source cells, 20 answers and 316 relative paths checked; actual browser pixel checks passed.",
+    "scope": "Complete La Logique II.VII, actual 1798 Œuvres XXII pp.152–169, both scans and collected errata checked. Original p164 x and contextual correction y explicitly distinguished, not called an official erratum. 1780 bibliographic dating only; bounded algebra predecessors and modern exact-rational models clearly identified."
   },
-  "updated_at": "2026-10-12T05:52:20Z",
+  "updated_at": "2026-10-12T05:58:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and live GitHub rendering for this chapter before marking completed.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
