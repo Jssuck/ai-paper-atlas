@@ -1,0 +1,132 @@
+{
+  "scope": "Modern finite teaching abstraction; no historical algorithm or psychological validation.",
+  "context": {
+    "edges": [
+      [
+        "agent",
+        "act"
+      ],
+      [
+        "patient",
+        "act"
+      ]
+    ],
+    "legal_orders": [
+      [
+        "agent",
+        "patient",
+        "act"
+      ],
+      [
+        "patient",
+        "agent",
+        "act"
+      ]
+    ]
+  },
+  "serial": {
+    "message": [
+      "A",
+      "B",
+      "help"
+    ],
+    "tokens": [
+      "[\"agent\",\"A\"]",
+      "[\"patient\",\"B\"]",
+      "[\"act\",\"help\"]"
+    ],
+    "wire": "[\"[\\\"agent\\\",\\\"A\\\"]\",\"[\\\"patient\\\",\\\"B\\\"]\",\"[\\\"act\\\",\\\"help\\\"]\"]",
+    "prefix_candidate_counts": [
+      8,
+      4,
+      2,
+      1
+    ],
+    "decoded": [
+      "A",
+      "B",
+      "help"
+    ],
+    "alternate_decoded": [
+      "A",
+      "B",
+      "help"
+    ]
+  },
+  "binding_loss": {
+    "first": [
+      "A",
+      "B",
+      "help"
+    ],
+    "second": [
+      "B",
+      "A",
+      "help"
+    ],
+    "same_unlabeled_aggregate": true,
+    "same_labeled_set": false
+  },
+  "dictionary_collision": {
+    "injective": false,
+    "full_frame_candidates": [
+      [
+        "A",
+        "B",
+        "avoid"
+      ],
+      [
+        "A",
+        "B",
+        "help"
+      ]
+    ]
+  },
+  "framing": {
+    "first": [
+      "a",
+      "bc"
+    ],
+    "second": [
+      "ab",
+      "c"
+    ],
+    "same_plain_concatenation": true,
+    "same_json_frame": false
+  },
+  "analogy_limit": {
+    "examples": [
+      [
+        0,
+        "0"
+      ],
+      [
+        1,
+        "1"
+      ]
+    ],
+    "remaining_tables": [
+      [
+        "0",
+        "1",
+        "2"
+      ],
+      [
+        "0",
+        "1",
+        "4"
+      ]
+    ],
+    "unseen_symbol_2_predictions": [
+      "2",
+      "4"
+    ],
+    "affine_prior_remaining": [
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  }
+}

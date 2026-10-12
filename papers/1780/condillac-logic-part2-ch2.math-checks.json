@@ -1,0 +1,50 @@
+{
+  "scope": "Independent finite checks of the stated definitions, not general proofs, reproduction code certification, or empirical psychology",
+  "python_version": "3.12.14",
+  "python_implementation": "CPython",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python_optimization": 0,
+  "command": [
+    "python",
+    "-B",
+    "condillac-logic-part2-ch2.math-checks.py"
+  ],
+  "script_sha256": "0f5e1f93f5e33d4e300654d407faa7e3ad2ce829490828d7e46a918a89b502b6",
+  "domain_sizes_by_n": [
+    [
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      2
+    ]
+  ],
+  "counts": {
+    "directed_graphs": 4165,
+    "dags": 572,
+    "legal_orders": 1589,
+    "complete_expressions": 18729,
+    "distinct_legal_prefixes": 36323,
+    "cyclic_graphs": 3593,
+    "collision_monotonicity_checks": 1440,
+    "colliding_dictionary_context_cases": 48
+  },
+  "counterexamples_passed": [
+    "unlabeled_role_swap",
+    "unframed_concatenation",
+    "finite_hypothesis_underdetermination",
+    "global_injectivity_not_necessary_with_fixed_positions"
+  ],
+  "passed": true
+}

@@ -1,0 +1,1587 @@
+
+=== normal: independent_suite ===
+$ python  -B -c <embedded HARNESS> IndependentTests
+--- stdout ---
+REVIEW_RECORD={"coverage": {"complete_frame_decisions": 14987, "directed_graphs": {"DAG": 572, "cyclic_rejected": 3593, "total": 4165}, "distinct_JSON_frame_roundtrips": 400, "explicit_prefix_relation_checks": 59320, "heterogeneous_prefix_formula_checks": 240, "hypothesis_subset_observation_checks": 10965, "joint_DAG_dictionary_models": 1843}, "errors": 0, "failures": 0, "finished": 11, "optimize": 0, "phase": "done", "skipped": 0, "started": 11, "tests": 11}
+--- stderr ---
+test_all_directed_contexts_up_to_four_features (test_independent.IndependentTests.test_all_directed_contexts_up_to_four_features) ... ok
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+test_heterogeneous_default_codes_and_legal_prefix_formula (test_independent.IndependentTests.test_heterogeneous_default_codes_and_legal_prefix_formula) ... ok
+test_input_boundary_and_immutable_snapshots (test_independent.IndependentTests.test_input_boundary_and_immutable_snapshots) ... ok
+test_joint_context_and_colliding_dictionary_enumeration (test_independent.IndependentTests.test_joint_context_and_colliding_dictionary_enumeration) ... ok
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+test_version_space_exhaustive_intersections (test_independent.IndependentTests.test_version_space_exhaustive_intersections) ... ok
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 8.843s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: ignore_precedence/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: ignore_precedence/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_context_sentinel (test_independent.IndependentTests.test_context_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 137, in test_context_sentinel
+    self.assertEqual(language.orders, (('z', 'x', 'y'),))
+AssertionError: Tuples differ: (('x', 'y', 'z'), ('x', 'z', 'y'), ('y', 'x'[53 chars]'x')) != (('z', 'x', 'y'),)
+
+First differing element 0:
+('x', 'y', 'z')
+('z', 'x', 'y')
+
+First tuple contains 5 additional elements.
+First extra element 1:
+('x', 'z', 'y')
+
+- (('x', 'y', 'z'),
+-  ('x', 'z', 'y'),
+-  ('y', 'x', 'z'),
+-  ('y', 'z', 'x'),
+-  ('z', 'x', 'y'),
+? ^
+
++ (('z', 'x', 'y'),)
+? ^                +
+
+-  ('z', 'y', 'x'))
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: forget_prefix_tail/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: forget_prefix_tail/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the first set but not the second:
+('1', '0')
+('0', '0')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: keep_only_first_order/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: keep_only_first_order/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the second set but not the first:
+('1', '1')
+('0', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: discard_binding/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: discard_binding/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 151, in test_binding_and_multiplicity_sentinel
+    self.assertNotEqual(language.labeled(first), language.labeled(second))
+AssertionError: frozenset({('?', 'P'), ('?', 'Q')}) == frozenset({('?', 'P'), ('?', 'Q')})
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: discard_multiplicity/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: discard_multiplicity/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 153, in test_binding_and_multiplicity_sentinel
+    self.assertEqual(language.aggregate(first), (('P', 2), ('Q', 1)))
+AssertionError: Tuples differ: (('P', 1), ('Q', 1)) != (('P', 2), ('Q', 1))
+
+First differing element 0:
+('P', 1)
+('P', 2)
+
+- (('P', 1), ('Q', 1))
+?        ^
+
++ (('P', 2), ('Q', 1))
+?        ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: pretend_injective/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: pretend_injective/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 161, in test_collision_and_decode_sentinel
+    self.assertFalse(ordered.injective)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: reverse_meaning/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: reverse_meaning/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 162, in test_collision_and_decode_sentinel
+    self.assertEqual(ordered.decode('["a","b"]'), ('0', '1'))
+AssertionError: Tuples differ: ('1', '0') != ('0', '1')
+
+First differing element 0:
+'1'
+'0'
+
+- ('1', '0')
++ ('0', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: accept_ambiguity/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: accept_ambiguity/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 164, in test_collision_and_decode_sentinel
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: erase_frame_boundaries/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {"distinct_JSON_frame_roundtrips": 400}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: erase_frame_boundaries/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... FAIL
+
+======================================================================
+FAIL: test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 170, in test_frame_sentinel_and_edge_cases
+    self.assertNotEqual(pack(('x', 'yz')), pack(('xy', 'z')))
+AssertionError: '"xyz"' == '"xyz"'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: accept_one_example/baseline ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== normal: accept_one_example/mutation ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 206, in test_version_space_sentinel
+    self.assertEqual(version_space(tables, ((0, 'A'), (1, 'B'))), frozenset(tables[:2]))
+AssertionError: Items in the first set but not the second:
+('B', 'B', 'A')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== normal: syntax_control ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "SyntaxError", "optimize": 0}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1
+    def broken(:
+               ^
+SyntaxError: invalid syntax
+--- exit code: 3; classification: syntax_failure ---
+
+=== normal: import_control ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "ModuleNotFoundError", "optimize": 0}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1, in <module>
+    import nonexistent_independent_audit_control
+ModuleNotFoundError: No module named 'nonexistent_independent_audit_control'
+--- exit code: 3; classification: import_failure ---
+
+=== normal: early_exit_control ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: 0; classification: harness_failure ---
+
+=== normal: timeout_control ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: None; classification: timeout ---
+
+=== normal: runtime_error_control ===
+$ python  -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 1, "failures": 0, "finished": 1, "optimize": 0, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ERROR
+
+======================================================================
+ERROR: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<audit-temp>/model.py", line 143, in candidates
+    raise RuntimeError("intentional audit runtime error")
+RuntimeError: intentional audit runtime error
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (errors=1)
+--- exit code: 1; classification: test_error ---
+
+=== normal: author_tests_rerun ===
+$ python  -B -m unittest -v test_model
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.536s
+
+OK
+--- exit code: 0 ---
+
+=== O: independent_suite ===
+$ python -O -B -c <embedded HARNESS> IndependentTests
+--- stdout ---
+REVIEW_RECORD={"coverage": {"complete_frame_decisions": 14987, "directed_graphs": {"DAG": 572, "cyclic_rejected": 3593, "total": 4165}, "distinct_JSON_frame_roundtrips": 400, "explicit_prefix_relation_checks": 59320, "heterogeneous_prefix_formula_checks": 240, "hypothesis_subset_observation_checks": 10965, "joint_DAG_dictionary_models": 1843}, "errors": 0, "failures": 0, "finished": 11, "optimize": 1, "phase": "done", "skipped": 0, "started": 11, "tests": 11}
+--- stderr ---
+test_all_directed_contexts_up_to_four_features (test_independent.IndependentTests.test_all_directed_contexts_up_to_four_features) ... ok
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+test_heterogeneous_default_codes_and_legal_prefix_formula (test_independent.IndependentTests.test_heterogeneous_default_codes_and_legal_prefix_formula) ... ok
+test_input_boundary_and_immutable_snapshots (test_independent.IndependentTests.test_input_boundary_and_immutable_snapshots) ... ok
+test_joint_context_and_colliding_dictionary_enumeration (test_independent.IndependentTests.test_joint_context_and_colliding_dictionary_enumeration) ... ok
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+test_version_space_exhaustive_intersections (test_independent.IndependentTests.test_version_space_exhaustive_intersections) ... ok
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 8.735s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: ignore_precedence/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: ignore_precedence/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_context_sentinel (test_independent.IndependentTests.test_context_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 137, in test_context_sentinel
+    self.assertEqual(language.orders, (('z', 'x', 'y'),))
+AssertionError: Tuples differ: (('x', 'y', 'z'), ('x', 'z', 'y'), ('y', 'x'[53 chars]'x')) != (('z', 'x', 'y'),)
+
+First differing element 0:
+('x', 'y', 'z')
+('z', 'x', 'y')
+
+First tuple contains 5 additional elements.
+First extra element 1:
+('x', 'z', 'y')
+
+- (('x', 'y', 'z'),
+-  ('x', 'z', 'y'),
+-  ('y', 'x', 'z'),
+-  ('y', 'z', 'x'),
+-  ('z', 'x', 'y'),
+? ^
+
++ (('z', 'x', 'y'),)
+? ^                +
+
+-  ('z', 'y', 'x'))
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: forget_prefix_tail/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: forget_prefix_tail/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the first set but not the second:
+('0', '0')
+('1', '0')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: keep_only_first_order/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: keep_only_first_order/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the second set but not the first:
+('0', '1')
+('1', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: discard_binding/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: discard_binding/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 151, in test_binding_and_multiplicity_sentinel
+    self.assertNotEqual(language.labeled(first), language.labeled(second))
+AssertionError: frozenset({('?', 'P'), ('?', 'Q')}) == frozenset({('?', 'P'), ('?', 'Q')})
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: discard_multiplicity/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: discard_multiplicity/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 153, in test_binding_and_multiplicity_sentinel
+    self.assertEqual(language.aggregate(first), (('P', 2), ('Q', 1)))
+AssertionError: Tuples differ: (('P', 1), ('Q', 1)) != (('P', 2), ('Q', 1))
+
+First differing element 0:
+('P', 1)
+('P', 2)
+
+- (('P', 1), ('Q', 1))
+?        ^
+
++ (('P', 2), ('Q', 1))
+?        ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: pretend_injective/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: pretend_injective/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 161, in test_collision_and_decode_sentinel
+    self.assertFalse(ordered.injective)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: reverse_meaning/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: reverse_meaning/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 162, in test_collision_and_decode_sentinel
+    self.assertEqual(ordered.decode('["a","b"]'), ('0', '1'))
+AssertionError: Tuples differ: ('1', '0') != ('0', '1')
+
+First differing element 0:
+'1'
+'0'
+
+- ('1', '0')
++ ('0', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: accept_ambiguity/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: accept_ambiguity/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 164, in test_collision_and_decode_sentinel
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: erase_frame_boundaries/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {"distinct_JSON_frame_roundtrips": 400}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: erase_frame_boundaries/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... FAIL
+
+======================================================================
+FAIL: test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 170, in test_frame_sentinel_and_edge_cases
+    self.assertNotEqual(pack(('x', 'yz')), pack(('xy', 'z')))
+AssertionError: '"xyz"' == '"xyz"'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: accept_one_example/baseline ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== O: accept_one_example/mutation ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 206, in test_version_space_sentinel
+    self.assertEqual(version_space(tables, ((0, 'A'), (1, 'B'))), frozenset(tables[:2]))
+AssertionError: Items in the first set but not the second:
+('B', 'B', 'A')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== O: syntax_control ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "SyntaxError", "optimize": 1}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1
+    def broken(:
+               ^
+SyntaxError: invalid syntax
+--- exit code: 3; classification: syntax_failure ---
+
+=== O: import_control ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "ModuleNotFoundError", "optimize": 1}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1, in <module>
+    import nonexistent_independent_audit_control
+ModuleNotFoundError: No module named 'nonexistent_independent_audit_control'
+--- exit code: 3; classification: import_failure ---
+
+=== O: early_exit_control ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: 0; classification: harness_failure ---
+
+=== O: timeout_control ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: None; classification: timeout ---
+
+=== O: runtime_error_control ===
+$ python -O -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 1, "failures": 0, "finished": 1, "optimize": 1, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ERROR
+
+======================================================================
+ERROR: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<audit-temp>/model.py", line 143, in candidates
+    raise RuntimeError("intentional audit runtime error")
+RuntimeError: intentional audit runtime error
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+--- exit code: 1; classification: test_error ---
+
+=== O: author_tests_rerun ===
+$ python -O -B -m unittest -v test_model
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.614s
+
+OK
+--- exit code: 0 ---
+
+=== OO: independent_suite ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests
+--- stdout ---
+REVIEW_RECORD={"coverage": {"complete_frame_decisions": 14987, "directed_graphs": {"DAG": 572, "cyclic_rejected": 3593, "total": 4165}, "distinct_JSON_frame_roundtrips": 400, "explicit_prefix_relation_checks": 59320, "heterogeneous_prefix_formula_checks": 240, "hypothesis_subset_observation_checks": 10965, "joint_DAG_dictionary_models": 1843}, "errors": 0, "failures": 0, "finished": 11, "optimize": 2, "phase": "done", "skipped": 0, "started": 11, "tests": 11}
+--- stderr ---
+test_all_directed_contexts_up_to_four_features (test_independent.IndependentTests.test_all_directed_contexts_up_to_four_features) ... ok
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+test_heterogeneous_default_codes_and_legal_prefix_formula (test_independent.IndependentTests.test_heterogeneous_default_codes_and_legal_prefix_formula) ... ok
+test_input_boundary_and_immutable_snapshots (test_independent.IndependentTests.test_input_boundary_and_immutable_snapshots) ... ok
+test_joint_context_and_colliding_dictionary_enumeration (test_independent.IndependentTests.test_joint_context_and_colliding_dictionary_enumeration) ... ok
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+test_version_space_exhaustive_intersections (test_independent.IndependentTests.test_version_space_exhaustive_intersections) ... ok
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 9.907s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: ignore_precedence/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: ignore_precedence/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_context_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_context_sentinel (test_independent.IndependentTests.test_context_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_context_sentinel (test_independent.IndependentTests.test_context_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 137, in test_context_sentinel
+    self.assertEqual(language.orders, (('z', 'x', 'y'),))
+AssertionError: Tuples differ: (('x', 'y', 'z'), ('x', 'z', 'y'), ('y', 'x'[53 chars]'x')) != (('z', 'x', 'y'),)
+
+First differing element 0:
+('x', 'y', 'z')
+('z', 'x', 'y')
+
+First tuple contains 5 additional elements.
+First extra element 1:
+('x', 'z', 'y')
+
+- (('x', 'y', 'z'),
+-  ('x', 'z', 'y'),
+-  ('y', 'x', 'z'),
+-  ('y', 'z', 'x'),
+-  ('z', 'x', 'y'),
+? ^
+
++ (('z', 'x', 'y'),)
+? ^                +
+
+-  ('z', 'y', 'x'))
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: forget_prefix_tail/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: forget_prefix_tail/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the first set but not the second:
+('0', '0')
+('1', '0')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: keep_only_first_order/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: keep_only_first_order/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+AssertionError: Items in the second set but not the first:
+('0', '1')
+('1', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: discard_binding/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: discard_binding/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 151, in test_binding_and_multiplicity_sentinel
+    self.assertNotEqual(language.labeled(first), language.labeled(second))
+AssertionError: frozenset({('?', 'Q'), ('?', 'P')}) == frozenset({('?', 'Q'), ('?', 'P')})
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: discard_multiplicity/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: discard_multiplicity/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_binding_and_multiplicity_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_binding_and_multiplicity_sentinel (test_independent.IndependentTests.test_binding_and_multiplicity_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 153, in test_binding_and_multiplicity_sentinel
+    self.assertEqual(language.aggregate(first), (('P', 2), ('Q', 1)))
+AssertionError: Tuples differ: (('P', 1), ('Q', 1)) != (('P', 2), ('Q', 1))
+
+First differing element 0:
+('P', 1)
+('P', 2)
+
+- (('P', 1), ('Q', 1))
+?        ^
+
++ (('P', 2), ('Q', 1))
+?        ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: pretend_injective/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: pretend_injective/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 161, in test_collision_and_decode_sentinel
+    self.assertFalse(ordered.injective)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: reverse_meaning/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: reverse_meaning/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 162, in test_collision_and_decode_sentinel
+    self.assertEqual(ordered.decode('["a","b"]'), ('0', '1'))
+AssertionError: Tuples differ: ('1', '0') != ('0', '1')
+
+First differing element 0:
+'1'
+'0'
+
+- ('1', '0')
++ ('0', '1')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: accept_ambiguity/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: accept_ambiguity/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_collision_and_decode_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_collision_and_decode_sentinel (test_independent.IndependentTests.test_collision_and_decode_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 164, in test_collision_and_decode_sentinel
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: erase_frame_boundaries/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {"distinct_JSON_frame_roundtrips": 400}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: erase_frame_boundaries/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_frame_sentinel_and_edge_cases
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases) ... FAIL
+
+======================================================================
+FAIL: test_frame_sentinel_and_edge_cases (test_independent.IndependentTests.test_frame_sentinel_and_edge_cases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 170, in test_frame_sentinel_and_edge_cases
+    self.assertNotEqual(pack(('x', 'yz')), pack(('xy', 'z')))
+AssertionError: '"xyz"' == '"xyz"'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: accept_one_example/baseline ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+--- exit code: 0; classification: survived ---
+
+=== OO: accept_one_example/mutation ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_version_space_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 0, "failures": 1, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel) ... FAIL
+
+======================================================================
+FAIL: test_version_space_sentinel (test_independent.IndependentTests.test_version_space_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 206, in test_version_space_sentinel
+    self.assertEqual(version_space(tables, ((0, 'A'), (1, 'B'))), frozenset(tables[:2]))
+AssertionError: Items in the first set but not the second:
+('B', 'B', 'A')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+--- exit code: 1; classification: behavior_caught ---
+
+=== OO: syntax_control ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "SyntaxError", "optimize": 2}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1
+    def broken(:
+               ^
+SyntaxError: invalid syntax
+--- exit code: 3; classification: syntax_failure ---
+
+=== OO: import_control ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"phase": "import", "type": "ModuleNotFoundError", "optimize": 2}
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<stdlib>/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<audit-temp>/test_independent.py", line 13, in <module>
+    from model import Language, pack, unpack, version_space
+  File "<audit-temp>/model.py", line 1, in <module>
+    import nonexistent_independent_audit_control
+ModuleNotFoundError: No module named 'nonexistent_independent_audit_control'
+--- exit code: 3; classification: import_failure ---
+
+=== OO: early_exit_control ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: 0; classification: harness_failure ---
+
+=== OO: timeout_control ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+--- stderr ---
+--- exit code: None; classification: timeout ---
+
+=== OO: runtime_error_control ===
+$ python -OO -B -c <embedded HARNESS> IndependentTests.test_prefix_sentinel
+--- stdout ---
+REVIEW_RECORD={"coverage": {}, "errors": 1, "failures": 0, "finished": 1, "optimize": 2, "phase": "done", "skipped": 0, "started": 1, "tests": 1}
+--- stderr ---
+test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel) ... ERROR
+
+======================================================================
+ERROR: test_prefix_sentinel (test_independent.IndependentTests.test_prefix_sentinel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<audit-temp>/test_independent.py", line 143, in test_prefix_sentinel
+    self.assertEqual(language.candidates(('c',)), frozenset({('0', '1'), ('1', '1')}))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<audit-temp>/model.py", line 143, in candidates
+    raise RuntimeError("intentional audit runtime error")
+RuntimeError: intentional audit runtime error
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+--- exit code: 1; classification: test_error ---
+
+=== OO: author_tests_rerun ===
+$ python -OO -B -m unittest -v test_model
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.572s
+
+OK
+--- exit code: 0 ---

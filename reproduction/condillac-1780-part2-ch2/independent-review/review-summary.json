@@ -1,0 +1,1310 @@
+{
+  "reviewed_at_utc": "2026-10-12T00:52:58.973680+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "scope": "Independent finite-model audit; no historical or empirical validation",
+  "source_sha256": {
+    "MODEL.zh-CN.md": "b3718da3ac3db9f4063af921daca6e6c4aed8208a0c0de3a1d2395090d5af40d",
+    "README.md": "3e86c9aa8cf49bc045c4cb9b4552840a7d2345b82924a11beae7b8d010361f82",
+    "WALKTHROUGH.zh-CN.md": "6985b9bb01f474f6b2b98003f8e70e44031fa5a6393f46e8ac931fb78899e681",
+    "demo.py": "f8db7db30b6f1f0f41a6789debc85e18d9cc2b7c21c00f88815710f9d1d790f0",
+    "model.py": "5f9169e1b2366d44c116300e74bec71d9592ed244d74273af8bfbe4c3d2d88cf",
+    "mutation_check.py": "fbd14d29b30b34bdf7ee310f7b86479781ed61042ea2e1a0c89b799e23864f32",
+    "run_all.py": "6020d250367c9ffef37418e7616f9f46ce758317a6831ca88fb3cc88ccec4d5f",
+    "test_model.py": "5d717caac0e2596266dcad7477c3d530d42297e70f94d4e72660f62a1904467b"
+  },
+  "review_sha256": {
+    "run_review.py": "483ad098fac0d1acbbcc539f3c8181e8989f04f4b39e7514377c354204ff3f61",
+    "test_independent.py": "fe06484ec4f0eee7bd82d12c523763bdf04cdf47b617a403b954618584e80925"
+  },
+  "bare_assert_count": 0,
+  "log_normalization": "Only absolute execution paths replaced by placeholders; results and tracebacks retained.",
+  "modes": {
+    "normal": {
+      "independent": [
+        {
+          "name": "independent_suite",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "complete_frame_decisions": 14987,
+              "directed_graphs": {
+                "DAG": 572,
+                "cyclic_rejected": 3593,
+                "total": 4165
+              },
+              "distinct_JSON_frame_roundtrips": 400,
+              "explicit_prefix_relation_checks": 59320,
+              "heterogeneous_prefix_formula_checks": 240,
+              "hypothesis_subset_observation_checks": 10965,
+              "joint_DAG_dictionary_models": 1843
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 11,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 11,
+            "tests": 11
+          }
+        },
+        {
+          "name": "ignore_precedence/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "ignore_precedence/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "distinct_JSON_frame_roundtrips": 400
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "syntax_control",
+          "expected": "syntax_failure",
+          "outcome": "syntax_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "SyntaxError",
+            "optimize": 0
+          }
+        },
+        {
+          "name": "import_control",
+          "expected": "import_failure",
+          "outcome": "import_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "ModuleNotFoundError",
+            "optimize": 0
+          }
+        },
+        {
+          "name": "early_exit_control",
+          "expected": "harness_failure",
+          "outcome": "harness_failure",
+          "exit_code": 0
+        },
+        {
+          "name": "timeout_control",
+          "expected": "timeout",
+          "outcome": "timeout",
+          "exit_code": null
+        },
+        {
+          "name": "runtime_error_control",
+          "expected": "test_error",
+          "outcome": "test_error",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 1,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 0,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        }
+      ],
+      "author_test_methods": 28,
+      "author_passed": true
+    },
+    "O": {
+      "independent": [
+        {
+          "name": "independent_suite",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "complete_frame_decisions": 14987,
+              "directed_graphs": {
+                "DAG": 572,
+                "cyclic_rejected": 3593,
+                "total": 4165
+              },
+              "distinct_JSON_frame_roundtrips": 400,
+              "explicit_prefix_relation_checks": 59320,
+              "heterogeneous_prefix_formula_checks": 240,
+              "hypothesis_subset_observation_checks": 10965,
+              "joint_DAG_dictionary_models": 1843
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 11,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 11,
+            "tests": 11
+          }
+        },
+        {
+          "name": "ignore_precedence/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "ignore_precedence/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "distinct_JSON_frame_roundtrips": 400
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "syntax_control",
+          "expected": "syntax_failure",
+          "outcome": "syntax_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "SyntaxError",
+            "optimize": 1
+          }
+        },
+        {
+          "name": "import_control",
+          "expected": "import_failure",
+          "outcome": "import_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "ModuleNotFoundError",
+            "optimize": 1
+          }
+        },
+        {
+          "name": "early_exit_control",
+          "expected": "harness_failure",
+          "outcome": "harness_failure",
+          "exit_code": 0
+        },
+        {
+          "name": "timeout_control",
+          "expected": "timeout",
+          "outcome": "timeout",
+          "exit_code": null
+        },
+        {
+          "name": "runtime_error_control",
+          "expected": "test_error",
+          "outcome": "test_error",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 1,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 1,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        }
+      ],
+      "author_test_methods": 28,
+      "author_passed": true
+    },
+    "OO": {
+      "independent": [
+        {
+          "name": "independent_suite",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "complete_frame_decisions": 14987,
+              "directed_graphs": {
+                "DAG": 572,
+                "cyclic_rejected": 3593,
+                "total": 4165
+              },
+              "distinct_JSON_frame_roundtrips": 400,
+              "explicit_prefix_relation_checks": 59320,
+              "heterogeneous_prefix_formula_checks": 240,
+              "hypothesis_subset_observation_checks": 10965,
+              "joint_DAG_dictionary_models": 1843
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 11,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 11,
+            "tests": 11
+          }
+        },
+        {
+          "name": "ignore_precedence/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "ignore_precedence/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "forget_prefix_tail/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "keep_only_first_order/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_binding/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "discard_multiplicity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "pretend_injective/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "reverse_meaning/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_ambiguity/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {
+              "distinct_JSON_frame_roundtrips": 400
+            },
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "erase_frame_boundaries/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/baseline",
+          "expected": "survived",
+          "outcome": "survived",
+          "exit_code": 0,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "accept_one_example/mutation",
+          "expected": "behavior_caught",
+          "outcome": "behavior_caught",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 0,
+            "failures": 1,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        },
+        {
+          "name": "syntax_control",
+          "expected": "syntax_failure",
+          "outcome": "syntax_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "SyntaxError",
+            "optimize": 2
+          }
+        },
+        {
+          "name": "import_control",
+          "expected": "import_failure",
+          "outcome": "import_failure",
+          "exit_code": 3,
+          "record": {
+            "phase": "import",
+            "type": "ModuleNotFoundError",
+            "optimize": 2
+          }
+        },
+        {
+          "name": "early_exit_control",
+          "expected": "harness_failure",
+          "outcome": "harness_failure",
+          "exit_code": 0
+        },
+        {
+          "name": "timeout_control",
+          "expected": "timeout",
+          "outcome": "timeout",
+          "exit_code": null
+        },
+        {
+          "name": "runtime_error_control",
+          "expected": "test_error",
+          "outcome": "test_error",
+          "exit_code": 1,
+          "record": {
+            "coverage": {},
+            "errors": 1,
+            "failures": 0,
+            "finished": 1,
+            "optimize": 2,
+            "phase": "done",
+            "skipped": 0,
+            "started": 1,
+            "tests": 1
+          }
+        }
+      ],
+      "author_test_methods": 28,
+      "author_passed": true
+    }
+  },
+  "passed": true,
+  "source_unchanged": true,
+  "elapsed_seconds": 51.231967
+}

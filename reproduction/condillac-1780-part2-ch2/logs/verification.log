@@ -1,0 +1,931 @@
+PATH NORMALIZATION ONLY: ${PYTHON_EXECUTABLE} = current sys.executable; ${MUTATION_DIR} = each child temporary directory. No stdout/stderr lines removed.
+
+=== normal: tests ===
+$ '${PYTHON_EXECUTABLE}' -B -m unittest -v
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.204s
+
+OK
+--- exit code: 0 ---
+
+=== normal: mutations ===
+$ '${PYTHON_EXECUTABLE}' -B mutation_check.py --mode normal
+--- stdout ---
+{
+  "mode": "normal",
+  "mutation_count": 8,
+  "baseline_count": 8,
+  "control_count": 5,
+  "passed": true,
+  "cases": [
+    {
+      "name": "ignore_context_edges",
+      "kind": "baseline",
+      "test": "test_context_order_set",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "ignore_context_edges",
+      "kind": "mutation",
+      "test": "test_context_order_set",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... FAIL\n\n======================================================================\nFAIL: test_context_order_set (test_model.LanguageTests.test_context_order_set)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 33, in test_context_order_set\n    self.assertEqual(set(tiny_language().orders),\nAssertionError: Items in the first set but not the second:\n('act', 'agent', 'patient')\n('agent', 'act', 'patient')\n('patient', 'act', 'agent')\n('act', 'patient', 'agent')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "baseline",
+      "test": "test_prefix_counts",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "mutation",
+      "test": "test_prefix_counts",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... FAIL\n\n======================================================================\nFAIL: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\nAssertionError: Lists differ: [8, 8, 4, 2] != [8, 4, 2, 1]\n\nFirst differing element 1:\n8\n4\n\n- [8, 8, 4, 2]\n?     ---\n\n+ [8, 4, 2, 1]\n?         +++\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "baseline",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "mutation",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... FAIL\n\n======================================================================\nFAIL: test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 62, in test_aggregate_keeps_multiplicity\n    self.assertEqual(tiny_language().aggregate((\"A\", \"A\", \"help\")), ((\"A\", 2), (\"help\", 1)))\nAssertionError: Tuples differ: (('A', 1), ('help', 1)) != (('A', 2), ('help', 1))\n\nFirst differing element 0:\n('A', 1)\n('A', 2)\n\n- (('A', 1), ('help', 1))\n?        ^\n\n+ (('A', 2), ('help', 1))\n?        ^\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.003s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "baseline",
+      "test": "test_unlabeled_collision",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "mutation",
+      "test": "test_unlabeled_collision",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... FAIL\n\n======================================================================\nFAIL: test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 58, in test_unlabeled_collision\n    self.assertNotEqual(language.labeled((\"A\", \"B\", \"help\")),\nAssertionError: frozenset({('ignored', 'A'), ('ignored', 'help'), ('ignored', 'B')}) == frozenset({('ignored', 'A'), ('ignored', 'help'), ('ignored', 'B')})\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "baseline",
+      "test": "test_colliding_dictionary",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "mutation",
+      "test": "test_colliding_dictionary",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 66, in test_colliding_dictionary\n    self.assertFalse(language.injective)\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "baseline",
+      "test": "test_round_trip_alternate_order",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "mutation",
+      "test": "test_round_trip_alternate_order",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... FAIL\n\n======================================================================\nFAIL: test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 39, in test_round_trip_alternate_order\n    self.assertEqual(language.decode(pack(language.encode((\"A\", \"B\", \"help\"), order))),\nAssertionError: Tuples differ: ('help', 'B', 'A') != ('A', 'B', 'help')\n\nFirst differing element 0:\n'help'\n'A'\n\n- ('help', 'B', 'A')\n+ ('A', 'B', 'help')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "baseline",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "mutation",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... FAIL\n\n======================================================================\nFAIL: test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 77, in test_framing_distinguishes_boundaries\n    self.assertNotEqual(pack((\"a\", \"bc\")), pack((\"ab\", \"c\")))\nAssertionError: '\"abc\"' == '\"abc\"'\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "baseline",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "mutation",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... FAIL\n\n======================================================================\nFAIL: test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 161, in test_all_analogy_examples_applied\n    self.assertEqual(version_space(((\"0\", \"0\"), (\"0\", \"1\")), ((0, \"0\"), (1, \"1\"))),\nAssertionError: Items in the first set but not the second:\n('0', '0')\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "syntax",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "syntax_failure",
+      "outcome": "syntax_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"SyntaxError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1\n    def broken(:\n               ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "name": "import",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "import_failure",
+      "outcome": "import_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"ModuleNotFoundError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import nonexistent_condillac_control_module\nModuleNotFoundError: No module named 'nonexistent_condillac_control_module'\n"
+    },
+    {
+      "name": "early_exit",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "harness_failure",
+      "outcome": "harness_failure",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "timeout",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "timeout",
+      "outcome": "timeout",
+      "exit_code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "test_runtime_error",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "test_error",
+      "outcome": "test_error",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 1, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ERROR\n\n======================================================================\nERROR: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 143, in candidates\n    raise RuntimeError(\"intentional test-error control\")\nRuntimeError: intentional test-error control\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (errors=1)\n"
+    }
+  ]
+}
+--- stderr ---
+--- exit code: 0 ---
+
+=== O: tests ===
+$ '${PYTHON_EXECUTABLE}' -O -B -m unittest -v
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.826s
+
+OK
+--- exit code: 0 ---
+
+=== O: mutations ===
+$ '${PYTHON_EXECUTABLE}' -O -B mutation_check.py --mode O
+--- stdout ---
+{
+  "mode": "O",
+  "mutation_count": 8,
+  "baseline_count": 8,
+  "control_count": 5,
+  "passed": true,
+  "cases": [
+    {
+      "name": "ignore_context_edges",
+      "kind": "baseline",
+      "test": "test_context_order_set",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "ignore_context_edges",
+      "kind": "mutation",
+      "test": "test_context_order_set",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... FAIL\n\n======================================================================\nFAIL: test_context_order_set (test_model.LanguageTests.test_context_order_set)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 33, in test_context_order_set\n    self.assertEqual(set(tiny_language().orders),\nAssertionError: Items in the first set but not the second:\n('act', 'patient', 'agent')\n('act', 'agent', 'patient')\n('patient', 'act', 'agent')\n('agent', 'act', 'patient')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "baseline",
+      "test": "test_prefix_counts",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "mutation",
+      "test": "test_prefix_counts",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... FAIL\n\n======================================================================\nFAIL: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\nAssertionError: Lists differ: [8, 8, 4, 2] != [8, 4, 2, 1]\n\nFirst differing element 1:\n8\n4\n\n- [8, 8, 4, 2]\n?     ---\n\n+ [8, 4, 2, 1]\n?         +++\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "baseline",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "mutation",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... FAIL\n\n======================================================================\nFAIL: test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 62, in test_aggregate_keeps_multiplicity\n    self.assertEqual(tiny_language().aggregate((\"A\", \"A\", \"help\")), ((\"A\", 2), (\"help\", 1)))\nAssertionError: Tuples differ: (('A', 1), ('help', 1)) != (('A', 2), ('help', 1))\n\nFirst differing element 0:\n('A', 1)\n('A', 2)\n\n- (('A', 1), ('help', 1))\n?        ^\n\n+ (('A', 2), ('help', 1))\n?        ^\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "baseline",
+      "test": "test_unlabeled_collision",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "mutation",
+      "test": "test_unlabeled_collision",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... FAIL\n\n======================================================================\nFAIL: test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 58, in test_unlabeled_collision\n    self.assertNotEqual(language.labeled((\"A\", \"B\", \"help\")),\nAssertionError: frozenset({('ignored', 'help'), ('ignored', 'B'), ('ignored', 'A')}) == frozenset({('ignored', 'help'), ('ignored', 'B'), ('ignored', 'A')})\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "baseline",
+      "test": "test_colliding_dictionary",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "mutation",
+      "test": "test_colliding_dictionary",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 66, in test_colliding_dictionary\n    self.assertFalse(language.injective)\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "baseline",
+      "test": "test_round_trip_alternate_order",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "mutation",
+      "test": "test_round_trip_alternate_order",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... FAIL\n\n======================================================================\nFAIL: test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 39, in test_round_trip_alternate_order\n    self.assertEqual(language.decode(pack(language.encode((\"A\", \"B\", \"help\"), order))),\nAssertionError: Tuples differ: ('help', 'B', 'A') != ('A', 'B', 'help')\n\nFirst differing element 0:\n'help'\n'A'\n\n- ('help', 'B', 'A')\n+ ('A', 'B', 'help')\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "baseline",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "mutation",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... FAIL\n\n======================================================================\nFAIL: test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 77, in test_framing_distinguishes_boundaries\n    self.assertNotEqual(pack((\"a\", \"bc\")), pack((\"ab\", \"c\")))\nAssertionError: '\"abc\"' == '\"abc\"'\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "baseline",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "mutation",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... FAIL\n\n======================================================================\nFAIL: test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 161, in test_all_analogy_examples_applied\n    self.assertEqual(version_space(((\"0\", \"0\"), (\"0\", \"1\")), ((0, \"0\"), (1, \"1\"))),\nAssertionError: Items in the first set but not the second:\n('0', '0')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "syntax",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "syntax_failure",
+      "outcome": "syntax_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"SyntaxError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1\n    def broken(:\n               ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "name": "import",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "import_failure",
+      "outcome": "import_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"ModuleNotFoundError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import nonexistent_condillac_control_module\nModuleNotFoundError: No module named 'nonexistent_condillac_control_module'\n"
+    },
+    {
+      "name": "early_exit",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "harness_failure",
+      "outcome": "harness_failure",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "timeout",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "timeout",
+      "outcome": "timeout",
+      "exit_code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "test_runtime_error",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "test_error",
+      "outcome": "test_error",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 1, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ERROR\n\n======================================================================\nERROR: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 143, in candidates\n    raise RuntimeError(\"intentional test-error control\")\nRuntimeError: intentional test-error control\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n"
+    }
+  ]
+}
+--- stderr ---
+--- exit code: 0 ---
+
+=== OO: tests ===
+$ '${PYTHON_EXECUTABLE}' -OO -B -m unittest -v
+--- stdout ---
+--- stderr ---
+test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok
+test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok
+test_analogy_underdetermination (test_model.LanguageTests.test_analogy_underdetermination) ... ok
+test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok
+test_complete_coverage_required (test_model.LanguageTests.test_complete_coverage_required) ... ok
+test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok
+test_contradictory_examples (test_model.LanguageTests.test_contradictory_examples) ... ok
+test_exhaustive_binary_schemas_through_three_features (test_model.LanguageTests.test_exhaustive_binary_schemas_through_three_features) ... ok
+test_exhaustive_colliding_lexicons (test_model.LanguageTests.test_exhaustive_colliding_lexicons) ... ok
+test_false_observation_can_exclude_truth (test_model.LanguageTests.test_false_observation_can_exclude_truth) ... ok
+test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok
+test_framing_special_characters (test_model.LanguageTests.test_framing_special_characters) ... ok
+test_heterogeneous_domain_count (test_model.LanguageTests.test_heterogeneous_domain_count) ... ok
+test_impossible_prefixes (test_model.LanguageTests.test_impossible_prefixes) ... ok
+test_injectivity_is_sufficient_not_necessary (test_model.LanguageTests.test_injectivity_is_sufficient_not_necessary) ... ok
+test_input_snapshots (test_model.LanguageTests.test_input_snapshots) ... ok
+test_invalid_analogy_input (test_model.LanguageTests.test_invalid_analogy_input) ... ok
+test_invalid_dictionary (test_model.LanguageTests.test_invalid_dictionary) ... ok
+test_invalid_edges (test_model.LanguageTests.test_invalid_edges) ... ok
+test_invalid_frames (test_model.LanguageTests.test_invalid_frames) ... ok
+test_invalid_messages (test_model.LanguageTests.test_invalid_messages) ... ok
+test_invalid_order (test_model.LanguageTests.test_invalid_order) ... ok
+test_invalid_schema (test_model.LanguageTests.test_invalid_schema) ... ok
+test_non_strict_shrinkage (test_model.LanguageTests.test_non_strict_shrinkage) ... ok
+test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok
+test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok
+test_true_message_remains (test_model.LanguageTests.test_true_message_remains) ... ok
+test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.756s
+
+OK
+--- exit code: 0 ---
+
+=== OO: mutations ===
+$ '${PYTHON_EXECUTABLE}' -OO -B mutation_check.py --mode OO
+--- stdout ---
+{
+  "mode": "OO",
+  "mutation_count": 8,
+  "baseline_count": 8,
+  "control_count": 5,
+  "passed": true,
+  "cases": [
+    {
+      "name": "ignore_context_edges",
+      "kind": "baseline",
+      "test": "test_context_order_set",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "ignore_context_edges",
+      "kind": "mutation",
+      "test": "test_context_order_set",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_context_order_set (test_model.LanguageTests.test_context_order_set) ... FAIL\n\n======================================================================\nFAIL: test_context_order_set (test_model.LanguageTests.test_context_order_set)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 33, in test_context_order_set\n    self.assertEqual(set(tiny_language().orders),\nAssertionError: Items in the first set but not the second:\n('agent', 'act', 'patient')\n('patient', 'act', 'agent')\n('act', 'patient', 'agent')\n('act', 'agent', 'patient')\n\n----------------------------------------------------------------------\nRan 1 test in 0.003s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "baseline",
+      "test": "test_prefix_counts",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "forget_last_observation",
+      "kind": "mutation",
+      "test": "test_prefix_counts",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... FAIL\n\n======================================================================\nFAIL: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\nAssertionError: Lists differ: [8, 8, 4, 2] != [8, 4, 2, 1]\n\nFirst differing element 1:\n8\n4\n\n- [8, 8, 4, 2]\n?     ---\n\n+ [8, 4, 2, 1]\n?         +++\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "baseline",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_multiplicity",
+      "kind": "mutation",
+      "test": "test_aggregate_keeps_multiplicity",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity) ... FAIL\n\n======================================================================\nFAIL: test_aggregate_keeps_multiplicity (test_model.LanguageTests.test_aggregate_keeps_multiplicity)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 62, in test_aggregate_keeps_multiplicity\n    self.assertEqual(tiny_language().aggregate((\"A\", \"A\", \"help\")), ((\"A\", 2), (\"help\", 1)))\nAssertionError: Tuples differ: (('A', 1), ('help', 1)) != (('A', 2), ('help', 1))\n\nFirst differing element 0:\n('A', 1)\n('A', 2)\n\n- (('A', 1), ('help', 1))\n?        ^\n\n+ (('A', 2), ('help', 1))\n?        ^\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "baseline",
+      "test": "test_unlabeled_collision",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_feature_binding",
+      "kind": "mutation",
+      "test": "test_unlabeled_collision",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision) ... FAIL\n\n======================================================================\nFAIL: test_unlabeled_collision (test_model.LanguageTests.test_unlabeled_collision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 58, in test_unlabeled_collision\n    self.assertNotEqual(language.labeled((\"A\", \"B\", \"help\")),\nAssertionError: frozenset({('ignored', 'A'), ('ignored', 'help'), ('ignored', 'B')}) == frozenset({('ignored', 'A'), ('ignored', 'help'), ('ignored', 'B')})\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "baseline",
+      "test": "test_colliding_dictionary",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "claim_every_dictionary_injective",
+      "kind": "mutation",
+      "test": "test_colliding_dictionary",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_colliding_dictionary (test_model.LanguageTests.test_colliding_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 66, in test_colliding_dictionary\n    self.assertFalse(language.injective)\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "baseline",
+      "test": "test_round_trip_alternate_order",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "reverse_decoded_values",
+      "kind": "mutation",
+      "test": "test_round_trip_alternate_order",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order) ... FAIL\n\n======================================================================\nFAIL: test_round_trip_alternate_order (test_model.LanguageTests.test_round_trip_alternate_order)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 39, in test_round_trip_alternate_order\n    self.assertEqual(language.decode(pack(language.encode((\"A\", \"B\", \"help\"), order))),\nAssertionError: Tuples differ: ('help', 'B', 'A') != ('A', 'B', 'help')\n\nFirst differing element 0:\n'help'\n'A'\n\n- ('help', 'B', 'A')\n+ ('A', 'B', 'help')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "baseline",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "erase_frame_boundaries",
+      "kind": "mutation",
+      "test": "test_framing_distinguishes_boundaries",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries) ... FAIL\n\n======================================================================\nFAIL: test_framing_distinguishes_boundaries (test_model.LanguageTests.test_framing_distinguishes_boundaries)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 77, in test_framing_distinguishes_boundaries\n    self.assertNotEqual(pack((\"a\", \"bc\")), pack((\"ab\", \"c\")))\nAssertionError: '\"abc\"' == '\"abc\"'\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "baseline",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "survived",
+      "outcome": "survived",
+      "exit_code": 0,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "accept_any_example",
+      "kind": "mutation",
+      "test": "test_all_analogy_examples_applied",
+      "expected": "behavior_caught",
+      "outcome": "behavior_caught",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 1, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": "test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied) ... FAIL\n\n======================================================================\nFAIL: test_all_analogy_examples_applied (test_model.LanguageTests.test_all_analogy_examples_applied)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 161, in test_all_analogy_examples_applied\n    self.assertEqual(version_space(((\"0\", \"0\"), (\"0\", \"1\")), ((0, \"0\"), (1, \"1\"))),\nAssertionError: Items in the first set but not the second:\n('0', '0')\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "syntax",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "syntax_failure",
+      "outcome": "syntax_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"SyntaxError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1\n    def broken(:\n               ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "name": "import",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "import_failure",
+      "outcome": "import_failure",
+      "exit_code": 3,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"import\", \"type\": \"ModuleNotFoundError\"}\n",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import Language, pack, unpack, version_space\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import nonexistent_condillac_control_module\nModuleNotFoundError: No module named 'nonexistent_condillac_control_module'\n"
+    },
+    {
+      "name": "early_exit",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "harness_failure",
+      "outcome": "harness_failure",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "timeout",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "timeout",
+      "outcome": "timeout",
+      "exit_code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "test_runtime_error",
+      "kind": "control",
+      "test": "test_prefix_counts",
+      "expected": "test_error",
+      "outcome": "test_error",
+      "exit_code": 1,
+      "stdout": "__MUTATION_RECORD__={\"phase\": \"done\", \"run\": 1, \"started\": 1, \"finished\": 1, \"failures\": 0, \"errors\": 1, \"skipped\": 0}\n",
+      "stderr": "test_prefix_counts (test_model.LanguageTests.test_prefix_counts) ... ERROR\n\n======================================================================\nERROR: test_prefix_counts (test_model.LanguageTests.test_prefix_counts)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 45, in test_prefix_counts\n    self.assertEqual([len(language.candidates(tokens[:k])) for k in range(4)], [8, 4, 2, 1])\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 143, in candidates\n    raise RuntimeError(\"intentional test-error control\")\nRuntimeError: intentional test-error control\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n"
+    }
+  ]
+}
+--- stderr ---
+--- exit code: 0 ---
+
+=== demo ===
+$ '${PYTHON_EXECUTABLE}' -B demo.py
+--- stdout ---
+{
+  "scope": "Modern finite teaching abstraction; no historical algorithm or psychological validation.",
+  "context": {
+    "edges": [
+      [
+        "agent",
+        "act"
+      ],
+      [
+        "patient",
+        "act"
+      ]
+    ],
+    "legal_orders": [
+      [
+        "agent",
+        "patient",
+        "act"
+      ],
+      [
+        "patient",
+        "agent",
+        "act"
+      ]
+    ]
+  },
+  "serial": {
+    "message": [
+      "A",
+      "B",
+      "help"
+    ],
+    "tokens": [
+      "[\"agent\",\"A\"]",
+      "[\"patient\",\"B\"]",
+      "[\"act\",\"help\"]"
+    ],
+    "wire": "[\"[\\\"agent\\\",\\\"A\\\"]\",\"[\\\"patient\\\",\\\"B\\\"]\",\"[\\\"act\\\",\\\"help\\\"]\"]",
+    "prefix_candidate_counts": [
+      8,
+      4,
+      2,
+      1
+    ],
+    "decoded": [
+      "A",
+      "B",
+      "help"
+    ],
+    "alternate_decoded": [
+      "A",
+      "B",
+      "help"
+    ]
+  },
+  "binding_loss": {
+    "first": [
+      "A",
+      "B",
+      "help"
+    ],
+    "second": [
+      "B",
+      "A",
+      "help"
+    ],
+    "same_unlabeled_aggregate": true,
+    "same_labeled_set": false
+  },
+  "dictionary_collision": {
+    "injective": false,
+    "full_frame_candidates": [
+      [
+        "A",
+        "B",
+        "avoid"
+      ],
+      [
+        "A",
+        "B",
+        "help"
+      ]
+    ]
+  },
+  "framing": {
+    "first": [
+      "a",
+      "bc"
+    ],
+    "second": [
+      "ab",
+      "c"
+    ],
+    "same_plain_concatenation": true,
+    "same_json_frame": false
+  },
+  "analogy_limit": {
+    "examples": [
+      [
+        0,
+        "0"
+      ],
+      [
+        1,
+        "1"
+      ]
+    ],
+    "remaining_tables": [
+      [
+        "0",
+        "1",
+        "2"
+      ],
+      [
+        "0",
+        "1",
+        "4"
+      ]
+    ],
+    "unseen_symbol_2_predictions": [
+      "2",
+      "4"
+    ],
+    "affine_prior_remaining": [
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  }
+}
+--- stderr ---
+--- exit code: 0 ---
