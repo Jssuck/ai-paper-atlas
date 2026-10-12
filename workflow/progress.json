@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "locke-1690-understanding-ii11",
+    "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+    "stage": "primary_source_boundary_verification",
+    "scope": "Essay Concerning Human Understanding Book II Chapter XI §§1–17, explicit earlier-predecessor backfill; edition page span and applicable errata being verified from primary images."
+  },
   "last_completed": {
     "id": "condillac-1768-academy-discourse",
     "path": "papers/1768/condillac-academy-discourse.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Three independent audits passed; 66 exact bindings, 20 author and 16 independent tests per three modes, four injected faults detected. All 31 remote files and blob identities verified. Recovered live browser gate passed nine full DOM bodies, 183 headings, 160 formulas, ten tables/470 raw-source cells, 319 relative paths and 20 answers. All new-document pixels and new README row/section inspected; older README content preserved by complete DOM check.",
     "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222; explicit chronological backfill. Academy historical scan and modern transcription compared; lentement/seulement and forme/force transcription discrepancies disclosed. Delivery date not asserted first-publication year. Modern teaching models distinguished from original claims."
   },
-  "updated_at": "2026-10-12T20:44:30Z",
+  "updated_at": "2026-10-12T21:34:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Verify primary edition boundaries and errata, complete this chapter and independent reviews before publication.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
