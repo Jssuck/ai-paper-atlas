@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "status": "passed_for_recorded_finite_checks",
+  "recorded_utc": "2026-10-12T13:10:20.547682+00:00",
+  "scope": "Independent automated code/API audit; not a human expert certification or general proof.",
+  "limitations": [
+    "No historical or psychological validation.",
+    "Only the explicit finite catalogs and schema cases were executed.",
+    "Minimum supported Python versions were not installed or tested.",
+    "No empirical runtime/space improvement claim is established.",
+    "Snapshot protection is ordinary mutation resistance, not a sandbox for hostile Python."
+  ],
+  "environment": {
+    "interpreter": "CPython",
+    "python_version": "3.12.14",
+    "python_build": [
+      "main",
+      "Aug 25 2026 14:00:49"
+    ],
+    "compiler": "Clang 22.1.3 ",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "working_directory": ".",
+    "dependencies": "Python standard library only",
+    "PYTHONHASHSEED": "0"
+  },
+  "static_python_assert_counts": {
+    "model.py": 0,
+    "demo.py": 0,
+    "test_model.py": 0,
+    "independent_checks.py": 0
+  },
+  "reviewed_input_sha256": {
+    "model.py": "8acd0315b5b76c454048d1635109e88912a9596b3c3f8b9baf87a3e7dc84408c",
+    "demo.py": "4b768875b165b47404697018b5b312ea831ee11619ef6efb10cabf2c38a9c699",
+    "test_model.py": "d5216e1453b4b3821e65223567bd5c1db896d08a22a1124c82b4eb4c33e4b22a",
+    "verify.py": "0fd446559dcb6189c0cc60c6a51b1b5f166f4d60cabd6c055700e7bc07116af8",
+    "README.md": "5c870a3e4d4eeaa67d311ed2a3cb1ede61a538c4671e3e82e2b4293c99db434e",
+    "MODEL.md": "3b72f7161e371c29b529814e35e796f59161cb62cf995fd94cac574cfc6fbde8",
+    "WALKTHROUGH.md": "439469510251de3151622dcf7ba877349396611474462407f027665441713843",
+    "RESULTS.md": "75a585234c1f65e6b7e0dbf46e5bc5d1844c94eb275b2df82c052edd28270c67",
+    "examples/expected_results.json": "3b149e2f5959da0f66471b24ba05cdcd3ddd1c680ba5cf14c8e9d102d1d73e8d",
+    "independent_checks.py": "eaa32ba3db682c6836b7ac405a2e3169397cd01de7d957b0b9691c92e0fa178a",
+    "run_independent_audit.py": "a9446b878b3108d0456374a3568009ca9e00a780ab1c075139ea1a01103d8954",
+    "AUDIT.md": "57f253f3b9428a83f2bc0c7476c753c5e59923b3ad22a90337a922c2944f1496",
+    "../../papers/1768/condillac-academy-discourse.zh-CN.md": "f03a2d437835f4da4f00d3eec9120723c7db61e912600185db5e5b22acc2b507"
+  },
+  "runs": [
+    {
+      "mode": "normal",
+      "log": "logs/independent-normal.log",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-c",
+            "import sys; print('optimize=' + str(sys.flags.optimize)); print('debug=' + str(__debug__))"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.161075
+        },
+        {
+          "command": [
+            "python3",
+            "-m",
+            "unittest",
+            "-v",
+            "test_model"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 3.479838,
+          "test_methods": 20
+        },
+        {
+          "command": [
+            "python3",
+            "independent_checks.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 22.098089,
+          "test_methods": 16,
+          "finite_counts": {
+            "decoder_candidates": 81432,
+            "graph_seed_cases": 16384,
+            "invalid_graph_specs": 20,
+            "invalid_representation_specs": 41,
+            "invalid_tree_specs": 29,
+            "partial_training_tables": 1472,
+            "refinement_comparisons": 972,
+            "representation_populations": 3510,
+            "self_loop_and_content_invariance_cases": 16384,
+            "single_edge_augmentation_cases": 4095,
+            "tree_input_evaluations": 2944,
+            "tree_specifications": 368
+          }
+        },
+        {
+          "command": [
+            "python3",
+            "demo.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.125689,
+          "exact_demo_bytes_match": true
+        }
+      ]
+    },
+    {
+      "mode": "optimized",
+      "log": "logs/independent-optimized.log",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-O",
+            "-c",
+            "import sys; print('optimize=' + str(sys.flags.optimize)); print('debug=' + str(__debug__))"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.044227
+        },
+        {
+          "command": [
+            "python3",
+            "-O",
+            "-m",
+            "unittest",
+            "-v",
+            "test_model"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.812233,
+          "test_methods": 20
+        },
+        {
+          "command": [
+            "python3",
+            "-O",
+            "independent_checks.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 28.479054,
+          "test_methods": 16,
+          "finite_counts": {
+            "decoder_candidates": 81432,
+            "graph_seed_cases": 16384,
+            "invalid_graph_specs": 20,
+            "invalid_representation_specs": 41,
+            "invalid_tree_specs": 29,
+            "partial_training_tables": 1472,
+            "refinement_comparisons": 972,
+            "representation_populations": 3510,
+            "self_loop_and_content_invariance_cases": 16384,
+            "single_edge_augmentation_cases": 4095,
+            "tree_input_evaluations": 2944,
+            "tree_specifications": 368
+          }
+        },
+        {
+          "command": [
+            "python3",
+            "-O",
+            "demo.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.760935,
+          "exact_demo_bytes_match": true
+        }
+      ]
+    },
+    {
+      "mode": "double-optimized",
+      "log": "logs/independent-double-optimized.log",
+      "commands": [
+        {
+          "command": [
+            "python3",
+            "-OO",
+            "-c",
+            "import sys; print('optimize=' + str(sys.flags.optimize)); print('debug=' + str(__debug__))"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.143344
+        },
+        {
+          "command": [
+            "python3",
+            "-OO",
+            "-m",
+            "unittest",
+            "-v",
+            "test_model"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 3.923717,
+          "test_methods": 20
+        },
+        {
+          "command": [
+            "python3",
+            "-OO",
+            "independent_checks.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 16.767257,
+          "test_methods": 16,
+          "finite_counts": {
+            "decoder_candidates": 81432,
+            "graph_seed_cases": 16384,
+            "invalid_graph_specs": 20,
+            "invalid_representation_specs": 41,
+            "invalid_tree_specs": 29,
+            "partial_training_tables": 1472,
+            "refinement_comparisons": 972,
+            "representation_populations": 3510,
+            "self_loop_and_content_invariance_cases": 16384,
+            "single_edge_augmentation_cases": 4095,
+            "tree_input_evaluations": 2944,
+            "tree_specifications": 368
+          }
+        },
+        {
+          "command": [
+            "python3",
+            "-OO",
+            "demo.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 1.003582,
+          "exact_demo_bytes_match": true
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "missing_compiled_entry",
+      "target": "IndependentTreeChecks.test_article_xor_eight_queries_and_preserved_error",
+      "exit_code": 1,
+      "expected_assertion_failure_detected": true,
+      "elapsed_seconds": 0.383761
+    },
+    {
+      "name": "zero_reported_minimum_risk",
+      "target": "IndependentRepresentationChecks.test_article_tie_refinement_and_binary_transfer",
+      "exit_code": 1,
+      "expected_assertion_failure_detected": true,
+      "elapsed_seconds": 0.608101
+    },
+    {
+      "name": "structural_support_conflation",
+      "target": "IndependentRepresentationChecks.test_zero_support_fiber_tie_and_scale_invariance",
+      "exit_code": 1,
+      "expected_assertion_failure_detected": true,
+      "elapsed_seconds": 0.350774
+    },
+    {
+      "name": "collapsed_diffusion_rounds",
+      "target": "IndependentDiffusionChecks.test_article_chain_shortcut_and_reachable_cycles",
+      "exit_code": 1,
+      "expected_assertion_failure_detected": true,
+      "elapsed_seconds": 0.289205
+    }
+  ],
+  "log_sha256": {
+    "logs/independent-normal.log": "27e5b898729ddcb74a58f7611565af7d1a6d33b4e8fc10f78414787d57fe0535",
+    "logs/independent-optimized.log": "00c9f077ae76f03610d932dd79fbad971e3020cb655f29cd41f075a8e9c192ce",
+    "logs/independent-double-optimized.log": "2ca5ed51d482a68fd02521d557d19e4cf0481c52672e8ed76dbe391ff7bfdeb1",
+    "logs/independent-negative-controls.log": "ea6ec9d5098ddbea4d0c86d61bc6a9d122eb01918495af9fb12835c7ae991078"
+  },
+  "binding_rule": "Relative paths resolve from this package. Each digest binds exact bytes. This JSON excludes itself, so no circular self-hash exists. Changing a reviewed input or a log invalidates this recorded verdict."
+}

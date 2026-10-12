@@ -1,0 +1,40 @@
+{
+  "diffusion": {
+    "chain_last_arrival": 3,
+    "directed_graphs_including_self_loops": 531,
+    "graph_seed_instances_checked": 4165,
+    "node_counts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "shortcut_last_node_arrival": 1,
+    "single_edge_additions_checked": 18562
+  },
+  "representation": {
+    "labels": [
+      0,
+      1
+    ],
+    "refinement_instances_checked": 26208,
+    "transfer_example_minimum_risk": "1/2",
+    "weight_alphabet": [
+      0,
+      1,
+      2
+    ],
+    "weighted_domains_checked": 22280,
+    "weighted_example_minimum_risk": "1/2"
+  },
+  "scope": "Independent finite mathematical witnesses; no production model import; not empirical psychology or a general proof.",
+  "status": "PASS",
+  "tree": {
+    "XOR_compilation_predicate_queries": 8,
+    "pointwise_checks": 808,
+    "root_leaf_queries": 0,
+    "singleton_label_hypothesis_necessary": true,
+    "tree_specs": 202,
+    "wrong_tree_risk": "1/4"
+  }
+}

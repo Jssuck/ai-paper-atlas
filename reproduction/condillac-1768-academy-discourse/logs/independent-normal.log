@@ -1,0 +1,252 @@
+Independent audit subprocess transcript. Command executable shown as python3;
+any workspace traceback paths are rendered package-relative.
+$ python3 -c import sys; print('optimize=' + str(sys.flags.optimize)); print('debug=' + str(__debug__))
+optimize=0
+debug=True
+exit_code=0
+elapsed_seconds=0.161075
+$ python3 -m unittest -v test_model
+test_chain_shortcuts_false_claim_and_provenance (test_model.DiffusionTests.test_chain_shortcuts_false_claim_and_provenance) ... ok
+test_cycles_self_loops_empty_seeds_and_empty_graph (test_model.DiffusionTests.test_cycles_self_loops_empty_seeds_and_empty_graph) ... ok
+test_exhaustive_4096_graph_seed_pairs_shortest_path_oracle (test_model.DiffusionTests.test_exhaustive_4096_graph_seed_pairs_shortest_path_oracle) ... ok
+test_validation (test_model.DiffusionTests.test_validation) ... ok
+test_article_uniform_transfer_weighted_tie_and_refinement (test_model.ExampleTests.test_article_uniform_transfer_weighted_tie_and_refinement) ... ok
+test_article_xor_and_wrong_leaf (test_model.ExampleTests.test_article_xor_and_wrong_leaf) ... ok
+test_exact_demo_snapshot_and_key_counterexamples (test_model.ExampleTests.test_exact_demo_snapshot_and_key_counterexamples) ... ok
+test_exact_risk_and_optimum (test_model.RepresentationTests.test_exact_risk_and_optimum) ... ok
+test_exhaustive_768_populations_against_all_binary_decoders (test_model.RepresentationTests.test_exhaustive_768_populations_against_all_binary_decoders) ... ok
+test_representation_validation_and_snapshot (test_model.RepresentationTests.test_representation_validation_and_snapshot) ... ok
+test_source_success_does_not_imply_target_success (test_model.RepresentationTests.test_source_success_does_not_imply_target_success) ... ok
+test_uniform_default_and_deterministic_tie (test_model.RepresentationTests.test_uniform_default_and_deterministic_tie) ... ok
+test_zero_mass_objects_and_fibers (test_model.RepresentationTests.test_zero_mass_objects_and_fibers) ... ok
+test_complete_compilation_and_costs (test_model.TreeTests.test_complete_compilation_and_costs) ... ok
+test_deep_tree_without_recursion_limit (test_model.TreeTests.test_deep_tree_without_recursion_limit) ... ok
+test_empty_domain_and_root_leaf (test_model.TreeTests.test_empty_domain_and_root_leaf) ... ok
+test_exhaustive_202_depth_two_trees (test_model.TreeTests.test_exhaustive_202_depth_two_trees) ... ok
+test_invalid_tree_schema (test_model.TreeTests.test_invalid_tree_schema) ... ok
+test_snapshot_immutability (test_model.TreeTests.test_snapshot_immutability) ... ok
+test_training_table_and_nonidentifiability (test_model.TreeTests.test_training_table_and_nonidentifiability) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.832s
+
+OK
+exit_code=0
+elapsed_seconds=3.479838
+$ python3 independent_checks.py
+test_16384_graph_seed_cases_by_simple_paths (__main__.IndependentDiffusionChecks.test_16384_graph_seed_cases_by_simple_paths) ... ok
+test_added_edge_monotonicity_all_four_vertex_graphs (__main__.IndependentDiffusionChecks.test_added_edge_monotonicity_all_four_vertex_graphs) ... ok
+test_article_chain_shortcut_and_reachable_cycles (__main__.IndependentDiffusionChecks.test_article_chain_shortcut_and_reachable_cycles) ... ok
+test_origin_identifiers_are_deduplicated_without_independence_claim (__main__.IndependentDiffusionChecks.test_origin_identifiers_are_deduplicated_without_independence_claim) ... ok
+test_schema_diffusion_and_provenance_malformed (__main__.IndependentDiffusionChecks.test_schema_diffusion_and_provenance_malformed) ... ok
+test_3510_populations_by_complete_decoder_enumeration (__main__.IndependentRepresentationChecks.test_3510_populations_by_complete_decoder_enumeration) ... ok
+test_article_tie_refinement_and_binary_transfer (__main__.IndependentRepresentationChecks.test_article_tie_refinement_and_binary_transfer) ... ok
+test_label_reversal_distinct_from_information_loss (__main__.IndependentRepresentationChecks.test_label_reversal_distinct_from_information_loss) ... ok
+test_refinement_catalog_never_increases_optimum (__main__.IndependentRepresentationChecks.test_refinement_catalog_never_increases_optimum) ... ok
+test_schema_representation_malformed (__main__.IndependentRepresentationChecks.test_schema_representation_malformed) ... ok
+test_zero_support_fiber_tie_and_scale_invariance (__main__.IndependentRepresentationChecks.test_zero_support_fiber_tie_and_scale_invariance) ... ok
+test_snapshots_do_not_alias_input_containers (__main__.IndependentSnapshotChecks.test_snapshots_do_not_alias_input_containers) ... ok
+test_368_tree_catalog_by_leaf_path_constraints (__main__.IndependentTreeChecks.test_368_tree_catalog_by_leaf_path_constraints) ... ok
+test_article_xor_eight_queries_and_preserved_error (__main__.IndependentTreeChecks.test_article_xor_eight_queries_and_preserved_error) ... ok
+test_empty_domain_leaf_and_branch_boundary (__main__.IndependentTreeChecks.test_empty_domain_leaf_and_branch_boundary) ... ok
+test_schema_tree_malformed_and_cycle_cases (__main__.IndependentTreeChecks.test_schema_tree_malformed_and_cycle_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 21.450s
+
+OK
+FINITE_AUDIT_COUNTS={"decoder_candidates": 81432, "graph_seed_cases": 16384, "invalid_graph_specs": 20, "invalid_representation_specs": 41, "invalid_tree_specs": 29, "partial_training_tables": 1472, "refinement_comparisons": 972, "representation_populations": 3510, "self_loop_and_content_invariance_cases": 16384, "single_edge_augmentation_cases": 4095, "tree_input_evaluations": 2944, "tree_specifications": 368}
+exit_code=0
+elapsed_seconds=22.098089
+$ python3 demo.py
+{
+  "A_compilation": {
+    "fast_wrong_input": "c",
+    "root_leaf_predicate_tests": 0,
+    "rows": [
+      {
+        "abstract_lookups": 1,
+        "compiled_label": "drop",
+        "input": "a",
+        "predicate_tests": 1,
+        "tree_label": "drop",
+        "true_label": "drop"
+      },
+      {
+        "abstract_lookups": 1,
+        "compiled_label": "drop",
+        "input": "b",
+        "predicate_tests": 1,
+        "tree_label": "drop",
+        "true_label": "drop"
+      },
+      {
+        "abstract_lookups": 1,
+        "compiled_label": "drop",
+        "input": "c",
+        "predicate_tests": 2,
+        "tree_label": "drop",
+        "true_label": "keep"
+      },
+      {
+        "abstract_lookups": 1,
+        "compiled_label": "keep",
+        "input": "d",
+        "predicate_tests": 2,
+        "tree_label": "keep",
+        "true_label": "keep"
+      }
+    ],
+    "stored_labels": 4,
+    "training_only_keys": [
+      "b",
+      "d"
+    ],
+    "uniform_compiled_error": "1/4",
+    "uniform_tree_error": "1/4",
+    "unseen_inputs_without_guarantee": [
+      "a",
+      "c"
+    ]
+  },
+  "B_copies_and_diffusion": {
+    "chain_first_arrival": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "chain_snapshots": [
+      [
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "B",
+        "C"
+      ],
+      [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    ],
+    "copies": 100,
+    "distinct_recorded_origins": 1,
+    "false_claim": "2 + 2 = 5",
+    "same_eventual_reach": true,
+    "shortcut_first_arrival": {
+      "A": 0,
+      "B": 1,
+      "C": 1,
+      "D": 1
+    },
+    "shortcut_snapshots": [
+      [
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    ],
+    "truthful_and_false_claim_same_spread": true
+  },
+  "B_representation": {
+    "minimum_error_mass": "3",
+    "minimum_target_risk": "3/8",
+    "optimal_decoder": {
+      "A": "keep",
+      "B": "drop"
+    },
+    "shifted_minimum_risk": "0",
+    "shifted_target_structurally_sufficient": true,
+    "shifted_transferred_risk": "1",
+    "source_risk": "0",
+    "target_risk": "3/8",
+    "target_structurally_sufficient": false,
+    "target_total_mass": "8",
+    "zero_weight_decoder": {
+      "A": "keep",
+      "Z": "drop"
+    },
+    "zero_weight_minimum_risk": "0",
+    "zero_weight_structurally_sufficient": false,
+    "zero_weight_support_sufficient": true
+  },
+  "article_examples": {
+    "first_bit_transfer": {
+      "minimum_target_risk": "1/2",
+      "refined_minimum_target_risk": "0",
+      "source_risk": "0",
+      "target_risk": "1/2",
+      "target_structurally_sufficient": false
+    },
+    "weighted_tie_and_refinement": {
+      "deterministic_decoder": {
+        "same": "0"
+      },
+      "minimum_risk": "1/2",
+      "refined_minimum_risk": "0",
+      "total_mass": "6"
+    },
+    "xor": {
+      "compilation_predicate_tests": 8,
+      "compiled_labels": [
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      "inputs": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ],
+      "predicate_tests_per_query": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "stored_labels": 4,
+      "tree_labels": [
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      "true_labels": [
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      "wrong_compiled_labels": [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      "wrong_compiled_risk": "1/4",
+      "wrong_tree_labels": [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      "wrong_tree_risk": "1/4"
+    }
+  },
+  "scope": "Modern finite illustration; not Condillac's mathematics or historical/psychological evidence."
+}
+exit_code=0
+elapsed_seconds=0.125689

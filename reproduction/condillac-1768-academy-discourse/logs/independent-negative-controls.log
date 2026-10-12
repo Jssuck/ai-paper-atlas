@@ -1,0 +1,85 @@
+Negative controls modify only a fresh subprocess in memory.
+Expected assertion failures demonstrate that selected checks reject these faults.
+Traceback locations are package-relative; other subprocess output is preserved.
+CONTROL=missing_compiled_entry
+TARGET=IndependentTreeChecks.test_article_xor_eight_queries_and_preserved_error
+test_article_xor_eight_queries_and_preserved_error (independent_checks.IndependentTreeChecks.test_article_xor_eight_queries_and_preserved_error) ... FAIL
+
+======================================================================
+FAIL: test_article_xor_eight_queries_and_preserved_error (independent_checks.IndependentTreeChecks.test_article_xor_eight_queries_and_preserved_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent_checks.py", line 118, in test_article_xor_eight_queries_and_preserved_error
+    self.assertEqual(dict(tree.compile().table), truth)
+AssertionError: {'01': '1', '10': '1', '11': '0'} != {'00': '0', '01': '1', '10': '1', '11': '0'}
+- {'01': '1', '10': '1', '11': '0'}
++ {'00': '0', '01': '1', '10': '1', '11': '0'}
+?  +++++++++++
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)
+exit_code=1
+expected_assertion_failure_detected=True
+CONTROL=zero_reported_minimum_risk
+TARGET=IndependentRepresentationChecks.test_article_tie_refinement_and_binary_transfer
+test_article_tie_refinement_and_binary_transfer (independent_checks.IndependentRepresentationChecks.test_article_tie_refinement_and_binary_transfer) ... FAIL
+
+======================================================================
+FAIL: test_article_tie_refinement_and_binary_transfer (independent_checks.IndependentRepresentationChecks.test_article_tie_refinement_and_binary_transfer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent_checks.py", line 221, in test_article_tie_refinement_and_binary_transfer
+    self.assertEqual(coarse.best_decoder().risk, Fraction(1, 2))
+AssertionError: Fraction(0, 1) != Fraction(1, 2)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)
+exit_code=1
+expected_assertion_failure_detected=True
+CONTROL=structural_support_conflation
+TARGET=IndependentRepresentationChecks.test_zero_support_fiber_tie_and_scale_invariance
+test_zero_support_fiber_tie_and_scale_invariance (independent_checks.IndependentRepresentationChecks.test_zero_support_fiber_tie_and_scale_invariance) ... FAIL
+
+======================================================================
+FAIL: test_zero_support_fiber_tie_and_scale_invariance (independent_checks.IndependentRepresentationChecks.test_zero_support_fiber_tie_and_scale_invariance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent_checks.py", line 245, in test_zero_support_fiber_tie_and_scale_invariance
+    self.assertFalse(domain.sufficient())
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+exit_code=1
+expected_assertion_failure_detected=True
+CONTROL=collapsed_diffusion_rounds
+TARGET=IndependentDiffusionChecks.test_article_chain_shortcut_and_reachable_cycles
+test_article_chain_shortcut_and_reachable_cycles (independent_checks.IndependentDiffusionChecks.test_article_chain_shortcut_and_reachable_cycles) ... FAIL
+
+======================================================================
+FAIL: test_article_chain_shortcut_and_reachable_cycles (independent_checks.IndependentDiffusionChecks.test_article_chain_shortcut_and_reachable_cycles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./independent_checks.py", line 354, in test_article_chain_shortcut_and_reachable_cycles
+    self.assertEqual(dict(chain.first_arrival), {'a': 0, 'b': 1, 'c': 2, 'd': 3})
+AssertionError: {'a': 0, 'b': 1, 'c': 1, 'd': 1} != {'a': 0, 'b': 1, 'c': 2, 'd': 3}
+- {'a': 0, 'b': 1, 'c': 1, 'd': 1}
+?                       ^       ^
+
++ {'a': 0, 'b': 1, 'c': 2, 'd': 3}
+?                       ^       ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)
+exit_code=1
+expected_assertion_failure_detected=True

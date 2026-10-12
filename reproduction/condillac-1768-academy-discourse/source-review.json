@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-12",
+  "unit": "Condillac réception discourse delivered 22 December 1768",
+  "language": "zh-CN",
+  "scope": {
+    "primary_unit_completed": true,
+    "unit_printed_pages": [
+      203,
+      222
+    ],
+    "unit_pdf_pages_1based": [
+      211,
+      230
+    ],
+    "page_count": 20,
+    "first_page_folio": "203 suppressed on opening page; assigned from continuity and contents printed231/PDF239",
+    "excluded": [
+      "La Logique",
+      "Potocki letter and Condillac reply printed199–202",
+      "Table des matières printed223–231",
+      "Batteux response as a whole"
+    ]
+  },
+  "primary_witness": {
+    "id": "IA-Wellcome-1798-XXII",
+    "url": "https://archive.org/details/b28772581_0022",
+    "sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529",
+    "pdf_page_count": 244,
+    "catalog_metadata_url": "https://archive.org/metadata/b28772581_0022",
+    "catalog_fields_verified": {
+      "date": "1798",
+      "volume": "Vol. 22",
+      "publisher": "Paris : C. Houel",
+      "contributor": "Wellcome Library"
+    },
+    "title_pages": {
+      "half_title_pdf": 5,
+      "imprint_booksellers_pdf": 6,
+      "main_title_pdf": 7,
+      "library_stamp_pdf": 8
+    },
+    "reading_edition_year": 1798,
+    "delivery_date": "1768-12-22",
+    "first_publication_year": null,
+    "publication_warning": "1768 is delivery date, not verified first-publication year; only one 1798 physical/digital witness counted.",
+    "download_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf"
+  },
+  "pages": [
+    {
+      "printed_page": 203,
+      "pdf_page_1based": 211,
+      "pdf_index_0based": 210,
+      "printed_folio_visible": false,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "篇首与任务定位",
+      "evidence_zh": "标题明确宣读于1768年12月22日，并继任d’Olivet；开篇承认学院接纳之恩，从心灵能力分析转到人类精神的发展。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "Après avoir essayé de faire l’analyse des facultés de l’ame",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=211"
+    },
+    {
+      "printed_page": 204,
+      "pdf_page_1based": 212,
+      "pdf_index_0based": 211,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "历史叙述的制度目的",
+      "evidence_zh": "对比野蛮、迷信与文艺复兴，明言叙述终点为院士的荣耀；以逐步经验与多余需要解释风俗。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "conduits lentement par les circonstances",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=212"
+    },
+    {
+      "printed_page": 205,
+      "pdf_page_1based": 213,
+      "pdf_index_0based": 212,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "习惯不能适应新政体",
+      "evidence_zh": "将欧洲新王国的统治失误解释为沿用森林生活的偏见、以武力代法律；是作者概括，不是现代历史定论。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "ils croient que des états se gouvernent comme des hordes",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=213"
+    },
+    {
+      "printed_page": 206,
+      "pdf_page_1based": 214,
+      "pdf_index_0based": 213,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "奢侈效应与宗教区分",
+      "evidence_zh": "同一种多余需要在不同历史条件下被赋予相反效果；区分基督教的正义和平宗旨与迷信对宗教的败坏。",
+      "anchor_status": "locating paraphrase; not a quotation",
+      "anchor": "ce mélange des vices ne permet plus aux peuples de se gouverner par des lois",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=214"
+    },
+    {
+      "printed_page": 207,
+      "pdf_page_1based": 215,
+      "pdf_index_0based": 214,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "世代经验与希望",
+      "evidence_zh": "古典时代还能记忆旧德；作者将近代欧洲早期描为经验只传递罪恶灾难，因而失去希望。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "L’expérience du passé ôtoit donc jusqu’à l’illusion sur l’avenir",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=215"
+    },
+    {
+      "printed_page": 208,
+      "pdf_page_1based": 216,
+      "pdf_index_0based": 215,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "成见统治与双重转折",
+      "evidence_zh": "以opinion统治、末日恐惧、教权与帝权争执以及十字军为叙述转折；病体比喻不是医学证据。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "Cette double époque est remarquable",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=216"
+    },
+    {
+      "printed_page": 209,
+      "pdf_page_1based": 217,
+      "pdf_index_0based": 216,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "摆脱偏见的先决条件",
+      "evidence_zh": "摧毁偏见需要预先准备的心灵和不自觉接受的新准则；贬低从阿拉伯学校传来的辩证术，须显式标为作者评价。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "qu’ils aient adopté, sans en avoir prévu les conséquences, des maximes",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=217"
+    },
+    {
+      "printed_page": 210,
+      "pdf_page_1based": 218,
+      "pdf_index_0based": 217,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "论战、激励与伪知识",
+      "evidence_zh": "名誉、财富、掌声鼓励文字论辩；学习数量不等于知识进步，伪知识甚至比无知有害。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "le faux savoir, plus funeste encore que l’ignorance",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=218"
+    },
+    {
+      "printed_page": 211,
+      "pdf_page_1based": 219,
+      "pdf_index_0based": 218,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "理性需要方法",
+      "evidence_zh": "从中世纪叙述过渡到意大利诗人；复杂对象超出单凭理性的能力，方法如手臂的杠杆。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "elle a besoin de leviers",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=219"
+    },
+    {
+      "printed_page": 212,
+      "pdf_page_1based": 220,
+      "pdf_index_0based": 219,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "趣味是习惯化判断",
+      "evidence_zh": "以快感、美的反复比较、对感受及其原因的观察形成快速判断；所谓本能是启明的心灵之本能。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "le goût est un jugement rapide",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=220"
+    },
+    {
+      "printed_page": 213,
+      "pdf_page_1based": 221,
+      "pdf_index_0based": 220,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "传播与母语",
+      "evidence_zh": "趣味传播以电质类比；母语惯常表达如思想模具，死语言学习不能代替母语培养。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "nos pensées qui en prennent la forme",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=221"
+    },
+    {
+      "printed_page": 214,
+      "pdf_page_1based": 222,
+      "pdf_index_0based": 221,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "反对盲目古典学",
+      "evidence_zh": "作者抨击只学死语言、将希腊学者等同复兴源头、经院派与古典崇拜两极；随后述意大利语再受培养。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "une érudition pédantesque et peu éclairée",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=222"
+    },
+    {
+      "printed_page": 215,
+      "pdf_page_1based": 223,
+      "pdf_index_0based": 222,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "跨门类的相互照明",
+      "evidence_zh": "由美的判断通向真的判断；反对把学科隔离，提倡共同培养与对象间的反照。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "Les limites que nous élevons pour circonscrire chaque science",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=223"
+    },
+    {
+      "printed_page": 216,
+      "pdf_page_1based": 224,
+      "pdf_index_0based": 223,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "并存与法国条件",
+      "evidence_zh": "好趣味与败坏趣味、观察理性与害怕观察的意见共存；法国的较晚出现被说成较有利条件。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "parce que nous sommes venus plus tard",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=224"
+    },
+    {
+      "printed_page": 217,
+      "pdf_page_1based": 225,
+      "pdf_index_0based": 224,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "王权保护与学院创设",
+      "evidence_zh": "从François Ier和Ronsard转向Louis XIII与Richelieu；强调形势已在造成变化，政治家争取参与其中。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "il parut se mettre à sa place",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=225"
+    },
+    {
+      "printed_page": 218,
+      "pdf_page_1based": 226,
+      "pdf_index_0based": 225,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "王权颂辞",
+      "evidence_zh": "Louis XIV的保护、Louis XV的Bien-Aimé称号；君民相爱属入院典礼颂辞的政治语境。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "Louis-le-Grand vous assuroit la protection de Louis-le-Bien-Aimé",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=226"
+    },
+    {
+      "printed_page": 219,
+      "pdf_page_1based": 227,
+      "pdf_index_0based": 226,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "王子教育与保护",
+      "evidence_zh": "自述教导王孙的经验；保护的作用被解释为权威与启明结合并移除无知的障碍。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "c’est en les écartant que leur protection a la plus grande influence",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=227"
+    },
+    {
+      "printed_page": 220,
+      "pdf_page_1based": 228,
+      "pdf_index_0based": 227,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "回顾发展顺序",
+      "evidence_zh": "承认Louis XIV时代各门类进步不均；总结俗语培养、辨别地吸收古典、哲学与批评的顺序。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "Le goût a commencé avec l’étude des langues vulgaires",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=228"
+    },
+    {
+      "printed_page": 221,
+      "pdf_page_1based": 229,
+      "pdf_index_0based": 228,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "前任d’Olivet的学术形象",
+      "evidence_zh": "赞其对古典的热爱不盲目，译作显示趣味、母语语法与观察惯用法；末段转向当场答辞者。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "un grammairien qui sait observer l’usage",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=229"
+    },
+    {
+      "printed_page": 222,
+      "pdf_page_1based": 230,
+      "pdf_index_0based": 229,
+      "printed_folio_visible": true,
+      "full_page_pixels_inspected": true,
+      "heading_zh": "真正结束",
+      "evidence_zh": "延续221末句，称赞对方的趣味与见识；随后FIN DE CE VOLUME。正文至此结束，下一页是La Logique目录。",
+      "anchor_status": "visually checked short phrase; line-break hyphens normalized",
+      "anchor": "nous en avons pour garans votre goût et vos lumières",
+      "printed_footnotes_visible": false,
+      "marginal_annotation_visible": false,
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=230"
+    }
+  ],
+  "boundary_evidence": [
+    {
+      "pdf_page": 210,
+      "printed_page": 202,
+      "observation": "Previous unit ends Je suis, etc.; running head Réponse de M. de Condillac.",
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=210"
+    },
+    {
+      "pdf_page": 211,
+      "printed_page": 203,
+      "observation": "Independent DISCOURS title; date and reception occasion.",
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=211"
+    },
+    {
+      "pdf_page": 230,
+      "printed_page": 222,
+      "observation": "Speech ends above FIN DE CE VOLUME.",
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=230"
+    },
+    {
+      "pdf_page": 231,
+      "printed_page": 223,
+      "observation": "TABLE DES MATIÈRES DE LA LOGIQUE begins, not continued discourse.",
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=231"
+    },
+    {
+      "pdf_page": 239,
+      "printed_page": 231,
+      "observation": "Contents locates Potocki199, response201, discourse203 and repeats1768 delivery date.",
+      "page_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=239"
+    }
+  ],
+  "errata": {
+    "witness_url": "https://archive.org/details/b28772581_0023",
+    "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52",
+    "pdf_pages_1based": [
+      491,
+      492,
+      493
+    ],
+    "printed_pages": [
+      485,
+      486,
+      487
+    ],
+    "first_folio_visible": false,
+    "all_three_full_page_pixels_inspected": true,
+    "relevant_heading": "La Logique",
+    "entry": "Page 8, ligne 23, confirmation, lisez: conformation.",
+    "entry_location": {
+      "printed_page": 486,
+      "pdf_page": 492
+    },
+    "unit_targeted_correction_found": false,
+    "qualification": "Absence in inspected general errata is not proof that this discourse contains no typographical errors. L’Art de Penser is a separate work; do not conflate its entries with La Logique.",
+    "download_url": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf",
+    "imprint_pdf_page_1based": 5,
+    "imprint_visual_read": "A PARIS, DE L’IMPRIMERIE DE CH. HOUEL. AN VI.—1798. (E. vulg.)",
+    "pdf_page_count": 496
+  },
+  "academie_historical_scan": {
+    "url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf",
+    "sha256": "ffa25e81defee9acc949f7c61d43fa71129caebe01f87b0f324dd60e4465dd4a",
+    "pdf_page_count": 9,
+    "printed_pages": [
+      98,
+      115
+    ],
+    "all_nine_full_page_pixels_inspected": true,
+    "delivery_date_in_heading": "22 Décembre 1768",
+    "publication_year": null,
+    "not_a_second_1798_witness": true,
+    "title_leaf_present": false,
+    "includes_batteux_response": false,
+    "opening_contamination": "First three lines of printed98 are tail of preceding piece above rule; speech begins at DISCOURS below rule.",
+    "ending": "Printed115 ends with votre goût & vos lumières. No response follows in supplied file.",
+    "pages": [
+      {
+        "pdf_page_1based": 1,
+        "printed_pages": [
+          98,
+          99
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=1"
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_pages": [
+          100,
+          101
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=2"
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_pages": [
+          102,
+          103
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=3"
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_pages": [
+          104,
+          105
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=4"
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_pages": [
+          106,
+          107
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=5"
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_pages": [
+          108,
+          109
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=6"
+      },
+      {
+        "pdf_page_1based": 7,
+        "printed_pages": [
+          110,
+          111
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=7"
+      },
+      {
+        "pdf_page_1based": 8,
+        "printed_pages": [
+          112,
+          113
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=8"
+      },
+      {
+        "pdf_page_1based": 9,
+        "printed_pages": [
+          114,
+          115
+        ],
+        "full_page_pixels_inspected": true,
+        "page_url": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf#page=9"
+      }
+    ]
+  },
+  "web_transcription": {
+    "url": "https://www.academie-francaise.fr/discours-de-reception-de-labbe-de-condillac",
+    "date_verified": "1768-12-22",
+    "web_only_heading": "Du développement de l’esprit humain.",
+    "web_only_footnote": "M. l’abbé Batteux, directeur de l’Académie.",
+    "warning": "Heading and note are present on modern official webpage but absent from two inspected print witnesses; their origin/date is not established.",
+    "variants": [
+      {
+        "primary_printed_page": 204,
+        "historical_scan_printed_page": 99,
+        "both_prints": "conduits lentement par les circonstances",
+        "modern_web": "conduits seulement par les circonstances"
+      },
+      {
+        "primary_printed_page": 213,
+        "historical_scan_printed_page": 108,
+        "both_prints": "nos pensées qui en prennent la forme",
+        "modern_web": "nos pensées qui en prennent la force"
+      }
+    ]
+  },
+  "batteux_bounded_comparison": {
+    "url": "https://www.academie-francaise.fr/reponse-au-discours-de-reception-de-labbe-de-condillac",
+    "delivery_date": "1768-12-22",
+    "author": "Charles Batteux",
+    "selected_passages": [
+      {
+        "start": "Notre siècle, qui s’agite pour trouver le mieux",
+        "end": "c’étoit le sublime de votre genre.",
+        "subject": "Simpler natural metaphysics, genealogy of thoughts, connected clear ideas and appropriate expression"
+      },
+      {
+        "start": "Un Prince d’un sang auguste",
+        "end": "qui auront la force d’y atteindre.",
+        "subject": "Prince education, animated statue allusion, objects rather than verbal transmission, almost silent pedagogy; footnotes1–2"
+      },
+      {
+        "start": "Il est temps, Monsieur, de revenir à vous.",
+        "end": "ce qu’elle a perdu.",
+        "subject": "Analysis/metaphysics and taste as converging approaches to thinking and speaking"
+      }
+    ],
+    "whole_response_completed": false,
+    "response_scan_not_inspected": true,
+    "no_sensation_hierarchy_demonstrated": true,
+    "use": "Contemporary ceremonial reception and vocabulary; neither neutral review nor independent proof of Condillac’s claims."
+  },
+  "limitations": [
+    "No independently identified second1798 witness; unavailable Google lead not counted.",
+    "First publication not verified.",
+    "Official historical scan lacks book title/imprint leaves, so publication attribution remains unknown.",
+    "Batteux contextual selection does not constitute completion of the whole response.",
+    "Primary text is a ceremonial philosophical-historical discourse, not an experimental study or empirical proof."
+  ],
+  "review_status": "passed_with_explicit_scope_limits",
+  "review_type": "independent primary-source, page-location and historical-claim audit; not a certification by a human scholar",
+  "article_review": {
+    "entire_historical_commentary_reviewed": true,
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      13,
+      15,
+      16,
+      17
+    ],
+    "batteux_claims_verified": true,
+    "mathematics_reviewed_by_this_audit": false,
+    "blocking_source_findings": [],
+    "reading_unit_count": 1,
+    "unit_count_excludes_full_volume_and_batteux_response": true
+  },
+  "artifact_hash_algorithm": "SHA-256",
+  "artifact_hashes": {
+    "papers/1768/condillac-academy-discourse.zh-CN.md": "f03a2d437835f4da4f00d3eec9120723c7db61e912600185db5e5b22acc2b507",
+    "papers/1768/condillac-academy-discourse.sources.zh-CN.md": "6b199d91df10bec0a138b696ceee42cc413d14da459d6a0a86ac54641c0da805"
+  },
+  "hash_scope_note": "Hashes bind the exact UTF-8 file bytes reviewed. Any subsequent article or ledger edit requires renewed review and hashes.",
+  "source_coverage_note": "All20 complete primary pages, all9 historical Academy PDF spreads, primary title/imprint and boundary leaves, and all3 general errata pages were actually displayed and visually inspected. Batteux comparison is a bounded official-web-text selection only."
+}

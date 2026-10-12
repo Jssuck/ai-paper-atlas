@@ -1,0 +1,801 @@
+{
+  "schema_version": "1.0",
+  "unit_id": "condillac-1768-academy-discourse",
+  "audit_date": "2026-10-12",
+  "recorded_at_utc": "2026-10-12T13:11:27.808331+00:00",
+  "status": "PASS_AFTER_CORRECTIONS",
+  "scope": {
+    "entire_article_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "exercises_reviewed": 20,
+    "historical_unit_printed_pages": [
+      203,
+      222
+    ],
+    "historical_unit_pdf_pages_1based": [
+      211,
+      230
+    ],
+    "delivery_date": "1768-12-22",
+    "reading_edition_year": 1798,
+    "first_publication_year": null,
+    "Batteux": "three bounded passage groups only; not a completed whole unit",
+    "source_method": "Direct complete French OCR reading plus independent source audit image records; not a second self-performed 20-image collation",
+    "no_remote_writes": true,
+    "not_a_human_or_proof_assistant_certificate": true
+  },
+  "reviewed_files": {
+    "papers/1768/condillac-academy-discourse.zh-CN.md": "f03a2d437835f4da4f00d3eec9120723c7db61e912600185db5e5b22acc2b507",
+    "papers/1768/condillac-academy-discourse.sources.zh-CN.md": "6b199d91df10bec0a138b696ceee42cc413d14da459d6a0a86ac54641c0da805",
+    "reproduction/condillac-1768-academy-discourse/MODEL.md": "3b72f7161e371c29b529814e35e796f59161cb62cf995fd94cac574cfc6fbde8",
+    "reproduction/condillac-1768-academy-discourse/README.md": "5c870a3e4d4eeaa67d311ed2a3cb1ede61a538c4671e3e82e2b4293c99db434e",
+    "reproduction/condillac-1768-academy-discourse/RESULTS.md": "75a585234c1f65e6b7e0dbf46e5bc5d1844c94eb275b2df82c052edd28270c67",
+    "reproduction/condillac-1768-academy-discourse/WALKTHROUGH.md": "439469510251de3151622dcf7ba877349396611474462407f027665441713843",
+    "reproduction/condillac-1768-academy-discourse/model.py": "8acd0315b5b76c454048d1635109e88912a9596b3c3f8b9baf87a3e7dc84408c",
+    "reproduction/condillac-1768-academy-discourse/demo.py": "4b768875b165b47404697018b5b312ea831ee11619ef6efb10cabf2c38a9c699",
+    "reproduction/condillac-1768-academy-discourse/test_model.py": "d5216e1453b4b3821e65223567bd5c1db896d08a22a1124c82b4eb4c33e4b22a",
+    "reproduction/condillac-1768-academy-discourse/verify.py": "0fd446559dcb6189c0cc60c6a51b1b5f166f4d60cabd6c055700e7bc07116af8",
+    "reproduction/condillac-1768-academy-discourse/examples/expected_results.json": "3b149e2f5959da0f66471b24ba05cdcd3ddd1c680ba5cf14c8e9d102d1d73e8d",
+    "reproduction/condillac-1768-academy-discourse/source-review.json": "fe380d25c639237cf3492973b062e11f8cf48ceeed32209f508bbbb7e742135e",
+    "reproduction/condillac-1768-academy-discourse/AUDIT.md": "57f253f3b9428a83f2bc0c7476c753c5e59923b3ad22a90337a922c2944f1496",
+    "reproduction/condillac-1768-academy-discourse/audit/argument_oracle.py": "3bcc33e1051968353381d81f5c664ddaa4f9e1492898328ecf614935be42fcf7",
+    "reproduction/condillac-1768-academy-discourse/audit/argument_oracle.json": "ff0f7312a4dc08a40e1a35ce64ef95abac2bb31af9c6774120b74bb060787f15",
+    "README.md": "0c0db4e38bcc8e395bc4f2caeb77efb55063e5814757806ec29f95a8adacd683",
+    "reading-paths/early-foundations-candidates.json": "b921e10217ef1340503835200118cba21c6ab63c9aabb0684a5a23c9e0c5a46a",
+    "papers/1768/condillac-academy-discourse.audit.zh-CN.md": "838662b569e1bb5a145abef1f6683d96fd4b160eae4783af95c118479de47e35"
+  },
+  "historical_argument_checks": [
+    {
+      "location": "导言、范围、1–2节",
+      "claim": "宣读日、实际底本、完整二十页、礼仪功能与段落路线",
+      "finding_zh": "日期与版本分开正确；1768不冒充已核首刊，1798不冒充演说事件年。203–204确实把叙事终点明说为院士荣耀。路线包括历史叙述、心理解释、语言、学科、保护与悼颂，不以中段代全篇。",
+      "status": "PASS"
+    },
+    {
+      "location": "3.1节，204–206页",
+      "claim": "古代渐进变化与现代欧洲骤建国家；旧习惯遇新处境",
+      "finding_zh": "原文有“继续照旧行事”的机制，四步中文重建有根据。所谓分布变化被标为问题结构类比；没有把原文群体评价认作数据或现代定理。",
+      "status": "PASS"
+    },
+    {
+      "location": "3.2节，206–207页",
+      "claim": "基督宗教的规范理想与迷信的区别",
+      "finding_zh": "原文确实先赋予宗教正义、和平与联合的目的，再责人的歪曲。正文没有改成无差别反宗教论。",
+      "status": "PASS"
+    },
+    {
+      "location": "3.3节，207–208页",
+      "claim": "代际记忆、失望与未来可能性",
+      "finding_zh": "父辈对子辈的叙述及“仿佛自然注定”的语气有文本支持；从既往记录到全部可能性的批评明确属于本文分析。",
+      "status": "PASS"
+    },
+    {
+      "location": "4.1节，208–210页",
+      "claim": "意见、制度奖励、文字争辩与伪知识",
+      "finding_zh": "原文给名誉、财富、掌声等激励。正文只把机制当可能解释，要求另有历史证据；未认可关于阿拉伯学校或整个中世纪传统的负面概括。",
+      "status": "PASS"
+    },
+    {
+      "location": "4.2节，209–211页",
+      "claim": "改变偏见需要反驳能力、接受准备与既有原则",
+      "finding_zh": "所列条件准确。识别矛盾与真正修改信念不同，是有效限制；没有伪造普遍心理更新规则。",
+      "status": "PASS"
+    },
+    {
+      "location": "4.3节，208–211页",
+      "claim": "十字军、教俗争论、病体治疗类比",
+      "finding_zh": "原文的强必要性语气没有被抹去；正文指出类比、先后与因果必要性之间的缺口。既未证明灾难必需，也未凭现代态度断言作者每项因果均假。",
+      "status": "PASS"
+    },
+    {
+      "location": "5.1节，211–212页",
+      "claim": "方法为杠杆、复杂对象、理性进展慢",
+      "finding_zh": "文本定位正确。信息不足、表示混乱、推理过长的三分法明确是现代分析，不倒写给原作者。",
+      "status": "PASS"
+    },
+    {
+      "location": "5.2节，212页",
+      "claim": "愉快、美的比较、观察感受和原因、习惯、快速判断",
+      "finding_zh": "五步重建保留观察环节，未把“反复曝光”误作保证。原文的快速判断与“仿佛只在感觉”被正确联系。",
+      "status": "PASS"
+    },
+    {
+      "location": "5.3节，212页",
+      "claim": "愉快与真实的抗欺骗性主张",
+      "finding_zh": "当前感受、原因归因、可通用尺度三个命题确实不同；后两项不由第一项自动推出。修订稿恢复“不能像……那样欺骗”的强措辞，未降格成较低受骗概率；该保证被作为待检验主张。",
+      "status": "PASS"
+    },
+    {
+      "location": "6.1节，213页",
+      "claim": "惯用语言和思想模具",
+      "finding_zh": "依据是“forme”，不是网页误录的“force”。清晰、精确、优雅没有被混成真值；有限表示判准未被用来排序民族或自然语言。",
+      "status": "PASS"
+    },
+    {
+      "location": "6.2–6.3节，213–215、220–221页",
+      "claim": "古典学习、希腊学者批评与d’Olivet正面个案",
+      "finding_zh": "正文正确区分有判断的吸收与盲目崇拜。历史评价被归还作者，不当作已经完成的文化史证据。",
+      "status": "PASS"
+    },
+    {
+      "location": "7节，215、220页",
+      "claim": "门类相互照亮及进展不齐",
+      "finding_zh": "把美的判断迁至真的判断存在缺失前提；正文明确提出相容性要求。215几近同时进步与220不等程度的张力被保留，没有改写成全面同步升级。",
+      "status": "PASS"
+    },
+    {
+      "location": "8.1节，213页",
+      "claim": "电质比喻与传播",
+      "finding_zh": "是传播/触发的修辞类比，不是电学实验或神经机制。传播速度、真实性、独立来源分开合理。",
+      "status": "PASS"
+    },
+    {
+      "location": "8.2–8.3节，217–222页",
+      "claim": "Richelieu、Séguier、君主、王室教育与前任悼颂",
+      "finding_zh": "人名和论证功能对应；219的保护者作用确为移除障碍。赞颂与个人见证没有被当作普遍制度因果证明。",
+      "status": "PASS"
+    },
+    {
+      "location": "9节",
+      "claim": "七条论证箭头及待补证据",
+      "finding_zh": "各弱读法仅声称可能机制，均列出不能被原文或模型自动补齐的条件；没有以类比代证据。",
+      "status": "PASS"
+    },
+    {
+      "location": "13节",
+      "claim": "Batteux同日回应的有界比较",
+      "finding_zh": "对更自然简单的形而上学、思想来历、雕像与教育的概括可在所存学院答辞段落核到。未虚构感觉层级定理，未把礼仪回应当独立实验，也未将完整答辞另计完成。",
+      "status": "PASS"
+    },
+    {
+      "location": "14–15、17节",
+      "claim": "实际运行、局限、后续方向与总结",
+      "finding_zh": "历史、心理、形式与程序四类证据保持分离。后续研究是建议，未谎称已收集参与者数据、复原完整思想体系或证明历史穷尽。前序项目状态只是明确不改写的边界，不由本审计新增认证。",
+      "status": "PASS"
+    }
+  ],
+  "proof_checks": [
+    {
+      "id": "A1",
+      "claim": "tree_evaluation",
+      "status": "PASS",
+      "derivation": "Finite-tree structural induction gives termination, semantic label and exact predicate count."
+    },
+    {
+      "id": "A2",
+      "claim": "complete_compilation",
+      "status": "PASS",
+      "derivation": "Full enumeration preserves outputs, including errors; empty-domain and root-leaf cost boundaries retained."
+    },
+    {
+      "id": "A3",
+      "claim": "unseen_point",
+      "status": "PASS",
+      "derivation": "Requires at least two labels, a proper training subset and unrestricted compatible functions; corrected."
+    },
+    {
+      "id": "B1",
+      "claim": "fiber_sufficiency",
+      "status": "PASS",
+      "derivation": "Single-valued decoding proves necessity; common fiber labels construct sufficiency."
+    },
+    {
+      "id": "B2",
+      "claim": "minimum_weighted_risk",
+      "status": "PASS",
+      "derivation": "Per-fiber maximum correct mass minimizes independent nonnegative loss terms; W is positive."
+    },
+    {
+      "id": "B2a",
+      "claim": "zero_weight_support",
+      "status": "PASS",
+      "derivation": "Zero risk iff positive support is pure, not necessarily full domain; all-zero fibers handled."
+    },
+    {
+      "id": "B3",
+      "claim": "representation_refinement",
+      "status": "PASS",
+      "derivation": "Composing an old decoder with the refinement back-map reproduces every old prediction."
+    },
+    {
+      "id": "B4",
+      "claim": "transfer_counterexamples",
+      "status": "PASS",
+      "derivation": "First-bit source to second-bit target has minimum risk 1/2; pure swapped labels separate sufficiency and decoder correctness."
+    },
+    {
+      "id": "C1",
+      "claim": "reachability",
+      "status": "PASS",
+      "derivation": "Two inclusions in induction establish exact distance layers and shortest arrivals; finite stabilization."
+    },
+    {
+      "id": "C1a",
+      "claim": "edge_monotonicity",
+      "status": "PASS",
+      "derivation": "Every old path remains; strict acceleration and unchanged eventual reach are not universal."
+    },
+    {
+      "id": "C1b",
+      "claim": "truth_nonidentification",
+      "status": "PASS",
+      "derivation": "Identical trajectories for fixed true and false claims preclude truth determination from trajectories alone."
+    },
+    {
+      "id": "C2",
+      "claim": "copied_provenance",
+      "status": "PASS",
+      "derivation": "Identical origin records do not add observations; conditional-probability argument uses equal positive-probability events, not independence."
+    }
+  ],
+  "exercise_checks": [
+    {
+      "number": 1,
+      "status": "PASS",
+      "finding_zh": "正确：区分事件日、所读底本年与尚未认证的最早印行。"
+    },
+    {
+      "number": 2,
+      "status": "PASS",
+      "finding_zh": "正确：只取211–215会遗漏礼仪、历史、保护和220不齐进展。"
+    },
+    {
+      "number": 3,
+      "status": "PASS",
+      "finding_zh": "正确：习惯不相容是可能机制，不是整个时代因果的证明。"
+    },
+    {
+      "number": 4,
+      "status": "PASS",
+      "finding_zh": "正确：宗教规范价值与迷信被原文区分，答案未追加神学认证。"
+    },
+    {
+      "number": 5,
+      "status": "PASS",
+      "finding_zh": "正确：原文接受条件不等于无条件心理更新；冲突可有不同处理。"
+    },
+    {
+      "number": 6,
+      "status": "PASS",
+      "finding_zh": "正确：感受、归因和外部评价标准不存在所暗示的自动蕴涵。"
+    },
+    {
+      "number": 7,
+      "status": "PASS",
+      "finding_zh": "正确：错写11叶为1保存一处异或错误，快返回与正确率分离。"
+    },
+    {
+      "number": 8,
+      "status": "PASS",
+      "finding_zh": "正确：批评盲目古典崇拜，并未全面拒绝古人；d’Olivet个案吻合。"
+    },
+    {
+      "number": 9,
+      "status": "PASS",
+      "finding_zh": "正确：相互促进容许成熟程度与速度不齐。"
+    },
+    {
+      "number": 10,
+      "status": "PASS",
+      "finding_zh": "正确：保存指定有限域输出；根叶0与查表1否定统一严格加速。"
+    },
+    {
+      "number": 11,
+      "status": "PASS",
+      "finding_zh": "正确：四输入各两次，共8；不是总CPU操作数或心理步骤数。"
+    },
+    {
+      "number": 12,
+      "status": "PASS",
+      "finding_zh": "正确：叶基础、唯一分支、真子树归纳、全域枚举，证明链完整。"
+    },
+    {
+      "number": 13,
+      "status": "PASS",
+      "finding_zh": "修正后正确：已补至少两标签、真子集与真实函数未另限制三个前提。"
+    },
+    {
+      "number": 14,
+      "status": "PASS",
+      "finding_zh": "正确：同代码的确定单值解码器不能同时满足冲突真标签。"
+    },
+    {
+      "number": 15,
+      "status": "PASS",
+      "finding_zh": "正确：总质量6、最大正确质量3，风险1/2；最优解不唯一但值唯一。"
+    },
+    {
+      "number": 16,
+      "status": "PASS",
+      "finding_zh": "正确：权重1/0的同代码反例显示零风险不等于全域正确。"
+    },
+    {
+      "number": 17,
+      "status": "PASS",
+      "finding_zh": "正确：通过回映射模拟旧预测；最佳能力保留不保证实际优化成功。"
+    },
+    {
+      "number": 18,
+      "status": "PASS",
+      "finding_zh": "正确：第一位各纤维的第二位等权冲突，最小总风险1/2。"
+    },
+    {
+      "number": 19,
+      "status": "PASS",
+      "finding_zh": "正确：最短有向路径给首次到达；不可达永不到；加边可不严格改善。"
+    },
+    {
+      "number": 20,
+      "status": "PASS",
+      "finding_zh": "正确：复制无新增独立观察；所给五句分别概括五种不能互相替代的根据。"
+    }
+  ],
+  "independent_oracle": {
+    "production_imports": false,
+    "command": "python3 audit/argument_oracle.py",
+    "returncode": 0,
+    "recomputed_matches_recorded": true,
+    "results": {
+      "diffusion": {
+        "chain_last_arrival": 3,
+        "directed_graphs_including_self_loops": 531,
+        "graph_seed_instances_checked": 4165,
+        "node_counts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "shortcut_last_node_arrival": 1,
+        "single_edge_additions_checked": 18562
+      },
+      "representation": {
+        "labels": [
+          0,
+          1
+        ],
+        "refinement_instances_checked": 26208,
+        "transfer_example_minimum_risk": "1/2",
+        "weight_alphabet": [
+          0,
+          1,
+          2
+        ],
+        "weighted_domains_checked": 22280,
+        "weighted_example_minimum_risk": "1/2"
+      },
+      "scope": "Independent finite mathematical witnesses; no production model import; not empirical psychology or a general proof.",
+      "status": "PASS",
+      "tree": {
+        "XOR_compilation_predicate_queries": 8,
+        "pointwise_checks": 808,
+        "root_leaf_queries": 0,
+        "singleton_label_hypothesis_necessary": true,
+        "tree_specs": 202,
+        "wrong_tree_risk": "1/4"
+      }
+    },
+    "interpretation": "Finite enumerations supplement, never replace, general proofs."
+  },
+  "article_demo_bridge": {
+    "returncode": 0,
+    "exact_numeric_checks": 10,
+    "status": "PASS",
+    "article_examples": {
+      "first_bit_transfer": {
+        "minimum_target_risk": "1/2",
+        "refined_minimum_target_risk": "0",
+        "source_risk": "0",
+        "target_risk": "1/2",
+        "target_structurally_sufficient": false
+      },
+      "weighted_tie_and_refinement": {
+        "deterministic_decoder": {
+          "same": "0"
+        },
+        "minimum_risk": "1/2",
+        "refined_minimum_risk": "0",
+        "total_mass": "6"
+      },
+      "xor": {
+        "compilation_predicate_tests": 8,
+        "compiled_labels": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "inputs": [
+          "00",
+          "01",
+          "10",
+          "11"
+        ],
+        "predicate_tests_per_query": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "stored_labels": 4,
+        "tree_labels": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "true_labels": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "wrong_compiled_labels": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "wrong_compiled_risk": "1/4",
+        "wrong_tree_labels": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "wrong_tree_risk": "1/4"
+      }
+    }
+  },
+  "link_checks": [
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "condillac-academy-discourse.sources.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=211",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/discours-de-reception-de-labbe-de-condillac",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/README.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=215",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=216",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=219",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=221",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=225",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/reponse-au-discours-de-reception-de-labbe-de-condillac",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/MODEL.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/WALKTHROUGH.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/README.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/RESULTS.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/AUDIT.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "condillac-academy-discourse.audit.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "condillac-academy-discourse.sources.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "condillac-academy-discourse.audit.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/README.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/discours-de-reception-de-labbe-de-condillac",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "target": "condillac-academy-discourse.sources.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/AUDIT.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/audit/argument_oracle.py",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/audit/argument_oracle.json",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "target": "condillac-academy-discourse.audit.json",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://archive.org/details/b28772581_0022",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://archive.org/metadata/b28772581_0022",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "../../reproduction/condillac-1768-academy-discourse/source-review.json",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/discours-de-reception-de-labbe-de-condillac",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://archive.org/details/b28772581_0023",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/reponse-au-discours-de-reception-de-labbe-de-condillac",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=211",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://archive.org/download/b28772581_0023/b28772581_0023.pdf#page=491",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "https://www.academie-francaise.fr/sites/academie-francaise.fr/files/condillac_1768.pdf",
+      "kind": "external_or_fragment",
+      "status": "identity_and_source_location_reviewed_not_live_http_probe"
+    },
+    {
+      "from": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "target": "condillac-academy-discourse.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "papers/1768/condillac-academy-discourse.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "papers/1768/condillac-academy-discourse.sources.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "papers/1768/condillac-academy-discourse.audit.zh-CN.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "reproduction/condillac-1768-academy-discourse/README.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "reproduction/condillac-1768-academy-discourse/WALKTHROUGH.md",
+      "kind": "local_file",
+      "status": "PASS"
+    },
+    {
+      "from": "README.md",
+      "target": "reproduction/condillac-1768-academy-discourse/AUDIT.md",
+      "kind": "local_file",
+      "status": "PASS"
+    }
+  ],
+  "catalog_preservation": {
+    "old_readme_bytes_preserved": true,
+    "retained_lists": {
+      "candidates": {
+        "old_count": 48,
+        "new_count": 49,
+        "all_old_objects_equal": true
+      },
+      "selection_history": {
+        "old_count": 45,
+        "new_count": 46,
+        "all_old_objects_equal": true
+      },
+      "earlier_background_gaps": {
+        "old_count": 38,
+        "new_count": 39,
+        "all_old_objects_equal": true
+      }
+    },
+    "all_old_scope_and_effective_status_entries_equal": true,
+    "all_other_old_registry_fields_equal_except_current_selection": true,
+    "new_unit_title_basis": "1798 contents printed231 long title; not exact printed203 heading"
+  },
+  "resolved_findings": [
+    {
+      "id": "ARG-001",
+      "severity": "logical_precondition",
+      "location": "10.5, answer13, MODEL A3",
+      "issue": "At least two labels were missing in the unseen-input impossibility premise.",
+      "resolution": "Added >=2 labels and unrestricted truth-function family; independently rechecked."
+    },
+    {
+      "id": "ARG-002",
+      "severity": "reproduction_interface",
+      "location": "article10.4/11.4/11.5 versus demo",
+      "issue": "Original demo used different numbers from handwritten examples.",
+      "resolution": "Separate article_examples keys and exact assertions; public demo independently rerun and matched."
+    },
+    {
+      "id": "ARG-003",
+      "severity": "interface_scope",
+      "location": "MODEL, README, WALKTHROUGH",
+      "issue": "Partial lookup tree-output semantics and API label universe required explicit separation.",
+      "resolution": "All distinctions documented; optimum still attainable among finite actual true labels."
+    },
+    {
+      "id": "ARG-004",
+      "severity": "catalog_wording",
+      "location": "README and candidate title",
+      "issue": "Unqualified communication/evidence summary and unmarked normalized contents title.",
+      "resolution": "Pure-copy limitation and printed231 title_basis now explicit."
+    },
+    {
+      "id": "ARG-005",
+      "severity": "proof_document_completeness",
+      "location": "MODEL",
+      "issue": "Article refinement theorem required its own model statement and proof.",
+      "resolution": "Added B3 with same population/labels/weights, back-map and unrestricted decoder assumptions."
+    }
+  ],
+  "unresolved_errors": [],
+  "limits": [
+    "No live remote deployment or browser rendering certification.",
+    "Historical causal assertions remain attributed, not empirically verified.",
+    "No first-print date, manuscript, whole-volume or whole-Batteux completion claim.",
+    "No empirical human learning, performance or statistical-independence claim.",
+    "A changed bound file requires renewed review."
+  ]
+}
