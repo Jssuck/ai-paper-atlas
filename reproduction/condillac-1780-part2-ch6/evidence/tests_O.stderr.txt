@@ -45,6 +45,6 @@ test_passing_probe_is_not_detection (test_mutation_check.HarnessClassificationTe
 test_unexpected_exception_is_not_detection (test_mutation_check.HarnessClassificationTests.test_unexpected_exception_is_not_detection) ... ok
 
 ----------------------------------------------------------------------
-Ran 45 tests in 1.366s
+Ran 45 tests in 0.993s
 
 OK

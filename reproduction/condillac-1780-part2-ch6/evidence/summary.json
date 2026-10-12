@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-10-12T04:53:55.595508+00:00",
+  "recorded_at_utc": "2026-10-12T05:07:25.210305+00:00",
   "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
   "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
   "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
@@ -172,7 +172,7 @@
     "test_condillac_model.py": "8172ab25264af43301924f153f57e9c63822946b4e0bce3b8854dd08a95be8e3",
     "test_mutation_check.py": "a85f2af5e86d4e518662389d5438b3bd264350125196ef48164d180f513adf4a",
     "verify.py": "44ed3272bba5a8cc596dcddec087b141736f6bb76c24490f97c3a8aad9f5a474",
-    "MODEL.zh-CN.md": "1cf23da208ad7fedd51e8c04f05cda783d214bb44d1fe431f342818213a31457",
+    "MODEL.zh-CN.md": "d3b7381a546f9438a5180adf6f81b66b8d70e2291363ff9ee3a3d6414309bd90",
     "README.md": "6dd0d85c37f4767330e89b2a2737be620232e981712eff2984ab4165a177b467",
     "WALKTHROUGH.zh-CN.md": "15679f05afa072feef39d3c35d001f662327983a5fe4bde7a60dbba217d73640"
   },
@@ -185,7 +185,7 @@
         "import json,platform,sys; print(json.dumps({'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'optimize':sys.flags.optimize},indent=2))"
       ],
       "returncode": 0,
-      "seconds": 0.097259,
+      "seconds": 0.084975,
       "stdout": "evidence/environment_normal.stdout.txt",
       "stderr": "evidence/environment_normal.stderr.txt",
       "stdout_sha256": "4779e09e5cc4438f2564a0ee8767a75e596d96e454c8caa23359b5e9e853922b",
@@ -201,11 +201,11 @@
         "-v"
       ],
       "returncode": 0,
-      "seconds": 1.73187,
+      "seconds": 1.608299,
       "stdout": "evidence/tests_normal.stdout.txt",
       "stderr": "evidence/tests_normal.stderr.txt",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stderr_sha256": "7bb3cb7325a31c2cdc161d550ad31ae462f673e11e44a4b07e6945a8987f0ba7"
+      "stderr_sha256": "0a341537dc8adb42d67b88c83f3ba31a650c8cbe13ab537d5b5d5d02075e3176"
     },
     {
       "label": "mutations_normal",
@@ -214,7 +214,7 @@
         "mutation_check.py"
       ],
       "returncode": 0,
-      "seconds": 0.213448,
+      "seconds": 0.198618,
       "stdout": "evidence/mutations_normal.stdout.txt",
       "stderr": "evidence/mutations_normal.stderr.txt",
       "stdout_sha256": "fd4bf682adb64ed25b3caf5b341b36a32ff0c52d27d80ec2002ab14036c39d24",
@@ -227,7 +227,7 @@
         "demo.py"
       ],
       "returncode": 0,
-      "seconds": 0.068653,
+      "seconds": 0.076765,
       "stdout": "evidence/demo_normal.stdout.txt",
       "stderr": "evidence/demo_normal.stderr.txt",
       "stdout_sha256": "2ec9dd2d2070a0aae756a0e853d1607a48ca4971732a57a8d0cf43d301b46564",
@@ -242,7 +242,7 @@
         "import json,platform,sys; print(json.dumps({'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'optimize':sys.flags.optimize},indent=2))"
       ],
       "returncode": 0,
-      "seconds": 0.218012,
+      "seconds": 0.189233,
       "stdout": "evidence/environment_O.stdout.txt",
       "stderr": "evidence/environment_O.stderr.txt",
       "stdout_sha256": "2b180e74151daf035a15da97735554e514bf87ee1fc0717d54ea965d0daf048f",
@@ -259,11 +259,11 @@
         "-v"
       ],
       "returncode": 0,
-      "seconds": 2.190876,
+      "seconds": 1.727714,
       "stdout": "evidence/tests_O.stdout.txt",
       "stderr": "evidence/tests_O.stderr.txt",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stderr_sha256": "d704993dda27a5522a17a66d8daa9a16ae2fcc57aa3f8827d82b5316f31f5057"
+      "stderr_sha256": "0b1fc5ea853eae1f8abe25b7a6e30ef99953ca845e379442df26b366fa570f4b"
     },
     {
       "label": "mutations_O",
@@ -273,7 +273,7 @@
         "mutation_check.py"
       ],
       "returncode": 0,
-      "seconds": 0.701462,
+      "seconds": 0.682751,
       "stdout": "evidence/mutations_O.stdout.txt",
       "stderr": "evidence/mutations_O.stderr.txt",
       "stdout_sha256": "fd4bf682adb64ed25b3caf5b341b36a32ff0c52d27d80ec2002ab14036c39d24",
@@ -287,7 +287,7 @@
         "demo.py"
       ],
       "returncode": 0,
-      "seconds": 0.225115,
+      "seconds": 0.310601,
       "stdout": "evidence/demo_O.stdout.txt",
       "stderr": "evidence/demo_O.stderr.txt",
       "stdout_sha256": "2ec9dd2d2070a0aae756a0e853d1607a48ca4971732a57a8d0cf43d301b46564",
@@ -302,7 +302,7 @@
         "import json,platform,sys; print(json.dumps({'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'optimize':sys.flags.optimize},indent=2))"
       ],
       "returncode": 0,
-      "seconds": 0.190437,
+      "seconds": 0.549642,
       "stdout": "evidence/environment_OO.stdout.txt",
       "stderr": "evidence/environment_OO.stderr.txt",
       "stdout_sha256": "a37644179af2c7678eb1ec369a6e5c4e54097f07e53e035abb8eb59aafa2abee",
@@ -319,11 +319,11 @@
         "-v"
       ],
       "returncode": 0,
-      "seconds": 1.446667,
+      "seconds": 2.480832,
       "stdout": "evidence/tests_OO.stdout.txt",
       "stderr": "evidence/tests_OO.stderr.txt",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stderr_sha256": "d4f87995fa33248987196fd3253b2ae0064a17a8a004945f85335188237463a7"
+      "stderr_sha256": "bc7f67e0ddf5157a4f3155a13286baa0c531f8b11e036da1231e9cc598f45b34"
     },
     {
       "label": "mutations_OO",
@@ -333,7 +333,7 @@
         "mutation_check.py"
       ],
       "returncode": 0,
-      "seconds": 0.542144,
+      "seconds": 0.741132,
       "stdout": "evidence/mutations_OO.stdout.txt",
       "stderr": "evidence/mutations_OO.stderr.txt",
       "stdout_sha256": "fd4bf682adb64ed25b3caf5b341b36a32ff0c52d27d80ec2002ab14036c39d24",
@@ -347,7 +347,7 @@
         "demo.py"
       ],
       "returncode": 0,
-      "seconds": 0.301225,
+      "seconds": 0.361656,
       "stdout": "evidence/demo_OO.stdout.txt",
       "stderr": "evidence/demo_OO.stderr.txt",
       "stdout_sha256": "2ec9dd2d2070a0aae756a0e853d1607a48ca4971732a57a8d0cf43d301b46564",
@@ -361,7 +361,7 @@
         "import pathlib,re; text=pathlib.Path('WALKTHROUGH.zh-CN.md').read_text(encoding='utf-8'); blocks=re.findall(r'^```python\\n(.*?)^```',text,re.M|re.S); exec(compile('\\n'.join(blocks),'WALKTHROUGH.zh-CN.md','exec'))"
       ],
       "returncode": 0,
-      "seconds": 0.106176,
+      "seconds": 0.096958,
       "stdout": "evidence/walkthrough.stdout.txt",
       "stderr": "evidence/walkthrough.stderr.txt",
       "stdout_sha256": "8a3b2c971b597a845c65f6296cdae89adb2250b8dfccb66aeb17df1fd6dad589",
