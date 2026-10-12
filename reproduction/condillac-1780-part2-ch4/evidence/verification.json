@@ -1,0 +1,105 @@
+{
+  "started_utc": "2026-10-12T02:51:39.689318+00:00",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "command_convention": "Portable display: executable basename only; actual execution uses sys.executable. cwd is relative to this package.",
+  "source_sha256_before": {
+    "MODEL.zh-CN.md": "2cc6d9d4fb5bb1359d5cb6a5dae0ea2b67746f60791265a7fa317fabcce591ff",
+    "README.md": "5707a3b9911e282fb5912dabfe5d64287c0f674dbc19f410a837ca5fe6a71654",
+    "WALKTHROUGH.zh-CN.md": "491849f3b24808439e9774c096c3b031680ee8f6146cc0c0bc8daa6825428e13",
+    "demo.py": "3368f32bcf9188ebee18545dc9584612a5a1b88af1f6e18ee6c33c399e23230a",
+    "examples.py": "32edfca643ae7fb271bec7949ace8919892d721190df7eac9f58fdc984192bce",
+    "finite_language.py": "2ff82e04a31354bda670a97307aee26b88d0249a74bcb6c5fa9726dda7c5f069",
+    "record_evidence.py": "f8d37cfa57ff099438d5ad9efc79f65e1643757457cd7c82591655e62968b52c",
+    "test_finite_language.py": "bc864420bffb750ba0b05b7f2a43ee4d26a4e06f70b7ed6183e0afbb1036da36",
+    "verify.py": "90ecdb7d7e52360eec29fddc542d14fa9d8686331a9fd978d0f6dd7c88d40f7c"
+  },
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "verify.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "verify-normal.txt",
+      "log_sha256": "43bdf1aebee1bb1759e2327644b7a44185d610851225230f7274f610d90c2af9"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "demo-normal.txt",
+      "log_sha256": "10bc68b29c30593db9c3e5bec367bb89be472299c33f90dee6673e690f64a300"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "verify-O.txt",
+      "log_sha256": "15ebe124103ca6d5173c77ae87c7cbdaaeffd9d277a97f3e1376082bd13e190c"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "demo-O.txt",
+      "log_sha256": "10bc68b29c30593db9c3e5bec367bb89be472299c33f90dee6673e690f64a300"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "verify.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "verify-OO.txt",
+      "log_sha256": "629452df6e46f8f4075d6c14df0d0562f2298a4175e33729a48f1550de5d214f"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "log": "demo-OO.txt",
+      "log_sha256": "10bc68b29c30593db9c3e5bec367bb89be472299c33f90dee6673e690f64a300"
+    }
+  ],
+  "status": "complete",
+  "success": true,
+  "demo_outputs_equal_across_modes": true,
+  "source_sha256": {
+    "MODEL.zh-CN.md": "2cc6d9d4fb5bb1359d5cb6a5dae0ea2b67746f60791265a7fa317fabcce591ff",
+    "README.md": "5707a3b9911e282fb5912dabfe5d64287c0f674dbc19f410a837ca5fe6a71654",
+    "WALKTHROUGH.zh-CN.md": "491849f3b24808439e9774c096c3b031680ee8f6146cc0c0bc8daa6825428e13",
+    "demo.py": "3368f32bcf9188ebee18545dc9584612a5a1b88af1f6e18ee6c33c399e23230a",
+    "examples.py": "32edfca643ae7fb271bec7949ace8919892d721190df7eac9f58fdc984192bce",
+    "finite_language.py": "2ff82e04a31354bda670a97307aee26b88d0249a74bcb6c5fa9726dda7c5f069",
+    "record_evidence.py": "f8d37cfa57ff099438d5ad9efc79f65e1643757457cd7c82591655e62968b52c",
+    "test_finite_language.py": "bc864420bffb750ba0b05b7f2a43ee4d26a4e06f70b7ed6183e0afbb1036da36",
+    "verify.py": "90ecdb7d7e52360eec29fddc542d14fa9d8686331a9fd978d0f6dd7c88d40f7c"
+  },
+  "source_hashes_match_before_after": true,
+  "finished_utc": "2026-10-12T02:51:42.772888+00:00"
+}

@@ -1,0 +1,5 @@
+Python 3.12.14; implementation=CPython; optimize=2
+finite_language.py sha256=2ff82e04a31354bda670a97307aee26b88d0249a74bcb6c5fa9726dda7c5f069
+{"adequacy_contexts": 216, "adequacy_decoder_errors": 1944, "fitted_old_decoders": 15552, "inherited_decoders": 2592, "majority_candidate_losses": 15552, "majority_contexts": 576, "refinement_candidate_losses": 10368, "refinement_empirical_contexts": 288, "refinement_structures": 72, "refinement_truth_candidate_errors": 23328, "refinement_truth_contexts": 648, "rejected_invalid_inputs": 98}
+PASS: independent bounded domains, edge checks, input rejection, explicit guard control.
+No mutation suite; no claim of universal validation, historical proof, or empirical generalization.

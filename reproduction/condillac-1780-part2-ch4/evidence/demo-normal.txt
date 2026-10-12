@@ -1,0 +1,27 @@
+01_names_are_not_accuracy
+{"empirical_loss": 2, "h": {"blue-origin": "red", "red-origin": "blue"}, "minimum_empirical_loss": 0, "predictions": ["blue", "red"], "stage": "transparent_wrong", "truth_errors": 2}
+{"empirical_loss": 0, "h": {"borrowed-symbol": "blue", "xi": "red"}, "minimum_empirical_loss": 0, "predictions": ["red", "blue"], "stage": "opaque_correct", "truth_errors": 0}
+02_conflict_and_refinement
+{"empirical_loss": 3, "h": {"same": "cold"}, "minimum_empirical_loss": 2, "predictions": ["cold", "cold"], "stage": "old", "truth_errors": 1}
+{"empirical_loss": 2, "h": {"same": "hot"}, "minimum_empirical_loss": 2, "predictions": ["hot", "hot"], "stage": "fit_coarse", "truth_errors": 1}
+{"empirical_loss": 2, "h": {"one": "hot", "two": "hot"}, "minimum_empirical_loss": 0, "predictions": ["hot", "hot"], "stage": "transport_fine", "truth_errors": 1}
+{"empirical_loss": 0, "h": {"one": "hot", "two": "cold"}, "minimum_empirical_loss": 0, "predictions": ["hot", "cold"], "stage": "fit_fine", "truth_errors": 0}
+{"empirical_loss": 5, "h": {"one": "cold", "two": "hot"}, "minimum_empirical_loss": 0, "predictions": ["cold", "hot"], "stage": "bad_fine_decoder", "truth_errors": 2}
+03_unseen_regression
+{"empirical_loss": 3, "h": {"shared": "0"}, "minimum_empirical_loss": 0, "predictions": ["0", "0", "0"], "stage": "old", "truth_errors": 1}
+{"empirical_loss": 0, "h": {"shared": "1"}, "minimum_empirical_loss": 0, "predictions": ["1", "1", "1"], "stage": "fit", "truth_errors": 2}
+04_tie_and_zero_evidence
+{"empirical_loss": 1, "h": {"empty": "1", "tied": "1"}, "minimum_empirical_loss": 1, "predictions": ["1", "1", "1"], "stage": "old", "truth_errors": 1}
+{"empirical_loss": 1, "h": {"empty": "1", "tied": "0"}, "minimum_empirical_loss": 1, "predictions": ["0", "0", "1"], "stage": "fit", "truth_errors": 1}
+05_noisy_observation
+{"empirical_loss": 4, "h": {"label": "no"}, "minimum_empirical_loss": 0, "predictions": ["no"], "stage": "old", "truth_errors": 0}
+{"empirical_loss": 0, "h": {"label": "yes"}, "minimum_empirical_loss": 0, "predictions": ["yes"], "stage": "fit", "truth_errors": 1}
+{"empirical_loss": 0, "h": {"label": "no"}, "minimum_empirical_loss": 0, "predictions": ["no"], "stage": "corrected_observations_fit", "truth_errors": 0}
+06_unchanged_is_not_transport
+{"empirical_loss": 0, "h": {"left": "no", "right": "yes"}, "minimum_empirical_loss": 0, "predictions": ["no", "no"], "stage": "old", "truth_errors": 0}
+{"empirical_loss": 1, "h": {"left": "no", "right": "yes"}, "minimum_empirical_loss": 0, "predictions": ["no", "yes"], "stage": "unchanged_h", "truth_errors": 1}
+{"empirical_loss": 0, "h": {"left": "no", "right": "no"}, "minimum_empirical_loss": 0, "predictions": ["no", "no"], "stage": "transport_h", "truth_errors": 0}
+{"empirical_loss": 0, "h": {"left": "no", "right": "no"}, "minimum_empirical_loss": 0, "predictions": ["no", "no"], "stage": "refit", "truth_errors": 0}
+07_bijective_renaming
+{"empirical_loss": 2, "h": {"same": "hot"}, "minimum_empirical_loss": 2, "predictions": ["hot", "hot"], "stage": "original", "truth_errors": 1}
+{"empirical_loss": 2, "h": {"foreign-looking-token": "hot"}, "minimum_empirical_loss": 2, "predictions": ["hot", "hot"], "stage": "renamed", "truth_errors": 1}

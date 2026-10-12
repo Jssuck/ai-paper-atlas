@@ -1,0 +1,34 @@
+Python 3.12.14; implementation=CPython; optimize=0
+test_bad_fine_decoder_can_worsen_empirical_loss (test_finite_language.FiniteLanguageTests.test_bad_fine_decoder_can_worsen_empirical_loss) ... ok
+test_empirical_improvement_can_worsen_universe_truth (test_finite_language.FiniteLanguageTests.test_empirical_improvement_can_worsen_universe_truth) ... ok
+test_empty_universe (test_finite_language.FiniteLanguageTests.test_empty_universe) ... ok
+test_fit_is_idempotent (test_finite_language.FiniteLanguageTests.test_fit_is_idempotent) ... ok
+test_invalid_counts_rejected (test_finite_language.FiniteLanguageTests.test_invalid_counts_rejected) ... ok
+test_invalid_domains_rejected (test_finite_language.FiniteLanguageTests.test_invalid_domains_rejected) ... ok
+test_invalid_maps_rejected (test_finite_language.FiniteLanguageTests.test_invalid_maps_rejected) ... ok
+test_invalid_refinements_rejected (test_finite_language.FiniteLanguageTests.test_invalid_refinements_rejected) ... ok
+test_invalid_renamings_rejected (test_finite_language.FiniteLanguageTests.test_invalid_renamings_rejected) ... ok
+test_joint_renaming (test_finite_language.FiniteLanguageTests.test_joint_renaming) ... ok
+test_large_integer_counts_are_exact (test_finite_language.FiniteLanguageTests.test_large_integer_counts_are_exact) ... ok
+test_names_do_not_guarantee_accuracy (test_finite_language.FiniteLanguageTests.test_names_do_not_guarantee_accuracy) ... ok
+test_noise_can_reinforce_falsehood (test_finite_language.FiniteLanguageTests.test_noise_can_reinforce_falsehood) ... ok
+test_one_answer (test_finite_language.FiniteLanguageTests.test_one_answer) ... ok
+test_positive_tie_uses_declared_order_not_lexicographic_order (test_finite_language.FiniteLanguageTests.test_positive_tie_uses_declared_order_not_lexicographic_order) ... ok
+test_problem_does_not_mutate_inputs (test_finite_language.FiniteLanguageTests.test_problem_does_not_mutate_inputs) ... ok
+test_refinement_can_have_more_than_two_labels (test_finite_language.FiniteLanguageTests.test_refinement_can_have_more_than_two_labels) ... ok
+test_refinement_transports_then_fit_improves (test_finite_language.FiniteLanguageTests.test_refinement_transports_then_fit_improves) ... ok
+test_residual_from_conflicting_cell (test_finite_language.FiniteLanguageTests.test_residual_from_conflicting_cell) ... ok
+test_truth_does_not_enter_fit (test_finite_language.FiniteLanguageTests.test_truth_does_not_enter_fit) ... ok
+test_unchanged_decoder_is_not_transport (test_finite_language.FiniteLanguageTests.test_unchanged_decoder_is_not_transport) ... ok
+test_unused_label_preserves_old_decoder (test_finite_language.FiniteLanguageTests.test_unused_label_preserves_old_decoder) ... ok
+test_weighted_majority (test_finite_language.FiniteLanguageTests.test_weighted_majority) ... ok
+test_zero_evidence_preserves_old_decoder (test_finite_language.FiniteLanguageTests.test_zero_evidence_preserves_old_decoder) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.004s
+
+OK
+Oracle domains: |U|=|L|=|A|=2; each observation count in {0,1,2}.
+{"bijective_renamings": 2592, "candidate_losses": 5184, "explicit_failure_control": 1, "inherited_decoder_transports": 5184, "majority_contexts": 1296, "refinement_candidate_losses": 10368, "refinement_contexts": 1296, "truth_variants": 5184}
+PASS: 24 focused test methods and all declared bounded oracle domains.
+These finite checks do not replace the general proofs in MODEL.zh-CN.md.

@@ -1,0 +1,187 @@
+{
+  "scope": "Independent direct arithmetic on manually transcribed hand examples. No production code is imported. This is neither a general proof nor an additional empirical experiment.",
+  "command": "python3 -B independent-review/check_document_numbers.py",
+  "cwd": ".",
+  "finished_utc": "2026-10-12T02:56:12.830474+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "script_sha256": "0608d6732822be668619f0038925394854e2721681c4fa853b2fe8a004f32595",
+  "document_sha256": {
+    "../../papers/1780/condillac-logic-part2-ch4.zh-CN.md": "68c973c8b2adc9ba2c3e282d21b408b405d7837cf32148884244f09d0422b7d3",
+    "MODEL.zh-CN.md": "2cc6d9d4fb5bb1359d5cb6a5dae0ea2b67746f60791265a7fa317fabcce591ff",
+    "WALKTHROUGH.zh-CN.md": "491849f3b24808439e9774c096c3b031680ee8f6146cc0c0bc8daa6825428e13"
+  },
+  "documents_unchanged": true,
+  "case_count": 28,
+  "status": "passed",
+  "checks": [
+    {
+      "case": "main_10.1_old",
+      "empirical": 3,
+      "minimum_empirical": 1,
+      "truth_errors": 3
+    },
+    {
+      "case": "main_10.1_fit",
+      "empirical": 1,
+      "minimum_empirical": 1,
+      "truth_errors": 1
+    },
+    {
+      "case": "main_10.2_old",
+      "empirical": 1,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "main_10.2_fit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 2
+    },
+    {
+      "case": "main_10.3_old",
+      "empirical": 1,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "main_10.3_fit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "model_8_unequal_old",
+      "empirical": 10,
+      "minimum_empirical": 2,
+      "truth_errors": 1
+    },
+    {
+      "case": "model_8_unequal_fit",
+      "empirical": 2,
+      "minimum_empirical": 2,
+      "truth_errors": 2
+    },
+    {
+      "case": "walk_1_transparent_wrong",
+      "empirical": 2,
+      "minimum_empirical": 0,
+      "truth_errors": 2
+    },
+    {
+      "case": "walk_1_opaque_correct",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_2_old",
+      "empirical": 3,
+      "minimum_empirical": 2,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_2_fit_coarse",
+      "empirical": 2,
+      "minimum_empirical": 2,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_2_transport_fine",
+      "empirical": 2,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_2_fit_fine",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_2_bad_fine",
+      "empirical": 5,
+      "minimum_empirical": 0,
+      "truth_errors": 2
+    },
+    {
+      "case": "walk_3_old",
+      "empirical": 3,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_3_fit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 2
+    },
+    {
+      "case": "walk_4_old",
+      "empirical": 1,
+      "minimum_empirical": 1,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_4_fit",
+      "empirical": 1,
+      "minimum_empirical": 1,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_5_old",
+      "empirical": 4,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_5_fit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_5_corrected_fit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_6_old",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_6_unchanged_h",
+      "empirical": 1,
+      "minimum_empirical": 0,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_6_transport_h",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_6_refit",
+      "empirical": 0,
+      "minimum_empirical": 0,
+      "truth_errors": 0
+    },
+    {
+      "case": "walk_7_original",
+      "empirical": 2,
+      "minimum_empirical": 2,
+      "truth_errors": 1
+    },
+    {
+      "case": "walk_7_renamed",
+      "empirical": 2,
+      "minimum_empirical": 2,
+      "truth_errors": 1
+    }
+  ]
+}
