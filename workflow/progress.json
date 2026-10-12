@@ -1,29 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1798-potocki-exchange",
     "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
-    "stage": "waiting_for_browser_verification",
-    "scope": "One commissioning exchange with two separately identified letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02, later source discrepancy disclosed; reply undated. 1798 verified edition date only.",
-    "failure_reason": "Live browser crashed during formula pixel verification; exact remote files and independent content/code checks passed, visual gate incomplete."
-  },
-  "last_completed": {
-    "id": "condillac-1798-eclaircissemens-pote",
-    "path": "papers/1798/condillac-eclaircissemens-pote.zh-CN.md",
     "version": "v1",
-    "content_commit": "125cc2aa6118f59aa68d1e41e113f11cfdb83db5",
-    "checks": "Independent source, whole-argument/math and code audits passed; 31 exact bindings verified. Three-mode tests include 5832 three-observer synchronization cases per mode. All 29 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 156 headings, 80 formulas, five tables/275 raw-source cells, 311 relative paths and 20 answers. Reproduction heading punctuation repaired for font fallback, checksum refreshed and six actual reruns matched prior logs; final title and outline pixels verified.",
-    "scope": "Complete Éclaircissemens response to Poté, actual 1798 Œuvres XXII pp.192–198, not the separate Potocki letter. 1798 is verified edition date, not asserted first publication. Printed notre/nous preserved; applicable errata checked. Theological premises and modern finite observation/clock models explicitly distinguished."
+    "content_commit": "1f1f95f7a2df4fafd21d4c9ac76fda65bd979865",
+    "checks": "Independent source, whole-argument/math and code audits passed; 86 exact bindings and all 32 final remote files/blob identities verified. Live browser verified nine complete DOM bodies, 164 headings, 98 formula tokens/structures and pixels, eight tables/303 raw-source cells, 326 relative paths and 20 answers. Unintended prose emphasis and new catalog typography repaired, review bindings refreshed. New article/appendix pixels and new README row/section verified; older README content checked by complete DOM preservation, not a full repeated pixel sweep.",
+    "scope": "One commissioning exchange comprising two separately titled letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02; later date discrepancy disclosed; reply undated. 1798 verified edition date only. Historical claims, modern teaching models and empirical limits separated."
   },
-  "updated_at": "2026-10-12T11:08:00Z",
+  "updated_at": "2026-10-12T11:46:05Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Resume the same live rendering gate after browser recovery; do not start another unit or mark completed.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
