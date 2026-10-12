@@ -1,0 +1,17 @@
+{
+  "work": "Condillac, La Logique, seconde partie, chapitre IX",
+  "work_year_label": 1780,
+  "inspected_edition_year": 1798,
+  "included_printed_pages": "177–191",
+  "excluded": "page 176 preceding chapter; page 192 onward Éclaircissemens and later material",
+  "source_ocr_sha256": "357ec66ba57d0f9980265d003fdcd88c7f948f1c98ae4f083dabf434592af2cc",
+  "use": "Provided OCR excerpt consulted for chapter boundary; scan images and primary-source ledger govern source verification, not OCR alone.",
+  "teaching_status": "modern finite analogy, not original algorithm or historical numerical probability",
+  "scan_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf",
+  "internet_archive_identifier": "b28772581_0022",
+  "volume": "XXII",
+  "pdf_pages_one_based": "185–199",
+  "scan_pdf_sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529",
+  "source_ledger": "../../papers/1780/condillac-logic-part2-ch9.sources.zh-CN.md",
+  "fingerprint_provenance": "Verified scan URL and PDF SHA256 supplied by the separate primary-source audit; OCR SHA256 binds the excerpt consulted during implementation."
+}

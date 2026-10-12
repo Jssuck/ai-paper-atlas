@@ -71,43 +71,45 @@
     "current_unit_notice_condillac_ii5": "仅新增II.V完整十页，实际1798XXII131–140，1780书目年；五边注与课程自引有界核查。全部旧scope字段、对象、历史、状态与缺口原样保留，不完成VI及以后或全书。I.I第8页更正保持解决，旧时点待办按历史原文保留。",
     "current_unit_notice_condillac_ii6": "仅新增II.VI完整十一页，实际1798XXII141–151，1780书目年；五边注和三组引注有界核验。全部旧scope字段、对象、历史、状态和缺口保留，不完成VII及以后或全书；外书原典转录不冒称页图全校。I.I第8页更正继续解决，旧待办按历史语境保留。",
     "current_unit_notice_condillac_ii7": "仅新增II.VII完整十八页，实际1798XXII152–169，1780书目年；七边题、两跨页脚注及全集勘误已核。旧scope字段、对象、历史、状态和缺口保留，不完成VIII及以后或全书。164字母校读不是正式勘误；I.I第8页更正继续解决，旧待办按历史语境保留。",
-    "current_unit_notice_condillac_ii8": "仅新增II.VIII七页，实际1798XXII170–176，1780书目年；三边题、四等式和全集勘误已核。旧scope字段、对象、历史、状态与缺口原样保留，不完成IX以后或全书。I.I更正继续解决，II.VII164内证不升级正式勘误；原书回指与前驱有界重读不新增完成单位。"
+    "current_unit_notice_condillac_ii8": "仅新增II.VIII七页，实际1798XXII170–176，1780书目年；三边题、四等式和全集勘误已核。旧scope字段、对象、历史、状态与缺口原样保留，不完成IX以后或全书。I.I更正继续解决，II.VII164内证不升级正式勘误；原书回指与前驱有界重读不新增完成单位。",
+    "current_unit_notice_condillac_ii9": "仅新增II.IX十五页，实际1798XXII177–191，包括186–191学习建议；六边题、一脚注、自引和全集勘误核验。IA单册，不沿用前篇双册声称。1780书目年；不完成192以后附录、全卷或全部版本。旧scope字段、候选、历史、状态和缺口原样保留；I.I更正继续解决，II.VII164内证不升级正式勘误。"
   },
   "current_selection": {
-    "candidate_id": "condillac-1780-logic-part2-ch8",
+    "candidate_id": "condillac-1780-logic-part2-ch9",
     "authors": [
       "Étienne Bonnot de Condillac"
     ],
-    "title": "La Logique, ou les premiers développemens de l’art de penser, Seconde partie, Chapitre VIII",
-    "chapter_title": "En quoi consiste tout l’artifice du raisonnement.",
+    "title": "La Logique, ou les premiers développemens de l’art de penser, Seconde partie, Chapitre IX",
+    "chapter_title": "Des différens degrés de certitude; ou de l’évidence, des conjectures et de l’analogie.",
     "publication_year": 1780,
-    "publication_year_basis": "1780仅作已核初版书目归年；实际读1798，不认证1780逐字正文、章内页码或全部版次。",
+    "publication_year_basis": "1780仅沿用已核初版书目归年；实际读1798，不认证1780逐字正文、章内页码或全部版次。",
     "read_edition": {
       "year": 1798,
       "collection": "Œuvres de Condillac",
       "volume": "XXII",
       "publisher": "Paris, de l’imprimerie de Ch. Houel",
       "title_page_date": "An VI — 1798",
-      "pages": "170–176",
-      "pdf_pages": "IA/Wellcome178–184；Google同版另一册180–186，七页双扫描核图"
+      "pages": "177–191",
+      "pdf_pages": "IA/Wellcome185–199，十五页单册逐页核图；Google第二册本次未取回"
     },
-    "document_type": "完整七页哲学教学书籍章节，三边题及四等式，无编号脚注；非期刊论文，非全书",
-    "pages": "实际1798II.VIII170–176；169/177仅核章界，1780页码未核",
-    "publication_scope": "同一1798版两册扫描，非两历史版次校勘；1780仅书目归年。",
-    "why_selected": "先读当前README、完整已刊树、idle进度、年代注册与图灵深读v2/复现标准。只选择承接II.VII的完整II.VIII，讨论数据充分性、问题表述、翻译同一及跨科学推广，适合AI表征与推理前史有界回填，不机械标完成全书或穷尽历史。",
-    "mathematical_boundary": "现代有限世界与目标相容集合、表示纤维恢复、等价/目标保持/后承、真实新增观测、有限单位成本无噪声自适应观测树及最坏成本递推。两套显式机制有同观察而异生成方向。一般证明与有限实跑区分，不验证感觉论、认知发生或普遍科学方法。",
-    "completion": "七页双扫描、三边题、全部四式、书目章界目录与全集勘误核验；前文与代数原典有界回读。原创中文全论证、20题附答案、一般证明、标准库三模式实跑及独立来源/全论证数学/代码审核；远端与实际浏览器另核。",
-    "article_path": "papers/1780/condillac-logic-part2-ch8.zh-CN.md",
-    "source_ledger_path": "papers/1780/condillac-logic-part2-ch8.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1780/condillac-logic-part2-ch8.audit.zh-CN.md",
-    "reproduction_path": "reproduction/condillac-1780-part2-ch8/README.md",
-    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=178",
+    "document_type": "完整十五页哲学教学书籍章节，六边题、一编号脚注及正文自引，无公式；非期刊论文，非全卷",
+    "pages": "实际1798II.IX177–191，包括186–191学习建议；176/192仅核章界，1780页码未核",
+    "publication_scope": "1798IA单册完整十五页，未宣称第二册或不同历史版次校勘；1780仅书目归年。",
+    "why_selected": "先读当前README、完整已刊树、idle进度、年代注册与图灵深读v2标准。仅选择承接II.VIII的完整II.IX，讨论明证、猜测、因果类比及方法学习，适合AI认识论与推理前史有界回填；最后一个有章号章节不等于全卷及版本研究完成，历史覆盖非穷尽。",
+    "mathematical_boundary": "现代有限非空候选模型、无噪声测试过滤、目标纤维判准、因果逆向反例、有限有理后验及严格正支持、划分细化与期望剩余数、非自适应完整状态分辨。目标分辨判准有一般证明但最少测试API只实现完整状态。一般证明与有限实跑区分，不验证作者心理、语言史、教学及天文学主张。",
+    "completion": "IA十五页原图、六边题、一脚注、自引、书目章界目录和全集勘误核验；三个原典电子转录有界比较。原创中文全论证、20题附答案、一般证明、标准库三模式实跑与独立来源/全论证数学/代码审计；远端及实际浏览器另核。",
+    "article_path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
+    "source_ledger_path": "papers/1780/condillac-logic-part2-ch9.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1780/condillac-logic-part2-ch9.audit.zh-CN.md",
+    "reproduction_path": "reproduction/condillac-1780-part2-ch9/README.md",
+    "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=185",
     "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+    "comparison_source_status": "本次未取回，HTTP429；不声称对校。",
     "bibliographic_record": "https://www.hue.ac.jp/library/bunko/list.html",
-    "bibliographic_record_scope": "初版1780目录第90项；1798实际出版项另由两册题名页核验。",
+    "bibliographic_record_scope": "1780初版书目沿用已核前篇；实际1798出版项本次读原题名页。",
     "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
-    "not_completed": "1780正文与章内页码、全部版本异文及更正史、II.IX及以后、第二部与全书未完成；Clairaut1746序i–iii与Euler实际1822译本指定段落仅有界比较，I.VII回读不新增完成单位，不认证孔狄亚克所用外书版次或直接传承。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证校读不变成正式勘误。真实心理、语言、教学或AI评测与带噪声/连续观测扩展未完成。",
-    "source_findings": "三边题170/172/173；无编号脚注。175四式x−1=y+1、x+1=2y−2、y=5、x=7，无164误行。171怀疑、172仿佛自行、173通常/似乎、174可解问题范围和175前文回指均保留。全集勘误无170–176项。"
+    "not_completed": "1780正文与章内页码、Google同版第二册本章对校、手稿及完整版本史、192页以后澄清文字及其他卷内附录、177/182/184/189页所引原著未完成。Locke IV.XVI所列四节、Hume E4所列十二段、Newton规则I–IV仅原典电子转录有界比较，未核历史影像或直接影响。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证不升级正式勘误。真实心理、语言、教学或AI评测，目标感知最小测试搜索、噪声和连续概率扩展未完成。",
+    "source_findings": "六边题177/179/180/181/182/186；唯一编号脚注182指古代史I.5–8；177/184/189另有自引。原文无数学公式。183先承认多种运动解释，184同果同因假定诉诸新观察；188/191学习困难归因和190护栏均完整覆盖。全集勘误无177–191项。"
   },
   "earlier_gap_priority": [
     {
@@ -1850,6 +1852,43 @@
       "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
       "not_completed": "1780正文与章内页码、全部版本异文及更正史、II.IX及以后、第二部与全书未完成；Clairaut1746序i–iii与Euler实际1822译本指定段落仅有界比较，I.VII回读不新增完成单位，不认证孔狄亚克所用外书版次或直接传承。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证校读不变成正式勘误。真实心理、语言、教学或AI评测与带噪声/连续观测扩展未完成。",
       "source_findings": "三边题170/172/173；无编号脚注。175四式x−1=y+1、x+1=2y−2、y=5、x=7，无164误行。171怀疑、172仿佛自行、173通常/似乎、174可解问题范围和175前文回指均保留。全集勘误无170–176项。"
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part2-ch9",
+      "authors": [
+        "Étienne Bonnot de Condillac"
+      ],
+      "title": "La Logique, ou les premiers développemens de l’art de penser, Seconde partie, Chapitre IX",
+      "chapter_title": "Des différens degrés de certitude; ou de l’évidence, des conjectures et de l’analogie.",
+      "publication_year": 1780,
+      "publication_year_basis": "1780仅沿用已核初版书目归年；实际读1798，不认证1780逐字正文、章内页码或全部版次。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "177–191",
+        "pdf_pages": "IA/Wellcome185–199，十五页单册逐页核图；Google第二册本次未取回"
+      },
+      "document_type": "完整十五页哲学教学书籍章节，六边题、一编号脚注及正文自引，无公式；非期刊论文，非全卷",
+      "pages": "实际1798II.IX177–191，包括186–191学习建议；176/192仅核章界，1780页码未核",
+      "publication_scope": "1798IA单册完整十五页，未宣称第二册或不同历史版次校勘；1780仅书目归年。",
+      "why_selected": "先读当前README、完整已刊树、idle进度、年代注册与图灵深读v2标准。仅选择承接II.VIII的完整II.IX，讨论明证、猜测、因果类比及方法学习，适合AI认识论与推理前史有界回填；最后一个有章号章节不等于全卷及版本研究完成，历史覆盖非穷尽。",
+      "mathematical_boundary": "现代有限非空候选模型、无噪声测试过滤、目标纤维判准、因果逆向反例、有限有理后验及严格正支持、划分细化与期望剩余数、非自适应完整状态分辨。目标分辨判准有一般证明但最少测试API只实现完整状态。一般证明与有限实跑区分，不验证作者心理、语言史、教学及天文学主张。",
+      "completion": "IA十五页原图、六边题、一脚注、自引、书目章界目录和全集勘误核验；三个原典电子转录有界比较。原创中文全论证、20题附答案、一般证明、标准库三模式实跑与独立来源/全论证数学/代码审计；远端及实际浏览器另核。",
+      "article_path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
+      "source_ledger_path": "papers/1780/condillac-logic-part2-ch9.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1780/condillac-logic-part2-ch9.audit.zh-CN.md",
+      "reproduction_path": "reproduction/condillac-1780-part2-ch9/README.md",
+      "source_url": "https://archive.org/download/b28772581_0022/b28772581_0022.pdf#page=185",
+      "comparison_source_url": "https://books.google.com/books?id=tdSdMhj8gcwC",
+      "comparison_source_status": "本次未取回，HTTP429；不声称对校。",
+      "bibliographic_record": "https://www.hue.ac.jp/library/bunko/list.html",
+      "bibliographic_record_scope": "1780初版书目沿用已核前篇；实际1798出版项本次读原题名页。",
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "not_completed": "1780正文与章内页码、Google同版第二册本章对校、手稿及完整版本史、192页以后澄清文字及其他卷内附录、177/182/184/189页所引原著未完成。Locke IV.XVI所列四节、Hume E4所列十二段、Newton规则I–IV仅原典电子转录有界比较，未核历史影像或直接影响。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证不升级正式勘误。真实心理、语言、教学或AI评测，目标感知最小测试搜索、噪声和连续概率扩展未完成。",
+      "source_findings": "六边题177/179/180/181/182/186；唯一编号脚注182指古代史I.5–8；177/184/189另有自引。原文无数学公式。183先承认多种运动解释，184同果同因假定诉诸新观察；188/191学习困难归因和190护栏均完整覆盖。全集勘误无177–191项。"
     }
   ],
   "next_source_gap": {
@@ -2888,6 +2927,13 @@
       "event": "deep_read_local_release",
       "article_path": "papers/1780/condillac-logic-part2-ch8.zh-CN.md",
       "note": "仅新增实际1798II.VIII170–176完整七页、三边题、四式，无脚注；1780书目年。双册与全集勘误核查、全论证重建、20题及答案、一般证明、标准库三模式及独立来源/数学/代码审核。原文限定与回指保留，有限同观测反模型不冒称驳倒全书感觉论。旧数据和缺口保留，远端及浏览器另核。"
+    },
+    {
+      "checked_on": "2026-10-12",
+      "candidate_id": "condillac-1780-logic-part2-ch9",
+      "event": "deep_read_local_release",
+      "article_path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
+      "note": "仅新增实际1798II.IX177–191完整十五页，含全部学习建议，六边题一脚注及自引。单册全章核图，第二册不可得如实披露；1780书目年。20题答案、一般证明、标准库三模式及独立来源/数学/代码审核。所有旧记录保留，远端及浏览器另核。"
     }
   ],
   "earlier_background_gaps": [
@@ -3124,6 +3170,11 @@
       "candidate_id": "condillac-1780-logic-part2-ch8",
       "status": "bounded_chapter_only_remaining_gaps_open",
       "gap": "1780正文与章内页码、全部版本异文及更正史、II.IX及以后、第二部与全书未完成；Clairaut1746序i–iii与Euler实际1822译本指定段落仅有界比较，I.VII回读不新增完成单位，不认证孔狄亚克所用外书版次或直接传承。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证校读不变成正式勘误。真实心理、语言、教学或AI评测与带噪声/连续观测扩展未完成。"
+    },
+    {
+      "candidate_id": "condillac-1780-logic-part2-ch9",
+      "status": "bounded_chapter_only_remaining_gaps_open",
+      "gap": "1780正文与章内页码、Google同版第二册本章对校、手稿及完整版本史、192页以后澄清文字及其他卷内附录、177/182/184/189页所引原著未完成。Locke IV.XVI所列四节、Hume E4所列十二段、Newton规则I–IV仅原典电子转录有界比较，未核历史影像或直接影响。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证不升级正式勘误。真实心理、语言、教学或AI评测，目标感知最小测试搜索、噪声和连续概率扩展未完成。"
     }
   ],
   "effective_status": {
@@ -3570,6 +3621,24 @@
       "pages": "实际1798II.VIII170–176；169/177仅核章界，1780页码未核",
       "publication_scope": "同一1798版两册扫描，非两历史版次校勘；1780仅书目归年。",
       "not_completed": "1780正文与章内页码、全部版本异文及更正史、II.IX及以后、第二部与全书未完成；Clairaut1746序i–iii与Euler实际1822译本指定段落仅有界比较，I.VII回读不新增完成单位，不认证孔狄亚克所用外书版次或直接传承。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证校读不变成正式勘误。真实心理、语言、教学或AI评测与带噪声/连续观测扩展未完成。"
+    },
+    "condillac-1780-logic-part2-ch9": {
+      "status": "completed_bounded_book_chapter_1798_text_1780_bibliographic_year",
+      "publication_year": 1780,
+      "publication_year_basis": "1780仅沿用已核初版书目归年；实际读1798，不认证1780逐字正文、章内页码或全部版次。",
+      "read_edition": {
+        "year": 1798,
+        "collection": "Œuvres de Condillac",
+        "volume": "XXII",
+        "publisher": "Paris, de l’imprimerie de Ch. Houel",
+        "title_page_date": "An VI — 1798",
+        "pages": "177–191",
+        "pdf_pages": "IA/Wellcome185–199，十五页单册逐页核图；Google第二册本次未取回"
+      },
+      "article_path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
+      "pages": "实际1798II.IX177–191，包括186–191学习建议；176/192仅核章界，1780页码未核",
+      "publication_scope": "1798IA单册完整十五页，未宣称第二册或不同历史版次校勘；1780仅书目归年。",
+      "not_completed": "1780正文与章内页码、Google同版第二册本章对校、手稿及完整版本史、192页以后澄清文字及其他卷内附录、177/182/184/189页所引原著未完成。Locke IV.XVI所列四节、Hume E4所列十二段、Newton规则I–IV仅原典电子转录有界比较，未核历史影像或直接影响。全部旧候选、书籍、Euler版本与Curry/Church缺口保留；I.I第8页正式更正继续解决，II.VII164内证不升级正式勘误。真实心理、语言、教学或AI评测，目标感知最小测试搜索、噪声和连续概率扩展未完成。"
     }
   },
   "latest_quality_correction": {

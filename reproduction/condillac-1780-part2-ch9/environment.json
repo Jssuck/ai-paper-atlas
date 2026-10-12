@@ -1,0 +1,87 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "dependencies": "Python standard library only",
+  "example_outputs_identical": true,
+  "executions": [
+    {
+      "mode": "normal",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "test_model.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "examples.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "independent_audit.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "test_model.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "examples.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "independent_audit.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "test_model.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "examples.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "independent_audit.py"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

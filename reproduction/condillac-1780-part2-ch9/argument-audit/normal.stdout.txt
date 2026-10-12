@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "python": "3.12.14",
+  "optimization": 0,
+  "counts": {
+    "bayes_exact": 6600,
+    "bayes_normalized": 6600,
+    "coarsening_direction": 2952,
+    "contradiction": 1360,
+    "converse_counterexample": 1,
+    "empty_not_certain": 1,
+    "expected_survivors": 120,
+    "fiber_decoder": 1554,
+    "full_state_minimum": 340,
+    "full_state_pairwise": 1360,
+    "idempotence": 1360,
+    "intersection_filter": 1360,
+    "nonempty_monotonicity": 3096,
+    "partition_refinement": 960,
+    "positive_support_equivalence": 39816,
+    "repeated_odds": 1,
+    "strict_refinement": 960,
+    "structural_api": 39816,
+    "target_pairwise_decoder": 18720,
+    "target_vs_count": 1,
+    "worked_bayes": 1,
+    "zero_evidence_rejected": 660,
+    "zero_prior_counterexample": 1
+  },
+  "total_explicit_checks": 127640,
+  "scope": "n=1..4; two binary tests; ternary features; Boolean targets; prior integer weights0..2 normalized; likelihoods0,1/2,1; target decoder oracle is audit-only, not production API"
+}

@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "model.py": "6a6bc5fbd395178cba9823554d85a22ddba1c9473220d7f00c438c476406d72b",
+    "examples.py": "b8320fd3b5cff092194b41ac0b17c84022f1f65da74c084c626f83e09f73d571",
+    "independent_audit.py": "fc67543c361c98987bb628a50180db8fb358c1c3c79558f01f93a98165d529f9"
+  },
+  "optimization_level": 1,
+  "checks": {
+    "ambiguities": 30,
+    "contradiction": 1,
+    "empty_certainty": 1,
+    "evidence_states": 129514,
+    "example_snapshot": 1,
+    "generating_world_preserved": 1029,
+    "generator_inputs": 1,
+    "insertion_order_tie": 1,
+    "large_exact_rationals": 1,
+    "mixed_symbol_partitions": 343,
+    "nonempty_certainties": 30,
+    "numeric_label_equality": 3,
+    "partitions": 30,
+    "posterior_coordinates": 4758,
+    "posterior_normalizations": 1626,
+    "prior_scale_invariance": 1626,
+    "repeated_observation": 1,
+    "separating_families": 5054,
+    "structural_certainties": 584,
+    "validation_rejections": 299
+  },
+  "total": 144933,
+  "result": "PASS for enumerated finite ordinary-value contract"
+}
+NaN outcome probe: rejected at validation boundary

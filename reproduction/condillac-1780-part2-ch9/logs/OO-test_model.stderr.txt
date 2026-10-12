@@ -1,0 +1,14 @@
+test_bayes_edges (__main__.ModelTests.test_bayes_edges) ... ok
+test_bayes_finite_properties (__main__.ModelTests.test_bayes_finite_properties) ... ok
+test_certain_nonvacuous (__main__.ModelTests.test_certain_nonvacuous) ... ok
+test_contract_rejections (__main__.ModelTests.test_contract_rejections) ... ok
+test_exact_ambiguity (__main__.ModelTests.test_exact_ambiguity) ... ok
+test_examples (__main__.ModelTests.test_examples) ... ok
+test_exhaustive_filter_properties_n4 (__main__.ModelTests.test_exhaustive_filter_properties_n4) ... ok
+test_observation_filter (__main__.ModelTests.test_observation_filter) ... ok
+test_separating_edges (__main__.ModelTests.test_separating_edges) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.021s
+
+OK

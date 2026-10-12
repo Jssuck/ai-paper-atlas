@@ -1,0 +1,36 @@
+{
+  "cause_implies_effect": true,
+  "contradictory_observations": [],
+  "effect_implies_cause": false,
+  "effect_observed_candidates": [
+    "both",
+    "alternate"
+  ],
+  "empty_state_certain": false,
+  "expected_survivors": {
+    "first_bit": "2",
+    "rare_11": "5/2",
+    "second_bit": "2"
+  },
+  "gold_malleability_observed": true,
+  "gold_unobserved_property_certain": false,
+  "minimal_separating_tests": [
+    "first_bit",
+    "second_bit"
+  ],
+  "positive_prior_posterior": {
+    "alternative": "1/4",
+    "target": "3/4"
+  },
+  "similarity_candidates": [
+    "similar_inhabited",
+    "similar_empty"
+  ],
+  "similarity_guarantees_inhabitants": false,
+  "zero_likelihood_structural_certainty": true,
+  "zero_prior_posterior": {
+    "alternative": "0",
+    "target": "1"
+  },
+  "zero_prior_structural_certainty": false
+}
