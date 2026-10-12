@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "condillac-1780-logic-part2-ch2",
+    "path": "papers/1780/condillac-logic-part2-ch2.zh-CN.md",
+    "stage": "primary_source_reading",
+    "scope": "La Logique II.II, actual 1798 Œuvres XXII pp.109–117; 1780 bibliographic edition date only."
+  },
   "last_completed": {
     "id": "condillac-1780-logic-part2-ch1",
     "path": "papers/1780/condillac-logic-part2-ch1.zh-CN.md",
@@ -10,14 +15,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed; genuine normal/-O/-OO checks, behavioral mutations distinguished from harness failures; final integration and lead rerun commands pass. All 183 remote UTF-8 files and blob identities verified. Eight live Markdown bodies, 596 formulas, 231 headings, seven tables, 24 answers and 264 relative paths checked. Long fingerprint table is accessible by horizontal scroll. BnF/Hiroshima readable; IA/Google fresh availability unverified.",
     "scope": "Complete La Logique II.I, actual 1798 Œuvres XXII pp.96–108, both scans and four margins; p.95 introduction contextual only. Applicable collected-edition errata and bounded Bacon comparison checked; exact French Bacon source remains unidentified. 1780 bibliographic dating only. Modern evidence/support models do not validate historical psychology."
   },
-  "updated_at": "2026-10-12T00:12:55Z",
+  "updated_at": "2026-10-12T00:39:55Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
+  "next_action": "Read and independently audit the complete bounded chapter; reconstruct and test clearly labelled teaching models before publication.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
