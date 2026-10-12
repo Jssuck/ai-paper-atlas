@@ -1,0 +1,144 @@
+{
+  "horn": {
+    "closed_again": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "closure": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "empty_truth_satisfies_rules": true,
+    "false_atoms_if_truth_empty": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "second_trace_length": 0,
+    "seeds": [
+      "rain"
+    ],
+    "trace": [
+      {
+        "conclusion": "wet",
+        "premises": [
+          "rain"
+        ],
+        "rule": "rain_to_wet"
+      },
+      {
+        "conclusion": "slip",
+        "premises": [
+          "wet"
+        ],
+        "rule": "wet_to_slip"
+      }
+    ],
+    "trace_verified": true
+  },
+  "hypotheses": {
+    "candidate_counts": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "noisy_budget_one_candidates": [
+      "other",
+      "true"
+    ],
+    "noisy_exact_candidates": [],
+    "noisy_singleton_wrong": [
+      "other"
+    ],
+    "prefix_candidates": [
+      [
+        "other",
+        "true",
+        "twin"
+      ],
+      [
+        "true",
+        "twin"
+      ],
+      [
+        "true",
+        "twin"
+      ],
+      [
+        "true"
+      ]
+    ],
+    "xy_distinguishes_all": false,
+    "xz_distinguishes_all": true
+  },
+  "status": "modern teaching reconstruction; not historical algorithm or psychological evidence",
+  "task_precision": {
+    "large_exact": false,
+    "large_label_count": 3,
+    "large_labels": {
+      "w1": "X",
+      "w2": "Y",
+      "w3": "X",
+      "w4": "Z"
+    },
+    "small_exact": true,
+    "small_label_count": 2,
+    "small_labels": {
+      "w1": "A",
+      "w2": "A",
+      "w3": "B",
+      "w4": "B"
+    },
+    "task": {
+      "w1": "safe",
+      "w2": "safe",
+      "w3": "unsafe",
+      "w4": "unsafe"
+    },
+    "worlds": [
+      "w1",
+      "w2",
+      "w3",
+      "w4"
+    ]
+  },
+  "translation": {
+    "correct_dictionary": {
+      "dry": "seco",
+      "rain": "lluvia",
+      "wet": "mojado"
+    },
+    "correct_preserves_semantics": true,
+    "genuine_target_closure": [
+      "lluvia",
+      "mojado"
+    ],
+    "translated_source_closure_correct": [
+      "lluvia",
+      "mojado"
+    ],
+    "translated_source_closure_wrong": [
+      "lluvia",
+      "seco"
+    ],
+    "wrong_dictionary": {
+      "dry": "mojado",
+      "rain": "lluvia",
+      "wet": "seco"
+    },
+    "wrong_preserves_semantics": false,
+    "wrong_round_trip_wet": [
+      "wet"
+    ],
+    "wrong_target_meaning_of_wet": [
+      "dry"
+    ],
+    "wrong_transported_rule_closure": [
+      "lluvia",
+      "seco"
+    ]
+  }
+}

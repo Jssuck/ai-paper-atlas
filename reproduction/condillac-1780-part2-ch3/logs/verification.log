@@ -1,0 +1,2394 @@
+=== demo ===
+command: ["${PYTHON_EXECUTABLE}", "-B", "demo.py"]
+exit: 0
+stdout:
+{
+  "horn": {
+    "closed_again": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "closure": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "empty_truth_satisfies_rules": true,
+    "false_atoms_if_truth_empty": [
+      "rain",
+      "slip",
+      "wet"
+    ],
+    "second_trace_length": 0,
+    "seeds": [
+      "rain"
+    ],
+    "trace": [
+      {
+        "conclusion": "wet",
+        "premises": [
+          "rain"
+        ],
+        "rule": "rain_to_wet"
+      },
+      {
+        "conclusion": "slip",
+        "premises": [
+          "wet"
+        ],
+        "rule": "wet_to_slip"
+      }
+    ],
+    "trace_verified": true
+  },
+  "hypotheses": {
+    "candidate_counts": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "noisy_budget_one_candidates": [
+      "other",
+      "true"
+    ],
+    "noisy_exact_candidates": [],
+    "noisy_singleton_wrong": [
+      "other"
+    ],
+    "prefix_candidates": [
+      [
+        "other",
+        "true",
+        "twin"
+      ],
+      [
+        "true",
+        "twin"
+      ],
+      [
+        "true",
+        "twin"
+      ],
+      [
+        "true"
+      ]
+    ],
+    "xy_distinguishes_all": false,
+    "xz_distinguishes_all": true
+  },
+  "status": "modern teaching reconstruction; not historical algorithm or psychological evidence",
+  "task_precision": {
+    "large_exact": false,
+    "large_label_count": 3,
+    "large_labels": {
+      "w1": "X",
+      "w2": "Y",
+      "w3": "X",
+      "w4": "Z"
+    },
+    "small_exact": true,
+    "small_label_count": 2,
+    "small_labels": {
+      "w1": "A",
+      "w2": "A",
+      "w3": "B",
+      "w4": "B"
+    },
+    "task": {
+      "w1": "safe",
+      "w2": "safe",
+      "w3": "unsafe",
+      "w4": "unsafe"
+    },
+    "worlds": [
+      "w1",
+      "w2",
+      "w3",
+      "w4"
+    ]
+  },
+  "translation": {
+    "correct_dictionary": {
+      "dry": "seco",
+      "rain": "lluvia",
+      "wet": "mojado"
+    },
+    "correct_preserves_semantics": true,
+    "genuine_target_closure": [
+      "lluvia",
+      "mojado"
+    ],
+    "translated_source_closure_correct": [
+      "lluvia",
+      "mojado"
+    ],
+    "translated_source_closure_wrong": [
+      "lluvia",
+      "seco"
+    ],
+    "wrong_dictionary": {
+      "dry": "mojado",
+      "rain": "lluvia",
+      "wet": "seco"
+    },
+    "wrong_preserves_semantics": false,
+    "wrong_round_trip_wet": [
+      "wet"
+    ],
+    "wrong_target_meaning_of_wet": [
+      "dry"
+    ],
+    "wrong_transported_rule_closure": [
+      "lluvia",
+      "seco"
+    ]
+  }
+}
+
+stderr:
+
+
+=== tests_normal ===
+command: ["${PYTHON_EXECUTABLE}", "-B", "-m", "unittest", "-v", "test_model"]
+exit: 0
+stdout:
+
+stderr:
+test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok
+test_conjunction (test_model.HornTests.test_conjunction) ... ok
+test_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok
+test_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok
+test_forged_trace (test_model.HornTests.test_forged_trace) ... ok
+test_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok
+test_unreachable (test_model.HornTests.test_unreachable) ... ok
+test_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok
+test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok
+test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok
+test_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok
+test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok
+test_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok
+test_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok
+test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok
+test_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok
+test_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok
+test_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok
+test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok
+test_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok
+test_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok
+test_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok
+test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok
+test_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.849s
+
+OK
+
+
+=== mutations_normal ===
+command: ["${PYTHON_EXECUTABLE}", "-B", "mutation_check.py", "--mode", "normal"]
+exit: 0
+stdout:
+{
+  "baselines": [
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "counts": {
+    "harness_failure": 0,
+    "killed": 10,
+    "survived": 0
+  },
+  "harness_controls": [
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "syntax_error",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1\n    not valid Python !!!\n              ^^^^^^\nSyntaxError: invalid syntax\n",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "import_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_model (unittest.loader._FailedTest.test_model) ... ERROR\n\n======================================================================\nERROR: test_model (unittest.loader._FailedTest.test_model)\n----------------------------------------------------------------------\nImportError: Failed to import test module: test_model\nTraceback (most recent call last):\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import surely_absent_condillac_module\nModuleNotFoundError: No module named 'surely_absent_condillac_module'\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "early_exit",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "timeout",
+      "reason": "timeout",
+      "returncode": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "test_runtime_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ERROR\n\n======================================================================\nERROR: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 72, in candidates\n    raise RuntimeError(\"injected test error\")\nRuntimeError: injected test error\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "malformed_json",
+      "reason": "malformed_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\n"
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_missing_fields",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={}\n",
+      "terminal_report": {}
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_non_object",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT=[]\n",
+      "terminal_report": []
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_boolean_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": true, \"failures\": 0, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": true,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_negative_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": -1, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": -1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_outcome_total",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": 1, \"errors\": 1, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "mode": "normal",
+  "mutations": [
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... FAIL\n\n======================================================================\nFAIL: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\nAssertionError: frozenset() != {'other', 'true', 'twin'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... FAIL\n\n======================================================================\nFAIL: test_noise_budget (test_model.HypothesisTests.test_noise_budget)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 44, in test_noise_budget\n    self.assertEqual(self.space.candidates(data, 1), {'true', 'other'})\nAssertionError: frozenset() != {'other', 'true'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... FAIL\n\n======================================================================\nFAIL: test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 36, in test_detect_not_identify\n    self.assertFalse(self.space.distinguishes(('x', 'y')))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... FAIL\n\n======================================================================\nFAIL: test_conjunction (test_model.HornTests.test_conjunction)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 117, in test_conjunction\n    self.assertEqual(system.close({'a'}).atoms, {'a'})\nAssertionError: frozenset({'c', 'a'}) != {'a'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... FAIL\n\n======================================================================\nFAIL: test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 108, in test_chain_and_idempotence\n    self.assertEqual(result.atoms, {'a', 'b', 'c'})\nAssertionError: frozenset({'a', 'b'}) != {'a', 'c', 'b'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... FAIL\n\n======================================================================\nFAIL: test_unreachable (test_model.HornTests.test_unreachable)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 122, in test_unreachable\n    self.assertEqual(system.close({'a'}).atoms, {'a', 'b'})\nAssertionError: frozenset({'a', 'c', 'b'}) != {'a', 'b'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.003s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... FAIL\n\n======================================================================\nFAIL: test_forged_trace (test_model.HornTests.test_forged_trace)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 145, in test_forged_trace\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 211, in test_wrong_dictionary\n    self.assertFalse(translation_preserves(self.a, self.b, self.wrong))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... FAIL\n\n======================================================================\nFAIL: test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 226, in test_dictionary_inverse_validation\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... FAIL\n\n======================================================================\nFAIL: test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 281, in test_breadth_is_not_precision\n    self.assertFalse(task_exact(worlds, larger, task))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "passed": true
+}
+
+stderr:
+
+
+=== tests_O ===
+command: ["${PYTHON_EXECUTABLE}", "-O", "-B", "-m", "unittest", "-v", "test_model"]
+exit: 0
+stdout:
+
+stderr:
+test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok
+test_conjunction (test_model.HornTests.test_conjunction) ... ok
+test_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok
+test_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok
+test_forged_trace (test_model.HornTests.test_forged_trace) ... ok
+test_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok
+test_unreachable (test_model.HornTests.test_unreachable) ... ok
+test_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok
+test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok
+test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok
+test_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok
+test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok
+test_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok
+test_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok
+test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok
+test_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok
+test_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok
+test_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok
+test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok
+test_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok
+test_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok
+test_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok
+test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok
+test_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.870s
+
+OK
+
+
+=== mutations_O ===
+command: ["${PYTHON_EXECUTABLE}", "-O", "-B", "mutation_check.py", "--mode", "O"]
+exit: 0
+stdout:
+{
+  "baselines": [
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "counts": {
+    "harness_failure": 0,
+    "killed": 10,
+    "survived": 0
+  },
+  "harness_controls": [
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "syntax_error",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1\n    not valid Python !!!\n              ^^^^^^\nSyntaxError: invalid syntax\n",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "import_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_model (unittest.loader._FailedTest.test_model) ... ERROR\n\n======================================================================\nERROR: test_model (unittest.loader._FailedTest.test_model)\n----------------------------------------------------------------------\nImportError: Failed to import test module: test_model\nTraceback (most recent call last):\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import surely_absent_condillac_module\nModuleNotFoundError: No module named 'surely_absent_condillac_module'\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "early_exit",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "timeout",
+      "reason": "timeout",
+      "returncode": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "test_runtime_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ERROR\n\n======================================================================\nERROR: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 72, in candidates\n    raise RuntimeError(\"injected test error\")\nRuntimeError: injected test error\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "malformed_json",
+      "reason": "malformed_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\n"
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_missing_fields",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={}\n",
+      "terminal_report": {}
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_non_object",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT=[]\n",
+      "terminal_report": []
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_boolean_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": true, \"failures\": 0, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": true,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_negative_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": -1, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": -1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_outcome_total",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": 1, \"errors\": 1, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "mode": "O",
+  "mutations": [
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... FAIL\n\n======================================================================\nFAIL: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\nAssertionError: frozenset() != {'true', 'other', 'twin'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... FAIL\n\n======================================================================\nFAIL: test_noise_budget (test_model.HypothesisTests.test_noise_budget)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 44, in test_noise_budget\n    self.assertEqual(self.space.candidates(data, 1), {'true', 'other'})\nAssertionError: frozenset() != {'other', 'true'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... FAIL\n\n======================================================================\nFAIL: test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 36, in test_detect_not_identify\n    self.assertFalse(self.space.distinguishes(('x', 'y')))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... FAIL\n\n======================================================================\nFAIL: test_conjunction (test_model.HornTests.test_conjunction)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 117, in test_conjunction\n    self.assertEqual(system.close({'a'}).atoms, {'a'})\nAssertionError: frozenset({'c', 'a'}) != {'a'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... FAIL\n\n======================================================================\nFAIL: test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 108, in test_chain_and_idempotence\n    self.assertEqual(result.atoms, {'a', 'b', 'c'})\nAssertionError: frozenset({'b', 'a'}) != {'b', 'a', 'c'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... FAIL\n\n======================================================================\nFAIL: test_unreachable (test_model.HornTests.test_unreachable)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 122, in test_unreachable\n    self.assertEqual(system.close({'a'}).atoms, {'a', 'b'})\nAssertionError: frozenset({'c', 'b', 'a'}) != {'b', 'a'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... FAIL\n\n======================================================================\nFAIL: test_forged_trace (test_model.HornTests.test_forged_trace)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 145, in test_forged_trace\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 211, in test_wrong_dictionary\n    self.assertFalse(translation_preserves(self.a, self.b, self.wrong))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... FAIL\n\n======================================================================\nFAIL: test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 226, in test_dictionary_inverse_validation\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-O",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... FAIL\n\n======================================================================\nFAIL: test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 281, in test_breadth_is_not_precision\n    self.assertFalse(task_exact(worlds, larger, task))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "passed": true
+}
+
+stderr:
+
+
+=== tests_OO ===
+command: ["${PYTHON_EXECUTABLE}", "-OO", "-B", "-m", "unittest", "-v", "test_model"]
+exit: 0
+stdout:
+
+stderr:
+test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok
+test_conjunction (test_model.HornTests.test_conjunction) ... ok
+test_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok
+test_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok
+test_forged_trace (test_model.HornTests.test_forged_trace) ... ok
+test_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok
+test_unreachable (test_model.HornTests.test_unreachable) ... ok
+test_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok
+test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok
+test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok
+test_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok
+test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok
+test_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok
+test_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok
+test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok
+test_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok
+test_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok
+test_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok
+test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok
+test_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok
+test_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok
+test_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok
+test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok
+test_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.756s
+
+OK
+
+
+=== mutations_OO ===
+command: ["${PYTHON_EXECUTABLE}", "-OO", "-B", "mutation_check.py", "--mode", "OO"]
+exit: 0
+stdout:
+{
+  "baselines": [
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "survived",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_pass",
+      "returncode": 0,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "counts": {
+    "harness_failure": 0,
+    "killed": 10,
+    "survived": 0
+  },
+  "harness_controls": [
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "syntax_error",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1\n    not valid Python !!!\n              ^^^^^^\nSyntaxError: invalid syntax\n",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "import_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_model (unittest.loader._FailedTest.test_model) ... ERROR\n\n======================================================================\nERROR: test_model (unittest.loader._FailedTest.test_model)\n----------------------------------------------------------------------\nImportError: Failed to import test module: test_model\nTraceback (most recent call last):\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py\", line 137, in loadTestsFromName\n    module = __import__(module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/test_model.py\", line 5, in <module>\n    from model import (HypothesisSpace, Rule, HornSystem, ClosureResult, Derivation,\n  File \"${MUTATION_DIR}/model.py\", line 1, in <module>\n    import surely_absent_condillac_module\nModuleNotFoundError: No module named 'surely_absent_condillac_module'\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "early_exit",
+      "reason": "missing_or_duplicate_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "timeout",
+      "reason": "timeout",
+      "returncode": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "test_runtime_error",
+      "reason": "test_error_or_incomplete_execution",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ERROR\n\n======================================================================\nERROR: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${MUTATION_DIR}/model.py\", line 72, in candidates\n    raise RuntimeError(\"injected test error\")\nRuntimeError: injected test error\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (errors=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 1, \"expected_failures\": 0, \"failures\": 0, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "malformed_json",
+      "reason": "malformed_terminal_report",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\n"
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_missing_fields",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={}\n",
+      "terminal_report": {}
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_non_object",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT=[]\n",
+      "terminal_report": []
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_boolean_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": true, \"failures\": 0, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": true,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_negative_count",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": -1, \"errors\": 0, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": -1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "harness_failure",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "schema_outcome_total",
+      "reason": "invalid_terminal_report_schema_or_counts",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "SENTINEL_RESULT={\"tests\": 1, \"failures\": 1, \"errors\": 1, \"skipped\": 0, \"expected_failures\": 0, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 1,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "mode": "OO",
+  "mutations": [
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_filter_exact"
+      ],
+      "name": "exclude_exact_match",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_filter_exact (test_model.HypothesisTests.test_filter_exact) ... FAIL\n\n======================================================================\nFAIL: test_filter_exact (test_model.HypothesisTests.test_filter_exact)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 30, in test_filter_exact\n    self.assertEqual(self.space.candidates([]), {'true', 'twin', 'other'})\nAssertionError: frozenset() != {'twin', 'true', 'other'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_noise_budget"
+      ],
+      "name": "ignore_noise_budget",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_noise_budget (test_model.HypothesisTests.test_noise_budget) ... FAIL\n\n======================================================================\nFAIL: test_noise_budget (test_model.HypothesisTests.test_noise_budget)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 44, in test_noise_budget\n    self.assertEqual(self.space.candidates(data, 1), {'true', 'other'})\nAssertionError: frozenset() != {'other', 'true'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HypothesisTests.test_detect_not_identify"
+      ],
+      "name": "claim_identifiability",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... FAIL\n\n======================================================================\nFAIL: test_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 36, in test_detect_not_identify\n    self.assertFalse(self.space.distinguishes(('x', 'y')))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_conjunction"
+      ],
+      "name": "any_premise_suffices",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_conjunction (test_model.HornTests.test_conjunction) ... FAIL\n\n======================================================================\nFAIL: test_conjunction (test_model.HornTests.test_conjunction)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 117, in test_conjunction\n    self.assertEqual(system.close({'a'}).atoms, {'a'})\nAssertionError: frozenset({'a', 'c'}) != {'a'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_chain_and_idempotence"
+      ],
+      "name": "stop_after_one_pass",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... FAIL\n\n======================================================================\nFAIL: test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 108, in test_chain_and_idempotence\n    self.assertEqual(result.atoms, {'a', 'b', 'c'})\nAssertionError: frozenset({'b', 'a'}) != {'b', 'c', 'a'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_unreachable"
+      ],
+      "name": "add_unreachable_atoms",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_unreachable (test_model.HornTests.test_unreachable) ... FAIL\n\n======================================================================\nFAIL: test_unreachable (test_model.HornTests.test_unreachable)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 122, in test_unreachable\n    self.assertEqual(system.close({'a'}).atoms, {'a', 'b'})\nAssertionError: frozenset({'a', 'c', 'b'}) != {'a', 'b'}\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.HornTests.test_forged_trace"
+      ],
+      "name": "ignore_provenance_fields",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_forged_trace (test_model.HornTests.test_forged_trace) ... FAIL\n\n======================================================================\nFAIL: test_forged_trace (test_model.HornTests.test_forged_trace)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 145, in test_forged_trace\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_wrong_dictionary"
+      ],
+      "name": "accept_wrong_meaning",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... FAIL\n\n======================================================================\nFAIL: test_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 211, in test_wrong_dictionary\n    self.assertFalse(translation_preserves(self.a, self.b, self.wrong))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.TranslationTests.test_dictionary_inverse_validation"
+      ],
+      "name": "allow_noninjective_inverse",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... FAIL\n\n======================================================================\nFAIL: test_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 226, in test_dictionary_inverse_validation\n    with self.assertRaises(ValueError):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ValueError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    },
+    {
+      "classification": "killed",
+      "command": [
+        "${PYTHON_EXECUTABLE}",
+        "-OO",
+        "-B",
+        "-c",
+        "${SENTINEL_RUNNER}",
+        "test_model.PrecisionTests.test_breadth_is_not_precision"
+      ],
+      "name": "equate_breadth_precision",
+      "reason": "completed_sentinel_assertion_failure",
+      "returncode": 1,
+      "stderr": "test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... FAIL\n\n======================================================================\nFAIL: test_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"${MUTATION_DIR}/test_model.py\", line 281, in test_breadth_is_not_precision\n    self.assertFalse(task_exact(worlds, larger, task))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n",
+      "stdout": "SENTINEL_RESULT={\"errors\": 0, \"expected_failures\": 0, \"failures\": 1, \"skipped\": 0, \"tests\": 1, \"unexpected_successes\": 0}\n",
+      "terminal_report": {
+        "errors": 0,
+        "expected_failures": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 1,
+        "unexpected_successes": 0
+      }
+    }
+  ],
+  "passed": true
+}
+
+stderr:
+

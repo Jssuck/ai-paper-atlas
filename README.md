@@ -29,6 +29,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.IX精读](papers/1780/condillac-logic-part1-ch9.zh-CN.md) | AI认知前史：身体习惯、序列再现与来源归因的边界 | 深读v1 · 完整书籍章节72–94、十九边注及全集勘误核验 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.I精读](papers/1780/condillac-logic-part2-ch1.zh-CN.md) | AI认识论前史：经验纠错、循环支持、词义与教育的边界 | 深读v1 · 完整书籍章节96–108、四边注及Bacon援引核查 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.II精读](papers/1780/condillac-logic-part2-ch2.zh-CN.md) | AI语言与认知前史：动作分解、角色绑定、类推与习得观念 | 深读v1 · 完整书籍章节109–117、四边注及全集勘误核查 |
+| 1780（本次读1798版） | [Condillac《逻辑学》II.III精读](papers/1780/condillac-logic-part2-ch3.zh-CN.md) | AI语言与认识论前史：经验纠错、错误传播与词义对齐 | 深读v1 · 完整书籍章节118–124、五边注及自引核查 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -393,3 +394,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成实际1798《Œuvres》XXII卷II.II印109–117全九页、四条边注，两册同版逐页核图；118页已属III，无脚注、原图或公式。1780只作已核一版书目年。全集勘误无本章条目，I.I第8页单独更正保持解决。Locke指定段落只作电子转录有界比较，不认证直接传承或初版文字。
 
 全文包含自然与神学前提、同时表现、逐项注意、互助与有意重做、情境次序、类推、先天表达与习得观念；24题附答案。现代有限角色模型区分内容、次序、标签绑定、词典碰撞和分帧；合法前缀与有限假设空间提供一般证明及反例。同时显示标签并不必然丢信息。标准库普通、-O、-OO实跑、行为变异与独立核验范围见附件；有限检查不证明语言发生史、人类认知或反先天观念理论。无Notebook或Jupyter声明。II.III及以后、全书、1780正文、版本史和全部旧候选/书籍缺口保留。
+
+## Condillac《逻辑学》II.III可运行附件
+
+- [为什么连贯仍可能越说越错的中文精读](papers/1780/condillac-logic-part2-ch3.zh-CN.md)
+- [七页、五边注与版本账本](papers/1780/condillac-logic-part2-ch3.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part2-ch3.audit.zh-CN.md)
+- [模型、环境、命令与实跑日志](reproduction/condillac-1780-part2-ch3/README.md) · [逐步教学](reproduction/condillac-1780-part2-ch3/WALKTHROUGH.zh-CN.md)
+- [独立代码复核](reproduction/condillac-1780-part2-ch3/independent-review/review.zh-CN.md)
+
+仅完成实际1798《Œuvres》XXII卷II.III印118–124全七页、五条边注及一处括号自引，两册同版逐页核图；125页已属IV，无脚注、原图或公式。1780只作已核一版书目年。目录229页把第四章误列15，正文实际125，作为可见差异记录，非正式勘误。全集勘误无本章条目，I.I第8页独立更正保持解决。1775《Grammaire》58–61页和Locke指定段落仅有界比较，不完成所引八章或建立直接传承。
+
+全文包含符号依赖、无意活动与方法自觉、早期准确性、先分析后命名、需要评价、错误的连贯传播、语言接触及话语机制批评；24题附答案。现代有限假设筛选、正Horn闭包与来源证书、词义转换和任务分区分别给出一般证明与反例。可逆不等于保义、闭包稳定不等于事实正确、更多类别不等于任务更准确。标准库普通、-O、-OO实跑与独立核验范围见附件；行为变异和装置失败分开。有限检查不证明语言发生史、心理或社会主张。无Notebook或Jupyter声明。II.IV及以后、全书、1780正文、版本史和全部旧候选/书籍缺口保留。
