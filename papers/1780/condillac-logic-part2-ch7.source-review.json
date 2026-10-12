@@ -1,0 +1,58 @@
+{
+  "review_type": "independent_historical_source_review",
+  "review_date": "2026-10-12",
+  "status": "passed_with_explicit_limits",
+  "files": [
+    {
+      "path": "papers/1780/condillac-logic-part2-ch7.zh-CN.md",
+      "sha256": "466fec72feba3892d9f80a3ea179c8fe7b743966034b55d480b7d381f35787fb"
+    },
+    {
+      "path": "papers/1780/condillac-logic-part2-ch7.sources.zh-CN.md",
+      "sha256": "ed430ed8016a3af3abe18d3cb93dae0ac5e4abedef54c624d434bd1a17bc5842"
+    }
+  ],
+  "completed_unit": {
+    "work_bibliographic_year": 1780,
+    "edition_actually_read": "Paris, Ch. Houel, an VI–1798, Œuvres de Condillac, tome XXII",
+    "unit": "La Logique II.VII",
+    "printed_pages": "152–169",
+    "page_count": 18,
+    "both_same_edition_scans_visually_read_in_full": true,
+    "next_chapter_boundary": 170
+  },
+  "checks_passed": [
+    "完整章界、18页全部正文、七条边题及两条跨页脚注",
+    "164页原印x及据内证校读y，明确未列入正式勘误",
+    "152–154页Euler、La Grange和Clairaut的限定与实际引指",
+    "Clairaut1746序言有界图证、Euler1822英译有界图证、Lagrange1911序言有界图证",
+    "167–168页局部可译性与复杂代数不可译性主张的区分",
+    "原文观点、现代重构、经验结论和代码实跑证据的边界"
+  ],
+  "source_fingerprints": [
+    {
+      "source": "Internet Archive b28772581_0022 PDF",
+      "sha256": "de7dbcb33c98110d33511de787831bd4104b1df69de9c8266a84a4de3c937529"
+    },
+    {
+      "source": "Google Books tdSdMhj8gcwC PDF",
+      "sha256": "5d201b82bd64174ce74bbbcf39b2a152c0b574e7e569b3141281fc03e94a9a1e"
+    },
+    {
+      "source": "Internet Archive b28772581_0023 PDF",
+      "sha256": "8380b3f27be1799b4c75a4ab868b250defa9f115348190daafa78fa958957f52"
+    }
+  ],
+  "limitations": [
+    "未读1780版正文，1780只作书目归年。",
+    "双扫描是1798同版不同册，不能称异版校勘。",
+    "未核孔狄亚克实际使用的数学教材版本或个人藏本。",
+    "三位数学家的外部著作只读来源账本列明的有界片段，不计全书完成。",
+    "没有新增直接影响链、教学实验或心理学实证结论。",
+    "本记录是来源审查，不替代独立数学与代码审计。"
+  ],
+  "blocking_findings": [],
+  "resolved_findings": [
+    "将暗示孔狄亚克实际用1774法译原册的措辞改为版本未确定，并对修订后正文与来源账本绑定指纹。"
+  ]
+}

@@ -33,6 +33,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》II.IV精读](papers/1780/condillac-logic-part2-ch4.zh-CN.md) | AI语言与认识论前史：判断习惯、词义来源与观察校准 | 深读v1 · 完整书籍章节125–130、四边注及历史自引核查 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.V精读](papers/1780/condillac-logic-part2-ch5.zh-CN.md) | AI表征与推理前史：一般观念、类名从属与正确性边界 | 深读v1 · 完整书籍章节131–140、五边注及课程自引核查 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.VI精读](papers/1780/condillac-logic-part2-ch6.zh-CN.md) | AI认识论与表征前史：定义、事实根据与学习次序 | 深读v1 · 完整书籍章节141–151、五边注及三组引注核查 |
+| 1780（本次读1798版） | [Condillac《逻辑学》II.VII精读](papers/1780/condillac-logic-part2-ch7.zh-CN.md) | AI表征与推理前史：语言简化、代数同解与证据边界 | 深读v1 · 完整书籍章节152–169、七边题及两条跨页脚注 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -441,3 +442,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成实际1798《Œuvres》XXII卷II.VI印141–151十一页、五边注及三组引注，两册同版逐页核图；VII始于152。1780只作书目年。全集勘误不涉及本章，I.I第8页更正保持解决。149页外书Port-Royal与150页自著Art de penser分开，后者1798VI120–133十四页只作有界自引核验。原典转录显示Port-Royal也要求由较已知到较未知且反对全定义，Encyclopédie逻辑分条也含生成、组合与分解；不以作者截引替对方立论，外书版本与页图核验限制明确保留。
 
 全文展开三角形、原则、心灵与直线、简单和复合观念、词义分歧、分析综合之争；24题附答案。现代显式定义的唯一保守扩展、观察纤维可定义判准与规则最小闭包分别给出一般证明、例子和反例。标准库普通、-O、-OO真实执行与独立核验见附件；变异行为检出和装置失败分开。有限测试不替代一般证明，不证明心理、语言史或教学效果，无Notebook或Jupyter声明。VII以后、全书、1780正文、全部版本史与全部旧候选/书籍缺口继续保留。
+
+## Condillac《逻辑学》II.VII可运行附件
+
+- [把话说短以后，究竟保住了什么？](papers/1780/condillac-logic-part2-ch7.zh-CN.md)
+- [十八页、七边题与来源账本](papers/1780/condillac-logic-part2-ch7.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part2-ch7.audit.zh-CN.md)
+- [模型、环境、命令与实跑日志](reproduction/condillac-1780-part2-ch7/README.md) · [逐步教学](reproduction/condillac-1780-part2-ch7/WALKTHROUGH.zh-CN.md)
+- [独立代码复核](reproduction/condillac-1780-part2-ch7/independent-review/review.zh-CN.md)
+
+仅完成实际1798《Œuvres》XXII卷II.VII印152–169十八页、七条边题及两条跨页脚注，两册同版逐页核图；VIII另起170。1780只作书目年。164页两册均印x+2=2y−3，162页文字及164上下文要求y+2=2y−3；明确区分原印与本文校读，全集正式勘误未列164条目。I.I第8页conformation更正继续保持解决。Clairaut、Euler及La Grange相关原典的有界核验范围和版本限制见账本，不新增全书完成单位。
+
+全文重建两种替代转移、作用域、消元与回代，审查相继判断同一及向各门科学的推广；20题附答案。现代有理仿射模型证明可逆操作保持完整系统，区分后承、投影、整数可行性及退化分支。标准库普通、-O、-OO实跑、独立行列式／叉积检查和代码审计见附件。有限测试不代替一般证明，也不验证作者全部心理、语言或教学主张。VIII以后、全书、1780正文、全部版本史与此前书籍和论文缺口继续保留。

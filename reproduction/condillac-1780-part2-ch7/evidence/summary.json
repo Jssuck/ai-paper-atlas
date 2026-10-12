@@ -1,0 +1,205 @@
+{
+  "timestamp_utc": "2026-10-12T05:42:30.918205+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "implementation": "CPython",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "files_sha256": {
+    "condillac_model.py": "1bdd12ca7587bbb80032cf7e3199ddb19e8dd3b075c1c8a75b4a050495d6a8ad",
+    "demo.py": "ec4fde3847c800ad5ebb70e8681d781328f976fe114ca5aeae38b627a54d9c2c",
+    "independent_argument_checks.py": "30e03dcedf598338ac88352b443bec5aeed572efb765412322521ae12e2bc737",
+    "mutation_check.py": "87df6526a654354134864fbb780300a61a541e3ed0131290687067d75e7bad69",
+    "test_condillac_model.py": "1a9cf87f1bc825b5b1bd19084853209d24e1259c5de29d6af417b583ccd53c33",
+    "test_mutation_check.py": "b7eacef43532f180d5b5a939dee23dd44aea90050df6e21aa2e56ab3e906cae0",
+    "verify.py": "32b6a558dc892959f26693170426c31004fbdbf67e2878bff99e33e236862b8b",
+    "walkthrough.py": "1a62dd631f312947188c1060fa645a3a0cf04bded47387d4107fb0083c9a4634"
+  },
+  "commands": [
+    {
+      "mode": "normal",
+      "check": "demo",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "stdout": "demo_normal.stdout.txt",
+      "stderr": "demo_normal.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "check": "tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "tests_normal.stdout.txt",
+      "stderr": "tests_normal.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "check": "mutations",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "stdout": "mutations_normal.stdout.txt",
+      "stderr": "mutations_normal.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "check": "walkthrough",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "stdout": "walkthrough_normal.stdout.txt",
+      "stderr": "walkthrough_normal.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "check": "independent_argument",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "independent_argument_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "independent_argument_normal.stdout.txt",
+      "stderr": "independent_argument_normal.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "check": "demo",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "stdout": "demo_O.stdout.txt",
+      "stderr": "demo_O.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "check": "tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "tests_O.stdout.txt",
+      "stderr": "tests_O.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "check": "mutations",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "stdout": "mutations_O.stdout.txt",
+      "stderr": "mutations_O.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "check": "walkthrough",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "stdout": "walkthrough_O.stdout.txt",
+      "stderr": "walkthrough_O.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "check": "independent_argument",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "independent_argument_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "independent_argument_O.stdout.txt",
+      "stderr": "independent_argument_O.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "check": "demo",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "stdout": "demo_OO.stdout.txt",
+      "stderr": "demo_OO.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "check": "tests",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "tests_OO.stdout.txt",
+      "stderr": "tests_OO.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "check": "mutations",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "stdout": "mutations_OO.stdout.txt",
+      "stderr": "mutations_OO.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "check": "walkthrough",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "stdout": "walkthrough_OO.stdout.txt",
+      "stderr": "walkthrough_OO.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "check": "independent_argument",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "independent_argument_checks.py"
+      ],
+      "exit_code": 0,
+      "stdout": "independent_argument_OO.stdout.txt",
+      "stderr": "independent_argument_OO.stderr.txt"
+    }
+  ],
+  "deterministic_stdout_across_modes": true,
+  "passed": true
+}

@@ -1,0 +1,92 @@
+{
+  "interpretation": "modern reconstruction; two alternative transfers from the same initial state",
+  "initial_solution": {
+    "kind": "unique",
+    "point": [
+      "7",
+      "5"
+    ]
+  },
+  "trace": [
+    [
+      [
+        "1",
+        "-1",
+        "-2"
+      ],
+      [
+        "1",
+        "-2",
+        "3"
+      ]
+    ],
+    [
+      [
+        "1",
+        "-1",
+        "-2"
+      ],
+      [
+        "0",
+        "-1",
+        "5"
+      ]
+    ],
+    [
+      [
+        "1",
+        "-1",
+        "-2"
+      ],
+      [
+        "0",
+        "1",
+        "-5"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0",
+        "-7"
+      ],
+      [
+        "0",
+        "1",
+        "-5"
+      ]
+    ]
+  ],
+  "trace_preserves_rational_solutions": true,
+  "finite_square_0_to_12": [
+    [
+      7,
+      5
+    ]
+  ],
+  "derived_equation_accepts_0_5": true,
+  "original_accepts_0_5": false,
+  "sequential_solution": {
+    "kind": "unique",
+    "point": [
+      "4",
+      "2"
+    ]
+  },
+  "k4_rational_solution": {
+    "kind": "unique",
+    "point": [
+      "13/3",
+      "7/3"
+    ]
+  },
+  "k4_natural_solution_in_square_0_to_12": [],
+  "k1_positive_transfers": {
+    "kind": "none",
+    "point": null
+  },
+  "k1_zero_transfers": {
+    "kind": "infinite",
+    "point": null
+  }
+}

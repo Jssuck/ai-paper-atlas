@@ -1,0 +1,10 @@
+rows: (Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(1, 1), l=Fraction(-2, 1), c=Fraction(3, 1)))
+solution: {'kind': 'unique', 'point': (Fraction(7, 1), Fraction(5, 1))}
+step 0 (Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(1, 1), l=Fraction(-2, 1), c=Fraction(3, 1))) equivalent: True
+step 1 (Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(0, 1), l=Fraction(-1, 1), c=Fraction(5, 1))) equivalent: True
+step 2 (Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(0, 1), l=Fraction(1, 1), c=Fraction(-5, 1))) equivalent: True
+step 3 (Aff(r=Fraction(1, 1), l=Fraction(0, 1), c=Fraction(-7, 1)), Aff(r=Fraction(0, 1), l=Fraction(1, 1), c=Fraction(-5, 1))) equivalent: True
+conjunction loss witness: True False
+sequential: {'kind': 'unique', 'point': (Fraction(4, 1), Fraction(2, 1))}
+k4: {'kind': 'unique', 'point': (Fraction(13, 3), Fraction(7, 3))} feasible: False
+bounded original: ((7, 5),)

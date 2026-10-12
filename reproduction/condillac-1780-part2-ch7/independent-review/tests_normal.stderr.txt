@@ -1,0 +1,14 @@
+test_affine_arithmetic (test_condillac_model.ModelTests.test_affine_arithmetic) ... ok
+test_bounded_direct_oracle (test_condillac_model.ModelTests.test_bounded_direct_oracle) ... ok
+test_bounded_row_oracle (test_condillac_model.ModelTests.test_bounded_row_oracle) ... ok
+test_domain_and_degeneracy (test_condillac_model.ModelTests.test_domain_and_degeneracy) ... ok
+test_independent_not_sequential (test_condillac_model.ModelTests.test_independent_not_sequential) ... ok
+test_information_loss_and_mistakes (test_condillac_model.ModelTests.test_information_loss_and_mistakes) ... ok
+test_reversible_certificate (test_condillac_model.ModelTests.test_reversible_certificate) ... ok
+test_translation_and_solution (test_condillac_model.ModelTests.test_translation_and_solution) ... ok
+test_categories (test_mutation_check.MutationClassifierTests.test_categories) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.805s
+
+OK

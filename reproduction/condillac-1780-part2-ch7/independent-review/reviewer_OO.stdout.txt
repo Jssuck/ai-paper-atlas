@@ -1,0 +1,16 @@
+(Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(1, 1), l=Fraction(-2, 1), c=Fraction(3, 1)))
+{'kind': 'unique', 'point': (Fraction(7, 1), Fraction(5, 1))}
+(Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(1, 1), l=Fraction(-2, 1), c=Fraction(3, 1))) True
+(Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(0, 1), l=Fraction(-1, 1), c=Fraction(5, 1))) True
+(Aff(r=Fraction(1, 1), l=Fraction(-1, 1), c=Fraction(-2, 1)), Aff(r=Fraction(0, 1), l=Fraction(1, 1), c=Fraction(-5, 1))) True
+(Aff(r=Fraction(1, 1), l=Fraction(0, 1), c=Fraction(-7, 1)), Aff(r=Fraction(0, 1), l=Fraction(1, 1), c=Fraction(-5, 1))) True
+True False
+False
+{'kind': 'unique', 'point': (Fraction(4, 1), Fraction(2, 1))}
+False
+{'kind': 'unique', 'point': (Fraction(13, 3), Fraction(7, 3))}
+False
+((7, 5),)
+{'kind': 'none', 'point': None}
+{'kind': 'infinite', 'point': None}
+{"counts": {"affine_arithmetic": 25, "contradiction": 225, "direct_transfer": 180, "documentation_block": 5, "empty_certificate": 1, "empty_equivalence": 225, "exact_inverse": 5, "invalid_input": 79, "iterables": 1, "line_canonical": 120, "line_not_plane": 120, "line_parameterization": 600, "line_solution": 120, "mutant_baseline": 1, "mutant_crash": 1, "mutant_survivor": 1, "negative_cancellation": 1, "physical_domain": 1296, "plane": 3, "point_canonical": 225, "point_holds": 225, "point_reject": 225, "point_solution": 225, "rational_parameters": 216, "sequential_parameters": 180, "walkthrough_state": 1}, "optimization": 2, "status": "PASS"}

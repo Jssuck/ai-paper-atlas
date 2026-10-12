@@ -1,0 +1,353 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-10-12T05:49:10.364895+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "independence": "Separate reviewer authored constructive checks and logger probes; existing argument auditor rerun but not claimed as reviewer work.",
+  "scope": "Modern teaching reconstruction only, not historical executable or independent source-image review.",
+  "path_display": "Working directory is relative to this package; disposable probe directories are labeled <temporary-isolated-copy>. Private absolute working-directory prefixes are omitted from public metadata.",
+  "reviewed_files_sha256": {
+    "MODEL.zh-CN.md": "36cadc89fa11a062c60a0276a84fb27eaaeed04e32adf75e414008cd4ab1a0f4",
+    "README.md": "d8bf08853196db691d849aed24537e99aa947069637b31e2a8cefe1b4ccd4b28",
+    "VERIFICATION.zh-CN.md": "c7258fe056ea536be80720dae979eb4a845c16535bfad46309a8e951aeb17265",
+    "WALKTHROUGH.zh-CN.md": "033f36b7f49b412ba445f55e3d38fb7dc53366d5e9baf7a290b540e1d6460aa3",
+    "condillac_model.py": "1bdd12ca7587bbb80032cf7e3199ddb19e8dd3b075c1c8a75b4a050495d6a8ad",
+    "demo.py": "ec4fde3847c800ad5ebb70e8681d781328f976fe114ca5aeae38b627a54d9c2c",
+    "independent_argument_checks.py": "30e03dcedf598338ac88352b443bec5aeed572efb765412322521ae12e2bc737",
+    "mutation_check.py": "87df6526a654354134864fbb780300a61a541e3ed0131290687067d75e7bad69",
+    "test_condillac_model.py": "1a9cf87f1bc825b5b1bd19084853209d24e1259c5de29d6af417b583ccd53c33",
+    "test_mutation_check.py": "b7eacef43532f180d5b5a939dee23dd44aea90050df6e21aa2e56ab3e906cae0",
+    "verify.py": "32b6a558dc892959f26693170426c31004fbdbf67e2878bff99e33e236862b8b",
+    "walkthrough.py": "1a62dd631f312947188c1060fa645a3a0cf04bded47387d4107fb0083c9a4634"
+  },
+  "review_artifacts_sha256": {
+    "review.zh-CN.md": "bc97381b3c0112387cd98d128611d7da1b43b570b1f80f0b82a67c0b67e6e6e0",
+    "reviewer_checks.py": "63f3d119fcf0a4ace0043e8f1895246b2581678dead19c7ae980e9b877101b5a",
+    "run_review.py": "e2022630098b6232947f6671c9eb834f63c87571ec34ab5532c451a83b082a9c"
+  },
+  "commands": [
+    {
+      "label": "tests_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "tests_normal.stdout.txt",
+      "stderr": "tests_normal.stderr.txt"
+    },
+    {
+      "label": "reviewer_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "independent-review/reviewer_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "reviewer_normal.stdout.txt",
+      "stderr": "reviewer_normal.stderr.txt"
+    },
+    {
+      "label": "demo_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "demo_normal.stdout.txt",
+      "stderr": "demo_normal.stderr.txt"
+    },
+    {
+      "label": "mutations_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "mutation_check.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "mutations_normal.stdout.txt",
+      "stderr": "mutations_normal.stderr.txt"
+    },
+    {
+      "label": "walkthrough_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "walkthrough.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "walkthrough_normal.stdout.txt",
+      "stderr": "walkthrough_normal.stderr.txt"
+    },
+    {
+      "label": "argument_auditor_normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "independent_argument_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "argument_auditor_normal.stdout.txt",
+      "stderr": "argument_auditor_normal.stderr.txt"
+    },
+    {
+      "label": "tests_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "tests_O.stdout.txt",
+      "stderr": "tests_O.stderr.txt"
+    },
+    {
+      "label": "reviewer_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "independent-review/reviewer_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "reviewer_O.stdout.txt",
+      "stderr": "reviewer_O.stderr.txt"
+    },
+    {
+      "label": "demo_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "demo_O.stdout.txt",
+      "stderr": "demo_O.stderr.txt"
+    },
+    {
+      "label": "mutations_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "mutation_check.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "mutations_O.stdout.txt",
+      "stderr": "mutations_O.stderr.txt"
+    },
+    {
+      "label": "walkthrough_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "walkthrough.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "walkthrough_O.stdout.txt",
+      "stderr": "walkthrough_O.stderr.txt"
+    },
+    {
+      "label": "argument_auditor_O",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "independent_argument_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "argument_auditor_O.stdout.txt",
+      "stderr": "argument_auditor_O.stderr.txt"
+    },
+    {
+      "label": "tests_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "tests_OO.stdout.txt",
+      "stderr": "tests_OO.stderr.txt"
+    },
+    {
+      "label": "reviewer_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "independent-review/reviewer_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "reviewer_OO.stdout.txt",
+      "stderr": "reviewer_OO.stderr.txt"
+    },
+    {
+      "label": "demo_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "demo.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "demo_OO.stdout.txt",
+      "stderr": "demo_OO.stderr.txt"
+    },
+    {
+      "label": "mutations_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "mutation_check.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "mutations_OO.stdout.txt",
+      "stderr": "mutations_OO.stderr.txt"
+    },
+    {
+      "label": "walkthrough_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "walkthrough.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "walkthrough_OO.stdout.txt",
+      "stderr": "walkthrough_OO.stderr.txt"
+    },
+    {
+      "label": "argument_auditor_OO",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "independent_argument_checks.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "stdout": "argument_auditor_OO.stdout.txt",
+      "stderr": "argument_auditor_OO.stderr.txt"
+    },
+    {
+      "label": "logger_failed_test",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "<temporary-isolated-copy>",
+      "exit_code": 1,
+      "stdout": "logger_failed_test.stdout.txt",
+      "stderr": "logger_failed_test.stderr.txt"
+    },
+    {
+      "label": "logger_nondeterministic",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "<temporary-isolated-copy>",
+      "exit_code": 1,
+      "stdout": "logger_nondeterministic.stdout.txt",
+      "stderr": "logger_nondeterministic.stderr.txt"
+    },
+    {
+      "label": "logger_success",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "<temporary-isolated-copy>",
+      "exit_code": 0,
+      "stdout": "logger_success.stdout.txt",
+      "stderr": "logger_success.stderr.txt"
+    }
+  ],
+  "logger_probes": {
+    "failed_test": {
+      "exit": 1,
+      "passed": false,
+      "records": 15,
+      "failing_records": 3
+    },
+    "nondeterministic": {
+      "exit": 1,
+      "passed": false,
+      "deterministic": false,
+      "all_children_succeeded": true
+    },
+    "success": {
+      "exit": 0,
+      "passed": true,
+      "hashes_match": true
+    }
+  },
+  "deterministic_stdout_across_modes": true,
+  "source_unchanged_during_review": true,
+  "logs_sha256": {
+    "argument_auditor_O.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "argument_auditor_O.stdout.txt": "2bbf04ed39dd99899c54ee9996316bd79ebd60b1e01a087f69f2ec0594f7c69b",
+    "argument_auditor_OO.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "argument_auditor_OO.stdout.txt": "81d184a56e76dd78989c9fc6f70432a89fd86cfe6e7044243535e69bd6f43ac8",
+    "argument_auditor_normal.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "argument_auditor_normal.stdout.txt": "1edac2a33b512bf786a0ec633597a2be9ce2134f0619d84e7b85149c7e01c89f",
+    "demo_O.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "demo_O.stdout.txt": "7d6bf01be4efdc94ea47cc85ef7b4df7969f9550d491945c99933d4fbd60788d",
+    "demo_OO.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "demo_OO.stdout.txt": "7d6bf01be4efdc94ea47cc85ef7b4df7969f9550d491945c99933d4fbd60788d",
+    "demo_normal.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "demo_normal.stdout.txt": "7d6bf01be4efdc94ea47cc85ef7b4df7969f9550d491945c99933d4fbd60788d",
+    "logger_failed_test.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logger_failed_test.stdout.txt": "e3eb74ce5c0b59b74c6051d01f9a2cebb8b039744426dbe5200f8433992c5106",
+    "logger_nondeterministic.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logger_nondeterministic.stdout.txt": "01490809ad5e4719efec49c5586eba3658954dc24554aaa0d5a626cbdfd8c16c",
+    "logger_success.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logger_success.stdout.txt": "3f8cdfca8565aea0ee65b9f6a98326f311fe9ab5f22b984e3f46ac8dc14ed314",
+    "mutations_O.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutations_O.stdout.txt": "ca4ad4edc2dcf7fb74dfb79acff26e724664c74095334a295af5a2b0e30841f6",
+    "mutations_OO.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutations_OO.stdout.txt": "ca4ad4edc2dcf7fb74dfb79acff26e724664c74095334a295af5a2b0e30841f6",
+    "mutations_normal.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mutations_normal.stdout.txt": "ca4ad4edc2dcf7fb74dfb79acff26e724664c74095334a295af5a2b0e30841f6",
+    "reviewer_O.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewer_O.stdout.txt": "d8962a45bf07ec2993807fb948a2c940d8fe4e37007a0ab9c30eb4978327fde2",
+    "reviewer_OO.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewer_OO.stdout.txt": "32b286a50fb6dcc41bddd6fa952449d1f3eda81b0a7820e38ca8cbe0791eec5b",
+    "reviewer_normal.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewer_normal.stdout.txt": "608b89fbfc1f2f7494880d621757bedd5661b69f7333a8ad3ee46293dd7ed8fd",
+    "tests_O.stderr.txt": "88c6f56f248fa5e295fbff3e18ba5eef663e93f3f02ac138a34a7fc61d3e84a4",
+    "tests_O.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests_OO.stderr.txt": "a7dd51ec1cc33a9f9f97662c2ec6e51a9632536e541264f454c2db23d052cf6f",
+    "tests_OO.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests_normal.stderr.txt": "583501f5148ea5eba7bbdf7def41c460dbeceb3e9d8195181c8bf9ecd5b42f14",
+    "tests_normal.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "walkthrough_O.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "walkthrough_O.stdout.txt": "d704b4ee8a8987bbaa20348052bddcaa050558b775bbc46977092c9a12c58584",
+    "walkthrough_OO.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "walkthrough_OO.stdout.txt": "d704b4ee8a8987bbaa20348052bddcaa050558b775bbc46977092c9a12c58584",
+    "walkthrough_normal.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "walkthrough_normal.stdout.txt": "d704b4ee8a8987bbaa20348052bddcaa050558b775bbc46977092c9a12c58584"
+  },
+  "limitations": [
+    "Finite adversarial tests support but do not prove universal correctness.",
+    "verify.py collects all results then exits nonzero: failure propagation is present, immediate fail-fast is not.",
+    "Subprocess timeout is not implemented; a nonterminating future child can stall verification."
+  ]
+}
