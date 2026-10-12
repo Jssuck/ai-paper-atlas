@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1798-eclaircissemens-pote",
     "path": "papers/1798/condillac-eclaircissemens-pote.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "Complete Éclaircissemens response to Poté, actual 1798 Œuvres XXII pp.192–198; separate Potocki letter begins p199. 1798 is verified edition date, not asserted first-publication date."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part2-ch9",
-    "path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
     "version": "v1",
-    "content_commit": "928acf51fbe6cb399a579b623c15b146c9ecd767",
-    "checks": "Independent source, whole-argument/math and code audits passed; 81 hash bindings verified. Three modes each passed nine author tests, 144933 independent code checks and 127640 argument checks. All 50 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 163 headings, 70 formulas, seven tables/358 raw-source cells, 307 relative paths and 20 answers. Strict-pair formula rendering repaired equivalently with review bindings refreshed and actual pixels rechecked.",
-    "scope": "Complete La Logique II.IX, actual 1798 Œuvres XXII pp.177–191 including concluding advice, six margins and one footnote; collected errata checked. Single available scan limitation disclosed; 1780 bibliographic dating only. Modern finite certainty, causal converse, Bayesian and experiment-selection models distinguished from historical claims."
+    "content_commit": "125cc2aa6118f59aa68d1e41e113f11cfdb83db5",
+    "checks": "Independent source, whole-argument/math and code audits passed; 31 exact bindings verified. Three-mode tests include 5832 three-observer synchronization cases per mode. All 29 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 156 headings, 80 formulas, five tables/275 raw-source cells, 311 relative paths and 20 answers. Reproduction heading punctuation repaired for font fallback, checksum refreshed and six actual reruns matched prior logs; final title and outline pixels verified.",
+    "scope": "Complete Éclaircissemens response to Poté, actual 1798 Œuvres XXII pp.192–198, not the separate Potocki letter. 1798 is verified edition date, not asserted first publication. Printed notre/nous preserved; applicable errata checked. Theological premises and modern finite observation/clock models explicitly distinguished."
   },
-  "updated_at": "2026-10-12T09:55:30Z",
+  "updated_at": "2026-10-12T10:12:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and actual GitHub rendering for this appendix before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
