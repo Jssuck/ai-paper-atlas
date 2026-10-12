@@ -1,0 +1,31 @@
+# Work in the reproduction directory containing model.py.
+# Aggregate actually executed once. It starts all three interpreter modes itself.
+python -B independent-review/run_audit.py > independent-review/logs/aggregate.log 2>&1
+
+# Equivalent individually reproducible independent checks, from that same directory:
+python -B independent-review/test_independent.py
+python -O -B independent-review/test_independent.py
+python -OO -B independent-review/test_independent.py
+python -B independent-review/oracle.py
+python -O -B independent-review/oracle.py
+python -OO -B independent-review/oracle.py
+
+# Author checks also rerun by the independent aggregate (not independent test design):
+python -B test_model.py
+python -O -B test_model.py
+python -OO -B test_model.py
+python -B exhaustive.py
+python -O -B exhaustive.py
+python -OO -B exhaustive.py
+
+# The aggregate uses the same current sys.executable for every child.
+# Each isolated mutation/control writes only a temporary model.py inside
+# independent-review/, then launches test_independent.py with identical flags.
+# AUDIT_MODEL_DIR points to that temporary directory; no external model is read.
+# empty_suite adds --empty; duplicate_marker adds --duplicate-marker.
+# Other controls add no command-line arguments; their exact source transformations
+# are in run_audit.py. The real timeout is 0.2 seconds, with a 4-second sleep.
+# Regular stages have a 120-second timeout, other mutation runs 10 seconds.
+# Temporary absolute paths are intentionally replaced in logs with
+# ISOLATED_MODEL_COPY; the release root is replaced with MODEL_ROOT.
+# No pip/install/network/notebook commands were run.

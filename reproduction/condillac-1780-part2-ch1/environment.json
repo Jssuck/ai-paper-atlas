@@ -1,0 +1,133 @@
+{
+  "recorded_at_utc": "2026-10-11T23:58:30.673910+00:00",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "operating_system": "Linux",
+  "system_release": "6.18.44",
+  "machine": "x86_64",
+  "interpreter": "python3",
+  "dependencies": "Python standard library only",
+  "minimum_syntax_version": "3.10",
+  "working_directory": ".",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/demo.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-normal.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-O.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-OO.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "mutation_check.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/mutation-summary.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/run_audit.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/independent-run-audit.log"
+    }
+  ],
+  "source_sha256": {
+    "MODEL.zh-CN.md": "dc25f17a047baf106b72b7c1f4cbef6245ea25d5c75e25dc91813952932dc4e9",
+    "README.md": "7d82bbdb6b6cf1bb9d9b7be90232398b9cf28641f99a30c085f871c2b48046c1",
+    "WALKTHROUGH.zh-CN.md": "dc83698f8609fb2d756e892ca909e123affe5927470fd029519a5ca7cdf4e074",
+    "argument-review/independent_math_check.py": "b128616542e99ff6800676f6e3cf5aa9d2c1337a78311b1fc215b5907dbc2c1a",
+    "demo.py": "fad58417d112ee7e50dd6b5fbf0eaefc75b4d40b2f1498c9da2390aef97ca489",
+    "exhaustive.py": "f6e3d71f779e7b3d38d783f99fb3d95b3589a1eb6649c0ae960e2243cb0e6321",
+    "independent-review/oracle.py": "6f5a21b73872a3acb61ffa741327f6ea1e302d784b133f089d021aeed6974402",
+    "independent-review/review.zh-CN.md": "bf4f86d6061f1556e5c0ab5a2689cd69383de3aebdf45eb5764a51a5451bd086",
+    "independent-review/run_audit.py": "d36a3d151bb4e14d7803a0b6efe4ac59f623d7c772189ccdc5d47be86d838d83",
+    "independent-review/test_independent.py": "c042a19fa1a14f76a10f3cb02dcde4bdea99dd01497a734bfd82ffc8ae6d2363",
+    "model.py": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+    "mutation_check.py": "48047e686e351f91c84465a99b181b3ab3257f492e7e980a5ed10af719bf0516",
+    "run_all.py": "1b7688e8a1e789bd1d830cc73038a4eb3584a19a1b23fd3d40d8b7d882a637fc",
+    "test_model.py": "730a5063ef9975311068fee0975e8721776e2165404a3ff66ba2b418765776fe"
+  }
+}

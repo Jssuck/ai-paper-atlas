@@ -1,0 +1,29 @@
+{
+  "author_check": true,
+  "evidence_three_hypotheses_length_0_to_3": {
+    "histories": 4680,
+    "identification_checks": 14040,
+    "permutation_checks": 25672,
+    "truth_retention_checks": 14040
+  },
+  "horn_three_claims_unary_bodies_only": {
+    "candidate_states": 110592,
+    "contexts": 32768,
+    "immediate_monotonic_pairs": 0,
+    "possible_rules": 9,
+    "rule_systems": 512,
+    "withdrawal_fixedpoint_comparisons": 0,
+    "withdrawal_parameter_pairs": 0
+  },
+  "horn_two_claims_all_nonempty_bodies": {
+    "candidate_states": 2304,
+    "contexts": 1024,
+    "immediate_monotonic_pairs": 4096,
+    "possible_rules": 6,
+    "rule_systems": 64,
+    "withdrawal_fixedpoint_comparisons": 10368,
+    "withdrawal_parameter_pairs": 5184
+  },
+  "optimization": 1,
+  "success": true
+}

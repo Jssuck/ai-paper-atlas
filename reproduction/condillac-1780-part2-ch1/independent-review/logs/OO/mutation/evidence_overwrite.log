@@ -1,0 +1,62 @@
+AUDIT_RESULT={"completed": ["test_01_evidence_trace_and_default", "test_02_evidence_generators_and_snapshot", "test_03_late_evidence_validation", "test_04_bare_strings_rejected", "test_05_invalid_evidence_labels", "test_06_foreign_input_labels", "test_07_empty_rule_bodies_rejected", "test_08_invalid_rule_labels", "test_09_rule_membership_and_types", "test_10_frozen_and_copied_data", "test_11_empty_universes", "test_12_least_chain_exact", "test_13_greatest_chain_exact", "test_14_cycle_and_anchor_removal", "test_15_arbitrary_start_can_oscillate", "test_16_withdrawal_priority_and_premises", "test_17_conjunction_and_alternatives", "test_18_graph_cycle_insufficient_for_conjunction", "test_19_alternative_anchor_survives", "test_20_duplicate_and_order_invariance", "test_21_context_and_kind_validation", "test_22_operator_evaluation_bound_is_tight"], "errors": 0, "expected_failures": 0, "failures": 2, "optimize": 2, "skipped": 0, "started": ["test_01_evidence_trace_and_default", "test_02_evidence_generators_and_snapshot", "test_03_late_evidence_validation", "test_04_bare_strings_rejected", "test_05_invalid_evidence_labels", "test_06_foreign_input_labels", "test_07_empty_rule_bodies_rejected", "test_08_invalid_rule_labels", "test_09_rule_membership_and_types", "test_10_frozen_and_copied_data", "test_11_empty_universes", "test_12_least_chain_exact", "test_13_greatest_chain_exact", "test_14_cycle_and_anchor_removal", "test_15_arbitrary_start_can_oscillate", "test_16_withdrawal_priority_and_premises", "test_17_conjunction_and_alternatives", "test_18_graph_cycle_insufficient_for_conjunction", "test_19_alternative_anchor_survives", "test_20_duplicate_and_order_invariance", "test_21_context_and_kind_validation", "test_22_operator_evaluation_bound_is_tight"], "tests": 22, "unexpected_successes": 0}
+test_01_evidence_trace_and_default (__main__.BoundaryTests.test_01_evidence_trace_and_default) ... FAIL
+test_02_evidence_generators_and_snapshot (__main__.BoundaryTests.test_02_evidence_generators_and_snapshot) ... FAIL
+test_03_late_evidence_validation (__main__.BoundaryTests.test_03_late_evidence_validation) ... ok
+test_04_bare_strings_rejected (__main__.BoundaryTests.test_04_bare_strings_rejected) ... ok
+test_05_invalid_evidence_labels (__main__.BoundaryTests.test_05_invalid_evidence_labels) ... ok
+test_06_foreign_input_labels (__main__.BoundaryTests.test_06_foreign_input_labels) ... ok
+test_07_empty_rule_bodies_rejected (__main__.BoundaryTests.test_07_empty_rule_bodies_rejected) ... ok
+test_08_invalid_rule_labels (__main__.BoundaryTests.test_08_invalid_rule_labels) ... ok
+test_09_rule_membership_and_types (__main__.BoundaryTests.test_09_rule_membership_and_types) ... ok
+test_10_frozen_and_copied_data (__main__.BoundaryTests.test_10_frozen_and_copied_data) ... ok
+test_11_empty_universes (__main__.BoundaryTests.test_11_empty_universes) ... ok
+test_12_least_chain_exact (__main__.BoundaryTests.test_12_least_chain_exact) ... ok
+test_13_greatest_chain_exact (__main__.BoundaryTests.test_13_greatest_chain_exact) ... ok
+test_14_cycle_and_anchor_removal (__main__.BoundaryTests.test_14_cycle_and_anchor_removal) ... ok
+test_15_arbitrary_start_can_oscillate (__main__.BoundaryTests.test_15_arbitrary_start_can_oscillate) ... ok
+test_16_withdrawal_priority_and_premises (__main__.BoundaryTests.test_16_withdrawal_priority_and_premises) ... ok
+test_17_conjunction_and_alternatives (__main__.BoundaryTests.test_17_conjunction_and_alternatives) ... ok
+test_18_graph_cycle_insufficient_for_conjunction (__main__.BoundaryTests.test_18_graph_cycle_insufficient_for_conjunction) ... ok
+test_19_alternative_anchor_survives (__main__.BoundaryTests.test_19_alternative_anchor_survives) ... ok
+test_20_duplicate_and_order_invariance (__main__.BoundaryTests.test_20_duplicate_and_order_invariance) ... ok
+test_21_context_and_kind_validation (__main__.BoundaryTests.test_21_context_and_kind_validation) ... ok
+test_22_operator_evaluation_bound_is_tight (__main__.BoundaryTests.test_22_operator_evaluation_bound_is_tight) ... ok
+
+======================================================================
+FAIL: test_01_evidence_trace_and_default (__main__.BoundaryTests.test_01_evidence_trace_and_default)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 17, in test_01_evidence_trace_and_default
+    self.assertEqual(filter_evidence(['p', 'q'], [['p'], [], ['p']]),
+AssertionError: Tuples differ: (frozenset({'q', 'p'}), frozenset({'p'}), frozenset(), frozenset({'p'})) != (frozenset({'q', 'p'}), frozenset({'p'}), frozenset(), frozenset())
+
+First differing element 3:
+frozenset({'p'})
+frozenset()
+
+- (frozenset({'q', 'p'}), frozenset({'p'}), frozenset(), frozenset({'p'}))
+?                                                                  -----
+
++ (frozenset({'q', 'p'}), frozenset({'p'}), frozenset(), frozenset())
+
+======================================================================
+FAIL: test_02_evidence_generators_and_snapshot (__main__.BoundaryTests.test_02_evidence_generators_and_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 26, in test_02_evidence_generators_and_snapshot
+    self.assertEqual(out, (frozenset({'q'}), frozenset({'q'})))
+AssertionError: Tuples differ: (frozenset({'q'}), frozenset({'q', 'p'})) != (frozenset({'q'}), frozenset({'q'}))
+
+First differing element 1:
+frozenset({'q', 'p'})
+frozenset({'q'})
+
+- (frozenset({'q'}), frozenset({'q', 'p'}))
+?                                  -----
+
++ (frozenset({'q'}), frozenset({'q'}))
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.004s
+
+FAILED (failures=2)

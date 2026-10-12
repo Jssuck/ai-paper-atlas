@@ -1,0 +1,9 @@
+RESULT_JSON={"stage":"bootstrap_error"}
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/_runner.py", line 4, in <module>
+    import test_model
+  File "ISOLATED_TEST_COPY/test_model.py", line 4, in <module>
+    from model import FixedPoint, HornSystem, Rule, filter_evidence
+  File "ISOLATED_TEST_COPY/model.py", line 1, in <module>
+    raise ImportError("intentional control")
+ImportError: intentional control

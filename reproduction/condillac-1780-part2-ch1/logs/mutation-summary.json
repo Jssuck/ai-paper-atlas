@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "mutants_per_mode": 13,
+  "expected_tests": 40,
+  "modes": {
+    "normal": {
+      "baseline": "pass",
+      "behavioral_kills": 13,
+      "controls_ok": true
+    },
+    "O": {
+      "baseline": "pass",
+      "behavioral_kills": 13,
+      "controls_ok": true
+    },
+    "OO": {
+      "baseline": "pass",
+      "behavioral_kills": 13,
+      "controls_ok": true
+    }
+  }
+}

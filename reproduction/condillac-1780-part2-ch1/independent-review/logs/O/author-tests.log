@@ -1,0 +1,45 @@
+test_bare_strings_rejected (__main__.EvidenceTests.test_bare_strings_rejected) ... ok
+test_empty_initial_stays_empty (__main__.EvidenceTests.test_empty_initial_stays_empty) ... ok
+test_empty_observation (__main__.EvidenceTests.test_empty_observation) ... ok
+test_empty_universe (__main__.EvidenceTests.test_empty_universe) ... ok
+test_generators_and_input_immutability (__main__.EvidenceTests.test_generators_and_input_immutability) ... ok
+test_initial_restriction (__main__.EvidenceTests.test_initial_restriction) ... ok
+test_invalid_labels_rejected (__main__.EvidenceTests.test_invalid_labels_rejected) ... ok
+test_no_observations (__main__.EvidenceTests.test_no_observations) ... ok
+test_noisy_observation_can_remove_truth (__main__.EvidenceTests.test_noisy_observation_can_remove_truth) ... ok
+test_order_final_not_intermediate (__main__.EvidenceTests.test_order_final_not_intermediate) ... ok
+test_repeated_evidence_idempotent (__main__.EvidenceTests.test_repeated_evidence_idempotent) ... ok
+test_two_stage_filter (__main__.EvidenceTests.test_two_stage_filter) ... ok
+test_unknown_evidence_rejected_after_empty (__main__.EvidenceTests.test_unknown_evidence_rejected_after_empty) ... ok
+test_unknown_initial_rejected (__main__.EvidenceTests.test_unknown_initial_rejected) ... ok
+test_unrepresented_truth_not_created (__main__.EvidenceTests.test_unrepresented_truth_not_created) ... ok
+test_alternative_anchor_survives (__main__.HornTests.test_alternative_anchor_survives) ... ok
+test_anchor_grounds_cycle (__main__.HornTests.test_anchor_grounds_cycle) ... ok
+test_anchor_removal_differs_from_claim_withdrawal (__main__.HornTests.test_anchor_removal_differs_from_claim_withdrawal) ... ok
+test_anchor_removed_chain_collapses (__main__.HornTests.test_anchor_removed_chain_collapses) ... ok
+test_conjunction_needs_every_premise (__main__.HornTests.test_conjunction_needs_every_premise) ... ok
+test_demo_lexical_indeterminacy (__main__.HornTests.test_demo_lexical_indeterminacy) ... ok
+test_distinct_rules_are_alternatives (__main__.HornTests.test_distinct_rules_are_alternatives) ... ok
+test_duplicates_and_rule_order_do_not_change_result (__main__.HornTests.test_duplicates_and_rule_order_do_not_change_result) ... ok
+test_empty_system (__main__.HornTests.test_empty_system) ... ok
+test_fixed_point_is_stable_and_trace_bounded (__main__.HornTests.test_fixed_point_is_stable_and_trace_bounded) ... ok
+test_greatest_trace_rounds (__main__.HornTests.test_greatest_trace_rounds) ... ok
+test_immediate_is_not_inflationary (__main__.HornTests.test_immediate_is_not_inflationary) ... ok
+test_invalid_rule_rejected (__main__.HornTests.test_invalid_rule_rejected) ... ok
+test_least_trace_rounds (__main__.HornTests.test_least_trace_rounds) ... ok
+test_no_rules_keeps_anchors_only (__main__.HornTests.test_no_rules_keeps_anchors_only) ... ok
+test_one_withdrawal_collapses_cycle (__main__.HornTests.test_one_withdrawal_collapses_cycle) ... ok
+test_rule_immutable_snapshot (__main__.HornTests.test_rule_immutable_snapshot) ... ok
+test_self_loop_is_not_external_ground (__main__.HornTests.test_self_loop_is_not_external_ground) ... ok
+test_system_immutable_snapshot (__main__.HornTests.test_system_immutable_snapshot) ... ok
+test_unanchored_cycle_gap (__main__.HornTests.test_unanchored_cycle_gap) ... ok
+test_unknown_context_and_invalid_state_rejected (__main__.HornTests.test_unknown_context_and_invalid_state_rejected) ... ok
+test_unknown_rule_labels_rejected (__main__.HornTests.test_unknown_rule_labels_rejected) ... ok
+test_withdrawal_blocks_derived_heads (__main__.HornTests.test_withdrawal_blocks_derived_heads) ... ok
+test_withdrawal_overrides_anchor (__main__.HornTests.test_withdrawal_overrides_anchor) ... ok
+test_withdrawn_premise_not_available (__main__.HornTests.test_withdrawn_premise_not_available) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.004s
+
+OK

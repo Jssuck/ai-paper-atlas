@@ -27,6 +27,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VII精读](papers/1780/condillac-logic-part1-ch7.zh-CN.md) | AI认知前史：注意、比较、性质重组与隐含推理 | 深读v1 · 完整书籍章节58–66、九边注及一脚注 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.VIII精读](papers/1780/condillac-logic-part1-ch8.zh-CN.md) | AI认知前史：需要、欲望、习惯性激情与意志判断 | 深读v1 · 完整书籍章节67–71、九边注及一组自引 |
 | 1780（本次读1798版） | [Condillac《逻辑学》I.IX精读](papers/1780/condillac-logic-part1-ch9.zh-CN.md) | AI认知前史：身体习惯、序列再现与来源归因的边界 | 深读v1 · 完整书籍章节72–94、十九边注及全集勘误核验 |
+| 1780（本次读1798版） | [Condillac《逻辑学》II.I精读](papers/1780/condillac-logic-part2-ch1.zh-CN.md) | AI认识论前史：经验纠错、循环支持、词义与教育的边界 | 深读v1 · 完整书籍章节96–108、四边注及Bacon援引核查 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -369,3 +370,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成实际1798《Œuvres》XXII卷I.IX印72–94全23页、19条边注，两册同版逐页核图；无编号脚注、自引或具名外部引文。1780只作已核一版书目年。新增核读XXIII卷末全集勘误三页，其唯一《逻辑》订正是第8页confirmation→conformation，不适用本章；I.IX原发布时将I.I旧说明的跨篇校订另记待办、未改旧篇；该待办现已由2026-10-11的[I.I单独有界更正](papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json)处理，不改写I.IX原完成范围。
 
 全文区分当前观念与持久再现倾向、身体/脑往返关系、局部转移与完整历史、内容与来源。26题附答案；现代确定性序列模型有一般恢复条件、重复状态限制、完整状态碰撞与来源丢失证明，容量/衰减均明确为新增规则。标准库作者和两路独立实跑覆盖普通、-O、-OO模式，变异行为检出与装置失败分开；精确计数及日志见附件，不把有限检查当一般证明。无Notebook、人类心理或神经科学实证声称。第二部、全书、1780文字、版本史、洛克全章及全部旧候选/书籍缺口保留。
+
+## Condillac《逻辑学》II.I可运行附件
+
+- [经验纠错与成见相互保护的中文精读](papers/1780/condillac-logic-part2-ch1.zh-CN.md)
+- [十三页、四边注及版本账本](papers/1780/condillac-logic-part2-ch1.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part2-ch1.audit.zh-CN.md)
+- [模型、环境、命令与实跑日志](reproduction/condillac-1780-part2-ch1/README.md) · [逐步教学](reproduction/condillac-1780-part2-ch1/WALKTHROUGH.zh-CN.md)
+- [独立代码审计](reproduction/condillac-1780-part2-ch1/independent-review/review.zh-CN.md)
+
+仅完成实际1798《Œuvres》XXII卷II.I印96–108全13页、4条边注，两册同版逐页核图；无脚注、原图或公式。95页是第二部引入，109页已属II.II。1780只作已核一版书目年。全集勘误对本章无条目；I.I第8页单独更正保持已解决状态。107页明确援引Bacon，有限原典比较不认证逐字法文出处或直接使用版次。
+
+全文包含需要/自然的神学配合、观察修正、习惯难改、从众与反从众、制度维持成见、词义和儿童教育；24题附答案。现代有限候选交集与最小/最大支持固定点有一般证明，撤销根据与明确排除分开；无根据循环不自动为假，局部排除能否瓦解全组有正反例。标准库作者与独立检查实际覆盖普通、-O、-OO，变异行为检出与装置失败分开，精确计数见附件。有限执行不证明心理、教育、社会或神学命题；无Notebook或Jupyter声明。II.II及以后、全书、1780文字、版本史、Bacon直接引文定位及全部旧候选/书籍缺口保留。

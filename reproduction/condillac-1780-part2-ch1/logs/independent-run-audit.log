@@ -1,0 +1,3 @@
+{"mode": "normal", "success": true, "mutant_counts": {"behavioral_kill": 15, "survived": 0, "harness_failure": 0, "suite_mismatch": 0, "test_error": 0, "timeout": 0}}
+{"mode": "O", "success": true, "mutant_counts": {"behavioral_kill": 15, "survived": 0, "harness_failure": 0, "suite_mismatch": 0, "test_error": 0, "timeout": 0}}
+{"mode": "OO", "success": true, "mutant_counts": {"behavioral_kill": 15, "survived": 0, "harness_failure": 0, "suite_mismatch": 0, "test_error": 0, "timeout": 0}}

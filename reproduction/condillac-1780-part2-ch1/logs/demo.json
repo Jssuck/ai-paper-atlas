@@ -1,0 +1,368 @@
+{
+  "evidence": {
+    "bad_evidence_trace": [
+      [
+        "copper",
+        "iron",
+        "wood"
+      ],
+      [
+        "copper"
+      ],
+      []
+    ],
+    "faithful_trace": [
+      [
+        "copper",
+        "iron",
+        "wood"
+      ],
+      [
+        "copper",
+        "iron"
+      ],
+      [
+        "iron"
+      ]
+    ],
+    "missing_truth_trace": [
+      [
+        "copper",
+        "wood"
+      ],
+      [
+        "copper"
+      ],
+      []
+    ],
+    "nonidentifying_trace": [
+      [
+        "copper",
+        "iron",
+        "wood"
+      ],
+      [
+        "copper",
+        "iron"
+      ],
+      [
+        "copper",
+        "iron"
+      ],
+      [
+        "copper",
+        "iron"
+      ]
+    ],
+    "reversed_trace": [
+      [
+        "copper",
+        "iron",
+        "wood"
+      ],
+      [
+        "iron"
+      ],
+      [
+        "iron"
+      ]
+    ]
+  },
+  "lexical": {
+    "contrasting_example": [
+      [
+        "q_means_bright",
+        "q_means_warm"
+      ],
+      [
+        "q_means_bright",
+        "q_means_warm"
+      ],
+      [
+        "q_means_warm"
+      ]
+    ],
+    "note": "All observed examples were warm and bright; a warm, dark example labeled q separates the two stipulated interpretations.",
+    "warm_bright_examples_only": [
+      [
+        "q_means_bright",
+        "q_means_warm"
+      ],
+      [
+        "q_means_bright",
+        "q_means_warm"
+      ],
+      [
+        "q_means_bright",
+        "q_means_warm"
+      ]
+    ]
+  },
+  "support": {
+    "alternative_anchor": {
+      "anchors": [
+        "A",
+        "D"
+      ],
+      "greatest": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      ],
+      "least": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "least_trace": [
+        [],
+        [
+          "A",
+          "D"
+        ],
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      ],
+      "withdrawn": []
+    },
+    "anchor_removed_chain": {
+      "anchors": [],
+      "greatest": [],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C"
+        ],
+        []
+      ],
+      "least": [],
+      "least_trace": [
+        []
+      ],
+      "withdrawn": []
+    },
+    "anchor_removed_cycle": {
+      "anchors": [],
+      "greatest": [
+        "A",
+        "B",
+        "C"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "least": [],
+      "least_trace": [
+        []
+      ],
+      "withdrawn": []
+    },
+    "anchored_chain": {
+      "anchors": [
+        "A"
+      ],
+      "greatest": [
+        "A",
+        "B",
+        "C"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "least": [
+        "A",
+        "B",
+        "C"
+      ],
+      "least_trace": [
+        [],
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "withdrawn": []
+    },
+    "anchored_cycle": {
+      "anchors": [
+        "A"
+      ],
+      "greatest": [
+        "A",
+        "B",
+        "C"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "least": [
+        "A",
+        "B",
+        "C"
+      ],
+      "least_trace": [
+        [],
+        [
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "withdrawn": []
+    },
+    "one_anchor_removed_alternative": {
+      "anchors": [
+        "D"
+      ],
+      "greatest": [
+        "C",
+        "D"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        [
+          "B",
+          "C",
+          "D"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "least": [
+        "C",
+        "D"
+      ],
+      "least_trace": [
+        [],
+        [
+          "D"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "withdrawn": []
+    },
+    "one_claim_withdrawn_cycle": {
+      "anchors": [],
+      "greatest": [],
+      "greatest_trace": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "A"
+        ],
+        []
+      ],
+      "least": [],
+      "least_trace": [
+        []
+      ],
+      "withdrawn": [
+        "B"
+      ]
+    },
+    "unanchored_cycle": {
+      "anchors": [],
+      "greatest": [
+        "A",
+        "B",
+        "C"
+      ],
+      "greatest_trace": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ],
+      "least": [],
+      "least_trace": [
+        []
+      ],
+      "withdrawn": []
+    },
+    "withdrawal_overrides_anchor": {
+      "anchors": [
+        "A"
+      ],
+      "greatest": [],
+      "greatest_trace": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C"
+        ],
+        []
+      ],
+      "least": [],
+      "least_trace": [
+        []
+      ],
+      "withdrawn": [
+        "A"
+      ]
+    }
+  }
+}

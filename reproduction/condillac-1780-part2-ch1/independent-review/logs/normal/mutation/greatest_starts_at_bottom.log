@@ -1,0 +1,89 @@
+AUDIT_RESULT={"completed": ["test_01_evidence_trace_and_default", "test_02_evidence_generators_and_snapshot", "test_03_late_evidence_validation", "test_04_bare_strings_rejected", "test_05_invalid_evidence_labels", "test_06_foreign_input_labels", "test_07_empty_rule_bodies_rejected", "test_08_invalid_rule_labels", "test_09_rule_membership_and_types", "test_10_frozen_and_copied_data", "test_11_empty_universes", "test_12_least_chain_exact", "test_13_greatest_chain_exact", "test_14_cycle_and_anchor_removal", "test_15_arbitrary_start_can_oscillate", "test_16_withdrawal_priority_and_premises", "test_17_conjunction_and_alternatives", "test_18_graph_cycle_insufficient_for_conjunction", "test_19_alternative_anchor_survives", "test_20_duplicate_and_order_invariance", "test_21_context_and_kind_validation", "test_22_operator_evaluation_bound_is_tight"], "errors": 0, "expected_failures": 0, "failures": 4, "optimize": 0, "skipped": 0, "started": ["test_01_evidence_trace_and_default", "test_02_evidence_generators_and_snapshot", "test_03_late_evidence_validation", "test_04_bare_strings_rejected", "test_05_invalid_evidence_labels", "test_06_foreign_input_labels", "test_07_empty_rule_bodies_rejected", "test_08_invalid_rule_labels", "test_09_rule_membership_and_types", "test_10_frozen_and_copied_data", "test_11_empty_universes", "test_12_least_chain_exact", "test_13_greatest_chain_exact", "test_14_cycle_and_anchor_removal", "test_15_arbitrary_start_can_oscillate", "test_16_withdrawal_priority_and_premises", "test_17_conjunction_and_alternatives", "test_18_graph_cycle_insufficient_for_conjunction", "test_19_alternative_anchor_survives", "test_20_duplicate_and_order_invariance", "test_21_context_and_kind_validation", "test_22_operator_evaluation_bound_is_tight"], "tests": 22, "unexpected_successes": 0}
+test_01_evidence_trace_and_default (__main__.BoundaryTests.test_01_evidence_trace_and_default) ... ok
+test_02_evidence_generators_and_snapshot (__main__.BoundaryTests.test_02_evidence_generators_and_snapshot) ... ok
+test_03_late_evidence_validation (__main__.BoundaryTests.test_03_late_evidence_validation) ... ok
+test_04_bare_strings_rejected (__main__.BoundaryTests.test_04_bare_strings_rejected) ... ok
+test_05_invalid_evidence_labels (__main__.BoundaryTests.test_05_invalid_evidence_labels) ... ok
+test_06_foreign_input_labels (__main__.BoundaryTests.test_06_foreign_input_labels) ... ok
+test_07_empty_rule_bodies_rejected (__main__.BoundaryTests.test_07_empty_rule_bodies_rejected) ... ok
+test_08_invalid_rule_labels (__main__.BoundaryTests.test_08_invalid_rule_labels) ... ok
+test_09_rule_membership_and_types (__main__.BoundaryTests.test_09_rule_membership_and_types) ... ok
+test_10_frozen_and_copied_data (__main__.BoundaryTests.test_10_frozen_and_copied_data) ... ok
+test_11_empty_universes (__main__.BoundaryTests.test_11_empty_universes) ... ok
+test_12_least_chain_exact (__main__.BoundaryTests.test_12_least_chain_exact) ... ok
+test_13_greatest_chain_exact (__main__.BoundaryTests.test_13_greatest_chain_exact) ... FAIL
+test_14_cycle_and_anchor_removal (__main__.BoundaryTests.test_14_cycle_and_anchor_removal) ... FAIL
+test_15_arbitrary_start_can_oscillate (__main__.BoundaryTests.test_15_arbitrary_start_can_oscillate) ... ok
+test_16_withdrawal_priority_and_premises (__main__.BoundaryTests.test_16_withdrawal_priority_and_premises) ... ok
+test_17_conjunction_and_alternatives (__main__.BoundaryTests.test_17_conjunction_and_alternatives) ... ok
+test_18_graph_cycle_insufficient_for_conjunction (__main__.BoundaryTests.test_18_graph_cycle_insufficient_for_conjunction) ... FAIL
+test_19_alternative_anchor_survives (__main__.BoundaryTests.test_19_alternative_anchor_survives) ... ok
+test_20_duplicate_and_order_invariance (__main__.BoundaryTests.test_20_duplicate_and_order_invariance) ... ok
+test_21_context_and_kind_validation (__main__.BoundaryTests.test_21_context_and_kind_validation) ... ok
+test_22_operator_evaluation_bound_is_tight (__main__.BoundaryTests.test_22_operator_evaluation_bound_is_tight) ... FAIL
+
+======================================================================
+FAIL: test_13_greatest_chain_exact (__main__.BoundaryTests.test_13_greatest_chain_exact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 123, in test_13_greatest_chain_exact
+    self.assertEqual(p.states, (frozenset({'p', 'q', 'r'}), frozenset({'q', 'r'}),
+AssertionError: Tuples differ: (frozenset(),) != (frozenset({'p', 'q', 'r'}), frozenset({'q', 'r'}), [25 chars]et())
+
+First differing element 0:
+frozenset()
+frozenset({'p', 'q', 'r'})
+
+Second tuple contains 3 additional elements.
+First extra element 1:
+frozenset({'q', 'r'})
+
++ (frozenset({'p', 'q', 'r'}),
++  frozenset({'q', 'r'}),
++  frozenset({'r'}),
+- (frozenset(),)
+? ^           -
+
++  frozenset())
+? ^
+
+
+======================================================================
+FAIL: test_14_cycle_and_anchor_removal (__main__.BoundaryTests.test_14_cycle_and_anchor_removal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 130, in test_14_cycle_and_anchor_removal
+    self.assertEqual(s.fixed_point('greatest').result, {'p', 'q'})
+AssertionError: frozenset() != {'p', 'q'}
+
+======================================================================
+FAIL: test_18_graph_cycle_insufficient_for_conjunction (__main__.BoundaryTests.test_18_graph_cycle_insufficient_for_conjunction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 162, in test_18_graph_cycle_insufficient_for_conjunction
+    self.assertEqual(s.fixed_point('greatest').states,
+AssertionError: Tuples differ: (frozenset(),) != (frozenset({'p', 'q'}), frozenset({'p'}), frozenset())
+
+First differing element 0:
+frozenset()
+frozenset({'p', 'q'})
+
+Second tuple contains 2 additional elements.
+First extra element 1:
+frozenset({'p'})
+
+- (frozenset(),)
++ (frozenset({'p', 'q'}), frozenset({'p'}), frozenset())
+
+======================================================================
+FAIL: test_22_operator_evaluation_bound_is_tight (__main__.BoundaryTests.test_22_operator_evaluation_bound_is_tight)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "MODEL_ROOT/independent-review/test_independent.py", line 205, in test_22_operator_evaluation_bound_is_tight
+    self.assertEqual(len(calls), 4)
+AssertionError: 1 != 4
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.015s
+
+FAILED (failures=4)

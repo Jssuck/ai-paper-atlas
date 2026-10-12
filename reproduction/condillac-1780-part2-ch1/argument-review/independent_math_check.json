@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "optimization": 0,
+  "model_sha256": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+  "exhaustive_rule_systems_n_le_2": 67,
+  "exhaustive_unary_systems_n_3": 512,
+  "seeded_hyperrule_systems_n_4": 40,
+  "total_horn_contexts": 44041,
+  "three_observation_evidence_cases": 4096,
+  "seed": 1780,
+  "scope": "finite implementation checks only; general proofs must be read independently"
+}

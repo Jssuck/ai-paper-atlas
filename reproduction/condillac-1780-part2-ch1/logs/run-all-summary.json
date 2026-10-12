@@ -1,0 +1,109 @@
+{
+  "success": true,
+  "independent_entrypoint_present": true,
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "demo.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/demo.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-normal.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-O.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-B",
+        "exhaustive.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/exhaustive-OO.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "mutation_check.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/mutation-summary.json"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/run_audit.py"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "log": "logs/independent-run-audit.log"
+    }
+  ]
+}

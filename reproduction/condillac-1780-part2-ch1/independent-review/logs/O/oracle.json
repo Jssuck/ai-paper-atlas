@@ -1,0 +1,68 @@
+{
+  "evidence": {
+    "histories": 4680,
+    "identification_checks": 14040,
+    "permutation_checks": 25672,
+    "retention_checks": 14040,
+    "trace_states": 18056
+  },
+  "horn_empty": {
+    "contexts": 1,
+    "extreme_points": 2,
+    "fixed_points": 1,
+    "legal_states": 1,
+    "monotonic_pairs": 1,
+    "rule_systems": 1,
+    "trace_states": 2,
+    "withdrawal_extreme_comparisons": 2,
+    "withdrawal_parameter_pairs": 1
+  },
+  "horn_one_all": {
+    "contexts": 8,
+    "extreme_points": 16,
+    "fixed_points": 9,
+    "legal_states": 12,
+    "monotonic_pairs": 16,
+    "rule_systems": 2,
+    "trace_states": 19,
+    "withdrawal_extreme_comparisons": 36,
+    "withdrawal_parameter_pairs": 18
+  },
+  "horn_three_all_bodies_at_most_two_rules": {
+    "contexts": 14848,
+    "extreme_points": 29696,
+    "fixed_points": 16474,
+    "legal_states": 50112,
+    "monotonic_pairs": 118784,
+    "rule_systems": 232,
+    "trace_states": 46735,
+    "withdrawal_extreme_comparisons": 338256,
+    "withdrawal_parameter_pairs": 169128
+  },
+  "horn_three_unary": {
+    "contexts": 32768,
+    "extreme_points": 65536,
+    "fixed_points": 42183,
+    "legal_states": 110592,
+    "monotonic_pairs": 262144,
+    "rule_systems": 512,
+    "trace_states": 97405,
+    "withdrawal_extreme_comparisons": 746496,
+    "withdrawal_parameter_pairs": 373248
+  },
+  "horn_two_all": {
+    "contexts": 1024,
+    "extreme_points": 2048,
+    "fixed_points": 1281,
+    "legal_states": 2304,
+    "monotonic_pairs": 4096,
+    "rule_systems": 64,
+    "trace_states": 2725,
+    "withdrawal_extreme_comparisons": 10368,
+    "withdrawal_parameter_pairs": 5184
+  },
+  "independent": true,
+  "optimize": 1,
+  "representation": "integer truth tables and complete legal-state enumeration",
+  "success": true
+}

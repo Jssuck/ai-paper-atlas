@@ -1,0 +1,113 @@
+test_bare_strings_rejected (test_model.EvidenceTests.test_bare_strings_rejected) ... ok
+test_empty_initial_stays_empty (test_model.EvidenceTests.test_empty_initial_stays_empty) ... ok
+test_empty_observation (test_model.EvidenceTests.test_empty_observation) ... ok
+test_empty_universe (test_model.EvidenceTests.test_empty_universe) ... ok
+test_generators_and_input_immutability (test_model.EvidenceTests.test_generators_and_input_immutability) ... ok
+test_initial_restriction (test_model.EvidenceTests.test_initial_restriction) ... ok
+test_invalid_labels_rejected (test_model.EvidenceTests.test_invalid_labels_rejected) ... ok
+test_no_observations (test_model.EvidenceTests.test_no_observations) ... ok
+test_noisy_observation_can_remove_truth (test_model.EvidenceTests.test_noisy_observation_can_remove_truth) ... ok
+test_order_final_not_intermediate (test_model.EvidenceTests.test_order_final_not_intermediate) ... ok
+test_repeated_evidence_idempotent (test_model.EvidenceTests.test_repeated_evidence_idempotent) ... ok
+test_two_stage_filter (test_model.EvidenceTests.test_two_stage_filter) ... ok
+test_unknown_evidence_rejected_after_empty (test_model.EvidenceTests.test_unknown_evidence_rejected_after_empty) ... ok
+test_unknown_initial_rejected (test_model.EvidenceTests.test_unknown_initial_rejected) ... ok
+test_unrepresented_truth_not_created (test_model.EvidenceTests.test_unrepresented_truth_not_created) ... ok
+test_alternative_anchor_survives (test_model.HornTests.test_alternative_anchor_survives) ... ok
+test_anchor_grounds_cycle (test_model.HornTests.test_anchor_grounds_cycle) ... ok
+test_anchor_removal_differs_from_claim_withdrawal (test_model.HornTests.test_anchor_removal_differs_from_claim_withdrawal) ... FAIL
+test_anchor_removed_chain_collapses (test_model.HornTests.test_anchor_removed_chain_collapses) ... ok
+test_conjunction_needs_every_premise (test_model.HornTests.test_conjunction_needs_every_premise) ... ok
+test_demo_lexical_indeterminacy (test_model.HornTests.test_demo_lexical_indeterminacy) ... ok
+test_distinct_rules_are_alternatives (test_model.HornTests.test_distinct_rules_are_alternatives) ... ok
+test_duplicates_and_rule_order_do_not_change_result (test_model.HornTests.test_duplicates_and_rule_order_do_not_change_result) ... ok
+test_empty_system (test_model.HornTests.test_empty_system) ... ok
+test_fixed_point_is_stable_and_trace_bounded (test_model.HornTests.test_fixed_point_is_stable_and_trace_bounded) ... FAIL
+test_greatest_trace_rounds (test_model.HornTests.test_greatest_trace_rounds) ... ok
+test_immediate_is_not_inflationary (test_model.HornTests.test_immediate_is_not_inflationary) ... ok
+test_invalid_rule_rejected (test_model.HornTests.test_invalid_rule_rejected) ... ok
+test_least_trace_rounds (test_model.HornTests.test_least_trace_rounds) ... ok
+test_no_rules_keeps_anchors_only (test_model.HornTests.test_no_rules_keeps_anchors_only) ... ok
+test_one_withdrawal_collapses_cycle (test_model.HornTests.test_one_withdrawal_collapses_cycle) ... FAIL
+test_rule_immutable_snapshot (test_model.HornTests.test_rule_immutable_snapshot) ... ok
+test_self_loop_is_not_external_ground (test_model.HornTests.test_self_loop_is_not_external_ground) ... ok
+test_system_immutable_snapshot (test_model.HornTests.test_system_immutable_snapshot) ... ok
+test_unanchored_cycle_gap (test_model.HornTests.test_unanchored_cycle_gap) ... ok
+test_unknown_context_and_invalid_state_rejected (test_model.HornTests.test_unknown_context_and_invalid_state_rejected) ... FAIL
+test_unknown_rule_labels_rejected (test_model.HornTests.test_unknown_rule_labels_rejected) ... ok
+test_withdrawal_blocks_derived_heads (test_model.HornTests.test_withdrawal_blocks_derived_heads) ... FAIL
+test_withdrawal_overrides_anchor (test_model.HornTests.test_withdrawal_overrides_anchor) ... FAIL
+test_withdrawn_premise_not_available (test_model.HornTests.test_withdrawn_premise_not_available) ... FAIL
+
+======================================================================
+FAIL: test_anchor_removal_differs_from_claim_withdrawal (test_model.HornTests.test_anchor_removal_differs_from_claim_withdrawal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 108, in test_anchor_removal_differs_from_claim_withdrawal
+    self.assertEqual(self.cycle.fixed_point("greatest", (), {"a"}).result, frozenset())
+AssertionError: Items in the first set but not the second:
+'c'
+'b'
+'a'
+
+======================================================================
+FAIL: test_fixed_point_is_stable_and_trace_bounded (test_model.HornTests.test_fixed_point_is_stable_and_trace_bounded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 215, in test_fixed_point_is_stable_and_trace_bounded
+    self.assertLessEqual(point.changes, 2)
+AssertionError: 3 not less than or equal to 2
+
+======================================================================
+FAIL: test_one_withdrawal_collapses_cycle (test_model.HornTests.test_one_withdrawal_collapses_cycle)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 104, in test_one_withdrawal_collapses_cycle
+    self.assertEqual(self.cycle.fixed_point("greatest", (), {"b"}).result, frozenset())
+AssertionError: Items in the first set but not the second:
+'c'
+'b'
+'a'
+
+======================================================================
+FAIL: test_unknown_context_and_invalid_state_rejected (test_model.HornTests.test_unknown_context_and_invalid_state_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 186, in test_unknown_context_and_invalid_state_rejected
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_withdrawal_blocks_derived_heads (test_model.HornTests.test_withdrawal_blocks_derived_heads)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 133, in test_withdrawal_blocks_derived_heads
+    self.assertEqual(self.chain.fixed_point("least", {"a"}, {"b"}).result, {"a"})
+AssertionError: frozenset({'c', 'b', 'a'}) != {'a'}
+
+======================================================================
+FAIL: test_withdrawal_overrides_anchor (test_model.HornTests.test_withdrawal_overrides_anchor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 129, in test_withdrawal_overrides_anchor
+    self.assertEqual(self.cycle.fixed_point("least", {"a"}, {"a"}).result, frozenset())
+AssertionError: Items in the first set but not the second:
+'c'
+'b'
+'a'
+
+======================================================================
+FAIL: test_withdrawn_premise_not_available (test_model.HornTests.test_withdrawn_premise_not_available)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ISOLATED_TEST_COPY/test_model.py", line 136, in test_withdrawn_premise_not_available
+    self.assertEqual(self.chain.fixed_point("greatest", {"a"}, {"b"}).result, {"a"})
+AssertionError: frozenset({'c', 'b', 'a'}) != {'a'}
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.004s
+
+FAILED (failures=7)
+
+RESULT_JSON={"completed": ["test_model.EvidenceTests.test_bare_strings_rejected", "test_model.EvidenceTests.test_empty_initial_stays_empty", "test_model.EvidenceTests.test_empty_observation", "test_model.EvidenceTests.test_empty_universe", "test_model.EvidenceTests.test_generators_and_input_immutability", "test_model.EvidenceTests.test_initial_restriction", "test_model.EvidenceTests.test_invalid_labels_rejected", "test_model.EvidenceTests.test_no_observations", "test_model.EvidenceTests.test_noisy_observation_can_remove_truth", "test_model.EvidenceTests.test_order_final_not_intermediate", "test_model.EvidenceTests.test_repeated_evidence_idempotent", "test_model.EvidenceTests.test_two_stage_filter", "test_model.EvidenceTests.test_unknown_evidence_rejected_after_empty", "test_model.EvidenceTests.test_unknown_initial_rejected", "test_model.EvidenceTests.test_unrepresented_truth_not_created", "test_model.HornTests.test_alternative_anchor_survives", "test_model.HornTests.test_anchor_grounds_cycle", "test_model.HornTests.test_anchor_removal_differs_from_claim_withdrawal", "test_model.HornTests.test_anchor_removed_chain_collapses", "test_model.HornTests.test_conjunction_needs_every_premise", "test_model.HornTests.test_demo_lexical_indeterminacy", "test_model.HornTests.test_distinct_rules_are_alternatives", "test_model.HornTests.test_duplicates_and_rule_order_do_not_change_result", "test_model.HornTests.test_empty_system", "test_model.HornTests.test_fixed_point_is_stable_and_trace_bounded", "test_model.HornTests.test_greatest_trace_rounds", "test_model.HornTests.test_immediate_is_not_inflationary", "test_model.HornTests.test_invalid_rule_rejected", "test_model.HornTests.test_least_trace_rounds", "test_model.HornTests.test_no_rules_keeps_anchors_only", "test_model.HornTests.test_one_withdrawal_collapses_cycle", "test_model.HornTests.test_rule_immutable_snapshot", "test_model.HornTests.test_self_loop_is_not_external_ground", "test_model.HornTests.test_system_immutable_snapshot", "test_model.HornTests.test_unanchored_cycle_gap", "test_model.HornTests.test_unknown_context_and_invalid_state_rejected", "test_model.HornTests.test_unknown_rule_labels_rejected", "test_model.HornTests.test_withdrawal_blocks_derived_heads", "test_model.HornTests.test_withdrawal_overrides_anchor", "test_model.HornTests.test_withdrawn_premise_not_available"], "errors": 0, "expected_failures": 0, "failures": 7, "optimization": 1, "skips": 0, "stage": "complete", "started": ["test_model.EvidenceTests.test_bare_strings_rejected", "test_model.EvidenceTests.test_empty_initial_stays_empty", "test_model.EvidenceTests.test_empty_observation", "test_model.EvidenceTests.test_empty_universe", "test_model.EvidenceTests.test_generators_and_input_immutability", "test_model.EvidenceTests.test_initial_restriction", "test_model.EvidenceTests.test_invalid_labels_rejected", "test_model.EvidenceTests.test_no_observations", "test_model.EvidenceTests.test_noisy_observation_can_remove_truth", "test_model.EvidenceTests.test_order_final_not_intermediate", "test_model.EvidenceTests.test_repeated_evidence_idempotent", "test_model.EvidenceTests.test_two_stage_filter", "test_model.EvidenceTests.test_unknown_evidence_rejected_after_empty", "test_model.EvidenceTests.test_unknown_initial_rejected", "test_model.EvidenceTests.test_unrepresented_truth_not_created", "test_model.HornTests.test_alternative_anchor_survives", "test_model.HornTests.test_anchor_grounds_cycle", "test_model.HornTests.test_anchor_removal_differs_from_claim_withdrawal", "test_model.HornTests.test_anchor_removed_chain_collapses", "test_model.HornTests.test_conjunction_needs_every_premise", "test_model.HornTests.test_demo_lexical_indeterminacy", "test_model.HornTests.test_distinct_rules_are_alternatives", "test_model.HornTests.test_duplicates_and_rule_order_do_not_change_result", "test_model.HornTests.test_empty_system", "test_model.HornTests.test_fixed_point_is_stable_and_trace_bounded", "test_model.HornTests.test_greatest_trace_rounds", "test_model.HornTests.test_immediate_is_not_inflationary", "test_model.HornTests.test_invalid_rule_rejected", "test_model.HornTests.test_least_trace_rounds", "test_model.HornTests.test_no_rules_keeps_anchors_only", "test_model.HornTests.test_one_withdrawal_collapses_cycle", "test_model.HornTests.test_rule_immutable_snapshot", "test_model.HornTests.test_self_loop_is_not_external_ground", "test_model.HornTests.test_system_immutable_snapshot", "test_model.HornTests.test_unanchored_cycle_gap", "test_model.HornTests.test_unknown_context_and_invalid_state_rejected", "test_model.HornTests.test_unknown_rule_labels_rejected", "test_model.HornTests.test_withdrawal_blocks_derived_heads", "test_model.HornTests.test_withdrawal_overrides_anchor", "test_model.HornTests.test_withdrawn_premise_not_available"], "tests": 40, "unexpected_successes": 0}

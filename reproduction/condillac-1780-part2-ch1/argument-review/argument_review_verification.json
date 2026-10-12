@@ -1,0 +1,139 @@
+{
+  "audit_date_utc": "2026-10-11",
+  "status": "pass_after_reported_corrections",
+  "primary_print_pages": [
+    96,
+    108
+  ],
+  "all_13_primary_page_images_read": true,
+  "main_sections_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "main_exercises_and_answers_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "model_propositions_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "walkthrough_sections_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "independent_runs": [
+    {
+      "status": "PASS",
+      "optimization": 0,
+      "model_sha256": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+      "exhaustive_rule_systems_n_le_2": 67,
+      "exhaustive_unary_systems_n_3": 512,
+      "seeded_hyperrule_systems_n_4": 40,
+      "total_horn_contexts": 44041,
+      "three_observation_evidence_cases": 4096,
+      "seed": 1780,
+      "scope": "finite implementation checks only; general proofs must be read independently"
+    },
+    {
+      "status": "PASS",
+      "optimization": 1,
+      "model_sha256": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+      "exhaustive_rule_systems_n_le_2": 67,
+      "exhaustive_unary_systems_n_3": 512,
+      "seeded_hyperrule_systems_n_4": 40,
+      "total_horn_contexts": 44041,
+      "three_observation_evidence_cases": 4096,
+      "seed": 1780,
+      "scope": "finite implementation checks only; general proofs must be read independently"
+    },
+    {
+      "status": "PASS",
+      "optimization": 2,
+      "model_sha256": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+      "exhaustive_rule_systems_n_le_2": 67,
+      "exhaustive_unary_systems_n_3": 512,
+      "seeded_hyperrule_systems_n_4": 40,
+      "total_horn_contexts": 44041,
+      "three_observation_evidence_cases": 4096,
+      "seed": 1780,
+      "scope": "finite implementation checks only; general proofs must be read independently"
+    }
+  ],
+  "reviewed_files_sha256": {
+    "papers/1780/condillac-logic-part2-ch1.zh-CN.md": "3719c12617f43d482e0ce3f75a96660fef1f245d11f2a916f12bd418baabe594",
+    "reproduction/condillac-1780-part2-ch1/model.py": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+    "reproduction/condillac-1780-part2-ch1/MODEL.zh-CN.md": "dc25f17a047baf106b72b7c1f4cbef6245ea25d5c75e25dc91813952932dc4e9",
+    "reproduction/condillac-1780-part2-ch1/WALKTHROUGH.zh-CN.md": "dc83698f8609fb2d756e892ca909e123affe5927470fd029519a5ca7cdf4e074",
+    "reproduction/condillac-1780-part2-ch1/README.md": "7d82bbdb6b6cf1bb9d9b7be90232398b9cf28641f99a30c085f871c2b48046c1",
+    "reproduction/condillac-1780-part2-ch1/test_model.py": "730a5063ef9975311068fee0975e8721776e2165404a3ff66ba2b418765776fe",
+    "reproduction/condillac-1780-part2-ch1/demo.py": "fad58417d112ee7e50dd6b5fbf0eaefc75b4d40b2f1498c9da2390aef97ca489",
+    "reproduction/condillac-1780-part2-ch1/exhaustive.py": "f6e3d71f779e7b3d38d783f99fb3d95b3589a1eb6649c0ae960e2243cb0e6321",
+    "reproduction/condillac-1780-part2-ch1/mutation_check.py": "48047e686e351f91c84465a99b181b3ab3257f492e7e980a5ed10af719bf0516",
+    "reproduction/condillac-1780-part2-ch1/run_all.py": "1b7688e8a1e789bd1d830cc73038a4eb3584a19a1b23fd3d40d8b7d882a637fc"
+  },
+  "remaining_boundaries": [
+    "1780 chapter images and exact text not authenticated",
+    "all edition differences not audited",
+    "precise Bacon textual transmission remains unresolved",
+    "no validation of psychological social educational or theological claims"
+  ],
+  "final_document_refresh": {
+    "rechecked": [
+      "MODEL complete formatted formulas and proofs, including 1 <= i <= n range and i=0 convention",
+      "WALKTHROUGH complete formatted traces and embedded exercises",
+      "README verified only source-ledger link changed",
+      "run_all verified only independent-entrypoint presence cached; aggregate called once",
+      "main verified only four-margin and no-footnote/image/formula inventory insertion changed"
+    ],
+    "model_code_changed": false,
+    "report_correction_required": false,
+    "model_sha256": "6308e9635e27ce155eaaa022c9df59d0dcac83947f4a86633e6b0ff08150f228",
+    "verified_at_utc": "2026-10-11T23:56:48Z"
+  }
+}
