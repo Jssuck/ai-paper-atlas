@@ -1,6 +1,6 @@
 {
   "bare_assert_ast_check": "passed for all seven Python files",
-  "finished_utc": "2026-10-12T02:00:21.642830+00:00",
+  "finished_utc": "2026-10-12T02:12:38.202342+00:00",
   "independent_counts_per_mode": {
     "binary_code_record_budget_cases": 27540,
     "canonical_partition_binary_task_cases": 240,
@@ -123,7 +123,7 @@
   "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
   "source_sha256_after": {
     "MODEL.zh-CN.md": "1dd60aa14b212870b0e783a7dd75452dcccf4ed8affbfd07e89d539c54a7719f",
-    "README.md": "c3ae1f4778079f4fd620ab590a9c721777b7f5c01231211e4f82b4d8ce5b90b1",
+    "README.md": "5ada68a6e43e3c2cf267a8397389146be8b00fe1e613fd022ccb93f4bdb83ac9",
     "WALKTHROUGH.zh-CN.md": "d9f7945a0e1a326fdde7c9f8ded0e355a4674725c25ef0c8ff69b53beaa31f55",
     "demo.py": "ca7a27a0f3b883a7d56b94bede6fde74f3c534d61c93bfb332d238fd7807ac16",
     "independent-review/independent_check.py": "ce1de53d7fa8d3b63a580d011582db97e5ebae82169412177345708537365ab0",
@@ -135,7 +135,7 @@
   },
   "source_sha256_before": {
     "MODEL.zh-CN.md": "1dd60aa14b212870b0e783a7dd75452dcccf4ed8affbfd07e89d539c54a7719f",
-    "README.md": "c3ae1f4778079f4fd620ab590a9c721777b7f5c01231211e4f82b4d8ce5b90b1",
+    "README.md": "5ada68a6e43e3c2cf267a8397389146be8b00fe1e613fd022ccb93f4bdb83ac9",
     "WALKTHROUGH.zh-CN.md": "d9f7945a0e1a326fdde7c9f8ded0e355a4674725c25ef0c8ff69b53beaa31f55",
     "demo.py": "ca7a27a0f3b883a7d56b94bede6fde74f3c534d61c93bfb332d238fd7807ac16",
     "independent-review/independent_check.py": "ce1de53d7fa8d3b63a580d011582db97e5ebae82169412177345708537365ab0",
@@ -158,7 +158,7 @@
       "optimize": 0,
       "passed": true,
       "returncode": 0,
-      "seconds": 2.588001757998427,
+      "seconds": 3.371984313998837,
       "stage": "independent",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout_sha256": "762d22827d63a036d0d410748bdf929184e0ef5392bd5f598b0e3d7c3688be35"
@@ -174,10 +174,10 @@
       ],
       "mode": "normal",
       "returncode": 0,
-      "seconds": 0.9978451839997433,
+      "seconds": 0.9243970810057363,
       "stage": "author_unittest",
-      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.829s\n\nOK\n",
-      "stderr_sha256": "f1dae93258c89ce484b6823596521e138aad70d93ac077897a0fbdd47a51165a",
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.767s\n\nOK\n",
+      "stderr_sha256": "4b00d3abbe8bfec037a1739a166215b1eacded2b6027c0e422410a9bf6789a35",
       "stdout": "",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -267,10 +267,10 @@
       },
       "passed": true,
       "returncode": 0,
-      "seconds": 5.141491020003741,
+      "seconds": 4.498808935997658,
       "stage": "author_mutation",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stdout_sha256": "721dc6756c20123bf398f0c9bf52c91c6b2064741369f634d88e47a27f601ece"
+      "stdout_sha256": "5c71cf82f4d3d54d065d752e283e71d23873e9b61692261570ccb5ad45e0a355"
     },
     {
       "command": [
@@ -285,7 +285,7 @@
       "passed": true,
       "returncode": 0,
       "same_case_and_check_counts_as_normal": true,
-      "seconds": 2.7461791739988257,
+      "seconds": 3.224898537999252,
       "stage": "independent",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout_sha256": "7207ccf7f8232c9a5b84c65157d551e19ac0f9e661f449bdca3ae6d833f1019b"
@@ -302,10 +302,10 @@
       ],
       "mode": "O",
       "returncode": 0,
-      "seconds": 1.0816026109969243,
+      "seconds": 1.4163038569968194,
       "stage": "author_unittest",
-      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.726s\n\nOK\n",
-      "stderr_sha256": "64097193c70839cee854f229539a6c581a52f80615868d6241766d2b1e7063ec",
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.899s\n\nOK\n",
+      "stderr_sha256": "4c53eb8e48ad6d9b091674550ef9da2c79dbaec83c75236646ab1bf2994f9ae8",
       "stdout": "",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -396,10 +396,10 @@
       },
       "passed": true,
       "returncode": 0,
-      "seconds": 11.54336245599552,
+      "seconds": 11.117065969010582,
       "stage": "author_mutation",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stdout_sha256": "ed9ce520ba716b7c74e23085820b0ed81cba45d57dc361f313305d69fc4ad52e"
+      "stdout_sha256": "c1f0ca8fe2b60e6ce1df38b3cf4378f4145e50a5123decf9be83da02ba79b3de"
     },
     {
       "command": [
@@ -414,7 +414,7 @@
       "passed": true,
       "returncode": 0,
       "same_case_and_check_counts_as_normal": true,
-      "seconds": 2.7608460880001076,
+      "seconds": 3.3350515350030037,
       "stage": "independent",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout_sha256": "e51958f08dd2b86f1aff80651859d7c0e88df0855dcb9959d99f049f252cf6c9"
@@ -431,10 +431,10 @@
       ],
       "mode": "OO",
       "returncode": 0,
-      "seconds": 1.1716503129937337,
+      "seconds": 1.2637197230069432,
       "stage": "author_unittest",
-      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.701s\n\nOK\n",
-      "stderr_sha256": "78eb5b24222ce2137d836b4f57a7cb628bf492b2256e985d7ffe719364bbceaf",
+      "stderr": "test_chain_and_idempotence (test_model.HornTests.test_chain_and_idempotence) ... ok\ntest_conjunction (test_model.HornTests.test_conjunction) ... ok\ntest_cycles_and_empty_body (test_model.HornTests.test_cycles_and_empty_body) ... ok\ntest_false_seed_and_sound_rules (test_model.HornTests.test_false_seed_and_sound_rules) ... ok\ntest_forged_trace (test_model.HornTests.test_forged_trace) ... ok\ntest_horn_exhaustive (test_model.HornTests.test_horn_exhaustive) ... ok\ntest_unreachable (test_model.HornTests.test_unreachable) ... ok\ntest_validation_and_snapshot (test_model.HornTests.test_validation_and_snapshot) ... ok\ntest_detect_not_identify (test_model.HypothesisTests.test_detect_not_identify) ... ok\ntest_filter_exact (test_model.HypothesisTests.test_filter_exact) ... ok\ntest_filter_exhaustive (test_model.HypothesisTests.test_filter_exhaustive) ... ok\ntest_noise_budget (test_model.HypothesisTests.test_noise_budget) ... ok\ntest_truth_absent_and_noisy_singleton (test_model.HypothesisTests.test_truth_absent_and_noisy_singleton) ... ok\ntest_validation_and_snapshot (test_model.HypothesisTests.test_validation_and_snapshot) ... ok\ntest_breadth_is_not_precision (test_model.PrecisionTests.test_breadth_is_not_precision) ... ok\ntest_precision_refinement_exhaustive (test_model.PrecisionTests.test_precision_refinement_exhaustive) ... ok\ntest_precision_validation (test_model.PrecisionTests.test_precision_validation) ... ok\ntest_correct_dictionary (test_model.TranslationTests.test_correct_dictionary) ... ok\ntest_dictionary_inverse_validation (test_model.TranslationTests.test_dictionary_inverse_validation) ... ok\ntest_noninjective_closure_counterexample (test_model.TranslationTests.test_noninjective_closure_counterexample) ... ok\ntest_renaming_exhaustive (test_model.TranslationTests.test_renaming_exhaustive) ... ok\ntest_vocabulary_snapshot_and_validation (test_model.TranslationTests.test_vocabulary_snapshot_and_validation) ... ok\ntest_wrong_dictionary (test_model.TranslationTests.test_wrong_dictionary) ... ok\ntest_wrong_dictionary_closure (test_model.TranslationTests.test_wrong_dictionary_closure) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 0.830s\n\nOK\n",
+      "stderr_sha256": "7a89d4ddd333e59a61b84f674ff10662e06fdc5ecfa9d6f9976b420b18878a19",
       "stdout": "",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -525,11 +525,11 @@
       },
       "passed": true,
       "returncode": 0,
-      "seconds": 11.232438425999135,
+      "seconds": 12.496829463998438,
       "stage": "author_mutation",
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "stdout_sha256": "4cddfb0adf0043f4a65d8bf932a41e99245f19b542a68ff2ccee9f5d3f66254e"
+      "stdout_sha256": "85caf7f1905b002905893ce7a9741cded2f288131ef9a0ccfb74f8fd31a6f642"
     }
   ],
-  "started_utc": "2026-10-12T01:59:40.704790+00:00"
+  "started_utc": "2026-10-12T02:11:55.042933+00:00"
 }
