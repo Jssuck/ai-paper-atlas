@@ -1,28 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1780-logic-part2-ch9",
     "path": "papers/1780/condillac-logic-part2-ch9.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "Complete La Logique II.IX, actual 1798 Œuvres XXII pp.177–191 including concluding advice; Éclaircissemens begins p192. 1780 bibliographic dating only."
-  },
-  "last_completed": {
-    "id": "condillac-1780-logic-part2-ch8",
-    "path": "papers/1780/condillac-logic-part2-ch8.zh-CN.md",
     "version": "v1",
-    "content_commit": "5d71d5e045412abba74e7be2f6ee58212964123c",
-    "checks": "Recovered files independently revalidated with 197 exact hash bindings; fresh three-mode author 15 commands and independent code 21 commands passed, with 88037 decision problems per mode in mathematical checks. All 102 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 173 formulas, 190 headings, nine tables/384 raw-source cells, 335 relative paths and 20 answers. Source, whole-argument/math and code audits passed.",
-    "scope": "Complete La Logique II.VIII, actual 1798 Œuvres XXII pp.170–176, primary pages and collected errata checked. 1780 bibliographic dating only. Historical reading and modern data-sufficiency/translation models distinguished; source reacquisition limits explicitly recorded."
+    "content_commit": "928acf51fbe6cb399a579b623c15b146c9ecd767",
+    "checks": "Independent source, whole-argument/math and code audits passed; 81 hash bindings verified. Three modes each passed nine author tests, 144933 independent code checks and 127640 argument checks. All 50 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 163 headings, 70 formulas, seven tables/358 raw-source cells, 307 relative paths and 20 answers. Strict-pair formula rendering repaired equivalently with review bindings refreshed and actual pixels rechecked.",
+    "scope": "Complete La Logique II.IX, actual 1798 Œuvres XXII pp.177–191 including concluding advice, six margins and one footnote; collected errata checked. Single available scan limitation disclosed; 1780 bibliographic dating only. Modern finite certainty, causal converse, Bayesian and experiment-selection models distinguished from historical claims."
   },
-  "updated_at": "2026-10-12T09:07:35Z",
+  "updated_at": "2026-10-12T09:27:40Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and actual GitHub rendering for the same chapter before marking complete.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
