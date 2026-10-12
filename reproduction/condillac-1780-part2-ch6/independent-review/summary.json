@@ -1,0 +1,47 @@
+{
+  "counts_per_mode": {
+    "behavior_rejections": 6,
+    "constructed_formula_rows": 226724,
+    "definition_systems_in_input_order": 8336,
+    "definition_worlds": 33040,
+    "equation_cases": 2304,
+    "equation_solution_count_0": 1425,
+    "equation_solution_count_1": 748,
+    "equation_solution_count_2": 118,
+    "equation_solution_count_3": 12,
+    "equation_solution_count_4": 1,
+    "evidence_pair_cases": 4168,
+    "explicit_checks": 1921236,
+    "expression_rows": 2122,
+    "expression_tables": 278,
+    "observation_cases": 70252,
+    "old_formula_rows": 525344,
+    "order_cases": 744000,
+    "rule_seed_cases": 18600,
+    "rule_sets": 2325,
+    "simulated_harness_errors_correctly_rejected": 1,
+    "subset_conservativity_cases": 256,
+    "validation_rejections": 12000
+  },
+  "demo_outputs_identical": true,
+  "independent_script_sha256": {
+    "check_documents.py": "e81c3e5db81447bcb69526d6e600d09e696a6167a4822aaaf708224db547d2db",
+    "independent_audit.py": "60cba2f1457fba24bd1be2d64a60438e93198e5588017b7508d5bba49cfe32c5",
+    "summarize_runs.py": "280330a548030473188183a5747da0117d40569823fa54819747b0129a2c3410"
+  },
+  "mutation_baseline_passes_per_mode": 6,
+  "mutation_behavior_rejections_per_mode": 6,
+  "mutation_harness_errors_per_mode": 0,
+  "mutation_outputs_identical": true,
+  "normal_O_OO_counts_identical": true,
+  "result": "PASS",
+  "source_sha256": {
+    "condillac_model.py": "832596b90cd9854fd89d9d99fb178629dbb14f439e081e0703bcefc9832955ae",
+    "demo.py": "d6d5199b6865c10c90a33e836ed383ba9f1d55f5f439a6e368ee2d23283f986f",
+    "mutation_check.py": "b9e686ad16fd590fe1b4153ff844ce65ecdd163c18eef8608a77a961b7137b08",
+    "test_condillac_model.py": "8172ab25264af43301924f153f57e9c63822946b4e0bce3b8854dd08a95be8e3",
+    "test_mutation_check.py": "a85f2af5e86d4e518662389d5438b3bd264350125196ef48164d180f513adf4a"
+  },
+  "source_unchanged": true,
+  "unit_tests_per_mode": 45
+}

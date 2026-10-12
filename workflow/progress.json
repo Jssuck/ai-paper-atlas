@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "condillac-1780-logic-part2-ch6",
     "path": "papers/1780/condillac-logic-part2-ch6.zh-CN.md",
-    "stage": "primary_source_reading",
+    "stage": "remote_content_and_render_verification",
     "scope": "La Logique II.VI, actual 1798 Œuvres XXII pp.141–151; 1780 bibliographic edition date only."
   },
   "last_completed": {
@@ -15,14 +15,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed; 31 tests, 4096 finite graph contexts and genuine normal/-O/-OO checks. All 34 remote UTF-8 files and blob identities verified. Eight live Markdown bodies, 260 formulas, 224 headings, 17 tables/759 raw-source cells, 24 questions/answers and 285 relative links checked. External href fidelity verified; fresh host availability not asserted.",
     "scope": "Complete La Logique II.V, actual 1798 Œuvres XXII pp.131–140, both scans and five margins; collected-edition errata checked. Art de penser II.V pp.230–241 and predecessor comparisons are bounded context only. 1780 bibliographic dating only. Naming, abstraction, class subordination and limits of language-based reasoning distinguished from modern graph/SCC teaching models."
   },
-  "updated_at": "2026-10-12T04:37:50Z",
+  "updated_at": "2026-10-12T05:01:10Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read and independently audit the complete bounded chapter; reconstruct and test clearly labelled teaching models before publication.",
+  "next_action": "Verify every remote artifact and actual GitHub mathematical rendering before marking complete.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",

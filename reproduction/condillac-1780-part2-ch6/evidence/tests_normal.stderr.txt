@@ -1,0 +1,50 @@
+test_bounded_exhaustive_expansion_and_conservativity (test_condillac_model.DefinitionTests.test_bounded_exhaustive_expansion_and_conservativity) ... ok
+test_cyclic_can_have_unique_solution (test_condillac_model.DefinitionTests.test_cyclic_can_have_unique_solution) ... ok
+test_cyclic_multiple_solutions (test_condillac_model.DefinitionTests.test_cyclic_multiple_solutions) ... ok
+test_cyclic_no_solution (test_condillac_model.DefinitionTests.test_cyclic_no_solution) ... ok
+test_equation_oracle_rejects_bad_inputs (test_condillac_model.DefinitionTests.test_equation_oracle_rejects_bad_inputs) ... ok
+test_exact_primitive_domain (test_condillac_model.DefinitionTests.test_exact_primitive_domain) ... ok
+test_expand_does_not_mutate_input (test_condillac_model.DefinitionTests.test_expand_does_not_mutate_input) ... ok
+test_no_definitions (test_condillac_model.DefinitionTests.test_no_definitions) ... ok
+test_old_name_equation_constrains_base (test_condillac_model.DefinitionTests.test_old_name_equation_constrains_base) ... ok
+test_reject_nonfresh_duplicate_unknown_and_cycle (test_condillac_model.DefinitionTests.test_reject_nonfresh_duplicate_unknown_and_cycle) ... ok
+test_reorders_dependencies (test_condillac_model.DefinitionTests.test_reorders_dependencies) ... ok
+test_bounded_exhaustive_fiber_criterion (test_condillac_model.EvidenceAndObservationTests.test_bounded_exhaustive_fiber_criterion) ... ok
+test_duplicate_worlds_and_features (test_condillac_model.EvidenceAndObservationTests.test_duplicate_worlds_and_features) ... ok
+test_empty_domain (test_condillac_model.EvidenceAndObservationTests.test_empty_domain) ... ok
+test_empty_evidence_is_vacuous_not_information (test_condillac_model.EvidenceAndObservationTests.test_empty_evidence_is_vacuous_not_information) ... ok
+test_evidence_is_separate (test_condillac_model.EvidenceAndObservationTests.test_evidence_is_separate) ... ok
+test_hidden_primitive_witness (test_condillac_model.EvidenceAndObservationTests.test_hidden_primitive_witness) ... ok
+test_inconsistent_vocabulary_and_unbound_names (test_condillac_model.EvidenceAndObservationTests.test_inconsistent_vocabulary_and_unbound_names) ... ok
+test_invalid_observation_formula (test_condillac_model.EvidenceAndObservationTests.test_invalid_observation_formula) ... ok
+test_no_features_constant_target (test_condillac_model.EvidenceAndObservationTests.test_no_features_constant_target) ... ok
+test_no_features_nonconstant_target (test_condillac_model.EvidenceAndObservationTests.test_no_features_nonconstant_target) ... ok
+test_observation_formula_requires_typed_result (test_condillac_model.EvidenceAndObservationTests.test_observation_formula_requires_typed_result) ... ok
+test_partial_domain_and_unseen_signature (test_condillac_model.EvidenceAndObservationTests.test_partial_domain_and_unseen_signature) ... ok
+test_all_small_dnf_tables (test_condillac_model.ExpressionTests.test_all_small_dnf_tables) ... ok
+test_duplicate_and_empty_names (test_condillac_model.ExpressionTests.test_duplicate_and_empty_names) ... ok
+test_empty_world_enumeration (test_condillac_model.ExpressionTests.test_empty_world_enumeration) ... ok
+test_strict_booleans (test_condillac_model.ExpressionTests.test_strict_booleans) ... ok
+test_truth_tables (test_condillac_model.ExpressionTests.test_truth_tables) ... ok
+test_unsupported_ast (test_condillac_model.ExpressionTests.test_unsupported_ast) ... ok
+test_validate_short_circuited_branches (test_condillac_model.ExpressionTests.test_validate_short_circuited_branches) ... ok
+test_world_order_and_count (test_condillac_model.ExpressionTests.test_world_order_and_count) ... ok
+test_all_premises_required (test_condillac_model.LearningTests.test_all_premises_required) ... ok
+test_alternative_rules (test_condillac_model.LearningTests.test_alternative_rules) ... ok
+test_bounded_exhaustive_closure_and_plans (test_condillac_model.LearningTests.test_bounded_exhaustive_closure_and_plans) ... ok
+test_chain_and_reverse (test_condillac_model.LearningTests.test_chain_and_reverse) ... ok
+test_cycle_unseeded_seeded_and_self_loop (test_condillac_model.LearningTests.test_cycle_unseeded_seeded_and_self_loop) ... ok
+test_derivability_is_not_truth (test_condillac_model.LearningTests.test_derivability_is_not_truth) ... ok
+test_empty_premises_and_no_rules (test_condillac_model.LearningTests.test_empty_premises_and_no_rules) ... ok
+test_malformed_rules (test_condillac_model.LearningTests.test_malformed_rules) ... ok
+test_not_every_reverse_fails (test_condillac_model.LearningTests.test_not_every_reverse_fails) ... ok
+test_repeated_known_or_unlicensed_step (test_condillac_model.LearningTests.test_repeated_known_or_unlicensed_step) ... ok
+test_valid_does_not_mean_complete (test_condillac_model.LearningTests.test_valid_does_not_mean_complete) ... ok
+test_behavior_mismatch_is_detected (test_mutation_check.HarnessClassificationTests.test_behavior_mismatch_is_detected) ... ok
+test_passing_probe_is_not_detection (test_mutation_check.HarnessClassificationTests.test_passing_probe_is_not_detection) ... ok
+test_unexpected_exception_is_not_detection (test_mutation_check.HarnessClassificationTests.test_unexpected_exception_is_not_detection) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 1.357s
+
+OK

@@ -1,0 +1,130 @@
+{
+  "label": "Original modern teaching model, not a historical reconstruction or psychological experiment",
+  "definition_expansions": [
+    {
+      "p": false,
+      "q": false,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": false,
+      "q": true,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": true,
+      "q": false,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": true,
+      "q": true,
+      "both": true,
+      "not_both": false
+    }
+  ],
+  "old_worlds_before_evidence": 4,
+  "after_evidence_both": [
+    {
+      "p": true,
+      "q": true,
+      "both": true,
+      "not_both": false
+    }
+  ],
+  "cyclic_no_solution": [],
+  "cyclic_two_solutions": [
+    {
+      "d": false
+    },
+    {
+      "d": true
+    }
+  ],
+  "old_name_reuse_rejects_p_false": [],
+  "hidden_q": {
+    "definable": false,
+    "witness": [
+      {
+        "p": false,
+        "q": false
+      },
+      {
+        "p": false,
+        "q": true
+      }
+    ]
+  },
+  "both_from_p_and_q": {
+    "definable": true,
+    "table": [
+      [
+        [
+          false,
+          false
+        ],
+        false
+      ],
+      [
+        [
+          false,
+          true
+        ],
+        false
+      ],
+      [
+        [
+          true,
+          false
+        ],
+        false
+      ],
+      [
+        [
+          true,
+          true
+        ],
+        true
+      ]
+    ]
+  },
+  "empty_observation_nonconstant_target": {
+    "definable": false,
+    "witness": [
+      {
+        "p": false
+      },
+      {
+        "p": true
+      }
+    ]
+  },
+  "learning": {
+    "plan": [
+      "compare",
+      "name"
+    ],
+    "forward_valid": true,
+    "reverse_valid": false,
+    "reverse_failure_index": 0,
+    "reverse_missing_alternatives": [
+      [
+        "compare"
+      ]
+    ],
+    "closure": [
+      "compare",
+      "name",
+      "sense"
+    ]
+  },
+  "cycle_without_seed": [],
+  "cycle_with_a_seed": [
+    "a",
+    "b"
+  ],
+  "scope": "These results concern the declared finite semantics and rules only."
+}

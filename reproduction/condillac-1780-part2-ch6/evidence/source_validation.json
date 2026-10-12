@@ -1,0 +1,8 @@
+{
+  "summary": "evidence/summary.json",
+  "source_hash_mismatches": [],
+  "bare_assert_nodes": [],
+  "source_files_checked": 9,
+  "python_files_checked": 6,
+  "scope": "Author sources listed in summary.json; independent reviewers supply separate records."
+}

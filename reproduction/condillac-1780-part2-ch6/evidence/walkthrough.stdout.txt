@@ -1,0 +1,32 @@
+({'p': False, 'q': False, 'both': False, 'not_both': True}, {'p': False, 'q': True, 'both': False, 'not_both': True}, {'p': True, 'q': False, 'both': False, 'not_both': True}, {'p': True, 'q': True, 'both': True, 'not_both': False})
+False
+({'p': True, 'q': True, 'both': True, 'not_both': False},)
+True
+0
+True
+True
+()
+({'d': False}, {'d': True})
+({'d': False},)
+()
+({'p': True},)
+False
+({'p': False, 'q': False}, {'p': False, 'q': True})
+True
+False
+True
+False
+(((), True),)
+(((True,), True),)
+False
+('compare', 'name')
+True
+False
+0
+(frozenset({'compare'}),)
+True
+True
+[]
+['a', 'b']
+True
+False

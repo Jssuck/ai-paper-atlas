@@ -1,0 +1,49 @@
+{
+  "baseline_passes": 6,
+  "behavior_detected": 6,
+  "harness_errors": 0,
+  "records": [
+    {
+      "mutant": "flip_defined_value",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected {'p': True, 'd': True}; got {'p': True, 'd': False}"
+    },
+    {
+      "mutant": "ignore_fiber_conflict",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected False; got True"
+    },
+    {
+      "mutant": "any_instead_of_all_premises",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected frozenset({'a'}); got frozenset({'c', 'a'})"
+    },
+    {
+      "mutant": "future_premises_allowed",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected False; got True"
+    },
+    {
+      "mutant": "ignore_evidence",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected ({'p': True},); got ({'p': False}, {'p': True})"
+    },
+    {
+      "mutant": "overwrite_old_name",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected (); got ({'p': True},)"
+    }
+  ]
+}

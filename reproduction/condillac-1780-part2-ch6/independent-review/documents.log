@@ -1,0 +1,89 @@
+$ PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 LC_ALL=C.UTF-8 TZ=UTC python independent-review/check_documents.py
+WALKTHROUGH Python block 1
+({'p': False, 'q': False, 'both': False, 'not_both': True}, {'p': False, 'q': True, 'both': False, 'not_both': True}, {'p': True, 'q': False, 'both': False, 'not_both': True}, {'p': True, 'q': True, 'both': True, 'not_both': False})
+WALKTHROUGH Python block 2
+False
+WALKTHROUGH Python block 3
+({'p': True, 'q': True, 'both': True, 'not_both': False},)
+True
+WALKTHROUGH Python block 4
+0
+True
+True
+WALKTHROUGH Python block 5
+()
+({'d': False}, {'d': True})
+({'d': False},)
+WALKTHROUGH Python block 6
+()
+({'p': True},)
+WALKTHROUGH Python block 7
+False
+({'p': False, 'q': False}, {'p': False, 'q': True})
+WALKTHROUGH Python block 8
+True
+False
+True
+WALKTHROUGH Python block 9
+False
+(((), True),)
+WALKTHROUGH Python block 10
+(((True,), True),)
+False
+WALKTHROUGH Python block 11
+('compare', 'name')
+True
+WALKTHROUGH Python block 12
+False
+0
+(frozenset({'compare'}),)
+WALKTHROUGH Python block 13
+True
+True
+WALKTHROUGH Python block 14
+[]
+['a', 'b']
+WALKTHROUGH Python block 15
+True
+False
+{
+  "result": "PASS",
+  "source_tables": 10,
+  "source_table_rows": 99,
+  "table_details": [
+    {
+      "file": "MODEL.zh-CN.md",
+      "tables": 1,
+      "rows_including_headers_and_separators": 11
+    },
+    {
+      "file": "README.md",
+      "tables": 2,
+      "rows_including_headers_and_separators": 32
+    },
+    {
+      "file": "VERIFICATION.zh-CN.md",
+      "tables": 3,
+      "rows_including_headers_and_separators": 22
+    },
+    {
+      "file": "WALKTHROUGH.zh-CN.md",
+      "tables": 2,
+      "rows_including_headers_and_separators": 10
+    },
+    {
+      "file": "review.zh-CN.md",
+      "tables": 0,
+      "rows_including_headers_and_separators": 0
+    },
+    {
+      "file": "condillac-logic-part2-ch6.zh-CN.md",
+      "tables": 2,
+      "rows_including_headers_and_separators": 24
+    }
+  ],
+  "tutorial_python_blocks": 15,
+  "scope": "Source cell boundaries and execution only; no rendered GitHub/browser QA."
+}
+
+exit_code=0

@@ -1,0 +1,288 @@
+
+$ PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 LC_ALL=C.UTF-8 TZ=UTC python -m unittest -v
+test_bounded_exhaustive_expansion_and_conservativity (test_condillac_model.DefinitionTests.test_bounded_exhaustive_expansion_and_conservativity) ... ok
+test_cyclic_can_have_unique_solution (test_condillac_model.DefinitionTests.test_cyclic_can_have_unique_solution) ... ok
+test_cyclic_multiple_solutions (test_condillac_model.DefinitionTests.test_cyclic_multiple_solutions) ... ok
+test_cyclic_no_solution (test_condillac_model.DefinitionTests.test_cyclic_no_solution) ... ok
+test_equation_oracle_rejects_bad_inputs (test_condillac_model.DefinitionTests.test_equation_oracle_rejects_bad_inputs) ... ok
+test_exact_primitive_domain (test_condillac_model.DefinitionTests.test_exact_primitive_domain) ... ok
+test_expand_does_not_mutate_input (test_condillac_model.DefinitionTests.test_expand_does_not_mutate_input) ... ok
+test_no_definitions (test_condillac_model.DefinitionTests.test_no_definitions) ... ok
+test_old_name_equation_constrains_base (test_condillac_model.DefinitionTests.test_old_name_equation_constrains_base) ... ok
+test_reject_nonfresh_duplicate_unknown_and_cycle (test_condillac_model.DefinitionTests.test_reject_nonfresh_duplicate_unknown_and_cycle) ... ok
+test_reorders_dependencies (test_condillac_model.DefinitionTests.test_reorders_dependencies) ... ok
+test_bounded_exhaustive_fiber_criterion (test_condillac_model.EvidenceAndObservationTests.test_bounded_exhaustive_fiber_criterion) ... ok
+test_duplicate_worlds_and_features (test_condillac_model.EvidenceAndObservationTests.test_duplicate_worlds_and_features) ... ok
+test_empty_domain (test_condillac_model.EvidenceAndObservationTests.test_empty_domain) ... ok
+test_empty_evidence_is_vacuous_not_information (test_condillac_model.EvidenceAndObservationTests.test_empty_evidence_is_vacuous_not_information) ... ok
+test_evidence_is_separate (test_condillac_model.EvidenceAndObservationTests.test_evidence_is_separate) ... ok
+test_hidden_primitive_witness (test_condillac_model.EvidenceAndObservationTests.test_hidden_primitive_witness) ... ok
+test_inconsistent_vocabulary_and_unbound_names (test_condillac_model.EvidenceAndObservationTests.test_inconsistent_vocabulary_and_unbound_names) ... ok
+test_invalid_observation_formula (test_condillac_model.EvidenceAndObservationTests.test_invalid_observation_formula) ... ok
+test_no_features_constant_target (test_condillac_model.EvidenceAndObservationTests.test_no_features_constant_target) ... ok
+test_no_features_nonconstant_target (test_condillac_model.EvidenceAndObservationTests.test_no_features_nonconstant_target) ... ok
+test_observation_formula_requires_typed_result (test_condillac_model.EvidenceAndObservationTests.test_observation_formula_requires_typed_result) ... ok
+test_partial_domain_and_unseen_signature (test_condillac_model.EvidenceAndObservationTests.test_partial_domain_and_unseen_signature) ... ok
+test_all_small_dnf_tables (test_condillac_model.ExpressionTests.test_all_small_dnf_tables) ... ok
+test_duplicate_and_empty_names (test_condillac_model.ExpressionTests.test_duplicate_and_empty_names) ... ok
+test_empty_world_enumeration (test_condillac_model.ExpressionTests.test_empty_world_enumeration) ... ok
+test_strict_booleans (test_condillac_model.ExpressionTests.test_strict_booleans) ... ok
+test_truth_tables (test_condillac_model.ExpressionTests.test_truth_tables) ... ok
+test_unsupported_ast (test_condillac_model.ExpressionTests.test_unsupported_ast) ... ok
+test_validate_short_circuited_branches (test_condillac_model.ExpressionTests.test_validate_short_circuited_branches) ... ok
+test_world_order_and_count (test_condillac_model.ExpressionTests.test_world_order_and_count) ... ok
+test_all_premises_required (test_condillac_model.LearningTests.test_all_premises_required) ... ok
+test_alternative_rules (test_condillac_model.LearningTests.test_alternative_rules) ... ok
+test_bounded_exhaustive_closure_and_plans (test_condillac_model.LearningTests.test_bounded_exhaustive_closure_and_plans) ... ok
+test_chain_and_reverse (test_condillac_model.LearningTests.test_chain_and_reverse) ... ok
+test_cycle_unseeded_seeded_and_self_loop (test_condillac_model.LearningTests.test_cycle_unseeded_seeded_and_self_loop) ... ok
+test_derivability_is_not_truth (test_condillac_model.LearningTests.test_derivability_is_not_truth) ... ok
+test_empty_premises_and_no_rules (test_condillac_model.LearningTests.test_empty_premises_and_no_rules) ... ok
+test_malformed_rules (test_condillac_model.LearningTests.test_malformed_rules) ... ok
+test_not_every_reverse_fails (test_condillac_model.LearningTests.test_not_every_reverse_fails) ... ok
+test_repeated_known_or_unlicensed_step (test_condillac_model.LearningTests.test_repeated_known_or_unlicensed_step) ... ok
+test_valid_does_not_mean_complete (test_condillac_model.LearningTests.test_valid_does_not_mean_complete) ... ok
+test_behavior_mismatch_is_detected (test_mutation_check.HarnessClassificationTests.test_behavior_mismatch_is_detected) ... ok
+test_passing_probe_is_not_detection (test_mutation_check.HarnessClassificationTests.test_passing_probe_is_not_detection) ... ok
+test_unexpected_exception_is_not_detection (test_mutation_check.HarnessClassificationTests.test_unexpected_exception_is_not_detection) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.926s
+
+OK
+
+exit_code=0
+
+$ PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 LC_ALL=C.UTF-8 TZ=UTC python independent-review/independent_audit.py
+{"completed": "expression_checks", "elapsed_seconds": 0.059}
+{"completed": "definition_checks", "elapsed_seconds": 13.474}
+{"completed": "equation_checks", "elapsed_seconds": 13.574}
+{"completed": "observation_checks", "elapsed_seconds": 22.047}
+{"completed": "evidence_checks", "elapsed_seconds": 22.379}
+{"completed": "rule_checks", "elapsed_seconds": 27.403}
+{"completed": "validation_checks", "elapsed_seconds": 27.404}
+{"completed": "mutation_checks", "elapsed_seconds": 27.406}
+{
+  "counts": {
+    "behavior_rejections": 6,
+    "constructed_formula_rows": 226724,
+    "definition_systems_in_input_order": 8336,
+    "definition_worlds": 33040,
+    "equation_cases": 2304,
+    "equation_solution_count_0": 1425,
+    "equation_solution_count_1": 748,
+    "equation_solution_count_2": 118,
+    "equation_solution_count_3": 12,
+    "equation_solution_count_4": 1,
+    "evidence_pair_cases": 4168,
+    "explicit_checks": 1921236,
+    "expression_rows": 2122,
+    "expression_tables": 278,
+    "observation_cases": 70252,
+    "old_formula_rows": 525344,
+    "order_cases": 744000,
+    "rule_seed_cases": 18600,
+    "rule_sets": 2325,
+    "simulated_harness_errors_correctly_rejected": 1,
+    "subset_conservativity_cases": 256,
+    "validation_rejections": 12000
+  },
+  "python_optimization": 0,
+  "result": "PASS",
+  "source_sha256": {
+    "condillac_model.py": "832596b90cd9854fd89d9d99fb178629dbb14f439e081e0703bcefc9832955ae",
+    "demo.py": "d6d5199b6865c10c90a33e836ed383ba9f1d55f5f439a6e368ee2d23283f986f",
+    "mutation_check.py": "b9e686ad16fd590fe1b4153ff844ce65ecdd163c18eef8608a77a961b7137b08",
+    "test_condillac_model.py": "8172ab25264af43301924f153f57e9c63822946b4e0bce3b8854dd08a95be8e3",
+    "test_mutation_check.py": "a85f2af5e86d4e518662389d5438b3bd264350125196ef48164d180f513adf4a"
+  }
+}
+
+exit_code=0
+
+$ PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 LC_ALL=C.UTF-8 TZ=UTC python demo.py
+{
+  "label": "Original modern teaching model, not a historical reconstruction or psychological experiment",
+  "definition_expansions": [
+    {
+      "p": false,
+      "q": false,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": false,
+      "q": true,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": true,
+      "q": false,
+      "both": false,
+      "not_both": true
+    },
+    {
+      "p": true,
+      "q": true,
+      "both": true,
+      "not_both": false
+    }
+  ],
+  "old_worlds_before_evidence": 4,
+  "after_evidence_both": [
+    {
+      "p": true,
+      "q": true,
+      "both": true,
+      "not_both": false
+    }
+  ],
+  "cyclic_no_solution": [],
+  "cyclic_two_solutions": [
+    {
+      "d": false
+    },
+    {
+      "d": true
+    }
+  ],
+  "old_name_reuse_rejects_p_false": [],
+  "hidden_q": {
+    "definable": false,
+    "witness": [
+      {
+        "p": false,
+        "q": false
+      },
+      {
+        "p": false,
+        "q": true
+      }
+    ]
+  },
+  "both_from_p_and_q": {
+    "definable": true,
+    "table": [
+      [
+        [
+          false,
+          false
+        ],
+        false
+      ],
+      [
+        [
+          false,
+          true
+        ],
+        false
+      ],
+      [
+        [
+          true,
+          false
+        ],
+        false
+      ],
+      [
+        [
+          true,
+          true
+        ],
+        true
+      ]
+    ]
+  },
+  "empty_observation_nonconstant_target": {
+    "definable": false,
+    "witness": [
+      {
+        "p": false
+      },
+      {
+        "p": true
+      }
+    ]
+  },
+  "learning": {
+    "plan": [
+      "compare",
+      "name"
+    ],
+    "forward_valid": true,
+    "reverse_valid": false,
+    "reverse_failure_index": 0,
+    "reverse_missing_alternatives": [
+      [
+        "compare"
+      ]
+    ],
+    "closure": [
+      "compare",
+      "name",
+      "sense"
+    ]
+  },
+  "cycle_without_seed": [],
+  "cycle_with_a_seed": [
+    "a",
+    "b"
+  ],
+  "scope": "These results concern the declared finite semantics and rules only."
+}
+
+exit_code=0
+
+$ PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 LC_ALL=C.UTF-8 TZ=UTC python mutation_check.py
+{
+  "baseline_passes": 6,
+  "behavior_detected": 6,
+  "harness_errors": 0,
+  "records": [
+    {
+      "mutant": "flip_defined_value",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected {'p': True, 'd': True}; got {'p': True, 'd': False}"
+    },
+    {
+      "mutant": "ignore_fiber_conflict",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected False; got True"
+    },
+    {
+      "mutant": "any_instead_of_all_premises",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected frozenset({'a'}); got frozenset({'c', 'a'})"
+    },
+    {
+      "mutant": "future_premises_allowed",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected False; got True"
+    },
+    {
+      "mutant": "ignore_evidence",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected ({'p': True},); got ({'p': False}, {'p': True})"
+    },
+    {
+      "mutant": "overwrite_old_name",
+      "baseline": "pass",
+      "baseline_detail": "",
+      "mutant_status": "behavior_mismatch",
+      "detail": "expected (); got ({'p': True},)"
+    }
+  ]
+}
+
+exit_code=0

@@ -32,6 +32,7 @@
 | 1780（本次读1798版） | [Condillac《逻辑学》II.III精读](papers/1780/condillac-logic-part2-ch3.zh-CN.md) | AI语言与认识论前史：经验纠错、错误传播与词义对齐 | 深读v1 · 完整书籍章节118–124、五边注及自引核查 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.IV精读](papers/1780/condillac-logic-part2-ch4.zh-CN.md) | AI语言与认识论前史：判断习惯、词义来源与观察校准 | 深读v1 · 完整书籍章节125–130、四边注及历史自引核查 |
 | 1780（本次读1798版） | [Condillac《逻辑学》II.V精读](papers/1780/condillac-logic-part2-ch5.zh-CN.md) | AI表征与推理前史：一般观念、类名从属与正确性边界 | 深读v1 · 完整书籍章节131–140、五边注及课程自引核查 |
+| 1780（本次读1798版） | [Condillac《逻辑学》II.VI精读](papers/1780/condillac-logic-part2-ch6.zh-CN.md) | AI认识论与表征前史：定义、事实根据与学习次序 | 深读v1 · 完整书籍章节141–151、五边注及三组引注核查 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
@@ -429,3 +430,14 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 仅完成实际1798《Œuvres》XXII卷II.V印131–140十页、五条边注及章末一组自引，两册同版逐页核图；VI始于141。1780只作一版书目年。134页重复措辞及边注/目录et与ou之别保留；全集勘误不涉及本章，I.I第8页更正保持解决。140页自引实际落实至1798卷VI《Art de penser》II.V230–241，十二页仅作有界背景，不新增完成单位。洛克的相近例子与不同理论、马勒伯朗士式匿名批评与其自身限定分别核查，不据此虚构直接影响链。
 
 全文展开共同部分、个体画像、仅名称论、必要条件与充分保证的差别、分类关系、词义和分析、想象及自然需要的叙述；24题附答案。现代类名图分开对象、外延、断言边和证明路径，给出可靠性、缺边不等于反例、两种商结构、换名不变与空类边界的一般论证。31项主测试和4,096个有限图上下文在普通、-O、-OO下实际验证；10个语义变异检出，框架错误另计；独立复核范围见附件。有限检查不替代一般证明、不证明心理学或语言史，也不是完整自然语言模型。VI以后、全书、1780正文、完整版本史及全部旧候选/书籍缺口保留。
+
+## Condillac《逻辑学》II.VI可运行附件
+
+- [定义怎样帮助理解又怎样冒充根据](papers/1780/condillac-logic-part2-ch6.zh-CN.md)
+- [十一页、五边注与有界来源账本](papers/1780/condillac-logic-part2-ch6.sources.zh-CN.md) · [独立全论证与数学审计](papers/1780/condillac-logic-part2-ch6.audit.zh-CN.md)
+- [模型、环境、命令与实跑日志](reproduction/condillac-1780-part2-ch6/README.md) · [逐步教学](reproduction/condillac-1780-part2-ch6/WALKTHROUGH.zh-CN.md)
+- [独立代码复核](reproduction/condillac-1780-part2-ch6/independent-review/review.zh-CN.md)
+
+仅完成实际1798《Œuvres》XXII卷II.VI印141–151十一页、五边注及三组引注，两册同版逐页核图；VII始于152。1780只作书目年。全集勘误不涉及本章，I.I第8页更正保持解决。149页外书Port-Royal与150页自著Art de penser分开，后者1798VI120–133十四页只作有界自引核验。原典转录显示Port-Royal也要求由较已知到较未知且反对全定义，Encyclopédie逻辑分条也含生成、组合与分解；不以作者截引替对方立论，外书版本与页图核验限制明确保留。
+
+全文展开三角形、原则、心灵与直线、简单和复合观念、词义分歧、分析综合之争；24题附答案。现代显式定义的唯一保守扩展、观察纤维可定义判准与规则最小闭包分别给出一般证明、例子和反例。标准库普通、-O、-OO真实执行与独立核验见附件；变异行为检出和装置失败分开。有限测试不替代一般证明，不证明心理、语言史或教学效果，无Notebook或Jupyter声明。VII以后、全书、1780正文、全部版本史与全部旧候选/书籍缺口继续保留。
