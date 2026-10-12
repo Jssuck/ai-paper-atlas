@@ -4,8 +4,9 @@
   "active_paper": {
     "id": "condillac-1798-potocki-exchange",
     "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
-    "stage": "remote_and_browser_verification",
-    "scope": "One commissioning exchange with two separately identified letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02, later source discrepancy disclosed; reply undated. 1798 verified edition date only."
+    "stage": "waiting_for_browser_verification",
+    "scope": "One commissioning exchange with two separately identified letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02, later source discrepancy disclosed; reply undated. 1798 verified edition date only.",
+    "failure_reason": "Live browser crashed during formula pixel verification; exact remote files and independent content/code checks passed, visual gate incomplete."
   },
   "last_completed": {
     "id": "condillac-1798-eclaircissemens-pote",
@@ -15,14 +16,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed; 31 exact bindings verified. Three-mode tests include 5832 three-observer synchronization cases per mode. All 29 final remote files and blob identities verified. Actual GitHub browser checked nine complete bodies, 156 headings, 80 formulas, five tables/275 raw-source cells, 311 relative paths and 20 answers. Reproduction heading punctuation repaired for font fallback, checksum refreshed and six actual reruns matched prior logs; final title and outline pixels verified.",
     "scope": "Complete Éclaircissemens response to Poté, actual 1798 Œuvres XXII pp.192–198, not the separate Potocki letter. 1798 is verified edition date, not asserted first publication. Printed notre/nous preserved; applicable errata checked. Theological premises and modern finite observation/clock models explicitly distinguished."
   },
-  "updated_at": "2026-10-12T10:56:20Z",
+  "updated_at": "2026-10-12T11:08:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote contents and actual GitHub rendering for this exchange before marking complete.",
+  "next_action": "Resume the same live rendering gate after browser recovery; do not start another unit or mark completed.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
