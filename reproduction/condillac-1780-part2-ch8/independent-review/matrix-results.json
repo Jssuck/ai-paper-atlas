@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "source_unchanged_during_run": true,
+  "equal_semantic_outputs_across_modes": true,
+  "source_sha256": {
+    "MODEL.zh-CN.md": "637eb98d9778defc33a5d7433b8f12e0277dca93bc72e6a7dee4dcd65ff9a428",
+    "README.md": "af55d11f79177f7d0944d2ea9e8fe97df93ce39c1f6cff7d213110f3292321b8",
+    "VERIFICATION.zh-CN.md": "3d93b372d1ffe5fe454b44f60eb8db0523ce42383ec78999c179441e329b0422",
+    "WALKTHROUGH.zh-CN.md": "339ed97b61935d20b5ac35b2daeaf3bdac358a23c1b41e3c10b81046bcf2fa6e",
+    "condillac_model.py": "2d63f6fe5e80b1ffe57df0b22f598e357e858ee3cd7242deee95852bdf8a0a21",
+    "demo.py": "7b9b9948aa15e89483b600a0b4e82d951a8d1e6d7e3821e5466d64aa6195fdcf",
+    "examples.py": "79f81a65ad2422716654ddc26f3db998135f19bde852b21e72d21f3556ea6f34",
+    "independent-review/audit_code.py": "ee7b1dc18a3b4ff71ae2b13e540ff2f03df8178bf7a850e81838ef9b755f5093",
+    "independent-review/check_mutation_harness.py": "4b29993f0970df15a1c94160c6475ac1568e171db4d4182b3a1f112144787bcf",
+    "independent-review/check_verifier.py": "8a2045f93d9504f38a495d6a59302becb8b5807022926a6016624a6c346bf31a",
+    "independent-review/run_review.py": "66720782c4246db271de75867dbe74c1d84566211d0f8e443bf2e5847bc3d844",
+    "independent-review/seal_review.py": "8d119cdea3610f7c4bfaa3445101be3cb58b15f562786981a62e1a38ff429f56",
+    "independent_argument_checks.py": "695613cb52d044d245f34c261881a369352b0c1dc117ce18a02811e4f46e95b0",
+    "mutation_check.py": "ebf0ab2cabbeffac9e1ff9442c067c3b0ef3cbb26efba9587314d16c00c09c69",
+    "test_condillac_model.py": "1c72affe2acb02496350c2a0c2073042455bce737758cd99dd130c21709678ee",
+    "test_mutation_check.py": "c513071cec241d79e5c6e467aa09af96ad5342cc9abeb817b96cb0622d3e5cd6",
+    "verify.py": "83084a98f719ceb3dae2a22b38187a2012ea880e4fc436c509e90ab71902a9eb",
+    "walkthrough.py": "08187d96b29f4c62a3f7551d0ea0d39974729a37cf02ac89a365c2ffeaef6353"
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-unit.log"
+    },
+    {
+      "command": [
+        "python",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-demo.log"
+    },
+    {
+      "command": [
+        "python",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-tutorial.log"
+    },
+    {
+      "command": [
+        "python",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-mutation.log"
+    },
+    {
+      "command": [
+        "python",
+        "independent-review/check_mutation_harness.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-mutation-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "independent-review/check_verifier.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-verifier-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "independent-review/audit_code.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/normal-oracle.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-unit.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-demo.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-tutorial.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-mutation.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "independent-review/check_mutation_harness.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-mutation-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "independent-review/check_verifier.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-verifier-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "independent-review/audit_code.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/O-oracle.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-unit.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "demo.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-demo.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "walkthrough.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-tutorial.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "mutation_check.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-mutation.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "independent-review/check_mutation_harness.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-mutation-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "independent-review/check_verifier.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-verifier-sanity.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "independent-review/audit_code.py"
+      ],
+      "exit_code": 0,
+      "log": "independent-review/OO-oracle.log"
+    }
+  ],
+  "scope": "fresh local runs after storage recovery; bounded checks are not a general proof"
+}

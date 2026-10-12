@@ -1,0 +1,40 @@
+$ python walkthrough.py
+exit_code: 0
+
+STDOUT
+=== block 1 ===
+identified worlds= (0, 1) answer= 0
+=== block 2 ===
+worlds preserved: False answers preserved: True
+world-preserving translation rejected
+=== block 3 ===
+before: underdetermined candidates= 8
+after: (7, 5) rewrites= 3
+bound 6 excludes the solution: inconsistent
+=== block 4 ===
+decoder: ((0, 0), (1, 1))
+conflicting fiber witness: (0, 2)
+=== block 5 ===
+(0, 0, 0) -> ('s', 'a') -> 0
+(0, 0, 1) -> ('s', 'a') -> 0
+(0, 1, 0) -> ('s', 'a') -> 1
+(0, 1, 1) -> ('s', 'a') -> 1
+(1, 0, 0) -> ('s', 'b') -> 0
+(1, 0, 1) -> ('s', 'b') -> 1
+(1, 1, 0) -> ('s', 'b') -> 0
+(1, 1, 1) -> ('s', 'b') -> 1
+=== block 6 ===
+fixed pair insufficient: ('s', 'a')
+fixed pair insufficient: ('s', 'b')
+fixed pair insufficient: ('a', 'b')
+adaptive worst case: 2; smallest sufficient fixed set: 3
+=== block 7 ===
+same observation: (((0, 0), (1, 1)), ((0, 0), (1, 1)))
+different stipulated models: (('M1',), ('M2',))
+result: impossible witness= (0, 1)
+extra intervention: ((1, 1), (1, 0)) new worst depth= 1
+=== block 8 ===
+empty decoder yields no answer
+PASS: 8 Python blocks executed
+
+STDERR

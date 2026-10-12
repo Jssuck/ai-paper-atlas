@@ -1,0 +1,117 @@
+$ python independent-review/check_verifier.py
+exit_code: 0
+
+STDOUT
+{
+  "status": "PASS",
+  "verify_py_sha256": "83084a98f719ceb3dae2a22b38187a2012ea880e4fc436c509e90ab71902a9eb",
+  "fixtures": {
+    "pass": {
+      "expected_verifier_exit": 0,
+      "actual_verifier_exit": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"commands\": 15,\n  \"unit_tests_per_mode\": 1,\n  \"deterministic_stdout_across_modes\": true,\n  \"source_files_unchanged_during_run\": true\n}\n",
+      "stderr": "",
+      "subprocess_exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_files_unchanged_during_run": true,
+      "deterministic_stdout_across_modes": true,
+      "passed": true
+    },
+    "nonzero": {
+      "expected_verifier_exit": 1,
+      "actual_verifier_exit": 1,
+      "stdout": "{\n  \"passed\": false,\n  \"commands\": 15,\n  \"unit_tests_per_mode\": 1,\n  \"deterministic_stdout_across_modes\": true,\n  \"source_files_unchanged_during_run\": true\n}\n",
+      "stderr": "",
+      "subprocess_exit_codes": [
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      "source_files_unchanged_during_run": true,
+      "deterministic_stdout_across_modes": true,
+      "passed": false
+    },
+    "nondeterminism": {
+      "expected_verifier_exit": 1,
+      "actual_verifier_exit": 1,
+      "stdout": "{\n  \"passed\": false,\n  \"commands\": 15,\n  \"unit_tests_per_mode\": 1,\n  \"deterministic_stdout_across_modes\": false,\n  \"source_files_unchanged_during_run\": true\n}\n",
+      "stderr": "",
+      "subprocess_exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_files_unchanged_during_run": true,
+      "deterministic_stdout_across_modes": false,
+      "passed": false
+    },
+    "source_drift": {
+      "expected_verifier_exit": 1,
+      "actual_verifier_exit": 1,
+      "stdout": "{\n  \"passed\": false,\n  \"commands\": 15,\n  \"unit_tests_per_mode\": 1,\n  \"deterministic_stdout_across_modes\": true,\n  \"source_files_unchanged_during_run\": false\n}\n",
+      "stderr": "",
+      "subprocess_exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_files_unchanged_during_run": false,
+      "deterministic_stdout_across_modes": true,
+      "passed": false
+    }
+  },
+  "scope": "four isolated fixtures, each executing fifteen real verifier subprocesses"
+}
+
+STDERR

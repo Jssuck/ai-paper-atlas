@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-12",
+  "review_type": "independent_primary_source_review",
+  "status": "passed_for_exact_files_below",
+  "scope": "完整主文13节及20道答案的历史文本归属、页码、转述、公式、版本和外部原典对照；数学证明与代码另行审计。",
+  "artifacts": [
+    {
+      "path": "papers/1780/condillac-logic-part2-ch8.zh-CN.md",
+      "bytes": 43951,
+      "sha256": "43a7ef01efa2d5e41346bd4a5a95b54b29f6b79d0150d08dd8490bcd40f15899"
+    },
+    {
+      "path": "papers/1780/condillac-logic-part2-ch8.sources.zh-CN.md",
+      "bytes": 19566,
+      "sha256": "850a4dcdebd26a34fb36a68104897214aa2268a8ff928ce3581f2f42ef2c98df"
+    }
+  ],
+  "direct_visual_primary_reading": {
+    "edition": "Paris, Ch. Houel, an VI–1798, Œuvres de Condillac, tome XXII",
+    "full_chapter_print_pages": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "ia_pdf_pages": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+    ],
+    "google_pdf_pages": [
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "boundaries_print_pages": [
+      169,
+      177
+    ],
+    "volume_and_title_ia_pdf_pages": [
+      5,
+      7
+    ],
+    "volume_and_title_google_pdf_pages": [
+      7,
+      9
+    ],
+    "contents_ia_pdf_pages": [
+      238,
+      239
+    ],
+    "contents_google_pdf_pages": [
+      241
+    ],
+    "errata_tome_XXIII_pdf_pages": [
+      491,
+      492,
+      493
+    ]
+  },
+  "checked_claims": [
+    {
+      "location": "文献信息与范围；第13节",
+      "result": "1780作品归年与1798实际底本分开；七页章界、三边题、四公式、无编号脚注准确；IX和全书未登记完成。"
+    },
+    {
+      "location": "第1节；第11节；答案1–2",
+      "result": "170已知不足的前置检查与171怀疑语气保留；未把含糊表达当可靠充分性诊断。"
+    },
+    {
+      "location": "第1.3节；第3节",
+      "result": "172问题建立包含翻译工作及仿佛自行推理的限定准确；173方程、命题、判断统一及通常/似乎限定保留。"
+    },
+    {
+      "location": "第2节；答案3–5",
+      "result": "原始状态的两反事实分支、右x左y、第二式2y−2、最终y=5及x=7准确；现代消元不冒充本章重新给出的全部步骤。"
+    },
+    {
+      "location": "第2.4节",
+      "result": "I.I正式conformation勘误与II.VII164页x读y的内证校读分开；VIII175无该误行，未登记伪造的新更正。"
+    },
+    {
+      "location": "第3.3节；第4节；第8节",
+      "result": "174资料隐含说与175能力已知/起源角色未知准确；共同参与到生成来源的加强作有界批评，不冒称驳倒整部感觉论。"
+    },
+    {
+      "location": "第4.3节；第6节",
+      "result": "176连续翻译与同一传递准确；集合等价、答案投影、纤维等明标现代重构，未冒充原文形式定义。"
+    },
+    {
+      "location": "第8.3节",
+      "result": "I.VII58–66上下文回读准确：逐项分析六能力，65–66合称理解；64有中介判断；未声称175印出I.VII正式章号自引。"
+    },
+    {
+      "location": "第9.1节",
+      "result": "Clairaut1746序i–iii有关可能的发现顺序、长推理记忆、缩写符号、数例一般化及代回内容，均符合所读原页；不认证孔氏所见版或直接借用。"
+    },
+    {
+      "location": "第9.2节",
+      "result": "Euler§563、566、569、570、605、608及实际1822Hewlett译本区分准确；ag−bf分母与确定性条件可核；退化例子明确为现代审查而非历史引文。"
+    },
+    {
+      "location": "第5–8、10–12节",
+      "result": "现代模型、观测策略、因果思想例与AI启发均有现代归属边界；20答案未发现新增历史来源误归属。"
+    }
+  ],
+  "unresolved_source_defects": [],
+  "required_source_corrections": [],
+  "limitations": [
+    "未读取1780版章内正文，不能认证该版页码或印字。",
+    "两扫描同版复核不是历史版本异文史。",
+    "Clairaut和Euler仅按来源账本所列有界范围读图，未认证孔狄亚克个人使用版本。",
+    "本报告不替代一般数学证明、独立代码审计、真实实跑或GitHub浏览器呈现验收。",
+    "仅绑定artifacts中的精确SHA；若主文或来源账本改变，须复读变更并更新绑定。"
+  ],
+  "final_recheck": {
+    "checked_on": "2026-10-12",
+    "result": "通过。复读最终主文并检查第7.1节措辞修订、第10.4节实跑新增；没有新增历史来源误归属，不需来源修改。第10.4节代码执行计数由独立数学与代码报告承担，非本来源审校的独立运行声明。",
+    "main_sha256": "43a7ef01efa2d5e41346bd4a5a95b54b29f6b79d0150d08dd8490bcd40f15899"
+  }
+}

@@ -1,0 +1,45 @@
+$ python -O -m unittest -v
+exit_code: 0
+
+STDOUT
+
+STDERR
+test_bad_fiber_has_counterexample (test_condillac_model.CompressionTests.test_bad_fiber_has_counterexample) ... ok
+test_decoder_need_not_reconstruct_world (test_condillac_model.CompressionTests.test_decoder_need_not_reconstruct_world) ... ok
+test_empty_decoder_is_vacuous_and_has_no_answers (test_condillac_model.CompressionTests.test_empty_decoder_is_vacuous_and_has_no_answers) ... ok
+test_exhaustive_binary_fibers (test_condillac_model.CompressionTests.test_exhaustive_binary_fibers) ... ok
+test_fibers_are_relative_to_current_candidates (test_condillac_model.CompressionTests.test_fibers_are_relative_to_current_candidates) ... ok
+test_causal_inputs_reject_aliases_and_unknown_models (test_condillac_model.ObservationTests.test_causal_inputs_reject_aliases_and_unknown_models) ... ok
+test_causal_intervention_changes_available_information (test_condillac_model.ObservationTests.test_causal_intervention_changes_available_information) ... ok
+test_causal_mechanisms_natural_equivalence (test_condillac_model.ObservationTests.test_causal_mechanisms_natural_equivalence) ... ok
+test_common_presence_does_not_determine_origin (test_condillac_model.ObservationTests.test_common_presence_does_not_determine_origin) ... ok
+test_joint_signatures_determine_possibility_exhaustively (test_condillac_model.ObservationTests.test_joint_signatures_determine_possibility_exhaustively) ... ok
+test_no_questions_and_zero_question_solution (test_condillac_model.ObservationTests.test_no_questions_and_zero_question_solution) ... ok
+test_question_order_changes_tie_only (test_condillac_model.ObservationTests.test_question_order_changes_tie_only) ... ok
+test_selector_adaptive_two_fixed_three (test_condillac_model.ObservationTests.test_selector_adaptive_two_fixed_three) ... ok
+test_tie_break_and_nonbinary_observation (test_condillac_model.ObservationTests.test_tie_break_and_nonbinary_observation) ... ok
+test_add_evidence_is_monotone_not_rewriting (test_condillac_model.SufficiencyTests.test_add_evidence_is_monotone_not_rewriting) ... ok
+test_all_binary_masks_on_four_worlds (test_condillac_model.SufficiencyTests.test_all_binary_masks_on_four_worlds) ... ok
+test_answer_preservation_is_weaker (test_condillac_model.SufficiencyTests.test_answer_preservation_is_weaker) ... ok
+test_chain_validates_each_step_and_target (test_condillac_model.SufficiencyTests.test_chain_validates_each_step_and_target) ... ok
+test_chips_rewrites_and_explicit_finite_bound (test_condillac_model.SufficiencyTests.test_chips_rewrites_and_explicit_finite_bound) ... ok
+test_inconsistent_and_empty_universe_not_solutions (test_condillac_model.SufficiencyTests.test_inconsistent_and_empty_universe_not_solutions) ... ok
+test_sufficient_for_query_not_entire_world (test_condillac_model.SufficiencyTests.test_sufficient_for_query_not_entire_world) ... ok
+test_constraint_outputs_must_be_actual_booleans (test_condillac_model.ValidationTests.test_constraint_outputs_must_be_actual_booleans) ... ok
+test_materialization_samples_once (test_condillac_model.ValidationTests.test_materialization_samples_once) ... ok
+test_names_dimensions_and_duplicate_worlds (test_condillac_model.ValidationTests.test_names_dimensions_and_duplicate_worlds) ... ok
+test_problem_requires_same_ordered_universe (test_condillac_model.ValidationTests.test_problem_requires_same_ordered_universe) ... ok
+test_question_and_index_validation (test_condillac_model.ValidationTests.test_question_and_index_validation) ... ok
+test_tables_are_total_exact_and_immutable (test_condillac_model.ValidationTests.test_tables_are_total_exact_and_immutable) ... ok
+test_worlds_reject_bool_float_and_mutability (test_condillac_model.ValidationTests.test_worlds_reject_bool_float_and_mutability) ... ok
+test_all_behavioral_faults_are_detected (test_mutation_check.MutationHarnessTests.test_all_behavioral_faults_are_detected) ... ok
+test_baseline_exception_is_not_a_kill (test_mutation_check.MutationHarnessTests.test_baseline_exception_is_not_a_kill) ... ok
+test_bool_and_int_observations_do_not_alias (test_mutation_check.MutationHarnessTests.test_bool_and_int_observations_do_not_alias) ... ok
+test_invalid_baseline_is_not_a_kill (test_mutation_check.MutationHarnessTests.test_invalid_baseline_is_not_a_kill) ... ok
+test_kill_and_survival_are_distinct (test_mutation_check.MutationHarnessTests.test_kill_and_survival_are_distinct) ... ok
+test_mutant_exception_is_not_a_kill (test_mutation_check.MutationHarnessTests.test_mutant_exception_is_not_a_kill) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.040s
+
+OK

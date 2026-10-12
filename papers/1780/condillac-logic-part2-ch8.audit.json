@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "audit_date_utc": "2026-10-12T07:20:52.282231+00:00",
+  "scope": {
+    "historical_unit": "Condillac La Logique II.VIII, 1798 edition, printed pp.170–176",
+    "direct_primary_image_reading": [
+      "II.VIII 170–176",
+      "I.VII 58–66",
+      "II.VII 157–158, 163–165, 169",
+      "II.IX opening 177 for boundary and qualification only"
+    ],
+    "main_sections_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exercises_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "mathematics": [
+      "target-relative sufficiency",
+      "evidence intersection monotonicity",
+      "world equality, answer preservation, and consequence",
+      "translation-chain invariants",
+      "fiber factorization criterion",
+      "deterministic postprocessing limitation",
+      "pairwise separation and finite strategy existence",
+      "minimax depth recursion with impossible branches",
+      "adaptive versus fixed selector measurements",
+      "observationally identical stipulated causal mechanisms"
+    ]
+  },
+  "independent_execution": {
+    "modes": [
+      "normal",
+      "-O",
+      "-OO"
+    ],
+    "python": "3.12.14",
+    "counts_per_mode": {
+      "analysis_cases": 291,
+      "binary_family_problem_cases": 58186,
+      "causal_execution_cases": 12,
+      "chip_bounded_system_cases": 48,
+      "compression_cases": 3819,
+      "deterministic_reexpression_cases": 14906,
+      "explicit_edge_groups": 4,
+      "multivalued_family_problem_cases": 27811,
+      "named_argument_examples": 3,
+      "rejected_inputs": 1146,
+      "rewrite_cases": 4197,
+      "selector_subproblem_cases": 2040,
+      "world_replays": 166500
+    },
+    "oracle": "integer bitmask partitions and iterative bounded-depth decision-tree existence; no author tests imported",
+    "decision_problem_case_sum": 88037,
+    "bounded_scope": "up to four labelled worlds, all candidate subsets and target partitions; all binary-question subfamilies and at-most-two arbitrary finite-answer question families; selector also all eight-world subsets and its question subfamilies"
+  },
+  "resolved_findings": [
+    {
+      "id": "proof-direction-labels",
+      "resolution": "MODEL now says witness implies impossibility and no witness implies solvability; underlying proof unchanged"
+    },
+    {
+      "id": "causal-example-alignment",
+      "resolution": "main and examples use the same forward/reverse structural mechanisms, verified against twelve fixed expected outcomes"
+    }
+  ],
+  "unresolved_findings": [],
+  "limitations": [
+    "No historical algorithm attribution",
+    "No empirical psychology validation",
+    "No general natural-language translation verifier",
+    "No unlimited-world or noisy-observation guarantee",
+    "No remote write or browser-publication verification in this audit"
+  ],
+  "files": {
+    "papers/1780/condillac-logic-part2-ch8.zh-CN.md": {
+      "bytes": 43951,
+      "sha256": "43a7ef01efa2d5e41346bd4a5a95b54b29f6b79d0150d08dd8490bcd40f15899"
+    },
+    "papers/1780/condillac-logic-part2-ch8.sources.zh-CN.md": {
+      "bytes": 19566,
+      "sha256": "850a4dcdebd26a34fb36a68104897214aa2268a8ff928ce3581f2f42ef2c98df"
+    },
+    "reproduction/condillac-1780-part2-ch8/README.md": {
+      "bytes": 5168,
+      "sha256": "af55d11f79177f7d0944d2ea9e8fe97df93ce39c1f6cff7d213110f3292321b8"
+    },
+    "reproduction/condillac-1780-part2-ch8/MODEL.zh-CN.md": {
+      "bytes": 10164,
+      "sha256": "637eb98d9778defc33a5d7433b8f12e0277dca93bc72e6a7dee4dcd65ff9a428"
+    },
+    "reproduction/condillac-1780-part2-ch8/WALKTHROUGH.zh-CN.md": {
+      "bytes": 6266,
+      "sha256": "339ed97b61935d20b5ac35b2daeaf3bdac358a23c1b41e3c10b81046bcf2fa6e"
+    },
+    "reproduction/condillac-1780-part2-ch8/condillac_model.py": {
+      "bytes": 12071,
+      "sha256": "2d63f6fe5e80b1ffe57df0b22f598e357e858ee3cd7242deee95852bdf8a0a21"
+    },
+    "reproduction/condillac-1780-part2-ch8/examples.py": {
+      "bytes": 2963,
+      "sha256": "79f81a65ad2422716654ddc26f3db998135f19bde852b21e72d21f3556ea6f34"
+    },
+    "reproduction/condillac-1780-part2-ch8/independent_argument_checks.py": {
+      "bytes": 17270,
+      "sha256": "695613cb52d044d245f34c261881a369352b0c1dc117ce18a02811e4f46e95b0"
+    },
+    "reproduction/condillac-1780-part2-ch8/verify.py": {
+      "bytes": 5474,
+      "sha256": "83084a98f719ceb3dae2a22b38187a2012ea880e4fc436c509e90ab71902a9eb"
+    },
+    "papers/1780/condillac-logic-part2-ch8.audit.zh-CN.md": {
+      "bytes": 22286,
+      "sha256": "5ee3e3cdd04473ee6928f3eeaf99acea89a1990b61cae86fed0230230bd64707"
+    },
+    "reproduction/condillac-1780-part2-ch8/demo.py": {
+      "bytes": 2925,
+      "sha256": "7b9b9948aa15e89483b600a0b4e82d951a8d1e6d7e3821e5466d64aa6195fdcf"
+    },
+    "reproduction/condillac-1780-part2-ch8/mutation_check.py": {
+      "bytes": 4568,
+      "sha256": "ebf0ab2cabbeffac9e1ff9442c067c3b0ef3cbb26efba9587314d16c00c09c69"
+    },
+    "reproduction/condillac-1780-part2-ch8/test_condillac_model.py": {
+      "bytes": 15093,
+      "sha256": "1c72affe2acb02496350c2a0c2073042455bce737758cd99dd130c21709678ee"
+    },
+    "reproduction/condillac-1780-part2-ch8/test_mutation_check.py": {
+      "bytes": 1622,
+      "sha256": "c513071cec241d79e5c6e467aa09af96ad5342cc9abeb817b96cb0622d3e5cd6"
+    },
+    "reproduction/condillac-1780-part2-ch8/walkthrough.py": {
+      "bytes": 696,
+      "sha256": "08187d96b29f4c62a3f7551d0ea0d39974729a37cf02ac89a365c2ffeaef6353"
+    },
+    "reproduction/condillac-1780-part2-ch8/VERIFICATION.zh-CN.md": {
+      "bytes": 4131,
+      "sha256": "3d93b372d1ffe5fe454b44f60eb8db0523ce42383ec78999c179441e329b0422"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/summary.json": {
+      "bytes": 6847,
+      "sha256": "97ebbdbb9116fad847d66e274fd3ac8de21aa7cc103dc01951e6d6a0a7cd5e28"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_commands.json": {
+      "bytes": 1360,
+      "sha256": "ee3932aaad5860cef6eec45e9b614e1edb0198498d569556061cb3b073519e99"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_normal.json": {
+      "bytes": 1289,
+      "sha256": "98e4097d60657ebc3ee3101cf56d355ffd7d3e65c8468ae32131ba8b3ae0a352"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_normal.direct.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_normal.stdout.txt": {
+      "bytes": 9178,
+      "sha256": "d10aabe3a3504bc3824cf3c50d04b73ec2242101dc6633a06c3aaa958e6c8c47"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_normal.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_normal.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_normal.stderr.txt": {
+      "bytes": 4580,
+      "sha256": "53765d72cd5a8fe29c25b9724fa1782e7278ab561431fb765b06b71207c6036a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_normal.stdout.txt": {
+      "bytes": 1223,
+      "sha256": "1a78f04b85dcb70871b7fe73892c043045f9ae3462867df927f98efc83433617"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_normal.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_normal.stdout.txt": {
+      "bytes": 1071,
+      "sha256": "1ba62d48147aaf760f4b21106d45c0cc67a5ddca46f656bd6cd980961246021a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_normal.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_normal.stdout.txt": {
+      "bytes": 1289,
+      "sha256": "98e4097d60657ebc3ee3101cf56d355ffd7d3e65c8468ae32131ba8b3ae0a352"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_normal.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_O.json": {
+      "bytes": 1289,
+      "sha256": "1707f51972115f3962cf3c45fbf6d933c5143f4cf343e2fdddd8bdb6a253b74a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_O.direct.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_O.stdout.txt": {
+      "bytes": 9178,
+      "sha256": "d10aabe3a3504bc3824cf3c50d04b73ec2242101dc6633a06c3aaa958e6c8c47"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_O.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_O.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_O.stderr.txt": {
+      "bytes": 4580,
+      "sha256": "d43dfa8daa30751c8d89451f49112d2dabe4e0ccba299a459b88ca4b61694cda"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_O.stdout.txt": {
+      "bytes": 1223,
+      "sha256": "1a78f04b85dcb70871b7fe73892c043045f9ae3462867df927f98efc83433617"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_O.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_O.stdout.txt": {
+      "bytes": 1071,
+      "sha256": "1ba62d48147aaf760f4b21106d45c0cc67a5ddca46f656bd6cd980961246021a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_O.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_O.stdout.txt": {
+      "bytes": 1289,
+      "sha256": "1707f51972115f3962cf3c45fbf6d933c5143f4cf343e2fdddd8bdb6a253b74a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_O.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_OO.json": {
+      "bytes": 1289,
+      "sha256": "8b638e71a18dacd0cf83a1ad22f8aeef5016e5f761c04bf6efa7d75ca98abdf0"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_OO.direct.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_OO.stdout.txt": {
+      "bytes": 9178,
+      "sha256": "d10aabe3a3504bc3824cf3c50d04b73ec2242101dc6633a06c3aaa958e6c8c47"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/demo_OO.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_OO.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/tests_OO.stderr.txt": {
+      "bytes": 4580,
+      "sha256": "3e1caefa4b3fee6e1539151e84859d6692edfb081d4a87ef39bf3ef1bc468e88"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_OO.stdout.txt": {
+      "bytes": 1223,
+      "sha256": "1a78f04b85dcb70871b7fe73892c043045f9ae3462867df927f98efc83433617"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/mutations_OO.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_OO.stdout.txt": {
+      "bytes": 1071,
+      "sha256": "1ba62d48147aaf760f4b21106d45c0cc67a5ddca46f656bd6cd980961246021a"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/walkthrough_OO.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_OO.stdout.txt": {
+      "bytes": 1289,
+      "sha256": "8b638e71a18dacd0cf83a1ad22f8aeef5016e5f761c04bf6efa7d75ca98abdf0"
+    },
+    "reproduction/condillac-1780-part2-ch8/evidence/independent_argument_OO.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

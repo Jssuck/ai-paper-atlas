@@ -1,0 +1,60 @@
+$ python -O mutation_check.py
+exit_code: 0
+
+STDOUT
+{
+  "unique_world_instead_of_unique_answer": {
+    "status": "killed",
+    "error_type": null
+  },
+  "empty_candidates_as_unique_answer": {
+    "status": "killed",
+    "error_type": null
+  },
+  "disjoin_instead_of_conjoin_data": {
+    "status": "killed",
+    "error_type": null
+  },
+  "answer_identity_as_world_identity": {
+    "status": "killed",
+    "error_type": null
+  },
+  "check_only_chain_endpoints": {
+    "status": "killed",
+    "error_type": null
+  },
+  "ignore_conflicts_inside_encoding_fiber": {
+    "status": "killed",
+    "error_type": null
+  },
+  "check_compression_outside_candidate_domain": {
+    "status": "killed",
+    "error_type": null
+  },
+  "require_observation_for_already_identified_query": {
+    "status": "killed",
+    "error_type": null
+  },
+  "force_nonadaptive_selector_schedule": {
+    "status": "killed",
+    "error_type": null
+  },
+  "mean_cost_instead_of_worst_case": {
+    "status": "killed",
+    "error_type": null
+  },
+  "common_presence_asserts_origin": {
+    "status": "killed",
+    "error_type": null
+  },
+  "boolean_as_integer_world": {
+    "status": "killed",
+    "error_type": null
+  },
+  "only_first_measurement_signature": {
+    "status": "killed",
+    "error_type": null
+  }
+}
+
+STDERR

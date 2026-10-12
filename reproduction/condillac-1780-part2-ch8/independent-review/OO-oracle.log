@@ -1,0 +1,33 @@
+$ python -OO independent-review/audit_code.py
+exit_code: 0
+
+STDOUT
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "optimization": 2,
+  "oracle": "explicit flat complete-policy enumeration and independently simulated leaf answers",
+  "seed": 17801798,
+  "counts": {
+    "analysis_cases": 341,
+    "causal_augmented_question_cases": 1,
+    "causal_mechanism_cases": 12,
+    "empty_tree_cases": 1,
+    "exhaustive_binary_two_question_cases": 4680,
+    "fiber_cases": 4681,
+    "four_question_parity_cases": 1,
+    "independent_world_traversals": 8856,
+    "negative_contract_cases": 4943,
+    "published_example_tree_cases": 2,
+    "rewrite_and_evidence_cases": 4681,
+    "seeded_multivalued_three_question_cases": 100
+  },
+  "sha256": {
+    "condillac_model.py": "2d63f6fe5e80b1ffe57df0b22f598e357e858ee3cd7242deee95852bdf8a0a21",
+    "examples.py": "79f81a65ad2422716654ddc26f3db998135f19bde852b21e72d21f3556ea6f34",
+    "independent-review/audit_code.py": "ee7b1dc18a3b4ff71ae2b13e540ff2f03df8178bf7a850e81838ef9b755f5093"
+  },
+  "limits": "finite checks only; exact noiseless unit-cost questions; matching generated trees only; no general proof or psychological validation"
+}
+
+STDERR

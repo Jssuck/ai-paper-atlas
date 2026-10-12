@@ -1,0 +1,533 @@
+$ python -O demo.py
+exit_code: 0
+
+STDOUT
+{
+  "scope": "modern finite teaching model; not historical algorithm or empirical psychology",
+  "chips": {
+    "universe": "integers 0..10 in each hand, with both transfers feasible",
+    "before": {
+      "status": "underdetermined",
+      "candidates": [
+        34,
+        46,
+        58,
+        70,
+        82,
+        94,
+        106,
+        118
+      ],
+      "answers": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          10,
+          8
+        ]
+      ]
+    },
+    "after": {
+      "status": "identified",
+      "candidates": [
+        82
+      ],
+      "answers": [
+        [
+          7,
+          5
+        ]
+      ]
+    },
+    "translation_steps": [
+      {
+        "worlds_preserved": true,
+        "answers_preserved": true,
+        "nonvacuous": true,
+        "lost_worlds": [],
+        "gained_worlds": []
+      },
+      {
+        "worlds_preserved": true,
+        "answers_preserved": true,
+        "nonvacuous": true,
+        "lost_worlds": [],
+        "gained_worlds": []
+      },
+      {
+        "worlds_preserved": true,
+        "answers_preserved": true,
+        "nonvacuous": true,
+        "lost_worlds": [],
+        "gained_worlds": []
+      }
+    ],
+    "worlds": [
+      [
+        7,
+        5
+      ]
+    ],
+    "too_small_bound_6": "inconsistent"
+  },
+  "query_relative": {
+    "known": {
+      "status": "identified",
+      "candidates": [
+        0,
+        1
+      ],
+      "answers": [
+        0
+      ]
+    },
+    "answer_preserving_but_not_world_preserving": {
+      "worlds_preserved": false,
+      "answers_preserved": true,
+      "nonvacuous": true,
+      "lost_worlds": [
+        1
+      ],
+      "gained_worlds": []
+    },
+    "encode_x": {
+      "sufficient": true,
+      "vacuous": false,
+      "decoder": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "witness": null
+    },
+    "encode_constant": {
+      "sufficient": false,
+      "vacuous": false,
+      "decoder": [],
+      "witness": [
+        0,
+        2
+      ]
+    }
+  },
+  "adaptive_selector": {
+    "tree": {
+      "status": "measurement",
+      "candidates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "depth": 2,
+      "answer": null,
+      "question_index": 0,
+      "branches": [
+        [
+          0,
+          {
+            "status": "measurement",
+            "candidates": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "depth": 1,
+            "answer": null,
+            "question_index": 1,
+            "branches": [
+              [
+                0,
+                {
+                  "status": "identified",
+                  "candidates": [
+                    0,
+                    1
+                  ],
+                  "depth": 0,
+                  "answer": 0,
+                  "question_index": null,
+                  "branches": [],
+                  "witness": null
+                }
+              ],
+              [
+                1,
+                {
+                  "status": "identified",
+                  "candidates": [
+                    2,
+                    3
+                  ],
+                  "depth": 0,
+                  "answer": 1,
+                  "question_index": null,
+                  "branches": [],
+                  "witness": null
+                }
+              ]
+            ],
+            "witness": null
+          }
+        ],
+        [
+          1,
+          {
+            "status": "measurement",
+            "candidates": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "depth": 1,
+            "answer": null,
+            "question_index": 2,
+            "branches": [
+              [
+                0,
+                {
+                  "status": "identified",
+                  "candidates": [
+                    4,
+                    6
+                  ],
+                  "depth": 0,
+                  "answer": 0,
+                  "question_index": null,
+                  "branches": [],
+                  "witness": null
+                }
+              ],
+              [
+                1,
+                {
+                  "status": "identified",
+                  "candidates": [
+                    5,
+                    7
+                  ],
+                  "depth": 0,
+                  "answer": 1,
+                  "question_index": null,
+                  "branches": [],
+                  "witness": null
+                }
+              ]
+            ],
+            "witness": null
+          }
+        ]
+      ],
+      "witness": null
+    },
+    "fixed_subsets": [
+      {
+        "questions": [],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "s"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "a"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "b"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "s",
+          "a"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "s",
+          "b"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "a",
+          "b"
+        ],
+        "sufficient": false
+      },
+      {
+        "questions": [
+          "s",
+          "a",
+          "b"
+        ],
+        "sufficient": true
+      }
+    ],
+    "replays": [
+      {
+        "world": [
+          0,
+          0,
+          0
+        ],
+        "answer": 0,
+        "questions": [
+          "s",
+          "a"
+        ]
+      },
+      {
+        "world": [
+          0,
+          0,
+          1
+        ],
+        "answer": 0,
+        "questions": [
+          "s",
+          "a"
+        ]
+      },
+      {
+        "world": [
+          0,
+          1,
+          0
+        ],
+        "answer": 1,
+        "questions": [
+          "s",
+          "a"
+        ]
+      },
+      {
+        "world": [
+          0,
+          1,
+          1
+        ],
+        "answer": 1,
+        "questions": [
+          "s",
+          "a"
+        ]
+      },
+      {
+        "world": [
+          1,
+          0,
+          0
+        ],
+        "answer": 0,
+        "questions": [
+          "s",
+          "b"
+        ]
+      },
+      {
+        "world": [
+          1,
+          0,
+          1
+        ],
+        "answer": 1,
+        "questions": [
+          "s",
+          "b"
+        ]
+      },
+      {
+        "world": [
+          1,
+          1,
+          0
+        ],
+        "answer": 0,
+        "questions": [
+          "s",
+          "b"
+        ]
+      },
+      {
+        "world": [
+          1,
+          1,
+          1
+        ],
+        "answer": 1,
+        "questions": [
+          "s",
+          "b"
+        ]
+      }
+    ]
+  },
+  "causal_toy": {
+    "models": {
+      "M1": "S:=U; A:=S",
+      "M2": "A:=U; S:=A"
+    },
+    "natural_observations": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "intervention_fixed_U_0_do_S_1": {
+      "M1": [
+        1,
+        1
+      ],
+      "M2": [
+        1,
+        0
+      ]
+    },
+    "with_intervention": {
+      "status": "measurement",
+      "candidates": [
+        0,
+        1
+      ],
+      "depth": 1,
+      "answer": null,
+      "question_index": 1,
+      "branches": [
+        [
+          [
+            1,
+            1
+          ],
+          {
+            "status": "identified",
+            "candidates": [
+              0
+            ],
+            "depth": 0,
+            "answer": "M1",
+            "question_index": null,
+            "branches": [],
+            "witness": null
+          }
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          {
+            "status": "identified",
+            "candidates": [
+              1
+            ],
+            "depth": 0,
+            "answer": "M2",
+            "question_index": null,
+            "branches": [],
+            "witness": null
+          }
+        ]
+      ],
+      "witness": null
+    },
+    "analysis": {
+      "status": "underdetermined",
+      "candidates": [
+        0,
+        1
+      ],
+      "answers": [
+        "M1",
+        "M2"
+      ]
+    },
+    "plan": {
+      "status": "impossible",
+      "candidates": [
+        0,
+        1
+      ],
+      "depth": null,
+      "answer": null,
+      "question_index": null,
+      "branches": [],
+      "witness": [
+        0,
+        1
+      ]
+    },
+    "warning": "co-presence alone does not distinguish these stipulated causal stories"
+  },
+  "empty_universe": {
+    "analysis": {
+      "status": "inconsistent",
+      "candidates": [],
+      "answers": []
+    }
+  }
+}
+
+STDERR

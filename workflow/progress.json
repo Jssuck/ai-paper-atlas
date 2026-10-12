@@ -1,12 +1,11 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying_publication",
   "active_paper": {
     "id": "condillac-1780-logic-part2-ch8",
     "path": "papers/1780/condillac-logic-part2-ch8.zh-CN.md",
-    "stage": "recovering_draft_and_validation",
-    "scope": "Complete La Logique II.VIII, actual 1798 Œuvres XXII pp.170–176, primary-image boundaries verified; 1780 bibliographic dating only.",
-    "failure_reason": "Unpublished local working files became unavailable before final validation; reconstructing the same chapter and rerunning checks."
+    "stage": "remote_and_browser_verification",
+    "scope": "Complete La Logique II.VIII, actual 1798 Œuvres XXII pp.170–176, primary-image boundaries verified; 1780 bibliographic dating only."
   },
   "last_completed": {
     "id": "condillac-1780-logic-part2-ch7",
@@ -16,14 +15,14 @@
     "checks": "Independent source, whole-argument/math and code audits passed. Author nine tests and eight semantic mutants per normal/-O/-OO mode; independent checks include 35308 systems and 176540 row operations per mode. All 97 final remote files and blob identities verified. Nine live Markdown bodies, 188 formulas, 181 headings, seven tables/302 raw-source cells, 20 answers and 316 relative paths checked; actual browser pixel checks passed.",
     "scope": "Complete La Logique II.VII, actual 1798 Œuvres XXII pp.152–169, both scans and collected errata checked. Original p164 x and contextual correction y explicitly distinguished, not called an official erratum. 1780 bibliographic dating only; bounded algebra predecessors and modern exact-rational models clearly identified."
   },
-  "updated_at": "2026-10-12T07:11:00Z",
+  "updated_at": "2026-10-12T07:28:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Recover the same chapter, recheck source and content integrity, rerun tests and independent audits before publication.",
+  "next_action": "Verify recovered and independently revalidated chapter contents on remote and actual GitHub pages before marking complete.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "optimization": 0,
+  "counts": {
+    "analysis_cases": 291,
+    "binary_family_problem_cases": 58186,
+    "causal_execution_cases": 12,
+    "chip_bounded_system_cases": 48,
+    "compression_cases": 3819,
+    "deterministic_reexpression_cases": 14906,
+    "explicit_edge_groups": 4,
+    "multivalued_family_problem_cases": 27811,
+    "named_argument_examples": 3,
+    "rejected_inputs": 1146,
+    "rewrite_cases": 4197,
+    "selector_subproblem_cases": 2040,
+    "world_replays": 166500
+  },
+  "fingerprints": {
+    "condillac_model.py": {
+      "bytes": 12071,
+      "sha256": "2d63f6fe5e80b1ffe57df0b22f598e357e858ee3cd7242deee95852bdf8a0a21"
+    },
+    "examples.py": {
+      "bytes": 2963,
+      "sha256": "79f81a65ad2422716654ddc26f3db998135f19bde852b21e72d21f3556ea6f34"
+    },
+    "independent_argument_checks.py": {
+      "bytes": 17270,
+      "sha256": "695613cb52d044d245f34c261881a369352b0c1dc117ce18a02811e4f46e95b0"
+    }
+  },
+  "oracle": "bitmask partitions and iterative bounded-depth tree-existence closure",
+  "scope": "all candidate subsets; all target partitions on at most four labelled worlds; all families of binary partitions and every at-most-two family of arbitrary finite-answer partitions; not an unbounded proof"
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-10-12T07:17:02.840570+00:00",
+  "commands": [
+    {
+      "mode": "normal",
+      "command": [
+        "python",
+        "independent_argument_checks.py"
+      ],
+      "cwd": "reproduction/condillac-1780-part2-ch8",
+      "exit_code": 0,
+      "stdout": "independent_argument_normal.json",
+      "stderr": "independent_argument_normal.direct.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python",
+        "-O",
+        "independent_argument_checks.py"
+      ],
+      "cwd": "reproduction/condillac-1780-part2-ch8",
+      "exit_code": 0,
+      "stdout": "independent_argument_O.json",
+      "stderr": "independent_argument_O.direct.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python",
+        "-OO",
+        "independent_argument_checks.py"
+      ],
+      "cwd": "reproduction/condillac-1780-part2-ch8",
+      "exit_code": 0,
+      "stdout": "independent_argument_OO.json",
+      "stderr": "independent_argument_OO.direct.stderr.txt"
+    }
+  ],
+  "status": "PASS",
+  "command_display_note": "Executed with the active runtime sys.executable; interpreter paths are displayed by basename only. Commands, flags, return codes and captured outputs are otherwise unchanged.",
+  "run_note": "These are newly executed recovery runs, not reconstructed logs from the earlier workspace."
+}
