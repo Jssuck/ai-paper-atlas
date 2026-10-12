@@ -1,29 +1,23 @@
 {
   "schema_version": 1,
-  "status": "verifying_publication",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "condillac-1768-academy-discourse",
     "path": "papers/1768/condillac-academy-discourse.zh-CN.md",
-    "stage": "waiting_for_browser_verification",
-    "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222. Delivery date independently corroborated; not asserted first-publication year. Explicit chronological backfill.",
-    "failure_reason": "Cloud browser error 9 interrupts complete live rendering verification; independent audits and exact remote-file checks passed. Same-unit recovery in progress."
-  },
-  "last_completed": {
-    "id": "condillac-1798-potocki-exchange",
-    "path": "papers/1798/condillac-potocki-exchange.zh-CN.md",
     "version": "v1",
-    "content_commit": "1f1f95f7a2df4fafd21d4c9ac76fda65bd979865",
-    "checks": "Independent source, whole-argument/math and code audits passed; 86 exact bindings and all 32 final remote files/blob identities verified. Live browser verified nine complete DOM bodies, 164 headings, 98 formula tokens/structures and pixels, eight tables/303 raw-source cells, 326 relative paths and 20 answers. Unintended prose emphasis and new catalog typography repaired, review bindings refreshed. New article/appendix pixels and new README row/section verified; older README content checked by complete DOM preservation, not a full repeated pixel sweep.",
-    "scope": "One commissioning exchange comprising two separately titled letters, actual 1798 Œuvres XXII pp.199–202. Request printed 1777-09-02; later date discrepancy disclosed; reply undated. 1798 verified edition date only. Historical claims, modern teaching models and empirical limits separated."
+    "content_commit": "ca3f44aafd9025d0b7fa6da196c56b300da49c16",
+    "checks": "Three independent audits passed; 66 exact bindings, 20 author and 16 independent tests per three modes, four injected faults detected. All 31 remote files and blob identities verified. Recovered live browser gate passed nine full DOM bodies, 183 headings, 160 formulas, ten tables/470 raw-source cells, 319 relative paths and 20 answers. All new-document pixels and new README row/section inspected; older README content preserved by complete DOM check.",
+    "scope": "Complete reception discourse delivered 1768-12-22, actual 1798 Œuvres XXII pp.203–222; explicit chronological backfill. Academy historical scan and modern transcription compared; lentement/seulement and forme/force transcription discrepancies disclosed. Delivery date not asserted first-publication year. Modern teaching models distinguished from original claims."
   },
-  "updated_at": "2026-10-12T13:40:15Z",
+  "updated_at": "2026-10-12T20:44:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Recover the same live browser gate; do not start another source or mark complete before required verification.",
+  "next_action": "At next scheduled paper iteration inspect current state before selecting one source; no catch-up.",
   "last_quality_correction": {
     "id": "condillac-1780-logic-part1-ch1-erratum",
     "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
