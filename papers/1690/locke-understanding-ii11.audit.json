@@ -123,6 +123,12 @@
       "finding": "数学空版本空间与矛盾输入异常、具名描述与外延函数计数须区分",
       "resolution": "正文与附件明确区分接口路线和计数口径",
       "status": "verified_resolved"
+    },
+    {
+      "id": "SRC-BERKELEY-ERRATA-20261012",
+      "finding": "原正文§9.2把Berkeley §10 To be plain段误称为1734新增，漏计1710同册ERRATA。",
+      "resolution": "仅更正§9.2一个历史比较段，说明首版勘误指定原印12页第5行后插入该段，并链接有界纠错记录。数学定义、证明、所有公式、20题及答案均未改变；旧论证审计范围保持。",
+      "status": "verified_resolved"
     }
   ],
   "record_checks": {
@@ -157,8 +163,8 @@
     },
     {
       "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
-      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
-      "bytes": 41444,
+      "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70",
+      "bytes": 41727,
       "review_scope": "完整中文论证、全部定义证明、例子反例与20道答案逐项复核"
     },
     {
@@ -377,5 +383,99 @@
     "其他独立审计包装文件与清单",
     "由来源审计单独绑定的来源账本"
   ],
-  "invalidation_rule": "任一已绑定文件改动后必须重新核对该改动并更新本清单；不能用旧绑定替新版本背书。"
+  "invalidation_rule": "任一已绑定文件改动后必须重新核对该改动并更新本清单；不能用旧绑定替新版本背书。",
+  "incremental_reviews": [
+    {
+      "reviewed_at_utc": "2026-10-12T22:55:08.457777+00:00",
+      "kind": "bounded_historical_attribution_correction",
+      "verdict": "pass_with_original_scope_unchanged",
+      "main_document": "papers/1690/locke-understanding-ii11.zh-CN.md",
+      "previous_sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
+      "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70",
+      "bytes": 41727,
+      "changed_section": "9.2 Berkeley：抽象图像和一般使用不必是同一问题",
+      "changed_lines": {
+        "before_start_1_based": 344,
+        "before_end_1_based": 344,
+        "after_start_1_based": 344,
+        "after_end_1_based": 344
+      },
+      "diff_scope": "Exactly one prose paragraph replaced; no other article bytes changed.",
+      "mathematical_and_exercise_preservation": {
+        "all_fenced_math_blocks_byte_identical": true,
+        "fenced_math_block_count": 9,
+        "all_inline_math_tokens_byte_identical": true,
+        "inline_math_token_count": 56,
+        "all_20_questions_and_answers_byte_identical": true,
+        "unchanged_outside_one_historical_paragraph": true
+      },
+      "original_bound_inputs_verified_from_baseline": {
+        "count": 30,
+        "all_original_hashes_and_byte_sizes_matched": true,
+        "unchanged_inputs_retained": [
+          "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
+          "reproduction/locke-1690-understanding-ii11/README.md",
+          "reproduction/locke-1690-understanding-ii11/WALKTHROUGH.md",
+          "reproduction/locke-1690-understanding-ii11/environment.json",
+          "reproduction/locke-1690-understanding-ii11/examples.py",
+          "reproduction/locke-1690-understanding-ii11/finite_checks.py",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.O.json",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.O.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.OO.json",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.OO.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.normal.json",
+          "reproduction/locke-1690-understanding-ii11/logs/environment.normal.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.O.json",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.O.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.OO.json",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.OO.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.normal.json",
+          "reproduction/locke-1690-understanding-ii11/logs/examples.normal.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.O.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.O.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.OO.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.OO.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.normal.log",
+          "reproduction/locke-1690-understanding-ii11/logs/tests.normal.stderr.log",
+          "reproduction/locke-1690-understanding-ii11/model.py",
+          "reproduction/locke-1690-understanding-ii11/results.json",
+          "reproduction/locke-1690-understanding-ii11/run_checks.py",
+          "reproduction/locke-1690-understanding-ii11/run_summary.json",
+          "reproduction/locke-1690-understanding-ii11/test_model.py"
+        ],
+        "full_implementation_rerun": false,
+        "original_review_scopes_preserved": true
+      },
+      "context_bindings": [
+        {
+          "path": "README.md",
+          "previous_sha256": "86f7d295fa0b47e59de3138fe43b4515c175d87c16773be4ef4cde4b74186b23",
+          "sha256": "587239ba94f7879edfc39ef724d86df1d97c51cb42f5f7f343ed7715ab70fdd7",
+          "bytes": 77697,
+          "review_scope": "增量检查：仅增加Berkeley目录行与附件块，Locke及此前说明原样保留；不把本次校读扩大为所有旧文章重审"
+        },
+        {
+          "path": "reading-paths/early-foundations-candidates.json",
+          "previous_sha256": "dff780b4441a6557f5d189c233e04c4aa628191882f7ff589e3ed24cb4d0a48e",
+          "sha256": "b158b623190942e2b80a82d52f0467cf7e6c91f9df767b27900afccebacfe4f3",
+          "bytes": 298158,
+          "review_scope": "增量检查：既有候选、历史、缺口前缀及有效状态均保留，current_selection转到新Berkeley单位，新增勘误纠正记录"
+        }
+      ],
+      "registry_preservation_checks": {
+        "candidates_prefix_unchanged": true,
+        "selection_history_prefix_unchanged": true,
+        "earlier_background_gaps_prefix_unchanged": true,
+        "earlier_gap_priority_unchanged": true,
+        "next_source_gap_unchanged": true,
+        "latest_quality_correction_unchanged": true,
+        "all_prior_effective_status_values_unchanged": true,
+        "only_current_selection_advances_and_new_metadata_appends": true
+      },
+      "readme_prior_content_preserved": true,
+      "source_evidence_responsibility": "The new 1710 source ledger and the linked bounded correction record supply the scan/errata evidence; this review certifies the limited prose change and unchanged argument inputs, not all editions.",
+      "new_reading_unit": false
+    }
+  ],
+  "last_incremental_reviewed_at_utc": "2026-10-12T22:55:08.457777+00:00"
 }

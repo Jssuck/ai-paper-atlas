@@ -225,6 +225,41 @@
       "sha256": "c2a3f55cb2fdb3ac7799f313556281ac78d7bbc7382236d7e22308b886493427"
     }
   ],
+  "incremental_rechecks": [
+    {
+      "changed_line_1_based": [
+        344
+      ],
+      "code_rerun_necessary": false,
+      "code_rerun_performed": false,
+      "current_main_binding": {
+        "bytes": 41727,
+        "path": "../../papers/1690/locke-understanding-ii11.zh-CN.md",
+        "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70"
+      },
+      "formal_and_code_related_article_text_unchanged": true,
+      "kind": "independent scoped historical-correction rebind",
+      "previous_main_binding": {
+        "bytes": 41444,
+        "path": "../../papers/1690/locke-understanding-ii11.zh-CN.md",
+        "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c"
+      },
+      "reason": "A one-paragraph historical attribution correction changes no executable code, tests, model documentation, mathematical argument, examples, or code-related claim. All other main-article bytes match the previously reviewed baseline.",
+      "reviewed_at_utc": "2026-10-12T22:53:05.173959+00:00",
+      "scope": "Only the main article historical comparison paragraph in section 9.2 changes. The corrected 1710 ERRATA attribution is separately source-audited; this incremental code review checks the diff boundary, not the historical source itself.",
+      "staging_note": "The release correction is an overlay: unstaged prior-unit files remain the previously bound files; no prior execution or independent-audit evidence is regenerated.",
+      "status": "passed",
+      "unchanged_reviewed_inputs_verified_against_prior_binding": [
+        "model.py",
+        "finite_checks.py",
+        "test_model.py",
+        "examples.py",
+        "run_checks.py",
+        "README.md",
+        "WALKTHROUGH.md"
+      ]
+    }
+  ],
   "open_defects": [],
   "paths_relative_to": "reproduction directory containing AUDIT.md",
   "reproduce": [
@@ -277,9 +312,9 @@
       "sha256": "93dce0ec57b69195a193e1eabcbe3bb8c816f00aee56a03aafbf73fda1e66249"
     },
     {
-      "bytes": 41444,
+      "bytes": 41727,
       "path": "../../papers/1690/locke-understanding-ii11.zh-CN.md",
-      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c"
+      "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70"
     }
   ],
   "schema_version": 1,

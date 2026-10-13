@@ -1,0 +1,1 @@
+{"detail": ": actual={('x',): Fraction(1, 1)}; expected={('x', 'x'): Fraction(1, 1)}", "optimization": 1, "status": "semantic_failure"}

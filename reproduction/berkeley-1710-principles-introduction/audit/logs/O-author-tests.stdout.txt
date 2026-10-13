@@ -1,0 +1,1 @@
+{"count_note": "tests_run counts unittest methods; finite cases count attempted nested checks, not extra methods", "errors": 0, "failures": 0, "finite_case_groups_attempted": {"distributivity_assignments": 125, "normalization_tree_assignments": 1445, "simultaneous_substitution_assignments": 125}, "optimization": 1, "skipped": 0, "successful": true, "tests_run": 52}

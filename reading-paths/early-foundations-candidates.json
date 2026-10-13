@@ -76,57 +76,55 @@
     "current_unit_notice_condillac_pote": "仅追加1798XXII192–198独立Poté澄清附录七页；1798所读版次年，初刊/写作日期未核。旧scope/候选/历史/状态/缺口原样保留，旧192以后未读范围由新有界状态补充，不完成199以后通信、全卷或全部版本。I.I更正继续解决，II.VII164内证不升级正式勘误。",
     "current_unit_notice_condillac_potocki": "仅追加1798XXII199–202一个完整约稿往复单元，两封分别题名的信/作者/日期分开。旧scope、候选、历史、缺口和有效对象全部原样保留；新有界状态补充旧199以后未读描述，不完成203以后或全卷/全部版本。I.I正式更正继续解决，II.VII内证不升级正式勘误。",
     "current_unit_notice_condillac_discourse": "仅追加Condillac1768-12-22完整入院演说；实际1798XXII203–222二十页，按宣读年回填而不冒称初刊。全部旧scope、候选、历史、缺口、有效对象原样保留；旧203以后未读描述由新有界状态补充，不表示全卷、全书、Batteux答辞或全部版本完成。I.I正式更正继续解决，II.VII内证不升级正式勘误。",
-    "current_unit_notice_locke_ii11": "仅新增1690首版Locke II.XI印68–72、17节一个完整章，明确年代回填。首版两项p72正式勘误已核；旧背景描述保留历史语境。全部旧对象、历史、缺口和有效状态不变，不完成全书或穷尽更早文献。"
+    "current_unit_notice_locke_ii11": "仅新增1690首版Locke II.XI印68–72、17节一个完整章，明确年代回填。首版两项p72正式勘误已核；旧背景描述保留历史语境。全部旧对象、历史、缺口和有效状态不变，不完成全书或穷尽更早文献。",
+    "current_unit_notice_berkeley_intro": "仅新增1710首版Berkeley导论1–39、§§1–25一个完整单位，明确前史回填；1734关键增删不倒写入首版。旧有界Berkeley背景按历史时点保留，所有旧对象、历史、缺口与有效状态原样不变，不完成全书或穷尽前驱。"
   },
   "current_selection": {
-    "candidate_id": "locke-1690-understanding-ii11",
+    "candidate_id": "berkeley-1710-principles-introduction",
     "authors": [
-      "John Locke"
+      "George Berkeley"
     ],
-    "title": "An Essay Concerning Humane Understanding, Book II, Chapter XI: Of Discerning, and other Operations of the Mind",
-    "chronology_year": 1690,
-    "chronology_year_basis": "实际首版题名页MDCXC；按印年作明确回填，不把题名印年等同发行日。现代书目所述1689年末发行另列，不在本次独立核定确切日期。",
+    "title": "A Treatise Concerning the Principles of Human Knowledge. Part I, Introduction",
+    "chronology_year": 1710,
+    "chronology_year_basis": "实际首版题名页印年1710；明确前史回填，不虚构确切发行日。",
     "read_edition": {
-      "year": 1690,
-      "publisher": "London, printed by Eliz. Holt, for Thomas Basset",
-      "pages": "68–72",
-      "scan_leaves": "84–88；题名5、勘误16、前后边界83/89"
+      "year": 1710,
+      "publisher": "Dublin: Printed by Aaron Rhames, for Jeremy Pepyat",
+      "pages": "1–39",
+      "scan_leaves": "11–49；题名3，末界50空白"
     },
-    "document_type": "完整书籍章节II.XI §§1–17；非期刊论文、非全书",
-    "pages": "首版印68–72完整五页，§2/7/11/14跨页均读完",
-    "why_selected": "先核最新README、1876项未截断已刊树、idle进度、年代注册与Turing v2基准。II.XI此前仅作Condillac I.VII与II.II的有界背景，现回填完整辨别/比较/组合/抽象论证及动物能力推断、历史异常分类和方法收束。具体前驱缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes等仍开放。",
-    "mathematical_boundary": "现代有限有向二元关系在实际表示像集上的下降充要判准、细化；多重集加法、重命名同态/总数/单射判准；有限确定性策略、相容集合、非空一致预测和未见点反例。一般证明与有限实跑分离，不验证人或动物能力，不背书历史医疗分类。",
-    "completion": "五页主本及题名/邻界/正式勘误核图；全部17节和20题答案；有界前驱/后继比较、标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
-    "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md",
-    "source_ledger_path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1690/locke-understanding-ii11.audit.zh-CN.md",
-    "reproduction_path": "reproduction/locke-1690-understanding-ii11/README.md",
-    "source_url": "https://en.wikisource.org/wiki/Page:An_Essay_Concerning_Humane_Understanding_-_Locke_%281690%29.djvu/84",
+    "document_type": "完整书籍导论Introduction §§1–25；非期刊论文，非Part I全部正文，非全书",
+    "pages": "原印1–39完整39页，全部25节含跨页连续论证",
+    "why_selected": "先核最新README、1925项未截断已刊树、idle进度、年代注册及Turing v2基准。前篇Locke II.XI只把Berkeley导论10–13作为有界比较；本轮补全其直接反驳、一般证明、定义与符号运算及去词语内省的完整论证。具体历史争论缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes及既有逻辑数学缺口仍开放。",
+    "mathematical_boundary": "现代有限指称与代表实例反例；欧氏辅助线的显式角关系、精确有理线性证书可靠性、零权重支持及反模型；加法乘法多项式规范化和同时替换的语义保持。一般证明、有限测试及无实跑的机制思想实验明确分离。不验证真实心理机制或否认一切概念。",
+    "completion": "完整导论原创中文与20题答案；实际首版逐页图像、版本区别、勘误检索范围及有界Locke比較；标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
+    "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+    "source_ledger_path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/1710/berkeley-principles-introduction.audit.zh-CN.md",
+    "reproduction_path": "reproduction/berkeley-1710-principles-introduction/README.md",
+    "source_url": "https://archive.org/download/berkeleyhumanknowledge/berkeleyhumanknowledge.pdf",
     "errata": {
-      "source_leaf": 16,
+      "scan_leaf": 10,
       "applicable": [
         {
-          "page": 72,
-          "line": 23,
-          "printed": "seems",
-          "read": "seem",
-          "section": "II.XI.16"
-        },
-        {
-          "page": 72,
-          "line": 34,
-          "printed": "sights",
-          "read": "sight",
-          "section": "II.XI.17"
+          "printed_page": 12,
+          "line": 5,
+          "section": "Introduction10",
+          "action": "在General Ideas whatsoever后插入To be plain起整段；首版正式修正而非1734才新增。"
         }
       ],
-      "scope": "同册正式印刷勘误；不混同p67/p73邻章条目；p70 quali-残词另记非正式校读。"
+      "scope": "同册勘误页全部核图，其余表列60–187页在导论之外；不宣称不存在其他印本差异。"
     },
+    "version_cautions": [
+      "常见EPTO与TCD1734 copytext不是1710主本；§10 To be plain段由首版ERRATA正式插入12页第5行后；§16选择注意/Peter段才不见于首版正文和该勘误。",
+      "1710§20 Aristotle习惯联结句与§21语言妨碍/促进科学的反问保留；不把后版删改无声写回首版。",
+      "Berkeley1710所引Locke动物推理有some of them in certain Instances限定，1690首版II.XI无此限定。"
+    ],
     "limits": [
-      "只有一册1690完整主本，后版/手稿/发行日和完整版本史未核；现代1700导向转录不替代首版。",
-      "只完成II.XI，不完成全书、Descartes/ Berkeley全篇或全部历史前驱；不认证直接AI影响链。",
-      "历史心理、动物和医疗分类只作为作者观点分析，非现代实证认证；有限模型不证明真实认知机制。",
-      "所有旧目录、候选、历史、缺口和有效状态原样保留；I.I正式conformation勘误已解决，II.VII164上下文校读仍非正式。"
+      "只完成1710导论1–39，不完成Part I正文、全书、1734全版对勘或其他1710印本变体。",
+      "III.III.6、IV.vii.9、III.VI.39首先作为Berkeley内引位置，不计新增完成的Locke章节。",
+      "内省普遍性、儿童学习、语言导致情绪和思想史因果主张不由有限代码认证。",
+      "所有旧目录、候选、历史、缺口和有效状态保留；Condillac I.I正式勘误继续解决，II.VII164内证仍非正式勘误。"
     ]
   },
   "earlier_gap_priority": [
@@ -2079,6 +2077,54 @@
         "历史心理、动物和医疗分类只作为作者观点分析，非现代实证认证；有限模型不证明真实认知机制。",
         "所有旧目录、候选、历史、缺口和有效状态原样保留；I.I正式conformation勘误已解决，II.VII164上下文校读仍非正式。"
       ]
+    },
+    {
+      "candidate_id": "berkeley-1710-principles-introduction",
+      "authors": [
+        "George Berkeley"
+      ],
+      "title": "A Treatise Concerning the Principles of Human Knowledge. Part I, Introduction",
+      "chronology_year": 1710,
+      "chronology_year_basis": "实际首版题名页印年1710；明确前史回填，不虚构确切发行日。",
+      "read_edition": {
+        "year": 1710,
+        "publisher": "Dublin: Printed by Aaron Rhames, for Jeremy Pepyat",
+        "pages": "1–39",
+        "scan_leaves": "11–49；题名3，末界50空白"
+      },
+      "document_type": "完整书籍导论Introduction §§1–25；非期刊论文，非Part I全部正文，非全书",
+      "pages": "原印1–39完整39页，全部25节含跨页连续论证",
+      "why_selected": "先核最新README、1925项未截断已刊树、idle进度、年代注册及Turing v2基准。前篇Locke II.XI只把Berkeley导论10–13作为有界比较；本轮补全其直接反驳、一般证明、定义与符号运算及去词语内省的完整论证。具体历史争论缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes及既有逻辑数学缺口仍开放。",
+      "mathematical_boundary": "现代有限指称与代表实例反例；欧氏辅助线的显式角关系、精确有理线性证书可靠性、零权重支持及反模型；加法乘法多项式规范化和同时替换的语义保持。一般证明、有限测试及无实跑的机制思想实验明确分离。不验证真实心理机制或否认一切概念。",
+      "completion": "完整导论原创中文与20题答案；实际首版逐页图像、版本区别、勘误检索范围及有界Locke比較；标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
+      "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+      "source_ledger_path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/1710/berkeley-principles-introduction.audit.zh-CN.md",
+      "reproduction_path": "reproduction/berkeley-1710-principles-introduction/README.md",
+      "source_url": "https://archive.org/download/berkeleyhumanknowledge/berkeleyhumanknowledge.pdf",
+      "errata": {
+        "scan_leaf": 10,
+        "applicable": [
+          {
+            "printed_page": 12,
+            "line": 5,
+            "section": "Introduction10",
+            "action": "在General Ideas whatsoever后插入To be plain起整段；首版正式修正而非1734才新增。"
+          }
+        ],
+        "scope": "同册勘误页全部核图，其余表列60–187页在导论之外；不宣称不存在其他印本差异。"
+      },
+      "version_cautions": [
+        "常见EPTO与TCD1734 copytext不是1710主本；§10 To be plain段由首版ERRATA正式插入12页第5行后；§16选择注意/Peter段才不见于首版正文和该勘误。",
+        "1710§20 Aristotle习惯联结句与§21语言妨碍/促进科学的反问保留；不把后版删改无声写回首版。",
+        "Berkeley1710所引Locke动物推理有some of them in certain Instances限定，1690首版II.XI无此限定。"
+      ],
+      "limits": [
+        "只完成1710导论1–39，不完成Part I正文、全书、1734全版对勘或其他1710印本变体。",
+        "III.III.6、IV.vii.9、III.VI.39首先作为Berkeley内引位置，不计新增完成的Locke章节。",
+        "内省普遍性、儿童学习、语言导致情绪和思想史因果主张不由有限代码认证。",
+        "所有旧目录、候选、历史、缺口和有效状态保留；Condillac I.I正式勘误继续解决，II.VII164内证仍非正式勘误。"
+      ]
     }
   ],
   "next_source_gap": {
@@ -3152,6 +3198,13 @@
       "completed_on": "2026-10-12",
       "scope": "1690 title-page edition, II.XI pp68–72 §§1–17, two applicable errata. One new unit; actual remote/browser acceptance follows separately.",
       "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md"
+    },
+    {
+      "event": "complete_bounded_reading_unit",
+      "candidate_id": "berkeley-1710-principles-introduction",
+      "completed_on": "2026-10-12",
+      "scope": "1710 first edition Introduction §§1–25 pp1–39, primary images and bounded edition/errata checks. One new unit; remote/browser acceptance follows separately.",
+      "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [
@@ -3413,6 +3466,11 @@
       "candidate_id": "locke-1690-understanding-ii11",
       "status": "bounded_chapter_only_remaining_gaps_open",
       "gap": "1690实际发行日、更多同版见证、手稿与全部版本修订史、全书及所有更早Port-Royal/Descartes等缺口开放。EPTO1700导向文本和Berkeley后版引文不倒写入1690；只有指定原典段落比较，不完成比较文本全篇。动物/人类能力、语言发生、历史医疗分类均未实证验证；噪声、顺序角色组合、主动学习及无限域扩展未实现。所有旧候选、书籍、Euler版本与Curry/Church缺口保留，I.I已解正式勘误与II.VII非正式校读状态不变。"
+    },
+    {
+      "candidate_id": "berkeley-1710-principles-introduction",
+      "status": "bounded_introduction_only_remaining_gaps_open",
+      "gap": "确切发行日、更多1710同版见证、1734原版全部对勘及完整修订/勘误史、Part I正文与全部Berkeley著作未完成。其他Locke被引章只有明确有界核读，不把引文等同全章。历史心理/动物/儿童/语言作用及内省可靠性无实证认证；无限词项域、完整几何形式化、自动证书搜索、除法定义域扩展未实现。既有Port-Royal/Descartes、书籍、Euler版本、Curry/Church等缺口全部保留；Condillac I.I已解正式勘误和II.VII非正式校读不变。"
     }
   ],
   "effective_status": {
@@ -3956,6 +4014,12 @@
       "article_path": "papers/1690/locke-understanding-ii11.zh-CN.md",
       "version": "v1",
       "scope": "1690首版II.XI印68–72 §§1–17；题名、邻界及两项p72正式勘误核图。全文原创中文、20题答案、一般证明和标准库有限实跑；非全书/历史穷尽。"
+    },
+    "berkeley-1710-principles-introduction": {
+      "status": "completed_bounded_reading",
+      "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+      "version": "v1",
+      "scope": "实际1710首版完整Introduction §§1–25原印1–39，首版图像和有界版本/勘误核查；完整中文论证、20题答案、一般证明与有限标准库实跑；非全书或历史穷尽。"
     }
   },
   "latest_quality_correction": {
@@ -3974,5 +4038,14 @@
     "new_complete_reading_units": 0,
     "argument_math_and_code_changed": false,
     "historical_events_preserved": true
-  }
+  },
+  "additional_quality_corrections": [
+    {
+      "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
+      "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
+      "scope": "仅纠正先前Locke比较将Berkeley§10正式1710勘误插段误判为1734才新增的说法；不改变Locke1690整章、数学代码或旧历史对象。",
+      "status": "source_correction_independently_reviewed_remote_acceptance_separate",
+      "new_reading_unit": false
+    }
+  ]
 }

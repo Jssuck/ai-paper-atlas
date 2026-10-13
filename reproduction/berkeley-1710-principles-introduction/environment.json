@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-12T22:50:46.749319+00:00",
+  "python_executable": "python3",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "working_directory": ".",
+  "execution_context": "this reproduction directory",
+  "command_representation": "Interpreter basename is recorded; each subprocess uses the running interpreter.",
+  "dependencies": "Python standard library only; Python 3.10 or later syntax",
+  "source_sha256": {
+    "model.py": "f46e5c26b4c34e62d6208febf386c926bdcc7d686c3586def1eeb41067acfaff",
+    "examples.py": "922c00b69088333f6fe4b85e3b9e3fcf5bc1d0df2d278d7e8cb0a6c27fe82318",
+    "test_model.py": "72dff8a062b3e439424d5b556ed0e6af8a65ee711fe2c9556582824120be7bb9",
+    "run_checks.py": "df9fabfa5ce9b2eb2bab3d07fd5b241f5b786189c685b02dfab625e3cce6d64d"
+  },
+  "finished_utc": "2026-10-12T22:51:00.570980+00:00"
+}

@@ -77,39 +77,45 @@
   "audited_files": [
     {
       "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
-      "bytes": 41444,
-      "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
-      "review_scope": "Complete historical argument and original examples; modern-model material checked only for source attribution, not code/proof correctness."
+      "bytes": 41727,
+      "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70",
+      "review_scope": "Original complete historical-argument audit retained; current bounded incremental review verifies the one corrected Berkeley comparison paragraph and checks all other lines unchanged against the provided published baseline. Modern-model code/proof correctness remains excluded."
     },
     {
       "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
-      "bytes": 16749,
-      "sha256": "68a33bc05420a73c918cdc19769a0b4bc95ae4239764a9560dbf07d9a6b72dae",
-      "review_scope": "Complete source ledger, verified page boundaries, errata, edition distinctions, bibliographic attribution and comparison scopes."
+      "bytes": 17201,
+      "sha256": "91027789002d4dc2bf479fc388205ab33cdee1f0947ceb712aed26e2a59a4a4b",
+      "review_scope": "Original source-ledger audit retained; current bounded review verifies the single corrected Berkeley edition paragraph and checks all other lines unchanged against the provided published baseline."
     },
     {
       "path": "papers/1690/locke-understanding-ii11.source-fingerprints.json",
       "bytes": 16294,
       "sha256": "1c014d9ed212ba91ca8a37b023c3d48daa4657fea87d094e52dbfea3a33e18e0",
-      "review_scope": "All 26 referenced images independently inspected; SHA-256, bytes and dimensions recomputed or rechecked."
+      "review_scope": "Original 26-image fingerprint manifest retained byte-for-byte from the provided published baseline. The full26-image inspection was not rerun in this correction."
     },
     {
       "path": "README.md",
-      "bytes": 75381,
-      "sha256": "86f7d295fa0b47e59de3138fe43b4515c175d87c16773be4ef4cde4b74186b23",
-      "review_scope": "New Locke catalog row and Locke appendix source claims only; pre-existing text and run counts are outside this source review."
+      "bytes": 77697,
+      "sha256": "587239ba94f7879edfc39ef724d86df1d97c51cb42f5f7f343ed7715ab70fdd7",
+      "review_scope": "Original Locke catalog row and appendix source claims remain textually unchanged in the current README; new Berkeley source claims and all code/run counts are outside this Locke review."
     },
     {
       "path": "reading-paths/early-foundations-candidates.json",
-      "bytes": 291705,
-      "sha256": "dff780b4441a6557f5d189c233e04c4aa628191882f7ff589e3ed24cb4d0a48e",
-      "review_scope": "Current selection and newly appended Locke source claims only; preservation of previous objects and operational status are separate checks."
+      "bytes": 298158,
+      "sha256": "b158b623190942e2b80a82d52f0467cf7e6c91f9df767b27900afccebacfe4f3",
+      "review_scope": "Prior Locke candidate, selection-history, background-gap, effective-status and scope entries are preserved exactly in the current registry; old latest_quality_correction retained. New bounded correction entry accurately identifies the §10 erratum. Current Berkeley selection, other operational claims and remote state are outside this Locke review."
     },
     {
       "path": "reproduction/locke-1690-understanding-ii11/SOURCE-AUDIT.md",
-      "bytes": 10421,
-      "sha256": "20faec0f8f8449513fb978ae20b096bc8cba5f753d6bc4bacb5e7f2fad406c9f",
-      "review_scope": "Final source-review report."
+      "bytes": 10751,
+      "sha256": "737c184a9f3d5efc3b0a8a512991c4dc288f7a7fd3fb1b7477fa8bd26e7e7a79",
+      "review_scope": "Original report retained except for one corrected Berkeley version paragraph; that paragraph is verified against the1710 printed ERRATA."
+    },
+    {
+      "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
+      "bytes": 12462,
+      "sha256": "a0fdd1b0bf1d8cdfb500845e86209ad15a41eaa3a4c3de4305b75374a7071f15",
+      "review_scope": "Complete bounded correction record, normalized printed insertion, exact old/new prose bindings, and explicit retained-evidence limits."
     }
   ],
   "incremental_rechecks": [
@@ -141,6 +147,77 @@
         "Remote publication checks"
       ],
       "status": "pass_semantically_equivalent_punctuation_only"
+    },
+    {
+      "checked_at_utc": "2026-10-12T22:57:22Z",
+      "scope": "Bounded source-fact correction after discovery of the1710 printed ERRATA, plus reconciliation of changed prose and current catalog bindings.",
+      "status": "pass_corrected_version_attribution",
+      "correction_record": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
+      "previous_review_record": {
+        "path": "reproduction/locke-1690-understanding-ii11/source-review.json",
+        "bytes": 6691,
+        "sha256": "380955a17d5982c31b94a846be8dceb5eecc7d8861098433295b75e596c70228"
+      },
+      "prior_audited_file_bindings": [
+        {
+          "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+          "bytes": 41444,
+          "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c",
+          "review_scope": "Complete historical argument and original examples; modern-model material checked only for source attribution, not code/proof correctness."
+        },
+        {
+          "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+          "bytes": 16749,
+          "sha256": "68a33bc05420a73c918cdc19769a0b4bc95ae4239764a9560dbf07d9a6b72dae",
+          "review_scope": "Complete source ledger, verified page boundaries, errata, edition distinctions, bibliographic attribution and comparison scopes."
+        },
+        {
+          "path": "papers/1690/locke-understanding-ii11.source-fingerprints.json",
+          "bytes": 16294,
+          "sha256": "1c014d9ed212ba91ca8a37b023c3d48daa4657fea87d094e52dbfea3a33e18e0",
+          "review_scope": "All 26 referenced images independently inspected; SHA-256, bytes and dimensions recomputed or rechecked."
+        },
+        {
+          "path": "README.md",
+          "bytes": 75381,
+          "sha256": "86f7d295fa0b47e59de3138fe43b4515c175d87c16773be4ef4cde4b74186b23",
+          "review_scope": "New Locke catalog row and Locke appendix source claims only; pre-existing text and run counts are outside this source review."
+        },
+        {
+          "path": "reading-paths/early-foundations-candidates.json",
+          "bytes": 291705,
+          "sha256": "dff780b4441a6557f5d189c233e04c4aa628191882f7ff589e3ed24cb4d0a48e",
+          "review_scope": "Current selection and newly appended Locke source claims only; preservation of previous objects and operational status are separate checks."
+        },
+        {
+          "path": "reproduction/locke-1690-understanding-ii11/SOURCE-AUDIT.md",
+          "bytes": 10421,
+          "sha256": "20faec0f8f8449513fb978ae20b096bc8cba5f753d6bc4bacb5e7f2fad406c9f",
+          "review_scope": "Final source-review report."
+        }
+      ],
+      "freshly_viewed_primary_evidence": "Berkeley1710 scan10 ERRATA; §10 running text on scans21–22 was also independently viewed in the current complete Berkeley source audit. This does not rerun the original26-image Locke review.",
+      "correction": "Explicitly retract the1734-only inference; distinguish absent running-text paragraph from a paragraph formally inserted by the same1710 edition.",
+      "three_prose_diffs": "Each affected prose file has exactly one replacement paragraph; all other lines match the provided published baseline.",
+      "catalog_reconciliation": "The old Locke row and appendix in README are unchanged. All pre-existing registry candidate/history/gap arrays remain exact prefixes; old scope/effective-status keys retain identical values; latest_quality_correction is unchanged. Current_selection advances toBerkeley and the bounded factual correction is appended separately.",
+      "retained_evidence": "Original26-image source audit and prior typography-only recheck retained as dated evidence, with the erroneous Berkeley inference explicitly superseded.",
+      "not_rerun": [
+        "Full26-image inspection",
+        "Complete Locke source audit",
+        "Mathematical proof or code execution",
+        "Browser rendering/DOM checks",
+        "Remote publication/current remote completeness checks"
+      ]
+    }
+  ],
+  "original_image_count_scope": "historical_images_independently_viewed=26 and image_groups describe the retained original audit, not a newly repeated26-image review.",
+  "resolved_findings_status": "Original historical findings retained. The Berkeley1710-versus1734 §10 clause in resolved_findings[6] is superseded by the explicit correction below; the Locke1690 quotation distinction in that same item remains supported.",
+  "superseded_findings": [
+    {
+      "original_finding_index_zero_based": 6,
+      "superseded_part": "The implication that the To be plain paragraph was only added in1734.",
+      "replacement": "1710 printed ERRATA scan10 supplies this paragraph to §10 p.12 line5.",
+      "correction_record": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json"
     }
   ]
 }

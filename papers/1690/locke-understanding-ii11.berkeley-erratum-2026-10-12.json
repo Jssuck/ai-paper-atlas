@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
+  "checked_at_utc": "2026-10-12T22:57:22Z",
+  "status": "independently_reviewed_local_release_bytes_remote_acceptance_separate",
+  "new_reading_unit": false,
+  "correction_kind": "Bounded factual source correction to the already completed Locke II.XI unit; not a second newly completed reading.",
+  "superseded_claim": "The paragraph beginning To be plain in Berkeley Introduction §10 was added only in the 1734 edition and must not be included in the 1710 text.",
+  "corrected_finding": "The paragraph is absent from the 1710 running text on p.12 but expressly supplied by that same first-edition witness’s printed ERRATA, scan p.10, for insertion after General Ideas whatsoever on p.12 line5. The corrected 1710 text therefore includes it.",
+  "cause_of_error": "The earlier bounded comparison inspected running-text pages but omitted the front printed ERRATA; absence from running text was incorrectly treated as absence from the edition.",
+  "primary_evidence": {
+    "author": "George Berkeley",
+    "edition": "Dublin: Aaron Rhames for Jeremy Pepyat, 1710",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf",
+    "scan_page_1_based": 10,
+    "heading": "ERRATA.",
+    "target_printed_page": 12,
+    "target_line": 5,
+    "target_section": "Introduction §10",
+    "after_words": "General Ideas whatsoever",
+    "printed_instruction_normalized": "Page 12, line 5, after General Ideas whatsoever, these Words are to be Inserted, viz.",
+    "inserted_paragraph_normalized": "To be plain, I own my self able to abstract in one Sense, as when I consider some particular Parts or Qualities separated from others, with which thô they are united in some Object, yet it is possible they may really Exist without them. But I deny that I can abstract from one another, or conceive separately, those Qualities which it is impossible shou’d Exist so separated; or that I can frame a General Notion by abstracting from Particulars in the manner aforesaid. Which two last are the proper Acceptations of Abstraction.",
+    "transcription_policy": "Visual transcription of the complete specified insertion; long s normalized to s, line-wrap hyphenation joined, spacing regularized, typographic apostrophe represented by U+2019. Capitalization and thô retained. This is not a typographic facsimile.",
+    "pdf_bytes": 48791111,
+    "pdf_sha256": "f7e458168c050dd851412152614941f66fdcdc3071fdd9ee9ce11c5086a6f6af",
+    "viewed_image_format": "PNG rendered locally at width1280 from scan10 of the identified PDF; not the JPEG thumbnail bytes.",
+    "viewed_image_bytes": 377834,
+    "viewed_image_sha256": "0cf17f908b3a5fdd5e77d88a8815665cb3b7b5aa92fdc627d2a826a8b5ff3b2b",
+    "public_page_locator_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page10-1280px-thumbnail.pdf.jpg",
+    "visual_verification": true
+  },
+  "effect_on_interpretation": "1710 §10 already permits separate consideration of parts or qualities that may really exist apart, while denying separate ideas of inseparable qualities and the stated construction of general notions. This correction does not equate it with the distinct §16 selective-attention/Peter addition found in the later copytext.",
+  "changed_prose_files": [
+    {
+      "old": {
+        "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+        "bytes": 41444,
+        "sha256": "0facc8325f2c4ffe7cf851fc39a143b6cb022080d08da741e9b7eb756fb5ce4c"
+      },
+      "new": {
+        "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
+        "bytes": 41727,
+        "sha256": "7d769b4744ab75b5b7a13a3221be5dd8a0f96e8ace138bf35e5c54d9b3c2fb70"
+      },
+      "exact_changed_paragraphs": [
+        {
+          "operation": "replace",
+          "old_lines_1_based": [
+            344,
+            344
+          ],
+          "new_lines_1_based": [
+            344,
+            344
+          ],
+          "old_text": "Berkeley Principles 的Introduction §§10–13质疑某种抽象观念：例如设想一个不具有任何特定形状或其他特定性质的对象图像是否可能；他同时允许一个具体表象因其用法而代表许多对象。§11明确引证洛克II.XI.10–11，因而这里确有直接文本交锋，不能只说题材相似。§12用一条一英寸长的黑线作例：在证明中它可代表各种直线，一般性在其代表作用；§13的抽象三角形引自洛克IV.vii.9，不能误放进本次II.XI原章。另一个实质版本差别是：Berkeley1710所引动物推理句已有“some of them in certain Instances”限定，我们所读1690洛克70页则直接写“they do reason”。这次比较不能据后出引文替早版补字，也不认证其所引具体洛克版次。实际核读1710首版导论印11–20页，限§§10–13；同时参照标明1734底本的电子转录，不把后版§10新增说明倒写入1710。本次只作有界后继比较，不完成整篇导论。",
+          "new_text": "Berkeley Principles 的Introduction §§10–13质疑某种抽象观念：例如设想一个不具有任何特定形状或其他特定性质的对象图像是否可能；他同时允许一个具体表象因其用法而代表许多对象。§11明确引证洛克II.XI.10–11，因而这里确有直接文本交锋，不能只说题材相似。§12用一条一英寸长的黑线作例：在证明中它可代表各种直线，一般性在其代表作用；§13的抽象三角形引自洛克IV.vii.9，不能误放进本次II.XI原章。另一个实质版本差别是：Berkeley1710所引动物推理句已有“some of them in certain Instances”限定，我们所读1690洛克70页则直接写“they do reason”。这次比较不能据后出引文替早版补字，也不认证其所引具体洛克版次。实际核读1710首版导论印11–20页，限§§10–13；同时参照标明1734底本的电子转录。2026-10-12补核1710同册ERRATA后纠正先前版本判断：§10的“To be plain”区分段虽未排入正文12页，却由扫描10页正式勘误要求插入12页第5行后，属于1710首版修正，不能称为1734才新增。详见[本次有界来源更正](locke-understanding-ii11.berkeley-erratum-2026-10-12.json)。本次只作有界后继比较，不完成整篇导论。"
+        }
+      ]
+    },
+    {
+      "old": {
+        "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+        "bytes": 16749,
+        "sha256": "68a33bc05420a73c918cdc19769a0b4bc95ae4239764a9560dbf07d9a6b72dae"
+      },
+      "new": {
+        "path": "papers/1690/locke-understanding-ii11.sources.zh-CN.md",
+        "bytes": 17201,
+        "sha256": "91027789002d4dc2bf479fc388205ab33cdee1f0947ceb712aed26e2a59a4a4b"
+      },
+      "exact_changed_paragraphs": [
+        {
+          "operation": "replace",
+          "old_lines_1_based": [
+            115,
+            115
+          ],
+          "new_lines_1_based": [
+            115,
+            115
+          ],
+          "old_text": "这个区别实质影响§10：1710年11页的开头较强地说自己没有该能力；1710年12页由运动图像的例子转入对其他人的概括，没有1734转录中以“To be plain”开头、进一步区分“可以真实分离的性质”与其他抽象的那一整段。该后出段落不能倒写为1710年原文。1710年本身仍有分别想手、眼、鼻的具体例子。本次仅核验这些指定差异，不提供《原理》的完整版本校勘。",
+          "new_text": "**2026-10-12来源更正。** 先前把§10以“To be plain”开头、区分可真实分离性质与其他抽象的整段判为1734才新增，这是遗漏1710同册正式勘误所致。1710正文12页确实没有该段，但扫描第10页ERRATA明确要求在12页第5行“General Ideas whatsoever”之后插入它。故经正式勘误修正的1710文本已经包含这一区分：允许分别考虑可分离存在的具体部分或性质，否认不可能分离性质的独立观念以及前述一般化抽取。11页较强的自我确信、手眼鼻具体例子仍保留。这里纠正的是后继比较的一条版本归属，不改Locke1690整章内容、数学模型或既有实跑。详见[勘误证据与最小改动记录](locke-understanding-ii11.berkeley-erratum-2026-10-12.json)及[完整Berkeley来源账本](../1710/berkeley-principles-introduction.sources.zh-CN.md)。未据此声称两版完整对勘。"
+        }
+      ]
+    },
+    {
+      "old": {
+        "path": "reproduction/locke-1690-understanding-ii11/SOURCE-AUDIT.md",
+        "bytes": 10421,
+        "sha256": "20faec0f8f8449513fb978ae20b096bc8cba5f753d6bc4bacb5e7f2fad406c9f"
+      },
+      "new": {
+        "path": "reproduction/locke-1690-understanding-ii11/SOURCE-AUDIT.md",
+        "bytes": 10751,
+        "sha256": "737c184a9f3d5efc3b0a8a512991c4dc288f7a7fd3fb1b7477fa8bd26e7e7a79"
+      },
+      "exact_changed_paragraphs": [
+        {
+          "operation": "replace",
+          "old_lines_1_based": [
+            78,
+            78
+          ],
+          "new_lines_1_based": [
+            78,
+            78
+          ],
+          "old_text": "1710§10没有1734转录里以“To be plain”起首、区分可真实分离性质的一整段。1710仍有分别想手、眼、鼻的例子。账本准确披露此差异；[Trinity College Dublin来源说明](https://www.maths.tcd.ie/~dwilkins/Berkeley/HumanKnowledge/)也明确其电子文本据Jacob Tonson的1734版。本次为指定位置对照，不是两版完整逐字校勘。",
+          "new_text": "**2026-10-12补核更正。** 原审计遗漏1710扫描第10页ERRATA，故曾将“To be plain”区分段误归为1734才新增。该正式勘误明令在12页第5行后插入整段，所以1710经勘误修正的§10已有它；正文漏排与后版新增必须分开。首版仍有手、眼、鼻具体例子。[Trinity College Dublin来源说明](https://www.maths.tcd.ie/~dwilkins/Berkeley/HumanKnowledge/)所述1734 copytext事实保持，但不能由此判定插入段迟至1734出现。此次有界纠正由新来源审计独立重核，见[更正记录](../../papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json)；原26张图的历史核查记录保留，不冒称当时已查此勘误。"
+        }
+      ]
+    }
+  ],
+  "prior_source_review": {
+    "path": "reproduction/locke-1690-understanding-ii11/source-review.json",
+    "bytes": 6691,
+    "sha256": "380955a17d5982c31b94a846be8dceb5eecc7d8861098433295b75e596c70228"
+  },
+  "historical_record_policy": "Retain the original 26-image audit and its typography-only incremental recheck as dated prior evidence. Explicitly supersede the erroneous §10 version inference in the appended source-review recheck. No claim that the original audit inspected the missing errata.",
+  "incremental_review_scope": [
+    "Visually check the first-edition ERRATA scan10 and reconcile the §10 running-text pages11–12.",
+    "Check each of the three one-paragraph corrections against the printed insertion.",
+    "Compare staged README and registry with the provided published baseline, retaining all old Locke source claims and historical objects.",
+    "Refresh affected source-review file bindings without rerunning all26 original images or Locke code/math."
+  ],
+  "unchanged_scope": [
+    "Locke1690 II.XI complete-chapter reading remains the original unit.",
+    "No change to Locke mathematical models, program code, original runtime logs or source-image fingerprint manifest.",
+    "This bounded Locke correction does not claim a new complete audit of Locke or Descartes; the separate complete Berkeley Introduction audit is recorded in its own unit.",
+    "No remote publication, current remote completeness, actual-browser rendering or completed deployment certification."
+  ],
+  "source_ledger_path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
+  "source_fingerprints_path": "papers/1710/berkeley-principles-introduction.source-fingerprints.json"
+}

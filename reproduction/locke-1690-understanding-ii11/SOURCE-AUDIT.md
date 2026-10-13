@@ -75,7 +75,7 @@ Descartes的[所读扫描索引](https://en.wikisource.org/wiki/Index:Discourse_
 
 Berkeley 1710的题名、印11–20页和段界均已核图。§10位于11–12页；§11位于12–16页，14页明引Locke II.XI.10–11；§12位于16–17页，黑色一英寸线在17页；§13位于18–20页，19页把三角形引文定位在Locke IV.vii.9。因此这里确有直接文本交锋，但没有完成整篇导论。
 
-1710§10没有1734转录里以“To be plain”起首、区分可真实分离性质的一整段。1710仍有分别想手、眼、鼻的例子。账本准确披露此差异；[Trinity College Dublin来源说明](https://www.maths.tcd.ie/~dwilkins/Berkeley/HumanKnowledge/)也明确其电子文本据Jacob Tonson的1734版。本次为指定位置对照，不是两版完整逐字校勘。
+**2026-10-12补核更正。** 原审计遗漏1710扫描第10页ERRATA，故曾将“To be plain”区分段误归为1734才新增。该正式勘误明令在12页第5行后插入整段，所以1710经勘误修正的§10已有它；正文漏排与后版新增必须分开。首版仍有手、眼、鼻具体例子。[Trinity College Dublin来源说明](https://www.maths.tcd.ie/~dwilkins/Berkeley/HumanKnowledge/)所述1734 copytext事实保持，但不能由此判定插入段迟至1734出现。此次有界纠正由新来源审计独立重核，见[更正记录](../../papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json)；原26张图的历史核查记录保留，不冒称当时已查此勘误。
 
 已有孔狄亚克单位通过各自精读与来源账本承接。本次没有重新独立审计孔狄亚克全书，也不以共同术语断言理论相同。新首页和注册表所列1690印年、五页十七节、两条正式勘误、有界比较及未完成全书等来源陈述，与上述核验一致。旧对象保留和远端状态由另项检查负责。
 

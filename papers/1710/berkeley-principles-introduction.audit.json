@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "audit_date_utc": "2026-10-12",
+  "audit_type": "independent_full_argument_and_mathematics",
+  "status": "pass_with_stated_scope_limits",
+  "reviewed_article": {
+    "path": "release/papers/1710/berkeley-principles-introduction.zh-CN.md",
+    "sha256": "b5abe9f40ec40ef3396a8a3d327e77b801802d20edf8fff44c96cc363cb4bc7e",
+    "initial_review_sha256": "16b5c7f37391c318f84c41d2225598c285cccac58f21fac53c037654d8ec906d",
+    "bytes": 47705
+  },
+  "coverage": {
+    "article_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exercise_answers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "historical_unit": "1710 Introduction sections 1–25, with same-volume errata; historical scan certification is separate",
+    "all_article_sections_read": true,
+    "all_20_exercises_read": true
+  },
+  "mathematical_findings": {
+    "representative_generalization_counterexample": "valid",
+    "finite_denotation_scope": "valid; exercise 9 explicitly separates hypothetical empty-domain semantics from the nonempty-domain API",
+    "exact_linear_certificate_soundness": "proved for every real assignment satisfying nonzero-support premises",
+    "zero_support_removal": "valid for given certificate; no minimality or uniqueness claim",
+    "failed_certificate": "does not prove non-entailment",
+    "inconsistent_premises": "semantic vacuity is distinct from satisfiability and implemented linear-combination completeness",
+    "rational_coefficients_real_assignments": "sound",
+    "polynomial_normalization": "structural induction valid for legal environments",
+    "simultaneous_substitution": "structural induction valid, no recursive reapplication to inserted images",
+    "mechanism_nonidentifiability": "valid relative to specified observed variables; not a psychological experiment"
+  },
+  "issues": [
+    {
+      "id": "S01",
+      "severity": "substantive_historical_attribution",
+      "origin": "separate_source_audit",
+      "locations": [
+        "reading_scope",
+        "2.3",
+        "exercise_7",
+        "claim_map"
+      ],
+      "finding": "The initial draft wrongly treated the section 10 To be plain paragraph as exclusively later. The source audit found it in the 1710 volume errata for printed p12 line5.",
+      "status": "verified_resolved",
+      "resolution": "Verified final reading scope, section 2.3, claim map and exercise 7 against the separate source ledger: the paragraph belongs to the 1710 same-volume errata; section 16 later addition remains separate."
+    },
+    {
+      "id": "M01",
+      "severity": "terminological_ambiguity",
+      "origin": "independent_argument_audit",
+      "locations": [
+        "6.1"
+      ],
+      "finding": "Use two equal sides rather than ambiguous equilateral wording for the isosceles right example.",
+      "status": "verified_resolved",
+      "resolution": "Verified section 6.1 now says two equal sides."
+    },
+    {
+      "id": "M02",
+      "severity": "assumption_clarification",
+      "origin": "independent_argument_audit",
+      "locations": [
+        "7.2",
+        "7.4",
+        "7.5"
+      ],
+      "finding": "State environment coverage for variables of original expressions and relevant substitution images; cancellation does not validate missing-variable evaluation.",
+      "status": "verified_resolved",
+      "resolution": "Verified original-variable coverage in 7.2 and relevant substitution-image coverage in 7.5."
+    },
+    {
+      "id": "M03",
+      "severity": "interface_scope_clarification",
+      "origin": "independent_argument_audit",
+      "locations": [
+        "exercise_9"
+      ],
+      "finding": "Distinguish possibly empty denotation from nonempty FiniteSign domain and None counterexample result from boolean universal validation.",
+      "status": "verified_resolved",
+      "resolution": "Verified alternative clarification: exercise 9 explicitly posits a hypothetical empty-domain checker and says the reproduction API rejects that input."
+    },
+    {
+      "id": "P01",
+      "severity": "formatting",
+      "origin": "independent_argument_audit",
+      "locations": [
+        "reproduction/berkeley-1710-principles-introduction/WALKTHROUGH.md"
+      ],
+      "finding": "Several quad spacing commands initially lacked a backslash.",
+      "status": "verified_resolved",
+      "resolution": "Verified all six quad commands corrected in the renamed WALKTHROUGH.md."
+    }
+  ],
+  "finite_arithmetic_cross_checks": {
+    "executed": true,
+    "method": "Independent Python standard-library Fraction and integer arithmetic; not the reproduction unit-test suite",
+    "checks": [
+      {
+        "id": "representative_counterexample",
+        "inputs": {
+          "vertices": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        "squared_sides": [
+          4,
+          5,
+          5
+        ],
+        "determinant": 4,
+        "is_right": false,
+        "passed": true
+      },
+      {
+        "id": "linear_certificate",
+        "inputs": {
+          "rows": [
+            [
+              1,
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1
+            ]
+          ],
+          "rhs": [
+            0,
+            0,
+            180
+          ],
+          "weights": [
+            1,
+            1,
+            1
+          ]
+        },
+        "combined_row": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "combined_rhs": 180,
+        "passed": true
+      },
+      {
+        "id": "general_plus_isosceles_countermodel",
+        "values": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "satisfies_general_premises": true,
+        "satisfies_isosceles": true,
+        "satisfies_right": false,
+        "passed": true
+      },
+      {
+        "id": "five_premise_consistency_witness",
+        "values": [
+          45,
+          90,
+          45,
+          45,
+          45
+        ],
+        "satisfies_all_five_premises": true,
+        "passed": true
+      }
+    ],
+    "scope": "Finite transcription and witness checks; no substitute for universal mathematical proofs"
+  },
+  "exercise_reviews": [
+    {
+      "number": 1,
+      "status": "pass"
+    },
+    {
+      "number": 2,
+      "status": "pass"
+    },
+    {
+      "number": 3,
+      "status": "pass"
+    },
+    {
+      "number": 4,
+      "status": "pass"
+    },
+    {
+      "number": 5,
+      "status": "pass"
+    },
+    {
+      "number": 6,
+      "status": "pass"
+    },
+    {
+      "number": 7,
+      "status": "pass"
+    },
+    {
+      "number": 8,
+      "status": "pass"
+    },
+    {
+      "number": 9,
+      "status": "pass"
+    },
+    {
+      "number": 10,
+      "status": "pass"
+    },
+    {
+      "number": 11,
+      "status": "pass"
+    },
+    {
+      "number": 12,
+      "status": "pass"
+    },
+    {
+      "number": 13,
+      "status": "pass"
+    },
+    {
+      "number": 14,
+      "status": "pass"
+    },
+    {
+      "number": 15,
+      "status": "pass"
+    },
+    {
+      "number": 16,
+      "status": "pass"
+    },
+    {
+      "number": 17,
+      "status": "pass"
+    },
+    {
+      "number": 18,
+      "status": "pass"
+    },
+    {
+      "number": 19,
+      "status": "pass"
+    },
+    {
+      "number": 20,
+      "status": "pass"
+    }
+  ],
+  "remaining_scope_limits": [
+    "No certification of all historical editions or all cited Locke chapters",
+    "No formal proof of Euclidean construction axioms in the linear checker",
+    "No mechanical proof of every Python implementation behavior",
+    "No empirical validation of imagery, child learning, emotion, or AI consciousness",
+    "Final substitution implementation and author logs were read; this argument audit did not rerun the full implementation suite."
+  ],
+  "remote_writes_performed": false,
+  "reviewed_at_utc": "2026-10-12T22:53:34.841267+00:00",
+  "reviewer_statement": "独立AI论证与数学审阅；不代表人类专家签证或机械形式证明。",
+  "blocking_findings": [],
+  "author_record_checks": {
+    "all_six_subprocess_exit_codes_zero": true,
+    "test_methods_per_mode": 52,
+    "three_mode_method_executions": 156,
+    "finite_case_groups_per_mode": {
+      "distributivity_assignments": 125,
+      "normalization_tree_assignments": 1445,
+      "simultaneous_substitution_assignments": 125
+    },
+    "full_implementation_rerun_by_this_argument_audit": false
+  },
+  "path_base": "release/",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+      "sha256": "b5abe9f40ec40ef3396a8a3d327e77b801802d20edf8fff44c96cc363cb4bc7e",
+      "bytes": 47705,
+      "review_scope": "全部14节、数学论证、20题及答案；历史定位对照独立来源账本"
+    },
+    {
+      "path": "papers/1710/berkeley-principles-introduction.audit.zh-CN.md",
+      "sha256": "8aa375bd16bd9395e249087f317f3621890632734bb4e2a876a7e2990ac1a228",
+      "bytes": 17924,
+      "review_scope": "本独立论证与数学审计报告"
+    },
+    {
+      "path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
+      "sha256": "f1a5f140f7edde922a457975ca065971aa60a425d117829f86dc6f4d9ba2fa6e",
+      "bytes": 25672,
+      "review_scope": "读取§10勘误与§16版本区分；来源图像认证归此账本，不声称本数学审计逐页认证"
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/model.py",
+      "sha256": "f46e5c26b4c34e62d6208febf386c926bdcc7d686c3586def1eeb41067acfaff",
+      "bytes": 14966,
+      "review_scope": "读取数学规格、精确证书、有限外延、规范化和同时替换实现；不替代独立代码执行审计"
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/test_model.py",
+      "sha256": "72dff8a062b3e439424d5b556ed0e6af8a65ee711fe2c9556582824120be7bb9",
+      "bytes": 22289,
+      "review_scope": "读取方法、有限计数与边界；未在本论证审计重跑整套实现"
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/README.md",
+      "sha256": "17d29d3295c15c4f51d6e955d6046e29d577a0db2e1cc934d7c79398941f8c5e",
+      "bytes": 5567,
+      "review_scope": "接口、范围及数学解释一致性"
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/WALKTHROUGH.md",
+      "sha256": "bfe391bd0e83a98dafa3d887d45120c81e49813d16b8c4fc71af1f691d16ebd0",
+      "bytes": 12103,
+      "review_scope": "数学解释、同时替换、合法环境及已修复公式排版"
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/results.json",
+      "sha256": "e38f95595e9dfea0d3fa53cbfe166bb76ae9a0060a7048b605c1f2cb56bab2c0",
+      "bytes": 13960,
+      "review_scope": "读取作者真实记录；核对52方法每模式、有限计数及退出码"
+    }
+  ],
+  "invalidation_rule": "Change to a bound file requires review of the change and a new binding; hashes identify bytes and do not replace proof.",
+  "revision_notes": [
+    {
+      "file": "reproduction/berkeley-1710-principles-introduction/WALKTHROUGH.md",
+      "review": "核对合法同时替换环境的精确弱条件：未替换变量和相关替换像中的变量；x替换成常数7可用空环境。与文章7.5和本审计6.3一致，代码未改。"
+    }
+  ]
+}

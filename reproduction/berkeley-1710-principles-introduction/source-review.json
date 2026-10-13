@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "review_id": "berkeley-1710-principles-introduction-independent-source-review",
+  "reviewed_on_utc": "2026-10-12",
+  "status": "pass_with_explicit_scope",
+  "review_type": "Independent AI-assisted source audit; no human expert certification.",
+  "complete_reading_unit": "Berkeley 1710 first edition, Introduction §§1–25, printed pp.1–39 / scan pp.11–49, with printed errata insertion for §10 on scan p.10.",
+  "historical_images_independently_viewed": 56,
+  "image_groups": [
+    {
+      "witness": "Berkeley1710 complete scan",
+      "scan_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        221,
+        222,
+        223,
+        224
+      ],
+      "role": "55 actual image views, comprising complete Introduction, title and front matter including errata, following boundary, and terminal leaves."
+    },
+    {
+      "witness": "Locke1690",
+      "scan_pages_1_based": [
+        86
+      ],
+      "printed_pages": "70",
+      "role": "Bounded reread of II.XI.10–11 for comparison; not a new whole-chapter certification."
+    }
+  ],
+  "resolved_findings": [
+    "Corrected the false inference that the To be plain insertion in §10 belongs only to1734. It is specified by the1710 printed errata.",
+    "Distinguished §16 later copytext addition from §10 original-edition errata.",
+    "Replaced ambiguous equal-sided wording with two equal sides in the isosceles-right triangle account.",
+    "Preserved1710 §20 custom sentence and §21 stronger wording.",
+    "Verified all39 continuous printed Introduction pages and all25 section boundaries."
+  ],
+  "limitations": [
+    "No full-book or exhaustive edition/printing collation.",
+    "No1734 primary-image collation; EPTO explicitly1734 copytext used as a secondary textual witness.",
+    "No code execution, proof correctness, rendered publication, or remote-state certification.",
+    "Historical cognition/animal/education assertions are interpreted rather than empirically endorsed.",
+    "Hashes identify full file bytes; stated scope limits which claims are source-certified."
+  ],
+  "audited_files": [
+    {
+      "path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
+      "bytes": 47705,
+      "sha256": "b5abe9f40ec40ef3396a8a3d327e77b801802d20edf8fff44c96cc363cb4bc7e",
+      "review_scope": "Complete historical interpretation and attribution boundaries; modern proof/code content checked only for non-misattribution."
+    },
+    {
+      "path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
+      "bytes": 25672,
+      "sha256": "f1a5f140f7edde922a457975ca065971aa60a425d117829f86dc6f4d9ba2fa6e",
+      "review_scope": "Complete page ledger, bibliography, errata, observed copytext differences, and scoped comparisons."
+    },
+    {
+      "path": "papers/1710/berkeley-principles-introduction.source-fingerprints.json",
+      "bytes": 38868,
+      "sha256": "838a2a677180933414c830464bd1c45b4aa05fdbf5e5738e5b5dc9c002a779ba",
+      "review_scope": "Primary PDF and 55 rendered images; recomputed byte counts and SHA-256 identifiers; complete visual coverage reconciled."
+    },
+    {
+      "path": "reproduction/berkeley-1710-principles-introduction/SOURCE-AUDIT.md",
+      "bytes": 4681,
+      "sha256": "f6642888d90c0d14f926729ab55456537b3bb806119861143f06848714cc977a",
+      "review_scope": "This independent source-review report."
+    },
+    {
+      "path": "README.md",
+      "bytes": 77697,
+      "sha256": "587239ba94f7879edfc39ef724d86df1d97c51cb42f5f7f343ed7715ab70fdd7",
+      "review_scope": "Berkeley catalog row and appendix historical source claims only: title year, place/printer, complete Intro pp.1–39, §10 printed erratum, §16 later copytext paragraph, and bounded comparisons. Mathematical/run-count, preservation and remote-state claims are excluded."
+    },
+    {
+      "path": "reading-paths/early-foundations-candidates.json",
+      "bytes": 298158,
+      "sha256": "b158b623190942e2b80a82d52f0467cf7e6c91f9df767b27900afccebacfe4f3",
+      "review_scope": "Current Berkeley selection and corresponding appended candidate/history/gap/effective-status historical source claims; complete Intro boundaries and erratum facts. Code/math, operational and current remote completeness claims are excluded."
+    }
+  ],
+  "catalog_reconciliation": "Current staged README and registry source claims independently compared against the first-edition evidence and declared reading limits; all later-copytext observations remain explicitly bounded."
+}

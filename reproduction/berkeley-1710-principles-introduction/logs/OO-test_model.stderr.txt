@@ -1,0 +1,57 @@
+test_cancelled_nonzero_rows_still_count_as_dependencies (__main__.CertificateTests.test_cancelled_nonzero_rows_still_count_as_dependencies) ... ok
+test_certificate_rejects_bad_weight_type_and_length (__main__.CertificateTests.test_certificate_rejects_bad_weight_type_and_length) ... ok
+test_empty_certificate_proves_only_zero_equation (__main__.CertificateTests.test_empty_certificate_proves_only_zero_equation) ... ok
+test_equation_rejects_bad_schema_dimension_and_types (__main__.CertificateTests.test_equation_rejects_bad_schema_dimension_and_types) ... ok
+test_fractional_and_negative_weights (__main__.CertificateTests.test_fractional_and_negative_weights) ... ok
+test_general_certificate_transfers_and_is_rechecked (__main__.CertificateTests.test_general_certificate_transfers_and_is_rechecked) ... ok
+test_general_premises_have_nonright_model (__main__.CertificateTests.test_general_premises_have_nonright_model) ... ok
+test_premise_and_checker_reject_bad_objects (__main__.CertificateTests.test_premise_and_checker_reject_bad_objects) ... ok
+test_restriction_cannot_repair_an_invalid_proof (__main__.CertificateTests.test_restriction_cannot_repair_an_invalid_proof) ... ok
+test_restriction_checks_unknown_duplicate_and_typed_labels (__main__.CertificateTests.test_restriction_checks_unknown_duplicate_and_typed_labels) ... ok
+test_right_coefficients_wrong_rhs_fails (__main__.CertificateTests.test_right_coefficients_wrong_rhs_fails) ... ok
+test_right_rhs_wrong_coefficients_fails (__main__.CertificateTests.test_right_rhs_wrong_coefficients_fails) ... ok
+test_schema_order_is_significant (__main__.CertificateTests.test_schema_order_is_significant) ... ok
+test_special_target_depends_on_special_fact (__main__.CertificateTests.test_special_target_depends_on_special_fact) ... ok
+test_sum_recomputes_coefficients_and_rhs (__main__.CertificateTests.test_sum_recomputes_coefficients_and_rhs) ... ok
+test_wrong_weight_is_rejected_as_a_proof (__main__.CertificateTests.test_wrong_weight_is_rejected_as_a_proof) ... ok
+test_zero_weight_rows_are_not_dependencies (__main__.CertificateTests.test_zero_weight_rows_are_not_dependencies) ... ok
+test_approximate_or_implicit_numbers_rejected (__main__.ExactInputTests.test_approximate_or_implicit_numbers_rejected) ... ok
+test_fraction_and_integer_are_exact (__main__.ExactInputTests.test_fraction_and_integer_are_exact) ... ok
+test_safety_does_not_depend_on_python_assert (__main__.ExactInputTests.test_safety_does_not_depend_on_python_assert) ... ok
+test_125_assignments_for_distributivity (__main__.PolynomialTests.test_125_assignments_for_distributivity) ... ok
+test_125_simultaneous_substitutions_match_induced_environment (__main__.PolynomialTests.test_125_simultaneous_substitutions_match_induced_environment) ... ok
+test_cancellation_removes_zero_terms (__main__.PolynomialTests.test_cancellation_removes_zero_terms) ... ok
+test_canonical_form_rejects_bad_dimensions_and_types (__main__.PolynomialTests.test_canonical_form_rejects_bad_dimensions_and_types) ... ok
+test_canonical_form_rejects_zero_duplicate_or_unsorted_terms (__main__.PolynomialTests.test_canonical_form_rejects_zero_duplicate_or_unsorted_terms) ... ok
+test_commutativity_and_associativity (__main__.PolynomialTests.test_commutativity_and_associativity) ... ok
+test_constants_and_missing_variables (__main__.PolynomialTests.test_constants_and_missing_variables) ... ok
+test_distributivity_has_identical_canonical_forms (__main__.PolynomialTests.test_distributivity_has_identical_canonical_forms) ... ok
+test_environment_requires_exact_values_and_names (__main__.PolynomialTests.test_environment_requires_exact_values_and_names) ... ok
+test_expression_constructors_reject_unsupported_objects (__main__.PolynomialTests.test_expression_constructors_reject_unsupported_objects) ... ok
+test_fraction_coefficients_collect_exactly (__main__.PolynomialTests.test_fraction_coefficients_collect_exactly) ... ok
+test_generated_expression_normalization_agrees_on_1445_cases (__main__.PolynomialTests.test_generated_expression_normalization_agrees_on_1445_cases) ... ok
+test_nonidentity_is_distinguished (__main__.PolynomialTests.test_nonidentity_is_distinguished) ... ok
+test_normalization_law_requires_original_variables_assigned (__main__.PolynomialTests.test_normalization_law_requires_original_variables_assigned) ... ok
+test_one_successful_substitution_is_not_an_identity (__main__.PolynomialTests.test_one_successful_substitution_is_not_an_identity) ... ok
+test_powers_are_added_and_terms_are_sorted (__main__.PolynomialTests.test_powers_are_added_and_terms_are_sorted) ... ok
+test_substitution_can_swap_variables_without_looping (__main__.PolynomialTests.test_substitution_can_swap_variables_without_looping) ... ok
+test_substitution_empty_mapping_constants_and_unmapped_variables (__main__.PolynomialTests.test_substitution_empty_mapping_constants_and_unmapped_variables) ... ok
+test_substitution_is_simultaneous_not_recursive_rewriting (__main__.PolynomialTests.test_substitution_is_simultaneous_not_recursive_rewriting) ... ok
+test_substitution_preserves_distributivity_canonical_identity (__main__.PolynomialTests.test_substitution_preserves_distributivity_canonical_identity) ... ok
+test_substitution_rejects_bad_objects (__main__.PolynomialTests.test_substitution_rejects_bad_objects) ... ok
+test_bad_triangle_dimensions_and_coordinates_are_rejected (__main__.SignTests.test_bad_triangle_dimensions_and_coordinates_are_rejected) ... ok
+test_counterexample_order_is_domain_order (__main__.SignTests.test_counterexample_order_is_domain_order) ... ok
+test_coverage_is_relative_to_declared_domain (__main__.SignTests.test_coverage_is_relative_to_declared_domain) ... ok
+test_degenerate_triangles_are_rejected (__main__.SignTests.test_degenerate_triangles_are_rejected) ... ok
+test_empty_denotation_is_vacuous_but_not_general (__main__.SignTests.test_empty_denotation_is_vacuous_but_not_general) ... ok
+test_large_integer_translation_is_exact (__main__.SignTests.test_large_integer_translation_is_exact) ... ok
+test_one_case_does_not_cover_three_cases (__main__.SignTests.test_one_case_does_not_cover_three_cases) ... ok
+test_predicate_and_sign_are_checked (__main__.SignTests.test_predicate_and_sign_are_checked) ... ok
+test_sign_rejects_duplicate_or_outside_cases (__main__.SignTests.test_sign_rejects_duplicate_or_outside_cases) ... ok
+test_sign_rejects_malformed_domain_or_denotation (__main__.SignTests.test_sign_rejects_malformed_domain_or_denotation) ... ok
+test_squared_sides_and_nonright_counterexamples (__main__.SignTests.test_squared_sides_and_nonright_counterexamples) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.625s
+
+OK

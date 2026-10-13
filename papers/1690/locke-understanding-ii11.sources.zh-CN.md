@@ -112,7 +112,7 @@ Wikisource整章转录仍保留上述两个原误，因此全文检索得到的�
 
 [EPTO导论转录](https://englishphilosophy.org/berkeley/thk/intro)明确标注：首次出版年1710，copytext为1734。[Trinity College Dublin的来源说明](https://www.maths.tcd.ie/~dwilkins/Berkeley/HumanKnowledge/)也确认其依据Jacob Tonson出版的1734版。
 
-这个区别实质影响§10：1710年11页的开头较强地说自己没有该能力；1710年12页由运动图像的例子转入对其他人的概括，没有1734转录中以“To be plain”开头、进一步区分“可以真实分离的性质”与其他抽象的那一整段。该后出段落不能倒写为1710年原文。1710年本身仍有分别想手、眼、鼻的具体例子。本次仅核验这些指定差异，不提供《原理》的完整版本校勘。
+**2026-10-12来源更正。** 先前把§10以“To be plain”开头、区分可真实分离性质与其他抽象的整段判为1734才新增，这是遗漏1710同册正式勘误所致。1710正文12页确实没有该段，但扫描第10页ERRATA明确要求在12页第5行“General Ideas whatsoever”之后插入它。故经正式勘误修正的1710文本已经包含这一区分：允许分别考虑可分离存在的具体部分或性质，否认不可能分离性质的独立观念以及前述一般化抽取。11页较强的自我确信、手眼鼻具体例子仍保留。这里纠正的是后继比较的一条版本归属，不改Locke1690整章内容、数学模型或既有实跑。详见[勘误证据与最小改动记录](locke-understanding-ii11.berkeley-erratum-2026-10-12.json)及[完整Berkeley来源账本](../1710/berkeley-principles-introduction.sources.zh-CN.md)。未据此声称两版完整对勘。
 
 此比较只涉及§§10–13，不涵盖整篇导论、整部《原理》或非物质论体系。Berkeley并未在§12否认一切一般性；把他的论点简写成“没有一般思想”会失真。
 

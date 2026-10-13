@@ -1,0 +1,705 @@
+{
+  "work": "Berkeley 1710 Principles, Introduction §§1–25",
+  "checked_date_utc": "2026-10-12",
+  "primary_pdf": {
+    "source_record": "https://commons.wikimedia.org/wiki/File:A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences,_with_the_Grounds_of_Scepticism,_Atheism,_a_%28IA_berkeleyhumanknowledge%29.pdf",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf",
+    "bytes": 48791111,
+    "sha256": "f7e458168c050dd851412152614941f66fdcdc3071fdd9ee9ce11c5086a6f6af",
+    "pages": 224,
+    "distributed": false
+  },
+  "rendering": {
+    "library": "PyMuPDF",
+    "version": "1.26.6",
+    "method": "page.get_pixmap(matrix=fitz.Matrix(1280/page.rect.width,1280/page.rect.width)); PNG output",
+    "note": "SHA values identify rendered PNG files actually inspected, not remotely served JPEG bytes."
+  },
+  "complete_unit": {
+    "printed_pages": [
+      1,
+      39
+    ],
+    "scan_pages_one_based": [
+      11,
+      49
+    ],
+    "sections": [
+      1,
+      25
+    ],
+    "applicable_errata_scan_pages": [
+      10
+    ]
+  },
+  "section_page_map": {
+    "1": [
+      1,
+      2
+    ],
+    "2": [
+      2,
+      3
+    ],
+    "3": [
+      3,
+      4
+    ],
+    "4": [
+      4,
+      5
+    ],
+    "5": [
+      5,
+      5
+    ],
+    "6": [
+      5,
+      6
+    ],
+    "7": [
+      6,
+      7
+    ],
+    "8": [
+      7,
+      8
+    ],
+    "9": [
+      8,
+      11
+    ],
+    "10": [
+      11,
+      12
+    ],
+    "11": [
+      12,
+      16
+    ],
+    "12": [
+      16,
+      17
+    ],
+    "13": [
+      18,
+      20
+    ],
+    "14": [
+      20,
+      21
+    ],
+    "15": [
+      21,
+      22
+    ],
+    "16": [
+      23,
+      25
+    ],
+    "17": [
+      25,
+      26
+    ],
+    "18": [
+      26,
+      28
+    ],
+    "19": [
+      29,
+      30
+    ],
+    "20": [
+      30,
+      32
+    ],
+    "21": [
+      33,
+      34
+    ],
+    "22": [
+      34,
+      35
+    ],
+    "23": [
+      35,
+      37
+    ],
+    "24": [
+      37,
+      38
+    ],
+    "25": [
+      38,
+      39
+    ]
+  },
+  "images": [
+    {
+      "scan_page_one_based": 1,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page1-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 5192849,
+      "sha256": "7bcbb7036ec22845d074f0ecb7bc795699399b3d8fc4c863d1616bb0a2e77575",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 2,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page2-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 66389,
+      "sha256": "6193780513116dc33045ced3e785d583cf10285b5cee2b04503a3412836f5542",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 3,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page3-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 409280,
+      "sha256": "2826db8689e38bbb819041bb337cc76d17d4b10c4abda686b8a79a9e654aa8bd",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 4,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page4-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 133438,
+      "sha256": "8b52124a681ed77e33edf2d843504a33ae708c28561b017182bc74aa07a23079",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 5,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page5-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 434413,
+      "sha256": "72d51fbc4502cb1b1a2499aa5a3935c3bd46cf9d9636a26c792336d333f9a90d",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 6,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page6-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 690110,
+      "sha256": "63f450a4169b4a914ffaa4f20b154111936b23f3342171bcf074bd923b690e99",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 7,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page7-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 552999,
+      "sha256": "281923558ce04977ff9b856324533169ab9bb74fd309e8f2f18d71e7c6dd6d53",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 8,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page8-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 606160,
+      "sha256": "4b724794352e721426842ababd53a73653c47d2081b22067bf78f42b69f7e3c5",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 9,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page9-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 677884,
+      "sha256": "bfbc8a4e2417b859e27e94133700d322e9441fdf67c28f869b8573555a1b56f8",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 10,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page10-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 377834,
+      "sha256": "0cf17f908b3a5fdd5e77d88a8815665cb3b7b5aa92fdc627d2a826a8b5ff3b2b",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 11,
+      "printed_page": 1,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page11-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 534022,
+      "sha256": "64ff0d5d762ae2ca41b41f479531f6b396ef9d7072afe2bac18a1511760f6303",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 12,
+      "printed_page": 2,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page12-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 578673,
+      "sha256": "0db846c53b5f3b2b7f4cdc0e7715ef97a905b7b1af9af0c343a42b7aa3708caf",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 13,
+      "printed_page": 3,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page13-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 598724,
+      "sha256": "13c31952b1e8068db6e84141bfe6a848a6cc2f62b2805f96722abf148764e29c",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 14,
+      "printed_page": 4,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page14-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 613490,
+      "sha256": "4f0a39b9e13267ba0def702f173bb657b41bf0c6067e38ef5c66835caf1d6197",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 15,
+      "printed_page": 5,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page15-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 605023,
+      "sha256": "d836fbe3f7dc755897af5b9a0dc853d998a8dc8ab13d3c318ce030df76434044",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 16,
+      "printed_page": 6,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page16-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 601444,
+      "sha256": "220193d0b3c0a356da7009ddae6b01f42e271a29e1099d05ffcdfb39ec7b0ee0",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 17,
+      "printed_page": 7,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page17-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 612596,
+      "sha256": "2191079d06795cfcfd193304f4e74582b1bdcedecc40462f36c3d7af10f3918d",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 18,
+      "printed_page": 8,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page18-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 610776,
+      "sha256": "29ac75ed0b0fc96cbffb4b59c8c229f87a5f24350b4f4e054c3c5a6f5bc223af",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 19,
+      "printed_page": 9,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page19-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 635079,
+      "sha256": "5dc4044398891fdefe74663dfa5687ae71d240e383a5ab10f6a08d5008f99478",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 20,
+      "printed_page": 10,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page20-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 651411,
+      "sha256": "0df07eba9abd78cb652665f54f2d17c292d4e5b90a7c20c800dee8e7dcd51203",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 21,
+      "printed_page": 11,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page21-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 593711,
+      "sha256": "2cb3701b8b6e28ea05dafa965742f902e1b43c341a44c9a907bb484dd45e2d2b",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 22,
+      "printed_page": 12,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page22-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 600345,
+      "sha256": "53d93ea7c69342961529cbbbab1260dec6553d0c9f9bafebece06d70e19d9a5f",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 23,
+      "printed_page": 13,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page23-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 641364,
+      "sha256": "15e7c5c8b90ad213a7342d15272a44afffb13a8f131a721ca95a1c134aaa5780",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 24,
+      "printed_page": 14,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page24-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 633404,
+      "sha256": "60317d5f9f00d2fe98c030ec46cd2498f054d40b0321e51e9604ac71fe7869f4",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 25,
+      "printed_page": 15,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page25-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 651274,
+      "sha256": "7a3f286e4db552be4a4f09ce07b75ceb805bf37549226163734ea9d320a92136",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 26,
+      "printed_page": 16,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page26-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 607778,
+      "sha256": "010cc9daa22376e8955a5289e5814880c2891e813fbe5df276be9ba252c0e30f",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 27,
+      "printed_page": 17,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page27-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 577822,
+      "sha256": "5acd9eadb52b41ee1766b33f40ea0117deedea7fc60e35e072ebe508249cd531",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 28,
+      "printed_page": 18,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page28-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 603319,
+      "sha256": "4d9bc678bf7af41cf953cb3fecba4e8b38986a984daf6898a08c2c08416883c9",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 29,
+      "printed_page": 19,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page29-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 626031,
+      "sha256": "dd477bd4d9383c540aeabe4cf0cc7437ec9f2baac1a021208d0c7b8a5c54c8d1",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 30,
+      "printed_page": 20,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page30-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 624607,
+      "sha256": "a7e9f4d6ef663e6829521e97ef88e67daf514baa416234155254411f48d6f6a3",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 31,
+      "printed_page": 21,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page31-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 665527,
+      "sha256": "531ea535a46a839474690caeb2d57c684de7b76a92f9f272e104cc978f464017",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 32,
+      "printed_page": 22,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page32-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 576984,
+      "sha256": "b2223045b2e5498d4679ca755f67d2abc6122a58f187c67984387af2db1e02ed",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 33,
+      "printed_page": 23,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page33-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 629167,
+      "sha256": "9986852d9d0c237f823ab575940e01ac8433962e701bdc3fb92277b7ccf4e0f2",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 34,
+      "printed_page": 24,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page34-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 695298,
+      "sha256": "7c396e96efc6b7ae93e7860dd619abf1dfeba32c5fdda641ac0515107ae4dbe7",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 35,
+      "printed_page": 25,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page35-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 622556,
+      "sha256": "5df95a3c6aae72da7ea4431ecd9807880fde049f8ed6f18505f2626178d1b479",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 36,
+      "printed_page": 26,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page36-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 619847,
+      "sha256": "7b6780cddd24958e476759802d4a8ee73e587ce065368e562969ca30590eb1e9",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 37,
+      "printed_page": 27,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page37-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 648875,
+      "sha256": "7af7ac7deba81b75cd8f1798c81fbb8e9614052dbd4cfa34b8f21c87dce74447",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 38,
+      "printed_page": 28,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page38-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 596919,
+      "sha256": "c184d042f5a033299681d94b3f3f5b210f917a0ffeb7b25fad0acba6a73c2113",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 39,
+      "printed_page": 29,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page39-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 672179,
+      "sha256": "b5d12b1ebdd2403087ac9ffd1b61cf2dc8d67cc3f18585dbd8f2c7c313bc4835",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 40,
+      "printed_page": 30,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page40-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 628285,
+      "sha256": "2a71be645a5df6fd200589cb4f83b1b1c73704836984708386251978d65e72e4",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 41,
+      "printed_page": 31,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page41-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 651759,
+      "sha256": "6f60428d20d7d45639919fb9ba7dc45066f1cbb3945688ffdf8cbf5be8bc0f07",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 42,
+      "printed_page": 32,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page42-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 621186,
+      "sha256": "058bf74533784b17d27acc01ff67a8ec232d00078ef6452d2fdcb46c40513cb6",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 43,
+      "printed_page": 33,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page43-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 619691,
+      "sha256": "1bfeb26b79f3bbc82123fcbbdbe6396ffafc0851da08f9f219a0769541d8f7f0",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 44,
+      "printed_page": 34,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page44-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 589100,
+      "sha256": "dd95f19c11eea2563be44737353c50c50081a3f12dc591cecaf19f288ad1b26a",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 45,
+      "printed_page": 35,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page45-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 587138,
+      "sha256": "0439325fd68cbec5ad66c2fab72e30eb12ea3896f33fd6c6108568d31e7ae4b6",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 46,
+      "printed_page": 36,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page46-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 655900,
+      "sha256": "24d9f806ea1dfb1093d2174b539abc77b1fab66c362d6f1b0ef3cfbc0f8163d4",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 47,
+      "printed_page": 37,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page47-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 626171,
+      "sha256": "a98e275e77786c6e3f0c01c2f7c871110849353e264ce8d2721c78462ddc515e",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 48,
+      "printed_page": 38,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page48-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 585958,
+      "sha256": "1d2d9c02dbf69556910bc311d2db2f430c0856a9026d2d053264ca33c8e2445b",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 49,
+      "printed_page": 39,
+      "scope": "complete Introduction",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page49-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 143788,
+      "sha256": "ac12390e6a41ef621e068580127464bb4fcff8f44369ee5699be84ab384519f6",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 50,
+      "printed_page": null,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page50-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 38530,
+      "sha256": "f48adf83b428194f2406c313924991cf9a2fe32061a0f22e18017daf70ce968f",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 51,
+      "printed_page": 41,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page51-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 450149,
+      "sha256": "a6873c4569189713822720a0d223ccdf6ba57a52f1e4f3b5f30bb0ba31a1d383",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 221,
+      "printed_page": 211,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page221-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 635495,
+      "sha256": "c5556338ab5ce1c23086498b4e390e421f70f80c1f140c8c0f8f8c6cf8f789cc",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 222,
+      "printed_page": 212,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page222-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 599995,
+      "sha256": "ee0b73c4971c22a468b09e7aeb5467534b559868788b91c472a6c5140ffc2d10",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 223,
+      "printed_page": 213,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page223-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 614524,
+      "sha256": "7ef8d97100cd998f0ed9aebf70bae7aa6cf72269acc7e65c6f72173820340766",
+      "distributed": false
+    },
+    {
+      "scan_page_one_based": 224,
+      "printed_page": 214,
+      "scope": "front matter, errata, or boundary",
+      "reference_jpeg_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_Treatise_Concerning_the_Principles_of_Human_Knowledge._Part_I._Wherein_the_Chief_Causes_of_Error_and_Difficulty_in_the_Sciences%2C_with_the_Grounds_of_Scepticism%2C_Atheism%2C_a_%28IA_berkeleyhumanknowledge%29.pdf/page224-1280px-thumbnail.pdf.jpg",
+      "inspected_file_format": "PNG rendered from complete PDF",
+      "bytes": 349096,
+      "sha256": "6f45c25fc6ef0d402987983a4b3616762dada0b449eb30d89675d787afdd8bca",
+      "distributed": false
+    }
+  ],
+  "online_copytext": {
+    "url": "https://englishphilosophy.org/berkeley/thk/intro",
+    "publication_year_label": 1710,
+    "copytext_year_label": 1734,
+    "role": "limited collation and locator; not primary copytext"
+  },
+  "critical_correction": "The To be plain passage belongs to 1710 through the printed errata on scan page 10; it is not a 1734-only addition.",
+  "bounded_locke_comparison": {
+    "edition_year": 1690,
+    "printed_page": 70,
+    "scan_page_one_based": 86,
+    "sha256": "9d48c8afdc41fe7085d3ebd7afaf48a47d3dff44018c91e9747a88f4ef955a77",
+    "bytes": 472326,
+    "scope": "II.XI.10–11 on p.70, reread image; comparison with Berkeley1710 pp.13–14",
+    "prior_ledger": "../1690/locke-understanding-ii11.source-fingerprints.json"
+  }
+}

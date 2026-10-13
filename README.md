@@ -11,6 +11,7 @@
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
+| 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
 | 1768（原信署1761-02-17） | [Euler第CIII信精读](papers/1768/euler-letter-ciii.zh-CN.md) | AI前史：三项图解推理、存在见证与形式覆盖 | 深读v1 · 完整书信章节；1768＋1770复合底本 |
 | 1768（原信署1761-02-21） | [Euler第CIV信精读](papers/1768/euler-letter-civ.zh-CN.md) | AI前史回填：特称见证、二十式校读与十九式判准 | 深读v1 · 完整书信章节；1768＋1770复合底本 |
@@ -529,3 +530,15 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 全文覆盖辨别与机敏、变动感觉、关系、组合和重复、命名与抽象、动物能力推断、历史异常分类及探究性收束；20题均附答案。保留作者强断言，分开本文批评，不把历史医疗分类当现代诊断。Descartes与Berkeley指定原典仅作有界比较，不新增全篇或全书完成。
 
 现代标准库附件检查有向关系是否可由抽象标签恢复、多重集重命名是否保留组合与次数，以及有限行为记录允许哪些策略；普通、-O、-OO真实执行和独立审计的准确计数见附件。一般证明不由有限测试替代，代码不验证人或动物的真实认知能力。全部旧目录、候选、历史、缺口与有效状态原样保留；I.I正式勘误继续解决，II.VII164内证不升级正式勘误。
+
+## Berkeley原理导论可运行附件
+
+- [一个具体三角形 怎样承担一般证明](papers/1710/berkeley-principles-introduction.zh-CN.md)
+- [完整导论原典、版本区别与来源账本](papers/1710/berkeley-principles-introduction.sources.zh-CN.md) · [完整论证与数学审计](papers/1710/berkeley-principles-introduction.audit.zh-CN.md)
+- [模型、环境、命令与真实日志](reproduction/berkeley-1710-principles-introduction/README.md) · [中文逐步走查](reproduction/berkeley-1710-principles-introduction/WALKTHROUGH.md) · [独立代码审计](reproduction/berkeley-1710-principles-introduction/AUDIT.md)
+
+仅新增George Berkeley 1710年A Treatise Concerning the Principles of Human Knowledge. Part I的完整Introduction §§1–25，实际都柏林Aaron Rhames为Jeremy Pepyat印本，原印1–39页。1710是实际题名页印年，确切发行日未独立核定；此处是明确历史回填，不是AI起点或历史穷尽声明。上一单位Locke仅完成1690首版II.XI，未完成全书。
+
+全文覆盖哲学疑难、抽象观念、一般符号、三角形与儿童交流、证明对特殊图的依赖、定义稳定、代数符号、语言引起行动和权威服从，以及去除词语干扰的内省收束；20题均附答案。1710与1734增删分开：§10 To be plain段属于首版ERRATA要求的正式插入，本轮纠正先前误判为后加的说法；§16选择注意/Peter段仍为后版增加。首版§20/§21的较强句子保留。引文差异不回写Locke1690原文。
+
+现代标准库附件以有限对象检查代表案例的界限，以精确线性证书复核一般角关系推导，再用多项式规范化与同时替换解释符号步骤的语义保持；普通、-O、-OO真实测试及独立审计的准确结果见附件。一般证明不由小规模测试代替，代码不测量人的观念、儿童学习或情绪机制。只完成一个导论，不完成Part I正文、全书或后版全对勘；全部旧目录、候选、历史、缺口、有效状态和既有勘误结论保持。

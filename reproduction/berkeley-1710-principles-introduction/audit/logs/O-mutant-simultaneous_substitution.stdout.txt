@@ -1,0 +1,1 @@
+{"detail": ": actual=Add(left=Const(value=Fraction(2, 1)), right=Const(value=Fraction(1, 1))); expected=Add(left=Var(name='y'), right=Const(value=Fraction(1, 1)))", "optimization": 1, "status": "semantic_failure"}

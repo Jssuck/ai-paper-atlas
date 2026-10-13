@@ -1,0 +1,2716 @@
+{
+  "started_utc": "2026-10-12T22:52:25.697560+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_implementation": "CPython",
+  "python_executable_basename": "python3",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "working_directory": ".",
+  "source_sha256": {
+    "model.py": "f46e5c26b4c34e62d6208febf386c926bdcc7d686c3586def1eeb41067acfaff",
+    "test_model.py": "72dff8a062b3e439424d5b556ed0e6af8a65ee711fe2c9556582824120be7bb9",
+    "examples.py": "922c00b69088333f6fe4b85e3b9e3fcf5bc1d0df2d278d7e8cb0a6c27fe82318",
+    "run_checks.py": "df9fabfa5ce9b2eb2bab3d07fd5b241f5b786189c685b02dfab625e3cce6d64d",
+    "audit/independent_checks.py": "b487186db57216e7369092f0e48635120c2f4b1d0491e2b76baa9eea13853e6e",
+    "audit/run_audit.py": "c5ed794eb40b96f8dfb282bc781ae69cf12ab8b33d8266ca4d338b3130de9fd7"
+  },
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-12T22:52:25.748397+00:00",
+      "finished_utc": "2026-10-12T22:52:27.364550+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-author-tests.stdout.txt",
+      "stderr": "audit/logs/normal-author-tests.stderr.txt",
+      "output": {
+        "count_note": "tests_run counts unittest methods; finite cases count attempted nested checks, not extra methods",
+        "errors": 0,
+        "failures": 0,
+        "finite_case_groups_attempted": {
+          "distributivity_assignments": 125,
+          "normalization_tree_assignments": 1445,
+          "simultaneous_substitution_assignments": 125
+        },
+        "optimization": 0,
+        "skipped": 0,
+        "successful": true,
+        "tests_run": 52
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "examples.py"
+      ],
+      "started_utc": "2026-10-12T22:52:27.364920+00:00",
+      "finished_utc": "2026-10-12T22:52:28.053169+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-author-examples.stdout.txt",
+      "stderr": "audit/logs/normal-author-examples.stderr.txt",
+      "output": {
+        "model_status": "modern teaching reconstruction; no historical code or cognition claim",
+        "linear_certificate": {
+          "variables": [
+            "a",
+            "b",
+            "c",
+            "u",
+            "v"
+          ],
+          "weights": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_coefficients": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_rhs": "180",
+          "valid": true,
+          "nonzero_dependencies": [
+            "alternate_a",
+            "alternate_c",
+            "straight_angle"
+          ],
+          "after_removing_special_drawing_facts": true,
+          "right_angle_target_initially_valid": true,
+          "right_angle_dependencies": [
+            "drawing_right"
+          ],
+          "right_angle_transfer": {
+            "allowed": false,
+            "reason": "removed nonzero dependencies: drawing_right"
+          },
+          "right_angle_direct_check_after_deletion": false,
+          "nonright_countermodel_for_general_premises": {
+            "a": 60,
+            "b": 60,
+            "c": 60,
+            "u": 60,
+            "v": 60
+          }
+        },
+        "finite_sign": {
+          "domain_size": 3,
+          "squared_side_lengths": [
+            [
+              9,
+              16,
+              25
+            ],
+            [
+              4,
+              5,
+              5
+            ],
+            [
+              2,
+              10,
+              16
+            ]
+          ],
+          "right_angle_predicate": [
+            true,
+            false,
+            false
+          ],
+          "general_sign_covers_declared_domain": true,
+          "singleton_representative_covers_declared_domain": false,
+          "counterexample_to_all_are_right": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "scope": "three declared integer-coordinate triangles, not all Euclidean triangles"
+        },
+        "polynomial": {
+          "identity": "x*(y+z) = x*y+x*z",
+          "equal_canonical_forms": true,
+          "canonical_terms": [
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "y",
+                  1
+                ]
+              ],
+              "1"
+            ],
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "z",
+                  1
+                ]
+              ],
+              "1"
+            ]
+          ],
+          "substitution": {
+            "x": "2/3",
+            "y": "-3/5",
+            "z": "7/2"
+          },
+          "left_value": "29/15",
+          "right_value": "29/15",
+          "normalized_value": "29/15",
+          "simultaneous_substitution_x_to_y_plus_1_and_y_to_2": {
+            "result": "y+1",
+            "value_when_y_is_10": "11"
+          },
+          "scope": "polynomials over Fraction; no division or rational-function simplification"
+        }
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py"
+      ],
+      "started_utc": "2026-10-12T22:52:28.053502+00:00",
+      "finished_utc": "2026-10-12T22:52:35.411814+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-independent.stdout.txt",
+      "stderr": "audit/logs/normal-independent.stderr.txt",
+      "output": {
+        "counts": {
+          "finite_sign_order_extension_predicate_cases": 384,
+          "linear_perturbed_targets": 1458,
+          "linear_rational_cases": 25,
+          "linear_restriction_subsets": 2916,
+          "linear_satisfying_assignments": 917,
+          "linear_system_weight_cases": 729,
+          "polynomial_expression_trees": 1055,
+          "polynomial_tree_assignments": 9495,
+          "simultaneous_substitution_assignments": 17820,
+          "simultaneous_substitution_tree_maps": 1980,
+          "triangle_degenerate": 273,
+          "triangle_nondegenerate": 456,
+          "triangle_vertex_tuples": 729,
+          "validation_rejections": 1982
+        },
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:52:35.412353+00:00",
+      "finished_utc": "2026-10-12T22:52:36.135042+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-linear_rhs.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:52:36.135483+00:00",
+      "finished_utc": "2026-10-12T22:52:36.772506+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-linear_rhs.stderr.txt",
+      "model_override": "audit/_mutation/linear_rhs.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:52:36.772840+00:00",
+      "finished_utc": "2026-10-12T22:52:37.378045+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-linear_coefficients.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:52:37.378454+00:00",
+      "finished_utc": "2026-10-12T22:52:38.169970+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-linear_coefficients.stderr.txt",
+      "model_override": "audit/_mutation/linear_coefficients.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:52:38.170350+00:00",
+      "finished_utc": "2026-10-12T22:52:39.092761+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-zero_support.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-zero_support.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:52:39.093328+00:00",
+      "finished_utc": "2026-10-12T22:52:39.810340+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-zero_support.stderr.txt",
+      "model_override": "audit/_mutation/zero_support.py",
+      "output": {
+        "detail": ": actual=('p',); expected=()",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:52:39.810787+00:00",
+      "finished_utc": "2026-10-12T22:52:40.534751+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-restriction_support.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-restriction_support.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:52:40.535156+00:00",
+      "finished_utc": "2026-10-12T22:52:41.225149+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-restriction_support.stderr.txt",
+      "model_override": "audit/_mutation/restriction_support.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:52:41.225586+00:00",
+      "finished_utc": "2026-10-12T22:52:42.241201+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-triangle_rightness.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:52:42.242319+00:00",
+      "finished_utc": "2026-10-12T22:52:42.429006+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-triangle_rightness.stderr.txt",
+      "model_override": "audit/_mutation/triangle_rightness.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:52:42.429383+00:00",
+      "finished_utc": "2026-10-12T22:52:42.910163+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-finite_coverage.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:52:42.910550+00:00",
+      "finished_utc": "2026-10-12T22:52:43.510095+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-finite_coverage.stderr.txt",
+      "model_override": "audit/_mutation/finite_coverage.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:52:43.510533+00:00",
+      "finished_utc": "2026-10-12T22:52:44.152014+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-finite_denotation.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:52:44.152701+00:00",
+      "finished_utc": "2026-10-12T22:52:44.916010+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-finite_denotation.stderr.txt",
+      "model_override": "audit/_mutation/finite_denotation.py",
+      "output": {
+        "detail": ": actual=Triangle(vertices=((0, 0), (2, 0), (1, 2))); expected=None",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:52:44.916591+00:00",
+      "finished_utc": "2026-10-12T22:52:45.532685+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-add_terms.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-add_terms.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:52:45.533092+00:00",
+      "finished_utc": "2026-10-12T22:52:46.190409+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-add_terms.stderr.txt",
+      "model_override": "audit/_mutation/add_terms.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x',): Fraction(1, 1), ('y',): Fraction(1, 1)}",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:52:46.190738+00:00",
+      "finished_utc": "2026-10-12T22:52:46.768294+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-multiply_exponents.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:52:46.768776+00:00",
+      "finished_utc": "2026-10-12T22:52:47.410092+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-multiply_exponents.stderr.txt",
+      "model_override": "audit/_mutation/multiply_exponents.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x', 'x'): Fraction(1, 1)}",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:52:47.410440+00:00",
+      "finished_utc": "2026-10-12T22:52:48.137331+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-expr_multiplication.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:52:48.137721+00:00",
+      "finished_utc": "2026-10-12T22:52:48.810031+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-expr_multiplication.stderr.txt",
+      "model_override": "audit/_mutation/expr_multiplication.py",
+      "output": {
+        "detail": ": actual=Fraction(5, 1); expected=Fraction(6, 1)",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:52:48.810394+00:00",
+      "finished_utc": "2026-10-12T22:52:49.424507+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-polynomial_power.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:52:49.425032+00:00",
+      "finished_utc": "2026-10-12T22:52:50.060734+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-polynomial_power.stderr.txt",
+      "model_override": "audit/_mutation/polynomial_power.py",
+      "output": {
+        "detail": ": actual=Fraction(3, 1); expected=Fraction(9, 1)",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:52:50.061075+00:00",
+      "finished_utc": "2026-10-12T22:52:50.668486+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-simultaneous_substitution.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:52:50.669360+00:00",
+      "finished_utc": "2026-10-12T22:52:51.457078+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-simultaneous_substitution.stderr.txt",
+      "model_override": "audit/_mutation/simultaneous_substitution.py",
+      "output": {
+        "detail": ": actual=Add(left=Const(value=Fraction(2, 1)), right=Const(value=Fraction(1, 1))); expected=Add(left=Var(name='y'), right=Const(value=Fraction(1, 1)))",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:52:51.457682+00:00",
+      "finished_utc": "2026-10-12T22:52:52.066957+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/normal-baseline-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/normal-baseline-reject_boolean.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 0,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:52:52.067426+00:00",
+      "finished_utc": "2026-10-12T22:52:52.689069+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/normal-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-reject_boolean.stderr.txt",
+      "model_override": "audit/_mutation/reject_boolean.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 0,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python3",
+        "audit/independent_checks.py",
+        "--probe",
+        "framework_exception"
+      ],
+      "started_utc": "2026-10-12T22:52:52.689414+00:00",
+      "finished_utc": "2026-10-12T22:52:53.292080+00:00",
+      "returncode": 2,
+      "stdout": "audit/logs/normal-framework-exception.stdout.txt",
+      "stderr": "audit/logs/normal-framework-exception.stderr.txt",
+      "output": {
+        "detail": "intentional framework classification probe",
+        "exception": "RuntimeError",
+        "optimization": 0,
+        "status": "framework_error"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-12T22:52:53.292402+00:00",
+      "finished_utc": "2026-10-12T22:52:56.973761+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-author-tests.stdout.txt",
+      "stderr": "audit/logs/O-author-tests.stderr.txt",
+      "output": {
+        "count_note": "tests_run counts unittest methods; finite cases count attempted nested checks, not extra methods",
+        "errors": 0,
+        "failures": 0,
+        "finite_case_groups_attempted": {
+          "distributivity_assignments": 125,
+          "normalization_tree_assignments": 1445,
+          "simultaneous_substitution_assignments": 125
+        },
+        "optimization": 1,
+        "skipped": 0,
+        "successful": true,
+        "tests_run": 52
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "examples.py"
+      ],
+      "started_utc": "2026-10-12T22:52:56.974135+00:00",
+      "finished_utc": "2026-10-12T22:52:58.910172+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-author-examples.stdout.txt",
+      "stderr": "audit/logs/O-author-examples.stderr.txt",
+      "output": {
+        "model_status": "modern teaching reconstruction; no historical code or cognition claim",
+        "linear_certificate": {
+          "variables": [
+            "a",
+            "b",
+            "c",
+            "u",
+            "v"
+          ],
+          "weights": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_coefficients": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_rhs": "180",
+          "valid": true,
+          "nonzero_dependencies": [
+            "alternate_a",
+            "alternate_c",
+            "straight_angle"
+          ],
+          "after_removing_special_drawing_facts": true,
+          "right_angle_target_initially_valid": true,
+          "right_angle_dependencies": [
+            "drawing_right"
+          ],
+          "right_angle_transfer": {
+            "allowed": false,
+            "reason": "removed nonzero dependencies: drawing_right"
+          },
+          "right_angle_direct_check_after_deletion": false,
+          "nonright_countermodel_for_general_premises": {
+            "a": 60,
+            "b": 60,
+            "c": 60,
+            "u": 60,
+            "v": 60
+          }
+        },
+        "finite_sign": {
+          "domain_size": 3,
+          "squared_side_lengths": [
+            [
+              9,
+              16,
+              25
+            ],
+            [
+              4,
+              5,
+              5
+            ],
+            [
+              2,
+              10,
+              16
+            ]
+          ],
+          "right_angle_predicate": [
+            true,
+            false,
+            false
+          ],
+          "general_sign_covers_declared_domain": true,
+          "singleton_representative_covers_declared_domain": false,
+          "counterexample_to_all_are_right": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "scope": "three declared integer-coordinate triangles, not all Euclidean triangles"
+        },
+        "polynomial": {
+          "identity": "x*(y+z) = x*y+x*z",
+          "equal_canonical_forms": true,
+          "canonical_terms": [
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "y",
+                  1
+                ]
+              ],
+              "1"
+            ],
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "z",
+                  1
+                ]
+              ],
+              "1"
+            ]
+          ],
+          "substitution": {
+            "x": "2/3",
+            "y": "-3/5",
+            "z": "7/2"
+          },
+          "left_value": "29/15",
+          "right_value": "29/15",
+          "normalized_value": "29/15",
+          "simultaneous_substitution_x_to_y_plus_1_and_y_to_2": {
+            "result": "y+1",
+            "value_when_y_is_10": "11"
+          },
+          "scope": "polynomials over Fraction; no division or rational-function simplification"
+        }
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py"
+      ],
+      "started_utc": "2026-10-12T22:52:58.910536+00:00",
+      "finished_utc": "2026-10-12T22:53:07.995650+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-independent.stdout.txt",
+      "stderr": "audit/logs/O-independent.stderr.txt",
+      "output": {
+        "counts": {
+          "finite_sign_order_extension_predicate_cases": 384,
+          "linear_perturbed_targets": 1458,
+          "linear_rational_cases": 25,
+          "linear_restriction_subsets": 2916,
+          "linear_satisfying_assignments": 917,
+          "linear_system_weight_cases": 729,
+          "polynomial_expression_trees": 1055,
+          "polynomial_tree_assignments": 9495,
+          "simultaneous_substitution_assignments": 17820,
+          "simultaneous_substitution_tree_maps": 1980,
+          "triangle_degenerate": 273,
+          "triangle_nondegenerate": 456,
+          "triangle_vertex_tuples": 729,
+          "validation_rejections": 1982
+        },
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:53:07.996034+00:00",
+      "finished_utc": "2026-10-12T22:53:10.210091+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/O-baseline-linear_rhs.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:53:10.210977+00:00",
+      "finished_utc": "2026-10-12T22:53:12.720388+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/O-mutant-linear_rhs.stderr.txt",
+      "model_override": "audit/_mutation/linear_rhs.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:53:12.720736+00:00",
+      "finished_utc": "2026-10-12T22:53:14.976811+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/O-baseline-linear_coefficients.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:53:14.977313+00:00",
+      "finished_utc": "2026-10-12T22:53:17.192380+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/O-mutant-linear_coefficients.stderr.txt",
+      "model_override": "audit/_mutation/linear_coefficients.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:53:17.192695+00:00",
+      "finished_utc": "2026-10-12T22:53:19.272596+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-zero_support.stdout.txt",
+      "stderr": "audit/logs/O-baseline-zero_support.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:53:19.273615+00:00",
+      "finished_utc": "2026-10-12T22:53:21.440526+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/O-mutant-zero_support.stderr.txt",
+      "model_override": "audit/_mutation/zero_support.py",
+      "output": {
+        "detail": ": actual=('p',); expected=()",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:53:21.441043+00:00",
+      "finished_utc": "2026-10-12T22:53:23.568545+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-restriction_support.stdout.txt",
+      "stderr": "audit/logs/O-baseline-restriction_support.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:53:23.569314+00:00",
+      "finished_utc": "2026-10-12T22:53:25.711347+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/O-mutant-restriction_support.stderr.txt",
+      "model_override": "audit/_mutation/restriction_support.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:53:25.711886+00:00",
+      "finished_utc": "2026-10-12T22:53:27.957303+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/O-baseline-triangle_rightness.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:53:27.958066+00:00",
+      "finished_utc": "2026-10-12T22:53:30.244579+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/O-mutant-triangle_rightness.stderr.txt",
+      "model_override": "audit/_mutation/triangle_rightness.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:53:30.244902+00:00",
+      "finished_utc": "2026-10-12T22:53:32.544589+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/O-baseline-finite_coverage.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:53:32.545269+00:00",
+      "finished_utc": "2026-10-12T22:53:34.824067+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/O-mutant-finite_coverage.stderr.txt",
+      "model_override": "audit/_mutation/finite_coverage.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:53:34.824498+00:00",
+      "finished_utc": "2026-10-12T22:53:37.041203+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/O-baseline-finite_denotation.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:53:37.041900+00:00",
+      "finished_utc": "2026-10-12T22:53:39.281356+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/O-mutant-finite_denotation.stderr.txt",
+      "model_override": "audit/_mutation/finite_denotation.py",
+      "output": {
+        "detail": ": actual=Triangle(vertices=((0, 0), (2, 0), (1, 2))); expected=None",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:53:39.281705+00:00",
+      "finished_utc": "2026-10-12T22:53:41.450130+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-add_terms.stdout.txt",
+      "stderr": "audit/logs/O-baseline-add_terms.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:53:41.452411+00:00",
+      "finished_utc": "2026-10-12T22:53:43.440729+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/O-mutant-add_terms.stderr.txt",
+      "model_override": "audit/_mutation/add_terms.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x',): Fraction(1, 1), ('y',): Fraction(1, 1)}",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:53:43.441073+00:00",
+      "finished_utc": "2026-10-12T22:53:45.656552+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/O-baseline-multiply_exponents.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:53:45.658008+00:00",
+      "finished_utc": "2026-10-12T22:53:47.856655+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/O-mutant-multiply_exponents.stderr.txt",
+      "model_override": "audit/_mutation/multiply_exponents.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x', 'x'): Fraction(1, 1)}",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:53:47.857190+00:00",
+      "finished_utc": "2026-10-12T22:53:50.056891+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/O-baseline-expr_multiplication.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:53:50.057465+00:00",
+      "finished_utc": "2026-10-12T22:53:52.232494+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/O-mutant-expr_multiplication.stderr.txt",
+      "model_override": "audit/_mutation/expr_multiplication.py",
+      "output": {
+        "detail": ": actual=Fraction(5, 1); expected=Fraction(6, 1)",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:53:52.232933+00:00",
+      "finished_utc": "2026-10-12T22:53:54.800658+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/O-baseline-polynomial_power.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:53:54.801159+00:00",
+      "finished_utc": "2026-10-12T22:53:57.046860+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/O-mutant-polynomial_power.stderr.txt",
+      "model_override": "audit/_mutation/polynomial_power.py",
+      "output": {
+        "detail": ": actual=Fraction(3, 1); expected=Fraction(9, 1)",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:53:57.047302+00:00",
+      "finished_utc": "2026-10-12T22:53:59.675062+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/O-baseline-simultaneous_substitution.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:53:59.675589+00:00",
+      "finished_utc": "2026-10-12T22:54:01.910766+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/O-mutant-simultaneous_substitution.stderr.txt",
+      "model_override": "audit/_mutation/simultaneous_substitution.py",
+      "output": {
+        "detail": ": actual=Add(left=Const(value=Fraction(2, 1)), right=Const(value=Fraction(1, 1))); expected=Add(left=Var(name='y'), right=Const(value=Fraction(1, 1)))",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:54:01.911339+00:00",
+      "finished_utc": "2026-10-12T22:54:04.592515+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/O-baseline-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/O-baseline-reject_boolean.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 1,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:54:04.593126+00:00",
+      "finished_utc": "2026-10-12T22:54:07.460973+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/O-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/O-mutant-reject_boolean.stderr.txt",
+      "model_override": "audit/_mutation/reject_boolean.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 1,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python3",
+        "-O",
+        "audit/independent_checks.py",
+        "--probe",
+        "framework_exception"
+      ],
+      "started_utc": "2026-10-12T22:54:07.461323+00:00",
+      "finished_utc": "2026-10-12T22:54:09.678014+00:00",
+      "returncode": 2,
+      "stdout": "audit/logs/O-framework-exception.stdout.txt",
+      "stderr": "audit/logs/O-framework-exception.stderr.txt",
+      "output": {
+        "detail": "intentional framework classification probe",
+        "exception": "RuntimeError",
+        "optimization": 1,
+        "status": "framework_error"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-12T22:54:09.678334+00:00",
+      "finished_utc": "2026-10-12T22:54:15.718788+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-author-tests.stdout.txt",
+      "stderr": "audit/logs/OO-author-tests.stderr.txt",
+      "output": {
+        "count_note": "tests_run counts unittest methods; finite cases count attempted nested checks, not extra methods",
+        "errors": 0,
+        "failures": 0,
+        "finite_case_groups_attempted": {
+          "distributivity_assignments": 125,
+          "normalization_tree_assignments": 1445,
+          "simultaneous_substitution_assignments": 125
+        },
+        "optimization": 2,
+        "skipped": 0,
+        "successful": true,
+        "tests_run": 52
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "examples.py"
+      ],
+      "started_utc": "2026-10-12T22:54:15.719198+00:00",
+      "finished_utc": "2026-10-12T22:54:17.175826+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-author-examples.stdout.txt",
+      "stderr": "audit/logs/OO-author-examples.stderr.txt",
+      "output": {
+        "model_status": "modern teaching reconstruction; no historical code or cognition claim",
+        "linear_certificate": {
+          "variables": [
+            "a",
+            "b",
+            "c",
+            "u",
+            "v"
+          ],
+          "weights": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_coefficients": [
+            "1",
+            "1",
+            "1",
+            "0",
+            "0"
+          ],
+          "combined_rhs": "180",
+          "valid": true,
+          "nonzero_dependencies": [
+            "alternate_a",
+            "alternate_c",
+            "straight_angle"
+          ],
+          "after_removing_special_drawing_facts": true,
+          "right_angle_target_initially_valid": true,
+          "right_angle_dependencies": [
+            "drawing_right"
+          ],
+          "right_angle_transfer": {
+            "allowed": false,
+            "reason": "removed nonzero dependencies: drawing_right"
+          },
+          "right_angle_direct_check_after_deletion": false,
+          "nonright_countermodel_for_general_premises": {
+            "a": 60,
+            "b": 60,
+            "c": 60,
+            "u": 60,
+            "v": 60
+          }
+        },
+        "finite_sign": {
+          "domain_size": 3,
+          "squared_side_lengths": [
+            [
+              9,
+              16,
+              25
+            ],
+            [
+              4,
+              5,
+              5
+            ],
+            [
+              2,
+              10,
+              16
+            ]
+          ],
+          "right_angle_predicate": [
+            true,
+            false,
+            false
+          ],
+          "general_sign_covers_declared_domain": true,
+          "singleton_representative_covers_declared_domain": false,
+          "counterexample_to_all_are_right": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "scope": "three declared integer-coordinate triangles, not all Euclidean triangles"
+        },
+        "polynomial": {
+          "identity": "x*(y+z) = x*y+x*z",
+          "equal_canonical_forms": true,
+          "canonical_terms": [
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "y",
+                  1
+                ]
+              ],
+              "1"
+            ],
+            [
+              [
+                [
+                  "x",
+                  1
+                ],
+                [
+                  "z",
+                  1
+                ]
+              ],
+              "1"
+            ]
+          ],
+          "substitution": {
+            "x": "2/3",
+            "y": "-3/5",
+            "z": "7/2"
+          },
+          "left_value": "29/15",
+          "right_value": "29/15",
+          "normalized_value": "29/15",
+          "simultaneous_substitution_x_to_y_plus_1_and_y_to_2": {
+            "result": "y+1",
+            "value_when_y_is_10": "11"
+          },
+          "scope": "polynomials over Fraction; no division or rational-function simplification"
+        }
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py"
+      ],
+      "started_utc": "2026-10-12T22:54:17.176472+00:00",
+      "finished_utc": "2026-10-12T22:54:21.196020+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-independent.stdout.txt",
+      "stderr": "audit/logs/OO-independent.stderr.txt",
+      "output": {
+        "counts": {
+          "finite_sign_order_extension_predicate_cases": 384,
+          "linear_perturbed_targets": 1458,
+          "linear_rational_cases": 25,
+          "linear_restriction_subsets": 2916,
+          "linear_satisfying_assignments": 917,
+          "linear_system_weight_cases": 729,
+          "polynomial_expression_trees": 1055,
+          "polynomial_tree_assignments": 9495,
+          "simultaneous_substitution_assignments": 17820,
+          "simultaneous_substitution_tree_maps": 1980,
+          "triangle_degenerate": 273,
+          "triangle_nondegenerate": 456,
+          "triangle_vertex_tuples": 729,
+          "validation_rejections": 1982
+        },
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:54:21.196305+00:00",
+      "finished_utc": "2026-10-12T22:54:23.064246+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-linear_rhs.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_rhs"
+      ],
+      "started_utc": "2026-10-12T22:54:23.065251+00:00",
+      "finished_utc": "2026-10-12T22:54:24.871337+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-linear_rhs.stderr.txt",
+      "model_override": "audit/_mutation/linear_rhs.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:54:24.871665+00:00",
+      "finished_utc": "2026-10-12T22:54:26.656665+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-linear_coefficients.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "linear_coefficients"
+      ],
+      "started_utc": "2026-10-12T22:54:26.657351+00:00",
+      "finished_utc": "2026-10-12T22:54:28.496528+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-linear_coefficients.stderr.txt",
+      "model_override": "audit/_mutation/linear_coefficients.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:54:28.496857+00:00",
+      "finished_utc": "2026-10-12T22:54:30.740631+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-zero_support.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-zero_support.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "zero_support"
+      ],
+      "started_utc": "2026-10-12T22:54:30.741404+00:00",
+      "finished_utc": "2026-10-12T22:54:32.561766+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-zero_support.stderr.txt",
+      "model_override": "audit/_mutation/zero_support.py",
+      "output": {
+        "detail": ": actual=('p',); expected=()",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:54:32.562116+00:00",
+      "finished_utc": "2026-10-12T22:54:34.529273+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-restriction_support.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-restriction_support.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "restriction_support"
+      ],
+      "started_utc": "2026-10-12T22:54:34.529988+00:00",
+      "finished_utc": "2026-10-12T22:54:36.359871+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-restriction_support.stderr.txt",
+      "model_override": "audit/_mutation/restriction_support.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:54:36.360339+00:00",
+      "finished_utc": "2026-10-12T22:54:38.258014+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-triangle_rightness.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "triangle_rightness"
+      ],
+      "started_utc": "2026-10-12T22:54:38.258730+00:00",
+      "finished_utc": "2026-10-12T22:54:40.144917+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-triangle_rightness.stderr.txt",
+      "model_override": "audit/_mutation/triangle_rightness.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:54:40.145283+00:00",
+      "finished_utc": "2026-10-12T22:54:41.915663+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-finite_coverage.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_coverage"
+      ],
+      "started_utc": "2026-10-12T22:54:41.916398+00:00",
+      "finished_utc": "2026-10-12T22:54:43.812702+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-finite_coverage.stderr.txt",
+      "model_override": "audit/_mutation/finite_coverage.py",
+      "output": {
+        "detail": ": actual=True; expected=False",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:54:43.813050+00:00",
+      "finished_utc": "2026-10-12T22:54:45.528915+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-finite_denotation.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "finite_denotation"
+      ],
+      "started_utc": "2026-10-12T22:54:45.529915+00:00",
+      "finished_utc": "2026-10-12T22:54:47.519513+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-finite_denotation.stderr.txt",
+      "model_override": "audit/_mutation/finite_denotation.py",
+      "output": {
+        "detail": ": actual=Triangle(vertices=((0, 0), (2, 0), (1, 2))); expected=None",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:54:47.520011+00:00",
+      "finished_utc": "2026-10-12T22:54:49.417113+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-add_terms.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-add_terms.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "add_terms"
+      ],
+      "started_utc": "2026-10-12T22:54:49.436477+00:00",
+      "finished_utc": "2026-10-12T22:54:51.933228+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-add_terms.stderr.txt",
+      "model_override": "audit/_mutation/add_terms.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x',): Fraction(1, 1), ('y',): Fraction(1, 1)}",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:54:51.933567+00:00",
+      "finished_utc": "2026-10-12T22:54:52.532571+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-multiply_exponents.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "multiply_exponents"
+      ],
+      "started_utc": "2026-10-12T22:54:52.533384+00:00",
+      "finished_utc": "2026-10-12T22:54:52.899493+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-multiply_exponents.stderr.txt",
+      "model_override": "audit/_mutation/multiply_exponents.py",
+      "output": {
+        "detail": ": actual={('x',): Fraction(1, 1)}; expected={('x', 'x'): Fraction(1, 1)}",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:54:52.900286+00:00",
+      "finished_utc": "2026-10-12T22:54:53.491543+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-expr_multiplication.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "expr_multiplication"
+      ],
+      "started_utc": "2026-10-12T22:54:53.492053+00:00",
+      "finished_utc": "2026-10-12T22:54:53.980717+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-expr_multiplication.stderr.txt",
+      "model_override": "audit/_mutation/expr_multiplication.py",
+      "output": {
+        "detail": ": actual=Fraction(5, 1); expected=Fraction(6, 1)",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:54:53.981308+00:00",
+      "finished_utc": "2026-10-12T22:54:54.475524+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-polynomial_power.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "polynomial_power"
+      ],
+      "started_utc": "2026-10-12T22:54:54.476848+00:00",
+      "finished_utc": "2026-10-12T22:54:54.847021+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-polynomial_power.stderr.txt",
+      "model_override": "audit/_mutation/polynomial_power.py",
+      "output": {
+        "detail": ": actual=Fraction(3, 1); expected=Fraction(9, 1)",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:54:54.847366+00:00",
+      "finished_utc": "2026-10-12T22:54:55.361383+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-simultaneous_substitution.stderr.txt",
+      "output": {
+        "counts": {},
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "simultaneous_substitution"
+      ],
+      "started_utc": "2026-10-12T22:54:55.362061+00:00",
+      "finished_utc": "2026-10-12T22:54:56.346631+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-simultaneous_substitution.stderr.txt",
+      "model_override": "audit/_mutation/simultaneous_substitution.py",
+      "output": {
+        "detail": ": actual=Add(left=Const(value=Fraction(2, 1)), right=Const(value=Fraction(1, 1))); expected=Add(left=Var(name='y'), right=Const(value=Fraction(1, 1)))",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:54:56.346952+00:00",
+      "finished_utc": "2026-10-12T22:54:57.421993+00:00",
+      "returncode": 0,
+      "stdout": "audit/logs/OO-baseline-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/OO-baseline-reject_boolean.stderr.txt",
+      "output": {
+        "counts": {
+          "validation_rejections": 1
+        },
+        "optimization": 2,
+        "status": "passed"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "reject_boolean"
+      ],
+      "started_utc": "2026-10-12T22:54:57.422800+00:00",
+      "finished_utc": "2026-10-12T22:54:58.468247+00:00",
+      "returncode": 1,
+      "stdout": "audit/logs/OO-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-reject_boolean.stderr.txt",
+      "model_override": "audit/_mutation/reject_boolean.py",
+      "output": {
+        "detail": "invalid input was accepted",
+        "optimization": 2,
+        "status": "semantic_failure"
+      }
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-OO",
+        "audit/independent_checks.py",
+        "--probe",
+        "framework_exception"
+      ],
+      "started_utc": "2026-10-12T22:54:58.468601+00:00",
+      "finished_utc": "2026-10-12T22:54:59.486920+00:00",
+      "returncode": 2,
+      "stdout": "audit/logs/OO-framework-exception.stdout.txt",
+      "stderr": "audit/logs/OO-framework-exception.stderr.txt",
+      "output": {
+        "detail": "intentional framework classification probe",
+        "exception": "RuntimeError",
+        "optimization": 2,
+        "status": "framework_error"
+      }
+    }
+  ],
+  "scope": "Independent bounded tests and deliberate semantic faults; not a formal program proof or cognitive evidence.",
+  "finished_utc": "2026-10-12T22:54:59.488815+00:00",
+  "successful": true,
+  "errors": [],
+  "subprocesses": 90,
+  "author_method_counts": {
+    "normal": 52,
+    "O": 52,
+    "OO": 52
+  },
+  "independent_counts": {
+    "finite_sign_order_extension_predicate_cases": 384,
+    "linear_perturbed_targets": 1458,
+    "linear_rational_cases": 25,
+    "linear_restriction_subsets": 2916,
+    "linear_satisfying_assignments": 917,
+    "linear_system_weight_cases": 729,
+    "polynomial_expression_trees": 1055,
+    "polynomial_tree_assignments": 9495,
+    "simultaneous_substitution_assignments": 17820,
+    "simultaneous_substitution_tree_maps": 1980,
+    "triangle_degenerate": 273,
+    "triangle_nondegenerate": 456,
+    "triangle_vertex_tuples": 729,
+    "validation_rejections": 1982
+  },
+  "semantic_mutants": [
+    {
+      "mode": "normal",
+      "mutant": "linear_rhs",
+      "mutant_sha256": "78ec44188a5a14f036a08817115ae014d27e3c3fc54a02656028935f9758c27e",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.coefficients == target.coefficients, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-linear_rhs.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "linear_coefficients",
+      "mutant_sha256": "85bea69800b6d3b37240c6f363fc391a32700341a4e99d9a95b767aa96f095e1",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.rhs == target.rhs, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-linear_coefficients.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "zero_support",
+      "mutant_sha256": "d754351a5e4f44b7c0918ac3b5099bf7eef023bdbb19e61d79b5b2b6eafee847",
+      "old": "if weight != 0:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-zero_support.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "restriction_support",
+      "mutant_sha256": "4e02903f33ad71ac3b30f925b025d71a40844b6e97acc47e5cca8361020dd5f6",
+      "old": "if missing:",
+      "new": "if False:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-restriction_support.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "triangle_rightness",
+      "mutant_sha256": "0efd96549fb8be2d7c72271ae8a41e67dc67c33d7212ed0390ce7e2370ad8578",
+      "old": "return x + y == z",
+      "new": "return x + y >= z",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-triangle_rightness.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "finite_coverage",
+      "mutant_sha256": "2cb7e39cbb9ae79465133daeb2141586cff0bf4dc0be6c1368d8020b04f841b8",
+      "old": "return self.denotation == frozenset(self.domain)",
+      "new": "return bool(self.denotation)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-finite_coverage.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "finite_denotation",
+      "mutant_sha256": "80bd42263c54fe598a105bb07c699c3b2dbfbf18ed4be71d6f163ea3f7de8b2a",
+      "old": "if triangle in sign.denotation:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-finite_denotation.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "add_terms",
+      "mutant_sha256": "1bd631169ae394f1bea766c8100b833aeacb4cf57d954ef558f60b4e04a10a7a",
+      "old": "return _add_poly(normalize(expression.left), normalize(expression.right))",
+      "new": "return normalize(expression.left)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-add_terms.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "multiply_exponents",
+      "mutant_sha256": "14b90426493f965b0864f28aa49df1cb72a3c0e17a6f9a02da7f4c537841f5e8",
+      "old": "powers[variable] = powers.get(variable, 0) + exponent",
+      "new": "powers[variable] = max(powers.get(variable, 0), exponent)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-multiply_exponents.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "expr_multiplication",
+      "mutant_sha256": "96eee786c45f72da35af7f636ecf2fa678913b816bc2d408df3678b0d90b8315",
+      "old": "return visit(node.left) * visit(node.right)",
+      "new": "return visit(node.left) + visit(node.right)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-expr_multiplication.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "polynomial_power",
+      "mutant_sha256": "ea7814ba6d6a66a3d6b10c5f5703072b7c2d379d9f6036cff263192788b8b319",
+      "old": "term *= environment[variable] ** exponent",
+      "new": "term *= environment[variable]",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-polynomial_power.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "simultaneous_substitution",
+      "mutant_sha256": "2fe0a5d0608b497a3f4f7b7d12a0cfe6bd9ee34bca1305068e24d552408623fd",
+      "old": "return validated.get(node.name, node)",
+      "new": "return visit(validated[node.name]) if node.name in validated else node",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-simultaneous_substitution.stderr.txt"
+    },
+    {
+      "mode": "normal",
+      "mutant": "reject_boolean",
+      "mutant_sha256": "9933567aabbfff055b418c201e25a953857c759054a3f0d8145d4e537e87b08a",
+      "old": "if type(value) not in (int, Fraction):",
+      "new": "if not isinstance(value, (int, Fraction)):",
+      "detected_semantically": true,
+      "stdout": "audit/logs/normal-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/normal-mutant-reject_boolean.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "linear_rhs",
+      "mutant_sha256": "78ec44188a5a14f036a08817115ae014d27e3c3fc54a02656028935f9758c27e",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.coefficients == target.coefficients, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/O-mutant-linear_rhs.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "linear_coefficients",
+      "mutant_sha256": "85bea69800b6d3b37240c6f363fc391a32700341a4e99d9a95b767aa96f095e1",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.rhs == target.rhs, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/O-mutant-linear_coefficients.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "zero_support",
+      "mutant_sha256": "d754351a5e4f44b7c0918ac3b5099bf7eef023bdbb19e61d79b5b2b6eafee847",
+      "old": "if weight != 0:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/O-mutant-zero_support.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "restriction_support",
+      "mutant_sha256": "4e02903f33ad71ac3b30f925b025d71a40844b6e97acc47e5cca8361020dd5f6",
+      "old": "if missing:",
+      "new": "if False:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/O-mutant-restriction_support.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "triangle_rightness",
+      "mutant_sha256": "0efd96549fb8be2d7c72271ae8a41e67dc67c33d7212ed0390ce7e2370ad8578",
+      "old": "return x + y == z",
+      "new": "return x + y >= z",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/O-mutant-triangle_rightness.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "finite_coverage",
+      "mutant_sha256": "2cb7e39cbb9ae79465133daeb2141586cff0bf4dc0be6c1368d8020b04f841b8",
+      "old": "return self.denotation == frozenset(self.domain)",
+      "new": "return bool(self.denotation)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/O-mutant-finite_coverage.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "finite_denotation",
+      "mutant_sha256": "80bd42263c54fe598a105bb07c699c3b2dbfbf18ed4be71d6f163ea3f7de8b2a",
+      "old": "if triangle in sign.denotation:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/O-mutant-finite_denotation.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "add_terms",
+      "mutant_sha256": "1bd631169ae394f1bea766c8100b833aeacb4cf57d954ef558f60b4e04a10a7a",
+      "old": "return _add_poly(normalize(expression.left), normalize(expression.right))",
+      "new": "return normalize(expression.left)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/O-mutant-add_terms.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "multiply_exponents",
+      "mutant_sha256": "14b90426493f965b0864f28aa49df1cb72a3c0e17a6f9a02da7f4c537841f5e8",
+      "old": "powers[variable] = powers.get(variable, 0) + exponent",
+      "new": "powers[variable] = max(powers.get(variable, 0), exponent)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/O-mutant-multiply_exponents.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "expr_multiplication",
+      "mutant_sha256": "96eee786c45f72da35af7f636ecf2fa678913b816bc2d408df3678b0d90b8315",
+      "old": "return visit(node.left) * visit(node.right)",
+      "new": "return visit(node.left) + visit(node.right)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/O-mutant-expr_multiplication.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "polynomial_power",
+      "mutant_sha256": "ea7814ba6d6a66a3d6b10c5f5703072b7c2d379d9f6036cff263192788b8b319",
+      "old": "term *= environment[variable] ** exponent",
+      "new": "term *= environment[variable]",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/O-mutant-polynomial_power.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "simultaneous_substitution",
+      "mutant_sha256": "2fe0a5d0608b497a3f4f7b7d12a0cfe6bd9ee34bca1305068e24d552408623fd",
+      "old": "return validated.get(node.name, node)",
+      "new": "return visit(validated[node.name]) if node.name in validated else node",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/O-mutant-simultaneous_substitution.stderr.txt"
+    },
+    {
+      "mode": "O",
+      "mutant": "reject_boolean",
+      "mutant_sha256": "9933567aabbfff055b418c201e25a953857c759054a3f0d8145d4e537e87b08a",
+      "old": "if type(value) not in (int, Fraction):",
+      "new": "if not isinstance(value, (int, Fraction)):",
+      "detected_semantically": true,
+      "stdout": "audit/logs/O-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/O-mutant-reject_boolean.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "linear_rhs",
+      "mutant_sha256": "78ec44188a5a14f036a08817115ae014d27e3c3fc54a02656028935f9758c27e",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.coefficients == target.coefficients, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-linear_rhs.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-linear_rhs.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "linear_coefficients",
+      "mutant_sha256": "85bea69800b6d3b37240c6f363fc391a32700341a4e99d9a95b767aa96f095e1",
+      "old": "Verification(combined == target, combined, tuple(dependencies))",
+      "new": "Verification(combined.rhs == target.rhs, combined, tuple(dependencies))",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-linear_coefficients.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-linear_coefficients.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "zero_support",
+      "mutant_sha256": "d754351a5e4f44b7c0918ac3b5099bf7eef023bdbb19e61d79b5b2b6eafee847",
+      "old": "if weight != 0:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-zero_support.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-zero_support.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "restriction_support",
+      "mutant_sha256": "4e02903f33ad71ac3b30f925b025d71a40844b6e97acc47e5cca8361020dd5f6",
+      "old": "if missing:",
+      "new": "if False:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-restriction_support.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-restriction_support.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "triangle_rightness",
+      "mutant_sha256": "0efd96549fb8be2d7c72271ae8a41e67dc67c33d7212ed0390ce7e2370ad8578",
+      "old": "return x + y == z",
+      "new": "return x + y >= z",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-triangle_rightness.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-triangle_rightness.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "finite_coverage",
+      "mutant_sha256": "2cb7e39cbb9ae79465133daeb2141586cff0bf4dc0be6c1368d8020b04f841b8",
+      "old": "return self.denotation == frozenset(self.domain)",
+      "new": "return bool(self.denotation)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-finite_coverage.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-finite_coverage.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "finite_denotation",
+      "mutant_sha256": "80bd42263c54fe598a105bb07c699c3b2dbfbf18ed4be71d6f163ea3f7de8b2a",
+      "old": "if triangle in sign.denotation:",
+      "new": "if True:",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-finite_denotation.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-finite_denotation.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "add_terms",
+      "mutant_sha256": "1bd631169ae394f1bea766c8100b833aeacb4cf57d954ef558f60b4e04a10a7a",
+      "old": "return _add_poly(normalize(expression.left), normalize(expression.right))",
+      "new": "return normalize(expression.left)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-add_terms.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-add_terms.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "multiply_exponents",
+      "mutant_sha256": "14b90426493f965b0864f28aa49df1cb72a3c0e17a6f9a02da7f4c537841f5e8",
+      "old": "powers[variable] = powers.get(variable, 0) + exponent",
+      "new": "powers[variable] = max(powers.get(variable, 0), exponent)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-multiply_exponents.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-multiply_exponents.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "expr_multiplication",
+      "mutant_sha256": "96eee786c45f72da35af7f636ecf2fa678913b816bc2d408df3678b0d90b8315",
+      "old": "return visit(node.left) * visit(node.right)",
+      "new": "return visit(node.left) + visit(node.right)",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-expr_multiplication.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-expr_multiplication.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "polynomial_power",
+      "mutant_sha256": "ea7814ba6d6a66a3d6b10c5f5703072b7c2d379d9f6036cff263192788b8b319",
+      "old": "term *= environment[variable] ** exponent",
+      "new": "term *= environment[variable]",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-polynomial_power.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-polynomial_power.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "simultaneous_substitution",
+      "mutant_sha256": "2fe0a5d0608b497a3f4f7b7d12a0cfe6bd9ee34bca1305068e24d552408623fd",
+      "old": "return validated.get(node.name, node)",
+      "new": "return visit(validated[node.name]) if node.name in validated else node",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-simultaneous_substitution.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-simultaneous_substitution.stderr.txt"
+    },
+    {
+      "mode": "OO",
+      "mutant": "reject_boolean",
+      "mutant_sha256": "9933567aabbfff055b418c201e25a953857c759054a3f0d8145d4e537e87b08a",
+      "old": "if type(value) not in (int, Fraction):",
+      "new": "if not isinstance(value, (int, Fraction)):",
+      "detected_semantically": true,
+      "stdout": "audit/logs/OO-mutant-reject_boolean.stdout.txt",
+      "stderr": "audit/logs/OO-mutant-reject_boolean.stderr.txt"
+    }
+  ],
+  "semantic_mutants_per_mode": 13,
+  "semantic_detections": 39,
+  "framework_errors_correctly_classified": 3,
+  "stored_author_results_match": true,
+  "transient_mutant_sources_removed": true,
+  "example_outputs_byte_identical": true
+}
