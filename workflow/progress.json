@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i4",
     "path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
-    "stage": "remote_exact_bytes_and_actual_github_browser_verification",
-    "scope": "Complete Prior Analytics I.4 (25b26–26b33); verified 1831 Greek scans and Owen 1853 translation with applicable errata; explicit ancient fourth-century-BCE chronological backfill, exact composition date unknown."
-  },
-  "last_completed": {
-    "id": "berkeley-1710-principles-introduction",
-    "path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
     "version": "v1",
-    "content_commit": "70c20020d02f015ebc28cc840d49d4faed9fa2f9",
-    "checks": "Three independent source, argument and code audits passed; 296 exact hash bindings reverified. Frozen execution evidence confirms 52 author tests in each of normal/-O/-OO, 90 independent subprocesses and 39 semantic mutation detections. All 223 published paths/81 unique blobs match exact UTF-8 bytes; 1,710 unrelated files preserved. Independent actual GitHub browser passed 11 full DOM bodies, 278 headings, 366 rendered formulas, 14 tables/760 raw cells, 355 relative links, 88 exact external href occurrences, and 20 fully answered exercises. All seven new documents, new README row/appendix, and three corrected Locke paragraphs inspected in native viewport pixels (74 screenshots). No unsupported/red/raw math or missing CJK glyphs. External href fidelity does not claim fresh availability testing of every third-party page. No GitHub Actions runs, statuses or check runs configured for this content commit.",
-    "scope": "Complete actual 1710 first-edition Introduction §§1–25, printed pp.1–39, including the formal ERRATA insertion at §10. Explicit chronological backfill. Bounded 1734 copytext comparison; no Part I body, full-book, exhaustive-corpus, cognitive-experiment, or direct-AI-influence claim.",
-    "browser_review_report_sha256": "6a9b62f191da191c4b652f95e923c4bc338b55be24a27ddef97c2314642c47ba"
+    "content_commit": "79792b1a56ea26fa79b166b65810b94480f07606",
+    "checks": "Three independent source, argument and code audits passed; 27 exact hash bindings reverified. Frozen execution evidence records 32 tests in each of normal/-O/-OO and 16 detected semantic mutants. Independent oracle checked 256 directional forms, 237 minimal countermodels, 48 nonempty witnesses, 584 labelled models and 12 CLI outputs. All 39 published files (814745 UTF-8 bytes) reread exactly; 1930 unrelated blobs/modes preserved. Independent actual GitHub browser passed all eight Markdown DOMs, 178 self-heading anchors, 48 rendered formulas, expected table shapes and 20 complete answers. Seven new documents fully inspected in 64 selected native viewport screenshots, with root README pixels limited to its new row and appendix; all old README rendered text, 51 headings and 45 table rows preserved. No unsupported/error math, raw math cells or missing CJK glyphs. External href inspection does not guarantee every third-party destination's availability. No GitHub Actions runs, check runs or statuses for this content commit; no CI pass claimed.",
+    "scope": "Complete Prior Analytics I.4 (25b26–26b33); actual 1831 Greek printed scans and Owen 1853 translation including applicable errata, with bounded 1837 transcription and I.7 context. Ancient fourth-century-BCE chronological backfill; precise composition date unknown. No whole-book, exhaustive-predecessor, author-algorithm or direct-AI-influence claim.",
+    "browser_review_report_sha256": "18ab708435962923a9d86aca31dd89512dbd4769657dad2ff6a1938851123524"
   },
-  "updated_at": "2026-10-13T23:09:20Z",
+  "updated_at": "2026-10-13T23:23:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify all published bytes and preserved files, actual GitHub rendered documents/formulas/links, then finalize this sole active unit.",
+  "next_action": "This unit is complete; await the next authorized single-unit selection. Preserve chronological backfill boundaries and prior quality-correction history.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
