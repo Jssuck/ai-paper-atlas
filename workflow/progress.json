@@ -1,32 +1,36 @@
 {
   "schema_version": 1,
-  "status": "researching",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "berkeley-1710-principles-introduction",
     "path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
-    "stage": "primary_source_boundary_verification",
-    "scope": "Complete Introduction §§1–25 to Principles, intended actual 1710 first edition; page boundaries and errata being verified. Explicit chronological backfill and bounded response to Locke abstraction debate."
-  },
-  "last_completed": {
-    "id": "locke-1690-understanding-ii11",
-    "path": "papers/1690/locke-understanding-ii11.zh-CN.md",
     "version": "v1",
-    "content_commit": "71a8df341d42588cf7e32ad3bb78df66c373fd16",
-    "checks": "Three independent audits passed; 78 exact bindings verified, genuine three-mode tests and 36 mutation detections retained. All 46 final remote contents and blob identities verified. Actual GitHub browser checked eight complete bodies, 207 headings, 268 formulas, ten tables/503 raw-source cells, 339 relative paths and 20 answers. Main, six appendices and new README additions visually inspected. Rare date-bracket typography repaired equivalently and source binding refreshed.",
-    "scope": "Complete 1690 first-edition Essay II.XI §§1–17, printed pp.68–72, including both applicable p72 errata. Explicit chronological backfill. Original examples and stronger first-edition animal claim retained, later Berkeley quotation/version differences bounded and disclosed. No full-book or exhaustive coverage claim."
+    "content_commit": "70c20020d02f015ebc28cc840d49d4faed9fa2f9",
+    "checks": "Three independent source, argument and code audits passed; 296 exact hash bindings reverified. Frozen execution evidence confirms 52 author tests in each of normal/-O/-OO, 90 independent subprocesses and 39 semantic mutation detections. All 223 published paths/81 unique blobs match exact UTF-8 bytes; 1,710 unrelated files preserved. Independent actual GitHub browser passed 11 full DOM bodies, 278 headings, 366 rendered formulas, 14 tables/760 raw cells, 355 relative links, 88 exact external href occurrences, and 20 fully answered exercises. All seven new documents, new README row/appendix, and three corrected Locke paragraphs inspected in native viewport pixels (74 screenshots). No unsupported/red/raw math or missing CJK glyphs. External href fidelity does not claim fresh availability testing of every third-party page. No GitHub Actions runs, statuses or check runs configured for this content commit.",
+    "scope": "Complete actual 1710 first-edition Introduction §§1–25, printed pp.1–39, including the formal ERRATA insertion at §10. Explicit chronological backfill. Bounded 1734 copytext comparison; no Part I body, full-book, exhaustive-corpus, cognitive-experiment, or direct-AI-influence claim.",
+    "browser_review_report_sha256": "6a9b62f191da191c4b652f95e923c4bc338b55be24a27ddef97c2314642c47ba"
   },
-  "updated_at": "2026-10-12T22:38:25Z",
+  "updated_at": "2026-10-13T22:00:17Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify complete primary introduction and applicable errata, reconstruct argument and complete independent reviews for this unit.",
+  "next_action": "At the next scheduled round, select at most one next source unit after confirming this completed publication and preserving the one-active-paper policy.",
   "last_quality_correction": {
-    "id": "condillac-1780-logic-part1-ch1-erratum",
-    "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
-    "content_commit": "0248ab2da5c13e6f844f258eadebcdc8958bd878",
-    "checks": "1798 XXIII p.486/PDF492 official edition-printed erratum independently verified, including live PDF pixels. Eight exact remote files and all unrelated blobs verified; five changed Markdown previews checked. Main/audit 86 unchanged mathematical expressions render. Historical records preserved. No new source unit or code changes."
-  }
+    "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
+    "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
+    "content_commit": "70c20020d02f015ebc28cc840d49d4faed9fa2f9",
+    "checks": "Corrected three prose paragraphs and incrementally rebound three audit records after verifying Berkeley 1710 formal ERRATA applies to §10; the insertion is not 1734-only. Original Locke mathematical/code sections, execution logs, and prior review history preserved. Included in exact-byte remote verification and actual GitHub browser review."
+  },
+  "quality_correction_history": [
+    {
+      "id": "condillac-1780-logic-part1-ch1-erratum",
+      "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
+      "content_commit": "0248ab2da5c13e6f844f258eadebcdc8958bd878",
+      "checks": "1798 XXIII p.486/PDF492 official edition-printed erratum independently verified, including live PDF pixels. Eight exact remote files and all unrelated blobs verified; five changed Markdown previews checked. Main/audit 86 unchanged mathematical expressions render. Historical records preserved. No new source unit or code changes."
+    }
+  ]
 }
