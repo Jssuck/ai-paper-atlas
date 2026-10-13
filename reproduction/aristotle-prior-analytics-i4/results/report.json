@@ -1,0 +1,8779 @@
+{
+  "direction_example_IE": {
+    "E_SM": true,
+    "I_MP": true,
+    "I_SP": false,
+    "O_PS": true,
+    "model": {
+      "M": [
+        6
+      ],
+      "P": [
+        6
+      ],
+      "S": [
+        1
+      ],
+      "U": [
+        1,
+        6
+      ],
+      "cardinality": 2,
+      "mask": 66,
+      "support": [
+        1,
+        6
+      ],
+      "type_bits_PMS": [
+        "001",
+        "110"
+      ]
+    }
+  },
+  "encoding": {
+    "M": 2,
+    "P": 4,
+    "S": 1,
+    "bits": "PMS"
+  },
+  "forms": {
+    "all-nonempty": [
+      {
+        "direction": "S->P",
+        "form": "AAA",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "AAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AAI",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "AAO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AII",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "AIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAE",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "EAI",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAO",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "EEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIE",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIO",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "EOA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAA",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAI",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "III",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAI",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAO",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIO",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      }
+    ],
+    "empty-allowed": [
+      {
+        "direction": "S->P",
+        "form": "AAA",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "AAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AAI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AAO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AEO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AII",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "AIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "AOO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAE",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "EAI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EAO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EEO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIE",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EIO",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "S->P",
+        "form": "EOA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "EOO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAA",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IAO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IEO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "III",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "IOO",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OAO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OIO",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "S->P",
+        "form": "OOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      }
+    ]
+  },
+  "forward_conclusion": "conclusion(S,P)",
+  "model_counts": {
+    "all-nonempty": 218,
+    "empty-allowed": 255
+  },
+  "nonproductive_witnesses": {
+    "all-nonempty": [
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "AE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "AO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "EE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "EO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "II"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OI"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OO"
+      }
+    ],
+    "empty-allowed": [
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "AE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "AO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "EE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "EO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "II"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OI"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OO"
+      }
+    ]
+  },
+  "original_strongest_routes": {
+    "AA": "A",
+    "AI": "I",
+    "EA": "E",
+    "EI": "O"
+  },
+  "premise_pair_table": [
+    {
+      "all-nonempty_forward": "AI",
+      "all-nonempty_reverse": "I",
+      "empty-allowed_forward": "A",
+      "empty-allowed_reverse": "",
+      "original_strongest": "A",
+      "pair": "AA"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "O",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "AE"
+    },
+    {
+      "all-nonempty_forward": "I",
+      "all-nonempty_reverse": "I",
+      "empty-allowed_forward": "I",
+      "empty-allowed_reverse": "I",
+      "original_strongest": "I",
+      "pair": "AI"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "AO"
+    },
+    {
+      "all-nonempty_forward": "EO",
+      "all-nonempty_reverse": "EO",
+      "empty-allowed_forward": "E",
+      "empty-allowed_reverse": "E",
+      "original_strongest": "E",
+      "pair": "EA"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "EE"
+    },
+    {
+      "all-nonempty_forward": "O",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "O",
+      "empty-allowed_reverse": "",
+      "original_strongest": "O",
+      "pair": "EI"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "EO"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "IA"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "O",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "O",
+      "original_strongest": "",
+      "pair": "IE"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "II"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "IO"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "OA"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "OE"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "OI"
+    },
+    {
+      "all-nonempty_forward": "",
+      "all-nonempty_reverse": "",
+      "empty-allowed_forward": "",
+      "empty-allowed_reverse": "",
+      "original_strongest": "",
+      "pair": "OO"
+    }
+  ],
+  "premises": [
+    "major(M,P)",
+    "minor(S,M)"
+  ],
+  "reverse_conclusion": "conclusion(P,S); separate diagnostic only",
+  "reverse_forms": {
+    "all-nonempty": [
+      {
+        "direction": "P->S",
+        "form": "AAA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            4,
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            4,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 144,
+          "support": [
+            4,
+            7
+          ],
+          "type_bits_PMS": [
+            "100",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AAI",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "AAO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 8,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEO",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 12,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "AIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            4,
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            4,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 144,
+          "support": [
+            4,
+            7
+          ],
+          "type_bits_PMS": [
+            "100",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AII",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "AIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAE",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "EAI",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAO",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 4,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "EEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 10,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIE",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIO",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 30,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAA",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAI",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 40,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEO",
+        "minimal_countermodel": null,
+        "mode": "all-nonempty",
+        "premise_model_count": 24,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "IIA",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "III",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAI",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAO",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 36,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 22,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIO",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 152,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "all-nonempty",
+        "premise_model_count": 138,
+        "valid": false
+      }
+    ],
+    "empty-allowed": [
+      {
+        "direction": "P->S",
+        "form": "AAA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            4
+          ],
+          "cardinality": 1,
+          "mask": 16,
+          "support": [
+            4
+          ],
+          "type_bits_PMS": [
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AAI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AAO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            4
+          ],
+          "cardinality": 1,
+          "mask": 16,
+          "support": [
+            4
+          ],
+          "type_bits_PMS": [
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AEO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AIA",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            4,
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            4,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 144,
+          "support": [
+            4,
+            7
+          ],
+          "type_bits_PMS": [
+            "100",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AII",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "AIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 18,
+          "support": [
+            1,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "AOO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            4
+          ],
+          "cardinality": 1,
+          "mask": 16,
+          "support": [
+            4
+          ],
+          "type_bits_PMS": [
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAE",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "EAI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EAO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 15,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            4
+          ],
+          "cardinality": 1,
+          "mask": 16,
+          "support": [
+            4
+          ],
+          "type_bits_PMS": [
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EEO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [],
+          "U": [
+            0
+          ],
+          "cardinality": 1,
+          "mask": 1,
+          "support": [
+            0
+          ],
+          "type_bits_PMS": [
+            "000"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 31,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIE",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            3,
+            5
+          ],
+          "U": [
+            3,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 40,
+          "support": [
+            3,
+            5
+          ],
+          "type_bits_PMS": [
+            "011",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EIO",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOA",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 18,
+          "support": [
+            1,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOE",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOI",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "EOO",
+        "minimal_countermodel": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IAO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEE",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [],
+          "U": [
+            6
+          ],
+          "cardinality": 1,
+          "mask": 64,
+          "support": [
+            6
+          ],
+          "type_bits_PMS": [
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IEO",
+        "minimal_countermodel": null,
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": true
+      },
+      {
+        "direction": "P->S",
+        "form": "IIA",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IIE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "III",
+        "minimal_countermodel": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IIO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOA",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOE",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOI",
+        "minimal_countermodel": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "IOO",
+        "minimal_countermodel": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 130,
+          "support": [
+            1,
+            7
+          ],
+          "type_bits_PMS": [
+            "001",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            2,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 20,
+          "support": [
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "010",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OAO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 48,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [],
+          "U": [
+            2,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 20,
+          "support": [
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "010",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OEO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [],
+          "U": [
+            2
+          ],
+          "cardinality": 1,
+          "mask": 4,
+          "support": [
+            2
+          ],
+          "type_bits_PMS": [
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 32,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIA",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIE",
+        "minimal_countermodel": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OII",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OIO",
+        "minimal_countermodel": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 160,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOA",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOE",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOI",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      },
+      {
+        "direction": "P->S",
+        "form": "OOO",
+        "minimal_countermodel": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "premise_model_count": 144,
+        "valid": false
+      }
+    ]
+  },
+  "scope": "Prior Analytics I.4; modern teaching reconstruction, not author algorithm",
+  "valid_forms": {
+    "all-nonempty": [
+      "AAA",
+      "AAI",
+      "AII",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "empty-allowed": [
+      "AAA",
+      "AII",
+      "EAE",
+      "EIO"
+    ]
+  },
+  "valid_reverse_forms": {
+    "all-nonempty": [
+      "AAI",
+      "AEO",
+      "AII",
+      "EAE",
+      "EAO",
+      "IEO"
+    ],
+    "empty-allowed": [
+      "AII",
+      "EAE",
+      "IEO"
+    ]
+  }
+}

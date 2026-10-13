@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i4",
     "path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
-    "stage": "primary_source_and_edition_verification",
-    "scope": "Complete Prior Analytics I.4, first-figure classification; ancient fourth-century-BCE composition, precise date unverified. Actual Greek and historical translation editions and applicable errata being verified; explicit chronological backfill."
+    "stage": "remote_exact_bytes_and_actual_github_browser_verification",
+    "scope": "Complete Prior Analytics I.4 (25b26–26b33); verified 1831 Greek scans and Owen 1853 translation with applicable errata; explicit ancient fourth-century-BCE chronological backfill, exact composition date unknown."
   },
   "last_completed": {
     "id": "berkeley-1710-principles-introduction",
@@ -16,14 +16,14 @@
     "scope": "Complete actual 1710 first-edition Introduction §§1–25, printed pp.1–39, including the formal ERRATA insertion at §10. Explicit chronological backfill. Bounded 1734 copytext comparison; no Part I body, full-book, exhaustive-corpus, cognitive-experiment, or direct-AI-influence claim.",
     "browser_review_report_sha256": "6a9b62f191da191c4b652f95e923c4bc338b55be24a27ddef97c2314642c47ba"
   },
-  "updated_at": "2026-10-13T22:44:00Z",
+  "updated_at": "2026-10-13T23:09:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Complete source/edition verification, original explanation and minimal models, followed by independent source, argument and code reviews.",
+  "next_action": "Verify all published bytes and preserved files, actual GitHub rendered documents/formulas/links, then finalize this sole active unit.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

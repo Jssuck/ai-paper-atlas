@@ -1,0 +1,122 @@
+{
+  "created_at_utc": "2026-10-13T22:59:11.383646+00:00",
+  "excluded_auditor_outputs": [
+    "CODE-AUDIT.zh-CN.md",
+    "CODE-AUDIT.manifest.json",
+    "audit-evidence/**"
+  ],
+  "git_repository_present": false,
+  "hash_algorithms": {
+    "git_blob_sha1": "SHA-1 over ASCII blob, space, decimal byte length, NUL, then raw file bytes; cross-checked with git hash-object --no-filters",
+    "sha256": "SHA-256 over raw file bytes"
+  },
+  "path_base": "directory containing this manifest",
+  "reviewed_file_count": 17,
+  "reviewed_files": [
+    {
+      "bytes": 6426,
+      "git_blob_sha1": "ca66269de96b8b1bee5e7b2b077c03353ab972d6",
+      "path": "README.md",
+      "sha256": "c976af0b2f791926e9b7109c1f936e064aca783749fa2f52f05d0196a609495c"
+    },
+    {
+      "bytes": 4955,
+      "git_blob_sha1": "12abe045b038fca9e4484f09bbfbf8423e8be602",
+      "path": "WALKTHROUGH.md",
+      "sha256": "c6c07b1a2fb1528370ffeb8551a3caf0fc4c898eb885bb11e3b11eab80774d4a"
+    },
+    {
+      "bytes": 7199,
+      "git_blob_sha1": "dc27a76e52ce64aa343e4c2d1dab9169fa8cebe6",
+      "path": "categorical.py",
+      "sha256": "77d9a3b288a70b5399850fc9d9a1b4312894995e082b939347a1e3a2ec6256d9"
+    },
+    {
+      "bytes": 1751,
+      "git_blob_sha1": "f4821c169dbec6b6ae4f708222e6c9867a0ab451",
+      "path": "logs/artifact-checks.txt",
+      "sha256": "fb34e915fccd30d1e0426b71f7d94a13f600a8c548bb811ce018bb88b17739cb"
+    },
+    {
+      "bytes": 322,
+      "git_blob_sha1": "a635722b9ab7fc431e312799504dbafe242cd677",
+      "path": "logs/environment.txt",
+      "sha256": "048b31c0f88b9ecac479c8cde4ab36312711b562dc060137982e82d269c0a96d"
+    },
+    {
+      "bytes": 3785,
+      "git_blob_sha1": "42ce3e518a5b4d55d0d2cc63595827cb623b2505",
+      "path": "logs/tests-O.txt",
+      "sha256": "6481955ea67cbfb4bdd996c9a8cb8c7952e84bad4ab6803cd34374b3724139a6"
+    },
+    {
+      "bytes": 3786,
+      "git_blob_sha1": "805422969e65132bed04289fa59988b9ba869228",
+      "path": "logs/tests-OO.txt",
+      "sha256": "41d3416363d47dd3ac08b8c8352bd46b1f5f41a19feaa994394be16220ef361d"
+    },
+    {
+      "bytes": 3782,
+      "git_blob_sha1": "c6227c9301cff5496e8882b371a1767075ff257f",
+      "path": "logs/tests-normal.txt",
+      "sha256": "cbe6d7ed298d000afae27ca0fdd2d0299e6cb560e297ed198bf33ec70c2aa9c9"
+    },
+    {
+      "bytes": 4386,
+      "git_blob_sha1": "6d08af480af83bec7590998b4394f1ec65e8c95f",
+      "path": "mutation_checks.py",
+      "sha256": "5bfbc1909b1a7c3e50b591b2f9d2c5b0227f8979c5b29b4953d729d96ab3c01a"
+    },
+    {
+      "bytes": 21028,
+      "git_blob_sha1": "64f7d83a603df8444bce1f798e50cd8be4c2e1cb",
+      "path": "results/forms.csv",
+      "sha256": "df8ae439d11c0dabdd7dad5f41ec990261b2522bffb8f69b03115d95a6c6a722"
+    },
+    {
+      "bytes": 21799,
+      "git_blob_sha1": "c556fabfa3e451d7d855687ed3da53729c1b7194",
+      "path": "results/mutations.json",
+      "sha256": "ddbcb0e910e8c784482df3af64e42d1db0f85e073b920bdb437a6368fa33ed41"
+    },
+    {
+      "bytes": 261,
+      "git_blob_sha1": "aaae03478d71a5a9e82b5ae337ca3d718b7efab2",
+      "path": "results/premise-pairs.csv",
+      "sha256": "6f83eac2cf7eaaa1ed52331d30afa68161cb9e3da39c6d7f70c7a025a2c67d09"
+    },
+    {
+      "bytes": 163083,
+      "git_blob_sha1": "dacb528e1399ca2eb6b2fe70533f330d0dce0b0a",
+      "path": "results/report.json",
+      "sha256": "a015b24ba975e3a65416bada2f42c2108980104b3f3b923edcef4a54e5ba6c53"
+    },
+    {
+      "bytes": 1965,
+      "git_blob_sha1": "8daf11db52d2b4b3844f4181abb28fbcabeec4e2",
+      "path": "results/walkthrough.txt",
+      "sha256": "310ae80d92b0696a8a69c67242c09e0268a8c316932be035b359b4eff76b7d3f"
+    },
+    {
+      "bytes": 2460,
+      "git_blob_sha1": "af13af36dc853c29227429bb209521a8a047adf3",
+      "path": "run_checks.sh",
+      "sha256": "0181c6f41fcd6ea77324ce3320d210404a020b735ea42fe1e013d69e39431b56"
+    },
+    {
+      "bytes": 15120,
+      "git_blob_sha1": "39f6126dff714f89350b80768a783500094fdc13",
+      "path": "tests/test_categorical.py",
+      "sha256": "cdcc9a711d967346b7348678b27ca9e761d636b192d7c9a5fca452002c428043"
+    },
+    {
+      "bytes": 5415,
+      "git_blob_sha1": "ae9ab9c8bbb9fefda8d1e8a1b075d2aba921d6f0",
+      "path": "walkthrough.py",
+      "sha256": "8081d3ab6dd4197f62a3dd0af0ded20844375dac89fcd363cd35b9c62a5ed963"
+    }
+  ],
+  "schema": "independent-code-audit-binding/v1",
+  "scope": "Modern set-semantics teaching reconstruction of Prior Analytics I.4; code, supplied documentation, tests, logs and generated results. Historical-source validation excluded.",
+  "status": "pass"
+}

@@ -1,0 +1,18 @@
+Verified deterministic bytes: walkthrough.txt command: ['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'walkthrough.py', '--format', 'human']
+Verified deterministic bytes: report.json command: ['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'walkthrough.py', '--format', 'json']
+Verified deterministic bytes: premise-pairs.csv command: ['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'walkthrough.py', '--format', 'pairs-csv']
+Verified deterministic bytes: forms.csv command: ['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', 'walkthrough.py', '--format', 'forms-csv']
+Targeted mutations killed by assertion: 16 / 16
+c976af0b2f791926e9b7109c1f936e064aca783749fa2f52f05d0196a609495c README.md
+c6c07b1a2fb1528370ffeb8551a3caf0fc4c898eb885bb11e3b11eab80774d4a WALKTHROUGH.md
+77d9a3b288a70b5399850fc9d9a1b4312894995e082b939347a1e3a2ec6256d9 categorical.py
+5bfbc1909b1a7c3e50b591b2f9d2c5b0227f8979c5b29b4953d729d96ab3c01a mutation_checks.py
+df8ae439d11c0dabdd7dad5f41ec990261b2522bffb8f69b03115d95a6c6a722 results/forms.csv
+ddbcb0e910e8c784482df3af64e42d1db0f85e073b920bdb437a6368fa33ed41 results/mutations.json
+6f83eac2cf7eaaa1ed52331d30afa68161cb9e3da39c6d7f70c7a025a2c67d09 results/premise-pairs.csv
+a015b24ba975e3a65416bada2f42c2108980104b3f3b923edcef4a54e5ba6c53 results/report.json
+310ae80d92b0696a8a69c67242c09e0268a8c316932be035b359b4eff76b7d3f results/walkthrough.txt
+0181c6f41fcd6ea77324ce3320d210404a020b735ea42fe1e013d69e39431b56 run_checks.sh
+cdcc9a711d967346b7348678b27ca9e761d636b192d7c9a5fca452002c428043 tests/test_categorical.py
+8081d3ab6dd4197f62a3dd0af0ded20844375dac89fcd363cd35b9c62a5ed963 walkthrough.py
+Exit status: 0

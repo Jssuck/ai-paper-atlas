@@ -1,0 +1,1363 @@
+{
+  "checks": {
+    "assertions": 31324,
+    "atomic_truths": 9180,
+    "exact_cli_outputs": 12,
+    "form_results": 256,
+    "labeled_atomic_compressions": 21024,
+    "labeled_models": 584,
+    "minimum_countermodels": 237,
+    "mutation_assertion_records": 16,
+    "nonvacuous_witnesses": 48
+  },
+  "independent_oracle": "explicit named Venn regions; cardinality of shared witnesses",
+  "minimum_countermodel_cardinalities": {
+    "all-nonempty P->S": {
+      "1": 8,
+      "2": 42,
+      "3": 8
+    },
+    "all-nonempty S->P": {
+      "1": 8,
+      "2": 44,
+      "3": 6
+    },
+    "empty-allowed P->S": {
+      "1": 39,
+      "2": 21,
+      "3": 1
+    },
+    "empty-allowed S->P": {
+      "1": 40,
+      "2": 20
+    }
+  },
+  "model_counts": {
+    "all-nonempty": 218,
+    "empty-allowed": 255
+  },
+  "premise_counts": {
+    "all-nonempty": {
+      "AA": 8,
+      "AE": 12,
+      "AI": 32,
+      "AO": 36,
+      "EA": 4,
+      "EE": 10,
+      "EI": 24,
+      "EO": 30,
+      "IA": 40,
+      "IE": 24,
+      "II": 160,
+      "IO": 144,
+      "OA": 36,
+      "OE": 22,
+      "OI": 152,
+      "OO": 138
+    },
+    "empty-allowed": {
+      "AA": 15,
+      "AE": 31,
+      "AI": 32,
+      "AO": 48,
+      "EA": 15,
+      "EE": 31,
+      "EI": 32,
+      "EO": 48,
+      "IA": 48,
+      "IE": 32,
+      "II": 160,
+      "IO": 144,
+      "OA": 48,
+      "OE": 32,
+      "OI": 160,
+      "OO": 144
+    }
+  },
+  "status": "pass",
+  "valid_forms": {
+    "all-nonempty": [
+      "AAA",
+      "AAI",
+      "AII",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "empty-allowed": [
+      "AAA",
+      "AII",
+      "EAE",
+      "EIO"
+    ]
+  },
+  "valid_reverse_forms": {
+    "all-nonempty": [
+      "AAI",
+      "AEO",
+      "AII",
+      "EAE",
+      "EAO",
+      "IEO"
+    ],
+    "empty-allowed": [
+      "AII",
+      "EAE",
+      "IEO"
+    ]
+  },
+  "witnesses": {
+    "all-nonempty": [
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "AE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "AO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "EE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "EO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "II"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "IO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            4
+          ],
+          "cardinality": 2,
+          "mask": 24,
+          "support": [
+            3,
+            4
+          ],
+          "type_bits_PMS": [
+            "011",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OI"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            4
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ],
+          "cardinality": 3,
+          "mask": 22,
+          "support": [
+            1,
+            2,
+            4
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010",
+            "100"
+          ]
+        },
+        "mode": "all-nonempty",
+        "pair": "OO"
+      }
+    ],
+    "empty-allowed": [
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "AE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "AO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "EE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5
+          ],
+          "cardinality": 1,
+          "mask": 32,
+          "support": [
+            5
+          ],
+          "type_bits_PMS": [
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1
+          ],
+          "cardinality": 1,
+          "mask": 2,
+          "support": [
+            1
+          ],
+          "type_bits_PMS": [
+            "001"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "EO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            7
+          ],
+          "cardinality": 1,
+          "mask": 128,
+          "support": [
+            7
+          ],
+          "type_bits_PMS": [
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3,
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            3
+          ],
+          "U": [
+            3,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 72,
+          "support": [
+            3,
+            6
+          ],
+          "type_bits_PMS": [
+            "011",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "II"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            5,
+            6
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 96,
+          "support": [
+            5,
+            6
+          ],
+          "type_bits_PMS": [
+            "101",
+            "110"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            6
+          ],
+          "cardinality": 2,
+          "mask": 66,
+          "support": [
+            1,
+            6
+          ],
+          "type_bits_PMS": [
+            "001",
+            "110"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "IO"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OA"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OE"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2,
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ],
+          "cardinality": 2,
+          "mask": 132,
+          "support": [
+            2,
+            7
+          ],
+          "type_bits_PMS": [
+            "010",
+            "111"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ],
+          "U": [
+            3
+          ],
+          "cardinality": 1,
+          "mask": 8,
+          "support": [
+            3
+          ],
+          "type_bits_PMS": [
+            "011"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OI"
+      },
+      {
+        "A_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ],
+          "U": [
+            2,
+            5
+          ],
+          "cardinality": 2,
+          "mask": 36,
+          "support": [
+            2,
+            5
+          ],
+          "type_bits_PMS": [
+            "010",
+            "101"
+          ]
+        },
+        "E_SP_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ],
+          "cardinality": 2,
+          "mask": 6,
+          "support": [
+            1,
+            2
+          ],
+          "type_bits_PMS": [
+            "001",
+            "010"
+          ]
+        },
+        "mode": "empty-allowed",
+        "pair": "OO"
+      }
+    ]
+  }
+}

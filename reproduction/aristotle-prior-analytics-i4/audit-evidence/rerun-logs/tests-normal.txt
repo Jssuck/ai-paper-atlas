@@ -1,0 +1,40 @@
+$ python -m unittest discover -s tests -v
+test_boolean_direction_is_strict (test_categorical.ModelValidationTests.test_boolean_direction_is_strict) ... ok
+test_empty_domain_rejected (test_categorical.ModelValidationTests.test_empty_domain_rejected) ... ok
+test_immutable_model (test_categorical.ModelValidationTests.test_immutable_model) ... ok
+test_kind_string_and_substring_boundaries (test_categorical.ModelValidationTests.test_kind_string_and_substring_boundaries) ... ok
+test_mask_numeric_boundaries (test_categorical.ModelValidationTests.test_mask_numeric_boundaries) ... ok
+test_masks_exhaustive_roundtrip (test_categorical.ModelValidationTests.test_masks_exhaustive_roundtrip) ... ok
+test_mode_boundaries (test_categorical.ModelValidationTests.test_mode_boundaries) ... ok
+test_model_argument_and_witness_boundaries (test_categorical.ModelValidationTests.test_model_argument_and_witness_boundaries) ... ok
+test_singleton_bit_encoding (test_categorical.ModelValidationTests.test_singleton_bit_encoding) ... ok
+test_support_container_boundaries (test_categorical.ModelValidationTests.test_support_container_boundaries) ... ok
+test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) ... ok
+test_support_range_and_order (test_categorical.ModelValidationTests.test_support_range_and_order) ... ok
+test_term_boundaries (test_categorical.ModelValidationTests.test_term_boundaries) ... ok
+test_cli_csv_shapes (test_categorical.OutputTests.test_cli_csv_shapes) ... ok
+test_cli_json_and_human (test_categorical.OutputTests.test_cli_json_and_human) ... ok
+test_cli_rejects_unknown_format (test_categorical.OutputTests.test_cli_rejects_unknown_format) ... ok
+test_model_serialization (test_categorical.OutputTests.test_model_serialization) ... ok
+test_pair_table_and_human_column_order (test_categorical.OutputTests.test_pair_table_and_human_column_order) ... ok
+test_serialization_stable_and_schema (test_categorical.OutputTests.test_serialization_stable_and_schema) ... ok
+test_all_countermodels_independently_and_minimal (test_categorical.SemanticTests.test_all_countermodels_independently_and_minimal) ... ok
+test_all_premise_pairs_have_models (test_categorical.SemanticTests.test_all_premise_pairs_have_models) ... ok
+test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... ok
+test_complement_pairs_and_empty_vacuity (test_categorical.SemanticTests.test_complement_pairs_and_empty_vacuity) ... ok
+test_enumeration_cardinality_then_lexicographic (test_categorical.SemanticTests.test_enumeration_cardinality_then_lexicographic) ... ok
+test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique) ... ok
+test_exact_forward_classification (test_categorical.SemanticTests.test_exact_forward_classification) ... ok
+test_exact_reverse_classification (test_categorical.SemanticTests.test_exact_reverse_classification) ... ok
+test_ie_reverse_does_not_supply_forward_conclusion (test_categorical.SemanticTests.test_ie_reverse_does_not_supply_forward_conclusion) ... ok
+test_nonproductive_pairs_have_two_nonvacuous_witnesses (test_categorical.SemanticTests.test_nonproductive_pairs_have_two_nonvacuous_witnesses) ... ok
+test_support_compression_preserves_repeated_individuals (test_categorical.SemanticTests.test_support_compression_preserves_repeated_individuals) ... ok
+test_symmetry_and_direction (test_categorical.SemanticTests.test_symmetry_and_direction) ... ok
+test_witness_absence_and_existential_weakening (test_categorical.SemanticTests.test_witness_absence_and_existential_weakening) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 4.996s
+
+OK
+
+Exit status: 0

@@ -1,0 +1,17 @@
+pair,original_strongest,empty-allowed_forward,empty-allowed_reverse,all-nonempty_forward,all-nonempty_reverse
+AA,A,A,,AI,I
+AE,,,,,O
+AI,I,I,I,I,I
+AO,,,,,
+EA,E,E,E,EO,EO
+EE,,,,,
+EI,O,O,,O,
+EO,,,,,
+IA,,,,,
+IE,,,O,,O
+II,,,,,
+IO,,,,,
+OA,,,,,
+OE,,,,,
+OI,,,,,
+OO,,,,,

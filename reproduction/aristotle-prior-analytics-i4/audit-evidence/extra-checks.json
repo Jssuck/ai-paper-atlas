@@ -1,0 +1,31 @@
+[
+  {
+    "check": "Python 3.10 syntax parse",
+    "path": "categorical.py",
+    "pass": true
+  },
+  {
+    "check": "Python 3.10 syntax parse",
+    "path": "walkthrough.py",
+    "pass": true
+  },
+  {
+    "check": "Python 3.10 syntax parse",
+    "path": "mutation_checks.py",
+    "pass": true
+  },
+  {
+    "check": "Python 3.10 syntax parse",
+    "path": "tests/test_categorical.py",
+    "pass": true
+  },
+  {
+    "check": "aggregate propagates a real test failure",
+    "exit_code": 1,
+    "pass": true
+  },
+  {
+    "check": "aggregate stops before optimized run after failure",
+    "pass": true
+  }
+]

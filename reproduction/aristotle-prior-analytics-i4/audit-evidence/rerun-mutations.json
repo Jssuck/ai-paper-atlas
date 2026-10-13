@@ -1,0 +1,295 @@
+{
+  "killed": 16,
+  "records": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "A_reverse_subset",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-xp8a6_94/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: False != True : ((1,), 'A', 'P', 'S')\n\n----------------------------------------------------------------------\nRan 1 test in 0.004s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "A_strict_subset",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-oxewtv22/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: False != True : ((0,), 'A', 'P', 'P')\n\n----------------------------------------------------------------------\nRan 1 test in 0.006s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_complement_pairs_and_empty_vacuity"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "A_add_existential_import",
+      "returncode": 1,
+      "test": "test_complement_pairs_and_empty_vacuity",
+      "test_output": "test_complement_pairs_and_empty_vacuity (test_categorical.SemanticTests.test_complement_pairs_and_empty_vacuity) ... FAIL\n\n======================================================================\nFAIL: test_complement_pairs_and_empty_vacuity (test_categorical.SemanticTests.test_complement_pairs_and_empty_vacuity)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-kwkverq2/tests/test_categorical.py\", line 164, in test_complement_pairs_and_empty_vacuity\n    self.assertNotEqual(m.holds(\"A\", subject, predicate), m.holds(\"O\", subject, predicate))\nAssertionError: False == False\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "E_inequality_instead_disjoint",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-yxrumcdq/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: False != True : ((0,), 'E', 'P', 'P')\n\n----------------------------------------------------------------------\nRan 1 test in 0.004s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "I_subset_instead_overlap",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-01mafwsl/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: False != True : ((1, 3), 'I', 'S', 'M')\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "O_reverse_difference",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-kevpp_le/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: True != False : ((1,), 'O', 'P', 'S')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "O_symmetric_difference",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-7g1tdk2g/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: True != False : ((1,), 'O', 'P', 'S')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_atomic_truth_against_independent_oracle"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "O_overlap_instead_difference",
+      "returncode": 1,
+      "test": "test_atomic_truth_against_independent_oracle",
+      "test_output": "test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle) ... FAIL\n\n======================================================================\nFAIL: test_atomic_truth_against_independent_oracle (test_categorical.SemanticTests.test_atomic_truth_against_independent_oracle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-fxj_a4kl/tests/test_categorical.py\", line 157, in test_atomic_truth_against_independent_oracle\n    self.assertEqual(m.holds(kind, subject, predicate),\nAssertionError: False != True : ((1,), 'O', 'S', 'P')\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_enumeration_complete_and_unique"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "omit_outside_all_type",
+      "returncode": 1,
+      "test": "test_enumeration_complete_and_unique",
+      "test_output": "test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique) ... FAIL\n\n======================================================================\nFAIL: test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-cxyjnpdp/tests/test_categorical.py\", line 140, in test_enumeration_complete_and_unique\n    self.assertEqual(len(values), 255)\nAssertionError: 127 != 255\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_enumeration_complete_and_unique"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "omit_all_three_type",
+      "returncode": 1,
+      "test": "test_enumeration_complete_and_unique",
+      "test_output": "test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique) ... FAIL\n\n======================================================================\nFAIL: test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-0ngt1z8h/tests/test_categorical.py\", line 140, in test_enumeration_complete_and_unique\n    self.assertEqual(len(values), 255)\nAssertionError: 127 != 255\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_enumeration_complete_and_unique"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "omit_eight_type_support",
+      "returncode": 1,
+      "test": "test_enumeration_complete_and_unique",
+      "test_output": "test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique) ... FAIL\n\n======================================================================\nFAIL: test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-q45jpkyu/tests/test_categorical.py\", line 140, in test_enumeration_complete_and_unique\n    self.assertEqual(len(values), 255)\nAssertionError: 254 != 255\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_enumeration_complete_and_unique"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "nonempty_any_not_all_terms",
+      "returncode": 1,
+      "test": "test_enumeration_complete_and_unique",
+      "test_output": "test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique) ... FAIL\n\n======================================================================\nFAIL: test_enumeration_complete_and_unique (test_categorical.SemanticTests.test_enumeration_complete_and_unique)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-jrwtflcx/tests/test_categorical.py\", line 143, in test_enumeration_complete_and_unique\n    self.assertEqual(len(nonempty), 218)\nAssertionError: 254 != 218\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_all_premise_pairs_have_models"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "major_argument_reversal",
+      "returncode": 1,
+      "test": "test_all_premise_pairs_have_models",
+      "test_output": "test_all_premise_pairs_have_models (test_categorical.SemanticTests.test_all_premise_pairs_have_models) ... FAIL\n\n======================================================================\nFAIL: test_all_premise_pairs_have_models (test_categorical.SemanticTests.test_all_premise_pairs_have_models)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-pbeg6xvk/tests/test_categorical.py\", line 184, in test_all_premise_pairs_have_models\n    self.assertEqual(analyze_form(*pair, \"A\", mode=mode).premise_model_count, expected)\nAssertionError: 31 != 15\n\n----------------------------------------------------------------------\nRan 1 test in 0.003s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_all_premise_pairs_have_models"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "minor_argument_reversal",
+      "returncode": 1,
+      "test": "test_all_premise_pairs_have_models",
+      "test_output": "test_all_premise_pairs_have_models (test_categorical.SemanticTests.test_all_premise_pairs_have_models) ... FAIL\n\n======================================================================\nFAIL: test_all_premise_pairs_have_models (test_categorical.SemanticTests.test_all_premise_pairs_have_models)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-mx80183i/tests/test_categorical.py\", line 184, in test_all_premise_pairs_have_models\n    self.assertEqual(analyze_form(*pair, \"A\", mode=mode).premise_model_count, expected)\nAssertionError: 31 != 15\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_exact_forward_classification"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "forward_reverse_swapped",
+      "returncode": 1,
+      "test": "test_exact_forward_classification",
+      "test_output": "test_exact_forward_classification (test_categorical.SemanticTests.test_exact_forward_classification) ... FAIL\n\n======================================================================\nFAIL: test_exact_forward_classification (test_categorical.SemanticTests.test_exact_forward_classification)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-bkwgenb0/tests/test_categorical.py\", line 193, in test_exact_forward_classification\n    self.assertEqual({r.form for r in results if r.valid}, expected[mode])\nAssertionError: Items in the first set but not the second:\n'IEO'\nItems in the second set but not the first:\n'EIO'\n'AAA'\n\n----------------------------------------------------------------------\nRan 1 test in 0.089s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v",
+        "-k",
+        "test_support_numeric_type_boundaries"
+      ],
+      "killed_by_assertion": true,
+      "mutation": "bool_accepted_as_membership_int",
+      "returncode": 1,
+      "test": "test_support_numeric_type_boundaries",
+      "test_output": "test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) ... \n  test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='False') ... FAIL\n  test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='True') ... FAIL\n  test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='1') ... FAIL\n\n======================================================================\nFAIL: test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='False')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-fpvo8550/tests/test_categorical.py\", line 64, in test_support_numeric_type_boundaries\n    with self.subTest(value=repr(value)), self.assertRaises(TypeError):\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: TypeError not raised\n\n======================================================================\nFAIL: test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='True')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-fpvo8550/tests/test_categorical.py\", line 64, in test_support_numeric_type_boundaries\n    with self.subTest(value=repr(value)), self.assertRaises(TypeError):\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: TypeError not raised\n\n======================================================================\nFAIL: test_support_numeric_type_boundaries (test_categorical.ModelValidationTests.test_support_numeric_type_boundaries) (value='1')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i4-mutation-fpvo8550/tests/test_categorical.py\", line 64, in test_support_numeric_type_boundaries\n    with self.subTest(value=repr(value)), self.assertRaises(TypeError):\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: TypeError not raised\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=3)\n"
+    }
+  ],
+  "scope": "16 targeted mutations; no claim of independent audit or universal fault coverage",
+  "total": 16
+}

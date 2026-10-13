@@ -47,7 +47,8 @@
       "CIII原信署1761-02-17，出版1768；1770仅为补本年，非独立期刊论文；CIV、整卷和全书仍未完成。",
       "九展示式不是九个独立现代等价类；A5需A存在，AOO及共同主项AAI补充按明示现代准则，不冒称正式历史勘误或完整Euler三段论体系。",
       "256原始掩码补外部见证后只有255个不同占位模型；A5有8原始/7不同反模型，不把重复当新反例；现代覆盖限固定三一元项的直言命题。",
-      "旧对象与历史中CIII未读/待补的描述保留其当时语境；本次当前状态只更新CIII复合底本完成，不关闭原1768缺字直接证据或CIV及旧书籍缺口。"
+      "旧对象与历史中CIII未读/待补的描述保留其当时语境；本次当前状态只更新CIII复合底本完成，不关闭原1768缺字直接证据或CIV及旧书籍缺口。",
+      "2026-10-13显式向前回填Aristotle I.4完整25b26–26b33；古代约年不冒充精确首刊年，1831/1837/1853分别作实读版本年。只加一单元，不宣称最早逻辑/AI文献或古代到近代连续覆盖；所有旧历史与缺口保留。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。",
     "current_unit_notice": "旧scope文字保留其历史记录语境；当前新完成单位以current_selection和各effective_status的最新条目为准。本次仅追加CV，旧“CV未读”等为旧时点状态，不表示旧版本缺口已补齐。",
@@ -80,51 +81,62 @@
     "current_unit_notice_berkeley_intro": "仅新增1710首版Berkeley导论1–39、§§1–25一个完整单位，明确前史回填；1734关键增删不倒写入首版。旧有界Berkeley背景按历史时点保留，所有旧对象、历史、缺口与有效状态原样不变，不完成全书或穷尽前驱。"
   },
   "current_selection": {
-    "candidate_id": "berkeley-1710-principles-introduction",
+    "candidate_id": "aristotle-prior-analytics-i4",
     "authors": [
-      "George Berkeley"
+      "Aristotle"
     ],
-    "title": "A Treatise Concerning the Principles of Human Knowledge. Part I, Introduction",
-    "chronology_year": 1710,
-    "chronology_year_basis": "实际首版题名页印年1710；明确前史回填，不虚构确切发行日。",
+    "title": "Analytica priora / Prior Analytics, Book I, chapter 4",
+    "chronology_year": null,
+    "chronology_label": "公元前四世纪作品；确切成书年份未核",
+    "chronology_year_basis": "按作者所处时代作古代回填；不把常见约350 BCE标签当作已核精确年。1831/1837为希腊编辑年，1853为译本年。",
     "read_edition": {
-      "year": 1710,
-      "publisher": "Dublin: Printed by Aaron Rhames, for Jeremy Pepyat",
-      "pages": "1–39",
-      "scan_leaves": "11–49；题名3，末界50空白"
+      "primary_greek": {
+        "editor": "Immanuel Bekker",
+        "year": 1831,
+        "publisher": "Berlin: Georg Reimer / Academia Regia Borussica",
+        "pages": "25b26–26b33",
+        "source_images": [
+          "https://archive.org/download/aristotelisopera01arisrich/page/n40.jpg",
+          "https://archive.org/download/aristotelisopera01arisrich/page/n41.jpg"
+        ]
+      },
+      "comparison_greek": {
+        "year": 1837,
+        "publisher": "Oxford University Press",
+        "access": "Graeco-Arabic完整电子转录；关联TEI不是独立手稿见证；1837原页图未目验"
+      },
+      "english": {
+        "translator": "Octavius Freire Owen",
+        "year": 1853,
+        "publisher": "London: Henry G. Bohn",
+        "pages": "85–89",
+        "scope": "全章正文及适用脚注/例式，题名和卷首ERRATA核图"
+      }
     },
-    "document_type": "完整书籍导论Introduction §§1–25；非期刊论文，非Part I全部正文，非全书",
-    "pages": "原印1–39完整39页，全部25节含跨页连续论证",
-    "why_selected": "先核最新README、1925项未截断已刊树、idle进度、年代注册及Turing v2基准。前篇Locke II.XI只把Berkeley导论10–13作为有界比较；本轮补全其直接反驳、一般证明、定义与符号运算及去词语内省的完整论证。具体历史争论缺口驱动，不按名气或卷内相邻自动选；更早Port-Royal/Descartes及既有逻辑数学缺口仍开放。",
-    "mathematical_boundary": "现代有限指称与代表实例反例；欧氏辅助线的显式角关系、精确有理线性证书可靠性、零权重支持及反模型；加法乘法多项式规范化和同时替换的语义保持。一般证明、有限测试及无实跑的机制思想实验明确分离。不验证真实心理机制或否认一切概念。",
-    "completion": "完整导论原创中文与20题答案；实际首版逐页图像、版本区别、勘误检索范围及有界Locke比較；标准库三模式实跑与独立来源/完整论证数学/代码审计。远端及实际浏览器由父任务另核。",
-    "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
-    "source_ledger_path": "papers/1710/berkeley-principles-introduction.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/1710/berkeley-principles-introduction.audit.zh-CN.md",
-    "reproduction_path": "reproduction/berkeley-1710-principles-introduction/README.md",
-    "source_url": "https://archive.org/download/berkeleyhumanknowledge/berkeleyhumanknowledge.pdf",
+    "document_type": "完整书籍章节I.4；非期刊论文、非整卷或全部工具论",
+    "pages": "完整25b26–26b33；I.5从26b34开始",
+    "why_selected": "完整读当前README、候选注册、进度与Turing深读v2基准后，对既存古代/近代缺口按原文可得、完整论证边界、推理表征内容和可核性共同调查。I.4提供四条直接推导、逐类反例及完整分类，且1831希腊原页实际可读；非按名气、非自动相邻推进、非最早或穷尽宣称。",
+    "mathematical_boundary": "现代三一元词项集合语义、空项与全非空政策、四条一般证明和十二失败前提对的非空反模型；八类型保持性覆盖任意含无限论域，255/218容斥与代码有限枚举分开。正向S→P与反向P→S显式区分；不实现模态、计数或二元关系。",
+    "completion": "完整中文解读、20题及答案、原文定位账本、版本/校勘/译本勘误边界、标准库三模式实跑和分开的来源/全文论证数学/代码审计。远端字节及GitHub浏览器验收另行执行。",
+    "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
+    "source_ledger_path": "papers/ancient/aristotle-prior-analytics-i4.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/ancient/aristotle-prior-analytics-i4.audit.zh-CN.md",
+    "source_audit_path": "papers/ancient/aristotle-prior-analytics-i4.source-audit.zh-CN.md",
+    "reproduction_path": "reproduction/aristotle-prior-analytics-i4/README.md",
+    "source_url": "https://archive.org/details/aristotelisopera01arisrich",
     "errata": {
-      "scan_leaf": 10,
-      "applicable": [
-        {
-          "printed_page": 12,
-          "line": 5,
-          "section": "Introduction10",
-          "action": "在General Ideas whatsoever后插入To be plain起整段；首版正式修正而非1734才新增。"
-        }
-      ],
-      "scope": "同册勘误页全部核图，其余表列60–187页在导论之外；不宣称不存在其他印本差异。"
+      "greek": "1831印刷25/26页适用异文装置核读，非作者勘误；仅有限前后页与OCR搜索未见独立勘误表，不宣称全部更正史完成。",
+      "english": "Owen1853卷首ERRATA涉及219/273/594，未列本章85–89；不等于本章无翻译问题。"
     },
     "version_cautions": [
-      "常见EPTO与TCD1734 copytext不是1710主本；§10 To be plain段由首版ERRATA正式插入12页第5行后；§16选择注意/Peter段才不见于首版正文和该勘误。",
-      "1710§20 Aristotle习惯联结句与§21语言妨碍/促进科学的反问保留；不把后版删改无声写回首版。",
-      "Berkeley1710所引Locke动物推理有some of them in certain Instances限定，1690首版II.XI无此限定。"
+      "希腊26b25例词为马，Owen1853第89页为人；保留读数差异，不无声改写或冒称正式勘误。",
+      "1837电子转录与First1KGreek TEI承接同一来源，不计独立手稿校勘；1831两原页为实际影像依据。",
+      "Owen Ex.1–7及后世引注属于译编层；AEIO/PMS/集合/代码为现代重建。"
     ],
     "limits": [
-      "只完成1710导论1–39，不完成Part I正文、全书、1734全版对勘或其他1710印本变体。",
-      "III.III.6、IV.vii.9、III.VI.39首先作为Berkeley内引位置，不计新增完成的Locke章节。",
-      "内省普遍性、儿童学习、语言导致情绪和思想史因果主张不由有限代码认证。",
-      "所有旧目录、候选、历史、缺口和有效状态保留；Condillac I.I正式勘误继续解决，II.VII164内证仍非正式勘误。"
+      "只完成I.4；I.1–3所需定义和I.7开头只作有界上下文，邻章和全书未完成。",
+      "未核精确古代写作年份、全部更早材料、手稿谱系、现代校本/完整修订史或AI直接影响链。",
+      "所有旧候选、历史、有效状态、版本和书籍缺口保留；Locke/Berkeley已刊更正和Condillac勘误状态不变。"
     ]
   },
   "earlier_gap_priority": [
@@ -2125,6 +2137,65 @@
         "内省普遍性、儿童学习、语言导致情绪和思想史因果主张不由有限代码认证。",
         "所有旧目录、候选、历史、缺口和有效状态保留；Condillac I.I正式勘误继续解决，II.VII164内证仍非正式勘误。"
       ]
+    },
+    {
+      "candidate_id": "aristotle-prior-analytics-i4",
+      "authors": [
+        "Aristotle"
+      ],
+      "title": "Analytica priora / Prior Analytics, Book I, chapter 4",
+      "chronology_year": null,
+      "chronology_label": "公元前四世纪作品；确切成书年份未核",
+      "chronology_year_basis": "按作者所处时代作古代回填；不把常见约350 BCE标签当作已核精确年。1831/1837为希腊编辑年，1853为译本年。",
+      "read_edition": {
+        "primary_greek": {
+          "editor": "Immanuel Bekker",
+          "year": 1831,
+          "publisher": "Berlin: Georg Reimer / Academia Regia Borussica",
+          "pages": "25b26–26b33",
+          "source_images": [
+            "https://archive.org/download/aristotelisopera01arisrich/page/n40.jpg",
+            "https://archive.org/download/aristotelisopera01arisrich/page/n41.jpg"
+          ]
+        },
+        "comparison_greek": {
+          "year": 1837,
+          "publisher": "Oxford University Press",
+          "access": "Graeco-Arabic完整电子转录；关联TEI不是独立手稿见证；1837原页图未目验"
+        },
+        "english": {
+          "translator": "Octavius Freire Owen",
+          "year": 1853,
+          "publisher": "London: Henry G. Bohn",
+          "pages": "85–89",
+          "scope": "全章正文及适用脚注/例式，题名和卷首ERRATA核图"
+        }
+      },
+      "document_type": "完整书籍章节I.4；非期刊论文、非整卷或全部工具论",
+      "pages": "完整25b26–26b33；I.5从26b34开始",
+      "why_selected": "完整读当前README、候选注册、进度与Turing深读v2基准后，对既存古代/近代缺口按原文可得、完整论证边界、推理表征内容和可核性共同调查。I.4提供四条直接推导、逐类反例及完整分类，且1831希腊原页实际可读；非按名气、非自动相邻推进、非最早或穷尽宣称。",
+      "mathematical_boundary": "现代三一元词项集合语义、空项与全非空政策、四条一般证明和十二失败前提对的非空反模型；八类型保持性覆盖任意含无限论域，255/218容斥与代码有限枚举分开。正向S→P与反向P→S显式区分；不实现模态、计数或二元关系。",
+      "completion": "完整中文解读、20题及答案、原文定位账本、版本/校勘/译本勘误边界、标准库三模式实跑和分开的来源/全文论证数学/代码审计。远端字节及GitHub浏览器验收另行执行。",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
+      "source_ledger_path": "papers/ancient/aristotle-prior-analytics-i4.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/ancient/aristotle-prior-analytics-i4.audit.zh-CN.md",
+      "source_audit_path": "papers/ancient/aristotle-prior-analytics-i4.source-audit.zh-CN.md",
+      "reproduction_path": "reproduction/aristotle-prior-analytics-i4/README.md",
+      "source_url": "https://archive.org/details/aristotelisopera01arisrich",
+      "errata": {
+        "greek": "1831印刷25/26页适用异文装置核读，非作者勘误；仅有限前后页与OCR搜索未见独立勘误表，不宣称全部更正史完成。",
+        "english": "Owen1853卷首ERRATA涉及219/273/594，未列本章85–89；不等于本章无翻译问题。"
+      },
+      "version_cautions": [
+        "希腊26b25例词为马，Owen1853第89页为人；保留读数差异，不无声改写或冒称正式勘误。",
+        "1837电子转录与First1KGreek TEI承接同一来源，不计独立手稿校勘；1831两原页为实际影像依据。",
+        "Owen Ex.1–7及后世引注属于译编层；AEIO/PMS/集合/代码为现代重建。"
+      ],
+      "limits": [
+        "只完成I.4；I.1–3所需定义和I.7开头只作有界上下文，邻章和全书未完成。",
+        "未核精确古代写作年份、全部更早材料、手稿谱系、现代校本/完整修订史或AI直接影响链。",
+        "所有旧候选、历史、有效状态、版本和书籍缺口保留；Locke/Berkeley已刊更正和Condillac勘误状态不变。"
+      ]
     }
   ],
   "next_source_gap": {
@@ -3205,6 +3276,13 @@
       "completed_on": "2026-10-12",
       "scope": "1710 first edition Introduction §§1–25 pp1–39, primary images and bounded edition/errata checks. One new unit; remote/browser acceptance follows separately.",
       "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md"
+    },
+    {
+      "event": "complete_bounded_reading_unit",
+      "candidate_id": "aristotle-prior-analytics-i4",
+      "completed_on": "2026-10-13",
+      "scope": "One complete ancient chapter I.4,25b26–26b33;1831 Greek images,1837 electronic comparison,1853 English pp85–89 and applicable editorial apparatus/errata scope. Explicit backward fill; remote/browser acceptance follows separately.",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [
@@ -3471,6 +3549,11 @@
       "candidate_id": "berkeley-1710-principles-introduction",
       "status": "bounded_introduction_only_remaining_gaps_open",
       "gap": "确切发行日、更多1710同版见证、1734原版全部对勘及完整修订/勘误史、Part I正文与全部Berkeley著作未完成。其他Locke被引章只有明确有界核读，不把引文等同全章。历史心理/动物/儿童/语言作用及内省可靠性无实证认证；无限词项域、完整几何形式化、自动证书搜索、除法定义域扩展未实现。既有Port-Royal/Descartes、书籍、Euler版本、Curry/Church等缺口全部保留；Condillac I.I已解正式勘误和II.VII非正式校读不变。"
+    },
+    {
+      "candidate_id": "aristotle-prior-analytics-i4",
+      "status": "bounded_chapter_only_remaining_gaps_open",
+      "gap": "Aristotle其他章和全部工具论、具体成书顺序、更早古代材料与其他文明推理文本、Galen完整章节和勘误、Port-Royal/Descartes/Bacon及其他全部原缺口仍开放。1837原页图、全部手稿/现代校本/异文语义和修订史、直接影响链未完成。邻章定义或I.7反向段不算新增完成单元。"
     }
   ],
   "effective_status": {
@@ -4020,6 +4103,12 @@
       "article_path": "papers/1710/berkeley-principles-introduction.zh-CN.md",
       "version": "v1",
       "scope": "实际1710首版完整Introduction §§1–25原印1–39，首版图像和有界版本/勘误核查；完整中文论证、20题答案、一般证明与有限标准库实跑；非全书或历史穷尽。"
+    },
+    "aristotle-prior-analytics-i4": {
+      "status": "completed_bounded_reading",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
+      "version": "v1",
+      "scope": "古代完整章节I.4，实际1831希腊扫描/1837转录/1853英译分层核读，四路线与十二反例类、20有解练习、现代一般证明和真实有限实跑；非全书或穷尽历史。"
     }
   },
   "latest_quality_correction": {

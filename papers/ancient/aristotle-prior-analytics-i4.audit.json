@@ -1,0 +1,133 @@
+{
+  "schema": "independent-argument-mathematics-audit-v1",
+  "unit": "Aristotle Prior Analytics I.4",
+  "review_date_utc": "2026-10-13",
+  "status": "passed_with_explicit_scope",
+  "independent_from_main_author_and_implementation": true,
+  "human_peer_review_or_formal_proof_assistant_certification": false,
+  "scope": {
+    "entire_main_article": true,
+    "all_16_premise_pairs": true,
+    "all_12_nonproductive_pairs": true,
+    "general_support_compression_proof": true,
+    "answered_exercises_reviewed": 20,
+    "empty_and_nonempty_regimes": true,
+    "reverse_conclusion_boundary": true
+  },
+  "results": {
+    "canonical_support_counts": {
+      "empty-allowed": 255,
+      "all-nonempty": 218
+    },
+    "forward_valid_forms": {
+      "empty-allowed": [
+        "AAA",
+        "AII",
+        "EAE",
+        "EIO"
+      ],
+      "all-nonempty": [
+        "AAA",
+        "AAI",
+        "AII",
+        "EAE",
+        "EAO",
+        "EIO"
+      ]
+    },
+    "reverse_valid_forms": {
+      "empty-allowed": [
+        "AII",
+        "EAE",
+        "IEO"
+      ],
+      "all-nonempty": [
+        "AAI",
+        "AEO",
+        "AII",
+        "EAE",
+        "EAO",
+        "IEO"
+      ]
+    },
+    "rerun_tests": {
+      "normal": 32,
+      "-O": 32,
+      "-OO": 32
+    },
+    "serialized_json_matches_fresh_execution": true,
+    "human_output_matches_fresh_execution": true
+  },
+  "material_findings_open": [],
+  "resolved_findings": [
+    "Human output forward/reverse column mismatch",
+    "G1-G4 coverage cross-reference",
+    "G4 witness phrasing and successful-pair exclusion examples",
+    "Relative strength of existence policies",
+    "Overbroad counting-language boundary",
+    "README link and already-completed minimum-countermodel capability"
+  ],
+  "reviewed_files": [
+    {
+      "path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
+      "bytes": 32523,
+      "sha256": "ca22501c098e485e635a98eaa797d80bf45f362ebb2bc92e277ae41a25967258",
+      "git_blob_sha1": "23a0023f22acf5a5eab5ee1b755ce6af64ae5770"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/README.md",
+      "bytes": 6426,
+      "sha256": "c976af0b2f791926e9b7109c1f936e064aca783749fa2f52f05d0196a609495c",
+      "git_blob_sha1": "ca66269de96b8b1bee5e7b2b077c03353ab972d6"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/WALKTHROUGH.md",
+      "bytes": 4955,
+      "sha256": "c6c07b1a2fb1528370ffeb8551a3caf0fc4c898eb885bb11e3b11eab80774d4a",
+      "git_blob_sha1": "12abe045b038fca9e4484f09bbfbf8423e8be602"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/categorical.py",
+      "bytes": 7199,
+      "sha256": "77d9a3b288a70b5399850fc9d9a1b4312894995e082b939347a1e3a2ec6256d9",
+      "git_blob_sha1": "dc27a76e52ce64aa343e4c2d1dab9169fa8cebe6"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/walkthrough.py",
+      "bytes": 5415,
+      "sha256": "8081d3ab6dd4197f62a3dd0af0ded20844375dac89fcd363cd35b9c62a5ed963",
+      "git_blob_sha1": "ae9ab9c8bbb9fefda8d1e8a1b075d2aba921d6f0"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/tests/test_categorical.py",
+      "bytes": 15120,
+      "sha256": "cdcc9a711d967346b7348678b27ca9e761d636b192d7c9a5fca452002c428043",
+      "git_blob_sha1": "39f6126dff714f89350b80768a783500094fdc13"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/results/report.json",
+      "bytes": 163083,
+      "sha256": "a015b24ba975e3a65416bada2f42c2108980104b3f3b923edcef4a54e5ba6c53",
+      "git_blob_sha1": "dacb528e1399ca2eb6b2fe70533f330d0dce0b0a"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i4/results/walkthrough.txt",
+      "bytes": 1965,
+      "sha256": "310ae80d92b0696a8a69c67242c09e0268a8c316932be035b359b4eff76b7d3f",
+      "git_blob_sha1": "8daf11db52d2b4b3844f4181abb28fbcabeec4e2"
+    }
+  ],
+  "audit_report": {
+    "path": "papers/ancient/aristotle-prior-analytics-i4.audit.zh-CN.md",
+    "bytes": 12175,
+    "sha256": "4475b78cd7b521b961a28c8ea2c68de8876dd67d7a3e9cfa31a4d5de230ad305",
+    "git_blob_sha1": "f80eef3331426efa2bdec7b7486bfd30d2893172"
+  },
+  "binding_rule": "Any byte change to a reviewed file requires renewed review and updated binding. This JSON does not hash itself.",
+  "limits": [
+    "Does not certify all bibliographic claims or all manuscript variants.",
+    "Tests are implementation-author tests independently rerun, not newly authored independent tests.",
+    "Review feedback included countermodel constructions incorporated by the main author.",
+    "No claim that the modern set model was Aristotle's algorithm or uniquely settles existential-import interpretation."
+  ]
+}
