@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i1",
     "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
-    "stage": "primary_source_and_edition_verification",
+    "stage": "remote_bytes_and_actual_github_browser_review",
     "scope": "Complete Prior Analytics I.1 (24a10–24b30), Greek Bekker1831 and Owen1853 translation with notes and applicable errata. Explicit prerequisite backfill; chapter order does not establish composition chronology."
   },
   "last_completed": {
@@ -16,14 +16,14 @@
     "scope": "Complete Prior Analytics I.4 (25b26–26b33); actual 1831 Greek printed scans and Owen 1853 translation including applicable errata, with bounded 1837 transcription and I.7 context. Ancient fourth-century-BCE chronological backfill; precise composition date unknown. No whole-book, exhaustive-predecessor, author-algorithm or direct-AI-influence claim.",
     "browser_review_report_sha256": "18ab708435962923a9d86aca31dd89512dbd4769657dad2ff6a1938851123524"
   },
-  "updated_at": "2026-10-13T23:39:40Z",
+  "updated_at": "2026-10-14T00:04:42Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify primary text and edition apparatus, reconstruct the full argument with minimal teaching models, and complete independent reviews.",
+  "next_action": "Verify all published bytes, preserve unrelated files, and complete independent actual GitHub browser review before marking this unit complete.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

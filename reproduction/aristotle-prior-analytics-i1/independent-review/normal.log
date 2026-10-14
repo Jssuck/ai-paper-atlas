@@ -1,0 +1,9 @@
+UTC start: 2026-10-13T23:51:09.258783+00:00
+Command: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B independent-review/audit_checks.py
+PASS input_and_dependency_checks
+PASS support_and_labelled_oracle
+PASS exhaustive_rule_acceptance
+PASS full_entailment_oracle
+{"counts": {"admissibility_cases": 2106, "certificate_rule_acceptance_cases": 187920, "dependency_dag_cases": 2, "full_entails_calls": 34740, "invalid_inputs_rejected": 76, "labelled_models": 5050, "labelled_truth_cases": 174040, "returned_countermodels": 18981, "rule_soundness_model_cases": 29835, "support_policies": 14, "support_truth_cases": 9432, "valid_rule_instances": 117}, "passed": true, "quick": false}
+
+Exit code: 0

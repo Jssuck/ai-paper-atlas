@@ -1,0 +1,539 @@
+{
+  "audit_report": {
+    "bytes": 8493,
+    "path": "reproduction/aristotle-prior-analytics-i1/CODE-AUDIT.zh-CN.md",
+    "sha256": "629e610f0f72b250cea16fb9f4264343e2b2e5fcf5e41a7b49460b8e87904f30"
+  },
+  "audited_artifacts": [
+    {
+      "bytes": 34442,
+      "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+      "sha256": "e5a6a475a06d12c2ff75134440d63082017e6b2c247452f5bb5f939a7b6596d3"
+    },
+    {
+      "bytes": 6647,
+      "path": "reproduction/aristotle-prior-analytics-i1/logic.py",
+      "sha256": "d154c720642a31779315d7df7142d1cf4af57d1ca239d1e9b011eda5c6260d7a"
+    },
+    {
+      "bytes": 4784,
+      "path": "reproduction/aristotle-prior-analytics-i1/proofs.py",
+      "sha256": "915f329ce4a4d601a44cd0b372a1b25017aa8d7119523dcd56586e99d14c0bb4"
+    },
+    {
+      "bytes": 8822,
+      "path": "reproduction/aristotle-prior-analytics-i1/demo.py",
+      "sha256": "68c9b596a429da64f654c283afde82d1ffe11b5c5d527ebf6c5e2677c429c186"
+    },
+    {
+      "bytes": 21744,
+      "path": "reproduction/aristotle-prior-analytics-i1/test_model.py",
+      "sha256": "85c19d327d88f976f5e9c7e07e0edfb174326cd97271fb94ef75450d66e3e190"
+    },
+    {
+      "bytes": 2429,
+      "path": "reproduction/aristotle-prior-analytics-i1/verify.py",
+      "sha256": "493a78f4a12f943a32a18dd38131f0b3ae01d868d9c16dfe6105b5016964d4fc"
+    },
+    {
+      "bytes": 9602,
+      "path": "reproduction/aristotle-prior-analytics-i1/README.md",
+      "sha256": "ac62b1d2ea69296413a4abb9aebcd80fb7abdda299d78ed5f1830e13691232eb"
+    },
+    {
+      "bytes": 7628,
+      "path": "reproduction/aristotle-prior-analytics-i1/WALKTHROUGH.zh-CN.md",
+      "sha256": "d1bf1fde507dd5df05367fa8bdf5bc59c83ad5d320ff4da14c55c3b6cdcd99c4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/report.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 12042,
+      "path": "reproduction/aristotle-prior-analytics-i1/verification.txt",
+      "sha256": "167a3937c3e6fdb36628f271b497cd78a23d91d0b596a29a2b265891316be41f"
+    },
+    {
+      "bytes": 8493,
+      "path": "reproduction/aristotle-prior-analytics-i1/CODE-AUDIT.zh-CN.md",
+      "sha256": "629e610f0f72b250cea16fb9f4264343e2b2e5fcf5e41a7b49460b8e87904f30"
+    },
+    {
+      "bytes": 723,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/O.log",
+      "sha256": "d2bf6a01a5cf34abcbcb4965cf3f2b9e25809cb825bdcb2b5280bb4a786298e2"
+    },
+    {
+      "bytes": 724,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/OO.log",
+      "sha256": "078e3de4021e51deb7370caba947d9efaa6b87e2a4bf2a5e6a2b7a250752b0af"
+    },
+    {
+      "bytes": 15733,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py",
+      "sha256": "21111c5fa53f9224f13ddf0de2b693ed1de4c871943505028f2f5aa05cd96618"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 995,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/initial-probe.log",
+      "sha256": "0ff9800bd36fdebab89c4235b3e7b16b430e8881f0a9f86706dfe2d26e55ac53"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-A_negation.log",
+      "sha256": "03ef461806beb18ac49a15c3d771f30fa6d1784c3f2fab4284497365dda5e37a"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-E_negation.log",
+      "sha256": "fbcb3dfb2c64307593844af6b79a30779512f16a24c8188ec24b64c62b90e161"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-I_negation.log",
+      "sha256": "f684f77fc680271bf1b5b01c59a0be914b823e5d6c374a8b1881a42836d5e33d"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-O_negation.log",
+      "sha256": "0654eb26e56c1528e4400d2d5d86a1940c1b47618a1ba138fee10e95b2941cac"
+    },
+    {
+      "bytes": 1200,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-accept_any_final_claim.log",
+      "sha256": "b230677afbd7f53b3955c2b84b89a7cae9c9ede7e32c40b08add4c0fbb138cfa"
+    },
+    {
+      "bytes": 1229,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-all_premises_dependencies.log",
+      "sha256": "c9e43f8412a671a9264968c7860a17d3de887b8aaeede70ab9d7fc794e7ee94e"
+    },
+    {
+      "bytes": 1204,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-allow_imported_claim.log",
+      "sha256": "b1ee4f10f299c53e4627885812202dd7a8d3315411a40985afffa88766645d43"
+    },
+    {
+      "bytes": 1220,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-ignore_nonempty_policy.log",
+      "sha256": "79cd24129c1cf48aed210e8f122a27f58927de6c3f3e3c1e963af56ffa28b98e"
+    },
+    {
+      "bytes": 1329,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-reverse_E_conversion.log",
+      "sha256": "263bec243d243b7773d01ef9b7d2b3a3956e8267414cebe85ba4781892b2dd3c"
+    },
+    {
+      "bytes": 1211,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-skip_support.log",
+      "sha256": "5911df63b4f81e5c2c8806a1e4957c2e8253e79edba23f194330f293f24566ae"
+    },
+    {
+      "bytes": 1381,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-wrong_I_output.log",
+      "sha256": "31615e443ab600a54e7e05f2886cff9bb08f66a98be13068487e35b751f746e2"
+    },
+    {
+      "bytes": 1387,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-wrong_O_output.log",
+      "sha256": "9022603c9b0aa67e6543b340120ca1fd7e299e93dc908ba46bfcae8022968782"
+    },
+    {
+      "bytes": 6186,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation-results.json",
+      "sha256": "37134585c515103bf4bbc99afa5ef44fa75aea02cfb687e8e256998b0d006587"
+    },
+    {
+      "bytes": 6186,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation-runner.log",
+      "sha256": "37134585c515103bf4bbc99afa5ef44fa75aea02cfb687e8e256998b0d006587"
+    },
+    {
+      "bytes": 3880,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation_checks.py",
+      "sha256": "58845af94bc220c2e109ea671a8b3845fe862f7017b077ba03fb4951fa413a57"
+    },
+    {
+      "bytes": 720,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/normal.log",
+      "sha256": "cca332a64a0486fc3d9c4e70590b78a1c9554d67c326a0c57a86277c528229b7"
+    },
+    {
+      "bytes": 114,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/report-validation.log",
+      "sha256": "648a3b58ae6f2d8e24cd3126781e2b0b25d72508837c55d4cdae1062a99eb6e3"
+    },
+    {
+      "bytes": 5443,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/report_checks.py",
+      "sha256": "367065d69f4e2077b5f37ca9613d7fdecafb463d24f2339f744bab5f9ae49ef6"
+    },
+    {
+      "bytes": 6985,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/run-results.json",
+      "sha256": "aa9fee33b7f5163b481718059daf08038c51edd199d9c80bc19460a7a20805b1"
+    },
+    {
+      "bytes": 2973,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/run_review.py",
+      "sha256": "2db58df0c0614076907d1f0138dba0ae62b28be152de9253b69c1fa42cc253b7"
+    },
+    {
+      "bytes": 6985,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/runner.log",
+      "sha256": "aa9fee33b7f5163b481718059daf08038c51edd199d9c80bc19460a7a20805b1"
+    },
+    {
+      "bytes": 3819,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/seal_audit.py",
+      "sha256": "6d71fb5bf54410ea5c6e6e3276634fb2fa28c3ba735d540c6a444747d3ad5ac7"
+    }
+  ],
+  "finding": {
+    "id": "I1-CODE-01",
+    "status": "fixed_and_retested",
+    "summary": "Revalidate frozen dataclass fields at public API boundaries; reject forged negative/bool indices and incomplete objects."
+  },
+  "independent_evidence": [
+    {
+      "bytes": 723,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/O.log",
+      "sha256": "d2bf6a01a5cf34abcbcb4965cf3f2b9e25809cb825bdcb2b5280bb4a786298e2"
+    },
+    {
+      "bytes": 724,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/OO.log",
+      "sha256": "078e3de4021e51deb7370caba947d9efaa6b87e2a4bf2a5e6a2b7a250752b0af"
+    },
+    {
+      "bytes": 15733,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py",
+      "sha256": "21111c5fa53f9224f13ddf0de2b693ed1de4c871943505028f2f5aa05cd96618"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-O-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-OO-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed0.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed141.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/demo-normal-seed271828.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 995,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/initial-probe.log",
+      "sha256": "0ff9800bd36fdebab89c4235b3e7b16b430e8881f0a9f86706dfe2d26e55ac53"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-A_negation.log",
+      "sha256": "03ef461806beb18ac49a15c3d771f30fa6d1784c3f2fab4284497365dda5e37a"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-E_negation.log",
+      "sha256": "fbcb3dfb2c64307593844af6b79a30779512f16a24c8188ec24b64c62b90e161"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-I_negation.log",
+      "sha256": "f684f77fc680271bf1b5b01c59a0be914b823e5d6c374a8b1881a42836d5e33d"
+    },
+    {
+      "bytes": 1241,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-O_negation.log",
+      "sha256": "0654eb26e56c1528e4400d2d5d86a1940c1b47618a1ba138fee10e95b2941cac"
+    },
+    {
+      "bytes": 1200,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-accept_any_final_claim.log",
+      "sha256": "b230677afbd7f53b3955c2b84b89a7cae9c9ede7e32c40b08add4c0fbb138cfa"
+    },
+    {
+      "bytes": 1229,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-all_premises_dependencies.log",
+      "sha256": "c9e43f8412a671a9264968c7860a17d3de887b8aaeede70ab9d7fc794e7ee94e"
+    },
+    {
+      "bytes": 1204,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-allow_imported_claim.log",
+      "sha256": "b1ee4f10f299c53e4627885812202dd7a8d3315411a40985afffa88766645d43"
+    },
+    {
+      "bytes": 1220,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-ignore_nonempty_policy.log",
+      "sha256": "79cd24129c1cf48aed210e8f122a27f58927de6c3f3e3c1e963af56ffa28b98e"
+    },
+    {
+      "bytes": 1329,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-reverse_E_conversion.log",
+      "sha256": "263bec243d243b7773d01ef9b7d2b3a3956e8267414cebe85ba4781892b2dd3c"
+    },
+    {
+      "bytes": 1211,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-skip_support.log",
+      "sha256": "5911df63b4f81e5c2c8806a1e4957c2e8253e79edba23f194330f293f24566ae"
+    },
+    {
+      "bytes": 1381,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-wrong_I_output.log",
+      "sha256": "31615e443ab600a54e7e05f2886cff9bb08f66a98be13068487e35b751f746e2"
+    },
+    {
+      "bytes": 1387,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutant-wrong_O_output.log",
+      "sha256": "9022603c9b0aa67e6543b340120ca1fd7e299e93dc908ba46bfcae8022968782"
+    },
+    {
+      "bytes": 6186,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation-results.json",
+      "sha256": "37134585c515103bf4bbc99afa5ef44fa75aea02cfb687e8e256998b0d006587"
+    },
+    {
+      "bytes": 6186,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation-runner.log",
+      "sha256": "37134585c515103bf4bbc99afa5ef44fa75aea02cfb687e8e256998b0d006587"
+    },
+    {
+      "bytes": 3880,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/mutation_checks.py",
+      "sha256": "58845af94bc220c2e109ea671a8b3845fe862f7017b077ba03fb4951fa413a57"
+    },
+    {
+      "bytes": 720,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/normal.log",
+      "sha256": "cca332a64a0486fc3d9c4e70590b78a1c9554d67c326a0c57a86277c528229b7"
+    },
+    {
+      "bytes": 114,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/report-validation.log",
+      "sha256": "648a3b58ae6f2d8e24cd3126781e2b0b25d72508837c55d4cdae1062a99eb6e3"
+    },
+    {
+      "bytes": 5443,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/report_checks.py",
+      "sha256": "367065d69f4e2077b5f37ca9613d7fdecafb463d24f2339f744bab5f9ae49ef6"
+    },
+    {
+      "bytes": 6985,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/run-results.json",
+      "sha256": "aa9fee33b7f5163b481718059daf08038c51edd199d9c80bc19460a7a20805b1"
+    },
+    {
+      "bytes": 2973,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/run_review.py",
+      "sha256": "2db58df0c0614076907d1f0138dba0ae62b28be152de9253b69c1fa42cc253b7"
+    },
+    {
+      "bytes": 6985,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/runner.log",
+      "sha256": "aa9fee33b7f5163b481718059daf08038c51edd199d9c80bc19460a7a20805b1"
+    },
+    {
+      "bytes": 3819,
+      "path": "reproduction/aristotle-prior-analytics-i1/independent-review/seal_audit.py",
+      "sha256": "6d71fb5bf54410ea5c6e6e3276634fb2fa28c3ba735d540c6a444747d3ad5ac7"
+    }
+  ],
+  "interpreter_modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "limitations": [
+    "Finite independent checks are not a general proof.",
+    "Python 3.12.14 Linux was run; minimum claimed Python 3.10 was not separately run.",
+    "Three-term nondefault policies use 180 two-premise samples each, not exhaustive problems.",
+    "No hostile-runtime sandbox, proof-search completeness, natural-language truth, or historical-perfectness claim."
+  ],
+  "mode_counts": {
+    "O": {
+      "admissibility_cases": 2106,
+      "certificate_rule_acceptance_cases": 187920,
+      "dependency_dag_cases": 2,
+      "full_entails_calls": 34740,
+      "invalid_inputs_rejected": 76,
+      "labelled_models": 5050,
+      "labelled_truth_cases": 174040,
+      "returned_countermodels": 18981,
+      "rule_soundness_model_cases": 29835,
+      "support_policies": 14,
+      "support_truth_cases": 9432,
+      "valid_rule_instances": 117
+    },
+    "OO": {
+      "admissibility_cases": 2106,
+      "certificate_rule_acceptance_cases": 187920,
+      "dependency_dag_cases": 2,
+      "full_entails_calls": 34740,
+      "invalid_inputs_rejected": 76,
+      "labelled_models": 5050,
+      "labelled_truth_cases": 174040,
+      "returned_countermodels": 18981,
+      "rule_soundness_model_cases": 29835,
+      "support_policies": 14,
+      "support_truth_cases": 9432,
+      "valid_rule_instances": 117
+    },
+    "normal": {
+      "admissibility_cases": 2106,
+      "certificate_rule_acceptance_cases": 187920,
+      "dependency_dag_cases": 2,
+      "full_entails_calls": 34740,
+      "invalid_inputs_rejected": 76,
+      "labelled_models": 5050,
+      "labelled_truth_cases": 174040,
+      "returned_countermodels": 18981,
+      "rule_soundness_model_cases": 29835,
+      "support_policies": 14,
+      "support_truth_cases": 9432,
+      "valid_rule_instances": 117
+    }
+  },
+  "mutations_detected": 12,
+  "mutations_total": 12,
+  "nine_report_outputs_identical": true,
+  "path_base": "repository_root/",
+  "reviewed_files": [
+    {
+      "bytes": 6647,
+      "path": "reproduction/aristotle-prior-analytics-i1/logic.py",
+      "sha256": "d154c720642a31779315d7df7142d1cf4af57d1ca239d1e9b011eda5c6260d7a"
+    },
+    {
+      "bytes": 4784,
+      "path": "reproduction/aristotle-prior-analytics-i1/proofs.py",
+      "sha256": "915f329ce4a4d601a44cd0b372a1b25017aa8d7119523dcd56586e99d14c0bb4"
+    },
+    {
+      "bytes": 8822,
+      "path": "reproduction/aristotle-prior-analytics-i1/demo.py",
+      "sha256": "68c9b596a429da64f654c283afde82d1ffe11b5c5d527ebf6c5e2677c429c186"
+    },
+    {
+      "bytes": 21744,
+      "path": "reproduction/aristotle-prior-analytics-i1/test_model.py",
+      "sha256": "85c19d327d88f976f5e9c7e07e0edfb174326cd97271fb94ef75450d66e3e190"
+    },
+    {
+      "bytes": 2429,
+      "path": "reproduction/aristotle-prior-analytics-i1/verify.py",
+      "sha256": "493a78f4a12f943a32a18dd38131f0b3ae01d868d9c16dfe6105b5016964d4fc"
+    },
+    {
+      "bytes": 9602,
+      "path": "reproduction/aristotle-prior-analytics-i1/README.md",
+      "sha256": "ac62b1d2ea69296413a4abb9aebcd80fb7abdda299d78ed5f1830e13691232eb"
+    },
+    {
+      "bytes": 7628,
+      "path": "reproduction/aristotle-prior-analytics-i1/WALKTHROUGH.zh-CN.md",
+      "sha256": "d1bf1fde507dd5df05367fa8bdf5bc59c83ad5d320ff4da14c55c3b6cdcd99c4"
+    },
+    {
+      "bytes": 11266,
+      "path": "reproduction/aristotle-prior-analytics-i1/report.json",
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "bytes": 12042,
+      "path": "reproduction/aristotle-prior-analytics-i1/verification.txt",
+      "sha256": "167a3937c3e6fdb36628f271b497cd78a23d91d0b596a29a2b265891316be41f"
+    }
+  ],
+  "reviewed_main": {
+    "bytes": 34442,
+    "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+    "sha256": "e5a6a475a06d12c2ff75134440d63082017e6b2c247452f5bb5f939a7b6596d3"
+  },
+  "schema": "aristotle-i1-independent-code-audit-v1",
+  "scope": "Modern unary A/E/I/O teaching semantics and limited proof certificate implementation; not a historical algorithm or general software-correctness proof.",
+  "sealed_at_utc": "2026-10-13T23:56:04.594457+00:00",
+  "self_hash_policy": "This JSON intentionally does not include its own hash; parent release manifest may bind it.",
+  "status": "pass_after_repair",
+  "stored_report_matches": true,
+  "unresolved_code_blockers": []
+}

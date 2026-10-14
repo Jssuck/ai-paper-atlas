@@ -1,0 +1,13 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py --module-root /tmp/i1-audit-mutant-z7qcbkq5 --section semantics --quick
+Traceback (most recent call last):
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 292, in <module>
+    main()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 287, in main
+    fn()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 95, in check_supports_and_labelled
+    check(evaluate(p, model) == truth(p, ext), f'support truth {p} {support}')
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 28, in check
+    raise RuntimeError(message)
+RuntimeError: support truth Prop(kind='O', subject='alpha', predicate='alpha') (0,)
+
+Exit code: 1

@@ -1,0 +1,559 @@
+{
+  "A_does_not_imply_I_with_empty_terms": {
+    "admissible_supports": 15,
+    "conclusion": {
+      "kind": "I",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": {
+      "term_extensions": {
+        "P": [],
+        "S": []
+      },
+      "terms_in_bit_order": [
+        "S",
+        "P"
+      ],
+      "universe_representatives": [
+        0
+      ]
+    },
+    "countermodel_conclusion_truth": false,
+    "countermodel_premise_truths": [
+      true
+    ],
+    "holds": false,
+    "premise_satisfying_supports": 7,
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "S"
+      }
+    ],
+    "required_nonempty": []
+  },
+  "A_implies_I_when_S_explicitly_nonempty": {
+    "admissible_supports": 12,
+    "conclusion": {
+      "kind": "I",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": null,
+    "countermodel_conclusion_truth": null,
+    "countermodel_premise_truths": null,
+    "holds": true,
+    "premise_satisfying_supports": 4,
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "S"
+      }
+    ],
+    "required_nonempty": [
+      "S"
+    ]
+  },
+  "assumptions": {
+    "does_not_classify": [
+      "demonstrative truth/source",
+      "historical perfect/imperfect",
+      "genuinely through the premises"
+    ],
+    "number_of_terms": "1 to 3",
+    "objects_with_the_same_truth_type_are_collapsed": true,
+    "terms_may_be_empty_by_default": true,
+    "universe_nonempty": true
+  },
+  "explicit_witness_propagation": [
+    {
+      "admissible_supports": 255,
+      "certificate": {
+        "accepted": true,
+        "conclusion": {
+          "kind": "I",
+          "predicate": "P",
+          "subject": "S"
+        },
+        "repeats_assumption": false,
+        "step_count": 3,
+        "unused_assumptions": [],
+        "used_assumptions": [
+          0,
+          1
+        ]
+      },
+      "conclusion": {
+        "kind": "I",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "conclusion_existential_witness": 7,
+      "countermodel": null,
+      "countermodel_conclusion_truth": null,
+      "countermodel_premise_truths": null,
+      "holds": true,
+      "particular_conclusion_truth": true,
+      "particular_model": {
+        "term_extensions": {
+          "M": [
+            7
+          ],
+          "P": [
+            7
+          ],
+          "S": [
+            7
+          ]
+        },
+        "terms_in_bit_order": [
+          "S",
+          "M",
+          "P"
+        ],
+        "universe_representatives": [
+          7
+        ]
+      },
+      "particular_premise_truths": [
+        true,
+        true
+      ],
+      "premise_existential_witnesses": [
+        7,
+        null
+      ],
+      "premise_satisfying_supports": 32,
+      "premises": [
+        {
+          "kind": "I",
+          "predicate": "M",
+          "subject": "S"
+        },
+        {
+          "kind": "A",
+          "predicate": "P",
+          "subject": "M"
+        }
+      ],
+      "required_nonempty": [],
+      "rule": "i_up"
+    },
+    {
+      "admissible_supports": 255,
+      "certificate": {
+        "accepted": true,
+        "conclusion": {
+          "kind": "O",
+          "predicate": "P",
+          "subject": "S"
+        },
+        "repeats_assumption": false,
+        "step_count": 3,
+        "unused_assumptions": [],
+        "used_assumptions": [
+          0,
+          1
+        ]
+      },
+      "conclusion": {
+        "kind": "O",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "conclusion_existential_witness": 3,
+      "countermodel": null,
+      "countermodel_conclusion_truth": null,
+      "countermodel_premise_truths": null,
+      "holds": true,
+      "particular_conclusion_truth": true,
+      "particular_model": {
+        "term_extensions": {
+          "M": [
+            3
+          ],
+          "P": [],
+          "S": [
+            3
+          ]
+        },
+        "terms_in_bit_order": [
+          "S",
+          "M",
+          "P"
+        ],
+        "universe_representatives": [
+          3
+        ]
+      },
+      "particular_premise_truths": [
+        true,
+        true
+      ],
+      "premise_existential_witnesses": [
+        3,
+        null
+      ],
+      "premise_satisfying_supports": 32,
+      "premises": [
+        {
+          "kind": "I",
+          "predicate": "M",
+          "subject": "S"
+        },
+        {
+          "kind": "E",
+          "predicate": "P",
+          "subject": "M"
+        }
+      ],
+      "required_nonempty": [],
+      "rule": "o_from_i_e"
+    }
+  ],
+  "inconsistent_premises_make_classical_consequence_vacuous": {
+    "admissible_supports": 15,
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": null,
+    "countermodel_conclusion_truth": null,
+    "countermodel_premise_truths": null,
+    "holds": true,
+    "premise_satisfying_supports": 0,
+    "premises": [
+      {
+        "kind": "E",
+        "predicate": "S",
+        "subject": "S"
+      },
+      {
+        "kind": "I",
+        "predicate": "S",
+        "subject": "S"
+      }
+    ],
+    "required_nonempty": []
+  },
+  "interpretation_warning": "support checks and syntactic dependency tracking do not by themselves settle Aristotle's historical definitions",
+  "model": "modern extensional unary A/E/I/O teaching model; not an Aristotle algorithm",
+  "named_object_hand_examples": {
+    "A_is_not_symmetric": {
+      "A_P_S_truth": false,
+      "A_S_P_truth": true,
+      "compressed_model": {
+        "term_extensions": {
+          "P": [
+            2,
+            3
+          ],
+          "S": [
+            3
+          ]
+        },
+        "terms_in_bit_order": [
+          "S",
+          "P"
+        ],
+        "universe_representatives": [
+          2,
+          3
+        ]
+      },
+      "named_extensions": {
+        "P": [
+          1,
+          2
+        ],
+        "S": [
+          1
+        ]
+      },
+      "named_object_to_truth_type": {
+        "1": 3,
+        "2": 2
+      },
+      "named_objects": [
+        1,
+        2
+      ]
+    },
+    "mixed_true_false_premises": {
+      "compressed_model": {
+        "term_extensions": {
+          "M": [
+            6
+          ],
+          "P": [
+            6
+          ],
+          "S": [
+            1
+          ]
+        },
+        "terms_in_bit_order": [
+          "S",
+          "M",
+          "P"
+        ],
+        "universe_representatives": [
+          1,
+          6
+        ]
+      },
+      "conclusion": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "conclusion_truth": false,
+      "named_extensions": {
+        "M": [
+          2
+        ],
+        "P": [
+          2
+        ],
+        "S": [
+          1
+        ]
+      },
+      "named_object_to_truth_type": {
+        "1": 1,
+        "2": 6
+      },
+      "named_objects": [
+        1,
+        2
+      ],
+      "premise_truths": [
+        false,
+        true
+      ],
+      "premises": [
+        {
+          "kind": "A",
+          "predicate": "M",
+          "subject": "S"
+        },
+        {
+          "kind": "A",
+          "predicate": "P",
+          "subject": "M"
+        }
+      ]
+    }
+  },
+  "same_conclusion_as_assumption": {
+    "accepted": true,
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "repeats_assumption": true,
+    "step_count": 1,
+    "unused_assumptions": [],
+    "used_assumptions": [
+      0
+    ]
+  },
+  "support_counts_without_nonempty_term_policy": {
+    "1": 3,
+    "2": 15,
+    "3": 255
+  },
+  "true_conclusion_in_one_model_but_invalid_argument": {
+    "admissible_supports": 255,
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": {
+      "term_extensions": {
+        "M": [
+          3
+        ],
+        "P": [],
+        "S": [
+          3
+        ]
+      },
+      "terms_in_bit_order": [
+        "S",
+        "M",
+        "P"
+      ],
+      "universe_representatives": [
+        3
+      ]
+    },
+    "countermodel_conclusion_truth": false,
+    "countermodel_premise_truths": [
+      true,
+      true
+    ],
+    "holds": false,
+    "invalid_converse_certificate": {
+      "accepted": false,
+      "reason": "referenced claims do not match the rule's pattern"
+    },
+    "particular_conclusion_truth": true,
+    "particular_model": {
+      "term_extensions": {
+        "M": [
+          7
+        ],
+        "P": [
+          7
+        ],
+        "S": [
+          7
+        ]
+      },
+      "terms_in_bit_order": [
+        "S",
+        "M",
+        "P"
+      ],
+      "universe_representatives": [
+        7
+      ]
+    },
+    "particular_premise_truths": [
+      true,
+      true
+    ],
+    "premise_satisfying_supports": 31,
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "P"
+      }
+    ],
+    "required_nonempty": []
+  },
+  "unsupported_imported_premise": {
+    "accepted": false,
+    "reason": "step 1: undeclared premise index"
+  },
+  "valid_form_with_false_premises_in_one_model": {
+    "admissible_supports": 255,
+    "certificate": {
+      "accepted": true,
+      "conclusion": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "repeats_assumption": false,
+      "step_count": 3,
+      "unused_assumptions": [],
+      "used_assumptions": [
+        0,
+        1
+      ]
+    },
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": null,
+    "countermodel_conclusion_truth": null,
+    "countermodel_premise_truths": null,
+    "holds": true,
+    "particular_conclusion_truth": false,
+    "particular_model": {
+      "term_extensions": {
+        "M": [
+          2
+        ],
+        "P": [],
+        "S": [
+          1
+        ]
+      },
+      "terms_in_bit_order": [
+        "S",
+        "M",
+        "P"
+      ],
+      "universe_representatives": [
+        1,
+        2
+      ]
+    },
+    "particular_premise_truths": [
+      false,
+      false
+    ],
+    "premise_satisfying_supports": 15,
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      }
+    ],
+    "required_nonempty": []
+  },
+  "valid_proof_using_E_conversion": {
+    "admissible_supports": 255,
+    "certificate": {
+      "accepted": true,
+      "conclusion": {
+        "kind": "E",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "repeats_assumption": false,
+      "step_count": 4,
+      "unused_assumptions": [],
+      "used_assumptions": [
+        0,
+        1
+      ]
+    },
+    "conclusion": {
+      "kind": "E",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "countermodel": null,
+    "countermodel_conclusion_truth": null,
+    "countermodel_premise_truths": null,
+    "holds": true,
+    "premise_satisfying_supports": 15,
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      {
+        "kind": "E",
+        "predicate": "M",
+        "subject": "P"
+      }
+    ],
+    "required_nonempty": []
+  }
+}

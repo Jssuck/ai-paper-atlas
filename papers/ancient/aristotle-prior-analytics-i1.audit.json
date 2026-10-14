@@ -1,0 +1,75 @@
+{
+  "schema": "argument-math-audit/v1",
+  "status": "pass",
+  "audited_at_utc": "2026-10-13T23:54:20.162690+00:00",
+  "scope": "Full Chinese main article, all 20 answers, source/modern-model boundaries, all mathematical claims, complete model docs; no substitution for separate source and implementation audits",
+  "reviewer_role": "independent_argument_and_math_auditor",
+  "full_main_read": true,
+  "all_twenty_answers_reviewed": true,
+  "open_blockers": [],
+  "resolved_findings": [
+    "Bekker locator blocks corrected to 24a22–28 and 24a28–24b12",
+    "E-conversion prose aligned with implemented proof",
+    "Broad syllogismos definition explicitly distinguished from exactly two premises and three terms",
+    "Minimum countermodel theorem explicitly distinguished from actual numeric-mask order",
+    "README and WALKTHROUGH links aligned; named objects distinguished from type indices"
+  ],
+  "independent_execution": {
+    "command": "python3 -B reproduction/aristotle-prior-analytics-i1/argument_audit.py",
+    "exit_code": 0,
+    "author_modules_imported": false,
+    "implication_checks": 44406,
+    "complement_checks": 4716,
+    "explicit_example_groups": 7,
+    "consequence_cases": 12,
+    "passed": true
+  },
+  "bound_artifacts": [
+    {
+      "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+      "bytes": 34442,
+      "sha256": "e5a6a475a06d12c2ff75134440d63082017e6b2c247452f5bb5f939a7b6596d3"
+    },
+    {
+      "path": "papers/ancient/aristotle-prior-analytics-i1.sources.zh-CN.md",
+      "bytes": 14036,
+      "sha256": "b21208c2feb87ebd7bb2c1273984b2e66b0cdf022533697952e9ecdcdea434ce"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i1/README.md",
+      "bytes": 9602,
+      "sha256": "ac62b1d2ea69296413a4abb9aebcd80fb7abdda299d78ed5f1830e13691232eb"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i1/WALKTHROUGH.zh-CN.md",
+      "bytes": 7628,
+      "sha256": "d1bf1fde507dd5df05367fa8bdf5bc59c83ad5d320ff4da14c55c3b6cdcd99c4"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i1/report.json",
+      "bytes": 11266,
+      "sha256": "4681fd8cabc61dcd613f6bd0ec3af4128110501e469916289e3214edd7f481b4"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i1/argument_audit.py",
+      "bytes": 7027,
+      "sha256": "ca518280cbf7155ae2c6cce67c782400a8ba322651b2c6f6cccba59751072ab0"
+    },
+    {
+      "path": "reproduction/aristotle-prior-analytics-i1/argument-audit-results.json",
+      "bytes": 3548,
+      "sha256": "ed49cbd7d8fd7bb4e8cac87156523456f697db660c54936a681c0f4d4f7f343f"
+    }
+  ],
+  "audit_document": {
+    "path": "papers/ancient/aristotle-prior-analytics-i1.audit.zh-CN.md",
+    "bytes": 15699,
+    "sha256": "b2b3c54dc8e143a566ccc6bdbd2322a504731953d02d27ef917eeea07eadf01c"
+  },
+  "limitations": [
+    "Bounded historical interpretation; not a new critical edition or a final existential-import interpretation",
+    "Finite checks do not replace the separately inspected general infinite-domain proof",
+    "Not an independent execution of the full code-auditor test suite",
+    "Hashes bind bytes, not the truth of every historical claim"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "complement_checks": 4716,
+  "consequence_cases": {
+    "A_converse": {
+      "admissible_supports": 15,
+      "counterexample_supports": 4,
+      "holds": false,
+      "minimum_counterexample_objects": 1,
+      "premise_satisfying_supports": 7
+    },
+    "A_not_I": {
+      "admissible_supports": 15,
+      "counterexample_supports": 3,
+      "holds": false,
+      "minimum_counterexample_objects": 1,
+      "premise_satisfying_supports": 7
+    },
+    "A_transitivity": {
+      "admissible_supports": 255,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 15
+    },
+    "A_with_nonempty_S_gives_I": {
+      "admissible_supports": 12,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 4
+    },
+    "E_conversion_then_down": {
+      "admissible_supports": 255,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 15
+    },
+    "I_up": {
+      "admissible_supports": 255,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 32
+    },
+    "O_converse": {
+      "admissible_supports": 15,
+      "counterexample_supports": 4,
+      "holds": false,
+      "minimum_counterexample_objects": 1,
+      "premise_satisfying_supports": 8
+    },
+    "O_from_I_E": {
+      "admissible_supports": 255,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 32
+    },
+    "main_A_O_inconsistent": {
+      "admissible_supports": 15,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 0
+    },
+    "missing_bridge": {
+      "admissible_supports": 255,
+      "counterexample_supports": 32,
+      "holds": false,
+      "minimum_counterexample_objects": 1,
+      "premise_satisfying_supports": 63
+    },
+    "report_E_I_inconsistent": {
+      "admissible_supports": 15,
+      "counterexample_supports": 0,
+      "holds": true,
+      "minimum_counterexample_objects": null,
+      "premise_satisfying_supports": 0
+    },
+    "report_converging_A_invalid": {
+      "admissible_supports": 255,
+      "counterexample_supports": 16,
+      "holds": false,
+      "minimum_counterexample_objects": 1,
+      "premise_satisfying_supports": 31
+    }
+  },
+  "explicit_main_examples": {
+    "A_direction": [
+      true,
+      false
+    ],
+    "O_direction_and_E_distinction": [
+      true,
+      false,
+      false
+    ],
+    "disjoint_singletons_O_I": [
+      true,
+      false
+    ],
+    "empty_S_AEIO": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "hidden_assumption": [
+      true,
+      false,
+      false
+    ],
+    "main_false_start": [
+      false,
+      true,
+      false
+    ],
+    "same_singleton_I_A_O": [
+      true,
+      true,
+      false
+    ]
+  },
+  "implication_checks_including_repeated_terms": 44406,
+  "independence": "No import from author modules or author test suite",
+  "passed": true,
+  "support_policy_counts": {
+    "1": {
+      "0": 2,
+      "none": 3
+    },
+    "2": {
+      "0": 12,
+      "0,1": 10,
+      "1": 12,
+      "none": 15
+    },
+    "3": {
+      "0": 240,
+      "0,1": 228,
+      "0,1,2": 218,
+      "0,2": 228,
+      "1": 240,
+      "1,2": 228,
+      "2": 240,
+      "none": 255
+    }
+  }
+}

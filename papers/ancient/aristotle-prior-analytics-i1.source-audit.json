@@ -1,0 +1,348 @@
+{
+  "schema_version": "1.0",
+  "unit_id": "aristotle-prior-analytics-i1",
+  "review_type": "independent_source_audit",
+  "checked_at_utc": "2026-10-13T23:52:49.336438+00:00",
+  "status": "passed_bounded",
+  "audited_artifacts": [
+    {
+      "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+      "bytes": 34442,
+      "sha256": "e5a6a475a06d12c2ff75134440d63082017e6b2c247452f5bb5f939a7b6596d3"
+    },
+    {
+      "path": "papers/ancient/aristotle-prior-analytics-i1.sources.zh-CN.md",
+      "bytes": 14036,
+      "sha256": "b21208c2feb87ebd7bb2c1273984b2e66b0cdf022533697952e9ecdcdea434ce"
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "source_id": "bekker1831-n6",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n6.jpg",
+      "kind": "historical_page_image",
+      "sha256": "116d1d62794afa2c72b62afb115a5cae41c77b64219fe304900ec5bddfe4bb7f",
+      "bytes": 1273881,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n7",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n7.jpg",
+      "kind": "historical_page_image",
+      "sha256": "36feaf88229f63b6452280d9f9599b670f43dac0d6d5822b426d80f27f32c1c8",
+      "bytes": 1175149,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n8",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n8.jpg",
+      "kind": "historical_page_image",
+      "sha256": "ec1cdeaeb20a5888e7bc59d2088ae86d324cb4cf988bd881754626f30ce4cd87",
+      "bytes": 1504951,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n9",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n9.jpg",
+      "kind": "historical_page_image",
+      "sha256": "de137f1ce5873e4e828e051d3fead78212a3db690daec56ad815a8c5ba97d4da",
+      "bytes": 1375836,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n10",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n10.jpg",
+      "kind": "historical_page_image",
+      "sha256": "61811ae0821e21ce57a12aebecf4bdfadc7825fc65f86fd13a62293b43525e76",
+      "bytes": 1667352,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n11",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n11.jpg",
+      "kind": "historical_page_image",
+      "sha256": "ea5dffec28a0c8e6b496ff013efd83dd25e6c785f1c5c6a7b4b4467e43765656",
+      "bytes": 1491529,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n12",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n12.jpg",
+      "kind": "historical_page_image",
+      "sha256": "59872a5e314c7ded856f765a4389528497045d1c698ba6eae0a071fad3e3b7f3",
+      "bytes": 1573061,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n13",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n13.jpg",
+      "kind": "historical_page_image",
+      "sha256": "c6b185f6a32a2f08f49dc9eae05bd25532ca5af7305c4dcdf99c01542398cf8a",
+      "bytes": 1414705,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n14",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n14.jpg",
+      "kind": "historical_page_image",
+      "sha256": "84e238e3d068bdff5100d978b439364ee77ddd3009460760bb9395f0c154ef7f",
+      "bytes": 1514152,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n15",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n15.jpg",
+      "kind": "historical_page_image",
+      "sha256": "46dfc6cd2c97e7afbdc545f770840e7e85207efc15128a063ac7b3e56d9adc2f",
+      "bytes": 1725010,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n39",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n39.jpg",
+      "kind": "historical_page_image",
+      "sha256": "4ac4e13ad9c5c180387678948715e07122e72e10f596b2be2d990566eddd7792",
+      "bytes": 1862798,
+      "inspected_scope": "Printed 24: complete Prior Analytics I.1 24a10–24b30 and applicable apparatus; upper De interpretatione excluded."
+    },
+    {
+      "source_id": "bekker1831-n40",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n40.jpg",
+      "kind": "historical_page_image",
+      "sha256": "59c437fff36322f0cca4f8509210638c3e28128ab40a41c27defbc9c18777a1c",
+      "bytes": 1989782,
+      "inspected_scope": "Printed 25: I.2 boundary at 25a1; no new completed unit."
+    },
+    {
+      "source_id": "bekker1831-n804",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n804.jpg",
+      "kind": "historical_page_image",
+      "sha256": "a8020d69a0da0e24b55a9e1a0ca53ac77175d0c18296b923ae9795c56d12d1ae",
+      "bytes": 1763239,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n805",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n805.jpg",
+      "kind": "historical_page_image",
+      "sha256": "a78cf0d3531a2080d9ad9d6620a0b7d1107b41e7805d1816ae98258d171898b2",
+      "bytes": 1421904,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n806",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n806.jpg",
+      "kind": "historical_page_image",
+      "sha256": "cec1ebac8f3b804004bf0e52f956d4f9a7531a4f2da908ce31e233594967dc04",
+      "bytes": 1108071,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n807",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n807.jpg",
+      "kind": "historical_page_image",
+      "sha256": "f63c10c876cf439b5dcd6eae0ac5aac8b563885c1c8f31bf23b341fe5e6a1e0d",
+      "bytes": 1133350,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n808",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n808.jpg",
+      "kind": "historical_page_image",
+      "sha256": "9dc86382007bcf2fbf96f9c338a587ab8c7359aa628de5cca9202f19dbbeba7d",
+      "bytes": 1193384,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n809",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n809.jpg",
+      "kind": "historical_page_image",
+      "sha256": "74393a2d96eb8f14ea6bb547c16d4ee14c1baa5f1050eb355dfa1199e81c65bc",
+      "bytes": 1109711,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n810",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n810.jpg",
+      "kind": "historical_page_image",
+      "sha256": "9d35fcb244c6440f24f99bd7922496d2c0e9dca0541fe95ce1ac535c10426a63",
+      "bytes": 1146042,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1831-n811",
+      "origin_url": "https://archive.org/download/aristotelisopera01arisrich/page/n811.jpg",
+      "kind": "historical_page_image",
+      "sha256": "c13edc1929ef65526b586b578b149377af8686a5bfa3566872b13c4dde968421",
+      "bytes": 1357846,
+      "inspected_scope": "Bounded edition/front/end inspection; no separate errata leaf found within n6–15 and n804–811."
+    },
+    {
+      "source_id": "bekker1837-first1k",
+      "origin_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0086/tlg001/tlg0086.tlg001.1st1K-grc1.xml",
+      "kind": "related_electronic_transcription",
+      "sha256": "31c457515cd83efab85e06500f2fee75e5869a47f4ad741a46e84d1eedbd9529",
+      "bytes": 735642,
+      "inspected_scope": "TEI header and complete I.1; electronic pagination 61–62; related transcription, not 1837 scan inspection."
+    },
+    {
+      "source_id": "owen1853-pdf",
+      "origin_url": "https://archive.org/download/Aristotles_Organon_vol_01_1853/Aristotles_Organon_vol_01_1853.pdf",
+      "kind": "historical_volume_pdf",
+      "sha256": "a6178d7f0784744936a2264b42234588d7c4655e3e84b063caacdaa28206c70f",
+      "bytes": 11410483,
+      "inspected_scope": "PDF 10 (title), 18 (ERRATA), 72 (printed 53 note 2), 99–101 (complete I.1 printed 80–82), 102 (next-chapter boundary)."
+    }
+  ],
+  "primary_bounds": {
+    "bekker1831": "24a10–24b30",
+    "owen1853_printed_pages": [
+      80,
+      81,
+      82
+    ],
+    "owen1853_pdf_pages": [
+      99,
+      100,
+      101
+    ],
+    "bekker1837_electronic_source_pages": [
+      61,
+      62
+    ]
+  },
+  "applicable_greek_apparatus": [
+    {
+      "locator": "24a29",
+      "entries": 1
+    },
+    {
+      "locator": "24b18",
+      "entries": 1
+    },
+    {
+      "locator": "24b19",
+      "entries": 2
+    },
+    {
+      "locator": "24b20",
+      "entries": 1
+    },
+    {
+      "locator": "24b21",
+      "entries": 1
+    },
+    {
+      "locator": "24b26–29",
+      "entries": 1
+    },
+    {
+      "locator": "24b27",
+      "entries": 1
+    },
+    {
+      "locator": "24b29",
+      "entries": 1
+    }
+  ],
+  "owen_notes": {
+    "80": [
+      1,
+      2,
+      3
+    ],
+    "81": [
+      1,
+      2
+    ],
+    "82": [
+      1,
+      2,
+      3
+    ]
+  },
+  "figures": [
+    {
+      "source_id": "owen1853-pdf",
+      "printed_page": 81,
+      "pdf_page": 100,
+      "location": "footnote 2",
+      "attribution": "Owen quotes Mansel Appendix; not Aristotle I.1 authorial figure"
+    }
+  ],
+  "formal_errata": {
+    "source_id": "owen1853-pdf",
+    "pdf_page": 18,
+    "listed_printed_pages": [
+      219,
+      273,
+      594
+    ],
+    "applicable_to_i1": [],
+    "caveat": "This table contains no I.1 entry; this does not establish an error-free chapter."
+  },
+  "resolved_findings": [
+    {
+      "id": "SOURCE-LOC-01",
+      "severity": "material",
+      "finding": "Draft source-range split incorrectly invoked 24b3, which belongs to preceding De interpretatione on this composite page.",
+      "resolution": "Both main and source ledger use 24a22–28 and 24a28–24b12."
+    }
+  ],
+  "checks": [
+    {
+      "id": "complete_primary_unit",
+      "result": "pass"
+    },
+    {
+      "id": "edition_translation_separation",
+      "result": "pass"
+    },
+    {
+      "id": "all_applicable_apparatus",
+      "result": "pass"
+    },
+    {
+      "id": "all_eight_owen_notes",
+      "result": "pass"
+    },
+    {
+      "id": "owen_mansel_figure",
+      "result": "pass"
+    },
+    {
+      "id": "bounded_errata_claims",
+      "result": "pass"
+    },
+    {
+      "id": "modern_reconstruction_labels",
+      "result": "pass"
+    },
+    {
+      "id": "no_second_historical_unit_completed",
+      "result": "pass"
+    },
+    {
+      "id": "no_raw_source_republication",
+      "result": "pass"
+    }
+  ],
+  "comparison_evidence": [
+    {
+      "origin_url": "https://classics.mit.edu/Aristotle/topics.1.i.html",
+      "scope": "Opening definitions only",
+      "evidence_mode": "Cross-confirmed with selection survey and separate direct argument-auditor reading; no independent page-image audit by this source auditor."
+    }
+  ],
+  "unverified_or_out_of_scope": [
+    "Ancient exact composition date",
+    "1837 printed-page visual inspection",
+    "Original manuscripts and exhaustive later revision history",
+    "Entire works cited by Owen notes",
+    "Full Topics I.1 unit and its apparatus",
+    "Earliest reasoning tradition and direct AI influence chain",
+    "Code correctness, remote publication and registry append preservation"
+  ],
+  "source_artifacts_republished": false,
+  "contains_private_workspace_paths": false
+}

@@ -10,6 +10,7 @@
 
 | 时段 | 论文 | 定位 | 状态 |
 | --- | --- | --- | --- |
+| 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle前分析篇I.1精读](papers/ancient/aristotle-prior-analytics-i1.zh-CN.md) | AI推理前史回填：前提、项、必要后果、知识根据与证明依赖 | 深读v1 · 完整24a10–24b30及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle前分析篇I.4精读](papers/ancient/aristotle-prior-analytics-i4.zh-CN.md) | AI推理前史回填：第一格分类、逐步证明、反模型与存在条件 | 深读v1 · 完整25b26–26b33及版本/校勘边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
@@ -559,3 +560,19 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 实跑比较允许空项255个支持与三项非空218个支持，正向有效式分别4与6；后两式是存在条件下的弱化，不是新增原章基本路线。正常、-O、-OO各通过32测试，16个有针对性的故障注入被检出；测试不宣称穷尽软件缺陷。
 
 这是此前古代逻辑缺口的一次显式回填，不宣称最早AI/逻辑文献或已连续覆盖整个前史。I.1–3所需定义及I.7开头仅作有界上下文，I.5以后、全部《工具论》、更早材料、Galen及近代其他候选继续保留。旧目录、历史条目、Locke/Berkeley更正、Condillac正式勘误状态及所有未解版本缺口不变。
+
+## 2026-10-13 基础章节回填：Aristotle I.1
+
+新增且仅新增[《前分析篇》第一卷第一章完整精读](papers/ancient/aristotle-prior-analytics-i1.zh-CN.md)，范围24a10–24b30。此前I.4只把它作为背景，本次明确补齐完整章；不把章号顺序冒充精确写作先后。实际读1831希腊原页、1837来源电子对读与Owen1853英译80–82全部正文、八脚注及译编原则树，适用校勘和ERRATA分别核查。
+
+主文区分前提量质、论证与辩证的根据、形式有效与当前真实、一般推论与三项格式、完善与不完善。现代AEIO集合语义、空项政策、依赖证书和类型压缩一般证明另标；20道练习均有答案。程序只实现有限教学片段，不声称裁定原章全部历史定义或证明现代AI效果。
+
+- [来源、版本、全章位置与选择账本](papers/ancient/aristotle-prior-analytics-i1.sources.zh-CN.md)
+- [独立来源审计](papers/ancient/aristotle-prior-analytics-i1.source-audit.zh-CN.md)
+- [独立全文论证与数学审计](papers/ancient/aristotle-prior-analytics-i1.audit.zh-CN.md)
+- [标准库复现、环境、命令与真实日志](reproduction/aristotle-prior-analytics-i1/README.md)
+- [独立代码审计](reproduction/aristotle-prior-analytics-i1/CODE-AUDIT.zh-CN.md)
+
+实际运行比较1–3项非空论域支持、可选词项非空政策、语义后承和给定证书；正常、-O、-OO执行及准确计数见冻结日志和审计，不用有限实验替代一般证明。语义后承允许重复、冗余或矛盾前提，代码对此给提示而不冒充亚里士多德推论定义的完全等价实现。
+
+仅关闭I.1完整章缺口；I.2–3、I.5以后、Topics、整书及其他古代/近代候选不计完成。Plato Meno仅新增开放的更早来源线索。原README全文、全部旧候选/历史/状态/版本缺口、I.4完成记录、Locke/Berkeley更正和Condillac正式勘误均保留；不宣称最早AI或推理文本、连续覆盖或历史穷尽。

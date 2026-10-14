@@ -48,7 +48,8 @@
       "九展示式不是九个独立现代等价类；A5需A存在，AOO及共同主项AAI补充按明示现代准则，不冒称正式历史勘误或完整Euler三段论体系。",
       "256原始掩码补外部见证后只有255个不同占位模型；A5有8原始/7不同反模型，不把重复当新反例；现代覆盖限固定三一元项的直言命题。",
       "旧对象与历史中CIII未读/待补的描述保留其当时语境；本次当前状态只更新CIII复合底本完成，不关闭原1768缺字直接证据或CIV及旧书籍缺口。",
-      "2026-10-13显式向前回填Aristotle I.4完整25b26–26b33；古代约年不冒充精确首刊年，1831/1837/1853分别作实读版本年。只加一单元，不宣称最早逻辑/AI文献或古代到近代连续覆盖；所有旧历史与缺口保留。"
+      "2026-10-13显式向前回填Aristotle I.4完整25b26–26b33；古代约年不冒充精确首刊年，1831/1837/1853分别作实读版本年。只加一单元，不宣称最早逻辑/AI文献或古代到近代连续覆盖；所有旧历史与缺口保留。",
+      "2026-10-13显式回填Aristotle I.1完整24a10–24b30，补此前I.4的定义背景；传本章节顺序不等于已核写作先后。只加一个完成单元，Plato Meno仅新增开放线索；无最早AI/逻辑或穷尽历史宣称，全部旧状态、历史及缺口保留。"
     ],
     "known_earlier_near_neighbor": "De Morgan1847已完成原刊底本范围；Boole1847/1854、De Morgan1839/1847书籍、Solly1839、Hamilton相关文本等仍有可得未读或待独立核范围，不宣称1851为最早。",
     "current_unit_notice": "旧scope文字保留其历史记录语境；当前新完成单位以current_selection和各effective_status的最新条目为准。本次仅追加CV，旧“CV未读”等为旧时点状态，不表示旧版本缺口已补齐。",
@@ -81,62 +82,63 @@
     "current_unit_notice_berkeley_intro": "仅新增1710首版Berkeley导论1–39、§§1–25一个完整单位，明确前史回填；1734关键增删不倒写入首版。旧有界Berkeley背景按历史时点保留，所有旧对象、历史、缺口与有效状态原样不变，不完成全书或穷尽前驱。"
   },
   "current_selection": {
-    "candidate_id": "aristotle-prior-analytics-i4",
+    "candidate_id": "aristotle-prior-analytics-i1",
     "authors": [
       "Aristotle"
     ],
-    "title": "Analytica priora / Prior Analytics, Book I, chapter 4",
+    "title": "Analytica priora / Prior Analytics, Book I, chapter 1",
     "chronology_year": null,
-    "chronology_label": "公元前四世纪作品；确切成书年份未核",
-    "chronology_year_basis": "按作者所处时代作古代回填；不把常见约350 BCE标签当作已核精确年。1831/1837为希腊编辑年，1853为译本年。",
+    "chronology_label": "公元前四世纪作品；精确成书年份及章节写作顺序未核",
+    "chronology_year_basis": "古代作品与1831/1837希腊编辑年、1853英译年分开；从已完成I.4回填此前只作背景的I.1，不以章号证明写作先后。",
     "read_edition": {
       "primary_greek": {
         "editor": "Immanuel Bekker",
         "year": 1831,
         "publisher": "Berlin: Georg Reimer / Academia Regia Borussica",
-        "pages": "25b26–26b33",
+        "pages": "24a10–24b30",
         "source_images": [
-          "https://archive.org/download/aristotelisopera01arisrich/page/n40.jpg",
-          "https://archive.org/download/aristotelisopera01arisrich/page/n41.jpg"
+          "https://archive.org/download/aristotelisopera01arisrich/page/n39.jpg"
         ]
       },
       "comparison_greek": {
         "year": 1837,
         "publisher": "Oxford University Press",
-        "access": "Graeco-Arabic完整电子转录；关联TEI不是独立手稿见证；1837原页图未目验"
+        "pages": "61–62, electronic milestones only",
+        "access": "完整Graeco-Arabic/related First1KGreek TEI对读；非独立手稿校勘，未目验1837原页图"
       },
       "english": {
         "translator": "Octavius Freire Owen",
         "year": 1853,
         "publisher": "London: Henry G. Bohn",
-        "pages": "85–89",
-        "scope": "全章正文及适用脚注/例式，题名和卷首ERRATA核图"
+        "pages": "80–82",
+        "scope": "完整三页、八脚注、边栏与Mansel来源原则树；题名/ERRATA及53页回指脚注有界核图"
       }
     },
-    "document_type": "完整书籍章节I.4；非期刊论文、非整卷或全部工具论",
-    "pages": "完整25b26–26b33；I.5从26b34开始",
-    "why_selected": "完整读当前README、候选注册、进度与Turing深读v2基准后，对既存古代/近代缺口按原文可得、完整论证边界、推理表征内容和可核性共同调查。I.4提供四条直接推导、逐类反例及完整分类，且1831希腊原页实际可读；非按名气、非自动相邻推进、非最早或穷尽宣称。",
-    "mathematical_boundary": "现代三一元词项集合语义、空项与全非空政策、四条一般证明和十二失败前提对的非空反模型；八类型保持性覆盖任意含无限论域，255/218容斥与代码有限枚举分开。正向S→P与反向P→S显式区分；不实现模态、计数或二元关系。",
-    "completion": "完整中文解读、20题及答案、原文定位账本、版本/校勘/译本勘误边界、标准库三模式实跑和分开的来源/全文论证数学/代码审计。远端字节及GitHub浏览器验收另行执行。",
-    "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
-    "source_ledger_path": "papers/ancient/aristotle-prior-analytics-i4.sources.zh-CN.md",
-    "mathematical_audit_path": "papers/ancient/aristotle-prior-analytics-i4.audit.zh-CN.md",
-    "source_audit_path": "papers/ancient/aristotle-prior-analytics-i4.source-audit.zh-CN.md",
-    "reproduction_path": "reproduction/aristotle-prior-analytics-i4/README.md",
+    "document_type": "完整书籍章节I.1，非期刊论文、整书或全部工具论",
+    "pages": "24a10–24b30；下一章从25a1开始",
+    "why_selected": "重新读取当前README、完整候选/历史/缺口、progress和Turing-v2，比较I.1–3/I.5、Topics、Plato新线索及既有古代近代缺口。I.1是明确未完成、原语言整章可读的基础定义单位；优先补齐既有I.4依赖，不按名气、不机械续到I.5、不宣定最早AI/推理起点。",
+    "mathematical_boundary": "1–3一元词项AEIO集合语义；非空论域、可选词项非空政策；后承/事实真假/前提根据/证书依赖分层；类型支持保持性适用于任意含无限论域，有限执行另记；证书规则仅有限可靠子集，不自动判古代完善性或完整推论定义。",
+    "completion": "完整中文分析、20道有解练习、位置账本、来源及版本界限、真实标准库三模式实跑与来源/全文论证数学/代码三路独立审计；远端字节与实际GitHub浏览器验收由发布步骤另核。",
+    "article_path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+    "source_ledger_path": "papers/ancient/aristotle-prior-analytics-i1.sources.zh-CN.md",
+    "mathematical_audit_path": "papers/ancient/aristotle-prior-analytics-i1.audit.zh-CN.md",
+    "source_audit_path": "papers/ancient/aristotle-prior-analytics-i1.source-audit.zh-CN.md",
+    "reproduction_path": "reproduction/aristotle-prior-analytics-i1/README.md",
     "source_url": "https://archive.org/details/aristotelisopera01arisrich",
     "errata": {
-      "greek": "1831印刷25/26页适用异文装置核读，非作者勘误；仅有限前后页与OCR搜索未见独立勘误表，不宣称全部更正史完成。",
-      "english": "Owen1853卷首ERRATA涉及219/273/594，未列本章85–89；不等于本章无翻译问题。"
+      "greek": "24页适用I.1校勘9条/8组定位，非作者勘误；有限前后页未见单独勘误页，不作全部修订史结论。",
+      "english": "卷首ERRATA仅列219/273/594，不涉及本章80–82；不是翻译无误的保证。"
     },
     "version_cautions": [
-      "希腊26b25例词为马，Owen1853第89页为人；保留读数差异，不无声改写或冒称正式勘误。",
-      "1837电子转录与First1KGreek TEI承接同一来源，不计独立手稿校勘；1831两原页为实际影像依据。",
-      "Owen Ex.1–7及后世引注属于译编层；AEIO/PMS/集合/代码为现代重建。"
+      "1831同页上半为De interpretatione，24b1–9不属于I.1；章续在24b10，不能误标24b3为本章。",
+      "Owen81页Mansel原则树和八脚注为译编层，不是亚里士多德原图/原注。",
+      "1837电子转录有来源关联，不计两独立校本；1840年代等后世评论未随脚注一并认证。"
     ],
     "limits": [
-      "只完成I.4；I.1–3所需定义和I.7开头只作有界上下文，邻章和全书未完成。",
-      "未核精确古代写作年份、全部更早材料、手稿谱系、现代校本/完整修订史或AI直接影响链。",
-      "所有旧候选、历史、有效状态、版本和书籍缺口保留；Locke/Berkeley已刊更正和Condillac勘误状态不变。"
+      "只新增I.1完整章节；I.2–3、I.5以后、Topics及所有其他完整作品仍未完成。",
+      "一般syllogismos不先验限于两前提三项；现代后承、字面重复和依赖记录不等于原定义全部条件。",
+      "Plato Meno仅新增未完成来源线索；精确古代年代、其他文明/全部前驱、全部异文/修订史、直接AI影响链未核。",
+      "所有旧候选、历史、状态和缺口保持；I.4完成、Locke/Berkeley更正与Condillac勘误状态不变。"
     ]
   },
   "earlier_gap_priority": [
@@ -2196,6 +2198,66 @@
         "未核精确古代写作年份、全部更早材料、手稿谱系、现代校本/完整修订史或AI直接影响链。",
         "所有旧候选、历史、有效状态、版本和书籍缺口保留；Locke/Berkeley已刊更正和Condillac勘误状态不变。"
       ]
+    },
+    {
+      "candidate_id": "aristotle-prior-analytics-i1",
+      "authors": [
+        "Aristotle"
+      ],
+      "title": "Analytica priora / Prior Analytics, Book I, chapter 1",
+      "chronology_year": null,
+      "chronology_label": "公元前四世纪作品；精确成书年份及章节写作顺序未核",
+      "chronology_year_basis": "古代作品与1831/1837希腊编辑年、1853英译年分开；从已完成I.4回填此前只作背景的I.1，不以章号证明写作先后。",
+      "read_edition": {
+        "primary_greek": {
+          "editor": "Immanuel Bekker",
+          "year": 1831,
+          "publisher": "Berlin: Georg Reimer / Academia Regia Borussica",
+          "pages": "24a10–24b30",
+          "source_images": [
+            "https://archive.org/download/aristotelisopera01arisrich/page/n39.jpg"
+          ]
+        },
+        "comparison_greek": {
+          "year": 1837,
+          "publisher": "Oxford University Press",
+          "pages": "61–62, electronic milestones only",
+          "access": "完整Graeco-Arabic/related First1KGreek TEI对读；非独立手稿校勘，未目验1837原页图"
+        },
+        "english": {
+          "translator": "Octavius Freire Owen",
+          "year": 1853,
+          "publisher": "London: Henry G. Bohn",
+          "pages": "80–82",
+          "scope": "完整三页、八脚注、边栏与Mansel来源原则树；题名/ERRATA及53页回指脚注有界核图"
+        }
+      },
+      "document_type": "完整书籍章节I.1，非期刊论文、整书或全部工具论",
+      "pages": "24a10–24b30；下一章从25a1开始",
+      "why_selected": "重新读取当前README、完整候选/历史/缺口、progress和Turing-v2，比较I.1–3/I.5、Topics、Plato新线索及既有古代近代缺口。I.1是明确未完成、原语言整章可读的基础定义单位；优先补齐既有I.4依赖，不按名气、不机械续到I.5、不宣定最早AI/推理起点。",
+      "mathematical_boundary": "1–3一元词项AEIO集合语义；非空论域、可选词项非空政策；后承/事实真假/前提根据/证书依赖分层；类型支持保持性适用于任意含无限论域，有限执行另记；证书规则仅有限可靠子集，不自动判古代完善性或完整推论定义。",
+      "completion": "完整中文分析、20道有解练习、位置账本、来源及版本界限、真实标准库三模式实跑与来源/全文论证数学/代码三路独立审计；远端字节与实际GitHub浏览器验收由发布步骤另核。",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+      "source_ledger_path": "papers/ancient/aristotle-prior-analytics-i1.sources.zh-CN.md",
+      "mathematical_audit_path": "papers/ancient/aristotle-prior-analytics-i1.audit.zh-CN.md",
+      "source_audit_path": "papers/ancient/aristotle-prior-analytics-i1.source-audit.zh-CN.md",
+      "reproduction_path": "reproduction/aristotle-prior-analytics-i1/README.md",
+      "source_url": "https://archive.org/details/aristotelisopera01arisrich",
+      "errata": {
+        "greek": "24页适用I.1校勘9条/8组定位，非作者勘误；有限前后页未见单独勘误页，不作全部修订史结论。",
+        "english": "卷首ERRATA仅列219/273/594，不涉及本章80–82；不是翻译无误的保证。"
+      },
+      "version_cautions": [
+        "1831同页上半为De interpretatione，24b1–9不属于I.1；章续在24b10，不能误标24b3为本章。",
+        "Owen81页Mansel原则树和八脚注为译编层，不是亚里士多德原图/原注。",
+        "1837电子转录有来源关联，不计两独立校本；1840年代等后世评论未随脚注一并认证。"
+      ],
+      "limits": [
+        "只新增I.1完整章节；I.2–3、I.5以后、Topics及所有其他完整作品仍未完成。",
+        "一般syllogismos不先验限于两前提三项；现代后承、字面重复和依赖记录不等于原定义全部条件。",
+        "Plato Meno仅新增未完成来源线索；精确古代年代、其他文明/全部前驱、全部异文/修订史、直接AI影响链未核。",
+        "所有旧候选、历史、状态和缺口保持；I.4完成、Locke/Berkeley更正与Condillac勘误状态不变。"
+      ]
     }
   ],
   "next_source_gap": {
@@ -3283,6 +3345,13 @@
       "completed_on": "2026-10-13",
       "scope": "One complete ancient chapter I.4,25b26–26b33;1831 Greek images,1837 electronic comparison,1853 English pp85–89 and applicable editorial apparatus/errata scope. Explicit backward fill; remote/browser acceptance follows separately.",
       "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md"
+    },
+    {
+      "event": "complete_bounded_reading_unit",
+      "candidate_id": "aristotle-prior-analytics-i1",
+      "completed_on": "2026-10-13",
+      "scope": "One complete chapter Prior Analytics I.1,24a10–24b30;Greek1831 image and applicable apparatus,1837 electronic comparison,Owen1853 pp80–82 all notes and editorial diagram/ERRATA. Explicit textual-order backfill, not proven composition chronology. Remote/browser acceptance follows separately.",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md"
     }
   ],
   "earlier_background_gaps": [
@@ -3554,6 +3623,17 @@
       "candidate_id": "aristotle-prior-analytics-i4",
       "status": "bounded_chapter_only_remaining_gaps_open",
       "gap": "Aristotle其他章和全部工具论、具体成书顺序、更早古代材料与其他文明推理文本、Galen完整章节和勘误、Port-Royal/Descartes/Bacon及其他全部原缺口仍开放。1837原页图、全部手稿/现代校本/异文语义和修订史、直接影响链未完成。邻章定义或I.7反向段不算新增完成单元。"
+    },
+    {
+      "candidate_id": "aristotle-prior-analytics-i1",
+      "status": "bounded_chapter_only_remaining_gaps_open",
+      "gap": "只关闭I.1完整章缺口；I.2–3、I.5以后、Topics及全部工具论、精确成书顺序、原手稿/1837原页/现代校本/全部修订史及译注所引评论书仍开放。完善性、通过这些、存在要求的完整历史解释和直接AI影响链未认证；全部既有古代近代/版本/书籍缺口保持。"
+    },
+    {
+      "candidate_id": "plato-meno-undelimited",
+      "status": "new_earlier_source_lead_not_completed",
+      "source_url": "https://classics.mit.edu/Plato/meno.html",
+      "gap": "Jowett英译入口及教学/回忆/几何问答线索可得；未认证完整原语言本、精确成书年或独立完整单元边界。著名片段不充作完整对话或实证实验；保留后续更早来源评估，不与本轮I.1并行完成。"
     }
   ],
   "effective_status": {
@@ -4109,6 +4189,12 @@
       "article_path": "papers/ancient/aristotle-prior-analytics-i4.zh-CN.md",
       "version": "v1",
       "scope": "古代完整章节I.4，实际1831希腊扫描/1837转录/1853英译分层核读，四路线与十二反例类、20有解练习、现代一般证明和真实有限实跑；非全书或穷尽历史。"
+    },
+    "aristotle-prior-analytics-i1": {
+      "status": "completed_bounded_reading",
+      "article_path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
+      "version": "v1",
+      "scope": "完整I.1定义、前提地位与推论要求；20有解练习、现代一般证明、有限标准库实跑与三路独立审查。非整书、全古代逻辑史或作者算法。"
     }
   },
   "latest_quality_correction": {

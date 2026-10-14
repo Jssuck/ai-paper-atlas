@@ -1,0 +1,13 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py --module-root /tmp/i1-audit-mutant-hnfesen7 --section validation --quick
+Traceback (most recent call last):
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 292, in <module>
+    main()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 287, in main
+    fn()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 253, in check_dependencies_and_invalid
+    reject(label, fn)
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 38, in reject
+    raise RuntimeError(f'{label}: malformed input was accepted')
+RuntimeError: premise substitution: malformed input was accepted
+
+Exit code: 1

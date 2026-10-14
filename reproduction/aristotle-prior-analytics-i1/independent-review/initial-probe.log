@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 273, in <module>
+    main()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 268, in main
+    fn()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 251, in check_dependencies_and_invalid
+    reject(f'forged Step {field}={value!r}', lambda forged=forged: check_certificate(lang,(p,p),p,(forged,)))
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 36, in reject
+    raise RuntimeError(f'{label}: malformed input was accepted')
+RuntimeError: forged Step assumption=-1: malformed input was accepted

@@ -1,0 +1,13 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py --module-root /tmp/i1-audit-mutant-n006put0 --section rules --quick
+Traceback (most recent call last):
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 292, in <module>
+    main()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 287, in main
+    fn()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 189, in check_rule_acceptance
+    check(accepted == (expected == conclusion), f'rule direction/type/output {rule} {premises} {conclusion}')
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 28, in check
+    raise RuntimeError(message)
+RuntimeError: rule direction/type/output e_sym (Prop(kind='E', subject='alpha', predicate='beta'),) Prop(kind='E', subject='alpha', predicate='beta')
+
+Exit code: 1

@@ -1,0 +1,144 @@
+{
+  "killed": 12,
+  "mutants": [
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support truth Prop(kind='A', subject='alpha', predicate='alpha') (0,)",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "1b7d203bf75be926a3252202c120c4b533a38346f83e8427e741888c2200240d",
+      "name": "A_negation",
+      "original": "        return not outside",
+      "replacement": "        return outside",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support truth Prop(kind='E', subject='alpha', predicate='alpha') (0,)",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "e3bb5f8fff4e2c34092b5df2247d5327a95542600b1488869638dc4d53bfa17e",
+      "name": "E_negation",
+      "original": "        return not intersection",
+      "replacement": "        return intersection",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support truth Prop(kind='I', subject='alpha', predicate='alpha') (0,)",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "e83c137004fcf257fee1aaf690043fc4afcc9d581d3c7f6d43ffb720a34ef57d",
+      "name": "I_negation",
+      "original": "        return intersection",
+      "replacement": "        return not intersection",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support truth Prop(kind='O', subject='alpha', predicate='alpha') (0,)",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "b54af203c1dab88ce44bfae619b961e3f2422604137e8c752deb3388665dd157",
+      "name": "O_negation",
+      "original": "    return outside\n",
+      "replacement": "    return not outside\n",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support count k=1 policy=frozenset({'alpha'})",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "bb9a64008aaacebf650fcdebcb96d3d3c8100cb89ce3f083320abcff1be2d0bf",
+      "name": "ignore_nonempty_policy",
+      "original": "    return all(model.members(term) for term in language.required_nonempty)",
+      "replacement": "    return True",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: support count k=1 policy=frozenset()",
+      "file": "logic.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "8218d74753efb69b1adf333e761cdfe4ac160e271340f229e166fc4e78563a5a",
+      "name": "skip_support",
+      "original": "for support_mask in range(1, 1 << type_count):",
+      "replacement": "for support_mask in range(2, 1 << type_count):",
+      "section": "semantics"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: rule direction/type/output e_sym (Prop(kind='E', subject='alpha', predicate='beta'),) Prop(kind='E', subject='alpha', predicate='beta')",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "7004cf1173d63cbf86c819346616066d2af3ddcc1891c8cffe8615fe377d5492",
+      "name": "reverse_E_conversion",
+      "original": "return Prop(\"E\", p.predicate, p.subject)",
+      "replacement": "return Prop(\"E\", p.subject, p.predicate)",
+      "section": "rules"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: rule direction/type/output i_up (Prop(kind='I', subject='alpha', predicate='alpha'), Prop(kind='A', subject='alpha', predicate='alpha')) Prop(kind='I', subject='alpha', predicate='alpha')",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "d368fae36c9d5777bac930afa9410d354dfaa5498361e74d1b1219d32a598cea",
+      "name": "wrong_I_output",
+      "original": "return Prop(\"I\", p.subject, q.predicate)",
+      "replacement": "return Prop(\"O\", p.subject, q.predicate)",
+      "section": "rules"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: rule direction/type/output o_from_i_e (Prop(kind='I', subject='alpha', predicate='alpha'), Prop(kind='E', subject='alpha', predicate='alpha')) Prop(kind='I', subject='alpha', predicate='alpha')",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "0c1cc228e5c2d549155dde41d64fe91d00eb89f7a29241b9f6e17af8681a0a32",
+      "name": "wrong_O_output",
+      "original": "return Prop(\"O\", p.subject, q.predicate)",
+      "replacement": "return Prop(\"I\", p.subject, q.predicate)",
+      "section": "rules"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: premise substitution: malformed input was accepted",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "2caf1fe7024e8eee28cda24dd35878bcef9cf59caa83ffd9d267195cb4fe8d0f",
+      "name": "allow_imported_claim",
+      "original": "if step.claim != premises[premise_index]:",
+      "replacement": "if False:",
+      "section": "validation"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: transitive dependency lost or overcounted",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "e25ceba29e7a2c6829187225ee94c574d516d02b88dc57b035ccdd0e2ab7562a",
+      "name": "all_premises_dependencies",
+      "original": "used = dependencies[-1]",
+      "replacement": "used = frozenset(range(len(premises)))",
+      "section": "validation"
+    },
+    {
+      "exit_code": 1,
+      "failure": "RuntimeError: wrong final goal: malformed input was accepted",
+      "file": "proofs.py",
+      "killed_by_independent_check": true,
+      "mutated_sha256": "7d06ed68fbbbf51a4884df4d9113ac875fc17f4ae0ed078b7a104a910cede335",
+      "name": "accept_any_final_claim",
+      "original": "if steps[-1].claim != conclusion:",
+      "replacement": "if False:",
+      "section": "validation"
+    }
+  ],
+  "passed": true,
+  "production_unchanged": true,
+  "source_hashes": {
+    "logic.py": "d154c720642a31779315d7df7142d1cf4af57d1ca239d1e9b011eda5c6260d7a",
+    "proofs.py": "915f329ce4a4d601a44cd0b372a1b25017aa8d7119523dcd56586e99d14c0bb4"
+  },
+  "total": 12
+}

@@ -1,0 +1,13 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py --module-root /tmp/i1-audit-mutant-jdqq00ok --section validation --quick
+Traceback (most recent call last):
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 292, in <module>
+    main()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 287, in main
+    fn()
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 210, in check_dependencies_and_invalid
+    check(report.used_assumptions == (1, 3), 'transitive dependency lost or overcounted')
+  File "/workspace/scratch/30408432558e/ai-history-next-2335/release/reproduction/aristotle-prior-analytics-i1/independent-review/audit_checks.py", line 28, in check
+    raise RuntimeError(message)
+RuntimeError: transitive dependency lost or overcounted
+
+Exit code: 1
