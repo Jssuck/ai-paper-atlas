@@ -1,0 +1,126 @@
+import unittest
+from dataclasses import replace
+from itertools import product
+from model import Proposition as P, Step, Model, derive, verify, models, nonempty_countermodel, quantity_countermodels
+
+class Rules(unittest.TestCase):
+    def test_all_sixteen_shapes(self):
+        expected = {('a','a'):'a',('a','e'):'a',('a','i'):'i',('a','o'):'i',
+                    ('e','a'):'e',('e','e'):'e',('e','i'):'o',('e','o'):'o'}
+        for x,y in product('aeio', repeat=2):
+            with self.subTest(x=x,y=y):
+                a,b=P(x,'A','B'),P(y,'B','C'); proof=derive(a,b)
+                if (x,y) not in expected:
+                    self.assertIsNone(proof)
+                else:
+                    self.assertTrue(verify(a,b,proof))
+                    self.assertEqual(proof[-1].formula,P(expected[x,y],'A','C'))
+                    self.assertEqual(len(proof),4 if y in 'eo' else 3)
+    def test_quality_involution_and_terms(self):
+        for mode in 'aeio':
+            p=P(mode,'A','B');q=p.quality()
+            self.assertEqual(p,q.quality());self.assertEqual((q.predicate,q.subject),('A','B'))
+            self.assertNotEqual(p.mode,q.mode)
+    def test_terms_can_be_renamed(self):
+        a,b=P('e','动物','白者'),P('o','白者','人')
+        self.assertTrue(verify(a,b,derive(a,b)))
+    def test_bad_modes(self):
+        for mode in ('A','',None,[],True):
+            with self.assertRaises(ValueError): P(mode,'A','B')
+    def test_bad_terms(self):
+        for term in ('',' ',None,1,[]):
+            with self.assertRaises(ValueError): P('a',term,'B')
+        with self.assertRaises(ValueError): P('a','B','B')
+    def test_wrong_figure(self):
+        with self.assertRaises(ValueError): derive(P('a','A','B'),P('a','C','B'))
+    def test_duplicate_extremes(self):
+        with self.assertRaises(ValueError): derive(P('a','A','B'),P('a','B','A'))
+    def test_nonproposition(self):
+        with self.assertRaises(ValueError): derive(None,P('a','B','C'))
+    def test_forged_quantity(self):
+        a,b=P('a','A','B'),P('i','B','C');proof=derive(a,b)
+        self.assertFalse(verify(a,b,proof[:-1]+(replace(proof[-1],formula=P('a','A','C')),)))
+    def test_forged_term_conversion(self):
+        a,b=P('a','A','B'),P('e','B','C');proof=derive(a,b)
+        bad=proof[:2]+(Step('quality',P('a','C','B'),(1,)),)+proof[3:]
+        self.assertFalse(verify(a,b,bad))
+    def test_forged_premise(self):
+        a,b=P('a','A','B'),P('a','B','C');proof=derive(a,b)
+        self.assertFalse(verify(a,b,(Step('premise',P('e','A','B')),)+proof[1:]))
+    def test_bad_certificates(self):
+        a,b=P('a','A','B'),P('a','B','C');proof=derive(a,b)
+        for refs in ((0,3),(-1,1),(True,1),(0,),[0,1]):
+            self.assertFalse(verify(a,b,proof[:-1]+(replace(proof[-1],refs=refs),)))
+        for candidate in (None,[],(),proof[:2],list(proof)):
+            self.assertFalse(verify(a,b,candidate))
+        self.assertFalse(verify(a,b,proof[:-1]+(replace(proof[-1],rule='magic'),)))
+    def test_result_quality_can_be_derived(self):
+        a,b=P('a','A','B'),P('a','B','C');proof=derive(a,b)
+        self.assertTrue(verify(a,b,proof+(Step('quality',P('e','A','C'),(2,)),)))
+
+class Semantics(unittest.TestCase):
+    def test_nonempty_countermodel(self):
+        m=nonempty_countermodel()
+        self.assertTrue(all(m.actual_set(t)>0 for t in 'ABC'))
+        self.assertTrue(m.evaluate(P('a','A','B')))
+        self.assertTrue(m.evaluate(P('a','B','C')))
+        self.assertFalse(m.evaluate(P('a','A','C')))
+        self.assertTrue(verify(P('a','A','B'),P('a','B','C'),derive(P('a','A','B'),P('a','B','C'))))
+    def test_quantity_countermodels(self):
+        positive,negative=quantity_countermodels()
+        for m in (positive,negative):
+            for major in 'io':
+                for minor in 'aeio':
+                    self.assertTrue(m.evaluate(P(major,'A','B')))
+                    self.assertTrue(m.evaluate(P(minor,'B','C')))
+            for conclusion in 'aeio': self.assertFalse(m.evaluate(P(conclusion,'A','C')))
+        self.assertTrue(all(mask & 2 for mask in positive.column('A')))
+        self.assertTrue(all(not mask & 2 for mask in negative.column('A')))
+    def test_empty_subject(self):
+        m=Model(1,((0,0,0),))
+        self.assertTrue(m.quantify('a',0,'A'));self.assertFalse(m.quantify('i',0,'A'))
+    def test_one_world_never_contingent(self):
+        for m in models(2,1):
+            for term in 'ABC': self.assertEqual(m.contingent_set(term),0)
+    def test_positive_and_negative_quality_same_semantics(self):
+        for m in models(1):
+            for x,y in (('a','e'),('i','o')):
+                self.assertEqual(m.evaluate(P(x,'A','B')),m.evaluate(P(y,'A','B')))
+    def test_actual_world_choice(self):
+        m=nonempty_countermodel();r=replace(m,actual=1)
+        self.assertEqual(r.actual_set('B'),1)
+        self.assertEqual(r.contingent_set('B'),m.contingent_set('B'))
+    def test_bridge_universal_and_particular(self):
+        for n in (1,2):
+            for m in models(n):
+                if m.quantify('a',m.possible_set('B'),'A'):
+                    for mode in ('a','i'):
+                        if m.evaluate(P(mode,'B','C')):
+                            self.assertTrue(m.evaluate(P(mode,'A','C')))
+    def test_possible_is_not_contingent(self):
+        m=Model(1,((1,1,1),(1,1,1)))
+        self.assertEqual(m.possible_set('B'),1);self.assertEqual(m.contingent_set('B'),0)
+    def test_mask_complement(self):
+        m=Model(2,((3,0,0),(1,0,0)))
+        self.assertEqual(m.contingent_set('A'),2)
+    def test_invalid_domains_worlds(self):
+        for n in (0,-1,True,1.5):
+            with self.assertRaises(ValueError):Model(n,((0,0,0),))
+        for worlds in ((),[],((0,0),),([0,0,0],),((0,0,2),),((True,0,0),)):
+            with self.assertRaises(ValueError):Model(1,worlds)
+    def test_invalid_actual(self):
+        for actual in (-1,1,True,None):
+            with self.assertRaises(ValueError): Model(1,((0,0,0),),actual)
+    def test_invalid_eval(self):
+        m=nonempty_countermodel()
+        for term in ('X','',None):
+            with self.assertRaises(ValueError):m.column(term)
+        for subject in (-1,4,True,None):
+            with self.assertRaises(ValueError):m.quantify('a',subject,'A')
+        with self.assertRaises(ValueError):m.quantify('x',1,'A')
+        with self.assertRaises(ValueError):m.evaluate(None)
+    def test_invalid_enumerator(self):
+        for args in ((0,2),(1,0),(True,2),(1,False)):
+            with self.assertRaises(ValueError):next(models(*args))
+
+if __name__=='__main__':unittest.main(verbosity=2)

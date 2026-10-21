@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "counts": {
+    "attribute_pairs": 4368,
+    "bridge_instances": 65640,
+    "checks": 232792
+  },
+  "manuscript_counts": {
+    "models": 4160,
+    "actual_premises": 1332,
+    "actual_failures": 276,
+    "nonempty_premises": 302,
+    "nonempty_failures": 72,
+    "universal_bridge_premises": 812,
+    "particular_bridge_premises": 584
+  },
+  "scope": "Finite two-world modern semantic checks, not an ancient completeness/soundness proof."
+}

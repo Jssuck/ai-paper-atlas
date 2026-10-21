@@ -1,0 +1,54 @@
+{
+  "model_sha256": "e177b0d09fac8535d9b25ca0bafc2e4334c5c20695ee454e0e85477202255b72",
+  "tests_sha256": "f1eda3884c0055d6bb8f41e076ada265c83fe9b1543f393377dd531b0f77dc5d",
+  "mutants": [
+    {
+      "name": "drop_final_endpoint_check",
+      "exit_code": 0,
+      "detected": false,
+      "stderr_tail": "----------------------------------------------------------------------\nRan 26 tests in 0.022s\n\nOK\n"
+    },
+    {
+      "name": "all_subjects_become_existential",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "======================================================================\nFAIL: test_bridge_universal_and_particular (test_model.Semantics.test_bridge_universal_and_particular)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-x4fgbsa7/test_model.py\", line 99, in test_bridge_universal_and_particular\n    self.assertTrue(m.evaluate(P(mode,'A','C')))\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_empty_subject (test_model.Semantics.test_empty_subject)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-x4fgbsa7/test_model.py\", line 81, in test_empty_subject\n    self.assertTrue(m.quantify('a',0,'A'));self.assertFalse(m.quantify('i',0,'A'))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 26 tests in 0.003s\n\nFAILED (failures=2)\n"
+    },
+    {
+      "name": "possible_excludes_necessary",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "======================================================================\nFAIL: test_possible_is_not_contingent (test_model.Semantics.test_possible_is_not_contingent)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-oc8b26lo/test_model.py\", line 102, in test_possible_is_not_contingent\n    self.assertEqual(m.possible_set('B'),1);self.assertEqual(m.contingent_set('B'),0)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 26 tests in 0.028s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "contingency_includes_necessity",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "r_contingent)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-acvbnw78/test_model.py\", line 84, in test_one_world_never_contingent\n    for term in 'ABC': self.assertEqual(m.contingent_set(term),0)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 0\n\n======================================================================\nFAIL: test_possible_is_not_contingent (test_model.Semantics.test_possible_is_not_contingent)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-acvbnw78/test_model.py\", line 102, in test_possible_is_not_contingent\n    self.assertEqual(m.possible_set('B'),1);self.assertEqual(m.contingent_set('B'),0)\n                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 0\n\n======================================================================\nFAIL: test_quantity_countermodels (test_model.Semantics.test_quantity_countermodels)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-acvbnw78/test_model.py\", line 76, in test_quantity_countermodels\n    for conclusion in 'aeio': self.assertFalse(m.evaluate(P(conclusion,'A','C')))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 26 tests in 0.031s\n\nFAILED (failures=4)\n"
+    },
+    {
+      "name": "wrong_base_quantity",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "============================\nFAIL: test_all_sixteen_shapes (test_model.Rules.test_all_sixteen_shapes) (x='a', y='i')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-2jyxff5w/test_model.py\", line 17, in test_all_sixteen_shapes\n    self.assertEqual(proof[-1].formula,P(expected[x,y],'A','C'))\nAssertionError: Proposition(mode='a', predicate='A', subject='C') != Proposition(mode='i', predicate='A', subject='C')\n\n======================================================================\nFAIL: test_all_sixteen_shapes (test_model.Rules.test_all_sixteen_shapes) (x='a', y='o')\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-2jyxff5w/test_model.py\", line 17, in test_all_sixteen_shapes\n    self.assertEqual(proof[-1].formula,P(expected[x,y],'A','C'))\nAssertionError: Proposition(mode='a', predicate='A', subject='C') != Proposition(mode='i', predicate='A', subject='C')\n\n======================================================================\nFAIL: test_forged_quantity (test_model.Rules.test_forged_quantity)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-2jyxff5w/test_model.py\", line 42, in test_forged_quantity\n    self.assertFalse(verify(a,b,proof[:-1]+(replace(proof[-1],formula=P('a','A','C')),)))\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 26 tests in 0.025s\n\nFAILED (failures=3)\n"
+    },
+    {
+      "name": "quality_swaps_terms",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "ality_involution_and_terms (test_model.Rules.test_quality_involution_and_terms)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-hv9nh21e/test_model.py\", line 22, in test_quality_involution_and_terms\n    self.assertEqual(p,q.quality());self.assertEqual((q.predicate,q.subject),('A','B'))\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Tuples differ: ('B', 'A') != ('A', 'B')\n\nFirst differing element 0:\n'B'\n'A'\n\n- ('B', 'A')\n+ ('A', 'B')\n\n======================================================================\nFAIL: test_result_quality_can_be_derived (test_model.Rules.test_result_quality_can_be_derived)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-hv9nh21e/test_model.py\", line 59, in test_result_quality_can_be_derived\n    self.assertTrue(verify(a,b,proof+(Step('quality',P('e','A','C'),(2,)),)))\nAssertionError: False is not true\n\n======================================================================\nFAIL: test_terms_can_be_renamed (test_model.Rules.test_terms_can_be_renamed)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-hv9nh21e/test_model.py\", line 26, in test_terms_can_be_renamed\n    self.assertTrue(verify(a,b,derive(a,b)))\nAssertionError: False is not true\n\n----------------------------------------------------------------------\nRan 26 tests in 0.025s\n\nFAILED (failures=7)\n"
+    },
+    {
+      "name": "ignore_actual_index",
+      "exit_code": 1,
+      "detected": true,
+      "stderr_tail": "======================================================================\nFAIL: test_actual_world_choice (test_model.Semantics.test_actual_world_choice)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/i14-mutation-lnpducps/test_model.py\", line 91, in test_actual_world_choice\n    self.assertEqual(r.actual_set('B'),1)\nAssertionError: 2 != 1\n\n----------------------------------------------------------------------\nRan 26 tests in 0.026s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "name": "accept_bool_references",
+      "exit_code": 0,
+      "detected": false,
+      "stderr_tail": "----------------------------------------------------------------------\nRan 26 tests in 0.023s\n\nOK\n"
+    }
+  ]
+}

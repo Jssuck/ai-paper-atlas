@@ -3,9 +3,9 @@
   "status": "in_progress",
   "active_paper": {
     "id": "aristotle-prior-analytics-i14",
-    "stage": "research_and_reproduction",
+    "stage": "publication_verification",
     "path": "papers/ancient/aristotle-prior-analytics-i14.zh-CN.md",
-    "updated_at": "2026-10-21T20:40:49Z"
+    "updated_at": "2026-10-21T20:46:32Z"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-i13",
@@ -16,14 +16,14 @@
     "completed_at": "2026-10-21T19:50:00Z",
     "checks": "Independent source, full argument and code audits passed;12 SHA256 bindings plus main source-review digest verified.22 author tests per normal/-O/-OO mode;256 two-object two-world models and1024 subject pairs. Independent argument74968 checks; independent code4368 models,17472 subject pairs and69888 sentence vectors. Eight selected semantic mutations detected after repairing a complement-test blind spot; before/after evidence preserved.35 content/progress files (186518 UTF-8 bytes) exactly read back;2311 unrelated blobs/modes preserved;415 relative Markdown targets exist. Actual GitHub Preview QA passed all seven new Markdown pages and root README additions;1/1 formula, all three main tables and20/20 answers pixel-checked; heading anchors matched and five selected anchors clicked.56 old directory rows retained and I.13 row added (57 total); directory click reached canonical paper. Other pages sampled for visible headings/prose/code/tables, not every prose pixel or external bibliography target. No workflow/check/status contexts; no CI pass claimed."
   },
-  "updated_at": "2026-10-21T20:40:49Z",
+  "updated_at": "2026-10-21T20:46:32Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Complete I.14 primary-source reading, proof reconstruction, minimal reproduction and independent reviews; do not start another unit.",
+  "next_action": "Publish independently reviewed I.14; verify exact remote content, links and GitHub rendering before marking complete.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

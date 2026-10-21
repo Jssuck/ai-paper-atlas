@@ -1,0 +1,13 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "model.py": "e177b0d09fac8535d9b25ca0bafc2e4334c5c20695ee454e0e85477202255b72",
+    "test_model.py": "8cfd6684277b2399e5f10564285fada8c1a4861185586495e7ace9978a0cb8a7",
+    "demo.py": "dea2129b96dd1dc096186ee3d84f0d2503df5047874ca9d9be2be9da030d3bb4",
+    "README.md": "c7d1a82b886340bd03a6de2cc44a26053c31a8668e5ad1670c3c21b1ad63f87d",
+    "CODE_REVIEW.md": "e7e96eb24cb7e771b7803769e7ad2df157ecc52eba7eb0d83cea71ec4e2f62b3",
+    "code-review/check.py": "74b36ed618f34db0c7220d9295db4a93f8538f3f492155345debc87f8245dd7a",
+    "code-review/mutations.py": "8fa7fb24979fd592bc220647cf09813a245b5c706e14730ee580e154fb97c176",
+    "code-review/test_model-before-coverage-fix.txt": "f1eda3884c0055d6bb8f41e076ada265c83fe9b1543f393377dd531b0f77dc5d"
+  }
+}

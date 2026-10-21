@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "coverage": {
+    "models": 9928,
+    "pointwise_quantifiers": 436416,
+    "bridge_implications": 5078,
+    "shape_checks": 16,
+    "certificate_rejections": 32
+  },
+  "scope": "finite labelled models; multiple actual-world indices; not an infinite-model proof"
+}

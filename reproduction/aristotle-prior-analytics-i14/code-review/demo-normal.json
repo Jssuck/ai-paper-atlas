@@ -1,0 +1,213 @@
+{
+  "interpretation": "historical rule certificates versus a separate modern semantics",
+  "shapes": [
+    {
+      "major": "a",
+      "minor": "a",
+      "conclusion": "a",
+      "rules": [
+        "premise",
+        "premise",
+        "base"
+      ]
+    },
+    {
+      "major": "a",
+      "minor": "e",
+      "conclusion": "a",
+      "rules": [
+        "premise",
+        "premise",
+        "quality",
+        "base"
+      ]
+    },
+    {
+      "major": "a",
+      "minor": "i",
+      "conclusion": "i",
+      "rules": [
+        "premise",
+        "premise",
+        "base"
+      ]
+    },
+    {
+      "major": "a",
+      "minor": "o",
+      "conclusion": "i",
+      "rules": [
+        "premise",
+        "premise",
+        "quality",
+        "base"
+      ]
+    },
+    {
+      "major": "e",
+      "minor": "a",
+      "conclusion": "e",
+      "rules": [
+        "premise",
+        "premise",
+        "base"
+      ]
+    },
+    {
+      "major": "e",
+      "minor": "e",
+      "conclusion": "e",
+      "rules": [
+        "premise",
+        "premise",
+        "quality",
+        "base"
+      ]
+    },
+    {
+      "major": "e",
+      "minor": "i",
+      "conclusion": "o",
+      "rules": [
+        "premise",
+        "premise",
+        "base"
+      ]
+    },
+    {
+      "major": "e",
+      "minor": "o",
+      "conclusion": "o",
+      "rules": [
+        "premise",
+        "premise",
+        "quality",
+        "base"
+      ]
+    },
+    {
+      "major": "i",
+      "minor": "a",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "i",
+      "minor": "e",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "i",
+      "minor": "i",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "i",
+      "minor": "o",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "o",
+      "minor": "a",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "o",
+      "minor": "e",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "o",
+      "minor": "i",
+      "conclusion": null,
+      "rules": []
+    },
+    {
+      "major": "o",
+      "minor": "o",
+      "conclusion": null,
+      "rules": []
+    }
+  ],
+  "quantity_countermodels": [
+    {
+      "worlds_ABC_masks": [
+        [
+          3,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ],
+      "particular_major": true,
+      "universal_minor": true,
+      "contingent_conclusions": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "worlds_ABC_masks": [
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "particular_major": true,
+      "universal_minor": true,
+      "contingent_conclusions": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "countermodel": {
+    "n": 2,
+    "worlds_ABC_masks": [
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "actual": 0,
+    "premises": [
+      true,
+      true
+    ],
+    "conclusion": false
+  },
+  "bounded_counts": {
+    "models": 4160,
+    "aa_premises": 1332,
+    "aa_failures": 276,
+    "aa_nonempty_premises": 302,
+    "aa_nonempty_failures": 72,
+    "bridge_universal_checks": 812,
+    "bridge_particular_checks": 584
+  }
+}
