@@ -43,13 +43,13 @@ A、B、C是项；大前提写作R(A,B)，读成“A属于B”，不是“A包�
 
 ```math
 \begin{aligned}
-\operatorname{Nec}(\neg A(x))&\Longrightarrow\neg A_o(x)\Longrightarrow\operatorname{Poss}(\neg A(x)),\\
-\neg\operatorname{Nec}(A(x))&\Longleftrightarrow\operatorname{Poss}(\neg A(x)),\\
-\neg\operatorname{Nec}(A(x))&\not\Longrightarrow\operatorname{Nec}(\neg A(x)).
+N(\neg A(x))&\Longrightarrow\neg A_o(x)\Longrightarrow M(\neg A(x)),\\
+\neg N(A(x))&\Longleftrightarrow M(\neg A(x)),\\
+\neg N(A(x))&\not\Longrightarrow N(\neg A(x)).
 \end{aligned}
 ```
 
-这里o是实际情形，Nec表示所有所考虑情形，Poss表示至少一个情形。这是 **现代解释用的定义** 。原文35b35–36已经明确区分“不必然属于”与“必然不属于”，但不能据此声称原作者写出了这套现代语义。
+这里o是实际情形，本段N表示所有所考虑情形，M表示至少一个情形，均作用于括号内关于固定对象x的陈述。这是 **现代解释用的定义** 。原文35b35–36已经明确区分“不必然属于”与“必然不属于”，但不能据此声称原作者写出了这套现代语义。
 
 同样，“前提Γ必然推出T_e”不能抹掉T，把它改成“Γ推出N_e”。在反证中，否定T_i得到T_e；它没有自动增加必要算子。原文36a10的“必得无C是A”，应结合36a33和36b23–24的实然否定总结读，不以英语necessary一词单独决定强度。
 
