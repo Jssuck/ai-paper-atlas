@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i7",
     "path": "papers/ancient/aristotle-prior-analytics-i7.zh-CN.md",
-    "stage": "remote_integrity_and_github_rendering",
-    "scope": "Complete Prior Analytics I.7; original text, edition and reduction arguments; ancient backfill, not modal chapters or deferred I.2."
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i6",
-    "path": "papers/ancient/aristotle-prior-analytics-i6.zh-CN.md",
     "version": "v1",
-    "content_commit": "3b152d9e569460d2ca5585233357f857fb364d15",
-    "scope": "Complete Prior Analytics I.6 28a10–29a18, Owen1853 pp94–98, five notes, seven expanded examples, related Bekker apparatus and bounded ERRATA. Six proofs, 20 explicit countermodels and 20 answered exercises. Ancient backfill, not whole Organon or I.2.",
-    "checks": "Independent source, argument and code reviews passed. 30 author tests in normal/-O/-OO; independent code review 34129 checks per mode, 192 entailments, 176 minimal countermodels, 160 witness routes, 125 invalid inputs and 11 detected mutants. Independent argument checker 31553 checks; 33 code/evidence hash bindings verified. All 41 final files exact remotely, 2085 unrelated blobs and modes preserved, 363 relative Markdown links have targets. Actual GitHub pixel and DOM QA passed seven new Markdown pages and README additions, 5 formulas, 12 new tables and 20 answers after equivalent macro repair and renewed audit. No workflow/check/status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T12:56:45Z"
+    "content_commit": "162037b0210b0d8fca6e69f65cfcf5ecec5633b5",
+    "scope": "Complete I.7 29a19–29b28, Owen1853 pp98–100, three notes and bounded apparatus/errata. Reverse conclusions, two-stage proof reduction,14-mode index and20 answered exercises. Not deferred I.2, modal chapters or whole Organon.",
+    "checks": "Independent source, argument and code reviews passed.24 author tests per normal/-O/-OO mode;768 semantic/certificate comparisons per mode (59 valid,709 countermodels),14 standard and2 short certificates. Independent code12102 checks and argument9403 checks per mode;56 hash bindings verified. All35 files (274989 UTF-8 bytes) reread exactly;2125 unrelated blobs/modes preserved;385 relative Markdown link occurrences have targets. Actual GitHub pixel/DOM QA passed seven new Markdown pages plus README additions,3 formulas, tables and20 answers. No workflow/check/status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T13:58:15Z"
   },
-  "updated_at": "2026-10-21T13:51:00Z",
+  "updated_at": "2026-10-21T13:58:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote bytes, preserved unrelated tree, relative links and actual GitHub page rendering before completion.",
+  "next_action": "Select one eligible unfinished source at next scheduled paper iteration only. Deferred I.2 remains not completed; no catch-up or concurrent work.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
