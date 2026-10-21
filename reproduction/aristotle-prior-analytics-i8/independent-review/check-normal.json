@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "explicit_checks": 893927,
+  "ordered_two_world_models": 4096,
+  "independent_set_oracle": true,
+  "invalid_inputs": 67,
+  "exposition_world_checks": 484,
+  "stable_model_checks": 142,
+  "witness_gap_counts": {
+    "I": 288,
+    "O": 288
+  },
+  "report_rows": {
+    "Barbara": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0
+    },
+    "Celarent": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0
+    },
+    "Darii": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Ferio": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Cesare": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0
+    },
+    "Camestres": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0
+    },
+    "Festino": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Baroco": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 64,
+      "failures_middle_nonempty": 0
+    },
+    "Darapti": {
+      "premise_models_free": 625,
+      "failures_free": 369,
+      "premise_models_middle_nonempty": 81,
+      "failures_middle_nonempty": 0
+    },
+    "Disamis": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Datisi": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Felapton": {
+      "premise_models_free": 625,
+      "failures_free": 369,
+      "premise_models_middle_nonempty": 81,
+      "failures_middle_nonempty": 0
+    },
+    "Bocardo": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    },
+    "Ferison": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0
+    }
+  },
+  "detected_mutations": [
+    "necessary any",
+    "I false",
+    "O reversed",
+    "rigid union",
+    "rigid empty",
+    "world0 only",
+    "ignore existence",
+    "wrong conclusion",
+    "wrong figure2",
+    "wrong witness index",
+    "bool size allowed"
+  ],
+  "limits": "Bounded implementation audit, not general proof or unique historical semantics."
+}

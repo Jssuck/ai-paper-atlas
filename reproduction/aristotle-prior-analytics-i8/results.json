@@ -1,0 +1,311 @@
+{
+  "semantics": "Modern constant-domain, world-varying predicates; necessary means all listed worlds; no unique historical-semantics claim.",
+  "models": 4096,
+  "individuals": 2,
+  "worlds": 2,
+  "ordered_models_include_duplicate_worlds": true,
+  "mood_results": {
+    "Barbara": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Celarent": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Darii": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Ferio": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Cesare": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Camestres": {
+      "premise_models_free": 256,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 144,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Festino": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Baroco": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 64,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Darapti": {
+      "premise_models_free": 625,
+      "failures_free": 369,
+      "premise_models_middle_nonempty": 81,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": {
+        "domain_size": 2,
+        "term_order": [
+          "P",
+          "S",
+          "M"
+        ],
+        "worlds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "Disamis": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Datisi": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Felapton": {
+      "premise_models_free": 625,
+      "failures_free": 369,
+      "premise_models_middle_nonempty": 81,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": {
+        "domain_size": 2,
+        "term_order": [
+          "P",
+          "S",
+          "M"
+        ],
+        "worlds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "Bocardo": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    },
+    "Ferison": {
+      "premise_models_free": 121,
+      "failures_free": 0,
+      "premise_models_middle_nonempty": 121,
+      "failures_middle_nonempty": 0,
+      "first_failure_free": null
+    }
+  },
+  "necessary_without_rigid_witness": {
+    "I": 288,
+    "O": 288
+  },
+  "rigid_implies_necessary_failures": 0,
+  "exposition_world_checks": 484,
+  "stable_exposition_model_checks": 142,
+  "examples": {
+    "switching_I": {
+      "domain_size": 2,
+      "term_order": [
+        "P",
+        "S",
+        "M"
+      ],
+      "worlds": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ]
+    },
+    "switching_O": {
+      "domain_size": 2,
+      "term_order": [
+        "P",
+        "S",
+        "M"
+      ],
+      "worlds": [
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ]
+      ]
+    },
+    "Baroco": {
+      "model": {
+        "domain_size": 2,
+        "term_order": [
+          "P",
+          "S",
+          "M"
+        ],
+        "worlds": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ]
+      },
+      "per_world_witnesses": [
+        0,
+        1
+      ]
+    },
+    "Bocardo": {
+      "model": {
+        "domain_size": 2,
+        "term_order": [
+          "P",
+          "S",
+          "M"
+        ],
+        "worlds": [
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            2
+          ]
+        ]
+      },
+      "per_world_witnesses": [
+        0,
+        1
+      ]
+    },
+    "necessary_major_current_minor_not_necessary_conclusion": {
+      "domain_size": 1,
+      "term_order": [
+        "P",
+        "S",
+        "M"
+      ],
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "current_major_necessary_minor_not_necessary_conclusion": {
+      "domain_size": 1,
+      "term_order": [
+        "P",
+        "S",
+        "M"
+      ],
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    "O_conversion_failure": {
+      "domain_size": 2,
+      "term_order": [
+        "P",
+        "S",
+        "M"
+      ],
+      "worlds": [
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ]
+      ]
+    }
+  },
+  "limits": [
+    "Finite checks do not prove general validity.",
+    "Mixed-modal examples diagnose this modern semantics; they do not refute Aristotle I.9.",
+    "No contingent syllogism calculus or complete historical modal interpretation is implemented."
+  ]
+}

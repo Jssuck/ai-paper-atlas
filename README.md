@@ -15,6 +15,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle前分析篇I.5精读](papers/ancient/aristotle-prior-analytics-i5.zh-CN.md) | AI推理前史回填：第二格、同一见证、反模型和存在条件 | 深读v1 · 完整26b34–28a9及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle前分析篇I.6精读](papers/ancient/aristotle-prior-analytics-i6.zh-CN.md) | AI推理前史回填：第三格、共同见证、空项政策与无全称结论 | 深读v1 · 完整28a10–29a18及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.7精读](papers/ancient/aristotle-prior-analytics-i7.zh-CN.md) | AI推理前史补读：逆向结论、证明归约与显式存在条件 | 深读v1 · 完整29a19–29b28及版本/校勘边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.8精读](papers/ancient/aristotle-prior-analytics-i8.zh-CN.md) | AI推理前史补读：必然前提、逐世界见证与模态量词顺序 | 深读v1 · 完整29b29–30a14及版本/校勘边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -613,3 +614,11 @@ I.2仍列为延期未完成，既有稿件和此前全部目录/版本缺口保�
 新增[《前分析篇》I.7深读](papers/ancient/aristotle-prior-analytics-i7.zh-CN.md)，完整29a19–29b28及Owen1853印98–100。区分正反端项方向、存在见证和反设，逐行重建Darii/Ferio到第一格全称路线的归约，附14模式索引及20道带答案练习。解释Owen括入词组与Bekker正文差异，不把归约误说成结论全称化。
 
 [来源账本](papers/ancient/aristotle-prior-analytics-i7.sources.zh-CN.md)、[独立论证核验](papers/ancient/aristotle-prior-analytics-i7.audit.zh-CN.md)与[标准库可检查证书和真实日志](reproduction/aristotle-prior-analytics-i7/README.md)分别记录原文、现代证明和执行证据。三项AEIO片段的类型保持性证明不等于全部逻辑或AI验证；I.2仍暂缓，I.3、I.8以后和全书不计完成，旧历史与缺口原样保留。
+
+
+## Aristotle I.8 必然推理与见证
+
+新增[《前分析篇》I.8深读](papers/ancient/aristotle-prior-analytics-i8.zh-CN.md)，完整29b29–30a14及Owen1853印100。解释两必然前提与直言推理的关系，逐步重建Baroco/Bocardo见证路线，明确逐世界存在和固定对象的量词区别，附十四模式表及20道带答案练习。现代常域模型不冒充唯一历史模态解释，也不以本章结果裁定I.9混合式。
+
+[来源账本](papers/ancient/aristotle-prior-analytics-i8.sources.zh-CN.md)、[独立论证核验](papers/ancient/aristotle-prior-analytics-i8.audit.zh-CN.md)与[标准库教学代码及真实日志](reproduction/aristotle-prior-analytics-i8/README.md)区分原典、一般证明和有限测试。I.2仍暂缓，I.3、I.9以后、整书和版本史缺口不计完成；旧记录保留。
+

@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "domain_size": 2,
+  "world_count": 2,
+  "models": 4096,
+  "checks": 163852,
+  "moods": {
+    "Barbara": {
+      "premise_models": 256,
+      "unrestricted_countermodels": 0
+    },
+    "Celarent": {
+      "premise_models": 256,
+      "unrestricted_countermodels": 0
+    },
+    "Darii": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Ferio": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Cesare": {
+      "premise_models": 256,
+      "unrestricted_countermodels": 0
+    },
+    "Camestres": {
+      "premise_models": 256,
+      "unrestricted_countermodels": 0
+    },
+    "Festino": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Baroco": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Darapti": {
+      "premise_models": 625,
+      "unrestricted_countermodels": 369
+    },
+    "Disamis": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Datisi": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Felapton": {
+      "premise_models": 625,
+      "unrestricted_countermodels": 369
+    },
+    "Bocardo": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    },
+    "Ferison": {
+      "premise_models": 121,
+      "unrestricted_countermodels": 0
+    }
+  },
+  "scope": "Finite verification only; no production-code import, no historical semantics uniqueness claim."
+}

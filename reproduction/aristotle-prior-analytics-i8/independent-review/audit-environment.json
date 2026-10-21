@@ -1,0 +1,14 @@
+{
+  "executed_at_utc": "2026-10-21T14:43:59.427507+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "dependencies": "standard library only",
+  "bound_files": 24,
+  "oracle_three_mode_outputs_identical": true
+}

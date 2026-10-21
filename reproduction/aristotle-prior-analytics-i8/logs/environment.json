@@ -1,0 +1,15 @@
+{
+  "executed_at_utc": "2026-10-21T14:41:24.326987+00:00",
+  "implementation": "CPython",
+  "python_version": "3.12.14",
+  "os": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "tests_per_mode": 27,
+  "json_outputs_byte_identical": true
+}

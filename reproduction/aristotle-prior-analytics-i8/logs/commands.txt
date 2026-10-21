@@ -1,0 +1,9 @@
+Run from reproduction/aristotle-prior-analytics-i8 using Python 3 standard library:
+python -m unittest -v test_modal_models > logs/tests-normal.txt 2>&1
+python -O -m unittest -v test_modal_models > logs/tests-O.txt 2>&1
+python -OO -m unittest -v test_modal_models > logs/tests-OO.txt 2>&1
+python modal_models.py > results.json
+python -O modal_models.py > logs/results-O.json
+python -OO modal_models.py > logs/results-OO.json
+cmp results.json logs/results-O.json
+cmp results.json logs/results-OO.json

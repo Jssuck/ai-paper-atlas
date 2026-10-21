@@ -1,0 +1,32 @@
+test_O_not_convertible (test_modal_models.Tests.test_O_not_convertible) ... ok
+test_all_fourteen_moods_and_witnesses (test_modal_models.Tests.test_all_fourteen_moods_and_witnesses) ... ok
+test_bad_kind (test_modal_models.Tests.test_bad_kind) ... ok
+test_bad_rigid_kind (test_modal_models.Tests.test_bad_rigid_kind) ... ok
+test_bad_terms (test_modal_models.Tests.test_bad_terms) ... ok
+test_bad_witness_kind (test_modal_models.Tests.test_bad_witness_kind) ... ok
+test_bad_world_indices (test_modal_models.Tests.test_bad_world_indices) ... ok
+test_baroco_exposition (test_modal_models.Tests.test_baroco_exposition) ... ok
+test_bocardo_exposition (test_modal_models.Tests.test_bocardo_exposition) ... ok
+test_empty_domain (test_modal_models.Tests.test_empty_domain) ... ok
+test_enumeration_bound (test_modal_models.Tests.test_enumeration_bound) ... ok
+test_enumeration_singleton (test_modal_models.Tests.test_enumeration_singleton) ... ok
+test_exposition_rejects_false_premises (test_modal_models.Tests.test_exposition_rejects_false_premises) ... ok
+test_exposition_rejects_wrong_mood (test_modal_models.Tests.test_exposition_rejects_wrong_mood) ... ok
+test_masks (test_modal_models.Tests.test_masks) ... ok
+test_mixed_necessary_major (test_modal_models.Tests.test_mixed_necessary_major) ... ok
+test_mixed_necessary_minor (test_modal_models.Tests.test_mixed_necessary_minor) ... ok
+test_multiple_worlds (test_modal_models.Tests.test_multiple_worlds) ... ok
+test_negative_rigid (test_modal_models.Tests.test_negative_rigid) ... ok
+test_nonempty_requirement (test_modal_models.Tests.test_nonempty_requirement) ... ok
+test_policy_validation (test_modal_models.Tests.test_policy_validation) ... ok
+test_positive_rigid (test_modal_models.Tests.test_positive_rigid) ... ok
+test_switching_I (test_modal_models.Tests.test_switching_I) ... ok
+test_switching_O (test_modal_models.Tests.test_switching_O) ... ok
+test_unknown_mood (test_modal_models.Tests.test_unknown_mood) ... ok
+test_vacuity (test_modal_models.Tests.test_vacuity) ... ok
+test_world_structure (test_modal_models.Tests.test_world_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.803s
+
+OK
