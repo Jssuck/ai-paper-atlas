@@ -1,28 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i12",
     "path": "papers/ancient/aristotle-prior-analytics-i12.zh-CN.md",
-    "stage": "remote_publication_verification"
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i11",
-    "path": "papers/ancient/aristotle-prior-analytics-i11.zh-CN.md",
     "version": "v1",
-    "content_commit": "62bd37a06a1a91fc284d9f940dd7e364a5073488",
-    "scope": "Complete I.11 31a18–32a5, Owen1853 pp103–106, four numbered footnotes, three numbered main marginal notes, eleven symbolic marginal notes and eight examples; bounded apparatus and errata. Third-figure mixed-necessity arguments, necessary-I conversion limits, six general modern witness proofs, countermodels and20 answered exercises. Actual-anchor and sentence-necessity models explicitly differ from the historical claims; not a unified reconstruction of ancient modal logic.",
-    "checks": "Independent source, full argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models and24 configurations. Independent argument63659 and code544866 explicit checks per mode,79 invalid inputs and13 detected faults;24 SHA256 bindings verified.34 frozen content files (261874 UTF-8 bytes) plus progress exact remotely;2247 unrelated blobs/modes preserved;402 relative Markdown targets exist. Actual GitHub full DOM QA passed eight new Markdown and README additions;1/1 mathematical block verified in MathML and pixels,11/11 tables and20/20 answers pixel-checked,46/46 main anchors valid;22 attachment relative links and3 prior-paper links opened.55 prior README rows preserved and only I.11 added. Key derivation layout sampled, not every prose paragraph or external bibliography URL. No workflow/check/status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T17:56:00Z"
+    "content_commit": "cf707d025aa6c229b8615840f9b7d39906f464fd",
+    "scope": "Complete I.12 Bekker32a6–14 and Owen1853 p107 including explicitly bounded32a15–16 transition; two numbered footnotes and two marginal notes, bounded apparatus and formal errata. Modal conclusion strength, necessary versus sufficient conditions, four general first-figure proofs, nonempty countermodels and20 answered exercises. Modern D/N/P/C sentence semantics are pedagogical, not a complete reconstruction of ancient modal logic.",
+    "checks": "Independent source, full argument and code audits passed;18 SHA256 bindings verified.16 author tests per normal/-O/-OO mode;4096 models and192 configurations,52 finite-valid. Independent argument196619 and code598219 checks per mode;44 invalid inputs and8 detected semantic mutations.32 frozen content files (236630 UTF-8 bytes) plus progress exact remotely;2280 unrelated blobs/modes preserved;408 relative Markdown targets exist. Actual GitHub DOM QA passed eight new Markdown and README additions;1/1 formula,11/11 tables and20/20 answers pixel-checked;129/129 anchors exist including27 main anchors.55 old README directory rows preserved, only I.12 added. Key derivation layout sampled, not every prose paragraph or external bibliography link. No workflow/check/status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T18:53:00Z"
   },
-  "updated_at": "2026-10-21T18:42:00Z",
+  "updated_at": "2026-10-21T18:53:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify frozen content bytes, preserved unrelated files and actual GitHub rendering before marking I.12 completed.",
+  "next_action": "On the next scheduled run, verify main and select at most one eligible unfinished source; keep I.2 deferred and do not modify its denied candidate registry.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
