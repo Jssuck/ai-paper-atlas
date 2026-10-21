@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i11",
+    "path": "papers/ancient/aristotle-prior-analytics-i11.zh-CN.md",
+    "stage": "primary_source_and_semantics_verification",
+    "scope": "Complete I.11 third-figure mixed necessity, primary Greek and Owen1853 with bounded apparatus and errata; modern reconstruction explicitly qualified."
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i10",
     "path": "papers/ancient/aristotle-prior-analytics-i10.zh-CN.md",
@@ -11,14 +16,14 @@
     "checks": "Independent source, argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models. Independent argument110615 checks and code504271 checks per mode,83 invalid inputs and12 detected faults.31 frozen content files (211940 UTF-8 bytes) exact remotely;2218 unrelated blobs/modes preserved;389 relative Markdown link targets exist;24 SHA256 bindings passed. Actual GitHub full DOM QA passed eight new Markdown and README additions,15 tables,20 answers,27 main heading anchors; one formula checked by MathML and pixels. Key tables/code/layout pixel-sampled, selected navigation clicked, not all logs or external links. Exercise notation rendering fixed and independently rebound. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T16:53:00Z"
   },
-  "updated_at": "2026-10-21T16:53:00Z",
+  "updated_at": "2026-10-21T17:38:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At the next scheduled run, reread main and workflow state before selecting one eligible unfinished unit; preserve deferred I.2 and existing gaps.",
+  "next_action": "Read complete I.11, reconstruct proofs and counterexamples, then independent audits and verified publication.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
