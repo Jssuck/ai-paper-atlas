@@ -2,7 +2,7 @@
   "algorithm": "sha256",
   "scope": "manual argument audit and independent finite checks; not a formal proof-assistant certificate",
   "files": {
-    "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md": "c434d308bf548d85be20d132d935aaab5f9f68ae2f7ae52da239509f72f1db50",
+    "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md": "5f8b077a95d62793477c665860953cf9142c0b3daa0c0f182d9fcf3a4e87d75e",
     "reproduction/aristotle-prior-analytics-i17/model.py": "1f61cb515a63e8f4dd5f45c64ef28ac657db1d168ac2d4d386efb0bc196fad22",
     "reproduction/aristotle-prior-analytics-i17/demo.py": "5887542443a3c3ed80256c048339c4851adec4468580303987935d8dbe450477",
     "reproduction/aristotle-prior-analytics-i17/test_model.py": "910cce9bc4b1e804db4050ff71284bbca91d4afa97a329a57f729649ebc7b9ce",

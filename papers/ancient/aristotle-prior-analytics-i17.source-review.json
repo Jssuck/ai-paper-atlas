@@ -3,14 +3,15 @@
   "paper_id": "aristotle-prior-analytics-i17",
   "review_type": "independent_primary_source_review",
   "status": "passed_bounded_source_review",
-  "checked_at": "2026-10-21T23:43:35.447083+00:00",
+  "checked_at": "2026-10-21T23:48:00.293389+00:00",
   "scope": "Complete Bekker1831 36b26–37b18 and Owen1853 printed122–125 including all four translator examples, relevant apparatus and formal errata; complete original article and ledger read. Not complete manuscript history or unique modal semantics.",
   "corrections_verified": [
     "Universal-negative scope disambiguated in section6.1",
-    "Section7.5 separates Owen Ex.1 necessary premise from Bekker running contingent premise; Waitz/Buhle/Taylor attributed to Owen report only"
+    "Section7.5 separates Owen Ex.1 necessary premise from Bekker running contingent premise; Waitz/Buhle/Taylor attributed to Owen report only",
+    "Rendered-QA heading count corrected from four details to five; reverse replacement exactly reproduces previously reviewed article SHA256"
   ],
   "files": {
-    "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md": "c434d308bf548d85be20d132d935aaab5f9f68ae2f7ae52da239509f72f1db50",
+    "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md": "5f8b077a95d62793477c665860953cf9142c0b3daa0c0f182d9fcf3a4e87d75e",
     "papers/ancient/aristotle-prior-analytics-i17.sources.zh-CN.md": "c1799843c8cab77465554399d7311c53219eee08d809c00929f7ce53436bc37a"
   },
   "not_certified": [
