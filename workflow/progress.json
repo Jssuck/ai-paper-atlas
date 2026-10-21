@@ -1,28 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i13",
     "path": "papers/ancient/aristotle-prior-analytics-i13.zh-CN.md",
-    "stage": "publication_verification"
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i12",
-    "path": "papers/ancient/aristotle-prior-analytics-i12.zh-CN.md",
     "version": "v1",
-    "content_commit": "cf707d025aa6c229b8615840f9b7d39906f464fd",
-    "scope": "Complete I.12 Bekker32a6–14 and Owen1853 p107 including explicitly bounded32a15–16 transition; two numbered footnotes and two marginal notes, bounded apparatus and formal errata. Modal conclusion strength, necessary versus sufficient conditions, four general first-figure proofs, nonempty countermodels and20 answered exercises. Modern D/N/P/C sentence semantics are pedagogical, not a complete reconstruction of ancient modal logic.",
-    "checks": "Independent source, full argument and code audits passed;18 SHA256 bindings verified.16 author tests per normal/-O/-OO mode;4096 models and192 configurations,52 finite-valid. Independent argument196619 and code598219 checks per mode;44 invalid inputs and8 detected semantic mutations.32 frozen content files (236630 UTF-8 bytes) plus progress exact remotely;2280 unrelated blobs/modes preserved;408 relative Markdown targets exist. Actual GitHub DOM QA passed eight new Markdown and README additions;1/1 formula,11/11 tables and20/20 answers pixel-checked;129/129 anchors exist including27 main anchors.55 old README directory rows preserved, only I.12 added. Key derivation layout sampled, not every prose paragraph or external bibliography link. No workflow/check/status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T18:53:00Z"
+    "content_commit": "2af2f335f32cea81794fb814ad5e9eaf8890ca27",
+    "scope": "Complete I.13 Bekker32a17–32b37 and Owen1853 pp107–109, with bounded32a15–16 chapter transition, five numbered marginal notes, two auxiliary marginal notes, three numbered footnotes, applicable apparatus and formal errata. Possibility and contingency, inner versus outer negation, individual versus sentence scope, natural versus indefinite cases, actual versus possible subjects; general proofs, explicit countermodels and20 answered exercises. Modern finite-world semantics are pedagogical, not the unique ancient interpretation.",
+    "completed_at": "2026-10-21T19:50:00Z",
+    "checks": "Independent source, full argument and code audits passed;12 SHA256 bindings plus main source-review digest verified.22 author tests per normal/-O/-OO mode;256 two-object two-world models and1024 subject pairs. Independent argument74968 checks; independent code4368 models,17472 subject pairs and69888 sentence vectors. Eight selected semantic mutations detected after repairing a complement-test blind spot; before/after evidence preserved.35 content/progress files (186518 UTF-8 bytes) exactly read back;2311 unrelated blobs/modes preserved;415 relative Markdown targets exist. Actual GitHub Preview QA passed all seven new Markdown pages and root README additions;1/1 formula, all three main tables and20/20 answers pixel-checked; heading anchors matched and five selected anchors clicked.56 old directory rows retained and I.13 row added (57 total); directory click reached canonical paper. Other pages sampled for visible headings/prose/code/tables, not every prose pixel or external bibliography target. No workflow/check/status contexts; no CI pass claimed."
   },
-  "updated_at": "2026-10-21T19:42:00Z",
+  "updated_at": "2026-10-21T19:50:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact published bytes, preserved unrelated files, relative links, and actual GitHub rendering before marking complete.",
+  "next_action": "Select at most one eligible unfinished source in the next scheduled run; retain deferred I.2 and all historical coverage gaps.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
