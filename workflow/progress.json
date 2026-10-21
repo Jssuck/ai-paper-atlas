@@ -1,28 +1,24 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-i15",
-    "stage": "published_pending_remote_verification",
-    "updated_at": "2026-10-21T21:45:00Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-prior-analytics-i14",
-    "path": "papers/ancient/aristotle-prior-analytics-i14.zh-CN.md",
+    "id": "aristotle-prior-analytics-i15",
+    "path": "papers/ancient/aristotle-prior-analytics-i15.zh-CN.md",
     "version": "v1",
-    "content_commit": "29206eb0b8cfdf132f151bcb468c6aec4721a53b",
-    "scope": "Complete I.14 Bekker32b38–33b24 and Owen1853 pp110–112, including marginal notes, footnotes, applicable apparatus and formal errata. Four base rules and quality conversions, complete versus incomplete derivations, quantity counterexamples, original term examples and modern bridge theorem with explicit assumptions;20 answered exercises. Finite-world semantics and rule certificates are pedagogical reconstructions, not the unique ancient interpretation or general completeness proofs.",
-    "completed_at": "2026-10-21T20:54:46Z",
-    "checks": "Independent primary-source, full-argument and code audits passed;12 SHA256 input bindings plus main source-review digest verified.29 author tests per normal/-O/-OO mode.4160 two-world models:1332 AA premise cases,276 conclusion failures;302 premise cases with all actual terms nonempty,72 failures;812 universal and584 particular sufficient-bridge cases passed. Independent argument232792 checks per mode; independent code9928 model/actual-index configurations,436416 quantifier values,5078 bridge implications,16 rule shapes and32 invalid certificates. Eight selected mutants detected after strengthening tests for two blind spots; before/after evidence retained.38 content/progress files (244111 UTF-8 bytes) exactly read back;2344 unrelated blobs/modes preserved;429 relative Markdown targets exist;57 old directory rows retained and I.14 added (58 total). Actual GitHub Preview covered seven Markdown pages including root README: both2 aligned math blocks,all5 main tables and20 answers visually checked; directory click reached canonical article. Four source-note bold delimiters fixed, independently rebound and actually rechecked as rendered strong text with no literal markers. Ancillary pages sampled visible headings/prose/code/tables, not every prose pixel or external bibliography target. No workflow/check/status contexts; no CI pass claimed."
+    "content_commit": "5079a29484fa16bbcda6851af6101db5a20535ab",
+    "scope": "Complete I.15 Bekker33b25–35b23 and Owen1853 pp112–118, including notes, examples, applicable apparatus and formal errata check. Direct mixed rules, possibility-preserving necessary consequence, false-premise caveat, both reverse reductio routes with explicit background preservation, negation scope, time qualification, quantity failures and20 answered exercises. Fixed-domain actual-subject finite-world semantics is a pedagogical reconstruction, not the unique ancient interpretation.",
+    "completed_at": "2026-10-21T21:50:00Z",
+    "checks": "Independent primary-source, argument and code audits passed;17 input/script/log hash bindings verified plus source-review main digest.28 author tests per normal/-O/-OO mode;8320 author model/actual-index configurations. Independent argument9864 configurations and765285 checks per mode; independent code9928 configurations in each mode, exact demo match,9 selected mutants detected.32 content/progress files exactly read back;2380 unrelated blobs and modes preserved;430 relative Markdown targets exist;58 old directory rows retained and I.15 added (59 total). Actual GitHub Preview:3 aligned math blocks visually checked with no math errors;all4 main tables and20 answers present in rendered DOM, evidence table and final answers visually checked; root directory click reached canonical article. Source ledger, source audit, argument audit, code audit and reproduction README rendered headings/prose/tables/code sampled; not every prose pixel or external bibliography target audited. No check-run or status contexts (zero counts; aggregate status pending with no contexts), no CI pass claimed."
   },
-  "updated_at": "2026-10-21T21:45:00Z",
+  "updated_at": "2026-10-21T21:50:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact main content, preserved files, links and actual GitHub Preview before marking I.15 complete.",
+  "next_action": "At the next scheduled run, inspect main and progress before selecting one eligible unfinished source unit; keep I.2 deferred.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
