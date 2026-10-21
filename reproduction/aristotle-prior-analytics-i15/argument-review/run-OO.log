@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "background_countermodel": 1,
+    "direct_range_theorems": 4786,
+    "extra_witness_strong_theorems": 4358,
+    "falsity_not_preserved": 1,
+    "independent_joint_values": 177552,
+    "independent_modal_values": 532656,
+    "model_actual_configurations": 9864,
+    "necessity_preservation": 1,
+    "nonempty_snapshot_failure": 1,
+    "pointwise_not_joint_countermodel": 1,
+    "possibility_preservation": 65,
+    "same_object_guard_values": 39456,
+    "separate_not_joint": 1,
+    "stable_weak_theorems": 6406
+  },
+  "scope": "independent finite set semantics; general proof remains textual",
+  "status": "passed"
+}

@@ -1,0 +1,249 @@
+{
+  "counts": {
+    "direct_all": 2112,
+    "direct_some": 1424,
+    "fixed_background_joint_cases": 1246,
+    "model_actual_configurations": 8320,
+    "not_strong_negative_all": 392,
+    "not_strong_negative_some": 424,
+    "not_strong_positive_all": 392,
+    "not_strong_positive_some": 424,
+    "possible_consequence_cases": 90,
+    "stable_negative_all": 1404,
+    "stable_negative_some": 1040,
+    "stable_positive_all": 1404,
+    "stable_positive_some": 1040,
+    "strong_guard_negative_all": 1012,
+    "strong_guard_negative_some": 552,
+    "strong_guard_positive_all": 1012,
+    "strong_guard_positive_some": 552,
+    "time_slice_negative_failures": 284,
+    "time_slice_positive_failures": 284,
+    "truth_vector_pairs": 340
+  },
+  "examples": {
+    "direct_particular_witness": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 1,
+          "C": 3
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "C": 3
+        }
+      ]
+    },
+    "negative_minor_necessary_negative": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 1,
+          "C": 2
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "C": 2
+        }
+      ]
+    },
+    "negative_minor_necessary_positive": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 3,
+          "B": 1,
+          "C": 2
+        },
+        {
+          "A": 2,
+          "B": 1,
+          "C": 2
+        }
+      ]
+    },
+    "nonempty_time_slice_negative": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 2,
+          "B": 1,
+          "C": 2
+        },
+        {
+          "A": 2,
+          "B": 2,
+          "C": 2
+        }
+      ]
+    },
+    "nonempty_time_slice_positive": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 1,
+          "C": 2
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 2
+        }
+      ]
+    },
+    "pointwise_not_joint": {
+      "actual": 0,
+      "n": 2,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 0,
+          "C": 3
+        },
+        {
+          "A": 2,
+          "B": 0,
+          "C": 3
+        }
+      ]
+    },
+    "stable_negative_not_strong": {
+      "actual": 0,
+      "n": 1,
+      "worlds": [
+        {
+          "A": 0,
+          "B": 0,
+          "C": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    "stable_positive_not_strong": {
+      "actual": 0,
+      "n": 1,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 0,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    "time_slice_negative": {
+      "actual": 0,
+      "n": 1,
+      "worlds": [
+        {
+          "A": 1,
+          "B": 0,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    "time_slice_positive": {
+      "actual": 0,
+      "n": 1,
+      "worlds": [
+        {
+          "A": 0,
+          "B": 0,
+          "C": 1
+        },
+        {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    "weak_negative_not_actual": {
+      "actual": 1,
+      "n": 1,
+      "worlds": [
+        {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 0,
+          "C": 1
+        }
+      ]
+    }
+  },
+  "propositional_examples": {
+    "background_not_preserved": {
+      "P": [
+        false,
+        true
+      ],
+      "Q": [
+        false,
+        false
+      ],
+      "R": [
+        true,
+        false
+      ]
+    },
+    "false_premise_true_conclusion": {
+      "P": [
+        false,
+        true
+      ],
+      "Q": [
+        true,
+        true
+      ]
+    },
+    "necessary_implication_not_necessary_conclusion": {
+      "P": [
+        true,
+        false
+      ],
+      "Q": [
+        true,
+        false
+      ]
+    },
+    "separately_possible_not_joint": {
+      "P": [
+        true,
+        false
+      ],
+      "R": [
+        false,
+        true
+      ]
+    }
+  },
+  "semantics": "modern fixed-domain, actual-subject, pointwise; not unique Aristotle semantics"
+}

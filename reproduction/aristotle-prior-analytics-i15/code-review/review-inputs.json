@@ -1,0 +1,17 @@
+{
+  "purpose": "Independent code audit input binding; SHA256 over exact file bytes",
+  "inputs": {
+    "model.py": "4fefb0cc990ef2508189fb523f7261a96f4bdc53267c4bb34bb35279e546a762",
+    "demo.py": "b7003c3a1baaf2007e61bda32a5575a8b338c823b0a6d406c727ac0332049680",
+    "test_model.py": "69697bc9bf36fb1be729039efb7fd2f06e2b911653d9367fb71a121574ddcbd7",
+    "README.md": "79cb07657fd66045d5f6ad052fd0a455f89dfa1c4b4a4068b1bb8288d279e80f",
+    "results/demo.json": "aeb953d53fdb610d19aed4199dff5d70166070d12e8cf420464eb9c04e0bc8d2",
+    "code-review/check_semantics.py": "8e07267ecab5d87d5e541823a289715e215af8c0d9a14261b5e16500797719c4",
+    "code-review/check_mutations.py": "5ad95d4044012edbb6db6dba4bd5d6dcd1bb9d6866fd4a221f37896c6d0e279a"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "implementation": "CPython"
+  },
+  "author_demo_exact_match": true
+}

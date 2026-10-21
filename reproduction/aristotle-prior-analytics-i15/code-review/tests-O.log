@@ -1,0 +1,33 @@
+test_actual_index_matters (test_model.SemanticTests.test_actual_index_matters) ... ok
+test_actual_negative_minor_counterpair (test_model.SemanticTests.test_actual_negative_minor_counterpair) ... ok
+test_categorical_truths (test_model.SemanticTests.test_categorical_truths) ... ok
+test_direct_particular_not_universal (test_model.SemanticTests.test_direct_particular_not_universal) ... ok
+test_direct_universal (test_model.SemanticTests.test_direct_universal) ... ok
+test_empty_subject_policies (test_model.SemanticTests.test_empty_subject_policies) ... ok
+test_exhaustive_theorems (test_model.SemanticTests.test_exhaustive_theorems) ... ok
+test_false_premise_does_not_preserve_falsity (test_model.SemanticTests.test_false_premise_does_not_preserve_falsity) ... ok
+test_fixed_background_counterexample (test_model.SemanticTests.test_fixed_background_counterexample) ... ok
+test_fixed_background_joint_success (test_model.SemanticTests.test_fixed_background_joint_success) ... ok
+test_generator_counts (test_model.SemanticTests.test_generator_counts) ... ok
+test_joint_positive_and_negative (test_model.SemanticTests.test_joint_positive_and_negative) ... ok
+test_methods_invalid (test_model.SemanticTests.test_methods_invalid) ... ok
+test_model_invalid (test_model.SemanticTests.test_model_invalid) ... ok
+test_necessary_implication_not_necessary_conclusion (test_model.SemanticTests.test_necessary_implication_not_necessary_conclusion) ... ok
+test_negative_extra_guard (test_model.SemanticTests.test_negative_extra_guard) ... ok
+test_particular_guard_requires_same_witness (test_model.SemanticTests.test_particular_guard_requires_same_witness) ... ok
+test_pointwise_not_joint (test_model.SemanticTests.test_pointwise_not_joint) ... ok
+test_positive_extra_guard (test_model.SemanticTests.test_positive_extra_guard) ... ok
+test_separate_not_joint (test_model.SemanticTests.test_separate_not_joint) ... ok
+test_single_world_no_nonempty_contingency (test_model.SemanticTests.test_single_world_no_nonempty_contingency) ... ok
+test_stable_negative_not_strong (test_model.SemanticTests.test_stable_negative_not_strong) ... ok
+test_stable_positive_not_strong (test_model.SemanticTests.test_stable_positive_not_strong) ... ok
+test_time_slice_failure_without_empty_actual_terms (test_model.SemanticTests.test_time_slice_failure_without_empty_actual_terms) ... ok
+test_time_slice_negative_failure (test_model.SemanticTests.test_time_slice_negative_failure) ... ok
+test_time_slice_positive_failure (test_model.SemanticTests.test_time_slice_positive_failure) ... ok
+test_vectors_invalid (test_model.SemanticTests.test_vectors_invalid) ... ok
+test_weak_negative_not_actual_or_necessary_negative (test_model.SemanticTests.test_weak_negative_not_actual_or_necessary_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.284s
+
+OK

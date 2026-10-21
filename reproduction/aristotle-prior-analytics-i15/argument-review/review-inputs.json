@@ -1,0 +1,17 @@
+{
+  "scope": "independent argument review; source-map semantics reviewed, palaeography covered separately",
+  "inputs_sha256": {
+    "papers/ancient/aristotle-prior-analytics-i15.zh-CN.md": "b10e5bf5032cef044e2e9e75edc3c64b78659db02f320da5ed55f02362235ca6",
+    "papers/ancient/aristotle-prior-analytics-i15.sources.zh-CN.md": "b87d26972078c5486bb01d117b6f1ffbd4759593938d62c5af66f9b7f4958d84",
+    "reproduction/aristotle-prior-analytics-i15/model.py": "4fefb0cc990ef2508189fb523f7261a96f4bdc53267c4bb34bb35279e546a762",
+    "reproduction/aristotle-prior-analytics-i15/demo.py": "b7003c3a1baaf2007e61bda32a5575a8b338c823b0a6d406c727ac0332049680",
+    "reproduction/aristotle-prior-analytics-i15/test_model.py": "69697bc9bf36fb1be729039efb7fd2f06e2b911653d9367fb71a121574ddcbd7",
+    "reproduction/aristotle-prior-analytics-i15/README.md": "79cb07657fd66045d5f6ad052fd0a455f89dfa1c4b4a4068b1bb8288d279e80f"
+  },
+  "independent_script_sha256": "214f92ae6eb9aa1b82ac8e7539e9894d274f79e5a1f08e77c03ad07ea829919b",
+  "run_logs_sha256": {
+    "run.log": "c58ce28ed6002da93ac5af10e1587f638ee391eb963e66c51675ee900fac8eaf",
+    "run-O.log": "c58ce28ed6002da93ac5af10e1587f638ee391eb963e66c51675ee900fac8eaf",
+    "run-OO.log": "c58ce28ed6002da93ac5af10e1587f638ee391eb963e66c51675ee900fac8eaf"
+  }
+}

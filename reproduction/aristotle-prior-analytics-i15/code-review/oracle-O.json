@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "independent_oracle": {
+    "configurations": 9928,
+    "categorical": 767520,
+    "modal": 536112,
+    "point": 109104,
+    "stable": 178704,
+    "guard": 39712,
+    "joint": 178704,
+    "vectors": 1364
+  }
+}
