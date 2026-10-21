@@ -1,0 +1,59 @@
+{
+  "oracle": {
+    "models": 4368,
+    "fixed_subject_pairs": 17472,
+    "sentence_vectors": 69888
+  },
+  "reruns": [
+    {
+      "mode": "normal",
+      "tests_returncode": 0,
+      "demo_exact": true
+    },
+    {
+      "mode": "-O",
+      "tests_returncode": 0,
+      "demo_exact": true
+    },
+    {
+      "mode": "-OO",
+      "tests_returncode": 0,
+      "demo_exact": true
+    }
+  ],
+  "mutations": [
+    {
+      "mutation": "C_becomes_possible",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "U_becomes_existential",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "T_becomes_universal",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "possible_subject_actual_only",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "all_becomes_some",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "none_becomes_notall",
+      "killed_by_original_tests": true
+    },
+    {
+      "mutation": "complement_identity",
+      "killed_by_original_tests": false
+    },
+    {
+      "mutation": "accept_empty_truth_vector",
+      "killed_by_original_tests": true
+    }
+  ],
+  "limitations": "Finite checks only. Surviving identity-complement mutant shows invariance-only tests do not verify complement output directly."
+}

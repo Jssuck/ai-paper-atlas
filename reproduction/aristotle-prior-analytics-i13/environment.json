@@ -1,0 +1,20 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform_system": "Linux",
+  "dependencies": "Python standard library only",
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "commands": [
+    "python -m unittest -v test_model",
+    "python -O -m unittest -v test_model",
+    "python -OO -m unittest -v test_model",
+    "python demo.py",
+    "python -O demo.py",
+    "python -OO demo.py"
+  ],
+  "notebook": "No notebook or Jupyter execution claimed."
+}

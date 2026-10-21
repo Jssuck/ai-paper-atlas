@@ -1,0 +1,27 @@
+test_alternating_individuals (test_model.Tests.test_alternating_individuals) ... ok
+test_complement_extensions_directly (test_model.Tests.test_complement_extensions_directly) ... ok
+test_empty_subject (test_model.Tests.test_empty_subject) ... ok
+test_exhaustive_two_worlds (test_model.Tests.test_exhaustive_two_worlds) ... ok
+test_invalid_enumeration (test_model.Tests.test_invalid_enumeration) ... ok
+test_invalid_modal_vector (test_model.Tests.test_invalid_modal_vector) ... ok
+test_invalid_model (test_model.Tests.test_invalid_model) ... ok
+test_invalid_object (test_model.Tests.test_invalid_object) ... ok
+test_invalid_policies (test_model.Tests.test_invalid_policies) ... ok
+test_invalid_subject (test_model.Tests.test_invalid_subject) ... ok
+test_invalid_weights (test_model.Tests.test_invalid_weights) ... ok
+test_joint_some_notall_necessary (test_model.Tests.test_joint_some_notall_necessary) ... ok
+test_modal_truth_table (test_model.Tests.test_modal_truth_table) ... ok
+test_no_joint_all_none (test_model.Tests.test_no_joint_all_none) ... ok
+test_no_term_swap (test_model.Tests.test_no_term_swap) ... ok
+test_non_necessary_not_possible (test_model.Tests.test_non_necessary_not_possible) ... ok
+test_one_world_no_contingency (test_model.Tests.test_one_world_no_contingency) ... ok
+test_possible_stricter (test_model.Tests.test_possible_stricter) ... ok
+test_sentence_contingency_not_each (test_model.Tests.test_sentence_contingency_not_each) ... ok
+test_swap_extensions_directly (test_model.Tests.test_swap_extensions_directly) ... ok
+test_weighted_not_half (test_model.Tests.test_weighted_not_half) ... ok
+test_zero_weight_not_modal_necessity (test_model.Tests.test_zero_weight_not_modal_necessity) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.024s
+
+OK

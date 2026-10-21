@@ -1,0 +1,47 @@
+{
+  "scope": "Two objects and two worlds; finite pedagogical illustration, not a proof of historical modal logic.",
+  "counts": {
+    "models": 256,
+    "fixed_subject_pairs": 1024,
+    "all_each_true": 576,
+    "some_each_true": 448,
+    "actual_all_true": 144,
+    "possible_all_true": 100
+  },
+  "alternating": {
+    "each_contingent": true,
+    "sentence_truth": {
+      "all": [
+        false,
+        false
+      ],
+      "none": [
+        false,
+        false
+      ],
+      "some": [
+        true,
+        true
+      ],
+      "notall": [
+        true,
+        true
+      ]
+    },
+    "sentence_contingency": {
+      "all": false,
+      "none": false,
+      "some": false,
+      "notall": false
+    }
+  },
+  "weights": {
+    "same_contingent_vector": [
+      true,
+      false
+    ],
+    "weight_9_1": "9/10",
+    "weight_1_9": "1/10",
+    "weight_1_0": "1"
+  }
+}

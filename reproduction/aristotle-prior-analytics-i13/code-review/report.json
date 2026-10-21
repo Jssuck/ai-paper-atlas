@@ -1,0 +1,75 @@
+{
+  "oracle": {
+    "models": 4368,
+    "fixed_subject_pairs": 17472,
+    "sentence_vectors": 69888
+  },
+  "reruns": [
+    {
+      "mode": "normal",
+      "tests_returncode": 0,
+      "demo_exact": true
+    },
+    {
+      "mode": "-O",
+      "tests_returncode": 0,
+      "demo_exact": true
+    },
+    {
+      "mode": "-OO",
+      "tests_returncode": 0,
+      "demo_exact": true
+    }
+  ],
+  "mutations": [
+    {
+      "mutation": "C_becomes_possible",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=8)"
+    },
+    {
+      "mutation": "U_becomes_existential",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=4)"
+    },
+    {
+      "mutation": "T_becomes_universal",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=1)"
+    },
+    {
+      "mutation": "possible_subject_actual_only",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=1)"
+    },
+    {
+      "mutation": "all_becomes_some",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=3)"
+    },
+    {
+      "mutation": "none_becomes_notall",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=2)"
+    },
+    {
+      "mutation": "complement_identity",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=1)"
+    },
+    {
+      "mutation": "accept_empty_truth_vector",
+      "killed_by_original_tests": true,
+      "returncode": 1,
+      "test_summary": "FAILED (failures=1)"
+    }
+  ],
+  "limitations": "Finite checks only; selected mutants are a diagnostic, not a completeness guarantee."
+}

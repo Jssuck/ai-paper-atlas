@@ -20,6 +20,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.10精读](papers/ancient/aristotle-prior-analytics-i10.zh-CN.md) | AI推理前史补读：第二格混合模态、否定换位与语义桥接 | 深读v1 · 完整30b7–31a17及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.11精读](papers/ancient/aristotle-prior-analytics-i11.zh-CN.md) | AI推理前史补读：第三格混合模态、必要换位与语义失配 | 深读v1 · 完整31a18–32a5及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.12精读](papers/ancient/aristotle-prior-analytics-i12.zh-CN.md) | AI推理前史补读：结论强度、模态相似条件与共同情形 | 深读v1 · 完整32a6–14及译本过渡句边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.13精读](papers/ancient/aristotle-prior-analytics-i13.zh-CN.md) | AI推理前史补读：可能性、逐对象偶然与主项范围 | 深读v1 · 完整32a17–32b37及分章过渡边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -660,3 +661,10 @@ I.11 的[独立代码核验](reproduction/aristotle-prior-analytics-i11/independ
 
 
 I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i12/independent-review/review.zh-CN.md)及[独立论证检查](reproduction/aristotle-prior-analytics-i12/argument-review/README.md)，分别保存检查范围、真实日志与摘要绑定。
+
+
+## Aristotle I.13：可能性、偶然性与范围
+
+新增[《前分析篇》I.13深读](papers/ancient/aristotle-prior-analytics-i13.zh-CN.md)，完整核读Bekker32a17–32b37及Owen1853印107下至109，并交代32a15–16分章过渡。逐步区分广义可能与双向偶然、模态内外否定、逐对象与整句偶然、实际B与可能B范围，附一般证明、反模型及20题答案。
+
+[来源账本](papers/ancient/aristotle-prior-analytics-i13.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-i13.source-audit.zh-CN.md)、[独立论证审查](papers/ancient/aristotle-prior-analytics-i13.audit.zh-CN.md)与[标准库教学代码及真实日志](reproduction/aristotle-prior-analytics-i13/README.md)分开原典、现代教学语义和实跑证据。不把非必然单独等同可能，不把肯否转换误作项位互换，不将自然倾向改写成现代概率；有限枚举不是一般定理证明。I.2仍暂缓，I.3、I.14以后与整书不计完成，旧目录、候选及未读缺口保持。

@@ -1,0 +1,7 @@
+Independent argument audit; Python 3.12.14
+truth vectors, 1..6 nonempty worlds: 126
+attribute models, 1..3 objects and 1..3 worlds: 682
+A/B models with designated actual world, 1..3 objects, 2 worlds: 8736
+explicit article and converse counterexamples: PASS
+total checked conditions: 74968
+PASS: finite evidence only; no historical equivalence or infinite theorem inferred.
