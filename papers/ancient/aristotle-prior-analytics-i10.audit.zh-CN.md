@@ -59,11 +59,13 @@
 
 初审建议已落实：§4.2和§5.1的反例跳转均改为第8节；可能世界与时间比喻的区别已补明。未要求改写一般定理或反模型。最终补入的Bekker范围、译编插词和脚注章界不改变数学模型，与来源账本相容。
 
+发布前纯排版复核：练习11题干中的强E星号改为转义星号，避免粗体内误解析。撤回该唯一转义后逐字节恢复初审正文摘要，确认没有其他内容变化；下表已绑定排版修订后的正文，无须更改数学判断。
+
 下列SHA256绑定本审查实际阅读的正文、账本和实跑文件。正文或账本此后有改动须重新核对，不得沿用旧摘要声称审过新稿。
 
 | 文件（相对仓库根） | SHA256 |
 |---|---|
-| `papers/ancient/aristotle-prior-analytics-i10.zh-CN.md` | `21e2d9cd238d37b7749f7e3935e188fc2bf76d7291bc8db3fad39ad074148572` |
+| `papers/ancient/aristotle-prior-analytics-i10.zh-CN.md` | `401919139f612572e28fae215e6f95fb136d8c8842277a00d049d157854f7896` |
 | `papers/ancient/aristotle-prior-analytics-i10.sources.zh-CN.md` | `1961e87cdcd558f54b48c2c658a3f145f11cae76cf1dcf0318e96bb912163e4f` |
 | `reproduction/aristotle-prior-analytics-i10/argument-review/check_argument.py` | `e8c620de920b3a3645599c5ce0e7d2d5cd53101474e0bfdcfa7d90190fff386d` |
 | `reproduction/aristotle-prior-analytics-i10/argument-review/normal.json` | `f1d6c84bd41321e649e45bc87026e5ad4f610bcdd944f79695351ca56a82525f` |
