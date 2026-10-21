@@ -1,0 +1,36 @@
+COMMAND: python -OO -m unittest -v test_third_figure
+test_all_six_shared_witness_routes (test_third_figure.ThirdFigureTests.test_all_six_shared_witness_routes) ... ok
+test_bad_route_name (test_third_figure.ThirdFigureTests.test_bad_route_name) ... ok
+test_bool_type_rejected (test_third_figure.ThirdFigureTests.test_bool_type_rejected) ... ok
+test_collection_rejected (test_third_figure.ThirdFigureTests.test_collection_rejected) ... ok
+test_compression_round_trip (test_third_figure.ThirdFigureTests.test_compression_round_trip) ... ok
+test_contradictories (test_third_figure.ThirdFigureTests.test_contradictories) ... ok
+test_countermodels_and_minimality (test_third_figure.ThirdFigureTests.test_countermodels_and_minimality) ... ok
+test_direction_of_conclusion (test_third_figure.ThirdFigureTests.test_direction_of_conclusion) ... ok
+test_distinct_witness_trap (test_third_figure.ThirdFigureTests.test_distinct_witness_trap) ... ok
+test_duplicate_objects_do_not_change_truth (test_third_figure.ThirdFigureTests.test_duplicate_objects_do_not_change_truth) ... ok
+test_duplicate_type_rejected (test_third_figure.ThirdFigureTests.test_duplicate_type_rejected) ... ok
+test_each_premise_pair_satisfiable (test_third_figure.ThirdFigureTests.test_each_premise_pair_satisfiable) ... ok
+test_exact_all_nonempty_classification (test_third_figure.ThirdFigureTests.test_exact_all_nonempty_classification) ... ok
+test_exact_empty_allowed_classification (test_third_figure.ThirdFigureTests.test_exact_empty_allowed_classification) ... ok
+test_false_premises_rejected (test_third_figure.ThirdFigureTests.test_false_premises_rejected) ... ok
+test_independent_set_truth (test_third_figure.ThirdFigureTests.test_independent_set_truth) ... ok
+test_invalid_object_rows (test_third_figure.ThirdFigureTests.test_invalid_object_rows) ... ok
+test_missing_middle_witness (test_third_figure.ThirdFigureTests.test_missing_middle_witness) ... ok
+test_no_empty_domain (test_third_figure.ThirdFigureTests.test_no_empty_domain) ... ok
+test_no_universal_conclusions (test_third_figure.ThirdFigureTests.test_no_universal_conclusions) ... ok
+test_policy_rejected (test_third_figure.ThirdFigureTests.test_policy_rejected) ... ok
+test_ps_swap_symmetry (test_third_figure.ThirdFigureTests.test_ps_swap_symmetry) ... ok
+test_quantifier_rejected (test_third_figure.ThirdFigureTests.test_quantifier_rejected) ... ok
+test_range_rejected (test_third_figure.ThirdFigureTests.test_range_rejected) ... ok
+test_report_complete (test_third_figure.ThirdFigureTests.test_report_complete) ... ok
+test_six_moods (test_third_figure.ThirdFigureTests.test_six_moods) ... ok
+test_support_counts (test_third_figure.ThirdFigureTests.test_support_counts) ... ok
+test_symmetric_e_i (test_third_figure.ThirdFigureTests.test_symmetric_e_i) ... ok
+test_term_rejected (test_third_figure.ThirdFigureTests.test_term_rejected) ... ok
+test_vacuity (test_third_figure.ThirdFigureTests.test_vacuity) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.098s
+
+OK

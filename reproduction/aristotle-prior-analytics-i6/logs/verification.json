@@ -1,0 +1,77 @@
+{
+  "runs": [
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "test_methods": 30,
+      "report_sha256": "6ddabb84d3cf66eab6a42b089b5afa09fee0e8d20ab4576720590321e16679a9"
+    },
+    {
+      "mode": "optimized",
+      "exit_code": 0,
+      "test_methods": 30,
+      "report_sha256": "6ddabb84d3cf66eab6a42b089b5afa09fee0e8d20ab4576720590321e16679a9"
+    },
+    {
+      "mode": "double-optimized",
+      "exit_code": 0,
+      "test_methods": 30,
+      "report_sha256": "6ddabb84d3cf66eab6a42b089b5afa09fee0e8d20ab4576720590321e16679a9"
+    }
+  ],
+  "report_identical_across_modes": true,
+  "route_checks": {
+    "Darapti": {
+      "premises": [
+        "A",
+        "A"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 16
+    },
+    "Felapton": {
+      "premises": [
+        "E",
+        "A"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 16
+    },
+    "Disamis": {
+      "premises": [
+        "I",
+        "A"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 32
+    },
+    "Datisi": {
+      "premises": [
+        "A",
+        "I"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 32
+    },
+    "Bocardo": {
+      "premises": [
+        "O",
+        "A"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 32
+    },
+    "Ferison": {
+      "premises": [
+        "E",
+        "I"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 32
+    }
+  },
+  "total_witness_routes": 160,
+  "inference_queries": 192,
+  "nonentailments": 176,
+  "invalid_premise_pairs_all_nonempty": 10
+}

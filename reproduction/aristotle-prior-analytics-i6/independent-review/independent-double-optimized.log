@@ -1,0 +1,42 @@
+COMMAND: python -OO independent-review/audit_third_figure.py
+{
+  "status": "PASS",
+  "checks": {
+    "set_truth": 9180,
+    "policy": 765,
+    "expand": 255,
+    "compress": 255,
+    "compress_duplicates": 255,
+    "support_order": 3,
+    "minimal_countermodel": 192,
+    "entailment": 192,
+    "witness_truth": 176,
+    "minimality": 176,
+    "mood_table": 1,
+    "route_rejection": 1370,
+    "shared_route": 160,
+    "sequence_truth_preservation": 21024,
+    "invalid_support": 60,
+    "invalid_quantifier": 24,
+    "invalid_term": 7,
+    "invalid_policy": 21,
+    "invalid_compress": 7,
+    "invalid_route": 6
+  },
+  "total_checks": 34129,
+  "detected_faults": [
+    "A_direction",
+    "O_direction",
+    "E_as_I",
+    "I_as_A",
+    "A_imports_existence",
+    "O_strong_some",
+    "ignore_existence",
+    "all_requires_only_M",
+    "witness_always_first",
+    "witness_wrong_sign",
+    "erase_memberships"
+  ],
+  "faults_detected": 11,
+  "scope": "Independent finite set-semantic check, not a proof of all historical claims or software correctness."
+}

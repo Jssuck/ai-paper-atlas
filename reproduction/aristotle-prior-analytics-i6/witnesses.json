@@ -1,0 +1,292 @@
+{
+  "route_checks": {
+    "Darapti": {
+      "premises": [
+        "A",
+        "A"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 16
+    },
+    "Felapton": {
+      "premises": [
+        "E",
+        "A"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 16
+    },
+    "Disamis": {
+      "premises": [
+        "I",
+        "A"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 32
+    },
+    "Datisi": {
+      "premises": [
+        "A",
+        "I"
+      ],
+      "conclusion": "I",
+      "witness_routes_checked": 32
+    },
+    "Bocardo": {
+      "premises": [
+        "O",
+        "A"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 32
+    },
+    "Ferison": {
+      "premises": [
+        "E",
+        "I"
+      ],
+      "conclusion": "O",
+      "witness_routes_checked": 32
+    }
+  },
+  "total_witness_routes": 160,
+  "inference_queries": 192,
+  "nonentailments": 176,
+  "invalid_premise_pairs_all_nonempty": 10,
+  "invalid_pairs": [
+    {
+      "major": "A",
+      "minor": "E",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          2,
+          5
+        ],
+        "E": [
+          5,
+          6
+        ],
+        "I": [
+          2,
+          5
+        ],
+        "O": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "major": "A",
+      "minor": "O",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          2,
+          5
+        ],
+        "E": [
+          5,
+          6
+        ],
+        "I": [
+          2,
+          5
+        ],
+        "O": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "major": "E",
+      "minor": "E",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          1,
+          2,
+          4
+        ],
+        "E": [
+          1,
+          6
+        ],
+        "I": [
+          1,
+          2,
+          4
+        ],
+        "O": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "major": "E",
+      "minor": "O",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          1,
+          2,
+          4
+        ],
+        "E": [
+          1,
+          6
+        ],
+        "I": [
+          1,
+          2,
+          4
+        ],
+        "O": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "major": "I",
+      "minor": "E",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          2,
+          5
+        ],
+        "E": [
+          5,
+          6
+        ],
+        "I": [
+          2,
+          5
+        ],
+        "O": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "major": "I",
+      "minor": "I",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          2,
+          7
+        ],
+        "E": [
+          7
+        ],
+        "I": [
+          3,
+          5
+        ],
+        "O": [
+          7
+        ]
+      }
+    },
+    {
+      "major": "I",
+      "minor": "O",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          2,
+          5
+        ],
+        "E": [
+          1,
+          7
+        ],
+        "I": [
+          2,
+          5
+        ],
+        "O": [
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "major": "O",
+      "minor": "E",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          1,
+          2,
+          4
+        ],
+        "E": [
+          1,
+          6
+        ],
+        "I": [
+          1,
+          2,
+          4
+        ],
+        "O": [
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "major": "O",
+      "minor": "I",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          3,
+          4
+        ],
+        "E": [
+          1,
+          7
+        ],
+        "I": [
+          3,
+          4
+        ],
+        "O": [
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "major": "O",
+      "minor": "O",
+      "valid_conclusions": [],
+      "minimal_countermodels": {
+        "A": [
+          3,
+          5
+        ],
+        "E": [
+          1,
+          6
+        ],
+        "I": [
+          3,
+          5
+        ],
+        "O": [
+          1,
+          6
+        ]
+      }
+    }
+  ]
+}

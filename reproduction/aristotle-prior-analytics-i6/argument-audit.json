@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": 31553,
+  "countermodels_read_from_main": 20,
+  "support_counts": {
+    "allow_empty": 255,
+    "middle_nonempty": 240,
+    "all_nonempty": 218
+  },
+  "valid_rules": {
+    "allow_empty": [
+      "AII",
+      "EIO",
+      "IAI",
+      "OAO"
+    ],
+    "middle_nonempty": [
+      "AAI",
+      "AII",
+      "EAO",
+      "EIO",
+      "IAI",
+      "OAO"
+    ],
+    "all_nonempty": [
+      "AAI",
+      "AII",
+      "EAO",
+      "EIO",
+      "IAI",
+      "OAO"
+    ]
+  },
+  "compression_labeled_models": 512,
+  "reviewed_sha256": {
+    "aristotle-prior-analytics-i6.zh-CN.md": "6ae3d6b59b12557db5ae07519781facdc69b792afa3b7eb1d3f58108fe6d7114",
+    "aristotle-prior-analytics-i6.sources.zh-CN.md": "9b7300604d366d2b48c17698d7dbf29a69622b2666faeca2a5437cbfdd2e8566"
+  },
+  "method": "Independent Python sets and membership tuples; no author model imports. Finite checks supplement explicit general proofs."
+}

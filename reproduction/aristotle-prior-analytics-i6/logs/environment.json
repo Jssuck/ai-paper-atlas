@@ -1,0 +1,8 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "excludes": "No user names, private paths, environment variables or host identifiers recorded."
+}
