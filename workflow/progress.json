@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i6",
+    "path": "papers/ancient/aristotle-prior-analytics-i6.zh-CN.md",
+    "stage": "primary_source_and_argument_reconstruction",
+    "scope": "Complete Prior Analytics I.6, third figure; verify original chapter boundary and nineteenth-century Greek/translation witnesses. Explicit ancient backfill; I.2 remains deferred."
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i5",
     "path": "papers/ancient/aristotle-prior-analytics-i5.zh-CN.md",
@@ -11,14 +16,14 @@
     "checks": "Independent source, complete argument and code reviews passed.41 authored tests in normal/-O/-OO; separate192-case/176-minimal-witness checks,187 invalid-input calls and13 detected mutants; independent argument checker205928 checks.38 published files reread exactly;2049 unrelated blobs and modes preserved;359 relative Markdown links have existing targets. Actual GitHub Preview pixels and DOM passed all9 Markdown pages,10 main formulas (0 merror), tables,20 answers and README additions. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T12:02:13Z"
   },
-  "updated_at": "2026-10-21T12:02:13Z",
+  "updated_at": "2026-10-21T12:34:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Next scheduled run may select one eligible unfinished source unit. Deferred I.2 remains not completed; no catch-up or concurrent takeover.",
+  "next_action": "Read complete I.6 with apparatus and applicable errata, reconstruct proofs and countermodels, then independent reviews.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
