@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i13",
+    "path": "papers/ancient/aristotle-prior-analytics-i13.zh-CN.md",
+    "stage": "primary_source_verification"
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i12",
     "path": "papers/ancient/aristotle-prior-analytics-i12.zh-CN.md",
@@ -11,14 +15,14 @@
     "checks": "Independent source, full argument and code audits passed;18 SHA256 bindings verified.16 author tests per normal/-O/-OO mode;4096 models and192 configurations,52 finite-valid. Independent argument196619 and code598219 checks per mode;44 invalid inputs and8 detected semantic mutations.32 frozen content files (236630 UTF-8 bytes) plus progress exact remotely;2280 unrelated blobs/modes preserved;408 relative Markdown targets exist. Actual GitHub DOM QA passed eight new Markdown and README additions;1/1 formula,11/11 tables and20/20 answers pixel-checked;129/129 anchors exist including27 main anchors.55 old README directory rows preserved, only I.12 added. Key derivation layout sampled, not every prose paragraph or external bibliography link. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T18:53:00Z"
   },
-  "updated_at": "2026-10-21T18:53:00Z",
+  "updated_at": "2026-10-21T19:32:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "On the next scheduled run, verify main and select at most one eligible unfinished source; keep I.2 deferred and do not modify its denied candidate registry.",
+  "next_action": "Read complete I.13 and applicable textual apparatus; reconstruct possibility distinctions with independent verification.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
