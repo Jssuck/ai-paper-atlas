@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i5",
     "path": "papers/ancient/aristotle-prior-analytics-i5.zh-CN.md",
-    "stage": "published_content_pending_remote_and_rendering_verification",
-    "scope": "Complete Prior Analytics I.5, Bekker26b34–28a9, Owen1853 pp89–94, notes, example groups, bounded apparatus and errata. Explicit ancient backfill; modern AEIO reconstruction and20 answered exercises."
-  },
-  "last_completed": {
-    "id": "boole-1848-calculus-logic",
-    "path": "papers/1848/boole-calculus-logic.zh-CN.md",
     "version": "v1",
-    "content_commit": "a8a1828e8d43d4c54f28d1a59b2fa89a432cdcc3",
-    "scope": "Complete original May 1848 article pp.183–198, five footnotes and bounded volume errata; editorial ship note distinguished; modern formal reconstruction and 20 answered exercises. Not the 1847 book or complete historical logic.",
-    "checks": "Independent source, full argument and code review passed. 22 author tests in normal/-O/-OO; separate rational-table, solution-set, projection and fault-injection checks recorded. All 29 final files reread exactly; 2022 unrelated blobs and modes preserved; 352 relative Markdown link occurrences have existing targets. Actual GitHub browser review passed all new Markdown, 18 main and 6 walkthrough formulas, tables, 20 answers and README additions after equivalent rendering repair and renewed audit bindings. No workflow runs, check runs or status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T11:02:24Z"
+    "content_commit": "e8d1e07511ffa44331510c3eab3ce507539155a1",
+    "scope": "Complete Prior Analytics I.5 Bekker26b34–28a9 and Owen1853 pp89–94;8 numbered translator notes,10 example groups, bounded apparatus and errata. Explicit ancient backfill; modern AEIO reconstruction with20 answered exercises. Not full Organon or I.2.",
+    "checks": "Independent source, complete argument and code reviews passed.41 authored tests in normal/-O/-OO; separate192-case/176-minimal-witness checks,187 invalid-input calls and13 detected mutants; independent argument checker205928 checks.38 published files reread exactly;2049 unrelated blobs and modes preserved;359 relative Markdown links have existing targets. Actual GitHub Preview pixels and DOM passed all9 Markdown pages,10 main formulas (0 merror), tables,20 answers and README additions. No workflow/check/status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T12:02:13Z"
   },
-  "updated_at": "2026-10-21T11:51:00Z",
+  "updated_at": "2026-10-21T12:02:13Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote files, unrelated tree preservation, links and actual GitHub rendering; mark completed only after those checks.",
+  "next_action": "Next scheduled run may select one eligible unfinished source unit. Deferred I.2 remains not completed; no catch-up or concurrent takeover.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
