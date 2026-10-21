@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i7",
+    "path": "papers/ancient/aristotle-prior-analytics-i7.zh-CN.md",
+    "stage": "primary_source_and_reduction_verification",
+    "scope": "Complete Prior Analytics I.7; original text, edition and reduction arguments; ancient backfill, not modal chapters or deferred I.2."
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i6",
     "path": "papers/ancient/aristotle-prior-analytics-i6.zh-CN.md",
@@ -11,14 +16,14 @@
     "checks": "Independent source, argument and code reviews passed. 30 author tests in normal/-O/-OO; independent code review 34129 checks per mode, 192 entailments, 176 minimal countermodels, 160 witness routes, 125 invalid inputs and 11 detected mutants. Independent argument checker 31553 checks; 33 code/evidence hash bindings verified. All 41 final files exact remotely, 2085 unrelated blobs and modes preserved, 363 relative Markdown links have targets. Actual GitHub pixel and DOM QA passed seven new Markdown pages and README additions, 5 formulas, 12 new tables and 20 answers after equivalent macro repair and renewed audit. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T12:56:45Z"
   },
-  "updated_at": "2026-10-21T12:56:45Z",
+  "updated_at": "2026-10-21T13:39:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration select one eligible unfinished source; I.2 remains deferred, not completed. Do not catch up or start concurrent work.",
+  "next_action": "Read I.7 original source and applicable apparatus; reconstruct directed conclusions and reductions with explicit existence assumptions.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
