@@ -2,7 +2,7 @@
   "review_status": "pass_bounded_arguments_and_answers",
   "review_date": "2026-10-21",
   "files": {
-    "papers/ancient/aristotle-prior-analytics-i16.zh-CN.md": "78c303766927348e0e225e4f2a96e6bbc78486412dbec5dcf4b9d63c78f1cc0d",
+    "papers/ancient/aristotle-prior-analytics-i16.zh-CN.md": "897b492a8fe91903f0631ce2250be8d476012679565eada6575170cdce0207b9",
     "reproduction/aristotle-prior-analytics-i16/README.md": "eb6c8a4fa3a40360c1757a5c46841703e443a372c81bda47f818c283e670fc7d",
     "reproduction/aristotle-prior-analytics-i16/argument-review/check_arguments.py": "e9e62ab279cfaf4f379d0a843c8c6450ceebfa67d311424cd48abe08db508372",
     "reproduction/aristotle-prior-analytics-i16/argument-review/environment.json": "ddab1f19dcfd7b6aa01e301ac8a55317772466589a8e8b097515c7acbcae4718",
@@ -16,5 +16,10 @@
     "previous_article_sha256": "4ef1f1a245e1358c14ca0eb6c8d6a187115ce68c7900ace85430b4635815e6a8",
     "changes": "Whitespace around strong markers and four Box-to-square notation glyph replacements only; normalized mathematical and prose content identical.",
     "claim": "source-level semantic review only; live rendered verification performed separately"
+  },
+  "notation_incremental_review": {
+    "previous_article_sha256": "78c303766927348e0e225e4f2a96e6bbc78486412dbec5dcf4b9d63c78f1cc0d",
+    "changes": "Section 2.2 only: square/Diamond replaced by explicitly parenthesized Nec/Poss with same all-world/some-world definitions; adjacent notation wording updated; the three formulas preserve negation scope and inference direction.",
+    "claim": "semantic source-level review, not independent live browser QA"
   }
 }
