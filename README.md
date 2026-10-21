@@ -45,6 +45,7 @@
 | 1798（所读版次；来信印署1777-09-02） | [Potocki与Condillac约稿往复精读](papers/1798/condillac-potocki-exchange.zh-CN.md) | AI学习与推理前史：目标、先修路径、再发现及教学证据边界 | 深读v1 · 一个往复单元，分别题名两信199–202四页 |
 | 1817（1月1日） | [Gergonne《理性辩证法试论》精读](papers/1817/gergonne-dialectique-rationnelle.zh-CN.md) | AI前史回填：外延关系、有限分类与三段论机械判定 | 深读v1 · 全68段、19脚注与正式勘误 |
 | 1847 | [De Morgan《三段论的结构与论证概率》精读](papers/1847/demorgan-structure-syllogism.zh-CN.md) | AI前史回填：论域、数量推理、相容概率模型 | 深读v1 · 完整30页及Addition |
+| 1848年5月 | [Boole《逻辑演算》精读](papers/1848/boole-calculus-logic.zh-CN.md) | AI逻辑前史补读：类的展开、全部解、存在见证与消元侧条件 | 深读v1 · 完整183–198及编辑注、卷勘误范围 |
 | 1851 | [De Morgan《逻辑符号与系词》精读](papers/1851/demorgan-symbols-logic.zh-CN.md) | AI前史回填：量化选择、关系合成与证言通道 | 深读v1 · 完整49页及两层修订 |
 | 1852（十一月） | [Sylvester《几何方法的猜想原则》精读](papers/1852/sylvester-geometrical-method.zh-CN.md) | AI前史回填：几何可行域、代数根与直接/间接证明 | 深读v1 · 完整四页及独立审计 |
 | 1852（十二月） | [De Morgan《间接证明》精读](papers/1852/demorgan-indirect-demonstration.zh-CN.md) | AI前史回填：命题逆否、几何证明与逻辑规则 | 深读v1 · 完整四页及独立审计 |
@@ -576,3 +577,16 @@ I–X全读、五条必要而非充分限制、同一个体与独立存在见证
 实际运行比较1–3项非空论域支持、可选词项非空政策、语义后承和给定证书；正常、-O、-OO执行及准确计数见冻结日志和审计，不用有限实验替代一般证明。语义后承允许重复、冗余或矛盾前提，代码对此给提示而不冒充亚里士多德推论定义的完全等价实现。
 
 仅关闭I.1完整章缺口；I.2–3、I.5以后、Topics、整书及其他古代/近代候选不计完成。Plato Meno仅新增开放的更早来源线索。原README全文、全部旧候选/历史/状态/版本缺口、I.4完成记录、Locke/Berkeley更正和Condillac正式勘误均保留；不宣称最早AI或推理文本、连续覆盖或历史穷尽。
+
+## Boole1848《逻辑演算》可运行附件
+
+本次补读1848年5月原刊183–198完整16页，含五条脚注，区分191页编辑船只插注与作者正文。不是1847前书、1854著作或最早AI论文；年代跳转不关闭更早缺口。
+
+- [中文深读与20题答案](papers/1848/boole-calculus-logic.zh-CN.md)
+- [完整来源账本](papers/1848/boole-calculus-logic.sources.zh-CN.md) · [独立数学审计](papers/1848/boole-calculus-logic.audit.zh-CN.md)
+- [标准库教学模型和真实日志](reproduction/boole-1848/README.md) · [独立代码审查](reproduction/boole-1848/independent-review/review.zh-CN.md)
+
+正文逐步证明成员类型展开、端点求解的全部解构造，以及带侧条件的消元投影；指出裸等式不保留特称存在、直接消元可能只给必要条件。22测试方法在普通、-O、-OO实际运行，独立验证另列；有限执行不是一般定理证明或历史体系完整认证。没有Notebook、Jupyter内核或AI性能实验声明。
+
+I.2仍列为延期未完成，既有稿件和此前全部目录/版本缺口保留。旧候选清单本轮不改，当前活动和延期状态以[进度记录](workflow/progress.json)为准。
+

@@ -1,0 +1,55 @@
+{
+  "started_utc": "2026-10-21T10:51:00.141814+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "reviewed_sha256": {
+    "boole_model.py": "1c4a107662998174e2eb0cec4e01da30087f59f2d0a0b15e827a1026f10c9216",
+    "test_model.py": "7e506365cddc068445e9f5bdef8ee4d3c4ccc38a394bff53ef1601d206c61608",
+    "demo.py": "aef8c4435dfc1d937bff805530aa98550cdf0695762ccc290a5f3a7a643a0a53",
+    "run_checks.py": "d542f32769d239aa5a7b7dd2fa96141b6f06536e9f58184139b728d7a8b4316c",
+    "README.md": "6952523a0497c62101d17dbd6f237481dddcc21b43c897d57e809e38f8b6a4d6",
+    "WALKTHROUGH.zh-CN.md": "22076b1e475bf1f9d7438e5545486a679f4a71108dd4f20fac2ceda31e0103fe",
+    "independent-review/check_independent.py": "0aa25c86fba557e930966624f478585700e62401ec6367229d75e6d000c4f93e"
+  },
+  "runs": [
+    {
+      "command": "python independent-review/check_independent.py",
+      "exit_code": 0,
+      "log": "normal.json",
+      "sha256": "b1ca9689add84e06beeb38046fa3ab5e94875aba74674f1a0394eeb14bf0098a"
+    },
+    {
+      "command": "python test_model.py",
+      "exit_code": 0,
+      "log": "author-tests-normal.log",
+      "sha256": "24bf229c1f27250a78c3f3c363d9d738db58cb9fe32eb8b66f9cac6d7d38683c"
+    },
+    {
+      "command": "python -O independent-review/check_independent.py",
+      "exit_code": 0,
+      "log": "optimized.json",
+      "sha256": "b1ca9689add84e06beeb38046fa3ab5e94875aba74674f1a0394eeb14bf0098a"
+    },
+    {
+      "command": "python -O test_model.py",
+      "exit_code": 0,
+      "log": "author-tests-optimized.log",
+      "sha256": "11fae6c42cc960f9b4e6a14f05dd75f8b12841d0611f205958dc73c0e63309d3"
+    },
+    {
+      "command": "python -OO independent-review/check_independent.py",
+      "exit_code": 0,
+      "log": "double_optimized.json",
+      "sha256": "b1ca9689add84e06beeb38046fa3ab5e94875aba74674f1a0394eeb14bf0098a"
+    },
+    {
+      "command": "python -OO test_model.py",
+      "exit_code": 0,
+      "log": "author-tests-double_optimized.log",
+      "sha256": "1b952ff63dd8515a246b561158bb2c6e2c901fbe1acf2c7f58deab12a737d632"
+    }
+  ],
+  "independent_outputs_byte_identical": true,
+  "finished_utc": "2026-10-21T10:51:01.960953+00:00"
+}

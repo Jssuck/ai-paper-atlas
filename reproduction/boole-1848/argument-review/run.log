@@ -1,0 +1,5 @@
+Python 3.12.14
+512 X/Y/Z assignments; five implications per assignment; all passed.
+Premise-satisfying counts: [64, 64, 91, 64, 91]
+Original p193 wording counterexample passed: X={0}, Y={0,1}, U={0,1,2}.
+Finite checks supplement the general set proofs; they do not prove the full historical system.

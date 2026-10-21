@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "boole-1848-calculus-logic",
     "path": "papers/1848/boole-calculus-logic.zh-CN.md",
-    "stage": "primary_source_and_edition_verification",
+    "stage": "remote_content_and_rendering_verification",
     "scope": "The Calculus of Logic, original 1848 pp.183–198; full article with applicable errata and explicit chronology gap."
   },
   "last_completed": {
@@ -16,14 +16,14 @@
     "scope": "Complete Prior Analytics I.1 (24a10–24b30), actual Bekker 1831 Greek page and applicable apparatus plus Owen 1853 pp.80–82 complete chapter, eight translator notes, nineteenth-century principle diagram and bounded ERRATA. Explicit prerequisite backfill; precise composition date unknown and chapter order is not composition chronology. No whole-book, exhaustive-predecessor, ancient author-algorithm or direct-AI-influence claim.",
     "browser_review_report_sha256": "81048af71e3dc8e047f4639f2809a575fd4058e01bd3aef7df1eeb3b79549b04"
   },
-  "updated_at": "2026-10-21T10:43:00Z",
+  "updated_at": "2026-10-21T10:51:46Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete original article, verify issue and errata, reconstruct arguments and run bounded teaching models with independent review.",
+  "next_action": "Verify published files, links and actual GitHub math rendering before marking this paper completed.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
@@ -48,3 +48,4 @@
     }
   ]
 }
+

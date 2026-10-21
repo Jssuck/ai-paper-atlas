@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "author_demo_bytes_identical": 1,
+    "author_exit_code": 6,
+    "author_log_hash": 6,
+    "author_source_hash": 4,
+    "bare_particular_always_satisfiable": 64,
+    "constituent_bits": 256,
+    "fixed_selector_solutions": 81,
+    "incompatible_selector_rejected": 175,
+    "mutants_detected": 1,
+    "particular_nonempty_equivalence": 64,
+    "projection_three_objects": 4096,
+    "rational_all_solutions": 2500,
+    "rational_expansion": 2500,
+    "ship_equation_holds": 4096,
+    "ship_four_object_solutions": 256,
+    "ship_free_subregions": 256,
+    "ternary_all_solutions": 4096
+  },
+  "mutants_detected": {
+    "atom_indicator_reversed": true,
+    "forbidden_zero_inverted": true,
+    "free_endpoint_collapsed": true
+  },
+  "scope": "finite explicit input families; not a proof of all historical logic",
+  "status": "passed"
+}

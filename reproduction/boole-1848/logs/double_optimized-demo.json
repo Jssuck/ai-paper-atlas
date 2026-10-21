@@ -1,0 +1,226 @@
+{
+  "elimination_counterexample": {
+    "eliminated_equality": true,
+    "exists_y_for_both_original_equations": false,
+    "v": 0,
+    "v_prime": 0,
+    "x": 0,
+    "z": 1
+  },
+  "endpoint_cases_f0_f1": {
+    "-3,0": [
+      1
+    ],
+    "0,0": [
+      0,
+      1
+    ],
+    "0,2": [
+      0
+    ],
+    "1,-1": [],
+    "2,2": []
+  },
+  "existence_counterexample": {
+    "X": [
+      0
+    ],
+    "X_intersect_Z_nonempty": false,
+    "Y": [],
+    "Y_subset_X": true,
+    "Y_subset_Z": true,
+    "Z": [
+      1
+    ],
+    "universe": [
+      0,
+      1
+    ]
+  },
+  "finite_coverage_counts": {
+    "complement_fixed_V_Y_inputs_sizes_0_through_3": 85,
+    "direct_elimination_bit_assignments": 16,
+    "direct_elimination_two_element_set_assignments": 256,
+    "identity_class_pairs_sizes_0_through_3": 85,
+    "rational_endpoint_pairs": 36,
+    "rational_two_variable_tables": 81,
+    "ship_X_Y_inputs_sizes_0_through_3": 85,
+    "ship_candidate_Z_set_checks_sizes_0_through_3": 585
+  },
+  "identity_forbidden_atoms": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "identity_table": [
+    {
+      "value": "0",
+      "xy": [
+        0,
+        0
+      ]
+    },
+    {
+      "value": "2",
+      "xy": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": "1",
+      "xy": [
+        1,
+        0
+      ]
+    },
+    {
+      "value": "0",
+      "xy": [
+        1,
+        1
+      ]
+    }
+  ],
+  "limits": [
+    "No proof assistant or Jupyter kernel.",
+    "Finite tests do not prove general claims.",
+    "Not a reproduction of every historical syllogistic rule or the psychological claims."
+  ],
+  "semantic_policy": "pointwise rational indicators; empty classes allowed; particular claims need witnesses",
+  "ship_endpoint_choices": [
+    {
+      "allowed_z": [
+        0,
+        1
+      ],
+      "xy": [
+        0,
+        0
+      ]
+    },
+    {
+      "allowed_z": [
+        0
+      ],
+      "xy": [
+        0,
+        1
+      ]
+    },
+    {
+      "allowed_z": [
+        1
+      ],
+      "xy": [
+        1,
+        0
+      ]
+    },
+    {
+      "allowed_z": [
+        0,
+        1
+      ],
+      "xy": [
+        1,
+        1
+      ]
+    }
+  ],
+  "ship_example": {
+    "X": [
+      0,
+      1
+    ],
+    "Y": [
+      1,
+      2
+    ],
+    "all_Z": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "universe": [
+      0,
+      1,
+      2
+    ]
+  },
+  "ship_table": [
+    {
+      "value": "0",
+      "xyz": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "value": "0",
+      "xyz": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "value": "0",
+      "xyz": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "value": "-1",
+      "xyz": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "value": "-1",
+      "xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "value": "0",
+      "xyz": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "value": "0",
+      "xyz": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "value": "0",
+      "xyz": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

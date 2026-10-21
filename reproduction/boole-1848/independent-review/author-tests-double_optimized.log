@@ -1,0 +1,27 @@
+test_all_rational_endpoint_pairs (__main__.ModelTests.test_all_rational_endpoint_pairs) ... ok
+test_bits_and_zero_arity (__main__.ModelTests.test_bits_and_zero_arity) ... ok
+test_conditional_disjunction (__main__.ModelTests.test_conditional_disjunction) ... ok
+test_constituent_partition (__main__.ModelTests.test_constituent_partition) ... ok
+test_contraposition_set_oracle (__main__.ModelTests.test_contraposition_set_oracle) ... ok
+test_darapti_counterexample_and_existential_repair (__main__.ModelTests.test_darapti_counterexample_and_existential_repair) ... ok
+test_empty_universe_has_one_output_set (__main__.ModelTests.test_empty_universe_has_one_output_set) ... ok
+test_equal_nonzero_endpoints_are_forbidden (__main__.ModelTests.test_equal_nonzero_endpoints_are_forbidden) ... ok
+test_expansion_for_rational_tables (__main__.ModelTests.test_expansion_for_rational_tables) ... ok
+test_fixed_v_complement_parametrization (__main__.ModelTests.test_fixed_v_complement_parametrization) ... ok
+test_four_endpoint_cases (__main__.ModelTests.test_four_endpoint_cases) ... ok
+test_free_class_need_not_be_constant_on_atom (__main__.ModelTests.test_free_class_need_not_be_constant_on_atom) ... ok
+test_generic_solver_against_direct_rational_evaluation (__main__.ModelTests.test_generic_solver_against_direct_rational_evaluation) ... ok
+test_identity_set_oracle (__main__.ModelTests.test_identity_set_oracle) ... ok
+test_inconsistent_fixed_atom_excludes_all_solutions (__main__.ModelTests.test_inconsistent_fixed_atom_excludes_all_solutions) ... ok
+test_input_validation (__main__.ModelTests.test_input_validation) ... ok
+test_negative_coefficients_do_not_cancel_between_atoms (__main__.ModelTests.test_negative_coefficients_do_not_cancel_between_atoms) ... ok
+test_original_elimination_needs_retained_bounds (__main__.ModelTests.test_original_elimination_needs_retained_bounds) ... ok
+test_original_elimination_projection_set_oracle (__main__.ModelTests.test_original_elimination_projection_set_oracle) ... ok
+test_particular_requires_nonempty_shared_selection (__main__.ModelTests.test_particular_requires_nonempty_shared_selection) ... ok
+test_ship_set_oracle (__main__.ModelTests.test_ship_set_oracle) ... ok
+test_universal_selector_is_existential_not_forall (__main__.ModelTests.test_universal_selector_is_existential_not_forall) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.028s
+
+OK
