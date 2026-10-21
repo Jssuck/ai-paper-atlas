@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "checks": 8029,
+  "models_per_mood_position": 4096,
+  "rows": [
+    {
+      "mood": "Barbara",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Barbara",
+      "necessary_position": "minor",
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Celarent",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Celarent",
+      "necessary_position": "minor",
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Darii",
+      "necessary_position": "major",
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Darii",
+      "necessary_position": "minor",
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Ferio",
+      "necessary_position": "major",
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "mood": "Ferio",
+      "necessary_position": "minor",
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0
+    }
+  ],
+  "limits": "Finite independent checks do not replace the general subset and witness proofs; not a historical semantic completeness claim."
+}

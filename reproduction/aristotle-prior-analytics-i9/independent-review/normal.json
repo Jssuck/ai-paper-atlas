@@ -1,0 +1,323 @@
+{
+  "status": "PASS",
+  "checks": 512484,
+  "invalid_inputs_rejected": 20,
+  "detected_mutants": 10,
+  "mutant_witnesses": {
+    "N_as_T": {
+      "q": "E",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "N_as_D": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    "swap_terms": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "negate_result": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "swap_A_I": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "swap_E_O": {
+      "q": "E",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "positive_for_negative": {
+      "q": "E",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "last_world_only": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "always_true": {
+      "q": "I",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "always_false": {
+      "q": "A",
+      "model": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "semantics": "N",
+      "mood": "Barbara",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Barbara",
+      "necessary_position": "minor",
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Celarent",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Celarent",
+      "necessary_position": "minor",
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Darii",
+      "necessary_position": "major",
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Darii",
+      "necessary_position": "minor",
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Ferio",
+      "necessary_position": "major",
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Ferio",
+      "necessary_position": "minor",
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Barbara",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Barbara",
+      "necessary_position": "minor",
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Celarent",
+      "necessary_position": "major",
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Celarent",
+      "necessary_position": "minor",
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Darii",
+      "necessary_position": "major",
+      "premise_models": 396,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Darii",
+      "necessary_position": "minor",
+      "premise_models": 308,
+      "necessary_failures": 121,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Ferio",
+      "necessary_position": "major",
+      "premise_models": 396,
+      "necessary_failures": 176,
+      "actual_failures": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Ferio",
+      "necessary_position": "minor",
+      "premise_models": 308,
+      "necessary_failures": 121,
+      "actual_failures": 0
+    }
+  ],
+  "bindings": {
+    "modal.py": "f0aba412614cad49aed2065d69f82cf846b69d3e0c504ed42e889c494811414e",
+    "test_modal.py": "20352709a5fa4682d026a0f9c49fb1005a06e1a890736ba045076c8a4630eafb",
+    "results.json": "1a0e960497c0041274fd848c63c279384c51dcd85c6c2c9270c5e0999e4a4621"
+  }
+}

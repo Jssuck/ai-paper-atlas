@@ -1,0 +1,29 @@
+test_bad_evaluation (test_modal.Tests.test_bad_evaluation) ... ok
+test_bad_generator (test_modal.Tests.test_bad_generator) ... ok
+test_bad_model (test_modal.Tests.test_bad_model) ... ok
+test_bad_premise_modality (test_modal.Tests.test_bad_premise_modality) ... ok
+test_de_dicto_major_failure (test_modal.Tests.test_de_dicto_major_failure) ... ok
+test_empty_subject (test_modal.Tests.test_empty_subject) ... ok
+test_empty_universal_route (test_modal.Tests.test_empty_universal_route) ... ok
+test_generator_count (test_modal.Tests.test_generator_count) ... ok
+test_major_theorem_finite (test_modal.Tests.test_major_theorem_finite) ... ok
+test_minor_negative_counterexamples (test_modal.Tests.test_minor_negative_counterexamples) ... ok
+test_minor_positive_counterexamples (test_modal.Tests.test_minor_positive_counterexamples) ... ok
+test_necessity_implies_actual (test_modal.Tests.test_necessity_implies_actual) ... ok
+test_negation_duality (test_modal.Tests.test_negation_duality) ... ok
+test_ordinary_conclusion_all (test_modal.Tests.test_ordinary_conclusion_all) ... ok
+test_particular_semantics_incomparable (test_modal.Tests.test_particular_semantics_incomparable) ... ok
+test_reference_exhaustive (test_modal.Tests.test_reference_exhaustive) ... ok
+test_route_rejects_false (test_modal.Tests.test_route_rejects_false) ... ok
+test_single_world_collapses (test_modal.Tests.test_single_world_collapses) ... ok
+test_summary (test_modal.Tests.test_summary) ... ok
+test_three_world_witness (test_modal.Tests.test_three_world_witness) ... ok
+test_universal_semantics_incomparable (test_modal.Tests.test_universal_semantics_incomparable) ... ok
+test_world_permutation_nonactual (test_modal.Tests.test_world_permutation_nonactual) ... ok
+test_wrong_mood (test_modal.Tests.test_wrong_mood) ... ok
+test_wrong_place (test_modal.Tests.test_wrong_place) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.691s
+
+OK

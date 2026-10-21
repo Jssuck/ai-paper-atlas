@@ -16,6 +16,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle前分析篇I.6精读](papers/ancient/aristotle-prior-analytics-i6.zh-CN.md) | AI推理前史回填：第三格、共同见证、空项政策与无全称结论 | 深读v1 · 完整28a10–29a18及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.7精读](papers/ancient/aristotle-prior-analytics-i7.zh-CN.md) | AI推理前史补读：逆向结论、证明归约与显式存在条件 | 深读v1 · 完整29a19–29b28及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.8精读](papers/ancient/aristotle-prior-analytics-i8.zh-CN.md) | AI推理前史补读：必然前提、逐世界见证与模态量词顺序 | 深读v1 · 完整29b29–30a14及版本/校勘边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.9精读](papers/ancient/aristotle-prior-analytics-i9.zh-CN.md) | AI推理前史补读：混合模态前提、实际对象与稳定属性 | 深读v1 · 完整30a15–30b6及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -622,3 +623,10 @@ I.2仍列为延期未完成，既有稿件和此前全部目录/版本缺口保�
 
 [来源账本](papers/ancient/aristotle-prior-analytics-i8.sources.zh-CN.md)、[独立论证核验](papers/ancient/aristotle-prior-analytics-i8.audit.zh-CN.md)与[标准库教学代码及真实日志](reproduction/aristotle-prior-analytics-i8/README.md)区分原典、一般证明和有限测试。I.2仍暂缓，I.3、I.9以后、整书和版本史缺口不计完成；旧记录保留。
 
+
+
+## Aristotle I.9：必然性放在哪个前提
+
+新增[《前分析篇》I.9深读](papers/ancient/aristotle-prior-analytics-i9.zh-CN.md)，完整30a15–30b6与Owen1853印101–102上段。逐步分析第一格混合必然/实然前提的非对称，给出四证明、反模型与20题答案；明确实际主项锚定模型不等同逐世界句子必然性，不冒充整套古代模态逻辑。
+
+[来源账本](papers/ancient/aristotle-prior-analytics-i9.sources.zh-CN.md)保留Owen展开例式否定词疑点及正式勘误边界；[独立论证审查](papers/ancient/aristotle-prior-analytics-i9.audit.zh-CN.md)、[标准库教学模型与实跑日志](reproduction/aristotle-prior-analytics-i9/README.md)区分原文、现代证明与有限执行。I.2继续暂缓，I.3、I.10以后及全书不计完成；旧目录和未读缺口保留。

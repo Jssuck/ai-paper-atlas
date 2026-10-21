@@ -1,0 +1,479 @@
+{
+  "scope": "Two worlds, two named objects, three term masks; 4096 models per configuration",
+  "rows": [
+    {
+      "semantics": "N",
+      "mood": "Barbara",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0,
+      "first_countermodel": null,
+      "witness_routes": 576
+    },
+    {
+      "semantics": "N",
+      "mood": "Barbara",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Celarent",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 0,
+      "actual_failures": 0,
+      "first_countermodel": null,
+      "witness_routes": 576
+    },
+    {
+      "semantics": "N",
+      "mood": "Celarent",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 784,
+      "necessary_failures": 108,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Darii",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0,
+      "first_countermodel": null,
+      "witness_routes": 304
+    },
+    {
+      "semantics": "N",
+      "mood": "Darii",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "N",
+      "mood": "Ferio",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 304,
+      "necessary_failures": 0,
+      "actual_failures": 0,
+      "first_countermodel": null,
+      "witness_routes": 304
+    },
+    {
+      "semantics": "N",
+      "mood": "Ferio",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 368,
+      "necessary_failures": 156,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Barbara",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Barbara",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Celarent",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Celarent",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 576,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Darii",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 396,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Darii",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 308,
+      "necessary_failures": 121,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Ferio",
+      "necessary_position": "major",
+      "models": 4096,
+      "premise_models": 396,
+      "necessary_failures": 176,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "witness_routes": 0
+    },
+    {
+      "semantics": "D",
+      "mood": "Ferio",
+      "necessary_position": "minor",
+      "models": 4096,
+      "premise_models": 308,
+      "necessary_failures": 121,
+      "actual_failures": 0,
+      "first_countermodel": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "witness_routes": 0
+    }
+  ],
+  "semantic_differences": {
+    "A": {
+      "N_not_D": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "D_not_N": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "E": {
+      "N_not_D": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      "D_not_N": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "I": {
+      "N_not_D": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "D_not_N": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    "O": {
+      "N_not_D": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "D_not_N": {
+        "domain_size": 2,
+        "worlds_P_M_S": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      }
+    }
+  }
+}

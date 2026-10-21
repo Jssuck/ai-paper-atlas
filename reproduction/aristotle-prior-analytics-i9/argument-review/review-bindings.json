@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "method": "Independent full argument review and separate direct-quantifier checker; all three interpreter modes executed.",
+  "python": "3.12.14",
+  "bindings": {
+    "papers/ancient/aristotle-prior-analytics-i9.zh-CN.md": "7c44559726763814fb347c903e47040aaeb7338c389cccaf677d95d8d2bc1f4e",
+    "papers/ancient/aristotle-prior-analytics-i9.sources.zh-CN.md": "cee397b10091f708726fc4a47d00e2001fc71bb3484c18cc435d67f8c8c8cccf",
+    "reproduction/aristotle-prior-analytics-i9/argument-review/check_argument.py": "ff4981951ddaf0061f5f40d7015880f6f22b97ade5dd399902e4c1b324a0689d",
+    "reproduction/aristotle-prior-analytics-i9/argument-review/result-normal.json": "fdb483442ac5ce8a13d4f2d844eec27859e2d6a851e6a7918394144cc8a67219",
+    "reproduction/aristotle-prior-analytics-i9/argument-review/result-O.json": "fdb483442ac5ce8a13d4f2d844eec27859e2d6a851e6a7918394144cc8a67219",
+    "reproduction/aristotle-prior-analytics-i9/argument-review/result-OO.json": "fdb483442ac5ce8a13d4f2d844eec27859e2d6a851e6a7918394144cc8a67219"
+  }
+}
