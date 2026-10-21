@@ -1,0 +1,37 @@
+test_actual (test_modal.ModalTests.test_actual) ... ok
+test_actual_middle_required (test_modal.ModalTests.test_actual_middle_required) ... ok
+test_aeio_values (test_modal.ModalTests.test_aeio_values) ... ok
+test_anchored_major_general_finite (test_modal.ModalTests.test_anchored_major_general_finite) ... ok
+test_classification (test_modal.ModalTests.test_classification) ... ok
+test_empty_particular (test_modal.ModalTests.test_empty_particular) ... ok
+test_empty_universal (test_modal.ModalTests.test_empty_universal) ... ok
+test_exact_failure_counts (test_modal.ModalTests.test_exact_failure_counts) ... ok
+test_invalid_categorical_masks (test_modal.ModalTests.test_invalid_categorical_masks) ... ok
+test_invalid_generator_sizes (test_modal.ModalTests.test_invalid_generator_sizes) ... ok
+test_invalid_kind (test_modal.ModalTests.test_invalid_kind) ... ok
+test_invalid_mode_and_side (test_modal.ModalTests.test_invalid_mode_and_side) ... ok
+test_invalid_model (test_modal.ModalTests.test_invalid_model) ... ok
+test_invalid_semantics (test_modal.ModalTests.test_invalid_semantics) ... ok
+test_invalid_terms (test_modal.ModalTests.test_invalid_terms) ... ok
+test_inverse_general_route (test_modal.ModalTests.test_inverse_general_route) ... ok
+test_inverse_not_forward (test_modal.ModalTests.test_inverse_not_forward) ... ok
+test_model_reject_bad_domain (test_modal.ModalTests.test_model_reject_bad_domain) ... ok
+test_model_reject_bad_masks (test_modal.ModalTests.test_model_reject_bad_masks) ... ok
+test_model_reject_bad_worlds (test_modal.ModalTests.test_model_reject_bad_worlds) ... ok
+test_necessity_implies_actual (test_modal.ModalTests.test_necessity_implies_actual) ... ok
+test_one_object_count (test_modal.ModalTests.test_one_object_count) ... ok
+test_one_object_countermodels (test_modal.ModalTests.test_one_object_countermodels) ... ok
+test_one_world_collapse (test_modal.ModalTests.test_one_world_collapse) ... ok
+test_plain_all_six_modes (test_modal.ModalTests.test_plain_all_six_modes) ... ok
+test_possible (test_modal.ModalTests.test_possible) ... ok
+test_sentence_witness_switch (test_modal.ModalTests.test_sentence_witness_switch) ... ok
+test_shared_stronger_than_anchored (test_modal.ModalTests.test_shared_stronger_than_anchored) ... ok
+test_stability_bridge (test_modal.ModalTests.test_stability_bridge) ... ok
+test_stable (test_modal.ModalTests.test_stable) ... ok
+test_symmetric_shared_witness (test_modal.ModalTests.test_symmetric_shared_witness) ... ok
+test_world_count (test_modal.ModalTests.test_world_count) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.365s
+
+OK

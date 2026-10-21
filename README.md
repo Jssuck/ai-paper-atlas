@@ -18,6 +18,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.8精读](papers/ancient/aristotle-prior-analytics-i8.zh-CN.md) | AI推理前史补读：必然前提、逐世界见证与模态量词顺序 | 深读v1 · 完整29b29–30a14及版本/校勘边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.9精读](papers/ancient/aristotle-prior-analytics-i9.zh-CN.md) | AI推理前史补读：混合模态前提、实际对象与稳定属性 | 深读v1 · 完整30a15–30b6及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.10精读](papers/ancient/aristotle-prior-analytics-i10.zh-CN.md) | AI推理前史补读：第二格混合模态、否定换位与语义桥接 | 深读v1 · 完整30b7–31a17及版本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.11精读](papers/ancient/aristotle-prior-analytics-i11.zh-CN.md) | AI推理前史补读：第三格混合模态、必要换位与语义失配 | 深读v1 · 完整31a18–32a5及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -639,3 +640,12 @@ I.2仍列为延期未完成，既有稿件和此前全部目录/版本缺口保�
 [来源账本](papers/ancient/aristotle-prior-analytics-i10.sources.zh-CN.md)、[独立论证审查](papers/ancient/aristotle-prior-analytics-i10.audit.zh-CN.md)与[标准库模型及真实日志](reproduction/aristotle-prior-analytics-i10/README.md)明确三种现代否定语义、局部有效方向与换位所需桥接，不冒称完整重建古代模态逻辑。I.2仍暂缓，I.3、I.11以后、整书与既有历史缺口不计完成；候选目录未改。
 
 I.10另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i10/independent-review/review.zh-CN.md)及[独立集合论证检查](reproduction/aristotle-prior-analytics-i10/argument-review/README.zh-CN.md)，审查范围、真实命令和摘要绑定分别列明。
+
+## Aristotle I.11：第三格混合模态与必要换位
+
+新增[《前分析篇》I.11深读](papers/ancient/aristotle-prior-analytics-i11.zh-CN.md)，完整31a18–32a5和Owen1853印103下至106。逐步重建见证路线、反向必要结论与换位依赖，明确现代锚定模型同原章哪些分类相合、哪些失配，附20道带答案练习。
+
+[来源账本](papers/ancient/aristotle-prior-analytics-i11.sources.zh-CN.md)、[独立论证审计](papers/ancient/aristotle-prior-analytics-i11.audit.zh-CN.md)及[教学代码与真实日志](reproduction/aristotle-prior-analytics-i11/README.md)分别记录原文、一般证明和有限执行。不以现代反模型声称驳倒作者全部体系；I.2仍暂缓，I.3、I.12以后及整书不计完成，旧缺口与候选目录保留。
+
+
+I.11 的[独立代码核验](reproduction/aristotle-prior-analytics-i11/independent-review/review.zh-CN.md)与[独立集合论证检查](reproduction/aristotle-prior-analytics-i11/argument-review/README.zh-CN.md)分别给出真实命令、日志与范围，不用有限模型枚举替代一般证明。

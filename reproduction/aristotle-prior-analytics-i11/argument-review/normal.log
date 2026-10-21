@@ -1,0 +1,176 @@
+{
+  "result": "PASS",
+  "models": 4096,
+  "checks": 63659,
+  "classification": [
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary_premise": "major",
+      "satisfying_premises": 272,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary_premise": "minor",
+      "satisfying_premises": 272,
+      "failures": 116
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary_premise": "major",
+      "satisfying_premises": 272,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary_premise": "minor",
+      "satisfying_premises": 272,
+      "failures": 116
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary_premise": "major",
+      "satisfying_premises": 368,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary_premise": "minor",
+      "satisfying_premises": 304,
+      "failures": 132
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary_premise": "major",
+      "satisfying_premises": 304,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary_premise": "minor",
+      "satisfying_premises": 368,
+      "failures": 156
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary_premise": "major",
+      "satisfying_premises": 368,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary_premise": "minor",
+      "satisfying_premises": 304,
+      "failures": 132
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary_premise": "major",
+      "satisfying_premises": 304,
+      "failures": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary_premise": "minor",
+      "satisfying_premises": 368,
+      "failures": 156
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary_premise": "major",
+      "satisfying_premises": 324,
+      "failures": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary_premise": "minor",
+      "satisfying_premises": 324,
+      "failures": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary_premise": "major",
+      "satisfying_premises": 324,
+      "failures": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary_premise": "minor",
+      "satisfying_premises": 324,
+      "failures": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary_premise": "major",
+      "satisfying_premises": 308,
+      "failures": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary_premise": "minor",
+      "satisfying_premises": 396,
+      "failures": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary_premise": "major",
+      "satisfying_premises": 396,
+      "failures": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary_premise": "minor",
+      "satisfying_premises": 308,
+      "failures": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary_premise": "major",
+      "satisfying_premises": 308,
+      "failures": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary_premise": "minor",
+      "satisfying_premises": 396,
+      "failures": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary_premise": "major",
+      "satisfying_premises": 396,
+      "failures": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary_premise": "minor",
+      "satisfying_premises": 308,
+      "failures": 121
+    }
+  ],
+  "limits": "Finite model checks support independent review, not a proof for all domains/worlds or historical interpretation."
+}

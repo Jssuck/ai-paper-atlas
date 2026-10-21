@@ -1,0 +1,600 @@
+{
+  "domain_size": 2,
+  "world_count": 2,
+  "models": 4096,
+  "actual_middle_nonempty": true,
+  "rows": [
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary": "major",
+      "premise_models": 272,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary": "minor",
+      "premise_models": 272,
+      "countermodels": 116,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary": "major",
+      "premise_models": 272,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary": "minor",
+      "premise_models": 272,
+      "countermodels": 116,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary": "major",
+      "premise_models": 368,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary": "minor",
+      "premise_models": 304,
+      "countermodels": 132,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary": "major",
+      "premise_models": 304,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary": "minor",
+      "premise_models": 368,
+      "countermodels": 156,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary": "major",
+      "premise_models": 368,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary": "minor",
+      "premise_models": 304,
+      "countermodels": 132,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary": "major",
+      "premise_models": 304,
+      "countermodels": 0,
+      "finite_valid": true,
+      "minimum_domain_countermodel": null
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary": "minor",
+      "premise_models": 368,
+      "countermodels": 156,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary": "major",
+      "premise_models": 324,
+      "countermodels": 144,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary": "minor",
+      "premise_models": 324,
+      "countermodels": 144,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary": "major",
+      "premise_models": 324,
+      "countermodels": 144,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary": "minor",
+      "premise_models": 324,
+      "countermodels": 144,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary": "major",
+      "premise_models": 308,
+      "countermodels": 121,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [],
+            "C": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary": "minor",
+      "premise_models": 396,
+      "countermodels": 176,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary": "major",
+      "premise_models": 396,
+      "countermodels": 176,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary": "minor",
+      "premise_models": 308,
+      "countermodels": 121,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary": "major",
+      "premise_models": 308,
+      "countermodels": 121,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary": "minor",
+      "premise_models": 396,
+      "countermodels": 176,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary": "major",
+      "premise_models": 396,
+      "countermodels": 176,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        ]
+      }
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary": "minor",
+      "premise_models": 308,
+      "countermodels": 121,
+      "finite_valid": false,
+      "minimum_domain_countermodel": {
+        "domain_size": 1,
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+Command: python -O independent-review/check.py
+Exit code: 0
+{
+  "status": "PASS",
+  "checks": 544866,
+  "invalid_input_calls": 79,
+  "models": 4096,
+  "configurations": 24,
+  "anchored_major_valid": 6,
+  "other_configurations_with_countermodels": 18,
+  "targeted_mutants_detected": [
+    "stable_union",
+    "possible_intersection",
+    "actual_last",
+    "A_overlap",
+    "E_overlap",
+    "I_disjoint",
+    "O_inclusion",
+    "sentence_any",
+    "anchor_subject_stable",
+    "anchor_predicate_actual",
+    "swap_necessary_side",
+    "drop_nonempty",
+    "fixed_union"
+  ],
+  "rows": [
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary": "major",
+      "premise_models": 272,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Darapti",
+      "necessary": "minor",
+      "premise_models": 272,
+      "countermodels": 116
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary": "major",
+      "premise_models": 272,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Felapton",
+      "necessary": "minor",
+      "premise_models": 272,
+      "countermodels": 116
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary": "major",
+      "premise_models": 368,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Disamis",
+      "necessary": "minor",
+      "premise_models": 304,
+      "countermodels": 132
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary": "major",
+      "premise_models": 304,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Datisi",
+      "necessary": "minor",
+      "premise_models": 368,
+      "countermodels": 156
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary": "major",
+      "premise_models": 368,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Bocardo",
+      "necessary": "minor",
+      "premise_models": 304,
+      "countermodels": 132
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary": "major",
+      "premise_models": 304,
+      "countermodels": 0
+    },
+    {
+      "semantics": "anchored",
+      "mode": "Ferison",
+      "necessary": "minor",
+      "premise_models": 368,
+      "countermodels": 156
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary": "major",
+      "premise_models": 324,
+      "countermodels": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Darapti",
+      "necessary": "minor",
+      "premise_models": 324,
+      "countermodels": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary": "major",
+      "premise_models": 324,
+      "countermodels": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Felapton",
+      "necessary": "minor",
+      "premise_models": 324,
+      "countermodels": 144
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary": "major",
+      "premise_models": 308,
+      "countermodels": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Disamis",
+      "necessary": "minor",
+      "premise_models": 396,
+      "countermodels": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary": "major",
+      "premise_models": 396,
+      "countermodels": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Datisi",
+      "necessary": "minor",
+      "premise_models": 308,
+      "countermodels": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary": "major",
+      "premise_models": 308,
+      "countermodels": 121
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Bocardo",
+      "necessary": "minor",
+      "premise_models": 396,
+      "countermodels": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary": "major",
+      "premise_models": 396,
+      "countermodels": 176
+    },
+    {
+      "semantics": "sentence",
+      "mode": "Ferison",
+      "necessary": "minor",
+      "premise_models": 308,
+      "countermodels": 121
+    }
+  ]
+}
