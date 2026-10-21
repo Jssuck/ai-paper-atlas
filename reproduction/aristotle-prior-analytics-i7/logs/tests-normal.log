@@ -1,0 +1,29 @@
+test_a_conversion_needs_existence (test_reduction.ReductionTests.test_a_conversion_needs_existence) ... ok
+test_all_named_nonempty (test_reduction.ReductionTests.test_all_named_nonempty) ... ok
+test_bad_propositions (test_reduction.ReductionTests.test_bad_propositions) ... ok
+test_bad_public_symbols (test_reduction.ReductionTests.test_bad_public_symbols) ... ok
+test_bad_supports (test_reduction.ReductionTests.test_bad_supports) ... ok
+test_contradiction (test_reduction.ReductionTests.test_contradiction) ... ok
+test_conversion_e_i (test_reduction.ReductionTests.test_conversion_e_i) ... ok
+test_empty_policy_named (test_reduction.ReductionTests.test_empty_policy_named) ... ok
+test_fake_conversion_rejected (test_reduction.ReductionTests.test_fake_conversion_rejected) ... ok
+test_forward_reference_rejected (test_reduction.ReductionTests.test_forward_reference_rejected) ... ok
+test_inconsistent_premises_explicit (test_reduction.ReductionTests.test_inconsistent_premises_explicit) ... ok
+test_kernel_does_not_need_semantic_oracle (test_reduction.ReductionTests.test_kernel_does_not_need_semantic_oracle) ... ok
+test_missing_clash_rejected (test_reduction.ReductionTests.test_missing_clash_rejected) ... ok
+test_mutated_goal_rejected (test_reduction.ReductionTests.test_mutated_goal_rejected) ... ok
+test_o_conversion_counterexample (test_reduction.ReductionTests.test_o_conversion_counterexample) ... ok
+test_reverse_conclusion (test_reduction.ReductionTests.test_reverse_conclusion) ... ok
+test_reverse_empty_failure (test_reduction.ReductionTests.test_reverse_empty_failure) ... ok
+test_reverse_with_particular (test_reduction.ReductionTests.test_reverse_with_particular) ... ok
+test_semantic_lines (test_reduction.ReductionTests.test_semantic_lines) ... ok
+test_short_darii_ferio (test_reduction.ReductionTests.test_short_darii_ferio) ... ok
+test_support_count (test_reduction.ReductionTests.test_support_count) ... ok
+test_truth_against_sets (test_reduction.ReductionTests.test_truth_against_sets) ... ok
+test_unauthorized_existence_rejected (test_reduction.ReductionTests.test_unauthorized_existence_rejected) ... ok
+test_wrong_middle_rejected (test_reduction.ReductionTests.test_wrong_middle_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.163s
+
+OK

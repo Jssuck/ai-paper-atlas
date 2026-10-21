@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "modes": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "test_methods_per_mode": 24,
+  "jupyter_kernel_used": false
+}

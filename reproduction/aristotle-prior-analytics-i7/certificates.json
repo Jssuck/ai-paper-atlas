@@ -1,0 +1,1853 @@
+{
+  "Barbara": {
+    "premises": [
+      [
+        "A",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "A",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "O",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "Barbara",
+        "refs": [
+          0,
+          1
+        ]
+      }
+    ],
+    "clash": [
+      5,
+      6
+    ]
+  },
+  "Celarent": {
+    "premises": [
+      [
+        "E",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "E",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          0,
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      5,
+      8
+    ]
+  },
+  "Darii": {
+    "premises": [
+      [
+        "A",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "I",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          7,
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      9
+    ]
+  },
+  "Ferio": {
+    "premises": [
+      [
+        "E",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      8
+    ]
+  },
+  "Cesare": {
+    "premises": [
+      [
+        "E",
+        "P",
+        "M"
+      ],
+      [
+        "A",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "E",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      5,
+      8
+    ]
+  },
+  "Camestres": {
+    "premises": [
+      [
+        "A",
+        "P",
+        "M"
+      ],
+      [
+        "E",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "E",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "P",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      5,
+      9
+    ]
+  },
+  "Festino": {
+    "premises": [
+      [
+        "E",
+        "P",
+        "M"
+      ],
+      [
+        "I",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          0,
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      8
+    ]
+  },
+  "Baroco": {
+    "premises": [
+      [
+        "A",
+        "P",
+        "M"
+      ],
+      [
+        "O",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "P",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "O",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "M"
+        ],
+        "rule": "Barbara",
+        "refs": [
+          0,
+          5
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      6
+    ]
+  },
+  "Darapti": {
+    "premises": [
+      [
+        "A",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "I",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          5,
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          7
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          9,
+          0
+        ]
+      }
+    ],
+    "clash": [
+      4,
+      11
+    ]
+  },
+  "Felapton": {
+    "premises": [
+      [
+        "E",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "Barbara",
+        "refs": [
+          5,
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          7
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      4,
+      9
+    ]
+  },
+  "Disamis": {
+    "premises": [
+      [
+        "I",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "I",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "I",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          5,
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      0,
+      8
+    ]
+  },
+  "Datisi": {
+    "premises": [
+      [
+        "A",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "I",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          7,
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      8
+    ]
+  },
+  "Bocardo": {
+    "premises": [
+      [
+        "O",
+        "M",
+        "P"
+      ],
+      [
+        "A",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "O",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "Barbara",
+        "refs": [
+          5,
+          1
+        ]
+      }
+    ],
+    "clash": [
+      0,
+      6
+    ]
+  },
+  "Ferison": {
+    "premises": [
+      [
+        "E",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "M",
+        "S"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "all-nonempty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "S"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "P",
+          "P"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "S"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "M",
+          "M"
+        ],
+        "rule": "existence",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          6,
+          5
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          8
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      9
+    ]
+  },
+  "Darii_short": {
+    "premises": [
+      [
+        "A",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "I",
+      "S",
+      "P"
+    ],
+    "policy": "allow-empty",
+    "lines": [
+      {
+        "p": [
+          "A",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "S"
+        ],
+        "rule": "conversion",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "M",
+          "S"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          3,
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          4
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      5
+    ]
+  },
+  "Ferio_short": {
+    "premises": [
+      [
+        "E",
+        "M",
+        "P"
+      ],
+      [
+        "I",
+        "S",
+        "M"
+      ]
+    ],
+    "goal": [
+      "O",
+      "S",
+      "P"
+    ],
+    "policy": "allow-empty",
+    "lines": [
+      {
+        "p": [
+          "E",
+          "M",
+          "P"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "I",
+          "S",
+          "M"
+        ],
+        "rule": "premise",
+        "refs": []
+      },
+      {
+        "p": [
+          "A",
+          "S",
+          "P"
+        ],
+        "rule": "assumption",
+        "refs": []
+      },
+      {
+        "p": [
+          "E",
+          "P",
+          "M"
+        ],
+        "rule": "conversion",
+        "refs": [
+          0
+        ]
+      },
+      {
+        "p": [
+          "E",
+          "S",
+          "M"
+        ],
+        "rule": "Celarent",
+        "refs": [
+          3,
+          2
+        ]
+      }
+    ],
+    "clash": [
+      1,
+      4
+    ]
+  }
+}

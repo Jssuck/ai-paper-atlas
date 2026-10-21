@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "independent_assertions": 12102,
+  "set_models": 255,
+  "conclusions_checked": 768,
+  "valid": 59,
+  "invalid": 709,
+  "saved_certificates": 16,
+  "fault_variants_rejected": 19,
+  "fault_names": [
+    "goal changed",
+    "future reference",
+    "self reference",
+    "negative reference",
+    "bool reference",
+    "float reference",
+    "string reference",
+    "universal conversion",
+    "wrong middle",
+    "wrong output",
+    "unknown rule",
+    "noncontradictory clash",
+    "same-line clash",
+    "missing assumption",
+    "invented premise",
+    "wrong policy",
+    "clash future",
+    "clash boolean",
+    "unauthorized existence"
+  ],
+  "malformed_shapes_rejected": 5,
+  "scope": "Independent set oracle, all saved classification rows, local rule semantics, acyclic references, kernel independence, targeted faults; not exhaustive software correctness."
+}

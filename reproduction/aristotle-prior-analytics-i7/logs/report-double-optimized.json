@@ -1,0 +1,123 @@
+{
+  "support_counts": {
+    "allow-empty": 255,
+    "all-nonempty": 218
+  },
+  "classification_rows": 96,
+  "semantic_certificate_comparisons": 768,
+  "valid_conclusions": 59,
+  "countermodels_verified": 709,
+  "named_certificates": 14,
+  "short_chapter_paths": 2,
+  "reverse_only": [
+    {
+      "policy": "allow-empty",
+      "figure": 1,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "allow-empty",
+      "figure": 2,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "allow-empty",
+      "figure": 2,
+      "major": "O",
+      "minor": "A",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "allow-empty",
+      "figure": 3,
+      "major": "A",
+      "minor": "O",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "allow-empty",
+      "figure": 3,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 1,
+      "major": "A",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 1,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 2,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 2,
+      "major": "O",
+      "minor": "A",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 3,
+      "major": "A",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 3,
+      "major": "A",
+      "minor": "O",
+      "reverse": [
+        "O"
+      ]
+    },
+    {
+      "policy": "all-nonempty",
+      "figure": 3,
+      "major": "I",
+      "minor": "E",
+      "reverse": [
+        "O"
+      ]
+    }
+  ],
+  "scope": "Finite three-term AEIO support semantics; checked certificates are modern reconstructions, not general logical completeness."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": 9403,
+  "classification_comparisons": 768,
+  "valid_conclusions": 59,
+  "invalid_conclusions": 709,
+  "named_mode_support_checks": 3570,
+  "local_universe_size": 3,
+  "imports_author_implementation": false,
+  "optimization": 1,
+  "scope": "Finite verification supports the separately stated general proofs; not a proof of unrestricted logic."
+}

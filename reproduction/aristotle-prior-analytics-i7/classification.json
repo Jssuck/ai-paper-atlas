@@ -1,0 +1,3661 @@
+[
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "A",
+    "minor": "A",
+    "forward": [
+      "A"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "A",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "A",
+    "minor": "I",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "A",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        2
+      ],
+      "forwardO": [
+        6
+      ],
+      "reverseA": [
+        2,
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        2
+      ],
+      "reverseO": [
+        2
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "E",
+    "minor": "A",
+    "forward": [
+      "E"
+    ],
+    "reverse": [
+      "E"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        2
+      ],
+      "forwardO": [
+        6
+      ],
+      "reverseA": [
+        2,
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        2
+      ],
+      "reverseO": [
+        2
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "I",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        5
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "O",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        1
+      ],
+      "forwardO": [
+        1
+      ],
+      "reverseA": [
+        1,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        1
+      ],
+      "reverseO": [
+        1
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1
+      ],
+      "forwardO": [
+        1
+      ],
+      "reverseA": [
+        1,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1
+      ],
+      "reverseO": [
+        1
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        3
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 1,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2
+      ],
+      "reverseO": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "A",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "A",
+    "minor": "E",
+    "forward": [
+      "E"
+    ],
+    "reverse": [
+      "E"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "A",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "A",
+    "minor": "O",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2
+      ],
+      "reverseO": [
+        2
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "E",
+    "minor": "A",
+    "forward": [
+      "E"
+    ],
+    "reverse": [
+      "E"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        2
+      ],
+      "forwardO": [
+        6
+      ],
+      "reverseA": [
+        2,
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        2
+      ],
+      "reverseO": [
+        2
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "I",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        5
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "O",
+    "minor": "A",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        4,
+        7
+      ],
+      "forwardI": [
+        4
+      ],
+      "forwardO": [
+        4
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        4,
+        7
+      ],
+      "reverseI": [
+        4
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        4
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        4
+      ],
+      "forwardO": [
+        4
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        4
+      ],
+      "reverseO": [
+        6
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        4,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 2,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        4
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        2,
+        4
+      ],
+      "forwardO": [
+        6
+      ],
+      "reverseA": [
+        2,
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        2,
+        4
+      ],
+      "reverseO": [
+        6
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "A",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "A",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "A",
+    "minor": "I",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "A",
+    "minor": "O",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        5
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "E",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2
+      ],
+      "forwardE": [
+        6
+      ],
+      "forwardI": [
+        0
+      ],
+      "forwardO": [
+        0
+      ],
+      "reverseA": [
+        4
+      ],
+      "reverseE": [
+        6
+      ],
+      "reverseI": [
+        0
+      ],
+      "reverseO": [
+        0
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1
+      ],
+      "forwardO": [
+        1
+      ],
+      "reverseA": [
+        1,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1
+      ],
+      "reverseO": [
+        1
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "I",
+    "minor": "A",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        5
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        5
+      ],
+      "forwardO": [
+        5
+      ],
+      "reverseA": [
+        5
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        5
+      ],
+      "reverseO": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "O",
+    "minor": "A",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1
+      ],
+      "forwardO": [
+        1
+      ],
+      "reverseA": [
+        1,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1
+      ],
+      "reverseO": [
+        1
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        3
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        3
+      ],
+      "reverseO": [
+        3
+      ]
+    }
+  },
+  {
+    "policy": "allow-empty",
+    "figure": 3,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1
+      ],
+      "forwardO": [
+        1
+      ],
+      "reverseA": [
+        1,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1
+      ],
+      "reverseO": [
+        1
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "A",
+    "minor": "A",
+    "forward": [
+      "A",
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "A",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "A",
+    "minor": "I",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "A",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "E",
+    "minor": "A",
+    "forward": [
+      "E",
+      "O"
+    ],
+    "reverse": [
+      "E",
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseI": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        6
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "I",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "O",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 1,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        6
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "A",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "A",
+    "minor": "E",
+    "forward": [
+      "E",
+      "O"
+    ],
+    "reverse": [
+      "E",
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "A",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "A",
+    "minor": "O",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "E",
+    "minor": "A",
+    "forward": [
+      "E",
+      "O"
+    ],
+    "reverse": [
+      "E",
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseI": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        6
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "I",
+    "minor": "A",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        2,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        2,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "O",
+    "minor": "A",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        4,
+        7
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        4,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        4,
+        7
+      ],
+      "reverseI": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        5,
+        6
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        4,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 2,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        6
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        5,
+        6
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "A",
+    "minor": "A",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "A",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "A",
+    "minor": "I",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "A",
+    "minor": "O",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "E",
+    "minor": "A",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "E",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "E",
+    "minor": "I",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "E",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "I",
+    "minor": "A",
+    "forward": [
+      "I"
+    ],
+    "reverse": [
+      "I"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        4,
+        7
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "I",
+    "minor": "E",
+    "forward": [],
+    "reverse": [
+      "O"
+    ],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        5,
+        6
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        5,
+        6
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        5,
+        6
+      ],
+      "reverseI": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "I",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        7
+      ],
+      "forwardE": [
+        7
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        7
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        7
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "I",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        2,
+        5
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        2,
+        5
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        2,
+        5
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        2,
+        5
+      ],
+      "reverseO": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "O",
+    "minor": "A",
+    "forward": [
+      "O"
+    ],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        3,
+        6
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        3,
+        6
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "O",
+    "minor": "E",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        1,
+        2,
+        4
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        1,
+        2,
+        4
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        1,
+        2,
+        4
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        1,
+        2,
+        4
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "O",
+    "minor": "I",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        4
+      ],
+      "forwardE": [
+        1,
+        7
+      ],
+      "forwardI": [
+        3,
+        4
+      ],
+      "forwardO": [
+        1,
+        7
+      ],
+      "reverseA": [
+        3,
+        4
+      ],
+      "reverseE": [
+        1,
+        7
+      ],
+      "reverseI": [
+        3,
+        4
+      ],
+      "reverseO": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "policy": "all-nonempty",
+    "figure": 3,
+    "major": "O",
+    "minor": "O",
+    "forward": [],
+    "reverse": [],
+    "countermodels": {
+      "forwardA": [
+        3,
+        5
+      ],
+      "forwardE": [
+        1,
+        6
+      ],
+      "forwardI": [
+        3,
+        5
+      ],
+      "forwardO": [
+        1,
+        6
+      ],
+      "reverseA": [
+        3,
+        5
+      ],
+      "reverseE": [
+        1,
+        6
+      ],
+      "reverseI": [
+        3,
+        5
+      ],
+      "reverseO": [
+        1,
+        6
+      ]
+    }
+  }
+]
