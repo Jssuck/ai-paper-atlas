@@ -1,0 +1,1 @@
+{"checks": 598219, "configurations": 192, "detected_mutants": ["N any", "P all", "D last", "C inclusive", "A reverse", "E inverted", "I inverted", "O inverted"], "finite_valid_configurations": 52, "invalid_inputs": 44, "models": 4096, "optimization": 0, "python": "3.12.14"}

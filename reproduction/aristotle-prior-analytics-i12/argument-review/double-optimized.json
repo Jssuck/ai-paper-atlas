@@ -1,0 +1,11 @@
+{
+  "independent": true,
+  "models": 4096,
+  "explicit_checks": 196619,
+  "configurations": 192,
+  "finite_valid": 52,
+  "finite_invalid": 140,
+  "named_countermodels": 4,
+  "all_configurations_have_models": true,
+  "limitations": "Two objects, two worlds and four named first-figure skeletons only; finite checks do not replace general proofs."
+}

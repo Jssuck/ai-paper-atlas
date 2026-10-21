@@ -1,0 +1,12 @@
+{
+  "review_date_utc": "2026-10-21",
+  "algorithm": "SHA256",
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i12.zh-CN.md": "c3bdcbbaa4a545699b54d83e7c852127723f0d0901c12761e306eb236b9ad516",
+    "papers/ancient/aristotle-prior-analytics-i12.sources.zh-CN.md": "e1da929551302f72929fa3275c1b98cb6dedcf12b17cb50c2898cbd9f60559ac",
+    "reproduction/aristotle-prior-analytics-i12/argument-review/check_arguments.py": "ae899764c7078fa5f6898106daab82b8b7ac08f7a78bea92bc459121603f0b75",
+    "reproduction/aristotle-prior-analytics-i12/argument-review/normal.json": "fdefcee0d0e796997e88e10028716bce26e6e213d3c61d6f96beff45d2babe70",
+    "reproduction/aristotle-prior-analytics-i12/argument-review/optimized.json": "fdefcee0d0e796997e88e10028716bce26e6e213d3c61d6f96beff45d2babe70",
+    "reproduction/aristotle-prior-analytics-i12/argument-review/double-optimized.json": "fdefcee0d0e796997e88e10028716bce26e6e213d3c61d6f96beff45d2babe70"
+  }
+}

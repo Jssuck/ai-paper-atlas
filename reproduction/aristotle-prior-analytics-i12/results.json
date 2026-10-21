@@ -1,0 +1,3702 @@
+{
+  "scope": "Modern constant-domain two-world sentence modal model; finite tests are not general proofs",
+  "domain_size": 2,
+  "worlds": 2,
+  "actual_world": 0,
+  "model_count": 4096,
+  "configurations": 192,
+  "empty_predicates_allowed": true,
+  "all_predicates_nonempty_subset": "3**6 = 729 models",
+  "cases": {
+    "incompatible_possible_and_contingent": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "necessary_premises_have_actual_conclusion": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "mixed_actual_but_not_necessary_conclusion": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1024,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 189,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1024,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 189,
+      "nonempty_countermodels": 84
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1024,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 189,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 576,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1744,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1744,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 168
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1744,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 24
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1168,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1168,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 126
+    },
+    {
+      "mood": "Barbara",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1168,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 24
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 576,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 28
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 105,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 49,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 49,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 49,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 896,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 28
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 896,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 56
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 896,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 640,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 28
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 640,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 56
+    },
+    {
+      "mood": "Barbara",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 640,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1744,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 90
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1744,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 182
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1744,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 309,
+      "nonempty_countermodels": 24
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 896,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 896,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 84
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 896,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 161,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 2592,
+      "countermodels": 888,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 457,
+      "nonempty_countermodels": 164
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 2592,
+      "countermodels": 1534,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 457,
+      "nonempty_countermodels": 280
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 2592,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 457,
+      "nonempty_countermodels": 48
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1696,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 122
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1696,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 196
+    },
+    {
+      "mood": "Barbara",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1696,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 48
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1168,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 90
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1168,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 154
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1168,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 204,
+      "nonempty_countermodels": 24
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 640,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 640,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 84
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 640,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 112,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1696,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 136
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1696,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 224
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1696,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 296,
+      "nonempty_countermodels": 48
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1056,
+      "countermodels": 536,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 184,
+      "nonempty_countermodels": 94
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1056,
+      "countermodels": 830,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "nonempty_satisfying": 184,
+      "nonempty_countermodels": 140
+    },
+    {
+      "mood": "Barbara",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1056,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 184,
+      "nonempty_countermodels": 48
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1024,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 54,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1024,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 54,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1024,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 54,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 30,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 576,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 30,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 30,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1744,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 114,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1744,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 114,
+      "nonempty_countermodels": 102
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1744,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 114,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1168,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1168,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 80
+    },
+    {
+      "mood": "Celarent",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1168,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 12,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 576,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 12,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 576,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 12,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 4,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 4,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 256,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 4,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 896,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 20,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 896,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 20,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 896,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 20,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 640,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 640,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Celarent",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 640,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1744,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 132,
+      "nonempty_countermodels": 66
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1744,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 132,
+      "nonempty_countermodels": 116
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1744,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 132,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 896,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 56,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 896,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 56,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 896,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 56,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 2592,
+      "countermodels": 888,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 208,
+      "nonempty_countermodels": 138
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 2592,
+      "countermodels": 1534,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 208,
+      "nonempty_countermodels": 188
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 2592,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 208,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1696,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 116
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1696,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 144
+    },
+    {
+      "mood": "Celarent",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1696,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1168,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 120,
+      "nonempty_countermodels": 66
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1168,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 120,
+      "nonempty_countermodels": 108
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1168,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 120,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 640,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 52,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 640,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 52,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 640,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 52,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1696,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 188,
+      "nonempty_countermodels": 130
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1696,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 188,
+      "nonempty_countermodels": 172
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1696,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 188,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1056,
+      "countermodels": 536,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 108
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1056,
+      "countermodels": 830,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 128
+    },
+    {
+      "mood": "Celarent",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1056,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 704,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 297,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 704,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 297,
+      "nonempty_countermodels": 66
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 704,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 297,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 308,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 231,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 308,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 231,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 308,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 231,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1404,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 381,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1404,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 381,
+      "nonempty_countermodels": 116
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1404,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 381,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1096,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1096,
+      "countermodels": 822,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 72
+    },
+    {
+      "mood": "Darii",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1096,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 396,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 165,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 396,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 165,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 396,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 165,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 121,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 121,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 121,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 671,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 209,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 671,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 209,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 671,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 209,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 550,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 88,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 550,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 88,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Darii",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 550,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 88,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1316,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 447,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1316,
+      "countermodels": 888,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 447,
+      "nonempty_countermodels": 138
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1316,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 447,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 495,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 341,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 495,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 341,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 495,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 341,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 2137,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 553,
+      "nonempty_countermodels": 102
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 2137,
+      "countermodels": 1534,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 553,
+      "nonempty_countermodels": 188
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 2137,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 553,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1642,
+      "countermodels": 822,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 212,
+      "nonempty_countermodels": 58
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1642,
+      "countermodels": 1292,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 212,
+      "nonempty_countermodels": 100
+    },
+    {
+      "mood": "Darii",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1642,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 212,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 920,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 282,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 920,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 282,
+      "nonempty_countermodels": 116
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 920,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 282,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 374,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 220,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 374,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 220,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 374,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 220,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1466,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 344,
+      "nonempty_countermodels": 80
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1466,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 344,
+      "nonempty_countermodels": 144
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1466,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 344,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1092,
+      "countermodels": 646,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 124,
+      "nonempty_countermodels": 36
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1092,
+      "countermodels": 940,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 124,
+      "nonempty_countermodels": 56
+    },
+    {
+      "mood": "Darii",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1092,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 124,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 704,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 108,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 704,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 108,
+      "nonempty_countermodels": 60
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 704,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 108,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 308,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 308,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 308,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 84,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1404,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1404,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 102
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1404,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 150,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1096,
+      "countermodels": 448,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 66,
+      "nonempty_countermodels": 42
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1096,
+      "countermodels": 822,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 66,
+      "nonempty_countermodels": 58
+    },
+    {
+      "mood": "Ferio",
+      "major": "D",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1096,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 66,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 396,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 24,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 396,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 24,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 396,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 24,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 121,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 671,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 32,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 671,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 32,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 671,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 32,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 550,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 8
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 550,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 16
+    },
+    {
+      "mood": "Ferio",
+      "major": "N",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 550,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 16,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 1316,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 210,
+      "nonempty_countermodels": 66
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 1316,
+      "countermodels": 888,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 210,
+      "nonempty_countermodels": 138
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 1316,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 210,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 495,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 495,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 495,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 152,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 2137,
+      "countermodels": 943,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 268,
+      "nonempty_countermodels": 116
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 2137,
+      "countermodels": 1534,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 268,
+      "nonempty_countermodels": 188
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 2137,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 268,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1642,
+      "countermodels": 822,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 116,
+      "nonempty_countermodels": 72
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1642,
+      "countermodels": 1292,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 116,
+      "nonempty_countermodels": 100
+    },
+    {
+      "mood": "Ferio",
+      "major": "P",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1642,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 116,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "D",
+      "satisfying": 920,
+      "countermodels": 396,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 186,
+      "nonempty_countermodels": 66
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "N",
+      "satisfying": 920,
+      "countermodels": 712,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 186,
+      "nonempty_countermodels": 130
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "D",
+      "conclusion": "P",
+      "satisfying": 920,
+      "countermodels": 176,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "nonempty_satisfying": 186,
+      "nonempty_countermodels": 22
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "D",
+      "satisfying": 374,
+      "countermodels": 121,
+      "first_countermodel": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "N",
+      "satisfying": 374,
+      "countermodels": 242,
+      "first_countermodel": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 88
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "N",
+      "conclusion": "P",
+      "satisfying": 374,
+      "countermodels": 0,
+      "first_countermodel": null,
+      "nonempty_satisfying": 136,
+      "nonempty_countermodels": 0
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "D",
+      "satisfying": 1466,
+      "countermodels": 767,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 236,
+      "nonempty_countermodels": 108
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "N",
+      "satisfying": 1466,
+      "countermodels": 1182,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 236,
+      "nonempty_countermodels": 172
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "P",
+      "conclusion": "P",
+      "satisfying": 1466,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 236,
+      "nonempty_countermodels": 44
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "D",
+      "satisfying": 1092,
+      "countermodels": 646,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 100,
+      "nonempty_countermodels": 64
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "N",
+      "satisfying": 1092,
+      "countermodels": 940,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 100,
+      "nonempty_countermodels": 84
+    },
+    {
+      "mood": "Ferio",
+      "major": "C",
+      "minor": "C",
+      "conclusion": "P",
+      "satisfying": 1092,
+      "countermodels": 352,
+      "first_countermodel": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "nonempty_satisfying": 100,
+      "nonempty_countermodels": 44
+    }
+  ]
+}

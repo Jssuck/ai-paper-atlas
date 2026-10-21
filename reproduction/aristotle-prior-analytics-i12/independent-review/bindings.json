@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "linux",
+  "sha256": {
+    "model.py": "164d49008b362a638b4f6fdc3ea6641b78111fa51e8391a941b2a7161ef3303f",
+    "test_model.py": "4bfacf0b85d75e4098f42525a7a1c403b3edb68a4e91fde6c2267168777ae61b",
+    "results.json": "0e72ae8d70d5c0a9523fce9e09ac2f20dd04ee46ab80641256e16a48c528ebe8",
+    "independent-review/check.py": "be0ea394f60c6abf2b8776de0a2782ed5e22f9394c1b1c4ed89cc27f1edd35d6",
+    "independent-review/normal.log": "32f5916f40dacc41b561231ce1b16a458857b1405d6701d668f919245099fe18",
+    "independent-review/optimized.log": "7d57625488f405436dd0ccfecae0c4034625287cebcc627948fa9b1d42d23ef4",
+    "independent-review/double-optimized.log": "7badf7cded7c98e191e104ae14cfa852751b877357a5c0cd49749f912be55b87",
+    "independent-review/author-normal.log": "6053757c0d6ab3dfe8a50d674847ba06b1b2be0d5021d4ac9f1ca9b8f253ab4b",
+    "independent-review/author-optimized.log": "cf340b046b356a13f1edad5be1b7d0fcdae686c76f93a719ce4da5439d919c7e",
+    "independent-review/author-double-optimized.log": "bcb7eebb013f023aee0bb79a7f3bccde50c08cec81c08571614ee5462cc3d53f"
+  },
+  "scope": "Independent finite semantics and code review; exact checked bytes."
+}

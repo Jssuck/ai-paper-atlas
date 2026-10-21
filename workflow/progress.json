@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i12",
     "path": "papers/ancient/aristotle-prior-analytics-i12.zh-CN.md",
-    "stage": "source_and_argument_verification"
+    "stage": "remote_publication_verification"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-i11",
@@ -15,14 +15,14 @@
     "checks": "Independent source, full argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models and24 configurations. Independent argument63659 and code544866 explicit checks per mode,79 invalid inputs and13 detected faults;24 SHA256 bindings verified.34 frozen content files (261874 UTF-8 bytes) plus progress exact remotely;2247 unrelated blobs/modes preserved;402 relative Markdown targets exist. Actual GitHub full DOM QA passed eight new Markdown and README additions;1/1 mathematical block verified in MathML and pixels,11/11 tables and20/20 answers pixel-checked,46/46 main anchors valid;22 attachment relative links and3 prior-paper links opened.55 prior README rows preserved and only I.11 added. Key derivation layout sampled, not every prose paragraph or external bibliography URL. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T17:56:00Z"
   },
-  "updated_at": "2026-10-21T18:33:00Z",
+  "updated_at": "2026-10-21T18:42:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read the complete I.12 source and applicable errata; reconstruct arguments with explicit modal semantics and independent review.",
+  "next_action": "Verify frozen content bytes, preserved unrelated files and actual GitHub rendering before marking I.12 completed.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

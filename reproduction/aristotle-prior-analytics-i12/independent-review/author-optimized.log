@@ -1,0 +1,21 @@
+test_all_reference_values (test_model.ModelTests.test_all_reference_values) ... ok
+test_contingency (test_model.ModelTests.test_contingency) ... ok
+test_empty_subject (test_model.ModelTests.test_empty_subject) ... ok
+test_incompatible (test_model.ModelTests.test_incompatible) ... ok
+test_invalid_categories (test_model.ModelTests.test_invalid_categories) ... ok
+test_invalid_domain (test_model.ModelTests.test_invalid_domain) ... ok
+test_invalid_models (test_model.ModelTests.test_invalid_models) ... ok
+test_invalid_tags (test_model.ModelTests.test_invalid_tags) ... ok
+test_invalid_terms (test_model.ModelTests.test_invalid_terms) ... ok
+test_mixed (test_model.ModelTests.test_mixed) ... ok
+test_nonempty_subset (test_model.ModelTests.test_nonempty_subset) ... ok
+test_one_world (test_model.ModelTests.test_one_world) ... ok
+test_report (test_model.ModelTests.test_report) ... ok
+test_total_models (test_model.ModelTests.test_total_models) ... ok
+test_weakening (test_model.ModelTests.test_weakening) ... ok
+test_world_order (test_model.ModelTests.test_world_order) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.772s
+
+OK
