@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "boole-1848-calculus-logic",
     "path": "papers/1848/boole-calculus-logic.zh-CN.md",
-    "stage": "remote_content_and_rendering_verification",
-    "scope": "The Calculus of Logic, original 1848 pp.183–198; full article with applicable errata and explicit chronology gap."
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i1",
-    "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
     "version": "v1",
-    "content_commit": "b3c251bd6ae6885a0f37ae052156a4dd25eb0221",
-    "checks": "Three independent source, argument and code audits passed; 56 exact audit bindings reverified. Frozen execution evidence records 26 tests in normal/-O/-OO, 34740 entails calls and 187920 rule checks per mode, 12 detected mutants and nine byte-identical reports. All 56 published files (786058 UTF-8 bytes) reread exactly; 1967 unrelated blobs/modes preserved, with progress intentionally updated separately. Independent actual GitHub browser review passed all eight Markdown DOMs, 178 heading self anchors, 45 rendered formulas, expected table shapes and 20 complete answers. Seven new documents fully visually inspected; 66 native viewport captures overall. README pixel review covered its added row and appendix only; all old rendered README HTML preserved after removing additions and normalizing commit IDs, including 52 headings, 370 links and 47 table rows. All 30 affected relative-link occurrences checked and 12 unique destinations opened. No unsupported/error math or raw table math. Historical external links were not re-audited by the rendering reviewer. No GitHub Actions runs, check runs or status contexts for this content commit; no CI pass claimed.",
-    "scope": "Complete Prior Analytics I.1 (24a10–24b30), actual Bekker 1831 Greek page and applicable apparatus plus Owen 1853 pp.80–82 complete chapter, eight translator notes, nineteenth-century principle diagram and bounded ERRATA. Explicit prerequisite backfill; precise composition date unknown and chapter order is not composition chronology. No whole-book, exhaustive-predecessor, ancient author-algorithm or direct-AI-influence claim.",
-    "browser_review_report_sha256": "81048af71e3dc8e047f4639f2809a575fd4058e01bd3aef7df1eeb3b79549b04"
+    "content_commit": "a8a1828e8d43d4c54f28d1a59b2fa89a432cdcc3",
+    "scope": "Complete original May 1848 article pp.183–198, five footnotes and bounded volume errata; editorial ship note distinguished; modern formal reconstruction and 20 answered exercises. Not the 1847 book or complete historical logic.",
+    "checks": "Independent source, full argument and code review passed. 22 author tests in normal/-O/-OO; separate rational-table, solution-set, projection and fault-injection checks recorded. All 29 final files reread exactly; 2022 unrelated blobs and modes preserved; 352 relative Markdown link occurrences have existing targets. Actual GitHub browser review passed all new Markdown, 18 main and 6 walkthrough formulas, tables, 20 answers and README additions after equivalent rendering repair and renewed audit bindings. No workflow runs, check runs or status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T11:02:24Z"
   },
-  "updated_at": "2026-10-21T10:51:46Z",
+  "updated_at": "2026-10-21T11:02:24Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify published files, links and actual GitHub math rendering before marking this paper completed.",
+  "next_action": "At the next scheduled paper iteration, select one unfinished source other than deferred papers; preserve deferred I.2 and unchanged candidate registry.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
@@ -48,4 +43,3 @@
     }
   ]
 }
-
