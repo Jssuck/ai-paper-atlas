@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "publishing",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-i17",
-    "stage": "independent_review_and_remote_verification",
-    "started_at": "2026-10-21T23:35:08Z",
-    "updated_at": "2026-10-21T23:43:15Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-prior-analytics-i16",
-    "path": "papers/ancient/aristotle-prior-analytics-i16.zh-CN.md",
+    "id": "aristotle-prior-analytics-i17",
+    "path": "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md",
     "version": "v1",
-    "content_commit": "9e682f7f8ca68aecd137a1692ef890f70f430ec2",
-    "scope": "Complete I.16 Bekker35b24–36b25 and Owen1853 pp118–122, including six expanded examples, notes, bounded apparatus and formal errata check. Necessary consequence versus necessary conclusion, direct and reverse mixed modal routes, conversion and coverage bridges, quantity failures, nonempty countermodels and20 answered exercises. Explicit modern actual-subject semantics is a pedagogical reconstruction, not the unique ancient interpretation.",
-    "completed_at": "2026-10-21T22:58:04Z",
-    "checks": "Independent primary-source, full argument and code reviews passed;31 final hash bindings plus source-review digests verified.24 author tests per normal/-O/-OO mode;8320 author configurations and13 named models. Independent argument9928 configurations and23914 checks per mode; code oracle9928 configurations and1810155 comparisons per mode;91 invalid-input probes per mode;9 targeted mutants detected in all three modes.38 final content/progress files read back exactly and matched Git blobs;2410 unrelated blobs/modes preserved;447 relative Markdown targets exist;59 old directory rows retained,60 total. Actual GitHub Preview:all4 math blocks visually verified after supported N/M notation and bold-boundary repairs;6 tables,46 bold spans and20 answers present, last exercises visually inspected. Root directory link resolves to canonical article; source ledger, source audit, argument audit, code audit and reproduction README rendered structures sampled. Not every prose pixel or external bibliography target audited. Zero check-runs and status contexts; aggregate pending with no contexts is not a CI pass."
+    "content_commit": "94379ca94c675e67f87a547310676af05b107c27",
+    "scope": "Complete I.17 Bekker36b26–37b18 and Owen1853 pp122–125, all four expanded translator examples, bounded apparatus and formal errata check. Noncontingency branches, conversion countermodels, all16 second-figure premise combinations and20 answered exercises. Explicit actual-subject modal semantics is a modern pedagogical reconstruction, not the unique ancient interpretation.",
+    "completed_at": "2026-10-21T23:49:15Z",
+    "checks": "Independent primary-source, argument and code audits passed;38 final file hash bindings verified.24 author tests per normal/-O/-OO mode;8320 author configurations and7 named models. Independent argument14356 configurations and272764 checks per mode; code oracle9928 configurations,1429632 categorical comparisons,63960 extensions,54552 modal profiles,89352 branch witnesses/equivalences and178704 joint-possibility comparisons per mode;119 invalid-input probes and10 targeted mutants per mode.35 content/progress files read back exactly; three final cosmetic-heading/review changes re-read exactly.2446 unrelated blobs preserved;443 relative Markdown links checked;60 old directory rows retained,61 total. Actual GitHub Preview:all3 math blocks visually verified;4 tables and20 answers present, last exercises visually inspected. Root directory link resolves to canonical article; source ledger, source audit, argument audit, code audit and reproduction README rendered structures sampled. Not every prose pixel or external bibliography target audited. Zero check-runs and status contexts on initial content commit; aggregate pending with no contexts is not a CI pass."
   },
-  "updated_at": "2026-10-21T23:43:15Z",
+  "updated_at": "2026-10-21T23:49:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Publish reviewed I.17 artifacts using expected-head conflict protection, then verify exact remote files, links and actual GitHub rendering before marking complete.",
+  "next_action": "Wait for the next scheduled reading cycle; select at most one eligible unfinished source unit after fresh README, progress and active-execution checks. Preserve deferred I.2 and do not modify the denied candidate registry.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
