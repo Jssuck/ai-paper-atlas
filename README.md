@@ -23,6 +23,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.13精读](papers/ancient/aristotle-prior-analytics-i13.zh-CN.md) | AI推理前史补读：可能性、逐对象偶然与主项范围 | 深读v1 · 完整32a17–32b37及分章过渡边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.14精读](papers/ancient/aristotle-prior-analytics-i14.zh-CN.md) | AI推理前史补读：双偶然前提、换质归约与语义范围桥接 | 深读v1 · 完整32b38–33b24及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.15精读](papers/ancient/aristotle-prior-analytics-i15.zh-CN.md) | AI推理前史补读：实然与偶然混合、可能性保存与背景保持 | 深读v1 · 完整33b25–35b23及版本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.16精读](papers/ancient/aristotle-prior-analytics-i16.zh-CN.md) | AI推理前史补读：必要与偶然混合、否定换位与结论强度 | 深读v1 · 完整35b24–36b25及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -684,3 +685,10 @@ I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i
 - [独立论证核验](papers/ancient/aristotle-prior-analytics-i15.audit.zh-CN.md) · [独立代码复核](reproduction/aristotle-prior-analytics-i15/CODE_REVIEW.md)
 
 完整I.15，实读Bekker33b25–35b23与Owen1853印112–118，含译注、可见校勘及正式勘误范围。区分联合可能、假不保假、背景保持、强偶然与弱可能；20题附答案。标准库有限模型不是原典唯一语义，也不证明一般定理或完成全书。
+
+
+## Aristotle I.16：必要后承与必要结论的区别
+
+新增[《前分析篇》I.16深读](papers/ancient/aristotle-prior-analytics-i16.zh-CN.md)，完整Bekker35b24–36b25及Owen1853印118–122。重建必要／偶然混合第一格、必要否定反证和特称见证，解释实然否定不能升级为必要否定；附20道带答案练习。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i16.sources.zh-CN.md)、[独立来源审查](papers/ancient/aristotle-prior-analytics-i16.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i16.audit.zh-CN.md)与[标准库教学代码及真实日志](reproduction/aristotle-prior-analytics-i16/README.md)分别说明原典、现代模型和有限实跑的范围。局部必要、对称否定桥与逐情形包含不混为一种古代语义；有限测试不是一般定理证明。I.2仍暂缓，I.3、I.17以后及全书不计完成；全部旧目录、候选与版本缺口保留。

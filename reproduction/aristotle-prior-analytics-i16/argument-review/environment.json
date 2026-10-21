@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "implementation": "cpython",
+  "dependencies": "Python standard library only",
+  "commands": [
+    "python check_arguments.py > normal.json",
+    "python -O check_arguments.py > O.json",
+    "python -OO check_arguments.py > OO.json",
+    "cmp normal.json O.json && cmp normal.json OO.json"
+  ]
+}

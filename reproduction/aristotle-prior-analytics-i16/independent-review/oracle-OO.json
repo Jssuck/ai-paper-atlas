@@ -1,0 +1,7 @@
+{
+  "configurations": 9928,
+  "oracle_comparisons": 1810155,
+  "exact_saved_demo_match": true,
+  "author_example_count": 13,
+  "scope": "n1 worlds1/2/3; n2 worlds1/2, all actual indices; all 9 ordered term pairs"
+}

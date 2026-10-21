@@ -1,0 +1,300 @@
+{
+  "selected_mutants": 9,
+  "all_detected": true,
+  "results": [
+    {
+      "name": "actual_zero",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "K_weak",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_negative_minor_counterpair (test_model.ModelTests.test_negative_minor_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_stable_positive_not_strong (test_model.ModelTests.test_stable_positive_not_strong)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_negative_minor_counterpair (test_model.ModelTests.test_negative_minor_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_stable_positive_not_strong (test_model.ModelTests.test_stable_positive_not_strong)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_negative_minor_counterpair (test_model.ModelTests.test_negative_minor_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_stable_positive_not_strong (test_model.ModelTests.test_stable_positive_not_strong)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nplus_possible",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nminus_weak",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "some_all",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)",
+            "FAIL: test_contingency_not_term_conversion (test_model.ModelTests.test_contingency_not_term_conversion)",
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_particular_major_counterpair (test_model.ModelTests.test_particular_major_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)",
+            "FAIL: test_contingency_not_term_conversion (test_model.ModelTests.test_contingency_not_term_conversion)",
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_particular_major_counterpair (test_model.ModelTests.test_particular_major_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject)",
+            "FAIL: test_contingency_not_term_conversion (test_model.ModelTests.test_contingency_not_term_conversion)",
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_particular_major_counterpair (test_model.ModelTests.test_particular_major_counterpair)",
+            "FAIL: test_same_witness_required (test_model.ModelTests.test_same_witness_required)",
+            "FAIL: test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drop_reverse_negative",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stable_only_actual",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_local_positive_reverse_failure_nonempty (test_model.ModelTests.test_local_positive_reverse_failure_nonempty)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_local_positive_reverse_failure_nonempty (test_model.ModelTests.test_local_positive_reverse_failure_nonempty)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_local_positive_reverse_failure_nonempty (test_model.ModelTests.test_local_positive_reverse_failure_nonempty)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "accept_bool_size",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_positive_n_validation (test_model.ModelTests.test_positive_n_validation)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_positive_n_validation (test_model.ModelTests.test_positive_n_validation)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_positive_n_validation (test_model.ModelTests.test_positive_n_validation)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E_is_I",
+      "modes": [
+        {
+          "mode": "normal",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-O",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        },
+        {
+          "mode": "-OO",
+          "exit": 1,
+          "failures": [
+            "FAIL: test_empty_subject (test_model.ModelTests.test_empty_subject)",
+            "FAIL: test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion)",
+            "FAIL: test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems)",
+            "FAIL: test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary)",
+            "FAIL: test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor)"
+          ]
+        }
+      ]
+    }
+  ]
+}

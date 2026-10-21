@@ -1,0 +1,29 @@
+test_actual_index_changes_subject (test_model.ModelTests.test_actual_index_changes_subject) ... ok
+test_actual_validation (test_model.ModelTests.test_actual_validation) ... ok
+test_contingency_not_term_conversion (test_model.ModelTests.test_contingency_not_term_conversion) ... ok
+test_direct_all_and_some (test_model.ModelTests.test_direct_all_and_some) ... ok
+test_direct_not_actual_or_necessary (test_model.ModelTests.test_direct_not_actual_or_necessary) ... ok
+test_empty_subject (test_model.ModelTests.test_empty_subject) ... ok
+test_generator_validation_and_size (test_model.ModelTests.test_generator_validation_and_size) ... ok
+test_local_positive_reverse_failure_nonempty (test_model.ModelTests.test_local_positive_reverse_failure_nonempty) ... ok
+test_mask_validation (test_model.ModelTests.test_mask_validation) ... ok
+test_negative_minor_counterpair (test_model.ModelTests.test_negative_minor_counterpair) ... ok
+test_one_way_negative_no_conversion (test_model.ModelTests.test_one_way_negative_no_conversion) ... ok
+test_particular_major_counterpair (test_model.ModelTests.test_particular_major_counterpair) ... ok
+test_pointwise_not_joint (test_model.ModelTests.test_pointwise_not_joint) ... ok
+test_positive_n_validation (test_model.ModelTests.test_positive_n_validation) ... ok
+test_query_validation (test_model.ModelTests.test_query_validation) ... ok
+test_same_witness_required (test_model.ModelTests.test_same_witness_required) ... ok
+test_single_world_contingency_requires_empty_subject (test_model.ModelTests.test_single_world_contingency_requires_empty_subject) ... ok
+test_small_exhaustive_theorems (test_model.ModelTests.test_small_exhaustive_theorems) ... ok
+test_stable_positive_not_actual (test_model.ModelTests.test_stable_positive_not_actual) ... ok
+test_stable_positive_not_strong (test_model.ModelTests.test_stable_positive_not_strong) ... ok
+test_symmetric_negative_nonempty_not_necessary (test_model.ModelTests.test_symmetric_negative_nonempty_not_necessary) ... ok
+test_symmetric_negative_not_strong (test_model.ModelTests.test_symmetric_negative_not_strong) ... ok
+test_world_disjointness_not_symmetric_anchor (test_model.ModelTests.test_world_disjointness_not_symmetric_anchor) ... ok
+test_world_structure_validation (test_model.ModelTests.test_world_structure_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.004s
+
+OK

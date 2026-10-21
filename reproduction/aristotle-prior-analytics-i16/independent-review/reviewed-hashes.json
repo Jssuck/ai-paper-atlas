@@ -1,0 +1,29 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Author implementation/contract/evidence and independent review scripts/results; hashes are integrity bindings, not proof of truth.",
+  "files": {
+    "README.md": "eb6c8a4fa3a40360c1757a5c46841703e443a372c81bda47f818c283e670fc7d",
+    "demo.py": "b9385ae502330f7ccda186f642162d072d8701d66f1f8f1c624d9ceaf12ec0ec",
+    "environment.json": "9b1d0d513142836fc742ec576a04c0ef9cff4f7d065bd64b0ac6cd8f0a304ffe",
+    "independent-review/author-tests-O.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "independent-review/author-tests-OO.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "independent-review/author-tests-normal.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "independent-review/check_code.py": "7c6c1d7124ba784e1ecae9b645f969246e7350fbde6f8c9bad8a3a533bace71b",
+    "independent-review/check_mutants.py": "bd3600a0bf83dc5f9b50a3330e719a39bac0eadbe92d05a3e7b02dba8a08e74a",
+    "independent-review/check_validation.py": "2810a9f3785415a205bbf1dc272ad8055edc92670136dc9b16764ec5b5c7f542",
+    "independent-review/environment.json": "1d476d29a7f2860cc54f55494cf744d76a70db71a362a07ac6552816d679f2d3",
+    "independent-review/mutants.json": "aaea2129404a383a559970c0d706cde2ef7983bb256aad3951164c2715e97a63",
+    "independent-review/oracle-O.json": "24317b66d5d3a0d39e6013ccf2875d8b65df284f9766d18e45c546ee73b42595",
+    "independent-review/oracle-OO.json": "24317b66d5d3a0d39e6013ccf2875d8b65df284f9766d18e45c546ee73b42595",
+    "independent-review/oracle-normal.json": "24317b66d5d3a0d39e6013ccf2875d8b65df284f9766d18e45c546ee73b42595",
+    "independent-review/validation-O.json": "f15f5489161d6e70dee93a92ac9a304d3c1c9987a1ec0f2f2a2315045fa93816",
+    "independent-review/validation-OO.json": "f15f5489161d6e70dee93a92ac9a304d3c1c9987a1ec0f2f2a2315045fa93816",
+    "independent-review/validation-normal.json": "f15f5489161d6e70dee93a92ac9a304d3c1c9987a1ec0f2f2a2315045fa93816",
+    "model.py": "90913dc65f1faacaed4fa6a3d9577d8094b1e7c2fdc4c15194c74bb1fe37ffee",
+    "results/demo.json": "8d5d35ff0b1a3d38b9cfc8cf8a84f1fe95c4869096604b82ec94bc9c81990662",
+    "results/tests-O.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "results/tests-OO.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "results/tests-normal.log": "fa397b3b04b483d4ded7d1456bb8869b9d842b816d69543737166edadad296eb",
+    "test_model.py": "fa28340d0e480a2f24c3e2578884a8f1cc2b4093f3a16d7c34ad0480c2d8fb11"
+  }
+}
