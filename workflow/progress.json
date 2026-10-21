@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "publishing",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i11",
     "path": "papers/ancient/aristotle-prior-analytics-i11.zh-CN.md",
-    "stage": "remote_content_and_render_verification",
-    "scope": "Complete I.11 third-figure mixed necessity, primary Greek and Owen1853 with bounded apparatus and errata; modern reconstruction explicitly qualified."
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i10",
-    "path": "papers/ancient/aristotle-prior-analytics-i10.zh-CN.md",
     "version": "v1",
-    "content_commit": "f5c1f57696a63bb9ba625d2c2aa1b54f17fcb423",
-    "scope": "Complete I.10 30b7–31a17, Owen1853 pp102–103 chapter, three numbered marginal notes and four symbolic glosses, bounded apparatus/errata. Second-figure mixed-modal proofs, failures, three explicitly distinct modern E semantics, local proofs and20 answered exercises; not a unified reconstruction of ancient modal logic.",
-    "checks": "Independent source, argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models. Independent argument110615 checks and code504271 checks per mode,83 invalid inputs and12 detected faults.31 frozen content files (211940 UTF-8 bytes) exact remotely;2218 unrelated blobs/modes preserved;389 relative Markdown link targets exist;24 SHA256 bindings passed. Actual GitHub full DOM QA passed eight new Markdown and README additions,15 tables,20 answers,27 main heading anchors; one formula checked by MathML and pixels. Key tables/code/layout pixel-sampled, selected navigation clicked, not all logs or external links. Exercise notation rendering fixed and independently rebound. No workflow/check/status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T16:53:00Z"
+    "content_commit": "62bd37a06a1a91fc284d9f940dd7e364a5073488",
+    "scope": "Complete I.11 31a18–32a5, Owen1853 pp103–106, four numbered footnotes, three numbered main marginal notes, eleven symbolic marginal notes and eight examples; bounded apparatus and errata. Third-figure mixed-necessity arguments, necessary-I conversion limits, six general modern witness proofs, countermodels and20 answered exercises. Actual-anchor and sentence-necessity models explicitly differ from the historical claims; not a unified reconstruction of ancient modal logic.",
+    "checks": "Independent source, full argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models and24 configurations. Independent argument63659 and code544866 explicit checks per mode,79 invalid inputs and13 detected faults;24 SHA256 bindings verified.34 frozen content files (261874 UTF-8 bytes) plus progress exact remotely;2247 unrelated blobs/modes preserved;402 relative Markdown targets exist. Actual GitHub full DOM QA passed eight new Markdown and README additions;1/1 mathematical block verified in MathML and pixels,11/11 tables and20/20 answers pixel-checked,46/46 main anchors valid;22 attachment relative links and3 prior-paper links opened.55 prior README rows preserved and only I.11 added. Key derivation layout sampled, not every prose paragraph or external bibliography URL. No workflow/check/status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T17:56:00Z"
   },
-  "updated_at": "2026-10-21T17:47:00Z",
+  "updated_at": "2026-10-21T17:56:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify exact remote content, preserved unrelated files and links, then actual GitHub math and layout before marking complete.",
+  "next_action": "This source unit is complete and remotely verified. Wait for the next scheduled paper run before selecting another eligible unit; keep the deferred I.2 unchanged.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
