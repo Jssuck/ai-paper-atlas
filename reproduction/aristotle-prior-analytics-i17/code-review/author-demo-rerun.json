@@ -1,0 +1,1110 @@
+{
+  "scope": "finite modern actual-subject semantics; no proof of ancient general theory",
+  "examples": {
+    "disjoint": {
+      "n": 2,
+      "worlds": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "actual": 0
+    },
+    "identical": {
+      "n": 2,
+      "worlds": [
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "actual": 0
+    },
+    "conversion_failure": {
+      "n": 2,
+      "worlds": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ]
+      ],
+      "actual": 0
+    },
+    "necessary_positive": {
+      "n": 1,
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "actual": 0
+    },
+    "necessary_negative": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "actual": 0
+    },
+    "mixed_fixed": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          1,
+          3,
+          3
+        ]
+      ],
+      "actual": 0
+    },
+    "alternating_witnesses": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          3,
+          3
+        ]
+      ],
+      "actual": 0
+    }
+  },
+  "noncontingency_branches": {
+    "necessary_positive": {
+      "necessary_positive": [
+        0
+      ],
+      "necessary_negative": []
+    },
+    "necessary_negative": {
+      "necessary_positive": [],
+      "necessary_negative": [
+        0
+      ]
+    },
+    "mixed_fixed": {
+      "necessary_positive": [
+        0
+      ],
+      "necessary_negative": [
+        1
+      ]
+    }
+  },
+  "endpoint_matrix": [
+    {
+      "premises": [
+        "A",
+        "A"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "A",
+        "E"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "A",
+        "I"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "A",
+        "O"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "E",
+        "A"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "E",
+        "E"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "E",
+        "I"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "E",
+        "O"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "I",
+        "A"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "I",
+        "E"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "I",
+        "I"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "I",
+        "O"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "O",
+        "A"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "O",
+        "E"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "O",
+        "I"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    },
+    {
+      "premises": [
+        "O",
+        "O"
+      ],
+      "countermodels": {
+        "actual:A": [
+          "disjoint"
+        ],
+        "actual:E": [
+          "identical"
+        ],
+        "actual:I": [
+          "disjoint"
+        ],
+        "actual:O": [
+          "identical"
+        ],
+        "necessary:A": [
+          "disjoint"
+        ],
+        "necessary:E": [
+          "identical"
+        ],
+        "necessary:I": [
+          "disjoint"
+        ],
+        "necessary:O": [
+          "identical"
+        ],
+        "possible:A": [
+          "disjoint"
+        ],
+        "possible:E": [
+          "identical"
+        ],
+        "possible:I": [
+          "disjoint"
+        ],
+        "possible:O": [
+          "identical"
+        ],
+        "contingent:A": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:E": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:I": [
+          "disjoint",
+          "identical"
+        ],
+        "contingent:O": [
+          "disjoint",
+          "identical"
+        ]
+      }
+    }
+  ],
+  "exhaustive": {
+    "configurations": 8320,
+    "term_pairs": 74880,
+    "quality_equalities": 149760,
+    "noncontingency_decompositions": 74880,
+    "modal_implications": 898560,
+    "conversion_failures": 12240,
+    "empty_actual_subject_pairs": 19008
+  }
+}

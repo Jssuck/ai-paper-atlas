@@ -1,0 +1,21 @@
+{
+  "algorithm": "sha256",
+  "scope": "manual argument audit and independent finite checks; not a formal proof-assistant certificate",
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i17.zh-CN.md": "c434d308bf548d85be20d132d935aaab5f9f68ae2f7ae52da239509f72f1db50",
+    "reproduction/aristotle-prior-analytics-i17/model.py": "1f61cb515a63e8f4dd5f45c64ef28ac657db1d168ac2d4d386efb0bc196fad22",
+    "reproduction/aristotle-prior-analytics-i17/demo.py": "5887542443a3c3ed80256c048339c4851adec4468580303987935d8dbe450477",
+    "reproduction/aristotle-prior-analytics-i17/test_model.py": "910cce9bc4b1e804db4050ff71284bbca91d4afa97a329a57f729649ebc7b9ce",
+    "reproduction/aristotle-prior-analytics-i17/README.md": "cf7b65d6687b78d99d03f8985c59c21f9e18438a9d16e60a01c60cca33768cdf",
+    "reproduction/aristotle-prior-analytics-i17/results/demo.json": "e753b4665887534394c78529c41fdc0c76dc7defdcd0c207ebd27e6428fe11d3",
+    "reproduction/aristotle-prior-analytics-i17/results/tests-normal.log": "6473417359cf586d54c5ce154ffbdf60f049880e7b8927733ebf1e497a417a10",
+    "reproduction/aristotle-prior-analytics-i17/results/tests-O.log": "5f898efab71b59c423af0229252e0ff671301098cdbf2e09404d8042bc97e0cb",
+    "reproduction/aristotle-prior-analytics-i17/results/tests-OO.log": "6473417359cf586d54c5ce154ffbdf60f049880e7b8927733ebf1e497a417a10",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/check_arguments.py": "dcc588f19288bd2923c0f0f92b2c8e094695045ccd6e6f404e7af1f01d068282",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/normal.json": "66f0291f1fde1d5500b74f651147deb3e83d445be89f69f4aa3a37d79b881036",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/O.json": "66f0291f1fde1d5500b74f651147deb3e83d445be89f69f4aa3a37d79b881036",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/OO.json": "66f0291f1fde1d5500b74f651147deb3e83d445be89f69f4aa3a37d79b881036",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/environment.json": "2719c554598e87401933e6923f19ba888fe876b24d573df3cf8e2e399ce47a4b",
+    "reproduction/aristotle-prior-analytics-i17/argument-review/README.md": "031f4fa07cf4eda3d26dc0eb938dd99c7089eb47e455192de0ac3fc10b25b801"
+  }
+}

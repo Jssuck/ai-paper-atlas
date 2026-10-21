@@ -1,0 +1,29 @@
+test_01_masks (test_model.TeachingTests.test_01_masks) ... ok
+test_02_profile (test_model.TeachingTests.test_02_profile) ... ok
+test_03_actual_forms (test_model.TeachingTests.test_03_actual_forms) ... ok
+test_04_necessary_forms (test_model.TeachingTests.test_04_necessary_forms) ... ok
+test_05_contingency_quality (test_model.TeachingTests.test_05_contingency_quality) ... ok
+test_06_conversion_fails (test_model.TeachingTests.test_06_conversion_fails) ... ok
+test_07_positive_branch (test_model.TeachingTests.test_07_positive_branch) ... ok
+test_08_negative_branch (test_model.TeachingTests.test_08_negative_branch) ... ok
+test_09_both_branches (test_model.TeachingTests.test_09_both_branches) ... ok
+test_10_fixed_not_contingent (test_model.TeachingTests.test_10_fixed_not_contingent) ... ok
+test_11_weak_not_strong (test_model.TeachingTests.test_11_weak_not_strong) ... ok
+test_12_not_necessary_not_necessary_negative (test_model.TeachingTests.test_12_not_necessary_not_necessary_negative) ... ok
+test_13_joint_quantifier_failure (test_model.TeachingTests.test_13_joint_quantifier_failure) ... ok
+test_14_all_second_figure_pairs (test_model.TeachingTests.test_14_all_second_figure_pairs) ... ok
+test_15_no_contingent_endpoint (test_model.TeachingTests.test_15_no_contingent_endpoint) ... ok
+test_16_actual_anchor (test_model.TeachingTests.test_16_actual_anchor) ... ok
+test_17_empty_subject (test_model.TeachingTests.test_17_empty_subject) ... ok
+test_18_single_world (test_model.TeachingTests.test_18_single_world) ... ok
+test_19_models_count (test_model.TeachingTests.test_19_models_count) ... ok
+test_20_bad_constructors (test_model.TeachingTests.test_20_bad_constructors) ... ok
+test_21_bad_methods (test_model.TeachingTests.test_21_bad_methods) ... ok
+test_22_bad_enumerators (test_model.TeachingTests.test_22_bad_enumerators) ... ok
+test_23_immutable (test_model.TeachingTests.test_23_immutable) ... ok
+test_24_runtime_checks_survive_optimization (test_model.TeachingTests.test_24_runtime_checks_survive_optimization) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.004s
+
+OK

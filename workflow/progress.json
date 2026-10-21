@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "publishing",
   "active_paper": {
     "id": "aristotle-prior-analytics-i17",
-    "stage": "primary_source_reading",
+    "stage": "independent_review_and_remote_verification",
     "started_at": "2026-10-21T23:35:08Z",
-    "updated_at": "2026-10-21T23:35:08Z"
+    "updated_at": "2026-10-21T23:43:15Z"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-i16",
@@ -16,14 +16,14 @@
     "completed_at": "2026-10-21T22:58:04Z",
     "checks": "Independent primary-source, full argument and code reviews passed;31 final hash bindings plus source-review digests verified.24 author tests per normal/-O/-OO mode;8320 author configurations and13 named models. Independent argument9928 configurations and23914 checks per mode; code oracle9928 configurations and1810155 comparisons per mode;91 invalid-input probes per mode;9 targeted mutants detected in all three modes.38 final content/progress files read back exactly and matched Git blobs;2410 unrelated blobs/modes preserved;447 relative Markdown targets exist;59 old directory rows retained,60 total. Actual GitHub Preview:all4 math blocks visually verified after supported N/M notation and bold-boundary repairs;6 tables,46 bold spans and20 answers present, last exercises visually inspected. Root directory link resolves to canonical article; source ledger, source audit, argument audit, code audit and reproduction README rendered structures sampled. Not every prose pixel or external bibliography target audited. Zero check-runs and status contexts; aggregate pending with no contexts is not a CI pass."
   },
-  "updated_at": "2026-10-21T23:35:08Z",
+  "updated_at": "2026-10-21T23:43:15Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read and independently verify I.17 sources, reconstruct proofs and minimal teaching code; no additional source unit until remote acceptance.",
+  "next_action": "Publish reviewed I.17 artifacts using expected-head conflict protection, then verify exact remote files, links and actual GitHub rendering before marking complete.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

@@ -1,0 +1,28 @@
+{
+  "scope": "independent finite set oracle; not general proof or ancient semantics certification",
+  "python": "3.12.14",
+  "optimization": 2,
+  "oracle": {
+    "configurations": 9928,
+    "categorical": 1429632,
+    "extensions": 63960,
+    "profiles": 54552,
+    "witnesses": 89352,
+    "joint": 178704,
+    "branch_equivalences": 89352
+  },
+  "invalid_probes": 119,
+  "endpoint_refutations": 256,
+  "detected_mutants": {
+    "contingency_becomes_weak": "categorical E:contingent",
+    "necessary_becomes_possible": "categorical A:necessary",
+    "possible_becomes_necessary": "categorical A:possible",
+    "actual_point_ignored": "categorical A:actual",
+    "subject_point_ignored": "categorical A:actual",
+    "existential_becomes_universal": "categorical I:actual",
+    "negative_quality_lost": "categorical E:actual",
+    "negative_branch_dropped": "witnesses",
+    "joint_becomes_objectwise": "joint",
+    "bool_domain_accepted": "invalid input accepted 2"
+  }
+}
