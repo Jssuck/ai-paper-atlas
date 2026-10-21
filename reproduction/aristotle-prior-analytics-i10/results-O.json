@@ -1,0 +1,179 @@
+{
+  "models": 4096,
+  "worlds": 2,
+  "objects": 2,
+  "valid_local_routes": {
+    "cesare_local": {
+      "premise_models": 324,
+      "failures": 0
+    },
+    "camestres_reversed_local": {
+      "premise_models": 324,
+      "failures": 0
+    },
+    "festino_fixed_witness": {
+      "premise_models": 208,
+      "failures": 0
+    },
+    "cesare_bridged_strong": {
+      "premise_models": 256,
+      "failures": 0
+    },
+    "camestres_bridged_strong": {
+      "premise_models": 256,
+      "failures": 0
+    },
+    "ordinary_cesare": {
+      "premise_models": 1024,
+      "failures": 0
+    },
+    "ordinary_camestres": {
+      "premise_models": 1024,
+      "failures": 0
+    },
+    "ordinary_festino": {
+      "premise_models": 704,
+      "failures": 0
+    },
+    "ordinary_baroco": {
+      "premise_models": 704,
+      "failures": 0
+    }
+  },
+  "invalid_generalizations": {
+    "anchored_e_conversion": {
+      "premise_models": 1600,
+      "countermodels": 576,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "cesare_unbridged_strong": {
+      "premise_models": 324,
+      "countermodels": 99,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "camestres_unbridged_strong": {
+      "premise_models": 324,
+      "countermodels": 99,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "necessary_affirmative_universal": {
+      "premise_models": 784,
+      "countermodels": 208,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "necessary_affirmative_particular": {
+      "premise_models": 576,
+      "countermodels": 240,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "necessary_particular_negative": {
+      "premise_models": 368,
+      "countermodels": 156,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "boxed_e_implies_strong_e": {
+      "premise_models": 1296,
+      "countermodels": 512,
+      "first": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "limitation": "Finite teaching checks, not a proof of arbitrary model validity or a unique historical semantics."
+}

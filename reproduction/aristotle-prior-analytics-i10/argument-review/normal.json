@@ -1,0 +1,26 @@
+{
+  "checks": 110615,
+  "invalid_extension_counterexample_counts": {
+    "anchored_conversion": 576,
+    "boxed_strong": 512,
+    "camestres_reverse": 68,
+    "cesare_strong": 99,
+    "necessary_A_E": 208,
+    "necessary_A_O": 240,
+    "necessary_O": 156
+  },
+  "models": 4096,
+  "scope": "Independent finite set checks; not a general proof or historical semantics certification.",
+  "status": "PASS",
+  "true_route_premise_counts": {
+    "camestres_bridge": 196,
+    "camestres_local": 324,
+    "cesare_bridge": 196,
+    "cesare_local": 324,
+    "festino_local": 208,
+    "ordinary_baroco": 704,
+    "ordinary_camestres": 1024,
+    "ordinary_cesare": 1024,
+    "ordinary_festino": 704
+  }
+}

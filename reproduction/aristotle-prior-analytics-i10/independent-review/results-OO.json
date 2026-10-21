@@ -1,0 +1,288 @@
+{
+  "status": "PASS",
+  "checks": 504271,
+  "models": 4096,
+  "extra_models": 3,
+  "invalid_calls": 83,
+  "detected_faults": 12,
+  "fault_evidence": {
+    "ordinary_reversed": {
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "ordinary_uses_world1": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "boxed_any_world": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "anchored_as_boxed": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "anchored_union_all_types": {
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "A",
+      "pred": 2,
+      "subj": 2
+    },
+    "anchored_intersection_all_types": {
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "E",
+      "pred": 2,
+      "subj": 2
+    },
+    "anchored_subject_possible": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "anchored_subject_necessary": {
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "A",
+      "pred": 0,
+      "subj": 2
+    },
+    "I_as_A": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "I",
+      "pred": 0,
+      "subj": 0
+    },
+    "O_as_E": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "kind": "O",
+      "pred": 0,
+      "subj": 0
+    },
+    "strong_as_boxed": {
+      "worlds": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "strong_as_anchored": {
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "valid_totals": {
+    "cesare_local": [
+      324,
+      0
+    ],
+    "camestres_reversed_local": [
+      324,
+      0
+    ],
+    "festino_fixed_witness": [
+      208,
+      0
+    ],
+    "cesare_bridged_strong": [
+      256,
+      0
+    ],
+    "camestres_bridged_strong": [
+      256,
+      0
+    ],
+    "ordinary_cesare": [
+      1024,
+      0
+    ],
+    "ordinary_camestres": [
+      1024,
+      0
+    ],
+    "ordinary_festino": [
+      704,
+      0
+    ],
+    "ordinary_baroco": [
+      704,
+      0
+    ]
+  },
+  "invalid_totals": {
+    "anchored_e_conversion": [
+      1600,
+      576
+    ],
+    "cesare_unbridged_strong": [
+      324,
+      99
+    ],
+    "camestres_unbridged_strong": [
+      324,
+      99
+    ],
+    "necessary_affirmative_universal": [
+      784,
+      208
+    ],
+    "necessary_affirmative_particular": [
+      576,
+      240
+    ],
+    "necessary_particular_negative": [
+      368,
+      156
+    ],
+    "boxed_e_implies_strong_e": [
+      1296,
+      512
+    ]
+  },
+  "reviewed_sha256": {
+    "modal.py": "a51de6ad56147d6afab6e7dbcaa3d941997bfd3548ce30a99a9c41cdd5e6721e",
+    "test_modal.py": "0120693e9e7cf2d892390f0b3c572f6d08c68a51aa52295595d3b7bb3ce1070e",
+    "README.md": "1fe01f161418745f5c40fa7e7083834955682fb52b6ca696b8fa8ffa4298bae7",
+    "WALKTHROUGH.md": "3c28440dce09ee47c7ee1f17306d9f6c9aab4a9d7c461160b9e12d76f3b22420",
+    "results.json": "ee51f1f41405d8978e5caae8094cc083443e852e4b6038714824becb6e6bbe44",
+    "results-O.json": "ee51f1f41405d8978e5caae8094cc083443e852e4b6038714824becb6e6bbe44",
+    "results-OO.json": "ee51f1f41405d8978e5caae8094cc083443e852e4b6038714824becb6e6bbe44",
+    "environment.json": "083325cb777008dac7c1369fc8e67c721194b293608453774fb26304d7afdeef",
+    "artifact-hashes.json": "d38c56c7dda8f617b2e96e4ceb88c171c87760ee5bb5b6d06ee9d7e00e4eaadf"
+  },
+  "limits": "Finite modern semantics only; no historical fidelity or all-software-defects claim. Low-level relation/subset expect validated bitmasks; models generator used only at positive tested sizes."
+}

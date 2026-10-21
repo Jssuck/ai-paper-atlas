@@ -1,0 +1,124 @@
+COMMAND: python  test_modal.py
+test_a (__main__.Tests.test_a) ... ok
+test_anchor_a (__main__.Tests.test_anchor_a) ... ok
+test_anchor_o (__main__.Tests.test_anchor_o) ... ok
+test_bad_kind (__main__.Tests.test_bad_kind) ... ok
+test_bad_mask (__main__.Tests.test_bad_mask) ... ok
+test_bad_n (__main__.Tests.test_bad_n) ... ok
+test_bad_term (__main__.Tests.test_bad_term) ... ok
+test_bad_world (__main__.Tests.test_bad_world) ... ok
+test_bad_worlds (__main__.Tests.test_bad_worlds) ... ok
+test_box (__main__.Tests.test_box) ... ok
+test_box_not_cross_world (__main__.Tests.test_box_not_cross_world) ... ok
+test_complete_run (__main__.Tests.test_complete_run) ... ok
+test_count (__main__.Tests.test_count) ... ok
+test_e (__main__.Tests.test_e) ... ok
+test_e_not_symmetric (__main__.Tests.test_e_not_symmetric) ... ok
+test_empty_a (__main__.Tests.test_empty_a) ... ok
+test_empty_i (__main__.Tests.test_empty_i) ... ok
+test_i (__main__.Tests.test_i) ... ok
+test_intersection (__main__.Tests.test_intersection) ... ok
+test_nonempty_affirmative_particular (__main__.Tests.test_nonempty_affirmative_particular) ... ok
+test_nonempty_affirmative_universal (__main__.Tests.test_nonempty_affirmative_universal) ... ok
+test_nonempty_camestres_gap (__main__.Tests.test_nonempty_camestres_gap) ... ok
+test_nonempty_cesare_gap (__main__.Tests.test_nonempty_cesare_gap) ... ok
+test_nonempty_conversion (__main__.Tests.test_nonempty_conversion) ... ok
+test_nonempty_necessary_particular_negative (__main__.Tests.test_nonempty_necessary_particular_negative) ... ok
+test_o (__main__.Tests.test_o) ... ok
+test_one_object (__main__.Tests.test_one_object) ... ok
+test_one_world_anchor (__main__.Tests.test_one_world_anchor) ... ok
+test_ordinary (__main__.Tests.test_ordinary) ... ok
+test_strong_symmetry (__main__.Tests.test_strong_symmetry) ... ok
+test_three_worlds (__main__.Tests.test_three_worlds) ... ok
+test_union (__main__.Tests.test_union) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.083s
+
+OK
+EXIT: 0
+COMMAND: python  independent-review/check.py > independent-review/results.json
+EXIT: 0
+COMMAND: python -O test_modal.py
+test_a (__main__.Tests.test_a) ... ok
+test_anchor_a (__main__.Tests.test_anchor_a) ... ok
+test_anchor_o (__main__.Tests.test_anchor_o) ... ok
+test_bad_kind (__main__.Tests.test_bad_kind) ... ok
+test_bad_mask (__main__.Tests.test_bad_mask) ... ok
+test_bad_n (__main__.Tests.test_bad_n) ... ok
+test_bad_term (__main__.Tests.test_bad_term) ... ok
+test_bad_world (__main__.Tests.test_bad_world) ... ok
+test_bad_worlds (__main__.Tests.test_bad_worlds) ... ok
+test_box (__main__.Tests.test_box) ... ok
+test_box_not_cross_world (__main__.Tests.test_box_not_cross_world) ... ok
+test_complete_run (__main__.Tests.test_complete_run) ... ok
+test_count (__main__.Tests.test_count) ... ok
+test_e (__main__.Tests.test_e) ... ok
+test_e_not_symmetric (__main__.Tests.test_e_not_symmetric) ... ok
+test_empty_a (__main__.Tests.test_empty_a) ... ok
+test_empty_i (__main__.Tests.test_empty_i) ... ok
+test_i (__main__.Tests.test_i) ... ok
+test_intersection (__main__.Tests.test_intersection) ... ok
+test_nonempty_affirmative_particular (__main__.Tests.test_nonempty_affirmative_particular) ... ok
+test_nonempty_affirmative_universal (__main__.Tests.test_nonempty_affirmative_universal) ... ok
+test_nonempty_camestres_gap (__main__.Tests.test_nonempty_camestres_gap) ... ok
+test_nonempty_cesare_gap (__main__.Tests.test_nonempty_cesare_gap) ... ok
+test_nonempty_conversion (__main__.Tests.test_nonempty_conversion) ... ok
+test_nonempty_necessary_particular_negative (__main__.Tests.test_nonempty_necessary_particular_negative) ... ok
+test_o (__main__.Tests.test_o) ... ok
+test_one_object (__main__.Tests.test_one_object) ... ok
+test_one_world_anchor (__main__.Tests.test_one_world_anchor) ... ok
+test_ordinary (__main__.Tests.test_ordinary) ... ok
+test_strong_symmetry (__main__.Tests.test_strong_symmetry) ... ok
+test_three_worlds (__main__.Tests.test_three_worlds) ... ok
+test_union (__main__.Tests.test_union) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.076s
+
+OK
+EXIT: 0
+COMMAND: python -O independent-review/check.py > independent-review/results-O.json
+EXIT: 0
+COMMAND: python -OO test_modal.py
+test_a (__main__.Tests.test_a) ... ok
+test_anchor_a (__main__.Tests.test_anchor_a) ... ok
+test_anchor_o (__main__.Tests.test_anchor_o) ... ok
+test_bad_kind (__main__.Tests.test_bad_kind) ... ok
+test_bad_mask (__main__.Tests.test_bad_mask) ... ok
+test_bad_n (__main__.Tests.test_bad_n) ... ok
+test_bad_term (__main__.Tests.test_bad_term) ... ok
+test_bad_world (__main__.Tests.test_bad_world) ... ok
+test_bad_worlds (__main__.Tests.test_bad_worlds) ... ok
+test_box (__main__.Tests.test_box) ... ok
+test_box_not_cross_world (__main__.Tests.test_box_not_cross_world) ... ok
+test_complete_run (__main__.Tests.test_complete_run) ... ok
+test_count (__main__.Tests.test_count) ... ok
+test_e (__main__.Tests.test_e) ... ok
+test_e_not_symmetric (__main__.Tests.test_e_not_symmetric) ... ok
+test_empty_a (__main__.Tests.test_empty_a) ... ok
+test_empty_i (__main__.Tests.test_empty_i) ... ok
+test_i (__main__.Tests.test_i) ... ok
+test_intersection (__main__.Tests.test_intersection) ... ok
+test_nonempty_affirmative_particular (__main__.Tests.test_nonempty_affirmative_particular) ... ok
+test_nonempty_affirmative_universal (__main__.Tests.test_nonempty_affirmative_universal) ... ok
+test_nonempty_camestres_gap (__main__.Tests.test_nonempty_camestres_gap) ... ok
+test_nonempty_cesare_gap (__main__.Tests.test_nonempty_cesare_gap) ... ok
+test_nonempty_conversion (__main__.Tests.test_nonempty_conversion) ... ok
+test_nonempty_necessary_particular_negative (__main__.Tests.test_nonempty_necessary_particular_negative) ... ok
+test_o (__main__.Tests.test_o) ... ok
+test_one_object (__main__.Tests.test_one_object) ... ok
+test_one_world_anchor (__main__.Tests.test_one_world_anchor) ... ok
+test_ordinary (__main__.Tests.test_ordinary) ... ok
+test_strong_symmetry (__main__.Tests.test_strong_symmetry) ... ok
+test_three_worlds (__main__.Tests.test_three_worlds) ... ok
+test_union (__main__.Tests.test_union) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.077s
+
+OK
+EXIT: 0
+COMMAND: python -OO independent-review/check.py > independent-review/results-OO.json
+EXIT: 0
+All three audit outputs identical; status: PASS

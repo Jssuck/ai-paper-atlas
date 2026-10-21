@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i10",
     "path": "papers/ancient/aristotle-prior-analytics-i10.zh-CN.md",
-    "stage": "primary_source_and_model_verification",
+    "stage": "publication_remote_and_render_verification",
     "scope": "Complete Prior Analytics I.10; original second-figure mixed-modal argument and bounded edition/errata verification."
   },
   "last_completed": {
@@ -16,14 +16,14 @@
     "checks": "Independent source, argument and code audits passed.24 author tests per normal/-O/-OO mode;4096 models per configuration. Independent argument8029 checks and code512484 checks per mode,20 invalid inputs and10 detected faults.28 content files (220225 UTF-8 bytes) exact remotely;2191 unrelated blobs/modes preserved;382 relative Markdown link targets exist. Actual GitHub full DOM and pixel QA passed seven new Markdown and README additions,2 complete formulas,9 full tables,20 answers and66 anchors.24 internal destinations in frozen package verified; selected navigation links clicked, not all logs or external links. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T15:50:00Z"
   },
-  "updated_at": "2026-10-21T16:37:00Z",
+  "updated_at": "2026-10-21T16:46:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete I.10 and verify source, mathematical reconstruction and code independently.",
+  "next_action": "Verify frozen I.10 content on main, internal links and actual GitHub rendering before marking complete.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
