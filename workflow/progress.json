@@ -1,12 +1,7 @@
 {
   "schema_version": 1,
-  "status": "researching",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-i2",
-    "path": "papers/ancient/aristotle-prior-analytics-i2.zh-CN.md",
-    "stage": "primary_source_and_edition_verification",
-    "scope": "Complete Prior Analytics I.2 (25a1–25a26), actual Bekker1831 Greek and Owen1853 translation pp.83–84 with applicable errata. Explicit prerequisite backfill; composition chronology unverified."
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
     "id": "aristotle-prior-analytics-i1",
     "path": "papers/ancient/aristotle-prior-analytics-i1.zh-CN.md",
@@ -16,14 +11,14 @@
     "scope": "Complete Prior Analytics I.1 (24a10–24b30), actual Bekker 1831 Greek page and applicable apparatus plus Owen 1853 pp.80–82 complete chapter, eight translator notes, nineteenth-century principle diagram and bounded ERRATA. Explicit prerequisite backfill; precise composition date unknown and chapter order is not composition chronology. No whole-book, exhaustive-predecessor, ancient author-algorithm or direct-AI-influence claim.",
     "browser_review_report_sha256": "81048af71e3dc8e047f4639f2809a575fd4058e01bd3aef7df1eeb3b79549b04"
   },
-  "updated_at": "2026-10-14T00:37:00Z",
+  "updated_at": "2026-10-21T10:42:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify conversion arguments, edition discrepancies and errata; complete teaching models and independent source, argument and code reviews.",
+  "next_action": "Select one unfinished source unit other than deferred papers; preserve existing completed and deferred work.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
@@ -36,6 +31,15 @@
       "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
       "content_commit": "0248ab2da5c13e6f844f258eadebcdc8958bd878",
       "checks": "1798 XXIII p.486/PDF492 official edition-printed erratum independently verified, including live PDF pixels. Eight exact remote files and all unrelated blobs verified; five changed Markdown previews checked. Main/audit 86 unchanged mathematical expressions render. Historical records preserved. No new source unit or code changes."
+    }
+  ],
+  "deferred_papers": [
+    {
+      "id": "aristotle-prior-analytics-i2",
+      "path": "papers/ancient/aristotle-prior-analytics-i2.zh-CN.md",
+      "status": "deferred_not_completed",
+      "stage": "publication_deferred",
+      "updated_at": "2026-10-21T10:42:00Z"
     }
   ]
 }
