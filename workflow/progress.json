@@ -1,29 +1,24 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
+  "status": "idle",
+  "active_paper": null,
+  "last_completed": {
     "id": "aristotle-prior-analytics-i10",
     "path": "papers/ancient/aristotle-prior-analytics-i10.zh-CN.md",
-    "stage": "publication_remote_and_render_verification",
-    "scope": "Complete Prior Analytics I.10; original second-figure mixed-modal argument and bounded edition/errata verification."
-  },
-  "last_completed": {
-    "id": "aristotle-prior-analytics-i9",
-    "path": "papers/ancient/aristotle-prior-analytics-i9.zh-CN.md",
     "version": "v1",
-    "content_commit": "35c4d17597d7223eefbf8c2f92fa46fa17bd0bf6",
-    "scope": "Complete I.9 30a15–30b6, Owen1853 pp101–102 top, two footnotes, two numbered and four symbolic marginal notes, two expanded examples, bounded apparatus/errata. Four proofs and20 answered exercises; explicitly local modern anchored semantics, not whole modal logic.",
-    "checks": "Independent source, argument and code audits passed.24 author tests per normal/-O/-OO mode;4096 models per configuration. Independent argument8029 checks and code512484 checks per mode,20 invalid inputs and10 detected faults.28 content files (220225 UTF-8 bytes) exact remotely;2191 unrelated blobs/modes preserved;382 relative Markdown link targets exist. Actual GitHub full DOM and pixel QA passed seven new Markdown and README additions,2 complete formulas,9 full tables,20 answers and66 anchors.24 internal destinations in frozen package verified; selected navigation links clicked, not all logs or external links. No workflow/check/status contexts; no CI pass claimed.",
-    "completed_at": "2026-10-21T15:50:00Z"
+    "content_commit": "f5c1f57696a63bb9ba625d2c2aa1b54f17fcb423",
+    "scope": "Complete I.10 30b7–31a17, Owen1853 pp102–103 chapter, three numbered marginal notes and four symbolic glosses, bounded apparatus/errata. Second-figure mixed-modal proofs, failures, three explicitly distinct modern E semantics, local proofs and20 answered exercises; not a unified reconstruction of ancient modal logic.",
+    "checks": "Independent source, argument and code audits passed.32 author tests per normal/-O/-OO mode;4096 models. Independent argument110615 checks and code504271 checks per mode,83 invalid inputs and12 detected faults.31 frozen content files (211940 UTF-8 bytes) exact remotely;2218 unrelated blobs/modes preserved;389 relative Markdown link targets exist;24 SHA256 bindings passed. Actual GitHub full DOM QA passed eight new Markdown and README additions,15 tables,20 answers,27 main heading anchors; one formula checked by MathML and pixels. Key tables/code/layout pixel-sampled, selected navigation clicked, not all logs or external links. Exercise notation rendering fixed and independently rebound. No workflow/check/status contexts; no CI pass claimed.",
+    "completed_at": "2026-10-21T16:53:00Z"
   },
-  "updated_at": "2026-10-21T16:46:00Z",
+  "updated_at": "2026-10-21T16:53:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify frozen I.10 content on main, internal links and actual GitHub rendering before marking complete.",
+  "next_action": "At the next scheduled run, reread main and workflow state before selecting one eligible unfinished unit; preserve deferred I.2 and existing gaps.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
