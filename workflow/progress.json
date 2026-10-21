@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i8",
+    "path": "papers/ancient/aristotle-prior-analytics-i8.zh-CN.md",
+    "stage": "primary_source_and_modal_semantics_verification",
+    "scope": "Complete Prior Analytics I.8, necessary syllogisms; verify original boundaries and witness conditions. Not I.2 or entire modal theory."
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i7",
     "path": "papers/ancient/aristotle-prior-analytics-i7.zh-CN.md",
@@ -11,14 +16,14 @@
     "checks": "Independent source, argument and code reviews passed.24 author tests per normal/-O/-OO mode;768 semantic/certificate comparisons per mode (59 valid,709 countermodels),14 standard and2 short certificates. Independent code12102 checks and argument9403 checks per mode;56 hash bindings verified. All35 files (274989 UTF-8 bytes) reread exactly;2125 unrelated blobs/modes preserved;385 relative Markdown link occurrences have targets. Actual GitHub pixel/DOM QA passed seven new Markdown pages plus README additions,3 formulas, tables and20 answers. No workflow/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T13:58:15Z"
   },
-  "updated_at": "2026-10-21T13:58:15Z",
+  "updated_at": "2026-10-21T14:36:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Select one eligible unfinished source at next scheduled paper iteration only. Deferred I.2 remains not completed; no catch-up or concurrent work.",
+  "next_action": "Read complete original and applicable apparatus; reconstruct necessary-syllogism witnesses with independent review.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
