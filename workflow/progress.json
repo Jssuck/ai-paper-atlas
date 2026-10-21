@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "researching",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i9",
+    "path": "papers/ancient/aristotle-prior-analytics-i9.zh-CN.md",
+    "stage": "primary_source_and_semantics",
+    "scope": "Complete I.9 mixed necessary and assertoric premises in first figure; original source and edition verification."
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i8",
     "path": "papers/ancient/aristotle-prior-analytics-i8.zh-CN.md",
@@ -11,14 +16,14 @@
     "checks": "Independent source, argument and code audits passed.27 author tests in normal/-O/-OO;4096 two-world models and14 modes. Independent argument163852 and code893927 checks per mode,67 invalid inputs and11 detected faults.33 audit hash bindings rechecked.33 files (221438 UTF-8 bytes) exact remotely;2159 unrelated blobs/modes preserved;391 relative Markdown link targets exist. Actual GitHub full DOM reading plus per-page pixel sampling passed seven new Markdown and README additions; both formulas visually complete,14-mode table and20 answers checked.27 internal link DOM paths and frozen targets checked, not every log or external link clicked. No Actions/check/status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T14:53:00Z"
   },
-  "updated_at": "2026-10-21T14:53:00Z",
+  "updated_at": "2026-10-21T15:33:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "At next scheduled paper iteration select one eligible unfinished unit; I.2 remains deferred and registry unchanged. No catch-up or parallel work.",
+  "next_action": "Read complete I.9 and distinguish historical modal assertions from explicit modern teaching semantics; independently audit before publication.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
