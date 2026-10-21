@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "in_progress",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i15",
+    "stage": "primary_source_reading",
+    "updated_at": "2026-10-21T21:36:00Z"
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i14",
     "path": "papers/ancient/aristotle-prior-analytics-i14.zh-CN.md",
@@ -11,14 +15,14 @@
     "completed_at": "2026-10-21T20:54:46Z",
     "checks": "Independent primary-source, full-argument and code audits passed;12 SHA256 input bindings plus main source-review digest verified.29 author tests per normal/-O/-OO mode.4160 two-world models:1332 AA premise cases,276 conclusion failures;302 premise cases with all actual terms nonempty,72 failures;812 universal and584 particular sufficient-bridge cases passed. Independent argument232792 checks per mode; independent code9928 model/actual-index configurations,436416 quantifier values,5078 bridge implications,16 rule shapes and32 invalid certificates. Eight selected mutants detected after strengthening tests for two blind spots; before/after evidence retained.38 content/progress files (244111 UTF-8 bytes) exactly read back;2344 unrelated blobs/modes preserved;429 relative Markdown targets exist;57 old directory rows retained and I.14 added (58 total). Actual GitHub Preview covered seven Markdown pages including root README: both2 aligned math blocks,all5 main tables and20 answers visually checked; directory click reached canonical article. Four source-note bold delimiters fixed, independently rebound and actually rechecked as rendered strong text with no literal markers. Ancillary pages sampled visible headings/prose/code/tables, not every prose pixel or external bibliography target. No workflow/check/status contexts; no CI pass claimed."
   },
-  "updated_at": "2026-10-21T20:54:46Z",
+  "updated_at": "2026-10-21T21:36:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Select at most one eligible unfinished source in the next scheduled run; retain deferred I.2 and all historical coverage gaps.",
+  "next_action": "Read and independently verify the complete I.15 source unit; no other active unit.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
