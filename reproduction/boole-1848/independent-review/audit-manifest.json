@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-10-21T10:51:00.141814+00:00",
+  "started_utc": "2026-10-21T10:57:20.744507+00:00",
   "python": "3.12.14",
   "implementation": "CPython",
   "system": "Linux",
@@ -9,8 +9,46 @@
     "demo.py": "aef8c4435dfc1d937bff805530aa98550cdf0695762ccc290a5f3a7a643a0a53",
     "run_checks.py": "d542f32769d239aa5a7b7dd2fa96141b6f06536e9f58184139b728d7a8b4316c",
     "README.md": "6952523a0497c62101d17dbd6f237481dddcc21b43c897d57e809e38f8b6a4d6",
-    "WALKTHROUGH.zh-CN.md": "22076b1e475bf1f9d7438e5545486a679f4a71108dd4f20fac2ceda31e0103fe",
+    "WALKTHROUGH.zh-CN.md": "ba8f6cf0cb0fca0632a7a0d11663ee14f3164323c0bbc15192e6a1c2529d4614",
     "independent-review/check_independent.py": "0aa25c86fba557e930966624f478585700e62401ec6367229d75e6d000c4f93e"
+  },
+  "rendering_revision": {
+    "original_walkthrough_sha256": "22076b1e475bf1f9d7438e5545486a679f4a71108dd4f20fac2ceda31e0103fe",
+    "display_blocks_changed": 6,
+    "prose_set_difference_replacements": [
+      {
+        "line": 55,
+        "before": "- X\\Y：必须在 Z 中。",
+        "after": "- X∖Y：必须在 Z 中。"
+      },
+      {
+        "line": 56,
+        "before": "- Y\\X：不得在 Z 中。",
+        "after": "- Y∖X：不得在 Z 中。"
+      },
+      {
+        "line": 57,
+        "before": "- U\\(X∪Y)：自由。",
+        "after": "- U∖(X∪Y)：自由。"
+      },
+      {
+        "line": 71,
+        "before": "Y=V∩X 蕴含 Y⊆V。把未知输出改为 Z=U\\X，则方程是 Y=V\\Z。",
+        "after": "Y=V∩X 蕴含 Y⊆V。把未知输出改为 Z=U∖X，则方程是 Y=V∖Z。"
+      },
+      {
+        "line": 73,
+        "before": "当 Y⊆V 时，V\\Y 必须在 Z 中，Y 不在 Z 中，U\\V 内自由，故",
+        "after": "当 Y⊆V 时，V∖Y 必须在 Z 中，Y 不在 Z 中，U∖V 内自由，故"
+      },
+      {
+        "line": 82,
+        "before": "忘掉 V 的细节，只保留“存在 V 使 Y=V∩X”，等价于 Y⊆X：正向由交集包含，反向取 V=Y。再由补集反序，等价于 U\\X⊆U\\Y。这个现代逆否结论不需要 Y 非空。",
+        "after": "忘掉 V 的细节，只保留“存在 V 使 Y=V∩X”，等价于 Y⊆X：正向由交集包含，反向取 V=Y。再由补集反序，等价于 U∖X⊆U∖Y。这个现代逆否结论不需要 Y 非空。"
+      }
+    ],
+    "reverse_transform_exact": true,
+    "source_code_unchanged": true
   },
   "runs": [
     {
@@ -35,7 +73,7 @@
       "command": "python -O test_model.py",
       "exit_code": 0,
       "log": "author-tests-optimized.log",
-      "sha256": "11fae6c42cc960f9b4e6a14f05dd75f8b12841d0611f205958dc73c0e63309d3"
+      "sha256": "24bf229c1f27250a78c3f3c363d9d738db58cb9fe32eb8b66f9cac6d7d38683c"
     },
     {
       "command": "python -OO independent-review/check_independent.py",
@@ -47,9 +85,9 @@
       "command": "python -OO test_model.py",
       "exit_code": 0,
       "log": "author-tests-double_optimized.log",
-      "sha256": "1b952ff63dd8515a246b561158bb2c6e2c901fbe1acf2c7f58deab12a737d632"
+      "sha256": "96b11b07b3312d347ab29f23e78a16394cc903e3e87d98640c7484e9ce9259f2"
     }
   ],
   "independent_outputs_byte_identical": true,
-  "finished_utc": "2026-10-21T10:51:01.960953+00:00"
+  "finished_utc": "2026-10-21T10:57:22.684642+00:00"
 }

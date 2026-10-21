@@ -22,6 +22,6 @@ test_ship_set_oracle (__main__.ModelTests.test_ship_set_oracle) ... ok
 test_universal_selector_is_existential_not_forall (__main__.ModelTests.test_universal_selector_is_existential_not_forall) ... ok
 
 ----------------------------------------------------------------------
-Ran 22 tests in 0.026s
+Ran 22 tests in 0.025s
 
 OK
