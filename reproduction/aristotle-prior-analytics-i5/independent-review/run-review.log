@@ -1,0 +1,3 @@
+normal: author 41 tests, exit 0; independent exit 0; optimize=0; PASS
+optimized: author 41 tests, exit 0; independent exit 0; optimize=1; PASS
+double-optimized: author 41 tests, exit 0; independent exit 0; optimize=2; PASS

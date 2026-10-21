@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i5",
     "path": "papers/ancient/aristotle-prior-analytics-i5.zh-CN.md",
-    "stage": "primary_source_and_edition_verification",
-    "scope": "Complete Prior Analytics I.5 second figure; original Greek edition and Owen1853 chapter, notes and bounded errata. Explicit historical backfill; not I.2 or full Organon."
+    "stage": "published_content_pending_remote_and_rendering_verification",
+    "scope": "Complete Prior Analytics I.5, Bekker26b34–28a9, Owen1853 pp89–94, notes, example groups, bounded apparatus and errata. Explicit ancient backfill; modern AEIO reconstruction and20 answered exercises."
   },
   "last_completed": {
     "id": "boole-1848-calculus-logic",
@@ -16,14 +16,14 @@
     "checks": "Independent source, full argument and code review passed. 22 author tests in normal/-O/-OO; separate rational-table, solution-set, projection and fault-injection checks recorded. All 29 final files reread exactly; 2022 unrelated blobs and modes preserved; 352 relative Markdown link occurrences have existing targets. Actual GitHub browser review passed all new Markdown, 18 main and 6 walkthrough formulas, tables, 20 answers and README additions after equivalent rendering repair and renewed audit bindings. No workflow runs, check runs or status contexts; no CI pass claimed.",
     "completed_at": "2026-10-21T11:02:24Z"
   },
-  "updated_at": "2026-10-21T11:40:00Z",
+  "updated_at": "2026-10-21T11:51:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete I.5 primary sources; reconstruct four valid routes, failure cases and modern finite model; independent audits and rendering verification.",
+  "next_action": "Verify exact remote files, unrelated tree preservation, links and actual GitHub rendering; mark completed only after those checks.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

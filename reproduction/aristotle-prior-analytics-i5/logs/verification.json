@@ -1,0 +1,73 @@
+{
+  "completed_utc": "2026-10-21T11:50:08.578759+00:00",
+  "report_build_exit_code": 0,
+  "report_build_seconds": 0.2148539919871837,
+  "passed": true,
+  "test_runs": [
+    {
+      "mode": "normal",
+      "portable_command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_second_figure"
+      ],
+      "exit_code": 0,
+      "expected_optimize": 0,
+      "observed_optimize": 0,
+      "tests_run": 41,
+      "unittest_seconds": 1.417,
+      "process_seconds": 1.5046759370015934,
+      "log": "logs/tests-normal.log",
+      "passed": true
+    },
+    {
+      "mode": "optimized",
+      "portable_command": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_second_figure"
+      ],
+      "exit_code": 0,
+      "expected_optimize": 1,
+      "observed_optimize": 1,
+      "tests_run": 41,
+      "unittest_seconds": 1.674,
+      "process_seconds": 1.9320831769728102,
+      "log": "logs/tests-optimized.log",
+      "passed": true
+    },
+    {
+      "mode": "double-optimized",
+      "portable_command": [
+        "python3",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_second_figure"
+      ],
+      "exit_code": 0,
+      "expected_optimize": 2,
+      "observed_optimize": 2,
+      "tests_run": 41,
+      "unittest_seconds": 1.707,
+      "process_seconds": 1.9823279980337247,
+      "log": "logs/tests-double-optimized.log",
+      "passed": true
+    }
+  ],
+  "sha256": {
+    "second_figure.py": "0381ae2f863818f3e318e27f16a1f362c553e0ef92c7502a5465f9fd2ae6d930",
+    "test_second_figure.py": "652443c9cf06e2dd3f8acc462827deb39df038186fe93b7d7975c0f3a87f1698",
+    "run_verification.py": "be8c409bb7da0a31fbac78bd8a33a55d858dcf4107b41c869fefaa441de62f8b",
+    "README.md": "af2b31ef90e412d7be76fabb00bb63f35d6f6dabc63124ab7cec43f6f7276de2",
+    "WALKTHROUGH.md": "03f0a2dc8ae532e4daec6358b693560cb051eae2661c437442c29fb51dccab0d",
+    "report.json": "12e0bfacd4a7dd412e888c6684f5b4949772ffcdc440667f05701b36e2e81eaf",
+    "REPORT.md": "bd08ddad0e50265f125043a697943c841a3db4c8e6268b0a90f4acd7ce692a51"
+  }
+}

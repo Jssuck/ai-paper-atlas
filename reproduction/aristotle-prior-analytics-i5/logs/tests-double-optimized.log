@@ -1,0 +1,54 @@
+Started UTC: 2026-10-21T11:50:06.595289+00:00
+Portable command: python3 -OO -m unittest -v test_second_figure
+Working directory: . (package directory)
+Execution note: current sys.executable used; local paths omitted.
+
+test_64_distinct_moods (test_second_figure.ClassificationTests.test_64_distinct_moods) ... ok
+test_EI_forward_and_reverse_are_not_conflated (test_second_figure.ClassificationTests.test_EI_forward_and_reverse_are_not_conflated) ... ok
+test_IE_reversal_not_forward_inference (test_second_figure.ClassificationTests.test_IE_reversal_not_forward_inference) ... ok
+test_empty_premise_list_means_no_assumptions (test_second_figure.ClassificationTests.test_empty_premise_list_means_no_assumptions) ... ok
+test_every_premise_pair_is_satisfiable (test_second_figure.ClassificationTests.test_every_premise_pair_is_satisfiable) ... ok
+test_every_published_witness_satisfies_premises_and_falsifies_conclusion (test_second_figure.ClassificationTests.test_every_published_witness_satisfies_premises_and_falsifies_conclusion) ... ok
+test_exact_valid_moods_all_terms_nonempty (test_second_figure.ClassificationTests.test_exact_valid_moods_all_terms_nonempty) ... ok
+test_exact_valid_moods_empty_terms_allowed (test_second_figure.ClassificationTests.test_exact_valid_moods_empty_terms_allowed) ... ok
+test_full_classification_and_smallest_witness_independently (test_second_figure.ClassificationTests.test_full_classification_and_smallest_witness_independently) ... ok
+test_inconsistent_premises_are_flagged_vacuous (test_second_figure.ClassificationTests.test_inconsistent_premises_are_flagged_vacuous) ... ok
+test_no_affirmative_conclusion_under_any_tested_policy (test_second_figure.ClassificationTests.test_no_affirmative_conclusion_under_any_tested_policy) ... ok
+test_premise_support_counts_independently (test_second_figure.ClassificationTests.test_premise_support_counts_independently) ... ok
+test_subject_existence_is_enough_for_weakened_conclusions (test_second_figure.ClassificationTests.test_subject_existence_is_enough_for_weakened_conclusions) ... ok
+test_weakening_counterexamples_have_empty_S (test_second_figure.ClassificationTests.test_weakening_counterexamples_have_empty_S) ... ok
+test_bad_classify_clauses (test_second_figure.InvalidInputTests.test_bad_classify_clauses) ... ok
+test_bad_model (test_second_figure.InvalidInputTests.test_bad_model) ... ok
+test_bad_moods (test_second_figure.InvalidInputTests.test_bad_moods) ... ok
+test_bad_policies (test_second_figure.InvalidInputTests.test_bad_policies) ... ok
+test_bad_quantifiers (test_second_figure.InvalidInputTests.test_bad_quantifiers) ... ok
+test_bad_support_values (test_second_figure.InvalidInputTests.test_bad_support_values) ... ok
+test_bad_terms (test_second_figure.InvalidInputTests.test_bad_terms) ... ok
+test_validation_does_not_use_optimizable_assert_statements (test_second_figure.InvalidInputTests.test_validation_does_not_use_optimizable_assert_statements) ... ok
+test_cli_generates_both_reports (test_second_figure.ReportTests.test_cli_generates_both_reports) ... ok
+test_cli_rejects_unknown_argument (test_second_figure.ReportTests.test_cli_rejects_unknown_argument) ... ok
+test_json_report_round_trip_and_completeness (test_second_figure.ReportTests.test_json_report_round_trip_and_completeness) ... ok
+test_saved_reports_match_generated_results (test_second_figure.ReportTests.test_saved_reports_match_generated_results) ... ok
+test_A_O_and_E_I_are_complements (test_second_figure.SemanticTests.test_A_O_and_E_I_are_complements) ... ok
+test_A_and_O_are_not_generally_symmetric (test_second_figure.SemanticTests.test_A_and_O_are_not_generally_symmetric) ... ok
+test_Clause_representation (test_second_figure.SemanticTests.test_Clause_representation) ... ok
+test_E_and_I_are_symmetric (test_second_figure.SemanticTests.test_E_and_I_are_symmetric) ... ok
+test_all_atomic_truths_agree_with_independent_oracle (test_second_figure.SemanticTests.test_all_atomic_truths_agree_with_independent_oracle) ... ok
+test_atom_bits_are_explicit (test_second_figure.SemanticTests.test_atom_bits_are_explicit) ... ok
+test_defining_examples (test_second_figure.SemanticTests.test_defining_examples) ... ok
+test_duplicates_do_not_change_set_semantics (test_second_figure.SemanticTests.test_duplicates_do_not_change_set_semantics) ... ok
+test_all_supports_realize_and_round_trip (test_second_figure.SupportTests.test_all_supports_realize_and_round_trip) ... ok
+test_exhaustive_labeled_models_of_sizes_one_through_three (test_second_figure.SupportTests.test_exhaustive_labeled_models_of_sizes_one_through_three) ... ok
+test_multiplicity_is_compressed (test_second_figure.SupportTests.test_multiplicity_is_compressed) ... ok
+test_outside_all_terms_is_preserved (test_second_figure.SupportTests.test_outside_all_terms_is_preserved) ... ok
+test_policy_counts (test_second_figure.SupportTests.test_policy_counts) ... ok
+test_string_policy_equals_enum (test_second_figure.SupportTests.test_string_policy_equals_enum) ... ok
+test_supports_unique_complete_and_size_sorted (test_second_figure.SupportTests.test_supports_unique_complete_and_size_sorted) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 1.707s
+
+OK
+
+Exit code: 0
+Elapsed seconds: 1.982328

@@ -1,0 +1,711 @@
+{
+  "method": "independent direct object quantification; no author implementation imported",
+  "main_sha256": "659083359ff84b077ac931e815e2e60529d0ce4753f16aef3410fb4acd6c3f27",
+  "audit_checker_sha256": "08804b18a311645d55acad894ab737509e985c9f5336aae97fe7ee160f1f268d",
+  "published_report_sha256": "12e0bfacd4a7dd412e888c6684f5b4949772ffcdc440667f05701b36e2e81eaf",
+  "python_version": "3.12.14",
+  "checks": 205928,
+  "published_classification_rows_verified": 192,
+  "table_models": [
+    {
+      "pair": "AA",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "AI",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "EE",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "001",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "001",
+            "010",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "EO",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "001",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "001",
+            "010",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "IA",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "IE",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "101",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "010",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "II",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "IO",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "101",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "010",
+            "101"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "OA",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "100",
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "OE",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "001",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "001",
+            "010",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "OI",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "110",
+            "111"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "011",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    },
+    {
+      "pair": "OO",
+      "models": [
+        {
+          "side": "left",
+          "PSM_types": [
+            "001",
+            "110"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "1010"
+        },
+        {
+          "side": "right",
+          "PSM_types": [
+            "001",
+            "010",
+            "100"
+          ],
+          "premises": [
+            true,
+            true
+          ],
+          "AEIO": "0101"
+        }
+      ]
+    }
+  ],
+  "support_enumeration": {
+    "allow-empty": {
+      "support_count": 255,
+      "supports_by_size": {
+        "1": 8,
+        "2": 28,
+        "3": 56,
+        "4": 70,
+        "5": 56,
+        "6": 28,
+        "7": 8,
+        "8": 1
+      },
+      "premise_support_counts": {
+        "AA": 31,
+        "AE": 15,
+        "AI": 48,
+        "AO": 32,
+        "EA": 15,
+        "EE": 31,
+        "EI": 32,
+        "EO": 48,
+        "IA": 48,
+        "IE": 32,
+        "II": 160,
+        "IO": 144,
+        "OA": 32,
+        "OE": 48,
+        "OI": 144,
+        "OO": 160
+      },
+      "valid_forward_moods": [
+        "AEE",
+        "AOO",
+        "EAE",
+        "EIO"
+      ],
+      "invalid_forward_count": 60,
+      "minimum_countermodel_size_histogram": {
+        "1": 40,
+        "2": 20
+      },
+      "minimum_countermodel_sizes": {
+        "AAA": 1,
+        "AAE": 1,
+        "AAI": 1,
+        "AAO": 1,
+        "AEA": 1,
+        "AEI": 1,
+        "AEO": 1,
+        "AIA": 1,
+        "AIE": 1,
+        "AII": 1,
+        "AIO": 1,
+        "AOA": 1,
+        "AOE": 2,
+        "AOI": 1,
+        "EAA": 1,
+        "EAI": 1,
+        "EAO": 1,
+        "EEA": 1,
+        "EEE": 1,
+        "EEI": 1,
+        "EEO": 1,
+        "EIA": 1,
+        "EIE": 2,
+        "EII": 1,
+        "EOA": 1,
+        "EOE": 1,
+        "EOI": 1,
+        "EOO": 1,
+        "IAA": 2,
+        "IAE": 1,
+        "IAI": 1,
+        "IAO": 1,
+        "IEA": 2,
+        "IEE": 2,
+        "IEI": 1,
+        "IEO": 1,
+        "IIA": 2,
+        "IIE": 1,
+        "III": 2,
+        "IIO": 1,
+        "IOA": 2,
+        "IOE": 2,
+        "IOI": 2,
+        "IOO": 2,
+        "OAA": 2,
+        "OAE": 2,
+        "OAI": 1,
+        "OAO": 1,
+        "OEA": 2,
+        "OEE": 1,
+        "OEI": 1,
+        "OEO": 1,
+        "OIA": 2,
+        "OIE": 2,
+        "OII": 2,
+        "OIO": 2,
+        "OOA": 2,
+        "OOE": 1,
+        "OOI": 2,
+        "OOO": 1
+      }
+    },
+    "all-nonempty": {
+      "support_count": 218,
+      "supports_by_size": {
+        "1": 1,
+        "2": 13,
+        "3": 44,
+        "4": 67,
+        "5": 56,
+        "6": 28,
+        "7": 8,
+        "8": 1
+      },
+      "premise_support_counts": {
+        "AA": 20,
+        "AE": 4,
+        "AI": 40,
+        "AO": 24,
+        "EA": 4,
+        "EE": 10,
+        "EI": 24,
+        "EO": 30,
+        "IA": 40,
+        "IE": 24,
+        "II": 160,
+        "IO": 144,
+        "OA": 24,
+        "OE": 30,
+        "OI": 144,
+        "OO": 150
+      },
+      "valid_forward_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ],
+      "invalid_forward_count": 58,
+      "minimum_countermodel_size_histogram": {
+        "1": 8,
+        "2": 44,
+        "3": 6
+      },
+      "minimum_countermodel_sizes": {
+        "AAA": 2,
+        "AAE": 1,
+        "AAI": 2,
+        "AAO": 1,
+        "AEA": 2,
+        "AEI": 2,
+        "AIA": 2,
+        "AIE": 1,
+        "AII": 2,
+        "AIO": 1,
+        "AOA": 2,
+        "AOE": 2,
+        "AOI": 2,
+        "EAA": 2,
+        "EAI": 2,
+        "EEA": 3,
+        "EEE": 2,
+        "EEI": 3,
+        "EEO": 2,
+        "EIA": 2,
+        "EIE": 2,
+        "EII": 2,
+        "EOA": 2,
+        "EOE": 2,
+        "EOI": 3,
+        "EOO": 2,
+        "IAA": 2,
+        "IAE": 1,
+        "IAI": 2,
+        "IAO": 1,
+        "IEA": 2,
+        "IEE": 2,
+        "IEI": 2,
+        "IEO": 2,
+        "IIA": 2,
+        "IIE": 1,
+        "III": 2,
+        "IIO": 1,
+        "IOA": 2,
+        "IOE": 2,
+        "IOI": 2,
+        "IOO": 2,
+        "OAA": 2,
+        "OAE": 2,
+        "OAI": 2,
+        "OAO": 2,
+        "OEA": 3,
+        "OEE": 2,
+        "OEI": 3,
+        "OEO": 2,
+        "OIA": 2,
+        "OIE": 2,
+        "OII": 2,
+        "OIO": 2,
+        "OOA": 2,
+        "OOE": 2,
+        "OOI": 3,
+        "OOO": 2
+      }
+    },
+    "subject-nonempty": {
+      "support_count": 240,
+      "supports_by_size": {
+        "1": 4,
+        "2": 22,
+        "3": 52,
+        "4": 69,
+        "5": 56,
+        "6": 28,
+        "7": 8,
+        "8": 1
+      },
+      "premise_support_counts": {
+        "AA": 24,
+        "AE": 8,
+        "AI": 48,
+        "AO": 32,
+        "EA": 8,
+        "EE": 24,
+        "EI": 32,
+        "EO": 48,
+        "IA": 40,
+        "IE": 24,
+        "II": 160,
+        "IO": 144,
+        "OA": 24,
+        "OE": 40,
+        "OI": 144,
+        "OO": 160
+      },
+      "valid_forward_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ],
+      "invalid_forward_count": 58,
+      "minimum_countermodel_size_histogram": {
+        "1": 32,
+        "2": 26
+      },
+      "minimum_countermodel_sizes": {
+        "AAA": 1,
+        "AAE": 1,
+        "AAI": 1,
+        "AAO": 1,
+        "AEA": 1,
+        "AEI": 1,
+        "AIA": 1,
+        "AIE": 1,
+        "AII": 1,
+        "AIO": 1,
+        "AOA": 1,
+        "AOE": 2,
+        "AOI": 1,
+        "EAA": 1,
+        "EAI": 1,
+        "EEA": 1,
+        "EEE": 1,
+        "EEI": 1,
+        "EEO": 1,
+        "EIA": 1,
+        "EIE": 2,
+        "EII": 1,
+        "EOA": 1,
+        "EOE": 1,
+        "EOI": 1,
+        "EOO": 1,
+        "IAA": 2,
+        "IAE": 1,
+        "IAI": 2,
+        "IAO": 1,
+        "IEA": 2,
+        "IEE": 2,
+        "IEI": 2,
+        "IEO": 2,
+        "IIA": 2,
+        "IIE": 1,
+        "III": 2,
+        "IIO": 1,
+        "IOA": 2,
+        "IOE": 2,
+        "IOI": 2,
+        "IOO": 2,
+        "OAA": 2,
+        "OAE": 2,
+        "OAI": 2,
+        "OAO": 2,
+        "OEA": 2,
+        "OEE": 1,
+        "OEI": 2,
+        "OEO": 1,
+        "OIA": 2,
+        "OIE": 2,
+        "OII": 2,
+        "OIO": 2,
+        "OOA": 2,
+        "OOE": 1,
+        "OOI": 2,
+        "OOO": 1
+      }
+    }
+  },
+  "raw_labelled_domain_crosscheck": {
+    "allow-empty": {
+      "labelled_models_1_through_4": 4680,
+      "compression_truth_comparisons": 74880,
+      "valid_moods": [
+        "AEE",
+        "AOO",
+        "EAE",
+        "EIO"
+      ]
+    },
+    "all-nonempty": {
+      "labelled_models_1_through_4": 3746,
+      "compression_truth_comparisons": 59936,
+      "valid_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ]
+    },
+    "subject-nonempty": {
+      "labelled_models_1_through_4": 4340,
+      "compression_truth_comparisons": 69440,
+      "valid_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ]
+    }
+  },
+  "result": "PASS"
+}

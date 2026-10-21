@@ -1,0 +1,5968 @@
+{
+  "semantics": {
+    "A": "X subseteq Y",
+    "E": "X intersection Y is empty",
+    "I": "X intersection Y is nonempty",
+    "O": "X minus Y is nonempty"
+  },
+  "premise_order": "Q(P,M), R(S,M)",
+  "conclusion_order": "T(S,P)",
+  "universe": "nonempty; one representative per occupied Boolean type",
+  "atom_encoding": "P=4, M=2, S=1; support bit a marks occupied atom a",
+  "countermodel_order": "minimum cardinality, then minimum numeric support mask",
+  "policies": {
+    "allow-empty": {
+      "support_count": 255,
+      "valid_moods": [
+        "AEE",
+        "AOO",
+        "EAE",
+        "EIO"
+      ],
+      "results": {
+        "AAA": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAE": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAI": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "AAO": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "AEA": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEE": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "AEI": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "AEO": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "AIA": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIE": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AII": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIO": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOA": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOE": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 130,
+          "countermodel_atoms": [
+            1,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "AOI": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOO": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAA": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EAE": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAI": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "EAO": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 15,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "EEA": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEE": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEI": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "EEO": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 31,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 1,
+          "countermodel_atoms": [
+            0
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": []
+          }
+        },
+        "EIA": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIE": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "EII": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIO": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EOA": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOE": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOI": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOO": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAA": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAE": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAI": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 64,
+          "countermodel_atoms": [
+            6
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": []
+          }
+        },
+        "IAO": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 64,
+          "countermodel_atoms": [
+            6
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": []
+          }
+        },
+        "IEA": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEE": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEI": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 64,
+          "countermodel_atoms": [
+            6
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": []
+          }
+        },
+        "IEO": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 64,
+          "countermodel_atoms": [
+            6
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": []
+          }
+        },
+        "IIA": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIE": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "III": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIO": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOA": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOE": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOI": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOO": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAA": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAE": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OAI": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 16,
+          "countermodel_atoms": [
+            4
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": []
+          }
+        },
+        "OAO": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 16,
+          "countermodel_atoms": [
+            4
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": []
+          }
+        },
+        "OEA": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEE": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEI": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 16,
+          "countermodel_atoms": [
+            4
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": []
+          }
+        },
+        "OEO": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 16,
+          "countermodel_atoms": [
+            4
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": []
+          }
+        },
+        "OIA": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIE": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "OII": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIO": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OOA": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOE": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOI": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOO": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "allow-empty",
+          "eligible_support_count": 255,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        }
+      }
+    },
+    "all-nonempty": {
+      "support_count": 218,
+      "valid_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ],
+      "results": {
+        "AAA": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 20,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAE": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 20,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAI": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 20,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAO": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 20,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEA": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEE": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "AEI": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEO": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "AIA": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIE": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AII": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIO": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOA": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOE": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 130,
+          "countermodel_atoms": [
+            1,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "AOI": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOO": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAA": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EAE": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAI": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EAO": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 4,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EEA": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 10,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEE": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 10,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "EEI": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 10,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEO": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 10,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "EIA": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIE": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "EII": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIO": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EOA": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "EOE": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "EOI": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOO": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "IAA": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAE": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAI": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAO": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEA": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEE": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEI": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEO": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIA": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIE": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "III": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIO": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOA": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOE": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOI": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOO": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAA": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAE": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OAI": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAO": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OEA": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEE": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OEI": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEO": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 30,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OIA": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIE": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "OII": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIO": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OOA": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 150,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "OOE": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 150,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OOI": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 150,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 22,
+          "countermodel_atoms": [
+            1,
+            2,
+            4
+          ],
+          "countermodel_size": 3,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2",
+              "x3"
+            ],
+            "P": [
+              "x3"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOO": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "all-nonempty",
+          "eligible_support_count": 218,
+          "premise_support_count": 150,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 36,
+          "countermodel_atoms": [
+            2,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        }
+      }
+    },
+    "subject-nonempty": {
+      "support_count": 240,
+      "valid_moods": [
+        "AEE",
+        "AEO",
+        "AOO",
+        "EAE",
+        "EAO",
+        "EIO"
+      ],
+      "results": {
+        "AAA": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAE": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAI": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AAO": {
+          "premises": [
+            "A(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEA": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEE": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "AEI": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AEO": {
+          "premises": [
+            "A(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "AIA": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIE": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AII": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AIO": {
+          "premises": [
+            "A(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOA": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOE": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 130,
+          "countermodel_atoms": [
+            1,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "AOI": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "AOO": {
+          "premises": [
+            "A(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAA": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EAE": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EAI": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EAO": {
+          "premises": [
+            "E(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 8,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EEA": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEE": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEI": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EEO": {
+          "premises": [
+            "E(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIA": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIE": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "EII": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 8,
+          "countermodel_atoms": [
+            3
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EIO": {
+          "premises": [
+            "E(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 32,
+          "valid": true,
+          "vacuous": false,
+          "countermodel_support": null,
+          "countermodel_atoms": null,
+          "countermodel_size": null,
+          "countermodel": null
+        },
+        "EOA": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOE": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOI": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 2,
+          "countermodel_atoms": [
+            1
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "EOO": {
+          "premises": [
+            "E(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 48,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAA": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAE": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAI": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IAO": {
+          "premises": [
+            "I(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEA": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEE": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEI": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IEO": {
+          "premises": [
+            "I(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIA": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIE": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "III": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 72,
+          "countermodel_atoms": [
+            3,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1",
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IIO": {
+          "premises": [
+            "I(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 128,
+          "countermodel_atoms": [
+            7
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOA": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOE": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOI": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 66,
+          "countermodel_atoms": [
+            1,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "IOO": {
+          "premises": [
+            "I(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 96,
+          "countermodel_atoms": [
+            5,
+            6
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAA": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAE": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OAI": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OAO": {
+          "premises": [
+            "O(P,M)",
+            "A(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 24,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OEA": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEE": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEI": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OEO": {
+          "premises": [
+            "O(P,M)",
+            "E(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 40,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIA": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIE": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 40,
+          "countermodel_atoms": [
+            3,
+            5
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1",
+              "x2"
+            ]
+          }
+        },
+        "OII": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 24,
+          "countermodel_atoms": [
+            3,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [
+              "x1"
+            ],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OIO": {
+          "premises": [
+            "O(P,M)",
+            "I(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 144,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 144,
+          "countermodel_atoms": [
+            4,
+            7
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x1",
+              "x2"
+            ],
+            "M": [
+              "x2"
+            ],
+            "S": [
+              "x2"
+            ]
+          }
+        },
+        "OOA": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "A(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOE": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "E(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOI": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "I(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 18,
+          "countermodel_atoms": [
+            1,
+            4
+          ],
+          "countermodel_size": 2,
+          "countermodel": {
+            "universe": [
+              "x1",
+              "x2"
+            ],
+            "P": [
+              "x2"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        },
+        "OOO": {
+          "premises": [
+            "O(P,M)",
+            "O(S,M)"
+          ],
+          "conclusion": "O(S,P)",
+          "policy": "subject-nonempty",
+          "eligible_support_count": 240,
+          "premise_support_count": 160,
+          "valid": false,
+          "vacuous": false,
+          "countermodel_support": 32,
+          "countermodel_atoms": [
+            5
+          ],
+          "countermodel_size": 1,
+          "countermodel": {
+            "universe": [
+              "x1"
+            ],
+            "P": [
+              "x1"
+            ],
+            "M": [],
+            "S": [
+              "x1"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "reversal_check_IE": {
+    "allow-empty": {
+      "forward_O_S_P": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(S,P)",
+        "policy": "allow-empty",
+        "eligible_support_count": 255,
+        "premise_support_count": 32,
+        "valid": false,
+        "vacuous": false,
+        "countermodel_support": 64,
+        "countermodel_atoms": [
+          6
+        ],
+        "countermodel_size": 1,
+        "countermodel": {
+          "universe": [
+            "x1"
+          ],
+          "P": [
+            "x1"
+          ],
+          "M": [
+            "x1"
+          ],
+          "S": []
+        }
+      },
+      "reverse_O_P_S": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(P,S)",
+        "policy": "allow-empty",
+        "eligible_support_count": 255,
+        "premise_support_count": 32,
+        "valid": true,
+        "vacuous": false,
+        "countermodel_support": null,
+        "countermodel_atoms": null,
+        "countermodel_size": null,
+        "countermodel": null
+      }
+    },
+    "all-nonempty": {
+      "forward_O_S_P": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(S,P)",
+        "policy": "all-nonempty",
+        "eligible_support_count": 218,
+        "premise_support_count": 24,
+        "valid": false,
+        "vacuous": false,
+        "countermodel_support": 96,
+        "countermodel_atoms": [
+          5,
+          6
+        ],
+        "countermodel_size": 2,
+        "countermodel": {
+          "universe": [
+            "x1",
+            "x2"
+          ],
+          "P": [
+            "x1",
+            "x2"
+          ],
+          "M": [
+            "x2"
+          ],
+          "S": [
+            "x1"
+          ]
+        }
+      },
+      "reverse_O_P_S": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(P,S)",
+        "policy": "all-nonempty",
+        "eligible_support_count": 218,
+        "premise_support_count": 24,
+        "valid": true,
+        "vacuous": false,
+        "countermodel_support": null,
+        "countermodel_atoms": null,
+        "countermodel_size": null,
+        "countermodel": null
+      }
+    },
+    "subject-nonempty": {
+      "forward_O_S_P": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(S,P)",
+        "policy": "subject-nonempty",
+        "eligible_support_count": 240,
+        "premise_support_count": 24,
+        "valid": false,
+        "vacuous": false,
+        "countermodel_support": 96,
+        "countermodel_atoms": [
+          5,
+          6
+        ],
+        "countermodel_size": 2,
+        "countermodel": {
+          "universe": [
+            "x1",
+            "x2"
+          ],
+          "P": [
+            "x1",
+            "x2"
+          ],
+          "M": [
+            "x2"
+          ],
+          "S": [
+            "x1"
+          ]
+        }
+      },
+      "reverse_O_P_S": {
+        "premises": [
+          "I(P,M)",
+          "E(S,M)"
+        ],
+        "conclusion": "O(P,S)",
+        "policy": "subject-nonempty",
+        "eligible_support_count": 240,
+        "premise_support_count": 24,
+        "valid": true,
+        "vacuous": false,
+        "countermodel_support": null,
+        "countermodel_atoms": null,
+        "countermodel_size": null,
+        "countermodel": null
+      }
+    }
+  }
+}

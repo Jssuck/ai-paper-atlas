@@ -1,0 +1,388 @@
+{
+  "audit_script_sha256": "afc4de94c1292191be82c9cabb9644e34b32ebb163db6cfe901b1e4617a39ba4",
+  "classification": {
+    "classifications": 192,
+    "concrete_countermodels_and_minimality_checks": 176,
+    "policies": {
+      "all-nonempty": {
+        "invalid_count": 58,
+        "minimum_countermodel_size_histogram": {
+          "1": 8,
+          "2": 44,
+          "3": 6
+        },
+        "premise_support_counts": {
+          "AA": 20,
+          "AE": 4,
+          "AI": 40,
+          "AO": 24,
+          "EA": 4,
+          "EE": 10,
+          "EI": 24,
+          "EO": 30,
+          "IA": 40,
+          "IE": 24,
+          "II": 160,
+          "IO": 144,
+          "OA": 24,
+          "OE": 30,
+          "OI": 144,
+          "OO": 150
+        },
+        "supports": 218,
+        "valid_count": 6,
+        "valid_moods": [
+          "AEE",
+          "AEO",
+          "AOO",
+          "EAE",
+          "EAO",
+          "EIO"
+        ]
+      },
+      "allow-empty": {
+        "invalid_count": 60,
+        "minimum_countermodel_size_histogram": {
+          "1": 40,
+          "2": 20
+        },
+        "premise_support_counts": {
+          "AA": 31,
+          "AE": 15,
+          "AI": 48,
+          "AO": 32,
+          "EA": 15,
+          "EE": 31,
+          "EI": 32,
+          "EO": 48,
+          "IA": 48,
+          "IE": 32,
+          "II": 160,
+          "IO": 144,
+          "OA": 32,
+          "OE": 48,
+          "OI": 144,
+          "OO": 160
+        },
+        "supports": 255,
+        "valid_count": 4,
+        "valid_moods": [
+          "AEE",
+          "AOO",
+          "EAE",
+          "EIO"
+        ]
+      },
+      "subject-nonempty": {
+        "invalid_count": 58,
+        "minimum_countermodel_size_histogram": {
+          "1": 32,
+          "2": 26
+        },
+        "premise_support_counts": {
+          "AA": 24,
+          "AE": 8,
+          "AI": 48,
+          "AO": 32,
+          "EA": 8,
+          "EE": 24,
+          "EI": 32,
+          "EO": 48,
+          "IA": 40,
+          "IE": 24,
+          "II": 160,
+          "IO": 144,
+          "OA": 24,
+          "OE": 40,
+          "OI": 144,
+          "OO": 160
+        },
+        "supports": 240,
+        "valid_count": 6,
+        "valid_moods": [
+          "AEE",
+          "AEO",
+          "AOO",
+          "EAE",
+          "EAO",
+          "EIO"
+        ]
+      }
+    }
+  },
+  "compression": {
+    "compression_policy_preservation_cases": 14040,
+    "compression_truth_preservation_cases": 168480,
+    "labeled_models_sizes_one_through_four": 4680
+  },
+  "directions": {
+    "direction_and_general_entailment_cases": 21,
+    "results": [
+      {
+        "case": "IE reverse",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "allow-empty",
+        "valid": true
+      },
+      {
+        "case": "IE forward",
+        "countermodel_size": 1,
+        "countermodel_support": 64,
+        "policy": "allow-empty",
+        "valid": false
+      },
+      {
+        "case": "EI forward",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "allow-empty",
+        "valid": true
+      },
+      {
+        "case": "EI reverse",
+        "countermodel_size": 1,
+        "countermodel_support": 8,
+        "policy": "allow-empty",
+        "valid": false
+      },
+      {
+        "case": "O nonconversion",
+        "countermodel_size": 1,
+        "countermodel_support": 16,
+        "policy": "allow-empty",
+        "valid": false
+      },
+      {
+        "case": "vacuity",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "allow-empty",
+        "valid": true
+      },
+      {
+        "case": "empty premises tautology",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "allow-empty",
+        "valid": true
+      },
+      {
+        "case": "IE reverse",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "all-nonempty",
+        "valid": true
+      },
+      {
+        "case": "IE forward",
+        "countermodel_size": 2,
+        "countermodel_support": 96,
+        "policy": "all-nonempty",
+        "valid": false
+      },
+      {
+        "case": "EI forward",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "all-nonempty",
+        "valid": true
+      },
+      {
+        "case": "EI reverse",
+        "countermodel_size": 2,
+        "countermodel_support": 40,
+        "policy": "all-nonempty",
+        "valid": false
+      },
+      {
+        "case": "O nonconversion",
+        "countermodel_size": 2,
+        "countermodel_support": 96,
+        "policy": "all-nonempty",
+        "valid": false
+      },
+      {
+        "case": "vacuity",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "all-nonempty",
+        "valid": true
+      },
+      {
+        "case": "empty premises tautology",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "all-nonempty",
+        "valid": true
+      },
+      {
+        "case": "IE reverse",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "subject-nonempty",
+        "valid": true
+      },
+      {
+        "case": "IE forward",
+        "countermodel_size": 2,
+        "countermodel_support": 96,
+        "policy": "subject-nonempty",
+        "valid": false
+      },
+      {
+        "case": "EI forward",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "subject-nonempty",
+        "valid": true
+      },
+      {
+        "case": "EI reverse",
+        "countermodel_size": 1,
+        "countermodel_support": 8,
+        "policy": "subject-nonempty",
+        "valid": false
+      },
+      {
+        "case": "O nonconversion",
+        "countermodel_size": 2,
+        "countermodel_support": 48,
+        "policy": "subject-nonempty",
+        "valid": false
+      },
+      {
+        "case": "vacuity",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "subject-nonempty",
+        "valid": true
+      },
+      {
+        "case": "empty premises tautology",
+        "countermodel_size": null,
+        "countermodel_support": null,
+        "policy": "subject-nonempty",
+        "valid": true
+      }
+    ]
+  },
+  "hash_seed": "0",
+  "implementation": "CPython",
+  "invalid_inputs": {
+    "expected_exception_counts": {
+      "TypeError": 103,
+      "ValueError": 84
+    },
+    "invalid_input_calls": 187
+  },
+  "mutations": {
+    "detected": 13,
+    "survivors": 0,
+    "targeted_variants": 13,
+    "unexpected_errors": 0,
+    "variants": [
+      {
+        "evidence": "atom truth 2 ('O', 'S', 'P'): actual=False, expected=True",
+        "name": "O_converted_to_I",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "atom truth 1 ('E', 'P', 'P'): actual=False, expected=True",
+        "name": "E_mistakenly_same_as_I",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "atom truth 1 ('A', 'P', 'P'): actual=False, expected=True",
+        "name": "A_given_existential_import",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "complete minimum-size ordering subject-nonempty: actual=[16, 32, 64, 128, 17, 18, 20, 24, 33, 34, 36, 40, 48, 65, 66, 68, 72, 80, 96, 129, 130, 132, 136, 144, 160, 192, 19, 21, 22, 25, 26, 28, 35, 37, 38, 41, 42, 44, 49, 50, 52, 56, 67, 69, 70, 73, 74, 76, 81, 82, 84, 88, 97, 98, 100, 104, 112, 131, 133, 134, 137, 138, 140, 145, 146, 148, 152, 161, 162, 164, 168, 176, 193, 194, 196, 200, 208, 224, 23, 27, 29, 30, 39, 43, 45, 46, 51, 53, 54, 57, 58, 60, 71, 75, 77, 78, 83, 85, 86, 89, 90, 92, 99, 101, 102, 105, 106, 108, 113, 114, 116, 120, 135, 139, 141, 142, 147, 149, 150, 153, 154, 156, 163, 165, 166, 169, 170, 172, 177, 178, 180, 184, 195, 197, 198, 201, 202, 204, 209, 210, 212, 216, 225, 226, 228, 232, 240, 31, 47, 55, 59, 61, 62, 79, 87, 91, 93, 94, 103, 107, 109, 110, 115, 117, 118, 121, 122, 124, 143, 151, 155, 157, 158, 167, 171, 173, 174, 179, 181, 182, 185, 186, 188, 199, 203, 205, 206, 211, 213, 214, 217, 218, 220, 227, 229, 230, 233, 234, 236, 241, 242, 244, 248, 63, 95, 111, 119, 123, 125, 126, 159, 175, 183, 187, 189, 190, 207, 215, 219, 221, 222, 231, 235, 237, 238, 243, 245, 246, 249, 250, 252, 127, 191, 223, 239, 247, 251, 253, 254, 255], expected=[2, 8, 32, 128, 3, 6, 9, 10, 12, 18, 24, 33, 34, 36, 40, 48, 66, 72, 96, 129, 130, 132, 136, 144, 160, 192, 7, 11, 13, 14, 19, 22, 25, 26, 28, 35, 37, 38, 41, 42, 44, 49, 50, 52, 56, 67, 70, 73, 74, 76, 82, 88, 97, 98, 100, 104, 112, 131, 133, 134, 137, 138, 140, 145, 146, 148, 152, 161, 162, 164, 168, 176, 193, 194, 196, 200, 208, 224, 15, 23, 27, 29, 30, 39, 43, 45, 46, 51, 53, 54, 57, 58, 60, 71, 75, 77, 78, 83, 86, 89, 90, 92, 99, 101, 102, 105, 106, 108, 113, 114, 116, 120, 135, 139, 141, 142, 147, 149, 150, 153, 154, 156, 163, 165, 166, 169, 170, 172, 177, 178, 180, 184, 195, 197, 198, 201, 202, 204, 209, 210, 212, 216, 225, 226, 228, 232, 240, 31, 47, 55, 59, 61, 62, 79, 87, 91, 93, 94, 103, 107, 109, 110, 115, 117, 118, 121, 122, 124, 143, 151, 155, 157, 158, 167, 171, 173, 174, 179, 181, 182, 185, 186, 188, 199, 203, 205, 206, 211, 213, 214, 217, 218, 220, 227, 229, 230, 233, 234, 236, 241, 242, 244, 248, 63, 95, 111, 119, 123, 125, 126, 159, 175, 183, 187, 189, 190, 207, 215, 219, 221, 222, 231, 235, 237, 238, 243, 245, 246, 249, 250, 252, 127, 191, 223, 239, 247, 251, 253, 254, 255]",
+        "name": "S_policy_checks_P",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "complete minimum-size ordering all-nonempty: actual=[1, 2, 4, 8, 16, 32, 64, 128, 3, 5, 6, 9, 10, 12, 17, 18, 20, 24, 33, 34, 36, 40, 48, 65, 66, 68, 72, 80, 96, 129, 130, 132, 136, 144, 160, 192, 7, 11, 13, 14, 19, 21, 22, 25, 26, 28, 35, 37, 38, 41, 42, 44, 49, 50, 52, 56, 67, 69, 70, 73, 74, 76, 81, 82, 84, 88, 97, 98, 100, 104, 112, 131, 133, 134, 137, 138, 140, 145, 146, 148, 152, 161, 162, 164, 168, 176, 193, 194, 196, 200, 208, 224, 15, 23, 27, 29, 30, 39, 43, 45, 46, 51, 53, 54, 57, 58, 60, 71, 75, 77, 78, 83, 85, 86, 89, 90, 92, 99, 101, 102, 105, 106, 108, 113, 114, 116, 120, 135, 139, 141, 142, 147, 149, 150, 153, 154, 156, 163, 165, 166, 169, 170, 172, 177, 178, 180, 184, 195, 197, 198, 201, 202, 204, 209, 210, 212, 216, 225, 226, 228, 232, 240, 31, 47, 55, 59, 61, 62, 79, 87, 91, 93, 94, 103, 107, 109, 110, 115, 117, 118, 121, 122, 124, 143, 151, 155, 157, 158, 167, 171, 173, 174, 179, 181, 182, 185, 186, 188, 199, 203, 205, 206, 211, 213, 214, 217, 218, 220, 227, 229, 230, 233, 234, 236, 241, 242, 244, 248, 63, 95, 111, 119, 123, 125, 126, 159, 175, 183, 187, 189, 190, 207, 215, 219, 221, 222, 231, 235, 237, 238, 243, 245, 246, 249, 250, 252, 127, 191, 223, 239, 247, 251, 253, 254, 255], expected=[128, 24, 36, 40, 66, 72, 96, 129, 130, 132, 136, 144, 160, 192, 22, 25, 26, 28, 37, 38, 41, 42, 44, 52, 56, 67, 70, 73, 74, 76, 82, 88, 97, 98, 100, 104, 112, 131, 133, 134, 137, 138, 140, 145, 146, 148, 152, 161, 162, 164, 168, 176, 193, 194, 196, 200, 208, 224, 23, 27, 29, 30, 39, 43, 45, 46, 53, 54, 57, 58, 60, 71, 75, 77, 78, 83, 86, 89, 90, 92, 99, 101, 102, 105, 106, 108, 113, 114, 116, 120, 135, 139, 141, 142, 147, 149, 150, 153, 154, 156, 163, 165, 166, 169, 170, 172, 177, 178, 180, 184, 195, 197, 198, 201, 202, 204, 209, 210, 212, 216, 225, 226, 228, 232, 240, 31, 47, 55, 59, 61, 62, 79, 87, 91, 93, 94, 103, 107, 109, 110, 115, 117, 118, 121, 122, 124, 143, 151, 155, 157, 158, 167, 171, 173, 174, 179, 181, 182, 185, 186, 188, 199, 203, 205, 206, 211, 213, 214, 217, 218, 220, 227, 229, 230, 233, 234, 236, 241, 242, 244, 248, 63, 95, 111, 119, 123, 125, 126, 159, 175, 183, 187, 189, 190, 207, 215, 219, 221, 222, 231, 235, 237, 238, 243, 245, 246, 249, 250, 252, 127, 191, 223, 239, 247, 251, 253, 254, 255]",
+        "name": "all_nonempty_policy_ignored",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "allow-empty IIE minimum cardinality and numeric tie-break: actual=104, expected=128",
+        "name": "numeric_not_cardinality_order",
+        "outcome": "detected",
+        "probe": "classification"
+      },
+      {
+        "evidence": "allow-empty AAA conclusion identity: actual=('A', 'P', 'S'), expected=('A', 'S', 'P')",
+        "name": "second_figure_conclusion_reversed",
+        "outcome": "detected",
+        "probe": "classification"
+      },
+      {
+        "evidence": "allow-empty AAA validity: actual=True, expected=False",
+        "name": "first_premise_reversed",
+        "outcome": "detected",
+        "probe": "classification"
+      },
+      {
+        "evidence": "allow-empty AAA minimum cardinality and numeric tie-break: actual=205, expected=8",
+        "name": "last_witness_not_first",
+        "outcome": "detected",
+        "probe": "classification"
+      },
+      {
+        "evidence": "allow-empty AAA premise count: actual=32, expected=31",
+        "name": "premise_count_off_by_one",
+        "outcome": "detected",
+        "probe": "classification"
+      },
+      {
+        "evidence": "occupied atoms 1: actual=(), expected=(0,)",
+        "name": "outside_all_atom_dropped",
+        "outcome": "detected",
+        "probe": "semantics"
+      },
+      {
+        "evidence": "occupied_atoms type: did not reject invalid input with TypeError",
+        "name": "boolean_mask_accepted",
+        "outcome": "detected",
+        "probe": "invalid_inputs"
+      },
+      {
+        "evidence": "labeled finite model compression: actual=2, expected=1",
+        "name": "compression_multiplicity_not_erased",
+        "outcome": "detected",
+        "probe": "compression"
+      }
+    ]
+  },
+  "optimization": 1,
+  "oracle_basis": "all nonempty combinations of eight literal membership tuples; direct set algebra",
+  "python": "3.12.14",
+  "reports": {
+    "generated_artifact_byte_checks": 2,
+    "published_json_mood_rows_checked": 192,
+    "published_json_reversal_rows_checked": 6,
+    "published_markdown_rows_checked": 48
+  },
+  "reviewed_sha256": {
+    "REPORT.md": "bd08ddad0e50265f125043a697943c841a3db4c8e6268b0a90f4acd7ce692a51",
+    "report.json": "12e0bfacd4a7dd412e888c6684f5b4949772ffcdc440667f05701b36e2e81eaf",
+    "second_figure.py": "0381ae2f863818f3e318e27f16a1f362c553e0ef92c7502a5465f9fd2ae6d930",
+    "test_second_figure.py": "652443c9cf06e2dd3f8acc462827deb39df038186fe93b7d7975c0f3a87f1698"
+  },
+  "semantics": {
+    "atomic_cases": 9180,
+    "extension_cases": 765,
+    "occupied_support_cases": 255,
+    "policy_membership_cases": 765,
+    "truth_function_comparisons": 18360
+  },
+  "status": "PASS"
+}
