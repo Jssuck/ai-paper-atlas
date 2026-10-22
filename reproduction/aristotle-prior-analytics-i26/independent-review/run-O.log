@@ -1,0 +1,30 @@
+python3 -O independent-review/check.py
+exit=0
+python3 -O -m unittest -v test_model
+test_all_figures_distinct (test_model.TestModel.test_all_figures_distinct) ... ok
+test_bad_kind_term (test_model.TestModel.test_bad_kind_term) ... ok
+test_bad_models (test_model.TestModel.test_bad_models) ... ok
+test_bad_policy (test_model.TestModel.test_bad_policy) ... ok
+test_bad_routes (test_model.TestModel.test_bad_routes) ... ok
+test_bad_search (test_model.TestModel.test_bad_search) ... ok
+test_canonical_counts (test_model.TestModel.test_canonical_counts) ... ok
+test_canonical_valid (test_model.TestModel.test_canonical_valid) ... ok
+test_classification (test_model.TestModel.test_classification) ... ok
+test_contradictions (test_model.TestModel.test_contradictions) ... ok
+test_empty_subject (test_model.TestModel.test_empty_subject) ... ok
+test_existential_import (test_model.TestModel.test_existential_import) ... ok
+test_extra_weakening (test_model.TestModel.test_extra_weakening) ... ok
+test_population (test_model.TestModel.test_population) ... ok
+test_refutation_strong (test_model.TestModel.test_refutation_strong) ... ok
+test_reverse_subaltern_fails (test_model.TestModel.test_reverse_subaltern_fails) ... ok
+test_search_cost (test_model.TestModel.test_search_cost) ... ok
+test_subalternation (test_model.TestModel.test_subalternation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.787s
+
+OK
+exit=0
+python3 -O run_examples.py
+exit=0
+exact_json_match_exit=0

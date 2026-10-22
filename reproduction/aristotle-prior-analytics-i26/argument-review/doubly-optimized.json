@@ -1,0 +1,149 @@
+{
+  "models": 255,
+  "nonempty_models": 218,
+  "figure_model_evaluations": 90816,
+  "valid": {
+    "empty_allowed": [
+      [
+        1,
+        "AAA"
+      ],
+      [
+        1,
+        "AII"
+      ],
+      [
+        1,
+        "EAE"
+      ],
+      [
+        1,
+        "EIO"
+      ],
+      [
+        2,
+        "AEE"
+      ],
+      [
+        2,
+        "AOO"
+      ],
+      [
+        2,
+        "EAE"
+      ],
+      [
+        2,
+        "EIO"
+      ],
+      [
+        3,
+        "AII"
+      ],
+      [
+        3,
+        "EIO"
+      ],
+      [
+        3,
+        "IAI"
+      ],
+      [
+        3,
+        "OAO"
+      ]
+    ],
+    "all_terms_nonempty": [
+      [
+        1,
+        "AAA"
+      ],
+      [
+        1,
+        "AAI"
+      ],
+      [
+        1,
+        "AII"
+      ],
+      [
+        1,
+        "EAE"
+      ],
+      [
+        1,
+        "EAO"
+      ],
+      [
+        1,
+        "EIO"
+      ],
+      [
+        2,
+        "AEE"
+      ],
+      [
+        2,
+        "AEO"
+      ],
+      [
+        2,
+        "AOO"
+      ],
+      [
+        2,
+        "EAE"
+      ],
+      [
+        2,
+        "EAO"
+      ],
+      [
+        2,
+        "EIO"
+      ],
+      [
+        3,
+        "AAI"
+      ],
+      [
+        3,
+        "AII"
+      ],
+      [
+        3,
+        "EAO"
+      ],
+      [
+        3,
+        "EIO"
+      ],
+      [
+        3,
+        "IAI"
+      ],
+      [
+        3,
+        "OAO"
+      ]
+    ]
+  },
+  "canonical_counts": {
+    "A": 1,
+    "E": 3,
+    "I": 4,
+    "O": 6
+  },
+  "nonempty_counts": {
+    "A": 1,
+    "E": 3,
+    "I": 5,
+    "O": 9
+  },
+  "contradiction_checks": 1020,
+  "conditional_weakening_checks": 480,
+  "explicit_example_claims": 14,
+  "exact_probability_checks": 35,
+  "duplicate_type_comparisons": 9180,
+  "status": "PASS"
+}

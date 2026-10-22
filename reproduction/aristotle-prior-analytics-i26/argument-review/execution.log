@@ -1,0 +1,2 @@
+Commands: python check_arguments.py; python -O check_arguments.py; python -OO check_arguments.py
+All exited 0; both output comparisons exited 0.

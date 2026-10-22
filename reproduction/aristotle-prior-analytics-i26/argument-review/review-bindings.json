@@ -1,0 +1,13 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i26.zh-CN.md": "8759f6ddceb9da1b027d5b2cdbaa13e4e1f6c05225edc59050eda205a53553ab",
+    "papers/ancient/aristotle-prior-analytics-i26.audit.zh-CN.md": "a25dec946e02c59445b8c6b4b91d0fc9e2e5111875dab23df6acfe8eea390e5d",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/check_arguments.py": "cb6c76a924305f3507055962c3fe9314037e55ce15dffc44e154cf4f0b18e43c",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/doubly-optimized.json": "8bf19facef5cf863b86effe25c2188728ce53c30efe98e0a0f3618cfb375fc43",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/environment.txt": "4c3569f5da09975434dd9fd9a91fadbc4367a91d8f3c3fab59e9241ab9ee4bd8",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/execution.log": "c3652448c489c7385545f9edc978993f1a33a4c5266f2ddf82c9e6962a0da7a2",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/normal.json": "8bf19facef5cf863b86effe25c2188728ce53c30efe98e0a0f3618cfb375fc43",
+    "reproduction/aristotle-prior-analytics-i26/argument-review/optimized.json": "8bf19facef5cf863b86effe25c2188728ce53c30efe98e0a0f3618cfb375fc43"
+  }
+}

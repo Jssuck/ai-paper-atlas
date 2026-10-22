@@ -3,51 +3,20 @@
   "status": "in_progress",
   "active_paper": {
     "id": "aristotle-prior-analytics-i26",
-    "stage": "research",
-    "started_at": "2026-10-22T10:35:30Z"
+    "stage": "publication_verification",
+    "updated_at": "2026-10-22T10:50:10Z"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-i25",
-    "path": "papers/ancient/aristotle-prior-analytics-i25.zh-CN.md",
-    "completed_at": "2026-10-22T09:52:20Z",
-    "content_commit": "f1ca42439fbcefe11e7e57f820a97e7476607243",
-    "checks": [
-      "Full Bekker41b36-42b26 and Owen1853 pp140-142 with eleven numbered notes, marginal notes and applicable ERRATA examined; independent source review; A/D note discrepancy retained.",
-      "General chain-counting, insertion reclassification, proof-tree and edge-necessity arguments independently reviewed; induction wording corrected; 20 answered exercises checked.",
-      "Author normal/-O/-OO each20 tests; independent code each65536 directed graphs,544320 certificate-target checks,22 chain sizes,197 tree shapes and12 invalid inputs; independent argument each39 sizes,780 insertions and2056 tree shapes.",
-      "All37 publication files exact UTF-8 verified;475 relative links checked;2737 unrelated blobs preserved.",
-      "GitHub Preview all3 MathML blocks visually inspected with no rendering errors; README/paper/reproduction href targets opened and verified."
-    ]
+    "stage": "completed",
+    "updated_at": "2026-10-22T09:52:20Z"
   },
-  "updated_at": "2026-10-22T10:35:30Z",
-  "policy": {
-    "one_active_paper": true,
-    "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
-    "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
-    "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
-  },
-  "next_action": "Read and independently review I.26 only; preserve deferred I.2.",
-  "last_quality_correction": {
-    "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
-    "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
-    "content_commit": "70c20020d02f015ebc28cc840d49d4faed9fa2f9",
-    "checks": "Corrected three prose paragraphs and incrementally rebound three audit records after verifying Berkeley 1710 formal ERRATA applies to §10; the insertion is not 1734-only. Original Locke mathematical/code sections, execution logs, and prior review history preserved. Included in exact-byte remote verification and actual GitHub browser review."
-  },
-  "quality_correction_history": [
-    {
-      "id": "condillac-1780-logic-part1-ch1-erratum",
-      "path": "papers/1780/condillac-logic-part1-ch1.erratum-2026-10-11.json",
-      "content_commit": "0248ab2da5c13e6f844f258eadebcdc8958bd878",
-      "checks": "1798 XXIII p.486/PDF492 official edition-printed erratum independently verified, including live PDF pixels. Eight exact remote files and all unrelated blobs verified; five changed Markdown previews checked. Main/audit 86 unchanged mathematical expressions render. Historical records preserved. No new source unit or code changes."
-    }
-  ],
   "deferred_papers": [
     {
       "id": "aristotle-prior-analytics-i2",
-      "path": "papers/ancient/aristotle-prior-analytics-i2.zh-CN.md",
-      "status": "deferred_not_completed",
       "stage": "publication_deferred",
       "updated_at": "2026-10-21T10:42:00Z"
     }
-  ]
+  ],
+  "updated_at": "2026-10-22T10:50:10Z"
 }

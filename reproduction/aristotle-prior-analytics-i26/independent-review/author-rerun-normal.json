@@ -1,0 +1,234 @@
+{
+  "models_empty_allowed": 255,
+  "models_all_terms_nonempty": 218,
+  "canonical_routes": [
+    [
+      1,
+      "AAA"
+    ],
+    [
+      1,
+      "EAE"
+    ],
+    [
+      1,
+      "AII"
+    ],
+    [
+      1,
+      "EIO"
+    ],
+    [
+      2,
+      "EAE"
+    ],
+    [
+      2,
+      "AEE"
+    ],
+    [
+      2,
+      "EIO"
+    ],
+    [
+      2,
+      "AOO"
+    ],
+    [
+      3,
+      "AAI"
+    ],
+    [
+      3,
+      "IAI"
+    ],
+    [
+      3,
+      "AII"
+    ],
+    [
+      3,
+      "EAO"
+    ],
+    [
+      3,
+      "OAO"
+    ],
+    [
+      3,
+      "EIO"
+    ]
+  ],
+  "canonical_counts": {
+    "A": 1,
+    "E": 3,
+    "I": 4,
+    "O": 6
+  },
+  "valid_empty_allowed": [
+    [
+      1,
+      "AAA"
+    ],
+    [
+      1,
+      "AII"
+    ],
+    [
+      1,
+      "EAE"
+    ],
+    [
+      1,
+      "EIO"
+    ],
+    [
+      2,
+      "AEE"
+    ],
+    [
+      2,
+      "AOO"
+    ],
+    [
+      2,
+      "EAE"
+    ],
+    [
+      2,
+      "EIO"
+    ],
+    [
+      3,
+      "AII"
+    ],
+    [
+      3,
+      "EIO"
+    ],
+    [
+      3,
+      "IAI"
+    ],
+    [
+      3,
+      "OAO"
+    ]
+  ],
+  "valid_nonempty": [
+    [
+      1,
+      "AAA"
+    ],
+    [
+      1,
+      "AAI"
+    ],
+    [
+      1,
+      "AII"
+    ],
+    [
+      1,
+      "EAE"
+    ],
+    [
+      1,
+      "EAO"
+    ],
+    [
+      1,
+      "EIO"
+    ],
+    [
+      2,
+      "AEE"
+    ],
+    [
+      2,
+      "AEO"
+    ],
+    [
+      2,
+      "AOO"
+    ],
+    [
+      2,
+      "EAE"
+    ],
+    [
+      2,
+      "EAO"
+    ],
+    [
+      2,
+      "EIO"
+    ],
+    [
+      3,
+      "AAI"
+    ],
+    [
+      3,
+      "AII"
+    ],
+    [
+      3,
+      "EAO"
+    ],
+    [
+      3,
+      "EIO"
+    ],
+    [
+      3,
+      "IAI"
+    ],
+    [
+      3,
+      "OAO"
+    ]
+  ],
+  "contradiction_checks": 1020,
+  "nonempty_subject_subalternation_checks": 480,
+  "empty_subject": {
+    "A": true,
+    "E": true,
+    "I": false,
+    "O": false
+  },
+  "search_scenario_A_easy_O_late": [
+    {
+      "target": "A",
+      "inspections": 1,
+      "found": [
+        1,
+        "AAA"
+      ]
+    },
+    {
+      "target": "O",
+      "inspections": 6,
+      "found": [
+        3,
+        "EIO"
+      ]
+    }
+  ],
+  "search_scenario_A_missing_O_first": [
+    {
+      "target": "A",
+      "inspections": 1,
+      "found": null
+    },
+    {
+      "target": "O",
+      "inspections": 1,
+      "found": [
+        1,
+        "EIO"
+      ]
+    }
+  ],
+  "scope": "Finite teaching enumeration; canonical inventory is declared, not mechanically derived historical truth. Search counts candidate inspections only."
+}
