@@ -37,11 +37,13 @@
 
 补充复核：正文第4节明定E(X,Y)为不相交，第5节取消A既指动物类又指命题形式的重载，改用明确中文全称肯定关系；两处澄清保持原文/教学语义界限，来源结论不变。
 
+排版复核：第4节三个索引名称改用直立字体宏，集合括号改用可渲染形式；包含方向、排斥定义、变量及量词语义不变，来源结论保持通过。实际远端显示须另行核验。
+
 ## 受审版本绑定
 
 以下SHA-256对应本次交叉核对后的正文与来源台账。任一文件修改后应复核变更并重绑。
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `aristotle-prior-analytics-i27.zh-CN.md` | `7fc64501197b8e367a93c99334ce5817e37898280143c47a1a5ccf9796707276` |
+| `aristotle-prior-analytics-i27.zh-CN.md` | `41eae04a8ec0bbc1803e114221dad5fc9dbce9e289885045309969cb42fe84ac` |
 | `aristotle-prior-analytics-i27.sources.zh-CN.md` | `554b460caf2cb5d1beaa63aff738a8a11d7ffa182ea52ea151f9c1a47a6d8c73` |

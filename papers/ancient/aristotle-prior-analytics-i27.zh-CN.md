@@ -46,9 +46,9 @@ I.26刚按目标类型比较了证明路线的多寡。I.27却没有继续增加
 
 $$
 \begin{aligned}
- \operatorname{Sup}(X)&=\{Y\mid X\subseteq Y\},\\
- \operatorname{Sub}(X)&=\{Y\mid Y\subseteq X\},\\
- \operatorname{Excl}(X)&=\{Y\mid X\cap Y=\varnothing\}.
+ \mathrm{Sup}(X)&=\lbrace Y\mid X\subseteq Y\rbrace,\\
+ \mathrm{Sub}(X)&=\lbrace Y\mid Y\subseteq X\rbrace,\\
+ \mathrm{Excl}(X)&=\lbrace Y\mid X\cap Y=\varnothing\rbrace.
 \end{aligned}
 $$
 
