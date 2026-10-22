@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-22T20:43:51.293975+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "dependencies": "standard library",
+  "commands": [
+    {
+      "command": "python3 -m unittest -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 independent_audit.py",
+      "exit_code": 0,
+      "output": "normal.json"
+    },
+    {
+      "command": "python3 -O -m unittest -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O independent_audit.py",
+      "exit_code": 0,
+      "output": "optimized.json"
+    },
+    {
+      "command": "python3 -OO -m unittest -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -OO independent_audit.py",
+      "exit_code": 0,
+      "output": "double-optimized.json"
+    }
+  ]
+}

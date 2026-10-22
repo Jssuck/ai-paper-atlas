@@ -1,0 +1,17 @@
+{
+  "countermodels": {
+    "having_genus_not_being_genus": true,
+    "irreflexive_not_class_exclusion": true,
+    "monotonicity_converse_fails": true,
+    "noninclusion_not_disjoint": true,
+    "projection_intersection_converse_fails": true,
+    "projection_not_identity": true,
+    "relation_not_symmetric": true,
+    "separate_not_common_witness": true
+  },
+  "general_claim_instances": 12856,
+  "models": 4112,
+  "rejected_inputs": 24,
+  "semantic_comparisons": 423280,
+  "true_rule_instances": 401796
+}

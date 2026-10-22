@@ -45,6 +45,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.33精读](papers/ancient/aristotle-prior-analytics-i33.zh-CN.md) | AI推理前史补读：全称覆盖、同一指称与限定保持 | 深读v1 · 完整47b15–40前部及有限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.34精读](papers/ancient/aristotle-prior-analytics-i34.zh-CN.md) | AI推理前史补读：状态与承载者、可能性范围与列项检查 | 深读v1 · 完整47b40后部–48a28及有限情境核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.35精读](papers/ancient/aristotle-prior-analytics-i35.zh-CN.md) | AI推理前史补读：名称与复合项、搜索覆盖与证明根据 | 深读v1 · 完整48a29–39及有限证书核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.36精读](papers/ancient/aristotle-prior-analytics-i36.zh-CN.md) | AI推理前史补读：名词归一、关系槽位与否定强度 | 深读v1 · 完整48a40–49a5及有限关系核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -819,3 +820,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Aristotle I.35：没有专名不等于没有中项
 
 新增[《前分析篇》I.35深读](papers/ancient/aristotle-prior-analytics-i35.zh-CN.md)，完整48a29–39、Owen印160正文与注3–7、相关校记及正式勘误范围。区分应用定理与证明定理、命名与根据、候选表失败与无中项；逐步重建复合项包含与欧氏角和代换，附20题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i35.sources.zh-CN.md)、[独立来源审查](papers/ancient/aristotle-prior-analytics-i35.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i35/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i35/math-code-audit.zh-CN.md)分别提供证据。两个现代核验器不构成完整几何证明器，有限测试不证明一般定理或唯一古代解释；Euclid仅后出比较，I.36与全书不计本篇完成，I.2继续暂缓。
+
+## Aristotle I.36：项名可以归一，关系不能抹掉
+
+新增[《前分析篇》I.36深读](papers/ancient/aristotle-prior-analytics-i36.zh-CN.md)，完整48a40–49a5、Owen印160–162及九条本章注、Jenkinson适用校订与正式勘误范围。区分关于善的知识与善是知识、有属与是属，逐步重建存在见证、投影性质与否定推理，限制神例为非包含而非不交，附20题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i36.sources.zh-CN.md)、[独立来源审查](papers/ancient/aristotle-prior-analytics-i36.source-audit.zh-CN.md)、[教学代码及真实日志](reproduction/aristotle-prior-analytics-i36/README.md)和[独立数学代码核验](reproduction/aristotle-prior-analytics-i36/math-code-audit.zh-CN.md)分工给出证据。关系模型不做自然语言解析，有限检查不证明一般定理或唯一历史解释；I.37与全书不计本篇完成，I.2继续暂缓。

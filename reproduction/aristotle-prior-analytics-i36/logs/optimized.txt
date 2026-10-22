@@ -1,0 +1,41 @@
+UTC 2026-10-22T20:39:38.411648+00:00
+$ python3 -O -m unittest -v
+test_certificate_forgery (test_model.Tests.test_certificate_forgery) ... ok
+test_certificate_refs (test_model.Tests.test_certificate_refs) ... ok
+test_difference (test_model.Tests.test_difference) ... ok
+test_empty_classes (test_model.Tests.test_empty_classes) ... ok
+test_expression_validation (test_model.Tests.test_expression_validation) ... ok
+test_fact_validation (test_model.Tests.test_fact_validation) ... ok
+test_having_vs_being (test_model.Tests.test_having_vs_being) ... ok
+test_mismatches (test_model.Tests.test_mismatches) ... ok
+test_model_validation (test_model.Tests.test_model_validation) ... ok
+test_negative (test_model.Tests.test_negative) ... ok
+test_transitive (test_model.Tests.test_transitive) ... ok
+test_unknown_interpretation (test_model.Tests.test_unknown_interpretation) ... ok
+test_wisdom (test_model.Tests.test_wisdom) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK
+exit_code=0
+$ python3 -O verify.py
+{
+  "countermodels": {
+    "difference_not_disjoint": true,
+    "forall_exists_not_exists_forall": true,
+    "having_genus_not_being_genus": true,
+    "projection_not_identity": true,
+    "relation_not_symmetric": true
+  },
+  "models": 1024,
+  "semantic_comparisons": 139264,
+  "true_premise_rule_instances": {
+    "difference": 13248,
+    "exclude": 10176,
+    "instantiate": 18240,
+    "project": 6336,
+    "transitive": 98604
+  }
+}
+exit_code=0
