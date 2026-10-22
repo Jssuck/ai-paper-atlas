@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform_system": "Linux",
+  "platform_machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "commands": [
+    "sh run_all.sh",
+    "python3 -m unittest -v test_model.py",
+    "python3 run_checks.py"
+  ],
+  "finite_model_scope": "Nonempty integer domain, nonempty finite universally accessible worlds, actual world included; empty term extensions allowed."
+}

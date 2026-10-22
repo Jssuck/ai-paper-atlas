@@ -1,0 +1,284 @@
+{
+  "audit_sha256": "7de483f9a715c5cc0088ef6b53a87d9e463b16d75ac11de0d9667751d6745f09",
+  "author_rerun": {
+    "enumeration": {
+      "by_size": [
+        {
+          "designated_configurations": 8,
+          "objects": 1,
+          "worlds": 1
+        },
+        {
+          "designated_configurations": 128,
+          "objects": 1,
+          "worlds": 2
+        },
+        {
+          "designated_configurations": 1536,
+          "objects": 1,
+          "worlds": 3
+        },
+        {
+          "designated_configurations": 64,
+          "objects": 2,
+          "worlds": 1
+        },
+        {
+          "designated_configurations": 8192,
+          "objects": 2,
+          "worlds": 2
+        }
+      ],
+      "totals": {
+        "affirmative_mismatch_premises": 2356,
+        "configurations": 9928,
+        "negative_particular_premises": 1456,
+        "negative_universal_premises": 2356,
+        "nonempty_all_actual_terms": 3692,
+        "reverse_particular_premises": 1456,
+        "reverse_universal_premises": 2356
+      }
+    },
+    "enumeration_exact_json_match": true,
+    "manifest_entries_verified": 10,
+    "unit_test_output": "test_actual_not_zero (test_model.ModelTests.test_actual_not_zero) ... ok\ntest_actual_validation (test_model.ModelTests.test_actual_validation) ... ok\ntest_awake_semantics_difference (test_model.ModelTests.test_awake_semantics_difference) ... ok\ntest_basic_four_forms (test_model.ModelTests.test_basic_four_forms) ... ok\ntest_box_negative_insufficient (test_model.ModelTests.test_box_negative_insufficient) ... ok\ntest_conversion_failure (test_model.ModelTests.test_conversion_failure) ... ok\ntest_copy_and_freeze (test_model.ModelTests.test_copy_and_freeze) ... ok\ntest_domain_validation (test_model.ModelTests.test_domain_validation) ... ok\ntest_empty_terms (test_model.ModelTests.test_empty_terms) ... ok\ntest_one_world_contingency (test_model.ModelTests.test_one_world_contingency) ... ok\ntest_particular_necessary_witness_order (test_model.ModelTests.test_particular_necessary_witness_order) ... ok\ntest_particular_negative_insufficient (test_model.ModelTests.test_particular_negative_insufficient) ... ok\ntest_query_validation (test_model.ModelTests.test_query_validation) ... ok\ntest_reverse_particular (test_model.ModelTests.test_reverse_particular) ... ok\ntest_weak_not_necessary (test_model.ModelTests.test_weak_not_necessary) ... ok\ntest_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok\ntest_world_validation (test_model.ModelTests.test_world_validation) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.003s\n\nOK\n",
+    "unit_tests": 17
+  },
+  "invalid_input_cases": 69,
+  "optimization": 1,
+  "oracle": {
+    "by_size": [
+      {
+        "configurations": 8,
+        "objects": 1,
+        "worlds": 1
+      },
+      {
+        "configurations": 128,
+        "objects": 1,
+        "worlds": 2
+      },
+      {
+        "configurations": 1536,
+        "objects": 1,
+        "worlds": 3
+      },
+      {
+        "configurations": 64,
+        "objects": 2,
+        "worlds": 1
+      },
+      {
+        "configurations": 8192,
+        "objects": 2,
+        "worlds": 2
+      }
+    ],
+    "comparisons": 1787040,
+    "configurations": 9928,
+    "semantic_mutants_detected": {
+      "Box_as_N": {
+        "actual": 0,
+        "expected": false,
+        "mutated": true,
+        "n": 1,
+        "query": [
+          "Box",
+          "a",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "C_as_P": {
+        "actual": 0,
+        "expected": false,
+        "mutated": true,
+        "n": 1,
+        "query": [
+          "C",
+          "a",
+          "C",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "N_as_Box": {
+        "actual": 0,
+        "expected": true,
+        "mutated": false,
+        "n": 1,
+        "query": [
+          "N",
+          "a",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "P_as_N": {
+        "actual": 1,
+        "expected": true,
+        "mutated": false,
+        "n": 1,
+        "query": [
+          "P",
+          "a",
+          "C",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "actual_zero": {
+        "actual": 1,
+        "expected": false,
+        "mutated": true,
+        "n": 1,
+        "query": [
+          "D",
+          "a",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "e_as_a": {
+        "actual": 0,
+        "expected": true,
+        "mutated": false,
+        "n": 1,
+        "query": [
+          "D",
+          "e",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "i_as_a": {
+        "actual": 0,
+        "expected": false,
+        "mutated": true,
+        "n": 1,
+        "query": [
+          "D",
+          "i",
+          "A",
+          "A"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          }
+        ]
+      },
+      "o_as_i": {
+        "actual": 0,
+        "expected": true,
+        "mutated": false,
+        "n": 1,
+        "query": [
+          "D",
+          "o",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      },
+      "swap_terms": {
+        "actual": 0,
+        "expected": false,
+        "mutated": true,
+        "n": 1,
+        "query": [
+          "D",
+          "a",
+          "A",
+          "C"
+        ],
+        "rows": [
+          {
+            "A": 0,
+            "B": 0,
+            "C": 1
+          }
+        ]
+      }
+    }
+  },
+  "python": "3.12.14",
+  "scope": "Independent bounded implementation audit; not a general theorem or historical semantics proof.",
+  "source_sha256": {
+    "README.md": "61857803bbca284173cd1fe4bcff208ad4a73394071e88c4f3ec53c7948c4f1a",
+    "examples.py": "4aeb2ce2db4041da737e4d1035e8c34bb41dbe9f358473d01cebb996d7b90fe8",
+    "manifest.json": "a3e7b55b3e55d562dea429513ce2d3c63c35809361b66fba9bdf1f993e2afa83",
+    "modal_model.py": "f9241164c68c3d40c2f6d52f0736e12f0ffef1c42f4ed0b590fa6bdd7c6dcaf5",
+    "run_all.sh": "e6abddf51b263ff40bd48b2e0fd147356fea5051b80a2e8273ddb6e46c7771cb",
+    "run_checks.py": "fda0cd30ac9fa27d181bc670398413baf8a92e5bb788b32a2607baec130dc05f",
+    "test_model.py": "29f6efc3f50ac6581fec969571702696bc5efedca0d2223ffc9e82a1b946a184"
+  }
+}

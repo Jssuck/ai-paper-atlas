@@ -1,0 +1,387 @@
+UTC: 2026-10-22T03:38:41Z
+Command: python3 -OO -m unittest -v test_model.py
+test_actual_not_zero (test_model.ModelTests.test_actual_not_zero) ... ok
+test_actual_validation (test_model.ModelTests.test_actual_validation) ... ok
+test_awake_semantics_difference (test_model.ModelTests.test_awake_semantics_difference) ... ok
+test_basic_four_forms (test_model.ModelTests.test_basic_four_forms) ... ok
+test_box_negative_insufficient (test_model.ModelTests.test_box_negative_insufficient) ... ok
+test_conversion_failure (test_model.ModelTests.test_conversion_failure) ... ok
+test_copy_and_freeze (test_model.ModelTests.test_copy_and_freeze) ... ok
+test_domain_validation (test_model.ModelTests.test_domain_validation) ... ok
+test_empty_terms (test_model.ModelTests.test_empty_terms) ... ok
+test_one_world_contingency (test_model.ModelTests.test_one_world_contingency) ... ok
+test_particular_necessary_witness_order (test_model.ModelTests.test_particular_necessary_witness_order) ... ok
+test_particular_negative_insufficient (test_model.ModelTests.test_particular_negative_insufficient) ... ok
+test_query_validation (test_model.ModelTests.test_query_validation) ... ok
+test_reverse_particular (test_model.ModelTests.test_reverse_particular) ... ok
+test_weak_not_necessary (test_model.ModelTests.test_weak_not_necessary) ... ok
+test_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok
+test_world_validation (test_model.ModelTests.test_world_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.002s
+
+OK
+
+Command: python3 -OO run_checks.py
+{
+  "enumeration": {
+    "by_size": [
+      {
+        "designated_configurations": 8,
+        "objects": 1,
+        "worlds": 1
+      },
+      {
+        "designated_configurations": 128,
+        "objects": 1,
+        "worlds": 2
+      },
+      {
+        "designated_configurations": 1536,
+        "objects": 1,
+        "worlds": 3
+      },
+      {
+        "designated_configurations": 64,
+        "objects": 2,
+        "worlds": 1
+      },
+      {
+        "designated_configurations": 8192,
+        "objects": 2,
+        "worlds": 2
+      }
+    ],
+    "totals": {
+      "affirmative_mismatch_premises": 2356,
+      "configurations": 9928,
+      "negative_particular_premises": 1456,
+      "negative_universal_premises": 2356,
+      "nonempty_all_actual_terms": 3692,
+      "reverse_particular_premises": 1456,
+      "reverse_universal_premises": 2356
+    }
+  },
+  "examples": {
+    "anchored_affirmative": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0,
+              1
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "C,a,A,B": true,
+        "D,e,B,C": true,
+        "N,a,A,C": true
+      }
+    },
+    "awake": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": []
+          }
+        ]
+      },
+      "values": {
+        "Box,a,A,C": true,
+        "C,a,A,B": true,
+        "D,a,B,C": true,
+        "D,e,B,C": false,
+        "N,a,A,C": false
+      }
+    },
+    "box_negative": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0
+        ],
+        "worlds": [
+          {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "Box,e,A,B": true,
+        "C,a,A,C": true,
+        "D,e,B,C": false,
+        "N,e,A,B": false
+      }
+    },
+    "conversion_fails": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "N,e,A,B": true,
+        "N,e,B,A": false
+      }
+    },
+    "particular_negative": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "C,a,A,C": true,
+        "D,e,B,C": false,
+        "D,o,B,C": false,
+        "N,o,A,B": true
+      }
+    },
+    "reverse_particular": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              1
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              1
+            ]
+          }
+        ]
+      },
+      "values": {
+        "C,i,A,B": true,
+        "D,o,B,C": false,
+        "D,o,C,B": true,
+        "N,e,A,C": true
+      }
+    },
+    "weak_not_necessary": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              0,
+              1
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "C,a,A,C": true,
+        "D,e,B,C": true,
+        "N,e,A,B": true,
+        "N,e,B,C": false,
+        "P,e,B,C": true
+      }
+    },
+    "weak_not_strong": {
+      "model": {
+        "actual": 0,
+        "domain": [
+          0,
+          1
+        ],
+        "worlds": [
+          {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          },
+          {
+            "A": [],
+            "B": [
+              1
+            ],
+            "C": [
+              0
+            ]
+          }
+        ]
+      },
+      "values": {
+        "C,a,A,C": true,
+        "C,e,B,C": false,
+        "D,e,B,C": true,
+        "N,e,A,B": true,
+        "P,e,B,C": true
+      }
+    }
+  },
+  "optimization": 2,
+  "python": "3.12.14",
+  "scope": "Modern finite teaching semantics; not a general theorem proof or unique historical interpretation.",
+  "source_sha256": {
+    "examples.py": "4aeb2ce2db4041da737e4d1035e8c34bb41dbe9f358473d01cebb996d7b90fe8",
+    "modal_model.py": "f9241164c68c3d40c2f6d52f0736e12f0ffef1c42f4ed0b590fa6bdd7c6dcaf5",
+    "run_checks.py": "fda0cd30ac9fa27d181bc670398413baf8a92e5bb788b32a2607baec130dc05f",
+    "test_model.py": "29f6efc3f50ac6581fec969571702696bc5efedca0d2223ffc9e82a1b946a184"
+  }
+}

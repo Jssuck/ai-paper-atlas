@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "modal_model.py": "f9241164c68c3d40c2f6d52f0736e12f0ffef1c42f4ed0b590fa6bdd7c6dcaf5",
+    "examples.py": "4aeb2ce2db4041da737e4d1035e8c34bb41dbe9f358473d01cebb996d7b90fe8",
+    "test_model.py": "29f6efc3f50ac6581fec969571702696bc5efedca0d2223ffc9e82a1b946a184",
+    "run_checks.py": "fda0cd30ac9fa27d181bc670398413baf8a92e5bb788b32a2607baec130dc05f",
+    "run_all.sh": "e6abddf51b263ff40bd48b2e0fd147356fea5051b80a2e8273ddb6e46c7771cb",
+    "README.md": "61857803bbca284173cd1fe4bcff208ad4a73394071e88c4f3ec53c7948c4f1a",
+    "environment.json": "635a4615da4b809d062e594a78f1a9f5df815f5c9e4fd8a63be71f16124f4e9b",
+    "logs/normal.log": "4926a6fc5c8c4988c94e49be32d31491c8dc868bb48a1f4409a8cfb8636e9f0a",
+    "logs/O.log": "3dc773fdedb76ad59f6261c148a18c37397604e469a56d0996bb4eac6b0e4f1f",
+    "logs/OO.log": "74789194528f446d04de26a61e4774a6290d387354a46b35923428fd21ccdbdd"
+  },
+  "scope": "Author-owned files only. Independent review directories and this self-referential manifest excluded."
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "aristotle-prior-analytics-i19",
+  "review_type": "independent_mathematical_argument_review",
+  "reviewed_at": "2026-10-22T03:45:14.265080+00:00",
+  "result": "pass_with_explicit_semantic_limits",
+  "scope": [
+    "General proofs and quantifier order in article sections 4–8",
+    "Eight article examples checked independently, including nonempty expansion and three worlds",
+    "Mathematical portions of all twenty exercise answers",
+    "Independent script and its three real runs; not an audit of author implementation",
+    "C_a/C_e and C_i/C_o equality notation corrected and reread"
+  ],
+  "limitations": [
+    "Finite enumeration does not prove arbitrary-domain theorems",
+    "Anchored N and worldwise Box are not a unified historical semantics",
+    "Original necessary-negative conversion is not validated unconditionally by anchored N",
+    "Historical source completeness and author implementation covered by separate audits"
+  ],
+  "run_counts": {
+    "configurations_per_mode": 8395,
+    "predicate_comparisons_per_mode": 41975,
+    "implication_families": 8,
+    "standalone_examples": 6,
+    "article_examples": 8,
+    "failures": 0
+  },
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i19.zh-CN.md": "c0196af59100ba2973cbde5ae439a6050c0c9f0d1dfb009fa9365c9613783bb0",
+    "papers/ancient/aristotle-prior-analytics-i19.audit.zh-CN.md": "b83bd7802046466e848965ad0757ad6a77ed338302953983909b5489f65efe27",
+    "reproduction/aristotle-prior-analytics-i19/argument-review/README.md": "5cb5259a2d80507f91887aea7efea4139b2874ecab4252b8c2d12fb530bf727c",
+    "reproduction/aristotle-prior-analytics-i19/argument-review/check_arguments.py": "f0b025e10b75084267383df1839748347b3d89c0ccb5c96bef0a2858786a5116",
+    "reproduction/aristotle-prior-analytics-i19/argument-review/normal.json": "9f46c07b2e23a5a4dcf06a995e15ed569fc94e3b435fe61349af8633e76116d0",
+    "reproduction/aristotle-prior-analytics-i19/argument-review/optimized.json": "35f4e597e5fb577bab9cc0fbd5bcd0f555e2d8487fe0ce1614d99418667f5502",
+    "reproduction/aristotle-prior-analytics-i19/argument-review/double-optimized.json": "827aa706b813695f09e495f71df085142fd1a70fca964b86b87c5f434b2d55d6"
+  }
+}

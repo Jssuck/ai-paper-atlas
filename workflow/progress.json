@@ -3,9 +3,9 @@
   "status": "in_progress",
   "active_paper": {
     "id": "aristotle-prior-analytics-i19",
-    "stage": "research",
+    "stage": "publishing",
     "started_at": "2026-10-22T03:33:35Z",
-    "updated_at": "2026-10-22T03:33:35Z"
+    "updated_at": "2026-10-22T03:45:30Z"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-i18",
@@ -16,14 +16,14 @@
     "completed_at": "2026-10-22T00:50:35Z",
     "checks": "Independent source, argument and code reviews passed;31 final hash bindings checked. Author13 tests per normal/-O/-OO mode,8320 configurations; independent argument4160 configurations,24 paired failure families and10 prose examples per mode. Code oracle8704 configurations,1253376 categorical comparisons,93 invalid-input probes and9 mutations per mode; author reruns agree.34 content/progress files read back exactly;2479 unrelated blobs preserved, including unchanged candidate registry.444 relative links checked;61 old directory rows retained,62 total. Actual GitHub Preview all3 math blocks visually verified,3 tables and20 answers present, final exercises visually inspected. README entry clicked to canonical article; source ledger, source review, argument review, code review and reproduction README rendered structures checked. Not every prose pixel or external bibliography target audited. Zero check-runs/status contexts on content commit; aggregate pending with no contexts is not a CI pass."
   },
-  "updated_at": "2026-10-22T03:33:35Z",
+  "updated_at": "2026-10-22T03:45:30Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read complete I.19 primary chapter and applicable apparatus; reconstruct proofs and low-cost examples; independently review before publication. One active paper only; I.2 remains deferred.",
+  "next_action": "Complete version-bound independent reviews, exact remote readback and actual GitHub math rendering verification for I.19 before marking completed; I.2 remains deferred.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

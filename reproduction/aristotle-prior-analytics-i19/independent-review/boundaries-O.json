@@ -1,0 +1,14 @@
+{
+  "optimization": 1,
+  "metamorphic_comparisons": 540,
+  "boundaries": [
+    "negative and nonconsecutive IDs",
+    "world permutation with designated index mapped",
+    "world duplication",
+    "tuple/frozenset/list accepted",
+    "duplicate IDs normalized",
+    "as_dict detached",
+    "extension frozen"
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,936 @@
+{
+  "scope": "Independent bounded checks of modern definitions, not a proof of all models or ancient semantics.",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "optimization": 0,
+  "script_sha256": "f0b025e10b75084267383df1839748347b3d89c0ccb5c96bef0a2858786a5116",
+  "finite": {
+    "configurations": 8395,
+    "set_quantifier_comparisons": 41975,
+    "true_antecedent_counts": {
+      "universal_positive_possible": 2135,
+      "particular_positive_possible": 1668,
+      "universal_contingent": 1639,
+      "particular_contingent": 1168,
+      "reverse_particular": 1168,
+      "necessary_affirmative_mismatch": 1639,
+      "box_with_rigid_B": 435,
+      "conversion_with_no_new_B": 1245
+    },
+    "implication_failures": 0,
+    "bounds": {
+      "domain_sizes": [
+        0,
+        1,
+        2
+      ],
+      "world_counts": [
+        1,
+        2
+      ],
+      "actual": "every world"
+    }
+  },
+  "examples": [
+    {
+      "name": "no_necessary_conclusion_and_no_automatic_conversion",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        []
+      ],
+      "B": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC",
+        "P_e_BC"
+      ],
+      "required_false": [
+        "N_e_BC",
+        "N_e_BA"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": false,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": false,
+        "B_no_new_members": false
+      }
+    },
+    {
+      "name": "no_strong_contingent_conclusion",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        []
+      ],
+      "B": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC",
+        "N_e_BC"
+      ],
+      "required_false": [
+        "C_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": true,
+        "C_e_BC": false,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "reverse_particular_not_convertible",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        []
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_e_AC",
+        "C_i_AB",
+        "D_o_CB"
+      ],
+      "required_false": [
+        "D_o_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": true,
+        "N_e_BA": false,
+        "N_e_AC": true,
+        "N_a_AC": false,
+        "C_a_AC": false,
+        "C_i_AC": false,
+        "C_a_AB": false,
+        "C_i_AB": true,
+        "P_a_AC": false,
+        "P_i_AC": false,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": true,
+        "P_e_BC": false,
+        "P_o_BC": false,
+        "N_e_BC": false,
+        "C_e_BC": false,
+        "Box_e_AB": false,
+        "Box_a_AC": false,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "worldwise_negative_is_not_anchored_negative",
+      "domain": [
+        0
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          0
+        ]
+      ],
+      "B": [
+        [
+          0
+        ],
+        []
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "required_true": [
+        "Box_e_AB",
+        "C_a_AC"
+      ],
+      "required_false": [
+        "N_e_AB",
+        "D_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": false,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": true,
+        "C_i_AB": true,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": false,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": false,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "awake_can_change_extension_with_nonempty_subjects",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "Box_a_AC",
+        "C_a_AB"
+      ],
+      "required_false": [
+        "N_a_AC",
+        "D_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": false,
+        "N_e_BA": false,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": true,
+        "C_i_AB": true,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": true,
+        "P_e_BC": false,
+        "P_o_BC": false,
+        "N_e_BC": false,
+        "C_e_BC": false,
+        "Box_e_AB": false,
+        "Box_a_AC": true,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "empty_subject_universal_not_particular",
+      "domain": [
+        0
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        []
+      ],
+      "B": [
+        [],
+        []
+      ],
+      "C": [
+        [],
+        []
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC"
+      ],
+      "required_false": [
+        "C_i_AC",
+        "D_o_BC"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": false,
+        "N_e_BA": true,
+        "N_e_AC": true,
+        "N_a_AC": true,
+        "C_a_AC": true,
+        "C_i_AC": false,
+        "C_a_AB": true,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": false,
+        "D_e_BC": true,
+        "D_o_BC": false,
+        "D_o_CB": false,
+        "P_e_BC": true,
+        "P_o_BC": false,
+        "N_e_BC": true,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": true,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    }
+  ],
+  "article_examples": [
+    {
+      "name": "article_5_3",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          1
+        ]
+      ],
+      "B": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC",
+        "N_e_BC"
+      ],
+      "required_false": [
+        "C_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": true,
+        "C_e_BC": false,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "article_6_1_three_worlds",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "B": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC",
+        "N_e_BA",
+        "Box_e_AB"
+      ],
+      "required_false": [
+        "N_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": false,
+        "B_no_new_members": false
+      }
+    },
+    {
+      "name": "article_6_1_nonempty_extension",
+      "domain": [
+        0,
+        1,
+        2
+      ],
+      "actual": 0,
+      "A": [
+        [
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "B": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_e_AB",
+        "C_a_AC",
+        "D_e_BC",
+        "N_e_BA",
+        "Box_e_AB"
+      ],
+      "required_false": [
+        "N_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": false,
+        "B_no_new_members": false
+      }
+    },
+    {
+      "name": "article_6_2",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "B": [
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "required_true": [
+        "N_e_AB"
+      ],
+      "required_false": [
+        "N_e_BA"
+      ],
+      "truth": {
+        "N_e_AB": true,
+        "N_o_AB": true,
+        "N_e_BA": false,
+        "N_e_AC": false,
+        "N_a_AC": true,
+        "C_a_AC": false,
+        "C_i_AC": false,
+        "C_a_AB": false,
+        "C_i_AB": false,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": true,
+        "D_o_BC": true,
+        "D_o_CB": true,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": false,
+        "Box_a_AC": true,
+        "B_rigid": false,
+        "B_no_new_members": false
+      }
+    },
+    {
+      "name": "article_6_3",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          0
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_e_AC",
+        "C_i_AB",
+        "D_o_CB"
+      ],
+      "required_false": [
+        "D_o_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": true,
+        "N_a_AC": false,
+        "C_a_AC": false,
+        "C_i_AC": false,
+        "C_a_AB": false,
+        "C_i_AB": true,
+        "P_a_AC": false,
+        "P_i_AC": false,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": true,
+        "P_e_BC": false,
+        "P_o_BC": false,
+        "N_e_BC": false,
+        "C_e_BC": false,
+        "Box_e_AB": false,
+        "Box_a_AC": false,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "article_7_3_awake",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "Box_a_AC",
+        "C_a_AB"
+      ],
+      "required_false": [
+        "N_a_AC",
+        "D_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": false,
+        "N_e_BA": false,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": true,
+        "C_i_AB": true,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": true,
+        "P_e_BC": false,
+        "P_o_BC": false,
+        "N_e_BC": false,
+        "C_e_BC": false,
+        "Box_e_AB": false,
+        "Box_a_AC": true,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "article_7_3_box_negative",
+      "domain": [
+        0
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          0
+        ]
+      ],
+      "B": [
+        [
+          0
+        ],
+        []
+      ],
+      "C": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "required_true": [
+        "Box_e_AB",
+        "C_a_AC"
+      ],
+      "required_false": [
+        "D_e_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": false,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": true,
+        "C_i_AB": true,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": false,
+        "P_e_BC": true,
+        "P_o_BC": true,
+        "N_e_BC": false,
+        "C_e_BC": true,
+        "Box_e_AB": true,
+        "Box_a_AC": false,
+        "B_rigid": false,
+        "B_no_new_members": true
+      }
+    },
+    {
+      "name": "article_8_1_two_witnesses",
+      "domain": [
+        0,
+        1
+      ],
+      "actual": 0,
+      "A": [
+        [],
+        [
+          1
+        ]
+      ],
+      "B": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "required_true": [
+        "N_o_AB",
+        "C_i_AC"
+      ],
+      "required_false": [
+        "D_o_BC"
+      ],
+      "truth": {
+        "N_e_AB": false,
+        "N_o_AB": true,
+        "N_e_BA": true,
+        "N_e_AC": false,
+        "N_a_AC": false,
+        "C_a_AC": true,
+        "C_i_AC": true,
+        "C_a_AB": false,
+        "C_i_AB": true,
+        "P_a_AC": true,
+        "P_i_AC": true,
+        "D_e_BC": false,
+        "D_o_BC": false,
+        "D_o_CB": true,
+        "P_e_BC": false,
+        "P_o_BC": false,
+        "N_e_BC": false,
+        "C_e_BC": false,
+        "Box_e_AB": false,
+        "Box_a_AC": false,
+        "B_rigid": true,
+        "B_no_new_members": true
+      }
+    }
+  ]
+}
