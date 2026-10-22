@@ -6,8 +6,8 @@
 
 类名对应集合；没有非空性预设。输入 `(a,b)`：
 
-- `inclusions`：已作为前提提供的全称包含，$a\subseteq b$。
-- `exclusions`：已作为前提提供的互斥，$a\cap b=\varnothing$。
+- `inclusions`：已作为前提提供的全称包含，$`a\subseteq b`$。
+- `exclusions`：已作为前提提供的互斥，$`a\cap b=\varnothing`$。
 
 输入并不会自动变成现实真理：程序不核查历史、经验或科学事实。`model_holds` 只能核查一个显式有限解释是否满足输入。某个学生是人之类的**个体观测不能作为全称包含的证据**；本接口根本不接收个体观测。不要把若干样本全为正当作“每个”。
 
@@ -21,11 +21,11 @@
 
 ## 恰好实现的规则
 
-1. 包含自反和传递：有原始边路径 $a=x_0\subseteq x_1\subseteq\cdots\subseteq x_n=b$ 时给出包含证书。长度零的路径表示自反，不是假装来自原文前提。
-2. 互斥对称：$u\cap v=\varnothing$ 可交换两端。
-3. 沿子类向下传播互斥：$a\subseteq u$、$b\subseteq v$、$u\cap v=\varnothing$ 推出 $a\cap b=\varnothing$。
+1. 包含自反和传递：有原始边路径 $`a=x_0\subseteq x_1\subseteq\cdots\subseteq x_n=b`$ 时给出包含证书。长度零的路径表示自反，不是假装来自原文前提。
+2. 互斥对称：$`u\cap v=\varnothing`$ 可交换两端。
+3. 沿子类向下传播互斥：$`a\subseteq u`$、$`b\subseteq v`$、$`u\cap v=\varnothing`$ 推出 $`a\cap b=\varnothing`$。
 
-一般有效性的教学理由不是实验数字：若任取 $z\in a$，沿每条包含边逐步得到 $z\in b$，所以包含传递；若某 $z\in a\cap b$，两条路径给出 $z\in u\cap v$，与原始互斥前提冲突，故没有这种元素。
+一般有效性的教学理由不是实验数字：若任取 $`z\in a`$，沿每条包含边逐步得到 $`z\in b`$，所以包含传递；若某 $`z\in a\cap b`$，两条路径给出 $`z\in u\cap v`$，与原始互斥前提冲突，故没有这种元素。
 
 **不实现**：包含反向、由缺失生成否定、从子类属性反推上位类属性、存在推理、概率/“通常”推理、必然模态、本质/属性/偶性的知识论分类、完整三段论搜索。尤其原文末段“通常”的材料并不混作全称规则。
 
