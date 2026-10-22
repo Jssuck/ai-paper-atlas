@@ -1,0 +1,2 @@
+python3 -OO -m unittest -v test_division
+python3 -OO enumerate_models.py

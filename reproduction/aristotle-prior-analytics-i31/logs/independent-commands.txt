@@ -1,0 +1,7 @@
+# Working directory: reproduction/aristotle-prior-analytics-i31
+PYTHONDONTWRITEBYTECODE=1 python3 independent_audit.py > logs/independent-normal.json
+PYTHONDONTWRITEBYTECODE=1 python3 -O independent_audit.py > logs/independent-O.json
+PYTHONDONTWRITEBYTECODE=1 python3 -OO independent_audit.py > logs/independent-OO.json
+cmp logs/independent-normal.json logs/independent-O.json
+cmp logs/independent-normal.json logs/independent-OO.json
+# All commands above returned exit status 0 in this audit run.

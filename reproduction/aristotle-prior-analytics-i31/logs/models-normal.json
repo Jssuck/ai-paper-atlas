@@ -1,0 +1,45 @@
+{
+  "counts": {
+    "configurations": 4368,
+    "definition_checks": 4368,
+    "invalid_left_strengthening": 291,
+    "invalid_uniform_strengthening": 56,
+    "nonempty_premise_models": 711,
+    "premise_models": 1110,
+    "valid_left_certificates": 584,
+    "valid_right_certificates": 584
+  },
+  "first_countermodels": {
+    "left": {
+      "A": [
+        0
+      ],
+      "B": [],
+      "C": [
+        0
+      ],
+      "D": [
+        0
+      ],
+      "n": 1
+    },
+    "uniform": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        0,
+        1
+      ],
+      "n": 2
+    }
+  },
+  "scope": "n=1,2,3; all four-term extensions including empty terms; finite checks only"
+}

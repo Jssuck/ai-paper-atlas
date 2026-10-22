@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "accepted": 9360,
+    "certificates": 139808,
+    "definitions": 69904,
+    "missing_certificates_rejected": 139808,
+    "models": 69904,
+    "renamed_models": 272,
+    "report_fields": 699040,
+    "special_checks": 18
+  },
+  "result": "PASS",
+  "scope": "All four-term bit masks n=1..4; finite audit only"
+}

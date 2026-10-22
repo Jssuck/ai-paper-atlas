@@ -1,0 +1,38 @@
+test_bad_cover (test_division.Tests.test_bad_cover) ... ok
+test_bad_membership (test_division.Tests.test_bad_membership) ... ok
+test_bad_name (test_division.Tests.test_bad_name) ... ok
+test_bad_path_container (test_division.Tests.test_bad_path_container) ... ok
+test_bad_side (test_division.Tests.test_bad_side) ... ok
+test_bool_member (test_division.Tests.test_bool_member) ... ok
+test_child_outside_parent_allowed_for_cover (test_division.Tests.test_child_outside_parent_allowed_for_cover) ... ok
+test_copy (test_division.Tests.test_copy) ... ok
+test_cover (test_division.Tests.test_cover) ... ok
+test_definition_equal (test_division.Tests.test_definition_equal) ... ok
+test_definition_only_necessary (test_division.Tests.test_definition_only_necessary) ... ok
+test_disconnected (test_division.Tests.test_disconnected) ... ok
+test_empty_path (test_division.Tests.test_empty_path) ... ok
+test_empty_target (test_division.Tests.test_empty_target) ... ok
+test_empty_terms (test_division.Tests.test_empty_terms) ... ok
+test_empty_universe (test_division.Tests.test_empty_universe) ... ok
+test_false_exclusion (test_division.Tests.test_false_exclusion) ... ok
+test_left (test_division.Tests.test_left) ... ok
+test_list_members (test_division.Tests.test_list_members) ... ok
+test_mapping_immutable (test_division.Tests.test_mapping_immutable) ... ok
+test_negative_member (test_division.Tests.test_negative_member) ... ok
+test_no_certificate (test_division.Tests.test_no_certificate) ... ok
+test_nonbool_evidence (test_division.Tests.test_nonbool_evidence) ... ok
+test_outside (test_division.Tests.test_outside) ... ok
+test_overlap (test_division.Tests.test_overlap) ... ok
+test_overlap_exclusion_not_necessary_for_truth (test_division.Tests.test_overlap_exclusion_not_necessary_for_truth) ... ok
+test_path (test_division.Tests.test_path) ... ok
+test_path_missing_second_evidence (test_division.Tests.test_path_missing_second_evidence) ... ok
+test_pointwise_not_uniform (test_division.Tests.test_pointwise_not_uniform) ... ok
+test_right (test_division.Tests.test_right) ... ok
+test_unknown (test_division.Tests.test_unknown) ... ok
+test_wrong_step (test_division.Tests.test_wrong_step) ... ok
+test_wrong_term_name_type (test_division.Tests.test_wrong_term_name_type) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.002s
+
+OK

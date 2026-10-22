@@ -40,6 +40,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.28精读](papers/ancient/aristotle-prior-analytics-i28.zh-CN.md) | AI推理前史补读：六表匹配、同一中项与归约缺口 | 深读v1 · 完整43b39–45a22及证书化最小重构 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.29精读](papers/ancient/aristotle-prior-analytics-i29.zh-CN.md) | AI推理前史补读：同项反证、存在承担与覆盖假设 | 深读v1 · 完整45a23–46a2及受限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.30精读](papers/ancient/aristotle-prior-analytics-i30.zh-CN.md) | AI推理前史补读：领域经验、材料条件与形式路径 | 深读v1 · 完整46a3–30及受限证书核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.31精读](papers/ancient/aristotle-prior-analytics-i31.zh-CN.md) | AI推理前史补读：二分覆盖、分支证据与定义方向 | 深读v1 · 完整46a31–46b40章32前及有限证书核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
