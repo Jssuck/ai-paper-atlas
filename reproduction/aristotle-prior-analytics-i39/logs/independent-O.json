@@ -1,0 +1,8 @@
+{
+  "models_domain_0_to_3": 585,
+  "terms": 9,
+  "independent_extension_comparisons": 5265,
+  "independent_truth_comparisons": 189540,
+  "result": "pass",
+  "scope": "bounded object-wise oracle on valid finite input; not a general proof or natural-language equivalence check"
+}

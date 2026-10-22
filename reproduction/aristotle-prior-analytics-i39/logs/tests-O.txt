@@ -1,0 +1,20 @@
+test_aeio (test_model.ModelTests.test_aeio) ... ok
+test_alias_chain (test_model.ModelTests.test_alias_chain) ... ok
+test_bad_domain_extensions (test_model.ModelTests.test_bad_domain_extensions) ... ok
+test_bad_term_and_name (test_model.ModelTests.test_bad_term_and_name) ... ok
+test_complement (test_model.ModelTests.test_complement) ... ok
+test_cycles (test_model.ModelTests.test_cycles) ... ok
+test_definition_certificate (test_model.ModelTests.test_definition_certificate) ... ok
+test_empty_domain (test_model.ModelTests.test_empty_domain) ... ok
+test_explicit_checks_survive_optimization (test_model.ModelTests.test_explicit_checks_survive_optimization) ... ok
+test_generators_materialized_once (test_model.ModelTests.test_generators_materialized_once) ... ok
+test_incomplete_certificate (test_model.ModelTests.test_incomplete_certificate) ... ok
+test_input_mutation_isolated (test_model.ModelTests.test_input_mutation_isolated) ... ok
+test_invalid_query (test_model.ModelTests.test_invalid_query) ... ok
+test_missing_atom_not_false (test_model.ModelTests.test_missing_atom_not_false) ... ok
+test_undefined_reference (test_model.ModelTests.test_undefined_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.011s
+
+OK

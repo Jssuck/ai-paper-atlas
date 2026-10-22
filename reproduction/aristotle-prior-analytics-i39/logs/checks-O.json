@@ -1,0 +1,13 @@
+{
+  "model_count_domain_0_to_3": 585,
+  "definition_pairs": 4,
+  "extension_equalities": 2340,
+  "proposition_truth_equalities": 74880,
+  "counterexamples": [
+    "one_way_inclusion",
+    "coincidence_not_definition",
+    "ambiguous_middle"
+  ],
+  "result": "pass",
+  "scope": "finite extensional teaching model; not a general proof or natural-language synonym verifier"
+}

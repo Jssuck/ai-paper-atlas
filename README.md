@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[I.38：附加限定与证明目标](papers/ancient/aristotle-prior-analytics-i38.zh-CN.md)，完整49a11–49b2，附版本对照、逐步推导、反模型、12题答案与独立核验的教学复现。限定不应在列项或结论中无声改变；有限检查不证明一般定理。
+最新补读：[I.39：同义替换与列项简化](papers/ancient/aristotle-prior-analytics-i39.zh-CN.md)，完整49b3–9，附版本对照、定义展开的一般证明、反模型、12题答案与独立核验的教学复现。同义须有根据，有限相同外延不认证普遍同义。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -50,6 +50,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.36精读](papers/ancient/aristotle-prior-analytics-i36.zh-CN.md) | AI推理前史补读：名词归一、关系槽位与否定强度 | 深读v1 · 完整48a40–49a5及有限关系核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.37精读](papers/ancient/aristotle-prior-analytics-i37.zh-CN.md) | AI推理前史补读：谓述方式、方面限定与否定作用域 | 深读v1 · 完整49a6–10及有限语义核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.38精读](papers/ancient/aristotle-prior-analytics-i38.zh-CN.md) | AI推理前史补读：附加限定、大项保留与证明目标 | 深读v1 · 完整49a11–49b2及有限证书核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.39精读](papers/ancient/aristotle-prior-analytics-i39.zh-CN.md) | AI推理前史补读：同义替换、显式定义与保真边界 | 深读v1 · 完整49b3–9及有限定义核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -833,3 +834,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 
 新增[《前分析篇》I.37深读](papers/ancient/aristotle-prior-analytics-i37.zh-CN.md)，完整49a6–10、Owen印162及三条译注、所见校记和正式勘误范围。区分谓述类别、有无限定与简单/结合，逐步证明同项包含、同见证合取与否定作用域，给出删除限定和不透明修饰反模型，附12题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i37.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i37.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i37/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i37/math-code-audit.zh-CN.md)分别提供证据。模型不解析自然语言，不实现完整古代范畴体系；有限实跑不证明一般定理。原章仍要求进一步界定，I.38与全书不计本次完成，I.2继续暂缓。
 
+
+## Aristotle I.39：同义条件先于简化
+
+新增[《前分析篇》I.39深读](papers/ancient/aristotle-prior-analytics-i39.zh-CN.md)，完整49b3–9、Owen印164–165及本章注2、所见校记与正式勘误范围。区分同义、单模型共外延和词形相同，保留非属不等于不交的解释边界，逐步证明外延替换与无环定义的保守扩展，附12题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i39.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-i39.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i39/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i39/math-code-audit.zh-CN.md)分工核验。结构证书充分不完备，不认证自然语言同义或原例完整属种语义；有限实跑不证明一般定理。I.40与全书不计本篇完成，I.2继续暂缓。
