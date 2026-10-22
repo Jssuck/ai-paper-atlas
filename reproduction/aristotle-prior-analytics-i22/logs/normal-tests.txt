@@ -1,0 +1,26 @@
+$ python -m unittest -v test_model.py
+Started UTC: 2026-10-22T06:38:30.248503+00:00
+Exit code: 0
+test_all_terms_nonempty (test_model.ModelTests.test_all_terms_nonempty) ... ok
+test_anchored_not_convertible (test_model.ModelTests.test_anchored_not_convertible) ... ok
+test_box_actual_not_necessary (test_model.ModelTests.test_box_actual_not_necessary) ... ok
+test_contingent_dualities (test_model.ModelTests.test_contingent_dualities) ... ok
+test_dimensions (test_model.ModelTests.test_dimensions) ... ok
+test_distinct_particulars (test_model.ModelTests.test_distinct_particulars) ... ok
+test_empty_middle (test_model.ModelTests.test_empty_middle) ... ok
+test_intersection_negative (test_model.ModelTests.test_intersection_negative) ... ok
+test_intersection_positive (test_model.ModelTests.test_intersection_positive) ... ok
+test_invalid_models (test_model.ModelTests.test_invalid_models) ... ok
+test_invalid_queries (test_model.ModelTests.test_invalid_queries) ... ok
+test_missing_actual_negative (test_model.ModelTests.test_missing_actual_negative) ... ok
+test_missing_actual_positive (test_model.ModelTests.test_missing_actual_positive) ... ok
+test_representation (test_model.ModelTests.test_representation) ... ok
+test_safe_witness (test_model.ModelTests.test_safe_witness) ... ok
+test_sleeping_horse (test_model.ModelTests.test_sleeping_horse) ... ok
+test_waking_horse (test_model.ModelTests.test_waking_horse) ... ok
+test_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.002s
+
+OK

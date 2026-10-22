@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Author-created files; manifest excludes itself and future independent reviews.",
+  "files": {
+    "model.py": "b5d5092e76b5567b8bd274525c6304736a961c5c23677a691b0c465930192664",
+    "test_model.py": "077a782436bbe4ab3dc1e706f9e3db9ad7b7ecb4f6ee09e4722972525b9c1a4b",
+    "enumerate_models.py": "99661a346b2123560da17811cd393df6aa24b48229a5509ee3286deee078a183",
+    "README.md": "bca41e1ef670daab80f5ced61a3b4d7f704b3b96751465522e46a005550af33f",
+    "environment.json": "c25b633770416a68a374339cecb207332f2a22d155fca1f1d002a01c3e18153b",
+    "logs/O-models.txt": "56750391422f2ef47614a295e8be4ab773f86ae67022cfc7fbce83cb6e02f9cc",
+    "logs/O-results.json": "08fe03a1435dd2275aa71b6ff87997270204d7b9361631bd77ec7e78463a5390",
+    "logs/O-tests.txt": "cdb69bcf2623e6ede6635461b5c181ba98c73e1b25684d3172f134c4df54e2b5",
+    "logs/OO-models.txt": "92cc655f07eb62ad855239c0c7fb99e73c4de9e33e3d1e9d11ff382d213bddd1",
+    "logs/OO-results.json": "08fe03a1435dd2275aa71b6ff87997270204d7b9361631bd77ec7e78463a5390",
+    "logs/OO-tests.txt": "896f4a7aad03f0fbb3ce9cc492c8ec39910207c012bbc3a7092bceb82c68dc82",
+    "logs/normal-models.txt": "01f31dcbf9f29142c52513935c604a0f90e8ad1f798593333ea126dbc9729c55",
+    "logs/normal-results.json": "08fe03a1435dd2275aa71b6ff87997270204d7b9361631bd77ec7e78463a5390",
+    "logs/normal-tests.txt": "f939b4683820b30eacc94d2ef53fc0dd759198f2a09364d56ef40ef57b210c0c"
+  }
+}

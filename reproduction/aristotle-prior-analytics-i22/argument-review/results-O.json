@@ -1,0 +1,227 @@
+{
+  "python": "3.12.14",
+  "optimization": 1,
+  "configurations": 266888,
+  "rule_checks": 2135104,
+  "rule_premise_hits": {
+    "nonempty_necessity_transfer": 13164,
+    "universal_particular_transfer": 21324,
+    "particular_universal_transfer": 13580,
+    "positive_overlap_bridge": 9296,
+    "negative_overlap_bridge": 9296,
+    "necessary_implies_actual": 84914,
+    "contingent_implies_weak_negative": 161744,
+    "necessary_negative_implies_actual": 32774
+  },
+  "independent_examples": {
+    "affirmative_no_unconditional_weak_conclusion": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "negative_no_unconditional_actual_conclusion": {
+      "n": 2,
+      "worlds": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "box_negative_actual_not_anchored_necessary": {
+      "n": 3,
+      "worlds": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    "empty_middle": {
+      "n": 1,
+      "worlds": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    "distinct_particular_witnesses": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    "sleeping_horse": {
+      "n": 3,
+      "worlds": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "waking_horse": {
+      "n": 3,
+      "worlds": [
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          5,
+          2,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "contingent_not_actual": {
+      "n": 2,
+      "worlds": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "necessity_conversion_failure": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    "contingency_conversion_failure": {
+      "n": 2,
+      "worlds": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "weak_not_two_sided": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "prose_sleeping_horse_n2": {
+      "n": 2,
+      "worlds": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    "prose_distinct_particular_witnesses": {
+      "n": 2,
+      "worlds": [
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          3
+        ]
+      ],
+      "passed": true
+    }
+  },
+  "scope": "Finite implementation checks supplement the general set proofs; no claim of unique ancient semantics."
+}

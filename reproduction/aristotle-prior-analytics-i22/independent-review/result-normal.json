@@ -1,0 +1,194 @@
+{
+  "configurations": 4744,
+  "oracle_queries": 853920,
+  "metamorphic_comparisons": 35640,
+  "invalid_inputs": 48,
+  "author_example_queries": 2160,
+  "prose_models": 6,
+  "prose_claims": 22,
+  "semantic_variants": {
+    "D_as_P": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "query": [
+        "D",
+        "e",
+        "C",
+        "C"
+      ],
+      "correct": false,
+      "variant": true
+    },
+    "N_as_BOX": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "query": [
+        "N",
+        "a",
+        "A",
+        "C"
+      ],
+      "correct": true,
+      "variant": false
+    },
+    "P_as_N": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "query": [
+        "P",
+        "a",
+        "C",
+        "C"
+      ],
+      "correct": true,
+      "variant": false
+    },
+    "C_as_P": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "query": [
+        "C",
+        "a",
+        "C",
+        "C"
+      ],
+      "correct": false,
+      "variant": true
+    },
+    "universal_as_particular": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "query": [
+        "D",
+        "a",
+        "A",
+        "A"
+      ],
+      "correct": true,
+      "variant": false
+    },
+    "reverse_terms": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "query": [
+        "D",
+        "a",
+        "A",
+        "C"
+      ],
+      "correct": false,
+      "variant": true
+    },
+    "negative_as_positive": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "query": [
+        "D",
+        "e",
+        "A",
+        "C"
+      ],
+      "correct": true,
+      "variant": false
+    },
+    "C_as_not_N": {
+      "n": 1,
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "query": [
+        "C",
+        "a",
+        "A",
+        "A"
+      ],
+      "correct": true,
+      "variant": false
+    },
+    "N_exist_world_before_object": {
+      "n": 2,
+      "worlds": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "query": [
+        "N",
+        "i",
+        "B",
+        "C"
+      ],
+      "correct": false,
+      "variant": true
+    }
+  },
+  "passed": true
+}

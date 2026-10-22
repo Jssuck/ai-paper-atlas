@@ -1,0 +1,381 @@
+$ python -O enumerate_models.py
+Started UTC: 2026-10-22T06:38:31.053432+00:00
+Exit code: 0
+{
+  "configurations": 4744,
+  "dimensions": [
+    {
+      "objects": 1,
+      "worlds": 1,
+      "configurations": 8
+    },
+    {
+      "objects": 1,
+      "worlds": 2,
+      "configurations": 64
+    },
+    {
+      "objects": 1,
+      "worlds": 3,
+      "configurations": 512
+    },
+    {
+      "objects": 2,
+      "worlds": 1,
+      "configurations": 64
+    },
+    {
+      "objects": 2,
+      "worlds": 2,
+      "configurations": 4096
+    }
+  ],
+  "rule_premise_counts": {
+    "universal_safe_bridge": 300,
+    "necessary_particular_bridge": 396,
+    "contingent_particular_bridge": 332,
+    "positive_intersection_bridge": 336,
+    "negative_intersection_bridge": 336,
+    "contingent_negative_rewrite": 4744,
+    "box_negative_conversion": 4744
+  },
+  "all_checks_passed": true,
+  "examples": {
+    "safe_contingent_not_actual": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "necessary_major_missing_actual_witness": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "necessary_negative_missing_actual_witness": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "box_negative_actual_not_necessary": {
+      "n": 3,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      ]
+    },
+    "sleeping_horse": {
+      "n": 3,
+      "worlds": [
+        {
+          "A": [
+            1,
+            2
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0,
+            1,
+            2
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "waking_horse": {
+      "n": 3,
+      "worlds": [
+        {
+          "A": [
+            2
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0,
+            2
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "different_particular_witnesses": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        },
+        {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "weak_not_strong": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "empty_middle": {
+      "n": 1,
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      ]
+    },
+    "anchored_negative_not_convertible": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "necessary_positive_intersection": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "necessary_negative_intersection": {
+      "n": 2,
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

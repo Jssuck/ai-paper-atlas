@@ -6,6 +6,8 @@
 
 **持续精读阶段。** 深读 v2 标准已确认。已启用每小时定时推进：同一时间只处理一篇；研究、复现或核验超过一个周期时，继续该篇，后续论文顺延，不补发追赶。完成核验后逐篇公开发布。当前论文阶段见 [进度记录](workflow/progress.json)。这不是每小时必定完成一篇的承诺，也不表示某一年代文献已被穷尽。
 
+各篇附件段落中“后章未完成”等表述，限定于该篇阅读单元和发布时点，不是当前全仓状态；最新完成项目以本目录和进度记录为准。
+
 ## 阅读目录
 
 | 时段 | 论文 | 定位 | 状态 |
@@ -29,6 +31,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.19精读](papers/ancient/aristotle-prior-analytics-i19.zh-CN.md) | AI推理前史补读：必要否定、实际排斥与模态语义范围 | 深读v1 · 完整38a13–39a3及译注/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.20精读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md) | AI推理前史补读：共同主项、偶然换位与见证范围 | 深读v1 · 完整39a4–39b6及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.21精读](papers/ancient/aristotle-prior-analytics-i21.zh-CN.md) | AI推理前史补读：混合前提、同一见证与可能结论 | 深读v1 · 完整39b7–40a3及跨页译例/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.22精读](papers/ancient/aristotle-prior-analytics-i22.zh-CN.md) | AI推理前史补读：必要否定、项位与结论强度 | 深读v1 · 完整40a4–40b16及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -723,3 +726,9 @@ I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i
 新增[《前分析篇》I.21深读](papers/ancient/aristotle-prior-analytics-i21.zh-CN.md)，完整Bekker39b7–40a3及Owen1853印132–133正文、134跨页续例。重建见证迁移和可能否定反证，区分弱可能与双向偶然，保留原典换位同固定实际主项模型的失配，附20道带答案练习。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i21.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i21.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i21.audit.zh-CN.md)及[教学代码与真实日志](reproduction/aristotle-prior-analytics-i21/README.md)分别给出历史来源、一般证明和有限执行。134页续例some animal保留为原印疑点，不默改或冒称正式勘误。有限测试不证明一般定理或唯一古代语义；I.2仍暂缓、I.22与全书未完成，既有缺口和被拒候选目录不动。
+
+## Aristotle I.22：必要否定、项位与结论强度
+
+新增[《前分析篇》I.22深读](papers/ancient/aristotle-prior-analytics-i22.zh-CN.md)，完整Bekker40a4–40b16、Owen1853印134–136与四条注、六组译例。区分后承必要与结论必要、实然与必要译义差异，重建同一见证证明，保留非空模型失配，附20题答案。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i22.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i22.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i22.audit.zh-CN.md)和[代码与真实日志](reproduction/aristotle-prior-analytics-i22/README.md)分别提供证据。原印项位疑点不静默改写，现代模型不冒充古代唯一语义，有限实跑不替代一般证明。本单元不覆盖I.23或全书；I.2仍暂缓，其他缺口及候选目录保持。

@@ -1,0 +1,138 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41"
+  },
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "independent-review/check.py"
+      ],
+      "start_utc": "2026-10-22T06:41:45.702155+00:00",
+      "end_utc": "2026-10-22T06:41:56.737772+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "result-normal.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "start_utc": "2026-10-22T06:41:56.737798+00:00",
+      "end_utc": "2026-10-22T06:41:56.821818+00:00",
+      "exit_code": 0,
+      "stderr": "test_all_terms_nonempty (test_model.ModelTests.test_all_terms_nonempty) ... ok\ntest_anchored_not_convertible (test_model.ModelTests.test_anchored_not_convertible) ... ok\ntest_box_actual_not_necessary (test_model.ModelTests.test_box_actual_not_necessary) ... ok\ntest_contingent_dualities (test_model.ModelTests.test_contingent_dualities) ... ok\ntest_dimensions (test_model.ModelTests.test_dimensions) ... ok\ntest_distinct_particulars (test_model.ModelTests.test_distinct_particulars) ... ok\ntest_empty_middle (test_model.ModelTests.test_empty_middle) ... ok\ntest_intersection_negative (test_model.ModelTests.test_intersection_negative) ... ok\ntest_intersection_positive (test_model.ModelTests.test_intersection_positive) ... ok\ntest_invalid_models (test_model.ModelTests.test_invalid_models) ... ok\ntest_invalid_queries (test_model.ModelTests.test_invalid_queries) ... ok\ntest_missing_actual_negative (test_model.ModelTests.test_missing_actual_negative) ... ok\ntest_missing_actual_positive (test_model.ModelTests.test_missing_actual_positive) ... ok\ntest_representation (test_model.ModelTests.test_representation) ... ok\ntest_safe_witness (test_model.ModelTests.test_safe_witness) ... ok\ntest_sleeping_horse (test_model.ModelTests.test_sleeping_horse) ... ok\ntest_waking_horse (test_model.ModelTests.test_waking_horse) ... ok\ntest_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.002s\n\nOK\n",
+      "file": "author-tests-normal.txt"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "enumerate_models.py"
+      ],
+      "start_utc": "2026-10-22T06:41:56.821838+00:00",
+      "end_utc": "2026-10-22T06:41:57.079922+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "author-result-normal.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "independent-review/check.py"
+      ],
+      "start_utc": "2026-10-22T06:41:57.081460+00:00",
+      "end_utc": "2026-10-22T06:42:08.630315+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "result-O.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "start_utc": "2026-10-22T06:42:08.630334+00:00",
+      "end_utc": "2026-10-22T06:42:08.907925+00:00",
+      "exit_code": 0,
+      "stderr": "test_all_terms_nonempty (test_model.ModelTests.test_all_terms_nonempty) ... ok\ntest_anchored_not_convertible (test_model.ModelTests.test_anchored_not_convertible) ... ok\ntest_box_actual_not_necessary (test_model.ModelTests.test_box_actual_not_necessary) ... ok\ntest_contingent_dualities (test_model.ModelTests.test_contingent_dualities) ... ok\ntest_dimensions (test_model.ModelTests.test_dimensions) ... ok\ntest_distinct_particulars (test_model.ModelTests.test_distinct_particulars) ... ok\ntest_empty_middle (test_model.ModelTests.test_empty_middle) ... ok\ntest_intersection_negative (test_model.ModelTests.test_intersection_negative) ... ok\ntest_intersection_positive (test_model.ModelTests.test_intersection_positive) ... ok\ntest_invalid_models (test_model.ModelTests.test_invalid_models) ... ok\ntest_invalid_queries (test_model.ModelTests.test_invalid_queries) ... ok\ntest_missing_actual_negative (test_model.ModelTests.test_missing_actual_negative) ... ok\ntest_missing_actual_positive (test_model.ModelTests.test_missing_actual_positive) ... ok\ntest_representation (test_model.ModelTests.test_representation) ... ok\ntest_safe_witness (test_model.ModelTests.test_safe_witness) ... ok\ntest_sleeping_horse (test_model.ModelTests.test_sleeping_horse) ... ok\ntest_waking_horse (test_model.ModelTests.test_waking_horse) ... ok\ntest_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.002s\n\nOK\n",
+      "file": "author-tests-O.txt"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "enumerate_models.py"
+      ],
+      "start_utc": "2026-10-22T06:42:08.907945+00:00",
+      "end_utc": "2026-10-22T06:42:09.333010+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "author-result-O.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "independent-review/check.py"
+      ],
+      "start_utc": "2026-10-22T06:42:09.334310+00:00",
+      "end_utc": "2026-10-22T06:42:21.458803+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "result-OO.json"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "start_utc": "2026-10-22T06:42:21.458823+00:00",
+      "end_utc": "2026-10-22T06:42:21.743293+00:00",
+      "exit_code": 0,
+      "stderr": "test_all_terms_nonempty (test_model.ModelTests.test_all_terms_nonempty) ... ok\ntest_anchored_not_convertible (test_model.ModelTests.test_anchored_not_convertible) ... ok\ntest_box_actual_not_necessary (test_model.ModelTests.test_box_actual_not_necessary) ... ok\ntest_contingent_dualities (test_model.ModelTests.test_contingent_dualities) ... ok\ntest_dimensions (test_model.ModelTests.test_dimensions) ... ok\ntest_distinct_particulars (test_model.ModelTests.test_distinct_particulars) ... ok\ntest_empty_middle (test_model.ModelTests.test_empty_middle) ... ok\ntest_intersection_negative (test_model.ModelTests.test_intersection_negative) ... ok\ntest_intersection_positive (test_model.ModelTests.test_intersection_positive) ... ok\ntest_invalid_models (test_model.ModelTests.test_invalid_models) ... ok\ntest_invalid_queries (test_model.ModelTests.test_invalid_queries) ... ok\ntest_missing_actual_negative (test_model.ModelTests.test_missing_actual_negative) ... ok\ntest_missing_actual_positive (test_model.ModelTests.test_missing_actual_positive) ... ok\ntest_representation (test_model.ModelTests.test_representation) ... ok\ntest_safe_witness (test_model.ModelTests.test_safe_witness) ... ok\ntest_sleeping_horse (test_model.ModelTests.test_sleeping_horse) ... ok\ntest_waking_horse (test_model.ModelTests.test_waking_horse) ... ok\ntest_weak_not_strong (test_model.ModelTests.test_weak_not_strong) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.002s\n\nOK\n",
+      "file": "author-tests-OO.txt"
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "enumerate_models.py"
+      ],
+      "start_utc": "2026-10-22T06:42:21.743314+00:00",
+      "end_utc": "2026-10-22T06:42:22.160827+00:00",
+      "exit_code": 0,
+      "stderr": "",
+      "file": "author-result-OO.json"
+    }
+  ],
+  "author_hashes_verified": [
+    "model.py",
+    "test_model.py",
+    "enumerate_models.py",
+    "README.md",
+    "environment.json",
+    "logs/O-models.txt",
+    "logs/O-results.json",
+    "logs/O-tests.txt",
+    "logs/OO-models.txt",
+    "logs/OO-results.json",
+    "logs/OO-tests.txt",
+    "logs/normal-models.txt",
+    "logs/normal-results.json",
+    "logs/normal-tests.txt"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "paper_id": "aristotle-prior-analytics-i22",
+  "review": "independent mathematical argument review",
+  "status": "passed",
+  "scope": "General set proofs, all mathematical prose examples and20 exercise answers; finite independent checks in normal/-O/-OO. Not unique ancient semantics.",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i22.zh-CN.md": "8622b72c488bde2eb16a92e82abd321b986a7bd9bf9f2c81dfb40ae8d1693dfa",
+    "papers/ancient/aristotle-prior-analytics-i22.audit.zh-CN.md": "8e4242de203b63f6e2150eb27382bff9ee3de6e8fdf313904a30b8f546cd752a",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/README.md": "1df2108008ee2e60286640dfc74806a10b7894ea484467d4ae2c785f30d2572a",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/check_arguments.py": "caa3b1c5b427c53aa1dd1cc2f5b07ea9ece8007d82a4872b1564efc057cc0145",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/results-O.json": "260d6961657e649ebcb0d4337921810ed559cf41656d478a1fb19e4c5af363c9",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/results-OO.json": "e0b160ca589b8497b6adef82eeb8cb1be138058b6ea1ba112333f6bc4324aaca",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/results-normal.json": "c46ab66c3b4ff4b715243e47057aee6e13191606528fdb6e6e51219dc499b7eb",
+    "reproduction/aristotle-prior-analytics-i22/argument-review/run.log": "1eb97deffd7b8fb8b352a43b97641d8add65046712d780ca0d6fa6826e15abdd"
+  }
+}

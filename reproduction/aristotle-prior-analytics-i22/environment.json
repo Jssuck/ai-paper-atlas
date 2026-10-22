@@ -1,0 +1,76 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "commands": [
+    {
+      "mode": "normal",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-22T06:38:30.248503+00:00",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "command": [
+        "python",
+        "enumerate_models.py"
+      ],
+      "started_utc": "2026-10-22T06:38:30.408732+00:00",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-22T06:38:30.691985+00:00",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "command": [
+        "python",
+        "-O",
+        "enumerate_models.py"
+      ],
+      "started_utc": "2026-10-22T06:38:31.053432+00:00",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_model.py"
+      ],
+      "started_utc": "2026-10-22T06:38:31.417875+00:00",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "command": [
+        "python",
+        "-OO",
+        "enumerate_models.py"
+      ],
+      "started_utc": "2026-10-22T06:38:31.725008+00:00",
+      "exit_code": 0
+    }
+  ]
+}
