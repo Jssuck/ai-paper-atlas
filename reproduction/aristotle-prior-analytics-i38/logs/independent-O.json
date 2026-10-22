@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "independent_counts": {
+    "chain_models": 585,
+    "chain_premise_models": 85,
+    "four_term_models": 4369,
+    "relabel_countermodels": 185,
+    "middle_mismatch_countermodels": 235,
+    "qualified_to_bare_countermodels": 45,
+    "bare_to_qualified_countermodels": 45
+  },
+  "api_truth_comparisons": 69904,
+  "certificate_shapes": 4096,
+  "equal_extensions_both_false": "PASS",
+  "limits": "finite independent checks, not general theorem proof"
+}
