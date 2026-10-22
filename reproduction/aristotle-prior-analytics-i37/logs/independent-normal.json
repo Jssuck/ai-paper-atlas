@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "counts": {
+    "models": 4369,
+    "expression_comparisons": 122332,
+    "existence_comparisons": 122332,
+    "inclusion_comparisons": 69904,
+    "true_chain_instances": 83776,
+    "intersection_distribution_instances": 279616,
+    "certificate_shapes": 4096,
+    "rejected_inputs": 17,
+    "concrete_checks": 10
+  },
+  "oracle": "independent integer masks, no production evaluator for expected values",
+  "limits": "finite selected-expression checks, not a theorem or historical interpretation proof"
+}

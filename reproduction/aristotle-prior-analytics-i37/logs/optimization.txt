@@ -1,0 +1,4 @@
+python3 : false check rejected
+python3 -O: false check rejected
+python3 -OO: false check rejected
+Commands per mode: python3 [flags] run_checks.py; python3 [flags] -m unittest -v

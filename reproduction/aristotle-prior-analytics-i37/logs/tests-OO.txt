@@ -1,0 +1,23 @@
+test_category_not_erased (test_model.Tests.test_category_not_erased) ... ok
+test_chain_shape (test_model.Tests.test_chain_shape) ... ok
+test_conjunction (test_model.Tests.test_conjunction) ... ok
+test_cross_aspect_rejected (test_model.Tests.test_cross_aspect_rejected) ... ok
+test_empty_domain (test_model.Tests.test_empty_domain) ... ok
+test_input_copy (test_model.Tests.test_input_copy) ... ok
+test_invalid_certificate (test_model.Tests.test_invalid_certificate) ... ok
+test_invalid_key (test_model.Tests.test_invalid_key) ... ok
+test_invalid_labels (test_model.Tests.test_invalid_labels) ... ok
+test_label_identity (test_model.Tests.test_label_identity) ... ok
+test_missing_is_not_false (test_model.Tests.test_missing_is_not_false) ... ok
+test_negation_scope (test_model.Tests.test_negation_scope) ... ok
+test_out_of_domain (test_model.Tests.test_out_of_domain) ... ok
+test_refused_can_be_true (test_model.Tests.test_refused_can_be_true) ... ok
+test_shape_not_truth (test_model.Tests.test_shape_not_truth) ... ok
+test_unknown_expression (test_model.Tests.test_unknown_expression) ... ok
+test_witness_not_mergeable (test_model.Tests.test_witness_not_mergeable) ... ok
+test_wrong_conclusion (test_model.Tests.test_wrong_conclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.000s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "counts": {
+    "chain_models": 585,
+    "chain_premise_models": 85,
+    "two_predicate_models": 85,
+    "four_predicate_models": 273,
+    "erase_aspect_countermodels": 116,
+    "cross_aspect_countermodels": 18,
+    "negation_scope_countermodels": 70,
+    "split_witness_countermodels": 14,
+    "opaque_modifier_countermodels": 8
+  },
+  "limits": "finite teaching semantics, not a general theorem proof"
+}
