@@ -1,32 +1,28 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-i24",
-    "stage": "publication_verification",
-    "updated_at": "2026-10-22T08:45:00Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-prior-analytics-i23",
-    "path": "papers/ancient/aristotle-prior-analytics-i23.zh-CN.md",
-    "completed_at": "2026-10-22T08:02:50Z",
-    "content_commit": "6fd6d396cff24dc4250f311b787268b28f068412",
+    "id": "aristotle-prior-analytics-i24",
+    "path": "papers/ancient/aristotle-prior-analytics-i24.zh-CN.md",
+    "completed_at": "2026-10-22T08:51:40Z",
+    "content_commit": "e9cff6bab6c9e0b641f069348d40f395d0383588",
     "checks": [
-      "Original Bekker40b17-41b5 and Owen1853 pp136-138 with eight notes/cross-page diagram/ERRATA read; independent source audit.",
-      "Independent general proofs and 20 answered exercises reviewed; no finite tests used as general proof.",
-      "Author normal/-O/-OO each20 tests; independent code each9180 oracle queries,512 configurations,65535 four-term models,7776 RAA pairs and78 invalid inputs.",
-      "All41 publication files exact UTF-8 verified;475 relative links checked;2659 unrelated blobs preserved.",
+      "Original Bekker41b6-35 and Owen1853 pp138-139/four notes with p140 continuation and ERRATA read; independent source audit.",
+      "General witness and expansion proofs corrected after independent audit; 20 answered exercises reviewed.",
+      "Author normal/-O/-OO each18 tests; independent code each9180 atomic,48960 figure evaluations,384 classifications,64260 metamorphic checks and67 invalid inputs; independent argument each90816 model checks.",
+      "All41 publication files exact UTF-8 verified;459 relative links checked;2698 unrelated blobs preserved.",
       "GitHub Preview all3 MathML blocks visually inspected; README-to-paper-to-reproduction navigation verified."
     ]
   },
-  "updated_at": "2026-10-22T08:45:00Z",
+  "updated_at": "2026-10-22T08:51:40Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify published I.24 files and GitHub rendering; no new unit.",
+  "next_action": "No active paper. Start at most one new non-deferred unit on the next main scheduled run.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
