@@ -49,6 +49,11 @@ python3 -OO -m unittest -v
 
 有限枚举不是一般定理证明，也未穷举任意语法深度或更大论域。Python递归表达式验证未声明对恶意超深结构提供资源限额；它是本地教学程序，不是公开网络服务或不可信代码沙箱。证书核验信任前提，不自动进行事实核实；模型求真则采用完整有限解释，不是开放世界知识库。固定关系的槽位不能通过改名、反转或词形归一化偷偷改变。本文没有认证神学、心理学或符号系统的经验前提。
 
+
+### 发布显示增量修正
+
+发布核验阶段报告复现README中部分紧邻中文标点的普通行内数学未渲染。作者将该文件全部行内数学定界改为GitHub支持的反引号包裹形式；独立复核实际新文件，并将这些定界符逆变换后计算摘要，精确恢复此前已审README的SHA-256。因此本次变化仅是行内数学标记，不改变文字、公式、算法或运行结果；新README摘要已更新如下。实际远端显示终态仍由发布流程另行确认，本审查不冒充浏览器视觉核验。
+
 ## 终审文件绑定（SHA-256）
 
 以下为本次终审读到并核验的实际文件。若被绑定文件变更，应重新核查受影响部分，不得沿用本记录声称新版已审。
@@ -60,5 +65,5 @@ python3 -OO -m unittest -v
 |`reproduction/aristotle-prior-analytics-i36/test_model.py`|`90e6138d8caa3a72f5d67eda1cc882278d866780ffc69e3c4b261abd3933b372`|
 |`reproduction/aristotle-prior-analytics-i36/verify.py`|`2c44824f65f13186501f0d60a8b251964f8d12b5329ed7261fa83552161b692f`|
 |`reproduction/aristotle-prior-analytics-i36/run_checks.py`|`c9fbdc996aeb50645e6ae16a57926fcb25d560d13ca7da68b43be9f7d89956aa`|
-|`reproduction/aristotle-prior-analytics-i36/README.md`|`426ef75da32b01fa117f564cc40dd2b93982ec442db113e71583adc124f04a89`|
+|`reproduction/aristotle-prior-analytics-i36/README.md`|`43ce6b1fbee41d3f65cb0fafac230528120e1d47a48d16e7e48ac1b906dd7511`|
 |`reproduction/aristotle-prior-analytics-i36/independent_audit.py`|`eb8fac16c3971ffcdade17774aa69d544b1321952fe5b96425208920aa2f8820`|
