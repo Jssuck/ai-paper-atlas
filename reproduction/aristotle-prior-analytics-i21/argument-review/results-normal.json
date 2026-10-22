@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "optimization": 0,
+  "configurations": 266888,
+  "implication_checks": 1868216,
+  "rule_premise_counts": {
+    "universal_nonempty_transfer": 59048,
+    "universal_particular_transfer": 77608,
+    "particular_universal_transfer": 65320,
+    "weak_negative_transfer": 74616,
+    "necessary_restriction": 26380,
+    "strong_implies_weak": 161744,
+    "weak_necessary_duality": 266888
+  },
+  "prose_configurations": {
+    "section6_possible_not_actual_negative": true,
+    "section6_delete_alternative": true,
+    "section7_1_affirmative_failure": true,
+    "section7_2_background_failure": true,
+    "section7_3_weak_not_strong_instantiation": true,
+    "section8_different_witnesses": true
+  },
+  "boundary_configurations": {
+    "nonempty_assumption_required": true,
+    "Box_not_N": true
+  },
+  "status": "passed",
+  "scope": "Finite verification, not a general proof or unique ancient semantics."
+}

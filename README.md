@@ -28,6 +28,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.18精读](papers/ancient/aristotle-prior-analytics-i18.zh-CN.md) | AI推理前史补读：实然否定、背景保持与可能结论的方向 | 深读v1 · 完整37b19–38a12及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.19精读](papers/ancient/aristotle-prior-analytics-i19.zh-CN.md) | AI推理前史补读：必要否定、实际排斥与模态语义范围 | 深读v1 · 完整38a13–39a3及译注/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.20精读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md) | AI推理前史补读：共同主项、偶然换位与见证范围 | 深读v1 · 完整39a4–39b6及版本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.21精读](papers/ancient/aristotle-prior-analytics-i21.zh-CN.md) | AI推理前史补读：混合前提、同一见证与可能结论 | 深读v1 · 完整39b7–40a3及跨页译例/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -716,3 +717,9 @@ I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i
 新增[《前分析篇》I.20深读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md)，完整Bekker39a4–39b6及Owen1853印131–132本章附注与两组例式。逐步区分肯否改写和项位换位，重建归第一格的依赖，给出非空反模型与实际见证桥接，附20道带答案练习。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i20.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i20.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i20.audit.zh-CN.md)和[代码与真实日志](reproduction/aristotle-prior-analytics-i20/README.md)保留原文、现代教学模型和有限执行的区别。实际主项模型不能无条件实现原典全部归约；有限实验不是一般定理证明。I.2仍暂缓，I.21/22和全书不计完成；被拒候选目录未改。
+
+## Aristotle I.21：同一见证与混合前提
+
+新增[《前分析篇》I.21深读](papers/ancient/aristotle-prior-analytics-i21.zh-CN.md)，完整Bekker39b7–40a3及Owen1853印132–133正文、134跨页续例。重建见证迁移和可能否定反证，区分弱可能与双向偶然，保留原典换位同固定实际主项模型的失配，附20道带答案练习。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i21.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i21.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i21.audit.zh-CN.md)及[教学代码与真实日志](reproduction/aristotle-prior-analytics-i21/README.md)分别给出历史来源、一般证明和有限执行。134页续例some animal保留为原印疑点，不默改或冒称正式勘误。有限测试不证明一般定理或唯一古代语义；I.2仍暂缓、I.22与全书未完成，既有缺口和被拒候选目录不动。

@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "dependencies": "Python standard library only",
+  "execution": "normal, -O, -OO; no Jupyter kernel",
+  "commands": [
+    "python -m unittest -v test_model.py",
+    "python enumerate_models.py",
+    "python -O -m unittest -v test_model.py",
+    "python -O enumerate_models.py",
+    "python -OO -m unittest -v test_model.py",
+    "python -OO enumerate_models.py"
+  ]
+}

@@ -1,0 +1,6 @@
+COMMAND: python  check_arguments.py > results-normal.json
+EXIT: 0
+COMMAND: python -O check_arguments.py > results-O.json
+EXIT: 0
+COMMAND: python -OO check_arguments.py > results-OO.json
+EXIT: 0

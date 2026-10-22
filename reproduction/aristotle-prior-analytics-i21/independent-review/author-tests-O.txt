@@ -1,0 +1,21 @@
+test_affirmative_failure (test_model.TeachingTests.test_affirmative_failure) ... ok
+test_bad_dimensions (test_model.TeachingTests.test_bad_dimensions) ... ok
+test_bad_models (test_model.TeachingTests.test_bad_models) ... ok
+test_bad_queries (test_model.TeachingTests.test_bad_queries) ... ok
+test_box_not_n (test_model.TeachingTests.test_box_not_n) ... ok
+test_c_sign_symmetry (test_model.TeachingTests.test_c_sign_symmetry) ... ok
+test_contingent_not_actual (test_model.TeachingTests.test_contingent_not_actual) ... ok
+test_distinct_witnesses (test_model.TeachingTests.test_distinct_witnesses) ... ok
+test_empty_universal_not_existential (test_model.TeachingTests.test_empty_universal_not_existential) ... ok
+test_generation (test_model.TeachingTests.test_generation) ... ok
+test_negative_failure (test_model.TeachingTests.test_negative_failure) ... ok
+test_nonempty_counterexamples (test_model.TeachingTests.test_nonempty_counterexamples) ... ok
+test_serialization (test_model.TeachingTests.test_serialization) ... ok
+test_weak_necessary_dual (test_model.TeachingTests.test_weak_necessary_dual) ... ok
+test_weak_not_strong (test_model.TeachingTests.test_weak_not_strong) ... ok
+test_witness_transfer (test_model.TeachingTests.test_witness_transfer) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK

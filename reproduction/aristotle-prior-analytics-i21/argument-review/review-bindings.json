@@ -1,0 +1,15 @@
+{
+  "status": "reviewed",
+  "scope": "Independent general argument and bounded set checks; not unique ancient semantics",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i21.zh-CN.md": "83862b6536b88f2093e51fa4b06c10cd863062cdc71817c36d71f367bf642709",
+    "papers/ancient/aristotle-prior-analytics-i21.audit.zh-CN.md": "cf0701d916f6dfab8d78ccf10fb5afdc734b7580179e07a216bee32e045df683",
+    "reproduction/aristotle-prior-analytics-i21/model.py": "c9f2a1ca3f497a2952ce703c7fd16cfef029912df4e6872ebcf43315a35dc60c",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/README.md": "4abc60068114aa4a0a6ea466bcc6c257fab137eb8d2dffa974f7e10741e184b4",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/check_arguments.py": "7f7e11907ba38af10e9680299a42a0b6005517a30cff13f3b8c4517bdf9adba2",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/results-O.json": "bf67ca370184099c682c907ad6bf283c110c2c96b97747d6aeec446c8d38a575",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/results-OO.json": "60febc65d78b9348e8487333aefc2968032ff520c5460dac70b1918e684fef6d",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/results-normal.json": "00b8325b39a7875ccad7ecbd6286a2bd52a0e0f1b3816648ce6a0e6ad1911197",
+    "reproduction/aristotle-prior-analytics-i21/argument-review/run.log": "ed348c1e881482d577aacac90421a9fbc66ec52aba4232cf35280ec3fff897b0"
+  }
+}

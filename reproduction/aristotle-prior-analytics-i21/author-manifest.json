@@ -1,0 +1,16 @@
+{
+  "scope": "Author files only, excludes this manifest and independent review",
+  "sha256": {
+    "model.py": "c9f2a1ca3f497a2952ce703c7fd16cfef029912df4e6872ebcf43315a35dc60c",
+    "test_model.py": "038945cdb5957f4ed490747a829f943b7e4dc7414cacf59b93b74fb331c58c21",
+    "enumerate_models.py": "14aa5f0c725dfdbc5f9c8682d1de741188aa7ed3fa7ce30c59007becdb8486e1",
+    "README.md": "c4d000ffe2e985301dc1132a5456c35c3ed77001e4e6669e3ba22238ac6c5a08",
+    "environment.json": "76496afd17d4df9a0f8760857fe6d4b38ca8595f74d9ce4ef8bbb4629ca3277b",
+    "logs/results-O.json": "dc8c3b7c9eb51e104d0c90442ecb1d62bfd531e118a73dd60ae4608d1ad3b1c3",
+    "logs/results-OO.json": "dc8c3b7c9eb51e104d0c90442ecb1d62bfd531e118a73dd60ae4608d1ad3b1c3",
+    "logs/results-normal.json": "dc8c3b7c9eb51e104d0c90442ecb1d62bfd531e118a73dd60ae4608d1ad3b1c3",
+    "logs/tests-O.txt": "dd22ae72e5a703bd12af992d7cab6277e0c1208a99a90fc82aae95fde6049ed9",
+    "logs/tests-OO.txt": "06470acb2822d8416a45853d7765ada571e3fe92734a08251898b4fbe2d9df06",
+    "logs/tests-normal.txt": "9c2e738ea87ecd07224ad58a1777eeabbeebd204dbc6b093003792c3632f891f"
+  }
+}

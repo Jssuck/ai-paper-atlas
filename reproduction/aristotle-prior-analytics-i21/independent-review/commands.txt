@@ -1,0 +1,8 @@
+Executed from reproduction/aristotle-prior-analytics-i21 using Python from environment.json.
+For each mode normal, O, OO (flag empty, -O, -OO respectively):
+python $flag independent-review/check.py > independent-review/result-$mode.json
+python $flag -m unittest -v test_model.py > independent-review/author-tests-$mode.txt 2>&1
+python $flag enumerate_models.py > independent-review/author-result-$mode.json
+cmp logs/results-$mode.json independent-review/author-result-$mode.json
+python $flag independent-review/check_prose.py > independent-review/prose-$mode.txt
+All commands returned exit status 0. Author manifest SHA256 verified with hashlib independently.
