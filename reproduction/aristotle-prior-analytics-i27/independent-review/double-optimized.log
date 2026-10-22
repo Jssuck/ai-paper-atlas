@@ -1,0 +1,78 @@
+$ python -OO -m unittest -v test_model
+test_01_direct (test_model.Tests.test_01_direct) ... ok
+test_02_transitive (test_model.Tests.test_02_transitive) ... ok
+test_03_reflexive (test_model.Tests.test_03_reflexive) ... ok
+test_04_no_reverse (test_model.Tests.test_04_no_reverse) ... ok
+test_05_no_missing_negative (test_model.Tests.test_05_no_missing_negative) ... ok
+test_06_negative_symmetry (test_model.Tests.test_06_negative_symmetry) ... ok
+test_07_subclass_negative (test_model.Tests.test_07_subclass_negative) ... ok
+test_08_both_subclasses (test_model.Tests.test_08_both_subclasses) ... ok
+test_09_catalog_direction (test_model.Tests.test_09_catalog_direction) ... ok
+test_10_common_sup_not_include (test_model.Tests.test_10_common_sup_not_include) ... ok
+test_11_cycles_terminate (test_model.Tests.test_11_cycles_terminate) ... ok
+test_12_empty_term_not_explosion (test_model.Tests.test_12_empty_term_not_explosion) ... ok
+test_13_forged_path_rejected (test_model.Tests.test_13_forged_path_rejected) ... ok
+test_14_wrong_endpoint_rejected (test_model.Tests.test_14_wrong_endpoint_rejected) ... ok
+test_15_forged_exclusion_rejected (test_model.Tests.test_15_forged_exclusion_rejected) ... ok
+test_16_invalid_constructor (test_model.Tests.test_16_invalid_constructor) ... ok
+test_17_invalid_queries (test_model.Tests.test_17_invalid_queries) ... ok
+test_18_malformed_certificates (test_model.Tests.test_18_malformed_certificates) ... ok
+test_19_interpretation (test_model.Tests.test_19_interpretation) ... ok
+test_20_determinism_and_dedup (test_model.Tests.test_20_determinism_and_dedup) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.002s
+
+OK
+
+exit_code=0
+
+$ python -OO experiment.py
+{
+  "representative_models": 255,
+  "premise_selections": 1020,
+  "positive_certificates": 3848,
+  "negative_certificates": 1326,
+  "verified_certificates": 5174,
+  "demo_human": {
+    "sup": [
+      "human",
+      "animal"
+    ],
+    "sub": [
+      "human",
+      "student"
+    ],
+    "excl": [
+      "stone"
+    ]
+  },
+  "demo_student_animal_path": [
+    "student",
+    "human",
+    "animal"
+  ],
+  "demo_student_stone": {
+    "left_path": [
+      "student",
+      "human",
+      "animal"
+    ],
+    "right_path": [
+      "stone"
+    ],
+    "source_pair": [
+      "animal",
+      "stone"
+    ]
+  },
+  "missing_relation_is_unknown": true,
+  "limits": "255 finite type models; four selections each; no general proof, no completeness claim, no existential/probabilistic inference"
+}
+
+exit_code=0
+
+$ python -OO independent-review/check.py
+{"boundaries": {"additional_boundary_checks": 3, "rejected_certificates": 9}, "rule_inputs": {"certificates": 476304, "knowledge_bases": 32768, "queries": 589824}, "two_element_semantics": {"satisfying_kb_interpretation_pairs": 416, "semantic_checks": 1808}}
+
+exit_code=0
