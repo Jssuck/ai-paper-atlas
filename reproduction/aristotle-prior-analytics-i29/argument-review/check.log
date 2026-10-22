@@ -1,0 +1,39 @@
+UTC 2026-10-22T13:43:14Z
+Python 3.12.14
+Command: python3 check.py
+{
+  "author_code_imported": false,
+  "counts": {
+    "contradictory_pairs": 84240,
+    "models": 4680,
+    "negative_premises": 340,
+    "only_negative_premises": 120,
+    "only_positive_premises": 120,
+    "particular_premises": 440
+  },
+  "domain_sizes": {
+    "1": 8,
+    "2": 64,
+    "3": 512,
+    "4": 4096
+  },
+  "finite_checks_only": true,
+  "inconsistent_gamma_classes": 1,
+  "named_examples_checked": 6,
+  "nonempty_two_world": {
+    "B_subset_A": [
+      false,
+      true
+    ],
+    "E_subset_A": [
+      false,
+      false
+    ],
+    "E_subset_B": [
+      true,
+      false
+    ]
+  },
+  "raa_valuation_classes": 16,
+  "status": "PASS"
+}

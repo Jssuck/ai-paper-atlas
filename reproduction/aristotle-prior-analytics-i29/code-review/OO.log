@@ -1,0 +1,23 @@
+2026-10-22T13:44:23Z
+COMMAND: python3 -OO code-review/audit.py
+{
+  "accepted_local_rules": {
+    "all_trans": 27,
+    "no_sub": 27,
+    "no_sym": 9,
+    "some_map": 27,
+    "some_sym": 9,
+    "witness": 9
+  },
+  "candidate_rule_certificates": 109800,
+  "hostile_inputs_rejected": 79,
+  "model_sha256": "0cb0de92ebf809c0af92171e3315bc69dfd56ed53d9561fbfe9fd211d36900aa",
+  "nested_raa_valid": true,
+  "oracle_atom_evaluations": 17520,
+  "oracle_models": 584,
+  "raa_clash_accepted": 9,
+  "raa_clash_candidates": 270,
+  "scope": "Finite independent oracle; no exhaustive proof-tree/RAA metatheory or historical semantics certification",
+  "single_term_mutations_rejected": 58
+}
+EXIT_CODE: 0

@@ -1,0 +1,26 @@
+test_bad_discharge (test_model.CertificateTests.test_bad_discharge) ... ok
+test_boolean_index (test_model.CertificateTests.test_boolean_index) ... ok
+test_changed_goal (test_model.CertificateTests.test_changed_goal) ... ok
+test_changed_middle (test_model.CertificateTests.test_changed_middle) ... ok
+test_clash_requires_same_order (test_model.CertificateTests.test_clash_requires_same_order) ... ok
+test_depth_bound (test_model.CertificateTests.test_depth_bound) ... ok
+test_empty_terms_allowed (test_model.CertificateTests.test_empty_terms_allowed) ... ok
+test_extra_field (test_model.CertificateTests.test_extra_field) ... ok
+test_false_not_a_premise (test_model.CertificateTests.test_false_not_a_premise) ... ok
+test_finite_semantics_and_counterexamples (test_model.CertificateTests.test_finite_semantics_and_counterexamples) ... ok
+test_invalid_terms (test_model.CertificateTests.test_invalid_terms) ... ok
+test_lexical_assumption_does_not_escape (test_model.CertificateTests.test_lexical_assumption_does_not_escape) ... ok
+test_missing_existence (test_model.CertificateTests.test_missing_existence) ... ok
+test_missing_only_cannot_be_given (test_model.CertificateTests.test_missing_only_cannot_be_given) ... ok
+test_negative_index (test_model.CertificateTests.test_negative_index) ... ok
+test_noncontradiction_body (test_model.CertificateTests.test_noncontradiction_body) ... ok
+test_six_certificates (test_model.CertificateTests.test_six_certificates) ... ok
+test_unbound_assumption (test_model.CertificateTests.test_unbound_assumption) ... ok
+test_universal_cannot_supply_witness (test_model.CertificateTests.test_universal_cannot_supply_witness) ... ok
+test_unknown_rule (test_model.CertificateTests.test_unknown_rule) ... ok
+test_vacuous_discharge_rejected (test_model.CertificateTests.test_vacuous_discharge_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.660s
+
+OK

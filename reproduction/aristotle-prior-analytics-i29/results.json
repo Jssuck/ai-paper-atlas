@@ -1,0 +1,15 @@
+{
+  "certificates": 6,
+  "counterexamples": 3,
+  "models": 4368,
+  "premise_satisfying_models": {
+    "negative_direct": 584,
+    "negative_raa": 584,
+    "only_negative": 584,
+    "only_positive": 584,
+    "particular_direct": 526,
+    "particular_raa": 526
+  },
+  "scope": "strict finite extensional checking; no general theorem proof or historical modal reconstruction",
+  "two_world_boundary": true
+}
