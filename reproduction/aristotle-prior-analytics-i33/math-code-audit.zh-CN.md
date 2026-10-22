@@ -40,13 +40,17 @@ n=0是额外实现边界，正文一般模型指定非空域；空类不等于�
 
 `Context`是调用者提供的标签，不证明输入真正共享时间或意义；`evaluate`要求调用者给出该上下文的解释，不自行解决跨上下文匹配。名字的类解释与个体解释分开；缺名字报错，不默造空类。代码没有同一性证明检查器；身份部分是明确的有限语义枚举。受限规则检查只验证形状，不验证现实前提真。
 
+## 排版修订复核
+
+公开预览后补上三张表的Markdown分隔行（断言、对象与性质、可定位内容）。独立逆向移除这三行后，文件SHA-256精确恢复初审绑定`84b71b277740840e404c1147d0bcd4bbcc7de97c7b971e71d53a65efd95faffe`，证明本轮没有改变措辞、公式或代码。下表绑定更新后的排版版本；数学及实跑结论不变。
+
 ## 审核绑定
 
 SHA-256绑定的是下列实际阅读/执行版本。内容变化需重核相关部分，不能沿用此表冒称新版本通过。
 
 |文件|SHA-256|
 |---|---|
-|`aristotle-prior-analytics-i33.zh-CN.md`|`84b71b277740840e404c1147d0bcd4bbcc7de97c7b971e71d53a65efd95faffe`|
+|`aristotle-prior-analytics-i33.zh-CN.md`|`f6b4cfb84aee7fabaeeaa486238d3da10a7674cc8f5b8509d858a2c990568541`|
 |`model.py`|`df1f331cb6bd28039f78a961faac6462e1637d7834fbcc9b70ecd801aba7a451`|
 |`test_model.py`|`b4208df7d84033d6867d09417d4256d376bc8142370ead12cb85742d5c67171e`|
 |`README.md`|`2e6a2a67d00a8efaa9483449ba84833f2bba9c77fafaace6df1c3ab32b5359dc`|
