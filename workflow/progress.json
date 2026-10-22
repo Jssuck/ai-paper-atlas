@@ -1,32 +1,28 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-i25",
-    "stage": "publication_verification",
-    "started_at": "2026-10-22T09:33:25Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-prior-analytics-i24",
-    "path": "papers/ancient/aristotle-prior-analytics-i24.zh-CN.md",
-    "completed_at": "2026-10-22T08:51:40Z",
-    "content_commit": "e9cff6bab6c9e0b641f069348d40f395d0383588",
+    "id": "aristotle-prior-analytics-i25",
+    "path": "papers/ancient/aristotle-prior-analytics-i25.zh-CN.md",
+    "completed_at": "2026-10-22T09:52:20Z",
+    "content_commit": "f1ca42439fbcefe11e7e57f820a97e7476607243",
     "checks": [
-      "Original Bekker41b6-35 and Owen1853 pp138-139/four notes with p140 continuation and ERRATA read; independent source audit.",
-      "General witness and expansion proofs corrected after independent audit; 20 answered exercises reviewed.",
-      "Author normal/-O/-OO each18 tests; independent code each9180 atomic,48960 figure evaluations,384 classifications,64260 metamorphic checks and67 invalid inputs; independent argument each90816 model checks.",
-      "All41 publication files exact UTF-8 verified;459 relative links checked;2698 unrelated blobs preserved.",
-      "GitHub Preview all3 MathML blocks visually inspected; README-to-paper-to-reproduction navigation verified."
+      "Full Bekker41b36-42b26 and Owen1853 pp140-142 with eleven numbered notes, marginal notes and applicable ERRATA examined; independent source review; A/D note discrepancy retained.",
+      "General chain-counting, insertion reclassification, proof-tree and edge-necessity arguments independently reviewed; induction wording corrected; 20 answered exercises checked.",
+      "Author normal/-O/-OO each20 tests; independent code each65536 directed graphs,544320 certificate-target checks,22 chain sizes,197 tree shapes and12 invalid inputs; independent argument each39 sizes,780 insertions and2056 tree shapes.",
+      "All37 publication files exact UTF-8 verified;475 relative links checked;2737 unrelated blobs preserved.",
+      "GitHub Preview all3 MathML blocks visually inspected with no rendering errors; README/paper/reproduction href targets opened and verified."
     ]
   },
-  "updated_at": "2026-10-22T09:46:00Z",
+  "updated_at": "2026-10-22T09:52:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Verify I.25 published files and actual GitHub rendering before marking completion.",
+  "next_action": "Wait for the next scheduled run before selecting another paper; retain deferred I.2 and all existing gaps.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
