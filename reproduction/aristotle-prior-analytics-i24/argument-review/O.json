@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "counts": {
+    "models": 473,
+    "mood_model_checks": 90816,
+    "two_negative_constructions": 48,
+    "two_particular_constructions": 48,
+    "single_universal_local_extensions": 16,
+    "premise_preserving_extensions": 1792,
+    "explicit_checks": 5
+  },
+  "valid_empty_allowed": [
+    "AAA-1",
+    "AII-1",
+    "EAE-1",
+    "EIO-1",
+    "AEE-2",
+    "AOO-2",
+    "EAE-2",
+    "EIO-2",
+    "AII-3",
+    "EIO-3",
+    "IAI-3",
+    "OAO-3"
+  ],
+  "valid_all_terms_nonempty": [
+    "AAA-1",
+    "AAI-1",
+    "AII-1",
+    "EAE-1",
+    "EAO-1",
+    "EIO-1",
+    "AEE-2",
+    "AEO-2",
+    "AOO-2",
+    "EAE-2",
+    "EAO-2",
+    "EIO-2",
+    "AAI-3",
+    "AII-3",
+    "EAO-3",
+    "EIO-3",
+    "IAI-3",
+    "OAO-3"
+  ],
+  "extension_table": [
+    {
+      "universal": "AMP",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "AMP",
+      "target": "E",
+      "M": false
+    },
+    {
+      "universal": "EMP",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "EMP",
+      "target": "E",
+      "M": false
+    },
+    {
+      "universal": "AMS",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "AMS",
+      "target": "E",
+      "M": false
+    },
+    {
+      "universal": "EMS",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "EMS",
+      "target": "E",
+      "M": false
+    },
+    {
+      "universal": "APM",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "APM",
+      "target": "E",
+      "M": true
+    },
+    {
+      "universal": "EPM",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "EPM",
+      "target": "E",
+      "M": false
+    },
+    {
+      "universal": "ASM",
+      "target": "A",
+      "M": true
+    },
+    {
+      "universal": "ASM",
+      "target": "E",
+      "M": true
+    },
+    {
+      "universal": "ESM",
+      "target": "A",
+      "M": false
+    },
+    {
+      "universal": "ESM",
+      "target": "E",
+      "M": false
+    }
+  ],
+  "scope": "Finite independent checks supplement general constructions; not proof of arbitrary logic, modal semantics or epistemic noncircularity."
+}

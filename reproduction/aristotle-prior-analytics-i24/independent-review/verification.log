@@ -1,0 +1,168 @@
+Python: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Platform: Linux-6.18.55-x86_64-with-glibc2.41
+Independent results identical: PASS
+normal: author 18 tests PASS; examples byte-equal PASS; independent PASS
+O: author 18 tests PASS; examples byte-equal PASS; independent PASS
+OO: author 18 tests PASS; examples byte-equal PASS; independent PASS
+Independent result sha256: aa02ee09198d764632c5823f20a994bad24119406a209057ddede10088c6f907
+{
+  "primitive_queries": 9180,
+  "syllogism_evaluations": 48960,
+  "classifications": 384,
+  "metamorphic_comparisons": 64260,
+  "invalid_inputs": 67,
+  "allow_empty_terms": {
+    "models": 255,
+    "valid": 12,
+    "valid_moods": [
+      "AAA-1",
+      "AII-1",
+      "EAE-1",
+      "EIO-1",
+      "AEE-2",
+      "AOO-2",
+      "EAE-2",
+      "EIO-2",
+      "AII-3",
+      "EIO-3",
+      "IAI-3",
+      "OAO-3"
+    ]
+  },
+  "all_terms_nonempty": {
+    "models": 218,
+    "valid": 18,
+    "valid_moods": [
+      "AAA-1",
+      "AAI-1",
+      "AII-1",
+      "EAE-1",
+      "EAO-1",
+      "EIO-1",
+      "AEE-2",
+      "AEO-2",
+      "AOO-2",
+      "EAE-2",
+      "EAO-2",
+      "EIO-2",
+      "AAI-3",
+      "AII-3",
+      "EAO-3",
+      "EIO-3",
+      "IAI-3",
+      "OAO-3"
+    ]
+  },
+  "semantic_variants": {
+    "reverse_A": {
+      "mask": 2,
+      "intended_form": "A",
+      "correct": false,
+      "variant": true
+    },
+    "A_imports_existence": {
+      "mask": 1,
+      "intended_form": "A",
+      "correct": true,
+      "variant": false
+    },
+    "E_as_O": {
+      "mask": 1,
+      "intended_form": "E",
+      "correct": true,
+      "variant": false
+    },
+    "I_as_A": {
+      "mask": 1,
+      "intended_form": "I",
+      "correct": false,
+      "variant": true
+    },
+    "O_reverse": {
+      "mask": 2,
+      "intended_form": "O",
+      "correct": true,
+      "variant": false
+    },
+    "E_as_not_A": {
+      "mask": 1,
+      "intended_form": "E",
+      "correct": true,
+      "variant": false
+    },
+    "I_requires_all": {
+      "mask": 9,
+      "intended_form": "I",
+      "correct": true,
+      "variant": false
+    },
+    "O_as_E": {
+      "mask": 1,
+      "intended_form": "O",
+      "correct": false,
+      "variant": true
+    },
+    "A_as_some": {
+      "mask": 1,
+      "intended_form": "A",
+      "correct": true,
+      "variant": false
+    }
+  },
+  "exact_arithmetic_instances": [
+    {
+      "assumptions": true,
+      "conclusion": true,
+      "implication": true,
+      "remainders": [
+        "285/2",
+        "285/2"
+      ]
+    },
+    {
+      "assumptions": false,
+      "conclusion": false,
+      "implication": true,
+      "remainders": [
+        "150",
+        "140"
+      ]
+    },
+    {
+      "assumptions": true,
+      "conclusion": true,
+      "implication": true,
+      "remainders": [
+        "25/6",
+        "25/6"
+      ]
+    },
+    {
+      "assumptions": false,
+      "conclusion": false,
+      "implication": true,
+      "remainders": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "assumptions": true,
+      "conclusion": true,
+      "implication": true,
+      "remainders": [
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "prose_model_masks": [
+    96,
+    22,
+    24,
+    130,
+    6
+  ],
+  "named_examples_checked": 7,
+  "author_hashes_matched": 11
+}

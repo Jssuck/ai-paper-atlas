@@ -1,0 +1,24 @@
+{
+  "scope": "Independent code review binding; paths relative to publish root; does not self-hash.",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i24.zh-CN.md": "e9dc46cfe42283a3a3292fa99ecc4737c062ceb0044fbe6f08d007783d0a3065",
+    "reproduction/aristotle-prior-analytics-i24/CODE_REVIEW.md": "060d125cfcca859c59b705d50080a8b8593472393f9a071d9d1ab1e48dd15bb6",
+    "reproduction/aristotle-prior-analytics-i24/author-manifest.json": "36bf271a64bb272694fd623532c1eb6f1e0bf8c8977a904fbf8be65ed04c602f",
+    "reproduction/aristotle-prior-analytics-i24/model.py": "728704b4e6f626378bf2adbb96f678d1365e23d663af27062ae10f7ff0d94caa",
+    "reproduction/aristotle-prior-analytics-i24/test_model.py": "ed5c466c4fba5bdb0c9677504458e5f21016a621fed79b5df65812657f4f1d8f",
+    "reproduction/aristotle-prior-analytics-i24/run_examples.py": "effd7a779c948b72183b7f3abc359de8bc96e66814f2a97ab94efa6461f31eae",
+    "reproduction/aristotle-prior-analytics-i24/README.md": "12aff146c9353c53b9ece7e19113223aea9bdb5579ff8c06db97d0af049da267",
+    "reproduction/aristotle-prior-analytics-i24/environment.json": "096cf73755b00261921f66c3b0e995fa26763a0480f29e3ad657087863fc1f71",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-results-O.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-results-OO.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-results-normal.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-tests-O.log": "cf856ba62243d0785f8f0d6407d55bbcf7e4647c5553b8db9c6f44a31f7206b9",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-tests-OO.log": "209a4cc69f14fd1e65c4e88951dfadd3b082ed7679a15ea2290efe1afa7c71e8",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/author-tests-normal.log": "3ef32c16064f69ada995a4f8e662f94f9c8e707b61118add364335519c70b79f",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/oracle.py": "29d4d7ba0465e524d1c3eebfa8ee8e11010396f2dda9ee6d92fe929bab536610",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/report-O.json": "aa02ee09198d764632c5823f20a994bad24119406a209057ddede10088c6f907",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/report-OO.json": "aa02ee09198d764632c5823f20a994bad24119406a209057ddede10088c6f907",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/report-normal.json": "aa02ee09198d764632c5823f20a994bad24119406a209057ddede10088c6f907",
+    "reproduction/aristotle-prior-analytics-i24/independent-review/verification.log": "4fee2993fac64e2604c5154de16cfaada77a7ca1f49a377be98ce7862bd25805"
+  }
+}

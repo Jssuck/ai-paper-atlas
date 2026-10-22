@@ -1,0 +1,16 @@
+{
+  "scope": "Author files only; does not self-hash or bind later independent reviews.",
+  "sha256": {
+    "model.py": "728704b4e6f626378bf2adbb96f678d1365e23d663af27062ae10f7ff0d94caa",
+    "test_model.py": "ed5c466c4fba5bdb0c9677504458e5f21016a621fed79b5df65812657f4f1d8f",
+    "run_examples.py": "effd7a779c948b72183b7f3abc359de8bc96e66814f2a97ab94efa6461f31eae",
+    "README.md": "12aff146c9353c53b9ece7e19113223aea9bdb5579ff8c06db97d0af049da267",
+    "environment.json": "096cf73755b00261921f66c3b0e995fa26763a0480f29e3ad657087863fc1f71",
+    "logs/tests-normal.log": "832a85c3fa2ceb0908574633d1e8177d7166d7394a20298e5bd8f193aba1d4d1",
+    "logs/results-normal.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f",
+    "logs/tests-O.log": "4ffee9aa3fb73c93148f30fd4f7cef1c91348aaf62d1a56ead9ef791c965329c",
+    "logs/results-O.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f",
+    "logs/tests-OO.log": "501cca259dfa783d443d76bc2b3db8e29447ccafeecb10493fcb2a0ed0d59550",
+    "logs/results-OO.json": "533595a16f664ca5150d38903d66a31f80b42195b60a7bb0cd0bf7e793f6ab1f"
+  }
+}

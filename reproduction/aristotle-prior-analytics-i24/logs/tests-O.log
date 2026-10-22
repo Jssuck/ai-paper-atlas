@@ -1,0 +1,24 @@
+COMMAND: python -O -m unittest -v test_model
+test_bad_figures_moods_policies (test_model.ModelTests.test_bad_figures_moods_policies) ... ok
+test_bad_masks (test_model.ModelTests.test_bad_masks) ... ok
+test_bad_symbols (test_model.ModelTests.test_bad_symbols) ... ok
+test_barbara (test_model.ModelTests.test_barbara) ... ok
+test_census_constraints (test_model.ModelTests.test_census_constraints) ... ok
+test_complements (test_model.ModelTests.test_complements) ... ok
+test_countermodel_replay (test_model.ModelTests.test_countermodel_replay) ... ok
+test_darapti (test_model.ModelTests.test_darapti) ... ok
+test_domain (test_model.ModelTests.test_domain) ... ok
+test_empty_subject (test_model.ModelTests.test_empty_subject) ... ok
+test_exact_remainders (test_model.ModelTests.test_exact_remainders) ... ok
+test_false_assumptions_not_equality_proof (test_model.ModelTests.test_false_assumptions_not_equality_proof) ... ok
+test_invalid_remainders (test_model.ModelTests.test_invalid_remainders) ... ok
+test_membership (test_model.ModelTests.test_membership) ... ok
+test_models (test_model.ModelTests.test_models) ... ok
+test_necessary_not_sufficient (test_model.ModelTests.test_necessary_not_sufficient) ... ok
+test_two_negatives (test_model.ModelTests.test_two_negatives) ... ok
+test_two_particulars (test_model.ModelTests.test_two_particulars) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.114s
+
+OK

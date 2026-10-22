@@ -1,0 +1,147 @@
+{
+  "scope": "Three figures; categorical AEIO, not modal syllogisms or a full proof checker.",
+  "policies": {
+    "allow_empty_terms": {
+      "model_count": 255,
+      "mood_count": 192,
+      "valid_count": 12,
+      "valid_moods": [
+        "AAA-1",
+        "AII-1",
+        "EAE-1",
+        "EIO-1",
+        "AEE-2",
+        "AOO-2",
+        "EAE-2",
+        "EIO-2",
+        "AII-3",
+        "EIO-3",
+        "IAI-3",
+        "OAO-3"
+      ],
+      "necessary_condition_failures": []
+    },
+    "all_terms_nonempty": {
+      "model_count": 218,
+      "mood_count": 192,
+      "valid_count": 18,
+      "valid_moods": [
+        "AAA-1",
+        "AAI-1",
+        "AII-1",
+        "EAE-1",
+        "EAO-1",
+        "EIO-1",
+        "AEE-2",
+        "AEO-2",
+        "AOO-2",
+        "EAE-2",
+        "EAO-2",
+        "EIO-2",
+        "AAI-3",
+        "AII-3",
+        "EAO-3",
+        "EIO-3",
+        "IAI-3",
+        "OAO-3"
+      ],
+      "necessary_condition_failures": []
+    }
+  },
+  "examples": [
+    {
+      "figure": 1,
+      "mood": "III",
+      "policy": "all_terms_nonempty",
+      "premise_models": 160,
+      "countermodel_count": 16,
+      "valid": false,
+      "first_countermodel": 96
+    },
+    {
+      "figure": 2,
+      "mood": "EEE",
+      "policy": "all_terms_nonempty",
+      "premise_models": 10,
+      "countermodel_count": 8,
+      "valid": false,
+      "first_countermodel": 24
+    },
+    {
+      "figure": 2,
+      "mood": "AAA",
+      "policy": "all_terms_nonempty",
+      "premise_models": 20,
+      "countermodel_count": 12,
+      "valid": false,
+      "first_countermodel": 96
+    },
+    {
+      "figure": 3,
+      "mood": "AAI",
+      "policy": "allow_empty_terms",
+      "premise_models": 31,
+      "countermodel_count": 7,
+      "valid": false,
+      "first_countermodel": 1
+    },
+    {
+      "figure": 3,
+      "mood": "AAI",
+      "policy": "all_terms_nonempty",
+      "premise_models": 16,
+      "countermodel_count": 0,
+      "valid": true,
+      "first_countermodel": null
+    },
+    {
+      "figure": 3,
+      "mood": "AAA",
+      "policy": "all_terms_nonempty",
+      "premise_models": 16,
+      "countermodel_count": 8,
+      "valid": false,
+      "first_countermodel": 130
+    },
+    {
+      "figure": 1,
+      "mood": "AAA",
+      "policy": "allow_empty_terms",
+      "premise_models": 15,
+      "countermodel_count": 0,
+      "valid": true,
+      "first_countermodel": null
+    }
+  ],
+  "music": {
+    "mask": 96,
+    "domain": [
+      5,
+      6
+    ],
+    "extensions": {
+      "S": [
+        5
+      ],
+      "P": [
+        6
+      ],
+      "M": [
+        5,
+        6
+      ]
+    },
+    "some_pleasure_commendable": true,
+    "all_music_pleasure": true,
+    "all_music_commendable": false
+  },
+  "subtraction": {
+    "assumptions": true,
+    "conclusion": true,
+    "implication": true,
+    "remainders": [
+      "25/6",
+      "25/6"
+    ]
+  }
+}
