@@ -1,0 +1,385 @@
+{
+  "chain_range": [
+    2,
+    30
+  ],
+  "chains_checked": 29,
+  "conclusion_certificates_checked": 4060,
+  "insertions_checked": 493,
+  "three_label_graphs_checked": 512,
+  "chains": [
+    {
+      "n": 2,
+      "premises": 1,
+      "distinct_nonadjacent_conclusions": 0,
+      "one_target_inferences": 0,
+      "one_target_premise_slots": 0
+    },
+    {
+      "n": 3,
+      "premises": 2,
+      "distinct_nonadjacent_conclusions": 1,
+      "one_target_inferences": 1,
+      "one_target_premise_slots": 2
+    },
+    {
+      "n": 4,
+      "premises": 3,
+      "distinct_nonadjacent_conclusions": 3,
+      "one_target_inferences": 2,
+      "one_target_premise_slots": 4
+    },
+    {
+      "n": 5,
+      "premises": 4,
+      "distinct_nonadjacent_conclusions": 6,
+      "one_target_inferences": 3,
+      "one_target_premise_slots": 6
+    },
+    {
+      "n": 6,
+      "premises": 5,
+      "distinct_nonadjacent_conclusions": 10,
+      "one_target_inferences": 4,
+      "one_target_premise_slots": 8
+    },
+    {
+      "n": 7,
+      "premises": 6,
+      "distinct_nonadjacent_conclusions": 15,
+      "one_target_inferences": 5,
+      "one_target_premise_slots": 10
+    },
+    {
+      "n": 8,
+      "premises": 7,
+      "distinct_nonadjacent_conclusions": 21,
+      "one_target_inferences": 6,
+      "one_target_premise_slots": 12
+    },
+    {
+      "n": 9,
+      "premises": 8,
+      "distinct_nonadjacent_conclusions": 28,
+      "one_target_inferences": 7,
+      "one_target_premise_slots": 14
+    },
+    {
+      "n": 10,
+      "premises": 9,
+      "distinct_nonadjacent_conclusions": 36,
+      "one_target_inferences": 8,
+      "one_target_premise_slots": 16
+    },
+    {
+      "n": 11,
+      "premises": 10,
+      "distinct_nonadjacent_conclusions": 45,
+      "one_target_inferences": 9,
+      "one_target_premise_slots": 18
+    },
+    {
+      "n": 12,
+      "premises": 11,
+      "distinct_nonadjacent_conclusions": 55,
+      "one_target_inferences": 10,
+      "one_target_premise_slots": 20
+    },
+    {
+      "n": 13,
+      "premises": 12,
+      "distinct_nonadjacent_conclusions": 66,
+      "one_target_inferences": 11,
+      "one_target_premise_slots": 22
+    },
+    {
+      "n": 14,
+      "premises": 13,
+      "distinct_nonadjacent_conclusions": 78,
+      "one_target_inferences": 12,
+      "one_target_premise_slots": 24
+    },
+    {
+      "n": 15,
+      "premises": 14,
+      "distinct_nonadjacent_conclusions": 91,
+      "one_target_inferences": 13,
+      "one_target_premise_slots": 26
+    },
+    {
+      "n": 16,
+      "premises": 15,
+      "distinct_nonadjacent_conclusions": 105,
+      "one_target_inferences": 14,
+      "one_target_premise_slots": 28
+    },
+    {
+      "n": 17,
+      "premises": 16,
+      "distinct_nonadjacent_conclusions": 120,
+      "one_target_inferences": 15,
+      "one_target_premise_slots": 30
+    },
+    {
+      "n": 18,
+      "premises": 17,
+      "distinct_nonadjacent_conclusions": 136,
+      "one_target_inferences": 16,
+      "one_target_premise_slots": 32
+    },
+    {
+      "n": 19,
+      "premises": 18,
+      "distinct_nonadjacent_conclusions": 153,
+      "one_target_inferences": 17,
+      "one_target_premise_slots": 34
+    },
+    {
+      "n": 20,
+      "premises": 19,
+      "distinct_nonadjacent_conclusions": 171,
+      "one_target_inferences": 18,
+      "one_target_premise_slots": 36
+    },
+    {
+      "n": 21,
+      "premises": 20,
+      "distinct_nonadjacent_conclusions": 190,
+      "one_target_inferences": 19,
+      "one_target_premise_slots": 38
+    },
+    {
+      "n": 22,
+      "premises": 21,
+      "distinct_nonadjacent_conclusions": 210,
+      "one_target_inferences": 20,
+      "one_target_premise_slots": 40
+    },
+    {
+      "n": 23,
+      "premises": 22,
+      "distinct_nonadjacent_conclusions": 231,
+      "one_target_inferences": 21,
+      "one_target_premise_slots": 42
+    },
+    {
+      "n": 24,
+      "premises": 23,
+      "distinct_nonadjacent_conclusions": 253,
+      "one_target_inferences": 22,
+      "one_target_premise_slots": 44
+    },
+    {
+      "n": 25,
+      "premises": 24,
+      "distinct_nonadjacent_conclusions": 276,
+      "one_target_inferences": 23,
+      "one_target_premise_slots": 46
+    },
+    {
+      "n": 26,
+      "premises": 25,
+      "distinct_nonadjacent_conclusions": 300,
+      "one_target_inferences": 24,
+      "one_target_premise_slots": 48
+    },
+    {
+      "n": 27,
+      "premises": 26,
+      "distinct_nonadjacent_conclusions": 325,
+      "one_target_inferences": 25,
+      "one_target_premise_slots": 50
+    },
+    {
+      "n": 28,
+      "premises": 27,
+      "distinct_nonadjacent_conclusions": 351,
+      "one_target_inferences": 26,
+      "one_target_premise_slots": 52
+    },
+    {
+      "n": 29,
+      "premises": 28,
+      "distinct_nonadjacent_conclusions": 378,
+      "one_target_inferences": 27,
+      "one_target_premise_slots": 54
+    },
+    {
+      "n": 30,
+      "premises": 29,
+      "distinct_nonadjacent_conclusions": 406,
+      "one_target_inferences": 28,
+      "one_target_premise_slots": 56
+    }
+  ],
+  "internal_insertion_example": {
+    "old": {
+      "terms": [
+        "A",
+        "B",
+        "C"
+      ],
+      "term_count": 3,
+      "premises": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "B",
+          "C"
+        ]
+      ],
+      "premise_count": 2,
+      "conclusions": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "conclusion_count": 1,
+      "steps": [
+        [
+          "A",
+          "B",
+          "C"
+        ]
+      ]
+    },
+    "new": {
+      "terms": [
+        "A",
+        "B",
+        "X",
+        "C"
+      ],
+      "term_count": 4,
+      "premises": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "B",
+          "X"
+        ],
+        [
+          "X",
+          "C"
+        ]
+      ],
+      "premise_count": 3,
+      "conclusions": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "A",
+          "X"
+        ],
+        [
+          "B",
+          "C"
+        ]
+      ],
+      "conclusion_count": 3,
+      "steps": [
+        [
+          "A",
+          "B",
+          "X"
+        ],
+        [
+          "B",
+          "X",
+          "C"
+        ],
+        [
+          "A",
+          "X",
+          "C"
+        ]
+      ]
+    },
+    "newly_classified_conclusions": [
+      [
+        "A",
+        "X"
+      ],
+      [
+        "B",
+        "C"
+      ]
+    ]
+  },
+  "branch_counterexample": {
+    "edges": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ]
+    ],
+    "closure": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ]
+    ]
+  },
+  "cycle_counterexample": {
+    "edges": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ]
+    ],
+    "closure": [
+      [
+        "A",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "B",
+        "B"
+      ]
+    ]
+  },
+  "shared_subtree": {
+    "tree_occurrence_counts": {
+      "conclusion": [
+        "A",
+        "A"
+      ],
+      "inferences": 3,
+      "leaf_occurrences": 4,
+      "premise_slots": 6,
+      "node_occurrences": 7
+    },
+    "unique_node_objects": 4,
+    "unique_inference_objects": 2,
+    "warning": "The repeated subtree is unfolded; counting unique DAG objects does not obey the same tree leaf identity."
+  },
+  "status": "passed",
+  "limit": "Finite checks of an explicit positive-length transitivity model, not a proof of the counting theorems or unique ancient semantics."
+}

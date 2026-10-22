@@ -1,0 +1,26 @@
+python3  -m unittest -v test_model
+test_bad_target (test_model.ModelTests.test_bad_target) ... ok
+test_branch (test_model.ModelTests.test_branch) ... ok
+test_certificates (test_model.ModelTests.test_certificates) ... ok
+test_cycle (test_model.ModelTests.test_cycle) ... ok
+test_depth_guard (test_model.ModelTests.test_depth_guard) ... ok
+test_duplicate_edges (test_model.ModelTests.test_duplicate_edges) ... ok
+test_forward_reference (test_model.ModelTests.test_forward_reference) ... ok
+test_four_terms (test_model.ModelTests.test_four_terms) ... ok
+test_invalid_chains (test_model.ModelTests.test_invalid_chains) ... ok
+test_invalid_edges (test_model.ModelTests.test_invalid_edges) ... ok
+test_invalid_steps (test_model.ModelTests.test_invalid_steps) ... ok
+test_invalid_trees (test_model.ModelTests.test_invalid_trees) ... ok
+test_no_reflexive_default (test_model.ModelTests.test_no_reflexive_default) ... ok
+test_premise_not_proof (test_model.ModelTests.test_premise_not_proof) ... ok
+test_shared_tree_occurrences (test_model.ModelTests.test_shared_tree_occurrences) ... ok
+test_three_terms (test_model.ModelTests.test_three_terms) ... ok
+test_tree (test_model.ModelTests.test_tree) ... ok
+test_tree_wrong_middle (test_model.ModelTests.test_tree_wrong_middle) ... ok
+test_two_terms (test_model.ModelTests.test_two_terms) ... ok
+test_wrong_middle (test_model.ModelTests.test_wrong_middle) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.002s
+
+OK

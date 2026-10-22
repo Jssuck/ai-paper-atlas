@@ -1,0 +1,17 @@
+{
+  "scope": "Independent mathematical review, including all 20 exercise answers; source audit remains separate.",
+  "status": "passed_after_correction",
+  "correction": "Binary-tree induction replaces one leaf by an inference node with two new leaf children, not arbitrary subtrees.",
+  "hash_algorithm": "sha256",
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i25.zh-CN.md": "099464fb88f4a0af993c938b56586f750d7d641dae5077ea8a14139c98e996f3",
+    "papers/ancient/aristotle-prior-analytics-i25.sources.zh-CN.md": "9c92ddd5c6db79f9f9d5d6e5658798e0cd811ff169a2a9a66d9e1bfb81510673",
+    "papers/ancient/aristotle-prior-analytics-i25.audit.zh-CN.md": "664591f012b81b5f2247e3b62d027748c766e89ec0104a5398f957a3d439d9f5",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/README.md": "40d2ea971aadbfbc377b03e3341731ae75d9aaa6aa49a7465f1680e4d482afe6",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/independent_counts.py": "03f5014e99963c1e6327ad571be1f9ae5d990425260d4ff5c712143cce257af0",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/results-O.json": "f89adcecfd89878508f117139c846d673e1ccc5617b7fb0175e27edaf881f926",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/results-OO.json": "da88a093d53e003e8a8ca475b32cf70afa848de685dfef1e07f353e3eb85f6f8",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/results-normal.json": "e7d4d0d59af525eca78fcb2b25b313381d4559a4648bd8e215ceab7f5dd67bda",
+    "reproduction/aristotle-prior-analytics-i25/argument-review/run.log": "4078cd6338f7af5059b7e13dc600adc8ec08de7ff7c35ca1d8cedd4104830351"
+  }
+}

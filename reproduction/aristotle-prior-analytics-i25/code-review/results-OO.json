@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "four_label_graphs": 65536,
+  "single_step_target_checks": 124416,
+  "two_step_target_checks": 419904,
+  "chain_sizes": 22,
+  "tree_shapes": 197,
+  "malformed_cases": 12,
+  "extra_checks": [
+    "shared tree occurrences",
+    "input-only target",
+    "invalid suffix after target"
+  ],
+  "limitations": "Finite input sets; no proof of all programs, historical semantics, or resource bounds."
+}

@@ -3,7 +3,7 @@
   "status": "in_progress",
   "active_paper": {
     "id": "aristotle-prior-analytics-i25",
-    "stage": "research",
+    "stage": "publication_verification",
     "started_at": "2026-10-22T09:33:25Z"
   },
   "last_completed": {
@@ -19,14 +19,14 @@
       "GitHub Preview all3 MathML blocks visually inspected; README-to-paper-to-reproduction navigation verified."
     ]
   },
-  "updated_at": "2026-10-22T09:33:25Z",
+  "updated_at": "2026-10-22T09:46:00Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "Read and audit I.25 only; preserve deferred I.2 and existing gaps.",
+  "next_action": "Verify I.25 published files and actual GitHub rendering before marking completion.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",

@@ -1,0 +1,44 @@
+{
+  "python": "3.12.14",
+  "optimization": 1,
+  "path_cases": 39,
+  "append_cases": 39,
+  "interior_insertions": 780,
+  "reachable_pair_checks": 10660,
+  "binary_tree_shapes": 2056,
+  "boundary_graphs": 3,
+  "examples": [
+    {
+      "terms": 2,
+      "premises": 1,
+      "nonadjacent_conclusions": 0
+    },
+    {
+      "terms": 3,
+      "premises": 2,
+      "nonadjacent_conclusions": 1
+    },
+    {
+      "terms": 4,
+      "premises": 3,
+      "nonadjacent_conclusions": 3
+    },
+    {
+      "terms": 5,
+      "premises": 4,
+      "nonadjacent_conclusions": 6
+    },
+    {
+      "terms": 6,
+      "premises": 5,
+      "nonadjacent_conclusions": 10
+    },
+    {
+      "terms": 7,
+      "premises": 6,
+      "nonadjacent_conclusions": 15
+    }
+  ],
+  "passed": true,
+  "limits": "Finite independent checks, not general proofs, historical semantics, or an arbitrary proof-system checker."
+}
