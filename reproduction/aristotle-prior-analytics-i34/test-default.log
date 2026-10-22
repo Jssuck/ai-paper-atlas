@@ -1,0 +1,15 @@
+test_celarent_bounded_enumeration (test_model.ModelTests.test_celarent_bounded_enumeration) ... ok
+test_empty_domain_vacuity (test_model.ModelTests.test_empty_domain_vacuity) ... ok
+test_empty_domain_validates_all_conditions (test_model.ModelTests.test_empty_domain_validates_all_conditions) ... ok
+test_input_validation (test_model.ModelTests.test_input_validation) ... ok
+test_joint_short_circuit_validates_second_condition (test_model.ModelTests.test_joint_short_circuit_validates_second_condition) ... ok
+test_modal_bounded_enumeration (test_model.ModelTests.test_modal_bounded_enumeration) ... ok
+test_no_necessity_to_be_healthy (test_model.ModelTests.test_no_necessity_to_be_healthy) ... ok
+test_quantifier_scope (test_model.ModelTests.test_quantifier_scope) ... ok
+test_separate_not_joint (test_model.ModelTests.test_separate_not_joint) ... ok
+test_type_rejection (test_model.ModelTests.test_type_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.005s
+
+OK

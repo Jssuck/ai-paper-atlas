@@ -43,6 +43,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.31精读](papers/ancient/aristotle-prior-analytics-i31.zh-CN.md) | AI推理前史补读：二分覆盖、分支证据与定义方向 | 深读v1 · 完整46a31–46b40章32前及有限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.32精读](papers/ancient/aristotle-prior-analytics-i32.zh-CN.md) | AI推理前史补读：必要后果、前提补全与三格识别 | 深读v1 · 完整46b40章32起–47b14及有限结构核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.33精读](papers/ancient/aristotle-prior-analytics-i33.zh-CN.md) | AI推理前史补读：全称覆盖、同一指称与限定保持 | 深读v1 · 完整47b15–40前部及有限证书核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.34精读](papers/ancient/aristotle-prior-analytics-i34.zh-CN.md) | AI推理前史补读：状态与承载者、可能性范围与列项检查 | 深读v1 · 完整47b40后部–48a28及有限情境核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -807,3 +808,9 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 新增[《前分析篇》I.33深读](papers/ancient/aristotle-prior-analytics-i33.zh-CN.md)，完整Bekker47b15–40前部、Owen1853印158及四条编号注。逐步证明全称实例化、类包含传递和严格同一代换，区分自然语言词序、量词、角色与人物及时间限定，保留两个古例与译注解释的边界，附20题答案。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i33.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i33.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i33/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i33/math-code-audit.zh-CN.md)分工核验。有限模型不证明一般定理，受限证书拒绝不等于一般无效，不把古例说成严格同一性反例；I.34与全书不计本单元完成，I.2继续暂缓，候选目录未改。
+
+## Aristotle I.34：状态、承载者与可能性范围
+
+新增[《前分析篇》I.34深读](papers/ancient/aristotle-prior-analytics-i34.zh-CN.md)，实读47b40后部–48a28、Owen印159–160及适用译注、勘误，区分状态名称与承载者、分别可能与共同可能，逐步重建固定情境的有效推理，附算例反例与带答案练习。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i34.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i34.source-audit.zh-CN.md)、[教学代码及真实日志](reproduction/aristotle-prior-analytics-i34/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i34/math-code-audit.zh-CN.md)相互核验。有限情境模型不是完整古代模态语义；小实验不证明一般定理，状态互斥不是医学结论。I.35与全书不计本篇完成，I.2仍暂缓。

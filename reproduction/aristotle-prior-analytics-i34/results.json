@@ -1,0 +1,79 @@
+{
+  "scope": "Modern fixed-point scenario model; finite checks are not general proofs.",
+  "one_person_cells": [
+    1,
+    2
+  ],
+  "one_person": {
+    "possibly_healthy": true,
+    "possibly_diseased": true,
+    "jointly_possible": false,
+    "diseased_at_w0": false,
+    "possibly_no_health": true,
+    "necessarily_no_health": false
+  },
+  "two_person_cells": [
+    1,
+    2,
+    2,
+    1
+  ],
+  "two_person": {
+    "everyone_possibly_diseased": true,
+    "possibly_everyone_diseased": false,
+    "possibly_no_health": false
+  },
+  "condition_as_bearer_error": "bearer must be a Person, not a condition",
+  "scenario_surveys": [
+    {
+      "persons": 0,
+      "scenarios": 2,
+      "models": 1,
+      "all_possibly_diseased": 1,
+      "counterexamples_to_necessarily_no_health": 0,
+      "universal_possibility_scope_gaps": 0
+    },
+    {
+      "persons": 1,
+      "scenarios": 2,
+      "models": 9,
+      "all_possibly_diseased": 5,
+      "counterexamples_to_necessarily_no_health": 2,
+      "universal_possibility_scope_gaps": 0
+    },
+    {
+      "persons": 2,
+      "scenarios": 2,
+      "models": 81,
+      "all_possibly_diseased": 25,
+      "counterexamples_to_necessarily_no_health": 16,
+      "universal_possibility_scope_gaps": 8
+    }
+  ],
+  "celarent_surveys": [
+    {
+      "persons": 0,
+      "triples": 1,
+      "true_premises": 1,
+      "failures": 0
+    },
+    {
+      "persons": 1,
+      "triples": 8,
+      "true_premises": 4,
+      "failures": 0
+    },
+    {
+      "persons": 2,
+      "triples": 64,
+      "true_premises": 16,
+      "failures": 0
+    },
+    {
+      "persons": 3,
+      "triples": 512,
+      "true_premises": 64,
+      "failures": 0
+    }
+  ]
+}
