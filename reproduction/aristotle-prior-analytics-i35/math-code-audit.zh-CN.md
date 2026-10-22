@@ -50,4 +50,6 @@
 |`independent_audit.py`|`8aa5061cbfc5e18abf497be9a1d67125695c5463a9538e554a20e7ee7910ea84`|
 |`README.md`|`d8bf95b2fd91b30d045ce536a804cd6e8997049a22d6515a34ecac24fc18aefb`|
 |`results.json`|`7f1d328a95d4c1f8ab978851a5c3b299f94d5412449a38a49f8a88584f83df38`|
-|`../../papers/ancient/aristotle-prior-analytics-i35.zh-CN.md`|`56035cfb3f31f448b92ab0a809b5244ab3b279398accea75cab5f13e644b2148`|
+|`../../papers/ancient/aristotle-prior-analytics-i35.zh-CN.md`|`1f83de123d4df3de8c43f2cd0dd764daf0f0723bd7b383a849b062af8f6a5f66`|
+
+显示兼容性复核：正文将语义双括号改为已定义的Ext外延记号，运算符宏改为直立字样，间距宏改写；逐式数学内容、量词范围与规则未变。此项仅核对显示修订，代码未变，前述最终代码运行日志继续适用。

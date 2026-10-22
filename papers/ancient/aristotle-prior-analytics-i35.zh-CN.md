@@ -52,14 +52,14 @@ A不是“一个图形就是两个角”，也不是说三角形有两个直角�
 以下全为**教学重构**。令U为图形域，I(x)、T(x)、S(x)依次表示等腰三角形、三角形、角和为两直角。假设：
 
 $$
-\forall x\in U\,(I(x)\Rightarrow T(x)),\qquad
-\forall x\in U\,(T(x)\Rightarrow S(x)).
+\forall x\in U\quad (I(x)\Rightarrow T(x)),\qquad
+\forall x\in U\quad (T(x)\Rightarrow S(x)).
 $$
 
 任取x属于U。假设I(x)，第一前提得T(x)，第二前提得S(x)；解除临时假设得I(x)推出S(x)，再因x任取得全称结论：
 
 $$
-\forall x\in U\,(I(x)\Rightarrow S(x)).
+\forall x\in U\quad (I(x)\Rightarrow S(x)).
 $$
 
 这里的中项是T。证明对任意U成立，不要求有限，也不要求存在等腰三角形；若要断言现实中至少有一个实例，还须存在前提。它只证明两个全称前提如何传递，不验证第二前提在什么几何里成立。
@@ -77,11 +77,11 @@ $$
 建立一个比原文更明确、但更窄的现代模型。语言中的原子谓词是P、Q等；允许合取表达P且Q。每个表达E在解释M下都有对象集合：
 
 $$
-\llbracket P\land Q\rrbracket_M
-=\llbracket P\rrbracket_M\cap\llbracket Q\rrbracket_M.
+\mathrm{Ext}_M(P\land Q)
+=\mathrm{Ext}_M(P)\cap\mathrm{Ext}_M(Q).
 $$
 
-符号M代表一个语义解释，不是中项；双括号表示表达的外延。集合关系X包含于Y表达“每个X都是Y”。合取并非本章给定的唯一复合形式，只是最小教学选择。
+符号M代表一个语义解释，不是中项；Ext表示表达的外延。集合关系X包含于Y表达“每个X都是Y”。合取并非本章给定的唯一复合形式，只是最小教学选择。
 
 假设有独立证据：
 
@@ -106,17 +106,17 @@ $$
 令E为允许表达式的集合，N为检索器实际尝试的命名候选，且N是E的子集。对于目标B推出A，把“候选e有效”定义为：有已核验的证据支持B推出e以及e推出A。这里不是只检查字符串出现，更不是通过观察样本猜两个全称命题。
 
 $$
-\operatorname{Bridge}(e)
-\equiv \operatorname{Certified}(B\Rightarrow e)
-\land \operatorname{Certified}(e\Rightarrow A).
+\mathrm{Bridge}(e)
+\equiv \mathrm{Certified}(B\Rightarrow e)
+\land \mathrm{Certified}(e\Rightarrow A).
 $$
 
 Certified表示指定证书系统接受，不代表任意哲学意义的真理，也不声称所有真的命题都有证书。现在比较：
 
 $$
-\neg\exists e\in N\,\operatorname{Bridge}(e)
+\neg\exists e\in N\quad \mathrm{Bridge}(e)
 \qquad\text{与}\qquad
-\neg\exists e\in E\,\operatorname{Bridge}(e).
+\neg\exists e\in E\quad \mathrm{Bridge}(e).
 $$
 
 从左边推右边一般无效。证明很直接：只需存在一个e属于E而不属于N，且Bridge(e)成立，左边仍可真而右边假。第4节的复合表达就是这种情况的具体构造。
