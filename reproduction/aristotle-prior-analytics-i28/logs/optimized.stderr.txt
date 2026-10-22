@@ -1,0 +1,34 @@
+test_bad_fact_rejected (test_model.MatchingTests.test_bad_fact_rejected) ... ok
+test_bg (test_model.MatchingTests.test_bg) ... ok
+test_bg_incompatibility_does_not_imply_bh (test_model.MatchingTests.test_bg_incompatibility_does_not_imply_bh) ... ok
+test_bh (test_model.MatchingTests.test_bh) ... ok
+test_cf (test_model.MatchingTests.test_cf) ... ok
+test_cg (test_model.MatchingTests.test_cg) ... ok
+test_ch_does_not_suffice (test_model.MatchingTests.test_ch_does_not_suffice) ... ok
+test_df (test_model.MatchingTests.test_df) ... ok
+test_dg (test_model.MatchingTests.test_dg) ... ok
+test_disjoint_is_symmetric (test_model.MatchingTests.test_disjoint_is_symmetric) ... ok
+test_empty_match_does_not_mean_false_goal (test_model.MatchingTests.test_empty_match_does_not_mean_false_goal) ... ok
+test_empty_universals_are_valid (test_model.MatchingTests.test_empty_universals_are_valid) ... ok
+test_forged_conclusion_rejected (test_model.MatchingTests.test_forged_conclusion_rejected) ... ok
+test_forged_middle_rejected (test_model.MatchingTests.test_forged_middle_rejected) ... ok
+test_forged_premise_list_rejected (test_model.MatchingTests.test_forged_premise_list_rejected) ... ok
+test_genus_failure_not_species_failure (test_model.MatchingTests.test_genus_failure_not_species_failure) ... ok
+test_invalid_certificate_term_names (test_model.MatchingTests.test_invalid_certificate_term_names) ... ok
+test_invalid_endpoint_names (test_model.MatchingTests.test_invalid_endpoint_names) ... ok
+test_invalid_fact_term_names (test_model.MatchingTests.test_invalid_fact_term_names) ... ok
+test_inverse_bg_is_not_target_universal (test_model.MatchingTests.test_inverse_bg_is_not_target_universal) ... ok
+test_missing_premise_rejected (test_model.MatchingTests.test_missing_premise_rejected) ... ok
+test_no_existential_import_without_witness (test_model.MatchingTests.test_no_existential_import_without_witness) ... ok
+test_overlap_is_not_identity (test_model.MatchingTests.test_overlap_is_not_identity) ... ok
+test_premise_truth_not_certificate_truth (test_model.MatchingTests.test_premise_truth_not_certificate_truth) ... ok
+test_same_endpoint_rejected (test_model.MatchingTests.test_same_endpoint_rejected) ... ok
+test_shared_supertype_does_not_suffice (test_model.MatchingTests.test_shared_supertype_does_not_suffice) ... ok
+test_two_negatives_do_not_suffice (test_model.MatchingTests.test_two_negatives_do_not_suffice) ... ok
+test_unknown_is_not_negative (test_model.MatchingTests.test_unknown_is_not_negative) ... ok
+test_unknown_rule_rejected (test_model.MatchingTests.test_unknown_rule_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.003s
+
+OK

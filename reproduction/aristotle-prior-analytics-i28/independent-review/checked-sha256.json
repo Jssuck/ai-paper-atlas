@@ -1,0 +1,63 @@
+{
+  "updated_at": "2026-10-22T12:49:39.790554+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "system": "Linux",
+    "machine": "x86_64",
+    "dependencies": "standard library only"
+  },
+  "runs": [
+    {
+      "name": "normal",
+      "command": [
+        "python3",
+        "-B",
+        "independent-review/check.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "optimized",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "independent-review/check.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "isolated",
+      "command": [
+        "python3",
+        "-B",
+        "-I",
+        "independent-review/check.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "author-tests",
+      "command": [
+        "python3",
+        "-B",
+        "-I",
+        "-c",
+        "import sys,unittest;sys.path.insert(0,'.');r=unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromName('test_model'));raise SystemExit(not r.wasSuccessful())"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "checked_sha256": {
+    "model.py": "9f2f31c82d8ca363cf652d1e5ab9cf3fa0b6a91ce80e1ac8203f44425c3a25e1",
+    "test_model.py": "7d0d29027d145059af8054a2b46a1568e1518589b23b6c0919eba4bd54875e01",
+    "run_demo.py": "f9b31ae8abae33958c29705f7955bd6bc49cbf9827069c8e442a4d68ecf85980",
+    "run_evidence.py": "60d4f5b292f8ee8fbef36982e21367f83d481ebbc59d308af5a144551b880a1b",
+    "README.md": "a67ece76cb457365f930f72ebfbd7305d7d1ad7a85fb49e46c09cf798ec5981e"
+  },
+  "reviewer_sha256": {
+    "check.py": "a714203937639fd14f68230d30aaf171763756c322ce25b5a157dc330190d604",
+    "run.py": "f370151b41cf0bca08812a57eff12f0b88d1083d975d930e8028685cc6ddb056"
+  }
+}

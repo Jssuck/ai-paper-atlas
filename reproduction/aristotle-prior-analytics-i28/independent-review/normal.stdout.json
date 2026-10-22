@@ -1,0 +1,84 @@
+{
+  "malformed_inputs_rejected": 13,
+  "assignments": 4681,
+  "certificates": 2123,
+  "by_rule": {
+    "CF": 341,
+    "CG": 440,
+    "DF": 341,
+    "BH": 341,
+    "DG": 440,
+    "BG": 220
+  },
+  "forgeries_rejected": 10615,
+  "missing_premises_rejected": 5346,
+  "nonempty_countermodels": {
+    "BF": {
+      "E": {
+        "A": 1,
+        "E": 1,
+        "M": 1
+      },
+      "O": {
+        "A": 1,
+        "E": 1,
+        "M": 1
+      },
+      "A": {
+        "A": 1,
+        "E": 2,
+        "M": 3
+      },
+      "I": {
+        "A": 1,
+        "E": 2,
+        "M": 3
+      }
+    },
+    "CH": {
+      "A": {
+        "A": 1,
+        "E": 2,
+        "M": 1
+      },
+      "I": {
+        "A": 1,
+        "E": 2,
+        "M": 1
+      },
+      "E": {
+        "A": 3,
+        "E": 1,
+        "M": 2
+      },
+      "O": {
+        "A": 3,
+        "E": 1,
+        "M": 2
+      }
+    },
+    "DH": {
+      "E": {
+        "A": 1,
+        "E": 1,
+        "M": 2
+      },
+      "O": {
+        "A": 1,
+        "E": 1,
+        "M": 2
+      },
+      "A": {
+        "A": 1,
+        "E": 2,
+        "M": 4
+      },
+      "I": {
+        "A": 1,
+        "E": 2,
+        "M": 4
+      }
+    }
+  },
+  "scope": "finite 0..4 domain checks only; not a general completeness theorem"
+}

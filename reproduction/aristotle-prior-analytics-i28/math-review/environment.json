@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "command": "python3 check.py > check.stdout 2> check.stderr",
+  "exit_code": 0,
+  "check_py_sha256": "07012148051badbf98612c8863c7378b3ac3cde8aba97c36a7ec8e0d717ec663",
+  "scope": "Finite semantic checks independent of author model; all general proofs require separate mathematical reasoning."
+}

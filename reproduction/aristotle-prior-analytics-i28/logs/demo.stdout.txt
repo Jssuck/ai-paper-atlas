@@ -1,0 +1,334 @@
+{
+  "core_examples": [
+    {
+      "conclusion": [
+        "A",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "all",
+          "M",
+          "A"
+        ],
+        [
+          "all",
+          "E",
+          "M"
+        ]
+      ],
+      "rule": "CF",
+      "subject": "E"
+    },
+    {
+      "conclusion": [
+        "I",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "all",
+          "M",
+          "A"
+        ],
+        [
+          "all",
+          "M",
+          "E"
+        ],
+        [
+          "nonempty",
+          "M"
+        ]
+      ],
+      "rule": "CG",
+      "subject": "E"
+    },
+    {
+      "conclusion": [
+        "E",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "none",
+          "A",
+          "M"
+        ],
+        [
+          "all",
+          "E",
+          "M"
+        ]
+      ],
+      "rule": "DF",
+      "subject": "E"
+    },
+    {
+      "conclusion": [
+        "E",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "all",
+          "A",
+          "M"
+        ],
+        [
+          "none",
+          "E",
+          "M"
+        ]
+      ],
+      "rule": "BH",
+      "subject": "E"
+    },
+    {
+      "conclusion": [
+        "O",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "none",
+          "A",
+          "M"
+        ],
+        [
+          "all",
+          "M",
+          "E"
+        ],
+        [
+          "nonempty",
+          "M"
+        ]
+      ],
+      "rule": "DG",
+      "subject": "E"
+    },
+    {
+      "conclusion": [
+        "I",
+        "E",
+        "A"
+      ],
+      "middle": "M",
+      "predicate": "A",
+      "premises": [
+        [
+          "all",
+          "A",
+          "M"
+        ],
+        [
+          "all",
+          "M",
+          "E"
+        ],
+        [
+          "nonempty",
+          "A"
+        ]
+      ],
+      "rule": "BG",
+      "subject": "E"
+    }
+  ],
+  "finite_check": {
+    "assignments": 4681,
+    "by_rule": {
+      "BG": 220,
+      "BH": 341,
+      "CF": 341,
+      "CG": 440,
+      "DF": 341,
+      "DG": 440
+    },
+    "certificates_checked": 2123,
+    "domain_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "qualification": "finite extensional checks, not a general theorem or full I.28 reproduction"
+  },
+  "nonentailment_witnesses": {
+    "BF": {
+      "false_goal_models": {
+        "A": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            0,
+            1
+          ]
+        },
+        "E": {
+          "A": [
+            0
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            0
+          ]
+        },
+        "I": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            0,
+            1
+          ]
+        },
+        "O": {
+          "A": [
+            0
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            0
+          ]
+        }
+      },
+      "target_direction": "predicate A of subject E"
+    },
+    "CH": {
+      "false_goal_models": {
+        "A": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            0
+          ]
+        },
+        "E": {
+          "A": [
+            0,
+            1
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            1
+          ]
+        },
+        "I": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            0
+          ]
+        },
+        "O": {
+          "A": [
+            0,
+            1
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            1
+          ]
+        }
+      },
+      "target_direction": "predicate A of subject E"
+    },
+    "DH": {
+      "false_goal_models": {
+        "A": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            2
+          ]
+        },
+        "E": {
+          "A": [
+            0
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            1
+          ]
+        },
+        "I": {
+          "A": [
+            0
+          ],
+          "E": [
+            1
+          ],
+          "M": [
+            2
+          ]
+        },
+        "O": {
+          "A": [
+            0
+          ],
+          "E": [
+            0
+          ],
+          "M": [
+            1
+          ]
+        }
+      },
+      "target_direction": "predicate A of subject E"
+    }
+  },
+  "not_implemented": [
+    "textual emendation",
+    "all syllogistic routes",
+    "automatic acquisition or closure of facts",
+    "identifying different names from equal extensions",
+    "probabilistic or modal reasoning"
+  ]
+}

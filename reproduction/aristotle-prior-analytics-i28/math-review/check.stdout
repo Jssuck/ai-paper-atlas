@@ -1,0 +1,21 @@
+{
+  "paired_countermodels": 6,
+  "quadruple_assignments": 65536,
+  "reductions": {
+    "BF_to_BH": 625,
+    "BG_not_BH": 736,
+    "BG_to_DG": 1105
+  },
+  "rule_antecedent_cases": {
+    "BG": 781,
+    "BH": 1024,
+    "CF": 1024,
+    "CG": 2101,
+    "DF": 1024,
+    "DG": 2101
+  },
+  "scope": "finite checks supplement arbitrary-object proofs; no historical or general theorem certified",
+  "status": "PASS",
+  "target_refutations": 12,
+  "triple_assignments": 32768
+}
