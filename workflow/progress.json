@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "in_progress",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-i22",
+    "path": "papers/ancient/aristotle-prior-analytics-i22.zh-CN.md",
+    "stage": "research",
+    "updated_at": "2026-10-22T06:33:20Z"
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-i21",
     "path": "papers/ancient/aristotle-prior-analytics-i21.zh-CN.md",
@@ -11,14 +16,14 @@
     "completed_at": "2026-10-22T05:49:35Z",
     "checks": "Independent source, mathematical and code reviews passed;39 programmatic hash bindings plus source article/ledger bindings verified. Author16 tests and4744 configurations per normal/-O/-OO mode. Independent math266888 configurations,1868216 rule checks,7 families,6 prose and2 boundary models per mode. Independent code853920 queries,58 invalid inputs,29700 metamorphic comparisons,9 semantic variants and6 prose configurations/21 claims per mode; author results and11 hashes matched.43 public files read back exactly from content commit; all unrelated blobs and candidate registry preserved.466 relative links checked;64 old paper rows retained,65 total. Actual GitHub Preview all3 math blocks and exercises visually checked; one main table and all20 answer headings present. README link keyboard-activated to canonical article; five companion previews checked via rendered DOM. Not every prose pixel or external bibliography target audited. Zero check-runs/status contexts; contextless aggregate pending is not a CI pass."
   },
-  "updated_at": "2026-10-22T05:49:35Z",
+  "updated_at": "2026-10-22T06:33:20Z",
   "policy": {
     "one_active_paper": true,
     "if_previous_unfinished": "Continue or wait for the existing paper; do not start another or catch up missed slots.",
     "cadence": "Hourly scheduled check; quality and completed verification take precedence over throughput.",
     "coverage": "Verified historical sources and explicit backfill; no exhaustive corpus claim."
   },
-  "next_action": "This I.21 unit is complete and remotely verified. Wait until next scheduled paper run; preserve deferred I.2 and existing gaps.",
+  "next_action": "Read and independently audit I.22 only; preserve deferred I.2.",
   "last_quality_correction": {
     "id": "locke-1690-berkeley-comparison-erratum-2026-10-12",
     "path": "papers/1690/locke-understanding-ii11.berkeley-erratum-2026-10-12.json",
