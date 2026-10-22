@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "meet": 1728,
+    "projection": 288,
+    "rational_certificates": 13,
+    "rejections": 27,
+    "semantic_checks": 29952,
+    "trans": 1728
+  },
+  "scope": "bounded implementation checks, not a general theorem or geometry verification",
+  "status": "PASS"
+}

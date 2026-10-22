@@ -1,0 +1,21 @@
+{
+  "scope": "finite teaching certificates, not geometry verification",
+  "proof_steps": 5,
+  "named_middle_count": 0,
+  "expanded_middle_count": 1,
+  "linear_certificate_accepted": true,
+  "linear_target": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    -180
+  ],
+  "rejected_cases": {
+    "missing_euclidean_assumption": "missing geometric assumption",
+    "wrong_coefficient": "linear identity mismatch",
+    "circular_reference": "forward, cyclic or invalid reference",
+    "unsupported_new_name": "unjustified given"
+  }
+}
