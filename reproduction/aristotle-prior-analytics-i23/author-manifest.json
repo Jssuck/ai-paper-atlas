@@ -1,0 +1,16 @@
+{
+  "scope": "Author code, explanation and real run artifacts only; not independent audit files.",
+  "sha256": {
+    "model.py": "37841828dfdf042becefe87608cd906034ddb17a8e54d79136c18323d4a74712",
+    "test_model.py": "50d869127c36d848b8e39bf98939c23ff53c020a7a18a0c4598dca7af2e80847",
+    "run_examples.py": "12ccde45afcb02a8a14d523f6336fc46316d22a783f174e8d5a0280d88a2731e",
+    "README.md": "b62b957f5623c13dd286ae337590f3031b914afce6cb7a0070003b6ea1ad1d62",
+    "environment.json": "98dee86163a5f2ae9ee2c0152af986a11cfb301e5a2851f5f0a75cf872449e62",
+    "logs/results-normal.json": "ea749b04ab06c60be387b396e1f1739128d4f276eb5d3f0f7629d6e46762e72d",
+    "logs/results-opt.json": "ea749b04ab06c60be387b396e1f1739128d4f276eb5d3f0f7629d6e46762e72d",
+    "logs/results-opt2.json": "ea749b04ab06c60be387b396e1f1739128d4f276eb5d3f0f7629d6e46762e72d",
+    "logs/run-normal.log": "b3b68d2086876e407850e11d1d4693e1d259435d4ad7f1915c74ba9768a8dd70",
+    "logs/run-opt.log": "cf424144631ca00455cec5aac337f477b42dfc2b4787d305b5459846e57e704f",
+    "logs/run-opt2.log": "848ea88bf16866a7ddbe826b1a7f3272914e098fbb35467c80a435419c6dc0ff"
+  }
+}

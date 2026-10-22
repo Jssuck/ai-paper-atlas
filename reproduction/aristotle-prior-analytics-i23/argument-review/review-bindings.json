@@ -1,0 +1,16 @@
+{
+  "scope": "Independent mathematical review and bounded diagnostics; SHA256 binding, not general proof by execution.",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i23.zh-CN.md": "16c19a75064af063c7375a7e64153f5c60e9bddb80759f6a269fde0a12556c0a",
+    "papers/ancient/aristotle-prior-analytics-i23.audit.zh-CN.md": "ad0d9b0c574d5d3a6d95128fce8bd69b77fde9fa86389a0c8c8ec8b46b09f551",
+    "reproduction/aristotle-prior-analytics-i23/model.py": "37841828dfdf042becefe87608cd906034ddb17a8e54d79136c18323d4a74712",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/O.json": "81731ca5f8b61f590d2a73fb759fbf3179f9717f6e9e11283a5fb44e7ba242d0",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/O.log": "6d5b58033e99f74f8de824e891fa99d9d6a9bba3d6c80f1ae53e6290845ca58a",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/OO.json": "81731ca5f8b61f590d2a73fb759fbf3179f9717f6e9e11283a5fb44e7ba242d0",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/OO.log": "47a09fc59d6626fdacd4c988190181222dfc697e64aef9d6d3954cf1541a8d30",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/README.md": "70849ec8beb29906923ea657d6cfea905920953846ebeac1ef0e48725b3067b2",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/check_arguments.py": "14b1eeff443eaf7fccd3804af4fb738fab85f7e6abec74e07e5a4178f65d2fe5",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/normal.json": "81731ca5f8b61f590d2a73fb759fbf3179f9717f6e9e11283a5fb44e7ba242d0",
+    "reproduction/aristotle-prior-analytics-i23/argument-review/normal.log": "c7bbc1c017e2bdd0073b2c5f0414269f48f9a2df6ebb6cb0ec75be01656232ac"
+  }
+}

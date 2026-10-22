@@ -1,0 +1,19 @@
+$ python -OO check_arguments.py
+{
+  "three_term_models": 255,
+  "all_terms_nonempty": 218,
+  "barbara_satisfiers": 15,
+  "darapti_nonempty_satisfiers": 16,
+  "missing_witness_countermodels": 7,
+  "symmetry_complement_checks": 9180,
+  "free_B_singleton_pairs": 222,
+  "four_term_models": 65535,
+  "chain_satisfiers": 31,
+  "explicit_examples": 5,
+  "orientations": 4,
+  "middle_role_classes": 3,
+  "parity_identity_cases": 201,
+  "scope": "Finite diagnostics only; no author imports; no RAA proof-checker claim.",
+  "status": "passed"
+}
+exit_code=0

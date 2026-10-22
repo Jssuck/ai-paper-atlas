@@ -32,6 +32,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.20精读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md) | AI推理前史补读：共同主项、偶然换位与见证范围 | 深读v1 · 完整39a4–39b6及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.21精读](papers/ancient/aristotle-prior-analytics-i21.zh-CN.md) | AI推理前史补读：混合前提、同一见证与可能结论 | 深读v1 · 完整39b7–40a3及跨页译例/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.22精读](papers/ancient/aristotle-prior-analytics-i22.zh-CN.md) | AI推理前史补读：必要否定、项位与结论强度 | 深读v1 · 完整40a4–40b16及版本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.23精读](papers/ancient/aristotle-prior-analytics-i23.zh-CN.md) | AI推理前史补读：共同中项、覆盖与归谬 | 深读v1 · 完整40b17–41b5及假设分层 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -732,3 +733,11 @@ I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i
 新增[《前分析篇》I.22深读](papers/ancient/aristotle-prior-analytics-i22.zh-CN.md)，完整Bekker40a4–40b16、Owen1853印134–136与四条注、六组译例。区分后承必要与结论必要、实然与必要译义差异，重建同一见证证明，保留非空模型失配，附20题答案。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i22.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i22.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i22.audit.zh-CN.md)和[代码与真实日志](reproduction/aristotle-prior-analytics-i22/README.md)分别提供证据。原印项位疑点不静默改写，现代模型不冒充古代唯一语义，有限实跑不替代一般证明。本单元不覆盖I.23或全书；I.2仍暂缓，其他缺口及候选目录保持。
+
+## Aristotle I.23：共同中项与归谬的两层结构
+
+新增[《前分析篇》I.23深读](papers/ancient/aristotle-prior-analytics-i23.zh-CN.md)，完整Bekker40b17–41b5及Owen1853印136–138与八条译注（含跨页图式）。区分三格内归约与覆盖、共同中项必要性与充分有效性、归谬内层推导与外层假设卸除；重建自由项赋值和互素奇偶证明，附20题答案。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i23.sources.zh-CN.md)、[来源终审](papers/ancient/aristotle-prior-analytics-i23.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i23.audit.zh-CN.md)和[教学代码及真实日志](reproduction/aristotle-prior-analytics-i23/README.md)分别提供证据。有限模型不证明一般定理，归谬配对程序不验证完整假设卸除，现代重构不冒充唯一古代解释。本单元不覆盖I.24或全书；I.2仍暂缓，其他缺口及候选目录保持。
+
+I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_REVIEW.md)，包括独立布尔成员向量oracle、输入与变形检查、三模式真实日志及最终文件摘要。

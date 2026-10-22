@@ -1,0 +1,85 @@
+{
+  "AEIO_oracle_queries": 9180,
+  "RAA_pairing_cases": 7776,
+  "additional_scope_mutants": 2,
+  "chain_antecedent_models": 31,
+  "chain_models": 65535,
+  "entailment_configurations": 512,
+  "free_B_fixed_domain_truths": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "invalid_inputs_rejected": 78,
+  "limits": [
+    "Independent finite implementation audit, not general theorem proof.",
+    "Six explicit AEIO semantic variants and two scope variants, not exhaustive mutation testing.",
+    "RAA pairing still does not check a derivation or discharge."
+  ],
+  "metamorphic_checks": 18360,
+  "parity_limits": [
+    1,
+    2,
+    17,
+    100
+  ],
+  "semantic_mutant_witnesses": {
+    "A_requires_subject": {
+      "mask": 1,
+      "query": [
+        "A",
+        "P",
+        "P"
+      ]
+    },
+    "E_is_not_A": {
+      "mask": 1,
+      "query": [
+        "E",
+        "P",
+        "P"
+      ]
+    },
+    "I_as_A": {
+      "mask": 1,
+      "query": [
+        "I",
+        "P",
+        "P"
+      ]
+    },
+    "O_as_E": {
+      "mask": 1,
+      "query": [
+        "O",
+        "P",
+        "P"
+      ]
+    },
+    "reverse_A": {
+      "mask": 2,
+      "query": [
+        "A",
+        "P",
+        "M"
+      ]
+    },
+    "reverse_O": {
+      "mask": 2,
+      "query": [
+        "O",
+        "P",
+        "M"
+      ]
+    }
+  }
+}
