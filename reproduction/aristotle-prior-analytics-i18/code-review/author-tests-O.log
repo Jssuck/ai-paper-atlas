@@ -1,0 +1,18 @@
+test_actual_index (test_model.ModelTests.test_actual_index) ... ok
+test_bridge_not_actual (test_model.ModelTests.test_bridge_not_actual) ... ok
+test_bridge_not_strict (test_model.ModelTests.test_bridge_not_strict) ... ok
+test_constructor_errors (test_model.ModelTests.test_constructor_errors) ... ok
+test_full_sweep (test_model.ModelTests.test_full_sweep) ... ok
+test_generator_cardinality (test_model.ModelTests.test_generator_cardinality) ... ok
+test_generator_errors (test_model.ModelTests.test_generator_errors) ... ok
+test_immutable (test_model.ModelTests.test_immutable) ... ok
+test_method_errors (test_model.ModelTests.test_method_errors) ... ok
+test_missing_bridge (test_model.ModelTests.test_missing_bridge) ... ok
+test_no_modal_conversion (test_model.ModelTests.test_no_modal_conversion) ... ok
+test_objectwise_not_joint (test_model.ModelTests.test_objectwise_not_joint) ... ok
+test_vacuity_not_existence (test_model.ModelTests.test_vacuity_not_existence) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.130s
+
+OK

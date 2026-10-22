@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "platform": "Linux x86_64",
+  "dependencies": "Python standard library only",
+  "commands": [
+    "python code-review/check_code.py",
+    "python -O code-review/check_code.py",
+    "python -OO code-review/check_code.py",
+    "python -m unittest -v test_model",
+    "python -O -m unittest -v test_model",
+    "python -OO -m unittest -v test_model"
+  ]
+}

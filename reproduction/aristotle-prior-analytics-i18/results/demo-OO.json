@@ -1,0 +1,1293 @@
+{
+  "scope": "Modern actual-subject semantics, n=1,2; two labelled worlds and both actual indices; empty term extensions allowed.",
+  "configurations": 8320,
+  "checks": 13432,
+  "forward_bridge_cases": 4888,
+  "reverse_rigid_bridge_cases": 224,
+  "raw_rule_counterexamples": 1008,
+  "contingent_quality_equivalences": 149760,
+  "failed_family_pairs": [
+    {
+      "actual_subject": "B",
+      "actual_form": "A",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "A",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "A",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "A",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "I",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "I",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "I",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "I",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "O",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "O",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "O",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "B",
+      "actual_form": "O",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "A",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "A",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "A",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "A",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "I",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "I",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "I",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "I",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "O",
+      "contingent_form": "A",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "O",
+      "contingent_form": "E",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "O",
+      "contingent_form": "I",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    },
+    {
+      "actual_subject": "C",
+      "actual_form": "O",
+      "contingent_form": "O",
+      "overlap": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "separated": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      }
+    }
+  ],
+  "named": {
+    "missing_persistence": {
+      "model": {
+        "n": 1,
+        "worlds": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": true,
+      "persistent_A_B": false,
+      "B_C": {
+        "actual": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "possible": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "necessary": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "contingent": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": false,
+      "joint_M_notB_C": false
+    },
+    "bridge_without_actual_conclusion": {
+      "model": {
+        "n": 1,
+        "worlds": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": true,
+      "persistent_A_B": true,
+      "B_C": {
+        "actual": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "possible": {
+          "A": true,
+          "E": true,
+          "I": true,
+          "O": true
+        },
+        "necessary": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        },
+        "contingent": {
+          "A": true,
+          "E": true,
+          "I": true,
+          "O": true
+        }
+      },
+      "M_notC_B": false,
+      "joint_M_notB_C": true
+    },
+    "bridge_without_strict_conclusion": {
+      "model": {
+        "n": 2,
+        "worlds": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": true,
+      "persistent_A_B": true,
+      "B_C": {
+        "actual": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "possible": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "necessary": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "contingent": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": true,
+      "joint_M_notB_C": true
+    },
+    "possible_negative_not_convertible": {
+      "model": {
+        "n": 1,
+        "worlds": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": false,
+      "persistent_A_B": true,
+      "B_C": {
+        "actual": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "possible": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "necessary": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "contingent": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": true,
+      "joint_M_notB_C": false
+    },
+    "objectwise_not_joint": {
+      "model": {
+        "n": 2,
+        "worlds": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            1,
+            3
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": true,
+      "persistent_A_B": true,
+      "B_C": {
+        "actual": {
+          "A": false,
+          "E": false,
+          "I": true,
+          "O": true
+        },
+        "possible": {
+          "A": true,
+          "E": true,
+          "I": true,
+          "O": true
+        },
+        "necessary": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        },
+        "contingent": {
+          "A": true,
+          "E": true,
+          "I": true,
+          "O": true
+        }
+      },
+      "M_notC_B": false,
+      "joint_M_notB_C": false
+    },
+    "stable_overlap": {
+      "model": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": false,
+      "Q_A_C": true,
+      "persistent_A_B": false,
+      "B_C": {
+        "actual": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "possible": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "necessary": {
+          "A": true,
+          "E": false,
+          "I": true,
+          "O": false
+        },
+        "contingent": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": false,
+      "joint_M_notB_C": false
+    },
+    "stable_separation": {
+      "model": {
+        "n": 2,
+        "worlds": [
+          [
+            3,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": false,
+      "Q_A_C": true,
+      "persistent_A_B": false,
+      "B_C": {
+        "actual": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "possible": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "necessary": {
+          "A": false,
+          "E": true,
+          "I": false,
+          "O": true
+        },
+        "contingent": {
+          "A": false,
+          "E": false,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": true,
+      "joint_M_notB_C": true
+    },
+    "empty_subject": {
+      "model": {
+        "n": 1,
+        "worlds": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "actual": 0
+      },
+      "E0_A_B": true,
+      "Q_A_C": true,
+      "persistent_A_B": true,
+      "B_C": {
+        "actual": {
+          "A": true,
+          "E": true,
+          "I": false,
+          "O": false
+        },
+        "possible": {
+          "A": true,
+          "E": true,
+          "I": false,
+          "O": false
+        },
+        "necessary": {
+          "A": true,
+          "E": true,
+          "I": false,
+          "O": false
+        },
+        "contingent": {
+          "A": true,
+          "E": true,
+          "I": false,
+          "O": false
+        }
+      },
+      "M_notC_B": true,
+      "joint_M_notB_C": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed_after_scope_correction",
+  "checked_at": "2026-10-22T00:44:10.741994+00:00",
+  "review": "Independent mathematical review of full article and all twenty answers; independently implemented finite checker and ten prose examples. General proofs distinct from bounded verification.",
+  "scope_correction": "Reverse particular cannot inherit universal conclusion-conversion; main 3.5, table, 6.4, exercise18 now explicit.",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i18.zh-CN.md": "c38ba4bfdc7b528f4e1c53781863f5b7e69480f454368d80470719f30be653bf",
+    "reproduction/aristotle-prior-analytics-i18/model.py": "df886e730d8445823e075ee38618bacf5b0ca134bc0d9d885cd73b4bd8d70c40",
+    "reproduction/aristotle-prior-analytics-i18/demo.py": "d8bf114a63d67aa1bf1ac3cfb775bcf8d2ee5260a3333045f95efdb2a16aa2d8",
+    "reproduction/aristotle-prior-analytics-i18/test_model.py": "0369d200d523c5037c50af37522088af163f820117a4e425d0a12f94c262f204",
+    "reproduction/aristotle-prior-analytics-i18/README.md": "9ea79e22538ee2665c33d1a340568a42acc39a515a47bf268ddee0e6ed5c33bf",
+    "reproduction/aristotle-prior-analytics-i18/environment.json": "042baebbd0126e3626af1e8fd1104037dfd6554c65a80e68cf3950d3b4aafc48",
+    "reproduction/aristotle-prior-analytics-i18/results/demo.json": "8a1a0c7f77dbcf7f919fc0fd2bbc2933736e47de22d4b3b7ff91a8c853d3cfb7",
+    "reproduction/aristotle-prior-analytics-i18/results/demo-O.json": "8a1a0c7f77dbcf7f919fc0fd2bbc2933736e47de22d4b3b7ff91a8c853d3cfb7",
+    "reproduction/aristotle-prior-analytics-i18/results/demo-OO.json": "8a1a0c7f77dbcf7f919fc0fd2bbc2933736e47de22d4b3b7ff91a8c853d3cfb7",
+    "reproduction/aristotle-prior-analytics-i18/results/tests-normal.log": "1dcc568c475cad970a1f7c67088b6d98ba5da7a9f6bbb3d1d8608257473632c7",
+    "reproduction/aristotle-prior-analytics-i18/results/tests-O.log": "cd8d65cddda48428106af536729de6d383b750d46be5dbe1801c2320700480a8",
+    "reproduction/aristotle-prior-analytics-i18/results/tests-OO.log": "0e8fd8c8be63e544b06ddc5513e8e588fd567ef71c1a38701eac1f2b641084b2",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/check_arguments.py": "d9a17a440ab7040fbebe2f470cb3cf16042cded441bfa5fac32d0bbe2ca2deab",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/normal.json": "39c2793b3ecc1641ea3b3eb81e2578e6ec7d6cf5e90e94fdadf24ffc77a441c0",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/O.json": "39c2793b3ecc1641ea3b3eb81e2578e6ec7d6cf5e90e94fdadf24ffc77a441c0",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/OO.json": "39c2793b3ecc1641ea3b3eb81e2578e6ec7d6cf5e90e94fdadf24ffc77a441c0",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/README.md": "7f73d732aea2eb738d89449b373110d1226228a079cf2db844c9b35114686cf3",
+    "reproduction/aristotle-prior-analytics-i18/argument-review/environment.json": "2719c554598e87401933e6923f19ba888fe876b24d573df3cf8e2e399ce47a4b"
+  }
+}

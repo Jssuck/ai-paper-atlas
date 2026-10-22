@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "paper_id": "aristotle-prior-analytics-i18",
+  "review_type": "independent_primary_source_review",
+  "status": "passed_bounded_source_review",
+  "checked_at": "2026-10-22T00:44:34.927602+00:00",
+  "scope": "Complete Bekker1831 37b19–38a12 and Owen1853 printed125–127 including all three translator examples and cross-page continuation, title pages, relevant apparatus and formal ERRATA. Complete original article sections0–11 and20 answers plus source ledger read.",
+  "corrections_verified": [
+    "Particular conclusion direction made explicit in section3.5 and table; reverse particular witness does not automatically yield standard target",
+    "Section6.4 and exercise18 restrict rigidity repair to universal contingent premise and include nonempty reverse-particular countermodel",
+    "Source ledger includes same direction caveat"
+  ],
+  "files": {
+    "papers/ancient/aristotle-prior-analytics-i18.zh-CN.md": "c38ba4bfdc7b528f4e1c53781863f5b7e69480f454368d80470719f30be653bf",
+    "papers/ancient/aristotle-prior-analytics-i18.sources.zh-CN.md": "41a19f2a66c9402047973a9ea3662af29b53ff4d035893636d23e65329d1d950"
+  },
+  "not_certified": [
+    "Complete manuscript/edition history",
+    "Unique historical modal semantics",
+    "Unfinished chapters or complete ancient logical literature",
+    "Code execution counts or exhaustive verification outside declared finite bounds"
+  ]
+}

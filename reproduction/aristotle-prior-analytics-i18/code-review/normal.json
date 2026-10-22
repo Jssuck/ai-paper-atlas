@@ -1,0 +1,58 @@
+{
+  "configurations": 8704,
+  "categorical": 1253376,
+  "extensions": 53376,
+  "persistent": 78336,
+  "rigid": 26112,
+  "joint": 156672,
+  "invalid_input_probes": 93,
+  "mutations": [
+    {
+      "name": "possible-as-necessary",
+      "detected": true
+    },
+    {
+      "name": "necessity-as-possibility",
+      "detected": true
+    },
+    {
+      "name": "contingent-as-possible",
+      "detected": true
+    },
+    {
+      "name": "all-forms-existential",
+      "detected": true
+    },
+    {
+      "name": "wrong-actual",
+      "detected": true
+    },
+    {
+      "name": "negative-is-positive",
+      "detected": true
+    },
+    {
+      "name": "persistent-is-one-world",
+      "detected": true
+    },
+    {
+      "name": "rigid-is-vacuous",
+      "detected": true
+    },
+    {
+      "name": "joint-is-every-world",
+      "detected": true
+    }
+  ],
+  "author_rerun": {
+    "configurations": 8320,
+    "checks": 13432,
+    "forward_bridge_cases": 4888,
+    "reverse_rigid_bridge_cases": 224,
+    "raw_rule_counterexamples": 1008,
+    "contingent_quality_equivalences": 149760
+  },
+  "named_models_checked": 8,
+  "author_failed_pairs": 24,
+  "scope": "Complete n=1,2 two labelled worlds/both actual points plus deterministic 128 three-object three-world rows/all three actual points. No general completeness claim."
+}
