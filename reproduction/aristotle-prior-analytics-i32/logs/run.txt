@@ -1,0 +1,13 @@
+COMMAND: python  -m unittest -v test_model
+EXIT: 0 (normal tests)
+COMMAND: python  demo.py
+EXIT: 0 (normal demo)
+COMMAND: python -O -m unittest -v test_model
+EXIT: 0 (O tests)
+COMMAND: python -O demo.py
+EXIT: 0 (O demo)
+COMMAND: python -OO -m unittest -v test_model
+EXIT: 0 (OO tests)
+COMMAND: python -OO demo.py
+EXIT: 0 (OO demo)
+PASS: normal/O/OO JSON bytes identical

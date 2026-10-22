@@ -1,0 +1,41 @@
+test_01_first (test_model.Tests.test_01_first) ... ok
+test_02_second (test_model.Tests.test_02_second) ... ok
+test_03_third (test_model.Tests.test_03_third) ... ok
+test_04_swap (test_model.Tests.test_04_swap) ... ok
+test_05_shape_not_validity (test_model.Tests.test_05_shape_not_validity) ... ok
+test_06_missing (test_model.Tests.test_06_missing) ... ok
+test_07_extra (test_model.Tests.test_07_extra) ... ok
+test_08_four_terms (test_model.Tests.test_08_four_terms) ... ok
+test_09_not_repeated (test_model.Tests.test_09_not_repeated) ... ok
+test_10_missing_extreme (test_model.Tests.test_10_missing_extreme) ... ok
+test_11_fourth_not_first (test_model.Tests.test_11_fourth_not_first) ... ok
+test_12_identity_extremes (test_model.Tests.test_12_identity_extremes) ... ok
+test_13_quantity_recorded (test_model.Tests.test_13_quantity_recorded) ... ok
+test_14_polarity_recorded (test_model.Tests.test_14_polarity_recorded) ... ok
+test_15_barbara (test_model.Tests.test_15_barbara) ... ok
+test_16_cesare (test_model.Tests.test_16_cesare) ... ok
+test_17_darii (test_model.Tests.test_17_darii) ... ok
+test_18_darapti_empty (test_model.Tests.test_18_darapti_empty) ... ok
+test_19_darapti_nonempty (test_model.Tests.test_19_darapti_nonempty) ... ok
+test_20_semantics_against_quantification (test_model.Tests.test_20_semantics_against_quantification) ... ok
+test_21_witness_rechecked (test_model.Tests.test_21_witness_rechecked) ... ok
+test_22_completion_label (test_model.Tests.test_22_completion_label) ... ok
+test_23_exclude_goal_and_duplicate (test_model.Tests.test_23_exclude_goal_and_duplicate) ... ok
+test_24_reversed_completion_fails (test_model.Tests.test_24_reversed_completion_fails) ... ok
+test_25_boolean_chain (test_model.Tests.test_25_boolean_chain) ... ok
+test_26_sentence_not_parsed (test_model.Tests.test_26_sentence_not_parsed) ... ok
+test_27_bad_kind (test_model.Tests.test_27_bad_kind) ... ok
+test_28_bad_terms (test_model.Tests.test_28_bad_terms) ... ok
+test_29_bad_bound (test_model.Tests.test_29_bad_bound) ... ok
+test_30_bad_existence (test_model.Tests.test_30_bad_existence) ... ok
+test_31_renaming (test_model.Tests.test_31_renaming) ... ok
+test_32_empty_universal_not_existential (test_model.Tests.test_32_empty_universal_not_existential) ... ok
+test_33_two_particulars_wrong_witness (test_model.Tests.test_33_two_particulars_wrong_witness) ... ok
+test_34_two_negatives (test_model.Tests.test_34_two_negatives) ... ok
+test_35_counts_bound_three (test_model.Tests.test_35_counts_bound_three) ... ok
+test_36_generator_existence_multiple_candidates (test_model.Tests.test_36_generator_existence_multiple_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.009s
+
+OK

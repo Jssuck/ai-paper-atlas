@@ -1,0 +1,383 @@
+{
+  "completion_hypotheses": [
+    {
+      "candidate": {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      "finite_check": {
+        "admissible": 584,
+        "checked": 584,
+        "max_size": 3,
+        "nonempty": [],
+        "premise_models": 84,
+        "status": "no_countermodel_in_bound"
+      },
+      "shape": {
+        "figure": 1,
+        "major": {
+          "kind": "A",
+          "predicate": "P",
+          "subject": "M"
+        },
+        "middle": "M",
+        "minor": {
+          "kind": "A",
+          "predicate": "M",
+          "subject": "S"
+        },
+        "mood": "AAA",
+        "status": "shape_only"
+      },
+      "status": "hypothesis_not_fact"
+    },
+    {
+      "candidate": {
+        "kind": "A",
+        "predicate": "S",
+        "subject": "M"
+      },
+      "finite_check": {
+        "admissible": 2,
+        "checked": 2,
+        "max_size": 3,
+        "model": {
+          "M": [],
+          "P": [],
+          "S": [
+            0
+          ]
+        },
+        "nonempty": [],
+        "premise_models": 2,
+        "status": "countermodel_found",
+        "universe_size": 1
+      },
+      "shape": {
+        "figure": 3,
+        "major": {
+          "kind": "A",
+          "predicate": "P",
+          "subject": "M"
+        },
+        "middle": "M",
+        "minor": {
+          "kind": "A",
+          "predicate": "S",
+          "subject": "M"
+        },
+        "mood": "AAA",
+        "status": "shape_only"
+      },
+      "status": "hypothesis_not_fact"
+    },
+    {
+      "candidate": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "S"
+      },
+      "status": "excluded_goal_or_duplicate"
+    },
+    {
+      "candidate": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      "status": "excluded_goal_or_duplicate"
+    }
+  ],
+  "existence_sentence_chain": [
+    {
+      "H": false,
+      "N": false,
+      "S": false,
+      "conclusion": true,
+      "premises": true
+    },
+    {
+      "H": false,
+      "N": false,
+      "S": true,
+      "conclusion": true,
+      "premises": true
+    },
+    {
+      "H": false,
+      "N": true,
+      "S": false,
+      "conclusion": true,
+      "premises": false
+    },
+    {
+      "H": false,
+      "N": true,
+      "S": true,
+      "conclusion": true,
+      "premises": true
+    },
+    {
+      "H": true,
+      "N": false,
+      "S": false,
+      "conclusion": false,
+      "premises": false
+    },
+    {
+      "H": true,
+      "N": false,
+      "S": true,
+      "conclusion": true,
+      "premises": false
+    },
+    {
+      "H": true,
+      "N": true,
+      "S": false,
+      "conclusion": false,
+      "premises": false
+    },
+    {
+      "H": true,
+      "N": true,
+      "S": true,
+      "conclusion": true,
+      "premises": true
+    }
+  ],
+  "first_valid": {
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "finite_check": {
+      "admissible": 584,
+      "checked": 584,
+      "max_size": 3,
+      "nonempty": [],
+      "premise_models": 84,
+      "status": "no_countermodel_in_bound"
+    },
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      }
+    ],
+    "shape": {
+      "figure": 1,
+      "major": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      "middle": "M",
+      "minor": {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      "mood": "AAA",
+      "status": "shape_only"
+    }
+  },
+  "second_shape_invalid": {
+    "conclusion": {
+      "kind": "A",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "finite_check": {
+      "admissible": 6,
+      "checked": 6,
+      "max_size": 3,
+      "model": {
+        "M": [
+          0
+        ],
+        "P": [],
+        "S": [
+          0
+        ]
+      },
+      "nonempty": [],
+      "premise_models": 3,
+      "status": "countermodel_found",
+      "universe_size": 1
+    },
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "P"
+      },
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      }
+    ],
+    "shape": {
+      "figure": 2,
+      "major": {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "P"
+      },
+      "middle": "M",
+      "minor": {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      "mood": "AAA",
+      "status": "shape_only"
+    }
+  },
+  "second_valid": {
+    "conclusion": {
+      "kind": "E",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "finite_check": {
+      "admissible": 584,
+      "checked": 584,
+      "max_size": 3,
+      "nonempty": [],
+      "premise_models": 84,
+      "status": "no_countermodel_in_bound"
+    },
+    "premises": [
+      {
+        "kind": "E",
+        "predicate": "M",
+        "subject": "P"
+      },
+      {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      }
+    ],
+    "shape": {
+      "figure": 2,
+      "major": {
+        "kind": "E",
+        "predicate": "M",
+        "subject": "P"
+      },
+      "middle": "M",
+      "minor": {
+        "kind": "A",
+        "predicate": "M",
+        "subject": "S"
+      },
+      "mood": "EAE",
+      "status": "shape_only"
+    }
+  },
+  "third_with_existence": {
+    "conclusion": {
+      "kind": "I",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "finite_check": {
+      "admissible": 500,
+      "checked": 584,
+      "max_size": 3,
+      "nonempty": [
+        "M"
+      ],
+      "premise_models": 71,
+      "status": "no_countermodel_in_bound"
+    },
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      {
+        "kind": "A",
+        "predicate": "S",
+        "subject": "M"
+      }
+    ],
+    "shape": {
+      "figure": 3,
+      "major": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      "middle": "M",
+      "minor": {
+        "kind": "A",
+        "predicate": "S",
+        "subject": "M"
+      },
+      "mood": "AAI",
+      "status": "shape_only"
+    }
+  },
+  "third_without_existence": {
+    "conclusion": {
+      "kind": "I",
+      "predicate": "P",
+      "subject": "S"
+    },
+    "finite_check": {
+      "admissible": 1,
+      "checked": 1,
+      "max_size": 3,
+      "model": {
+        "M": [],
+        "P": [],
+        "S": []
+      },
+      "nonempty": [],
+      "premise_models": 1,
+      "status": "countermodel_found",
+      "universe_size": 1
+    },
+    "premises": [
+      {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      {
+        "kind": "A",
+        "predicate": "S",
+        "subject": "M"
+      }
+    ],
+    "shape": {
+      "figure": 3,
+      "major": {
+        "kind": "A",
+        "predicate": "P",
+        "subject": "M"
+      },
+      "middle": "M",
+      "minor": {
+        "kind": "A",
+        "predicate": "S",
+        "subject": "M"
+      },
+      "mood": "AAI",
+      "status": "shape_only"
+    }
+  }
+}

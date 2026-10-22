@@ -1,0 +1,6 @@
+python  independent_audit.py
+exit 0
+python -O independent_audit.py
+exit 0
+python -OO independent_audit.py
+exit 0

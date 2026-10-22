@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "semantic_checks": 21024,
+  "shape_order_rename_checks": 768,
+  "finite_configurations": 2048,
+  "configurations_with_countermodel": 1892,
+  "configurations_no_countermodel_in_bound": 156,
+  "models_per_unrestricted_check": 584,
+  "invalid_inputs_rejected": 8,
+  "generator_constraint_regression": "PASS",
+  "boolean_rows": 8,
+  "scope": "finite domains 1..3, four orientations, all 64 AEIO moods, eight existence profiles; not a general theorem"
+}
