@@ -1,0 +1,41 @@
+{
+  "domain_sizes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "all_chain": {
+    "assignments": 585,
+    "premise_models": 85,
+    "failures": 0
+  },
+  "some_major_all_minor": {
+    "assignments": 585,
+    "premise_models": 174,
+    "countermodels": 58,
+    "first": {
+      "n": 2,
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        1
+      ]
+    }
+  },
+  "member_chain": {
+    "assignments": 228,
+    "premise_models": 34,
+    "failures": 0
+  },
+  "same_object_substitution": {
+    "equal_identity_assignments": 34,
+    "failures": 0
+  },
+  "limit": "finite extensional teaching checks, not a general proof or a reconstruction of the ancient examples"
+}

@@ -1,0 +1,42 @@
+test_all_chain (__main__.ModelTests.test_all_chain) ... ok
+test_bad_bound_boolean (__main__.ModelTests.test_bad_bound_boolean) ... ok
+test_bad_bound_large (__main__.ModelTests.test_bad_bound_large) ... ok
+test_bad_bound_negative (__main__.ModelTests.test_bad_bound_negative) ... ok
+test_bad_bound_string (__main__.ModelTests.test_bad_bound_string) ... ok
+test_blank_context_aspect (__main__.ModelTests.test_blank_context_aspect) ... ok
+test_blank_context_time (__main__.ModelTests.test_blank_context_time) ... ok
+test_blank_predicate (__main__.ModelTests.test_blank_predicate) ... ok
+test_blank_subject (__main__.ModelTests.test_blank_subject) ... ok
+test_bounded_results (__main__.ModelTests.test_bounded_results) ... ok
+test_conclusion_context_changed (__main__.ModelTests.test_conclusion_context_changed) ... ok
+test_different_aspect (__main__.ModelTests.test_different_aspect) ... ok
+test_different_time (__main__.ModelTests.test_different_time) ... ok
+test_empty_universal_not_existential (__main__.ModelTests.test_empty_universal_not_existential) ... ok
+test_explicit_weak_countermodel (__main__.ModelTests.test_explicit_weak_countermodel) ... ok
+test_identity_not_aspect_equivalence (__main__.ModelTests.test_identity_not_aspect_equivalence) ... ok
+test_member_chain (__main__.ModelTests.test_member_chain) ... ok
+test_member_major_rejected (__main__.ModelTests.test_member_major_rejected) ... ok
+test_member_to_universal_rejected (__main__.ModelTests.test_member_to_universal_rejected) ... ok
+test_middle_mismatch (__main__.ModelTests.test_middle_mismatch) ... ok
+test_missing_input (__main__.ModelTests.test_missing_input) ... ok
+test_nonstring_name (__main__.ModelTests.test_nonstring_name) ... ok
+test_powerset_size (__main__.ModelTests.test_powerset_size) ... ok
+test_reverse_conclusion (__main__.ModelTests.test_reverse_conclusion) ... ok
+test_reverse_major (__main__.ModelTests.test_reverse_major) ... ok
+test_reverse_minor (__main__.ModelTests.test_reverse_minor) ... ok
+test_some_major_rejected (__main__.ModelTests.test_some_major_rejected) ... ok
+test_some_minor_is_unsupported_not_invalid (__main__.ModelTests.test_some_minor_is_unsupported_not_invalid) ... ok
+test_sound_shape_not_true_premises (__main__.ModelTests.test_sound_shape_not_true_premises) ... ok
+test_universal_to_member_rejected (__main__.ModelTests.test_universal_to_member_rejected) ... ok
+test_unknown_extension (__main__.ModelTests.test_unknown_extension) ... ok
+test_unknown_individual (__main__.ModelTests.test_unknown_individual) ... ok
+test_unknown_kind (__main__.ModelTests.test_unknown_kind) ... ok
+test_untyped (__main__.ModelTests.test_untyped) ... ok
+test_untyped_context (__main__.ModelTests.test_untyped_context) ... ok
+test_wrong_conclusion_predicate (__main__.ModelTests.test_wrong_conclusion_predicate) ... ok
+test_wrong_conclusion_subject (__main__.ModelTests.test_wrong_conclusion_subject) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.002s
+
+OK

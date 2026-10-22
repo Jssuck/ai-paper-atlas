@@ -42,6 +42,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.30精读](papers/ancient/aristotle-prior-analytics-i30.zh-CN.md) | AI推理前史补读：领域经验、材料条件与形式路径 | 深读v1 · 完整46a3–30及受限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.31精读](papers/ancient/aristotle-prior-analytics-i31.zh-CN.md) | AI推理前史补读：二分覆盖、分支证据与定义方向 | 深读v1 · 完整46a31–46b40章32前及有限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.32精读](papers/ancient/aristotle-prior-analytics-i32.zh-CN.md) | AI推理前史补读：必要后果、前提补全与三格识别 | 深读v1 · 完整46b40章32起–47b14及有限结构核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.33精读](papers/ancient/aristotle-prior-analytics-i33.zh-CN.md) | AI推理前史补读：全称覆盖、同一指称与限定保持 | 深读v1 · 完整47b15–40前部及有限证书核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -800,3 +801,9 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 新增[《前分析篇》I.32深读](papers/ancient/aristotle-prior-analytics-i32.zh-CN.md)，完整Bekker46b40章32起至47b14、Owen1853印155–157及十二条编号注。逐步区分三格位置与有效性、存在条件链与谓词包含、补全假设与真实证据，显式保留实体组成例的桥接条件，附20题答案。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i32.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i32.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i32/README.md)及[独立数学代码审查](reproduction/aristotle-prior-analytics-i32/math-code-audit.zh-CN.md)相互对应。有限模型不证明一般定理，结构化输入不是自然语言解析，候选补全不认证事实或原作者意图；I.33和全书不计本单元完成，I.2继续暂缓，候选目录未改。
+
+## Aristotle I.33：全称覆盖与限定保持
+
+新增[《前分析篇》I.33深读](papers/ancient/aristotle-prior-analytics-i33.zh-CN.md)，完整Bekker47b15–40前部、Owen1853印158及四条编号注。逐步证明全称实例化、类包含传递和严格同一代换，区分自然语言词序、量词、角色与人物及时间限定，保留两个古例与译注解释的边界，附20题答案。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i33.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i33.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i33/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i33/math-code-audit.zh-CN.md)分工核验。有限模型不证明一般定理，受限证书拒绝不等于一般无效，不把古例说成严格同一性反例；I.34与全书不计本单元完成，I.2继续暂缓，候选目录未改。

@@ -1,0 +1,11 @@
+UTC run: 2026-10-22T17:38:31Z
+Python 3.12.14
+implementation: CPython
+platform: Linux 6.18.55 x86_64
+dependencies: Python standard library only
+
+Commands actually run in this directory:
+python3 test_model.py > test-default.log 2>&1
+python3 -O test_model.py > test-O.log 2>&1
+python3 -OO test_model.py > test-OO.log 2>&1
+python3 model.py > results.json
