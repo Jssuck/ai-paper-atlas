@@ -1,6 +1,6 @@
 c640268afb246166efd3a45887d38dbe9e8688742c10b9dc046eff3cc6e14386  ../../papers/ancient/aristotle-prior-analytics-i37.source-audit.zh-CN.md
 3aef8eae0c95afb03b2750ec7f493fbec72050e5ab0e36cd52d40aaa6bb7fa41  ../../papers/ancient/aristotle-prior-analytics-i37.sources.zh-CN.md
-21d9d02d68d2b0d40d51f03aae792efc6e0eb27d1a9ef0204e45af4466988732  ../../papers/ancient/aristotle-prior-analytics-i37.zh-CN.md
+4ec81361d06445c52acddda1877e9ff9624e92010ae5641b37649c2d03d6ccda  ../../papers/ancient/aristotle-prior-analytics-i37.zh-CN.md
 76215d92a22aee3fef528c91a5e0730773ad139e9281b89b72094ea0ea713262  README.md
 f06fae946472390db6be81be878889a1e53ee55c2e5b59bc605e3819b87fd9e4  independent_audit.py
 ce5da080461e7c3b87649f519ebf678a2230b8630c485ce84c9ffa605a1cc69d  logs/checks-O.json
@@ -20,7 +20,7 @@ e334ca9d9ea2d5d6569ebcaf2c6fb60fa10c6499b70986053815ff251e1605b0  logs/optimizat
 5572b6cdfc112c27990cc1fa4d4de9bd3564c663214eae51adbfe39795108fe1  logs/tests-O.txt
 f4365840ed0abb0e1f8a129940164176670a77f80b55caab0d7110f87f9d6bdc  logs/tests-OO.txt
 5572b6cdfc112c27990cc1fa4d4de9bd3564c663214eae51adbfe39795108fe1  logs/tests.txt
-071907ad9deffeb14c183913239bb9f0e6b9d729b42ba9d11c8efae1f121906d  math-code-audit.zh-CN.md
+3d84a2309233b610a76e985439ff6a3469c70088a47d2ec196fccbc2b576ff6b  math-code-audit.zh-CN.md
 4f359bf2cac7f57657d2c33fcf423be9c6a6caa9af742a0db05b58d5a6265ee5  model.py
 32a7797ce678526df4533a289091234de395982621863ea2c3ab57ba840f6fab  run_checks.py
 8777392b303f1308168556255051f383bb7bcd207a91b10d33bd5c4abb53159f  test_model.py

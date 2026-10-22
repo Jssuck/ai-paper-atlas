@@ -23,6 +23,8 @@
 - 正文非空域与程序额外空域测试已分开。证书要求完整中项相同，不要求所有端点同方面；显式跨方面包含边可以传递，拒绝的是未经桥接偷换中项。
 - 手算段落中的“整体合取”已改为“整个合取”，避免与整体标签u混淆。
 
+发布显示复核后，主稿13处外延括号记号改为`\mathrm{Ext}_k(...)`，以避免实际GitHub页面显示未解释命令。独立逆向替换后的全文SHA-256与原终审稿完全一致，确认仅记号变化、没有更改命题或证明；绑定已更新。
+
 ## 独立实跑
 
 [独立脚本](independent_audit.py)以整数位向量计算预期外延、存在和包含；不调用被审`extension/includes/some`生成期望值，不复用原回归脚本的期望计算。四个原子分别覆盖相同方面的两个名称、同名不同方面、同名不同范畴。语法样本为28个原子/否定/合取/嵌套组合。
@@ -70,7 +72,7 @@ python3 -OO -m unittest -v
 以下SHA-256由审查时实际文件生成，不包含本审查文件自身，避免自引用。全包交付摘要另由发布检查生成；后续若修改下列内容，需重新核对并绑定。
 
 ```text
-21d9d02d68d2b0d40d51f03aae792efc6e0eb27d1a9ef0204e45af4466988732  ../../papers/ancient/aristotle-prior-analytics-i37.zh-CN.md
+4ec81361d06445c52acddda1877e9ff9624e92010ae5641b37649c2d03d6ccda  ../../papers/ancient/aristotle-prior-analytics-i37.zh-CN.md
 4f359bf2cac7f57657d2c33fcf423be9c6a6caa9af742a0db05b58d5a6265ee5  model.py
 8777392b303f1308168556255051f383bb7bcd207a91b10d33bd5c4abb53159f  test_model.py
 32a7797ce678526df4533a289091234de395982621863ea2c3ab57ba840f6fab  run_checks.py

@@ -75,21 +75,21 @@ $$
 在同一标签下，定义可解释的表达式：原子 $`P`$、否定 $`\neg E`$、合取 $`E\land F`$。其外延为
 
 $$
-\llbracket\neg E\rrbracket_k=D\setminus\llbracket E\rrbracket_k,
+\mathrm{Ext}_k(\neg E)=D\setminus\mathrm{Ext}_k(E),
 \qquad
-\llbracket E\land F\rrbracket_k=
-\llbracket E\rrbracket_k\cap\llbracket F\rrbracket_k.
+\mathrm{Ext}_k(E\land F)=
+\mathrm{Ext}_k(E)\cap\mathrm{Ext}_k(F).
 $$
 
-$`\llbracket E\rrbracket_k`$ 表示表达式 $`E`$ 在标签 $`k`$ 的成员集合；原子的外延就是 $`V(P,k)`$。这是真值二分、完整给定解释的经典模型。代码中没有“未观察”第三值，不能把现实资料的缺失当作已证否定。
+$`\mathrm{Ext}_k(E)`$ 表示表达式 $`E`$ 在标签 $`k`$ 的成员集合；原子的外延就是 $`V(P,k)`$。这是真值二分、完整给定解释的经典模型。代码中没有“未观察”第三值，不能把现实资料的缺失当作已证否定。
 
 “白色动物”在指定用法下可教学地解释为白且是动物；“假钱”不能未经检查解释为假且是钱，“前任负责人”也不自动包含在现任负责人中。这些复合表达可以当作独立原子，除非另有明示的语义规则。**语法上含两个词，不等于语义上就是集合交集。**
 
 ### 3.3 三种不同的命题
 
-1. 个体断言：$`x\in\llbracket E\rrbracket_k`$。
-2. 全称包含：$`\llbracket E\rrbracket_k\subseteq\llbracket F\rrbracket_k`$。
-3. 存在见证：$`\exists x\in D\;(x\in\llbracket E\rrbracket_k)`$。
+1. 个体断言：$`x\in\mathrm{Ext}_k(E)`$。
+2. 全称包含：$`\mathrm{Ext}_k(E)\subseteq\mathrm{Ext}_k(F)`$。
+3. 存在见证：$`\exists x\in D\;(x\in\mathrm{Ext}_k(E))`$。
 
 第二种允许左集合为空，不能无条件推出第三种。我们不在章节短句中偷塞一个未声明的“每个项必非空”假设。代码把原子细分为`Atom(name, category, aspect)`三个完整标签；本节的P可理解为前两个标签的配对，k对应aspect。代码还允许合取不同标签的显式原子，那是调用者已明确给出的两个断言，不会自动把它们合为单一标签。正文论证只需其中同标签子语言。不同范畴在这里也不被强行等同：一种关系表达若尚未给出一元外延解释，不属于这个小模型可处理的输入。
 
@@ -124,7 +124,7 @@ $$
 
 ### 4.3 合取的两个方向都要求同一对象
 
-从 $`x\in\llbracket E\land F\rrbracket_k`$，按交集定义得到 $`x\in\llbracket E\rrbracket_k`$ 和 $`x\in\llbracket F\rrbracket_k`$。反过来，给定同一对象、同一标签的这两个成员事实，就得到交集成员。
+从 $`x\in\mathrm{Ext}_k(E\land F)`$，按交集定义得到 $`x\in\mathrm{Ext}_k(E)`$ 和 $`x\in\mathrm{Ext}_k(F)`$。反过来，给定同一对象、同一标签的这两个成员事实，就得到交集成员。
 
 但下面的交换错误：
 
