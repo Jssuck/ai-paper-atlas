@@ -1,0 +1,21 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform_system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "optimization_modes": [
+    0,
+    1,
+    2
+  ],
+  "run_date_utc": "2026-10-22",
+  "commands": [
+    "python3 -m unittest -v test_model",
+    "python3 enumerate_models.py",
+    "python3 -O -m unittest -v test_model",
+    "python3 -O enumerate_models.py",
+    "python3 -OO -m unittest -v test_model",
+    "python3 -OO enumerate_models.py"
+  ]
+}

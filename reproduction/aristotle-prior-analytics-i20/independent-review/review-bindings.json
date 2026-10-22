@@ -1,0 +1,18 @@
+{
+  "scope": "Independent code review final artifact bindings, no general proof claim",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i20.zh-CN.md": "6eaf76c680d065ec36a17a83b6c2d502ee668ce88325d33b8c400a1de694d94c",
+    "reproduction/aristotle-prior-analytics-i20/CODE_REVIEW.md": "2cc2d1f07e28747713b0ca2b62be542e4086bbf7343689259c6ff322df967c4d",
+    "reproduction/aristotle-prior-analytics-i20/README.md": "da3682306566ff8bdfdad8c526e412e07eb98c2c626e8228c82d4ee1f3b5a744",
+    "reproduction/aristotle-prior-analytics-i20/author-manifest.json": "4f078202254a599b08fda7bdd9646d5fb8e69bad88cfe62039df3514705a3758",
+    "reproduction/aristotle-prior-analytics-i20/enumerate_models.py": "7a727f078fc483db6e7b268235a6a180b8d64aed1e660ff20554bc3b276b4a10",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/O.json": "f611e342b372c8560077370c32d544f5e4c0b7430c9609b24bc357d7d7fff281",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/OO.json": "8bd3fdd8e84a48fdf5393cba6b3d0c3c937961534c8a1c7d4dbb5d31f4b35f6a",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/README.md": "7d85d434cbfed40b68729497c8b5b86a25e84ba8eea1826711c32af675c49178",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/execution.log": "96434c3c0e168620c34fce35d4adbe9f8efebc67598921c04738e27cdb87698f",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/normal.json": "b914e2285b668e96b56c19a4b8e0028ee1275461f662484b7b3a01e381cbfe5a",
+    "reproduction/aristotle-prior-analytics-i20/independent-review/oracle.py": "5958d50df933a278fbfe9413ba9e02b87334135408e34ae6c7cb0fc6f3c2f04a",
+    "reproduction/aristotle-prior-analytics-i20/model.py": "0ea2916b153dab1cafe7acfdca7727b3fe412c84a8b4b34dbb083d251aa9fc58",
+    "reproduction/aristotle-prior-analytics-i20/test_model.py": "9e522dea3c679917ad0fa02e2299aaba061eaa36ead89fa9b981a5f8180ea468"
+  }
+}

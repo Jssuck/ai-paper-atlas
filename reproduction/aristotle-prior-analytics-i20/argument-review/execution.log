@@ -1,0 +1,7 @@
+Python 3.12.14
+COMMAND: python optimization=normal independent_argument.py
+EXIT: 0
+COMMAND: python optimization=O independent_argument.py
+EXIT: 0
+COMMAND: python optimization=OO independent_argument.py
+EXIT: 0

@@ -1,0 +1,22 @@
+python3 -OO -m unittest -v test_model
+test_actual_bridge_not_conversion (test_model.Tests.test_actual_bridge_not_conversion) ... ok
+test_bad_dimensions (test_model.Tests.test_bad_dimensions) ... ok
+test_bad_queries (test_model.Tests.test_bad_queries) ... ok
+test_bad_worlds (test_model.Tests.test_bad_worlds) ... ok
+test_box_not_n (test_model.Tests.test_box_not_n) ... ok
+test_bridge (test_model.Tests.test_bridge) ... ok
+test_count (test_model.Tests.test_count) ... ok
+test_enumerator_dimensions (test_model.Tests.test_enumerator_dimensions) ... ok
+test_immutability (test_model.Tests.test_immutability) ... ok
+test_independent_possibilities (test_model.Tests.test_independent_possibilities) ... ok
+test_necessary_backgrounds (test_model.Tests.test_necessary_backgrounds) ... ok
+test_quantifier_order (test_model.Tests.test_quantifier_order) ... ok
+test_separate_witnesses (test_model.Tests.test_separate_witnesses) ... ok
+test_single_world (test_model.Tests.test_single_world) ... ok
+test_universal_failure (test_model.Tests.test_universal_failure) ... ok
+test_vacuity (test_model.Tests.test_vacuity) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK

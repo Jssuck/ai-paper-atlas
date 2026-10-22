@@ -27,6 +27,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.17精读](papers/ancient/aristotle-prior-analytics-i17.zh-CN.md) | AI推理前史补读：非偶然的两分支、换位失败与第二格反模型 | 深读v1 · 完整36b26–37b18及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.18精读](papers/ancient/aristotle-prior-analytics-i18.zh-CN.md) | AI推理前史补读：实然否定、背景保持与可能结论的方向 | 深读v1 · 完整37b19–38a12及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.19精读](papers/ancient/aristotle-prior-analytics-i19.zh-CN.md) | AI推理前史补读：必要否定、实际排斥与模态语义范围 | 深读v1 · 完整38a13–39a3及译注/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.20精读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md) | AI推理前史补读：共同主项、偶然换位与见证范围 | 深读v1 · 完整39a4–39b6及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -709,3 +710,9 @@ I.12另附[独立代码与语义核验](reproduction/aristotle-prior-analytics-i
 新增[《前分析篇》I.19深读](papers/ancient/aristotle-prior-analytics-i19.zh-CN.md)，完整Bekker38a13–39a3及Owen1853印127–130与131跨页注。重建必要否定的同一对象反证、特称方向与模态强度，保留必要肯定自然例同固定主项模型的失配，附20道带答案练习。
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i19.sources.zh-CN.md)、[独立来源审查](papers/ancient/aristotle-prior-analytics-i19.source-audit.zh-CN.md)、[论证核验](papers/ancient/aristotle-prior-analytics-i19.audit.zh-CN.md)和[标准库代码与真实日志](reproduction/aristotle-prior-analytics-i19/README.md)分别标明来源、教学重构和有限执行。129页Ex.5原印词项疑点不冒称正式勘误；N与Box不混用，不声称统一了古代全部模态语义。I.2仍暂缓，I.3、后章、全书及年代缺口不计完成；候选目录未改。
+
+## Aristotle I.20：共同主项与偶然换位
+
+新增[《前分析篇》I.20深读](papers/ancient/aristotle-prior-analytics-i20.zh-CN.md)，完整Bekker39a4–39b6及Owen1853印131–132本章附注与两组例式。逐步区分肯否改写和项位换位，重建归第一格的依赖，给出非空反模型与实际见证桥接，附20道带答案练习。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i20.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i20.source-audit.zh-CN.md)、[论证审查](papers/ancient/aristotle-prior-analytics-i20.audit.zh-CN.md)和[代码与真实日志](reproduction/aristotle-prior-analytics-i20/README.md)保留原文、现代教学模型和有限执行的区别。实际主项模型不能无条件实现原典全部归约；有限实验不是一般定理证明。I.2仍暂缓，I.21/22和全书不计完成；被拒候选目录未改。

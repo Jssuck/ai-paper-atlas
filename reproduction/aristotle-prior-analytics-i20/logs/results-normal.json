@@ -1,0 +1,583 @@
+{
+  "counts": {
+    "configurations": 4744,
+    "conversion_candidates": 1488,
+    "conversion_failures": 852,
+    "exact_witness_bridge_premises": 1064,
+    "first_figure_candidates": 1188,
+    "first_figure_failures": 268,
+    "particular_bridge_premises": 808,
+    "polarity_checks": 85392,
+    "query_evaluations": 853920,
+    "third_figure_candidates": 728,
+    "third_figure_failures": 284,
+    "two_particular_candidates": 1240,
+    "two_particular_failures": 508,
+    "universal_bridge_premises": 808
+  },
+  "examples": {
+    "actual_membership_not_modal_conversion": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 1,
+      "queries": {
+        "BOX_a(A,B)": true,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": true,
+        "C_e(A,B)": true,
+        "C_i(A,B)": true,
+        "C_o(A,B)": true,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": false,
+        "N_e(A,B)": false,
+        "N_i(A,B)": false,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": true,
+        "P_i(A,B)": true,
+        "P_o(A,B)": true
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "all_actual_terms_nonempty_universal_failure": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 2,
+      "queries": {
+        "BOX_a(A,B)": false,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": true,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": false,
+        "C_e(A,B)": false,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": true,
+        "N_e(A,B)": false,
+        "N_i(A,B)": true,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": false,
+        "P_i(A,B)": true,
+        "P_o(A,B)": false
+      },
+      "worlds": [
+        {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "bridge_success": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 2,
+      "queries": {
+        "BOX_a(A,B)": true,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": true,
+        "C_e(A,B)": true,
+        "C_i(A,B)": true,
+        "C_o(A,B)": true,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": false,
+        "N_e(A,B)": false,
+        "N_i(A,B)": false,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": true,
+        "P_i(A,B)": true,
+        "P_o(A,B)": true
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "empty_middle": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": false,
+      "C_i(B,C)": false,
+      "C_i(C,B)": false,
+      "n": 1,
+      "queries": {
+        "BOX_a(A,B)": true,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": true,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": false,
+        "C_e(A,B)": false,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": true,
+        "N_e(A,B)": false,
+        "N_i(A,B)": true,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": false,
+        "P_i(A,B)": true,
+        "P_o(A,B)": false
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      ]
+    },
+    "necessary_exclusion_background": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 2,
+      "queries": {
+        "BOX_a(A,B)": false,
+        "BOX_e(A,B)": true,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": true,
+        "C_a(A,B)": false,
+        "C_e(A,B)": false,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": false,
+        "D_e(A,B)": true,
+        "D_i(A,B)": false,
+        "D_o(A,B)": true,
+        "N_a(A,B)": false,
+        "N_e(A,B)": true,
+        "N_i(A,B)": false,
+        "N_o(A,B)": true,
+        "P_a(A,B)": false,
+        "P_e(A,B)": true,
+        "P_i(A,B)": false,
+        "P_o(A,B)": true
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "necessary_inclusion_background": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 2,
+      "queries": {
+        "BOX_a(A,B)": true,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": true,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": false,
+        "C_e(A,B)": false,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": true,
+        "N_e(A,B)": false,
+        "N_i(A,B)": true,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": false,
+        "P_i(A,B)": true,
+        "P_o(A,B)": false
+      },
+      "worlds": [
+        {
+          "A": [
+            1
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "no_joint_positive_world": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 1,
+      "queries": {
+        "BOX_a(A,B)": false,
+        "BOX_e(A,B)": true,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": true,
+        "C_e(A,B)": true,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": true,
+        "D_e(A,B)": true,
+        "D_i(A,B)": false,
+        "D_o(A,B)": false,
+        "N_a(A,B)": true,
+        "N_e(A,B)": true,
+        "N_i(A,B)": false,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": true,
+        "P_i(A,B)": false,
+        "P_o(A,B)": false
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "separate_particular_witnesses": {
+      "C_a(A,C)": false,
+      "C_a(B,C)": false,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 2,
+      "queries": {
+        "BOX_a(A,B)": false,
+        "BOX_e(A,B)": true,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": false,
+        "C_e(A,B)": false,
+        "C_i(A,B)": false,
+        "C_o(A,B)": false,
+        "D_a(A,B)": false,
+        "D_e(A,B)": true,
+        "D_i(A,B)": false,
+        "D_o(A,B)": true,
+        "N_a(A,B)": false,
+        "N_e(A,B)": true,
+        "N_i(A,B)": false,
+        "N_o(A,B)": true,
+        "P_a(A,B)": false,
+        "P_e(A,B)": true,
+        "P_i(A,B)": false,
+        "P_o(A,B)": true
+      },
+      "worlds": [
+        {
+          "A": [],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "worldwise_inclusion_not_anchored_necessity": {
+      "C_a(A,C)": true,
+      "C_a(B,C)": true,
+      "C_i(A,C)": true,
+      "C_i(B,C)": true,
+      "C_i(C,B)": false,
+      "n": 1,
+      "queries": {
+        "BOX_a(A,B)": true,
+        "BOX_e(A,B)": false,
+        "BOX_i(A,B)": false,
+        "BOX_o(A,B)": false,
+        "C_a(A,B)": true,
+        "C_e(A,B)": true,
+        "C_i(A,B)": true,
+        "C_o(A,B)": true,
+        "D_a(A,B)": true,
+        "D_e(A,B)": false,
+        "D_i(A,B)": true,
+        "D_o(A,B)": false,
+        "N_a(A,B)": false,
+        "N_e(A,B)": false,
+        "N_i(A,B)": false,
+        "N_o(A,B)": false,
+        "P_a(A,B)": true,
+        "P_e(A,B)": true,
+        "P_i(A,B)": true,
+        "P_o(A,B)": true
+      },
+      "worlds": [
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "first_failures": {
+    "conversion": {
+      "n": 1,
+      "worlds": [
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      ]
+    },
+    "first_figure": {
+      "n": 1,
+      "worlds": [
+        {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        },
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      ]
+    },
+    "third_figure": {
+      "n": 1,
+      "worlds": [
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      ]
+    },
+    "two_particular": {
+      "n": 1,
+      "worlds": [
+        {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        },
+        {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      ]
+    }
+  },
+  "ranges": [
+    {
+      "objects": 1,
+      "worlds": 1
+    },
+    {
+      "objects": 1,
+      "worlds": 2
+    },
+    {
+      "objects": 1,
+      "worlds": 3
+    },
+    {
+      "objects": 2,
+      "worlds": 1
+    },
+    {
+      "objects": 2,
+      "worlds": 2
+    }
+  ],
+  "scope": "Finite author checks, not a general proof or ancient-semantics certification"
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Final article mathematical review; independent proof and finite checks only.",
+  "sha256": {
+    "papers/ancient/aristotle-prior-analytics-i20.zh-CN.md": "6eaf76c680d065ec36a17a83b6c2d502ee668ce88325d33b8c400a1de694d94c",
+    "papers/ancient/aristotle-prior-analytics-i20.audit.zh-CN.md": "cd94065bd9afd86dbad6cbbcc8cff7a15e3510cba61109de1589c2ce73668a13",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/execution.log": "1cf2f40f7f639bfa429f44572141a56ccd97c9447ab63d657e5437aabc5e782f",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/independent_argument.py": "5b26c7c805bbe09e45193f5aee358dd397501bf008cbec0da6b9a0b3c166f2e2",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/OO.json": "6377754b6e0bc0b8f6b74f2e21faa81893c0b0df1ed30676f0cb344526ef91a8",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/README.md": "bc76c028ad27913303180df7d7d68e792e85f7ee9ce2bd185a7fa621088b6190",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/O.json": "63ddfb5da8a1982d32e24a64746432343b3f5c9f441b7dd862f11a4d8f8f1cd3",
+    "reproduction/aristotle-prior-analytics-i20/argument-review/normal.json": "533a2e0021cbba61ce6237b01d87b8184fbd07450a494522dfc5eb87b26093ff"
+  }
+}

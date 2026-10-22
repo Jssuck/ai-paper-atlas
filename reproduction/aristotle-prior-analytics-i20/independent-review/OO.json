@@ -1,0 +1,204 @@
+{
+  "article_examples_checked": [
+    "section7",
+    "section8_1",
+    "section8_2",
+    "section11_include",
+    "section11_exclude",
+    "section11_exclude_nonempty"
+  ],
+  "author_bindings_verified": 14,
+  "author_report_matches": true,
+  "configurations": 4744,
+  "invalid_inputs": 68,
+  "metamorphic_comparisons": 4860,
+  "mutant_witnesses": {
+    "BOX_as_anchored_N": {
+      "correct": false,
+      "mutant": true,
+      "n": 1,
+      "query": [
+        "BOX",
+        "a",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "C_as_actual_D": {
+      "correct": false,
+      "mutant": true,
+      "n": 1,
+      "query": [
+        "C",
+        "e",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "C_as_weak_P": {
+      "correct": false,
+      "mutant": true,
+      "n": 1,
+      "query": [
+        "C",
+        "e",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "N_as_worldwise_BOX": {
+      "correct": true,
+      "mutant": false,
+      "n": 1,
+      "query": [
+        "N",
+        "a",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "P_as_N": {
+      "correct": true,
+      "mutant": false,
+      "n": 1,
+      "query": [
+        "P",
+        "a",
+        "C",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "actual_world_last": {
+      "correct": true,
+      "mutant": false,
+      "n": 1,
+      "query": [
+        "D",
+        "a",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "positive_negative_swap": {
+      "correct": false,
+      "mutant": true,
+      "n": 1,
+      "query": [
+        "D",
+        "a",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "predicate_subject_swap": {
+      "correct": false,
+      "mutant": true,
+      "n": 1,
+      "query": [
+        "D",
+        "a",
+        "A",
+        "C"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "universal_existential_swap": {
+      "correct": true,
+      "mutant": false,
+      "n": 1,
+      "query": [
+        "D",
+        "a",
+        "A",
+        "A"
+      ],
+      "worlds": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "optimization": 2,
+  "python": "3.12.14",
+  "queries": 853920,
+  "scope": "Independent finite implementation check, not ancient semantics or general proof",
+  "semantic_mutants_detected": 9
+}

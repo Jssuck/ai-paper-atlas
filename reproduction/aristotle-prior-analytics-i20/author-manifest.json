@@ -1,0 +1,19 @@
+{
+  "scope": "Author artifacts only; excludes itself and independent review",
+  "sha256": {
+    "model.py": "0ea2916b153dab1cafe7acfdca7727b3fe412c84a8b4b34dbb083d251aa9fc58",
+    "test_model.py": "9e522dea3c679917ad0fa02e2299aaba061eaa36ead89fa9b981a5f8180ea468",
+    "enumerate_models.py": "7a727f078fc483db6e7b268235a6a180b8d64aed1e660ff20554bc3b276b4a10",
+    "README.md": "da3682306566ff8bdfdad8c526e412e07eb98c2c626e8228c82d4ee1f3b5a744",
+    "environment.json": "d3e73cdeaae3b419fc0a383f2ded679d425a748e6ee227f547829c6587d4ceb5",
+    "logs/enumeration-O.txt": "5d2ac7dceb6338ee4936e33ec81c003605500bfc32c739fef4a61eb1afaaae10",
+    "logs/enumeration-OO.txt": "1b1bea214c66f744600d30db0a9e61e43f6ee535ce765fcecc72eb719cb762c7",
+    "logs/enumeration-normal.txt": "98bf3aa63b5a91386db6e5eba02fbd50520ff7a11227c46c53aec15360923617",
+    "logs/results-O.json": "944721c93a75e5e9a562ecf5499929e39831bac04f64e246c2eb7e7b1c487967",
+    "logs/results-OO.json": "944721c93a75e5e9a562ecf5499929e39831bac04f64e246c2eb7e7b1c487967",
+    "logs/results-normal.json": "944721c93a75e5e9a562ecf5499929e39831bac04f64e246c2eb7e7b1c487967",
+    "logs/tests-O.txt": "d9e393a71729bdb453d1fd662a48a74411723c93187ebb8b2214f1ffb60892f2",
+    "logs/tests-OO.txt": "e47e675b68bfaf4c654f54c397ee0751ac080551d851205a54bc426f3275fc14",
+    "logs/tests-normal.txt": "089c3cd41127a4da9384646c740b54972c20a8daf8a1a74ecad2d1cf5e4bb395"
+  }
+}
