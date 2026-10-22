@@ -142,8 +142,8 @@ $$
 在一人两情境表中，甲可能健康，也可能患病，两者在同一情境互斥。这组事实不足以让“可能健康的人”与“可能患病的人”不相交。定义两个**可能性轮廓集合**：
 
 $$
-H^{\Diamond}=\{x:\exists w\,H(x,w)\},\qquad
-D^{\Diamond}=\{x:\exists w\,D(x,w)\}.
+H^{\Diamond}=\lbrace x:\exists w\,H(x,w)\rbrace,\qquad
+D^{\Diamond}=\lbrace x:\exists w\,D(x,w)\rbrace.
 $$
 
 在例子中二者都等于{甲}。因此：

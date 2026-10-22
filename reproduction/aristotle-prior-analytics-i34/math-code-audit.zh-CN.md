@@ -27,15 +27,19 @@ python3 -OO -m unittest -v test_model > independent-logs/tests-OO.log 2>&1
 
 三种模式均独立实跑通过；各模式作者测试10项通过。独立范围额外覆盖3人两情景729个赋值；发表的0/1/2人计数一致（模型1/9/81，前提真1/5/25，强结论反例0/2/16，范围交换缺口0/0/8）。Celarent覆盖0–3人1/8/64/512组，前提真1/4/16/64，失败均0。日志目录为[independent-logs](independent-logs)。这些范围之外不作穷尽保证。
 
+排版复核：正文第5.1节两处集合外花括号改用 `\lbrace` / `\rbrace`，仅为 GitHub 显示修正，集合定义与数学含义未变；代码与实跑日志无需修改。
+
+复现说明排版复核：行内数学统一 GitHub 的美元符号加反引号语法，零失败限制句独立成段；公式与计数含义不变。
+
 ## 绑定的文件 SHA-256
 
 下列摘要绑定实际被审文件；正文之后的修改需要重新审核对应差异。
 
 |文件|SHA-256|
 |---|---|
-|`papers/ancient/aristotle-prior-analytics-i34.zh-CN.md`|`ae7c32c1baeaccb7feea2c5bd31cef11fcd1fbd295475edc8d6b9d4a70c91eb0`|
+|`papers/ancient/aristotle-prior-analytics-i34.zh-CN.md`|`a0c952b83af66c38b841cb44daf8ca9e0de5bcaffcbed33f367813fedb9e5b54`|
 |`reproduction/aristotle-prior-analytics-i34/model.py`|`58468e6ad5b24bb3f5483364c073c45e6c102d0618a462c421996b634ac50ff6`|
 |`reproduction/aristotle-prior-analytics-i34/test_model.py`|`7a18695fd52e57dafa995a0d756760c8b1c7929200835ffb9dc29590db7a09ea`|
 |`reproduction/aristotle-prior-analytics-i34/results.json`|`cfee22f7b100cdcace6fdd0e1757bf7103e9b61c0333830e5cc50920e0aebf3a`|
-|`reproduction/aristotle-prior-analytics-i34/README.md`|`528c468caea652124a39340b8637afe61b9c43d30bd1b33d07f307f1436775a1`|
+|`reproduction/aristotle-prior-analytics-i34/README.md`|`6aba14f26daab473ae4acdb8ec4e841eaf0f3fb2e97ee51e93c4a617622e7f01`|
 |`reproduction/aristotle-prior-analytics-i34/independent_audit.py`|`2cfaeb265f9ed282b5f18a14bd6f1b66891c346195f0cd67204e46e45716e59f`|

@@ -34,7 +34,9 @@
 
 |文件|SHA-256|
 |---|---|
-|aristotle-prior-analytics-i34.zh-CN.md|ae7c32c1baeaccb7feea2c5bd31cef11fcd1fbd295475edc8d6b9d4a70c91eb0|
+|aristotle-prior-analytics-i34.zh-CN.md|a0c952b83af66c38b841cb44daf8ca9e0de5bcaffcbed33f367813fedb9e5b54|
 |aristotle-prior-analytics-i34.sources.zh-CN.md|6689481143c24f0e02fdd7f19596720a4c6b39633add253899743cdf6c5b024b|
 
 后续若修改上述文件，应复核改动并刷新绑定；本核验不声称排除了全部古代语义争议。
+
+显示修订复核：第5.1节两处集合外括号由转义花括号改为LaTeX命令lbrace／rbrace。反向还原这两处后，文件散列与上一次核验版本完全一致；没有其他正文变化，也不改变集合定义或来源解释。此处仅认证文本差异，实际GitHub显示另由发布核验确认。
