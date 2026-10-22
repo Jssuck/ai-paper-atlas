@@ -1,0 +1,30 @@
+Command: python3 -O -m unittest -v
+test_certificate (test_model.Tests.test_certificate) ... ok
+test_cycle (test_model.Tests.test_cycle) ... ok
+test_direction (test_model.Tests.test_direction) ... ok
+test_empty_term (test_model.Tests.test_empty_term) ... ok
+test_empty_wrong_endpoint (test_model.Tests.test_empty_wrong_endpoint) ... ok
+test_endoxon_mode (test_model.Tests.test_endoxon_mode) ... ok
+test_invalid (test_model.Tests.test_invalid) ... ok
+test_invalid_certificate (test_model.Tests.test_invalid_certificate) ... ok
+test_invalid_interpretation (test_model.Tests.test_invalid_interpretation) ... ok
+test_invalid_sample (test_model.Tests.test_invalid_sample) ... ok
+test_missing_unknown (test_model.Tests.test_missing_unknown) ... ok
+test_mode_isolation (test_model.Tests.test_mode_isolation) ... ok
+test_no_subject_sample (test_model.Tests.test_no_subject_sample) ... ok
+test_path (test_model.Tests.test_path) ... ok
+test_reflexive (test_model.Tests.test_reflexive) ... ok
+test_rename (test_model.Tests.test_rename) ... ok
+test_sample_counterexample (test_model.Tests.test_sample_counterexample) ... ok
+test_sample_gap (test_model.Tests.test_sample_gap) ... ok
+test_shortest (test_model.Tests.test_shortest) ... ok
+test_sound_instance (test_model.Tests.test_sound_instance) ... ok
+test_truth_not_label (test_model.Tests.test_truth_not_label) ... ok
+test_unknown_edge (test_model.Tests.test_unknown_edge) ... ok
+test_wrong_order (test_model.Tests.test_wrong_order) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.013s
+
+OK
+Exit status: 0

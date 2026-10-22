@@ -39,6 +39,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.27精读](papers/ancient/aristotle-prior-analytics-i27.zh-CN.md) | AI推理前史补读：前提取得、方向索引、继承与通常材料 | 深读v1 · 完整43a20–43b38及证书化最小重构 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.28精读](papers/ancient/aristotle-prior-analytics-i28.zh-CN.md) | AI推理前史补读：六表匹配、同一中项与归约缺口 | 深读v1 · 完整43b39–45a22及证书化最小重构 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.29精读](papers/ancient/aristotle-prior-analytics-i29.zh-CN.md) | AI推理前史补读：同项反证、存在承担与覆盖假设 | 深读v1 · 完整45a23–46a2及受限证书核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.30精读](papers/ancient/aristotle-prior-analytics-i30.zh-CN.md) | AI推理前史补读：领域经验、材料条件与形式路径 | 深读v1 · 完整46a3–30及受限证书核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -784,3 +785,9 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 
 [来源台账](papers/ancient/aristotle-prior-analytics-i29.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i29.source-audit.zh-CN.md)、[数学审查](papers/ancient/aristotle-prior-analytics-i29.audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i29/README.md)及[独立代码审查](reproduction/aristotle-prior-analytics-i29/CODE_REVIEW.md)分工核验。程序只检查声明规则与受限证书，不是完整古代语义或通用证明器；有限模型不证明一般定理。I.30与全书不计本单元完成，I.2继续暂缓，候选目录未改。
 
+
+## Aristotle I.30：经验与证明材料
+
+新增[《前分析篇》I.30深读](papers/ancient/aristotle-prior-analytics-i30.zh-CN.md)，完整Bekker46a3–30、Owen1853印152–153及本章注1。区分形式有效、材料真实与辩证接受，逐步证明包含链和受限无路径反模型，展示样本支持不能保证全称、同构迁移不能搬运事实，附20题答案。
+
+[来源台账](papers/ancient/aristotle-prior-analytics-i30.sources.zh-CN.md)、[来源审查](papers/ancient/aristotle-prior-analytics-i30.source-audit.zh-CN.md)、[数学审查](papers/ancient/aristotle-prior-analytics-i30.audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i30/README.md)和[独立代码审查](reproduction/aristotle-prior-analytics-i30/CODE_REVIEW.md)分工核验。标签不认证真理、路径模型不实现完整古代推理，有限测试不证明一般定理；材料无遗漏不是程序已兑现的保证。I.31和全书不计本单元完成，I.2继续暂缓，候选目录未改。

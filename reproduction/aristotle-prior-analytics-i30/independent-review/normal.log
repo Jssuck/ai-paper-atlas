@@ -1,0 +1,4 @@
+COMMAND: python3  independent-review/check.py
+{"bad_inputs": 18, "certificates": 214326, "countermodels": 139968, "graphs": 19683, "queries": 354294}
+PASS; finite regression evidence, not general mathematical proof or fact certification.
+EXIT_STATUS: 0

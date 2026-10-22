@@ -1,0 +1,14 @@
+Command: python3 -O demo.py
+Declared verified path: ('a', 'b')
+Certificate checks: True
+Certificate premises: [('a', 'S', 'M', 'verified', 'stipulated premise A'), ('b', 'M', 'P', 'verified', 'stipulated premise B')]
+Missing bridge: None (unknown, not false)
+Dialectical mode: None (no endoxon-labelled path)
+Declared verified inputs true in countermodel: False
+Conclusion true in countermodel: False
+Observed support: sample_support
+Unobserved counterexample: [3]
+Renamed domain path: ('a', 'b')
+Finite semantic check: {'interpretations': 64, 'true_input_cases': 16, 'violations': 0}
+Finite check is not a general proof, truth discovery, or full Aristotle reproduction.
+Exit status: 0
