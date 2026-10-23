@@ -1,0 +1,3 @@
+Command: python -O independent-audit/independent_oracle.py .
+Python 3.12.14
+{"closure_total": 4352, "empty_premise_contract": "rejected", "minimal_support_cases": 512, "named_examples": 12, "three_atom_unary_seed_cases": 4096, "two_atom_all_horn_seed_cases": 256}

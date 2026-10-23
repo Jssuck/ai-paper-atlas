@@ -1,0 +1,23 @@
+COMMAND: python3 -m unittest -v test_reproduce
+test_bad_facts (test_reproduce.Tests.test_bad_facts) ... ok
+test_bad_rule (test_reproduce.Tests.test_bad_rule) ... ok
+test_conjunction (test_reproduce.Tests.test_conjunction) ... ok
+test_direct_cycle (test_reproduce.Tests.test_direct_cycle) ... ok
+test_examples (test_reproduce.Tests.test_examples) ... ok
+test_exhaustive (test_reproduce.Tests.test_exhaustive) ... ok
+test_generator_rules (test_reproduce.Tests.test_generator_rules) ... ok
+test_generator_seeds (test_reproduce.Tests.test_generator_seeds) ... ok
+test_idempotence (test_reproduce.Tests.test_idempotence) ... ok
+test_identity_and_extensivity (test_reproduce.Tests.test_identity_and_extensivity) ... ok
+test_long_cycle (test_reproduce.Tests.test_long_cycle) ... ok
+test_minimal_supports (test_reproduce.Tests.test_minimal_supports) ... ok
+test_missing_universe (test_reproduce.Tests.test_missing_universe) ... ok
+test_no_reverse (test_reproduce.Tests.test_no_reverse) ... ok
+test_semantic_empty (test_reproduce.Tests.test_semantic_empty) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.037s
+
+OK
+
+EXIT_CODE: 0

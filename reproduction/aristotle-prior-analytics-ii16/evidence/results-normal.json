@@ -1,0 +1,410 @@
+{
+  "examples": [
+    {
+      "accepted_external_seeds": [],
+      "candidate_external_facts": [
+        "T"
+      ],
+      "closure": [],
+      "id": "direct_self",
+      "minimal_candidate_supports": [
+        [
+          "T"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "T",
+          "premises": [
+            "T"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [],
+      "candidate_external_facts": [
+        "A",
+        "B",
+        "C"
+      ],
+      "closure": [],
+      "id": "three_cycle",
+      "minimal_candidate_supports": [
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "A",
+          "premises": [
+            "B"
+          ]
+        },
+        {
+          "conclusion": "B",
+          "premises": [
+            "C"
+          ]
+        },
+        {
+          "conclusion": "C",
+          "premises": [
+            "A"
+          ]
+        }
+      ],
+      "target": "A",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [
+        "E"
+      ],
+      "candidate_external_facts": [
+        "E"
+      ],
+      "closure": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "id": "cycle_with_external_support",
+      "minimal_candidate_supports": [
+        [
+          "E"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "A",
+          "premises": [
+            "B"
+          ]
+        },
+        {
+          "conclusion": "B",
+          "premises": [
+            "C"
+          ]
+        },
+        {
+          "conclusion": "C",
+          "premises": [
+            "A"
+          ]
+        },
+        {
+          "conclusion": "C",
+          "premises": [
+            "E"
+          ]
+        }
+      ],
+      "target": "A",
+      "target_reached": true
+    },
+    {
+      "accepted_external_seeds": [
+        "E"
+      ],
+      "candidate_external_facts": [
+        "E"
+      ],
+      "closure": [
+        "E",
+        "T"
+      ],
+      "id": "irrelevant_cycle",
+      "minimal_candidate_supports": [
+        [
+          "E"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "B",
+          "premises": [
+            "A"
+          ]
+        },
+        {
+          "conclusion": "A",
+          "premises": [
+            "B"
+          ]
+        },
+        {
+          "conclusion": "T",
+          "premises": [
+            "E"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": true
+    },
+    {
+      "accepted_external_seeds": [],
+      "candidate_external_facts": [
+        "U"
+      ],
+      "closure": [],
+      "id": "uncertain_premise_not_accepted",
+      "minimal_candidate_supports": [
+        [
+          "U"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "T",
+          "premises": [
+            "U"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [
+        "U"
+      ],
+      "candidate_external_facts": [
+        "U"
+      ],
+      "closure": [
+        "T",
+        "U"
+      ],
+      "id": "same_rule_premise_accepted",
+      "minimal_candidate_supports": [
+        [
+          "U"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "T",
+          "premises": [
+            "U"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": true
+    },
+    {
+      "accepted_external_seeds": [],
+      "candidate_external_facts": [
+        "Q",
+        "T"
+      ],
+      "closure": [],
+      "id": "explicit_equivalence_bridge",
+      "minimal_candidate_supports": [
+        [
+          "Q"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "Q",
+          "premises": [
+            "T"
+          ]
+        },
+        {
+          "conclusion": "T",
+          "premises": [
+            "Q"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [
+        "Q"
+      ],
+      "candidate_external_facts": [
+        "Q"
+      ],
+      "closure": [
+        "Q"
+      ],
+      "id": "one_way_not_reversible",
+      "minimal_candidate_supports": [],
+      "rules": [
+        {
+          "conclusion": "Q",
+          "premises": [
+            "T"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [
+        "E"
+      ],
+      "candidate_external_facts": [
+        "E",
+        "T"
+      ],
+      "closure": [
+        "E",
+        "Q",
+        "T"
+      ],
+      "id": "alternative_independent_route",
+      "minimal_candidate_supports": [
+        [
+          "E"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "Q",
+          "premises": [
+            "T"
+          ]
+        },
+        {
+          "conclusion": "T",
+          "premises": [
+            "Q"
+          ]
+        },
+        {
+          "conclusion": "T",
+          "premises": [
+            "E"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": true
+    },
+    {
+      "accepted_external_seeds": [
+        "P"
+      ],
+      "candidate_external_facts": [
+        "P",
+        "Q"
+      ],
+      "closure": [
+        "P"
+      ],
+      "id": "conjunctive_premises_incomplete",
+      "minimal_candidate_supports": [
+        [
+          "P",
+          "Q"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "T",
+          "premises": [
+            "P",
+            "Q"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    },
+    {
+      "accepted_external_seeds": [
+        "P",
+        "Q"
+      ],
+      "candidate_external_facts": [
+        "P",
+        "Q"
+      ],
+      "closure": [
+        "P",
+        "Q",
+        "T"
+      ],
+      "id": "conjunctive_premises_complete",
+      "minimal_candidate_supports": [
+        [
+          "P",
+          "Q"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "T",
+          "premises": [
+            "P",
+            "Q"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": true
+    },
+    {
+      "accepted_external_seeds": [],
+      "candidate_external_facts": [
+        "U"
+      ],
+      "closure": [],
+      "id": "ungrounded_acyclic_chain",
+      "minimal_candidate_supports": [
+        [
+          "U"
+        ]
+      ],
+      "rules": [
+        {
+          "conclusion": "V",
+          "premises": [
+            "U"
+          ]
+        },
+        {
+          "conclusion": "T",
+          "premises": [
+            "V"
+          ]
+        }
+      ],
+      "target": "T",
+      "target_reached": false
+    }
+  ],
+  "exhaustive": {
+    "closure_semantic_comparisons": 4096,
+    "conjunctive_comparisons": 8,
+    "models_considered_per_comparison": 8,
+    "seed_sets_per_graph": 8,
+    "unary_graphs": 512
+  },
+  "scope": "finite positive Horn teaching reconstruction"
+}
