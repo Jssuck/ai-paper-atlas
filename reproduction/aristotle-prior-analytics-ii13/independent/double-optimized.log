@@ -1,0 +1,4 @@
+$ python -OO independent/oracle.py
+PASS: production JSON exact fields, 256 records and 17 named checks.
+{"all_terms_nonempty": {"by_discharged_goal": {"E": 1, "I": 2, "O": 2, "U": 1}, "models": 218, "valid_routes": 6}, "allow_empty": {"by_discharged_goal": {"E": 1, "I": 1, "O": 1, "U": 1}, "models": 255, "valid_routes": 4}}
+PASS: 128 independently evaluated route records; 256 internal/outer validity comparisons.

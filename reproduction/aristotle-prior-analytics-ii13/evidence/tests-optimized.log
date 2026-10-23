@@ -1,0 +1,21 @@
+$ python -O -m unittest -v test_reproduce.py
+test_candidate_count (test_reproduce.ModelTests.test_candidate_count) ... ok
+test_certificates_require_consistency (test_reproduce.ModelTests.test_certificates_require_consistency) ... ok
+test_coexistence (test_reproduce.ModelTests.test_coexistence) ... ok
+test_contradictories (test_reproduce.ModelTests.test_contradictories) ... ok
+test_countermodel_replay (test_reproduce.ModelTests.test_countermodel_replay) ... ok
+test_empty_subject (test_reproduce.ModelTests.test_empty_subject) ... ok
+test_existence_sensitivity (test_reproduce.ModelTests.test_existence_sensitivity) ... ok
+test_four_original_routes (test_reproduce.ModelTests.test_four_original_routes) ... ok
+test_invalid_input (test_reproduce.ModelTests.test_invalid_input) ... ok
+test_minimal_witness_order (test_reproduce.ModelTests.test_minimal_witness_order) ... ok
+test_model_counts (test_reproduce.ModelTests.test_model_counts) ... ok
+test_wrong_strength (test_reproduce.ModelTests.test_wrong_strength) ... ok
+test_wrong_universal_hypothesis_needs_existence (test_reproduce.ModelTests.test_wrong_universal_hypothesis_needs_existence) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.753s
+
+OK
+
+exit=0
