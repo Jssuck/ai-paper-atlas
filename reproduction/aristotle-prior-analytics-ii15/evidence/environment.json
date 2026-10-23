@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux 6.18.55",
+  "dependencies": "Python standard library only",
+  "command": "python3 run_all.py",
+  "result_sha256": "d2c9b88b36b1569ff40c0d594e36a86226f06d990a7aaa6ef666eb9c45e4f7aa"
+}

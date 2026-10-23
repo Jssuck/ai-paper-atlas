@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[II.14：怎样把归谬改写成直接证明？](papers/ancient/aristotle-prior-analytics-ii14.zh-CN.md)，完整62b29–63b21，附十五条同项转换教学路线、假设撤除、存在条件与非唯一格边界、逐步证明及独立核验的教学复现。
+最新补读：[II.15：相反前提为何仍须按规则推导？](papers/ancient/aristotle-prior-analytics-ii15.zh-CN.md)，完整63b22–64b27，附三格的相反前提、逐步否定推导、存在条件、矛盾与爆炸的边界及独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -72,6 +72,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.12精读](papers/ancient/aristotle-prior-analytics-ii12.zh-CN.md) | AI推理前史回填：第二格内部归谬、假设撤除、背景强度与存在条件 | 深读v1 · 完整62a20–62b4及文本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.13精读](papers/ancient/aristotle-prior-analytics-ii13.zh-CN.md) | AI推理前史回填：第三格内部归谬、外部全称、存在条件与精确否定 | 深读v1 · 完整62b5–28及文本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.14精读](papers/ancient/aristotle-prior-analytics-ii14.zh-CN.md) | AI推理前史回填：直接证明与归谬转换、依赖保持和存在条件 | 深读v1 · 完整62b29–63b21及文本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.15精读](papers/ancient/aristotle-prior-analytics-ii15.zh-CN.md) | AI推理前史回填：相反前提、同项关系、否定推导与语义层次 | 深读v1 · 完整63b22–64b27及文本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -948,3 +949,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《前分析篇》II.14 补读附件
 
 [深读正文](papers/ancient/aristotle-prior-analytics-ii14.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii14.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii14.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii14.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii14/README.md)。本单元仅覆盖62b29–63b21；区分内部归谬结果与外部目标、语义转置与固定句法路线，保留异读及非空条件，十五路线是教学展开而非原文逐字清单，有限实跑不替代一般证明。
+
+
+### 《前分析篇》II.15 补读附件
+
+[深读正文](papers/ancient/aristotle-prior-analytics-ii15.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii15.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii15.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii15.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii15/README.md)。本单元仅覆盖63b22–64b27；区分单步三段论与经典不一致前提的空泛蕴涵，保留项序异读、同一性及非空条件，有限实跑不替代一般证明。

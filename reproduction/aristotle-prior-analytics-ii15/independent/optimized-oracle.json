@@ -1,0 +1,1517 @@
+{
+  "domain_size": 3,
+  "generic_direction_checks": 10,
+  "labelled_models": 512,
+  "named_checks": {
+    "EI_exact_complements": true,
+    "E_self_empty_true": true,
+    "E_self_nonempty_false": true,
+    "IO_coexist": true,
+    "O_self_always_false": true,
+    "UE_disjoint_nonempty_subject": true,
+    "UE_empty_coexist": true,
+    "UO_exact_complements": true,
+    "same_subject_UE_no_nonempty_model": true,
+    "unrelated_terms_can_have_true_negative": true,
+    "whole_part_E_false_nonempty_part": true,
+    "whole_part_O_false": true
+  },
+  "named_checks_passed": 12,
+  "records": [
+    {
+      "conclusion": "EBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 64,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 64,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 64,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 64,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 64,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 64,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 64,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 64,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 18,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      "figure": 2,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 2,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UE",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UE",
+      "satisfying": 42,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [],
+        [],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EU",
+      "satisfying": 125,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 42,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EU",
+      "satisfying": 42,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "UO",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "UO",
+      "satisfying": 72,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "OU",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 72,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "OU",
+      "satisfying": 72,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "IE",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "IE",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      "figure": 3,
+      "policy": "empty_allowed",
+      "premises": "EI",
+      "satisfying": 91,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "EBC",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OBC",
+      "counterexample": null,
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": true
+    },
+    {
+      "conclusion": "ECB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    },
+    {
+      "conclusion": "OCB",
+      "counterexample": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "figure": 3,
+      "policy": "all_nonempty",
+      "premises": "EI",
+      "satisfying": 54,
+      "valid_on_three_objects": false
+    }
+  ],
+  "scope": "Bounded independent check; not a general proof or reconstruction of all ancient semantics."
+}

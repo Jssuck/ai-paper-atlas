@@ -1,0 +1,1062 @@
+{
+  "all_terms_nonempty_models": 218,
+  "contraries_empty_subject": {
+    "M": [],
+    "P": [],
+    "S": []
+  },
+  "first_figure_direct_opposition": false,
+  "first_figure_reason": "After P=S, premise pairs are P(M), M(P), not the same predicate and subject. Extra conversion is a separate step.",
+  "models": 255,
+  "opposite_routes": [
+    {
+      "conclusion": [
+        "E",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 192,
+        "countermodel": null,
+        "premise_models": 15,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 12,
+        "countermodel": null,
+        "premise_models": 3,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "UE",
+      "premises": [
+        [
+          "U",
+          "M",
+          "P"
+        ],
+        [
+          "E",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "E",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 192,
+        "countermodel": null,
+        "premise_models": 15,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 12,
+        "countermodel": null,
+        "premise_models": 3,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "EU",
+      "premises": [
+        [
+          "E",
+          "M",
+          "P"
+        ],
+        [
+          "U",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "UO",
+      "premises": [
+        [
+          "U",
+          "M",
+          "P"
+        ],
+        [
+          "O",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "S",
+        "P"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": true,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "OU",
+      "premises": [
+        [
+          "O",
+          "M",
+          "P"
+        ],
+        [
+          "U",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "S",
+        "P"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": true,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "IE",
+      "premises": [
+        [
+          "I",
+          "M",
+          "P"
+        ],
+        [
+          "E",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 2,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "EI",
+      "premises": [
+        [
+          "E",
+          "M",
+          "P"
+        ],
+        [
+          "I",
+          "M",
+          "S"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "S",
+        "P"
+      ],
+      "distinct_terms": {
+        "background_models": 240,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 56,
+        "countermodel": null,
+        "premise_models": 16,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "premise_models": 3,
+        "semantic_entailment": false,
+        "vacuous": false
+      },
+      "exchanged_extremes": true,
+      "existence_required": "M",
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "UE",
+      "premises": [
+        [
+          "U",
+          "P",
+          "M"
+        ],
+        [
+          "E",
+          "S",
+          "M"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 240,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 56,
+        "countermodel": null,
+        "premise_models": 16,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "premise_models": 3,
+        "semantic_entailment": false,
+        "vacuous": false
+      },
+      "exchanged_extremes": false,
+      "existence_required": "M",
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "EU",
+      "premises": [
+        [
+          "E",
+          "P",
+          "M"
+        ],
+        [
+          "U",
+          "S",
+          "M"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "S",
+        "P"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": true,
+      "existence_required": null,
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "UO",
+      "premises": [
+        [
+          "U",
+          "P",
+          "M"
+        ],
+        [
+          "O",
+          "S",
+          "M"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "OU",
+      "premises": [
+        [
+          "O",
+          "P",
+          "M"
+        ],
+        [
+          "U",
+          "S",
+          "M"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "S",
+        "P"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": true,
+      "existence_required": null,
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "IE",
+      "premises": [
+        [
+          "I",
+          "P",
+          "M"
+        ],
+        [
+          "E",
+          "S",
+          "M"
+        ]
+      ]
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "distinct_terms": {
+        "background_models": 255,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 63,
+        "countermodel": null,
+        "premise_models": 32,
+        "semantic_entailment": true,
+        "vacuous": false
+      },
+      "empty_terms_allowed": {
+        "background_models": 15,
+        "background_witness": {
+          "M": [],
+          "P": [],
+          "S": []
+        },
+        "conclusion_false_in_background": 15,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "exchanged_extremes": false,
+      "existence_required": null,
+      "figure": 3,
+      "identified_extremes": {
+        "background_models": 10,
+        "background_witness": {
+          "M": [
+            2
+          ],
+          "P": [
+            5
+          ],
+          "S": [
+            5
+          ]
+        },
+        "conclusion_false_in_background": 10,
+        "countermodel": null,
+        "premise_models": 0,
+        "semantic_entailment": true,
+        "vacuous": true
+      },
+      "pair": "EI",
+      "premises": [
+        [
+          "E",
+          "P",
+          "M"
+        ],
+        [
+          "I",
+          "S",
+          "M"
+        ]
+      ]
+    }
+  ],
+  "particulars_coexist": {
+    "M": [],
+    "P": [
+      5
+    ],
+    "S": [
+      4,
+      5
+    ]
+  },
+  "scope": "Finite modern unary-set model; standard mood certificates are separate from semantic entailment.",
+  "standard_rule_checks": [
+    {
+      "conclusion": [
+        "U",
+        "P",
+        "S"
+      ],
+      "figure": 1,
+      "pair": "UU",
+      "premise_models": 8
+    },
+    {
+      "conclusion": [
+        "I",
+        "P",
+        "S"
+      ],
+      "figure": 1,
+      "pair": "UI",
+      "premise_models": 32
+    },
+    {
+      "conclusion": [
+        "E",
+        "P",
+        "S"
+      ],
+      "figure": 1,
+      "pair": "EU",
+      "premise_models": 4
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 1,
+      "pair": "EI",
+      "premise_models": 24
+    },
+    {
+      "conclusion": [
+        "E",
+        "P",
+        "S"
+      ],
+      "figure": 2,
+      "pair": "UE",
+      "premise_models": 4
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 2,
+      "pair": "UO",
+      "premise_models": 24
+    },
+    {
+      "conclusion": [
+        "E",
+        "P",
+        "S"
+      ],
+      "figure": 2,
+      "pair": "EU",
+      "premise_models": 4
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 2,
+      "pair": "EI",
+      "premise_models": 24
+    },
+    {
+      "conclusion": [
+        "I",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "UU",
+      "premise_models": 16
+    },
+    {
+      "conclusion": [
+        "I",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "UI",
+      "premise_models": 32
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "EU",
+      "premise_models": 12
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "EI",
+      "premise_models": 24
+    },
+    {
+      "conclusion": [
+        "I",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "IU",
+      "premise_models": 32
+    },
+    {
+      "conclusion": [
+        "O",
+        "P",
+        "S"
+      ],
+      "figure": 3,
+      "pair": "OU",
+      "premise_models": 28
+    }
+  ],
+  "subset_examples": [
+    {
+      "background_models": 255,
+      "conclusion_false_in_background": 192,
+      "joint_witness": {
+        "M": [
+          3
+        ],
+        "P": [
+          3
+        ],
+        "S": [
+          4
+        ]
+      },
+      "label": "no_inclusion_background",
+      "premise_models": 15
+    },
+    {
+      "background_models": 63,
+      "conclusion_false_in_background": 48,
+      "joint_witness": {
+        "M": [],
+        "P": [],
+        "S": []
+      },
+      "label": "medicine_in_science_empty_allowed",
+      "premise_models": 7
+    },
+    {
+      "background_models": 48,
+      "conclusion_false_in_background": 48,
+      "joint_witness": null,
+      "label": "medicine_in_science_nonempty",
+      "premise_models": 0
+    }
+  ],
+  "vacuous_entailment_not_a_formal_rule": {
+    "background_models": 255,
+    "background_witness": {
+      "M": [
+        2
+      ],
+      "P": [],
+      "S": []
+    },
+    "conclusion_false_in_background": 192,
+    "countermodel": null,
+    "premise_models": 0,
+    "semantic_entailment": true,
+    "vacuous": true
+  }
+}

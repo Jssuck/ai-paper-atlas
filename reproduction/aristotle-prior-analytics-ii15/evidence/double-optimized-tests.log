@@ -1,0 +1,21 @@
+$ python3 -OO -m unittest -v test_reproduce
+test_assumption_generator (test_reproduce.Checks.test_assumption_generator) ... ok
+test_complements (test_reproduce.Checks.test_complements) ... ok
+test_empty_contraries (test_reproduce.Checks.test_empty_contraries) ... ok
+test_existential_gap (test_reproduce.Checks.test_existential_gap) ... ok
+test_first_figure_slots (test_reproduce.Checks.test_first_figure_slots) ... ok
+test_invalid_inputs (test_reproduce.Checks.test_invalid_inputs) ... ok
+test_io_not_opposed (test_reproduce.Checks.test_io_not_opposed) ... ok
+test_model_counts (test_reproduce.Checks.test_model_counts) ... ok
+test_not_explosion_rule (test_reproduce.Checks.test_not_explosion_rule) ... ok
+test_opposed_nonempty (test_reproduce.Checks.test_opposed_nonempty) ... ok
+test_route_count (test_reproduce.Checks.test_route_count) ... ok
+test_route_sound_distinct (test_reproduce.Checks.test_route_sound_distinct) ... ok
+test_standard_rules (test_reproduce.Checks.test_standard_rules) ... ok
+test_subset_boundary (test_reproduce.Checks.test_subset_boundary) ... ok
+test_swapped_direction (test_reproduce.Checks.test_swapped_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.457s
+
+OK
