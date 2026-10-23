@@ -1,0 +1,15 @@
+test_all_moods_and_witnesses (__main__.Independent.test_all_moods_and_witnesses) ... ok
+test_arbitrary_labels_and_duplicate_types (__main__.Independent.test_arbitrary_labels_and_duplicate_types) ... ok
+test_classification_is_not_validity (__main__.Independent.test_classification_is_not_validity) ... ok
+test_compression_four_objects (__main__.Independent.test_compression_four_objects) ... ok
+test_empty_middle_and_policy (__main__.Independent.test_empty_middle_and_policy) ... ok
+test_mixed_and_converted_steps (__main__.Independent.test_mixed_and_converted_steps) ... ok
+test_single_use_inputs (__main__.Independent.test_single_use_inputs) ... ok
+test_validation (__main__.Independent.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.640s
+
+OK
+{"independent_model_mood_checks": 45504, "canonical_counts": [128, 109]}
+{"compression_assignments": 4096, "categorical_truth_comparisons": 147456}

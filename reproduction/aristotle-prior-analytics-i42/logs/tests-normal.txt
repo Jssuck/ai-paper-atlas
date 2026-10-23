@@ -1,0 +1,22 @@
+COMMAND: python3  -m unittest -v test_model
+test_all_four_kinds (test_model.Tests.test_all_four_kinds) ... ok
+test_bad_domains (test_model.Tests.test_bad_domains) ... ok
+test_bad_figure (test_model.Tests.test_bad_figure) ... ok
+test_bad_mood (test_model.Tests.test_bad_mood) ... ok
+test_bad_policy (test_model.Tests.test_bad_policy) ... ok
+test_bad_step (test_model.Tests.test_bad_step) ... ok
+test_candidate_not_proof (test_model.Tests.test_candidate_not_proof) ... ok
+test_candidates (test_model.Tests.test_candidates) ... ok
+test_darapti_empty_middle (test_model.Tests.test_darapti_empty_middle) ... ok
+test_freeze_generators (test_model.Tests.test_freeze_generators) ... ok
+test_label_is_not_validity (test_model.Tests.test_label_is_not_validity) ... ok
+test_mixed_figures (test_model.Tests.test_mixed_figures) ... ok
+test_model_counts (test_model.Tests.test_model_counts) ... ok
+test_mood_counts (test_model.Tests.test_mood_counts) ... ok
+test_outside_only (test_model.Tests.test_outside_only) ... ok
+test_unknown_figure_shape (test_model.Tests.test_unknown_figure_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.534s
+
+OK
