@@ -46,7 +46,7 @@ python3 -OO -m unittest -v test_model
 
 |文件|SHA-256|
 |---|---|
-|papers/ancient/aristotle-prior-analytics-i42.zh-CN.md|99a508bfcc8d004ef8f50652d32c9acbc4fe0ab2e234ed7f7dd1ce65496ff7c2|
+|papers/ancient/aristotle-prior-analytics-i42.zh-CN.md|d8c568c871214ae7153702306cae4fa2faaf6e65b7c9328a9d8a2c28adddeb6c|
 |reproduction/aristotle-prior-analytics-i42/README.md|97b9e359f1aa3b8001841ca5c5067a4d8d8fe0b18cfc84900447796f33e09080|
 |reproduction/aristotle-prior-analytics-i42/independent_check.py|0ed7ffd0c4d52fcbeadaece651c073dbd6ec7c1e9c344ddd5d6c526de306f8ed|
 |reproduction/aristotle-prior-analytics-i42/logs/environment.txt|3302d391167e43861a9b18f0792951c572d0783c249e23e7afa7ebd93d4d40fd|

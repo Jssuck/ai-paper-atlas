@@ -21,6 +21,6 @@
 
 |文件|SHA-256|
 |---|---|
-|papers/ancient/aristotle-prior-analytics-i42.zh-CN.md|99a508bfcc8d004ef8f50652d32c9acbc4fe0ab2e234ed7f7dd1ce65496ff7c2|
+|papers/ancient/aristotle-prior-analytics-i42.zh-CN.md|d8c568c871214ae7153702306cae4fa2faaf6e65b7c9328a9d8a2c28adddeb6c|
 |papers/ancient/aristotle-prior-analytics-i42.sources.zh-CN.md|cf79e793b70fbd25557766c997e719098d9c023bd6f15ffd429a188ad61afdf3|
 |README.md|28cc055c48157ffcd6ddc0a3975c87e7c63ab08b3ca8194223dc28cce8ca3e16|
