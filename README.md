@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[II.8：改掉结论，究竟反驳了什么？](papers/ancient/aristotle-prior-analytics-ii8.zh-CN.md)，完整59b1–60a14，附矛盾与反对替换、16格逐步反驳、空项和同一见证边界、两处译文校核、12题答案及独立核验的教学复现。
+最新补读：[II.9：反驳的强度为何取决于项的位置？](papers/ancient/aristotle-prior-analytics-ii9.zh-CN.md)，完整60a15–60b5，附第二格四式16格、逐步见证证明、空项反例、印本脚注校核、12题答案及独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -66,6 +66,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1913译注） | [Aristotle前分析篇II.6精读](papers/ancient/aristotle-prior-analytics-ii6.zh-CN.md) | AI推理前史补读：第二格互证、否定恢复、共享见证与额外条件 | 深读v1 · 完整58b13–38及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.7精读](papers/ancient/aristotle-prior-analytics-ii7.zh-CN.md) | AI推理前史回填：第三格相互证明、有向目标、语义等价与额外桥接成本 | 深读v1 · 完整58b39–59a41及文本/解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.8精读](papers/ancient/aristotle-prior-analytics-ii8.zh-CN.md) | AI推理前史回填：结论替换、前提反驳、存在承担与推导目标 | 深读v1 · 完整59b1–60a14及文本/语义边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.9精读](papers/ancient/aristotle-prior-analytics-ii9.zh-CN.md) | AI推理前史回填：第二格反驳、目标强度、项位与同一见证 | 深读v1 · 完整60a15–60b5及文本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -914,3 +915,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《前分析篇》II.8 补读附件
 
 [深读正文](papers/ancient/aristotle-prior-analytics-ii8.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii8.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii8.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii8.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii8/README.md)。本单元只覆盖59b1–60a14；区分有新结论与真正排除前提，I/O可同真，全称反对反驳需C存在，有限实跑不代替一般证明。
+
+### 《前分析篇》II.9 补读附件
+
+[深读正文](papers/ancient/aristotle-prior-analytics-ii9.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii9.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii9.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii9.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii9/README.md)。本单元仅覆盖60a15–60b5；第二格大端为B、中项为A，区分新结果与真正反驳、全称强度与存在见证，有限实跑不替代一般证明。

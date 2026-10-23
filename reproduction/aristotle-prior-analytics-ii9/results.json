@@ -1,0 +1,1044 @@
+{
+  "scope": "modern unary three-predicate extensional model; not a general theorem proof",
+  "policies": {
+    "empty_allowed": {
+      "model_count": 255,
+      "original_moods": {
+        "Camestres": {
+          "premise_models": 15,
+          "countermodels": 0
+        },
+        "Cesare": {
+          "premise_models": 15,
+          "countermodels": 0
+        },
+        "Festino": {
+          "premise_models": 32,
+          "countermodels": 0
+        },
+        "Baroco": {
+          "premise_models": 32,
+          "countermodels": 0
+        }
+      },
+      "cases": [
+        {
+          "id": "Camestres/contrary/retain_major",
+          "background_count": 15,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "E(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 7,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contrary/retain_minor",
+          "background_count": 31,
+          "retained": "E(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 7,
+          "refutation_countermodel_count": 7,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "first_result_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Camestres/contradictory/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "E(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "E(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_major",
+          "background_count": 15,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "A(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 7,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_minor",
+          "background_count": 31,
+          "retained": "A(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 7,
+          "refutation_countermodel_count": 7,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "first_result_countermodel": {
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Cesare/contradictory/retain_major",
+          "background_count": 32,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "A(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "A(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_major",
+          "background_count": 32,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "I(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_minor",
+          "background_count": 160,
+          "retained": "I(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Festino/contradictory/retain_major",
+          "background_count": 15,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "I(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "I(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "O(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_minor",
+          "background_count": 160,
+          "retained": "O(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Baroco/contradictory/retain_major",
+          "background_count": 15,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "O(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "O(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        }
+      ]
+    },
+    "C_nonempty": {
+      "model_count": 240,
+      "original_moods": {
+        "Camestres": {
+          "premise_models": 8,
+          "countermodels": 0
+        },
+        "Cesare": {
+          "premise_models": 8,
+          "countermodels": 0
+        },
+        "Festino": {
+          "premise_models": 32,
+          "countermodels": 0
+        },
+        "Baroco": {
+          "premise_models": 32,
+          "countermodels": 0
+        }
+      },
+      "cases": [
+        {
+          "id": "Camestres/contrary/retain_major",
+          "background_count": 8,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "E(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contrary/retain_minor",
+          "background_count": 16,
+          "retained": "E(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        },
+        {
+          "id": "Camestres/contradictory/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "E(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "E(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_major",
+          "background_count": 8,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "A(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_minor",
+          "background_count": 16,
+          "retained": "A(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Cesare/contradictory/retain_major",
+          "background_count": 32,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "A(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "A(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_major",
+          "background_count": 32,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "I(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_minor",
+          "background_count": 160,
+          "retained": "I(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Festino/contradictory/retain_major",
+          "background_count": 8,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "I(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "I(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "O(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_minor",
+          "background_count": 160,
+          "retained": "O(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Baroco/contradictory/retain_major",
+          "background_count": 8,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "O(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "O(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        }
+      ]
+    },
+    "all_nonempty": {
+      "model_count": 218,
+      "original_moods": {
+        "Camestres": {
+          "premise_models": 4,
+          "countermodels": 0
+        },
+        "Cesare": {
+          "premise_models": 4,
+          "countermodels": 0
+        },
+        "Festino": {
+          "premise_models": 24,
+          "countermodels": 0
+        },
+        "Baroco": {
+          "premise_models": 24,
+          "countermodels": 0
+        }
+      },
+      "cases": [
+        {
+          "id": "Camestres/contrary/retain_major",
+          "background_count": 8,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "E(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contrary/retain_minor",
+          "background_count": 12,
+          "retained": "E(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        },
+        {
+          "id": "Camestres/contradictory/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "E(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Camestres/contradictory/retain_minor",
+          "background_count": 24,
+          "retained": "E(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_major",
+          "background_count": 4,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "A(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contrary/retain_minor",
+          "background_count": 16,
+          "retained": "A(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Cesare/contradictory/retain_major",
+          "background_count": 24,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "A(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Cesare/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "A(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_major",
+          "background_count": 24,
+          "retained": "E(A,B)",
+          "replacement": "I(B,C)",
+          "target": "I(A,C)",
+          "display_result": "O(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contrary/retain_minor",
+          "background_count": 160,
+          "retained": "I(A,C)",
+          "replacement": "I(B,C)",
+          "target": "E(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "011",
+              "101"
+            ],
+            "sets": {
+              "A": [
+                5
+              ],
+              "B": [
+                3
+              ],
+              "C": [
+                3,
+                5
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Festino/contradictory/retain_major",
+          "background_count": 4,
+          "retained": "E(A,B)",
+          "replacement": "A(B,C)",
+          "target": "I(A,C)",
+          "display_result": "E(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ]
+        },
+        {
+          "id": "Festino/contradictory/retain_minor",
+          "background_count": 32,
+          "retained": "I(A,C)",
+          "replacement": "A(B,C)",
+          "target": "E(A,B)",
+          "display_result": "I(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,B)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_major",
+          "background_count": 32,
+          "retained": "A(A,B)",
+          "replacement": "I(B,C)",
+          "target": "O(A,C)",
+          "display_result": "I(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contrary/retain_minor",
+          "background_count": 152,
+          "retained": "O(A,C)",
+          "replacement": "I(B,C)",
+          "target": "A(A,B)",
+          "display_result": null,
+          "result_countermodel_count": null,
+          "refutation_countermodel_count": 16,
+          "first_refutation_countermodel": {
+            "occupied_types": [
+              "001",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                7
+              ],
+              "C": [
+                1,
+                7
+              ]
+            }
+          },
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": []
+        },
+        {
+          "id": "Baroco/contradictory/retain_major",
+          "background_count": 8,
+          "retained": "A(A,B)",
+          "replacement": "A(B,C)",
+          "target": "O(A,C)",
+          "display_result": "A(A,C)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ]
+        },
+        {
+          "id": "Baroco/contradictory/retain_minor",
+          "background_count": 28,
+          "retained": "O(A,C)",
+          "replacement": "A(B,C)",
+          "target": "A(A,B)",
+          "display_result": "O(A,B)",
+          "result_countermodel_count": 0,
+          "refutation_countermodel_count": 0,
+          "first_refutation_countermodel": null,
+          "first_result_countermodel": null,
+          "all_valid_target_pair_forms": [
+            "O(A,B)"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+UTC 2026-10-23T16:42:25Z
+implementation=CPython
+python=3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+system=Linux
+machine=x86_64
+dependencies=Python standard library only
+Commands: python3 check.py; python3 -O check.py; python3 -OO check.py
+All three outputs byte-identical (cmp exit 0).
+0ae6ae7cab7c341275bb4882c4d7b43c87ced45c8393489e9f98b4d5b2718430  check.py
+a7267856d4ee2184a5354ad5bb3304dcae50282091a2978f5563b7a4f387054c  test_check.py
+87a30ad3add6eb4699bd8b894dfa18049bbbe873afd759724ef0a7022c89f359  results.json

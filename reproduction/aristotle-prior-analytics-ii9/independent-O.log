@@ -1,0 +1,22 @@
+Fri Oct 23 16:46:57 UTC 2026
+python3 -O independent_check.py
+empty_allowed: 255 models, 16 independently matched rows; four original moods valid
+C_nonempty: 240 models, 16 independently matched rows; four original moods valid
+all_nonempty: 218 models, 16 independently matched rows; four original moods valid
+PASS: 48 rows, 18 stored witnesses, four article examples. No author evaluator imported.
+python3 -O -m unittest -v test_check.py
+test_all_contradictory_refutations (test_check.Checks.test_all_contradictory_refutations) ... ok
+test_all_rows_and_witnesses_replay (test_check.Checks.test_all_rows_and_witnesses_replay) ... ok
+test_exact_negations (test_check.Checks.test_exact_negations) ... ok
+test_four_original_moods (test_check.Checks.test_four_original_moods) ... ok
+test_invalid_inputs (test_check.Checks.test_invalid_inputs) ... ok
+test_particular_contrary_does_not_refute (test_check.Checks.test_particular_contrary_does_not_refute) ... ok
+test_population (test_check.Checks.test_population) ... ok
+test_some_and_some_not_can_both_hold (test_check.Checks.test_some_and_some_not_can_both_hold) ... ok
+test_universal_contrary_empty_c (test_check.Checks.test_universal_contrary_empty_c) ... ok
+test_universal_contrary_nonempty (test_check.Checks.test_universal_contrary_nonempty) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.273s
+
+OK
