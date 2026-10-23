@@ -4,7 +4,7 @@
 
 **核心问题：** 第二格直接三段论只能得到否定结论，为什么本章却说它能证明肯定目标？因为这里有两个不同的结束位置：内部三段论先得出否定结果；整个反证再撤除临时假设，得到肯定目标。把这两个结果都叫“结论”而不标层次，便会制造假矛盾。
 
-全文标签：**【原文】**为本章论述，**【教学重构】**为显式集合模型、符号和补全的背景，**【分析】**为现代解释或延伸，**【实跑】**为附件中保存的真实执行证据。
+全文标签：【原文】为本章论述，【教学重构】为显式集合模型、符号和补全的背景，【分析】为现代解释或延伸，【实跑】为附件中保存的真实执行证据。
 
 附件：[来源台账](aristotle-prior-analytics-ii12.sources.zh-CN.md) · [来源独审](aristotle-prior-analytics-ii12.source-audit.zh-CN.md) · [数学代码独审](aristotle-prior-analytics-ii12.technical-review.zh-CN.md) · [原创复现与真实日志](../../reproduction/aristotle-prior-analytics-ii12/README.md)。
 

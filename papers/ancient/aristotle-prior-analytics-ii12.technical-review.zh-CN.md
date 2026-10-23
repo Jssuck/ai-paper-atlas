@@ -30,7 +30,7 @@
 
 |文件|SHA-256|
 |---|---|
-|papers/ancient/aristotle-prior-analytics-ii12.zh-CN.md|1c17ceed96328c91d2433bdd1f33882553ae5d678102d7e0fd3fd8e9afe2bf99|
+|papers/ancient/aristotle-prior-analytics-ii12.zh-CN.md|4237847396421b40493452cfc57abc5488186d056b34152226e4b8762e4d49df|
 |papers/ancient/aristotle-prior-analytics-ii12.sources.zh-CN.md|cd3f6508cfd9e9434db0024b1b43b9e62feaa12c37c8f3f426656de834bb8120|
 |reproduction/aristotle-prior-analytics-ii12/reproduce.py|df37a019dd3d934ed27289f429c36013fdf2f799c63f8e4761310689dc7cb1c4|
 |reproduction/aristotle-prior-analytics-ii12/test_reproduce.py|0433ed97d31d8b917a1372c61022e75ba301020982a712711f4d24278844979c|

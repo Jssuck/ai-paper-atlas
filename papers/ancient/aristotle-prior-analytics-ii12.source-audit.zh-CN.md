@@ -28,5 +28,5 @@
 
 审查日期：2026-10-23。以下SHA-256绑定本次逐段复核的文件；后续实质或格式修改均应重新核对并更新绑定。
 
-- `aristotle-prior-analytics-ii12.zh-CN.md`：`1c17ceed96328c91d2433bdd1f33882553ae5d678102d7e0fd3fd8e9afe2bf99`
+- `aristotle-prior-analytics-ii12.zh-CN.md`：`4237847396421b40493452cfc57abc5488186d056b34152226e4b8762e4d49df`
 - `aristotle-prior-analytics-ii12.sources.zh-CN.md`：`cd3f6508cfd9e9434db0024b1b43b9e62feaa12c37c8f3f426656de834bb8120`
