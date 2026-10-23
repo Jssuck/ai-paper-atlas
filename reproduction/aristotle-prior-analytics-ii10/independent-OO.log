@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "common_examples_checked": 6,
+  "nonupgrade_examples_checked": 4,
+  "independent_cases": 72,
+  "original_moods": 18,
+  "countermodels_replayed": 40,
+  "modern_wrong_term_checked": true,
+  "policies": {
+    "empty_allowed": {
+      "models": 255,
+      "cases": 24,
+      "refuting_cases": 8
+    },
+    "C_nonempty": {
+      "models": 240,
+      "cases": 24,
+      "refuting_cases": 12
+    },
+    "all_nonempty": {
+      "models": 218,
+      "cases": 24,
+      "refuting_cases": 12
+    }
+  }
+}

@@ -1,0 +1,17 @@
+test_case_coverage (test_check.TeachingTests.test_case_coverage) ... ok
+test_contradictory_complements (test_check.TeachingTests.test_contradictory_complements) ... ok
+test_empty_C_is_not_refutation (test_check.TeachingTests.test_empty_C_is_not_refutation) ... ok
+test_model_input (test_check.TeachingTests.test_model_input) ... ok
+test_original_moods (test_check.TeachingTests.test_original_moods) ... ok
+test_policy_counts (test_check.TeachingTests.test_policy_counts) ... ok
+test_prop_input (test_check.TeachingTests.test_prop_input) ... ok
+test_replacement_results_and_refutations (test_check.TeachingTests.test_replacement_results_and_refutations) ... ok
+test_reverse_direction_not_no_consequence (test_check.TeachingTests.test_reverse_direction_not_no_consequence) ... ok
+test_saved_countermodels_replay (test_check.TeachingTests.test_saved_countermodels_replay) ... ok
+test_truth_definitions (test_check.TeachingTests.test_truth_definitions) ... ok
+test_two_distinct_existential_witnesses (test_check.TeachingTests.test_two_distinct_existential_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.219s
+
+OK

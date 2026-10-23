@@ -1,0 +1,67 @@
+UTC 2026-10-23T17:39:09Z
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+platform: Linux-6.18.55-x86_64-with-glibc2.41
+implementation: cpython
+dependencies: Python standard library only
+
+COMMAND: python3 check.py > results.json
+policies 3
+case_policy_checks 72
+model_counts {'empty_allowed': 255, 'C_nonempty': 240, 'all_nonempty': 218}
+
+COMMAND: python3  -m unittest -v test_check
+test_case_coverage (test_check.TeachingTests.test_case_coverage) ... ok
+test_contradictory_complements (test_check.TeachingTests.test_contradictory_complements) ... ok
+test_empty_C_is_not_refutation (test_check.TeachingTests.test_empty_C_is_not_refutation) ... ok
+test_model_input (test_check.TeachingTests.test_model_input) ... ok
+test_original_moods (test_check.TeachingTests.test_original_moods) ... ok
+test_policy_counts (test_check.TeachingTests.test_policy_counts) ... ok
+test_prop_input (test_check.TeachingTests.test_prop_input) ... ok
+test_replacement_results_and_refutations (test_check.TeachingTests.test_replacement_results_and_refutations) ... ok
+test_reverse_direction_not_no_consequence (test_check.TeachingTests.test_reverse_direction_not_no_consequence) ... ok
+test_saved_countermodels_replay (test_check.TeachingTests.test_saved_countermodels_replay) ... ok
+test_truth_definitions (test_check.TeachingTests.test_truth_definitions) ... ok
+test_two_distinct_existential_witnesses (test_check.TeachingTests.test_two_distinct_existential_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.219s
+
+OK
+
+COMMAND: python3 -O -m unittest -v test_check
+test_case_coverage (test_check.TeachingTests.test_case_coverage) ... ok
+test_contradictory_complements (test_check.TeachingTests.test_contradictory_complements) ... ok
+test_empty_C_is_not_refutation (test_check.TeachingTests.test_empty_C_is_not_refutation) ... ok
+test_model_input (test_check.TeachingTests.test_model_input) ... ok
+test_original_moods (test_check.TeachingTests.test_original_moods) ... ok
+test_policy_counts (test_check.TeachingTests.test_policy_counts) ... ok
+test_prop_input (test_check.TeachingTests.test_prop_input) ... ok
+test_replacement_results_and_refutations (test_check.TeachingTests.test_replacement_results_and_refutations) ... ok
+test_reverse_direction_not_no_consequence (test_check.TeachingTests.test_reverse_direction_not_no_consequence) ... ok
+test_saved_countermodels_replay (test_check.TeachingTests.test_saved_countermodels_replay) ... ok
+test_truth_definitions (test_check.TeachingTests.test_truth_definitions) ... ok
+test_two_distinct_existential_witnesses (test_check.TeachingTests.test_two_distinct_existential_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.207s
+
+OK
+
+COMMAND: python3 -OO -m unittest -v test_check
+test_case_coverage (test_check.TeachingTests.test_case_coverage) ... ok
+test_contradictory_complements (test_check.TeachingTests.test_contradictory_complements) ... ok
+test_empty_C_is_not_refutation (test_check.TeachingTests.test_empty_C_is_not_refutation) ... ok
+test_model_input (test_check.TeachingTests.test_model_input) ... ok
+test_original_moods (test_check.TeachingTests.test_original_moods) ... ok
+test_policy_counts (test_check.TeachingTests.test_policy_counts) ... ok
+test_prop_input (test_check.TeachingTests.test_prop_input) ... ok
+test_replacement_results_and_refutations (test_check.TeachingTests.test_replacement_results_and_refutations) ... ok
+test_reverse_direction_not_no_consequence (test_check.TeachingTests.test_reverse_direction_not_no_consequence) ... ok
+test_saved_countermodels_replay (test_check.TeachingTests.test_saved_countermodels_replay) ... ok
+test_truth_definitions (test_check.TeachingTests.test_truth_definitions) ... ok
+test_two_distinct_existential_witnesses (test_check.TeachingTests.test_two_distinct_existential_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.216s
+
+OK

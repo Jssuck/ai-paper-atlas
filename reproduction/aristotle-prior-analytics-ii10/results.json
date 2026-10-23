@@ -1,0 +1,1980 @@
+{
+  "scope": "II.10 modern unary extensional teaching model; finite run is not a general proof",
+  "policies": {
+    "empty_allowed": {
+      "model_count": 255,
+      "original_moods": {
+        "Darapti": {
+          "background_count": 31,
+          "countermodels": 7,
+          "first_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          }
+        },
+        "Disamis": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Datisi": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Felapton": {
+          "background_count": 31,
+          "countermodels": 7,
+          "first_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          }
+        },
+        "Bocardo": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Ferison": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        }
+      },
+      "cases": [
+        {
+          "id": "Darapti/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 48,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 4,
+            "occupied_types": [
+              "010"
+            ],
+            "sets": {
+              "A": [],
+              "B": [
+                2
+              ],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Darapti/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 32,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 4,
+            "occupied_types": [
+              "010"
+            ],
+            "sets": {
+              "A": [],
+              "B": [
+                2
+              ],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 7,
+          "first_refutation_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [
+            "E(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 7,
+          "first_refutation_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [
+            "E(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Disamis/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 48,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contrary/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)"
+          ]
+        },
+        {
+          "id": "Disamis/contradictory/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "O(B,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 160,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 32,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Datisi/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "O(A,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 48,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 64,
+            "occupied_types": [
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                6
+              ],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Felapton/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 32,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 64,
+            "occupied_types": [
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                6
+              ],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 7,
+          "first_refutation_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [
+            "A(A,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Felapton/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 7,
+          "first_refutation_countermodel": {
+            "mask": 1,
+            "occupied_types": [
+              "000"
+            ],
+            "sets": {
+              "A": [],
+              "B": [],
+              "C": []
+            }
+          },
+          "valid_target_pair_forms": [
+            "E(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Bocardo/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 48,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contrary/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "A(A,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contradictory/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "O(B,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 160,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 32,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "I(A,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 15,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        }
+      ]
+    },
+    "C_nonempty": {
+      "model_count": 240,
+      "original_moods": {
+        "Darapti": {
+          "background_count": 16,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Disamis": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Datisi": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Felapton": {
+          "background_count": 16,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Bocardo": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Ferison": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        }
+      },
+      "cases": [
+        {
+          "id": "Darapti/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Darapti/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Disamis/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contrary/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)"
+          ]
+        },
+        {
+          "id": "Disamis/contradictory/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "O(B,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 160,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Datisi/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "O(A,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Felapton/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Felapton/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        },
+        {
+          "id": "Bocardo/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contrary/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Bocardo/contradictory/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "O(B,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 160,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "I(A,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)"
+          ]
+        }
+      ]
+    },
+    "all_nonempty": {
+      "model_count": 218,
+      "original_moods": {
+        "Darapti": {
+          "background_count": 16,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Disamis": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Datisi": {
+          "background_count": 32,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Felapton": {
+          "background_count": 12,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Bocardo": {
+          "background_count": 28,
+          "countermodels": 0,
+          "first_countermodel": null
+        },
+        "Ferison": {
+          "background_count": 24,
+          "countermodels": 0,
+          "first_countermodel": null
+        }
+      },
+      "cases": [
+        {
+          "id": "Darapti/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 36,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Darapti/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)",
+            "O(C,A)"
+          ]
+        },
+        {
+          "id": "Darapti/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)",
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Disamis/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 36,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contrary/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Disamis/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "I(A,C)",
+          "replacement": "E(A,B)",
+          "result": "E(A,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(A,C)",
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,A)",
+            "O(C,A)"
+          ]
+        },
+        {
+          "id": "Disamis/contradictory/retain_AC",
+          "retained": "I(A,C)",
+          "target": "A(B,C)",
+          "replacement": "E(A,B)",
+          "result": "O(B,C)",
+          "background_count": 24,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 152,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contrary/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "O(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 132,
+            "occupied_types": [
+              "010",
+              "111"
+            ],
+            "sets": {
+              "A": [
+                7
+              ],
+              "B": [
+                2,
+                7
+              ],
+              "C": [
+                7
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Datisi/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "A(A,C)",
+          "replacement": "E(A,B)",
+          "result": "O(A,C)",
+          "background_count": 24,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(A,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Datisi/contradictory/retain_AC",
+          "retained": "A(A,C)",
+          "target": "I(B,C)",
+          "replacement": "E(A,B)",
+          "result": "E(B,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)",
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Felapton/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 8,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Felapton/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Felapton/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)",
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Bocardo/contrary/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 40,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contrary/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 144,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 24,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Bocardo/contradictory/retain_BC",
+          "retained": "A(B,C)",
+          "target": "O(A,C)",
+          "replacement": "A(A,B)",
+          "result": "A(A,C)",
+          "background_count": 8,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "A(A,C)",
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Bocardo/contradictory/retain_AC",
+          "retained": "O(A,C)",
+          "target": "A(B,C)",
+          "replacement": "A(A,B)",
+          "result": "O(B,C)",
+          "background_count": 24,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 160,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": []
+        },
+        {
+          "id": "Ferison/contrary/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "I(A,B)",
+          "result": null,
+          "background_count": 24,
+          "result_countermodels": null,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 16,
+          "first_refutation_countermodel": {
+            "mask": 72,
+            "occupied_types": [
+              "011",
+              "110"
+            ],
+            "sets": {
+              "A": [
+                6
+              ],
+              "B": [
+                3,
+                6
+              ],
+              "C": [
+                3
+              ]
+            }
+          },
+          "valid_target_pair_forms": [],
+          "valid_reverse_pair_forms": [
+            "O(C,B)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_BC",
+          "retained": "I(B,C)",
+          "target": "E(A,C)",
+          "replacement": "A(A,B)",
+          "result": "I(A,C)",
+          "background_count": 32,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "I(A,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "I(C,A)"
+          ]
+        },
+        {
+          "id": "Ferison/contradictory/retain_AC",
+          "retained": "E(A,C)",
+          "target": "I(B,C)",
+          "replacement": "A(A,B)",
+          "result": "E(B,C)",
+          "background_count": 4,
+          "result_countermodels": 0,
+          "first_result_countermodel": null,
+          "refutation_countermodels": 0,
+          "first_refutation_countermodel": null,
+          "valid_target_pair_forms": [
+            "E(B,C)",
+            "O(B,C)"
+          ],
+          "valid_reverse_pair_forms": [
+            "E(C,B)",
+            "O(C,B)"
+          ]
+        }
+      ]
+    }
+  }
+}
