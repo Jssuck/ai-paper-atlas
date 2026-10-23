@@ -1,0 +1,21 @@
+COMMAND: python3  -m unittest -v test_model
+test_all_chain (test_model.ModelTests.test_all_chain) ... ok
+test_coverage_detects_failure (test_model.ModelTests.test_coverage_detects_failure) ... ok
+test_empty_b (test_model.ModelTests.test_empty_b) ... ok
+test_empty_c_all_not_some (test_model.ModelTests.test_empty_c_all_not_some) ... ok
+test_empty_family_vacuity (test_model.ModelTests.test_empty_family_vacuity) ... ok
+test_generators_materialized (test_model.ModelTests.test_generators_materialized) ... ok
+test_input_not_mutated_or_aliased (test_model.ModelTests.test_input_not_mutated_or_aliased) ... ok
+test_invalid_c (test_model.ModelTests.test_invalid_c) ... ok
+test_invalid_model_values (test_model.ModelTests.test_invalid_model_values) ... ok
+test_missing_coverage_counterexample (test_model.ModelTests.test_missing_coverage_counterexample) ... ok
+test_powerset (test_model.ModelTests.test_powerset) ... ok
+test_some_major_insufficient_even_all_minor (test_model.ModelTests.test_some_major_insufficient_even_all_minor) ... ok
+test_some_not_all (test_model.ModelTests.test_some_not_all) ... ok
+test_strong_and_weak (test_model.ModelTests.test_strong_and_weak) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK
+EXIT_CODE: 0

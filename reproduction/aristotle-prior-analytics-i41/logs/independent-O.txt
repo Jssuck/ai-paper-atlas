@@ -1,0 +1,18 @@
+Command: python3 -O independent_audit.py
+test_all_powerset_covers (__main__.IndependentTests.test_all_powerset_covers) ... ok
+test_duplicates_do_not_change_semantics (__main__.IndependentTests.test_duplicates_do_not_change_semantics) ... ok
+test_empty_b_and_family (__main__.IndependentTests.test_empty_b_and_family) ... ok
+test_freeze_not_alias (__main__.IndependentTests.test_freeze_not_alias) ... ok
+test_generators_once_and_repeat (__main__.IndependentTests.test_generators_once_and_repeat) ... ok
+test_noncontiguous_labels (__main__.IndependentTests.test_noncontiguous_labels) ... ok
+test_noniterables (__main__.IndependentTests.test_noniterables) ... ok
+test_outside_domain (__main__.IndependentTests.test_outside_domain) ... ok
+test_reject_invalid_elements_every_position (__main__.IndependentTests.test_reject_invalid_elements_every_position) ... ok
+test_zero_witness (__main__.IndependentTests.test_zero_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK
+{"all_chain_cases": 84, "covered_models": 10884, "family_models": 16656, "some_chain_cases": 103, "some_not_all_cases": 32, "triples": 584, "universal_A_coverage_checks": 2120, "weak_without_strong": 2602}
+Exit code: 0

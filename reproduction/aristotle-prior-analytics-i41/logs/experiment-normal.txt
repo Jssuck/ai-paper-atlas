@@ -1,0 +1,79 @@
+COMMAND: python3  run_experiment.py
+{
+  "scope": "all A,B,C subsets and all families of subsets, nonempty domains n=1,2,3",
+  "per_size": [
+    {
+      "n": 1,
+      "family_models": 16,
+      "weak_without_strong": 2,
+      "covered_models": 12,
+      "triples": 8,
+      "all_chain_cases": 4,
+      "some_chain_cases": 1,
+      "some_not_all_cases": 0
+    },
+    {
+      "n": 2,
+      "family_models": 256,
+      "weak_without_strong": 42,
+      "covered_models": 168,
+      "triples": 64,
+      "all_chain_cases": 16,
+      "some_chain_cases": 11,
+      "some_not_all_cases": 2
+    },
+    {
+      "n": 3,
+      "family_models": 16384,
+      "weak_without_strong": 2558,
+      "covered_models": 10704,
+      "triples": 512,
+      "all_chain_cases": 64,
+      "some_chain_cases": 91,
+      "some_not_all_cases": 30
+    }
+  ],
+  "totals": {
+    "family_models": 16656,
+    "weak_without_strong": 2602,
+    "covered_models": 10884,
+    "triples": 584,
+    "all_chain_cases": 84,
+    "some_chain_cases": 103,
+    "some_not_all_cases": 32
+  },
+  "counterexample": {
+    "D": [
+      0,
+      1,
+      2
+    ],
+    "A": [
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "F": [
+      [
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "eligible_union": [
+      0
+    ],
+    "C": [
+      1,
+      2
+    ],
+    "weak": true,
+    "strong": false
+  },
+  "limit": "Finite implementation check only; no proof of a general theorem or ancient semantics."
+}
+EXIT_CODE: 0
