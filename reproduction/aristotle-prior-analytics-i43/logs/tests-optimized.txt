@@ -1,0 +1,24 @@
+Command: python3 -O -m unittest -v test_model.py
+test_actual_counterexample (test_model.Tests.test_actual_counterexample) ... ok
+test_counterexample_subject_required (test_model.Tests.test_counterexample_subject_required) ... ok
+test_duplicates_do_not_complete (test_model.Tests.test_duplicates_do_not_complete) ... ok
+test_empty_universe (test_model.Tests.test_empty_universe) ... ok
+test_full_and_components (test_model.Tests.test_full_and_components) ... ok
+test_generator_certificates (test_model.Tests.test_generator_certificates) ... ok
+test_invalid_certificate_not_short_circuited (test_model.Tests.test_invalid_certificate_not_short_circuited) ... ok
+test_invalid_formula_and_model (test_model.Tests.test_invalid_formula_and_model) ... ok
+test_matching_goal (test_model.Tests.test_matching_goal) ... ok
+test_missing_liquid (test_model.Tests.test_missing_liquid) ... ok
+test_negated_conjunct_as_whole (test_model.Tests.test_negated_conjunct_as_whole) ... ok
+test_no_disjunction_projection (test_model.Tests.test_no_disjunction_projection) ... ok
+test_no_negation_projection (test_model.Tests.test_no_negation_projection) ... ok
+test_or_and_negation_countermodels (test_model.Tests.test_or_and_negation_countermodels) ... ok
+test_positive_projection (test_model.Tests.test_positive_projection) ... ok
+test_reverse_missing (test_model.Tests.test_reverse_missing) ... ok
+test_unknown_name_not_short_circuited (test_model.Tests.test_unknown_name_not_short_circuited) ... ok
+test_vacuity (test_model.Tests.test_vacuity) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

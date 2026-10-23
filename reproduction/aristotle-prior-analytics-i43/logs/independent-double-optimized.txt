@@ -1,0 +1,18 @@
+Command: python3 -OO independent_check.py
+test_and_does_not_implement_empty_conjunction (__main__.IndependentTests.test_and_does_not_implement_empty_conjunction) ... ok
+test_counts_and_oracle (__main__.IndependentTests.test_counts_and_oracle) ... ok
+test_empty_domain (__main__.IndependentTests.test_empty_domain) ... ok
+test_empty_evidence_invalid_goal (__main__.IndependentTests.test_empty_evidence_invalid_goal) ... ok
+test_late_invalid_evidence (__main__.IndependentTests.test_late_invalid_evidence) ... ok
+test_mismatch_unknown_requested_name (__main__.IndependentTests.test_mismatch_unknown_requested_name) ... ok
+test_missing_and_duplicate (__main__.IndependentTests.test_missing_and_duplicate) ... ok
+test_projection_boundaries (__main__.IndependentTests.test_projection_boundaries) ... ok
+test_same_witness (__main__.IndependentTests.test_same_witness) ... ok
+test_syntax_is_not_equivalence (__main__.IndependentTests.test_syntax_is_not_equivalence) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.107s
+
+OK
+{"background_reduction": 1555, "inclusion_not_definition": 440, "local_not_whole": 774, "models": 4681}
+Independent bit-mask oracle checked each author model. Finite tests are not a general proof.

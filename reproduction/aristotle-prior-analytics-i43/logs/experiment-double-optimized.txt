@@ -1,0 +1,12 @@
+Command: python3 -OO run_experiment.py
+{
+  "background_reduction": 1555,
+  "component_certificates": 4681,
+  "conjunction_equivalence": 4681,
+  "counterexample_equivalence": 4681,
+  "definition_two_directions": 4681,
+  "inclusion_not_definition": 440,
+  "local_not_whole": 774,
+  "models": 4681
+}
+All finite checks passed. No general theorem or unique historical semantics is established by this run.
