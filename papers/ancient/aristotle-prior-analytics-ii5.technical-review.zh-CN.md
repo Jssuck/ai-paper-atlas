@@ -30,7 +30,11 @@
 
 这不是4680个模型各证明一个古代定理，也不是通用证明助手。作者依赖函数只遍历依赖边，不验证任意推理边的逻辑正确性；正文与复现README均清楚披露这一限制。
 
-## 4. 内容绑定
+## 4. 公式显示修订复核
+
+远端显示核验发现集合花括号需避免Markdown吞转义。正文34对集合分隔符统一改为LaTeX `\lbrace` / `\rbrace`。本次将修改反向还原后与原绑定SHA逐字验证一致，确认仅显示语法变更，无集合元素、命题或证明修改；因此未重跑数学枚举。正文SHA已更新，实际显示终验由发布核验负责。
+
+## 5. 内容绑定
 
 以下SHA-256标识本地被审内容，不是Git提交号。修改后需重新检查相关结论并重绑；本报告不宣布已公开发布。独立结果不依赖公开进度记录中的统计字段。
 
@@ -40,7 +44,7 @@
 
 |仓库相对路径|SHA-256|
 |---|---|
-|`papers/ancient/aristotle-prior-analytics-ii5.zh-CN.md`|`f2f81471dfec6bc9f1b7bf179d0eb7bdfe11d472dd5cb4c247b5043c937b1b99`|
+|`papers/ancient/aristotle-prior-analytics-ii5.zh-CN.md`|`62fa6e59cfbc2a907fb099ef3bf0d4e591b26ce23aa46393f4153ac0e7a9aac3`|
 |`papers/ancient/aristotle-prior-analytics-ii5.sources.zh-CN.md`|`a45ddbd45c61d3e7a7d6dd88694d5347ce9692364676f8948a8cc3881ee90341`|
 |`README.md`|`9b91f1f38209948d2e4f65b589e50f50c7934b2685624e182c2a69b07020ee75`|
 |`reproduction/aristotle-prior-analytics-ii5/README.md`|`665a77641305fcec311831ad5cedb775133d8a19a6de9b36358de23c22130866`|

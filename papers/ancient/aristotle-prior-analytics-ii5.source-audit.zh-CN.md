@@ -24,7 +24,7 @@ Jenkinson注23、24的性质分别是澄清表达的建议和随Buhle的读法�
 
 ## 3. 发现与修订
 
-发现正文第7.1节用“上一节”回指补集桥，但该桥位于第5节。已改为明确的“第5节”，并重读确认。未发现仍待修正的章界、关键版本取舍、原文/现代重构混淆或全称/特称解释错误。
+发现正文第7.1节用“上一节”回指补集桥，但该桥位于第5节。已改为明确的“第5节”，并重读确认。发布显示检查后，正文34对集合花括号改用等价的LaTeX命令，以避免Markdown吞掉括号。审查者将其逆替换后核对原通过版本SHA-256完全相同，确认没有语义或来源内容改动，并更新下列正文绑定；实际显示仍由发布核验负责。未发现仍待修正的章界、关键版本取舍、原文/现代重构混淆或全称/特称解释错误。
 
 根目录本篇说明与正文均限定为古代前史补读，不称现代AI论文或第一篇AI论文，不将后续II.6、整书或穷尽史料计为完成。后世编辑译者没有冒充古代前驱，未证实的思想传承也未写作确定影响链。复现说明明确不裁定古代唯一语义，其数字结果须由另一份技术核验承担。
 
@@ -34,7 +34,7 @@ Jenkinson注23、24的性质分别是澄清表达的建议和随Buhle的读法�
 
 |路径|SHA-256|
 |---|---|
-|`papers/ancient/aristotle-prior-analytics-ii5.zh-CN.md`|`f2f81471dfec6bc9f1b7bf179d0eb7bdfe11d472dd5cb4c247b5043c937b1b99`|
+|`papers/ancient/aristotle-prior-analytics-ii5.zh-CN.md`|`62fa6e59cfbc2a907fb099ef3bf0d4e591b26ce23aa46393f4153ac0e7a9aac3`|
 |`papers/ancient/aristotle-prior-analytics-ii5.sources.zh-CN.md`|`a45ddbd45c61d3e7a7d6dd88694d5347ce9692364676f8948a8cc3881ee90341`|
 |`README.md`|`9b91f1f38209948d2e4f65b589e50f50c7934b2685624e182c2a69b07020ee75`|
 |`reproduction/aristotle-prior-analytics-ii5/README.md`|`665a77641305fcec311831ad5cedb775133d8a19a6de9b36358de23c22130866`|
