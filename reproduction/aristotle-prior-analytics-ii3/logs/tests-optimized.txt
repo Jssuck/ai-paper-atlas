@@ -1,0 +1,28 @@
+Command: python -O test_model.py
+test_all_rules_valid (__main__.Tests.test_all_rules_valid) ... ok
+test_argument_direction (__main__.Tests.test_argument_direction) ... ok
+test_bool_object_rejected (__main__.Tests.test_bool_object_rejected) ... ok
+test_both_false_true_conclusion (__main__.Tests.test_both_false_true_conclusion) ... ok
+test_empty_subject (__main__.Tests.test_empty_subject) ... ok
+test_filter_type (__main__.Tests.test_filter_type) ... ok
+test_four_kinds (__main__.Tests.test_four_kinds) ... ok
+test_invalid_kind_and_mood (__main__.Tests.test_invalid_kind_and_mood) ... ok
+test_invalid_model (__main__.Tests.test_invalid_model) ... ok
+test_invalid_types (__main__.Tests.test_invalid_types) ... ok
+test_jenkinson_literal_does_not_give_two_false (__main__.Tests.test_jenkinson_literal_does_not_give_two_false) ... ok
+test_minimal_witnesses (__main__.Tests.test_minimal_witnesses) ... ok
+test_particular_both_false (__main__.Tests.test_particular_both_false) ... ok
+test_particular_full_grid (__main__.Tests.test_particular_full_grid) ... ok
+test_particular_has_no_partial_state (__main__.Tests.test_particular_has_no_partial_state) ... ok
+test_partly_false (__main__.Tests.test_partly_false) ... ok
+test_true_conclusion_not_true_premises (__main__.Tests.test_true_conclusion_not_true_premises) ... ok
+test_type_counts (__main__.Tests.test_type_counts) ... ok
+test_universal_full_grid (__main__.Tests.test_universal_full_grid) ... ok
+test_unknown_terms (__main__.Tests.test_unknown_terms) ... ok
+test_wholly_false (__main__.Tests.test_wholly_false) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.032s
+
+OK
+exit_code=0

@@ -1,0 +1,2299 @@
+{
+  "all_terms_nonempty": {
+    "models": 218,
+    "mood_evaluations": 872,
+    "rows": {
+      "Baroco": {
+        "partly_false|false|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "true|false|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "true|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "wholly_false|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              4
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 26,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3,
+              5
+            ],
+            "universe": [
+              3,
+              5
+            ]
+          }
+        }
+      },
+      "Camestres": {
+        "partly_false|partly_false|F": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              3,
+              7
+            ],
+            "S": [
+              3,
+              7
+            ],
+            "universe": [
+              3,
+              7
+            ]
+          }
+        },
+        "partly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "true|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        },
+        "true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5,
+              6
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "true|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "true|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "wholly_false|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3,
+              5
+            ],
+            "universe": [
+              3,
+              5
+            ]
+          }
+        },
+        "wholly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              4
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 2,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              4
+            ]
+          }
+        },
+        "wholly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        }
+      },
+      "Cesare": {
+        "partly_false|partly_false|F": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              3,
+              7
+            ],
+            "S": [
+              3,
+              7
+            ],
+            "universe": [
+              3,
+              7
+            ]
+          }
+        },
+        "partly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "true|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3,
+              5
+            ],
+            "universe": [
+              3,
+              5
+            ]
+          }
+        },
+        "true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "true|wholly_false|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              4
+            ]
+          }
+        },
+        "true|wholly_false|T": {
+          "count": 2,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              4
+            ]
+          }
+        },
+        "wholly_false|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        },
+        "wholly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5,
+              6
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "wholly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        }
+      },
+      "Festino": {
+        "partly_false|false|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              2,
+              7
+            ]
+          }
+        },
+        "true|false|F": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              4
+            ]
+          }
+        },
+        "true|false|T": {
+          "count": 6,
+          "smallest_type_witness": {
+            "M": [
+              4
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              4
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "wholly_false|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 32,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        }
+      }
+    }
+  },
+  "semantics": "modern unary sets; predicate-subject order; no probability claims",
+  "unrestricted": {
+    "models": 255,
+    "mood_evaluations": 1020,
+    "rows": {
+      "Baroco": {
+        "partly_false|false|F": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [],
+            "universe": [
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "true|false|F": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [],
+            "universe": [
+              6
+            ]
+          }
+        },
+        "true|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "vacuous_true|false|F": {
+          "count": 3,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [],
+            "universe": [
+              0
+            ]
+          }
+        },
+        "vacuous_true|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              5
+            ],
+            "universe": [
+              5
+            ]
+          }
+        },
+        "vacuous_true|true|T": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [
+              1
+            ],
+            "universe": [
+              1
+            ]
+          }
+        },
+        "wholly_false|false|F": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [],
+            "universe": [
+              2
+            ]
+          }
+        },
+        "wholly_false|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 32,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2
+            ]
+          }
+        }
+      },
+      "Camestres": {
+        "partly_false|partly_false|F": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              3,
+              7
+            ],
+            "S": [
+              3,
+              7
+            ],
+            "universe": [
+              3,
+              7
+            ]
+          }
+        },
+        "partly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [],
+            "universe": [
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "true|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        },
+        "true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5,
+              6
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "true|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [],
+            "universe": [
+              6
+            ]
+          }
+        },
+        "true|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "true|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "vacuous_true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5
+            ]
+          }
+        },
+        "vacuous_true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [
+              1
+            ],
+            "universe": [
+              1
+            ]
+          }
+        },
+        "vacuous_true|vacuous_true|T": {
+          "count": 3,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [],
+            "universe": [
+              0
+            ]
+          }
+        },
+        "vacuous_true|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              5
+            ],
+            "universe": [
+              5
+            ]
+          }
+        },
+        "wholly_false|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3,
+              5
+            ],
+            "universe": [
+              3,
+              5
+            ]
+          }
+        },
+        "wholly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2
+            ]
+          }
+        },
+        "wholly_false|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [],
+            "universe": [
+              2
+            ]
+          }
+        },
+        "wholly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        }
+      },
+      "Cesare": {
+        "partly_false|partly_false|F": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              3,
+              7
+            ],
+            "S": [
+              3,
+              7
+            ],
+            "universe": [
+              3,
+              7
+            ]
+          }
+        },
+        "partly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5,
+              6
+            ]
+          }
+        },
+        "partly_false|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [],
+            "universe": [
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              3,
+              6
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3,
+              6
+            ]
+          }
+        },
+        "partly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "true|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              3
+            ],
+            "S": [
+              3,
+              5
+            ],
+            "universe": [
+              3,
+              5
+            ]
+          }
+        },
+        "true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              2,
+              5
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "true|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [],
+            "universe": [
+              2
+            ]
+          }
+        },
+        "true|wholly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              3
+            ],
+            "S": [
+              3
+            ],
+            "universe": [
+              3
+            ]
+          }
+        },
+        "true|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2
+            ]
+          }
+        },
+        "vacuous_true|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5
+            ]
+          }
+        },
+        "vacuous_true|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              5
+            ],
+            "universe": [
+              5
+            ]
+          }
+        },
+        "vacuous_true|vacuous_true|T": {
+          "count": 3,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [],
+            "universe": [
+              0
+            ]
+          }
+        },
+        "vacuous_true|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [
+              1
+            ],
+            "universe": [
+              1
+            ]
+          }
+        },
+        "wholly_false|partly_false|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        },
+        "wholly_false|partly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1,
+              5
+            ],
+            "universe": [
+              1,
+              5,
+              6
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 16,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              5,
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              5,
+              6
+            ]
+          }
+        },
+        "wholly_false|vacuous_true|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [],
+            "universe": [
+              6
+            ]
+          }
+        },
+        "wholly_false|wholly_false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        }
+      },
+      "Festino": {
+        "partly_false|false|F": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [],
+            "universe": [
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              2,
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2,
+              6
+            ]
+          }
+        },
+        "partly_false|true|F": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              2,
+              7
+            ]
+          }
+        },
+        "partly_false|true|T": {
+          "count": 96,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              2,
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              2,
+              7
+            ]
+          }
+        },
+        "true|false|F": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [],
+            "universe": [
+              2
+            ]
+          }
+        },
+        "true|false|T": {
+          "count": 12,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [
+              2
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              2
+            ]
+          }
+        },
+        "true|true|T": {
+          "count": 24,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [
+              2
+            ],
+            "S": [
+              5
+            ],
+            "universe": [
+              2,
+              5
+            ]
+          }
+        },
+        "vacuous_true|false|F": {
+          "count": 3,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [],
+            "universe": [
+              0
+            ]
+          }
+        },
+        "vacuous_true|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [],
+            "P": [],
+            "S": [
+              1
+            ],
+            "universe": [
+              1
+            ]
+          }
+        },
+        "vacuous_true|true|T": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              5
+            ],
+            "P": [],
+            "S": [
+              5
+            ],
+            "universe": [
+              5
+            ]
+          }
+        },
+        "wholly_false|false|F": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [],
+            "universe": [
+              6
+            ]
+          }
+        },
+        "wholly_false|false|T": {
+          "count": 4,
+          "smallest_type_witness": {
+            "M": [
+              6
+            ],
+            "P": [
+              6
+            ],
+            "S": [
+              1
+            ],
+            "universe": [
+              1,
+              6
+            ]
+          }
+        },
+        "wholly_false|true|F": {
+          "count": 8,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              7
+            ],
+            "universe": [
+              7
+            ]
+          }
+        },
+        "wholly_false|true|T": {
+          "count": 32,
+          "smallest_type_witness": {
+            "M": [
+              7
+            ],
+            "P": [
+              7
+            ],
+            "S": [
+              1,
+              7
+            ],
+            "universe": [
+              1,
+              7
+            ]
+          }
+        }
+      }
+    }
+  }
+}
