@@ -1,0 +1,26 @@
+test_A_direction (test_model.ModelTests.test_A_direction) ... ok
+test_E (test_model.ModelTests.test_E) ... ok
+test_I (test_model.ModelTests.test_I) ... ok
+test_O (test_model.ModelTests.test_O) ... ok
+test_all_sound (test_model.ModelTests.test_all_sound) ... ok
+test_bad_syntax (test_model.ModelTests.test_bad_syntax) ... ok
+test_both_wholly_false_true (test_model.ModelTests.test_both_wholly_false_true) ... ok
+test_distinct_existential_witnesses (test_model.ModelTests.test_distinct_existential_witnesses) ... ok
+test_empty_C_exception (test_model.ModelTests.test_empty_C_exception) ... ok
+test_empty_subject_not_wholly_false (test_model.ModelTests.test_empty_subject_not_wholly_false) ... ok
+test_false_particular_minor_true_conclusion (test_model.ModelTests.test_false_particular_minor_true_conclusion) ... ok
+test_full_experiment (test_model.ModelTests.test_full_experiment) ... ok
+test_input_types (test_model.ModelTests.test_input_types) ... ok
+test_mixed_is_partly_false_for_both_universals (test_model.ModelTests.test_mixed_is_partly_false_for_both_universals) ... ok
+test_no_empty_universe (test_model.ModelTests.test_no_empty_universe) ... ok
+test_outside_universe (test_model.ModelTests.test_outside_universe) ... ok
+test_true_universal (test_model.ModelTests.test_true_universal) ... ok
+test_type_models_unique (test_model.ModelTests.test_type_models_unique) ... ok
+test_universal_major_restriction (test_model.ModelTests.test_universal_major_restriction) ... ok
+test_wholly_false_A (test_model.ModelTests.test_wholly_false_A) ... ok
+test_wholly_false_E (test_model.ModelTests.test_wholly_false_E) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.093s
+
+OK

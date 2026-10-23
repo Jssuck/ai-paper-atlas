@@ -1,0 +1,424 @@
+{
+  "empty_terms_allowed": {
+    "models": 255,
+    "mood_evaluations": 1020,
+    "moods": {
+      "Barbara": {
+        "classification_counts": {
+          "partly_false|partly_false|False": 88,
+          "partly_false|partly_false|True": 8,
+          "partly_false|true|False": 24,
+          "partly_false|true|True": 8,
+          "partly_false|vacuous_true|True": 4,
+          "partly_false|wholly_false|False": 8,
+          "partly_false|wholly_false|True": 4,
+          "true|partly_false|False": 16,
+          "true|partly_false|True": 8,
+          "true|true|True": 8,
+          "true|vacuous_true|True": 4,
+          "true|wholly_false|False": 8,
+          "true|wholly_false|True": 4,
+          "vacuous_true|vacuous_true|True": 3,
+          "vacuous_true|wholly_false|False": 8,
+          "vacuous_true|wholly_false|True": 4,
+          "wholly_false|partly_false|False": 24,
+          "wholly_false|true|False": 8,
+          "wholly_false|vacuous_true|True": 4,
+          "wholly_false|wholly_false|False": 8,
+          "wholly_false|wholly_false|True": 4
+        },
+        "truth_signatures": {
+          "FFF": 128,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 16,
+          "TFF": 32,
+          "TFT": 16,
+          "TTT": 15
+        }
+      },
+      "Celarent": {
+        "classification_counts": {
+          "partly_false|partly_false|False": 88,
+          "partly_false|partly_false|True": 8,
+          "partly_false|true|False": 24,
+          "partly_false|true|True": 8,
+          "partly_false|vacuous_true|True": 4,
+          "partly_false|wholly_false|False": 8,
+          "partly_false|wholly_false|True": 4,
+          "true|partly_false|False": 16,
+          "true|partly_false|True": 8,
+          "true|true|True": 8,
+          "true|vacuous_true|True": 4,
+          "true|wholly_false|False": 8,
+          "true|wholly_false|True": 4,
+          "vacuous_true|vacuous_true|True": 3,
+          "vacuous_true|wholly_false|False": 8,
+          "vacuous_true|wholly_false|True": 4,
+          "wholly_false|partly_false|False": 24,
+          "wholly_false|true|False": 8,
+          "wholly_false|vacuous_true|True": 4,
+          "wholly_false|wholly_false|False": 8,
+          "wholly_false|wholly_false|True": 4
+        },
+        "truth_signatures": {
+          "FFF": 128,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 16,
+          "TFF": 32,
+          "TFT": 16,
+          "TTT": 15
+        }
+      },
+      "Darii": {
+        "classification_counts": {
+          "partly_false|false|False": 8,
+          "partly_false|false|True": 8,
+          "partly_false|true|False": 16,
+          "partly_false|true|True": 112,
+          "true|false|False": 8,
+          "true|false|True": 8,
+          "true|true|True": 32,
+          "vacuous_true|false|False": 7,
+          "vacuous_true|false|True": 8,
+          "wholly_false|false|False": 8,
+          "wholly_false|false|True": 8,
+          "wholly_false|true|False": 16,
+          "wholly_false|true|True": 16
+        },
+        "truth_signatures": {
+          "FFF": 16,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 128,
+          "TFF": 15,
+          "TFT": 16,
+          "TTT": 32
+        }
+      },
+      "Ferio": {
+        "classification_counts": {
+          "partly_false|false|False": 8,
+          "partly_false|false|True": 8,
+          "partly_false|true|False": 16,
+          "partly_false|true|True": 112,
+          "true|false|False": 8,
+          "true|false|True": 8,
+          "true|true|True": 32,
+          "vacuous_true|false|False": 7,
+          "vacuous_true|false|True": 8,
+          "wholly_false|false|False": 8,
+          "wholly_false|false|True": 8,
+          "wholly_false|true|False": 16,
+          "wholly_false|true|True": 16
+        },
+        "truth_signatures": {
+          "FFF": 16,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 128,
+          "TFF": 15,
+          "TFT": 16,
+          "TTT": 32
+        }
+      }
+    }
+  },
+  "examples": {
+    "Darii_distinct_witnesses": {
+      "A": [
+        0
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "major": "wholly_false",
+      "minor": "true",
+      "mood": "Darii",
+      "signature": "FTT"
+    },
+    "Darii_false_minor": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        1
+      ],
+      "major": "true",
+      "minor": "false",
+      "mood": "Darii",
+      "signature": "TFT"
+    },
+    "Ferio_distinct_witnesses": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "major": "wholly_false",
+      "minor": "true",
+      "mood": "Ferio",
+      "signature": "FTT"
+    },
+    "Ferio_false_minor": {
+      "A": [
+        2
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        1
+      ],
+      "major": "true",
+      "minor": "false",
+      "mood": "Ferio",
+      "signature": "TFT"
+    },
+    "both_wholly_false_Barbara": {
+      "A": [
+        0
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        0
+      ],
+      "major": "wholly_false",
+      "minor": "wholly_false",
+      "mood": "Barbara",
+      "signature": "FFT"
+    },
+    "both_wholly_false_Celarent": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        0
+      ],
+      "major": "wholly_false",
+      "minor": "wholly_false",
+      "mood": "Celarent",
+      "signature": "FFT"
+    },
+    "empty_C_Barbara_exception": {
+      "A": [
+        0
+      ],
+      "B": [
+        1
+      ],
+      "C": [],
+      "major": "wholly_false",
+      "minor": "vacuous_true",
+      "mood": "Barbara",
+      "signature": "FTT"
+    },
+    "empty_C_Celarent_exception": {
+      "A": [
+        0
+      ],
+      "B": [
+        0
+      ],
+      "C": [],
+      "major": "wholly_false",
+      "minor": "vacuous_true",
+      "mood": "Celarent",
+      "signature": "FTT"
+    },
+    "major_partly_false_Barbara": {
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "major": "partly_false",
+      "minor": "true",
+      "mood": "Barbara",
+      "signature": "FTT"
+    },
+    "major_partly_false_Celarent": {
+      "A": [
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "major": "partly_false",
+      "minor": "true",
+      "mood": "Celarent",
+      "signature": "FTT"
+    },
+    "minor_partly_false_Barbara": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "major": "true",
+      "minor": "partly_false",
+      "mood": "Barbara",
+      "signature": "TFT"
+    },
+    "minor_wholly_false_Barbara": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        1
+      ],
+      "major": "true",
+      "minor": "wholly_false",
+      "mood": "Barbara",
+      "signature": "TFT"
+    }
+  },
+  "nonempty_BC": {
+    "models": 228,
+    "mood_evaluations": 912,
+    "moods": {
+      "Barbara": {
+        "classification_counts": {
+          "partly_false|partly_false|False": 88,
+          "partly_false|partly_false|True": 8,
+          "partly_false|true|False": 24,
+          "partly_false|true|True": 8,
+          "partly_false|wholly_false|False": 8,
+          "partly_false|wholly_false|True": 4,
+          "true|partly_false|False": 16,
+          "true|partly_false|True": 8,
+          "true|true|True": 8,
+          "true|wholly_false|False": 8,
+          "true|wholly_false|True": 4,
+          "wholly_false|partly_false|False": 24,
+          "wholly_false|true|False": 8,
+          "wholly_false|wholly_false|False": 8,
+          "wholly_false|wholly_false|True": 4
+        },
+        "truth_signatures": {
+          "FFF": 128,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 8,
+          "TFF": 24,
+          "TFT": 12,
+          "TTT": 8
+        }
+      },
+      "Celarent": {
+        "classification_counts": {
+          "partly_false|partly_false|False": 88,
+          "partly_false|partly_false|True": 8,
+          "partly_false|true|False": 24,
+          "partly_false|true|True": 8,
+          "partly_false|wholly_false|False": 8,
+          "partly_false|wholly_false|True": 4,
+          "true|partly_false|False": 16,
+          "true|partly_false|True": 8,
+          "true|true|True": 8,
+          "true|wholly_false|False": 8,
+          "true|wholly_false|True": 4,
+          "wholly_false|partly_false|False": 24,
+          "wholly_false|true|False": 8,
+          "wholly_false|wholly_false|False": 8,
+          "wholly_false|wholly_false|True": 4
+        },
+        "truth_signatures": {
+          "FFF": 128,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 8,
+          "TFF": 24,
+          "TFT": 12,
+          "TTT": 8
+        }
+      },
+      "Darii": {
+        "classification_counts": {
+          "partly_false|false|False": 4,
+          "partly_false|false|True": 8,
+          "partly_false|true|False": 16,
+          "partly_false|true|True": 112,
+          "true|false|False": 4,
+          "true|false|True": 8,
+          "true|true|True": 32,
+          "wholly_false|false|False": 4,
+          "wholly_false|false|True": 8,
+          "wholly_false|true|False": 16,
+          "wholly_false|true|True": 16
+        },
+        "truth_signatures": {
+          "FFF": 8,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 128,
+          "TFF": 4,
+          "TFT": 8,
+          "TTT": 32
+        }
+      },
+      "Ferio": {
+        "classification_counts": {
+          "partly_false|false|False": 4,
+          "partly_false|false|True": 8,
+          "partly_false|true|False": 16,
+          "partly_false|true|True": 112,
+          "true|false|False": 4,
+          "true|false|True": 8,
+          "true|true|True": 32,
+          "wholly_false|false|False": 4,
+          "wholly_false|false|True": 8,
+          "wholly_false|true|False": 16,
+          "wholly_false|true|True": 16
+        },
+        "truth_signatures": {
+          "FFF": 8,
+          "FFT": 16,
+          "FTF": 32,
+          "FTT": 128,
+          "TFF": 4,
+          "TFT": 8,
+          "TTT": 32
+        }
+      }
+    }
+  }
+}

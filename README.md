@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[II.1：更多结论与不同证明来源](papers/ancient/aristotle-prior-analytics-ii1.zh-CN.md)，完整52b36–53b3，附换位的存在条件、子类见证反例、证明依赖和16题答案及独立核验的教学复现。
+最新补读：[II.2：假前提与真结论](papers/ancient/aristotle-prior-analytics-ii2.zh-CN.md)，完整53b4–55b2，附全假/部分假、存在条件、不同见证、16题答案和独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -59,6 +59,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.45精读](papers/ancient/aristotle-prior-analytics-i45.zh-CN.md) | AI推理前史补读：换位保真、结论方向与归约方法的边界 | 深读v1 · 完整50b5–51b4及有限证书核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.46精读](papers/ancient/aristotle-prior-analytics-i46.zh-CN.md) | AI推理前史补读：否定作用域、承载条件与补集反序 | 深读v1 · 完整51b5–52b35及有限语义核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇II.1精读](papers/ancient/aristotle-prior-analytics-ii1.zh-CN.md) | AI推理前史补读：结论扩展、子类限制与证明来源 | 深读v1 · 完整52b36–53b3及有限依赖核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853及Jenkinson版本） | [Aristotle前分析篇II.2精读](papers/ancient/aristotle-prior-analytics-ii2.zh-CN.md) | AI推理前史补读：真假组合、前提失真、存在条件与不同见证 | 深读v1 · 完整53b4–55b2及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -879,3 +880,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Aristotle II.1：更多结论与不同证明来源
 
 新增[《前分析篇》II.1深读](papers/ancient/aristotle-prior-analytics-ii1.zh-CN.md)，完整52b36–53b3、Owen印175–176及本章译注、所见校记与正式勘误范围。区分换位的存在条件、全称限制和特称见证，给出证明依赖与语义后果的区别，附16题答案。[来源台账](papers/ancient/aristotle-prior-analytics-ii1.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-ii1.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-ii1/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-ii1/math-code-audit.zh-CN.md)分别核验。有限集合是现代教学模型，不裁定古代唯一语义；证明叶集合不等于全局最小依赖。有限实跑不能替代一般证明。II.2与全书不计本篇完成，I.2继续暂缓。
+
+## Aristotle II.2：假前提与真结论
+
+新增[《前分析篇》II.2深读](papers/ancient/aristotle-prior-analytics-ii2.zh-CN.md)，完整53b4–55b2、Owen印176–184及译注、所见校记与ERRATA范围。重建第一格四式保真证明，区分全假与部分假、全称与特称结论、事实与原因说明，保留55a15否定校读分歧，附16题答案。[来源台账](papers/ancient/aristotle-prior-analytics-ii2.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-ii2.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-ii2/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-ii2/math-code-audit.zh-CN.md)分别核验。非空条件与八类型压缩属于明示的现代教学语义；有限实跑不替代一般证明，也不认证原因知识。II.3与全书不计本篇完成，I.2继续暂缓。
