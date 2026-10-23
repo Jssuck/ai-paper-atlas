@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-ii8",
-    "stage": "publication_verification",
-    "updated_at": "2026-10-23T15:46:47Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-prior-analytics-ii7",
+    "id": "aristotle-prior-analytics-ii8",
     "stage": "completed",
-    "updated_at": "2026-10-23T14:48:27Z"
+    "updated_at": "2026-10-23T15:49:00Z"
   },
   "deferred_papers": [
     {
@@ -18,5 +14,5 @@
       "updated_at": "2026-10-21T10:42:00Z"
     }
   ],
-  "updated_at": "2026-10-23T15:46:47Z"
+  "updated_at": "2026-10-23T15:49:00Z"
 }
