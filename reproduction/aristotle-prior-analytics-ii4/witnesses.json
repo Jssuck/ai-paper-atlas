@@ -1,0 +1,553 @@
+{
+  "all_models": 255,
+  "all_terms_nonempty_models": 218,
+  "ending_truth_table": [
+    {
+      "P": false,
+      "P_implies_Q": true,
+      "Q": false,
+      "both": false,
+      "notP_implies_Q": false
+    },
+    {
+      "P": false,
+      "P_implies_Q": true,
+      "Q": true,
+      "both": true,
+      "notP_implies_Q": true
+    },
+    {
+      "P": true,
+      "P_implies_Q": false,
+      "Q": false,
+      "both": false,
+      "notP_implies_Q": true
+    },
+    {
+      "P": true,
+      "P_implies_Q": true,
+      "Q": true,
+      "both": true,
+      "notP_implies_Q": true
+    }
+  ],
+  "modes": {
+    "Bocardo": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "false|partly_false",
+        "false|true",
+        "false|wholly_false",
+        "true|partly_false",
+        "true|true",
+        "true|wholly_false"
+      ],
+      "counts": {
+        "false|partly_false|false": 8,
+        "false|partly_false|true": 8,
+        "false|true|false": 8,
+        "false|true|true": 8,
+        "false|vacuous_true|false": 7,
+        "false|vacuous_true|true": 8,
+        "false|wholly_false|false": 8,
+        "false|wholly_false|true": 8,
+        "true|partly_false|false": 16,
+        "true|partly_false|true": 112,
+        "true|true|true": 32,
+        "true|wholly_false|false": 16,
+        "true|wholly_false|true": 16
+      },
+      "eligible_models": 255,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "false|partly_false|false": [
+          5,
+          7
+        ],
+        "false|partly_false|true": [
+          2,
+          5,
+          7
+        ],
+        "false|true|false": [
+          7
+        ],
+        "false|true|true": [
+          2,
+          7
+        ],
+        "false|vacuous_true|false": [
+          0
+        ],
+        "false|vacuous_true|true": [
+          2
+        ],
+        "false|wholly_false|false": [
+          5
+        ],
+        "false|wholly_false|true": [
+          2,
+          5
+        ],
+        "true|partly_false|false": [
+          1,
+          7
+        ],
+        "true|partly_false|true": [
+          1,
+          3
+        ],
+        "true|true|true": [
+          3
+        ],
+        "true|wholly_false|false": [
+          1
+        ],
+        "true|wholly_false|true": [
+          1,
+          2
+        ]
+      },
+      "raw_violations_without_existence_condition": 0
+    },
+    "Darapti": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "partly_false|partly_false",
+        "partly_false|true",
+        "partly_false|wholly_false",
+        "true|partly_false",
+        "true|true",
+        "true|wholly_false",
+        "wholly_false|partly_false",
+        "wholly_false|true",
+        "wholly_false|wholly_false"
+      ],
+      "counts": {
+        "partly_false|partly_false|false": 16,
+        "partly_false|partly_false|true": 96,
+        "partly_false|true|true": 16,
+        "partly_false|wholly_false|false": 8,
+        "partly_false|wholly_false|true": 8,
+        "true|partly_false|true": 16,
+        "true|true|true": 16,
+        "true|wholly_false|false": 8,
+        "true|wholly_false|true": 8,
+        "vacuous_true|vacuous_true|false": 7,
+        "vacuous_true|vacuous_true|true": 8,
+        "wholly_false|partly_false|false": 8,
+        "wholly_false|partly_false|true": 8,
+        "wholly_false|true|false": 8,
+        "wholly_false|true|true": 8,
+        "wholly_false|wholly_false|false": 8,
+        "wholly_false|wholly_false|true": 8
+      },
+      "eligible_models": 240,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "partly_false|partly_false|false": [
+          3,
+          5
+        ],
+        "partly_false|partly_false|true": [
+          1,
+          7
+        ],
+        "partly_false|true|true": [
+          3,
+          7
+        ],
+        "partly_false|wholly_false|false": [
+          1,
+          5
+        ],
+        "partly_false|wholly_false|true": [
+          1,
+          5,
+          6
+        ],
+        "true|partly_false|true": [
+          5,
+          7
+        ],
+        "true|true|true": [
+          7
+        ],
+        "true|wholly_false|false": [
+          5
+        ],
+        "true|wholly_false|true": [
+          5,
+          6
+        ],
+        "vacuous_true|vacuous_true|false": [
+          0
+        ],
+        "vacuous_true|vacuous_true|true": [
+          6
+        ],
+        "wholly_false|partly_false|false": [
+          1,
+          3
+        ],
+        "wholly_false|partly_false|true": [
+          1,
+          3,
+          6
+        ],
+        "wholly_false|true|false": [
+          3
+        ],
+        "wholly_false|true|true": [
+          3,
+          6
+        ],
+        "wholly_false|wholly_false|false": [
+          1
+        ],
+        "wholly_false|wholly_false|true": [
+          1,
+          6
+        ]
+      },
+      "raw_violations_without_existence_condition": 7
+    },
+    "Datisi": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "partly_false|false",
+        "partly_false|true",
+        "true|false",
+        "true|true",
+        "wholly_false|false",
+        "wholly_false|true"
+      ],
+      "counts": {
+        "partly_false|false|false": 8,
+        "partly_false|false|true": 8,
+        "partly_false|true|false": 16,
+        "partly_false|true|true": 112,
+        "true|false|false": 8,
+        "true|false|true": 8,
+        "true|true|true": 32,
+        "vacuous_true|false|false": 7,
+        "vacuous_true|false|true": 8,
+        "wholly_false|false|false": 8,
+        "wholly_false|false|true": 8,
+        "wholly_false|true|false": 16,
+        "wholly_false|true|true": 16
+      },
+      "eligible_models": 255,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "partly_false|false|false": [
+          1,
+          5
+        ],
+        "partly_false|false|true": [
+          1,
+          5,
+          6
+        ],
+        "partly_false|true|false": [
+          3,
+          5
+        ],
+        "partly_false|true|true": [
+          1,
+          7
+        ],
+        "true|false|false": [
+          5
+        ],
+        "true|false|true": [
+          5,
+          6
+        ],
+        "true|true|true": [
+          7
+        ],
+        "vacuous_true|false|false": [
+          0
+        ],
+        "vacuous_true|false|true": [
+          6
+        ],
+        "wholly_false|false|false": [
+          1
+        ],
+        "wholly_false|false|true": [
+          1,
+          6
+        ],
+        "wholly_false|true|false": [
+          3
+        ],
+        "wholly_false|true|true": [
+          3,
+          6
+        ]
+      },
+      "raw_violations_without_existence_condition": 0
+    },
+    "Disamis": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "false|partly_false",
+        "false|true",
+        "false|wholly_false",
+        "true|partly_false",
+        "true|true",
+        "true|wholly_false"
+      ],
+      "counts": {
+        "false|partly_false|false": 8,
+        "false|partly_false|true": 8,
+        "false|true|false": 8,
+        "false|true|true": 8,
+        "false|vacuous_true|false": 7,
+        "false|vacuous_true|true": 8,
+        "false|wholly_false|false": 8,
+        "false|wholly_false|true": 8,
+        "true|partly_false|false": 16,
+        "true|partly_false|true": 112,
+        "true|true|true": 32,
+        "true|wholly_false|false": 16,
+        "true|wholly_false|true": 16
+      },
+      "eligible_models": 255,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "false|partly_false|false": [
+          1,
+          3
+        ],
+        "false|partly_false|true": [
+          1,
+          3,
+          6
+        ],
+        "false|true|false": [
+          3
+        ],
+        "false|true|true": [
+          3,
+          6
+        ],
+        "false|vacuous_true|false": [
+          0
+        ],
+        "false|vacuous_true|true": [
+          6
+        ],
+        "false|wholly_false|false": [
+          1
+        ],
+        "false|wholly_false|true": [
+          1,
+          6
+        ],
+        "true|partly_false|false": [
+          3,
+          5
+        ],
+        "true|partly_false|true": [
+          1,
+          7
+        ],
+        "true|true|true": [
+          7
+        ],
+        "true|wholly_false|false": [
+          5
+        ],
+        "true|wholly_false|true": [
+          5,
+          6
+        ]
+      },
+      "raw_violations_without_existence_condition": 0
+    },
+    "Felapton": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "partly_false|partly_false",
+        "partly_false|true",
+        "partly_false|wholly_false",
+        "true|partly_false",
+        "true|true",
+        "true|wholly_false",
+        "wholly_false|partly_false",
+        "wholly_false|true",
+        "wholly_false|wholly_false"
+      ],
+      "counts": {
+        "partly_false|partly_false|false": 16,
+        "partly_false|partly_false|true": 96,
+        "partly_false|true|true": 16,
+        "partly_false|wholly_false|false": 8,
+        "partly_false|wholly_false|true": 8,
+        "true|partly_false|true": 16,
+        "true|true|true": 16,
+        "true|wholly_false|false": 8,
+        "true|wholly_false|true": 8,
+        "vacuous_true|vacuous_true|false": 7,
+        "vacuous_true|vacuous_true|true": 8,
+        "wholly_false|partly_false|false": 8,
+        "wholly_false|partly_false|true": 8,
+        "wholly_false|true|false": 8,
+        "wholly_false|true|true": 8,
+        "wholly_false|wholly_false|false": 8,
+        "wholly_false|wholly_false|true": 8
+      },
+      "eligible_models": 240,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "partly_false|partly_false|false": [
+          1,
+          7
+        ],
+        "partly_false|partly_false|true": [
+          3,
+          5
+        ],
+        "partly_false|true|true": [
+          3,
+          7
+        ],
+        "partly_false|wholly_false|false": [
+          1,
+          5
+        ],
+        "partly_false|wholly_false|true": [
+          1,
+          2,
+          5
+        ],
+        "true|partly_false|true": [
+          1,
+          3
+        ],
+        "true|true|true": [
+          3
+        ],
+        "true|wholly_false|false": [
+          1
+        ],
+        "true|wholly_false|true": [
+          1,
+          2
+        ],
+        "vacuous_true|vacuous_true|false": [
+          0
+        ],
+        "vacuous_true|vacuous_true|true": [
+          2
+        ],
+        "wholly_false|partly_false|false": [
+          5,
+          7
+        ],
+        "wholly_false|partly_false|true": [
+          2,
+          5,
+          7
+        ],
+        "wholly_false|true|false": [
+          7
+        ],
+        "wholly_false|true|true": [
+          2,
+          7
+        ],
+        "wholly_false|wholly_false|false": [
+          5
+        ],
+        "wholly_false|wholly_false|true": [
+          2,
+          5
+        ]
+      },
+      "raw_violations_without_existence_condition": 7
+    },
+    "Ferison": {
+      "all_terms_nonempty_true_conclusion_class_pairs": [
+        "partly_false|false",
+        "partly_false|true",
+        "true|false",
+        "true|true",
+        "wholly_false|false",
+        "wholly_false|true"
+      ],
+      "counts": {
+        "partly_false|false|false": 8,
+        "partly_false|false|true": 8,
+        "partly_false|true|false": 16,
+        "partly_false|true|true": 112,
+        "true|false|false": 8,
+        "true|false|true": 8,
+        "true|true|true": 32,
+        "vacuous_true|false|false": 7,
+        "vacuous_true|false|true": 8,
+        "wholly_false|false|false": 8,
+        "wholly_false|false|true": 8,
+        "wholly_false|true|false": 16,
+        "wholly_false|true|true": 16
+      },
+      "eligible_models": 255,
+      "eligible_soundness_violations": 0,
+      "evaluations": 255,
+      "minimum_witnesses": {
+        "partly_false|false|false": [
+          1,
+          5
+        ],
+        "partly_false|false|true": [
+          1,
+          2,
+          5
+        ],
+        "partly_false|true|false": [
+          1,
+          7
+        ],
+        "partly_false|true|true": [
+          3,
+          5
+        ],
+        "true|false|false": [
+          1
+        ],
+        "true|false|true": [
+          1,
+          2
+        ],
+        "true|true|true": [
+          3
+        ],
+        "vacuous_true|false|false": [
+          0
+        ],
+        "vacuous_true|false|true": [
+          2
+        ],
+        "wholly_false|false|false": [
+          5
+        ],
+        "wholly_false|false|true": [
+          2,
+          5
+        ],
+        "wholly_false|true|false": [
+          7
+        ],
+        "wholly_false|true|true": [
+          2,
+          7
+        ]
+      },
+      "raw_violations_without_existence_condition": 0
+    }
+  },
+  "semantics": "A=4,B=2,C=1; predicate first; nonempty domain"
+}

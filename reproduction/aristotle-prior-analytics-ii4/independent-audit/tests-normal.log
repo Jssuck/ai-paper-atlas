@@ -1,0 +1,27 @@
+test_01_model_count (test_model.ModelTests.test_01_model_count) ... ok
+test_02_nonempty_terms (test_model.ModelTests.test_02_nonempty_terms) ... ok
+test_03_predicate_first (test_model.ModelTests.test_03_predicate_first) ... ok
+test_04_empty_universals (test_model.ModelTests.test_04_empty_universals) ... ok
+test_05_empty_existentials (test_model.ModelTests.test_05_empty_existentials) ... ok
+test_06_wholly_false (test_model.ModelTests.test_06_wholly_false) ... ok
+test_07_partly_false (test_model.ModelTests.test_07_partly_false) ... ok
+test_08_negative_wholly_false (test_model.ModelTests.test_08_negative_wholly_false) ... ok
+test_09_negative_partly_false (test_model.ModelTests.test_09_negative_partly_false) ... ok
+test_10_vacuity_not_wholly_false (test_model.ModelTests.test_10_vacuity_not_wholly_false) ... ok
+test_11_soundness_all_six (test_model.ModelTests.test_11_soundness_all_six) ... ok
+test_12_existence_really_required (test_model.ModelTests.test_12_existence_really_required) ... ok
+test_13_two_false_true_outside_C (test_model.ModelTests.test_13_two_false_true_outside_C) ... ok
+test_14_negative_outside_C (test_model.ModelTests.test_14_negative_outside_C) ... ok
+test_15_invalid_models (test_model.ModelTests.test_15_invalid_models) ... ok
+test_16_invalid_proposition (test_model.ModelTests.test_16_invalid_proposition) ... ok
+test_17_invalid_mode (test_model.ModelTests.test_17_invalid_mode) ... ok
+test_18_generator_consumed_safely (test_model.ModelTests.test_18_generator_consumed_safely) ... ok
+test_19_ending_equivalence (test_model.ModelTests.test_19_ending_equivalence) ... ok
+test_20_ending_not_contradiction (test_model.ModelTests.test_20_ending_not_contradiction) ... ok
+test_21_boolean_validation (test_model.ModelTests.test_21_boolean_validation) ... ok
+test_22_minimum_witness_order (test_model.ModelTests.test_22_minimum_witness_order) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.102s
+
+OK

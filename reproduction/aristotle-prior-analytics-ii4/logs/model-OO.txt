@@ -1,0 +1,12 @@
+models: 255
+all_terms_nonempty_models: 218
+six_mode_evaluations: 1530
+nonempty_term_six_mode_evaluations: 1308
+Darapti eligible= 240 raw_violations= 7 eligible_violations= 0 true_conclusion_class_pairs= 9
+Felapton eligible= 240 raw_violations= 7 eligible_violations= 0 true_conclusion_class_pairs= 9
+Disamis eligible= 255 raw_violations= 0 eligible_violations= 0 true_conclusion_class_pairs= 6
+Datisi eligible= 255 raw_violations= 0 eligible_violations= 0 true_conclusion_class_pairs= 6
+Bocardo eligible= 255 raw_violations= 0 eligible_violations= 0 true_conclusion_class_pairs= 6
+Ferison eligible= 255 raw_violations= 0 eligible_violations= 0 true_conclusion_class_pairs= 6
+ending_both_equivalent_Q: True
+witnesses_sha256: bfba8b75d39434206911cddf6c25d035d2d51d782bdfb4224d334de196f1b28b
