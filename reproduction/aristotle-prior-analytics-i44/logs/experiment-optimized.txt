@@ -1,0 +1,21 @@
+{
+  "accepted_certificates": 81,
+  "background_hypothesis_pairs": 256,
+  "bounded_sqrt2_solutions": 0,
+  "certificate_checks": 4096,
+  "coprime_fraction_pairs": 2519,
+  "inconsistent_inner_pairs": 81,
+  "integer_parity_checks": 513,
+  "missing_bridge_counterexample": {
+    "P": false,
+    "S": true
+  },
+  "positive_fraction_pairs": 4096,
+  "reverse_bridge_counterexample": {
+    "P": false,
+    "S": true
+  },
+  "scope": "Finite implementation checks only; not proof of general theorems or unique ancient semantics.",
+  "truth_assignments": 4,
+  "truth_set_formulas": 16
+}

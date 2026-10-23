@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[I.43：定义的成分与当前证明义务](papers/ancient/aristotle-prior-analytics-i43.zh-CN.md)，完整50a11–15，保留译本分歧，附分解与合并证明、反例、12题答案及独立核验的教学复现。
+最新补读：[I.44：约定的桥梁与归谬的出口](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md)，完整50a16–50b4，保留量词校读和桥梁方向区别，附一般证明、反模型、14题答案及独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -55,6 +55,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.41精读](papers/ancient/aristotle-prior-analytics-i41.zh-CN.md) | AI推理前史补读：全称范围、覆盖条件与列示的证明角色 | 深读v1 · 完整49b14–50a4及有限覆盖核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.42精读](papers/ancient/aristotle-prior-analytics-i42.zh-CN.md) | AI推理前史补读：结论类型、候选格与逐步证明分析 | 深读v1 · 完整50a5–10及有限类型核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.43精读](papers/ancient/aristotle-prior-analytics-i43.zh-CN.md) | AI推理前史补读：定义成分、局部目标与完整证明义务 | 深读v1 · 完整50a11–15及有限目标核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.44精读](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md) | AI推理前史补读：假设桥梁、内部推导与归谬结束 | 深读v1 · 完整50a16–50b4及有限依赖核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -859,3 +860,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Aristotle I.43：成分与完整目标
 
 新增[《前分析篇》I.43深读](papers/ancient/aristotle-prior-analytics-i43.zh-CN.md)，完整50a11–15、Owen印167的XLIII及注1、所见校记与正式勘误范围。保留Owen反驳措辞与其注1、Jenkinson证明读法的区别；逐步区分当前成分、背景条件、合取包含与双向定义，附12题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i43.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-i43.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i43/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i43/math-code-audit.zh-CN.md)分工核验。有限集合与目标记录为现代教学重构，不证明现实中的可饮性或裁定古代唯一定义语义；有限实跑不替代一般证明。I.44与全书不计本篇完成，I.2继续暂缓。
+
+## Aristotle I.44：内部证明与结束规则
+
+新增[《前分析篇》I.44深读](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md)，完整50a16–50b4、Owen印167–168本章注释、所见校记与正式勘误范围。区分整体归格边界、局部三段论和外部约定，保留量词校订及桥梁方向差别；逐步重建条件推理、假设撤除与最简分数反证，附14题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i44.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-i44.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i44/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i44/math-code-audit.zh-CN.md)分工核验。现代二值模型不认证领域事实、自然语言解析或古代唯一语义；有限检查不能替代一般证明。I.45与全书不计本篇完成，I.2继续暂缓。

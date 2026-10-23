@@ -1,0 +1,17 @@
+Command: python3 -OO independent_check.py
+test_all_truth_sets_against_bit_oracle (__main__.IndependentChecks.test_all_truth_sets_against_bit_oracle) ... ok
+test_atom_spaces_and_permutation (__main__.IndependentChecks.test_atom_spaces_and_permutation) ... ok
+test_bridges_from_plain_booleans (__main__.IndependentChecks.test_bridges_from_plain_booleans) ... ok
+test_certificate_full_space (__main__.IndependentChecks.test_certificate_full_space) ... ok
+test_empty_space_and_generators (__main__.IndependentChecks.test_empty_space_and_generators) ... ok
+test_fraction_count_independent (__main__.IndependentChecks.test_fraction_count_independent) ... ok
+test_integer_parity_by_division (__main__.IndependentChecks.test_integer_parity_by_division) ... ok
+test_scope_labels_not_provenance_authentication (__main__.IndependentChecks.test_scope_labels_not_provenance_authentication) ... ok
+test_two_backgrounds_and_discharge (__main__.IndependentChecks.test_two_backgrounds_and_discharge) ... ok
+test_validation_not_skipped (__main__.IndependentChecks.test_validation_not_skipped) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.071s
+
+OK
+{"accepted_single_background_certificates": 81, "bounded_fraction_pairs": 4096, "certificate_triples": 4096, "coprime_fraction_pairs": 2519, "entailment_truth_set_triples": 4096, "independent_tests": 10, "integer_parity_checks": 1025, "scope": "Finite implementation audit; general claims require the displayed proofs.", "two_background_discharge_triples": 4096}

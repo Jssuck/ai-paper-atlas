@@ -1,0 +1,3 @@
+Python 3.12.14
+Dependencies: Python standard library only
+Commands: python3 [-O|-OO] -m unittest -v test_model.py; python3 [-O|-OO] run_experiment.py

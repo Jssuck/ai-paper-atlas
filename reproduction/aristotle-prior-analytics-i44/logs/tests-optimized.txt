@@ -1,0 +1,23 @@
+test_bridge (test_model.Tests.test_bridge) ... ok
+test_conclusion_not_exact_negation (test_model.Tests.test_conclusion_not_exact_negation) ... ok
+test_duplicate_background_labels (test_model.Tests.test_duplicate_background_labels) ... ok
+test_empty_atom_space (test_model.Tests.test_empty_atom_space) ... ok
+test_empty_premises (test_model.Tests.test_empty_premises) ... ok
+test_generators_frozen (test_model.Tests.test_generators_frozen) ... ok
+test_inconsistent_background_explicit (test_model.Tests.test_inconsistent_background_explicit) ... ok
+test_invalid_atoms (test_model.Tests.test_invalid_atoms) ... ok
+test_invalid_certificate (test_model.Tests.test_invalid_certificate) ... ok
+test_invalid_rows (test_model.Tests.test_invalid_rows) ... ok
+test_missing_bridge (test_model.Tests.test_missing_bridge) ... ok
+test_no_inner_contradiction (test_model.Tests.test_no_inner_contradiction) ... ok
+test_parity (test_model.Tests.test_parity) ... ok
+test_reductio_discharge (test_model.Tests.test_reductio_discharge) ... ok
+test_reverse_positive (test_model.Tests.test_reverse_positive) ... ok
+test_same_label_cannot_leak (test_model.Tests.test_same_label_cannot_leak) ... ok
+test_validate_after_empty (test_model.Tests.test_validate_after_empty) ... ok
+test_wrong_direction (test_model.Tests.test_wrong_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK
