@@ -1,0 +1,69 @@
+COMMAND: python3 -O run_experiment.py
+{
+  "scope": "all three named subsets of n=0,1,2,3",
+  "counts": {
+    "models": 585,
+    "A_conversion_cases": 174,
+    "E_conversion_cases": 259,
+    "I_conversion_cases": 326,
+    "A_restriction_cases": 85,
+    "E_restriction_cases": 85,
+    "O_nonconversion_countermodels": 174,
+    "particular_subclass_countermodels": 26,
+    "A_empty_countermodels": 85
+  },
+  "first_countermodels": {
+    "A_empty_countermodels": {
+      "n": 0,
+      "terms": {
+        "S": [],
+        "P": [],
+        "D": []
+      }
+    },
+    "O_nonconversion_countermodels": {
+      "n": 1,
+      "terms": {
+        "S": [
+          0
+        ],
+        "P": [],
+        "D": []
+      }
+    },
+    "particular_subclass_countermodels": {
+      "n": 2,
+      "terms": {
+        "S": [
+          0,
+          1
+        ],
+        "P": [
+          0
+        ],
+        "D": [
+          1
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "second_original": [
+      "p1:B disjoint A",
+      "p2:C subset A"
+    ],
+    "second_submiddle": [
+      "p1:B disjoint A",
+      "s:E subset A"
+    ],
+    "particular_original": [
+      "d1:B subset A",
+      "d2:some C is B"
+    ],
+    "particular_submiddle": [
+      "d1:B subset A",
+      "t:D subset B"
+    ]
+  },
+  "failures": 0
+}

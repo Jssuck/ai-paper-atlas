@@ -1,0 +1,17 @@
+command: python3 -OO independent_check.py
+{"four_set_cases": 4096, "given_tree_instances": 4096, "independent_counts": {"A_conversion_cases": 174, "A_empty_countermodels": 85, "A_restriction_cases": 85, "E_conversion_cases": 259, "E_restriction_cases": 85, "I_conversion_cases": 326, "O_nonconversion_countermodels": 174, "models": 585, "particular_subclass_countermodels": 26}, "rule_instances_checked": 4095}
+test_01_all_counts (__main__.Independent.test_01_all_counts) ... ok
+test_02_four_forms (__main__.Independent.test_02_four_forms) ... ok
+test_03_all_rules_semantics (__main__.Independent.test_03_all_rules_semantics) ... ok
+test_04_given_trees (__main__.Independent.test_04_given_trees) ... ok
+test_05_dependency_and_label_boundary (__main__.Independent.test_05_dependency_and_label_boundary) ... ok
+test_06_countermodels (__main__.Independent.test_06_countermodels) ... ok
+test_07_bad_extensions (__main__.Independent.test_07_bad_extensions) ... ok
+test_08_bad_proofs (__main__.Independent.test_08_bad_proofs) ... ok
+test_09_reject_unlicensed_rules (__main__.Independent.test_09_reject_unlicensed_rules) ... ok
+test_10_inclusion_and_existence_restoration (__main__.Independent.test_10_inclusion_and_existence_restoration) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.068s
+
+OK

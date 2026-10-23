@@ -1,0 +1,6 @@
+COMMAND: python3 --version; python3 environment report
+Python 3.12.14
+implementation: CPython
+platform: Linux x86_64
+dependencies: Python standard library only
+optimization: 0
