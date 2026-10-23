@@ -1,0 +1,6064 @@
+{
+  "scope": "Single internal second-figure step; predicate-first notation; no prior conversion",
+  "type_bits": "bit0=A, bit1=B, bit2=C; smallest cardinality then lexicographic witness",
+  "policies": [
+    {
+      "policy": "empty_allowed",
+      "models": 255,
+      "candidates": 64,
+      "certificate_counts": {
+        "U": 1,
+        "E": 1,
+        "I": 1,
+        "O": 1
+      },
+      "rows": [
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 32,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 15,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 40,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 40,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 40,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 40,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 32,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 15,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 15,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 32,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 7,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 7,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 15,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 32,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 31,
+            "countermodels": 15,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 7,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 15,
+            "countermodels": 7,
+            "minimal_countermodel": [
+              0
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 48,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4
+            ]
+          },
+          "certificate": false
+        }
+      ]
+    },
+    {
+      "policy": "all_nonempty",
+      "models": 218,
+      "candidates": 64,
+      "certificate_counts": {
+        "U": 1,
+        "E": 1,
+        "I": 2,
+        "O": 2
+      },
+      "rows": [
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 12,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 24,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 8,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 26,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 26,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 150,
+            "countermodels": 122,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 138,
+            "countermodels": 122,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 150,
+            "countermodels": 136,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 152,
+            "countermodels": 136,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 150,
+            "countermodels": 14,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 22,
+            "countermodels": 14,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "U",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "O",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 150,
+            "countermodels": 28,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 28,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 12,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 8,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 24,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              2,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 144,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 138,
+            "countermodels": 120,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 152,
+            "countermodels": 128,
+            "minimal_countermodel": [
+              3,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 22,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "E",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "I",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 32,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 12,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 8,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 2,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 2,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              2,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              5,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 18,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 138,
+            "countermodels": 18,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 152,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 22,
+            "countermodels": 6,
+            "minimal_countermodel": [
+              1,
+              2,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "I",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "E",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 12,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 12,
+            "minimal_countermodel": [
+              1,
+              6
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 20,
+            "countermodels": 12,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 12,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 20,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 32,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 20,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 12,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "U",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 20,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 8,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 30,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 24,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 4,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 10,
+            "countermodels": 4,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "E",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "external": {
+            "valid": true,
+            "premise_models": 4,
+            "countermodels": 0,
+            "minimal_countermodel": null
+          },
+          "certificate": true
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 144,
+            "countermodels": 24,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 160,
+            "countermodels": 32,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              5
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "I",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 40,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "U",
+            "C",
+            "B"
+          ],
+          "known": [
+            "O",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 138,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "E",
+            "C",
+            "B"
+          ],
+          "known": [
+            "I",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 152,
+            "countermodels": 16,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "I",
+            "C",
+            "B"
+          ],
+          "known": [
+            "E",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 22,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              3,
+              4
+            ]
+          },
+          "certificate": false
+        },
+        {
+          "target": [
+            "O",
+            "A",
+            "B"
+          ],
+          "hypothesis": [
+            "U",
+            "A",
+            "B"
+          ],
+          "other": [
+            "O",
+            "A",
+            "C"
+          ],
+          "result": [
+            "O",
+            "C",
+            "B"
+          ],
+          "known": [
+            "U",
+            "C",
+            "B"
+          ],
+          "internal": {
+            "valid": false,
+            "premise_models": 24,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "external": {
+            "valid": false,
+            "premise_models": 36,
+            "countermodels": 8,
+            "minimal_countermodel": [
+              4,
+              7
+            ]
+          },
+          "certificate": false
+        }
+      ]
+    }
+  ],
+  "named_checks": [
+    {
+      "name": "U_target",
+      "premises": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "U",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": true,
+      "premise_models": 15,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "I_target",
+      "premises": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "I",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": true,
+      "premise_models": 32,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "E_target",
+      "premises": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "E",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": true,
+      "premise_models": 15,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "O_target",
+      "premises": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "O",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": true,
+      "premise_models": 32,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "I_with_universal_background",
+      "premises": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "I",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": false,
+      "premise_models": 15,
+      "countermodels": 7,
+      "minimal_countermodel": [
+        0
+      ]
+    },
+    {
+      "name": "I_with_B_exists",
+      "premises": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "I",
+        "A",
+        "B"
+      ],
+      "policy": "B_nonempty",
+      "valid": true,
+      "premise_models": 8,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "O_with_universal_background",
+      "premises": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "O",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": false,
+      "premise_models": 15,
+      "countermodels": 7,
+      "minimal_countermodel": [
+        0
+      ]
+    },
+    {
+      "name": "O_with_B_exists",
+      "premises": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "O",
+        "A",
+        "B"
+      ],
+      "policy": "B_nonempty",
+      "valid": true,
+      "premise_models": 8,
+      "countermodels": 0,
+      "minimal_countermodel": null
+    },
+    {
+      "name": "wrong_E_assumption_only_returns_I",
+      "premises": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "C",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "U",
+        "A",
+        "B"
+      ],
+      "policy": "empty_allowed",
+      "valid": false,
+      "premise_models": 32,
+      "countermodels": 16,
+      "minimal_countermodel": [
+        2,
+        7
+      ]
+    },
+    {
+      "name": "not_U_does_not_give_E",
+      "premises": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "E",
+        "A",
+        "B"
+      ],
+      "policy": "all_nonempty",
+      "valid": false,
+      "premise_models": 174,
+      "countermodels": 140,
+      "minimal_countermodel": [
+        2,
+        7
+      ]
+    },
+    {
+      "name": "not_E_does_not_give_U",
+      "premises": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "conclusion": [
+        "U",
+        "A",
+        "B"
+      ],
+      "policy": "all_nonempty",
+      "valid": false,
+      "premise_models": 184,
+      "countermodels": 140,
+      "minimal_countermodel": [
+        2,
+        7
+      ]
+    }
+  ],
+  "coexistence": {
+    "model": [
+      2,
+      7
+    ],
+    "I_AB": true,
+    "O_AB": true
+  }
+}

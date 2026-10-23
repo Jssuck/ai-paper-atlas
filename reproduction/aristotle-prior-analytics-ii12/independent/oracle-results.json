@@ -1,0 +1,2251 @@
+{
+  "empty_allowed": {
+    "models": 584,
+    "rows": [
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": []
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [],
+          "B": [],
+          "C": [
+            0
+          ]
+        }
+      }
+    ],
+    "valid_routes": 4
+  },
+  "nonempty": {
+    "models": 371,
+    "rows": [
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "U",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "E",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      },
+      {
+        "target": "I",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "U",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "E",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "E",
+        "result": "O",
+        "valid_internal": true,
+        "background_satisfiable": true,
+        "target_entailed": true,
+        "counterexample": null
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "I",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "U",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "E",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "I",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      },
+      {
+        "target": "O",
+        "premise": "O",
+        "result": "O",
+        "valid_internal": false,
+        "background_satisfiable": true,
+        "target_entailed": false,
+        "counterexample": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "valid_routes": 6
+  }
+}

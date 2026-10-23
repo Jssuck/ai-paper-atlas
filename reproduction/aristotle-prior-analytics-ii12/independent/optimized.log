@@ -1,0 +1,13 @@
+test_empty_background (__main__.Checks.test_empty_background) ... ok
+test_four_routes (__main__.Checks.test_four_routes) ... ok
+test_negations (__main__.Checks.test_negations) ... ok
+test_particular_coexistence (__main__.Checks.test_particular_coexistence) ... ok
+test_universal_background_stronger (__main__.Checks.test_universal_background_stronger) ... ok
+test_wrong_strength (__main__.Checks.test_wrong_strength) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+{"empty_allowed": {"candidates": 64, "models": 584, "valid_routes": 4}, "nonempty": {"candidates": 64, "models": 371, "valid_routes": 6}}
+{"production_records_matched": 256, "named_checks_matched": 11, "minimal_countermodels": "independently matched, cardinality then lexicographic"}
