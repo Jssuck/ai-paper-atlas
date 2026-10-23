@@ -1,0 +1,15 @@
+test_distinct_goals_not_equivalent (__main__.IndependentBoundaryTests.test_distinct_goals_not_equivalent) ... ok
+test_empty_good_is_at_most_one (__main__.IndependentBoundaryTests.test_empty_good_is_at_most_one) ... ok
+test_false_assumption_does_not_certify_conclusion (__main__.IndependentBoundaryTests.test_false_assumption_does_not_certify_conclusion) ... ok
+test_formula_validation (__main__.IndependentBoundaryTests.test_formula_validation) ... ok
+test_generator_validates_on_iteration (__main__.IndependentBoundaryTests.test_generator_validates_on_iteration) ... ok
+test_model_validation (__main__.IndependentBoundaryTests.test_model_validation) ... ok
+test_no_duplicate_models (__main__.IndependentBoundaryTests.test_no_duplicate_models) ... ok
+test_not_complete_even_if_target_assumed (__main__.IndependentBoundaryTests.test_not_complete_even_if_target_assumed) ... ok
+test_survey_rejects_unbounded_scope (__main__.IndependentBoundaryTests.test_survey_rejects_unbounded_scope) ... ok
+test_two_members_violate_uniqueness (__main__.IndependentBoundaryTests.test_two_members_violate_uniqueness) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

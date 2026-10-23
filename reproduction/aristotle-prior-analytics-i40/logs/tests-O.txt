@@ -1,0 +1,21 @@
+Command: python3 -O -m unittest -v test_model
+test_all_finite_rule_instances (test_model.TeachingModelTests.test_all_finite_rule_instances) ... ok
+test_assumptions_not_certified (test_model.TeachingModelTests.test_assumptions_not_certified) ... ok
+test_bounded_survey (test_model.TeachingModelTests.test_bounded_survey) ... ok
+test_direct_preserves_goal (test_model.TeachingModelTests.test_direct_preserves_goal) ... ok
+test_empty_good_is_at_most_one (test_model.TeachingModelTests.test_empty_good_is_at_most_one) ... ok
+test_equality_requires_bridge (test_model.TeachingModelTests.test_equality_requires_bridge) ... ok
+test_good_without_identity (test_model.TeachingModelTests.test_good_without_identity) ... ok
+test_identity_without_good (test_model.TeachingModelTests.test_identity_without_good) ... ok
+test_invalid_domains (test_model.TeachingModelTests.test_invalid_domains) ... ok
+test_invalid_interpretations (test_model.TeachingModelTests.test_invalid_interpretations) ... ok
+test_model_counts (test_model.TeachingModelTests.test_model_counts) ... ok
+test_no_unlicensed_goal_change (test_model.TeachingModelTests.test_no_unlicensed_goal_change) ... ok
+test_reverse_requires_both_bridges (test_model.TeachingModelTests.test_reverse_requires_both_bridges) ... ok
+test_typed_formulas (test_model.TeachingModelTests.test_typed_formulas) ... ok
+test_unique_good_not_designated_good (test_model.TeachingModelTests.test_unique_good_not_designated_good) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.028s
+
+OK

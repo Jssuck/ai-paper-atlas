@@ -1,0 +1,16 @@
+Command: python3  model.py
+{
+  "Gp_Gg_unique_failures": 0,
+  "Gp_Gg_unique_premises": 10,
+  "Gp_not_identity": 124,
+  "identity_Gg_failures": 0,
+  "identity_Gg_premises": 49,
+  "identity_not_Gp": 49,
+  "models": 346,
+  "truth_pairs": {
+    "00": 124,
+    "01": 49,
+    "10": 124,
+    "11": 49
+  }
+}

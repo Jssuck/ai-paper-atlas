@@ -1,0 +1,16 @@
+{
+  "Gp_Gg_unique_premises": 10,
+  "applicable_licensed_rules": 1790,
+  "empty_good_unique_true": 30,
+  "formula_comparisons": 1384,
+  "identity_Gg_premises": 49,
+  "models": 346,
+  "renaming_comparisons": 1384,
+  "rule_combinations": 22144,
+  "truth_pairs": {
+    "00": 124,
+    "01": 49,
+    "10": 124,
+    "11": 49
+  }
+}
