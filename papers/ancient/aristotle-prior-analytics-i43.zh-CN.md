@@ -76,7 +76,7 @@ $$
 若已有经说明的背景 $`W\subseteq L`$，则在这个背景下，证明 $`W\subseteq P`$ 就足以证明 $`W\subseteq L\cap P`$；反之整体包含总能推出局部包含。
 
 $$
-\{W\subseteq L\}\models
+\lbrace W\subseteq L\rbrace\models
 \bigl[(W\subseteq P)\leftrightarrow(W\subseteq L\cap P)\bigr].
 $$
 
