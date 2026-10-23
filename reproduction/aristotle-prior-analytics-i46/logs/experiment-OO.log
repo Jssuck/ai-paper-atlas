@@ -1,0 +1,13 @@
+{
+  "ability_scope_disagreements": 23,
+  "accessibility_models": 31,
+  "false_excluded_middle_models": 57,
+  "inclusion_models": 364,
+  "joint_denial_models": 63,
+  "not_all_vs_all_not_disagreements": 763,
+  "quantifier_models": 1365,
+  "scope_gap_models": 301,
+  "scope_models": 364,
+  "strict_inclusion_models": 301
+}
+PASS: all finite checks; no claim of a general theorem or unique historical semantics

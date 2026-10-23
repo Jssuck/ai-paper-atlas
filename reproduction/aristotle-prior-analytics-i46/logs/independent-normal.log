@@ -1,0 +1,17 @@
+COMMAND: python3  independent_test.py
+test_ability_pointwise (__main__.IndependentTests.test_ability_pointwise) ... ok
+test_countermodels (__main__.IndependentTests.test_countermodels) ... ok
+test_empty_edges (__main__.IndependentTests.test_empty_edges) ... ok
+test_generator_immutability (__main__.IndependentTests.test_generator_immutability) ... ok
+test_inclusion_pointwise (__main__.IndependentTests.test_inclusion_pointwise) ... ok
+test_invalid_and_late_inputs (__main__.IndependentTests.test_invalid_and_late_inputs) ... ok
+test_joint_denial_truth_table (__main__.IndependentTests.test_joint_denial_truth_table) ... ok
+test_quantifier_pointwise (__main__.IndependentTests.test_quantifier_pointwise) ... ok
+test_scope_pointwise (__main__.IndependentTests.test_scope_pointwise) ... ok
+test_subset_generator_validation (__main__.IndependentTests.test_subset_generator_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.064s
+
+OK
+Independent pointwise counts: {'scope_cases': 1093, 'inclusion_cases': 1093, 'quantifier_cases': 5461, 'ability_cases': 127}
