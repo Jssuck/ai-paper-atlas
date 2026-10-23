@@ -1,0 +1,26 @@
+test_a_needs_subject_existence (test_model.Tests.test_a_needs_subject_existence) ... ok
+test_all_moods (test_model.Tests.test_all_moods) ... ok
+test_bad_semantic_inputs (test_model.Tests.test_bad_semantic_inputs) ... ok
+test_bad_step_output (test_model.Tests.test_bad_step_output) ... ok
+test_bool_index (test_model.Tests.test_bool_index) ... ok
+test_direct_certificates (test_model.Tests.test_direct_certificates) ... ok
+test_e_i_conversion (test_model.Tests.test_e_i_conversion) ... ok
+test_existence_countermodels (test_model.Tests.test_existence_countermodels) ... ok
+test_explicit_first (test_model.Tests.test_explicit_first) ... ok
+test_figures (test_model.Tests.test_figures) ... ok
+test_forward_refs (test_model.Tests.test_forward_refs) ... ok
+test_generator_inputs (test_model.Tests.test_generator_inputs) ... ok
+test_indirect_certificates (test_model.Tests.test_indirect_certificates) ... ok
+test_invalid_kinds_terms (test_model.Tests.test_invalid_kinds_terms) ... ok
+test_invalid_simple_a_and_o (test_model.Tests.test_invalid_simple_a_and_o) ... ok
+test_model_count (test_model.Tests.test_model_count) ... ok
+test_o_not_convertible (test_model.Tests.test_o_not_convertible) ... ok
+test_validate_even_unused_existence (test_model.Tests.test_validate_even_unused_existence) ... ok
+test_weak_conversion_not_equivalence (test_model.Tests.test_weak_conversion_not_equivalence) ... ok
+test_wrong_discharge (test_model.Tests.test_wrong_discharge) ... ok
+test_wrong_first_pair (test_model.Tests.test_wrong_first_pair) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.017s
+
+OK

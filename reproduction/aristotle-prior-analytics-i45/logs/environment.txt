@@ -1,0 +1,10 @@
+Python 3.12.14
+Implementation: CPython
+Dependencies: Python standard library only
+Commands (each run completed):
+python3  -m unittest -v test_model.py
+python3  run_experiment.py
+python3 -O -m unittest -v test_model.py
+python3 -O run_experiment.py
+python3 -OO -m unittest -v test_model.py
+python3 -OO run_experiment.py

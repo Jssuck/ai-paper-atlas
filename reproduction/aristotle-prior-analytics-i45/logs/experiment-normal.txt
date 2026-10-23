@@ -1,0 +1,201 @@
+{
+  "all_terms_nonempty_models": 109,
+  "conversion_model_checks": 2256,
+  "countermodels": {
+    "A_simple_conversion": {
+      "M": [
+        0
+      ],
+      "P": [
+        1,
+        5
+      ],
+      "S": [
+        5
+      ]
+    },
+    "Darapti_without_existence": {
+      "M": [],
+      "P": [],
+      "S": []
+    },
+    "Felapton_without_existence": {
+      "M": [],
+      "P": [],
+      "S": []
+    },
+    "O_simple_conversion": {
+      "M": [
+        0
+      ],
+      "P": [
+        5
+      ],
+      "S": [
+        3,
+        5
+      ]
+    }
+  },
+  "direct_certificates": {
+    "Camestres": true,
+    "Cesare": true,
+    "Darapti": true,
+    "Datisi": true,
+    "Disamis": true,
+    "Felapton": true,
+    "Ferison": true,
+    "Festino": true
+  },
+  "indirect_certificates": {
+    "Baroco": true,
+    "Bocardo": true
+  },
+  "models": 128,
+  "mood_model_checks": 1776,
+  "moods": {
+    "Barbara": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 8
+    },
+    "Baroco": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Bocardo": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Camestres": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 8
+    },
+    "Celarent": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 8
+    },
+    "Cesare": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 8
+    },
+    "Darapti": {
+      "admitted_models": 120,
+      "failures": 0,
+      "nonempty": [
+        "M"
+      ],
+      "premises_true": 8
+    },
+    "Darii": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Datisi": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Disamis": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Felapton": {
+      "admitted_models": 120,
+      "failures": 0,
+      "nonempty": [
+        "M"
+      ],
+      "premises_true": 8
+    },
+    "Ferio": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Ferison": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    },
+    "Festino": {
+      "admitted_models": 128,
+      "failures": 0,
+      "nonempty": [],
+      "premises_true": 16
+    }
+  },
+  "presentation_changes": {
+    "Celarent -> Cesare": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    },
+    "Darii -> Datisi": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    },
+    "Felapton -> Festino": {
+      "admitted_models": 120,
+      "conclusion_failures": 0,
+      "equivalence_claimed": false,
+      "premise_equivalence_models": 112,
+      "premise_implication_models": 120
+    },
+    "Ferio -> Ferison": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    },
+    "Ferio -> Festino": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    },
+    "Ferison -> Festino": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    },
+    "Festino -> Ferison": {
+      "admitted_models": 128,
+      "conclusion_failures": 0,
+      "equivalence_claimed": true,
+      "premise_equivalence_models": 128,
+      "premise_implication_models": 128
+    }
+  },
+  "rejected_direct_attempts": {
+    "Baroco": "O conversion rejected",
+    "Bocardo": "O conversion rejected"
+  }
+}

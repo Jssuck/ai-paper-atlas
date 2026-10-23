@@ -1,0 +1,19 @@
+test_author_certificate_soundness (__main__.IndependentChecks.test_author_certificate_soundness) ... ok
+test_author_rejects_bad_certificates (__main__.IndependentChecks.test_author_rejects_bad_certificates) ... ok
+test_author_semantics_crosscheck (__main__.IndependentChecks.test_author_semantics_crosscheck) ... ok
+test_baroco_reductio (__main__.IndependentChecks.test_baroco_reductio) ... ok
+test_bocardo_reductio (__main__.IndependentChecks.test_bocardo_reductio) ... ok
+test_camestres_conclusion_conversion (__main__.IndependentChecks.test_camestres_conclusion_conversion) ... ok
+test_disamis_conclusion_conversion (__main__.IndependentChecks.test_disamis_conclusion_conversion) ... ok
+test_existential_third_figure (__main__.IndependentChecks.test_existential_third_figure) ... ok
+test_fourteen_moods (__main__.IndependentChecks.test_fourteen_moods) ... ok
+test_illegal_simple_conversion (__main__.IndependentChecks.test_illegal_simple_conversion) ... ok
+test_partial_conversion (__main__.IndependentChecks.test_partial_conversion) ... ok
+test_simple_conversions (__main__.IndependentChecks.test_simple_conversions) ... ok
+test_two_particular_premisses_fail (__main__.IndependentChecks.test_two_particular_premisses_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.147s
+
+OK
+{"author_truth_comparisons": 14040, "finite_checks_are_not_general_proofs": true, "mood_model_checks": 112320, "object_models": 585, "representation": "direct object subsets, n=0..3"}

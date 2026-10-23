@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[I.44：约定的桥梁与归谬的出口](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md)，完整50a16–50b4，保留量词校读和桥梁方向区别，附一般证明、反模型、14题答案及独立核验的教学复现。
+最新补读：[I.45：换位归约与结论保持](papers/ancient/aristotle-prior-analytics-i45.zh-CN.md)，完整50b5–51b4，附存在条件、受限方法失败与归谬区别、16题答案和独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -56,6 +56,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.42精读](papers/ancient/aristotle-prior-analytics-i42.zh-CN.md) | AI推理前史补读：结论类型、候选格与逐步证明分析 | 深读v1 · 完整50a5–10及有限类型核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.43精读](papers/ancient/aristotle-prior-analytics-i43.zh-CN.md) | AI推理前史补读：定义成分、局部目标与完整证明义务 | 深读v1 · 完整50a11–15及有限目标核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.44精读](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md) | AI推理前史补读：假设桥梁、内部推导与归谬结束 | 深读v1 · 完整50a16–50b4及有限依赖核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle前分析篇I.45精读](papers/ancient/aristotle-prior-analytics-i45.zh-CN.md) | AI推理前史补读：换位保真、结论方向与归约方法的边界 | 深读v1 · 完整50b5–51b4及有限证书核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -864,3 +865,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Aristotle I.44：内部证明与结束规则
 
 新增[《前分析篇》I.44深读](papers/ancient/aristotle-prior-analytics-i44.zh-CN.md)，完整50a16–50b4、Owen印167–168本章注释、所见校记与正式勘误范围。区分整体归格边界、局部三段论和外部约定，保留量词校订及桥梁方向差别；逐步重建条件推理、假设撤除与最简分数反证，附14题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i44.sources.zh-CN.md)、[独立来源核验](papers/ancient/aristotle-prior-analytics-i44.source-audit.zh-CN.md)、[教学代码与真实日志](reproduction/aristotle-prior-analytics-i44/README.md)和[独立数学代码审查](reproduction/aristotle-prior-analytics-i44/math-code-audit.zh-CN.md)分工核验。现代二值模型不认证领域事实、自然语言解析或古代唯一语义；有限检查不能替代一般证明。I.45与全书不计本篇完成，I.2继续暂缓。
+
+## Aristotle I.45：换位归约与结论保持
+
+新增[《前分析篇》I.45深读](papers/ancient/aristotle-prior-analytics-i45.zh-CN.md)，完整50b5–51b4、Owen印168–171本章正文与适用译注、所见校记和ERRATA范围。明确第一格转第三格的特称限制、限量换位存在承担、临时结论换位，以及Baroco/Bocardo直接换位失败不等于无效，附16题答案。[来源台账](papers/ancient/aristotle-prior-analytics-i45.sources.zh-CN.md)、[独立来源审查](papers/ancient/aristotle-prior-analytics-i45.source-audit.zh-CN.md)、[原创代码与真实日志](reproduction/aristotle-prior-analytics-i45/README.md)及[独立数学代码核验](reproduction/aristotle-prior-analytics-i45/math-code-audit.zh-CN.md)分层记录证据。明确现代集合语义与古代解释的差别，有限实跑不替代一般证明，证书拒绝不冒充所有体系不可证明。I.46与整书不计本篇完成；I.2继续暂缓。
