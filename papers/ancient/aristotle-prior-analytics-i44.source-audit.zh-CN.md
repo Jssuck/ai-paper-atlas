@@ -19,12 +19,16 @@
 
 重新阅读第10节新增实跑统计，并对照普通、`-O`、`-OO`三模式测试及实验日志：各18项测试通过、256组背景／假设组合中81组不相容、4096候选证书81份通过、513个整数奇偶检查、4096对正分子分母中2519对互素，数字一致。新增段落仍明确有限检查不代替一般证明；此复核仅核对文字与日志，不替代独立数学代码审查。
 
+## 排版复核
+
+两处行内公式 `B_1` 与 `H` 改用GitHub支持的反引号数学定界方式；逆向还原这两处后SHA-256与上一审定正文完全一致，确认无数学或来源语义变更。
+
 ## 最终文件绑定
 
 以下SHA-256绑定本次审查的实际文件。后续正文、统计或排版改动需要重新检查并更新绑定。README哈希覆盖完整文件，来源审查责任限定为本次新增I.44内容及定位，不重新认证既有全部目录。
 
 |文件|SHA-256|
 |---|---|
-|`papers/ancient/aristotle-prior-analytics-i44.zh-CN.md`|`b9f2ed7bb0eb2e0fb48719f16f675df7fb6de8d9075c5f1b1ee1d870b4d8731b`|
+|`papers/ancient/aristotle-prior-analytics-i44.zh-CN.md`|`904188f419b75e6eff32c90ddadf32733a4e7c58a520216fb933f18eedaee92e`|
 |`papers/ancient/aristotle-prior-analytics-i44.sources.zh-CN.md`|`5fab73f0f8815fed7f1e7de45ecabf7ec218d423f6d87ef0751b1b9453e545ea`|
 |`README.md`|`5f12aa6af59b4cb01b8f40461e33d2e9c470dbbbbbfd9391f18caf3f48028306`|
