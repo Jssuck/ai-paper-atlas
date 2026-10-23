@@ -15,12 +15,14 @@
 
 后续复核：第5.2节仅新增程序不实现空合取节点的范围说明；去除此句后的正文SHA-256与初审稿完全一致。该句进一步区分一般集合约定和实现范围，不改变历史归属或既有证明。
 
+排版复核：背景集合的显示公式仅将转义花括号改为显式花括号命令；还原该处后的哈希与上一冻结稿完全一致，语义和来源归属未变。
+
 ## 审查绑定
 
 以下SHA-256绑定本次实际审读文件；若后续文字、统计或排版变动，需重新核对并更新绑定，不能把旧审查当作新稿审查。README的绑定包括完整文件，但本审查的实质来源责任限于本次I.43新增内容及其定位。
 
 |文件|SHA-256|
 |---|---|
-|`papers/ancient/aristotle-prior-analytics-i43.zh-CN.md`|`e163f6344019e56f010892cf49007234f752b789bfaaed808ce8ebd4ab9d2a55`|
+|`papers/ancient/aristotle-prior-analytics-i43.zh-CN.md`|`83e4d4598d55387b2f6a06e1e7ae1433fdc316fb1881fe2303f88e0525262733`|
 |`papers/ancient/aristotle-prior-analytics-i43.sources.zh-CN.md`|`ebe2c9918715016f72db912ed045da07368b20fcc3a37229d3cbd52840ff427d`|
 |`README.md`|`42519bdc66fc0ddb4e5fc7daa7148f0498630f963170101084cf9af280572b52`|
