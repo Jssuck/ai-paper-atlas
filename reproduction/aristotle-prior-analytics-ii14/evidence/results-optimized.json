@@ -1,0 +1,2498 @@
+{
+  "policies": {
+    "C_nonempty": {
+      "conflicts": 15,
+      "model_count": 240,
+      "routes": [
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a7–14",
+          "name": "F1_E_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 30,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 14,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a14–18",
+          "name": "F1_O_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 14,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_E_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_O_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 16,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_both_universal",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_A_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "I",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a23–24",
+          "name": "F1_I_B_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a25–29",
+          "name": "F2_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a29–32",
+          "name": "F2_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a32–35",
+          "name": "F2_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a35–38",
+          "name": "F2_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a39–63b3",
+          "name": "F3_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b3–5",
+          "name": "F3_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 12,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "A"
+          },
+          "location": "63b5–8",
+          "name": "F3_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b8–10",
+          "name": "F3_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        }
+      ],
+      "summary": {
+        "direct": 15,
+        "internal": 15,
+        "reverse_refutation": 15
+      }
+    },
+    "all_terms_nonempty": {
+      "conflicts": 15,
+      "model_count": 218,
+      "routes": [
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a7–14",
+          "name": "F1_E_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a14–18",
+          "name": "F1_O_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_E_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_O_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 16,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_both_universal",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_A_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "I",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a23–24",
+          "name": "F1_I_B_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a25–29",
+          "name": "F2_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a29–32",
+          "name": "F2_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a32–35",
+          "name": "F2_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a35–38",
+          "name": "F2_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 8,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 28,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a39–63b3",
+          "name": "F3_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 28,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b3–5",
+          "name": "F3_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 4,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "A"
+          },
+          "location": "63b5–8",
+          "name": "F3_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 24,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b8–10",
+          "name": "F3_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        }
+      ],
+      "summary": {
+        "direct": 15,
+        "internal": 15,
+        "reverse_refutation": 15
+      }
+    },
+    "empty_allowed": {
+      "conflicts": 14,
+      "model_count": 255,
+      "routes": [
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a7–14",
+          "name": "F1_E_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a14–18",
+          "name": "F1_O_positive_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_E_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a17–18",
+          "name": "F1_O_negative_fixed",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": false,
+            "overlap_models": 15,
+            "smallest_overlap": {
+              "domain_types": [
+                0
+              ],
+              "extensions": {
+                "A": [],
+                "B": [],
+                "C": []
+              },
+              "mask": 1
+            }
+          },
+          "direct": {
+            "countermodels": 7,
+            "premise_models": 31,
+            "smallest_countermodel": {
+              "domain_types": [
+                0
+              ],
+              "extensions": {
+                "A": [],
+                "B": [],
+                "C": []
+              },
+              "mask": 1
+            },
+            "valid": false
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_both_universal",
+          "reverse_refutation": {
+            "countermodels": 7,
+            "premise_models": 15,
+            "smallest_countermodel": {
+              "domain_types": [
+                0
+              ],
+              "extensions": {
+                "A": [],
+                "B": [],
+                "C": []
+              },
+              "mask": 1
+            },
+            "valid": false
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "U",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a18–24",
+          "name": "F1_I_A_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 3,
+          "fixed": {
+            "kind": "I",
+            "pred": "B",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 1,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a23–24",
+          "name": "F1_I_B_particular",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a25–29",
+          "name": "F2_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a29–32",
+          "name": "F2_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "O",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a32–35",
+          "name": "F2_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "C"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 2,
+          "internal_result": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "B"
+          },
+          "location": "63a35–38",
+          "name": "F2_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63a39–63b3",
+          "name": "F3_U",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "C"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 1,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b3–5",
+          "name": "F3_I",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 15,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "U",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "A"
+          },
+          "location": "63b5–8",
+          "name": "F3_E",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "E",
+            "pred": "A",
+            "subj": "B"
+          }
+        },
+        {
+          "background": {
+            "kind": "E",
+            "pred": "C",
+            "subj": "A"
+          },
+          "conflict": {
+            "incompatible": true,
+            "overlap_models": 0,
+            "smallest_overlap": null
+          },
+          "direct": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "direct_figure": 2,
+          "fixed": {
+            "kind": "I",
+            "pred": "C",
+            "subj": "B"
+          },
+          "hypothesis": {
+            "kind": "U",
+            "pred": "A",
+            "subj": "B"
+          },
+          "internal": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "internal_figure": 3,
+          "internal_result": {
+            "kind": "I",
+            "pred": "A",
+            "subj": "C"
+          },
+          "location": "63b8–10",
+          "name": "F3_O",
+          "reverse_refutation": {
+            "countermodels": 0,
+            "premise_models": 32,
+            "smallest_countermodel": null,
+            "valid": true
+          },
+          "target": {
+            "kind": "O",
+            "pred": "A",
+            "subj": "B"
+          }
+        }
+      ],
+      "summary": {
+        "direct": 14,
+        "internal": 15,
+        "reverse_refutation": 14
+      }
+    }
+  },
+  "scope": "15 chapter-based teaching routes; not enumeration of every syllogism or historical semantics"
+}

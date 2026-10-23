@@ -1,0 +1,19 @@
+$ python -m unittest -v test_reproduce
+test_all_direct_with_C_existence (test_reproduce.ReconstructionTests.test_all_direct_with_C_existence) ... ok
+test_all_internal_routes (test_reproduce.ReconstructionTests.test_all_internal_routes) ... ok
+test_background_result_conflict (test_reproduce.ReconstructionTests.test_background_result_conflict) ... ok
+test_deterministic_result (test_reproduce.ReconstructionTests.test_deterministic_result) ... ok
+test_empty_C_counterexample_with_A_B_nonempty (test_reproduce.ReconstructionTests.test_empty_C_counterexample_with_A_B_nonempty) ... ok
+test_erase_background_is_invalid (test_reproduce.ReconstructionTests.test_erase_background_is_invalid) ... ok
+test_exact_negation (test_reproduce.ReconstructionTests.test_exact_negation) ... ok
+test_invalid_input (test_reproduce.ReconstructionTests.test_invalid_input) ... ok
+test_model_policy_counts (test_reproduce.ReconstructionTests.test_model_policy_counts) ... ok
+test_only_Darapti_needs_existence (test_reproduce.ReconstructionTests.test_only_Darapti_needs_existence) ... ok
+test_partial_I_O_can_coexist (test_reproduce.ReconstructionTests.test_partial_I_O_can_coexist) ... ok
+test_reverse_refutation (test_reproduce.ReconstructionTests.test_reverse_refutation) ... ok
+test_same_figure_alternative (test_reproduce.ReconstructionTests.test_same_figure_alternative) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.776s
+
+OK

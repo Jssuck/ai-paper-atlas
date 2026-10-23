@@ -1,0 +1,34 @@
+{
+  "all_nonempty": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 218,
+    "universal_shared_subject_to_overlap_countermodels": []
+  },
+  "boundary_checks": {
+    "AB_nonempty_not_enough": true,
+    "I_O_coexist": true,
+    "I_conversion": true,
+    "erase_background_fails": true,
+    "same_figure_direct": true,
+    "same_figure_reductio_internal": true
+  },
+  "empty_terms_allowed": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 255,
+    "universal_shared_subject_to_overlap_countermodels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "production_comparison": {
+    "implication_or_conflict_checks": 180,
+    "route_records": 45
+  }
+}

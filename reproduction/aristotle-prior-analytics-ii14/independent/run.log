@@ -1,0 +1,118 @@
+UTC 2026-10-23T21:36:45.078653+00:00
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Platform Linux-6.18.55-x86_64-with-glibc2.41
+$ python3 independent/oracle.py evidence/results-normal.json
+{
+  "all_nonempty": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 218,
+    "universal_shared_subject_to_overlap_countermodels": []
+  },
+  "boundary_checks": {
+    "AB_nonempty_not_enough": true,
+    "I_O_coexist": true,
+    "I_conversion": true,
+    "erase_background_fails": true,
+    "same_figure_direct": true,
+    "same_figure_reductio_internal": true
+  },
+  "empty_terms_allowed": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 255,
+    "universal_shared_subject_to_overlap_countermodels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "production_comparison": {
+    "implication_or_conflict_checks": 180,
+    "route_records": 45
+  }
+}
+
+
+EXIT 0
+$ python3 -O independent/oracle.py evidence/results-normal.json
+{
+  "all_nonempty": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 218,
+    "universal_shared_subject_to_overlap_countermodels": []
+  },
+  "boundary_checks": {
+    "AB_nonempty_not_enough": true,
+    "I_O_coexist": true,
+    "I_conversion": true,
+    "erase_background_fails": true,
+    "same_figure_direct": true,
+    "same_figure_reductio_internal": true
+  },
+  "empty_terms_allowed": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 255,
+    "universal_shared_subject_to_overlap_countermodels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "production_comparison": {
+    "implication_or_conflict_checks": 180,
+    "route_records": 45
+  }
+}
+
+
+EXIT 0
+$ python3 -OO independent/oracle.py evidence/results-normal.json
+{
+  "all_nonempty": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 218,
+    "universal_shared_subject_to_overlap_countermodels": []
+  },
+  "boundary_checks": {
+    "AB_nonempty_not_enough": true,
+    "I_O_coexist": true,
+    "I_conversion": true,
+    "erase_background_fails": true,
+    "same_figure_direct": true,
+    "same_figure_reductio_internal": true
+  },
+  "empty_terms_allowed": {
+    "complement_checks": 24,
+    "conditional_transposition_checks": 13824,
+    "models": 255,
+    "universal_shared_subject_to_overlap_countermodels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "production_comparison": {
+    "implication_or_conflict_checks": 180,
+    "route_records": 45
+  }
+}
+
+
+EXIT 0
+All 3 outputs byte-identical: PASS
