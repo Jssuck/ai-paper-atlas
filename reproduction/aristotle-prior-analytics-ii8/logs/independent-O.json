@@ -1,0 +1,11 @@
+{
+  "all_counts_and_countermodels_match": true,
+  "counts": {
+    "C_nonempty": 240,
+    "all_terms_nonempty": 218,
+    "empty_terms_allowed": 255
+  },
+  "independent_rows_checked": 48,
+  "report_sha256": "dc6adaa13573c138badd1d3c30c05db11b110bac13b326aa54cc4582f982b840",
+  "three_saved_modes_identical": true
+}

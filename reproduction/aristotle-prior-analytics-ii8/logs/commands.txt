@@ -1,0 +1,9 @@
+Executed from reproduction/aristotle-prior-analytics-ii8, Python standard library only:
+python -m unittest -v test_model > logs/test-normal.txt 2>&1
+python -O -m unittest -v test_model > logs/test-O.txt 2>&1
+python -OO -m unittest -v test_model > logs/test-OO.txt 2>&1
+python model.py > logs/run-normal.json
+python -O model.py > logs/run-O.json
+python -OO model.py > logs/run-OO.json
+cmp logs/run-normal.json logs/run-O.json
+cmp logs/run-normal.json logs/run-OO.json

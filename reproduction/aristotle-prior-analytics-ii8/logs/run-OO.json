@@ -1,0 +1,2360 @@
+{
+  "model_counts": {
+    "C_nonempty": 240,
+    "all_terms_nonempty": 218,
+    "empty_terms_allowed": 255
+  },
+  "rows": [
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 7,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 15,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "first_stated_result_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 7,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 31,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 7
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 7,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 15,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "first_stated_result_countermodel": {
+        "A": [],
+        "B": [],
+        "C": [],
+        "inhabited_types": [
+          0
+        ]
+      },
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 7,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 31,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 7
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 15,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 160,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 15,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "empty_terms_allowed",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 160,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 8,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 16,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 8,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 16,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 8,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 160,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 8,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "C_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 160,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 24,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Barbara",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 28,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 4,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Barbara",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 12,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 24,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Celarent",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 4,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Celarent",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 16,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 4,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "E",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Darii",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 24,
+      "stated_result": [
+        "O",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "U",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 24,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "O",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "U",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          7
+        ],
+        "B": [
+          7
+        ],
+        "C": [
+          4,
+          7
+        ],
+        "inhabited_types": [
+          4,
+          7
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Darii",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "O",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 152,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "E",
+          "B",
+          "C"
+        ],
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 4,
+      "stated_result": [
+        "E",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "U",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "I",
+          "A",
+          "B"
+        ]
+      ],
+      "first_refutation_countermodel": null,
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contradictory",
+      "mood": "Ferio",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 0,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 32,
+      "stated_result": [
+        "I",
+        "A",
+        "B"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "E",
+          "A",
+          "B"
+        ]
+      ],
+      "dropped_premise": [
+        "I",
+        "B",
+        "C"
+      ],
+      "entailed_ordered_pair_results": [
+        [
+          "O",
+          "B",
+          "C"
+        ]
+      ],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "major",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "E",
+        "B",
+        "C"
+      ],
+      "satisfying_models": 24,
+      "stated_result": [
+        "O",
+        "B",
+        "C"
+      ],
+      "stated_result_counterexamples": 0
+    },
+    {
+      "assumptions": [
+        [
+          "I",
+          "A",
+          "C"
+        ],
+        [
+          "I",
+          "B",
+          "C"
+        ]
+      ],
+      "dropped_premise": [
+        "E",
+        "A",
+        "B"
+      ],
+      "entailed_ordered_pair_results": [],
+      "first_refutation_countermodel": {
+        "A": [
+          5
+        ],
+        "B": [
+          6
+        ],
+        "C": [
+          5,
+          6
+        ],
+        "inhabited_types": [
+          5,
+          6
+        ]
+      },
+      "first_stated_result_countermodel": null,
+      "keep": "minor",
+      "mode": "contrary",
+      "mood": "Ferio",
+      "policy": "all_terms_nonempty",
+      "refutation_counterexamples": 16,
+      "refutation_target": [
+        "I",
+        "A",
+        "B"
+      ],
+      "satisfying_models": 160,
+      "stated_result": null,
+      "stated_result_counterexamples": null
+    }
+  ],
+  "scope": "II.8 modern unary set diagnostic; no original PDFs or translation"
+}

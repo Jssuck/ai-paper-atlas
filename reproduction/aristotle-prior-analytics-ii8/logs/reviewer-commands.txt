@@ -1,0 +1,7 @@
+Executed from reproduction/aristotle-prior-analytics-ii8 using the recorded Python environment:
+python independent_check.py > logs/independent-normal.json
+python -O independent_check.py > logs/independent-O.json
+python -OO independent_check.py > logs/independent-OO.json
+python -m unittest -v test_model > logs/reviewer-test-normal.txt 2>&1
+python -O -m unittest -v test_model > logs/reviewer-test-O.txt 2>&1
+python -OO -m unittest -v test_model > logs/reviewer-test-OO.txt 2>&1

@@ -1,0 +1,15 @@
+test_all_eight_contradictory_refutations (test_model.ConversionTests.test_all_eight_contradictory_refutations) ... ok
+test_contradictories_exact_negation (test_model.ConversionTests.test_contradictories_exact_negation) ... ok
+test_countermodel_replay (test_model.ConversionTests.test_countermodel_replay) ... ok
+test_generator_and_validation_before_short_circuit (test_model.ConversionTests.test_generator_and_validation_before_short_circuit) ... ok
+test_invalid_inputs_are_rejected (test_model.ConversionTests.test_invalid_inputs_are_rejected) ... ok
+test_model_counts (test_model.ConversionTests.test_model_counts) ... ok
+test_original_four_moods (test_model.ConversionTests.test_original_four_moods) ... ok
+test_particular_contrary_neither_refutes (test_model.ConversionTests.test_particular_contrary_neither_refutes) ... ok
+test_shared_countermodel_particular_opposition (test_model.ConversionTests.test_shared_countermodel_particular_opposition) ... ok
+test_universal_contrary_refutations_need_existence (test_model.ConversionTests.test_universal_contrary_refutations_need_existence) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.384s
+
+OK
