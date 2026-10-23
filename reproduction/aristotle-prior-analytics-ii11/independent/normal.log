@@ -1,0 +1,305 @@
+2026-10-23T18:41:17Z
+Python 3.12.14
+python  check_independent.py
+{
+  "models": {
+    "empty_terms_allowed": 255,
+    "all_terms_nonempty": 218
+  },
+  "policies": {
+    "empty_terms_allowed": {
+      "moods": [
+        "UUU",
+        "UII",
+        "EUE",
+        "EIO"
+      ],
+      "certificates": [
+        {
+          "mood": "UUU",
+          "hypothesis": [
+            "U",
+            0,
+            1
+          ],
+          "target": [
+            "O",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "UUU",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "UII",
+          "hypothesis": [
+            "U",
+            0,
+            1
+          ],
+          "target": [
+            "O",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "UII",
+          "hypothesis": [
+            "I",
+            1,
+            2
+          ],
+          "target": [
+            "E",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "EUE",
+          "hypothesis": [
+            "E",
+            0,
+            1
+          ],
+          "target": [
+            "I",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "EUE",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "EIO",
+          "hypothesis": [
+            "E",
+            0,
+            1
+          ],
+          "target": [
+            "I",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "EIO",
+          "hypothesis": [
+            "I",
+            1,
+            2
+          ],
+          "target": [
+            "E",
+            1,
+            2
+          ]
+        }
+      ],
+      "candidate_moods_checked": 64
+    },
+    "all_terms_nonempty": {
+      "moods": [
+        "UUU",
+        "UUI",
+        "UII",
+        "EUE",
+        "EUO",
+        "EIO"
+      ],
+      "certificates": [
+        {
+          "mood": "UUU",
+          "hypothesis": [
+            "U",
+            0,
+            1
+          ],
+          "target": [
+            "O",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "UUU",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "UUI",
+          "hypothesis": [
+            "U",
+            0,
+            1
+          ],
+          "target": [
+            "O",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "UUI",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "UII",
+          "hypothesis": [
+            "U",
+            0,
+            1
+          ],
+          "target": [
+            "O",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "UII",
+          "hypothesis": [
+            "I",
+            1,
+            2
+          ],
+          "target": [
+            "E",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "EUE",
+          "hypothesis": [
+            "E",
+            0,
+            1
+          ],
+          "target": [
+            "I",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "EUE",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "EUO",
+          "hypothesis": [
+            "E",
+            0,
+            1
+          ],
+          "target": [
+            "I",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "EUO",
+          "hypothesis": [
+            "U",
+            1,
+            2
+          ],
+          "target": [
+            "O",
+            1,
+            2
+          ]
+        },
+        {
+          "mood": "EIO",
+          "hypothesis": [
+            "E",
+            0,
+            1
+          ],
+          "target": [
+            "I",
+            0,
+            1
+          ]
+        },
+        {
+          "mood": "EIO",
+          "hypothesis": [
+            "I",
+            1,
+            2
+          ],
+          "target": [
+            "E",
+            1,
+            2
+          ]
+        }
+      ],
+      "candidate_moods_checked": 64
+    }
+  },
+  "empty_C_counterexample_cells": [
+    0
+  ],
+  "mixed_counterexample_cells": [
+    2,
+    3
+  ],
+  "true_I_hypothesis_models": 32,
+  "production_rows_compared": 256,
+  "status": "PASS"
+}

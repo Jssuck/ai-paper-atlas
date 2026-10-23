@@ -1,0 +1,2 @@
+python reproduce.py > evidence/results-normal.json
+exit_code=0
