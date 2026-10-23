@@ -1,0 +1,15 @@
+UTC: 2026-10-23T12:42:07.749295+00:00
+Python: 3.12.14
+Implementation: CPython
+System: Linux
+Dependencies: Python standard library only
+Command: python3 check.py
+Exit status: 0
+Command: python3 -m unittest -v test_check.py
+Exit status: 0
+Model counts: {"all_terms_nonempty": 218, "nonempty_universe": 255}
+Valid schemas: 8; invalid schemas with countermodels in both domains: 6
+Valid-schema/domain pairs: 16; failures: 0
+Distinct model/schema evaluations (each domain counted separately): 6622
+Author unit tests: 7 passed
+Dependency cycle refused: true

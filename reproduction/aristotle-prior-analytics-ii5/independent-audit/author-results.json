@@ -1,0 +1,312 @@
+{
+  "dependency_demo": {
+    "assumptions_retained": [
+      "A<=B",
+      "B<=A",
+      "assumed_C<=A"
+    ],
+    "cycle_refused": true,
+    "scope": "dependency audit, not general proof verification"
+  },
+  "invalid": {
+    "all_terms_nonempty": {
+      "conclusion_and_unchanged_major_do_not_recover_minor": {
+        "counterexamples": 12,
+        "premise_models": 20,
+        "smallest_countermodel": {
+          "A": [
+            5,
+            6
+          ],
+          "B": [
+            6
+          ],
+          "C": [
+            5
+          ],
+          "U": [
+            5,
+            6
+          ]
+        }
+      },
+      "conclusion_and_unchanged_minor_do_not_recover_major": {
+        "counterexamples": 8,
+        "premise_models": 16,
+        "smallest_countermodel": {
+          "A": [
+            7
+          ],
+          "B": [
+            2,
+            7
+          ],
+          "C": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ]
+        }
+      },
+      "particular_affirmative_does_not_recover_universal": {
+        "counterexamples": 128,
+        "premise_models": 160,
+        "smallest_countermodel": {
+          "A": [
+            7
+          ],
+          "B": [
+            2,
+            7
+          ],
+          "C": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ]
+        }
+      },
+      "particular_negative_does_not_recover_universal": {
+        "counterexamples": 128,
+        "premise_models": 152,
+        "smallest_countermodel": {
+          "A": [
+            7
+          ],
+          "B": [
+            7
+          ],
+          "C": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ]
+        }
+      },
+      "separate_negative_witnesses_not_shared_witness": {
+        "counterexamples": 14,
+        "premise_models": 150,
+        "smallest_countermodel": {
+          "A": [
+            4
+          ],
+          "B": [
+            2
+          ],
+          "C": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      "simple_E_conversion_not_complement_bridge": {
+        "counterexamples": 6,
+        "premise_models": 10,
+        "smallest_countermodel": {
+          "A": [
+            4
+          ],
+          "B": [
+            2
+          ],
+          "C": [
+            1
+          ],
+          "U": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    },
+    "nonempty_universe": {
+      "conclusion_and_unchanged_major_do_not_recover_minor": {
+        "counterexamples": 16,
+        "premise_models": 31,
+        "smallest_countermodel": {
+          "A": [
+            5
+          ],
+          "B": [],
+          "C": [
+            5
+          ],
+          "U": [
+            5
+          ]
+        }
+      },
+      "conclusion_and_unchanged_minor_do_not_recover_major": {
+        "counterexamples": 16,
+        "premise_models": 31,
+        "smallest_countermodel": {
+          "A": [],
+          "B": [
+            2
+          ],
+          "C": [],
+          "U": [
+            2
+          ]
+        }
+      },
+      "particular_affirmative_does_not_recover_universal": {
+        "counterexamples": 128,
+        "premise_models": 160,
+        "smallest_countermodel": {
+          "A": [
+            7
+          ],
+          "B": [
+            2,
+            7
+          ],
+          "C": [
+            7
+          ],
+          "U": [
+            2,
+            7
+          ]
+        }
+      },
+      "particular_negative_does_not_recover_universal": {
+        "counterexamples": 128,
+        "premise_models": 160,
+        "smallest_countermodel": {
+          "A": [
+            7
+          ],
+          "B": [
+            7
+          ],
+          "C": [
+            1,
+            7
+          ],
+          "U": [
+            1,
+            7
+          ]
+        }
+      },
+      "separate_negative_witnesses_not_shared_witness": {
+        "counterexamples": 16,
+        "premise_models": 160,
+        "smallest_countermodel": {
+          "A": [],
+          "B": [
+            2
+          ],
+          "C": [
+            1
+          ],
+          "U": [
+            1,
+            2
+          ]
+        }
+      },
+      "simple_E_conversion_not_complement_bridge": {
+        "counterexamples": 16,
+        "premise_models": 31,
+        "smallest_countermodel": {
+          "A": [],
+          "B": [],
+          "C": [
+            1
+          ],
+          "U": [
+            1
+          ]
+        }
+      }
+    }
+  },
+  "model_counts": {
+    "all_terms_nonempty": 218,
+    "nonempty_universe": 255
+  },
+  "valid": {
+    "all_terms_nonempty": {
+      "affirmative_forward": {
+        "counterexamples": 0,
+        "premise_models": 8
+      },
+      "negative_forward": {
+        "counterexamples": 0,
+        "premise_models": 4
+      },
+      "particular_affirmative_recovery": {
+        "counterexamples": 0,
+        "premise_models": 32
+      },
+      "particular_negative_recovery": {
+        "counterexamples": 0,
+        "premise_models": 30
+      },
+      "recover_B_subset_A": {
+        "counterexamples": 0,
+        "premise_models": 8
+      },
+      "recover_C_subset_B": {
+        "counterexamples": 0,
+        "premise_models": 8
+      },
+      "recover_negative_major": {
+        "counterexamples": 0,
+        "premise_models": 4
+      },
+      "recover_with_complement_bridge": {
+        "counterexamples": 0,
+        "premise_models": 6
+      }
+    },
+    "nonempty_universe": {
+      "affirmative_forward": {
+        "counterexamples": 0,
+        "premise_models": 15
+      },
+      "negative_forward": {
+        "counterexamples": 0,
+        "premise_models": 15
+      },
+      "particular_affirmative_recovery": {
+        "counterexamples": 0,
+        "premise_models": 32
+      },
+      "particular_negative_recovery": {
+        "counterexamples": 0,
+        "premise_models": 32
+      },
+      "recover_B_subset_A": {
+        "counterexamples": 0,
+        "premise_models": 15
+      },
+      "recover_C_subset_B": {
+        "counterexamples": 0,
+        "premise_models": 15
+      },
+      "recover_negative_major": {
+        "counterexamples": 0,
+        "premise_models": 15
+      },
+      "recover_with_complement_bridge": {
+        "counterexamples": 0,
+        "premise_models": 15
+      }
+    }
+  }
+}

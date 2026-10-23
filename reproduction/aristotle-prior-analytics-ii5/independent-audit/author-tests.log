@@ -1,0 +1,12 @@
+test_complement_reverse_is_not_implied (test_check.Checks.test_complement_reverse_is_not_implied) ... ok
+test_distinct_witnesses_explicit (test_check.Checks.test_distinct_witnesses_explicit) ... ok
+test_full_report (test_check.Checks.test_full_report) ... ok
+test_invalid_schemas_both_domains (test_check.Checks.test_invalid_schemas_both_domains) ... ok
+test_membership_models (test_check.Checks.test_membership_models) ... ok
+test_provenance (test_check.Checks.test_provenance) ... ok
+test_valid_schemas_both_domains (test_check.Checks.test_valid_schemas_both_domains) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.017s
+
+OK
