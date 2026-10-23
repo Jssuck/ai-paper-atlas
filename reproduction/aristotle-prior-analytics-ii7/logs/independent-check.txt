@@ -1,0 +1,3 @@
+empty_terms_allowed 4680 all 18 premise/countermodel counts independently match
+all_terms_nonempty 3746 all 18 premise/countermodel counts independently match
+PASS: bit-mask checker does not import model.py

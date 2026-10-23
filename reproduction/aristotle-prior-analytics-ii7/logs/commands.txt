@@ -1,0 +1,9 @@
+# Run from reproduction/aristotle-prior-analytics-ii7/
+python3 model.py > logs/run-normal.json
+python3 -O model.py > logs/run-O.json
+python3 -OO model.py > logs/run-OO.json
+python3 -m unittest -v test_model > logs/test-normal.txt 2>&1
+python3 -O -m unittest -v test_model > logs/test-O.txt 2>&1
+python3 -OO -m unittest -v test_model > logs/test-OO.txt 2>&1
+cmp logs/run-normal.json logs/run-O.json
+cmp logs/run-normal.json logs/run-OO.json

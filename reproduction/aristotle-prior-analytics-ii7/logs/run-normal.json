@@ -1,0 +1,335 @@
+{
+  "max_domain_size": 4,
+  "ordered_syntax_demo": {
+    "conversion_step_required_by_this_trace": true,
+    "darii_result": {
+      "kind": "I",
+      "predicate": "C",
+      "subject": "B"
+    },
+    "same_ordered_proposition": false,
+    "target": {
+      "kind": "I",
+      "predicate": "B",
+      "subject": "C"
+    }
+  },
+  "regimes": {
+    "all_terms_nonempty": {
+      "rules": {
+        "invalid_darapti_without_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 440
+        },
+        "invalid_felapton_without_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 350
+        },
+        "invalid_independent_some_bridge": {
+          "countermodels": 270,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              2
+            ],
+            "U": [
+              0,
+              1,
+              2
+            ]
+          },
+          "premise_models": 2068
+        },
+        "invalid_negative_simple_conversion": {
+          "countermodels": 156,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              2
+            ],
+            "U": [
+              0,
+              1,
+              2
+            ]
+          },
+          "premise_models": 710
+        },
+        "invalid_recover_universal_A": {
+          "countermodels": 554,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0,
+              1
+            ],
+            "U": [
+              0,
+              1
+            ]
+          },
+          "premise_models": 774
+        },
+        "invalid_recover_universal_E": {
+          "countermodels": 554,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0,
+              1
+            ],
+            "U": [
+              0,
+              1
+            ]
+          },
+          "premise_models": 684
+        },
+        "major_universal_reverse_gives_converse_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "major_universal_reverse_semantic_target_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "minor_universal_reverse_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "minor_universal_reverse_recovers_O": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 684
+        },
+        "negative_coverage_bridge_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 748
+        },
+        "negative_shared_witness_bridge_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 1660
+        },
+        "original_bocardo": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 684
+        },
+        "original_darapti_with_C_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 440
+        },
+        "original_datisi": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "original_disamis": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "original_felapton_with_C_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 350
+        },
+        "original_ferison": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 554
+        }
+      },
+      "total_models": 3746
+    },
+    "empty_terms_allowed": {
+      "rules": {
+        "invalid_darapti_without_existence": {
+          "countermodels": 120,
+          "first_countermodel": {
+            "A": [],
+            "B": [],
+            "C": [],
+            "U": [
+              0
+            ]
+          },
+          "premise_models": 780
+        },
+        "invalid_felapton_without_existence": {
+          "countermodels": 120,
+          "first_countermodel": {
+            "A": [],
+            "B": [],
+            "C": [],
+            "U": [
+              0
+            ]
+          },
+          "premise_models": 780
+        },
+        "invalid_independent_some_bridge": {
+          "countermodels": 334,
+          "first_countermodel": {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [
+              1
+            ],
+            "U": [
+              0,
+              1
+            ]
+          },
+          "premise_models": 2352
+        },
+        "invalid_negative_simple_conversion": {
+          "countermodels": 440,
+          "first_countermodel": {
+            "A": [],
+            "B": [
+              0
+            ],
+            "C": [],
+            "U": [
+              0
+            ]
+          },
+          "premise_models": 1214
+        },
+        "invalid_recover_universal_A": {
+          "countermodels": 554,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              0
+            ],
+            "C": [
+              0,
+              1
+            ],
+            "U": [
+              0,
+              1
+            ]
+          },
+          "premise_models": 774
+        },
+        "invalid_recover_universal_E": {
+          "countermodels": 554,
+          "first_countermodel": {
+            "A": [
+              0
+            ],
+            "B": [
+              1
+            ],
+            "C": [
+              0,
+              1
+            ],
+            "U": [
+              0,
+              1
+            ]
+          },
+          "premise_models": 774
+        },
+        "major_universal_reverse_gives_converse_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "major_universal_reverse_semantic_target_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "minor_universal_reverse_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "minor_universal_reverse_recovers_O": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "negative_coverage_bridge_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "negative_shared_witness_bridge_recovers_I": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 1880
+        },
+        "original_bocardo": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "original_darapti_with_C_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 440
+        },
+        "original_datisi": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "original_disamis": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        },
+        "original_felapton_with_C_existence": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 440
+        },
+        "original_ferison": {
+          "countermodels": 0,
+          "first_countermodel": null,
+          "premise_models": 774
+        }
+      },
+      "total_models": 4680
+    }
+  },
+  "scope": "finite set semantics; no general theorem claimed"
+}

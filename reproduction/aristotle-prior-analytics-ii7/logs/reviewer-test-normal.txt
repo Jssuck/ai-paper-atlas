@@ -1,0 +1,14 @@
+test_all_intended_implications_and_counts (test_model.ModelTests.test_all_intended_implications_and_counts) ... ok
+test_conclusion_cannot_restore_universal (test_model.ModelTests.test_conclusion_cannot_restore_universal) ... ok
+test_different_witnesses_are_not_identical (test_model.ModelTests.test_different_witnesses_are_not_identical) ... ok
+test_empty_middle_requires_explicit_existence (test_model.ModelTests.test_empty_middle_requires_explicit_existence) ... ok
+test_enumeration_complete_and_distinct (test_model.ModelTests.test_enumeration_complete_and_distinct) ... ok
+test_invalid_proposals_have_countermodels (test_model.ModelTests.test_invalid_proposals_have_countermodels) ... ok
+test_ordered_syntax_not_semantic_counterexample (test_model.ModelTests.test_ordered_syntax_not_semantic_counterexample) ... ok
+test_predicate_first_orientation (test_model.ModelTests.test_predicate_first_orientation) ... ok
+test_schema_guards_remain_active_under_optimization (test_model.ModelTests.test_schema_guards_remain_active_under_optimization) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.206s
+
+OK
