@@ -1,0 +1,15 @@
+test_compression_preserves_predicates (test_model.ModelTests.test_compression_preserves_predicates) ... ok
+test_counts_and_type_bits (test_model.ModelTests.test_counts_and_type_bits) ... ok
+test_coverage_uses_same_witness (test_model.ModelTests.test_coverage_uses_same_witness) ... ok
+test_distinct_existential_witnesses (test_model.ModelTests.test_distinct_existential_witnesses) ... ok
+test_elementwise_oracle_all_pairs (test_model.ModelTests.test_elementwise_oracle_all_pairs) ... ok
+test_invalid_masks_and_flags (test_model.ModelTests.test_invalid_masks_and_flags) ... ok
+test_invalid_models_and_terms (test_model.ModelTests.test_invalid_models_and_terms) ... ok
+test_minimality_against_all_smaller_models (test_model.ModelTests.test_minimality_against_all_smaller_models) ... ok
+test_orientation_and_empty (test_model.ModelTests.test_orientation_and_empty) ... ok
+test_valid_and_invalid_classification (test_model.ModelTests.test_valid_and_invalid_classification) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.323s
+
+OK

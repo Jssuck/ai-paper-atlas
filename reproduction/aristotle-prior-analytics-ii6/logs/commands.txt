@@ -1,0 +1,14 @@
+$ python3 model.py > logs/run-normal.json 2>&1
+exit_code=0
+$ python3 -O model.py > logs/run-O.json 2>&1
+exit_code=0
+$ python3 -OO model.py > logs/run-OO.json 2>&1
+exit_code=0
+$ python3 -m unittest -v test_model > logs/test-normal.txt 2>&1
+exit_code=0
+$ python3 -O -m unittest -v test_model > logs/test-O.txt 2>&1
+exit_code=0
+$ python3 -OO -m unittest -v test_model > logs/test-OO.txt 2>&1
+exit_code=0
+JSON outputs byte-identical: True
+sha256=c5df5770b5edc6391f0200158d3b0f0f8bb6458268f334b222b6018983460c8f

@@ -1,0 +1,11 @@
+# 独立核验运行记录
+从 reproduction/aristotle-prior-analytics-ii6/ 执行：
+python3 model.py                         exit_code=0
+python3 -O model.py                      exit_code=0
+python3 -OO model.py                     exit_code=0
+python3 -m unittest -v test_model         exit_code=0
+python3 -O -m unittest -v test_model      exit_code=0
+python3 -OO -m unittest -v test_model     exit_code=0
+python3 review/independent_check.py       exit_code=0
+三模式各10项测试通过；独立重跑三份JSON分别与logs/run-*.json逐字一致。
+三JSON共同SHA256=c5df5770b5edc6391f0200158d3b0f0f8bb6458268f334b222b6018983460c8f

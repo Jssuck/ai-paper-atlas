@@ -1,0 +1,281 @@
+{
+  "all_terms_nonempty": {
+    "models": 218,
+    "rules": {
+      "baroco_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 24
+      },
+      "baroco_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 24
+      },
+      "baroco_reverse_unstrengthened": {
+        "countermodels": 12,
+        "least_countermodel": {
+          "a": [
+            5,
+            6
+          ],
+          "b": [
+            6
+          ],
+          "c": [
+            5
+          ],
+          "universe": [
+            5,
+            6
+          ]
+        },
+        "premise_models": 36
+      },
+      "camestres_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 4
+      },
+      "camestres_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 4
+      },
+      "camestres_reverse_unstrengthened": {
+        "countermodels": 8,
+        "least_countermodel": {
+          "a": [
+            5,
+            6
+          ],
+          "b": [
+            6
+          ],
+          "c": [
+            5
+          ],
+          "universe": [
+            5,
+            6
+          ]
+        },
+        "premise_models": 12
+      },
+      "cesare_final_E_conversion": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 34
+      },
+      "cesare_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 4
+      },
+      "cesare_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 4
+      },
+      "cesare_reverse_unstrengthened": {
+        "countermodels": 8,
+        "least_countermodel": {
+          "a": [
+            5,
+            6
+          ],
+          "b": [
+            6
+          ],
+          "c": [
+            5
+          ],
+          "universe": [
+            5,
+            6
+          ]
+        },
+        "premise_models": 12
+      },
+      "festino_complement_coverage": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 30
+      },
+      "festino_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 24
+      },
+      "festino_independent_witnesses": {
+        "countermodels": 6,
+        "least_countermodel": {
+          "a": [
+            4
+          ],
+          "b": [
+            2
+          ],
+          "c": [
+            1
+          ],
+          "universe": [
+            1,
+            2,
+            4
+          ]
+        },
+        "premise_models": 30
+      },
+      "festino_simple_E_conversion": {
+        "countermodels": 6,
+        "least_countermodel": {
+          "a": [
+            4
+          ],
+          "b": [
+            2
+          ],
+          "c": [
+            1
+          ],
+          "universe": [
+            1,
+            2,
+            4
+          ]
+        },
+        "premise_models": 30
+      }
+    }
+  },
+  "empty_terms_allowed": {
+    "models": 255,
+    "rules": {
+      "baroco_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 32
+      },
+      "baroco_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 32
+      },
+      "baroco_reverse_unstrengthened": {
+        "countermodels": 16,
+        "least_countermodel": {
+          "a": [
+            5
+          ],
+          "b": [],
+          "c": [
+            5
+          ],
+          "universe": [
+            5
+          ]
+        },
+        "premise_models": 48
+      },
+      "camestres_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 15
+      },
+      "camestres_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 15
+      },
+      "camestres_reverse_unstrengthened": {
+        "countermodels": 16,
+        "least_countermodel": {
+          "a": [
+            5
+          ],
+          "b": [],
+          "c": [
+            5
+          ],
+          "universe": [
+            5
+          ]
+        },
+        "premise_models": 31
+      },
+      "cesare_final_E_conversion": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 63
+      },
+      "cesare_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 15
+      },
+      "cesare_reverse_strengthened": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 15
+      },
+      "cesare_reverse_unstrengthened": {
+        "countermodels": 16,
+        "least_countermodel": {
+          "a": [
+            6
+          ],
+          "b": [
+            6
+          ],
+          "c": [],
+          "universe": [
+            6
+          ]
+        },
+        "premise_models": 31
+      },
+      "festino_complement_coverage": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 32
+      },
+      "festino_forward": {
+        "countermodels": 0,
+        "least_countermodel": null,
+        "premise_models": 32
+      },
+      "festino_independent_witnesses": {
+        "countermodels": 8,
+        "least_countermodel": {
+          "a": [
+            4
+          ],
+          "b": [],
+          "c": [
+            1
+          ],
+          "universe": [
+            1,
+            4
+          ]
+        },
+        "premise_models": 40
+      },
+      "festino_simple_E_conversion": {
+        "countermodels": 16,
+        "least_countermodel": {
+          "a": [],
+          "b": [],
+          "c": [
+            1
+          ],
+          "universe": [
+            1
+          ]
+        },
+        "premise_models": 48
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+PASS 255 models x 14 rules: independently quantified truth-bit oracle matches model tuples
+model count 255 valid 9 invalid 5
+model count 218 valid 9 invalid 5
+PASS explicit article H-nonnecessity example
