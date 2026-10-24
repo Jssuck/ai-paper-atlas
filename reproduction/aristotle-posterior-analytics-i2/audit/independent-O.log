@@ -1,0 +1,13 @@
+Independent reviewer command: python3 -O audit/independent_checks.py
+test_all_single_premise_sets (__main__.ReviewTests.test_all_single_premise_sets) ... ok
+test_empty_extension_definition (__main__.ReviewTests.test_empty_extension_definition) ... ok
+test_input_boundaries_and_polarity (__main__.ReviewTests.test_input_boundaries_and_polarity) ... ok
+test_metadata_variants_two_premises (__main__.ReviewTests.test_metadata_variants_two_premises) ... ok
+test_modus_ponens_all_valuations (__main__.ReviewTests.test_modus_ponens_all_valuations) ... ok
+test_two_premise_complete_four_world_subspace (__main__.ReviewTests.test_two_premise_complete_four_world_subspace) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.229s
+
+OK
+{"definition_empty_domain_sizes": [1, 2, 3], "passed": true, "single_premise_pairs": 65536, "two_premise_cases": 4096, "two_premise_metadata_cases": 1024}

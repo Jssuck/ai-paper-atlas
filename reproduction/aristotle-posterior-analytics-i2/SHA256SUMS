@@ -1,0 +1,12 @@
+8b233d79b41c7b18ecedccf1eed60ff4fc8e56320628e2f96cc6b6fda9a8270c  ./README.md
+e267d42e4fb2dceb23ecdf4d9d1d563039580832ae1a39885782938020bc108d  ./environment.json
+5afe075aeb40a11d22457217374d24a30ae813fb871933fc58c8a0e0f9fa4f68  ./exhaustive.py
+b1f63b597d68910c19dfc1e2de08ae079091b3e4b889d3d9c8e9417bfdec4711  ./logs/exhaustive-O.log
+ad1bb6fea541beb7c8b89bf8335f2e0ef16d81c54928dc4d8ab4fd4ebe75caba  ./logs/exhaustive-OO.log
+4c54da2fcfaf219b9475bedde4c7cb1c7939fbceeb84ddd3861c3140ef546144  ./logs/exhaustive-normal.log
+97097e4751ede8b77fca27e7d0bf802b684fa3b7b216293b4d4c70eb0ebbab63  ./logs/tests-O.log
+7de3786ee76a8c4bf6098132e437573ab6bbfc5d9caf7ad7bcf0701a7a0eca01  ./logs/tests-OO.log
+c6e2677e0ec6c08e091b6a6b905e92d749e400af4bbb897a230fc1d8348a0e1c  ./logs/tests-normal.log
+b46f5513696db3b0ee03eb41bb6c959c0763d5466ebcbd5abf591faef82af255  ./model.py
+281f12362ef054fee65f4e46b28342a75b03713b88cadf737e59880d667f93ad  ./results.json
+15f7b5d7604593c3d4c1c81213a68a7124160e342807a12fb986d792f91c7afd  ./test_model.py

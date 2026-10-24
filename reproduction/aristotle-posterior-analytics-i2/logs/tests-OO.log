@@ -1,0 +1,24 @@
+Command: python3 -OO -m unittest -v test_model.py
+test_axiom (test_model.Tests.test_axiom) ... ok
+test_bad_inputs (test_model.Tests.test_bad_inputs) ... ok
+test_cause_absent (test_model.Tests.test_cause_absent) ... ok
+test_confidence_equal (test_model.Tests.test_confidence_equal) ... ok
+test_counterworld (test_model.Tests.test_counterworld) ... ok
+test_definition (test_model.Tests.test_definition) ... ok
+test_empty_premise (test_model.Tests.test_empty_premise) ... ok
+test_equivalent_masks_do_not_set_causes (test_model.Tests.test_equivalent_masks_do_not_set_causes) ... ok
+test_false_actual (test_model.Tests.test_false_actual) ... ok
+test_false_premise_vacuity (test_model.Tests.test_false_premise_vacuity) ... ok
+test_hypothesis_both_polarities (test_model.Tests.test_hypothesis_both_polarities) ... ok
+test_immediate (test_model.Tests.test_immediate) ... ok
+test_invalid_reverse (test_model.Tests.test_invalid_reverse) ... ok
+test_pass_is_not_knowledge (test_model.Tests.test_pass_is_not_knowledge) ... ok
+test_primary (test_model.Tests.test_primary) ... ok
+test_priority (test_model.Tests.test_priority) ... ok
+test_reverse_cause (test_model.Tests.test_reverse_cause) ... ok
+test_valid (test_model.Tests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

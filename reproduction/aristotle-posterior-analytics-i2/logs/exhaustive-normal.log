@@ -1,0 +1,77 @@
+Command: python3  exhaustive.py
+{
+  "finite_worlds": 8,
+  "truth_mask_pairs": 65536,
+  "valid_pairs": 6561,
+  "oracle_disagreements": 0,
+  "fixed_semantics_metadata_variants": 32,
+  "policy_pass_variants": 1,
+  "examples": {
+    "declared_all": {
+      "checks": {
+        "valid_on_finite_domain": true,
+        "premises_true_at_actual_world": true,
+        "primary_declared": true,
+        "immediate_declared": true,
+        "strict_confidence_policy": true,
+        "priority_policy": true,
+        "cause_links_declared": true
+      },
+      "declared_policy_pass": true,
+      "scientific_knowledge_certified": false
+    },
+    "same_truths_no_cause": {
+      "checks": {
+        "valid_on_finite_domain": true,
+        "premises_true_at_actual_world": true,
+        "primary_declared": true,
+        "immediate_declared": true,
+        "strict_confidence_policy": true,
+        "priority_policy": true,
+        "cause_links_declared": false
+      },
+      "declared_policy_pass": false,
+      "scientific_knowledge_certified": false
+    },
+    "equivalence_no_cause": {
+      "checks": {
+        "valid_on_finite_domain": true,
+        "premises_true_at_actual_world": true,
+        "primary_declared": true,
+        "immediate_declared": true,
+        "strict_confidence_policy": true,
+        "priority_policy": true,
+        "cause_links_declared": false
+      },
+      "declared_policy_pass": false,
+      "scientific_knowledge_certified": false
+    },
+    "false_actual_valid_inference": {
+      "checks": {
+        "valid_on_finite_domain": true,
+        "premises_true_at_actual_world": false,
+        "primary_declared": true,
+        "immediate_declared": true,
+        "strict_confidence_policy": true,
+        "priority_policy": true,
+        "cause_links_declared": true
+      },
+      "declared_policy_pass": false,
+      "scientific_knowledge_certified": false
+    },
+    "confidence_equal": {
+      "checks": {
+        "valid_on_finite_domain": true,
+        "premises_true_at_actual_world": true,
+        "primary_declared": true,
+        "immediate_declared": true,
+        "strict_confidence_policy": false,
+        "priority_policy": true,
+        "cause_links_declared": true
+      },
+      "declared_policy_pass": false,
+      "scientific_knowledge_certified": false
+    }
+  },
+  "limits": "Truth masks and supplied metadata cannot establish causes, immediacy, necessity, or human knowledge."
+}
