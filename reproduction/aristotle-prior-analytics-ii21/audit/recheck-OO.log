@@ -1,0 +1,65 @@
+COMMAND: python3 -OO -B audit/independent_oracle.py
+{
+  "accepted_states": 10,
+  "malformed_worlds": 8,
+  "rejected_states": 6,
+  "set_checks": [
+    {
+      "closed_counts": {
+        "full_empty_D": 4,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 1,
+        "negative_route": 2,
+        "positive_route": 2,
+        "worlds": 16
+      },
+      "compared_worlds": 16,
+      "n": 1
+    },
+    {
+      "closed_counts": {
+        "full_empty_D": 16,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 9,
+        "negative_route": 28,
+        "positive_route": 28,
+        "worlds": 256
+      },
+      "compared_worlds": 256,
+      "n": 2
+    },
+    {
+      "closed_counts": {
+        "full_empty_D": 64,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 61,
+        "negative_route": 296,
+        "positive_route": 296,
+        "worlds": 4096
+      },
+      "compared_worlds": 4096,
+      "n": 3
+    }
+  ],
+  "state_combinations": 16,
+  "verdict": "PASS"
+}
+
+COMMAND: python3 -OO -B -m unittest -v test_epistemic_routes
+test_eight_state_summary (test_epistemic_routes.RoutesTest.test_eight_state_summary) ... ok
+test_empty_D_is_not_contradiction (test_epistemic_routes.RoutesTest.test_empty_D_is_not_contradiction) ... ok
+test_full_nonempty_impossible (test_epistemic_routes.RoutesTest.test_full_nonempty_impossible) ... ok
+test_knowledge_is_factive (test_epistemic_routes.RoutesTest.test_knowledge_is_factive) ... ok
+test_missing_bridge_consistent (test_epistemic_routes.RoutesTest.test_missing_bridge_consistent) ... ok
+test_missing_recognition_blocks (test_epistemic_routes.RoutesTest.test_missing_recognition_blocks) ... ok
+test_no_automatic_exercise (test_epistemic_routes.RoutesTest.test_no_automatic_exercise) ... ok
+test_no_error_when_opinion_absent (test_epistemic_routes.RoutesTest.test_no_error_when_opinion_absent) ... ok
+test_route_soundness (test_epistemic_routes.RoutesTest.test_route_soundness) ... ok
+test_valid_state_invariants (test_epistemic_routes.RoutesTest.test_valid_state_invariants) ... ok
+test_world_counts (test_epistemic_routes.RoutesTest.test_world_counts) ... ok
+test_world_validation (test_epistemic_routes.RoutesTest.test_world_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.057s
+
+OK

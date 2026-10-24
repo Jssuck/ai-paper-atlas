@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[II.20：有推论，为什么还不一定有反驳？](papers/ancient/aristotle-prior-analytics-ii20.zh-CN.md)，完整66b4–17，附有效推导与指定论题反驳的区别、全负及全特称反模型、逐步证明、练习答案及独立核验的教学复现。
+最新补读：[II.21：知道前提，为什么仍会误判个案？](papers/ancient/aristotle-prior-analytics-ii21.zh-CN.md)，完整66b18–67b26，附普遍知识、个别识别与实际合观的区别、双路径冲突及空项反例、逐步证明、练习答案和独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -78,6 +78,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.18精读](papers/ancient/aristotle-prior-analytics-ii18.zh-CN.md) | AI推理前史回填：错误追溯、有效推导与真假边界 | 深读v1 · 完整66a16–24及文本/解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.19精读](papers/ancient/aristotle-prior-analytics-ii19.zh-CN.md) | AI推理前史回填：中项、问答顺序与论证可见性 | 深读v1 · 完整66a25–66b3及异读/解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并核1913英译转录） | [Aristotle前分析篇II.20精读](papers/ancient/aristotle-prior-analytics-ii20.zh-CN.md) | AI推理前史回填：三段论与指定论题的反驳条件 | 深读v1 · 完整66b4–17及异读/解释边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及1913译文转录） | [Aristotle前分析篇II.21精读](papers/ancient/aristotle-prior-analytics-ii21.zh-CN.md) | AI推理前史补读：普遍知识、个别识别、合观与意见冲突 | 深读v1 · 完整66b18–67b26及版本/认识语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -985,3 +986,6 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 
 [深读正文](papers/ancient/aristotle-prior-analytics-ii20.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii20.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii20.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii20.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii20/README.md)。本单元区分有效三段论与反驳指定论题、肯定回答与全称回答，以及矛盾与反对。明确全负、全特称限制的三项直言范围和非空项语义；有限模型实验不替代一般证明。
 
+### 《前分析篇》II.21 补读附件
+
+[深读正文](papers/ancient/aristotle-prior-analytics-ii21.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii21.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii21.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii21.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii21/README.md)。本单元仅覆盖66b18–67b26；区分客观蕴涵、前提持有、个别识别与实际合观，显式说明双路径冲突的非空条件，保留译注分歧和善恶本质段的开放结尾。有限状态实验不是古代心理理论或真实认知实验，也不替代一般证明。

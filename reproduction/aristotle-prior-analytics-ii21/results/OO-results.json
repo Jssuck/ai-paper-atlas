@@ -1,0 +1,139 @@
+{
+  "recognition_states": [
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": false,
+      "recognition_stored": false,
+      "universal_stored": false
+    },
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": true,
+      "recognition_stored": false,
+      "universal_stored": false
+    },
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": false,
+      "recognition_stored": true,
+      "universal_stored": false
+    },
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": true,
+      "recognition_stored": true,
+      "universal_stored": false
+    },
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": false,
+      "recognition_stored": false,
+      "universal_stored": true
+    },
+    {
+      "available": false,
+      "conflict_after": null,
+      "exercised_before": false,
+      "negative_opinion": true,
+      "recognition_stored": false,
+      "universal_stored": true
+    },
+    {
+      "available": true,
+      "conflict_after": false,
+      "exercised_before": false,
+      "negative_opinion": false,
+      "recognition_stored": true,
+      "universal_stored": true
+    },
+    {
+      "available": true,
+      "conflict_after": true,
+      "exercised_before": false,
+      "negative_opinion": true,
+      "recognition_stored": true,
+      "universal_stored": true
+    }
+  ],
+  "set_census": [
+    {
+      "counts": {
+        "full_empty_D": 4,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 1,
+        "negative_route": 2,
+        "positive_route": 2,
+        "worlds": 16
+      },
+      "missing_p4_witness": {
+        "A": [
+          0
+        ],
+        "B": [
+          0
+        ],
+        "C": [],
+        "D": [
+          0
+        ]
+      },
+      "n": 1
+    },
+    {
+      "counts": {
+        "full_empty_D": 16,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 9,
+        "negative_route": 28,
+        "positive_route": 28,
+        "worlds": 256
+      },
+      "missing_p4_witness": {
+        "A": [
+          0
+        ],
+        "B": [
+          0
+        ],
+        "C": [],
+        "D": [
+          0
+        ]
+      },
+      "n": 2
+    },
+    {
+      "counts": {
+        "full_empty_D": 64,
+        "full_nonempty_D": 0,
+        "missing_p4_nonempty_D": 61,
+        "negative_route": 296,
+        "positive_route": 296,
+        "worlds": 4096
+      },
+      "missing_p4_witness": {
+        "A": [
+          0
+        ],
+        "B": [
+          0
+        ],
+        "C": [],
+        "D": [
+          0
+        ]
+      },
+      "n": 3
+    }
+  ]
+}
