@@ -1,0 +1,125 @@
+{
+  "preferences": {
+    "symmetric_positive": {
+      "assignments": 25,
+      "premise_models": 10,
+      "violations": 0
+    },
+    "unrestricted": {
+      "assignments": 2401,
+      "first_counterexample": [
+        -1,
+        -3,
+        -2,
+        -1
+      ],
+      "premise_models": 175,
+      "violations": 70
+    }
+  },
+  "scope": "finite modern reconstruction, not a general proof",
+  "sets": [
+    {
+      "n": 1,
+      "rules": {
+        "chain": {
+          "premise_models": 4,
+          "violations": 0
+        },
+        "complement_pair": {
+          "premise_models": 2,
+          "violations": 0
+        },
+        "middle_transfer": {
+          "premise_models": 6,
+          "violations": 0
+        },
+        "negative_conversion": {
+          "premise_models": 8,
+          "violations": 0
+        },
+        "negative_transfer": {
+          "premise_models": 6,
+          "violations": 0
+        },
+        "only_coverage": {
+          "premise_models": 6,
+          "violations": 0
+        },
+        "partition_transport": {
+          "premise_models": 2,
+          "violations": 0
+        }
+      },
+      "worlds": 16
+    },
+    {
+      "n": 2,
+      "rules": {
+        "chain": {
+          "premise_models": 16,
+          "violations": 0
+        },
+        "complement_pair": {
+          "premise_models": 4,
+          "violations": 0
+        },
+        "middle_transfer": {
+          "premise_models": 36,
+          "violations": 0
+        },
+        "negative_conversion": {
+          "premise_models": 64,
+          "violations": 0
+        },
+        "negative_transfer": {
+          "premise_models": 36,
+          "violations": 0
+        },
+        "only_coverage": {
+          "premise_models": 36,
+          "violations": 0
+        },
+        "partition_transport": {
+          "premise_models": 4,
+          "violations": 0
+        }
+      },
+      "worlds": 256
+    },
+    {
+      "n": 3,
+      "rules": {
+        "chain": {
+          "premise_models": 64,
+          "violations": 0
+        },
+        "complement_pair": {
+          "premise_models": 8,
+          "violations": 0
+        },
+        "middle_transfer": {
+          "premise_models": 216,
+          "violations": 0
+        },
+        "negative_conversion": {
+          "premise_models": 512,
+          "violations": 0
+        },
+        "negative_transfer": {
+          "premise_models": 216,
+          "violations": 0
+        },
+        "only_coverage": {
+          "premise_models": 216,
+          "violations": 0
+        },
+        "partition_transport": {
+          "premise_models": 8,
+          "violations": 0
+        }
+      },
+      "worlds": 4096
+    }
+  ]
+}

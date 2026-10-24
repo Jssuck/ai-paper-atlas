@@ -1,0 +1,85 @@
+{
+  "python": "3.12.14",
+  "optimize": 2,
+  "boolean_checks": [
+    {
+      "name": "affirmative_closed_chain",
+      "all_rows": 8,
+      "premise_rows": 2,
+      "failures": 0
+    },
+    {
+      "name": "negative_celarent_and_conversion",
+      "all_rows": 8,
+      "premise_rows": 4,
+      "failures": 0
+    },
+    {
+      "name": "negative_equal_minor_terms",
+      "all_rows": 8,
+      "premise_rows": 3,
+      "failures": 0
+    },
+    {
+      "name": "partition_transport",
+      "all_rows": 16,
+      "premise_rows": 2,
+      "failures": 0
+    },
+    {
+      "name": "partition_complements",
+      "all_rows": 16,
+      "premise_rows": 2,
+      "failures": 0
+    },
+    {
+      "name": "closed_world_coverage",
+      "all_rows": 8,
+      "premise_rows": 3,
+      "failures": 0
+    },
+    {
+      "name": "co_subject_bridge",
+      "all_rows": 8,
+      "premise_rows": 3,
+      "failures": 0
+    }
+  ],
+  "countermodels": {
+    "equal_extremes_without_chain": [
+      true,
+      false,
+      true
+    ],
+    "no_complement_from_disjointness": [
+      false,
+      false
+    ],
+    "partition_no_exclusivity": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "partition_no_exhaustivity": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "uncovered_extension": [
+      true,
+      false,
+      false
+    ],
+    "co_subject_no_bridge": [
+      false,
+      true,
+      false
+    ]
+  },
+  "rational_grid_rows": 100,
+  "preference_countermodels": 2,
+  "status": "PASS",
+  "scope": "Pointwise Boolean teaching model and stated rational additive model only; not historical semantics or empirical preference proof."
+}

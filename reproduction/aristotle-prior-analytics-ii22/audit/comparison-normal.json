@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "optimize": 0,
+  "set_comparisons": [
+    {
+      "n": 0,
+      "worlds": 1,
+      "rule_pair_comparisons": 7,
+      "premise_models": {
+        "chain": 1,
+        "negative_conversion": 1,
+        "negative_transfer": 1,
+        "partition_transport": 1,
+        "complement_pair": 1,
+        "only_coverage": 1,
+        "middle_transfer": 1
+      }
+    },
+    {
+      "n": 1,
+      "worlds": 16,
+      "rule_pair_comparisons": 112,
+      "premise_models": {
+        "chain": 4,
+        "negative_conversion": 8,
+        "negative_transfer": 6,
+        "partition_transport": 2,
+        "complement_pair": 2,
+        "only_coverage": 6,
+        "middle_transfer": 6
+      }
+    },
+    {
+      "n": 2,
+      "worlds": 256,
+      "rule_pair_comparisons": 1792,
+      "premise_models": {
+        "chain": 16,
+        "negative_conversion": 64,
+        "negative_transfer": 36,
+        "partition_transport": 4,
+        "complement_pair": 4,
+        "only_coverage": 36,
+        "middle_transfer": 36
+      }
+    },
+    {
+      "n": 3,
+      "worlds": 4096,
+      "rule_pair_comparisons": 28672,
+      "premise_models": {
+        "chain": 64,
+        "negative_conversion": 512,
+        "negative_transfer": 216,
+        "partition_transport": 8,
+        "complement_pair": 8,
+        "only_coverage": 216,
+        "middle_transfer": 216
+      }
+    }
+  ],
+  "preference_comparisons": 2401,
+  "imports": "production evaluate/preference only for system under test; expected results independently constructed"
+}

@@ -1,0 +1,16 @@
+command: python3 -B -m unittest -v test_relations
+optimization: 0
+test_chain_requires_reverse_link (test_relations.RelationsTests.test_chain_requires_reverse_link) ... ok
+test_enumeration_and_counts (test_relations.RelationsTests.test_enumeration_and_counts) ... ok
+test_input_guards (test_relations.RelationsTests.test_input_guards) ... ok
+test_middle_reverse_link_is_essential (test_relations.RelationsTests.test_middle_reverse_link_is_essential) ... ok
+test_negative_is_not_equality_or_complement (test_relations.RelationsTests.test_negative_is_not_equality_or_complement) ... ok
+test_only_coverage_is_essential (test_relations.RelationsTests.test_only_coverage_is_essential) ... ok
+test_partition_coverage_is_essential (test_relations.RelationsTests.test_partition_coverage_is_essential) ... ok
+test_partition_exclusivity_is_essential (test_relations.RelationsTests.test_partition_exclusivity_is_essential) ... ok
+test_preference_hidden_assumption (test_relations.RelationsTests.test_preference_hidden_assumption) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.014s
+
+OK
