@@ -1,0 +1,38 @@
+{
+  "scope": "two objects, two times; event model: three times",
+  "temporal_models": {
+    "traces": 4096,
+    "oracle_mismatches": 0,
+    "both_premises_all": 256,
+    "preservation_failures": 0,
+    "conclusion_not_all": 2800,
+    "contrapositive_failures": 0,
+    "snapshot_upgrade_counterexamples": 448
+  },
+  "event_cases": 64,
+  "event_oracle_mismatches": 0,
+  "examples": {
+    "intermittent_event": {
+      "conditional_all": true,
+      "event_all": false,
+      "event_some": true,
+      "trigger_some": true
+    },
+    "vacuous_condition": {
+      "conditional_all": true,
+      "event_all": false,
+      "event_some": false,
+      "trigger_some": false
+    },
+    "equal_prefix_different_future": {
+      "prefix": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "constant_extension_at_4": true,
+      "changed_extension_at_4": false
+    }
+  }
+}

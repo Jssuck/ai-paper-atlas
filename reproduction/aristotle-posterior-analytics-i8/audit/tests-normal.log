@@ -1,0 +1,14 @@
+Independent reviewer command: python3  -B -m unittest -v audit/test_independent.py
+test_all_traces_with_bit_violations (audit.test_independent.IndependentTests.test_all_traces_with_bit_violations) ... ok
+test_condition_law_neither_permanence_nor_existence (audit.test_independent.IndependentTests.test_condition_law_neither_permanence_nor_existence) ... ok
+test_event_bit_oracle (audit.test_independent.IndependentTests.test_event_bit_oracle) ... ok
+test_failed_premise_identity_alternates (audit.test_independent.IndependentTests.test_failed_premise_identity_alternates) ... ok
+test_prefixes_at_boundary_and_remote_index (audit.test_independent.IndependentTests.test_prefixes_at_boundary_and_remote_index) ... ok
+test_production_output_counts (audit.test_independent.IndependentTests.test_production_output_counts) ... ok
+test_rejected_inputs (audit.test_independent.IndependentTests.test_rejected_inputs) ... ok
+test_reverse_implication_fails_with_nonempty_conclusion (audit.test_independent.IndependentTests.test_reverse_implication_fails_with_nonempty_conclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.095s
+
+OK

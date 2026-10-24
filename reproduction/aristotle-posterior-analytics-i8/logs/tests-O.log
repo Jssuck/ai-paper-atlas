@@ -1,0 +1,24 @@
+Command: python3 -O -m unittest -v test_model.py
+test_boolean_validation (test_model.TemporalTests.test_boolean_validation) ... ok
+test_chain (test_model.TemporalTests.test_chain) ... ok
+test_empty_event_rejected (test_model.TemporalTests.test_empty_event_rejected) ... ok
+test_empty_horizon_rejected (test_model.TemporalTests.test_empty_horizon_rejected) ... ok
+test_empty_predicates (test_model.TemporalTests.test_empty_predicates) ... ok
+test_enumeration (test_model.TemporalTests.test_enumeration) ... ok
+test_equal_prefixes (test_model.TemporalTests.test_equal_prefixes) ... ok
+test_event_condition_without_permanence (test_model.TemporalTests.test_event_condition_without_permanence) ... ok
+test_failure_premise_can_vary_by_time (test_model.TemporalTests.test_failure_premise_can_vary_by_time) ... ok
+test_future_divergence (test_model.TemporalTests.test_future_divergence) ... ok
+test_index_validation (test_model.TemporalTests.test_index_validation) ... ok
+test_major_failure (test_model.TemporalTests.test_major_failure) ... ok
+test_minor_failure (test_model.TemporalTests.test_minor_failure) ... ok
+test_snapshot_not_global (test_model.TemporalTests.test_snapshot_not_global) ... ok
+test_trigger_not_sufficient_if_law_false (test_model.TemporalTests.test_trigger_not_sufficient_if_law_false) ... ok
+test_true_conclusion_does_not_certify_premises (test_model.TemporalTests.test_true_conclusion_does_not_certify_premises) ... ok
+test_vacuity_not_existence (test_model.TemporalTests.test_vacuity_not_existence) ... ok
+test_wrong_lengths_rejected (test_model.TemporalTests.test_wrong_lengths_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.060s
+
+OK
