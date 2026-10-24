@@ -4,7 +4,7 @@
 
 ## 结论与修正
 
-最终版本通过本报告所列范围的核验。正文已明确“全部或某些”原理与程序“每个前提严格更高”加强政策不同；概率算例限定为固定分量p，避免“任一”为析取的歧义；定义空外延核验由本次独立脚本实际补充。最终正文、代码、结果字节摘要见末表。
+最终版本通过本报告所列范围的核验。正文已明确“全部或某些”原理与程序“每个前提严格更高”加强政策不同；概率算例限定为固定分量p，避免“任一”为析取的歧义；定义空外延核验由本次独立脚本实际补充。最终正文、代码、结果字节摘要见末表。排版复核后仅在加粗冒号标记后加入空格；逆向移除这些空格可精确还原先前已审正文的摘要，技术内容与生产代码均未变，原真实运行日志继续适用，未声称另有重跑。
 
 ## 数学检查
 
@@ -53,7 +53,7 @@ python3 -OO audit/independent_checks.py
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `papers/ancient/aristotle-posterior-analytics-i2.zh-CN.md` | `fcd4d54721c33c90971d3741013d8a835f8885d528fc9f15540d31c54bcad0ee` |
+| `papers/ancient/aristotle-posterior-analytics-i2.zh-CN.md` | `97a4828f2676f7bd0f845b630a46f3192cda4451d6444ef1735e17420f31ace6` |
 | `reproduction/aristotle-posterior-analytics-i2/model.py` | `b46f5513696db3b0ee03eb41bb6c959c0763d5466ebcbd5abf591faef82af255` |
 | `reproduction/aristotle-posterior-analytics-i2/test_model.py` | `15f7b5d7604593c3d4c1c81213a68a7124160e342807a12fb986d792f91c7afd` |
 | `reproduction/aristotle-posterior-analytics-i2/exhaustive.py` | `5afe075aeb40a11d22457217374d24a30ae813fb871933fc58c8a0e0f9fa4f68` |
