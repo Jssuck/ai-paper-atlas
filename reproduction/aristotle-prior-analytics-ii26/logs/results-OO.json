@@ -1,0 +1,44 @@
+{
+  "max_domain_size": 4,
+  "model": "finite labeled sets; empty classes and empty domain allowed",
+  "routes": {
+    "first_particular": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 0,
+      "genuine_rejections": 774,
+      "premises_hold": 774
+    },
+    "lower_negative": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 0,
+      "genuine_rejections": 440,
+      "premises_hold": 440
+    },
+    "lower_positive": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 0,
+      "genuine_rejections": 440,
+      "premises_hold": 440
+    },
+    "second_negative": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 121,
+      "genuine_rejections": 220,
+      "premises_hold": 341
+    },
+    "upper_negative": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 121,
+      "genuine_rejections": 220,
+      "premises_hold": 341
+    },
+    "upper_positive": {
+      "conclusion_failures": 0,
+      "empty_subject_nonrejections": 121,
+      "genuine_rejections": 220,
+      "premises_hold": 341
+    }
+  },
+  "square_contradiction_failures": 0,
+  "worlds": 4681
+}

@@ -1,0 +1,22 @@
+Command: python3 -O -m unittest -v test_objections.py
+test_all_finite_models (test_objections.ObjectionTests.test_all_finite_models) ... ok
+test_empty_lower_rejected (test_objections.ObjectionTests.test_empty_lower_rejected) ... ok
+test_empty_subject_universals_cotrue (test_objections.ObjectionTests.test_empty_subject_universals_cotrue) ... ok
+test_empty_upper_negative_not_refutation (test_objections.ObjectionTests.test_empty_upper_negative_not_refutation) ... ok
+test_empty_upper_positive_not_refutation (test_objections.ObjectionTests.test_empty_upper_positive_not_refutation) ... ok
+test_false_premise_despite_true_conclusion (test_objections.ObjectionTests.test_false_premise_despite_true_conclusion) ... ok
+test_first_figure_particular (test_objections.ObjectionTests.test_first_figure_particular) ... ok
+test_invalid_inputs (test_objections.ObjectionTests.test_invalid_inputs) ... ok
+test_local_negative_not_universal (test_objections.ObjectionTests.test_local_negative_not_universal) ... ok
+test_local_positive_not_universal (test_objections.ObjectionTests.test_local_positive_not_universal) ... ok
+test_lower_negative (test_objections.ObjectionTests.test_lower_negative) ... ok
+test_lower_positive (test_objections.ObjectionTests.test_lower_positive) ... ok
+test_second_figure_negative (test_objections.ObjectionTests.test_second_figure_negative) ... ok
+test_upper_negative (test_objections.ObjectionTests.test_upper_negative) ... ok
+test_upper_positive (test_objections.ObjectionTests.test_upper_positive) ... ok
+test_wrong_upper_inclusion (test_objections.ObjectionTests.test_wrong_upper_inclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.040s
+
+OK

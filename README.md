@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[II.24：相似事例为何不能自动成为普遍规则？](papers/ancient/aristotle-prior-analytics-ii24.zh-CN.md)，完整68b38–69a19，拆解举例论证的规则取得与演绎应用，附目标覆盖的精确条件、反模型、练习答案和独立核验的教学复现。
+最新补读：[II.26：反驳一条全称前提，究竟需要多强的证据？](papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md)，完整69a37–70a2，重建上位规则与下位反例的四条路线，区分反对、矛盾和空项条件，保留第二格与章末的文本张力，附独立核验的教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -82,6 +82,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本与1913译文电子转录） | [Aristotle前分析篇II.22精读](papers/ancient/aristotle-prior-analytics-ii22.zh-CN.md) | AI推理前史补读：换位、互补等值、穷尽分类与偏好推论条件 | 深读v1 · 完整67b27–68b7及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本与页面标1928底本的译文电子转录） | [Aristotle前分析篇II.23精读](papers/ancient/aristotle-prior-analytics-ii23.zh-CN.md) | AI推理前史补读：归纳、穷尽覆盖、换位与认识次序 | 深读v1 · 完整68b8–37及版本/语义边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及页面标示1928底本转录） | [Aristotle前分析篇II.24精读](papers/ancient/aristotle-prior-analytics-ii24.zh-CN.md) | AI推理前史补读：举例、相似类别、规则取得与目标覆盖 | 深读v1 · 完整68b38–69a19及证据边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及当前标为1928底本的转录） | [Aristotle前分析篇II.26精读](papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md) | AI推理前史补读：反驳证书、上下位路线、量词强度与直接性 | 深读v1 · 完整69a37–70a2及版本/解释边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1006,3 +1007,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《前分析篇》II.24 补读附件
 
 [深读正文](papers/ancient/aristotle-prior-analytics-ii24.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii24.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii24.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii24.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii24/README.md)。本单元仅覆盖68b38–69a19；区分相似分类、由例取得规则与规则的演绎应用，说明目标覆盖与全类覆盖的区别。有限模型不是古代战争史或类比效能实验，不替代一般证明；II.25与全书不计本单元完成。
+
+
+### 《前分析篇》II.26 补读附件
+
+[深读正文](papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii26.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii26.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii26.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii26/README.md)。本单元仅覆盖69a37–70a2；区分上位全称反对与下位特称矛盾，明确存在条件和第二格的有效否定路线，不把本章直接反驳方式误说成一般逻辑的不可能。有限模型不检验古代科学分类事实，不替代一般证明；I.2与II.25仍暂缓而非完成，II.27不计本单元完成。
