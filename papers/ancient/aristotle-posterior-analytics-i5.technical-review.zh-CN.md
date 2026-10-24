@@ -44,13 +44,17 @@ python -OO -m unittest -v test_model
 
 独立日志：[normal](../../reproduction/aristotle-posterior-analytics-i5/audit/check-normal.log)、[-O](../../reproduction/aristotle-posterior-analytics-i5/audit/check-O.log)、[-OO](../../reproduction/aristotle-posterior-analytics-i5/audit/check-OO.log)。生产重跑日志：[normal](../../reproduction/aristotle-posterior-analytics-i5/audit/replay-normal.log)、[-O](../../reproduction/aristotle-posterior-analytics-i5/audit/replay-O.log)、[-OO](../../reproduction/aristotle-posterior-analytics-i5/audit/replay-OO.log)。所有日志来自实际命令；耗时只是此次运行记录，不是基准测试结果。
 
+## 最终显示修订复核
+
+覆盖公式仅删除量词i后用于排版的间距命令，保留括号内子类包含关系。将该间距命令还原后SHA256与上一已审正文完全一致；当前公式仍表达同一覆盖引理，数学结论及全部源码未变。复核通过，以下正文哈希已更新。此复核不冒称本人完成浏览器显示验收。
+
 ## 最终文件绑定
 
 下列SHA256绑定本次核验对象；后续正文或代码改动需重新审查。公式网页实际显示由发布验收另行检查，本审查不冒称已检查远端渲染。
 
 | 文件 | SHA256 |
 | --- | --- |
-| papers/ancient/aristotle-posterior-analytics-i5.zh-CN.md | `a11a363a7d252e00aaa777ec672ad4f38779c1cf8304af8e138f5b9544e19fc8` |
+| papers/ancient/aristotle-posterior-analytics-i5.zh-CN.md | `21338503d487b2c7de9d1e2e2acfac362c98f2500fa354c3f8825ef67e193a51` |
 | reproduction/aristotle-posterior-analytics-i5/model.py | `9ee0c844af589a14424dab4853a1716f997e4ca84304f28937ce354375df3d62` |
 | reproduction/aristotle-posterior-analytics-i5/test_model.py | `eed1c5c7577781b340e0eacc238d96a9074312e2af732cda2eb6af333bfbdadd` |
 | reproduction/aristotle-posterior-analytics-i5/run.sh | `faa48e59ddc3fee8e32af10b4f0ef37d1923d14842ad8e92c9d930f6537237af` |

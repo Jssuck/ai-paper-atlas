@@ -38,7 +38,7 @@
 可以用一条集合蕴涵精确表达第二层：
 
 $$
-T=\bigcup_{i=1}^{k}S_i\quad\land\quad\forall i\;(S_i\subseteq P)\quad\Longrightarrow\quad T\subseteq P.
+T=\bigcup_{i=1}^{k}S_i\quad\land\quad\forall i(S_i\subseteq P)\quad\Longrightarrow\quad T\subseteq P.
 $$
 
 证明不是枚举猜测。任取x∈T；由并集等式，存在j使x∈Sⱼ；由Sⱼ⊆P得x∈P；任意性给出T⊆P。有限个子类可以各自含无限多对象；关键是每个子类的全称前提和穷尽覆盖得到证明，不是只检查有限样本。
