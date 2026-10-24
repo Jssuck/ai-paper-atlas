@@ -1,0 +1,25 @@
+Command: python3 -OO -m unittest -v test_model.py
+test_ambiguous_middle (test_model.ModelTests.test_ambiguous_middle) ... ok
+test_bridge_direction (test_model.ModelTests.test_bridge_direction) ... ok
+test_correct_chain (test_model.ModelTests.test_correct_chain) ... ok
+test_cycles_not_evidence (test_model.ModelTests.test_cycles_not_evidence) ... ok
+test_domain_route (test_model.ModelTests.test_domain_route) ... ok
+test_empty_subject_is_explicit (test_model.ModelTests.test_empty_subject_is_explicit) ... ok
+test_equivalence (test_model.ModelTests.test_equivalence) ... ok
+test_finite_oracles (test_model.ModelTests.test_finite_oracles) ... ok
+test_foreign_does_not_become_true (test_model.ModelTests.test_foreign_does_not_become_true) ... ok
+test_invalid_graph (test_model.ModelTests.test_invalid_graph) ... ok
+test_invalid_masks (test_model.ModelTests.test_invalid_masks) ... ok
+test_invalid_route (test_model.ModelTests.test_invalid_route) ... ok
+test_invalid_term (test_model.ModelTests.test_invalid_term) ... ok
+test_lateral_extension (test_model.ModelTests.test_lateral_extension) ... ok
+test_longitudinal_extension (test_model.ModelTests.test_longitudinal_extension) ... ok
+test_principle_not_proved_here (test_model.ModelTests.test_principle_not_proved_here) ... ok
+test_reverse_counterexample_nonempty (test_model.ModelTests.test_reverse_counterexample_nonempty) ... ok
+test_shared_attribute_counterexample (test_model.ModelTests.test_shared_attribute_counterexample) ... ok
+test_synonym_ids (test_model.ModelTests.test_synonym_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.006s
+
+OK

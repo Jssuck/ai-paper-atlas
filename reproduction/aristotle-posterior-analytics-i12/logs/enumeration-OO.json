@@ -1,0 +1,16 @@
+{
+  "closure_oracle_mismatches": 0,
+  "graphs_checked": 512,
+  "pairs_checked": 64,
+  "reverse_inclusion_countermodels": 19,
+  "reverse_inclusion_nonempty_countermodels": 12,
+  "scope": "finite teaching checks; no certification of historical science, causal truth or all models",
+  "shared_attribute_inclusion_countermodels": 61,
+  "shared_attribute_nonempty_countermodels": 42,
+  "shared_attribute_premise_models": 125,
+  "subset_oracle_mismatches": 0,
+  "triples_checked": 512,
+  "two_way_inclusion_inequality_countermodels": 0,
+  "universe_size": 3,
+  "valid_chain_countermodels": 0
+}
