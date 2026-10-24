@@ -1,0 +1,15 @@
+Command: python  audit/independent_check.py
+{"four_named_class_cases": 1024, "independent_checks": 8, "limits": "Finite diagnostic tests; no certification of essence, causal claims or modal necessity.", "partition_triples": 4096, "temporal_pairs": 4096, "valid_partitions": 1296}
+test_all_four_named_classes_two_objects (__main__.IndependentChecks.test_all_four_named_classes_two_objects) ... ok
+test_all_two_object_three_time_tables (__main__.IndependentChecks.test_all_two_object_three_time_tables) ... ok
+test_body_temporal_example (__main__.IndependentChecks.test_body_temporal_example) ... ok
+test_declarations_are_not_truth_certificates (__main__.IndependentChecks.test_declarations_are_not_truth_certificates) ... ok
+test_domain_restriction_and_vacuity (__main__.IndependentChecks.test_domain_restriction_and_vacuity) ... ok
+test_four_object_partitions (__main__.IndependentChecks.test_four_object_partitions) ... ok
+test_incomparable_and_coextensive (__main__.IndependentChecks.test_incomparable_and_coextensive) ... ok
+test_invalid_inputs (__main__.IndependentChecks.test_invalid_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.034s
+
+OK

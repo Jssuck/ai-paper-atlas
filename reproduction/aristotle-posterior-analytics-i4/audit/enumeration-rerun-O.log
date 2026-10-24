@@ -1,0 +1,14 @@
+Command: python -O exhaustive.py
+{
+  "candidate_domain_objects": 3,
+  "oracle_differences": 0,
+  "partition_cases": 512,
+  "scope": "Finite extensional diagnostics; no inference of essence, cause, modality or scientific knowledge.",
+  "temporal_domain": {
+    "objects": 3,
+    "times": 2
+  },
+  "temporal_object_time_cases": 4096,
+  "three_named_class_candidate_cases": 4096,
+  "valid_relative_partitions": 216
+}

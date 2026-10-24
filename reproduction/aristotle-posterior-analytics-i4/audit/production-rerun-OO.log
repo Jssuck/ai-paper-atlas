@@ -1,0 +1,30 @@
+Command: python -OO -m unittest -v test_model
+test_coextensive_not_identified (test_model.FiniteModelTests.test_coextensive_not_identified) ... ok
+test_cooccurrence_does_not_create_cause (test_model.FiniteModelTests.test_cooccurrence_does_not_create_cause) ... ok
+test_earliest_witness (test_model.FiniteModelTests.test_earliest_witness) ... ok
+test_empty_not_explanatory_candidate (test_model.FiniteModelTests.test_empty_not_explanatory_candidate) ... ok
+test_empty_subject_vacuous (test_model.FiniteModelTests.test_empty_subject_vacuous) ... ok
+test_external_causal_declaration (test_model.FiniteModelTests.test_external_causal_declaration) ... ok
+test_four_senses_not_uniform_binary_relation (test_model.FiniteModelTests.test_four_senses_not_uniform_binary_relation) ... ok
+test_inclusion (test_model.FiniteModelTests.test_inclusion) ... ok
+test_incomparable_maxima (test_model.FiniteModelTests.test_incomparable_maxima) ... ok
+test_invalid_class (test_model.FiniteModelTests.test_invalid_class) ... ok
+test_invalid_dimensions (test_model.FiniteModelTests.test_invalid_dimensions) ... ok
+test_invalid_mask (test_model.FiniteModelTests.test_invalid_mask) ... ok
+test_invalid_width (test_model.FiniteModelTests.test_invalid_width) ... ok
+test_missing_later_time (test_model.FiniteModelTests.test_missing_later_time) ... ok
+test_missing_object (test_model.FiniteModelTests.test_missing_object) ... ok
+test_no_counterexample (test_model.FiniteModelTests.test_no_counterexample) ... ok
+test_no_truth_from_definition_label (test_model.FiniteModelTests.test_no_truth_from_definition_label) ... ok
+test_omitted_broader_class (test_model.FiniteModelTests.test_omitted_broader_class) ... ok
+test_outside_genus_ignored (test_model.FiniteModelTests.test_outside_genus_ignored) ... ok
+test_parity_partition (test_model.FiniteModelTests.test_parity_partition) ... ok
+test_partition_gap (test_model.FiniteModelTests.test_partition_gap) ... ok
+test_partition_overlap (test_model.FiniteModelTests.test_partition_overlap) ... ok
+test_reversed_definition_direction (test_model.FiniteModelTests.test_reversed_definition_direction) ... ok
+test_triangle_level (test_model.FiniteModelTests.test_triangle_level) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+OK
