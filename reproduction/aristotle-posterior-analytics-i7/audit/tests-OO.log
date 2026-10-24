@@ -1,0 +1,14 @@
+Independent command: python3 -OO audit/independent_check.py
+test_cube_product_and_sum_boundary (__main__.IndependentChecks.test_cube_product_and_sum_boundary) ... ok
+test_cycles_do_not_seed (__main__.IndependentChecks.test_cycles_do_not_seed) ... ok
+test_independent_material_models (__main__.IndependentChecks.test_independent_material_models) ... ok
+test_no_laundering_and_exact_direction (__main__.IndependentChecks.test_no_laundering_and_exact_direction) ... ok
+test_policy_table (__main__.IndependentChecks.test_policy_table) ... ok
+test_same_domain_not_semantic_truth (__main__.IndependentChecks.test_same_domain_not_semantic_truth) ... ok
+test_semantic_false_bridge (__main__.IndependentChecks.test_semantic_false_bridge) ... ok
+test_sequence_integrity (__main__.IndependentChecks.test_sequence_integrity) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.012s
+
+OK

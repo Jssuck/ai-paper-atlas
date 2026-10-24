@@ -1,0 +1,17 @@
+Command: python3  model.py
+{
+  "closure_cases": 1024,
+  "closure_truth_mismatches": 0,
+  "examples": {
+    "beauty_not_licensed": false,
+    "common_name_no_cast": false,
+    "declared_bridge": true,
+    "false_assumption_still_accepted": true,
+    "local": true,
+    "no_bridge": false,
+    "reverse_not_licensed": false
+  },
+  "policy_cases": 2304,
+  "policy_mismatches": 0,
+  "truth_valuations_per_case": 16
+}

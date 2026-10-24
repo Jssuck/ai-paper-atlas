@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.6：结论必然正确，为什么这条证明仍可能没有解释力？](papers/ancient/aristotle-posterior-analytics-i6.zh-CN.md)，完整74b5–75a37，区分必要传递与反向误推、给定中项与真正原因，附真实教学复现。
+最新补读：[《后分析篇》I.7：共用一套逻辑，为什么不能把证明随意搬到另一个领域？](papers/ancient/aristotle-posterior-analytics-i7.zh-CN.md)，完整75a38–75b20，区分共同公理、对象属及受约束桥接，保留立方例译注分歧，附真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -91,6 +91,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.4精读](papers/ancient/aristotle-posterior-analytics-i4.zh-CN.md) | AI解释前史：全称覆盖、定义方向、属内对立与恰当主项 | 深读v1 · 完整73a21–74a3及译注/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.5精读](papers/ancient/aristotle-posterior-analytics-i5.zh-CN.md) | AI解释前史：子类覆盖、共享结构、条件撤除与共同根据 | 深读v1 · 完整74a4–74b4及译注/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.6精读](papers/ancient/aristotle-posterior-analytics-i6.zh-CN.md) | AI解释前史：必要前提、偶然桥梁、保真约束与原因 | 深读v1 · 完整74b5–75a37及译注/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.7精读](papers/ancient/aristotle-posterior-analytics-i7.zh-CN.md) | AI跨域解释前史：共同公理、对象属、桥接条件与从属科学 | 深读v1 · 完整75a38–75b20及译注/模型边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1057,4 +1058,10 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《后分析篇》I.6 补读附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i6.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i6.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i6.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-posterior-analytics-i6.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i6/README.md)。本单元仅覆盖74b5–75a37；必要结论不反向认证给定中项，非必要结论只排除前提共同必要。有限情形模型不认证本质、原因或真实科学知识；双否定枚举另标教学对照。前分析篇I.2及II.25仍暂缓，后分析篇I.7及全书不计本单元完成。
+
+
+
+## 《后分析篇》I.7 附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i7.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i7.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i7.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-posterior-analytics-i7.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i7/README.md)。本单元仅覆盖75a38–75b20；共同规则不代替跨域根据，从属关系只允许有说明的属性迁移。有限类型证书政策不认证本身归属或真实桥接；立方例保留Owen倍立方注与Mure乘积解释差异。前分析篇I.2及II.25仍暂缓，后分析篇I.8及全书不计本单元完成。
 
