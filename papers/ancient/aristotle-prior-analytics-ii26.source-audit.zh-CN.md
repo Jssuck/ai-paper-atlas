@@ -10,7 +10,7 @@ SHA-256按UTF-8文件原始字节计算：
 
 | 文件 | SHA-256 |
 |---|---|
-| `papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md` | `41602ac244425c7b9599b31857244edfa18ed7eb285b7d439dbae29ad56e3db7` |
+| `papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md` | `a797ea86a99e43556850b45c3f0381ceaa8384623bf7a82657fb692498573b54` |
 | `papers/ancient/aristotle-prior-analytics-ii26.sources.zh-CN.md` | `2742ddf7c11c31aea02ef1cbe05751c79e3fb961fddd99ab17b953f412f3976c` |
 | `README.md` | `8d9e9e6b4d03efc993f27256b51ccbde2312d5406c0a4cedc04daae18f3b3817` |
 
@@ -29,7 +29,7 @@ SHA-256按UTF-8文件原始字节计算：
 
 ## 审查过程中落实的修订
 
-来源台账使用当前可核1928索引而非沿袭1913说法；正文补清Owen表格特称风险，保留第二格及章末开放问题；最终候选明确《修辞学》II.25中反例不必推翻概率判断的边界，并把独立oracle描述为逐对象布尔成员核验。以上修订均已包含在所绑定正文中。
+来源台账使用当前可核1928索引而非沿袭1913说法；正文补清Owen表格特称风险，保留第二格及章末开放问题；最终候选明确《修辞学》II.25中反例不必推翻概率判断的边界，并把独立oracle描述为逐对象布尔成员核验。以上修订均已包含在所绑定正文中。发布显示修订将首定义块四处 `\operatorname` 改为 `\mathrm`；逆替换的字节散列与此前审查正文完全一致，属于仅排版修订，未改变定义、证明或来源主张。
 
 ## 隐私与公开边界
 

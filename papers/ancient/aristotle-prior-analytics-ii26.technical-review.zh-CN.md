@@ -26,11 +26,13 @@
 
 ## 修订与冻结规则
 
+GitHub实际显示核验后，四个定义名称的宏由`\operatorname`改为`\mathrm`。审查者逆向替换四处所得字节哈希与先前冻结正文完全相同，确认仅公式排版宏变化，命题、证明和实验声明未变；本次据此重绑，不冒称重新运行未变代码。
+
 审查确认复现README将论域写成带范围条件的整数集合，因而n=0确为空域；正文oracle描述采用逐对象布尔成员，与实际实现一致。下列SHA256绑定所审版本。任一受审文件变更后应重核相关内容并更新绑定；本审查文件不自我绑定。
 
 | 文件（仓库相对路径） | SHA256 |
 |---|---|
-| `papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md` | `41602ac244425c7b9599b31857244edfa18ed7eb285b7d439dbae29ad56e3db7` |
+| `papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md` | `a797ea86a99e43556850b45c3f0381ceaa8384623bf7a82657fb692498573b54` |
 | `reproduction/aristotle-prior-analytics-ii26/objections.py` | `bf80334afceb668c246bd18cd75bb9b36bd5f0f2171994e205e802af678851e5` |
 | `reproduction/aristotle-prior-analytics-ii26/test_objections.py` | `9fbb204f7d37d8667e645f2dd23815352b6b0b9dfcfd33951d62abecabb1e244` |
 | `reproduction/aristotle-prior-analytics-ii26/README.md` | `923b7e2dce041c5509de5eec7cad1ddaee81360be586211fd887420b5d5474ac` |

@@ -54,10 +54,10 @@
 
 $$
 \begin{aligned}
-\operatorname{All}(B,A)&\iff B\subseteq A,\\
-\operatorname{None}(B,A)&\iff B\cap A=\varnothing,\\
-\operatorname{Some}(B,A)&\iff B\cap A\ne\varnothing,\\
-\operatorname{NotAll}(B,A)&\iff B\setminus A\ne\varnothing.
+\mathrm{All}(B,A)&\iff B\subseteq A,\\
+\mathrm{None}(B,A)&\iff B\cap A=\varnothing,\\
+\mathrm{Some}(B,A)&\iff B\cap A\ne\varnothing,\\
+\mathrm{NotAll}(B,A)&\iff B\setminus A\ne\varnothing.
 \end{aligned}
 $$
 
