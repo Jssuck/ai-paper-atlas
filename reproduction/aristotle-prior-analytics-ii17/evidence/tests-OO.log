@@ -1,0 +1,21 @@
+Command: python3 -OO -m unittest -v test_logic.py
+test_bad_inputs (test_logic.Tests.test_bad_inputs) ... ok
+test_bad_proof (test_logic.Tests.test_bad_proof) ... ok
+test_cycle_not_minimal (test_logic.Tests.test_cycle_not_minimal) ... ok
+test_down_irrelevant (test_logic.Tests.test_down_irrelevant) ... ok
+test_down_necessary (test_logic.Tests.test_down_necessary) ... ok
+test_exhaustive (test_logic.Tests.test_exhaustive) ... ok
+test_generator_inputs (test_logic.Tests.test_generator_inputs) ... ok
+test_identity (test_logic.Tests.test_identity) ... ok
+test_no_reverse (test_logic.Tests.test_no_reverse) ... ok
+test_not_initially_derived (test_logic.Tests.test_not_initially_derived) ... ok
+test_replacement_not_deletion (test_logic.Tests.test_replacement_not_deletion) ... ok
+test_transitive (test_logic.Tests.test_transitive) ... ok
+test_up_irrelevant (test_logic.Tests.test_up_irrelevant) ... ok
+test_up_necessary (test_logic.Tests.test_up_necessary) ... ok
+test_used_but_redundant (test_logic.Tests.test_used_but_redundant) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.041s
+
+OK

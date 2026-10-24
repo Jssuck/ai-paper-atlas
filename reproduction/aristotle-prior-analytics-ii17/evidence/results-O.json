@@ -1,0 +1,182 @@
+{
+  "exhaustive": {
+    "deletion_records": 1728,
+    "graphs": 64,
+    "initially_derived": 1416,
+    "necessary": 240,
+    "still_derived": 1176,
+    "support_equivalence_checks": 1728
+  },
+  "scenarios": {
+    "cyclic_detour": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": true,
+      "supports": [
+        [
+          [
+            "C",
+            "A"
+          ]
+        ]
+      ]
+    },
+    "disconnected": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": false,
+      "supports": [
+        [
+          [
+            "Y",
+            "X"
+          ],
+          [
+            "Z",
+            "Y"
+          ]
+        ]
+      ]
+    },
+    "down_irrelevant": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": false,
+      "supports": [
+        [
+          [
+            "C",
+            "B"
+          ],
+          [
+            "D",
+            "C"
+          ]
+        ]
+      ]
+    },
+    "down_necessary": {
+      "after_deleted": false,
+      "before": true,
+      "necessary_within_graph": true,
+      "proof_uses_hypothesis": true,
+      "supports": [
+        [
+          [
+            "B",
+            "A"
+          ],
+          [
+            "C",
+            "B"
+          ],
+          [
+            "D",
+            "C"
+          ]
+        ]
+      ]
+    },
+    "identity": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": false,
+      "supports": [
+        []
+      ]
+    },
+    "not_initially_derived": {
+      "after_deleted": false,
+      "before": false,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": null,
+      "supports": []
+    },
+    "replacement_not_deletion": {
+      "changed_background_derives_target": true,
+      "different_premises": true,
+      "original_after_deleted": false
+    },
+    "up_irrelevant": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": false,
+      "supports": [
+        [
+          [
+            "A",
+            "E"
+          ],
+          [
+            "E",
+            "F"
+          ]
+        ]
+      ]
+    },
+    "up_necessary": {
+      "after_deleted": false,
+      "before": true,
+      "necessary_within_graph": true,
+      "proof_uses_hypothesis": true,
+      "supports": [
+        [
+          [
+            "A",
+            "E"
+          ],
+          [
+            "B",
+            "A"
+          ],
+          [
+            "E",
+            "F"
+          ]
+        ]
+      ]
+    },
+    "used_but_redundant": {
+      "after_deleted": true,
+      "before": true,
+      "necessary_within_graph": false,
+      "proof_uses_hypothesis": true,
+      "supports": [
+        [
+          [
+            "B",
+            "A"
+          ],
+          [
+            "C",
+            "B"
+          ],
+          [
+            "D",
+            "C"
+          ]
+        ],
+        [
+          [
+            "C",
+            "K"
+          ],
+          [
+            "D",
+            "C"
+          ],
+          [
+            "K",
+            "A"
+          ]
+        ]
+      ]
+    }
+  },
+  "scope": "finite affirmative inclusion graph; no truth or causality certification"
+}

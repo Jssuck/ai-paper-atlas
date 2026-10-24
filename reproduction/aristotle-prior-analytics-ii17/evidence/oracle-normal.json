@@ -1,0 +1,1 @@
+{"counts": {"closure_pairs": 576, "deletion_pairs": 1728, "graphs": 64, "initially_derived": 1416, "minimal_support_pairs": 576, "necessary": 240, "still_derived": 1176}, "oracle": "one-object Boolean set semantics plus exhaustive edge subsets", "result": "PASS", "scope": "three named terms; universal positive inclusions only"}
