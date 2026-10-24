@@ -1,11 +1,7 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-prior-analytics-ii25",
-    "stage": "research",
-    "updated_at": "2026-10-24T08:38:29Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
     "id": "aristotle-prior-analytics-ii24",
     "stage": "completed",
@@ -16,7 +12,13 @@
       "id": "aristotle-prior-analytics-i2",
       "stage": "publication_deferred",
       "updated_at": "2026-10-21T10:42:00Z"
+    },
+    {
+      "id": "aristotle-prior-analytics-ii25",
+      "stage": "publication_deferred",
+      "updated_at": "2026-10-24T08:47:40Z",
+      "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-24T08:38:29Z"
+  "updated_at": "2026-10-24T08:47:40Z"
 }
