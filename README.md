@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[I.3：模态换位为什么必须先说明“可能”的意思？](papers/ancient/aristotle-prior-analytics-i3.zh-CN.md)，完整25a27–25b25，回填必要与可能命题的换位、存在条件和模态作用域，明确译本异读与现代模型的适用边界。
+最新补读：[《后分析篇》I.1：知道规则，为什么仍然能学到新东西？](papers/ancient/aristotle-posterior-analytics-i1.zh-CN.md)，完整71a1–71b8，拆开先知意义、事实承担、个体识别与实际应用，附真实教学复现与独立核验。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -85,6 +85,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及页面标示1928底本转录） | [Aristotle前分析篇II.24精读](papers/ancient/aristotle-prior-analytics-ii24.zh-CN.md) | AI推理前史补读：举例、相似类别、规则取得与目标覆盖 | 深读v1 · 完整68b38–69a19及证据边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及当前标为1928底本的转录） | [Aristotle前分析篇II.26精读](papers/ancient/aristotle-prior-analytics-ii26.zh-CN.md) | AI推理前史补读：反驳证书、上下位路线、量词强度与直接性 | 深读v1 · 完整69a37–70a2及版本/解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及当前标为1928底本的转录） | [Aristotle前分析篇II.27精读](papers/ancient/aristotle-prior-analytics-ii27.zh-CN.md) | AI推理前史补读：概率材料、三格迹象、量词强度与对应假设 | 深读v1 · 完整70a3–70b38及相面条件边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.1精读](papers/ancient/aristotle-posterior-analytics-i1.zh-CN.md) | AI认识论与学习前史：普遍规则、个体识别与先知条件 | 深读v1 · 完整71a1–71b8及译注/模型边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1022,3 +1023,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《前分析篇》I.3 回填附件
 
 [深读正文](papers/ancient/aristotle-prior-analytics-i3.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-i3.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-i3.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-i3.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-i3/README.md)。本单元仅覆盖25a27–25b25；在II.27之后回填早章，不把传本顺序说成已核写作顺序。区分整句与固定对象模态、存在条件和内外否定，保留25b4异读；有限模型用于诊断现代形式化边界，不认证古代唯一语义或替代一般证明。I.2与II.25仍暂缓而非完成，卷末与本次回填均不等于全书连续完成。
+
+
+### 《后分析篇》I.1 补读附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i1.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i1.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i1.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-posterior-analytics-i1.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i1/README.md)。本单元仅覆盖71a1–71b8；区分意义与事实、普遍规则与个体识别，保留双数句译本差异及Owen引章疑点。有限状态与真值核验是现代教学重构，不认证古代心理机制，不替代一般证明。传本次序不等于写作年代；前分析篇I.2与II.25仍暂缓，后分析篇I.2及全书不计本单元完成。

@@ -1,0 +1,12 @@
+Independent reviewer command: python3 -O -m unittest -v audit/test_independent.py
+test_all_gate_combinations (audit.test_independent.IndependentAudit.test_all_gate_combinations) ... ok
+test_certificates_check_support_not_execution_history (audit.test_independent.IndependentAudit.test_certificates_check_support_not_execution_history) ... ok
+test_false_identification_true_conclusion_rejected (audit.test_independent.IndependentAudit.test_false_identification_true_conclusion_rejected) ... ok
+test_no_world_input_and_prior_output_preserved (audit.test_independent.IndependentAudit.test_no_world_input_and_prior_output_preserved) ... ok
+test_pointwise_truth_tables_domains_zero_to_four (audit.test_independent.IndependentAudit.test_pointwise_truth_tables_domains_zero_to_four) ... ok
+test_same_display_name_does_not_transfer_support (audit.test_independent.IndependentAudit.test_same_display_name_does_not_transfer_support) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.017s
+
+OK

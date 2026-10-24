@@ -1,0 +1,22 @@
+Command: python3 -O -m unittest -v test_model
+test_empty_extension_vacuity (test_model.Tests.test_empty_extension_vacuity) ... ok
+test_explicit_application (test_model.Tests.test_explicit_application) ... ok
+test_false_rule_even_true_conclusion (test_model.Tests.test_false_rule_even_true_conclusion) ... ok
+test_invalid_world (test_model.Tests.test_invalid_world) ... ok
+test_meaning_not_existence (test_model.Tests.test_meaning_not_existence) ... ok
+test_missing_existence (test_model.Tests.test_missing_existence) ... ok
+test_missing_identification (test_model.Tests.test_missing_identification) ... ok
+test_missing_meaning (test_model.Tests.test_missing_meaning) ... ok
+test_missing_rule (test_model.Tests.test_missing_rule) ... ok
+test_nonexistent_object (test_model.Tests.test_nonexistent_object) ... ok
+test_repeated_application_idempotent (test_model.Tests.test_repeated_application_idempotent) ... ok
+test_restricted_not_universal (test_model.Tests.test_restricted_not_universal) ... ok
+test_same_name_different_id (test_model.Tests.test_same_name_different_id) ... ok
+test_tampered_certificate (test_model.Tests.test_tampered_certificate) ... ok
+test_unknown_is_not_false (test_model.Tests.test_unknown_is_not_false) ... ok
+test_wrong_identification (test_model.Tests.test_wrong_identification) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

@@ -1,0 +1,13 @@
+Command: python3 -O exhaustive.py
+{
+  "domain_size": 3,
+  "false_outputs_from_unsupported_premises": 1536,
+  "ledger_states": 32768,
+  "oracle_mismatches": 0,
+  "restricted_true_universal_false_pairs": 127,
+  "scope": "finite diagnostics of this declared teaching model, not a general proof or human experiment",
+  "syntactic_applications": 3072,
+  "target_queries": 98304,
+  "truth_supported_applications": 432,
+  "worlds": 64
+}
