@@ -1,0 +1,13 @@
+Independent command: python  audit/independent_check.py
+test_all_multiroute_support (__main__.IndependentChecks.test_all_multiroute_support) ... ok
+test_all_report_fields (__main__.IndependentChecks.test_all_report_fields) ... ok
+test_boundary_and_rejection (__main__.IndependentChecks.test_boundary_and_rejection) ... ok
+test_named_candidates (__main__.IndependentChecks.test_named_candidates) ... ok
+test_rational_cross_products (__main__.IndependentChecks.test_rational_cross_products) ... ok
+test_recorded_production_result (__main__.IndependentChecks.test_recorded_production_result) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.061s
+
+OK
+{"candidate_cases": 512, "certificates": 512, "coverage_reports": 4096, "rational_equalities": 175, "rational_quadruples": 2401, "rational_values": 7, "two_route_support_cases": 512}

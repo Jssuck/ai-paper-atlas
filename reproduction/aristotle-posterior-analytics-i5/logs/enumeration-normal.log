@@ -1,0 +1,12 @@
+Command: python  model.py
+{
+  "coverage_cases": 4096,
+  "coverage_certificates": 512,
+  "coverage_implication_failures": 0,
+  "coverage_oracle_mismatches": 0,
+  "ratio_cases": 1296,
+  "ratio_implication_failures": 0,
+  "ratio_premises_true": 86,
+  "support_cases": 64,
+  "support_oracle_mismatches": 0
+}

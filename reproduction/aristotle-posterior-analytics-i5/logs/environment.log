@@ -1,0 +1,6 @@
+Command: python --version; Python standard-library environment inspection
+Python 3.12.14
+implementation: CPython
+platform: Linux-6.18.55-x86_64-with-glibc2.41
+third_party_dependencies: none
+source_encoding: UTF-8

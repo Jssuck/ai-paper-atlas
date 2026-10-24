@@ -1,0 +1,29 @@
+Independent replay: python -O -m unittest -v test_model
+test_alternative_routes (test_model.ModelTests.test_alternative_routes) ... ok
+test_bad_masks (test_model.ModelTests.test_bad_masks) ... ok
+test_bad_size (test_model.ModelTests.test_bad_size) ... ok
+test_bronze_removed (test_model.ModelTests.test_bronze_removed) ... ok
+test_coextensional_labels_not_distinguished (test_model.ModelTests.test_coextensional_labels_not_distinguished) ... ok
+test_empty_route_is_declared_assumption (test_model.ModelTests.test_empty_route_is_declared_assumption) ... ok
+test_empty_target (test_model.ModelTests.test_empty_target) ... ok
+test_enumeration (test_model.ModelTests.test_enumeration) ... ok
+test_exhaustive_sound_parts (test_model.ModelTests.test_exhaustive_sound_parts) ... ok
+test_false_part (test_model.ModelTests.test_false_part) ... ok
+test_invalid_part (test_model.ModelTests.test_invalid_part) ... ok
+test_isosceles_removed (test_model.ModelTests.test_isosceles_removed) ... ok
+test_missing_part (test_model.ModelTests.test_missing_part) ... ok
+test_no_parts_nonempty (test_model.ModelTests.test_no_parts_nonempty) ... ok
+test_outside_irrelevant_counterexample (test_model.ModelTests.test_outside_irrelevant_counterexample) ... ok
+test_outside_mask (test_model.ModelTests.test_outside_mask) ... ok
+test_overlap_allowed (test_model.ModelTests.test_overlap_allowed) ... ok
+test_ratio_false (test_model.ModelTests.test_ratio_false) ... ok
+test_ratio_rational (test_model.ModelTests.test_ratio_rational) ... ok
+test_ratio_rejects_undefined_or_out_of_scope (test_model.ModelTests.test_ratio_rejects_undefined_or_out_of_scope) ... ok
+test_ratio_valid (test_model.ModelTests.test_ratio_valid) ... ok
+test_triangle_removed (test_model.ModelTests.test_triangle_removed) ... ok
+test_truth_not_certificate (test_model.ModelTests.test_truth_not_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.016s
+
+OK
