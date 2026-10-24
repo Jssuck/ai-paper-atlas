@@ -1,0 +1,13 @@
+Independent reviewer command: python -O audit/independent_test.py
+test_all_cross_type_signatures (__main__.IndependentTests.test_all_cross_type_signatures) ... ok
+test_diagram_only_gap (__main__.IndependentTests.test_diagram_only_gap) ... ok
+test_mask_boundaries_and_types (__main__.IndependentTests.test_mask_boundaries_and_types) ... ok
+test_policy_full_valid_matrix (__main__.IndependentTests.test_policy_full_valid_matrix) ... ok
+test_quantities_and_flags (__main__.IndependentTests.test_quantities_and_flags) ... ok
+test_typed_subtraction_exhaustive (__main__.IndependentTests.test_typed_subtraction_exhaustive) ... ok
+test_unique_extension_and_witness (__main__.IndependentTests.test_unique_extension_and_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.026s
+
+OK

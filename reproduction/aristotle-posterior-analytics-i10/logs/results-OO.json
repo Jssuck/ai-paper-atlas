@@ -1,0 +1,66 @@
+{
+  "definition_models": [
+    {
+      "size": 1,
+      "pairs": 4,
+      "definitions": 2,
+      "empty_definitions": 1,
+      "oracle_mismatches": 0
+    },
+    {
+      "size": 2,
+      "pairs": 16,
+      "definitions": 4,
+      "empty_definitions": 1,
+      "oracle_mismatches": 0
+    },
+    {
+      "size": 3,
+      "pairs": 64,
+      "definitions": 8,
+      "empty_definitions": 1,
+      "oracle_mismatches": 0
+    },
+    {
+      "size": 4,
+      "pairs": 256,
+      "definitions": 16,
+      "empty_definitions": 1,
+      "oracle_mismatches": 0
+    }
+  ],
+  "subtraction_models": [
+    {
+      "kind": "number",
+      "quadruples": 1296,
+      "accepted": 21,
+      "oracle_mismatches": 0
+    },
+    {
+      "kind": "magnitude",
+      "quadruples": 1296,
+      "accepted": 21,
+      "oracle_mismatches": 0
+    }
+  ],
+  "relative_labels": [
+    {
+      "attitude": "accept",
+      "status": "relative_hypothesis"
+    },
+    {
+      "attitude": "neutral",
+      "status": "postulate_relative_to_learner"
+    },
+    {
+      "attitude": "reject",
+      "status": "postulate_relative_to_learner"
+    }
+  ],
+  "diagram_example": {
+    "drawn": "999/1000",
+    "intended": "1",
+    "gap": "1/1000"
+  },
+  "limits": "Finite modern models; declarations do not verify demonstrability, truth, essence or applicability to physical diagrams."
+}

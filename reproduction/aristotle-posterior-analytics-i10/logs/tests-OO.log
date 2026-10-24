@@ -1,0 +1,27 @@
+Command: python3 -OO -m unittest -v test_model
+test_boolean_not_mask (test_model.ModelTests.test_boolean_not_mask) ... ok
+test_boolean_not_size (test_model.ModelTests.test_boolean_not_size) ... ok
+test_cross_kind (test_model.ModelTests.test_cross_kind) ... ok
+test_definition_not_hypothesis (test_model.ModelTests.test_definition_not_hypothesis) ... ok
+test_diagram_gap (test_model.ModelTests.test_diagram_gap) ... ok
+test_different_extensions (test_model.ModelTests.test_different_extensions) ... ok
+test_empty_definition (test_model.ModelTests.test_empty_definition) ... ok
+test_fraction_subtraction (test_model.ModelTests.test_fraction_subtraction) ... ok
+test_integer_subtraction (test_model.ModelTests.test_integer_subtraction) ... ok
+test_invalid_diagram (test_model.ModelTests.test_invalid_diagram) ... ok
+test_invalid_mask (test_model.ModelTests.test_invalid_mask) ... ok
+test_invalid_policy (test_model.ModelTests.test_invalid_policy) ... ok
+test_invalid_quantity (test_model.ModelTests.test_invalid_quantity) ... ok
+test_nonempty_definition (test_model.ModelTests.test_nonempty_definition) ... ok
+test_not_removable (test_model.ModelTests.test_not_removable) ... ok
+test_oracles (test_model.ModelTests.test_oracles) ... ok
+test_outside_classification (test_model.ModelTests.test_outside_classification) ... ok
+test_proved_flag_not_acceptance (test_model.ModelTests.test_proved_flag_not_acceptance) ... ok
+test_relative_labels (test_model.ModelTests.test_relative_labels) ... ok
+test_unequal_premises (test_model.ModelTests.test_unequal_premises) ... ok
+test_zero_remainder_convention (test_model.ModelTests.test_zero_remainder_convention) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.019s
+
+OK
