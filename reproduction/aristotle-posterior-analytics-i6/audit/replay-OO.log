@@ -1,0 +1,27 @@
+Independent reviewer command: python -OO -m unittest -v test_model
+test_actual_only (test_model.ModelTests.test_actual_only) ... ok
+test_bad_arity (test_model.ModelTests.test_bad_arity) ... ok
+test_bad_mask (test_model.ModelTests.test_bad_mask) ... ok
+test_bool_mask (test_model.ModelTests.test_bool_mask) ... ok
+test_bridge_disappears (test_model.ModelTests.test_bridge_disappears) ... ok
+test_cause_not_represented (test_model.ModelTests.test_cause_not_represented) ... ok
+test_complete_enumeration (test_model.ModelTests.test_complete_enumeration) ... ok
+test_disjoint (test_model.ModelTests.test_disjoint) ... ok
+test_duplicate_world (test_model.ModelTests.test_duplicate_world) ... ok
+test_empty_subject (test_model.ModelTests.test_empty_subject) ... ok
+test_identity (test_model.ModelTests.test_identity) ... ok
+test_necessary_chain (test_model.ModelTests.test_necessary_chain) ... ok
+test_negative_mask (test_model.ModelTests.test_negative_mask) ... ok
+test_no_worlds (test_model.ModelTests.test_no_worlds) ... ok
+test_nondisjoint (test_model.ModelTests.test_nondisjoint) ... ok
+test_oracle_example (test_model.ModelTests.test_oracle_example) ... ok
+test_order_of_actual_world (test_model.ModelTests.test_order_of_actual_world) ... ok
+test_subset_false (test_model.ModelTests.test_subset_false) ... ok
+test_subset_true (test_model.ModelTests.test_subset_true) ... ok
+test_two_negatives_underdetermine (test_model.ModelTests.test_two_negatives_underdetermine) ... ok
+test_zero_domain (test_model.ModelTests.test_zero_domain) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.037s
+
+OK

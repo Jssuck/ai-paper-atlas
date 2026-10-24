@@ -1,0 +1,13 @@
+Independent reviewer command: python -OO audit/independent_check.py
+test_all_4096_membership_tables (__main__.ReviewTests.test_all_4096_membership_tables) ... ok
+test_negative_control_by_membership (__main__.ReviewTests.test_negative_control_by_membership) ... ok
+test_nonempty_contrapositive_is_not_each_premise (__main__.ReviewTests.test_nonempty_contrapositive_is_not_each_premise) ... ok
+test_nonempty_necessary_conclusion_not_route (__main__.ReviewTests.test_nonempty_necessary_conclusion_not_route) ... ok
+test_single_object_disappearing_middle (__main__.ReviewTests.test_single_object_disappearing_middle) ... ok
+test_validation_and_scope (__main__.ReviewTests.test_validation_and_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.052s
+
+OK
+independent membership enumeration: {"actual": 1024, "bad_route": 320, "models": 4096, "necessary": 256, "nonempty": 729, "nonempty_bad_route": 56}

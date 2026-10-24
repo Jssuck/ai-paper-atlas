@@ -1,0 +1,110 @@
+Command: python  model.py
+{
+  "examples": {
+    "actual_only_route": {
+      "evaluation": {
+        "actual_ab": true,
+        "actual_ac": true,
+        "actual_bc": true,
+        "all_terms_nonempty": false,
+        "necessary_ab": false,
+        "necessary_ac": false,
+        "necessary_bc": true
+      },
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    "disappearing_bridge": {
+      "evaluation": {
+        "actual_ab": true,
+        "actual_ac": true,
+        "actual_bc": true,
+        "all_terms_nonempty": true,
+        "necessary_ab": false,
+        "necessary_ac": true,
+        "necessary_bc": false
+      },
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ]
+    },
+    "same_extension_different_explanation": {
+      "essential_or_causal_status": "not represented; cannot be inferred",
+      "evaluation": {
+        "actual_ab": true,
+        "actual_ac": true,
+        "actual_bc": true,
+        "all_terms_nonempty": true,
+        "necessary_ab": true,
+        "necessary_ac": true,
+        "necessary_bc": true
+      },
+      "worlds": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "modal_enumeration": {
+    "actual_premise_models": 1024,
+    "actual_preservation_failures": 0,
+    "models": 4096,
+    "necessary_conclusion_contingent_route": 320,
+    "necessary_premise_models": 256,
+    "necessity_preservation_failures": 0,
+    "nonempty_models": 729,
+    "nonempty_necessary_conclusion_contingent_route": 56,
+    "nonnecessary_conclusion_both_necessary_premises": 0,
+    "oracle_mismatches": 0
+  },
+  "scope": "2 worlds, 2 objects; whole-proposition necessity; empty terms allowed and separately counted",
+  "two_negative_enumeration": {
+    "conclusions": {
+      "A": {
+        "false": 12,
+        "true": 18
+      },
+      "E": {
+        "false": 24,
+        "true": 6
+      },
+      "I": {
+        "false": 6,
+        "true": 24
+      },
+      "O": {
+        "false": 18,
+        "true": 12
+      }
+    },
+    "nonempty_two_negative_premise_models": 30,
+    "triples": 512
+  }
+}
