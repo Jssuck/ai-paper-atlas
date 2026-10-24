@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "researching",
+  "status": "publication_verifying",
   "active_paper": {
     "id": "aristotle-prior-analytics-i3",
-    "stage": "researching",
-    "updated_at": "2026-10-24T11:38:00Z"
+    "stage": "publication_verifying",
+    "updated_at": "2026-10-24T11:46:03Z"
   },
   "last_completed": {
     "id": "aristotle-prior-analytics-ii27",
@@ -24,5 +24,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-24T11:38:00Z"
+  "updated_at": "2026-10-24T11:46:03Z"
 }

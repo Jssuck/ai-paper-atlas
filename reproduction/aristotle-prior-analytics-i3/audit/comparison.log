@@ -1,0 +1,2 @@
+Command: cmp results-normal.json results-O.json; cmp results-normal.json results-OO.json
+PASS: three independent result files are byte-identical.

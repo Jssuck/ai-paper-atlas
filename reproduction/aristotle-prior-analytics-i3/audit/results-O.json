@@ -1,0 +1,130 @@
+{
+  "count_fields_compared": 60,
+  "counts": {
+    "dc_CA_to_CI_reverse": {
+      "countermodels": 1052,
+      "premise_models": 2130
+    },
+    "dc_CA_to_CI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 704,
+      "premise_models": 1478
+    },
+    "dc_CE_to_CE_reverse": {
+      "countermodels": 0,
+      "premise_models": 2130
+    },
+    "dc_CI_to_CI_reverse": {
+      "countermodels": 0,
+      "premise_models": 2130
+    },
+    "dc_CO_to_CO_reverse": {
+      "countermodels": 1052,
+      "premise_models": 2130
+    },
+    "dc_NA_to_NI_reverse": {
+      "countermodels": 446,
+      "premise_models": 858
+    },
+    "dc_NA_to_NI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 0,
+      "premise_models": 412
+    },
+    "dc_NE_to_NE_reverse": {
+      "countermodels": 0,
+      "premise_models": 858
+    },
+    "dc_NI_to_NI_reverse": {
+      "countermodels": 0,
+      "premise_models": 1464
+    },
+    "dc_NO_to_NO_reverse": {
+      "countermodels": 1116,
+      "premise_models": 1464
+    },
+    "dc_PA_to_PI_reverse": {
+      "countermodels": 446,
+      "premise_models": 2988
+    },
+    "dc_PA_to_PI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 0,
+      "premise_models": 1890
+    },
+    "dc_PE_to_PE_reverse": {
+      "countermodels": 0,
+      "premise_models": 2988
+    },
+    "dc_PI_to_PI_reverse": {
+      "countermodels": 0,
+      "premise_models": 3594
+    },
+    "dc_PO_to_PO_reverse": {
+      "countermodels": 760,
+      "premise_models": 3594
+    },
+    "dr_CA_to_CI_reverse": {
+      "countermodels": 833,
+      "premise_models": 1898
+    },
+    "dr_CA_to_CI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 490,
+      "premise_models": 1126
+    },
+    "dr_CE_to_CE_reverse": {
+      "countermodels": 1076,
+      "premise_models": 1898
+    },
+    "dr_CI_to_CI_reverse": {
+      "countermodels": 1065,
+      "premise_models": 2484
+    },
+    "dr_CO_to_CO_reverse": {
+      "countermodels": 1065,
+      "premise_models": 2484
+    },
+    "dr_NA_to_NI_reverse": {
+      "countermodels": 833,
+      "premise_models": 1149
+    },
+    "dr_NA_to_NI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 164,
+      "premise_models": 480
+    },
+    "dr_NE_to_NE_reverse": {
+      "countermodels": 526,
+      "premise_models": 1149
+    },
+    "dr_NI_to_NI_reverse": {
+      "countermodels": 575,
+      "premise_models": 1459
+    },
+    "dr_NO_to_NO_reverse": {
+      "countermodels": 1095,
+      "premise_models": 1459
+    },
+    "dr_PA_to_PI_reverse": {
+      "countermodels": 598,
+      "premise_models": 2993
+    },
+    "dr_PA_to_PI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 255,
+      "premise_models": 2080
+    },
+    "dr_PE_to_PE_reverse": {
+      "countermodels": 575,
+      "premise_models": 2993
+    },
+    "dr_PI_to_PI_reverse": {
+      "countermodels": 526,
+      "premise_models": 3303
+    },
+    "dr_PO_to_PO_reverse": {
+      "countermodels": 980,
+      "premise_models": 3303
+    }
+  },
+  "first_countermodels_checked": 22,
+  "method": "object-history enumeration; set relations; no production imports",
+  "mismatches": 0,
+  "models": 4452,
+  "rule_count": 30
+}

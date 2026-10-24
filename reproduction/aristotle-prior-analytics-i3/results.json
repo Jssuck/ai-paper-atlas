@@ -1,0 +1,476 @@
+{
+  "enumeration": "n=1..3, world_count=1..2; ordered world labels, including duplicates",
+  "limitations": "Bounded semantic checks, not general proofs or a unique interpretation of Aristotle I.3.",
+  "model_contract": "fixed nonempty domain; all listed worlds accessible; world 0 actual; term extensions may vary",
+  "models": 4452,
+  "rule_checks_per_model": 30,
+  "rules": {
+    "dc_CA_to_CI_reverse": {
+      "countermodels": 1052,
+      "first_countermodel": {
+        "P": [
+          [],
+          []
+        ],
+        "S": [
+          [],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2130
+    },
+    "dc_CA_to_CI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 704,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "premise_models": 1478
+    },
+    "dc_CE_to_CE_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 2130
+    },
+    "dc_CI_to_CI_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 2130
+    },
+    "dc_CO_to_CO_reverse": {
+      "countermodels": 1052,
+      "first_countermodel": {
+        "P": [
+          [],
+          []
+        ],
+        "S": [
+          [],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2130
+    },
+    "dc_NA_to_NI_reverse": {
+      "countermodels": 446,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 858
+    },
+    "dc_NA_to_NI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 412
+    },
+    "dc_NE_to_NE_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 858
+    },
+    "dc_NI_to_NI_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 1464
+    },
+    "dc_NO_to_NO_reverse": {
+      "countermodels": 1116,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1464
+    },
+    "dc_PA_to_PI_reverse": {
+      "countermodels": 446,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2988
+    },
+    "dc_PA_to_PI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 1890
+    },
+    "dc_PE_to_PE_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 2988
+    },
+    "dc_PI_to_PI_reverse": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 3594
+    },
+    "dc_PO_to_PO_reverse": {
+      "countermodels": 760,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 3594
+    },
+    "dr_CA_to_CI_reverse": {
+      "countermodels": 833,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1898
+    },
+    "dr_CA_to_CI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 490,
+      "first_countermodel": {
+        "P": [
+          [],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1126
+    },
+    "dr_CE_to_CE_reverse": {
+      "countermodels": 1076,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ]
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1898
+    },
+    "dr_CI_to_CI_reverse": {
+      "countermodels": 1065,
+      "first_countermodel": {
+        "P": [
+          [],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2484
+    },
+    "dr_CO_to_CO_reverse": {
+      "countermodels": 1065,
+      "first_countermodel": {
+        "P": [
+          [],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2484
+    },
+    "dr_NA_to_NI_reverse": {
+      "countermodels": 833,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1149
+    },
+    "dr_NA_to_NI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 164,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "premise_models": 480
+    },
+    "dr_NE_to_NE_reverse": {
+      "countermodels": 526,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ],
+          []
+        ],
+        "S": [
+          [],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1149
+    },
+    "dr_NI_to_NI_reverse": {
+      "countermodels": 575,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1459
+    },
+    "dr_NO_to_NO_reverse": {
+      "countermodels": 1095,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 1459
+    },
+    "dr_PA_to_PI_reverse": {
+      "countermodels": 598,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2993
+    },
+    "dr_PA_to_PI_reverse_all_worlds_S_nonempty": {
+      "countermodels": 255,
+      "first_countermodel": {
+        "P": [
+          [],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2080
+    },
+    "dr_PE_to_PE_reverse": {
+      "countermodels": 575,
+      "first_countermodel": {
+        "P": [
+          [
+            0
+          ],
+          []
+        ],
+        "S": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 2993
+    },
+    "dr_PI_to_PI_reverse": {
+      "countermodels": 526,
+      "first_countermodel": {
+        "P": [
+          [],
+          [
+            0
+          ]
+        ],
+        "S": [
+          [
+            0
+          ],
+          []
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 3303
+    },
+    "dr_PO_to_PO_reverse": {
+      "countermodels": 980,
+      "first_countermodel": {
+        "P": [
+          []
+        ],
+        "S": [
+          [
+            0
+          ]
+        ],
+        "domain": [
+          0
+        ]
+      },
+      "premise_models": 3303
+    }
+  }
+}

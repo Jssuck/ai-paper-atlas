@@ -1,0 +1,11 @@
+Independent review command: python3 -OO test_oracle.py
+test_all_counts_and_witnesses (__main__.IndependentChecks.test_all_counts_and_witnesses) ... ok
+test_constant_interpretation_collapse (__main__.IndependentChecks.test_constant_interpretation_collapse) ... ok
+test_cross_world_witness (__main__.IndependentChecks.test_cross_world_witness) ... ok
+test_model_counts (__main__.IndependentChecks.test_model_counts) ... ok
+test_negation_duality (__main__.IndependentChecks.test_negation_duality) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.219s
+
+OK

@@ -1,0 +1,25 @@
+Independent review command: python3 -O test_model.py
+test_01_independent_exhaustive_oracle (__main__.TestSemantics.test_01_independent_exhaustive_oracle) ... ok
+test_02_categorical_truth_values (__main__.TestSemantics.test_02_categorical_truth_values) ... ok
+test_03_empty_subject (__main__.TestSemantics.test_03_empty_subject) ... ok
+test_04_nonempty_actual_not_enough_for_necessary_particular (__main__.TestSemantics.test_04_nonempty_actual_not_enough_for_necessary_particular) ... ok
+test_05_cross_world_witness (__main__.TestSemantics.test_05_cross_world_witness) ... ok
+test_06_necessary_de_re_negative_not_symmetric (__main__.TestSemantics.test_06_necessary_de_re_negative_not_symmetric) ... ok
+test_07_necessary_de_re_positive_not_symmetric (__main__.TestSemantics.test_07_necessary_de_re_positive_not_symmetric) ... ok
+test_08_possible_negative_not_outer_negative (__main__.TestSemantics.test_08_possible_negative_not_outer_negative) ... ok
+test_09_necessity_implies_broad_possibility_not_contingency (__main__.TestSemantics.test_09_necessity_implies_broad_possibility_not_contingency) ... ok
+test_10_narrow_contingency_not_probability (__main__.TestSemantics.test_10_narrow_contingency_not_probability) ... ok
+test_11_de_re_contingent_E_not_convertible (__main__.TestSemantics.test_11_de_re_contingent_E_not_convertible) ... ok
+test_12_de_re_contingent_O_not_convertible (__main__.TestSemantics.test_12_de_re_contingent_O_not_convertible) ... ok
+test_13_quality_conversion_not_term_conversion (__main__.TestSemantics.test_13_quality_conversion_not_term_conversion) ... ok
+test_14_rule_counts (__main__.TestSemantics.test_14_rule_counts) ... ok
+test_15_invalid_models (__main__.TestSemantics.test_15_invalid_models) ... ok
+test_16_invalid_operators (__main__.TestSemantics.test_16_invalid_operators) ... ok
+test_17_strict_contingency_A_not_weakening (__main__.TestSemantics.test_17_strict_contingency_A_not_weakening) ... ok
+test_18_double_reversal (__main__.TestSemantics.test_18_double_reversal) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.809s
+
+OK
+Independent boolean-table oracle: 4452 models; 106848 comparisons; zero mismatches
