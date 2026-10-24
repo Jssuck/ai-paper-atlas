@@ -33,7 +33,9 @@ README 顶部最新入口、年代目录的本单元行、II.21 附件三处均�
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `aristotle-prior-analytics-ii21.zh-CN.md` | `7c11389fc8eaca6dd1f71bcdc38faed8052ade473947e95a46be74073c352f25` |
+| `aristotle-prior-analytics-ii21.zh-CN.md` | `87eadb567086616728f08c30d0eeb062a57b9d75a88d7a94ab3cb75acbf51989` |
 | `aristotle-prior-analytics-ii21.sources.zh-CN.md` | `4ec7a90a015bd58aaca2d802d83b238d5d8ffcf675813aa7ce9d8e063fe42224` |
 
 哈希绑定实际复核文件；后续改动应检查差异并重新绑定，不能用旧通过意见替代新稿核验。
+
+格式修订复核：59 处行内数学改用带反引号的 GitHub 数学定界，外侧空格保留。将新定界逆变换后，正文逐字恢复先前已审 SHA-256 `7c11389fc8eaca6dd1f71bcdc38faed8052ade473947e95a46be74073c352f25`；来源台账哈希不变。因此此次重新绑定不涉及来源或论证变化。本审查未检查修订后的 GitHub 实际显示。
