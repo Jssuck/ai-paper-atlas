@@ -14,7 +14,7 @@
 
 ### 对象与时间
 
-objects = n、times = k，位序 i = t*n+x 代表对象 x 在时间 t 的位置。subject 和 predicate 是长度 n*k 的布尔表，整数位图只为紧凑存储，不赋予古代文本机器表示。
+`objects = n`、`times = k`，位序 `i = t*n+x` 代表对象 x 在时间 t 的位置。subject 和 predicate 是长度 `n*k` 的布尔表，整数位图只为紧凑存储，不赋予古代文本机器表示。
 
 every_instance 返回 subject 的所有置位是否也在 predicate 中置位。counterexample 返回最早的违例位置（按先时间后对象），无违例返回 None。主项随时间变化也允许：当某对象在该时刻不属于主项时，不要求它在该时刻具属性。这比假定对象永远属于同一类更明确。
 

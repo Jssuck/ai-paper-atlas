@@ -47,11 +47,13 @@ python -OO exhaustive.py
 
 ## 最终内容绑定（SHA-256）
 
-- `papers/ancient/aristotle-posterior-analytics-i4.zh-CN.md`：`0afdf5a975f0e8a66b8cdd5368f01c7a243959bd9b5321810a6ec15d330a3b46`
+发布显示复核后，两条公式仅将间距命令改为quad、函数名字体改为mathrm；逐式核对量词、蕴涵、整数域和异或均未变。更新正文绑定；复现README的对象数、时刻数和位序乘法表达式另以代码格式包裹，防止星号被解析为斜体；数值、索引顺序及意义未变。核心代码与测试源码哈希仍一致，既有真实运行日志不作改写。
+
+- `papers/ancient/aristotle-posterior-analytics-i4.zh-CN.md`：`17a0d3d86706976dd44c36c24a944068352a6e2f3cb55b84eec6c6c813082542`
 - `reproduction/aristotle-posterior-analytics-i4/model.py`：`e735c6ce863e7b9d29c5895499f1d12c7918d44bf4d7262af14f0f27d6e7217a`
 - `reproduction/aristotle-posterior-analytics-i4/exhaustive.py`：`39dff2895a796ee7666a915853b9975386add823aae2945b135628637bc5aa1b`
 - `reproduction/aristotle-posterior-analytics-i4/test_model.py`：`4b85445c1d99775eef208e3993e4d7e00c025567b15eb6c1fef082b6ac206acc`
-- `reproduction/aristotle-posterior-analytics-i4/README.md`：`01e28daf037622cd242e7eeb6aafa45b397cbc0ec8e84d4ec6551f9486f47a56`
+- `reproduction/aristotle-posterior-analytics-i4/README.md`：`f6a7928352d613bdc6a27f389785d67472e5bcf583a93396e3e729f2e234b041`
 - `reproduction/aristotle-posterior-analytics-i4/audit/independent_check.py`：`b82a8478aea27bb3ad917d068a8e3c3dd2d19c692daa38fb366ef9668afe6bd5`
 
 上述通过不替代实际GitHub数学渲染和远端内容核验，后两项由发布验证独立完成。

@@ -35,7 +35,7 @@
 取对象域D、时间域T。S(x,t)表示x在t属于主项类，P(x,t)表示同一时刻具备谓项性质。现代教学式写为：
 
 $$
-\forall t\in T\;\forall x\in D\;\bigl(S(x,t)\Rightarrow P(x,t)\bigr).
+\forall t\in T\quad \forall x\in D\quad \bigl(S(x,t)\Rightarrow P(x,t)\bigr).
 $$
 
 这是对对象和时间限制的显式重构，不是声称古代作者已有这一形式语义。它也没有把“所有可能世界”包含进去：在所有已给时间点成立，与模态上不可能不成立是不同要求。
@@ -87,7 +87,7 @@ Owen254注1用“对实体述存在”概括此义；正文的主词/依附区�
 推导分三步：对2作带余除法，余数只能0或1；余数0归偶，余数1归奇；若两种形式同时成立，则偶数等于奇数，推出两个整数之差等于1/2，矛盾。因此在该域中奇与偶覆盖且互斥。
 
 $$
-\forall n\in\mathbb{Z}_{>0}\;\bigl(\operatorname{Even}(n)\mathbin{\veebar}\operatorname{Odd}(n)\bigr).
+\forall n\in\mathbb{Z}_{>0}\quad \bigl(\mathrm{Even}(n)\mathbin{\veebar}\mathrm{Odd}(n)\bigr).
 $$
 
 这里的异或表示恰有一个真。这不推出所有数偶，也不推出所有数奇。n=3反驳前者，n=2反驳后者；更不推出某个数会随时间从奇变偶。本段讨论的是分类的必然择一，不是数值的变化。
