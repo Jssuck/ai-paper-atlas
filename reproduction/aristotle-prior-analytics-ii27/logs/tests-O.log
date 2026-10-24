@@ -1,0 +1,24 @@
+Command: python3 -O -m unittest -v test_signs.py
+test_complete_small_domain_routes (test_signs.SignsTests.test_complete_small_domain_routes) ... ok
+test_converse_only_countermodel (test_signs.SignsTests.test_converse_only_countermodel) ... ok
+test_correlative_with_strictly_smaller_kind (test_signs.SignsTests.test_correlative_with_strictly_smaller_kind) ... ok
+test_empty_middle_not_witness (test_signs.SignsTests.test_empty_middle_not_witness) ... ok
+test_enumeration_boundary (test_signs.SignsTests.test_enumeration_boundary) ... ok
+test_false_bridge_not_proof (test_signs.SignsTests.test_false_bridge_not_proof) ... ok
+test_first_chain (test_signs.SignsTests.test_first_chain) ... ok
+test_invalid_masks (test_signs.SignsTests.test_invalid_masks) ... ok
+test_majority_is_not_universal (test_signs.SignsTests.test_majority_is_not_universal) ... ok
+test_mapping_cooccurrence_ambiguous (test_signs.SignsTests.test_mapping_cooccurrence_ambiguous) ... ok
+test_mapping_extension_can_refute (test_signs.SignsTests.test_mapping_extension_can_refute) ... ok
+test_mapping_input_validation (test_signs.SignsTests.test_mapping_input_validation) ... ok
+test_mapping_no_observations (test_signs.SignsTests.test_mapping_no_observations) ... ok
+test_mapping_separation_conditional (test_signs.SignsTests.test_mapping_separation_conditional) ... ok
+test_second_can_have_true_conclusion (test_signs.SignsTests.test_second_can_have_true_conclusion) ... ok
+test_second_nonempty_countermodel (test_signs.SignsTests.test_second_nonempty_countermodel) ... ok
+test_third_universal_countermodel (test_signs.SignsTests.test_third_universal_countermodel) ... ok
+test_third_witness (test_signs.SignsTests.test_third_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.009s
+
+OK

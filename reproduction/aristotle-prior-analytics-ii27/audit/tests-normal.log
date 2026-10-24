@@ -1,0 +1,11 @@
+Independent reviewer commands: python3  independent_oracle.py ../logs/results-normal.json; python3  -m unittest -v test_oracle.py
+test_empty_not_a_witness (test_oracle.OracleTests.test_empty_not_a_witness) ... ok
+test_known_good_and_mutations (test_oracle.OracleTests.test_known_good_and_mutations) ... ok
+test_observation_ambiguity (test_oracle.OracleTests.test_observation_ambiguity) ... ok
+test_second_nonempty_counterexample (test_oracle.OracleTests.test_second_nonempty_counterexample) ... ok
+test_third_overreach (test_oracle.OracleTests.test_third_overreach) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.099s
+
+OK

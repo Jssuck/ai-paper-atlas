@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform_system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "optimization_modes": [
+    0,
+    1,
+    2
+  ]
+}

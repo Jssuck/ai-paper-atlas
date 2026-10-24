@@ -1,0 +1,154 @@
+{
+  "identification": {
+    "cooccurrence_mappings": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "extended_mappings": [],
+    "rows": {
+      "cooccurrence": [
+        [
+          true,
+          true,
+          true,
+          true
+        ]
+      ],
+      "extended": [
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "separated": [
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "separated_mappings": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "majority": {
+    "exception_index": 9,
+    "frequency": "9/10",
+    "population_size": 10,
+    "strict_majority": true,
+    "successes": 9,
+    "universal": false
+  },
+  "max_n": 4,
+  "routes": {
+    "correlative_sign": {
+      "countermodels": 0,
+      "first_all_nonempty_countermodel": null,
+      "first_countermodel": null,
+      "premise_models": 121
+    },
+    "first": {
+      "countermodels": 0,
+      "first_all_nonempty_countermodel": null,
+      "first_countermodel": null,
+      "premise_models": 341
+    },
+    "one_way_sign_inverse": {
+      "countermodels": 440,
+      "first_all_nonempty_countermodel": {
+        "A": 1,
+        "B": 3,
+        "C": 2,
+        "n": 2
+      },
+      "first_countermodel": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "n": 1
+      },
+      "premise_models": 781
+    },
+    "second_affirmative": {
+      "countermodels": 440,
+      "first_all_nonempty_countermodel": {
+        "A": 3,
+        "B": 1,
+        "C": 2,
+        "n": 2
+      },
+      "first_countermodel": {
+        "A": 1,
+        "B": 0,
+        "C": 1,
+        "n": 1
+      },
+      "premise_models": 781
+    },
+    "third_missing_existence": {
+      "countermodels": 121,
+      "first_all_nonempty_countermodel": null,
+      "first_countermodel": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "n": 0
+      },
+      "premise_models": 781
+    },
+    "third_particular": {
+      "countermodels": 0,
+      "first_all_nonempty_countermodel": null,
+      "first_countermodel": null,
+      "premise_models": 440
+    },
+    "third_universal_overreach": {
+      "countermodels": 220,
+      "first_all_nonempty_countermodel": {
+        "A": 1,
+        "B": 3,
+        "C": 1,
+        "n": 2
+      },
+      "first_countermodel": {
+        "A": 1,
+        "B": 3,
+        "C": 1,
+        "n": 2
+      },
+      "premise_models": 440
+    }
+  },
+  "worlds": 4681
+}
