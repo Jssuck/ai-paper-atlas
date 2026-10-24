@@ -43,7 +43,7 @@ python3 -OO audit/independent_oracle.py
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `papers/ancient/aristotle-prior-analytics-ii19.zh-CN.md` | `f4677568b3de0abfd3b3ace86b1667619714e5566caed595a3eb75919ef6232b` |
+| `papers/ancient/aristotle-prior-analytics-ii19.zh-CN.md` | `88d99b051ad1d5b7e940dcb9de837c56ce4c7ecb5a456ade997bcc9b2eee45fb` |
 | `reproduction/aristotle-prior-analytics-ii19/presentation.py` | `e0fdf278ebe4b0f97b063eeb478d45162f7cb78f56bcf6cc2680a9a677dd2867` |
 | `reproduction/aristotle-prior-analytics-ii19/test_presentation.py` | `0e011a9fbc256ef0a55e16eea4ca59e75aef2feb9d75a1d04c3299ca1db8879d` |
 | `reproduction/aristotle-prior-analytics-ii19/run.sh` | `290c2273588797e3f1456c44b7b809c327313f0ae2b3aaf8f615f5465c231dc7` |

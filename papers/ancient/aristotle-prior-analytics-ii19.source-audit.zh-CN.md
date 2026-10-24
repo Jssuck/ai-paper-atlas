@@ -6,7 +6,7 @@
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `aristotle-prior-analytics-ii19.zh-CN.md` | `f4677568b3de0abfd3b3ace86b1667619714e5566caed595a3eb75919ef6232b` |
+| `aristotle-prior-analytics-ii19.zh-CN.md` | `88d99b051ad1d5b7e940dcb9de837c56ce4c7ecb5a456ade997bcc9b2eee45fb` |
 | `aristotle-prior-analytics-ii19.sources.zh-CN.md` | `e82eed46b59387431016b777a06679ebe99b6d2d4a4fb26ef2b3892abe97be4c` |
 
 ## 实际阅读及交叉核对
