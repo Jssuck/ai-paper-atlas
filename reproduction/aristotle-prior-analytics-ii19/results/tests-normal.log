@@ -1,0 +1,13 @@
+test_all_120_orders (test_presentation.PresentationTests.test_all_120_orders) ... ok
+test_chain_certificate (test_presentation.PresentationTests.test_chain_certificate) ... ok
+test_empty_unknown_cycles_duplicates_generators (test_presentation.PresentationTests.test_empty_unknown_cycles_duplicates_generators) ... ok
+test_invalid_edges (test_presentation.PresentationTests.test_invalid_edges) ... ok
+test_no_repeated_term_no_composition (test_presentation.PresentationTests.test_no_repeated_term_no_composition) ... ok
+test_repeated_term_insufficient (test_presentation.PresentationTests.test_repeated_term_insufficient) ... ok
+test_semantic_oracle_all_three_term_graphs (test_presentation.PresentationTests.test_semantic_oracle_all_three_term_graphs) ... ok
+test_source_prefix_and_metrics (test_presentation.PresentationTests.test_source_prefix_and_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.094s
+
+OK
