@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.8：月食不是一直发生，关于月食的知识为什么还能恒常？](papers/ancient/aristotle-posterior-analytics-i8.zh-CN.md)，完整75b21–36，区分时间范围、暂时事实和条件规律，保留译注层次，附真实教学复现。
+最新补读：[《后分析篇》I.9：前提都真，为什么仍未必知道这件事的原因？](papers/ancient/aristotle-posterior-analytics-i9.zh-CN.md)，完整75b37–76a30，区分逻辑支持、本己原则与说明根据，保留Bryson译注层次，附真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -93,6 +93,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.6精读](papers/ancient/aristotle-posterior-analytics-i6.zh-CN.md) | AI解释前史：必要前提、偶然桥梁、保真约束与原因 | 深读v1 · 完整74b5–75a37及译注/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.7精读](papers/ancient/aristotle-posterior-analytics-i7.zh-CN.md) | AI跨域解释前史：共同公理、对象属、桥接条件与从属科学 | 深读v1 · 完整75a38–75b20及译注/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.8精读](papers/ancient/aristotle-posterior-analytics-i8.zh-CN.md) | AI可靠性前史：时间范围、事件条件与恒常说明 | 深读v1 · 完整75b21–36及译注/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及Mure转录） | [Aristotle后分析篇I.9精读](papers/ancient/aristotle-posterior-analytics-i9.zh-CN.md) | AI解释前史：恰当原则、支持集合、原因中项与从属说明 | 深读v1 · 完整75b37–76a30及译注/模型边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1069,3 +1070,9 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《后分析篇》I.8 补读附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i8.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i8.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i8.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-posterior-analytics-i8.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i8/README.md)。本单元仅覆盖75b21–36；快照成立不能升格全时，条件律不保证事件持续或存在。有限时态模型不认证古代科学知识或实际月食原因；保留Owen时间读法与Mure实例读法层次。前分析篇I.2及II.25仍暂缓，后分析篇I.9及全书不计本单元完成。
+
+
+## 《后分析篇》I.9补读附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i9.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i9.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i9.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-posterior-analytics-i9.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i9/README.md)。本单元仅覆盖75b37–76a30；区分真值支持与真实说明，保留Bryson正文和译注的层次。有限支持与证书政策不认证现实因果或科学知识；前分析篇I.2及II.25仍暂缓，后分析篇I.10及全书不计本单元完成。
+

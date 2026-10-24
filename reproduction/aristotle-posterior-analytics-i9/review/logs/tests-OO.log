@@ -1,0 +1,14 @@
+Independent command: python3 -OO test_independent.py
+test_all_declarations_are_only_external_policy (__main__.IndependentChecks.test_all_declarations_are_only_external_policy) ... ok
+test_all_mask_pair_entailment_and_consistency (__main__.IndependentChecks.test_all_mask_pair_entailment_and_consistency) ... ok
+test_body_counterexamples (__main__.IndependentChecks.test_body_counterexamples) ... ok
+test_empty_and_inconsistent_are_distinct (__main__.IndependentChecks.test_empty_and_inconsistent_are_distinct) ... ok
+test_material_implication_exhaustive (__main__.IndependentChecks.test_material_implication_exhaustive) ... ok
+test_minimal_supports_independent_subsets (__main__.IndependentChecks.test_minimal_supports_independent_subsets) ... ok
+test_nonminimum_cardinality_support_and_duplicates (__main__.IndependentChecks.test_nonminimum_cardinality_support_and_duplicates) ... ok
+test_reject_unsupported_inputs (__main__.IndependentChecks.test_reject_unsupported_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.795s
+
+OK

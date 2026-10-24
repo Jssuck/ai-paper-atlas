@@ -1,0 +1,91 @@
+{
+  "worlds": 8,
+  "mask_pairs": 65536,
+  "oracle_disagreements": 0,
+  "consistent_entailment_pairs": 6305,
+  "cases": {
+    "common_only": {
+      "models": 243,
+      "countermodels": 3,
+      "entails": false,
+      "consistent": true
+    },
+    "specific_route": {
+      "models": 128,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": true
+    },
+    "remove_specific_fact": {
+      "models": 209,
+      "countermodels": 1,
+      "entails": false,
+      "consistent": true
+    },
+    "remove_specific_bridge": {
+      "models": 162,
+      "countermodels": 2,
+      "entails": false,
+      "consistent": true
+    },
+    "alternative_minimal_supports": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "logical_but_unattested": {
+      "models": 192,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": true,
+      "policy_pass": false,
+      "reasons": [
+        "appropriateness-not-attested",
+        "causal-middle-not-attested"
+      ]
+    },
+    "same_masks_attested": {
+      "models": 192,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": true,
+      "policy_pass": true,
+      "reasons": []
+    },
+    "superior_without_bridge": {
+      "models": 128,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": true,
+      "policy_pass": false,
+      "reasons": [
+        "domain-route-not-attested"
+      ]
+    },
+    "superior_with_bridge": {
+      "models": 128,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": true,
+      "policy_pass": true,
+      "reasons": []
+    },
+    "inconsistent": {
+      "models": 0,
+      "countermodels": 0,
+      "entails": true,
+      "consistent": false,
+      "policy_pass": false,
+      "reasons": [
+        "inconsistent-premises"
+      ]
+    }
+  },
+  "limit": "Finite logical sufficiency and declared policy only; no cause or knowledge certification."
+}

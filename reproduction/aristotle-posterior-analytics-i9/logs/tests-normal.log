@@ -1,0 +1,26 @@
+Command: python3  -m unittest -v test_model.py
+test_alternative_supports (test_model.PremiseTests.test_alternative_supports) ... ok
+test_atoms (test_model.PremiseTests.test_atoms) ... ok
+test_bridge_without_superior (test_model.PremiseTests.test_bridge_without_superior) ... ok
+test_common_insufficient (test_model.PremiseTests.test_common_insufficient) ... ok
+test_empty_models (test_model.PremiseTests.test_empty_models) ... ok
+test_empty_support_tautology (test_model.PremiseTests.test_empty_support_tautology) ... ok
+test_exhaustive_oracle (test_model.PremiseTests.test_exhaustive_oracle) ... ok
+test_false_goal_no_consistent_support (test_model.PremiseTests.test_false_goal_no_consistent_support) ... ok
+test_inconsistent_entails_not_accepted (test_model.PremiseTests.test_inconsistent_entails_not_accepted) ... ok
+test_invalid_declarations (test_model.PremiseTests.test_invalid_declarations) ... ok
+test_invalid_goal (test_model.PremiseTests.test_invalid_goal) ... ok
+test_invalid_masks (test_model.PremiseTests.test_invalid_masks) ... ok
+test_remove_bridge (test_model.PremiseTests.test_remove_bridge) ... ok
+test_remove_fact (test_model.PremiseTests.test_remove_fact) ... ok
+test_same_semantics_different_annotations (test_model.PremiseTests.test_same_semantics_different_annotations) ... ok
+test_specific_sufficient (test_model.PremiseTests.test_specific_sufficient) ... ok
+test_superior_bridge (test_model.PremiseTests.test_superior_bridge) ... ok
+test_superior_without_bridge (test_model.PremiseTests.test_superior_without_bridge) ... ok
+test_supports_unique (test_model.PremiseTests.test_supports_unique) ... ok
+test_truth_without_cause (test_model.PremiseTests.test_truth_without_cause) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.068s
+
+OK
