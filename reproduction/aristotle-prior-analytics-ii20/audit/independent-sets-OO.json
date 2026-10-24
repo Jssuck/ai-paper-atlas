@@ -1,0 +1,35 @@
+{
+  "method": "actual nonempty subsets of four objects; separate quantified set predicates",
+  "set_assignments_per_candidate": 3375,
+  "candidates": 192,
+  "candidate_model_evaluations": 648000,
+  "valid_moods": {
+    "1": [
+      "AAA",
+      "AAI",
+      "AII",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "2": [
+      "AEE",
+      "AEO",
+      "AOO",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "3": [
+      "AAI",
+      "AII",
+      "EAO",
+      "EIO",
+      "IAI",
+      "OAO"
+    ]
+  },
+  "validated_returned_countermodels": 174,
+  "agreement": true,
+  "scope": "bounded independent cross-check, not a proof of arbitrary-domain validity"
+}

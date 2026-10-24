@@ -1,0 +1,13 @@
+test_all_returned_countermodels (test_syllogism.Tests.test_all_returned_countermodels) ... ok
+test_contradictory_pairs_even_empty_terms (test_syllogism.Tests.test_contradictory_pairs_even_empty_terms) ... ok
+test_invalid_inputs (test_syllogism.Tests.test_invalid_inputs) ... ok
+test_refutation_and_existence_boundaries (test_syllogism.Tests.test_refutation_and_existence_boundaries) ... ok
+test_set_oracle_all_formulas (test_syllogism.Tests.test_set_oracle_all_formulas) ... ok
+test_support_counts (test_syllogism.Tests.test_support_counts) ... ok
+test_two_negative_and_two_particular (test_syllogism.Tests.test_two_negative_and_two_particular) ... ok
+test_valid_moods (test_syllogism.Tests.test_valid_moods) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.371s
+
+OK

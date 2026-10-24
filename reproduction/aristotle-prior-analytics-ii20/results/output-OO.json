@@ -1,0 +1,83 @@
+{
+  "candidate_syllogisms": 192,
+  "examples": {
+    "AAA_1": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 4,
+      "valid": true
+    },
+    "AAA_2": {
+      "countermodels": 6,
+      "first_countermodel": [
+        3,
+        6
+      ],
+      "premise_models": 10,
+      "valid": false
+    },
+    "AAI_3_empty_allowed": {
+      "countermodels": 4,
+      "first_countermodel": [],
+      "premise_models": 16,
+      "valid": false
+    },
+    "AAI_3_nonempty": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 8,
+      "valid": true
+    },
+    "AA_1_does_not_refute_A": {
+      "countermodels": 4,
+      "first_countermodel": [
+        7
+      ],
+      "premise_models": 4,
+      "valid": false
+    },
+    "AA_1_refutes_O": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 4,
+      "valid": true
+    },
+    "EAE_1": {
+      "countermodels": 0,
+      "first_countermodel": null,
+      "premise_models": 2,
+      "valid": true
+    }
+  },
+  "scope": "three figures, distinct S/M/P, all three terms nonempty",
+  "supports_all": 128,
+  "supports_nonempty_terms": 109,
+  "two_negative_candidates_checked": 48,
+  "two_particular_candidates_checked": 48,
+  "valid_moods": {
+    "1": [
+      "AAA",
+      "AAI",
+      "AII",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "2": [
+      "AEE",
+      "AEO",
+      "AOO",
+      "EAE",
+      "EAO",
+      "EIO"
+    ],
+    "3": [
+      "AAI",
+      "AII",
+      "EAO",
+      "EIO",
+      "IAI",
+      "OAO"
+    ]
+  }
+}

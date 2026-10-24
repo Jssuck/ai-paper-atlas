@@ -978,3 +978,9 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《前分析篇》II.19 补读附件
 
 [深读正文](papers/ancient/aristotle-prior-analytics-ii19.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii19.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii19.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii19.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii19/README.md)。本单元仅覆盖66a25–66b3；区分共享中项与有效性、全部前提的逻辑闭包与提问次序，保留66a37异读。有限排列实验不测量人的识破能力，也不替代一般证明。
+
+
+### 《前分析篇》II.20 补读附件
+
+[深读正文](papers/ancient/aristotle-prior-analytics-ii20.zh-CN.md) · [来源台账](papers/ancient/aristotle-prior-analytics-ii20.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-prior-analytics-ii20.source-audit.zh-CN.md) · [独立数学代码审查](papers/ancient/aristotle-prior-analytics-ii20.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-prior-analytics-ii20/README.md)。本单元区分有效三段论与反驳指定论题、肯定回答与全称回答，以及矛盾与反对。明确全负、全特称限制的三项直言范围和非空项语义；有限模型实验不替代一般证明。
+
