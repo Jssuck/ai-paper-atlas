@@ -1,0 +1,4 @@
+UTC 2026-10-24T06:38:15Z
+Python 3.12.14
+Dependencies: Python standard library only
+Commands: python3 [normal|-O|-OO] induction.py; python3 [normal|-O|-OO] -m unittest -v test_induction.py

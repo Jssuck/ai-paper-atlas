@@ -1,0 +1,3 @@
+normal == optimized: PASS
+normal == double_optimized: PASS
+Three actual runs; identical deterministic JSON; no assert-dependent validation.

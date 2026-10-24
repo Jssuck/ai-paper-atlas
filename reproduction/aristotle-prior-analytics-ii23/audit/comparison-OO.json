@@ -1,0 +1,15 @@
+{
+  "compared_keys": [
+    "by_n",
+    "coverage_iff_forall_A",
+    "rules",
+    "weak_observation_classification",
+    "worlds"
+  ],
+  "coverage_pairs": 341,
+  "mode": "OO",
+  "named_examples_checked": 6,
+  "rule_checks": 23405,
+  "status": "PASS",
+  "worlds": 4681
+}

@@ -1,0 +1,56 @@
+{
+  "by_n": [
+    {
+      "n": 0,
+      "worlds": 1
+    },
+    {
+      "n": 1,
+      "worlds": 8
+    },
+    {
+      "n": 2,
+      "worlds": 64
+    },
+    {
+      "n": 3,
+      "worlds": 512
+    },
+    {
+      "n": 4,
+      "worlds": 4096
+    }
+  ],
+  "coverage_iff_forall_A": {
+    "classified_pairs": 121,
+    "pairs": 341,
+    "violations": 0
+  },
+  "rules": {
+    "error_localization": {
+      "premise_models": 1555,
+      "violations": 0
+    },
+    "forward_deduction": {
+      "premise_models": 341,
+      "violations": 0
+    },
+    "full_induction": {
+      "premise_models": 121,
+      "violations": 0
+    },
+    "minimal_transfer": {
+      "premise_models": 341,
+      "violations": 0
+    },
+    "particular_from_nonempty": {
+      "premise_models": 440,
+      "violations": 0
+    }
+  },
+  "weak_observation_classification": {
+    "false_universal": 440,
+    "models": 781
+  },
+  "worlds": 4681
+}

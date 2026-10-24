@@ -1,0 +1,186 @@
+{
+  "by_n": [
+    {
+      "n": 0,
+      "worlds": 1
+    },
+    {
+      "n": 1,
+      "worlds": 8
+    },
+    {
+      "n": 2,
+      "worlds": 64
+    },
+    {
+      "n": 3,
+      "worlds": 512
+    },
+    {
+      "n": 4,
+      "worlds": 4096
+    }
+  ],
+  "coverage_iff_forall_A": {
+    "classified_pairs": 121,
+    "pairs": 341,
+    "violations": 0
+  },
+  "examples": [
+    {
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "classification": true,
+      "coverage": false,
+      "missed_failures": [
+        1
+      ],
+      "n": 2,
+      "name": "missing_coverage_nonempty",
+      "observations": true,
+      "particular": true,
+      "universal": false
+    },
+    {
+      "A": [],
+      "B": [
+        0
+      ],
+      "C": [
+        0
+      ],
+      "classification": true,
+      "coverage": true,
+      "missed_failures": [
+        0
+      ],
+      "n": 1,
+      "name": "missing_observations",
+      "observations": false,
+      "particular": false,
+      "universal": false
+    },
+    {
+      "A": [],
+      "B": [
+        0
+      ],
+      "C": [],
+      "classification": true,
+      "coverage": false,
+      "missed_failures": [
+        0
+      ],
+      "n": 1,
+      "name": "empty_sample_no_existence",
+      "observations": true,
+      "particular": false,
+      "universal": false
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        0,
+        1
+      ],
+      "classification": false,
+      "coverage": true,
+      "missed_failures": [],
+      "n": 2,
+      "name": "classification_not_needed_for_minimal_transfer",
+      "observations": true,
+      "particular": true,
+      "universal": true
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0
+      ],
+      "classification": true,
+      "coverage": false,
+      "missed_failures": [],
+      "n": 2,
+      "name": "incomplete_but_accidentally_true",
+      "observations": true,
+      "particular": true,
+      "universal": true
+    },
+    {
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "C": [
+        0,
+        1,
+        2
+      ],
+      "classification": true,
+      "coverage": true,
+      "missed_failures": [],
+      "n": 3,
+      "name": "complete_toy_enumeration",
+      "observations": true,
+      "particular": true,
+      "universal": true
+    }
+  ],
+  "max_n": 4,
+  "rules": {
+    "error_localization": {
+      "premise_models": 1555,
+      "violations": 0
+    },
+    "forward_deduction": {
+      "premise_models": 341,
+      "violations": 0
+    },
+    "full_induction": {
+      "premise_models": 121,
+      "violations": 0
+    },
+    "minimal_transfer": {
+      "premise_models": 341,
+      "violations": 0
+    },
+    "particular_from_nonempty": {
+      "premise_models": 440,
+      "violations": 0
+    }
+  },
+  "schema_version": 1,
+  "scope": "finite modern extensional teaching model; not historical biology",
+  "weak_observation_classification": {
+    "false_universal": 440,
+    "models": 781
+  },
+  "worlds": 4681
+}

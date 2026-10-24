@@ -1,0 +1,16 @@
+test_classification_not_minimally_required (test_induction.InductionTests.test_classification_not_minimally_required) ... ok
+test_complete_transfer (test_induction.InductionTests.test_complete_transfer) ... ok
+test_coverage_not_required_for_accidental_truth (test_induction.InductionTests.test_coverage_not_required_for_accidental_truth) ... ok
+test_empty_domain_universal_not_existential (test_induction.InductionTests.test_empty_domain_universal_not_existential) ... ok
+test_empty_sample (test_induction.InductionTests.test_empty_sample) ... ok
+test_full_enumeration (test_induction.InductionTests.test_full_enumeration) ... ok
+test_invalid_bounds (test_induction.InductionTests.test_invalid_bounds) ... ok
+test_missing_coverage (test_induction.InductionTests.test_missing_coverage) ... ok
+test_missing_observation (test_induction.InductionTests.test_missing_observation) ... ok
+test_runtime_check_not_optimized_away (test_induction.InductionTests.test_runtime_check_not_optimized_away) ... ok
+test_subset_direction (test_induction.InductionTests.test_subset_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.006s
+
+OK
