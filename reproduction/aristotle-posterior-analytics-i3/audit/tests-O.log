@@ -1,0 +1,14 @@
+Independent review command: python -O -m unittest discover -s audit -p test_independent.py -v
+test_all_three_atom_unary_models (test_independent.IndependentTests.test_all_three_atom_unary_models) ... ok
+test_all_two_atom_horn_models (test_independent.IndependentTests.test_all_two_atom_horn_models) ... ok
+test_boundary_not_infinite_theorem (test_independent.IndependentTests.test_boundary_not_infinite_theorem) ... ok
+test_certificate_is_sound_subset_not_completeness (test_independent.IndependentTests.test_certificate_is_sound_subset_not_completeness) ... ok
+test_empty_premises_are_explicitly_excluded (test_independent.IndependentTests.test_empty_premises_are_explicitly_excluded) ... ok
+test_rank_not_shortest_or_confidence (test_independent.IndependentTests.test_rank_not_shortest_or_confidence) ... ok
+test_text_counterexample_and_bridge (test_independent.IndependentTests.test_text_counterexample_and_bridge) ... ok
+test_unrooted_loop_is_not_fact (test_independent.IndependentTests.test_unrooted_loop_is_not_fact) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.040s
+
+OK

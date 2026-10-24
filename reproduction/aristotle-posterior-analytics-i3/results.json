@@ -1,0 +1,9 @@
+{
+  "unary_graph_seed_cases": 4096,
+  "two_atom_horn_seed_cases": 256,
+  "set_triples": 512,
+  "inclusion_cycles": 8,
+  "finite_chain_cases": 64,
+  "oracle_or_certificate_mismatches": 0,
+  "scope": "finite teaching models; no empirical or infinite-regress validation"
+}

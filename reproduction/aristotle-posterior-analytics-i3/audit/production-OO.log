@@ -1,0 +1,35 @@
+Independent reviewer rerun: python -OO -m unittest -v test_model; python -OO exhaustive.py
+test_bad_certificate_type (test_model.Tests.test_bad_certificate_type) ... ok
+test_bad_chain_length (test_model.Tests.test_bad_chain_length) ... ok
+test_bad_seed (test_model.Tests.test_bad_seed) ... ok
+test_chain_boundary (test_model.Tests.test_chain_boundary) ... ok
+test_conjunction_complete (test_model.Tests.test_conjunction_complete) ... ok
+test_conjunction_not_disjunction (test_model.Tests.test_conjunction_not_disjunction) ... ok
+test_cycle_certificate_rejected (test_model.Tests.test_cycle_certificate_rejected) ... ok
+test_duplicate_rules (test_model.Tests.test_duplicate_rules) ... ok
+test_empty_antecedent_rejected (test_model.Tests.test_empty_antecedent_rejected) ... ok
+test_empty_cycle (test_model.Tests.test_empty_cycle) ... ok
+test_empty_sets_allowed (test_model.Tests.test_empty_sets_allowed) ... ok
+test_good_certificate (test_model.Tests.test_good_certificate) ... ok
+test_inclusion_equal (test_model.Tests.test_inclusion_equal) ... ok
+test_inclusion_strict_not_cycle (test_model.Tests.test_inclusion_strict_not_cycle) ... ok
+test_no_rules (test_model.Tests.test_no_rules) ... ok
+test_rooted_cycle (test_model.Tests.test_rooted_cycle) ... ok
+test_rounds (test_model.Tests.test_rounds) ... ok
+test_rule_order (test_model.Tests.test_rule_order) ... ok
+test_self_loop (test_model.Tests.test_self_loop) ... ok
+test_semantic_nonfoundation (test_model.Tests.test_semantic_nonfoundation) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK
+{
+  "unary_graph_seed_cases": 4096,
+  "two_atom_horn_seed_cases": 256,
+  "set_triples": 512,
+  "inclusion_cycles": 8,
+  "finite_chain_cases": 64,
+  "oracle_or_certificate_mismatches": 0,
+  "scope": "finite teaching models; no empirical or infinite-regress validation"
+}
