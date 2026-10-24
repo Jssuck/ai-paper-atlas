@@ -1,0 +1,1334 @@
+{
+  "admissible": 82,
+  "boundary_checks": 6,
+  "chains": [
+    {
+      "admissible": 7,
+      "false_root": 3,
+      "steps": 1
+    },
+    {
+      "admissible": 24,
+      "false_root": 10,
+      "steps": 2
+    },
+    {
+      "admissible": 82,
+      "false_root": 34,
+      "steps": 3
+    },
+    {
+      "admissible": 280,
+      "false_root": 116,
+      "steps": 4
+    }
+  ],
+  "false_root": 33,
+  "path_counts": {
+    "1": 16,
+    "2": 12,
+    "3": 4,
+    "4": 1
+  },
+  "production_records_cross_checked": 128,
+  "rows": [
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      }
+    },
+    {
+      "false_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      }
+    },
+    {
+      "false_paths": [],
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      }
+    }
+  ],
+  "tree_assignments_total": 128
+}

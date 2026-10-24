@@ -1,0 +1,20 @@
+test_all_records_and_paths (test_diagnose.DiagnosisTests.test_all_records_and_paths) ... ok
+test_cycles_rejected (test_diagnose.DiagnosisTests.test_cycles_rejected) ... ok
+test_duplicate_or_single_premises_rejected (test_diagnose.DiagnosisTests.test_duplicate_or_single_premises_rejected) ... ok
+test_duplicate_output_rejected (test_diagnose.DiagnosisTests.test_duplicate_output_rejected) ... ok
+test_false_target_leaf (test_diagnose.DiagnosisTests.test_false_target_leaf) ... ok
+test_generator_steps_supported (test_diagnose.DiagnosisTests.test_generator_steps_supported) ... ok
+test_invalid_inference_not_misdiagnosed (test_diagnose.DiagnosisTests.test_invalid_inference_not_misdiagnosed) ... ok
+test_missing_value_rejected (test_diagnose.DiagnosisTests.test_missing_value_rejected) ... ok
+test_multiple_sources (test_diagnose.DiagnosisTests.test_multiple_sources) ... ok
+test_non_boolean_rejected (test_diagnose.DiagnosisTests.test_non_boolean_rejected) ... ok
+test_shared_dag_paths (test_diagnose.DiagnosisTests.test_shared_dag_paths) ... ok
+test_single_false_leaf (test_diagnose.DiagnosisTests.test_single_false_leaf) ... ok
+test_true_conclusion_false_premise (test_diagnose.DiagnosisTests.test_true_conclusion_false_premise) ... ok
+test_unknown_target_rejected (test_diagnose.DiagnosisTests.test_unknown_target_rejected) ... ok
+test_unrelated_invalid_step_is_not_target_source (test_diagnose.DiagnosisTests.test_unrelated_invalid_step_is_not_target_source) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+OK

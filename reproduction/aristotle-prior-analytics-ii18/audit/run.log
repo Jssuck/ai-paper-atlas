@@ -1,0 +1,14 @@
+UTC 2026-10-24T01:40:43Z
+Python 3.12.14
+COMMAND python  audit/independent_oracle.py
+exit=0
+COMMAND python -O audit/independent_oracle.py
+exit=0
+COMMAND python -OO audit/independent_oracle.py
+exit=0
+normal/O cmp=0
+normal/OO cmp=0
+73924961274fa266246dbc450e9a3408dff7849b5cad24945fdf768a99855cdb  audit/independent_oracle.py
+235091dfa661f08fefe3ef211b96958e954ab721099a75ff9bf18c6279249d79  audit/result-O.json
+235091dfa661f08fefe3ef211b96958e954ab721099a75ff9bf18c6279249d79  audit/result-OO.json
+235091dfa661f08fefe3ef211b96958e954ab721099a75ff9bf18c6279249d79  audit/result-normal.json

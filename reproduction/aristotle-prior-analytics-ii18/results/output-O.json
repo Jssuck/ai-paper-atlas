@@ -1,0 +1,2644 @@
+{
+  "admissible_valuations": 82,
+  "examples": {
+    "invalid_step_all_leaves_true": {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    "one_false_source": {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "false_leaves": [
+        "D"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    "true_result_false_source": {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    "two_false_sources": {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    }
+  },
+  "false_target_admissible": 33,
+  "false_target_with_multiple_false_sources": 17,
+  "records": [
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E",
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "E",
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "E",
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "E",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ],
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "D",
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "false_leaves": [
+        "D"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "false_leaves": [
+        "D"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "false_leaves": [
+        "D"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "D"
+        ]
+      ],
+      "false_leaves": [
+        "D"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "A",
+          "E"
+        ]
+      ],
+      "false_leaves": [
+        "E"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": false,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "A"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ],
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "F",
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "F"
+        ]
+      ],
+      "false_leaves": [
+        "F"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [
+        [
+          "C",
+          "B",
+          "G"
+        ]
+      ],
+      "false_leaves": [
+        "G"
+      ],
+      "target_value": false,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": false,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "B"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": false,
+      "valuation_condition_holds": false,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": [
+        "C"
+      ]
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": false,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": false,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": false,
+        "G": true
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": false
+      },
+      "violating_steps": []
+    },
+    {
+      "false_leaf_paths": [],
+      "false_leaves": [],
+      "target_value": true,
+      "valuation_condition_holds": true,
+      "values": {
+        "A": true,
+        "B": true,
+        "C": true,
+        "D": true,
+        "E": true,
+        "F": true,
+        "G": true
+      },
+      "violating_steps": []
+    }
+  ],
+  "scope": "seven propositions, three binary steps, one concrete truth valuation per record",
+  "total_valuations": 128,
+  "true_target_with_false_leaf": 48
+}
