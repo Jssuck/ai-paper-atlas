@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "in_progress",
+  "active_paper": {
+    "id": "aristotle-prior-analytics-ii18",
+    "stage": "research",
+    "updated_at": "2026-10-24T01:38:40Z"
+  },
   "last_completed": {
     "id": "aristotle-prior-analytics-ii17",
     "stage": "completed",
@@ -14,5 +18,5 @@
       "updated_at": "2026-10-21T10:42:00Z"
     }
   ],
-  "updated_at": "2026-10-24T00:50:04Z"
+  "updated_at": "2026-10-24T01:38:40Z"
 }
