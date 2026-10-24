@@ -1,0 +1,26 @@
+{
+  "closed_form_checks": {
+    "bridge_pairs": 341,
+    "coverage_premises": 4681,
+    "deductive_premises": 4681,
+    "nonempty_observations": 3126,
+    "observations": 4681,
+    "target_failures": 1106,
+    "universal_failures": 1912,
+    "worlds": 69905
+  },
+  "counts": {
+    "bridge_equivalence_failures": 0,
+    "bridge_pairs": 341,
+    "coverage_failures": 0,
+    "coverage_premises": 4681,
+    "deductive_failures": 0,
+    "deductive_premises": 4681,
+    "existential_failures": 0,
+    "nonempty_observations": 3126,
+    "observations": 4681,
+    "target_failures": 1106,
+    "universal_failures": 1912,
+    "worlds": 69905
+  }
+}

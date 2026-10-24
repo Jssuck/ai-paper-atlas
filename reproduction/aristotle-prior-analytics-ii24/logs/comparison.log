@@ -1,0 +1,5 @@
+COMMAND: cmp logs/normal.results.json logs/O.results.json
+EXIT: 0
+COMMAND: cmp logs/normal.results.json logs/OO.results.json
+EXIT: 0
+Three modes passed; result bytes identical.

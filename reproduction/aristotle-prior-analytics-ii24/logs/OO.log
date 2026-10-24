@@ -1,0 +1,248 @@
+COMMAND: python -OO -m unittest -v test_example_transfer.py
+test_drop_sample_classification (test_example_transfer.TransferTests.test_drop_sample_classification) ... ok
+test_drop_sample_property (test_example_transfer.TransferTests.test_drop_sample_property) ... ok
+test_drop_target_classification (test_example_transfer.TransferTests.test_drop_target_classification) ... ok
+test_empty_sample_no_witness (test_example_transfer.TransferTests.test_empty_sample_no_witness) ... ok
+test_empty_subset (test_example_transfer.TransferTests.test_empty_subset) ... ok
+test_empty_target_guaranteed (test_example_transfer.TransferTests.test_empty_target_guaranteed) ... ok
+test_example_certificates (test_example_transfer.TransferTests.test_example_certificates) ... ok
+test_full_counts_and_zero_failures (test_example_transfer.TransferTests.test_full_counts_and_zero_failures) ... ok
+test_invalid_bound (test_example_transfer.TransferTests.test_invalid_bound) ... ok
+test_missing_target_counterproperty (test_example_transfer.TransferTests.test_missing_target_counterproperty) ... ok
+test_nonempty_sample_witness (test_example_transfer.TransferTests.test_nonempty_sample_witness) ... ok
+test_observation_does_not_transfer (test_example_transfer.TransferTests.test_observation_does_not_transfer) ... ok
+test_shared_class_not_universal (test_example_transfer.TransferTests.test_shared_class_not_universal) ... ok
+test_subset_direction (test_example_transfer.TransferTests.test_subset_direction) ... ok
+test_target_coverage_not_class_coverage (test_example_transfer.TransferTests.test_target_coverage_not_class_coverage) ... ok
+test_two_examples_not_coverage (test_example_transfer.TransferTests.test_two_examples_not_coverage) ... ok
+test_union_target_covered (test_example_transfer.TransferTests.test_union_target_covered) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.027s
+
+OK
+EXIT: 0
+COMMAND: python -OO example_transfer.py
+{
+  "examples": [
+    {
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "B_covered_by_D": false,
+      "C": [
+        1
+      ],
+      "C_covered_by_D": false,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": false,
+      "all_C_is_A": false,
+      "domain_size": 2,
+      "name": "one_known_case_does_not_transfer",
+      "observed": true,
+      "some_B_is_A": true
+    },
+    {
+      "A": [],
+      "B": [],
+      "B_covered_by_D": true,
+      "C": [],
+      "C_covered_by_D": true,
+      "D": [],
+      "D_nonempty": false,
+      "all_B_is_A": true,
+      "all_C_is_A": true,
+      "domain_size": 1,
+      "name": "empty_example_no_existential_witness",
+      "observed": true,
+      "some_B_is_A": false
+    },
+    {
+      "A": [],
+      "B": [
+        0
+      ],
+      "B_covered_by_D": true,
+      "C": [
+        0
+      ],
+      "C_covered_by_D": true,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": false,
+      "all_C_is_A": false,
+      "domain_size": 1,
+      "name": "drop_sample_property",
+      "observed": false,
+      "some_B_is_A": false
+    },
+    {
+      "A": [
+        0
+      ],
+      "B": [],
+      "B_covered_by_D": true,
+      "C": [],
+      "C_covered_by_D": true,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": true,
+      "all_C_is_A": true,
+      "domain_size": 1,
+      "name": "drop_sample_classification",
+      "observed": false,
+      "some_B_is_A": false
+    },
+    {
+      "A": [
+        0
+      ],
+      "B": [
+        0
+      ],
+      "B_covered_by_D": true,
+      "C": [
+        1
+      ],
+      "C_covered_by_D": false,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": true,
+      "all_C_is_A": false,
+      "domain_size": 2,
+      "name": "drop_target_classification_in_deduction",
+      "observed": false,
+      "some_B_is_A": true
+    },
+    {
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "B_covered_by_D": false,
+      "C": [
+        0
+      ],
+      "C_covered_by_D": true,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": false,
+      "all_C_is_A": true,
+      "domain_size": 3,
+      "name": "target_covered_not_whole_class",
+      "observed": true,
+      "some_B_is_A": true
+    },
+    {
+      "A": [
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "B_covered_by_D": false,
+      "C": [],
+      "C_covered_by_D": true,
+      "D": [
+        0
+      ],
+      "D_nonempty": true,
+      "all_B_is_A": false,
+      "all_C_is_A": true,
+      "domain_size": 2,
+      "name": "empty_target_vacuous",
+      "observed": true,
+      "some_B_is_A": true
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "C": [
+        2
+      ],
+      "D1": [
+        0
+      ],
+      "D2": [
+        1
+      ],
+      "E_union": [
+        0,
+        1
+      ],
+      "all_B_is_A": false,
+      "all_C_is_A": false,
+      "both_observed": true,
+      "domain_size": 3,
+      "name": "two_examples_still_not_coverage",
+      "target_guaranteed_over_all_A": false
+    }
+  ],
+  "exhaustive": {
+    "by_size": [
+      {
+        "domain_size": 0,
+        "worlds": 1
+      },
+      {
+        "domain_size": 1,
+        "worlds": 16
+      },
+      {
+        "domain_size": 2,
+        "worlds": 256
+      },
+      {
+        "domain_size": 3,
+        "worlds": 4096
+      },
+      {
+        "domain_size": 4,
+        "worlds": 65536
+      }
+    ],
+    "counts": {
+      "bridge_equivalence_failures": 0,
+      "bridge_pairs": 341,
+      "coverage_failures": 0,
+      "coverage_premises": 4681,
+      "deductive_failures": 0,
+      "deductive_premises": 4681,
+      "existential_failures": 0,
+      "nonempty_observations": 3126,
+      "observations": 4681,
+      "target_failures": 1106,
+      "universal_failures": 1912,
+      "worlds": 69905
+    },
+    "scope": "all A,B,C,D subsets; domain sizes 0 through 4"
+  }
+}
+EXIT: 0
