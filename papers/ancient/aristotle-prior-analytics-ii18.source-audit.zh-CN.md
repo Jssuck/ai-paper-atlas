@@ -6,10 +6,12 @@
 
 | 文件 | SHA-256 |
 |---|---|
-| `aristotle-prior-analytics-ii18.zh-CN.md` | `6a34fac3b1e6ae3bb45c9f0ae7e2b9d92dba26698424d8c9a939ae9cdd461a58` |
+| `aristotle-prior-analytics-ii18.zh-CN.md` | `aa555c8c79985fb72384ed0f47fea06b5043c8170e08fa231586c87382319812` |
 | `aristotle-prior-analytics-ii18.sources.zh-CN.md` | `e5f2650ada1a135526c1696b50cf28005a772670e6bfe4e688d6a3ee554a1bda` |
 
 正文末次修订明确：48 个“C 真且至少一个假叶”的赋值，分母是满足局部条件的 82 个赋值。此处只核查其表述边界；运行结果与程序正确性由技术审查负责。正文或来源台账再改动时须重新绑定版本。
+
+排版复核：例 2、例 3 各在中文逗号与下一行内公式起始符之间补入一个空格。逆向移除这两个空格后，字节哈希与上一审查版一致；无来源、命题或算例语义改动。本报告已绑定修正后的正文，远端公式实际显示仍由发布验证负责。
 
 ## 实际阅读范围
 
