@@ -1,0 +1,12 @@
+Command: python3 -O model.py
+{
+  "K3_TF_cases_exhaustive": false,
+  "classical_TF_cases_exhaustive": true,
+  "lem_K3": {
+    "F": "T",
+    "T": "T",
+    "U": "U"
+  },
+  "oracle_differences": 0,
+  "unary_graph_seed_cases": 65536
+}

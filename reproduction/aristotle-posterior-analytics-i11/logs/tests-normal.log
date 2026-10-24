@@ -1,0 +1,24 @@
+Command: python3  -m unittest -v test_model.py
+test_both_and_neither_status (test_model.TestModel.test_both_and_neither_status) ... ok
+test_both_middle (test_model.TestModel.test_both_middle) ... ok
+test_chain (test_model.TestModel.test_chain) ... ok
+test_conjunctive_rule (test_model.TestModel.test_conjunctive_rule) ... ok
+test_cycle_without_seed (test_model.TestModel.test_cycle_without_seed) ... ok
+test_double_negation (test_model.TestModel.test_double_negation) ... ok
+test_empty_antecedent (test_model.TestModel.test_empty_antecedent) ... ok
+test_explicit_negative (test_model.TestModel.test_explicit_negative) ... ok
+test_graph_oracle_edges (test_model.TestModel.test_graph_oracle_edges) ... ok
+test_homonyms (test_model.TestModel.test_homonyms) ... ok
+test_lem (test_model.TestModel.test_lem) ... ok
+test_local_case_exhaustion (test_model.TestModel.test_local_case_exhaustion) ... ok
+test_monotonicity (test_model.TestModel.test_monotonicity) ... ok
+test_no_contraposition (test_model.TestModel.test_no_contraposition) ... ok
+test_no_explosion (test_model.TestModel.test_no_explosion) ... ok
+test_no_negative_from_absence (test_model.TestModel.test_no_negative_from_absence) ... ok
+test_rule_validation (test_model.TestModel.test_rule_validation) ... ok
+test_validation (test_model.TestModel.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

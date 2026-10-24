@@ -1,0 +1,15 @@
+python3 -OO audit/independent_test.py
+test_case_coverage (__main__.IndependentAudit.test_case_coverage) ... ok
+test_closed_model_oracle (__main__.IndependentAudit.test_closed_model_oracle) ... ok
+test_identity_conjunction_and_validation (__main__.IndependentAudit.test_identity_conjunction_and_validation) ... ok
+test_k3_tables_separate_from_support (__main__.IndependentAudit.test_k3_tables_separate_from_support) ... ok
+test_monotonicity_and_idempotence (__main__.IndependentAudit.test_monotonicity_and_idempotence) ... ok
+test_support_not_truth (__main__.IndependentAudit.test_support_not_truth) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.031s
+
+OK
+case coverage comparisons: 56
+closed-model comparisons: 4608
+monotonic seed pairs: 15552 ; idempotence cases: 4608
