@@ -1,0 +1,21 @@
+test_counterexample (test_model.TeachingModelTests.test_counterexample) ... ok
+test_disjoint_middle_undefined (test_model.TeachingModelTests.test_disjoint_middle_undefined) ... ok
+test_empty_C_undefined (test_model.TeachingModelTests.test_empty_C_undefined) ... ok
+test_empty_condition (test_model.TeachingModelTests.test_empty_condition) ... ok
+test_empty_event (test_model.TeachingModelTests.test_empty_event) ... ok
+test_enumeration_bound_and_inclusion (test_model.TeachingModelTests.test_enumeration_bound_and_inclusion) ... ok
+test_every_product_is_joint (test_model.TeachingModelTests.test_every_product_is_joint) ... ok
+test_exact_frequency (test_model.TeachingModelTests.test_exact_frequency) ... ok
+test_no_independence_required (test_model.TeachingModelTests.test_no_independence_required) ... ok
+test_observed_one_not_necessity (test_model.TeachingModelTests.test_observed_one_not_necessity) ... ok
+test_outside_condition_irrelevant (test_model.TeachingModelTests.test_outside_condition_irrelevant) ... ok
+test_powerset (test_model.TeachingModelTests.test_powerset) ... ok
+test_product_can_be_below_majority (test_model.TeachingModelTests.test_product_can_be_below_majority) ... ok
+test_product_equal_joint (test_model.TeachingModelTests.test_product_equal_joint) ... ok
+test_threshold_bound (test_model.TeachingModelTests.test_threshold_bound) ... ok
+test_universal_vacuity_not_frequency (test_model.TeachingModelTests.test_universal_vacuity_not_frequency) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.025s
+
+OK

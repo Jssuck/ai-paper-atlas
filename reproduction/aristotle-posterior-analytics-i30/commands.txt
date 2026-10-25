@@ -1,0 +1,8 @@
+# Run in reproduction/aristotle-posterior-analytics-i30/
+python model.py > results.json
+python -m unittest -v > logs/tests.log 2>&1
+python -O -m unittest -v > logs/tests-O.log 2>&1
+python -OO -m unittest -v > logs/tests-OO.log 2>&1
+python verify_notebook.py > logs/notebook.log 2>&1
+python verify_notebook.py >> logs/notebook.log 2>&1
+# environment.json records the Python version, implementation, system and machine.

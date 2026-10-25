@@ -1,0 +1,74 @@
+{
+  "scope": "finite uniform teaching models, not an interpretation of ancient modal semantics",
+  "majority_counterexample": {
+    "P(B|C)": "3/5",
+    "P(A|B)": "5/8",
+    "P(A|C)": "0",
+    "P(A|B∩C)": "0"
+  },
+  "enumeration": [
+    {
+      "n": 1,
+      "triples": 8,
+      "empty_C": 4,
+      "empty_B_intersect_C": 2,
+      "defined_product_bounds": 2,
+      "bound_failures": 0,
+      "inclusion_premises": 4,
+      "inclusion_failures": 0,
+      "majority_premises": 1,
+      "majority_failures": 0
+    },
+    {
+      "n": 2,
+      "triples": 64,
+      "empty_C": 16,
+      "empty_B_intersect_C": 20,
+      "defined_product_bounds": 28,
+      "bound_failures": 0,
+      "inclusion_premises": 16,
+      "inclusion_failures": 0,
+      "majority_premises": 7,
+      "majority_failures": 0
+    },
+    {
+      "n": 3,
+      "triples": 512,
+      "empty_C": 64,
+      "empty_B_intersect_C": 152,
+      "defined_product_bounds": 296,
+      "bound_failures": 0,
+      "inclusion_premises": 64,
+      "inclusion_failures": 0,
+      "majority_premises": 64,
+      "majority_failures": 9
+    },
+    {
+      "n": 4,
+      "triples": 4096,
+      "empty_C": 256,
+      "empty_B_intersect_C": 1040,
+      "defined_product_bounds": 2800,
+      "bound_failures": 0,
+      "inclusion_premises": 256,
+      "inclusion_failures": 0,
+      "majority_premises": 579,
+      "majority_failures": 124
+    }
+  ],
+  "totals": {
+    "triples": 4680,
+    "empty_C": 340,
+    "empty_B_intersect_C": 1214,
+    "defined_product_bounds": 3126,
+    "bound_failures": 0,
+    "inclusion_premises": 340,
+    "inclusion_failures": 0,
+    "majority_premises": 651,
+    "majority_failures": 133
+  },
+  "frequency_not_necessity": {
+    "observed_frequency": "1",
+    "all_objects_succeed_in_every_stipulated_world": false
+  }
+}
