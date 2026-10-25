@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.28：用了同一种逻辑，就算同一门科学吗？](papers/ancient/aristotle-posterior-analytics-i28.zh-CN.md)，完整87a38–87b4，区分同属对象、共同原理、有向派生和类型桥接，附真实有限Horn教学复现。
+最新补读：[《后分析篇》I.29：同一个结论，为什么可以有不同的证明？](papers/ancient/aristotle-posterior-analytics-i29.zh-CN.md)，完整87b5–18，区分同链切分、不同中项与独立根据，附真实有限模型、反例和Notebook教学执行。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -113,6 +113,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.26精读](papers/ancient/aristotle-posterior-analytics-i26.zh-CN.md) | AI推理前史补读：归谬、量词范围、背景固定与解释先在 | 深读v1 · 完整87a1–30及版本/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.27精读](papers/ancient/aristotle-posterior-analytics-i27.zh-CN.md) | AI推理前史补读：解释、基底、结构附加与精确性边界 | 深读v1 · 完整87a31–37及版本/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.28精读](papers/ancient/aristotle-posterior-analytics-i28.zh-CN.md) | AI推理前史补读：科学统一、共同起点、类型桥接与有限闭包 | 深读v1 · 完整87a38–87b4及版本/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1837/1853版本及希英转录） | [Aristotle后分析篇I.29精读](papers/ancient/aristotle-posterior-analytics-i29.zh-CN.md) | AI推理前史回填：同一结论的多条证明、中项重叠与独立根据 | 深读v1 · 完整87b5–18及版本/语义边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1187,3 +1188,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 后分析篇 I.28 附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i28.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i28.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i28.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i28.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i28/README.md)。完整87a38–87b4；共享逻辑不等于共同专属原理，根交叠不是同一科学的等价关系。有限闭包不能认证自然之类或真实解释统一。前分析篇I.2及II.25仍暂缓；本次不计后分析篇I.29及全书完成。
+
+
+### 后分析篇 I.29 附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i29.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i29.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i29.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i29.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i29/README.md)。完整87b5–18；共同非空主项只保证中项重叠，不保证全称包含；多份证明不自动成为独立原因。有限模型与顺序执行Notebook不认证古代科学解释或完整复现。前分析篇I.2及II.25仍暂缓；本次不计后分析篇I.30及全书完成。

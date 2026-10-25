@@ -1,0 +1,9 @@
+# Run from this directory with Python 3.10+; no packages to install.
+python model.py > results.json
+python -m unittest -v test_model > logs/tests.log 2>&1
+python -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+python verify_notebook.py > logs/notebook.log
+python verify_notebook.py >> logs/notebook.log
+# The second notebook run must report byte_identical_to_previous=true.
+# environment.json records the actual Python interpreter and UTC run time.

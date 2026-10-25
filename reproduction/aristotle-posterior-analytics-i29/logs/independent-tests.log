@@ -1,0 +1,84 @@
+MODE=normal
+test_bad_lower (test_model.Tests.test_bad_lower) ... ok
+test_bad_universe (test_model.Tests.test_bad_universe) ... ok
+test_bad_upper (test_model.Tests.test_bad_upper) ... ok
+test_candidates (test_model.Tests.test_candidates) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_comparable (test_model.Tests.test_comparable) ... ok
+test_conclusion_not_premises (test_model.Tests.test_conclusion_not_premises) ... ok
+test_cycle (test_model.Tests.test_cycle) ... ok
+test_diamond (test_model.Tests.test_diamond) ... ok
+test_duplicate_edge (test_model.Tests.test_duplicate_edge) ... ok
+test_empty_subject_disjoint (test_model.Tests.test_empty_subject_disjoint) ... ok
+test_equal (test_model.Tests.test_equal) ... ok
+test_incomparable_overlap (test_model.Tests.test_incomparable_overlap) ... ok
+test_negative_both (test_model.Tests.test_negative_both) ... ok
+test_negative_enumeration (test_model.Tests.test_negative_enumeration) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_path (test_model.Tests.test_no_path) ... ok
+test_set_enumeration (test_model.Tests.test_set_enumeration) ... ok
+test_subset_direction (test_model.Tests.test_subset_direction) ... ok
+test_subset_empty (test_model.Tests.test_subset_empty) ... ok
+test_two_routes (test_model.Tests.test_two_routes) ... ok
+test_zero_universe (test_model.Tests.test_zero_universe) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.003s
+
+OK
+MODE=-O
+test_bad_lower (test_model.Tests.test_bad_lower) ... ok
+test_bad_universe (test_model.Tests.test_bad_universe) ... ok
+test_bad_upper (test_model.Tests.test_bad_upper) ... ok
+test_candidates (test_model.Tests.test_candidates) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_comparable (test_model.Tests.test_comparable) ... ok
+test_conclusion_not_premises (test_model.Tests.test_conclusion_not_premises) ... ok
+test_cycle (test_model.Tests.test_cycle) ... ok
+test_diamond (test_model.Tests.test_diamond) ... ok
+test_duplicate_edge (test_model.Tests.test_duplicate_edge) ... ok
+test_empty_subject_disjoint (test_model.Tests.test_empty_subject_disjoint) ... ok
+test_equal (test_model.Tests.test_equal) ... ok
+test_incomparable_overlap (test_model.Tests.test_incomparable_overlap) ... ok
+test_negative_both (test_model.Tests.test_negative_both) ... ok
+test_negative_enumeration (test_model.Tests.test_negative_enumeration) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_path (test_model.Tests.test_no_path) ... ok
+test_set_enumeration (test_model.Tests.test_set_enumeration) ... ok
+test_subset_direction (test_model.Tests.test_subset_direction) ... ok
+test_subset_empty (test_model.Tests.test_subset_empty) ... ok
+test_two_routes (test_model.Tests.test_two_routes) ... ok
+test_zero_universe (test_model.Tests.test_zero_universe) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.004s
+
+OK
+MODE=-OO
+test_bad_lower (test_model.Tests.test_bad_lower) ... ok
+test_bad_universe (test_model.Tests.test_bad_universe) ... ok
+test_bad_upper (test_model.Tests.test_bad_upper) ... ok
+test_candidates (test_model.Tests.test_candidates) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_comparable (test_model.Tests.test_comparable) ... ok
+test_conclusion_not_premises (test_model.Tests.test_conclusion_not_premises) ... ok
+test_cycle (test_model.Tests.test_cycle) ... ok
+test_diamond (test_model.Tests.test_diamond) ... ok
+test_duplicate_edge (test_model.Tests.test_duplicate_edge) ... ok
+test_empty_subject_disjoint (test_model.Tests.test_empty_subject_disjoint) ... ok
+test_equal (test_model.Tests.test_equal) ... ok
+test_incomparable_overlap (test_model.Tests.test_incomparable_overlap) ... ok
+test_negative_both (test_model.Tests.test_negative_both) ... ok
+test_negative_enumeration (test_model.Tests.test_negative_enumeration) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_path (test_model.Tests.test_no_path) ... ok
+test_set_enumeration (test_model.Tests.test_set_enumeration) ... ok
+test_subset_direction (test_model.Tests.test_subset_direction) ... ok
+test_subset_empty (test_model.Tests.test_subset_empty) ... ok
+test_two_routes (test_model.Tests.test_two_routes) ... ok
+test_zero_universe (test_model.Tests.test_zero_universe) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.004s
+
+OK

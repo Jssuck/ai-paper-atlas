@@ -1,0 +1,58 @@
+{
+  "example": {
+    "A": 7,
+    "B": 1,
+    "D": 3,
+    "H": 5,
+    "kind": "incomparable",
+    "overlap": 1
+  },
+  "graph_examples": {
+    "chain_paths": [
+      [
+        "B",
+        "C",
+        "D",
+        "Z",
+        "A"
+      ]
+    ],
+    "chain_possible_cuts": [
+      "C",
+      "D",
+      "Z"
+    ],
+    "diamond_paths": [
+      [
+        "B",
+        "D",
+        "A"
+      ],
+      [
+        "B",
+        "H",
+        "A"
+      ]
+    ]
+  },
+  "negative_enumeration": {
+    "assignments": 4369,
+    "both_routes": 259,
+    "celarent_premises": 585,
+    "cesare_premises": 585,
+    "invalid_conclusions": 0
+  },
+  "set_enumeration": {
+    "candidate_count_failures": 0,
+    "comparable_distinct": 880,
+    "conclusion_failures": 0,
+    "empty_subject_disjoint_pairs": 341,
+    "endpoint_pairs": 341,
+    "equal": 341,
+    "incomparable": 334,
+    "middle_candidates": 341,
+    "nonempty_subject_pairs": 774,
+    "ordered_middle_pairs": 1555,
+    "overlap_failures": 0
+  }
+}

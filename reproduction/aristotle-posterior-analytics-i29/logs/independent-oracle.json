@@ -1,0 +1,32 @@
+{
+  "expanded_negative_n0_to4": {
+    "assignments": 69905,
+    "both_routes": 1555,
+    "celarent_premises": 4681,
+    "cesare_premises": 4681,
+    "invalid_conclusions": 0
+  },
+  "expanded_sets_n0_to5": {
+    "candidate_count_failures": 0,
+    "comparable_distinct": 5082,
+    "conclusion_failures": 0,
+    "empty_subject_disjoint_pairs": 1365,
+    "endpoint_pairs": 1365,
+    "equal": 1365,
+    "incomparable": 2884,
+    "middle_candidates": 1365,
+    "nonempty_subject_pairs": 5425,
+    "ordered_middle_pairs": 9331,
+    "overlap_failures": 0
+  },
+  "independent_representation": "explicit frozensets and element quantification; no model import for oracle",
+  "notebook_replay": {
+    "cells": 4,
+    "method": "read-only sequential exec; not Jupyter kernel",
+    "saved_stdout_matches": true
+  },
+  "published_counts_match": true,
+  "python": "3.12.14",
+  "review_utc": "2026-10-25T16:47:02.436072+00:00",
+  "strict_candidate_checks": 1365
+}
