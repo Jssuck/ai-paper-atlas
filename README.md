@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.19：证明的根据会一直往下追吗？](papers/ancient/aristotle-posterior-analytics-i19.zh-CN.md)，完整81b10–82a20，拆解上行、下行与固定端点中项三问，保留译句异读和可换位边界，附有限包含链与精确有理细分的真实教学复现。
+最新补读：[《后分析篇》I.20：两端固定，为什么中间还可能无穷？](papers/ancient/aristotle-posterior-analytics-i20.zh-CN.md)，完整82a21–35，重建两方向终止到中项有限的条件论证，区分链深度、候选宽度和有限相邻前缀，附严格序与精确有理数的真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -104,6 +104,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle后分析篇I.17精读](papers/ancient/aristotle-posterior-analytics-i17.zh-CN.md) | AI推理前史补读：适当中项、极性翻转、错误定位与范围限制 | 深读v1 · 完整80b17–81a37及有限语义核验 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle后分析篇I.18精读](papers/ancient/aristotle-posterior-analytics-i18.zh-CN.md) | AI推理前史补读：感觉依赖、数学抽象、观察纤维与样本覆盖 | 深读v1 · 完整81a38–81b9及解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle后分析篇I.19精读](papers/ancient/aristotle-posterior-analytics-i19.zh-CN.md) | AI推理前史补读：证明回归、三种链、谓述方向与有限词表边界 | 深读v1 · 完整81b10–82a20及版本/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853及对读版本） | [Aristotle后分析篇I.20精读](papers/ancient/aristotle-posterior-analytics-i20.zh-CN.md) | AI推理前史补读：终止条件、固定端点中项、链深度与候选宽度 | 深读v1 · 完整82a21–35及版本/模型边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1135,3 +1136,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《后分析篇》I.19 补读附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i19.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i19.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i19.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i19.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i19/README.md)。本单元仅覆盖81b10–82a20；本章提出回归问题，不偷算后章终止论证。有限集合与有理前缀不认证自然谓述、科学直接性或所有证明终止。前分析篇I.2及II.25仍暂缓，后分析篇I.20及全书不计本单元完成。
+
+
+## 《后分析篇》I.20 补读附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i20.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i20.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i20.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i20.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i20/README.md)。本单元仅覆盖82a21–35；条件归约不证明其前提，有限序模型不认证自然谓述或一般无限结论。前分析篇I.2及II.25仍暂缓，后分析篇I.21及全书不计本单元完成。

@@ -1,0 +1,15 @@
+{
+  "all_loopless_labeled_digraphs": 4096,
+  "acyclic_graphs": 543,
+  "cyclic_graphs_rejected": 3553,
+  "distinct_labeled_strict_orders": 219,
+  "interval_comparisons": 2484,
+  "fixed_order_forward_counts": {
+    "closures": 40,
+    "interval_occurrences": 223,
+    "total": 221,
+    "nontotal": 2
+  },
+  "failures": 0,
+  "method": "Independent DFS closure plus exhaustive permutation chains; all 4096 loopless labeled digraphs on 4 vertices."
+}

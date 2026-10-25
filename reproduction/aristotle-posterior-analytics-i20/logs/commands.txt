@@ -1,0 +1,8 @@
+Working directory: reproduction/aristotle-posterior-analytics-i20
+python intervals.py > results.json
+python -m unittest -v test_intervals.py > logs/tests-normal.log 2>&1
+python -O -m unittest -v test_intervals.py > logs/tests-O.log 2>&1
+python -OO -m unittest -v test_intervals.py > logs/tests-OO.log 2>&1
+python run_notebook.py > logs/notebook.log 2>&1
+Environment record generated with Python sys, platform and datetime from the same execution environment.
+All commands above completed with exit code 0; tests are unittest checks active under optimization.

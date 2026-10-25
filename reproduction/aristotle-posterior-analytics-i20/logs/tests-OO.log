@@ -1,0 +1,18 @@
+test_arbitrary_numbering (test_intervals.OrderTests.test_arbitrary_numbering) ... ok
+test_buffer_preserves_tail (test_intervals.OrderTests.test_buffer_preserves_tail) ... ok
+test_count_bounds (test_intervals.OrderTests.test_count_bounds) ... ok
+test_cover_and_duplicate_edges (test_intervals.OrderTests.test_cover_and_duplicate_edges) ... ok
+test_cycle_rejection (test_intervals.OrderTests.test_cycle_rejection) ... ok
+test_diamond_width_not_depth (test_intervals.OrderTests.test_diamond_width_not_depth) ... ok
+test_empty_order (test_intervals.OrderTests.test_empty_order) ... ok
+test_forward_enumeration (test_intervals.OrderTests.test_forward_enumeration) ... ok
+test_input_validation (test_intervals.OrderTests.test_input_validation) ... ok
+test_prefix_validation (test_intervals.OrderTests.test_prefix_validation) ... ok
+test_rational_exactness (test_intervals.OrderTests.test_rational_exactness) ... ok
+test_transitive_closure (test_intervals.OrderTests.test_transitive_closure) ... ok
+test_unsupported_endpoints (test_intervals.OrderTests.test_unsupported_endpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.007s
+
+OK

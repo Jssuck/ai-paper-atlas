@@ -1,0 +1,25 @@
+CELL 1
+{"is_total": true, "longest_edges": 3, "lower": 0, "middle": [1, 2], "middle_count": 2, "upper": 3}
+CELL 2
+m=1: middle_count=1, longest_edges=2, is_total=True
+m=2: middle_count=2, longest_edges=2, is_total=False
+m=8: middle_count=8, longest_edges=2, is_total=False
+m=32: middle_count=32, longest_edges=2, is_total=False
+CELL 3
+{
+  "nodes": 4,
+  "forward_edge_slots": 6,
+  "raw_dags": 64,
+  "distinct_transitive_closures": 40,
+  "ordered_interval_occurrences": 223,
+  "total_interval_occurrences": 221,
+  "nontotal_interval_occurrences": 2,
+  "total_interval_identity_failures": 0,
+  "maximum_middle_count_minus_chain_internals": 1,
+  "scope": "All edge subsets compatible with the fixed order 0<1<...; closure duplicates retained in interval counts."
+}
+CELL 4
+-1, 0, 1/2, 3/4, 7/8, 15/16, 31/32, 63/64, 127/128, 255/256, 1
+gap to 1: 1/256
+next midpoint: 511/512
+Executed 4 plain-Python cells in one namespace; no Jupyter kernel used.
