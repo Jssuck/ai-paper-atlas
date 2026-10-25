@@ -97,8 +97,8 @@ $$
 以下全部是原创教学模型。设已知有限域 U 有 n 个元素；候选假设类 H 包含 U 上所有取 0 或 1 的函数。观察是若干对象及其值的记录。设 S 是其中被观察到的不同对象集合；暂先假定每个记录均为 1，且没有矛盾。
 
 $$
-H=\{h:U\to\{0,1\}\},\qquad
-V(S)=\{h\in H:\forall s\in S,\ h(s)=1\}.
+H=\lbrace h:U\to\lbrace 0,1\rbrace \rbrace ,\qquad
+V(S)=\lbrace h\in H:\forall s\in S,\ h(s)=1\rbrace .
 $$
 
 V 是与观察相容的候选集合，不是概率分布。程序不把每个候选等可能当作经验事实。

@@ -1,7 +1,7 @@
 # I.31 独立来源审查
 
 - 审查对象：[深读正文](aristotle-posterior-analytics-i31.zh-CN.md)与[来源台账](aristotle-posterior-analytics-i31.sources.zh-CN.md)。
-- 正文 SHA-256：`a205c3d63a196ce460d9adbb7665a0988bd23c18f751ca517b7ca532c2e27184`。
+- 正文 SHA-256：`db32876565b08aa2c92cafd231c1597b4ef63b51fb2d6421dd7aa4dbacb39503`。
 - 来源台账 SHA-256：`7847bfc31d21b750de460aa9f8fa2b329470a4daeaef83fa9f09bb9d50ada958`。
 - 审查方式：由非主笔审查者独立打开数字原文、扫描及勘误，再逐节核对正文；不是以主笔摘要替代原文阅读。结论只绑定上述字节版本，任何正文修订须重新核验。
 
@@ -27,3 +27,7 @@
 本审查不是新校勘本，不等于实读 Ross1964 纸本校勘栏，未逐一检查全部手稿。古代玻璃物理解释没有在本项目进行实际光学检验。现代模型只帮助辨认特定逻辑跳步，不构成亚里士多德全部认识论的证明。
 
 来源直达：[I.31 希英](https://aristotle.johnhboyer.com/APo/book/1/#ch-1-31)、[独立希腊数字文本](https://www.graeco-arabic-studies.org/view/arist.analytpost-orig-gr1)、[Bekker1831扫描](https://archive.org/details/aristotelisopera01arisrich)、[Owen1853扫描](https://archive.org/details/Aristotles_Organon_vol_01_1853)、[II.19 对照段落](https://aristotle.johnhboyer.com/APo/book/2/#ch-2-19)。
+
+## 渲染修订后的重新核验
+
+正文公式将转义花括号改为 `\lbrace`、`\rbrace` 并增加命令后的分隔空格，以避免 Markdown 吞掉集合括号。审查者按此变换逆向还原后，所得正文 SHA-256 与首次审查版本 `a205c3d63a196ce460d9adbb7665a0988bd23c18f751ca517b7ca532c2e27184` 完全相同；故确认除此显示语法外无正文变化，原文释义、范围与来源结论不变。本审查已重绑以上新正文哈希。

@@ -8,7 +8,7 @@
 
 |文件|SHA-256|
 |---|---|
-|正文 `aristotle-posterior-analytics-i31.zh-CN.md`|`a205c3d63a196ce460d9adbb7665a0988bd23c18f751ca517b7ca532c2e27184`|
+|正文 `aristotle-posterior-analytics-i31.zh-CN.md`|`db32876565b08aa2c92cafd231c1597b4ef63b51fb2d6421dd7aa4dbacb39503`|
 |`model.py`|`70513279f9357186103483667e736945af107169461c18a813511be6dfc74009`|
 |`test_model.py`|`474262fcfe1fe23aa9c40789a10ba4a4f973c84e90d64de62e6ef10212df25da`|
 |`verify_notebook.py`|`d798157cfcaacf0b6b979e5e0e43d83fb4cd3d794dcc7a3fb26d629734d2adbc`|
@@ -69,3 +69,7 @@ Notebook 实际重跑 4 个代码单元，`byte_identical_to_previous=true`。�
 代码限定 n≤12，主动限制指数枚举；只依赖 Python 标准库，无外部网络调用、密钥或付费依赖。日志与环境记录不含私人对话或账户材料。Notebook 是自有纯 Python 单元，执行器不应被用于陌生 Notebook。
 
 审查只覆盖本篇声明的教学形式化与运行证据，不认证感知如何形成全称的认知机制，也不认证实际玻璃、聚光或月食模型。实际 GitHub 公式显示、远端文件完整性与发布提交验证由发布阶段另行完成，不能由本技术通过代替。
+
+## 6 公式显示修订复核
+
+正文集合定义的花括号由转义字面括号改用 `\lbrace` / `\rbrace`，避免 Markdown 处理时丢失集合边界。独立反向替换可精确还原先前已审正文 SHA-256 `a205c3d63a196ce460d9adbb7665a0988bd23c18f751ca517b7ca532c2e27184`，确认没有其他正文变更。新记法仍表示相同集合，数学语义不变；上表已重绑修订后的正文。源码、测试、Notebook 与结果未变，已有实跑结论仍覆盖这些相同字节；实际页面显示由发布者再次截图核验。
