@@ -1,0 +1,16 @@
+{
+  "semantic_closure_cases": 512,
+  "rule_inclusion_monotonicity_cases": 5832,
+  "fixed_seed_conservative": 24,
+  "fixed_seed_nonconservative": 40,
+  "scm_constraint_cases": 12,
+  "position_configurations": 120,
+  "first_pair_distance_cases": 117,
+  "pair_not_diameter_and_noncollision_witnesses": "passed",
+  "exact_mse": [
+    "1/2",
+    "0"
+  ],
+  "mismatches": 0,
+  "scope": "finite teaching models only; not a general scientific ranking or full-theory conservativity claim"
+}

@@ -1,0 +1,170 @@
+{
+  "causal": {
+    "natural_rows": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "natural_disagreements": 0,
+    "intervention_rows": [
+      {
+        "u": 0,
+        "do_x": 0,
+        "direct": [
+          0,
+          0
+        ],
+        "common": [
+          0,
+          0
+        ]
+      },
+      {
+        "u": 0,
+        "do_x": 1,
+        "direct": [
+          1,
+          1
+        ],
+        "common": [
+          1,
+          0
+        ]
+      },
+      {
+        "u": 1,
+        "do_x": 0,
+        "direct": [
+          0,
+          0
+        ],
+        "common": [
+          0,
+          1
+        ]
+      },
+      {
+        "u": 1,
+        "do_x": 1,
+        "direct": [
+          1,
+          1
+        ],
+        "common": [
+          1,
+          1
+        ]
+      }
+    ],
+    "intervention_disagreements": 2
+  },
+  "positions": {
+    "rows": [
+      {
+        "labels": 1,
+        "configurations": 3,
+        "base_fibers": 1,
+        "first_pair_distances": [],
+        "distance_not_recoverable": false
+      },
+      {
+        "labels": 2,
+        "configurations": 9,
+        "base_fibers": 1,
+        "first_pair_distances": [
+          0,
+          1,
+          2
+        ],
+        "distance_not_recoverable": true
+      },
+      {
+        "labels": 3,
+        "configurations": 27,
+        "base_fibers": 1,
+        "first_pair_distances": [
+          0,
+          1,
+          2
+        ],
+        "distance_not_recoverable": true
+      },
+      {
+        "labels": 4,
+        "configurations": 81,
+        "base_fibers": 1,
+        "first_pair_distances": [
+          0,
+          1,
+          2
+        ],
+        "distance_not_recoverable": true
+      }
+    ],
+    "configurations": 120,
+    "ambiguous_distance_fibers": 3,
+    "witness": {
+      "first": [
+        0,
+        0
+      ],
+      "second": [
+        0,
+        1
+      ],
+      "base_labels": [
+        0,
+        1
+      ],
+      "distances": [
+        0,
+        1
+      ]
+    }
+  },
+  "horn": {
+    "rule_configurations": 64,
+    "conservative_at_fixed_seed": 24,
+    "nonconservative_at_fixed_seed": 40,
+    "old_conclusion_loss_cases": 0,
+    "conservative_example": [
+      "a"
+    ],
+    "nonconservative_example": [
+      "a",
+      "b"
+    ]
+  },
+  "prediction": {
+    "dataset": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "simple_mse": "1/2",
+    "richer_mse": "0",
+    "claim": "constructed example only; no real dataset"
+  }
+}
