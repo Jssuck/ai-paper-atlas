@@ -1,0 +1,59 @@
+{
+  "domain_size": 4,
+  "triples_per_form": 4096,
+  "forms": {
+    "Celarent": {
+      "premise_satisfying": 256,
+      "all_terms_nonempty": 110,
+      "violations": 0
+    },
+    "Cesare": {
+      "premise_satisfying": 256,
+      "all_terms_nonempty": 110,
+      "violations": 0
+    },
+    "Camestres": {
+      "premise_satisfying": 256,
+      "all_terms_nonempty": 110,
+      "violations": 0
+    }
+  },
+  "restricted_vocabulary_witnesses": [],
+  "with_complement_witnesses": [
+    [
+      "not_A",
+      "Celarent"
+    ],
+    [
+      "not_A",
+      "Cesare"
+    ]
+  ],
+  "missing_disjointness_counterexample": {
+    "A": [
+      0,
+      1
+    ],
+    "B": [
+      1,
+      2
+    ],
+    "C": [
+      0,
+      1,
+      3
+    ]
+  },
+  "third_figure_counterexample": {
+    "A": [
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "M": [
+      1
+    ]
+  }
+}

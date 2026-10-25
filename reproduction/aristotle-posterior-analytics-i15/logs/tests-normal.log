@@ -1,0 +1,16 @@
+$ python -m unittest -v test_model
+test_all_three_universal_negative_forms (test_model.DirectNegationTests.test_all_three_universal_negative_forms) ... ok
+test_complement_construction_for_all_disjoint_nonempty_pairs (test_model.DirectNegationTests.test_complement_construction_for_all_disjoint_nonempty_pairs) ... ok
+test_empty_subject_is_vacuous_not_scientific_evidence (test_model.DirectNegationTests.test_empty_subject_is_vacuous_not_scientific_evidence) ... ok
+test_missing_genus_not_disjoint_even_if_conclusion_false (test_model.DirectNegationTests.test_missing_genus_not_disjoint_even_if_conclusion_false) ... ok
+test_third_figure_only_particular_counterexample (test_model.DirectNegationTests.test_third_figure_only_particular_counterexample) ... ok
+test_third_figure_particular_finite_check (test_model.DirectNegationTests.test_third_figure_particular_finite_check) ... ok
+test_true_conclusion_does_not_supply_missing_premise (test_model.DirectNegationTests.test_true_conclusion_does_not_supply_missing_premise) ... ok
+test_two_negative_premises_do_not_entail_disjointness (test_model.DirectNegationTests.test_two_negative_premises_do_not_entail_disjointness) ... ok
+test_unknown_form_rejected (test_model.DirectNegationTests.test_unknown_form_rejected) ... ok
+test_vocabulary_dependence_and_complement (test_model.DirectNegationTests.test_vocabulary_dependence_and_complement) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
