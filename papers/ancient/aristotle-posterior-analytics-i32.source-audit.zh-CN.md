@@ -6,10 +6,10 @@
 
 | 文件 | SHA256 |
 |---|---|
-| `aristotle-posterior-analytics-i32.zh-CN.md` | `f6a97925f757e4e20ca61ffb9c8e9c8f8da0a0bab73418329f7a3ebba7ac09be` |
+| `aristotle-posterior-analytics-i32.zh-CN.md` | `da095e030041c5f003d456cbebd7bb2707f75dad44c03e81a908e75ad023699d` |
 | `aristotle-posterior-analytics-i32.sources.zh-CN.md` | `d3c965f5f41ee4189194141d598d3a815ca889d74253c8cd199601700ed5a735` |
 
-格式复核：主文§1仅移除拉丁书名两侧的Markdown斜体标记，以避免与相邻中文的显示问题。将这两处标记复原后，文件SHA256精确等于上一轮已审版本；文字和论证未变，现已重新绑定当前文件。实际页面显示另由发布验证确认。
+格式复核：主文§1书目句为避免拉丁书名与邻接中文的显示问题，先移除斜体，后调整中拉书名顺序。当前句为“Aristotle 著，《后分析篇》卷 I 第 32 章。拉丁书名：Analytica posteriora。”；将该唯一句恢复为前一版原句后，SHA256精确匹配前一已审版本。书目信息、范围与论证未变，现已重新绑定当前文件。实际页面显示另由发布验证确认。
 
 ## 独立核看的证据
 
