@@ -1,0 +1,17 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "jupyter_kernel_used": false,
+  "notebook_execution": "run_notebook.py executes plain Python cells sequentially in one namespace",
+  "notebook_scaffold": "installed skill read; documented helper absent, JSON fallback; no packages installed",
+  "commands": [
+    "python test_chains.py",
+    "python -O test_chains.py",
+    "python -OO test_chains.py",
+    "python chains.py > results.json",
+    "python run_notebook.py"
+  ]
+}

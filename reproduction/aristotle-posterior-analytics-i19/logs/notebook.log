@@ -1,0 +1,16 @@
+CELL 1
+原词表中项: []
+扩充词表中项: ['B']
+链: {'steps': 2, 'ranks': [1, 2, 3]}
+CELL 2
+名字: ['B', 'B_alias']
+外延商类: [['A'], ['B', 'B_alias'], ['C']]
+CELL 3
+点: ['0', '1/2', '3/4', '7/8', '15/16', '31/32', '63/64', '127/128', '255/256', '1']
+剩余上端间隙: 1/256
+CELL 4
+ordered_triples_checked 3375
+affirmative_valid_premises 175
+negative_valid_premises 110
+bridge_failures 0
+Executed 4 plain-Python cells in one namespace; no Jupyter kernel used.

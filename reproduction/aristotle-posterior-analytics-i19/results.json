@@ -1,0 +1,48 @@
+{
+  "universe_size": 4,
+  "nonempty_extensions": 15,
+  "ordered_triples_checked": 3375,
+  "affirmative_valid_premises": 175,
+  "negative_valid_premises": 110,
+  "bridge_failures": 0,
+  "initial_middle_names": [],
+  "expanded_middle_names": [
+    "B",
+    "B_alias"
+  ],
+  "equal_extension_classes": [
+    [
+      "A"
+    ],
+    [
+      "B",
+      "B_alias"
+    ],
+    [
+      "C"
+    ]
+  ],
+  "chain": {
+    "steps": 2,
+    "ranks": [
+      1,
+      2,
+      3
+    ]
+  },
+  "dyadic_depth": 8,
+  "dyadic_points": [
+    "0",
+    "1/2",
+    "3/4",
+    "7/8",
+    "15/16",
+    "31/32",
+    "63/64",
+    "127/128",
+    "255/256",
+    "1"
+  ],
+  "last_gap": "1/256",
+  "scope": "finite extensional checks and one finite rational prefix; not natural predication or an infinite termination proof"
+}

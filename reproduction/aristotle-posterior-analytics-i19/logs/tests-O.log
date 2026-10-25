@@ -1,0 +1,15 @@
+test_affirmative_direction (__main__.ChainTests.test_affirmative_direction) ... ok
+test_bad_extension_and_endpoints (__main__.ChainTests.test_bad_extension_and_endpoints) ... ok
+test_equivalent_names_not_strict_steps (__main__.ChainTests.test_equivalent_names_not_strict_steps) ... ok
+test_exhaustive_domain (__main__.ChainTests.test_exhaustive_domain) ... ok
+test_finite_chain_rank (__main__.ChainTests.test_finite_chain_rank) ... ok
+test_midpoint_exact (__main__.ChainTests.test_midpoint_exact) ... ok
+test_negative_requires_both_premises (__main__.ChainTests.test_negative_requires_both_premises) ... ok
+test_prefix_not_endpoint_claim (__main__.ChainTests.test_prefix_not_endpoint_claim) ... ok
+test_reject_cycle_and_reverse (__main__.ChainTests.test_reject_cycle_and_reverse) ... ok
+test_vocabulary_relative_middles (__main__.ChainTests.test_vocabulary_relative_middles) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
