@@ -4,7 +4,7 @@
 
 审查对象SHA-256：
 
-- 正文 `aristotle-posterior-analytics-i34.zh-CN.md`：`efe8b5c35d01cb2fa43d9358e33cdda6f41061c99fab0a8e75f7127687dd25fa`
+- 正文 `aristotle-posterior-analytics-i34.zh-CN.md`：`1542045563e380c547099283b78a726fda67865c5b4a5fcbe4cc40e62a648899`
 - 来源台账 `aristotle-posterior-analytics-i34.sources.zh-CN.md`：`ab7d38b63016cc39d22bdff688caecc2cce9a3978623440abd021f55b44d42a8`
 
 ## 实际核读与判断
@@ -20,6 +20,8 @@
 7. **历史与隐私边界通过。** 不称本章为首篇AI论文或现代溯因首创，不声称穷尽所有传统；正文与台账不包含私人对话、账户信息、未许可扫描或全文译写。
 
 已复核第5.2节修订：位图扫描、平均哈希访问假设与完整子集生成成本分开，仍明确不是古代心理速度的实证结论，不改变来源解释判断。
+
+已复核两处全称量词后的TeX间隔调整为 `\quad`：只是显示格式修正，全称范围、前提和不蕴涵结论未变。
 
 ## 保留限制
 

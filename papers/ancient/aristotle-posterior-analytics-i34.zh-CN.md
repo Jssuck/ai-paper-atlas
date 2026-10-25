@@ -43,7 +43,7 @@ Boyer希腊转录在89b15把ὁ置于方括号；Bekker正文及校勘栏的具�
 **教学重构。** 用一元谓词A(x)、B(x)和个体m表示月亮。在声明的照明语境中，写出两个前提：
 
 $$
-\forall x\,(B(x)\Rightarrow A(x)),\qquad B(m).
+\forall x\quad (B(x)\Rightarrow A(x)),\qquad B(m).
 $$
 
 第一条是一般桥接条件，第二条是关于月亮的条件。这里没有把桥接条件当作现代光学无条件定律：光源形状、多重照明、遮挡、观察位置等都可能要求更精细模型。原文的解释意图与现代天文学精确建模应当分层。
@@ -62,7 +62,7 @@ $$
 发现者先注意到A(m)，再迅速想到B(m)。不能把上面的证明箭头倒转：
 
 $$
-A(m),\quad \forall x\,(B(x)\Rightarrow A(x))\quad\not\models\quad B(m).
+A(m),\quad \forall x\quad (B(x)\Rightarrow A(x))\quad\not\models\quad B(m).
 $$
 
 符号“不语义蕴涵”表示存在前两项真而末项假的解释。下面给出这样的解释，避免只贴“肯定后件错误”的标签。
