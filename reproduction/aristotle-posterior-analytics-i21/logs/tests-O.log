@@ -1,0 +1,22 @@
+test_all_direction (test_model.Tests.test_all_direction) ... ok
+test_all_edges_strict_decrease (test_model.Tests.test_all_edges_strict_decrease) ... ok
+test_all_enumerated_rules (test_model.Tests.test_all_enumerated_rules) ... ok
+test_cycle_detector (test_model.Tests.test_cycle_detector) ... ok
+test_disjoint_symmetry (test_model.Tests.test_disjoint_symmetry) ... ok
+test_empty_subject (test_model.Tests.test_empty_subject) ... ok
+test_enumeration_rejects_bad_bounds (test_model.Tests.test_enumeration_rejects_bad_bounds) ... ok
+test_finite_rank_bounds (test_model.Tests.test_finite_rank_bounds) ... ok
+test_invalid_states (test_model.Tests.test_invalid_states) ... ok
+test_measure_formula (test_model.Tests.test_measure_formula) ... ok
+test_no_false_quantifier_upgrade (test_model.Tests.test_no_false_quantifier_upgrade) ... ok
+test_no_same_or_equivalent_progress (test_model.Tests.test_no_same_or_equivalent_progress) ... ok
+test_particular_not_universal (test_model.Tests.test_particular_not_universal) ... ok
+test_switching_counterexample (test_model.Tests.test_switching_counterexample) ... ok
+test_third_figure_witness (test_model.Tests.test_third_figure_witness) ... ok
+test_weakening_requires_witness (test_model.Tests.test_weakening_requires_witness) ... ok
+test_zero_height (test_model.Tests.test_zero_height) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.006s
+
+OK

@@ -1,0 +1,184 @@
+{
+  "semantic_checks": [
+    {
+      "bound": 4,
+      "assignments": 4681,
+      "premise_counts": [
+        341,
+        341,
+        774
+      ],
+      "counterexamples": [
+        0,
+        0,
+        0
+      ],
+      "weakening_cases": 90,
+      "weakening_counterexamples": 0
+    },
+    {
+      "bound": 5,
+      "assignments": 37449,
+      "premise_counts": [
+        1365,
+        1365,
+        5425
+      ],
+      "counterexamples": [
+        0,
+        0,
+        0
+      ],
+      "weakening_cases": 301,
+      "weakening_counterexamples": 0
+    }
+  ],
+  "graph_checks": [
+    {
+      "height": 0,
+      "evidence": false,
+      "states": 2,
+      "edges": 0,
+      "longest_steps": 0,
+      "acyclic": true
+    },
+    {
+      "height": 0,
+      "evidence": true,
+      "states": 2,
+      "edges": 1,
+      "longest_steps": 1,
+      "acyclic": true
+    },
+    {
+      "height": 1,
+      "evidence": false,
+      "states": 8,
+      "edges": 8,
+      "longest_steps": 2,
+      "acyclic": true
+    },
+    {
+      "height": 1,
+      "evidence": true,
+      "states": 8,
+      "edges": 12,
+      "longest_steps": 4,
+      "acyclic": true
+    },
+    {
+      "height": 2,
+      "evidence": false,
+      "states": 18,
+      "edges": 36,
+      "longest_steps": 4,
+      "acyclic": true
+    },
+    {
+      "height": 2,
+      "evidence": true,
+      "states": 18,
+      "edges": 45,
+      "longest_steps": 7,
+      "acyclic": true
+    },
+    {
+      "height": 3,
+      "evidence": false,
+      "states": 32,
+      "edges": 96,
+      "longest_steps": 6,
+      "acyclic": true
+    },
+    {
+      "height": 3,
+      "evidence": true,
+      "states": 32,
+      "edges": 112,
+      "longest_steps": 10,
+      "acyclic": true
+    },
+    {
+      "height": 4,
+      "evidence": false,
+      "states": 50,
+      "edges": 200,
+      "longest_steps": 8,
+      "acyclic": true
+    },
+    {
+      "height": 4,
+      "evidence": true,
+      "states": 50,
+      "edges": 225,
+      "longest_steps": 13,
+      "acyclic": true
+    },
+    {
+      "height": 5,
+      "evidence": false,
+      "states": 72,
+      "edges": 360,
+      "longest_steps": 10,
+      "acyclic": true
+    },
+    {
+      "height": 5,
+      "evidence": true,
+      "states": 72,
+      "edges": 396,
+      "longest_steps": 16,
+      "acyclic": true
+    },
+    {
+      "height": 6,
+      "evidence": false,
+      "states": 98,
+      "edges": 588,
+      "longest_steps": 12,
+      "acyclic": true
+    },
+    {
+      "height": 6,
+      "evidence": true,
+      "states": 98,
+      "edges": 637,
+      "longest_steps": 19,
+      "acyclic": true
+    },
+    {
+      "height": 7,
+      "evidence": false,
+      "states": 128,
+      "edges": 896,
+      "longest_steps": 14,
+      "acyclic": true
+    },
+    {
+      "height": 7,
+      "evidence": true,
+      "states": 128,
+      "edges": 960,
+      "longest_steps": 22,
+      "acyclic": true
+    },
+    {
+      "height": 8,
+      "evidence": false,
+      "states": 162,
+      "edges": 1296,
+      "longest_steps": 16,
+      "acyclic": true
+    },
+    {
+      "height": 8,
+      "evidence": true,
+      "states": 162,
+      "edges": 1377,
+      "longest_steps": 25,
+      "acyclic": true
+    }
+  ],
+  "mismatches": 0,
+  "scope": "Independent finite set enumeration through n=5 and pairwise/Kahn graphs H=0..8; not a proof of the general infinite claim."
+}

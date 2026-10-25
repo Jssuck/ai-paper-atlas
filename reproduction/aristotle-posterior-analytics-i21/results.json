@@ -1,0 +1,85 @@
+{
+  "semantics": {
+    "universe_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "assignments": 4681,
+    "rules": {
+      "first_EAE": {
+        "premise_cases": 341,
+        "counterexamples": 0
+      },
+      "second_AEE": {
+        "premise_cases": 341,
+        "counterexamples": 0
+      },
+      "third_AOO": {
+        "premise_cases": 774,
+        "counterexamples": 0
+      }
+    },
+    "E_to_O_with_nonempty_subject": {
+      "premise_cases": 90,
+      "counterexamples": 0
+    },
+    "empty_subject_example": {
+      "P": 1,
+      "S": 0,
+      "E": true,
+      "O": false
+    },
+    "O_not_E_example": {
+      "P": 1,
+      "S": 3,
+      "O": true,
+      "E": false
+    },
+    "third_figure_conclusion_not_universal": {
+      "A": 3,
+      "B": 1,
+      "C": 2,
+      "premises": true,
+      "O_C_A": true,
+      "E_C_A": false
+    }
+  },
+  "ranking": {
+    "height": 4,
+    "states": 50,
+    "edges": 225,
+    "strict_decrease_violations": 0,
+    "max_initial_measure": 17,
+    "max_backward_steps": 13,
+    "O_to_E_requires_nonempty_evidence": true,
+    "same_state_or_equivalence_moves_included": false
+  },
+  "switching_counterexample": {
+    "R": [
+      [
+        "u",
+        "v"
+      ]
+    ],
+    "S": [
+      [
+        "v",
+        "u"
+      ]
+    ],
+    "R_has_cycle": false,
+    "S_has_cycle": false,
+    "union_has_cycle": true,
+    "alternating_prefix": [
+      "u",
+      "v",
+      "u",
+      "v",
+      "u"
+    ]
+  },
+  "scope": "Finite teaching semantics and declared backward-rule skeleton only; no proof of Aristotle's full infinite claim."
+}
