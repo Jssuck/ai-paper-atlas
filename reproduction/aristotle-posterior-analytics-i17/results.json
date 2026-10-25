@@ -1,0 +1,372 @@
+{
+  "nonempty_triples": 343,
+  "scope": "Finite extensional teaching model; not scientific-middle certification or a general proof.",
+  "structural_scenarios": {
+    "negative_disjoint_major": {
+      "count": 18,
+      "profiles": {
+        "true/wholly_false": 18
+      },
+      "witnesses": {
+        "true/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Celarent"
+        }
+      }
+    },
+    "negative_fixed_true_chain": {
+      "count": 37,
+      "profiles": {
+        "wholly_false/true": 37
+      },
+      "witnesses": {
+        "wholly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ],
+          "form": "Celarent"
+        }
+      }
+    },
+    "negative_under_disjoint_minor": {
+      "count": 18,
+      "profiles": {
+        "wholly_false/wholly_false": 18
+      },
+      "witnesses": {
+        "wholly_false/wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Celarent"
+        }
+      }
+    },
+    "positive_fixed_true_chain": {
+      "count": 18,
+      "profiles": {
+        "wholly_false/true": 18
+      },
+      "witnesses": {
+        "wholly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ],
+          "form": "Barbara"
+        }
+      }
+    },
+    "positive_not_under_major": {
+      "count": 66,
+      "profiles": {
+        "partly_false/partly_false": 6,
+        "partly_false/true": 24,
+        "partly_false/wholly_false": 6,
+        "wholly_false/partly_false": 6,
+        "wholly_false/true": 18,
+        "wholly_false/wholly_false": 6
+      },
+      "witnesses": {
+        "partly_false/partly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1,
+            2
+          ],
+          "C": [
+            0,
+            1
+          ],
+          "form": "Barbara"
+        },
+        "partly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ],
+          "form": "Barbara"
+        },
+        "partly_false/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            2
+          ],
+          "form": "Barbara"
+        },
+        "wholly_false/partly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1,
+            2
+          ],
+          "C": [
+            1
+          ],
+          "form": "Barbara"
+        },
+        "wholly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ],
+          "form": "Barbara"
+        },
+        "wholly_false/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ],
+          "form": "Barbara"
+        }
+      }
+    },
+    "positive_under_major": {
+      "count": 18,
+      "profiles": {
+        "true/wholly_false": 18
+      },
+      "witnesses": {
+        "true/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ],
+          "form": "Barbara"
+        }
+      }
+    },
+    "second_figure_Camestres": {
+      "count": 133,
+      "profiles": {
+        "partly_false/partly_false": 30,
+        "partly_false/true": 24,
+        "partly_false/wholly_false": 24,
+        "true/wholly_false": 37,
+        "wholly_false/true": 18
+      },
+      "witnesses": {
+        "partly_false/partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ],
+          "form": "Camestres"
+        },
+        "partly_false/true": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Camestres"
+        },
+        "partly_false/wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ],
+          "form": "Camestres"
+        },
+        "true/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ],
+          "form": "Camestres"
+        },
+        "wholly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Camestres"
+        }
+      }
+    },
+    "second_figure_Cesare": {
+      "count": 133,
+      "profiles": {
+        "partly_false/partly_false": 30,
+        "partly_false/true": 24,
+        "partly_false/wholly_false": 24,
+        "true/wholly_false": 18,
+        "wholly_false/true": 37
+      },
+      "witnesses": {
+        "partly_false/partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ],
+          "form": "Cesare"
+        },
+        "partly_false/true": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ],
+          "form": "Cesare"
+        },
+        "partly_false/wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Cesare"
+        },
+        "true/wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ],
+          "form": "Cesare"
+        },
+        "wholly_false/true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ],
+          "form": "Cesare"
+        }
+      }
+    }
+  },
+  "universe": [
+    0,
+    1,
+    2
+  ],
+  "validity": {
+    "Barbara": {
+      "counterexamples": 0,
+      "interpretations": 512
+    },
+    "Camestres": {
+      "counterexamples": 0,
+      "interpretations": 512
+    },
+    "Celarent": {
+      "counterexamples": 0,
+      "interpretations": 512
+    },
+    "Cesare": {
+      "counterexamples": 0,
+      "interpretations": 512
+    }
+  }
+}

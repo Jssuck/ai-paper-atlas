@@ -1,0 +1,21 @@
+test_direction (test_model.ModelTests.test_direction) ... ok
+test_empty_is_true_not_wholly_false (test_model.ModelTests.test_empty_is_true_not_wholly_false) ... ok
+test_fixed_true_chains (test_model.ModelTests.test_fixed_true_chains) ... ok
+test_invalid_inputs (test_model.ModelTests.test_invalid_inputs) ... ok
+test_music_example_structure (test_model.ModelTests.test_music_example_structure) ... ok
+test_negative_wrong_middle (test_model.ModelTests.test_negative_wrong_middle) ... ok
+test_noninclusion_not_disjointness (test_model.ModelTests.test_noninclusion_not_disjointness) ... ok
+test_positive_not_under_major_always_false (test_model.ModelTests.test_positive_not_under_major_always_false) ... ok
+test_positive_under (test_model.ModelTests.test_positive_under) ... ok
+test_readme_examples (test_model.ModelTests.test_readme_examples) ... ok
+test_saved_witnesses (test_model.ModelTests.test_saved_witnesses) ... ok
+test_second_figure_four_element_check (test_model.ModelTests.test_second_figure_four_element_check) ... ok
+test_second_figure_not_both_wholly_false (test_model.ModelTests.test_second_figure_not_both_wholly_false) ... ok
+test_status_distinctions (test_model.ModelTests.test_status_distinctions) ... ok
+test_validity (test_model.ModelTests.test_validity) ... ok
+test_zero_universe (test_model.ModelTests.test_zero_universe) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.059s
+
+OK

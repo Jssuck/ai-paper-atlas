@@ -1,0 +1,4 @@
+python3 model.py > results.json
+python3 -m unittest -v test_model.py
+python3 -O -m unittest -v test_model.py
+python3 -OO -m unittest -v test_model.py
