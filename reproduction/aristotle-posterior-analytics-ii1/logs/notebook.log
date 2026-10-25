@@ -1,0 +1,18 @@
+$ python run_notebook.py
+CELL 1
+初始： fact
+事实肯定后： why
+已认证原因： None
+CELL 2
+候选： ('candidate A', 'candidate B')
+已认证原因： None
+换事件： fact
+CELL 3
+仅描述： exists
+显式否定： closed_negative
+撤回： exists
+CELL 4
+{'max_length': 4, 'sequences': 242, 'transitions': 852, 'violations': 0}
+Executed 4 code cells with CPython exec; not a Jupyter kernel.
+
+exit_code=0

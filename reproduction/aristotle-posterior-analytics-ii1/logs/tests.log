@@ -1,0 +1,23 @@
+$ python -m unittest -v test_model
+test_attribute_isolation (test_model.TestInquiry.test_attribute_isolation) ... ok
+test_bad_key_rejected (test_model.TestInquiry.test_bad_key_rejected) ... ok
+test_candidate_validation (test_model.TestInquiry.test_candidate_validation) ... ok
+test_candidates_do_not_certify (test_model.TestInquiry.test_candidates_do_not_certify) ... ok
+test_exhaustive (test_model.TestInquiry.test_exhaustive) ... ok
+test_initial_questions (test_model.TestInquiry.test_initial_questions) ... ok
+test_no_does_not_route_to_positive_why (test_model.TestInquiry.test_no_does_not_route_to_positive_why) ... ok
+test_no_evidence_rejected (test_model.TestInquiry.test_no_evidence_rejected) ... ok
+test_nominal_description_not_existence (test_model.TestInquiry.test_nominal_description_not_existence) ... ok
+test_revision (test_model.TestInquiry.test_revision) ... ok
+test_subject_isolation (test_model.TestInquiry.test_subject_isolation) ... ok
+test_time_isolation (test_model.TestInquiry.test_time_isolation) ... ok
+test_type_isolation (test_model.TestInquiry.test_type_isolation) ... ok
+test_withdraw_reopens (test_model.TestInquiry.test_withdraw_reopens) ... ok
+test_yes_routes (test_model.TestInquiry.test_yes_routes) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.002s
+
+OK
+
+exit_code=0

@@ -1,0 +1,17 @@
+$ python model.py
+{
+  "eclipse_before": "fact",
+  "eclipse_after": "why",
+  "candidate_count": 2,
+  "certified_cause": null,
+  "centaur_after_description": "exists",
+  "new_context": "fact",
+  "exhaustive": {
+    "max_length": 4,
+    "sequences": 242,
+    "transitions": 852,
+    "violations": 0
+  }
+}
+
+exit_code=0
