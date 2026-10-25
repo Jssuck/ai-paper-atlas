@@ -1,0 +1,18 @@
+UTC: 2026-10-25T23:44:34.465287+00:00
+Command: python run_notebook.py
+CELL 1
+中项候选外延: [[0], [0, 1]]
+存在: True 唯一外延: False
+计数公式: 2
+CELL 2
+兼容扩展: 16 普遍式真: 9 普遍式假: 7
+一个反例扩展: M= [0, 2] A= [0]
+CELL 3
+2 在教学白名单内: True
+3/2 在教学白名单内: True
+221/220 在教学白名单内: False
+CELL 4
+{'domain_size': 3, 'triples': 512, 'valid_chains': 64, 'nonempty_subject_chains': 37, 'soundness_failures': 0, 'candidate_count_checks': 64, 'candidate_count_failures': 0}
+Executed 4 code cells with CPython exec; not a Jupyter kernel.
+
+Exit status: 0

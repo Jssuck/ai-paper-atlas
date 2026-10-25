@@ -1,0 +1,27 @@
+UTC: 2026-10-25T23:44:34.237125+00:00
+Command: python -O test_model.py
+test_bad_labels (__main__.ModelTests.test_bad_labels) ... ok
+test_empty_subject_vacuity (__main__.ModelTests.test_empty_subject_vacuity) ... ok
+test_empty_universe (__main__.ModelTests.test_empty_universe) ... ok
+test_exhaustive (__main__.ModelTests.test_exhaustive) ... ok
+test_full_observation (__main__.ModelTests.test_full_observation) ... ok
+test_invalid_major (__main__.ModelTests.test_invalid_major) ... ok
+test_invalid_minor (__main__.ModelTests.test_invalid_minor) ... ok
+test_negative_observation (__main__.ModelTests.test_negative_observation) ... ok
+test_no_candidate (__main__.ModelTests.test_no_candidate) ... ok
+test_one_extension_not_cause (__main__.ModelTests.test_one_extension_not_cause) ... ok
+test_outside_domain (__main__.ModelTests.test_outside_domain) ... ok
+test_partial_observation (__main__.ModelTests.test_partial_observation) ... ok
+test_powerset (__main__.ModelTests.test_powerset) ... ok
+test_ratio_reduction (__main__.ModelTests.test_ratio_reduction) ... ok
+test_ratio_validation (__main__.ModelTests.test_ratio_validation) ... ok
+test_rational_not_palette (__main__.ModelTests.test_rational_not_palette) ... ok
+test_two_candidates (__main__.ModelTests.test_two_candidates) ... ok
+test_valid_chain (__main__.ModelTests.test_valid_chain) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.002s
+
+OK
+
+Exit status: 0

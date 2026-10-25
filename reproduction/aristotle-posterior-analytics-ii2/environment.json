@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "notebook_execution": "sequential CPython exec; not a Jupyter kernel",
+  "optional_packages": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  }
+}

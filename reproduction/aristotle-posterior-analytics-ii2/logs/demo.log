@@ -1,0 +1,13 @@
+UTC: 2026-10-25T23:44:34.439030+00:00
+Command: python model.py
+C={0}; A={0,1}; candidate extensions: [[0], [0, 1]]
+Existence of candidates: True ; unique extension: False
+Causal status: NOT EVALUATED; distinct descriptions may share an extension.
+One observed point: completions= 16 universal_true= 9 universal_false= 7
+Countercompletion M,A: [0, 2] [0]
+Teaching palette only: 440/220 = 2; member=True
+Teaching palette only: 330/220 = 3/2; member=True
+Teaching palette only: 221/220 = 221/220; member=False
+{"candidate_count_checks": 64, "candidate_count_failures": 0, "domain_size": 3, "nonempty_subject_chains": 37, "soundness_failures": 0, "triples": 512, "valid_chains": 64}
+
+Exit status: 0
