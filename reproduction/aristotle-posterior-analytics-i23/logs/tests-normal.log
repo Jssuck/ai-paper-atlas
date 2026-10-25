@@ -1,0 +1,25 @@
+test_bad_chain (test_model.ModelTests.test_bad_chain) ... ok
+test_bad_count (test_model.ModelTests.test_bad_count) ... ok
+test_baroco_not_universal (test_model.ModelTests.test_baroco_not_universal) ... ok
+test_bocardo (test_model.ModelTests.test_bocardo) ... ok
+test_closure (test_model.ModelTests.test_closure) ... ok
+test_common_middle (test_model.ModelTests.test_common_middle) ... ok
+test_cycle_rejected (test_model.ModelTests.test_cycle_rejected) ... ok
+test_direct_zero_middle (test_model.ModelTests.test_direct_zero_middle) ... ok
+test_empty_felapton (test_model.ModelTests.test_empty_felapton) ... ok
+test_empty_order (test_model.ModelTests.test_empty_order) ... ok
+test_enumeration_orders (test_model.ModelTests.test_enumeration_orders) ... ok
+test_enumeration_rules (test_model.ModelTests.test_enumeration_rules) ... ok
+test_inside_excludes_endpoints (test_model.ModelTests.test_inside_excludes_endpoints) ... ok
+test_negative_size (test_model.ModelTests.test_negative_size) ... ok
+test_no_common_middle (test_model.ModelTests.test_no_common_middle) ... ok
+test_one_middle_two_premises (test_model.ModelTests.test_one_middle_two_premises) ... ok
+test_outside_rejected (test_model.ModelTests.test_outside_rejected) ... ok
+test_refinement (test_model.ModelTests.test_refinement) ... ok
+test_saturated (test_model.ModelTests.test_saturated) ... ok
+test_self_rejected (test_model.ModelTests.test_self_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.009s
+
+OK

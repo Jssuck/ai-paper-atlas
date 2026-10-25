@@ -1,0 +1,46 @@
+{
+  "scope": "Independent finite implementation check; no claim about scientific causes or infinite structures.",
+  "orders": {
+    "directed_graphs": 4096,
+    "dags": 543,
+    "cyclic": 3553,
+    "intervals": 2484,
+    "compared_chains": 3828,
+    "common_target_cases": 276,
+    "mismatches": 0
+  },
+  "negative_rules": {
+    "universe_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "assignments": 37449,
+    "rules": {
+      "Celarent": {
+        "premise_models": 1365,
+        "counterexamples": 0
+      },
+      "Camestres": {
+        "premise_models": 1365,
+        "counterexamples": 0
+      },
+      "Baroco": {
+        "premise_models": 5425,
+        "counterexamples": 0
+      },
+      "Felapton_nonempty_M": {
+        "premise_models": 2541,
+        "counterexamples": 0
+      },
+      "Bocardo": {
+        "premise_models": 5425,
+        "counterexamples": 0
+      }
+    },
+    "mismatches": 0
+  }
+}

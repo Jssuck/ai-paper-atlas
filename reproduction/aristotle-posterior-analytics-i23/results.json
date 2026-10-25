@@ -1,0 +1,77 @@
+{
+  "scope": "Finite teaching reconstruction, not certification of causes, genera, intuition or infinite termination.",
+  "orders": {
+    "generated_dags": 75,
+    "intervals": 237,
+    "refinement_states": 319,
+    "saturated_chains": 239,
+    "incomparable_common_target_cases": 37,
+    "without_internal_common_middle": 33,
+    "counting_violations": 0,
+    "insertion_violations": 0
+  },
+  "negative_rules": {
+    "universe_sizes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "assignments": 4681,
+    "rules": {
+      "Celarent": {
+        "premise_models": 341,
+        "counterexamples": 0
+      },
+      "Camestres": {
+        "premise_models": 341,
+        "counterexamples": 0
+      },
+      "Baroco": {
+        "premise_models": 774,
+        "counterexamples": 0
+      },
+      "Felapton_nonempty_M": {
+        "premise_models": 440,
+        "counterexamples": 0
+      },
+      "Bocardo": {
+        "premise_models": 774,
+        "counterexamples": 0
+      }
+    }
+  },
+  "examples": {
+    "fork_common_middles": [],
+    "expanded_common_middles": [
+      2
+    ],
+    "one_middle_count": {
+      "terms": 3,
+      "internal_terms": 1,
+      "adjacent_premises": 2
+    },
+    "Baroco_not_universal": {
+      "S": [
+        0,
+        1
+      ],
+      "P": [
+        0
+      ],
+      "M": [
+        0
+      ]
+    },
+    "empty_middle_Felapton_failure": {
+      "S": [
+        0
+      ],
+      "P": [
+        0
+      ],
+      "M": []
+    }
+  }
+}
