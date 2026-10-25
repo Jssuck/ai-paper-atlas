@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "status": "in_progress",
-  "active_paper": {
-    "id": "aristotle-posterior-analytics-i18",
-    "stage": "publication_verification",
-    "updated_at": "2026-10-25T05:39:00Z"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "aristotle-posterior-analytics-i17",
+    "id": "aristotle-posterior-analytics-i18",
     "stage": "completed",
-    "updated_at": "2026-10-25T04:46:30Z"
+    "updated_at": "2026-10-25T05:43:40Z"
   },
   "deferred_papers": [
     {
@@ -24,6 +20,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-25T05:39:00Z"
+  "updated_at": "2026-10-25T05:43:40Z"
 }
-
