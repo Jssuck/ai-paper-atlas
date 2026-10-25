@@ -1,0 +1,21 @@
+$ python -O -m unittest -v test_model
+test_actual_true_not_necessary_countermodel (test_model.ModelTests.test_actual_true_not_necessary_countermodel) ... ok
+test_all_mode_pairs_with_context_variations (test_model.ModelTests.test_all_mode_pairs_with_context_variations) ... ok
+test_barbara_all_4096_two_world_models (test_model.ModelTests.test_barbara_all_4096_two_world_models) ... ok
+test_boolean_modal_profiles_exhaustive (test_model.ModelTests.test_boolean_modal_profiles_exhaustive) ... ok
+test_conflict_only_in_same_context (test_model.ModelTests.test_conflict_only_in_same_context) ... ok
+test_false_necessity_claim_is_representable (test_model.ModelTests.test_false_necessity_claim_is_representable) ... ok
+test_necessary_truth_misapprehended (test_model.ModelTests.test_necessary_truth_misapprehended) ... ok
+test_reason_chain_does_not_determine_mode (test_model.ModelTests.test_reason_chain_does_not_determine_mode) ... ok
+test_reject_empty_context_and_bad_indices (test_model.ModelTests.test_reject_empty_context_and_bad_indices) ... ok
+test_same_object_not_same_proposition (test_model.ModelTests.test_same_object_not_same_proposition) ... ok
+test_uncommitted_is_not_opinion (test_model.ModelTests.test_uncommitted_is_not_opinion) ... ok
+test_unknown_mode_rejected (test_model.ModelTests.test_unknown_mode_rejected) ... ok
+test_world_vacuity_is_explicit (test_model.ModelTests.test_world_vacuity_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.005s
+
+OK
+
+exit_code=0

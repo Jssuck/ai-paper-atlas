@@ -1,0 +1,30 @@
+$ python model.py
+{
+  "actual_true_not_necessary": {
+    "actual": true,
+    "can_be_false_in_model": true,
+    "necessary_in_model": false
+  },
+  "different_agents_conflicts": 0,
+  "empty_reason_is_not_required_for_opinion": true,
+  "finite_enumeration": {
+    "actual_premise_models": 1024,
+    "actual_premise_nonnecessary_conclusion": 448,
+    "necessary_premise_failures": 0,
+    "necessary_premise_models": 256,
+    "paired_models": 4096,
+    "worlds": 64
+  },
+  "necessary_truth_can_be_misapprehended": {
+    "asserted_mode": "can_be_otherwise",
+    "truth_profile": {
+      "actual": true,
+      "can_be_false_in_model": false,
+      "necessary_in_model": true
+    }
+  },
+  "same_agent_conflicts": 1,
+  "shared_reason_trace": true
+}
+
+exit_code=0

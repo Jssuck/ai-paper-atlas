@@ -1,0 +1,13 @@
+{
+  "environment.json": "e761d842f19e9f9da8ead16ea5d86df65d4b109d4d209865178775bad76729b9",
+  "logs/demo.log": "4131d6433ac4b339e0af1430e1ac20ab102ea616ac29b8ee9a979688e73a594f",
+  "logs/notebook.log": "8e29c1521879d017e8d787eee716e77175a7e82064d440ee5a09da80e17f2972",
+  "logs/tests-double-optimized.log": "8b9d214c009099630b0b7ff6178b05086819494b6bc5e3e51424ea044a8dc6ae",
+  "logs/tests-optimized.log": "54262bb92b2394b903fecea7b09a5209052a4f424e2e673901da45be60faff07",
+  "logs/tests.log": "cd5ec0c38466e4b70b0ed27ebd0f6142826b0c5c421753c863e6298a643aee97",
+  "model.py": "145fdb86225de0ccc940d6444b981894462e6cefe65d6ba5ae6a24d09159e31c",
+  "run_all.py": "39b81c79a670691fc45cfaa02d7e6bf7285ede5c2315277fdd64a73cd0295e61",
+  "run_notebook.py": "2f0e29f7c8eb84c6cfb97eef09a4936570d67be2ca8e25e675adf0d32460e42e",
+  "test_model.py": "463c8e8c968277833a37820b6391e9430b9eb5ae8df8ed70dfaa55f669592f61",
+  "tutorial.ipynb": "9f2f7226c1faa4743ba8e634bea761c78ccd374903ad706cbaa008c9cd586b66"
+}
