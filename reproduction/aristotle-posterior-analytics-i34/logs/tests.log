@@ -1,0 +1,22 @@
+$ python -m unittest -v test_model
+test_all_triples_three_objects (test_model.MiddleTests.test_all_triples_three_objects) ... ok
+test_common_enemy_does_not_entail_friendship (test_model.MiddleTests.test_common_enemy_does_not_entail_friendship) ... ok
+test_empty_middle_rejected_for_existing_subject (test_model.MiddleTests.test_empty_middle_rejected_for_existing_subject) ... ok
+test_empty_subject_policy (test_model.MiddleTests.test_empty_subject_policy) ... ok
+test_empty_universe_policy (test_model.MiddleTests.test_empty_universe_policy) ... ok
+test_false_major_rejected (test_model.MiddleTests.test_false_major_rejected) ... ok
+test_false_minor_rejected (test_model.MiddleTests.test_false_minor_rejected) ... ok
+test_missing_candidate_is_not_impossibility (test_model.MiddleTests.test_missing_candidate_is_not_impossibility) ... ok
+test_model_change_breaks_major (test_model.MiddleTests.test_model_change_breaks_major) ... ok
+test_multiple_candidates_not_unique_cause (test_model.MiddleTests.test_multiple_candidates_not_unique_cause) ... ok
+test_outside_domain_rejected (test_model.MiddleTests.test_outside_domain_rejected) ... ok
+test_social_talking_does_not_entail_borrowing (test_model.MiddleTests.test_social_talking_does_not_entail_borrowing) ... ok
+test_subsets_complete (test_model.MiddleTests.test_subsets_complete) ... ok
+test_valid_certificate (test_model.MiddleTests.test_valid_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK
+
+exit_code=0

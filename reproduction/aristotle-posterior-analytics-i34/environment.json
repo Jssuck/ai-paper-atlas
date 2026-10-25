@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "dependencies": "Python standard library only",
+  "notebook_runner": "stdlib exec; no Jupyter kernel"
+}

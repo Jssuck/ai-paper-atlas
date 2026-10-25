@@ -1,0 +1,9 @@
+$ python model.py
+Pedagogical finite model; no causal, knowledge, or speed certification.
+eligible candidates: ['sun_lit', 'singleton_fit']
+omitted-library result: []
+affirming-consequent counterexample: {'subject_exists': True, 'minor_premise': False, 'major_premise': True, 'conclusion': True, 'certificate': False}
+social counterexample: talking={visitor}, borrowing={} => {'subject_exists': True, 'minor_premise': False, 'major_premise': True, 'conclusion': True, 'certificate': False}
+enumeration: {'universe_size': 3, 'triples': 512, 'certificates': 37, 'soundness_failures': 0}
+
+exit_code=0
