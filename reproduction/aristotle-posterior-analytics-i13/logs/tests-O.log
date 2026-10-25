@@ -1,0 +1,38 @@
+Command: python3 -O -m unittest -v test_model.py
+test_all_distributions_against_equation_oracle (test_model.SCMTests.test_all_distributions_against_equation_oracle) ... ok
+test_all_responses_against_equation_oracle (test_model.SCMTests.test_all_responses_against_equation_oracle) ... ok
+test_binary_range_rejected (test_model.SCMTests.test_binary_range_rejected) ... ok
+test_binary_type_rejected (test_model.SCMTests.test_binary_type_rejected) ... ok
+test_do_x_separates_models (test_model.SCMTests.test_do_x_separates_models) ... ok
+test_do_y_separates_models (test_model.SCMTests.test_do_y_separates_models) ... ok
+test_input_intervention_not_mutated (test_model.SCMTests.test_input_intervention_not_mutated) ... ok
+test_intervention_container_rejected (test_model.SCMTests.test_intervention_container_rejected) ... ok
+test_intervention_grid_is_complete_and_unique (test_model.SCMTests.test_intervention_grid_is_complete_and_unique) ... ok
+test_intervention_variable_type_rejected (test_model.SCMTests.test_intervention_variable_type_rejected) ... ok
+test_joint_intervention_overwrites_both_equations (test_model.SCMTests.test_joint_intervention_overwrites_both_equations) ... ok
+test_model_type_rejected (test_model.SCMTests.test_model_type_rejected) ... ok
+test_none_and_empty_intervention_equivalent (test_model.SCMTests.test_none_and_empty_intervention_equivalent) ... ok
+test_probabilities_normalized_nonnegative_and_exact (test_model.SCMTests.test_probabilities_normalized_nonnegative_and_exact) ... ok
+test_published_results_consistent (test_model.SCMTests.test_published_results_consistent) ... ok
+test_same_observation (test_model.SCMTests.test_same_observation) ... ok
+test_unknown_intervention_variable_rejected (test_model.SCMTests.test_unknown_intervention_variable_rejected) ... ok
+test_unknown_model_rejected (test_model.SCMTests.test_unknown_model_rejected) ... ok
+test_broad_negative_middle (test_model.SetTests.test_broad_negative_middle) ... ok
+test_complete_counts_against_independent_set_oracle (test_model.SetTests.test_complete_counts_against_independent_set_oracle) ... ok
+test_empty_universe_and_subject (test_model.SetTests.test_empty_universe_and_subject) ... ok
+test_mask_ranges_rejected (test_model.SetTests.test_mask_ranges_rejected) ... ok
+test_mask_types_rejected (test_model.SetTests.test_mask_types_rejected) ... ok
+test_maximum_supported_universe (test_model.SetTests.test_maximum_supported_universe) ... ok
+test_negative_does_not_need_reciprocity (test_model.SetTests.test_negative_does_not_need_reciprocity) ... ok
+test_nonempty_reverse_counterexample (test_model.SetTests.test_nonempty_reverse_counterexample) ... ok
+test_predicates_against_membership_oracle (test_model.SetTests.test_predicates_against_membership_oracle) ... ok
+test_reciprocal_bridge (test_model.SetTests.test_reciprocal_bridge) ... ok
+test_reciprocity_not_necessary_for_a_particular_subject (test_model.SetTests.test_reciprocity_not_necessary_for_a_particular_subject) ... ok
+test_size_range_rejected (test_model.SetTests.test_size_range_rejected) ... ok
+test_size_types_rejected (test_model.SetTests.test_size_types_rejected) ... ok
+test_valid_fact_chain (test_model.SetTests.test_valid_fact_chain) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.009s
+
+OK

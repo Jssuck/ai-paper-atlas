@@ -1,0 +1,18 @@
+Command: python3  -m unittest -v test_model.py
+Exit status: 0
+Command: python3  model.py > logs/enumeration-normal.json
+Exit status: 0
+Command: python3 -O -m unittest -v test_model.py
+Exit status: 0
+Command: python3 -O model.py > logs/enumeration-O.json
+Exit status: 0
+Command: python3 -OO -m unittest -v test_model.py
+Exit status: 0
+Command: python3 -OO model.py > logs/enumeration-OO.json
+Exit status: 0
+Command: cmp logs/enumeration-normal.json logs/enumeration-O.json
+Exit status: 0 (byte-identical)
+Command: cmp logs/enumeration-normal.json logs/enumeration-OO.json
+Exit status: 0 (byte-identical)
+Command: cp logs/enumeration-normal.json results.json
+Exit status: 0

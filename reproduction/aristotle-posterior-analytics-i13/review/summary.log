@@ -1,0 +1,12 @@
+UTC: 2026-10-25T00:44:11+00:00
+Python: 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Dependencies: Python standard library only
+Closed-form set counts: {"fact_chain_countermodels": 0, "fact_chain_premises": 64, "negative_countermodels": 0, "negative_premises": 64, "negative_with_broad_middle": 37, "negative_with_broad_middle_all_nonempty": 6, "reciprocal_countermodels": 0, "reciprocal_premises": 27, "reversed_inclusion_countermodels": 61, "reversed_inclusion_nonempty_countermodels": 42, "reversed_inclusion_premises": 125, "triples": 512, "universe_size": 3}
+All supported universe sizes 0..8: 87381 set pairs checked
+Independent hand table: 36 responses and 18 distributions checked
+Manuscript do(X=1): P(Y=1)=1 versus 1/2; observation conditional=1
+Published final JSON and three enumeration JSON files match all checked fields
+Fresh run: normal 32 tests OK; model output SHA256 c0c1c613e08852c93737c1065a84788b79c26bf2aad61ab3eb18ec2f3bd01d1a
+Fresh run: O 32 tests OK; model output SHA256 c0c1c613e08852c93737c1065a84788b79c26bf2aad61ab3eb18ec2f3bd01d1a
+Fresh run: OO 32 tests OK; model output SHA256 c0c1c613e08852c93737c1065a84788b79c26bf2aad61ab3eb18ec2f3bd01d1a
+AUDIT PASS
