@@ -25,11 +25,15 @@
 
 没有发现其他阻断性技术错误。合成数据与有限穷举不认证真实科学分类、自然谓述、科学直接性或所有证明终止；无证明助理认证。发布包不应包含运行生成的缓存文件。
 
+## 显示格式修订复核
+
+正文中点公式改用LaTeX `\lt` 表示两个严格小于关系，中项集合构造用 `\lbrace` / `\rbrace` 保留定界花括号，并为三处粗体标签补空格；已复核数学含义不变，最终散列已重新绑定。复现源码、结果与日志未作修改。本条只确认修订源码，修订后的实际GitHub显示由发布者另行截图验证。
+
 ## 最终文件SHA-256
 
 | 文件 | SHA-256 |
 |---|---|
-| `papers/ancient/aristotle-posterior-analytics-i19.zh-CN.md` | `8081bcffe272990f7387fc6dc825dbe5fb44167f4efa4b1e52e1533acfc162fd` |
+| `papers/ancient/aristotle-posterior-analytics-i19.zh-CN.md` | `b542930dd59f215854308ab4911c30e9e36f7520ce480e4bfc9326e6c3a342c0` |
 | `reproduction/aristotle-posterior-analytics-i19/README.md` | `2ea47b16fe07080607bd13deb0f9e35b0f4ef201f9c8e9126687599693e33841` |
 | `reproduction/aristotle-posterior-analytics-i19/chains.py` | `1ba84bb7ce84278a6296da4558d8e69307c620f93cdb4855da35000fab82b8fd` |
 | `reproduction/aristotle-posterior-analytics-i19/logs/environment.json` | `09e2af12c875ae458046298e939ef9936cfa303b1bff1679a57bed6bc48efb66` |
