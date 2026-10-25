@@ -1,0 +1,26 @@
+test_all_direction (test_model.Tests.test_all_direction) ... ok
+test_bad_background (test_model.Tests.test_bad_background) ... ok
+test_bad_witness (test_model.Tests.test_bad_witness) ... ok
+test_direct (test_model.Tests.test_direct) ... ok
+test_empty_overlap (test_model.Tests.test_empty_overlap) ... ok
+test_enumeration (test_model.Tests.test_enumeration) ... ok
+test_fact_type (test_model.Tests.test_fact_type) ... ok
+test_fixed_q (test_model.Tests.test_fixed_q) ... ok
+test_inconsistent (test_model.Tests.test_inconsistent) ... ok
+test_missing_q (test_model.Tests.test_missing_q) ... ok
+test_no_empty_contradiction (test_model.Tests.test_no_empty_contradiction) ... ok
+test_none_symmetric (test_model.Tests.test_none_symmetric) ... ok
+test_overstrong (test_model.Tests.test_overstrong) ... ok
+test_proposition_type (test_model.Tests.test_proposition_type) ... ok
+test_reductio (test_model.Tests.test_reductio) ... ok
+test_rule (test_model.Tests.test_rule) ... ok
+test_run_bounds (test_model.Tests.test_run_bounds) ... ok
+test_set_type (test_model.Tests.test_set_type) ... ok
+test_subsets (test_model.Tests.test_subsets) ... ok
+test_witness (test_model.Tests.test_witness) ... ok
+test_wrong_blame (test_model.Tests.test_wrong_blame) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.016s
+
+OK

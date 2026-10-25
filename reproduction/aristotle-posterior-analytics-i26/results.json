@@ -1,0 +1,196 @@
+{
+  "scope": "finite extensional sets, n=0..max_n; classical propositional rule",
+  "max_n": 4,
+  "rows": [
+    {
+      "n": 0,
+      "assignments": 1,
+      "direct_premise_cases": 1,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 0,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 0,
+      "empty_c_overlap_cases": 1,
+      "witness_checks": 0,
+      "witness_violations": 0
+    },
+    {
+      "n": 1,
+      "assignments": 8,
+      "direct_premise_cases": 4,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 1,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 0,
+      "empty_c_overlap_cases": 4,
+      "witness_checks": 1,
+      "witness_violations": 0
+    },
+    {
+      "n": 2,
+      "assignments": 64,
+      "direct_premise_cases": 16,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 9,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 2,
+      "empty_c_overlap_cases": 16,
+      "witness_checks": 8,
+      "witness_violations": 0
+    },
+    {
+      "n": 3,
+      "assignments": 512,
+      "direct_premise_cases": 64,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 61,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 24,
+      "empty_c_overlap_cases": 64,
+      "witness_checks": 48,
+      "witness_violations": 0
+    },
+    {
+      "n": 4,
+      "assignments": 4096,
+      "direct_premise_cases": 256,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 369,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 194,
+      "empty_c_overlap_cases": 256,
+      "witness_checks": 256,
+      "witness_violations": 0
+    }
+  ],
+  "totals": {
+    "assignments": 4681,
+    "direct_premise_cases": 341,
+    "direct_counterexamples": 0,
+    "reductio_background_cases": 440,
+    "reductio_counterexamples": 0,
+    "overstrong_counterexamples": 220,
+    "empty_c_overlap_cases": 341,
+    "witness_checks": 313,
+    "witness_violations": 0
+  },
+  "truth_rows": [
+    {
+      "p": false,
+      "q": false,
+      "r": false,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": false,
+      "q": false,
+      "r": true,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": false,
+      "q": true,
+      "r": false,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": false,
+      "q": true,
+      "r": true,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": true,
+      "q": false,
+      "r": false,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": true,
+      "q": false,
+      "r": true,
+      "rule": true,
+      "reductio_valid": true
+    },
+    {
+      "p": true,
+      "q": true,
+      "r": false,
+      "rule": false,
+      "reductio_valid": true
+    },
+    {
+      "p": true,
+      "q": true,
+      "r": true,
+      "rule": true,
+      "reductio_valid": true
+    }
+  ],
+  "overstrong_example": {
+    "universe": [
+      0,
+      1
+    ],
+    "A": [
+      1
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "C": [
+      0
+    ],
+    "certificate": {
+      "direct_premises": false,
+      "direct_conclusion": true,
+      "direct_valid": true,
+      "reductio_background": true,
+      "not_all_b_are_a": true,
+      "reductio_valid": true,
+      "tempting_universal_negative": false,
+      "empty_c_all_and_none": false
+    }
+  },
+  "empty_example": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "certificate": {
+      "direct_premises": true,
+      "direct_conclusion": true,
+      "direct_valid": true,
+      "reductio_background": false,
+      "not_all_b_are_a": false,
+      "reductio_valid": true,
+      "tempting_universal_negative": true,
+      "empty_c_all_and_none": true
+    }
+  },
+  "fixed_q_negative_r": {
+    "status": "consistent",
+    "model_count": 1,
+    "not_p_supported": true
+  },
+  "missing_q_negative_r": {
+    "status": "consistent",
+    "model_count": 3,
+    "not_p_supported": false
+  },
+  "false_q_negative_r": {
+    "status": "consistent",
+    "model_count": 2,
+    "not_p_supported": false
+  },
+  "inconsistent_fixed_background": {
+    "status": "inconsistent_background",
+    "model_count": 0,
+    "not_p_supported": null
+  }
+}

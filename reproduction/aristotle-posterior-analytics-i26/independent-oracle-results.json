@@ -1,0 +1,82 @@
+{
+  "method": "independent individual-membership enumeration and forbidden-valuation truth oracle",
+  "set_assignments": 37449,
+  "max_domain_size": 5,
+  "rows": [
+    {
+      "n": 0,
+      "assignments": 1,
+      "direct_premise_cases": 1,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 0,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 0,
+      "empty_c_overlap_cases": 1,
+      "witness_checks": 0,
+      "witness_violations": 0
+    },
+    {
+      "n": 1,
+      "assignments": 8,
+      "direct_premise_cases": 4,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 1,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 0,
+      "empty_c_overlap_cases": 4,
+      "witness_checks": 1,
+      "witness_violations": 0
+    },
+    {
+      "n": 2,
+      "assignments": 64,
+      "direct_premise_cases": 16,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 9,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 2,
+      "empty_c_overlap_cases": 16,
+      "witness_checks": 8,
+      "witness_violations": 0
+    },
+    {
+      "n": 3,
+      "assignments": 512,
+      "direct_premise_cases": 64,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 61,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 24,
+      "empty_c_overlap_cases": 64,
+      "witness_checks": 48,
+      "witness_violations": 0
+    },
+    {
+      "n": 4,
+      "assignments": 4096,
+      "direct_premise_cases": 256,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 369,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 194,
+      "empty_c_overlap_cases": 256,
+      "witness_checks": 256,
+      "witness_violations": 0
+    },
+    {
+      "n": 5,
+      "assignments": 32768,
+      "direct_premise_cases": 1024,
+      "direct_counterexamples": 0,
+      "reductio_background_cases": 2101,
+      "reductio_counterexamples": 0,
+      "overstrong_counterexamples": 1320,
+      "empty_c_overlap_cases": 1024,
+      "witness_checks": 1280,
+      "witness_violations": 0
+    }
+  ],
+  "background_configurations": 27,
+  "mismatches": 0,
+  "scope": "finite extensional semantics, not a proof of epistemic superiority"
+}

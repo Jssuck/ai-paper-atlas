@@ -1,0 +1,8 @@
+# Run from this directory. Python standard library only; no installation required.
+python3 model.py > results.json
+python3 -m unittest -v test_model > logs/tests.log 2>&1
+python3 -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python3 -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+python3 verify_notebook.py > logs/notebook.log
+# A second execution was compared by SHA256 and byte-identical.
+# verify_notebook executes code via Python exec, not a Jupyter kernel.
