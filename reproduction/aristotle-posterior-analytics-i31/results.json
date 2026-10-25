@@ -1,0 +1,193 @@
+{
+  "scope": "finite teaching reconstruction; no general physical or causal theorem established",
+  "cases": {
+    "none": {
+      "n": 4,
+      "observations": [],
+      "distinct_indices": 0,
+      "compatible_count": 16,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": false,
+      "countermodel": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "partial_positive": {
+      "n": 4,
+      "observations": [
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ]
+      ],
+      "distinct_indices": 2,
+      "compatible_count": 4,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": false,
+      "countermodel": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "repeated_positive": {
+      "n": 4,
+      "observations": [
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ]
+      ],
+      "distinct_indices": 2,
+      "compatible_count": 4,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": false,
+      "countermodel": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "full_positive": {
+      "n": 4,
+      "observations": [
+        [
+          0,
+          true
+        ],
+        [
+          1,
+          true
+        ],
+        [
+          2,
+          true
+        ],
+        [
+          3,
+          true
+        ]
+      ],
+      "distinct_indices": 4,
+      "compatible_count": 1,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": true,
+      "countermodel": null
+    },
+    "one_negative": {
+      "n": 4,
+      "observations": [
+        [
+          0,
+          false
+        ]
+      ],
+      "distinct_indices": 1,
+      "compatible_count": 8,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": false,
+      "countermodel": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "contradiction": {
+      "n": 4,
+      "observations": [
+        [
+          0,
+          true
+        ],
+        [
+          0,
+          false
+        ]
+      ],
+      "distinct_indices": 1,
+      "compatible_count": 0,
+      "consistent": false,
+      "universal_true_in_all_compatible_models": false,
+      "countermodel": null
+    },
+    "empty_universe": {
+      "n": 0,
+      "observations": [],
+      "distinct_indices": 0,
+      "compatible_count": 1,
+      "consistent": true,
+      "universal_true_in_all_compatible_models": true,
+      "countermodel": null
+    }
+  },
+  "mechanism_comparison": {
+    "observed_inputs": [
+      [
+        false,
+        false
+      ],
+      [
+        true,
+        true
+      ]
+    ],
+    "outputs_X": [
+      false,
+      true
+    ],
+    "outputs_Z": [
+      false,
+      true
+    ],
+    "stipulated_do_x_true_z_fixed_false": {
+      "X": true,
+      "Z": false
+    }
+  }
+}

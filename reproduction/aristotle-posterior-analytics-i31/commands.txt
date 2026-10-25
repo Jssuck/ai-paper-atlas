@@ -1,0 +1,9 @@
+# Working directory: reproduction/aristotle-posterior-analytics-i31/
+python3 model.py > results.json
+python3 -m unittest -v test_model > logs/tests.log 2>&1
+python3 -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python3 -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+python3 verify_notebook.py > logs/notebook-first.log 2>&1
+python3 verify_notebook.py > logs/notebook-repeat.log 2>&1
+# Fresh-process notebook execution is stdlib exec, not a Jupyter kernel.
+# Notebook execution_count/stdout are regenerated; a second identical run prints true.

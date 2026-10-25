@@ -1,0 +1,12 @@
+test_all_partial_boolean_assignments (test_model.Models.test_all_partial_boolean_assignments) ... ok
+test_conflict (test_model.Models.test_conflict) ... ok
+test_countermodel_is_real (test_model.Models.test_countermodel_is_real) ... ok
+test_empty_domain_explicit (test_model.Models.test_empty_domain_explicit) ... ok
+test_invalid_inputs (test_model.Models.test_invalid_inputs) ... ok
+test_mechanisms (test_model.Models.test_mechanisms) ... ok
+test_repeats_and_order (test_model.Models.test_repeats_and_order) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.410s
+
+OK
