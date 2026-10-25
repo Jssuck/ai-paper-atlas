@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.24：为什么解释得更普遍，反而更切中这个对象？](papers/ancient/aristotle-posterior-analytics-i24.zh-CN.md)，完整85a13–86a30，区分适当范围、原因与潜在知识，附角和推导、反例与真实教学复现。
+最新补读：[《后分析篇》I.25：否定证明真的比肯定证明多一个前提吗？](papers/ancient/aristotle-posterior-analytics-i25.zh-CN.md)，完整86a31–86b39，区分前提条数、极性种类与负叶计数，附条件成本比较和真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -109,6 +109,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853及对读版本） | [Aristotle后分析篇I.22精读](papers/ancient/aristotle-posterior-analytics-i22.zh-CN.md) | AI推理前史补读：定义依赖、承载者、知识基础与向内中项插入 | 深读v1 · 完整82b37–84b2及版本/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.23精读](papers/ancient/aristotle-posterior-analytics-i23.zh-CN.md) | AI推理前史补读：共同中项、元素计数、否定原理与内部插入 | 深读v1 · 完整84b3–85a12及版本/模型边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.24精读](papers/ancient/aristotle-posterior-analytics-i24.zh-CN.md) | AI推理前史补读：适当普遍范围、原因、桥接证据与潜在知识 | 深读v1 · 完整85a13–86a30及版本/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1837/1853及对读版本） | [Aristotle后分析篇I.25精读](papers/ancient/aristotle-posterior-analytics-i25.zh-CN.md) | AI推理前史补读：前提计数、极性树、否定依赖与比较条件 | 深读v1 · 完整86a31–86b39及版本/模型边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1165,3 +1166,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《后分析篇》I.24：普遍解释与特定应用
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i24.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i24.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i24.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i24.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i24/README.md)。完整85a13–86a30；较普遍不等于任意扩大范围，显式闭包不冒充原典潜在知识，外延真值不认证原因。前分析篇I.2及II.25仍暂缓；本次不计后分析篇I.25及全书完成。
+
+
+## 《后分析篇》I.25：计数、依赖与证明比较
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i25.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i25.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i25.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i25.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i25/README.md)。完整86a31–86b39；两类单步均两前提，极性种类不等于条数，唯一负叶限合法展开。有限枚举不认证科学原理或认识优越性。前分析篇I.2及II.25仍暂缓；本次不计后分析篇I.26及全书完成。

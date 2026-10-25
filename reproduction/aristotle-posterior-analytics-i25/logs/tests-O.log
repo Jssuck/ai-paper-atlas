@@ -1,0 +1,26 @@
+test_AA (test_model.Tests.test_AA) ... ok
+test_AE (test_model.Tests.test_AE) ... ok
+test_EA (test_model.Tests.test_EA) ... ok
+test_catalan (test_model.Tests.test_catalan) ... ok
+test_cost_condition (test_model.Tests.test_cost_condition) ... ok
+test_empty_sets (test_model.Tests.test_empty_sets) ... ok
+test_invalid_leaf_index (test_model.Tests.test_invalid_leaf_index) ... ok
+test_invalid_shape_count (test_model.Tests.test_invalid_shape_count) ... ok
+test_leaf_A (test_model.Tests.test_leaf_A) ... ok
+test_leaf_E (test_model.Tests.test_leaf_E) ... ok
+test_redundant (test_model.Tests.test_redundant) ... ok
+test_reject_A_from_E (test_model.Tests.test_reject_A_from_E) ... ok
+test_reject_EE (test_model.Tests.test_reject_EE) ... ok
+test_reject_E_from_AA (test_model.Tests.test_reject_E_from_AA) ... ok
+test_reject_label (test_model.Tests.test_reject_label) ... ok
+test_reject_unary (test_model.Tests.test_reject_unary) ... ok
+test_set_counts (test_model.Tests.test_set_counts) ... ok
+test_subset_direction (test_model.Tests.test_subset_direction) ... ok
+test_tree_counts (test_model.Tests.test_tree_counts) ... ok
+test_tree_invariant (test_model.Tests.test_tree_invariant) ... ok
+test_two_negatives (test_model.Tests.test_two_negatives) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.141s
+
+OK

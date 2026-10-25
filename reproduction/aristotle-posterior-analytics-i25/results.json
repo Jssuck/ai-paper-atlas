@@ -1,0 +1,106 @@
+{
+  "scope": "Restricted polarity trees, finite extensional sets, declared additive cost only",
+  "trees": [
+    {
+      "internal_nodes": 0,
+      "shapes": 1,
+      "affirmative_proofs": 1,
+      "negative_proofs": 1,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 1,
+      "shapes": 1,
+      "affirmative_proofs": 1,
+      "negative_proofs": 2,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 2,
+      "shapes": 2,
+      "affirmative_proofs": 2,
+      "negative_proofs": 6,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 3,
+      "shapes": 5,
+      "affirmative_proofs": 5,
+      "negative_proofs": 20,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 4,
+      "shapes": 14,
+      "affirmative_proofs": 14,
+      "negative_proofs": 70,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 5,
+      "shapes": 42,
+      "affirmative_proofs": 42,
+      "negative_proofs": 252,
+      "violations": 0
+    },
+    {
+      "internal_nodes": 6,
+      "shapes": 132,
+      "affirmative_proofs": 132,
+      "negative_proofs": 924,
+      "violations": 0
+    }
+  ],
+  "sets": {
+    "direct_celarent": {
+      "assignments": 4681,
+      "satisfying_premises": 341,
+      "counterexamples": 0
+    },
+    "expanded_celarent": {
+      "assignments": 33825,
+      "satisfying_premises": 259,
+      "counterexamples": 0
+    }
+  },
+  "costs": {
+    "equal_unit_cost": {
+      "short": 2,
+      "long": 3
+    },
+    "unequal_cost": {
+      "short": 20,
+      "long": 3
+    },
+    "unequal_premise_costs": {
+      "short": [
+        10,
+        10
+      ],
+      "long": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "counterexamples": {
+    "two_negative_premises": {
+      "A": 1,
+      "B": 2,
+      "C": 1,
+      "premises_true": true,
+      "claimed_negative_conclusion": false
+    },
+    "redundant_negative_premise": {
+      "A": 1,
+      "B": 2,
+      "C": 2,
+      "D": 4,
+      "premises_true": true,
+      "conclusion_true": true,
+      "negative_assumptions_listed": 2,
+      "explanation": "The unused A/D assumption is not a leaf of the reduced Celarent derivation."
+    }
+  }
+}

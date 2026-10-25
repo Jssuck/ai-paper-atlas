@@ -1,0 +1,10 @@
+# Run from this reproduction directory; Python standard library only.
+python model.py > results.json
+python -m unittest -v > logs/tests.log 2>&1
+python -O -m unittest -v > logs/tests-O.log 2>&1
+python -OO -m unittest -v > logs/tests-OO.log 2>&1
+python verify_notebook.py > logs/notebook.log 2>&1
+# Notebook execution above is plain Python sequential exec, not a Jupyter kernel.
+
+# Independent technical audit, after independent_oracle.py is present
+python independent_oracle.py > independent-oracle-results.json

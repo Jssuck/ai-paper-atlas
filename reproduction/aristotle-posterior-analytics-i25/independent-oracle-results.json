@@ -1,0 +1,65 @@
+{
+  "method": "Independent preorder/stack enumeration and per-object quantified membership; implementation used only for final comparisons",
+  "trees": [
+    {
+      "internal_nodes": 0,
+      "shapes": 1,
+      "leaf_labelings_checked": 2,
+      "affirmative": 1,
+      "negative": 1
+    },
+    {
+      "internal_nodes": 1,
+      "shapes": 1,
+      "leaf_labelings_checked": 4,
+      "affirmative": 1,
+      "negative": 2
+    },
+    {
+      "internal_nodes": 2,
+      "shapes": 2,
+      "leaf_labelings_checked": 16,
+      "affirmative": 2,
+      "negative": 6
+    },
+    {
+      "internal_nodes": 3,
+      "shapes": 5,
+      "leaf_labelings_checked": 80,
+      "affirmative": 5,
+      "negative": 20
+    },
+    {
+      "internal_nodes": 4,
+      "shapes": 14,
+      "leaf_labelings_checked": 448,
+      "affirmative": 14,
+      "negative": 70
+    },
+    {
+      "internal_nodes": 5,
+      "shapes": 42,
+      "leaf_labelings_checked": 2688,
+      "affirmative": 42,
+      "negative": 252
+    },
+    {
+      "internal_nodes": 6,
+      "shapes": 132,
+      "leaf_labelings_checked": 16896,
+      "affirmative": 132,
+      "negative": 924
+    }
+  ],
+  "direct_extended_to_domain_5": {
+    "assignments": 37449,
+    "satisfying_premises": 1365,
+    "counterexamples": 0
+  },
+  "expanded_domain_0_to_3": {
+    "assignments": 33825,
+    "satisfying_premises": 259,
+    "counterexamples": 0
+  },
+  "disagreements": 0
+}
