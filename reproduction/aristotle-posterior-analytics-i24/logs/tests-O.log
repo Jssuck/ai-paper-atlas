@@ -1,0 +1,26 @@
+$ python -O -m unittest -v
+test_census_invalid (test_model.TeachingTests.test_census_invalid) ... ok
+test_census_size (test_model.TeachingTests.test_census_size) ... ok
+test_closure_chain (test_model.TeachingTests.test_closure_chain) ... ok
+test_closure_conjunction (test_model.TeachingTests.test_closure_conjunction) ... ok
+test_closure_cycle (test_model.TeachingTests.test_closure_cycle) ... ok
+test_closure_empty_premise (test_model.TeachingTests.test_closure_empty_premise) ... ok
+test_closure_identity (test_model.TeachingTests.test_closure_identity) ... ok
+test_closure_monotone_and_idempotent (test_model.TeachingTests.test_closure_monotone_and_idempotent) ... ok
+test_coextension_not_cause (test_model.TeachingTests.test_coextension_not_cause) ... ok
+test_explicit_not_closed (test_model.TeachingTests.test_explicit_not_closed) ... ok
+test_exterior_sum (test_model.TeachingTests.test_exterior_sum) ... ok
+test_forward_count (test_model.TeachingTests.test_forward_count) ... ok
+test_forward_sound (test_model.TeachingTests.test_forward_sound) ... ok
+test_homonym (test_model.TeachingTests.test_homonym) ... ok
+test_knowledge_bridge (test_model.TeachingTests.test_knowledge_bridge) ... ok
+test_nonempty_converse (test_model.TeachingTests.test_nonempty_converse) ... ok
+test_subsets_empty (test_model.TeachingTests.test_subsets_empty) ... ok
+test_subsets_invalid (test_model.TeachingTests.test_subsets_invalid) ... ok
+test_subsets_three (test_model.TeachingTests.test_subsets_three) ... ok
+test_triangle_not_polygon (test_model.TeachingTests.test_triangle_not_polygon) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.002s
+
+OK

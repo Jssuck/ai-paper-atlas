@@ -1,0 +1,94 @@
+$ python model.py
+{
+  "extension": {
+    "causal_status": "undetermined",
+    "equal_extensions": true,
+    "scope": "truth and coextension alone carry no causal evidence",
+    "true_candidates": [
+      "label_A",
+      "label_B"
+    ]
+  },
+  "geometry": {
+    "all_exterior_360": true,
+    "assumptions": "planar convex Euclidean polygon; one exterior angle at each vertex",
+    "interior_180_sides": [
+      3
+    ],
+    "rows": [
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 180,
+        "sides": 3
+      },
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 360,
+        "sides": 4
+      },
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 540,
+        "sides": 5
+      },
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 720,
+        "sides": 6
+      },
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 900,
+        "sides": 7
+      },
+      {
+        "exterior_sum_degrees": 360,
+        "interior_sum_degrees": 1080,
+        "sides": 8
+      }
+    ],
+    "scope": "arithmetic under an assumed geometric theorem; not its geometric proof"
+  },
+  "homonym": {
+    "collapsed_name_has_feathers": true,
+    "scope": "collapsing senses can create spurious transfer; no claim about Greek examples",
+    "typed_machine_has_feathers": false
+  },
+  "knowledge": {
+    "closure_with_bridge": [
+      "all_iso_have_interior_sum_180",
+      "all_triangles_have_interior_sum_180",
+      "iso_is_triangle"
+    ],
+    "closure_without_bridge": [
+      "all_triangles_have_interior_sum_180"
+    ],
+    "explicit": [
+      "all_triangles_have_interior_sum_180"
+    ],
+    "scope": "computable rule closure, not Aristotle potential knowledge or human awareness",
+    "target_derivable_with_bridge": true,
+    "target_derivable_without_bridge": false,
+    "target_explicit_without_bridge": false
+  },
+  "restriction": {
+    "assignments": 4681,
+    "converse_counterexamples": 440,
+    "converse_nonempty_counterexamples": 220,
+    "first_nonempty_counterexample": {
+      "G": [
+        0,
+        1
+      ],
+      "P": [
+        0
+      ],
+      "S": [
+        0
+      ],
+      "universe_size": 2
+    },
+    "forward_premise_cases": 341,
+    "forward_violations": 0
+  }
+}

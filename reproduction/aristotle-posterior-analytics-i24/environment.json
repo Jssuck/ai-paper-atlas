@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "dependencies": "Python standard library only",
+  "notebook_components": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  },
+  "recorded_at_utc": "2026-10-25T11:36:18.294631+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "differences": 0,
+  "horn_atoms": 3,
+  "horn_candidate_rules": 12,
+  "horn_initial_fact_sets_per_theory": 8,
+  "horn_theories": 4096,
+  "horn_truth_model_checks": 32768,
+  "scope": "finite implementation check; no causal, epistemic or universal-theorem certification",
+  "set_census": {
+    "assignments": 37449,
+    "converse_counterexamples": 2541,
+    "converse_nonempty_counterexamples": 1540,
+    "forward_premise_cases": 1365,
+    "forward_violations": 0
+  },
+  "set_census_universe_sizes": "0..5"
+}
