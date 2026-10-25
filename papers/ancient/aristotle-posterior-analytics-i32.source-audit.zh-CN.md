@@ -6,8 +6,10 @@
 
 | 文件 | SHA256 |
 |---|---|
-| `aristotle-posterior-analytics-i32.zh-CN.md` | `9878a60e9f2c725168330de5d54a21927a49ec2ebf40fb23fa1c81e970c28137` |
+| `aristotle-posterior-analytics-i32.zh-CN.md` | `f6a97925f757e4e20ca61ffb9c8e9c8f8da0a0bab73418329f7a3ebba7ac09be` |
 | `aristotle-posterior-analytics-i32.sources.zh-CN.md` | `d3c965f5f41ee4189194141d598d3a815ca889d74253c8cd199601700ed5a735` |
+
+格式复核：主文§1仅移除拉丁书名两侧的Markdown斜体标记，以避免与相邻中文的显示问题。将这两处标记复原后，文件SHA256精确等于上一轮已审版本；文字和论证未变，现已重新绑定当前文件。实际页面显示另由发布验证确认。
 
 ## 独立核看的证据
 
