@@ -1,0 +1,20 @@
+command: python3 -OO -m unittest -v test_model.py
+test_all_four_forms_valid_including_empty (test_model.ModelTests.test_all_four_forms_valid_including_empty) ... ok
+test_bad_quality_rejected (test_model.ModelTests.test_bad_quality_rejected) ... ok
+test_barbara_true_major_example (test_model.ModelTests.test_barbara_true_major_example) ... ok
+test_barbara_two_false_example (test_model.ModelTests.test_barbara_two_false_example) ... ok
+test_celarent_three_truth_patterns (test_model.ModelTests.test_celarent_three_truth_patterns) ... ok
+test_empty_subject_boundary (test_model.ModelTests.test_empty_subject_boundary) ... ok
+test_extensional_counterexample_to_unqualified_minor_false (test_model.ModelTests.test_extensional_counterexample_to_unqualified_minor_false) ... ok
+test_false_is_not_wholly_false (test_model.ModelTests.test_false_is_not_wholly_false) ... ok
+test_predicate_direction (test_model.ModelTests.test_predicate_direction) ... ok
+test_second_figure_either_single_false (test_model.ModelTests.test_second_figure_either_single_false) ... ok
+test_second_figure_no_two_wholly_false_nonempty (test_model.ModelTests.test_second_figure_no_two_wholly_false_nonempty) ... ok
+test_second_figure_two_partly_false (test_model.ModelTests.test_second_figure_two_partly_false) ... ok
+test_summary_counts_are_partition (test_model.ModelTests.test_summary_counts_are_partition) ... ok
+test_witnesses_recompute (test_model.ModelTests.test_witnesses_recompute) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.018s
+
+OK

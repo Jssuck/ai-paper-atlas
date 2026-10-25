@@ -1,0 +1,353 @@
+{
+  "barbara_minor_false_scenario_profiles": [
+    "partly_false,partly_false",
+    "partly_false,wholly_false",
+    "true,wholly_false",
+    "wholly_false,partly_false",
+    "wholly_false,wholly_false"
+  ],
+  "forms": {
+    "Barbara": {
+      "false_conclusion_profiles": {
+        "partly_false,partly_false": 6,
+        "partly_false,true": 24,
+        "partly_false,wholly_false": 6,
+        "true,wholly_false": 18,
+        "wholly_false,partly_false": 6,
+        "wholly_false,true": 18,
+        "wholly_false,wholly_false": 6
+      },
+      "soundness_counterexamples": 0,
+      "witnesses": {
+        "partly_false,partly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1,
+            2
+          ],
+          "C": [
+            0,
+            1
+          ]
+        },
+        "partly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            1
+          ]
+        },
+        "partly_false,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0,
+            2
+          ]
+        },
+        "true,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        "wholly_false,partly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1,
+            2
+          ],
+          "C": [
+            1
+          ]
+        },
+        "wholly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            1
+          ]
+        },
+        "wholly_false,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            1
+          ],
+          "C": [
+            2
+          ]
+        }
+      }
+    },
+    "Camestres": {
+      "false_conclusion_profiles": {
+        "partly_false,partly_false": 30,
+        "partly_false,true": 24,
+        "partly_false,wholly_false": 24,
+        "true,wholly_false": 37,
+        "wholly_false,true": 18
+      },
+      "soundness_counterexamples": 0,
+      "witnesses": {
+        "partly_false,partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        "partly_false,true": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        },
+        "partly_false,wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        "true,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        "wholly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      }
+    },
+    "Celarent": {
+      "false_conclusion_profiles": {
+        "partly_false,partly_false": 6,
+        "partly_false,true": 24,
+        "partly_false,wholly_false": 6,
+        "true,wholly_false": 18,
+        "wholly_false,partly_false": 24,
+        "wholly_false,true": 37,
+        "wholly_false,wholly_false": 18
+      },
+      "soundness_counterexamples": 0,
+      "witnesses": {
+        "partly_false,partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0,
+            2
+          ]
+        },
+        "partly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0,
+            1
+          ]
+        },
+        "partly_false,wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1,
+            2
+          ]
+        },
+        "true,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        },
+        "wholly_false,partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        "wholly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        "wholly_false,wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        }
+      }
+    },
+    "Cesare": {
+      "false_conclusion_profiles": {
+        "partly_false,partly_false": 30,
+        "partly_false,true": 24,
+        "partly_false,wholly_false": 24,
+        "true,wholly_false": 18,
+        "wholly_false,true": 37
+      },
+      "soundness_counterexamples": 0,
+      "witnesses": {
+        "partly_false,partly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ],
+          "C": [
+            0
+          ]
+        },
+        "partly_false,true": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        },
+        "partly_false,wholly_false": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        },
+        "true,wholly_false": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            1
+          ]
+        },
+        "wholly_false,true": {
+          "A": [
+            0
+          ],
+          "B": [
+            0
+          ],
+          "C": [
+            0
+          ]
+        }
+      }
+    }
+  },
+  "nonempty_triples": 343,
+  "scope": "Finite extension checks only; no scientific immediacy, causal priority, or psychological belief is computed.",
+  "triples_including_empty": 512,
+  "universe_size": 3
+}

@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.15：否定也有直接前提——“没有中项”究竟要求什么？](papers/ancient/aristotle-posterior-analytics-i15.zh-CN.md)，完整79a33–79b22，重建全称否定中介、分离前提与直接性边界，附真实教学复现。
+最新补读：[《后分析篇》I.16：推理形式正确，为什么仍会相信错误？](papers/ancient/aristotle-posterior-analytics-i16.zh-CN.md)，完整79b23–80b16，重建直接关系中的错误推理、完全假与部分假、存在条件及直接性边界，附真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -100,6 +100,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本并对读英译） | [Aristotle后分析篇I.13精读](papers/ancient/aristotle-posterior-analytics-i13.zh-CN.md) | AI推理前史补读：事实与原因、互换条件、过宽中项、观测与干预及科学分工 | 深读v1 · 完整78a22–79a16及正文/译注边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本并对读英译） | [Aristotle后分析篇I.14精读](papers/ancient/aristotle-posterior-analytics-i14.zh-CN.md) | AI推理前史补读：第一格的科学优位、三格结论能力、本质必要条件与归约 | 深读v1 · 完整79a17–32及存在/解释边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并对读英译与1837转录） | [Aristotle后分析篇I.15精读](papers/ancient/aristotle-posterior-analytics-i15.zh-CN.md) | AI推理前史补读：直接否定、中项、分离前提与词汇相对性 | 深读v1 · 完整79a33–79b22及解释/搜索边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本并对读英译与1837转录） | [Aristotle后分析篇I.16精读](papers/ancient/aristotle-posterior-analytics-i16.zh-CN.md) | AI推理前史补读：错误信念、真假前提、完全假与部分假、直接性背景 | 深读v1 · 完整79b23–80b16及量词/存在边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1111,3 +1112,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《后分析篇》I.15 补读附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i15.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i15.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i15.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i15.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i15/README.md)。本单元仅覆盖79a33–79b22；有限集合与词表搜索不认证科学直接性、本质属或完整证明搜索。前分析篇I.2及II.25仍暂缓，后分析篇I.16及全书不计本单元完成。
+
+
+## 《后分析篇》I.16 补读附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i16.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i16.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i16.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i16.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i16/README.md)。本单元仅覆盖79b23–80b16；有限集合核查不判定科学直接性，不替代一般证明或消除原文局部张力。前分析篇I.2及II.25仍暂缓，后分析篇I.17及全书不计本单元完成。
