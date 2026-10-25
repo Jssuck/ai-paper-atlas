@@ -1,0 +1,74 @@
+{
+  "model": "finite positive nonempty-body Horn rules, explicit declared types",
+  "examples": {
+    "roots": [
+      "p",
+      "q"
+    ],
+    "closure": [
+      "p",
+      "q",
+      "u",
+      "v",
+      "w"
+    ],
+    "certificate": [
+      {
+        "body": [
+          "p"
+        ],
+        "head": "u"
+      },
+      {
+        "body": [
+          "q"
+        ],
+        "head": "v"
+      },
+      {
+        "body": [
+          "u",
+          "v"
+        ],
+        "head": "w"
+      }
+    ],
+    "certificate_valid": true,
+    "w_minimal_supports": [
+      [
+        "p",
+        "q"
+      ]
+    ],
+    "without_bridge_w": false,
+    "with_declared_bridge_w": true,
+    "rejected_rules": [
+      {
+        "body": [
+          "u",
+          "v"
+        ],
+        "head": "w"
+      }
+    ],
+    "shared_generic_rule_does_not_supply_roots": [],
+    "same_label_without_rule": false,
+    "shared_roots_nontransitive": {
+      "AB": true,
+      "BC": true,
+      "AC": false
+    },
+    "missing_bridge_status": "not derivable in the declared finite rule set; not an impossibility claim about science"
+  },
+  "exhaustive": {
+    "rule_sets": 512,
+    "seed_cases": 4096,
+    "certificate_checks": 9600,
+    "monotonicity_checks": 13824,
+    "closure_idempotence_failures": 0,
+    "certificate_failures": 0,
+    "monotonicity_failures": 0,
+    "support_soundness_failures": 0,
+    "support_minimality_failures": 0
+  }
+}

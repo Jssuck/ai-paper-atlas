@@ -1,0 +1,15 @@
+{
+  "method": "Boolean satisfying valuations and their intersection; no derive in expected computation",
+  "scope": "3 atoms, 9 nonempty-body rules excluding reflexive heads; additional stated boundary tests",
+  "counts": {
+    "rule_sets": 512,
+    "closure_cases": 4096,
+    "support_cases": 12288,
+    "certificate_cases": 49152,
+    "typed_cases": 41472,
+    "boundary_checks": 20
+  },
+  "failure_count": 0,
+  "failures": [],
+  "model_sha256": "3054f66e0fd7720ed6aa7917aacf03d6b1c590370eb0557e070878c82dcfc926"
+}
