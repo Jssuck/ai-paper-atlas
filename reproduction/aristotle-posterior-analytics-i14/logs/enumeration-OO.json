@@ -1,0 +1,2392 @@
+{
+  "cell_bits": {
+    "M": 4,
+    "P": 2,
+    "S": 1
+  },
+  "moods_per_figure": 64,
+  "policies": {
+    "all_terms_nonempty": {
+      "figure_2_affirmative_valid": [],
+      "figure_3_universal_valid": [],
+      "rows": {
+        "1": {
+          "AAA": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 8,
+            "valid_in_enumeration": true
+          },
+          "AAE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 8,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 8,
+            "valid_in_enumeration": true
+          },
+          "AAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 8,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 72,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 72,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AIA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "AIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 66,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 72,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 72,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "EAA": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "EAI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "EEA": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 2,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 24,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 26,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 28,
+            "first_counterexample": 36,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 144,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 36,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 144,
+            "premise_worlds": 36,
+            "valid_in_enumeration": false
+          },
+          "OEA": {
+            "counterexample_worlds": 14,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 136,
+            "first_counterexample": 36,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 36,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 144,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 122,
+            "first_counterexample": 22,
+            "premise_worlds": 138,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 24,
+            "premise_worlds": 138,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 18,
+            "first_counterexample": 22,
+            "premise_worlds": 138,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 138,
+            "valid_in_enumeration": false
+          }
+        },
+        "2": {
+          "AAA": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 96,
+            "premise_worlds": 20,
+            "valid_in_enumeration": false
+          },
+          "AAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 20,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 96,
+            "premise_worlds": 20,
+            "valid_in_enumeration": false
+          },
+          "AAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 20,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "AEI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "AIA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "AIO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 24,
+            "valid_in_enumeration": true
+          },
+          "EAA": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "EAI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 4,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 4,
+            "valid_in_enumeration": true
+          },
+          "EEA": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 2,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 24,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 26,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 96,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 40,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 132,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 132,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "OEA": {
+            "counterexample_worlds": 18,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 24,
+            "premise_worlds": 30,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 36,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 36,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 132,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 122,
+            "first_counterexample": 22,
+            "premise_worlds": 150,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 136,
+            "first_counterexample": 24,
+            "premise_worlds": 150,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 14,
+            "first_counterexample": 22,
+            "premise_worlds": 150,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 28,
+            "first_counterexample": 24,
+            "premise_worlds": 150,
+            "valid_in_enumeration": false
+          }
+        },
+        "3": {
+          "AAA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 130,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 16,
+            "valid_in_enumeration": true
+          },
+          "AAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 72,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 72,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "AIA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "AIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 66,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 72,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "EAA": {
+            "counterexample_worlds": 12,
+            "first_counterexample": 36,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 40,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "EAI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 12,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 12,
+            "valid_in_enumeration": true
+          },
+          "EEA": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 2,
+            "first_counterexample": 22,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 10,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 36,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 24,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 18,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "IAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 66,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 72,
+            "premise_worlds": 24,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 66,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 72,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 28,
+            "first_counterexample": 36,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 40,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 4,
+            "first_counterexample": 36,
+            "premise_worlds": 28,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 28,
+            "valid_in_enumeration": true
+          },
+          "OEA": {
+            "counterexample_worlds": 14,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 6,
+            "first_counterexample": 22,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 24,
+            "premise_worlds": 22,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 136,
+            "first_counterexample": 36,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 36,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 144,
+            "premise_worlds": 152,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 122,
+            "first_counterexample": 22,
+            "premise_worlds": 146,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 24,
+            "premise_worlds": 146,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 26,
+            "first_counterexample": 22,
+            "premise_worlds": 146,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 24,
+            "premise_worlds": 146,
+            "valid_in_enumeration": false
+          }
+        }
+      },
+      "valid_moods": {
+        "1": [
+          "AAA",
+          "AAI",
+          "AII",
+          "EAE",
+          "EAO",
+          "EIO"
+        ],
+        "2": [
+          "AEE",
+          "AEO",
+          "AOO",
+          "EAE",
+          "EAO",
+          "EIO"
+        ],
+        "3": [
+          "AAI",
+          "AII",
+          "EAO",
+          "EIO",
+          "IAI",
+          "OAO"
+        ]
+      },
+      "worlds": 218
+    },
+    "empty_terms_allowed": {
+      "figure_2_affirmative_valid": [],
+      "figure_3_universal_valid": [],
+      "rows": {
+        "1": {
+          "AAA": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 16,
+            "valid_in_enumeration": true
+          },
+          "AAE": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "AIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EAA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 32,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 16,
+            "valid_in_enumeration": true
+          },
+          "EAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 96,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 64,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 144,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 16,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 18,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 32,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 144,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 18,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 24,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 18,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          }
+        },
+        "2": {
+          "AAA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 2,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 16,
+            "valid_in_enumeration": true
+          },
+          "AEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "AIA": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 32,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 32,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AIO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "EAA": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 32,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 16,
+            "valid_in_enumeration": true
+          },
+          "EAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 16,
+            "valid_in_enumeration": false
+          },
+          "EEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 96,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IAO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 64,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 36,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 132,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 4,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 4,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 6,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 8,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 4,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 4,
+            "premise_worlds": 48,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 36,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 36,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 132,
+            "premise_worlds": 144,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 6,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 8,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 6,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 8,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          }
+        },
+        "3": {
+          "AAA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AAO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AIE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AII": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "AIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 72,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "AOO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EAE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EAI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 2,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 8,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 0,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 40,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EII": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EIO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "EOA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 18,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EOE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EOI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "EOO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IAA": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 130,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IAE": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IAI": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "IAO": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 128,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 66,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 72,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 64,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "IIA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIE": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 104,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "III": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 96,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IIO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 128,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOA": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 66,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 72,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOI": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 64,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "IOO": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 64,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OAA": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAE": {
+            "counterexample_worlds": 24,
+            "first_counterexample": 40,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAI": {
+            "counterexample_worlds": 8,
+            "first_counterexample": 32,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OAO": {
+            "counterexample_worlds": 0,
+            "first_counterexample": null,
+            "premise_worlds": 32,
+            "valid_in_enumeration": true
+          },
+          "OEA": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 18,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEE": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 24,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEI": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OEO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 16,
+            "premise_worlds": 32,
+            "valid_in_enumeration": false
+          },
+          "OIA": {
+            "counterexample_worlds": 144,
+            "first_counterexample": 32,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OIE": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 40,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OII": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 32,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OIO": {
+            "counterexample_worlds": 16,
+            "first_counterexample": 144,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOA": {
+            "counterexample_worlds": 128,
+            "first_counterexample": 18,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOE": {
+            "counterexample_worlds": 120,
+            "first_counterexample": 24,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOI": {
+            "counterexample_worlds": 40,
+            "first_counterexample": 16,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          },
+          "OOO": {
+            "counterexample_worlds": 32,
+            "first_counterexample": 16,
+            "premise_worlds": 160,
+            "valid_in_enumeration": false
+          }
+        }
+      },
+      "valid_moods": {
+        "1": [
+          "AAA",
+          "AII",
+          "EAE",
+          "EIO"
+        ],
+        "2": [
+          "AEE",
+          "AOO",
+          "EAE",
+          "EIO"
+        ],
+        "3": [
+          "AII",
+          "EIO",
+          "IAI",
+          "OAO"
+        ]
+      },
+      "worlds": 256
+    }
+  },
+  "reduction_failures": {
+    "Camestres_via_Celarent": 0,
+    "Cesare_via_Celarent": 0,
+    "Datisi_via_Darii": 0
+  },
+  "scope": "original finite teaching model, not a reconstruction of all scientific demonstration"
+}

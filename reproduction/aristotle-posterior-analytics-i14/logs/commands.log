@@ -1,0 +1,13 @@
+python3  -m unittest -v test_model.py
+test normal exit=0
+python3  model.py
+enumeration normal exit=0
+python3 -O -m unittest -v test_model.py
+test O exit=0
+python3 -O model.py
+enumeration O exit=0
+python3 -OO -m unittest -v test_model.py
+test OO exit=0
+python3 -OO model.py
+enumeration OO exit=0
+three enumeration outputs byte-identical; exit=0

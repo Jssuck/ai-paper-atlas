@@ -1,0 +1,6 @@
+$ python3 independent-review/oracle.py
+4-element quantified oracle matches all 192 judgments; policy= False
+4-element quantified oracle matches all 192 judgments; policy= True
+all 16 second-figure and 32 third-figure general construction instances pass
+PASS independent audit
+exit=0
