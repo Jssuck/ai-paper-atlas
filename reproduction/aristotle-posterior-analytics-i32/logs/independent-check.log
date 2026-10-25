@@ -1,0 +1,8 @@
+{
+  "candidate_rules": 24,
+  "rule_sets": 301,
+  "closures_checked": 2408,
+  "supports_checked": 7224,
+  "mismatches": 0,
+  "scope": "Three atoms; all zero/one/two-rule subsets, including empty and conjunctive bodies and self-loops. Not all arbitrary-size Horn systems."
+}

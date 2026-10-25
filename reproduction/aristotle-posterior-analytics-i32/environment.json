@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "platform": "linux",
+  "dependencies": "Python standard library only",
+  "notebook_execution": "stdlib exec in fresh process, not Jupyter kernel",
+  "optional_packages_available": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  },
+  "skill_scaffold": "installed skill read; documented helper absent; resource read for notebook-structure failed; direct nbformat 4.5 JSON construction, structural check and real execution"
+}

@@ -1,0 +1,12 @@
+test_conjunctive_and_empty_rule_bodies (test_model.TeachingTests.test_conjunctive_and_empty_rule_bodies) ... ok
+test_horn_all_directed_graphs_truth_table (test_model.TeachingTests.test_horn_all_directed_graphs_truth_table) ... ok
+test_minimal_supports_independent_semantics (test_model.TeachingTests.test_minimal_supports_independent_semantics) ... ok
+test_shared_rules_not_shared_facts_and_explicit_bridge (test_model.TeachingTests.test_shared_rules_not_shared_facts_and_explicit_bridge) ... ok
+test_successor_prefix_and_bounds (test_model.TeachingTests.test_successor_prefix_and_bounds) ... ok
+test_syllogisms_independent_bitmask_oracle (test_model.TeachingTests.test_syllogisms_independent_bitmask_oracle) ... ok
+test_two_false_premises (test_model.TeachingTests.test_two_false_premises) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.011s
+
+OK

@@ -1,0 +1,91 @@
+{
+  "scope": "Modern teaching reconstruction; finite checks, not an ancient experiment or a proof by enumeration of unrestricted theorems.",
+  "nonempty_set_syllogisms": {
+    "1": {
+      "triples": 1,
+      "both_premises_true": 1,
+      "false_conclusions": 0,
+      "true_conclusion_both_premises_false": 0,
+      "validity_violations": 0
+    },
+    "2": {
+      "triples": 27,
+      "both_premises_true": 7,
+      "false_conclusions": 12,
+      "true_conclusion_both_premises_false": 2,
+      "validity_violations": 0
+    },
+    "3": {
+      "triples": 343,
+      "both_premises_true": 37,
+      "false_conclusions": 210,
+      "true_conclusion_both_premises_false": 30,
+      "validity_violations": 0
+    },
+    "4": {
+      "triples": 3375,
+      "both_premises_true": 175,
+      "false_conclusions": 2400,
+      "true_conclusion_both_premises_false": 302,
+      "validity_violations": 0
+    }
+  },
+  "two_false_premises_example": {
+    "A": [
+      0
+    ],
+    "B": [
+      1
+    ],
+    "C": [
+      0
+    ],
+    "B_subset_A": false,
+    "C_subset_B": false,
+    "C_subset_A": true
+  },
+  "supports": {
+    "geom:q": [
+      [
+        "geom:p"
+      ]
+    ],
+    "arith:s": [
+      [
+        "arith:r"
+      ]
+    ]
+  },
+  "rules_alone": [],
+  "geometry_facts_only": [
+    "geom:p",
+    "geom:q"
+  ],
+  "with_explicit_bridge": [
+    "arith:s",
+    "geom:p",
+    "geom:q"
+  ],
+  "bridge_alternative_supports": [
+    [
+      "arith:r"
+    ],
+    [
+      "geom:p"
+    ]
+  ],
+  "successor_prefix_depth_10": [
+    "0",
+    "S(0)",
+    "S(S(0))",
+    "S(S(S(0)))",
+    "S(S(S(S(0))))",
+    "S(S(S(S(S(0)))))",
+    "S(S(S(S(S(S(0))))))",
+    "S(S(S(S(S(S(S(0)))))))",
+    "S(S(S(S(S(S(S(S(0))))))))",
+    "S(S(S(S(S(S(S(S(S(0)))))))))",
+    "S(S(S(S(S(S(S(S(S(S(0))))))))))"
+  ],
+  "successor_scope": "11 finite terms shown. Infinitude requires the separate inductive argument and unrestricted term grammar, not this run."
+}
