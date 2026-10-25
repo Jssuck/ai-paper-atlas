@@ -1,0 +1,13 @@
+test_channel_and_background_examples (test_observability.ObservationTests.test_channel_and_background_examples) ... ok
+test_empty_and_unused_observation_value (test_observability.ObservationTests.test_empty_and_unused_observation_value) ... ok
+test_exhaustive_against_all_total_decoders (test_observability.ObservationTests.test_exhaustive_against_all_total_decoders) ... ok
+test_invalid_samples (test_observability.ObservationTests.test_invalid_samples) ... ok
+test_invalid_vectors (test_observability.ObservationTests.test_invalid_vectors) ... ok
+test_positive_sample_not_universal (test_observability.ObservationTests.test_positive_sample_not_universal) ... ok
+test_result_totals (test_observability.ObservationTests.test_result_totals) ... ok
+test_sample_ambiguity_and_count (test_observability.ObservationTests.test_sample_ambiguity_and_count) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

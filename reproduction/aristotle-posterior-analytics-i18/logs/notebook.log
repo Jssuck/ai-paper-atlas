@@ -1,0 +1,15 @@
+CELL 1
+只见 x，求 y: None
+替代通道直接给 y: {0: 0, 1: 1}
+CELL 2
+额外假设 x=y 后: {0: 0, 1: 1}
+保留形状，忽略材料: {0: 0, 1: 1}
+CELL 3
+只检查第0项为1后的两个候选: [(1, 0), (1, 1)]
+空域: {}
+CELL 4
+观察/目标对: 341
+可恢复: 105
+样本/目标组合: 256
+有歧义: 240
+Executed 4 plain-Python cells in one namespace; no Jupyter kernel used.

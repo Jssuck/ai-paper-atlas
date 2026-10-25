@@ -1,0 +1,59 @@
+{
+  "model": "binary finite observation fibers; modern teaching only",
+  "enumeration": [
+    {
+      "domain_size": 0,
+      "pairs": 1,
+      "recoverable": 1
+    },
+    {
+      "domain_size": 1,
+      "pairs": 4,
+      "recoverable": 4
+    },
+    {
+      "domain_size": 2,
+      "pairs": 16,
+      "recoverable": 12
+    },
+    {
+      "domain_size": 3,
+      "pairs": 64,
+      "recoverable": 28
+    },
+    {
+      "domain_size": 4,
+      "pairs": 256,
+      "recoverable": 60
+    }
+  ],
+  "total_pairs": 341,
+  "total_recoverable": 105,
+  "sample_target_checks": 256,
+  "ambiguous_sample_target_checks": 240,
+  "examples": {
+    "missing_y_channel": null,
+    "alternative_y_channel": {
+      "0": 0,
+      "1": 1
+    },
+    "restricted_background_x_equals_y": {
+      "0": 0,
+      "1": 1
+    },
+    "abstract_shape_target": {
+      "0": 0,
+      "1": 1
+    },
+    "one_positive_sample_all_positive_candidates": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  }
+}

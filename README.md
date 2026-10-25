@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》I.17：同一个中项，怎样导向相反的错误？](papers/ancient/aristotle-posterior-analytics-i17.zh-CN.md)，完整80b17–81a37，重建可证明关系中的错误推理、保留真小前提、完全假与部分假及中项范围边界，附真实教学复现。
+最新补读：[《后分析篇》I.18：证明为什么不能替代观察？](papers/ancient/aristotle-posterior-analytics-i18.zh-CN.md)，完整81a38–81b9，区分感觉、归纳、普遍者与证明的依赖，完整讨论数学抽象，附有限信息恢复与样本反例的真实教学复现。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -102,6 +102,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本并对读英译与1837转录） | [Aristotle后分析篇I.15精读](papers/ancient/aristotle-posterior-analytics-i15.zh-CN.md) | AI推理前史补读：直接否定、中项、分离前提与词汇相对性 | 深读v1 · 完整79a33–79b22及解释/搜索边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本并对读英译与1837转录） | [Aristotle后分析篇I.16精读](papers/ancient/aristotle-posterior-analytics-i16.zh-CN.md) | AI推理前史补读：错误信念、真假前提、完全假与部分假、直接性背景 | 深读v1 · 完整79b23–80b16及量词/存在边界 |
 | 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle后分析篇I.17精读](papers/ancient/aristotle-posterior-analytics-i17.zh-CN.md) | AI推理前史补读：适当中项、极性翻转、错误定位与范围限制 | 深读v1 · 完整80b17–81a37及有限语义核验 |
+| 公元前四世纪（作品年代范围；实读1831/1837/1853版本） | [Aristotle后分析篇I.18精读](papers/ancient/aristotle-posterior-analytics-i18.zh-CN.md) | AI推理前史补读：感觉依赖、数学抽象、观察纤维与样本覆盖 | 深读v1 · 完整81a38–81b9及解释边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1123,3 +1124,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《后分析篇》I.17 补读附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-i17.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i17.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i17.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i17.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i17/README.md)。本单元仅覆盖80b17–81a37；有限集合结构不认证科学适当中项，不替代一般证明或消除原文范围张力。前分析篇I.2及II.25仍暂缓，后分析篇I.18及全书不计本单元完成。
+
+
+## 《后分析篇》I.18 补读附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-i18.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-i18.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-i18.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-i18.review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-i18/README.md)。本单元仅覆盖81a38–81b9；现代信息模型不认证古代全部认识论或任何群体能力，有限枚举不代替一般证明。前分析篇I.2及II.25仍暂缓，后分析篇I.19及全书不计本单元完成。
