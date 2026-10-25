@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "graph_oracle": {
+    "directed_graphs": 4096,
+    "acyclic_graphs": 543,
+    "cyclic_graphs_rejected": 3553,
+    "comparable_intervals": 2484,
+    "chain_states": 3828,
+    "saturated_chains": 2508,
+    "mismatches": 0,
+    "self_loop_cases_rejected": 4
+  },
+  "horn_model_intersection_oracle": {
+    "atoms": 2,
+    "possible_rules": 8,
+    "rulebooks": 256,
+    "seed_cases_per_rulebook": 4,
+    "cases_checked": 1024,
+    "mismatches": 0
+  },
+  "scope": "Exhaustive finite implementation tests; not the historical infinite theorem."
+}

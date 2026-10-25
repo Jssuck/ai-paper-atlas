@@ -1,0 +1,26 @@
+test_cycle (test_model.ModelTests.test_cycle) ... ok
+test_definition_first_direction (test_model.ModelTests.test_definition_first_direction) ... ok
+test_definition_invalid_kind (test_model.ModelTests.test_definition_invalid_kind) ... ok
+test_definition_invalid_name (test_model.ModelTests.test_definition_invalid_name) ... ok
+test_definition_second_direction (test_model.ModelTests.test_definition_second_direction) ... ok
+test_diamond_has_two_terminal_paths (test_model.ModelTests.test_diamond_has_two_terminal_paths) ... ok
+test_empty_graph (test_model.ModelTests.test_empty_graph) ... ok
+test_exhaustive_finite_orders (test_model.ModelTests.test_exhaustive_finite_orders) ... ok
+test_horn_empty_rule_is_axiom (test_model.ModelTests.test_horn_empty_rule_is_axiom) ... ok
+test_horn_requires_all_premises (test_model.ModelTests.test_horn_requires_all_premises) ... ok
+test_horn_seeded_cycle (test_model.ModelTests.test_horn_seeded_cycle) ... ok
+test_horn_unknown_atom (test_model.ModelTests.test_horn_unknown_atom) ... ok
+test_horn_unseeded_cycle (test_model.ModelTests.test_horn_unseeded_cycle) ... ok
+test_incomparable_endpoints (test_model.ModelTests.test_incomparable_endpoints) ... ok
+test_insert_chain (test_model.ModelTests.test_insert_chain) ... ok
+test_invalid_chain (test_model.ModelTests.test_invalid_chain) ... ok
+test_nontransitive_rejected (test_model.ModelTests.test_nontransitive_rejected) ... ok
+test_rank_chain (test_model.ModelTests.test_rank_chain) ... ok
+test_self_loop (test_model.ModelTests.test_self_loop) ... ok
+test_transitive_closure (test_model.ModelTests.test_transitive_closure) ... ok
+test_unknown_edge (test_model.ModelTests.test_unknown_edge) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.009s
+
+OK

@@ -1,0 +1,44 @@
+{
+  "finite_orders": {
+    "graphs": 75,
+    "comparable_intervals": 237,
+    "refinement_states": 319,
+    "saturated_chains": 239,
+    "endpoint_violations": 0,
+    "cover_violations": 0,
+    "insertion_bound_violations": 0,
+    "rank_violations": 0
+  },
+  "declared_definition_links": [
+    [
+      "human",
+      "animal"
+    ],
+    [
+      "odd",
+      "number"
+    ]
+  ],
+  "one_category_cycle": {
+    "vertices": 2,
+    "categories": 1,
+    "rank_rejected": true
+  },
+  "horn_example": {
+    "without_seed": [],
+    "with_seed_p": [
+      "p",
+      "q",
+      "r"
+    ],
+    "added_rounds": [
+      [
+        "q"
+      ],
+      [
+        "r"
+      ]
+    ]
+  },
+  "scope": "Finite supplied syntactic structures only; not a proof of Aristotle's infinite claim or a certification of knowledge."
+}

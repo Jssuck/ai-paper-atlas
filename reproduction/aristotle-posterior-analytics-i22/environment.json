@@ -1,0 +1,10 @@
+{
+  "run_time_utc": "2026-10-25T09:45:15.946599+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "os": "Linux",
+  "machine": "x86_64",
+  "dependencies": "Python standard library only; no installed additions",
+  "notebook_execution": "sequential compile/exec in one fresh Python process; NOT Jupyter kernel",
+  "notebook_scaffold": "Adapted existing repository notebook structure. Installed skill read; helper path not present and auxiliary skill resource unavailable; no dependency installed."
+}
