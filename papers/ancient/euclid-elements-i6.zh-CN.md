@@ -96,7 +96,7 @@ $$
 取绝对值并除以2，便得到普通面积关系：
 
 $$
-\mathrm{Area}(DBC)=t\,\mathrm{Area}(ABC),\qquad
+\mathrm{Area}(DBC)=t\cdot\mathrm{Area}(ABC),\qquad
 0\lt\mathrm{Area}(DBC)\lt\mathrm{Area}(ABC).
 $$
 

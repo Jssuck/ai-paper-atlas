@@ -4,7 +4,7 @@
 
 通过。本审查由未编写正文与核心实现的独立审查代理执行：完整阅读正文、实现、测试、运行脚本、Notebook及结果，并在独立副本真实重跑。未发现需要阻断发布的数学或执行错误。它不是形式证明认证，也不代替独立来源审查。
 
-- [正文](../../papers/ancient/euclid-elements-i6.zh-CN.md) SHA256：`f0d43d4779803caa38d002da186592bed32338a824df3802bf42e18129f31de0`。
+- [正文](../../papers/ancient/euclid-elements-i6.zh-CN.md) SHA256：`fb6bcf50cfdf4645b5bf32d183a8a2e813922624a8fd95b1822c495e2d049626`。
 - [作者实跑文件清单](SHA256SUMS.json) SHA256：`2fd45c76166e662c785068bba165a7859d316ca6e672e587780649accbaa170f`；其中20个文件逐一核验通过。
 - 审查范围仅本篇与其原创教学实现；不以有限实验认证无限域定理。
 
