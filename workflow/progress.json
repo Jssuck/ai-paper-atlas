@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "in_progress",
+  "active_paper": {
+    "id": "aristotle-posterior-analytics-ii19",
+    "stage": "research",
+    "updated_at": "2026-10-26T16:35:05.892Z"
+  },
   "last_completed": {
     "id": "aristotle-posterior-analytics-ii18",
     "stage": "completed",
@@ -20,5 +24,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-26T15:46:52.374Z"
+  "updated_at": "2026-10-26T16:35:05.892Z"
 }
