@@ -1,0 +1,17 @@
+UTC start: 2026-10-26T01:38:06.117973+00:00
+Command: python run_notebook.py
+Return code: 0
+STDOUT:
+cell 1 OK
+{'chain': True, 'conclusion': True, 'endpoints_equal': False, 'all_equal': False}
+cell 2 OK
+{'triples': 4681, 'chains': 341, 'nonempty_c_chains': 220, 'equal_endpoint_chains': 31, 'nonempty_equal_endpoint_chains': 26, 'transitivity_failures': 0, 'sandwich_failures': 0, 'chains_without_endpoint_equality': 310}
+cell 3 OK
+attribute attribute False False
+essential_part essential_part False False
+full_definition full_definition True False
+cell 4 OK
+{'subject': 'C', 'predicate': 'A', 'declared_result_role': 'full_definition', 'sources': ['major', 'target:C-definition'], 'explicit_target_dependency': True, 'minor_already_declares_subject_definition': True, 'actual_essence_certified': False}
+Executed 4 plain Python cells with stdlib exec; NOT a Jupyter kernel.
+
+STDERR:

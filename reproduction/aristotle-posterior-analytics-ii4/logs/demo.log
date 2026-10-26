@@ -1,0 +1,138 @@
+UTC start: 2026-10-26T01:38:06.086147+00:00
+Command: python model.py
+Return code: 0
+STDOUT:
+{
+  "finite_enumeration": {
+    "triples": 4681,
+    "chains": 341,
+    "nonempty_c_chains": 220,
+    "equal_endpoint_chains": 31,
+    "nonempty_equal_endpoint_chains": 26,
+    "transitivity_failures": 0,
+    "sandwich_failures": 0,
+    "chains_without_endpoint_equality": 310
+  },
+  "independent_oracle": {
+    "triples": 4681,
+    "chains": 341,
+    "nonempty_c_chains": 220,
+    "equal_endpoint_chains": 31,
+    "nonempty_equal_endpoint_chains": 26,
+    "transitivity_failures": 0,
+    "sandwich_failures": 0,
+    "chains_without_endpoint_equality": 310
+  },
+  "same_extensions_nine_role_pairs": [
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "attribute",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "attribute",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "attribute",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "attribute",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "essential_part",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "essential_part",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": false,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "attribute",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": true,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "essential_part",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": true,
+      "actual_essence_certified": false
+    },
+    {
+      "subject": "C",
+      "predicate": "A",
+      "declared_result_role": "full_definition",
+      "sources": [
+        "major",
+        "minor"
+      ],
+      "explicit_target_dependency": false,
+      "minor_already_declares_subject_definition": true,
+      "actual_essence_certified": false
+    }
+  ]
+}
+
+STDERR:

@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》II.3：给出定义，为什么不等于给出证明？](papers/ancient/aristotle-posterior-analytics-ii3.zh-CN.md)，完整90a35–91a11，区分定义与属性证明、重建成分互谓反例与有限依赖图边界，附真实Notebook教学执行。
+最新补读：[《后分析篇》II.4：从“都具有”到“就是它”，证明偷带了什么？](papers/ancient/aristotle-posterior-analytics-ii4.zh-CN.md)，完整91a12–91b11，重建包含链与同延夹逼，区分本质成分、完整定义及前提承担，附真实Notebook教学执行。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -122,6 +122,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本） | [Aristotle《后分析篇》II.1精读](papers/ancient/aristotle-posterior-analytics-ii1.zh-CN.md) | AI推理前史补读：四问、预设与证据类型 | 深读v1 · 完整89b23–35及章末异分边界 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及Ross1964/Mure1928底本转录） | [Aristotle后分析篇II.2精读](papers/ancient/aristotle-posterior-analytics-ii2.zh-CN.md) | AI推理前史补读：中项与原因、解释性定义、数比与普遍性 | 深读v1 · 完整89b36–90a34及有限候选核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及当前标为1928底本的转录） | [Aristotle后分析篇II.3精读](papers/ancient/aristotle-posterior-analytics-ii3.zh-CN.md) | AI推理前史回填：定义与证明的疑难、目标保持、成分组合与原理依赖 | 深读v1 · 完整90a35–91a11及译差/模型边界 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.4精读](papers/ancient/aristotle-posterior-analytics-ii4.zh-CN.md) | AI推理前史补读：同延夹逼、定义角色与预设所求 | 深读v1 · 完整91a12–91b11及有限证书核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1239,3 +1240,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-ii3.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii3.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii3.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii3.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii3/README.md)。完整90a35–91a11；本章属于疑难阶段，组合不等于成分互谓，有限结构根不认证真实原理。有限枚举不替代一般证明，Notebook为标准库顺序执行而非Jupyter内核。前分析篇I.2及II.25仍暂缓；本次不计后分析篇II.4、第二卷或全书完成。
 
+
+
+### 后分析篇 II.4 附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-ii4.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii4.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii4.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii4.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii4/README.md)。完整91a12–91b11；同延不认证本质，本质成分不等于完整定义，显式来源检查不判定所有乞题。有限枚举不替代一般证明，Notebook为标准库顺序执行而非Jupyter内核。前分析篇I.2及II.25仍暂缓；本次不计后分析篇II.5、第二卷或全书完成。

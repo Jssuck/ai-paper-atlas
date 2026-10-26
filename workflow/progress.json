@@ -3,8 +3,8 @@
   "status": "in_progress",
   "active_paper": {
     "id": "aristotle-posterior-analytics-ii4",
-    "stage": "research",
-    "updated_at": "2026-10-26T01:34:50Z"
+    "stage": "publication_verification",
+    "updated_at": "2026-10-26T01:44:04Z"
   },
   "last_completed": {
     "id": "aristotle-posterior-analytics-ii3",
@@ -24,5 +24,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-26T01:34:50Z"
+  "updated_at": "2026-10-26T01:44:04Z"
 }

@@ -1,0 +1,32 @@
+UTC start: 2026-10-26T01:38:05.691838+00:00
+Command: python -O -m unittest -v test_model
+Return code: 0
+STDOUT:
+
+STDERR:
+test_all_role_pairs (test_model.TestModel.test_all_role_pairs) ... ok
+test_bad_maximum (test_model.TestModel.test_bad_maximum) ... ok
+test_bad_record_and_target (test_model.TestModel.test_bad_record_and_target) ... ok
+test_broken_chain (test_model.TestModel.test_broken_chain) ... ok
+test_counts (test_model.TestModel.test_counts) ... ok
+test_empty_domain (test_model.TestModel.test_empty_domain) ... ok
+test_equal_extension_no_promotion (test_model.TestModel.test_equal_extension_no_promotion) ... ok
+test_essential_part_not_definition (test_model.TestModel.test_essential_part_not_definition) ... ok
+test_explicit_target_dependency (test_model.TestModel.test_explicit_target_dependency) ... ok
+test_false_conclusion (test_model.TestModel.test_false_conclusion) ... ok
+test_full_definition_minimum (test_model.TestModel.test_full_definition_minimum) ... ok
+test_full_definition_presupposition (test_model.TestModel.test_full_definition_presupposition) ... ok
+test_independent_oracle (test_model.TestModel.test_independent_oracle) ... ok
+test_middle_mismatch (test_model.TestModel.test_middle_mismatch) ... ok
+test_missing_and_false_extension (test_model.TestModel.test_missing_and_false_extension) ... ok
+test_role_validation (test_model.TestModel.test_role_validation) ... ok
+test_sandwich (test_model.TestModel.test_sandwich) ... ok
+test_source_union (test_model.TestModel.test_source_union) ... ok
+test_source_validation (test_model.TestModel.test_source_validation) ... ok
+test_strict_chain (test_model.TestModel.test_strict_chain) ... ok
+test_term_validation (test_model.TestModel.test_term_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.008s
+
+OK
