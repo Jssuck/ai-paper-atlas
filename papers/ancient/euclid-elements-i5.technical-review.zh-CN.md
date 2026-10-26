@@ -38,7 +38,7 @@ Notebook实际采用标准库 compile/exec、共享新命名空间，无 Jupyter
 
 SHA256逐文件记录及运行环境见 [binding.json](../../reproduction/euclid-elements-i5/independent-review/binding.json)。本审查绑定正文及5个原Python文件、Notebook、复现README、作者清单与独立审查代码；后续修改这些内容须重新核查。
 
-- `papers/ancient/euclid-elements-i5.zh-CN.md`：`908eac86145aa272badfa3ed5ac21cb9707199dd41122bd7396fc0952f3e7458`
+- `papers/ancient/euclid-elements-i5.zh-CN.md`：`e94904bb6deb4bbffa9f7c96a4fd788757bd167955261a5b75748aabfa80be44`
 - `reproduction/euclid-elements-i5/geometry.py`：`a0196907afc46cf8c9e99c49ad0822b9d88790277b090edf9296947f67a1c9ed`
 - `reproduction/euclid-elements-i5/test_geometry.py`：`df2537239f614c7798180d741cf8bff98d3e5a817aee55762e1606e66e16a856`
 - `reproduction/euclid-elements-i5/run_examples.py`：`70e2aae229291e04c5cdaa13f38af7dbe367743bf26bb8e52a9b2e8f630bf228`
@@ -48,3 +48,5 @@ SHA256逐文件记录及运行环境见 [binding.json](../../reproduction/euclid
 - `reproduction/euclid-elements-i5/README.md`：`a5ab410dd3ed5e318ce7e1b6d17b71d42b4891409edd5b1597f9ec16ba494a18`
 - `reproduction/euclid-elements-i5/SHA256SUMS.json`：`804b9d2a7d56c2e7c4b1849f0bed346de634c27bc02766805e8f9d37d7bf781d`
 - `reproduction/euclid-elements-i5/independent-review/audit.py`：`a26284970072534b407e80b773d88bc39d3c75ae683d8e655030e7c1c3e27131`
+
+发布渲染复核后，仅将正文两处符号函数的排版宏从 `\operatorname{sgn}` 改为 `\mathrm{sgn}`。反向替换精确恢复前审正文SHA256，数学内容及所有实现、Notebook和实跑证据均未变化；本报告已重新绑定最终正文。

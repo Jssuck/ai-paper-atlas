@@ -116,7 +116,7 @@ $$
 \begin{gathered}
 d_1=u_1\cdot v_1,\quad n_1=(u_1\cdot u_1)(v_1\cdot v_1),\\
 d_2=u_2\cdot v_2,\quad n_2=(u_2\cdot u_2)(v_2\cdot v_2),\\
-\operatorname{sgn}(d_1)=\operatorname{sgn}(d_2),\qquad
+\mathrm{sgn}(d_1)=\mathrm{sgn}(d_2),\qquad
  d_1^2 n_2=d_2^2 n_1.
 \end{gathered}
 $$
