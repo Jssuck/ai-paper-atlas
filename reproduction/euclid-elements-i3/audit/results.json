@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-26T19:51:43.796128+00:00",
+  "environment": {
+    "python_implementation": "CPython",
+    "python_version": "3.12.14",
+    "os": "Linux",
+    "architecture": "x86_64",
+    "dependencies_installed": [],
+    "notebook_related_modules_available": {
+      "ipykernel": false,
+      "nbclient": false,
+      "nbformat": false
+    }
+  },
+  "original_tests_independently_rerun": {
+    "normal": {
+      "command": "python -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "wall_seconds": 0.195818,
+      "log": "audit/original_normal.log",
+      "tests_run": 33
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "wall_seconds": 0.335255,
+      "log": "audit/original_optimized.log",
+      "tests_run": 33
+    },
+    "double_optimized": {
+      "command": "python -OO -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "wall_seconds": 0.359952,
+      "log": "audit/original_double_optimized.log",
+      "tests_run": 33
+    }
+  },
+  "original_test_method_names_identical_across_modes": true,
+  "oracle_runs": {
+    "normal": {
+      "command": "python audit/independent_oracle.py",
+      "exit_code": 0,
+      "wall_seconds": 2.00935,
+      "log": "audit/oracle_normal.log"
+    },
+    "optimized": {
+      "command": "python -O audit/independent_oracle.py",
+      "exit_code": 0,
+      "wall_seconds": 2.381435,
+      "log": "audit/oracle_optimized.log"
+    },
+    "double_optimized": {
+      "command": "python -OO audit/independent_oracle.py",
+      "exit_code": 0,
+      "wall_seconds": 2.418138,
+      "log": "audit/oracle_double_optimized.log"
+    }
+  },
+  "oracle_results_identical_across_modes": true,
+  "oracle_result": {
+    "status": "PASS",
+    "oracle": "coordinate-pivot affine parameter, exact Fraction distances",
+    "counts": {
+      "article_irrational_length_example": 1,
+      "coordinate_lattice_cases": 47628,
+      "degenerate_domain_cases": 3,
+      "extreme_exact_cases": 3,
+      "independent_builder_cases": 72,
+      "malformed_object_exceptions": 4,
+      "non_strict_domain_rejections": 4,
+      "oracle_accepts": 21,
+      "oracle_rejects": 47607,
+      "rational_certificate_accepted_builder_unsupported": 36,
+      "total_checked_cases": 47806,
+      "unsupported_numeric_type_rejections": 55
+    },
+    "rejected_lattice_failure_patterns": {
+      "E_on_circle_center_A_radius_AD|AE_has_target_length": 12,
+      "E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 432,
+      "E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 522,
+      "E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 48,
+      "E_on_line_AB": 378,
+      "E_on_line_AB|strict_dot_bounds": 420,
+      "admissible_strict_input|E_on_circle_center_A_radius_AD|AE_has_target_length": 24,
+      "admissible_strict_input|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 105,
+      "admissible_strict_input|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 417,
+      "admissible_strict_input|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 369,
+      "admissible_strict_input|E_on_line_AB": 48,
+      "admissible_strict_input|E_on_line_AB|strict_dot_bounds": 300,
+      "admissible_strict_input|strict_dot_bounds": 354,
+      "admissible_strict_input|supplied_AD_has_target_length|AE_has_target_length": 165,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|AE_has_target_length": 111,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB": 48,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 3363,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds": 252,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 6303,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds": 222,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 2457,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_line_AB|AE_has_target_length": 3708,
+      "admissible_strict_input|supplied_AD_has_target_length|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 7248,
+      "admissible_strict_input|supplied_AD_has_target_length|strict_dot_bounds|AE_has_target_length": 3318,
+      "strict_dot_bounds": 21,
+      "supplied_AD_has_target_length|AE_has_target_length": 111,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD": 15,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|AE_has_target_length": 81,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB": 318,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 2808,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds": 348,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 3984,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds": 15,
+      "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 345,
+      "supplied_AD_has_target_length|E_on_line_AB|AE_has_target_length": 3480,
+      "supplied_AD_has_target_length|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 4830,
+      "supplied_AD_has_target_length|strict_dot_bounds|AE_has_target_length": 627
+    },
+    "limitations": [
+      "Finite inputs only; not a universal proof.",
+      "Malformed Python objects are exceptions, not a schema-safe verification API.",
+      "No ruler/compass operation history or I.2 construction is certified."
+    ]
+  },
+  "recorded_evidence_source_hashes_match": true,
+  "recorded_test_and_family_metrics_match": true,
+  "experiment_run": {
+    "command": "python experiments.py",
+    "exit_code": 0,
+    "wall_seconds": 0.155038,
+    "log": "audit/independent_experiments.log"
+  },
+  "notebook_replay": {
+    "command": "python execute_notebook.py",
+    "exit_code": 0,
+    "wall_seconds": 0.155587,
+    "log": "audit/independent_notebook.log",
+    "published_json_matches_replay": true,
+    "total_cells": 5,
+    "code_cells": 3,
+    "execution_method": "stdlib compile/exec; not Jupyter kernel"
+  },
+  "python_assert_statements": {
+    "reproduction/euclid-elements-i3/euclid_i3.py": 0,
+    "reproduction/euclid-elements-i3/experiments.py": 0,
+    "reproduction/euclid-elements-i3/test_euclid_i3.py": 0,
+    "reproduction/euclid-elements-i3/execute_notebook.py": 0,
+    "reproduction/euclid-elements-i3/run_checks.py": 0,
+    "reproduction/euclid-elements-i3/audit/independent_oracle.py": 0,
+    "reproduction/euclid-elements-i3/audit/run_independent_audit.py": 0
+  },
+  "bound_sha256": {
+    "papers/ancient/euclid-elements-i3.zh-CN.md": "5eceb2ed2db3be3146a625b36dc3c654659b7615ab01e715e54378b9640dbbb9",
+    "reproduction/euclid-elements-i3/euclid_i3.py": "231c54693bc9e407b2f2c522abbaa428eebc88ef0673a2b7174c17c1e94dbc3c",
+    "reproduction/euclid-elements-i3/experiments.py": "f18c8cf22ed3e6b5f7b1312845c27a88a92d1a64ecb966c1fcbdf5c3dee03549",
+    "reproduction/euclid-elements-i3/test_euclid_i3.py": "d8a1b0801900562fdb44b5f79bac5aaf22ef5e560900058bab7c24ddda11e08e",
+    "reproduction/euclid-elements-i3/execute_notebook.py": "4051c73e93420b5720aac37ba7bfcad135ba696db9c070d43225d8e99dc745ff",
+    "reproduction/euclid-elements-i3/run_checks.py": "13bae1fa926405bed7790d8c83ec1a14d6314dae4473cfe153b4acd4b52c2e3f",
+    "reproduction/euclid-elements-i3/tutorial.ipynb": "62c2c689ba27f8408e65f3838e9a5304f2c6c24a5ec25be4aa94b73498c1d63a",
+    "reproduction/euclid-elements-i3/README.md": "f193cba0443d4802280286083fbd48bb2763561673643629f06383b54b5f9c3f",
+    "reproduction/euclid-elements-i3/audit/independent_oracle.py": "417ec1088271391d234910ff54772f6506df04d96e1ea5cceeafa0acaba8c7a9",
+    "reproduction/euclid-elements-i3/audit/run_independent_audit.py": "07be21235972c59a1589cbf16104f0c568ec8a4b5c9c74293608ad9622548cd3"
+  },
+  "evidence_sha256": {
+    "evidence/double_optimized.log": "a0b3405b511dba2ca810a43b464b7e1b7e1ee50373dcb2ecc6e067a6ff73ebf2",
+    "evidence/environment.json": "0d60e0a470c7bfca73b59139496acc9a74c6858fe093b4f1daf54753c8b0d0d6",
+    "evidence/normal.log": "7e46cbb3476f2867f353846406da7cd437f23f3c6406bc13986ca01732ffcbc5",
+    "evidence/notebook.log": "db96d4340205bd6fba3b1d371e2c1f82cb6f8edcf4addc2731e353857421bd94",
+    "evidence/optimized.log": "e36f7ac58b644cd241dd7d76a63a120061df4e6e0b9041b4c643e7adf8c20178",
+    "evidence/results.json": "95648bf0067a686250dc7d43fdc0e93db385fc6e55de7bbce2ecb9eb2e8a87ef",
+    "audit/independent_experiments.log": "a4a65cd49f5e138589f67253cae0091277a16a3b380bcaf37fd6c139a5d348cc",
+    "audit/independent_notebook.log": "db96d4340205bd6fba3b1d371e2c1f82cb6f8edcf4addc2731e353857421bd94",
+    "audit/oracle_double_optimized.log": "dc764e28a005c3be78b7ce44855cf0c44a353e1ee699fd6596a2e9a082824f7d",
+    "audit/oracle_normal.log": "45b162781da7766e103b5f0583914dfcb4d8fe1ea63eb4fb98e08250f42104a1",
+    "audit/oracle_optimized.log": "99b5ff5033bb01b1d06421def40c9b4a3ecf00f27d5e0ee9578bb6f477efb52c",
+    "audit/original_double_optimized.log": "f586a0a18e0dff2423bd4fa87378b2054ea88516a02b3fc175d93f038816ed27",
+    "audit/original_normal.log": "5226284051a84edac1ad949f951e785b1fdcd2da8c9f3d49f48b1e9a17ae5464",
+    "audit/original_optimized.log": "1f5eee5a293d3130aa4a66a121445dddb55c9cf438ea96f647c0fe59bd698e2d"
+  },
+  "scope": "Independent mathematics/code review, finite tests, and evidence consistency; no historical source audit or formal proof certification."
+}

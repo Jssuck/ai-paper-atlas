@@ -1,0 +1,41 @@
+$ python -OO -m unittest -v test_euclid_i3
+test_beyond_B_is_not_a_cut (test_euclid_i3.ExactI3Tests.test_beyond_B_is_not_a_cut) ... ok
+test_circle_equality_without_target_length_is_insufficient (test_euclid_i3.ExactI3Tests.test_circle_equality_without_target_length_is_insufficient) ... ok
+test_degenerate_AB_policy (test_euclid_i3.ExactI3Tests.test_degenerate_AB_policy) ... ok
+test_degenerate_all_zero_does_not_pass_vacuously (test_euclid_i3.ExactI3Tests.test_degenerate_all_zero_does_not_pass_vacuously) ... ok
+test_end_endpoint_is_excluded (test_euclid_i3.ExactI3Tests.test_end_endpoint_is_excluded) ... ok
+test_equal_length_policy (test_euclid_i3.ExactI3Tests.test_equal_length_policy) ... ok
+test_exact_squared_distance_is_translation_invariant (test_euclid_i3.ExactI3Tests.test_exact_squared_distance_is_translation_invariant) ... ok
+test_extremely_close_to_B_still_strict (test_euclid_i3.ExactI3Tests.test_extremely_close_to_B_still_strict) ... ok
+test_finite_family_and_four_adversarial_mutations (test_euclid_i3.ExactI3Tests.test_finite_family_and_four_adversarial_mutations) ... ok
+test_horizontal_known_answer (test_euclid_i3.ExactI3Tests.test_horizontal_known_answer) ... ok
+test_huge_translated_coordinates (test_euclid_i3.ExactI3Tests.test_huge_translated_coordinates) ... ok
+test_incorrect_supplied_D_raises (test_euclid_i3.ExactI3Tests.test_incorrect_supplied_D_raises) ... ok
+test_inexact_coordinate_inputs_rejected (test_euclid_i3.ExactI3Tests.test_inexact_coordinate_inputs_rejected) ... ok
+test_inexact_squared_length_inputs_rejected (test_euclid_i3.ExactI3Tests.test_inexact_squared_length_inputs_rejected) ... ok
+test_longer_length_policy (test_euclid_i3.ExactI3Tests.test_longer_length_policy) ... ok
+test_negative_square_root_rejected (test_euclid_i3.ExactI3Tests.test_negative_square_root_rejected) ... ok
+test_negative_squared_length_policy (test_euclid_i3.ExactI3Tests.test_negative_squared_length_policy) ... ok
+test_non_square_root_explicitly_unavailable (test_euclid_i3.ExactI3Tests.test_non_square_root_explicitly_unavailable) ... ok
+test_off_line_equal_distance_only_fails_line_incidence (test_euclid_i3.ExactI3Tests.test_off_line_equal_distance_only_fails_line_incidence) ... ok
+test_opposite_circle_intersection_only_fails_direction_bound (test_euclid_i3.ExactI3Tests.test_opposite_circle_intersection_only_fails_direction_bound) ... ok
+test_radius_transfer_error_not_masked_by_correct_E (test_euclid_i3.ExactI3Tests.test_radius_transfer_error_not_masked_by_correct_E) ... ok
+test_rational_square_root (test_euclid_i3.ExactI3Tests.test_rational_square_root) ... ok
+test_reversed_direction (test_euclid_i3.ExactI3Tests.test_reversed_direction) ... ok
+test_start_endpoint_is_excluded (test_euclid_i3.ExactI3Tests.test_start_endpoint_is_excluded) ... ok
+test_tiny_exact_segment (test_euclid_i3.ExactI3Tests.test_tiny_exact_segment) ... ok
+test_translated_pythagorean_diagonal (test_euclid_i3.ExactI3Tests.test_translated_pythagorean_diagonal) ... ok
+test_valid_supplied_D_is_not_required_on_AB (test_euclid_i3.ExactI3Tests.test_valid_supplied_D_is_not_required_on_AB) ... ok
+test_verifier_is_broader_than_witness_builder (test_euclid_i3.ExactI3Tests.test_verifier_is_broader_than_witness_builder) ... ok
+test_vertical_known_answer (test_euclid_i3.ExactI3Tests.test_vertical_known_answer) ... ok
+test_witness_rejects_irrational_AB_length (test_euclid_i3.ExactI3Tests.test_witness_rejects_irrational_AB_length) ... ok
+test_witness_rejects_irrational_target_length (test_euclid_i3.ExactI3Tests.test_witness_rejects_irrational_target_length) ... ok
+test_zero_length_policy (test_euclid_i3.ExactI3Tests.test_zero_length_policy) ... ok
+test_zero_square_root_not_a_strict_cut (test_euclid_i3.ExactI3Tests.test_zero_square_root_not_a_strict_cut) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.142s
+
+OK
+
+exit_code: 0

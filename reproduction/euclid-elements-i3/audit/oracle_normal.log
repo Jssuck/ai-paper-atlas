@@ -1,0 +1,65 @@
+$ python audit/independent_oracle.py
+{
+  "status": "PASS",
+  "oracle": "coordinate-pivot affine parameter, exact Fraction distances",
+  "counts": {
+    "article_irrational_length_example": 1,
+    "coordinate_lattice_cases": 47628,
+    "degenerate_domain_cases": 3,
+    "extreme_exact_cases": 3,
+    "independent_builder_cases": 72,
+    "malformed_object_exceptions": 4,
+    "non_strict_domain_rejections": 4,
+    "oracle_accepts": 21,
+    "oracle_rejects": 47607,
+    "rational_certificate_accepted_builder_unsupported": 36,
+    "total_checked_cases": 47806,
+    "unsupported_numeric_type_rejections": 55
+  },
+  "rejected_lattice_failure_patterns": {
+    "E_on_circle_center_A_radius_AD|AE_has_target_length": 12,
+    "E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 432,
+    "E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 522,
+    "E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 48,
+    "E_on_line_AB": 378,
+    "E_on_line_AB|strict_dot_bounds": 420,
+    "admissible_strict_input|E_on_circle_center_A_radius_AD|AE_has_target_length": 24,
+    "admissible_strict_input|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 105,
+    "admissible_strict_input|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 417,
+    "admissible_strict_input|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 369,
+    "admissible_strict_input|E_on_line_AB": 48,
+    "admissible_strict_input|E_on_line_AB|strict_dot_bounds": 300,
+    "admissible_strict_input|strict_dot_bounds": 354,
+    "admissible_strict_input|supplied_AD_has_target_length|AE_has_target_length": 165,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|AE_has_target_length": 111,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB": 48,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 3363,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds": 252,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 6303,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds": 222,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 2457,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_line_AB|AE_has_target_length": 3708,
+    "admissible_strict_input|supplied_AD_has_target_length|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 7248,
+    "admissible_strict_input|supplied_AD_has_target_length|strict_dot_bounds|AE_has_target_length": 3318,
+    "strict_dot_bounds": 21,
+    "supplied_AD_has_target_length|AE_has_target_length": 111,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD": 15,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|AE_has_target_length": 81,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB": 318,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|AE_has_target_length": 2808,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds": 348,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 3984,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds": 15,
+    "supplied_AD_has_target_length|E_on_circle_center_A_radius_AD|strict_dot_bounds|AE_has_target_length": 345,
+    "supplied_AD_has_target_length|E_on_line_AB|AE_has_target_length": 3480,
+    "supplied_AD_has_target_length|E_on_line_AB|strict_dot_bounds|AE_has_target_length": 4830,
+    "supplied_AD_has_target_length|strict_dot_bounds|AE_has_target_length": 627
+  },
+  "limitations": [
+    "Finite inputs only; not a universal proof.",
+    "Malformed Python objects are exceptions, not a schema-safe verification API.",
+    "No ruler/compass operation history or I.2 construction is certified."
+  ]
+}
+
+exit_code: 0

@@ -1,0 +1,253 @@
+{
+  "scope": "original exact-rational analytic teaching reproduction; not a ruler/compass engine",
+  "target_notation": "C is squared length, not length",
+  "test_runs": {
+    "normal": {
+      "command": "python -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "tests_run": 33,
+      "wall_seconds": 0.22318,
+      "log": "evidence/normal.log"
+    },
+    "optimized": {
+      "command": "python -O -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "tests_run": 33,
+      "wall_seconds": 0.358512,
+      "log": "evidence/optimized.log"
+    },
+    "double_optimized": {
+      "command": "python -OO -m unittest -v test_euclid_i3",
+      "exit_code": 0,
+      "tests_run": 33,
+      "wall_seconds": 0.335244,
+      "log": "evidence/double_optimized.log"
+    }
+  },
+  "unique_unittest_methods": 33,
+  "family_metrics": {
+    "valid_certificates_accepted": 600,
+    "invalid_certificates_rejected": 2400,
+    "rejections_by_kind": {
+      "opposite_circle_point": 600,
+      "off_line_same_distance": 600,
+      "beyond_B": 600,
+      "incorrect_transferred_radius": 600
+    },
+    "family_dimensions": {
+      "unit_directions": 8,
+      "origins": 3,
+      "rational_lengths": 5,
+      "strict_ratios": 5
+    }
+  },
+  "counterexample_results": {
+    "positive_strict_cut": {
+      "domain": "strict_cut",
+      "valid": true,
+      "checks": {
+        "admissible_strict_input": true,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": true,
+        "AE_has_target_length": true
+      },
+      "failures": []
+    },
+    "opposite_circle_point": {
+      "domain": "strict_cut",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": true,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "strict_dot_bounds"
+      ]
+    },
+    "off_line_same_distance": {
+      "domain": "strict_cut",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": true,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": false,
+        "strict_dot_bounds": true,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "E_on_line_AB"
+      ]
+    },
+    "beyond_B": {
+      "domain": "strict_cut",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": true,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": false,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": false
+      },
+      "failures": [
+        "E_on_circle_center_A_radius_AD",
+        "strict_dot_bounds",
+        "AE_has_target_length"
+      ]
+    },
+    "incorrect_transferred_radius": {
+      "domain": "strict_cut",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": true,
+        "supplied_AD_has_target_length": false,
+        "E_on_circle_center_A_radius_AD": false,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": true,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "supplied_AD_has_target_length",
+        "E_on_circle_center_A_radius_AD"
+      ]
+    },
+    "equal_target": {
+      "domain": "equal_target",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "admissible_strict_input",
+        "strict_dot_bounds"
+      ]
+    },
+    "longer_target": {
+      "domain": "longer_target",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "admissible_strict_input",
+        "strict_dot_bounds"
+      ]
+    },
+    "zero_target": {
+      "domain": "zero_target",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "admissible_strict_input",
+        "strict_dot_bounds"
+      ]
+    },
+    "negative_squared_length": {
+      "domain": "negative_squared_length",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": false,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": true,
+        "AE_has_target_length": false
+      },
+      "failures": [
+        "admissible_strict_input",
+        "supplied_AD_has_target_length",
+        "AE_has_target_length"
+      ]
+    },
+    "degenerate_segment": {
+      "domain": "degenerate_segment",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "admissible_strict_input",
+        "strict_dot_bounds"
+      ]
+    },
+    "degenerate_all_zero": {
+      "domain": "degenerate_segment",
+      "valid": false,
+      "checks": {
+        "admissible_strict_input": false,
+        "supplied_AD_has_target_length": true,
+        "E_on_circle_center_A_radius_AD": true,
+        "E_on_line_AB": true,
+        "strict_dot_bounds": false,
+        "AE_has_target_length": true
+      },
+      "failures": [
+        "admissible_strict_input",
+        "strict_dot_bounds"
+      ]
+    }
+  },
+  "notebook": {
+    "command": "python execute_notebook.py",
+    "exit_code": 0,
+    "tests_run": null,
+    "wall_seconds": 0.18592,
+    "log": "evidence/notebook.log",
+    "total_cells": 5,
+    "executed_code_cells": 3,
+    "execution_method": "stdlib compile/exec",
+    "jupyter_kernel_used": false
+  },
+  "python_assert_statements_by_file": {
+    "euclid_i3.py": 0,
+    "experiments.py": 0,
+    "test_euclid_i3.py": 0,
+    "execute_notebook.py": 0,
+    "run_checks.py": 0
+  },
+  "source_sha256": {
+    "euclid_i3.py": "231c54693bc9e407b2f2c522abbaa428eebc88ef0673a2b7174c17c1e94dbc3c",
+    "experiments.py": "f18c8cf22ed3e6b5f7b1312845c27a88a92d1a64ecb966c1fcbdf5c3dee03549",
+    "test_euclid_i3.py": "d8a1b0801900562fdb44b5f79bac5aaf22ef5e560900058bab7c24ddda11e08e",
+    "execute_notebook.py": "4051c73e93420b5720aac37ba7bfcad135ba696db9c070d43225d8e99dc745ff",
+    "run_checks.py": "13bae1fa926405bed7790d8c83ec1a14d6314dae4473cfe153b4acd4b52c2e3f",
+    "tutorial.ipynb": "62c2c689ba27f8408e65f3838e9a5304f2c6c24a5ec25be4aa94b73498c1d63a",
+    "README.md": "f193cba0443d4802280286083fbd48bb2763561673643629f06383b54b5f9c3f"
+  },
+  "limits": [
+    "Finite tests do not prove a universal theorem.",
+    "AD distance equality does not prove the I.2 construction or its provenance.",
+    "The witness builder requires rational AB length and rational target length.",
+    "The verifier handles rational point certificates only, not general algebraic coordinates.",
+    "No actual straightedge/compass operation sequence is produced or checked."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-26T19:48:51.836565+00:00",
+  "python_implementation": "CPython",
+  "python_version": "3.12.14",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "dependencies": "Python standard library only",
+  "packages_installed_for_this_run": [],
+  "jupyter_kernel_available": false,
+  "notebook_execution": "stdlib compile/exec, not Jupyter kernel execution",
+  "notebook_structure": "self-contained nbformat-4 JSON; ordinary Python cells only",
+  "notebook_validation_scope": "sequential code execution and captured stdout; no Jupyter kernel or full schema validation",
+  "private_paths_recorded": false
+}

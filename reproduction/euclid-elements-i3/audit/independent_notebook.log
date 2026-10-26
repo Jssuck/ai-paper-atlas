@@ -1,0 +1,23 @@
+$ python execute_notebook.py
+cell 2: executed as Python code cell 1
+E = ('2', '0')
+全部条件通过: True
+注意：D 是解析提供的点，不是 I.2 的尺规构造记录。
+cell 4: executed as Python code cell 2
+opposite_circle_point 拒绝: strict_dot_bounds
+off_line_same_distance 拒绝: E_on_line_AB
+beyond_B 拒绝: E_on_circle_center_A_radius_AD, strict_dot_bounds, AE_has_target_length
+incorrect_transferred_radius 拒绝: supplied_AD_has_target_length, E_on_circle_center_A_radius_AD
+C = 0 → zero_target
+C = 25 → equal_target
+C = 36 → longer_target
+A=B → degenerate_segment
+有理坐标、无理长度证书: True
+cell 5: executed as Python code cell 3
+合法证书: 600
+无效变体: 2400
+逐类拒绝: {'opposite_circle_point': 600, 'off_line_same_distance': 600, 'beyond_B': 600, 'incorrect_transferred_radius': 600}
+有限测试不是普遍证明；本程序也没有验证任何真实尺规操作序列。
+PASS: 3 code cells executed top-to-bottom; 5 total cells
+
+exit_code: 0

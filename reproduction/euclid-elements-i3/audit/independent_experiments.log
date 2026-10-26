@@ -1,0 +1,19 @@
+$ python experiments.py
+{
+  "valid_certificates_accepted": 600,
+  "invalid_certificates_rejected": 2400,
+  "rejections_by_kind": {
+    "opposite_circle_point": 600,
+    "off_line_same_distance": 600,
+    "beyond_B": 600,
+    "incorrect_transferred_radius": 600
+  },
+  "family_dimensions": {
+    "unit_directions": 8,
+    "origins": 3,
+    "rational_lengths": 5,
+    "strict_ratios": 5
+  }
+}
+
+exit_code: 0
