@@ -1,0 +1,21 @@
+{
+  "max_n": 4,
+  "triples": 4681,
+  "sound": 781,
+  "exact": 341,
+  "exact_severally_wider": 130,
+  "irredundant_exact": 130,
+  "membership_oracle_differences": 0,
+  "split_cases": 4681,
+  "nonempty_unique_branch": 180,
+  "greedy_forward": [
+    2,
+    3,
+    4
+  ],
+  "greedy_reverse": [
+    0,
+    1
+  ],
+  "limits": "Finite extension only; no essence, natural-kind or complete-division certification."
+}

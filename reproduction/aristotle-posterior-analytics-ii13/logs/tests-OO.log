@@ -1,0 +1,38 @@
+test_describe_universe_generator (test_model.DefinitionTests.test_describe_universe_generator) ... ok
+test_duplicate_redundant (test_model.DefinitionTests.test_duplicate_redundant) ... ok
+test_empty_description (test_model.DefinitionTests.test_empty_description) ... ok
+test_empty_family (test_model.DefinitionTests.test_empty_family) ... ok
+test_empty_target_possible (test_model.DefinitionTests.test_empty_target_possible) ... ok
+test_empty_universe (test_model.DefinitionTests.test_empty_universe) ... ok
+test_exact_not_wider (test_model.DefinitionTests.test_exact_not_wider) ... ok
+test_exact_wider (test_model.DefinitionTests.test_exact_wider) ... ok
+test_generators (test_model.DefinitionTests.test_generators) ... ok
+test_membership_oracle (test_model.DefinitionTests.test_membership_oracle) ... ok
+test_outside_feature (test_model.DefinitionTests.test_outside_feature) ... ok
+test_outside_target (test_model.DefinitionTests.test_outside_target) ... ok
+test_permutations (test_model.DefinitionTests.test_permutations) ... ok
+test_sound_not_exact (test_model.DefinitionTests.test_sound_not_exact) ... ok
+test_unsound (test_model.DefinitionTests.test_unsound) ... ok
+test_closed_form_counts (test_model.DivisionTests.test_closed_form_counts) ... ok
+test_common (test_model.DivisionTests.test_common) ... ok
+test_empty_target (test_model.DivisionTests.test_empty_target) ... ok
+test_gap (test_model.DivisionTests.test_gap) ... ok
+test_no_common (test_model.DivisionTests.test_no_common) ... ok
+test_no_observations (test_model.DivisionTests.test_no_observations) ... ok
+test_outside_parent (test_model.DivisionTests.test_outside_parent) ... ok
+test_overlap (test_model.DivisionTests.test_overlap) ... ok
+test_partition_branch (test_model.DivisionTests.test_partition_branch) ... ok
+test_sample_not_universal (test_model.DivisionTests.test_sample_not_universal) ... ok
+test_straddling_target (test_model.DivisionTests.test_straddling_target) ... ok
+test_bad_order (test_model.ReductionTests.test_bad_order) ... ok
+test_exhaustive_small (test_model.ReductionTests.test_exhaustive_small) ... ok
+test_forward (test_model.ReductionTests.test_forward) ... ok
+test_nonexact_rejected (test_model.ReductionTests.test_nonexact_rejected) ... ok
+test_not_minimum (test_model.ReductionTests.test_not_minimum) ... ok
+test_reduce_universe_generator (test_model.ReductionTests.test_reduce_universe_generator) ... ok
+test_reverse (test_model.ReductionTests.test_reverse) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.047s
+
+OK

@@ -1,0 +1,34 @@
+cell 1 ii13-intersection
+{'sound': True, 'exact': True, 'severally_wider': True, 'irredundant': True}
+empty family: [0, 1, 2, 3, 4]
+cell 2 ii13-reduction
+(2, 3, 4) {'sound': True, 'exact': True, 'severally_wider': True, 'irredundant': True}
+(0, 1) {'sound': True, 'exact': True, 'severally_wider': True, 'irredundant': True}
+cell 3 ii13-division
+[0] {'covers': True, 'disjoint': True, 'partition': True, 'target_left': True, 'target_right': False, 'nonempty_unique_branch': True}
+[] {'covers': True, 'disjoint': True, 'partition': True, 'target_left': True, 'target_right': True, 'nonempty_unique_branch': False}
+[0, 1] {'covers': True, 'disjoint': True, 'partition': True, 'target_left': False, 'target_right': False, 'nonempty_unique_branch': False}
+common sample features: ['a']
+cell 4 ii13-counts
+{
+  "max_n": 4,
+  "triples": 4681,
+  "sound": 781,
+  "exact": 341,
+  "exact_severally_wider": 130,
+  "irredundant_exact": 130,
+  "membership_oracle_differences": 0,
+  "split_cases": 4681,
+  "nonempty_unique_branch": 180,
+  "greedy_forward": [
+    2,
+    3,
+    4
+  ],
+  "greedy_reverse": [
+    0,
+    1
+  ],
+  "limits": "Finite extension only; no essence, natural-kind or complete-division certification."
+}
+Executed 4 code cells using standard-library exec; NOT a Jupyter kernel.

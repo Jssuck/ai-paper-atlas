@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》II.12：从后来的事实推知先前条件，不等于让结果倒过来造成原因](papers/ancient/aristotle-posterior-analytics-ii12.zh-CN.md)，完整95a10–96a19，区分时态配合、必要条件、连续性、循环类型与多数命题，附一般证明、反例及真实Notebook教学执行。
+最新补读：[《后分析篇》II.13：共同特征足够多，为什么还不等于找到了定义？](papers/ancient/aristotle-posterior-analytics-ii13.zh-CN.md)，完整96a20–97b39，区分本质与外延、合取与层级、不可删与最少、局部分割与语义统一，附一般证明、反例及真实Notebook教学执行。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -131,6 +131,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.10精读](papers/ancient/aristotle-posterior-analytics-ii10.zh-CN.md) | AI推理前史补读：定义的解释角色、记录保存与结论投影 | 深读v1 · 完整93b29–94a19及有限记录核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.11精读](papers/ancient/aristotle-posterior-analytics-ii11.zh-CN.md) | AI推理前史补读：四因、中项、目的与发生次序 | 深读v1 · 完整94a20–95a9及有限结构核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.12精读](papers/ancient/aristotle-posterior-analytics-ii12.zh-CN.md) | AI推理前史补读：时态、先决条件、连续性、循环与通常关系 | 深读v1 · 完整95a10–96a19及有限结构核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.13精读](papers/ancient/aristotle-posterior-analytics-ii13.zh-CN.md) | AI推理前史补读：定义成分搜寻、本质与外延、分割完备及同名辨析 | 深读v1 · 完整96a20–97b39及有限集合核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1293,3 +1294,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 后分析篇 II.12 附件
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-ii12.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii12.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii12.source-audit.zh-CN.md) · [独立技术审查](reproduction/aristotle-posterior-analytics-ii12/technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii12/README.md)。完整95a10–96a19；反向推知不等于反向因果，先决条件不保证未来完成，循环类型不等于同一事件自生，多数关系不继承全称传递。披露直接/间接中项关键异文；有限枚举不替代一般证明或现实验证。
+
+### 后分析篇 II.13 附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-ii13.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii13.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii13.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii13.technical-audit.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii13/README.md)。完整96a20–97b39；外延准确不认证本质，不可删不保证最少，合取交换性不抹去定义层级，正确二分不替代目标归属证据。核对Owen三/三角形误印及种/属译词差异；有限程序不替代一般证明，Notebook为标准库顺序执行而非Jupyter内核。本单元不计II.14、第二卷或全书完成。
