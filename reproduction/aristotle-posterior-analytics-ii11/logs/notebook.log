@@ -1,0 +1,15 @@
+CELL 1
+{'combinations': 4681, 'valid_chains': 341, 'empty_subject_valid': 121, 'violations': 0, 'oracle_disagreements': 0, 'counterexamples_without_major': 774, 'counterexamples_without_minor': 774}
+CELL 2
+{'c_in_b': True, 'b_in_a': False, 'c_in_a': False}
+{'c_in_b': False, 'b_in_a': True, 'c_in_a': False}
+CELL 3
+{'role': 'essence', 'target': 'A', 'middle': 'B', 'premises': ['B -> A', 'C -> B'], 'source': 'teaching assumption', 'certifies_real_cause': False}
+{'role': 'necessitating_conditions', 'target': 'A', 'middle': 'B', 'premises': ['B -> A', 'C -> B'], 'source': 'teaching assumption', 'certifies_real_cause': False}
+{'role': 'moving_origin', 'target': 'A', 'middle': 'B', 'premises': ['B -> A', 'C -> B'], 'source': 'teaching assumption', 'certifies_real_cause': False}
+{'role': 'end', 'target': 'A', 'middle': 'B', 'premises': ['B -> A', 'C -> B'], 'source': 'teaching assumption', 'certifies_real_cause': False}
+CELL 4
+{'cases': 16, 'goal_without_action': 4, 'goal_without_outcome': 7, 'goal_and_success': 1, 'outcome_without_goal': 1, 'goal_toggle_changes_mechanism': 0}
+goal0 action1 outcome2: True
+goal2 action0 outcome1: False
+Executed 4 code cells via standard-library exec; NOT Jupyter kernel.

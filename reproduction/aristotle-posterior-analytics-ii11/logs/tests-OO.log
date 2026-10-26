@@ -1,0 +1,35 @@
+test_01_chain (test_model.Checks.test_01_chain) ... ok
+test_02_empty (test_model.Checks.test_02_empty) ... ok
+test_03_missing_major (test_model.Checks.test_03_missing_major) ... ok
+test_04_missing_minor (test_model.Checks.test_04_missing_minor) ... ok
+test_05_truth_not_premises (test_model.Checks.test_05_truth_not_premises) ... ok
+test_06_domain (test_model.Checks.test_06_domain) ... ok
+test_07_oracle (test_model.Checks.test_07_oracle) ... ok
+test_08_subsets (test_model.Checks.test_08_subsets) ... ok
+test_09_negative (test_model.Checks.test_09_negative) ... ok
+test_10_bool_bound (test_model.Checks.test_10_bool_bound) ... ok
+test_11_exhaustive (test_model.Checks.test_11_exhaustive) ... ok
+test_12_bound (test_model.Checks.test_12_bound) ... ok
+test_13_roles (test_model.Checks.test_13_roles) ... ok
+test_14_role_invalid (test_model.Checks.test_14_role_invalid) ... ok
+test_15_label_invalid (test_model.Checks.test_15_label_invalid) ... ok
+test_16_missing_premise (test_model.Checks.test_16_missing_premise) ... ok
+test_17_blank_premise (test_model.Checks.test_17_blank_premise) ... ok
+test_18_source_invalid (test_model.Checks.test_18_source_invalid) ... ok
+test_19_desire_not_action (test_model.Checks.test_19_desire_not_action) ... ok
+test_20_success (test_model.Checks.test_20_success) ... ok
+test_21_failed_mechanism (test_model.Checks.test_21_failed_mechanism) ... ok
+test_22_failed_background (test_model.Checks.test_22_failed_background) ... ok
+test_23_unintended (test_model.Checks.test_23_unintended) ... ok
+test_24_strict_bool (test_model.Checks.test_24_strict_bool) ... ok
+test_25_truth_table (test_model.Checks.test_25_truth_table) ... ok
+test_26_chronology (test_model.Checks.test_26_chronology) ... ok
+test_27_chronology_bad (test_model.Checks.test_27_chronology_bad) ... ok
+test_28_chronology_inputs (test_model.Checks.test_28_chronology_inputs) ... ok
+test_29_order_count (test_model.Checks.test_29_order_count) ... ok
+test_30_role_not_logic (test_model.Checks.test_30_role_not_logic) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.013s
+
+OK

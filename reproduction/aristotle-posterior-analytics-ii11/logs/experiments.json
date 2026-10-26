@@ -1,0 +1,23 @@
+{
+  "chains": {
+    "combinations": 4681,
+    "valid_chains": 341,
+    "empty_subject_valid": 121,
+    "violations": 0,
+    "oracle_disagreements": 0,
+    "counterexamples_without_major": 774,
+    "counterexamples_without_minor": 774
+  },
+  "scenarios": {
+    "cases": 16,
+    "goal_without_action": 4,
+    "goal_without_outcome": 7,
+    "goal_and_success": 1,
+    "outcome_without_goal": 1,
+    "goal_toggle_changes_mechanism": 0
+  },
+  "chronologies": {
+    "checked": 27,
+    "accepted": 4
+  }
+}
