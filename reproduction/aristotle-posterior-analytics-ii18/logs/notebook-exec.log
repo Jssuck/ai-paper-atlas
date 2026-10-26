@@ -1,0 +1,19 @@
+$ python run_notebook.py
+cell chain OK
+{'subject': 'D', 'target': 'A', 'finite_inclusion_holds': True, 'subject_nonempty': True, 'internal_middles': ['C', 'B'], 'nearest_declared_reason': 'C', 'direct_endpoint_convention': False, 'certifies_real_explanation': False}
+cell subjects OK
+D C ['C', 'B']
+C B ['B']
+B B []
+cell same-extension OK
+候选中项 ('C', 'B')
+两个指定次序 C B
+cell branch-shortcut OK
+最近名字集合 ['C', 'E']
+D→A已声明? False
+D→A在闭包? True
+cell enumeration OK
+{'universe_size': 3, 'assignments': 4096, 'chain_satisfying': 125, 'nonempty_subject': 61, 'transitivity_counterexamples': 0}
+executed_code_cells= 5
+
+exit_code=0

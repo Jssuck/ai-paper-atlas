@@ -1,0 +1,32 @@
+$ python -m unittest -v
+test_acyclic_term_names_required (test_model.ChainTests.test_acyclic_term_names_required) ... ok
+test_all_empty_not_real_explanation_certificate (test_model.ChainTests.test_all_empty_not_real_explanation_certificate) ... ok
+test_both_internal_middles_are_extensionally_valid (test_model.ChainTests.test_both_internal_middles_are_extensionally_valid) ... ok
+test_branching_support_can_have_two_nearest_choices (test_model.ChainTests.test_branching_support_can_have_two_nearest_choices) ... ok
+test_closure_shortcut_is_not_declared_direct (test_model.ChainTests.test_closure_shortcut_is_not_declared_direct) ... ok
+test_empty_subject_is_vacuously_valid_not_observation (test_model.ChainTests.test_empty_subject_is_vacuously_valid_not_observation) ... ok
+test_empty_universe_has_one_vacuous_assignment (test_model.ChainTests.test_empty_universe_has_one_vacuous_assignment) ... ok
+test_enumeration_matches_independent_membership_count (test_model.ChainTests.test_enumeration_matches_independent_membership_count) ... ok
+test_equal_extensions_leave_order_underdetermined (test_model.ChainTests.test_equal_extensions_leave_order_underdetermined) ... ok
+test_false_adjacent_inclusion_is_rejected (test_model.ChainTests.test_false_adjacent_inclusion_is_rejected) ... ok
+test_invalid_enumeration_size_rejected (test_model.ChainTests.test_invalid_enumeration_size_rejected) ... ok
+test_missing_edge_cannot_be_replaced_by_semantic_truth (test_model.ChainTests.test_missing_edge_cannot_be_replaced_by_semantic_truth) ... ok
+test_missing_named_extension_rejected (test_model.ChainTests.test_missing_named_extension_rejected) ... ok
+test_mixed_questions_rejected (test_model.ChainTests.test_mixed_questions_rejected) ... ok
+test_no_supplied_support_is_empty_not_impossibility (test_model.ChainTests.test_no_supplied_support_is_empty_not_impossibility) ... ok
+test_question_B_has_endpoint_B_not_self_loop (test_model.ChainTests.test_question_B_has_endpoint_B_not_self_loop) ... ok
+test_question_C_has_nearest_B (test_model.ChainTests.test_question_C_has_nearest_B) ... ok
+test_question_D_has_nearest_C (test_model.ChainTests.test_question_D_has_nearest_C) ... ok
+test_reflexive_path_not_a_direct_premise (test_model.ChainTests.test_reflexive_path_not_a_direct_premise) ... ok
+test_reverse_direction_does_not_follow (test_model.ChainTests.test_reverse_direction_does_not_follow) ... ok
+test_same_first_step_deduplicates_but_not_causal_identity (test_model.ChainTests.test_same_first_step_deduplicates_but_not_causal_identity) ... ok
+test_sets_not_arbitrary_lists (test_model.ChainTests.test_sets_not_arbitrary_lists) ... ok
+test_target_only_not_an_explanation (test_model.ChainTests.test_target_only_not_an_explanation) ... ok
+test_true_endpoint_does_not_repair_false_middle (test_model.ChainTests.test_true_endpoint_does_not_repair_false_middle) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.001s
+
+OK
+
+exit_code=0

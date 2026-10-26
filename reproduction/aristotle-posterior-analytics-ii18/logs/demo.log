@@ -1,0 +1,59 @@
+$ python model.py
+{
+  "chain_questions": [
+    {
+      "subject": "D",
+      "target": "A",
+      "finite_inclusion_holds": true,
+      "subject_nonempty": true,
+      "internal_middles": [
+        "C",
+        "B"
+      ],
+      "nearest_declared_reason": "C",
+      "direct_endpoint_convention": false,
+      "certifies_real_explanation": false
+    },
+    {
+      "subject": "C",
+      "target": "A",
+      "finite_inclusion_holds": true,
+      "subject_nonempty": true,
+      "internal_middles": [
+        "B"
+      ],
+      "nearest_declared_reason": "B",
+      "direct_endpoint_convention": false,
+      "certifies_real_explanation": false
+    },
+    {
+      "subject": "B",
+      "target": "A",
+      "finite_inclusion_holds": true,
+      "subject_nonempty": true,
+      "internal_middles": [],
+      "nearest_declared_reason": "B",
+      "direct_endpoint_convention": true,
+      "certifies_real_explanation": false
+    }
+  ],
+  "extension_only_middles_for_D_A": [
+    "C",
+    "B"
+  ],
+  "branch_choices": [
+    "C",
+    "E"
+  ],
+  "closure_adds_D_A_shortcut": true,
+  "declared_has_D_A_shortcut": false,
+  "enumeration": {
+    "universe_size": 3,
+    "assignments": 4096,
+    "chain_satisfying": 125,
+    "nonempty_subject": 61,
+    "transitivity_counterexamples": 0
+  }
+}
+
+exit_code=0
