@@ -23,7 +23,7 @@
 令 `w=E−A`、`q=v·v`、`C=c²`，并保留 `c>0` 的长度语义。下列条件组与目标等价：
 
 $$
-q>0,\quad 0<C<q,\quad v\times w=0,\quad 0<v\cdot w<q,\quad w\cdot w=C.
+q\gt 0,\quad 0\lt C\lt q,\quad v\times w=0,\quad 0\lt v\cdot w\lt q,\quad w\cdot w=C.
 $$
 
 在二维实数平面，`q>0`排除零向量；叉积为零给出 `w=sv`；内积界成为 `0<sq<q`，故 `0<s<1`；平方长度给出 `s²q=C`。由于长度非负且目标为正，得到所需距离。反向从严格内部正确截点代入，也得到全部条件。没有把“有限测试通过”作为这个一般证明的理由。
@@ -103,21 +103,21 @@ python audit/run_independent_audit.py
 
 本表由最终实际执行的 `audit/results.json` 生成；正文、七个复现文件及两个独立审查脚本在该次执行前后保持相同摘要。报告不对自身作循环摘要。
 
-审查完成时间（UTC）：`2026-10-26T19:51:43.796128+00:00`；结果：**PASS**。环境：CPython 3.12.14，Linux x86_64，无新增依赖。
+审查完成时间（UTC）：`2026-10-26T19:56:37.539910+00:00`；结果：**PASS**。环境：CPython 3.12.14，Linux x86_64，无新增依赖。
 
 | 发布相对路径 | SHA-256 |
 |---|---|
-| [papers/ancient/euclid-elements-i3.zh-CN.md](euclid-elements-i3.zh-CN.md) | `5eceb2ed2db3be3146a625b36dc3c654659b7615ab01e715e54378b9640dbbb9` |
+| [papers/ancient/euclid-elements-i3.zh-CN.md](euclid-elements-i3.zh-CN.md) | `8da74b81a5325a58dea7ba8703d4d7d24aac45dd0a8e0a4aa1b85901fdabf994` |
 | [reproduction/euclid-elements-i3/euclid_i3.py](../../reproduction/euclid-elements-i3/euclid_i3.py) | `231c54693bc9e407b2f2c522abbaa428eebc88ef0673a2b7174c17c1e94dbc3c` |
 | [reproduction/euclid-elements-i3/experiments.py](../../reproduction/euclid-elements-i3/experiments.py) | `f18c8cf22ed3e6b5f7b1312845c27a88a92d1a64ecb966c1fcbdf5c3dee03549` |
 | [reproduction/euclid-elements-i3/test_euclid_i3.py](../../reproduction/euclid-elements-i3/test_euclid_i3.py) | `d8a1b0801900562fdb44b5f79bac5aaf22ef5e560900058bab7c24ddda11e08e` |
 | [reproduction/euclid-elements-i3/execute_notebook.py](../../reproduction/euclid-elements-i3/execute_notebook.py) | `4051c73e93420b5720aac37ba7bfcad135ba696db9c070d43225d8e99dc745ff` |
 | [reproduction/euclid-elements-i3/run_checks.py](../../reproduction/euclid-elements-i3/run_checks.py) | `13bae1fa926405bed7790d8c83ec1a14d6314dae4473cfe153b4acd4b52c2e3f` |
 | [reproduction/euclid-elements-i3/tutorial.ipynb](../../reproduction/euclid-elements-i3/tutorial.ipynb) | `62c2c689ba27f8408e65f3838e9a5304f2c6c24a5ec25be4aa94b73498c1d63a` |
-| [reproduction/euclid-elements-i3/README.md](../../reproduction/euclid-elements-i3/README.md) | `f193cba0443d4802280286083fbd48bb2763561673643629f06383b54b5f9c3f` |
+| [reproduction/euclid-elements-i3/README.md](../../reproduction/euclid-elements-i3/README.md) | `3fac56a43844d86672100e203fa3d7b9340bc08d6ed98817db4299b0b2c71e85` |
 | [reproduction/euclid-elements-i3/audit/independent_oracle.py](../../reproduction/euclid-elements-i3/audit/independent_oracle.py) | `417ec1088271391d234910ff54772f6506df04d96e1ea5cceeafa0acaba8c7a9` |
 | [reproduction/euclid-elements-i3/audit/run_independent_audit.py](../../reproduction/euclid-elements-i3/audit/run_independent_audit.py) | `07be21235972c59a1589cbf16104f0c568ec8a4b5c9c74293608ad9622548cd3` |
 
-`audit/results.json` 自身SHA-256：`fd452f024f1c028ed098abf5af9a1217ebc6f446747e87daa4815696f9cc519d`。
+`audit/results.json` 自身SHA-256：`2bc266c2a94ed6fb67c9d745eafb277c803d1c625036ae54a9d214992d3cb57a`。
 
 作者证据及本次八份日志的摘要另保存在该JSON的 `evidence_sha256` 中。所有公开命令与文件引用使用项目相对路径，不含私人工作目录。

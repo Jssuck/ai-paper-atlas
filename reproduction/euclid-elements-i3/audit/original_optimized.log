@@ -34,7 +34,7 @@ test_zero_length_policy (test_euclid_i3.ExactI3Tests.test_zero_length_policy) ..
 test_zero_square_root_not_a_strict_cut (test_euclid_i3.ExactI3Tests.test_zero_square_root_not_a_strict_cut) ... ok
 
 ----------------------------------------------------------------------
-Ran 33 tests in 0.133s
+Ran 33 tests in 0.142s
 
 OK
 

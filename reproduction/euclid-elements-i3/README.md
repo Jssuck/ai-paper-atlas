@@ -5,7 +5,7 @@
 本项目把目标记为 **平方长度 `C`**，不是长度本身：
 
 $$
- A,B\in\mathbb Q^2,\qquad 0<C<\lVert B-A\rVert^2.
+ A,B\in\mathbb Q^2,\qquad 0\lt C\lt \lVert B-A\rVert^2.
 $$
 
 只使用 Python 标准库；不安装任何依赖。实际验证环境见 `evidence/environment.json`。

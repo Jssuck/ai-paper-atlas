@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "recorded_at_utc": "2026-10-26T19:51:43.796128+00:00",
+  "recorded_at_utc": "2026-10-26T19:56:37.539910+00:00",
   "environment": {
     "python_implementation": "CPython",
     "python_version": "3.12.14",
@@ -17,21 +17,21 @@
     "normal": {
       "command": "python -m unittest -v test_euclid_i3",
       "exit_code": 0,
-      "wall_seconds": 0.195818,
+      "wall_seconds": 0.242024,
       "log": "audit/original_normal.log",
       "tests_run": 33
     },
     "optimized": {
       "command": "python -O -m unittest -v test_euclid_i3",
       "exit_code": 0,
-      "wall_seconds": 0.335255,
+      "wall_seconds": 0.361977,
       "log": "audit/original_optimized.log",
       "tests_run": 33
     },
     "double_optimized": {
       "command": "python -OO -m unittest -v test_euclid_i3",
       "exit_code": 0,
-      "wall_seconds": 0.359952,
+      "wall_seconds": 0.370556,
       "log": "audit/original_double_optimized.log",
       "tests_run": 33
     }
@@ -41,19 +41,19 @@
     "normal": {
       "command": "python audit/independent_oracle.py",
       "exit_code": 0,
-      "wall_seconds": 2.00935,
+      "wall_seconds": 2.243703,
       "log": "audit/oracle_normal.log"
     },
     "optimized": {
       "command": "python -O audit/independent_oracle.py",
       "exit_code": 0,
-      "wall_seconds": 2.381435,
+      "wall_seconds": 2.201649,
       "log": "audit/oracle_optimized.log"
     },
     "double_optimized": {
       "command": "python -OO audit/independent_oracle.py",
       "exit_code": 0,
-      "wall_seconds": 2.418138,
+      "wall_seconds": 2.0761,
       "log": "audit/oracle_double_optimized.log"
     }
   },
@@ -125,13 +125,13 @@
   "experiment_run": {
     "command": "python experiments.py",
     "exit_code": 0,
-    "wall_seconds": 0.155038,
+    "wall_seconds": 0.16886,
     "log": "audit/independent_experiments.log"
   },
   "notebook_replay": {
     "command": "python execute_notebook.py",
     "exit_code": 0,
-    "wall_seconds": 0.155587,
+    "wall_seconds": 0.193041,
     "log": "audit/independent_notebook.log",
     "published_json_matches_replay": true,
     "total_cells": 5,
@@ -148,32 +148,32 @@
     "reproduction/euclid-elements-i3/audit/run_independent_audit.py": 0
   },
   "bound_sha256": {
-    "papers/ancient/euclid-elements-i3.zh-CN.md": "5eceb2ed2db3be3146a625b36dc3c654659b7615ab01e715e54378b9640dbbb9",
+    "papers/ancient/euclid-elements-i3.zh-CN.md": "8da74b81a5325a58dea7ba8703d4d7d24aac45dd0a8e0a4aa1b85901fdabf994",
     "reproduction/euclid-elements-i3/euclid_i3.py": "231c54693bc9e407b2f2c522abbaa428eebc88ef0673a2b7174c17c1e94dbc3c",
     "reproduction/euclid-elements-i3/experiments.py": "f18c8cf22ed3e6b5f7b1312845c27a88a92d1a64ecb966c1fcbdf5c3dee03549",
     "reproduction/euclid-elements-i3/test_euclid_i3.py": "d8a1b0801900562fdb44b5f79bac5aaf22ef5e560900058bab7c24ddda11e08e",
     "reproduction/euclid-elements-i3/execute_notebook.py": "4051c73e93420b5720aac37ba7bfcad135ba696db9c070d43225d8e99dc745ff",
     "reproduction/euclid-elements-i3/run_checks.py": "13bae1fa926405bed7790d8c83ec1a14d6314dae4473cfe153b4acd4b52c2e3f",
     "reproduction/euclid-elements-i3/tutorial.ipynb": "62c2c689ba27f8408e65f3838e9a5304f2c6c24a5ec25be4aa94b73498c1d63a",
-    "reproduction/euclid-elements-i3/README.md": "f193cba0443d4802280286083fbd48bb2763561673643629f06383b54b5f9c3f",
+    "reproduction/euclid-elements-i3/README.md": "3fac56a43844d86672100e203fa3d7b9340bc08d6ed98817db4299b0b2c71e85",
     "reproduction/euclid-elements-i3/audit/independent_oracle.py": "417ec1088271391d234910ff54772f6506df04d96e1ea5cceeafa0acaba8c7a9",
     "reproduction/euclid-elements-i3/audit/run_independent_audit.py": "07be21235972c59a1589cbf16104f0c568ec8a4b5c9c74293608ad9622548cd3"
   },
   "evidence_sha256": {
-    "evidence/double_optimized.log": "a0b3405b511dba2ca810a43b464b7e1b7e1ee50373dcb2ecc6e067a6ff73ebf2",
-    "evidence/environment.json": "0d60e0a470c7bfca73b59139496acc9a74c6858fe093b4f1daf54753c8b0d0d6",
-    "evidence/normal.log": "7e46cbb3476f2867f353846406da7cd437f23f3c6406bc13986ca01732ffcbc5",
+    "evidence/double_optimized.log": "454aed83d648de80571ef7e0ea6b61ca4552c70edfa46460b0a3da639a0bcf82",
+    "evidence/environment.json": "59efd51f1ea741bf8dba901e43cdd46558dbd8c804195853ce9a0789d3643bb4",
+    "evidence/normal.log": "1247255197070352bf748142e74a824b4f783418f444c292815177bf5374fabc",
     "evidence/notebook.log": "db96d4340205bd6fba3b1d371e2c1f82cb6f8edcf4addc2731e353857421bd94",
-    "evidence/optimized.log": "e36f7ac58b644cd241dd7d76a63a120061df4e6e0b9041b4c643e7adf8c20178",
-    "evidence/results.json": "95648bf0067a686250dc7d43fdc0e93db385fc6e55de7bbce2ecb9eb2e8a87ef",
+    "evidence/optimized.log": "33bb187e2e42050a3c6244be9cefe3e652a3d06d2dad12bb5a372ce5bb24e240",
+    "evidence/results.json": "4112c6d8e82d538b8963189d4639d9174590ebd0b7cde41af35430903bb7532b",
     "audit/independent_experiments.log": "a4a65cd49f5e138589f67253cae0091277a16a3b380bcaf37fd6c139a5d348cc",
     "audit/independent_notebook.log": "db96d4340205bd6fba3b1d371e2c1f82cb6f8edcf4addc2731e353857421bd94",
     "audit/oracle_double_optimized.log": "dc764e28a005c3be78b7ce44855cf0c44a353e1ee699fd6596a2e9a082824f7d",
     "audit/oracle_normal.log": "45b162781da7766e103b5f0583914dfcb4d8fe1ea63eb4fb98e08250f42104a1",
     "audit/oracle_optimized.log": "99b5ff5033bb01b1d06421def40c9b4a3ecf00f27d5e0ee9578bb6f477efb52c",
-    "audit/original_double_optimized.log": "f586a0a18e0dff2423bd4fa87378b2054ea88516a02b3fc175d93f038816ed27",
-    "audit/original_normal.log": "5226284051a84edac1ad949f951e785b1fdcd2da8c9f3d49f48b1e9a17ae5464",
-    "audit/original_optimized.log": "1f5eee5a293d3130aa4a66a121445dddb55c9cf438ea96f647c0fe59bd698e2d"
+    "audit/original_double_optimized.log": "a582562b818f3ff57386c26616a142f0fd8f4cdbe21ef2206790b392dba992d3",
+    "audit/original_normal.log": "8868df8fde56e931407a3331fcfb65fc479b04637c4f9f91cb3118589b4c50c8",
+    "audit/original_optimized.log": "ff9239002b2135aafd74423a26cfd5e4c825f668645c1cec1e43b1ec3cbde1a4"
   },
   "scope": "Independent mathematics/code review, finite tests, and evidence consistency; no historical source audit or formal proof certification."
 }

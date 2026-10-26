@@ -6,21 +6,21 @@
       "command": "python -m unittest -v test_euclid_i3",
       "exit_code": 0,
       "tests_run": 33,
-      "wall_seconds": 0.22318,
+      "wall_seconds": 0.205136,
       "log": "evidence/normal.log"
     },
     "optimized": {
       "command": "python -O -m unittest -v test_euclid_i3",
       "exit_code": 0,
       "tests_run": 33,
-      "wall_seconds": 0.358512,
+      "wall_seconds": 0.353391,
       "log": "evidence/optimized.log"
     },
     "double_optimized": {
       "command": "python -OO -m unittest -v test_euclid_i3",
       "exit_code": 0,
       "tests_run": 33,
-      "wall_seconds": 0.335244,
+      "wall_seconds": 0.306,
       "log": "evidence/double_optimized.log"
     }
   },
@@ -220,7 +220,7 @@
     "command": "python execute_notebook.py",
     "exit_code": 0,
     "tests_run": null,
-    "wall_seconds": 0.18592,
+    "wall_seconds": 0.164068,
     "log": "evidence/notebook.log",
     "total_cells": 5,
     "executed_code_cells": 3,
@@ -241,7 +241,7 @@
     "execute_notebook.py": "4051c73e93420b5720aac37ba7bfcad135ba696db9c070d43225d8e99dc745ff",
     "run_checks.py": "13bae1fa926405bed7790d8c83ec1a14d6314dae4473cfe153b4acd4b52c2e3f",
     "tutorial.ipynb": "62c2c689ba27f8408e65f3838e9a5304f2c6c24a5ec25be4aa94b73498c1d63a",
-    "README.md": "f193cba0443d4802280286083fbd48bb2763561673643629f06383b54b5f9c3f"
+    "README.md": "3fac56a43844d86672100e203fa3d7b9340bc08d6ed98817db4299b0b2c71e85"
   },
   "limits": [
     "Finite tests do not prove a universal theorem.",
