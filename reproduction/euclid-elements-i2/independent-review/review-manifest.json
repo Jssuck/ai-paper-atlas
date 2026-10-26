@@ -1,0 +1,66 @@
+{
+  "review_date_utc": "2026-10-26",
+  "body_path": "papers/ancient/euclid-elements-i2.zh-CN.md",
+  "body_sha256": "59d9bba18948ff2ac85d001b31dee89e3625d63d052e537a82b6772f93d4b7e3",
+  "original_source_sha256": {
+    "exact.py": "e97a64545b1a887230d35674d2bca6f36d6915604b8e3002c657ef9b3bd59aa1",
+    "euclid_i2.py": "689d617dfeb7e7d880f087f1f7aeb5ebf4556abb77935ec607c7df2d401fc66f",
+    "test_euclid_i2.py": "3d00ad21fb95b65fac17a37676896f253a9a83938d3bbde4569a14f968da9bbe",
+    "tutorial.ipynb": "8d851d69d325685c080d7d69c519c71c2a43e7e3d0ae9d0d52964d9b14c5ba5e",
+    "run_notebook.py": "f9f7f24f8a0ea63d0d1703550bce001c4915f255827854a05322ddcf84562217",
+    "results.json": "78eb409cae04f00b636e88a20645806439911074c94bea36ba5ec4a8845e64a8",
+    "README.md": "ef3b695df24926cfb1b034965fc4e786758b1b73ed449ef8a6d2e9c79126f831",
+    "environment.json": "b730b4a050ba27ae8012bd63977c00a5e36a46d597803031b6d3c8a4e1188ed1"
+  },
+  "independent_evidence_sha256": {
+    "README.md": "ff6de2204150c210ba39970c1dd496216957c608de2d7146d51a161f971d920a",
+    "independent_oracle.py": "1d09a5f4e8df4a5d6c3490bca97dcc72ce19b04ddced704e6df986d00ac9a902",
+    "notebook-exec.log": "2c0c17343fe7d6fa55bf1a2f7a94166928a4ba196fc8e7812acf3c8aa2cd0e22",
+    "notebook-review.json": "7f46ea6b92044f26853d6110dbc1026b57bd40c3b11591016fdc724cec2811eb",
+    "oracle-results-O.json": "d5a67c4fa1c4368e45075e62d6e10fbd978dc681cff7c94dec9c2d33eb8ff1d9",
+    "oracle-results-OO.json": "a436938a6c0a020e3c59955d6d4a2b15f8d779a1b4a851ac9526b998fd6f9852",
+    "oracle-results.json": "8be3a0b8ec29498c1182efb1604193b978766ec83133fdd833fea57cdd0ed9fe",
+    "results-rerun.json": "78eb409cae04f00b636e88a20645806439911074c94bea36ba5ec4a8845e64a8",
+    "tests-O.log": "4d7c6a214642588eb23e56684e29472a80028845026244c866bd67923aedf1a4",
+    "tests-OO.log": "017d4ff94dd4547a76b7657f3549c1570d1e7a4b3924b80ae7e52a4a17e9700b",
+    "tests.log": "3097111e483b7d98aa9352d589ee1c474c17dddceaa40b0ed0ed213b5c421a2b"
+  },
+  "original_test_runs": [
+    {
+      "command": "python3 -m unittest -v test_euclid_i2",
+      "distinct_tests": 25,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -O -m unittest -v test_euclid_i2",
+      "distinct_tests": 25,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -OO -m unittest -v test_euclid_i2",
+      "distinct_tests": 25,
+      "exit_code": 0
+    }
+  ],
+  "oracle_runs": [
+    {
+      "command": "python3 independent-review/independent_oracle.py .",
+      "exit_code": 0,
+      "failures": 0
+    },
+    {
+      "command": "python3 -O independent-review/independent_oracle.py .",
+      "exit_code": 0,
+      "failures": 0
+    },
+    {
+      "command": "python3 -OO independent-review/independent_oracle.py .",
+      "exit_code": 0,
+      "failures": 0
+    }
+  ],
+  "oracle_modes_agree": true,
+  "original_results_match_rerun": true,
+  "notebook": "5 cells via original standard-library exec runner in isolated copy; no Jupyter kernel; saved values match original; limited structural checks only",
+  "dependency_scope": "Original reproduction uses only standard library. Independent oracle uses pre-existing SymPy 1.14.0. No new package installed."
+}

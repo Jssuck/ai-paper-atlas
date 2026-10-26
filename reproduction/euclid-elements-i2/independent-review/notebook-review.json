@@ -1,0 +1,15 @@
+{
+  "execution": "CPython standard-library exec, not a Jupyter kernel",
+  "executed_code_cells": 5,
+  "ordered_execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "saved_notebook_matches_original": true,
+  "manual_structure_checks": "nbformat 4.5 keys, IDs, cell/source/output/count types; not full JSON-schema validation",
+  "problems": [],
+  "notebook_sha256": "8d851d69d325685c080d7d69c519c71c2a43e7e3d0ae9d0d52964d9b14c5ba5e"
+}

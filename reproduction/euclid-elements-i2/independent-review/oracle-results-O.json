@@ -1,0 +1,143 @@
+{
+  "review_kind": "independent exact finite differential oracle; not a universal proof",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "oracle_arithmetic": "SymPy QQ<sqrt(3)> algebraic field; no subject arithmetic in oracle geometry",
+  "oracle_order": "exact affine line parameter > 1; no subject beyond, dot or sign helper",
+  "tested_source_sha256": {
+    "exact.py": "e97a64545b1a887230d35674d2bca6f36d6915604b8e3002c657ef9b3bd59aa1",
+    "euclid_i2.py": "689d617dfeb7e7d880f087f1f7aeb5ebf4556abb77935ec607c7df2d401fc66f",
+    "test_euclid_i2.py": "3d00ad21fb95b65fac17a37676896f253a9a83938d3bbde4569a14f968da9bbe"
+  },
+  "parameters": {
+    "positive_rational_values": [
+      "1/97",
+      "1/3",
+      "1/2",
+      "1",
+      "2",
+      "3",
+      "97"
+    ],
+    "radius_ratio_min": "1/9409",
+    "radius_ratio_max": "9409",
+    "constructor_offsets": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "13/17",
+        "-29/31"
+      ],
+      [
+        "-11",
+        "23"
+      ]
+    ],
+    "exact_rotations": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "-5/13",
+        "12/13"
+      ]
+    ],
+    "broader_translation": [
+      "2+sqrt(3)",
+      "1/3-sqrt(3)"
+    ],
+    "given_segment_directions": [
+      "(1,0)",
+      "(0,1)",
+      "(3/5,4/5)",
+      "from B toward A"
+    ]
+  },
+  "counts": {
+    "normalized_constructor_cases": 294,
+    "broader_valid_certificate_cases": 1568,
+    "A_equals_C_valid_cases": 56,
+    "A_strictly_inside_BC_valid_cases": 168,
+    "mutated_certificate_cases": 216,
+    "arithmetic_operation_comparisons": 1875,
+    "sign_comparisons": 153,
+    "coincident_anchor_cases": 3
+  },
+  "mutation_cases_by_kind": {
+    "other_first_circle_intersection": 24,
+    "opposite_second_circle_intersection": 24,
+    "G_equals_B": 24,
+    "L_equals_A": 24,
+    "zero_given_segment": 24,
+    "collapsed_AB": 24,
+    "bad_equilateral_vertex": 24,
+    "wrong_radius_on_right_ray": 24,
+    "offray_G": 24
+  },
+  "counterexamples": {
+    "attachment_s2_r1_opposite_L": {
+      "AL_squared": "25",
+      "BC_squared": "1",
+      "checks": {
+        "nonzero_input": true,
+        "distinct_anchor": true,
+        "equilateral_frame": true,
+        "circle_B_through_C": true,
+        "D_B_G_order": true,
+        "circle_D_through_G": true,
+        "D_A_L_order": false,
+        "output_length": false,
+        "accepted": false
+      }
+    },
+    "paper_s2_r3_opposite_L": {
+      "AL_squared": "49",
+      "BC_squared": "9",
+      "checks": {
+        "nonzero_input": true,
+        "distinct_anchor": true,
+        "equilateral_frame": true,
+        "circle_B_through_C": true,
+        "D_B_G_order": true,
+        "circle_D_through_G": true,
+        "D_A_L_order": false,
+        "output_length": false,
+        "accepted": false
+      }
+    },
+    "s2_r1_near_G": {
+      "DG_squared": "1",
+      "DA_squared": "4",
+      "checks": {
+        "nonzero_input": true,
+        "distinct_anchor": true,
+        "equilateral_frame": true,
+        "circle_B_through_C": true,
+        "D_B_G_order": false,
+        "circle_D_through_G": false,
+        "D_A_L_order": true,
+        "output_length": true,
+        "accepted": false
+      }
+    }
+  },
+  "failures": [],
+  "elapsed_seconds": 2.787,
+  "scope_limits": [
+    "finite exact fixtures, not all real inputs",
+    "broader fixtures test certificate only; constructor still has its original limited API",
+    "no primitive-operation history or ancient-axiom existence verification",
+    "SymPy is a review dependency only; original reproduction remains standard-library-only"
+  ]
+}

@@ -1,0 +1,12 @@
+CELL 1
+规范族；非通用尺规引擎，也非 Jupyter 内核执行声明
+CELL 2
+{'A': [{'rational': '2', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '0'}], 'B': [{'rational': '1', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '1'}], 'C': [{'rational': '2', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '1'}], 'D': [{'rational': '0', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '0'}], 'G': [{'rational': '3/2', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '3/2'}], 'L': [{'rational': '3', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '0'}]}
+{'nonzero_input': True, 'distinct_anchor': True, 'equilateral_frame': True, 'circle_B_through_C': True, 'D_B_G_order': True, 'circle_D_through_G': True, 'D_A_L_order': True, 'output_length': True, 'accepted': True}
+CELL 3
+{'nonzero_input': True, 'distinct_anchor': True, 'equilateral_frame': True, 'circle_B_through_C': True, 'D_B_G_order': False, 'circle_D_through_G': False, 'D_A_L_order': True, 'output_length': True, 'accepted': False}
+CELL 4
+(Q3(a=Fraction(3, 1), b=Fraction(0, 1)), Q3(a=Fraction(4, 1), b=Fraction(0, 1)))
+CELL 5
+{'cases': 150, 'violations': 0}
+Executed code cells: 5

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "dependencies": "Python standard library only",
+  "notebook_execution": "stdlib exec, not a Jupyter kernel",
+  "ipykernel_available": false,
+  "commands": [
+    "python3 -m unittest -v test_euclid_i2",
+    "python3 -O -m unittest -v test_euclid_i2",
+    "python3 -OO -m unittest -v test_euclid_i2",
+    "python3 euclid_i2.py > results.json",
+    "python3 run_notebook.py > logs/notebook.log"
+  ]
+}

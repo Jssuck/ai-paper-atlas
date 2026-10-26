@@ -1,0 +1,30 @@
+test_exact_fraction (test_euclid_i2.ArithmeticTests.test_exact_fraction) ... ok
+test_product (test_euclid_i2.ArithmeticTests.test_product) ... ok
+test_reject_inexact (test_euclid_i2.ArithmeticTests.test_reject_inexact) ... ok
+test_reject_offset (test_euclid_i2.ArithmeticTests.test_reject_offset) ... ok
+test_reject_r (test_euclid_i2.ArithmeticTests.test_reject_r) ... ok
+test_reject_s (test_euclid_i2.ArithmeticTests.test_reject_s) ... ok
+test_reject_side (test_euclid_i2.ArithmeticTests.test_reject_side) ... ok
+test_sign (test_euclid_i2.ArithmeticTests.test_sign) ... ok
+test_beyond (test_euclid_i2.GeometryTests.test_beyond) ... ok
+test_direct_case (test_euclid_i2.GeometryTests.test_direct_case) ... ok
+test_direct_case_wrong_anchor (test_euclid_i2.GeometryTests.test_direct_case_wrong_anchor) ... ok
+test_direct_case_zero (test_euclid_i2.GeometryTests.test_direct_case_zero) ... ok
+test_enumeration (test_euclid_i2.GeometryTests.test_enumeration) ... ok
+test_hand_example (test_euclid_i2.GeometryTests.test_hand_example) ... ok
+test_malformed_certificate (test_euclid_i2.GeometryTests.test_malformed_certificate) ... ok
+test_radius_equal (test_euclid_i2.GeometryTests.test_radius_equal) ... ok
+test_radius_larger (test_euclid_i2.GeometryTests.test_radius_larger) ... ok
+test_radius_smaller (test_euclid_i2.GeometryTests.test_radius_smaller) ... ok
+test_reflection (test_euclid_i2.GeometryTests.test_reflection) ... ok
+test_translation (test_euclid_i2.GeometryTests.test_translation) ... ok
+test_wrong_G_circle (test_euclid_i2.GeometryTests.test_wrong_G_circle) ... ok
+test_wrong_L_ray (test_euclid_i2.GeometryTests.test_wrong_L_ray) ... ok
+test_wrong_frame (test_euclid_i2.GeometryTests.test_wrong_frame) ... ok
+test_wrong_near_G (test_euclid_i2.GeometryTests.test_wrong_near_G) ... ok
+test_zero_input (test_euclid_i2.GeometryTests.test_zero_input) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.078s
+
+OK

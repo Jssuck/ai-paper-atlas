@@ -1,0 +1,148 @@
+{
+  "scope": "normalized rational s,r, two reflected frames, three rational translations; not all planar inputs",
+  "enumeration": {
+    "cases": 150,
+    "violations": 0
+  },
+  "example_s2_r1": {
+    "points": {
+      "A": [
+        {
+          "rational": "2",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "0"
+        }
+      ],
+      "B": [
+        {
+          "rational": "1",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "1"
+        }
+      ],
+      "C": [
+        {
+          "rational": "2",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "1"
+        }
+      ],
+      "D": [
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "0"
+        }
+      ],
+      "G": [
+        {
+          "rational": "3/2",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "3/2"
+        }
+      ],
+      "L": [
+        {
+          "rational": "3",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "0"
+        }
+      ]
+    },
+    "certificate": {
+      "nonzero_input": true,
+      "distinct_anchor": true,
+      "equilateral_frame": true,
+      "circle_B_through_C": true,
+      "D_B_G_order": true,
+      "circle_D_through_G": true,
+      "D_A_L_order": true,
+      "output_length": true,
+      "accepted": true
+    },
+    "squared_lengths": {
+      "AB2": {
+        "rational": "4",
+        "sqrt3_coefficient": "0"
+      },
+      "BC2": {
+        "rational": "1",
+        "sqrt3_coefficient": "0"
+      },
+      "DG2": {
+        "rational": "9",
+        "sqrt3_coefficient": "0"
+      },
+      "AL2": {
+        "rational": "1",
+        "sqrt3_coefficient": "0"
+      }
+    }
+  },
+  "near_G_counterexample": {
+    "nonzero_input": true,
+    "distinct_anchor": true,
+    "equilateral_frame": true,
+    "circle_B_through_C": true,
+    "D_B_G_order": false,
+    "circle_D_through_G": false,
+    "D_A_L_order": true,
+    "output_length": true,
+    "accepted": false
+  },
+  "wrong_ray_L_counterexample": {
+    "nonzero_input": true,
+    "distinct_anchor": true,
+    "equilateral_frame": true,
+    "circle_B_through_C": true,
+    "D_B_G_order": true,
+    "circle_D_through_G": true,
+    "D_A_L_order": false,
+    "output_length": false,
+    "accepted": false
+  },
+  "coincident_anchor": {
+    "A": [
+      0,
+      0
+    ],
+    "B": [
+      0,
+      0
+    ],
+    "C": [
+      3,
+      4
+    ],
+    "returned_C": {
+      "L": [
+        {
+          "rational": "3",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "4",
+          "sqrt3_coefficient": "0"
+        }
+      ]
+    }
+  }
+}
