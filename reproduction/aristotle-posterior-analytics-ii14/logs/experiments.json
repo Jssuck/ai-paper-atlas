@@ -1,0 +1,23 @@
+{
+  "inheritance": {
+    "triples": 4681,
+    "valid_chains": 341,
+    "empty_subject_valid": 121,
+    "violations": 0,
+    "oracle_disagreements": 0
+  },
+  "analogy": {
+    "maps_checked": 1024,
+    "preserving": 434,
+    "noninjective_preserving": 272,
+    "oracle_disagreements": 0
+  },
+  "uncovered_sample": {
+    "sample_positive": true,
+    "sample_covers_class": false,
+    "class_positive": false,
+    "counterexamples": [
+      1
+    ]
+  }
+}

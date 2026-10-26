@@ -1,0 +1,33 @@
+cell 1 inheritance-code
+{'subject_in_middle': True, 'middle_in_attribute': True, 'premises': True, 'conclusion': True, 'subject_nonempty': True}
+{'edges': [True, True], 'root_attribute': True, 'certificate': True, 'leaf_attribute': True, 'leaf_nonempty': True}
+cell 2 coverage-code
+{'sample_positive': True, 'sample_covers_class': False, 'class_positive': False, 'counterexamples': [1]}
+cell 3 analogy-code
+{'preserves_relation': True, 'failed_source_edges': [], 'injective': True}
+{'preserves_relation': False, 'failed_source_edges': [(0, 1)], 'injective': True}
+cell 4 enumeration-code
+{
+  "inheritance": {
+    "triples": 4681,
+    "valid_chains": 341,
+    "empty_subject_valid": 121,
+    "violations": 0,
+    "oracle_disagreements": 0
+  },
+  "analogy": {
+    "maps_checked": 1024,
+    "preserving": 434,
+    "noninjective_preserving": 272,
+    "oracle_disagreements": 0
+  },
+  "uncovered_sample": {
+    "sample_positive": true,
+    "sample_covers_class": false,
+    "class_positive": false,
+    "counterexamples": [
+      1
+    ]
+  }
+}
+Executed 4 code cells using standard-library exec; NOT a Jupyter kernel.
