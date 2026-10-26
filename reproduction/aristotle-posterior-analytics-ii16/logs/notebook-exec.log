@@ -1,0 +1,17 @@
+$ python run_notebook.py
+cell setup OK
+Synthetic extensions only: neither natural science nor causal direction is established.
+cell syllogism OK
+{'universe_size': 3, 'assignments': 512, 'premise_satisfying': 64, 'conclusion_violations': 0}
+{'C_to_B': True, 'B_to_A': True, 'C_to_A': True, 'A_to_B': False, 'A_not_B': ['other']}
+cell direction OK
+{'A_equals_B': True, 'unselected_direction_labels': (('A', 'B'), ('B', 'A'))}
+cell routes OK
+{'B_to_A': True, 'C_to_A': True, 'A_not_B': ['c_only'], 'A_not_C': ['b_only']}
+unlisted_route_witnesses [3]
+cell restriction OK
+{'A_equals_TS': True, 'S_to_A_in_T': True, 'unrestricted_S_not_A': ['non_tree_s']}
+empty_domain_vacuous True
+executed_code_cells= 5
+
+exit_code=0

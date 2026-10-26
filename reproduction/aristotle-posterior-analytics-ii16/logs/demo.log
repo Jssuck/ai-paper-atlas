@@ -1,0 +1,51 @@
+$ python model.py
+{
+  "exhaustive": {
+    "universe_size": 3,
+    "assignments": 512,
+    "premise_satisfying": 64,
+    "conclusion_violations": 0
+  },
+  "one_way": {
+    "C_to_B": true,
+    "B_to_A": true,
+    "C_to_A": true,
+    "A_to_B": false,
+    "A_not_B": [
+      "other"
+    ]
+  },
+  "coextension": {
+    "A_equals_B": true,
+    "unselected_direction_labels": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ]
+    ]
+  },
+  "alternatives": {
+    "B_to_A": true,
+    "C_to_A": true,
+    "A_not_B": [
+      "c_only"
+    ],
+    "A_not_C": [
+      "b_only"
+    ]
+  },
+  "restriction": {
+    "A_equals_TS": true,
+    "S_to_A_in_T": true,
+    "unrestricted_S_not_A": [
+      "non_tree_s"
+    ]
+  },
+  "warning": "Synthetic extensions only: neither natural science nor causal direction is established."
+}
+
+exit_code=0

@@ -1,0 +1,27 @@
+$ python -OO -m unittest -v
+test_alternative_sufficient_routes (test_model.Tests.test_alternative_sufficient_routes) ... ok
+test_empty_antecedent_is_vacuous (test_model.Tests.test_empty_antecedent_is_vacuous) ... ok
+test_empty_restriction (test_model.Tests.test_empty_restriction) ... ok
+test_empty_universe (test_model.Tests.test_empty_universe) ... ok
+test_equal_extensions_do_not_select_orientation (test_model.Tests.test_equal_extensions_do_not_select_orientation) ... ok
+test_input_snapshot (test_model.Tests.test_input_snapshot) ... ok
+test_invalid_enumeration_size (test_model.Tests.test_invalid_enumeration_size) ... ok
+test_invalid_name (test_model.Tests.test_invalid_name) ... ok
+test_mapping_read_only (test_model.Tests.test_mapping_read_only) ... ok
+test_one_object_syllogism (test_model.Tests.test_one_object_syllogism) ... ok
+test_orientation_demo_requires_equality (test_model.Tests.test_orientation_demo_requires_equality) ... ok
+test_outside_domain (test_model.Tests.test_outside_domain) ... ok
+test_outside_universe (test_model.Tests.test_outside_universe) ... ok
+test_restricted_equivalence (test_model.Tests.test_restricted_equivalence) ... ok
+test_reverse_not_automatic (test_model.Tests.test_reverse_not_automatic) ... ok
+test_reverse_with_extra_premise (test_model.Tests.test_reverse_with_extra_premise) ... ok
+test_routes_need_not_exhaust_effect (test_model.Tests.test_routes_need_not_exhaust_effect) ... ok
+test_syllogism_all_three_object_models (test_model.Tests.test_syllogism_all_three_object_models) ... ok
+test_unknown_predicate (test_model.Tests.test_unknown_predicate) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.008s
+
+OK
+
+exit_code=0
