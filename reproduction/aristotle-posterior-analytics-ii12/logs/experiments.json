@@ -1,0 +1,53 @@
+{
+  "graph_instances": 512,
+  "oracle_mismatches": 0,
+  "traces": 64,
+  "valid_traces": 8,
+  "house_traces": 1,
+  "completed_backward_errors": 0,
+  "subset_triples": 585,
+  "universal_premises": 85,
+  "universal_errors": 0,
+  "majority_premises": 72,
+  "majority_counterexamples": 9,
+  "midpoint_pairs": 21,
+  "midpoint_errors": 0,
+  "cycle_tokens": [
+    [
+      0,
+      "wet_ground"
+    ],
+    [
+      1,
+      "vapour"
+    ],
+    [
+      2,
+      "cloud"
+    ],
+    [
+      3,
+      "rain"
+    ],
+    [
+      4,
+      "wet_ground"
+    ],
+    [
+      5,
+      "vapour"
+    ],
+    [
+      6,
+      "cloud"
+    ],
+    [
+      7,
+      "rain"
+    ],
+    [
+      8,
+      "wet_ground"
+    ]
+  ]
+}

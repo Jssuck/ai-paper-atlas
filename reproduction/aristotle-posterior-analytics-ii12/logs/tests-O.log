@@ -1,0 +1,30 @@
+test_bad_cycle_length (test_model.ModelTests.test_bad_cycle_length) ... ok
+test_bad_interval (test_model.ModelTests.test_bad_interval) ... ok
+test_bad_keys (test_model.ModelTests.test_bad_keys) ... ok
+test_bad_time (test_model.ModelTests.test_bad_time) ... ok
+test_before_house (test_model.ModelTests.test_before_house) ... ok
+test_cycle_needs_seed (test_model.ModelTests.test_cycle_needs_seed) ... ok
+test_cycle_seed (test_model.ModelTests.test_cycle_seed) ... ok
+test_cycle_tokens_distinct (test_model.ModelTests.test_cycle_tokens_distinct) ... ok
+test_cycle_type_repeats (test_model.ModelTests.test_cycle_type_repeats) ... ok
+test_dense_midpoint (test_model.ModelTests.test_dense_midpoint) ... ok
+test_empty (test_model.ModelTests.test_empty) ... ok
+test_exhaustive (test_model.ModelTests.test_exhaustive) ... ok
+test_house_backward (test_model.ModelTests.test_house_backward) ... ok
+test_idempotent (test_model.ModelTests.test_idempotent) ... ok
+test_majority_counterexample (test_model.ModelTests.test_majority_counterexample) ... ok
+test_majority_empty (test_model.ModelTests.test_majority_empty) ... ok
+test_majority_half (test_model.ModelTests.test_majority_half) ... ok
+test_missing_predecessor (test_model.ModelTests.test_missing_predecessor) ... ok
+test_simultaneous_invalid (test_model.ModelTests.test_simultaneous_invalid) ... ok
+test_stones_no_forward (test_model.ModelTests.test_stones_no_forward) ... ok
+test_stones_only (test_model.ModelTests.test_stones_only) ... ok
+test_time_reversal (test_model.ModelTests.test_time_reversal) ... ok
+test_unknown_rule (test_model.ModelTests.test_unknown_rule) ... ok
+test_unknown_seed (test_model.ModelTests.test_unknown_seed) ... ok
+test_valid_house (test_model.ModelTests.test_valid_house) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.005s
+
+OK
