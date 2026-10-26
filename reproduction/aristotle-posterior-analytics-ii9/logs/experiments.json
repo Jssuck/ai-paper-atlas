@@ -1,0 +1,12 @@
+{
+  "rule_count": 9,
+  "systems": 512,
+  "base_system_instances": 4096,
+  "semantic_mismatches": 0,
+  "invalid_certificates": 0,
+  "empty_base_nonempty_closures": 0,
+  "extension_pairs": 341,
+  "equal_pairs": 31,
+  "equal_empty_pairs": 5,
+  "equal_nonempty_pairs": 26
+}

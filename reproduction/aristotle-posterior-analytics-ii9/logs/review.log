@@ -1,0 +1,110 @@
+Independent II.9 review; Python 3.12.14
+COMMAND python3 -m unittest -v test_model
+test_assumption_is_retained (test_model.TeachingModelTests.test_assumption_is_retained) ... ok
+test_bad_index_rejected (test_model.TeachingModelTests.test_bad_index_rejected) ... ok
+test_base_is_not_independently_proven (test_model.TeachingModelTests.test_base_is_not_independently_proven) ... ok
+test_bool_index_rejected (test_model.TeachingModelTests.test_bool_index_rejected) ... ok
+test_chain (test_model.TeachingModelTests.test_chain) ... ok
+test_circular_certificate_rejected (test_model.TeachingModelTests.test_circular_certificate_rejected) ... ok
+test_conjunction_requires_all (test_model.TeachingModelTests.test_conjunction_requires_all) ... ok
+test_conjunction_with_both (test_model.TeachingModelTests.test_conjunction_with_both) ... ok
+test_duplicate_step_rejected (test_model.TeachingModelTests.test_duplicate_step_rejected) ... ok
+test_empty_body_forbidden (test_model.TeachingModelTests.test_empty_body_forbidden) ... ok
+test_empty_language (test_model.TeachingModelTests.test_empty_language) ... ok
+test_exhaustive_oracle (test_model.TeachingModelTests.test_exhaustive_oracle) ... ok
+test_existence_does_not_give_definition (test_model.TeachingModelTests.test_existence_does_not_give_definition) ... ok
+test_extensional_definition_with_existence (test_model.TeachingModelTests.test_extensional_definition_with_existence) ... ok
+test_extensional_definition_without_existence (test_model.TeachingModelTests.test_extensional_definition_without_existence) ... ok
+test_future_premise_rejected (test_model.TeachingModelTests.test_future_premise_rejected) ... ok
+test_invalid_base (test_model.TeachingModelTests.test_invalid_base) ... ok
+test_outside_extension (test_model.TeachingModelTests.test_outside_extension) ... ok
+test_outside_head (test_model.TeachingModelTests.test_outside_head) ... ok
+test_reverse_order_still_closes (test_model.TeachingModelTests.test_reverse_order_still_closes) ... ok
+test_rooted_cycle (test_model.TeachingModelTests.test_rooted_cycle) ... ok
+test_self_loop (test_model.TeachingModelTests.test_self_loop) ... ok
+test_target_outside_language (test_model.TeachingModelTests.test_target_outside_language) ... ok
+test_unrooted_cycle (test_model.TeachingModelTests.test_unrooted_cycle) ... ok
+test_valid_certificate (test_model.TeachingModelTests.test_valid_certificate) ... ok
+test_wrong_head_rejected (test_model.TeachingModelTests.test_wrong_head_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.031s
+
+OK
+
+EXIT 0
+COMMAND python3 -O -m unittest -v test_model
+test_assumption_is_retained (test_model.TeachingModelTests.test_assumption_is_retained) ... ok
+test_bad_index_rejected (test_model.TeachingModelTests.test_bad_index_rejected) ... ok
+test_base_is_not_independently_proven (test_model.TeachingModelTests.test_base_is_not_independently_proven) ... ok
+test_bool_index_rejected (test_model.TeachingModelTests.test_bool_index_rejected) ... ok
+test_chain (test_model.TeachingModelTests.test_chain) ... ok
+test_circular_certificate_rejected (test_model.TeachingModelTests.test_circular_certificate_rejected) ... ok
+test_conjunction_requires_all (test_model.TeachingModelTests.test_conjunction_requires_all) ... ok
+test_conjunction_with_both (test_model.TeachingModelTests.test_conjunction_with_both) ... ok
+test_duplicate_step_rejected (test_model.TeachingModelTests.test_duplicate_step_rejected) ... ok
+test_empty_body_forbidden (test_model.TeachingModelTests.test_empty_body_forbidden) ... ok
+test_empty_language (test_model.TeachingModelTests.test_empty_language) ... ok
+test_exhaustive_oracle (test_model.TeachingModelTests.test_exhaustive_oracle) ... ok
+test_existence_does_not_give_definition (test_model.TeachingModelTests.test_existence_does_not_give_definition) ... ok
+test_extensional_definition_with_existence (test_model.TeachingModelTests.test_extensional_definition_with_existence) ... ok
+test_extensional_definition_without_existence (test_model.TeachingModelTests.test_extensional_definition_without_existence) ... ok
+test_future_premise_rejected (test_model.TeachingModelTests.test_future_premise_rejected) ... ok
+test_invalid_base (test_model.TeachingModelTests.test_invalid_base) ... ok
+test_outside_extension (test_model.TeachingModelTests.test_outside_extension) ... ok
+test_outside_head (test_model.TeachingModelTests.test_outside_head) ... ok
+test_reverse_order_still_closes (test_model.TeachingModelTests.test_reverse_order_still_closes) ... ok
+test_rooted_cycle (test_model.TeachingModelTests.test_rooted_cycle) ... ok
+test_self_loop (test_model.TeachingModelTests.test_self_loop) ... ok
+test_target_outside_language (test_model.TeachingModelTests.test_target_outside_language) ... ok
+test_unrooted_cycle (test_model.TeachingModelTests.test_unrooted_cycle) ... ok
+test_valid_certificate (test_model.TeachingModelTests.test_valid_certificate) ... ok
+test_wrong_head_rejected (test_model.TeachingModelTests.test_wrong_head_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.030s
+
+OK
+
+EXIT 0
+COMMAND python3 -OO -m unittest -v test_model
+test_assumption_is_retained (test_model.TeachingModelTests.test_assumption_is_retained) ... ok
+test_bad_index_rejected (test_model.TeachingModelTests.test_bad_index_rejected) ... ok
+test_base_is_not_independently_proven (test_model.TeachingModelTests.test_base_is_not_independently_proven) ... ok
+test_bool_index_rejected (test_model.TeachingModelTests.test_bool_index_rejected) ... ok
+test_chain (test_model.TeachingModelTests.test_chain) ... ok
+test_circular_certificate_rejected (test_model.TeachingModelTests.test_circular_certificate_rejected) ... ok
+test_conjunction_requires_all (test_model.TeachingModelTests.test_conjunction_requires_all) ... ok
+test_conjunction_with_both (test_model.TeachingModelTests.test_conjunction_with_both) ... ok
+test_duplicate_step_rejected (test_model.TeachingModelTests.test_duplicate_step_rejected) ... ok
+test_empty_body_forbidden (test_model.TeachingModelTests.test_empty_body_forbidden) ... ok
+test_empty_language (test_model.TeachingModelTests.test_empty_language) ... ok
+test_exhaustive_oracle (test_model.TeachingModelTests.test_exhaustive_oracle) ... ok
+test_existence_does_not_give_definition (test_model.TeachingModelTests.test_existence_does_not_give_definition) ... ok
+test_extensional_definition_with_existence (test_model.TeachingModelTests.test_extensional_definition_with_existence) ... ok
+test_extensional_definition_without_existence (test_model.TeachingModelTests.test_extensional_definition_without_existence) ... ok
+test_future_premise_rejected (test_model.TeachingModelTests.test_future_premise_rejected) ... ok
+test_invalid_base (test_model.TeachingModelTests.test_invalid_base) ... ok
+test_outside_extension (test_model.TeachingModelTests.test_outside_extension) ... ok
+test_outside_head (test_model.TeachingModelTests.test_outside_head) ... ok
+test_reverse_order_still_closes (test_model.TeachingModelTests.test_reverse_order_still_closes) ... ok
+test_rooted_cycle (test_model.TeachingModelTests.test_rooted_cycle) ... ok
+test_self_loop (test_model.TeachingModelTests.test_self_loop) ... ok
+test_target_outside_language (test_model.TeachingModelTests.test_target_outside_language) ... ok
+test_unrooted_cycle (test_model.TeachingModelTests.test_unrooted_cycle) ... ok
+test_valid_certificate (test_model.TeachingModelTests.test_valid_certificate) ... ok
+test_wrong_head_rejected (test_model.TeachingModelTests.test_wrong_head_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.031s
+
+OK
+
+EXIT 0
+Independent four-atom unary-rule systems: 4096 systems x 16 bases = 65536; zero semantic/certificate mismatches
+Independent conjunction/self-body stress: 256 systems x 16 bases = 4096; zero mismatches
+Independent extension oracle n=0..6: 5461 pairs, zero mismatches
+Notebook: 4 sequential standard-library exec cells; stored output exact; 8 unique IDs; NOT Jupyter kernel
+12 saved manifest entries match
+Body SHA256 a32a48527636aa1c2ab06192120f02f3e332960b9c995552a1b2bc7992122ff4
+PASS: finite positive Horn implementation only; no scientific-principle, source, or browser-render certification

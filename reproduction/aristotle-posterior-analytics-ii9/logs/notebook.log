@@ -1,0 +1,25 @@
+CELL 1
+无基底循环: []
+给定a后: ['a', 'b']
+CELL 2
+闭包: ['a', 'b', 'c'] 证书: ((0, 'b'), (1, 'c'))
+证书有效: True
+移除基底: False
+CELL 3
+空解释: {'same_extension': True, 'unit_exists': False, 'description_exists': False}
+有见证: {'same_extension': True, 'unit_exists': True, 'description_exists': True}
+均存在但不同外延: {'same_extension': False, 'unit_exists': True, 'description_exists': True}
+CELL 4
+{
+  "rule_count": 9,
+  "systems": 512,
+  "base_system_instances": 4096,
+  "semantic_mismatches": 0,
+  "invalid_certificates": 0,
+  "empty_base_nonempty_closures": 0,
+  "extension_pairs": 341,
+  "equal_pairs": 31,
+  "equal_empty_pairs": 5,
+  "equal_nonempty_pairs": 26
+}
+Executed 4 cells by standard-library exec; NOT a Jupyter kernel.
