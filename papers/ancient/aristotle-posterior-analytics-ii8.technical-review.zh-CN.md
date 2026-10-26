@@ -4,7 +4,7 @@
 
 ## 绑定对象
 
-- [最终正文](aristotle-posterior-analytics-ii8.zh-CN.md) SHA256：`26b99d6e6536a5e72954add61506e4b35d7f2c19e43418006bee20fee26fa85b`。
+- [最终正文](aristotle-posterior-analytics-ii8.zh-CN.md) SHA256：`cad496d8c8a30a7fa929edc7f858d00c9a5bf92d3395152b39fd8b016192b6b4`。
 - [核心实现](../../reproduction/aristotle-posterior-analytics-ii8/model.py) SHA256：`859cd7e1b712f7db756b62f4ab0a7ca34d8b8e873a4691f811c1b5d688e95ff5`。
 - [Notebook](../../reproduction/aristotle-posterior-analytics-ii8/tutorial.ipynb) SHA256：`4e1596e988553cb16907b2444b65564cdc97e951038850b5b43ad91e2b3a1f7a`。
 - 运行环境：CPython 3.12.14，标准库；未安装依赖。完整逐项散列见[清单](../../reproduction/aristotle-posterior-analytics-ii8/sha256.json)。
@@ -40,3 +40,5 @@ python3 review_check.py
 初审发现Notebook声明nbformat 4.5但单元缺id；作者补充8个稳定、唯一id并重跑。终审核其长度、字符和唯一性通过，四代码单元输出保持一致。此处检查JSON及所需结构，不声称安装并运行过完整第三方nbformat schema验证器。
 
 核心算法仅对约定的集合、命名字典与二元输入提供教学接口，不是面向任意恶意输入的通用API。指数枚举只服务低成本边界测试，不是性能基准；不检验真实天体、气象、因果证据、希腊文异读或全书理论。GitHub远端提交、相对链接与实际数学渲染仍由发布阶段独立核验，不纳入本地技术通过的含义。
+
+发布排版复核：第三组显示公式由aligned改为gathered并删除对齐标记；逆变换后正文散列精确恢复初审版本，确认仅布局变化、数学与代码不变。上述正文绑定已更新至排版最终版本。

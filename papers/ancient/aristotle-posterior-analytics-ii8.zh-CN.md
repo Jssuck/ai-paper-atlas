@@ -96,10 +96,10 @@ $$
 在不干预时，两者观察表完全相同：U=0时(B,A)=(0,0)，U=1时(B,A)=(1,1)。现在规定干预的含义为：把B的赋值规则替换为常数b，其他规则保持原样。这个“保持其他规则”的条件很重要，不是任意重写整个模型。
 
 $$
-\begin{aligned}
-M_1 &: B=U,\ A=B;\qquad M_2 &: B=U,\ A=U.\\
-\mathrm{do}(B=b):\qquad A_{M_1}&=b,\qquad A_{M_2}=U.
-\end{aligned}
+\begin{gathered}
+M_1: B=U,\ A=B;\qquad M_2: B=U,\ A=U.\\
+\mathrm{do}(B=b):\qquad A_{M_1}=b,\qquad A_{M_2}=U.
+\end{gathered}
 $$
 
 逐项算：U=0、强制B=1，模型一A=1，模型二A=0。U=1、强制B=0，模型一A=0，模型二A=1。另两种组合两者一致。故这两个模型的观察一致性，不足以选出唯一干预响应。
