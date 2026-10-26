@@ -1,0 +1,18 @@
+{
+  "finite_chains": {
+    "total": 4681,
+    "valid_chains": 341,
+    "empty_subject_valid": 121,
+    "transitivity_violations": 0,
+    "oracle_disagreements": 0
+  },
+  "record_conversion": {
+    "records": 108,
+    "conclusions": 9,
+    "roundtrip_errors": 0,
+    "preimages_per_conclusion": [
+      12
+    ]
+  },
+  "interpretation": "Record roundtrip does not certify reality, causes, essence, or scientific knowledge."
+}

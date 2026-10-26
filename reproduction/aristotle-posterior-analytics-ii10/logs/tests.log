@@ -1,0 +1,33 @@
+test_bound_validation (test_model.TestFiniteSemantics.test_bound_validation) ... ok
+test_different_middles_same_conclusion (test_model.TestFiniteSemantics.test_different_middles_same_conclusion) ... ok
+test_empty_domain (test_model.TestFiniteSemantics.test_empty_domain) ... ok
+test_independent_oracle_and_counts (test_model.TestFiniteSemantics.test_independent_oracle_and_counts) ... ok
+test_labels_do_not_change_semantics (test_model.TestFiniteSemantics.test_labels_do_not_change_semantics) ... ok
+test_major_needed (test_model.TestFiniteSemantics.test_major_needed) ... ok
+test_minor_needed (test_model.TestFiniteSemantics.test_minor_needed) ... ok
+test_missing_name (test_model.TestFiniteSemantics.test_missing_name) ... ok
+test_missing_term (test_model.TestFiniteSemantics.test_missing_term) ... ok
+test_nominal_does_not_require_instance (test_model.TestFiniteSemantics.test_nominal_does_not_require_instance) ... ok
+test_outside_domain (test_model.TestFiniteSemantics.test_outside_domain) ... ok
+test_true_conclusion_false_major (test_model.TestFiniteSemantics.test_true_conclusion_false_major) ... ok
+test_true_conclusion_false_minor (test_model.TestFiniteSemantics.test_true_conclusion_false_minor) ... ok
+test_valid_chain (test_model.TestFiniteSemantics.test_valid_chain) ... ok
+test_conclusion_type_guard (test_model.TestRecords.test_conclusion_type_guard) ... ok
+test_definition_type_guard (test_model.TestRecords.test_definition_type_guard) ... ok
+test_empty_term_rejected (test_model.TestRecords.test_empty_term_rejected) ... ok
+test_field_order (test_model.TestRecords.test_field_order) ... ok
+test_full_record_space (test_model.TestRecords.test_full_record_space) ... ok
+test_immutable_record (test_model.TestRecords.test_immutable_record) ... ok
+test_nonstring_rejected (test_model.TestRecords.test_nonstring_rejected) ... ok
+test_projection_collision (test_model.TestRecords.test_projection_collision) ... ok
+test_proof_type_guard (test_model.TestRecords.test_proof_type_guard) ... ok
+test_roundtrip_definition (test_model.TestRecords.test_roundtrip_definition) ... ok
+test_roundtrip_proof (test_model.TestRecords.test_roundtrip_proof) ... ok
+test_source_collision (test_model.TestRecords.test_source_collision) ... ok
+test_sources_retained (test_model.TestRecords.test_sources_retained) ... ok
+test_whitespace_source_rejected (test_model.TestRecords.test_whitespace_source_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.020s
+
+OK

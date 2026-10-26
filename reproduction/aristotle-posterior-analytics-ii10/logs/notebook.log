@@ -1,0 +1,16 @@
+CELL 1
+CausalDefinition(subject='cloud-event', predicate='noise', because_middle='quenching', minor_source='given-instance', major_source='given-law')
+roundtrip: True
+CELL 2
+same conclusion: True
+same record: False
+{'records': 108, 'conclusions': 9, 'roundtrip_errors': 0, 'preimages_per_conclusion': [12]}
+CELL 3
+{'minor': True, 'major': True, 'conclusion': True, 'subject_exists': True}
+{'minor': True, 'major': True, 'conclusion': True, 'subject_exists': False}
+{'total': 4681, 'valid_chains': 341, 'empty_subject_valid': 121, 'transitivity_violations': 0, 'oracle_disagreements': 0}
+CELL 4
+supplied compound phrase
+missing: None
+existence inferred: no
+Executed 4 cells by standard-library exec; NOT a Jupyter kernel.
