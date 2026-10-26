@@ -1,0 +1,35 @@
+{
+  "integer": {
+    "points": 81,
+    "bases": 6480,
+    "triangles": 12960
+  },
+  "rational": {
+    "points": 49,
+    "bases": 2352,
+    "triangles": 4704
+  },
+  "candidate_grid": {
+    "candidates": 625,
+    "accepted": [
+      [
+        "1/2",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "1/2",
+        "0",
+        "0",
+        "1/2"
+      ]
+    ]
+  },
+  "sign_oracle": {
+    "distinct_coefficients": 67,
+    "pairs": 4489,
+    "mismatches": 0
+  },
+  "mismatches": 0
+}

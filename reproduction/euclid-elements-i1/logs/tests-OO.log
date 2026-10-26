@@ -1,0 +1,33 @@
+test_all_grid (__main__.Construction.test_all_grid) ... ok
+test_bad_certificate (__main__.Construction.test_bad_certificate) ... ok
+test_bad_endpoints (__main__.Construction.test_bad_endpoints) ... ok
+test_collinear_rejected (__main__.Construction.test_collinear_rejected) ... ok
+test_degenerate_certificate_rejected (__main__.Construction.test_degenerate_certificate_rejected) ... ok
+test_degenerate_rejected (__main__.Construction.test_degenerate_rejected) ... ok
+test_distance_symmetry (__main__.Construction.test_distance_symmetry) ... ok
+test_off_circle_rejected (__main__.Construction.test_off_circle_rejected) ... ok
+test_orientation (__main__.Construction.test_orientation) ... ok
+test_rational_base (__main__.Construction.test_rational_base) ... ok
+test_rational_obligation (__main__.Construction.test_rational_obligation) ... ok
+test_reverse_swaps_branches (__main__.Construction.test_reverse_swaps_branches) ... ok
+test_single_circle_insufficient (__main__.Construction.test_single_circle_insufficient) ... ok
+test_translation (__main__.Construction.test_translation) ... ok
+test_unit_vertices (__main__.Construction.test_unit_vertices) ... ok
+test_vertical_base (__main__.Construction.test_vertical_base) ... ok
+test_add_subtract (__main__.ExactArithmetic.test_add_subtract) ... ok
+test_conjugate_product (__main__.ExactArithmetic.test_conjugate_product) ... ok
+test_field_axioms_finite (__main__.ExactArithmetic.test_field_axioms_finite) ... ok
+test_irrational_signs (__main__.ExactArithmetic.test_irrational_signs) ... ok
+test_no_float (__main__.ExactArithmetic.test_no_float) ... ok
+test_normalizes_coefficients (__main__.ExactArithmetic.test_normalizes_coefficients) ... ok
+test_opposed_signs (__main__.ExactArithmetic.test_opposed_signs) ... ok
+test_product (__main__.ExactArithmetic.test_product) ... ok
+test_rational_signs (__main__.ExactArithmetic.test_rational_signs) ... ok
+test_same_signs (__main__.ExactArithmetic.test_same_signs) ... ok
+test_scale (__main__.ExactArithmetic.test_scale) ... ok
+test_sqrt_square (__main__.ExactArithmetic.test_sqrt_square) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.295s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "linux",
+  "third_party_dependencies": [],
+  "notebook_execution": "standard-library exec, not Jupyter kernel",
+  "nbformat_installed": false,
+  "nbclient_installed": false,
+  "ipykernel_installed": false
+}

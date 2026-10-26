@@ -1,0 +1,15 @@
+CELL 1
+sqrt(3) squared: {'rational': '3', 'sqrt3_coefficient': '0'}
+CELL 2
+[[{'rational': '1/2', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '1/2'}], [{'rational': '1/2', 'sqrt3_coefficient': '0'}, {'rational': '0', 'sqrt3_coefficient': '-1/2'}]]
+CELL 3
+{'distinct_base': True, 'first_circle': True, 'second_circle': True, 'noncollinear': True, 'accepted': True, 'side_squared': {'rational': '1', 'sqrt3_coefficient': '0'}, 'orientation': {'rational': '0', 'sqrt3_coefficient': '1/2'}}
+{'distinct_base': True, 'first_circle': True, 'second_circle': True, 'noncollinear': True, 'accepted': True, 'side_squared': {'rational': '1', 'sqrt3_coefficient': '0'}, 'orientation': {'rational': '0', 'sqrt3_coefficient': '-1/2'}}
+CELL 4
+single_circle_counterexample {'distinct_base': True, 'first_circle': True, 'second_circle': False, 'noncollinear': True, 'accepted': False, 'side_squared': {'rational': '1', 'sqrt3_coefficient': '0'}, 'orientation': {'rational': '1', 'sqrt3_coefficient': '0'}}
+off_circle_counterexample {'distinct_base': True, 'first_circle': False, 'second_circle': False, 'noncollinear': True, 'accepted': False, 'side_squared': {'rational': '1', 'sqrt3_coefficient': '0'}, 'orientation': {'rational': '2', 'sqrt3_coefficient': '0'}}
+degenerate_certificate {'distinct_base': False, 'first_circle': True, 'second_circle': True, 'noncollinear': False, 'accepted': False, 'side_squared': {'rational': '0', 'sqrt3_coefficient': '0'}, 'orientation': {'rational': '0', 'sqrt3_coefficient': '0'}}
+rational_plane_obligation {'x': '1/2', 'y_squared': '3/4', 'reason': 'Subtracting the two circle equations fixes x; no rational y squares to 3/4. See article proof, not a finite search claim.'}
+CELL 5
+{'integer_grid_points': 25, 'ordered_distinct_bases': 600, 'triangles_checked': 1200, 'violations': 0}
+Executed code cells: 5

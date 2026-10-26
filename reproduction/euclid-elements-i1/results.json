@@ -1,0 +1,114 @@
+{
+  "enumeration": {
+    "integer_grid_points": 25,
+    "ordered_distinct_bases": 600,
+    "triangles_checked": 1200,
+    "violations": 0
+  },
+  "examples": {
+    "unit_base_vertices": [
+      [
+        {
+          "rational": "1/2",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt3_coefficient": "0"
+        },
+        {
+          "rational": "0",
+          "sqrt3_coefficient": "-1/2"
+        }
+      ]
+    ],
+    "unit_base_certificates": [
+      {
+        "distinct_base": true,
+        "first_circle": true,
+        "second_circle": true,
+        "noncollinear": true,
+        "accepted": true,
+        "side_squared": {
+          "rational": "1",
+          "sqrt3_coefficient": "0"
+        },
+        "orientation": {
+          "rational": "0",
+          "sqrt3_coefficient": "1/2"
+        }
+      },
+      {
+        "distinct_base": true,
+        "first_circle": true,
+        "second_circle": true,
+        "noncollinear": true,
+        "accepted": true,
+        "side_squared": {
+          "rational": "1",
+          "sqrt3_coefficient": "0"
+        },
+        "orientation": {
+          "rational": "0",
+          "sqrt3_coefficient": "-1/2"
+        }
+      }
+    ],
+    "single_circle_counterexample": {
+      "distinct_base": true,
+      "first_circle": true,
+      "second_circle": false,
+      "noncollinear": true,
+      "accepted": false,
+      "side_squared": {
+        "rational": "1",
+        "sqrt3_coefficient": "0"
+      },
+      "orientation": {
+        "rational": "1",
+        "sqrt3_coefficient": "0"
+      }
+    },
+    "off_circle_counterexample": {
+      "distinct_base": true,
+      "first_circle": false,
+      "second_circle": false,
+      "noncollinear": true,
+      "accepted": false,
+      "side_squared": {
+        "rational": "1",
+        "sqrt3_coefficient": "0"
+      },
+      "orientation": {
+        "rational": "2",
+        "sqrt3_coefficient": "0"
+      }
+    },
+    "degenerate_certificate": {
+      "distinct_base": false,
+      "first_circle": true,
+      "second_circle": true,
+      "noncollinear": false,
+      "accepted": false,
+      "side_squared": {
+        "rational": "0",
+        "sqrt3_coefficient": "0"
+      },
+      "orientation": {
+        "rational": "0",
+        "sqrt3_coefficient": "0"
+      }
+    },
+    "rational_plane_obligation": {
+      "x": "1/2",
+      "y_squared": "3/4",
+      "reason": "Subtracting the two circle equations fixes x; no rational y squares to 3/4. See article proof, not a finite search claim."
+    }
+  }
+}
