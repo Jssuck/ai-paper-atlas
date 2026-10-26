@@ -1,0 +1,7 @@
+Working directory: reproduction/aristotle-posterior-analytics-ii7
+python3 run_all.py > logs/results.json
+python3 -m unittest -v test_model > logs/tests-normal.log 2>&1
+python3 -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python3 -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+python3 run_notebook.py > logs/notebook.log
+SHA256 manifest generated after all runs; __pycache__ excluded.

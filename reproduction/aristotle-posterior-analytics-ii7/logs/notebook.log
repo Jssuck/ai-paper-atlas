@@ -1,0 +1,15 @@
+CELL 1
+empty coextension: True
+empty witness: False
+CELL 2
+transfer with witness: True
+transfer without witness: False
+CELL 3
+circle binding= True named witness= True
+mountain_copper binding= False named witness= False
+goat_stag binding= True named witness= False
+CELL 4
+sample agreement: True
+global agreement: False
+{'pair_models': 341, 'equal_models': 31, 'equal_empty_models': 5, 'transfer_premises': 49, 'transfer_violations': 0, 'observation_models': 4681, 'sample_agreements': 1555, 'sample_agrees_global_differs': 1214, 'oracle_mismatches': 0, 'name_claim_checks': 48, 'named_witnesses_accepted': 12}
+Executed 4 code cells using standard-library exec, NOT a Jupyter kernel.

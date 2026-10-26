@@ -1,0 +1,24 @@
+{
+  "scope": "n=0..4; finite interpretation only; not real existence or essence",
+  "counts": {
+    "pair_models": 341,
+    "equal_models": 31,
+    "equal_empty_models": 5,
+    "transfer_premises": 49,
+    "transfer_violations": 0,
+    "observation_models": 4681,
+    "sample_agreements": 1555,
+    "sample_agrees_global_differs": 1214,
+    "oracle_mismatches": 0,
+    "name_claim_checks": 48,
+    "named_witnesses_accepted": 12
+  },
+  "examples": {
+    "empty_equal": true,
+    "empty_has_witness": false,
+    "sample_agreement": true,
+    "global_agreement": false,
+    "circle_binding": true,
+    "renamed_binding": false
+  }
+}
