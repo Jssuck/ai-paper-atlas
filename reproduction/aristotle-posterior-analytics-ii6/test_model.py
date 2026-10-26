@@ -1,0 +1,32 @@
+import unittest
+from model import conjunction_report as cr, minimal_supports as ms, independent_support as ins, opposite_transfer as ot
+
+class Tests(unittest.TestCase):
+    def test_conjunction(self): self.assertTrue(cr({1},{1,2},{1,3})['intersection_contains_subject'])
+    def test_missing_left(self): self.assertFalse(cr({1},{2},{1})['both_predicated'])
+    def test_missing_right(self): self.assertFalse(cr({1},{1},{2})['both_predicated'])
+    def test_coextension(self): self.assertTrue(cr({1},{1,2},{1,3})['coextensive'])
+    def test_strict_inclusion(self): self.assertFalse(cr({1},{1,2},{1,2})['coextensive'])
+    def test_empty_subject(self): self.assertTrue(cr(set(),{1},{2})['both_predicated'])
+    def test_unity_false(self): self.assertFalse(cr({1},{1},{1},False)['unity_certified_by_sets'])
+    def test_unity_true_not_certified(self): self.assertFalse(cr({1},{1},{1},True)['unity_certified_by_sets'])
+    def test_unity_type(self): self.assertRaises(TypeError,cr,[],[],[],1)
+    def test_fact(self): self.assertEqual(ms({'a'},[])['a'],{frozenset({'a'})})
+    def test_chain(self): self.assertEqual(ms({'a'},[(['a'],'b'),(['b'],'c')])['c'],{frozenset({'a'})})
+    def test_conjunctive_rule(self): self.assertEqual(ms({'a','b'},[(['a','b'],'c')])['c'],{frozenset({'a','b'})})
+    def test_no_seed_cycle(self): self.assertEqual(ms([], [(['a'],'b'),(['b'],'a')])['a'],set())
+    def test_seed_cycle(self): self.assertEqual(ms(['a'], [(['a'],'b'),(['b'],'a')])['b'],{frozenset({'a'})})
+    def test_empty_rule(self): self.assertEqual(ms([], [([], 'a')])['a'],{frozenset()})
+    def test_minimal(self): self.assertEqual(ms(['a','b'], [(['a'],'c'),(['a','b'],'c')])['c'],{frozenset({'a'})})
+    def test_alternatives(self): self.assertEqual(ms(['a','b'], [(['a'],'c'),(['b'],'c')])['c'],{frozenset({'a'}),frozenset({'b'})})
+    def test_forbidden_target(self): self.assertFalse(ins(ms(['q'],[]),'q',{'q'}))
+    def test_forbidden_alias(self): self.assertFalse(ins(ms(['alias'],[(['alias'],'q')]),'q',{'q','alias'}))
+    def test_independent_alternative(self): self.assertTrue(ins(ms(['q','a'],[(['a'],'q')]),'q',{'q'}))
+    def test_unknown_target(self): self.assertFalse(ins({},'q',set()))
+    def test_invalid_atom(self): self.assertRaises(ValueError,ms,[1],[])
+    def test_transfer(self): self.assertTrue(ot(True,True,True,True))
+    def test_missing_bridge(self): self.assertFalse(ot(True,True,True,False))
+    def test_missing_source(self): self.assertFalse(ot(False,True,True,True))
+    def test_transfer_type(self): self.assertRaises(TypeError,ot,True,True,True,1)
+
+if __name__ == '__main__': unittest.main(verbosity=2)

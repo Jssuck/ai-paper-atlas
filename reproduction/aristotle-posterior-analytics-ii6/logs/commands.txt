@@ -1,0 +1,8 @@
+# From this reproduction directory; all commands really executed.
+python run_all.py > logs/run.log
+python run_notebook.py > logs/notebook.log
+python -m unittest -v test_model > logs/tests-normal.log 2>&1
+python -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+# environment.json records Python/platform and installed optional-module availability.
+# sha256.json records final artifact hashes, excluding itself and __pycache__.

@@ -1,0 +1,31 @@
+test_alternatives (test_model.Tests.test_alternatives) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_coextension (test_model.Tests.test_coextension) ... ok
+test_conjunction (test_model.Tests.test_conjunction) ... ok
+test_conjunctive_rule (test_model.Tests.test_conjunctive_rule) ... ok
+test_empty_rule (test_model.Tests.test_empty_rule) ... ok
+test_empty_subject (test_model.Tests.test_empty_subject) ... ok
+test_fact (test_model.Tests.test_fact) ... ok
+test_forbidden_alias (test_model.Tests.test_forbidden_alias) ... ok
+test_forbidden_target (test_model.Tests.test_forbidden_target) ... ok
+test_independent_alternative (test_model.Tests.test_independent_alternative) ... ok
+test_invalid_atom (test_model.Tests.test_invalid_atom) ... ok
+test_minimal (test_model.Tests.test_minimal) ... ok
+test_missing_bridge (test_model.Tests.test_missing_bridge) ... ok
+test_missing_left (test_model.Tests.test_missing_left) ... ok
+test_missing_right (test_model.Tests.test_missing_right) ... ok
+test_missing_source (test_model.Tests.test_missing_source) ... ok
+test_no_seed_cycle (test_model.Tests.test_no_seed_cycle) ... ok
+test_seed_cycle (test_model.Tests.test_seed_cycle) ... ok
+test_strict_inclusion (test_model.Tests.test_strict_inclusion) ... ok
+test_transfer (test_model.Tests.test_transfer) ... ok
+test_transfer_type (test_model.Tests.test_transfer_type) ... ok
+test_unity_false (test_model.Tests.test_unity_false) ... ok
+test_unity_true_not_certified (test_model.Tests.test_unity_true_not_certified) ... ok
+test_unity_type (test_model.Tests.test_unity_type) ... ok
+test_unknown_target (test_model.Tests.test_unknown_target) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.001s
+
+OK

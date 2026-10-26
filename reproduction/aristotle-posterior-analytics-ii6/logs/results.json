@@ -1,0 +1,35 @@
+{
+  "sets": {
+    "models": 585,
+    "both_predicated": 156,
+    "coextensive": 85,
+    "violations": 0,
+    "oracle_mismatches": 0,
+    "coextensive_with_two_unity_labels": 170
+  },
+  "horn": {
+    "systems": 512,
+    "atom_checks": 1536,
+    "closure_mismatches": 0,
+    "support_mismatches": 0
+  },
+  "transfer": {
+    "valuations": 32,
+    "rule_satisfying": 31,
+    "all_four_premises": 1,
+    "violations_under_rule": 0,
+    "unbridged_counterexamples": 1
+  },
+  "examples": {
+    "two_supports": [
+      [
+        "alias"
+      ],
+      [
+        "observation"
+      ]
+    ],
+    "has_support_avoiding_target_alias": true,
+    "unseeded_cycle": []
+  }
+}

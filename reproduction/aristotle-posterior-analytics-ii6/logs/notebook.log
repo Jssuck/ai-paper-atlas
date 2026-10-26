@@ -1,0 +1,14 @@
+CELL 1
+{'both_predicated': True, 'intersection_contains_subject': True, 'coextensive': True, 'unity_claim_supplied': False, 'unity_certified_by_sets': False}
+{'both_predicated': True, 'intersection_contains_subject': True, 'coextensive': True, 'unity_claim_supplied': True, 'unity_certified_by_sets': False}
+CELL 2
+[['alias'], ['observation']]
+True
+False
+CELL 3
+with bridge: True
+without bridge: False
+no seed cycle: {'a': [], 'b': []}
+CELL 4
+{"examples": {"has_support_avoiding_target_alias": true, "two_supports": [["alias"], ["observation"]], "unseeded_cycle": []}, "horn": {"atom_checks": 1536, "closure_mismatches": 0, "support_mismatches": 0, "systems": 512}, "sets": {"both_predicated": 156, "coextensive": 85, "coextensive_with_two_unity_labels": 170, "models": 585, "oracle_mismatches": 0, "violations": 0}, "transfer": {"all_four_premises": 1, "rule_satisfying": 31, "unbridged_counterexamples": 1, "valuations": 32, "violations_under_rule": 0}}
+Executed 4 code cells using standard-library exec, NOT a Jupyter kernel.
