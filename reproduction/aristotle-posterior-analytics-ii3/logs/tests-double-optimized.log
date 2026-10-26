@@ -1,0 +1,28 @@
+$ python -OO test_model.py
+test_bad_sizes (__main__.ModelTests.test_bad_sizes) ... ok
+test_chain (__main__.ModelTests.test_chain) ... ok
+test_component_nonimplication (__main__.ModelTests.test_component_nonimplication) ... ok
+test_composition (__main__.ModelTests.test_composition) ... ok
+test_composition_empty (__main__.ModelTests.test_composition_empty) ... ok
+test_count_formula (__main__.ModelTests.test_count_formula) ... ok
+test_cycles (__main__.ModelTests.test_cycles) ... ok
+test_disconnected_roots (__main__.ModelTests.test_disconnected_roots) ... ok
+test_empty_graph (__main__.ModelTests.test_empty_graph) ... ok
+test_empty_subject (__main__.ModelTests.test_empty_subject) ... ok
+test_goal_exact (__main__.ModelTests.test_goal_exact) ... ok
+test_goal_invalid (__main__.ModelTests.test_goal_invalid) ... ok
+test_goal_kind (__main__.ModelTests.test_goal_kind) ... ok
+test_graph_counts (__main__.ModelTests.test_graph_counts) ... ok
+test_graph_enumeration_independent_oracle (__main__.ModelTests.test_graph_enumeration_independent_oracle) ... ok
+test_inheritance_all_three_point_models (__main__.ModelTests.test_inheritance_all_three_point_models) ... ok
+test_no_upward_inheritance (__main__.ModelTests.test_no_upward_inheritance) ... ok
+test_pair_count_three (__main__.ModelTests.test_pair_count_three) ... ok
+test_powerset (__main__.ModelTests.test_powerset) ... ok
+test_unknown_nodes (__main__.ModelTests.test_unknown_nodes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.003s
+
+OK
+
+exit_code=0

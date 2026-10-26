@@ -1,0 +1,16 @@
+$ python run_notebook.py
+CELL 1
+intersection: [1]
+a<=b: False b<=a: False
+{'n': 3, 'pairs': 64, 'both_inclusions_fail': 18, 'formula': 18, 'composition_failures': 0}
+CELL 2
+{'premises': True, 'conclusion': True}
+attribute-to-definition: False
+CELL 3
+{'roots': (0,), 'order': (0, 1, 2)}
+{'n': 3, 'graphs': 64, 'acyclic': 25, 'cyclic': 39, 'rootless': 27, 'nonempty_acyclic_rootless': 0}
+CELL 4
+ValueError: cyclic dependency is not a well-founded finite proof
+Executed 4 code cells using CPython stdlib exec, NOT Jupyter kernel.
+
+exit_code=0

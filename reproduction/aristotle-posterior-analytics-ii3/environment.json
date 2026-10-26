@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "machine": "x86_64",
+  "timestamp_utc": "2026-10-26T00:41:46.412063+00:00",
+  "third_party_dependencies": [],
+  "notebook_execution": "CPython standard-library exec, sequential cells; not Jupyter kernel",
+  "optional_modules_available": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  }
+}

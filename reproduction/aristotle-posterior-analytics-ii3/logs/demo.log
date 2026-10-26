@@ -1,0 +1,51 @@
+$ python model.py
+{
+  "pair_counts": {
+    "n": 3,
+    "pairs": 64,
+    "both_inclusions_fail": 18,
+    "formula": 18,
+    "composition_failures": 0
+  },
+  "component_example": {
+    "a": [
+      0,
+      1
+    ],
+    "b": [
+      1,
+      2
+    ],
+    "intersection": [
+      1
+    ],
+    "a_subset_b": false,
+    "b_subset_a": false
+  },
+  "inheritance_example": {
+    "premises": true,
+    "conclusion": true
+  },
+  "attribute_is_definition": false,
+  "graph_counts": {
+    "n": 3,
+    "graphs": 64,
+    "acyclic": 25,
+    "cyclic": 39,
+    "rootless": 27,
+    "nonempty_acyclic_rootless": 0
+  },
+  "chain": {
+    "roots": [
+      0
+    ],
+    "order": [
+      0,
+      1,
+      2
+    ]
+  },
+  "limitations": "finite structural checks do not certify essence, true premises, scientific knowledge, or infinite regress"
+}
+
+exit_code=0
