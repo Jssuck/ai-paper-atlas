@@ -1,0 +1,45 @@
+$ python model.py
+{
+  "alternation_2_4_3_6": {
+    "conclusion": true,
+    "premise": true
+  },
+  "complete_catalog": {
+    "collectively_equal": true,
+    "each_strict": true,
+    "empty_species": 0,
+    "missing": []
+  },
+  "different_routes": {
+    "conclusion": true,
+    "different_middle_extensions": true,
+    "effect_implies_b": false,
+    "effect_implies_c": false,
+    "premises": true
+  },
+  "equal_extension": {
+    "causal_direction": "undetermined",
+    "same_definition": "undetermined",
+    "same_extension": true
+  },
+  "exhaustive": {
+    "complete_coverage_models": 64,
+    "complete_each_strict_models": 18,
+    "coverage_assignments": 512,
+    "domain_size": 3,
+    "reverse_b_failures_under_premises": 657,
+    "route_assignments": 32768,
+    "route_conclusion_violations": 0,
+    "route_premise_models": 1000
+  },
+  "incomplete_catalog": {
+    "collectively_equal": false,
+    "each_strict": true,
+    "empty_species": 0,
+    "missing": [
+      2
+    ]
+  }
+}
+
+exit_code=0

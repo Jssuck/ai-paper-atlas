@@ -1,0 +1,24 @@
+$ python run_notebook.py
+cell imports OK
+cell cover OK
+{'collectively_equal': True, 'each_strict': True, 'missing': [], 'empty_species': 0}
+{'collectively_equal': False, 'each_strict': True, 'missing': [2], 'empty_species': 0}
+cell routes OK
+{'premises': True, 'conclusion': True, 'effect_implies_b': False, 'effect_implies_c': False, 'different_middle_extensions': True}
+{'same_extension': True, 'causal_direction': 'undetermined', 'same_definition': 'undetermined'}
+cell ratios OK
+{'premise': True, 'conclusion': True}
+cell enumeration OK
+{
+  "domain_size": 3,
+  "route_assignments": 32768,
+  "route_premise_models": 1000,
+  "route_conclusion_violations": 0,
+  "reverse_b_failures_under_premises": 657,
+  "coverage_assignments": 512,
+  "complete_coverage_models": 64,
+  "complete_each_strict_models": 18
+}
+executed_code_cells= 5
+
+exit_code=0

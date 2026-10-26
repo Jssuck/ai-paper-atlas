@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》II.16：能从结果倒推，为什么仍未解释原因？](papers/ancient/aristotle-posterior-analytics-ii16.zh-CN.md)，完整98a35–98b38，区分双向推理、解释优先、多因候选与限制域互推，附一般推导、反例及真实Notebook教学执行。
+最新补读：[《后分析篇》II.17：同一个结果，何时需要不同原因？](papers/ancient/aristotle-posterior-analytics-ii17.zh-CN.md)，完整99a1–99b8，区分同名、同属、类比与种的总体范围，保留多因分支和章末中项链，附证明、反例及真实Notebook教学执行。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -135,6 +135,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.14精读](papers/ancient/aristotle-posterior-analytics-ii14.zh-CN.md) | AI推理前史补读：研究问题组织、共同性质继承、无名共性与类比边界 | 深读v1 · 完整98a1–23及有限关系核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.15精读](papers/ancient/aristotle-posterior-analytics-ii15.zh-CN.md) | AI推理前史补读：问题同一性、中项复用、属种差别与解释依赖 | 深读v1 · 完整98a24–34及有限声明核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.16精读](papers/ancient/aristotle-posterior-analytics-ii16.zh-CN.md) | AI推理前史补读：事实与原因、双向推理、多因候选与对象限定 | 深读v1 · 完整98a35–98b38及有限谓词核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.17精读](papers/ancient/aristotle-posterior-analytics-ii17.zh-CN.md) | AI推理前史补读：同一性的层级、种与总体、解释范围和多因分支 | 深读v1 · 完整99a1–99b8及有限集合核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1316,3 +1317,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《后分析篇》II.16：可逆推理与解释方向
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-ii16.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii16.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii16.source-review.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii16.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii16/README.md)。完整98a35–98b38；逆推另需前提，共外延不认证因果方向，多候选不等于全部同时出现，凝结例保留树论域。19项测试普通、`-O`及`-OO`通过，512赋值有限枚举，5个Notebook代码单元标准库执行非Jupyter内核。本单元不计II.17、第二卷或全书完成。
+
+### 《后分析篇》II.17：同一结果与不同原因
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-ii17.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii17.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii17.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii17.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii17/README.md)。完整99a1–99b8，含英译移至下章的末句；外延不认证解释，同名不保证同义，种的并集须另核覆盖，多因分支不等于全部原因同时出现。22项测试普通、`-O`、`-OO`通过，32768赋值有限枚举，5个Notebook代码单元标准库exec执行非Jupyter内核。本单元不计II.18、第二卷或全书完成。
