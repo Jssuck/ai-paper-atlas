@@ -1,0 +1,123 @@
+Independent II.8 technical review; Python 3.12.14
+COMMAND python3 -m unittest -v test_model
+test_bad_do (test_model.Tests.test_bad_do) ... ok
+test_bad_immediacy (test_model.Tests.test_bad_immediacy) ... ok
+test_bad_kind (test_model.Tests.test_bad_kind) ... ok
+test_bad_role (test_model.Tests.test_bad_role) ... ok
+test_bad_source (test_model.Tests.test_bad_source) ... ok
+test_bad_u (test_model.Tests.test_bad_u) ... ok
+test_bool_n (test_model.Tests.test_bool_n) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_compatible_intervention (test_model.Tests.test_compatible_intervention) ... ok
+test_do_one (test_model.Tests.test_do_one) ... ok
+test_do_zero (test_model.Tests.test_do_zero) ... ok
+test_empty_chain (test_model.Tests.test_empty_chain) ... ok
+test_empty_no_witness (test_model.Tests.test_empty_no_witness) ... ok
+test_empty_powerset (test_model.Tests.test_empty_powerset) ... ok
+test_enumeration (test_model.Tests.test_enumeration) ... ok
+test_false_major (test_model.Tests.test_false_major) ... ok
+test_false_minor (test_model.Tests.test_false_minor) ... ok
+test_multiple_middles (test_model.Tests.test_multiple_middles) ... ok
+test_negative_n (test_model.Tests.test_negative_n) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_causal_upgrade (test_model.Tests.test_no_causal_upgrade) ... ok
+test_no_essence_upgrade (test_model.Tests.test_no_essence_upgrade) ... ok
+test_observations_equal (test_model.Tests.test_observations_equal) ... ok
+test_powerset_count (test_model.Tests.test_powerset_count) ... ok
+test_reject_bad_candidate (test_model.Tests.test_reject_bad_candidate) ... ok
+test_reverse_fails (test_model.Tests.test_reverse_fails) ... ok
+test_role_does_not_change_truth (test_model.Tests.test_role_does_not_change_truth) ... ok
+test_same_extension_distinct_names (test_model.Tests.test_same_extension_distinct_names) ... ok
+test_true_conclusion_false_premise (test_model.Tests.test_true_conclusion_false_premise) ... ok
+test_unknown_role (test_model.Tests.test_unknown_role) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.009s
+
+OK
+
+EXIT 0
+COMMAND python3 -O -m unittest -v test_model
+test_bad_do (test_model.Tests.test_bad_do) ... ok
+test_bad_immediacy (test_model.Tests.test_bad_immediacy) ... ok
+test_bad_kind (test_model.Tests.test_bad_kind) ... ok
+test_bad_role (test_model.Tests.test_bad_role) ... ok
+test_bad_source (test_model.Tests.test_bad_source) ... ok
+test_bad_u (test_model.Tests.test_bad_u) ... ok
+test_bool_n (test_model.Tests.test_bool_n) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_compatible_intervention (test_model.Tests.test_compatible_intervention) ... ok
+test_do_one (test_model.Tests.test_do_one) ... ok
+test_do_zero (test_model.Tests.test_do_zero) ... ok
+test_empty_chain (test_model.Tests.test_empty_chain) ... ok
+test_empty_no_witness (test_model.Tests.test_empty_no_witness) ... ok
+test_empty_powerset (test_model.Tests.test_empty_powerset) ... ok
+test_enumeration (test_model.Tests.test_enumeration) ... ok
+test_false_major (test_model.Tests.test_false_major) ... ok
+test_false_minor (test_model.Tests.test_false_minor) ... ok
+test_multiple_middles (test_model.Tests.test_multiple_middles) ... ok
+test_negative_n (test_model.Tests.test_negative_n) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_causal_upgrade (test_model.Tests.test_no_causal_upgrade) ... ok
+test_no_essence_upgrade (test_model.Tests.test_no_essence_upgrade) ... ok
+test_observations_equal (test_model.Tests.test_observations_equal) ... ok
+test_powerset_count (test_model.Tests.test_powerset_count) ... ok
+test_reject_bad_candidate (test_model.Tests.test_reject_bad_candidate) ... ok
+test_reverse_fails (test_model.Tests.test_reverse_fails) ... ok
+test_role_does_not_change_truth (test_model.Tests.test_role_does_not_change_truth) ... ok
+test_same_extension_distinct_names (test_model.Tests.test_same_extension_distinct_names) ... ok
+test_true_conclusion_false_premise (test_model.Tests.test_true_conclusion_false_premise) ... ok
+test_unknown_role (test_model.Tests.test_unknown_role) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.008s
+
+OK
+
+EXIT 0
+COMMAND python3 -OO -m unittest -v test_model
+test_bad_do (test_model.Tests.test_bad_do) ... ok
+test_bad_immediacy (test_model.Tests.test_bad_immediacy) ... ok
+test_bad_kind (test_model.Tests.test_bad_kind) ... ok
+test_bad_role (test_model.Tests.test_bad_role) ... ok
+test_bad_source (test_model.Tests.test_bad_source) ... ok
+test_bad_u (test_model.Tests.test_bad_u) ... ok
+test_bool_n (test_model.Tests.test_bool_n) ... ok
+test_chain (test_model.Tests.test_chain) ... ok
+test_compatible_intervention (test_model.Tests.test_compatible_intervention) ... ok
+test_do_one (test_model.Tests.test_do_one) ... ok
+test_do_zero (test_model.Tests.test_do_zero) ... ok
+test_empty_chain (test_model.Tests.test_empty_chain) ... ok
+test_empty_no_witness (test_model.Tests.test_empty_no_witness) ... ok
+test_empty_powerset (test_model.Tests.test_empty_powerset) ... ok
+test_enumeration (test_model.Tests.test_enumeration) ... ok
+test_false_major (test_model.Tests.test_false_major) ... ok
+test_false_minor (test_model.Tests.test_false_minor) ... ok
+test_multiple_middles (test_model.Tests.test_multiple_middles) ... ok
+test_negative_n (test_model.Tests.test_negative_n) ... ok
+test_no_candidates (test_model.Tests.test_no_candidates) ... ok
+test_no_causal_upgrade (test_model.Tests.test_no_causal_upgrade) ... ok
+test_no_essence_upgrade (test_model.Tests.test_no_essence_upgrade) ... ok
+test_observations_equal (test_model.Tests.test_observations_equal) ... ok
+test_powerset_count (test_model.Tests.test_powerset_count) ... ok
+test_reject_bad_candidate (test_model.Tests.test_reject_bad_candidate) ... ok
+test_reverse_fails (test_model.Tests.test_reverse_fails) ... ok
+test_role_does_not_change_truth (test_model.Tests.test_role_does_not_change_truth) ... ok
+test_same_extension_distinct_names (test_model.Tests.test_same_extension_distinct_names) ... ok
+test_true_conclusion_false_premise (test_model.Tests.test_true_conclusion_false_premise) ... ok
+test_unknown_role (test_model.Tests.test_unknown_role) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.008s
+
+OK
+
+EXIT 0
+Independent n=0..5 bitmask oracle: triples=37449, valid=1365, differences=0
+Independent candidate oracle: 256 C/A pairs, all 16 named middles, differences=0
+Role/immediacy stress: 48 reports, false certification flags retained
+All four intervention cases independently substituted: two disagreements
+Notebook format 4.5: 8 unique valid cell ids checked (not full external schema validation)
+Notebook: four sequential standard-library exec cells, stored stdout exact match; NOT Jupyter kernel
+Existing SHA256 manifest verified: 14 entries
+PASS: finite implementation/record verification only; not source audit, scientific causation, or renderer certification

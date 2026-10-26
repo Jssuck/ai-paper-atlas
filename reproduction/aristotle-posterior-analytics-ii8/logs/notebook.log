@@ -1,0 +1,50 @@
+CELL 1
+{'minor': True, 'major': True, 'conclusion': True, 'premises': True}
+CELL 2
+('cause', 'sign')
+{'minor': True, 'major': True, 'conclusion': True, 'premises': True, 'role_declared': 'cause', 'immediacy_declared': True, 'source_label': 'teaching assumption', 'causal_truth_verified': False, 'essence_verified': False}
+CELL 3
+directed observed [(0, 0), (1, 1)]
+directed do(B=0), U=1 (0, 0)
+common observed [(0, 0), (1, 1)]
+common do(B=0), U=1 (0, 1)
+CELL 4
+{
+  "sets": {
+    "max_n": 4,
+    "triples": 4681,
+    "valid_chains": 341,
+    "transitivity_violations": 0,
+    "oracle_differences": 0
+  },
+  "candidate_names": [
+    "cause",
+    "sign"
+  ],
+  "observational_tables": {
+    "directed": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "common": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "intervention_cases": 4,
+  "intervention_disagreements": 2,
+  "warning": "Stipulated finite teaching models; no certification of real causes or essences."
+}
+Executed 4 cells by standard-library exec; NOT a Jupyter kernel.

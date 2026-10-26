@@ -1,0 +1,38 @@
+{
+  "sets": {
+    "max_n": 4,
+    "triples": 4681,
+    "valid_chains": 341,
+    "transitivity_violations": 0,
+    "oracle_differences": 0
+  },
+  "candidate_names": [
+    "cause",
+    "sign"
+  ],
+  "observational_tables": {
+    "directed": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "common": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "intervention_cases": 4,
+  "intervention_disagreements": 2,
+  "warning": "Stipulated finite teaching models; no certification of real causes or essences."
+}

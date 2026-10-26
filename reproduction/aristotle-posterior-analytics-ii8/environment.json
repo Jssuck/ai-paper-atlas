@@ -1,0 +1,41 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux x86_64",
+  "timestamp_utc": "2026-10-26T05:48:55.704484+00:00",
+  "dependencies": "Python standard library only; no packages installed",
+  "notebook": "Sequential exec, not Jupyter kernel",
+  "commands": [
+    [
+      "python3",
+      "-m",
+      "unittest",
+      "-v",
+      "test_model"
+    ],
+    [
+      "python3",
+      "-O",
+      "-m",
+      "unittest",
+      "-v",
+      "test_model"
+    ],
+    [
+      "python3",
+      "-OO",
+      "-m",
+      "unittest",
+      "-v",
+      "test_model"
+    ],
+    [
+      "python3",
+      "model.py"
+    ],
+    [
+      "python3",
+      "run_notebook.py"
+    ]
+  ]
+}

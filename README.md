@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《后分析篇》II.7：能解释一个名字，为什么还不能证明对象存在？](papers/ancient/aristotle-posterior-analytics-ii7.zh-CN.md)，完整92a34–92b38，拆解名义理解、存在见证与本质说明，附译法核查、反模型及真实Notebook教学执行。
+最新补读：[《后分析篇》II.8：推理能证实月食，为什么还未必解释月食？](papers/ancient/aristotle-posterior-analytics-ii8.zh-CN.md)，完整93a1–93b20，区分征兆中项、原因中项与定义的解释作用，附版本分歧核查、一般证明及真实Notebook教学执行。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -126,6 +126,7 @@
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.5精读](papers/ancient/aristotle-posterior-analytics-ii5.zh-CN.md) | AI推理前史补读：分割覆盖、选支证据与定义角色 | 深读v1 · 完整91b12–92a5及有限路径核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.6精读](papers/ancient/aristotle-posterior-analytics-ii6.zh-CN.md) | AI推理前史补读：定义标准、前提支持与本质统一 | 深读v1 · 完整92a6–33及有限支持核验 |
 | 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.7精读](papers/ancient/aristotle-posterior-analytics-ii7.zh-CN.md) | AI推理前史补读：名称、存在见证与本质证据 | 深读v1 · 完整92a34–92b38及有限解释核验 |
+| 公元前四世纪（作品年代范围；实读1831/1853版本及1928英译转录） | [Aristotle后分析篇II.8精读](papers/ancient/aristotle-posterior-analytics-ii8.zh-CN.md) | AI推理前史补读：原因中项、征兆与通过证明展示定义 | 深读v1 · 完整93a1–93b20及有限解释核验 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1264,3 +1265,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 
 [深读正文](papers/ancient/aristotle-posterior-analytics-ii7.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii7.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii7.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii7.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii7/README.md)。完整92a34–92b38；同延不保证非空，词表不认证本质，有限域成员不等于现实对象。有限枚举不替代一般证明，Notebook为标准库顺序执行而非Jupyter内核。前分析篇I.2及II.25仍暂缓；本次不计后分析篇II.8、第二卷或全书完成。
 
+
+
+### 后分析篇 II.8 附件
+
+[深读正文](papers/ancient/aristotle-posterior-analytics-ii8.zh-CN.md) · [来源台账](papers/ancient/aristotle-posterior-analytics-ii8.sources.zh-CN.md) · [独立来源审查](papers/ancient/aristotle-posterior-analytics-ii8.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/aristotle-posterior-analytics-ii8.technical-review.zh-CN.md) · [源码与真实日志](reproduction/aristotle-posterior-analytics-ii8/README.md)。完整93a1–93b20；有效集合链不认证现实原因，直接性只是外部声明，两个指定模型的观察一致不保证干预一致。有限枚举不替代一般证明，Notebook为标准库顺序执行而非Jupyter内核。前分析篇I.2及II.25仍暂缓；本次不计后分析篇II.9、第二卷或全书完成。
