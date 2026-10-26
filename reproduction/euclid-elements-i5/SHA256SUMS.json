@@ -1,0 +1,22 @@
+{
+  "README.md": "a5ab410dd3ed5e318ce7e1b6d17b71d42b4891409edd5b1597f9ec16ba494a18",
+  "environment.json": "b551b4a3be78a65b7c85bfd06b4e7e396e3674fdadb22fae9fa4ca9eefbe4310",
+  "geometry.py": "a0196907afc46cf8c9e99c49ad0822b9d88790277b090edf9296947f67a1c9ed",
+  "logs/enumeration-O.log": "1d5bb8493ee6bb795928c48691410df1d46aaaf3770d3bea2fad96d2c330d722",
+  "logs/enumeration-OO.log": "b179258b6d94d718bed8e45b98c92a2655c235bcced168fb4777cd4473e0c034",
+  "logs/enumeration-normal.log": "65699d9dac86accd9ca6084c904a362d0135855a4c5869b30a18ac63e24e617c",
+  "logs/notebook.log": "9173e7b97466ba69635ca6187e41b069d3c8a9e9f161e081308a6688f4d0d5a2",
+  "logs/tests-O.log": "6efd9acbca6c7e4483bd21be564785efd0d0491bc5bd3524a49e8ebc72bdf660",
+  "logs/tests-OO.log": "9baff2760ddd58f5dcb7b2661bad323372aa8552c0ae98160f7ca01d9e4ec3a1",
+  "logs/tests-normal.log": "fe5360f6c883066eeb2a164220d24fe34bc97192218e1caa8f65662a102f4960",
+  "notebook-check.json": "bf3133af4448a8cd7a8c19d605991821d53956d64e024fc5795b1bf15a02cc10",
+  "results-O.json": "4ada7cc994de651ed1d854d832c7410aaa4345cac1546065996312738a08a860",
+  "results-OO.json": "4ada7cc994de651ed1d854d832c7410aaa4345cac1546065996312738a08a860",
+  "results-normal.json": "4ada7cc994de651ed1d854d832c7410aaa4345cac1546065996312738a08a860",
+  "run-summary.json": "61c5768574df7cc98c6f986178139b9f53f8a539e857e3ed4f8e14e55605cfc9",
+  "run_all.py": "8f72464e3f0d2d7133af13e91c5899e13897119dd6848d7b876b0b87303d20ea",
+  "run_examples.py": "70e2aae229291e04c5cdaa13f38af7dbe367743bf26bb8e52a9b2e8f630bf228",
+  "teaching.zh-CN.ipynb": "67b0a849987c97d3c0196e8e74ed3ba2a970ed6ac33308f96b359a227087adb1",
+  "test_geometry.py": "df2537239f614c7798180d741cf8bff98d3e5a817aee55762e1606e66e16a856",
+  "verify_notebook.py": "788add0195ecbb78b1396b8155aa2d18ec917a6a40149c931d5f736d40cdddaa"
+}

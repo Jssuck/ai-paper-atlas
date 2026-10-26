@@ -1,0 +1,68 @@
+Command: python3 -OO run_examples.py
+{
+  "scope": "finite rational teaching family, not a general theorem proof",
+  "base_parameter_triples": 100,
+  "orthogonal_maps_per_triple": 6,
+  "translations_per_map": 2,
+  "valid_certificates": 1200,
+  "invalid_variants_rejected": 4800,
+  "violations": 0,
+  "example_points": [
+    [
+      "0",
+      "4"
+    ],
+    [
+      "-3",
+      "0"
+    ],
+    [
+      "3",
+      "0"
+    ],
+    [
+      "-6",
+      "-4"
+    ],
+    [
+      "6",
+      "-4"
+    ]
+  ],
+  "example_squared_lengths": {
+    "AB": "25",
+    "AC": "25",
+    "AF": "100",
+    "AG": "100",
+    "BF": "25",
+    "CG": "25",
+    "FC": "97",
+    "GB": "97"
+  },
+  "example_certificate": {
+    "accepted": true,
+    "premises": {
+      "nondegenerate_ABC": true,
+      "equal_legs_AB_AC": true,
+      "A_B_F_order": true,
+      "A_C_G_order": true,
+      "equal_AF_AG": true
+    },
+    "steps": {
+      "first_included_FAC_GAB": true,
+      "first_cross_FC_GB": true,
+      "first_angle_AFC_AGB": true,
+      "first_angle_ACF_ABG": true,
+      "remainders_BF_CG": true,
+      "second_included_BFC_CGB": true,
+      "second_angle_FBC_GCB": true,
+      "second_angle_FCB_GBC": true,
+      "split_at_C": true,
+      "split_at_B": true
+    },
+    "conclusions": {
+      "base_ABC_ACB": true,
+      "external_FBC_GCB": true
+    }
+  }
+}

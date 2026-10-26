@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-10-26T21:44:09.484643+00:00",
+  "jobs": [
+    {
+      "mode": "normal",
+      "kind": "tests",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "kind": "enumeration",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "kind": "tests",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "kind": "enumeration",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "kind": "tests",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "kind": "enumeration",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "kind": "notebook-stdlib",
+      "exit_code": 0
+    }
+  ],
+  "all_exit_zero": true,
+  "unit_tests_per_mode": 34,
+  "mode_results_equal": true,
+  "notebook": {
+    "code_cells_executed": 5,
+    "execution": "stdlib compile/exec in one fresh shared namespace",
+    "jupyter_kernel": false,
+    "full_nbformat_validation": false,
+    "success": true
+  }
+}

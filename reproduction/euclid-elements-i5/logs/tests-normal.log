@@ -1,0 +1,41 @@
+command: python3 -m unittest -v test_geometry
+exit_code: 0
+test_acute_obtuse_not_equal (test_geometry.GeometryTests.test_acute_obtuse_not_equal) ... ok
+test_all_steps (test_geometry.GeometryTests.test_all_steps) ... ok
+test_bad_orientation (test_geometry.GeometryTests.test_bad_orientation) ... ok
+test_bad_point_rejected (test_geometry.GeometryTests.test_bad_point_rejected) ... ok
+test_base (test_geometry.GeometryTests.test_base) ... ok
+test_bool_rejected (test_geometry.GeometryTests.test_bool_rejected) ... ok
+test_collinear (test_geometry.GeometryTests.test_collinear) ... ok
+test_example (test_geometry.GeometryTests.test_example) ... ok
+test_external (test_geometry.GeometryTests.test_external) ... ok
+test_f_at_b (test_geometry.GeometryTests.test_f_at_b) ... ok
+test_float_rejected (test_geometry.GeometryTests.test_float_rejected) ... ok
+test_fractional (test_geometry.GeometryTests.test_fractional) ... ok
+test_g_at_c (test_geometry.GeometryTests.test_g_at_c) ... ok
+test_height_boundary (test_geometry.GeometryTests.test_height_boundary) ... ok
+test_inside (test_geometry.GeometryTests.test_inside) ... ok
+test_nonorthogonal (test_geometry.GeometryTests.test_nonorthogonal) ... ok
+test_orientation_bool (test_geometry.GeometryTests.test_orientation_bool) ... ok
+test_outward_false_behind (test_geometry.GeometryTests.test_outward_false_behind) ... ok
+test_outward_false_noncollinear (test_geometry.GeometryTests.test_outward_false_noncollinear) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_right_angles (test_geometry.GeometryTests.test_right_angles) ... ok
+test_rotation (test_geometry.GeometryTests.test_rotation) ... ok
+test_squared_lengths (test_geometry.GeometryTests.test_squared_lengths) ... ok
+test_swap_sides (test_geometry.GeometryTests.test_swap_sides) ... ok
+test_t_boundary (test_geometry.GeometryTests.test_t_boundary) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_unequal_AF_AG (test_geometry.GeometryTests.test_unequal_AF_AG) ... ok
+test_unequal_legs (test_geometry.GeometryTests.test_unequal_legs) ... ok
+test_width_boundary (test_geometry.GeometryTests.test_width_boundary) ... ok
+test_wrong_correspondence (test_geometry.GeometryTests.test_wrong_correspondence) ... ok
+test_wrong_ray (test_geometry.GeometryTests.test_wrong_ray) ... ok
+test_zero_and_straight (test_geometry.GeometryTests.test_zero_and_straight) ... ok
+test_zero_leg (test_geometry.GeometryTests.test_zero_leg) ... ok
+test_zero_ray_raises (test_geometry.GeometryTests.test_zero_ray_raises) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.010s
+
+OK
