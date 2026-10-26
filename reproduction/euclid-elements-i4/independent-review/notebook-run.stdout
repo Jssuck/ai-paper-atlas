@@ -1,0 +1,16 @@
+code cell 1: re-executed; saved output exactly matches
+code cell 2: re-executed; saved output exactly matches
+code cell 3: re-executed; saved output exactly matches
+code cell 4: re-executed; saved output exactly matches
+code cell 5: re-executed; saved output exactly matches
+code cell 6: re-executed; saved output exactly matches
+code cell 7: re-executed; saved output exactly matches
+{
+  "result": "PASS",
+  "method": "independent standard-library compile/exec; not Jupyter",
+  "code_cells": 7,
+  "all_saved_outputs_match": true,
+  "notebook_unchanged": true,
+  "notebook_sha256": "162632ead90472ceb1d8a8289ba655119f83bb2ad048bfab499a328e070fe64b",
+  "audit_script_sha256": "5a56a6ed106c6438f37f2869f048d71ec60cac1b5142be7b4dac19232d8ca2bd"
+}

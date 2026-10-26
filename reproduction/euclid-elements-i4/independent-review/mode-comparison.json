@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "normal_O_OO_equal_except_optimization_level": true,
+  "result_file_sha256": {
+    "results.json": "2700901ebf0e1f06c8c6596ba9babacc1567d3709b950ee564cb66a88d6499ff",
+    "results-O.json": "0d72a68a80dbb43b344047392a0150c20d3d08c2ce3412d866f267f12f9ad6d8",
+    "results-OO.json": "d18368b1127a2a17d55380ae32ff17cfe10c797a3adffbbdc1be4a9f0c7bddcf"
+  }
+}

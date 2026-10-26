@@ -1,0 +1,32 @@
+$ python3 -B -OO enumerate_cases.py
+{
+  "grid": {
+    "coordinate_min": -2,
+    "coordinate_max": 2,
+    "anchor": [
+      0,
+      0
+    ],
+    "vectors": 25,
+    "ordered_vector_pairs": 625,
+    "degenerate_inputs_rejected": 129,
+    "nondegenerate_triangles": 496
+  },
+  "exhaustive_grid_api_results": {
+    "ordered_triangle_pairs": 246016,
+    "accepted_sas": 4096,
+    "direct_isometries": 2048,
+    "rejected_sas": 241920,
+    "orientation_reversing_isometries": 2048
+  },
+  "rational_transform_cases": {
+    "total": 992,
+    "direct": 496,
+    "reflection": 496,
+    "translation_nonzero": true,
+    "all_recovered_exactly": true
+  }
+}
+Wrote results/enumeration.json
+
+Exit code: 0

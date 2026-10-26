@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "third_party_dependencies_required": [],
+  "optional_modules_available": {
+    "jupyter": false,
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  },
+  "notebook_execution_method": "standard-library compile/exec, not Jupyter kernel",
+  "clock_utc_reported_by_runtime": "2026-10-26T20:48:50.188270+00:00",
+  "commands_relative_to": "reproduction/euclid-elements-i4/"
+}

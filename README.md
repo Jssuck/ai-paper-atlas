@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.3：长度相等，为什么还不等于截取成功？](papers/ancient/euclid-elements-i3.zh-CN.md)，完整命题及版本评论，区分等长、共线、方向与严格内部位置，附一般证明、反例与精确有理证书实跑。
+最新补读：[《几何原本》I.4：两边及夹角相等，为什么能叠合？](papers/ancient/euclid-elements-i4.zh-CN.md)，完整SAS命题及叠合基础辨析，区分原文、内积模型证明和有限测试，附精确有理等距证书、反射与反例。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -141,6 +141,7 @@
 | 约公元前300年（作品时代估计；实读Heath1908及Fitzpatrick2008双语版） | [Euclid几何原本I.1精读](papers/ancient/euclid-elements-i1.zh-CN.md) | AI推理前史补读：构造见证、交点存在、非退化条件与精确验证 | 深读v1 · 完整I.1及基础材料，非整卷 |
 | 约公元前300年（作品时代估计；实读Heath1908及Fitzpatrick2008双语版） | [Euclid几何原本I.2精读](papers/ancient/euclid-elements-i2.zh-CN.md) | AI推理前史补读：长度搬运、派生操作、点序和等量消去 | 深读v1 · 完整I.2及基础材料，非整卷 |
 | 约公元前300年（作品时代估计；实读Heath1908及Fitzpatrick2008双语版） | [Euclid几何原本I.3精读](papers/ancient/euclid-elements-i3.zh-CN.md) | AI推理前史补读：截取、调用前提、交点存在与严格点序 | 深读v1 · 完整I.3及基础材料，非整卷 |
+| 约公元前300年（作品时代估计；实读Heath1908及Fitzpatrick2008双语版） | [Euclid几何原本I.4精读](papers/ancient/euclid-elements-i4.zh-CN.md) | AI推理前史补读：叠合许可、SAS、内积证书与反射边界 | 深读v1 · 完整I.4及基础评论，非整卷 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1351,3 +1352,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《几何原本》I.3：截取与严格位置条件
 
 [深读正文](papers/ancient/euclid-elements-i3.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i3.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i3.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i3.technical-review.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i3/README.md)。完整I.3及必要基础材料；长度相等不单独认证线段位置，AD结果不认证I.2操作历史，有理生成范围窄于有理候选核验。33测试三模式、600正例/2400错误变体通过；5单元Notebook含3个代码单元标准库exec执行非内核。仅本单元完成，既有暂缓项仍未完成。
+
+
+### 《几何原本》I.4：叠合许可与等距证书
+
+[深读正文](papers/ancient/euclid-elements-i4.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i4.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i4.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i4.technical-review.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i4/README.md)。完整I.4及相关基础评论；叠合许可不从共同概念4反推，Gram证明只在声明的内积模型成立；反射、对应与非退化条件显式区分。28测试三模式、246,016有序对与992变换样例；7代码单元Notebook标准库exec非内核。有限实跑不证明一般定理；仅本单元完成，既有暂缓项仍未完成。

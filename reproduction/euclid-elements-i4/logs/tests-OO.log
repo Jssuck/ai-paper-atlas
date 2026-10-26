@@ -1,0 +1,36 @@
+$ python3 -B -OO -m unittest -v
+test_all_six_simultaneous_vertex_permutations (test_euclid_i4.ExactSASTests.test_all_six_simultaneous_vertex_permutations) ... ok
+test_exact_json_schema (test_euclid_i4.ExactSASTests.test_exact_json_schema) ... ok
+test_identity (test_euclid_i4.ExactSASTests.test_identity) ... ok
+test_independent_checker_never_calls_sas (test_euclid_i4.ExactSASTests.test_independent_checker_never_calls_sas) ... ok
+test_inverse_certificate_and_composition (test_euclid_i4.ExactSASTests.test_inverse_certificate_and_composition) ... ok
+test_negative_source_orientation (test_euclid_i4.ExactSASTests.test_negative_source_orientation) ... ok
+test_rational_rotation_and_offset_origin (test_euclid_i4.ExactSASTests.test_rational_rotation_and_offset_origin) ... ok
+test_raw_list_input_and_fraction_output (test_euclid_i4.ExactSASTests.test_raw_list_input_and_fraction_output) ... ok
+test_reflection_congruence_and_direct_policy (test_euclid_i4.ExactSASTests.test_reflection_congruence_and_direct_policy) ... ok
+test_remaining_side_and_all_vertex_angle_data (test_euclid_i4.ExactSASTests.test_remaining_side_and_all_vertex_angle_data) ... ok
+test_runtime_invariant_is_not_an_assert_statement (test_euclid_i4.ExactSASTests.test_runtime_invariant_is_not_an_assert_statement) ... ok
+test_scale_not_isometry (test_euclid_i4.ExactSASTests.test_scale_not_isometry) ... ok
+test_shear_preserves_two_lengths_but_fails_included_dot (test_euclid_i4.ExactSASTests.test_shear_preserves_two_lengths_but_fails_included_dot) ... ok
+test_ssa_counterexample_nonincluded_angle (test_euclid_i4.ExactSASTests.test_ssa_counterexample_nonincluded_angle) ... ok
+test_symmetric_relabelling_is_not_always_wrong (test_euclid_i4.ExactSASTests.test_symmetric_relabelling_is_not_always_wrong) ... ok
+test_translation (test_euclid_i4.ExactSASTests.test_translation) ... ok
+test_very_large_and_small_rationals_remain_exact (test_euclid_i4.ExactSASTests.test_very_large_and_small_rationals_remain_exact) ... ok
+test_wrong_correspondence_rejected_for_scalene_triangle (test_euclid_i4.ExactSASTests.test_wrong_correspondence_rejected_for_scalene_triangle) ... ok
+test_wrong_translation_invalidates_mapping (test_euclid_i4.ExactSASTests.test_wrong_translation_invalidates_mapping) ... ok
+test_allowed_scalars_are_normalized (test_euclid_i4.InputValidationTests.test_allowed_scalars_are_normalized) ... ok
+test_bad_certificate_matrix_and_translation (test_euclid_i4.InputValidationTests.test_bad_certificate_matrix_and_translation) ... ok
+test_coordinate_types_rejected (test_euclid_i4.InputValidationTests.test_coordinate_types_rejected) ... ok
+test_degenerate_target_is_not_a_sas_false_result (test_euclid_i4.InputValidationTests.test_degenerate_target_is_not_a_sas_false_result) ... ok
+test_invalid_policy (test_euclid_i4.InputValidationTests.test_invalid_policy) ... ok
+test_malformed_points (test_euclid_i4.InputValidationTests.test_malformed_points) ... ok
+test_malformed_triangle_containers (test_euclid_i4.InputValidationTests.test_malformed_triangle_containers) ... ok
+test_repeated_and_collinear_vertices_rejected (test_euclid_i4.InputValidationTests.test_repeated_and_collinear_vertices_rejected) ... ok
+test_wrong_certificate_object (test_euclid_i4.InputValidationTests.test_wrong_certificate_object) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.006s
+
+OK
+
+Exit code: 0

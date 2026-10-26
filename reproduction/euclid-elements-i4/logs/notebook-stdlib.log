@@ -1,0 +1,93 @@
+$ python3 -B execute_notebook.py
+Execution method: Python standard-library compile/exec; NOT a Jupyter kernel
+Optimization level: 0
+--- code cell 1: PASS ---
+Python: 3.12.14
+Arithmetic: fractions.Fraction; no floating-point geometry
+--- code cell 2: PASS ---
+{
+  "sas_equal": [
+    true,
+    true,
+    true
+  ],
+  "congruent_allowing_reflection": true,
+  "orientation_preserving": true,
+  "accepted_under_policy": true,
+  "reason": "verified",
+  "Q": [
+    [
+      "3/5",
+      "-4/5"
+    ],
+    [
+      "4/5",
+      "3/5"
+    ]
+  ],
+  "t": [
+    "7/3",
+    "-5/2"
+  ],
+  "det_Q": "1",
+  "checks": {
+    "orthogonal": true,
+    "maps_A_to_D": true,
+    "maps_B_to_E": true,
+    "maps_C_to_F": true,
+    "remaining_side_squared_equal": true,
+    "all_corresponding_side_squares_equal": true,
+    "all_corresponding_angle_data_equal": true
+  }
+}
+--- code cell 3: PASS ---
+AB², AC², BC²: (Fraction(9, 1), Fraction(4, 1), Fraction(13, 1))
+Each vertex: (incident side², dot, incident side²): ((Fraction(9, 1), Fraction(0, 1), Fraction(4, 1)), (Fraction(9, 1), Fraction(9, 1), Fraction(13, 1)), (Fraction(4, 1), Fraction(4, 1), Fraction(13, 1)))
+All explicit certificate checks: {'orthogonal': True, 'maps_A_to_D': True, 'maps_B_to_E': True, 'maps_C_to_F': True, 'remaining_side_squared_equal': True, 'all_corresponding_side_squares_equal': True, 'all_corresponding_angle_data_equal': True}
+--- code cell 4: PASS ---
+Allow reflection: True True -1
+Require direct: True False reflection_excluded
+--- code cell 5: PASS ---
+Shear SAS comparisons: [True, True, False]
+Shear orthogonal: False
+Wrong scalene correspondence: sas_mismatch
+SSA sides AB²,AC²,BC²: [['16', '2', '10'], ['16', '18', '10']]
+SSA same ray at A: True
+SSA accepted: False
+--- code cell 6: PASS ---
+InputError: triangle: collinear or repeated vertices; nonzero determinant required
+InputError: a[0]: expected int or Fraction; bool, float (including NaN/Infinity), strings and other numeric types are not accepted
+InputError: a[0]: expected int or Fraction; bool, float (including NaN/Infinity), strings and other numeric types are not accepted
+--- code cell 7: PASS ---
+{
+  "grid": {
+    "coordinate_min": -2,
+    "coordinate_max": 2,
+    "anchor": [
+      0,
+      0
+    ],
+    "vectors": 25,
+    "ordered_vector_pairs": 625,
+    "degenerate_inputs_rejected": 129,
+    "nondegenerate_triangles": 496
+  },
+  "exhaustive_grid_api_results": {
+    "ordered_triangle_pairs": 246016,
+    "accepted_sas": 4096,
+    "direct_isometries": 2048,
+    "rejected_sas": 241920,
+    "orientation_reversing_isometries": 2048
+  },
+  "rational_transform_cases": {
+    "total": 992,
+    "direct": 496,
+    "reflection": 496,
+    "translation_nonzero": true,
+    "all_recovered_exactly": true
+  }
+}
+Conclusion: finite checks passed, not a complete formal proof.
+PASS: 7 code cells; saved real captured outputs
+
+Exit code: 0

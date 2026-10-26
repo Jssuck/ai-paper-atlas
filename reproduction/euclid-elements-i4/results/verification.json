@@ -1,0 +1,61 @@
+{
+  "jobs": [
+    {
+      "name": "tests-normal",
+      "command": "python3 -B -m unittest -v",
+      "exit_code": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "name": "tests-O",
+      "command": "python3 -B -O -m unittest -v",
+      "exit_code": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "name": "tests-OO",
+      "command": "python3 -B -OO -m unittest -v",
+      "exit_code": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "name": "enumeration-normal",
+      "command": "python3 -B enumerate_cases.py",
+      "exit_code": 0,
+      "log": "logs/enumeration-normal.log"
+    },
+    {
+      "name": "enumeration-O",
+      "command": "python3 -B -O enumerate_cases.py",
+      "exit_code": 0,
+      "log": "logs/enumeration-O.log"
+    },
+    {
+      "name": "enumeration-OO",
+      "command": "python3 -B -OO enumerate_cases.py",
+      "exit_code": 0,
+      "log": "logs/enumeration-OO.log"
+    },
+    {
+      "name": "notebook-build",
+      "command": "python3 -B build_notebook.py",
+      "exit_code": 0,
+      "log": "logs/notebook-build.log"
+    },
+    {
+      "name": "notebook-stdlib",
+      "command": "python3 -B execute_notebook.py",
+      "exit_code": 0,
+      "log": "logs/notebook-stdlib.log"
+    }
+  ],
+  "all_passed": true,
+  "enumeration_sha256_by_mode": {
+    "normal": "89a938ef695e5af75ebf0c037bd2bb7be0393c9987bb5d61d986f603371a369f",
+    "O": "89a938ef695e5af75ebf0c037bd2bb7be0393c9987bb5d61d986f603371a369f",
+    "OO": "89a938ef695e5af75ebf0c037bd2bb7be0393c9987bb5d61d986f603371a369f"
+  },
+  "enumeration_identical_across_optimization_modes": true,
+  "unit_test_methods_per_mode": 28,
+  "notebook_execution": "7 Python code cells, stdlib compile/exec; not a Jupyter kernel"
+}

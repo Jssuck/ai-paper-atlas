@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "model": "modern real inner-product plane, exact rational coordinate samples",
+  "scope": "finite exhaustive grid test plus rational-transform checks; not a universal formal proof",
+  "angle_scope": "Gram entries and vertex angle data, no independent arbitrary angle function",
+  "grid": {
+    "coordinate_min": -2,
+    "coordinate_max": 2,
+    "anchor": [
+      0,
+      0
+    ],
+    "vectors": 25,
+    "ordered_vector_pairs": 625,
+    "degenerate_inputs_rejected": 129,
+    "nondegenerate_triangles": 496
+  },
+  "exhaustive_grid_api_results": {
+    "ordered_triangle_pairs": 246016,
+    "accepted_sas": 4096,
+    "direct_isometries": 2048,
+    "rejected_sas": 241920,
+    "orientation_reversing_isometries": 2048
+  },
+  "rational_transform_cases": {
+    "total": 992,
+    "direct": 496,
+    "reflection": 496,
+    "translation_nonzero": true,
+    "all_recovered_exactly": true
+  },
+  "examples": {
+    "rational_rotation": {
+      "source": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "target": [
+        [
+          "7/3",
+          "-5/2"
+        ],
+        [
+          "62/15",
+          "-1/10"
+        ],
+        [
+          "11/15",
+          "-13/10"
+        ]
+      ],
+      "result": {
+        "sas_equal": [
+          true,
+          true,
+          true
+        ],
+        "congruent_allowing_reflection": true,
+        "orientation_preserving": true,
+        "accepted_under_policy": true,
+        "reason": "verified",
+        "Q": [
+          [
+            "3/5",
+            "-4/5"
+          ],
+          [
+            "4/5",
+            "3/5"
+          ]
+        ],
+        "t": [
+          "7/3",
+          "-5/2"
+        ],
+        "det_Q": "1",
+        "checks": {
+          "orthogonal": true,
+          "maps_A_to_D": true,
+          "maps_B_to_E": true,
+          "maps_C_to_F": true,
+          "remaining_side_squared_equal": true,
+          "all_corresponding_side_squares_equal": true,
+          "all_corresponding_angle_data_equal": true
+        }
+      }
+    },
+    "reflection_allowed": {
+      "sas_equal": [
+        true,
+        true,
+        true
+      ],
+      "congruent_allowing_reflection": true,
+      "orientation_preserving": false,
+      "accepted_under_policy": true,
+      "reason": "verified",
+      "Q": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "t": [
+        "2",
+        "3"
+      ],
+      "det_Q": "-1",
+      "checks": {
+        "orthogonal": true,
+        "maps_A_to_D": true,
+        "maps_B_to_E": true,
+        "maps_C_to_F": true,
+        "remaining_side_squared_equal": true,
+        "all_corresponding_side_squares_equal": true,
+        "all_corresponding_angle_data_equal": true
+      }
+    },
+    "reflection_direct_policy": {
+      "sas_equal": [
+        true,
+        true,
+        true
+      ],
+      "congruent_allowing_reflection": true,
+      "orientation_preserving": false,
+      "accepted_under_policy": false,
+      "reason": "reflection_excluded",
+      "Q": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "t": [
+        "2",
+        "3"
+      ],
+      "det_Q": "-1",
+      "checks": {
+        "orthogonal": true,
+        "maps_A_to_D": true,
+        "maps_B_to_E": true,
+        "maps_C_to_F": true,
+        "remaining_side_squared_equal": true,
+        "all_corresponding_side_squares_equal": true,
+        "all_corresponding_angle_data_equal": true
+      }
+    },
+    "wrong_scalene_correspondence": {
+      "sas_equal": [
+        false,
+        false,
+        true
+      ],
+      "congruent_allowing_reflection": false,
+      "orientation_preserving": null,
+      "accepted_under_policy": false,
+      "reason": "sas_mismatch",
+      "Q": null,
+      "t": null,
+      "det_Q": null,
+      "checks": {}
+    },
+    "shear": {
+      "source": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/2",
+          "1"
+        ]
+      ],
+      "target": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "Q": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "det_Q": "1",
+      "source_gram": [
+        "1",
+        "5/4",
+        "-1/2"
+      ],
+      "target_gram": [
+        "1",
+        "5/4",
+        "1/2"
+      ],
+      "result": {
+        "sas_equal": [
+          true,
+          true,
+          false
+        ],
+        "congruent_allowing_reflection": false,
+        "orientation_preserving": null,
+        "accepted_under_policy": false,
+        "reason": "sas_mismatch",
+        "Q": null,
+        "t": null,
+        "det_Q": null,
+        "checks": {}
+      },
+      "independent_certificate_checks": {
+        "orthogonal": false,
+        "maps_A_to_D": true,
+        "maps_B_to_E": true,
+        "maps_C_to_F": true,
+        "remaining_side_squared_equal": false,
+        "all_corresponding_side_squares_equal": false,
+        "all_corresponding_angle_data_equal": false
+      }
+    },
+    "ssa_nonincluded_angle_counterexample": {
+      "source": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "target": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "3",
+          "3"
+        ]
+      ],
+      "side_squares_AB_AC_BC": [
+        [
+          "16",
+          "2",
+          "10"
+        ],
+        [
+          "16",
+          "18",
+          "10"
+        ]
+      ],
+      "same_AB_squared": true,
+      "same_BC_squared": true,
+      "same_ray_AC": true,
+      "angle_explanation": "AB is unchanged; AC rays coincide positively. Angle at A is not the angle between AB and BC.",
+      "result": {
+        "sas_equal": [
+          true,
+          false,
+          false
+        ],
+        "congruent_allowing_reflection": false,
+        "orientation_preserving": null,
+        "accepted_under_policy": false,
+        "reason": "sas_mismatch",
+        "Q": null,
+        "t": null,
+        "det_Q": null,
+        "checks": {}
+      }
+    }
+  }
+}

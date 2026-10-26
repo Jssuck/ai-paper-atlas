@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "python_version": "3.12.14",
+  "optimization_level": 1,
+  "oracle": "labelled raw-coordinate squared distances; separate scalar certificate checks",
+  "scope": "finite independent tests, not a formal proof or full Euclidean-geometry verification",
+  "grid": {
+    "nondegenerate_triangles": 496,
+    "degenerate_rejected": 129,
+    "ordered_pairs": 246016,
+    "congruent": 4096,
+    "direct": 2048,
+    "not_congruent_under_fixed_labels": 241920,
+    "reversing": 2048
+  },
+  "transforms": {
+    "grid_source_transforms": 992,
+    "nonzero_origin_transforms": 64
+  },
+  "article_examples": {
+    "rotation": "exact Q,t and all side squares verified",
+    "reflection": "congruent; direct-only rejected",
+    "two_sides_only_BC_squared": "53/5",
+    "ssa_BC_squared": "265/16",
+    "ssa_AB_squared": [
+      "25/16",
+      "729/16"
+    ],
+    "equal_dot_squared_cosines": [
+      "1/2",
+      "1/5"
+    ],
+    "wrong_correspondence": "rejected"
+  },
+  "adversarial_and_inputs": {
+    "invalid_input_calls_rejected": 48,
+    "valid_representations": 4,
+    "false_certificates_rejected": 5,
+    "unilateral_scalene_permutations_checked": 6,
+    "unilateral_scalene_permutations_accepted": 1,
+    "symmetric_relabelling_accepted": true
+  },
+  "source_sha256": {
+    "euclid_i4.py": "f4ff93a579b4f0daf8b4e7c05aec5d95e3f3c7c05d8481805c7fa3f8adb1942e",
+    "test_euclid_i4.py": "304be0281ede90b98ae2eae8c67245eca1423f4f5d5f7c8cec1ecc694157ebd1",
+    "enumerate_cases.py": "dff5b5073d62008ff90dc933388208e569073de56fde3569e755c62eb6511229"
+  },
+  "audit_script_sha256": "49dd0b00d706d3687c317ddd100fbaf652b68905f21d4d1f77b1e0845e2e8311",
+  "result": "PASS"
+}
