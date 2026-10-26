@@ -1,0 +1,14 @@
+$ python run_notebook.py
+cell imports OK
+教学对象已加载；历史例仅作条件模型
+cell compare OK
+exact: exact
+generic: generic
+homonym: unrelated
+cell direction OK
+forward: True
+reverse: False
+rejected: edge contradicts declared direction
+executed_code_cells= 3
+
+exit_code=0

@@ -1,0 +1,28 @@
+$ python -m unittest -v
+test_condition_guard (test_model.ClassificationTests.test_condition_guard) ... ok
+test_domain_guard (test_model.ClassificationTests.test_domain_guard) ... ok
+test_empty_identity_guard (test_model.ClassificationTests.test_empty_identity_guard) ... ok
+test_exact_also_generic (test_model.ClassificationTests.test_exact_also_generic) ... ok
+test_generic_not_exact (test_model.ClassificationTests.test_generic_not_exact) ... ok
+test_homonym_does_not_merge (test_model.ClassificationTests.test_homonym_does_not_merge) ... ok
+test_identity_conflict_guard (test_model.ClassificationTests.test_identity_conflict_guard) ... ok
+test_shared_middle (test_model.ClassificationTests.test_shared_middle) ... ok
+test_symmetry (test_model.ClassificationTests.test_symmetry) ... ok
+test_three_generic_pairs (test_model.ClassificationTests.test_three_generic_pairs) ... ok
+test_composed (test_model.DependencyTests.test_composed) ... ok
+test_cycle_guard (test_model.DependencyTests.test_cycle_guard) ... ok
+test_direct (test_model.DependencyTests.test_direct) ... ok
+test_disconnected (test_model.DependencyTests.test_disconnected) ... ok
+test_duplicate_identity_guard (test_model.DependencyTests.test_duplicate_identity_guard) ... ok
+test_no_self_explanation (test_model.DependencyTests.test_no_self_explanation) ... ok
+test_reverse_is_not_inferred (test_model.DependencyTests.test_reverse_is_not_inferred) ... ok
+test_unknown_node_guard (test_model.DependencyTests.test_unknown_node_guard) ... ok
+test_unknown_query_guard (test_model.DependencyTests.test_unknown_query_guard) ... ok
+test_wrong_direction_guard (test_model.DependencyTests.test_wrong_direction_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK
+
+exit_code=0
