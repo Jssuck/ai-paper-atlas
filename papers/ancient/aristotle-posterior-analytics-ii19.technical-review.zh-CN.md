@@ -4,7 +4,7 @@
 
 ## 1. 绑定的审查对象
 
-- [正文](aristotle-posterior-analytics-ii19.zh-CN.md) SHA256：`b0ef2d12e62e93c6e64494a2ee5eee48da66285c4f79903c5ace27c9b36b539d`。
+- [正文](aristotle-posterior-analytics-ii19.zh-CN.md) SHA256：`9770cf440add84dc6130e73c0ec0da782e32fc86c6ae1b7ef5dfc61db477dfcf`。
 - [model.py](../../reproduction/aristotle-posterior-analytics-ii19/model.py) SHA256：`c78e53fd4967736ff7066582ed97d21252c0c6d3304aae806df6a2a6d60b1b81`。
 - [test_model.py](../../reproduction/aristotle-posterior-analytics-ii19/test_model.py) SHA256：`3b237abfe7cd55d2565e2b5ee3e0bd9c094fef7fbdeda2b2c05de40864d6d0d1`。
 - [oracle.py](../../reproduction/aristotle-posterior-analytics-ii19/oracle.py) SHA256：`0e57fe34cdb7f1d64048d0f9eb51dbd62359bf652b9a5f3c212bf7588f9df05f`。

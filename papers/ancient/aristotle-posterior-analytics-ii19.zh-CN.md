@@ -140,7 +140,7 @@
 相容解释集合定义为：
 
 $$
-\mathcal H(o)=\{h:U\to\{0,1\}\mid \forall x\in S,\ h(x)=o(x)\}.
+\mathcal H(o)=\lbrace h:U\to\lbrace 0,1\rbrace\mid \forall x\in S,\ h(x)=o(x)\rbrace.
 $$
 
 这不是后验分布。没有指定概率测度，因此“相容解释有八种”不表示八种同样可能，更不表示其中某一种具有八分之一的真实概率。
