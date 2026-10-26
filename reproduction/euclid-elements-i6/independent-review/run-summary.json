@@ -1,0 +1,74 @@
+{
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.072342
+    },
+    {
+      "command": [
+        "python3",
+        "run_examples.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.208005
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.215768
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "run_examples.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.238724
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.173332
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "run_examples.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.254563
+    },
+    {
+      "command": [
+        "python3",
+        "verify_notebook.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "notebook_code_cells": 5,
+  "jupyter_kernel": false
+}

@@ -1,0 +1,36 @@
+{
+  "triangles": {
+    "non_degenerate": 2112,
+    "equal_base_angles": 192,
+    "equal_opposite_sides": 192,
+    "violations": 0
+  },
+  "strict_cuts": {
+    "cases": 220,
+    "violations": 0,
+    "contradiction_premises_realized": 0
+  },
+  "side_factor": {
+    "cases": 505,
+    "violations": 0
+  },
+  "examples": {
+    "isosceles": {
+      "base_angles_equal": true,
+      "opposite_sides_equal": true,
+      "implication_holds": true
+    },
+    "strict_cut": {
+      "on_line": true,
+      "strict_inside": true,
+      "AB_longer_AC": true,
+      "DB_equals_AC": true,
+      "valid_cut": true,
+      "area_ratio": "3/5",
+      "proper_area": true,
+      "base_angles_equal": false,
+      "contradiction_premises": false
+    },
+    "supplementary_angles_equal": false
+  }
+}

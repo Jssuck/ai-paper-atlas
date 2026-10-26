@@ -3,8 +3,8 @@
   "status": "in_progress",
   "active_paper": {
     "id": "euclid-elements-i6",
-    "stage": "research",
-    "updated_at": "2026-10-26T22:41:23.764Z"
+    "stage": "publication_verification",
+    "updated_at": "2026-10-26T22:48:12.502983Z"
   },
   "last_completed": {
     "id": "euclid-elements-i5",
@@ -24,5 +24,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-26T22:41:23.764Z"
+  "updated_at": "2026-10-26T22:48:12.502983Z"
 }

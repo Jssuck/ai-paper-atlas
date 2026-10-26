@@ -1,0 +1,9 @@
+{
+  "all_identical_to_author_outputs": true,
+  "sha256": {
+    "results-normal.json": "8292f14b2aaf951d8037fca95d1b05d0aa8220d1fec0943e650a7f305caefb6d",
+    "results-O.json": "8292f14b2aaf951d8037fca95d1b05d0aa8220d1fec0943e650a7f305caefb6d",
+    "results-OO.json": "8292f14b2aaf951d8037fca95d1b05d0aa8220d1fec0943e650a7f305caefb6d",
+    "notebook-check.json": "1eadd2d0881be2d5c1d00ba3a098aa3b7e32f5297a24ad69cd8d6fe09dc98c82"
+  }
+}

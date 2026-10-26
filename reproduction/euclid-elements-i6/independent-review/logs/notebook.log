@@ -1,0 +1,13 @@
+{
+  "code_cells": 5,
+  "method": "Python standard-library compile/exec, shared fresh namespace",
+  "jupyter_kernel": false,
+  "full_nbformat_schema_validation": false,
+  "outputs": [
+    "{'base_angles_equal': True, 'opposite_sides_equal': True, 'implication_holds': True}\n",
+    "False\n",
+    "{'on_line': 'True', 'strict_inside': 'True', 'AB_longer_AC': 'True', 'DB_equals_AC': 'True', 'valid_cut': 'True', 'area_ratio': '3/5', 'proper_area': 'True', 'base_angles_equal': 'False', 'contradiction_premises': 'False'}\n",
+    "{'identity_holds': True, 'angle_equation': True, 'strict_factor_positive': True, 'equal_sides': True, 'implication_holds': True}\n{'identity_holds': True, 'angle_equation': False, 'strict_factor_positive': True, 'equal_sides': False, 'implication_holds': True}\n",
+    "ValueError nondegenerate triangle required\n"
+  ]
+}

@@ -1,0 +1,35 @@
+test_angle_right (test_geometry.GeometryTests.test_angle_right) ... ok
+test_angle_same (test_geometry.GeometryTests.test_angle_same) ... ok
+test_angle_supplement (test_geometry.GeometryTests.test_angle_supplement) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_collinear (test_geometry.GeometryTests.test_collinear) ... ok
+test_construct (test_geometry.GeometryTests.test_construct) ... ok
+test_cut (test_geometry.GeometryTests.test_cut) ... ok
+test_endpoint (test_geometry.GeometryTests.test_endpoint) ... ok
+test_factor_degenerate (test_geometry.GeometryTests.test_factor_degenerate) ... ok
+test_factor_equal (test_geometry.GeometryTests.test_factor_equal) ... ok
+test_factor_identity (test_geometry.GeometryTests.test_factor_identity) ... ok
+test_factor_negative (test_geometry.GeometryTests.test_factor_negative) ... ok
+test_factor_unequal (test_geometry.GeometryTests.test_factor_unequal) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_implication_vacuous (test_geometry.GeometryTests.test_implication_vacuous) ... ok
+test_isosceles (test_geometry.GeometryTests.test_isosceles) ... ok
+test_off_line (test_geometry.GeometryTests.test_off_line) ... ok
+test_ratio_endpoint (test_geometry.GeometryTests.test_ratio_endpoint) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_repeated (test_geometry.GeometryTests.test_repeated) ... ok
+test_scalene (test_geometry.GeometryTests.test_scalene) ... ok
+test_scaling (test_geometry.GeometryTests.test_scaling) ... ok
+test_shape (test_geometry.GeometryTests.test_shape) ... ok
+test_straight_zero (test_geometry.GeometryTests.test_straight_zero) ... ok
+test_swap (test_geometry.GeometryTests.test_swap) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_wrong_cut (test_geometry.GeometryTests.test_wrong_cut) ... ok
+test_wrong_ratio (test_geometry.GeometryTests.test_wrong_ratio) ... ok
+test_wrong_ray (test_geometry.GeometryTests.test_wrong_ray) ... ok
+test_zero_ray (test_geometry.GeometryTests.test_zero_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.003s
+
+OK

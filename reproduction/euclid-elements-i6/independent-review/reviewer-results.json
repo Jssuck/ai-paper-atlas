@@ -1,0 +1,9 @@
+{
+  "pointwise_biconditional_triangles": 2112,
+  "angle_oracle_pairs": 10000,
+  "oracle": "independent atan2(abs(cross),dot), integer ray grid -2..2, seed 6006, tolerance 1e-12; finite diagnostic only",
+  "transformed_cuts": 20,
+  "off_line_area_trap": "passed",
+  "degenerate_equal_angle_rejection": "passed",
+  "all_passed": true
+}
