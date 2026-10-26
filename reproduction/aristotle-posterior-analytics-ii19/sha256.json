@@ -1,0 +1,17 @@
+{
+  "README.md": "275e9fdfd7044b5532c01d294125024d50ef32c692d141aeaff79b3b2b8006d1",
+  "environment.json": "30d75f3d151058797580e3fa7fbad2045c96ef0762e658a72b4b55de1f0a11e6",
+  "logs/commands.json": "93ee0be88e9a006b8917551f0cefdc41761ec5b75658c7e663104dd65af9c724",
+  "logs/demo.log": "02d27d65eca049751df42af5dc6795dfa203f75bec035181547ed9f031d52439",
+  "logs/notebook-exec.log": "6b4a7f95daad95d53295db5f5fe9317aebb3a3f0cb4afb14ce36af84b995d26b",
+  "logs/tests-O.log": "0d9c80ae3b9bfc90387a84ccbaf651299cb007b83b555c1f6e35c6e4e6300431",
+  "logs/tests-OO.log": "fb042fae71b2b20c09445a29df04af0eb09eb28217a714f34f7be2c91ad18ed0",
+  "logs/tests-normal.log": "9325b5b3bb62d5b13493e3d1b3e69400d71af284216c328dd9a5acc1d49b3bba",
+  "model.py": "c78e53fd4967736ff7066582ed97d21252c0c6d3304aae806df6a2a6d60b1b81",
+  "oracle.py": "0e57fe34cdb7f1d64048d0f9eb51dbd62359bf652b9a5f3c212bf7588f9df05f",
+  "results.json": "4e8711f4ec8a1a0fafdc9808eec492d24385860203d72594184b51564f9c593b",
+  "run_all.py": "6d2ad679a5cabb8bef88b5ae6acaf006d985baedf50ea97aa95b3a1f5b842dc7",
+  "run_notebook.py": "f12e17167bfb6e290f7fd7e7d22c6d805ef71dfed299f35d88622a3c5046642f",
+  "test_model.py": "3b237abfe7cd55d2565e2b5ee3e0bd9c094fef7fbdeda2b2c05de40864d6d0d1",
+  "tutorial.ipynb": "5d240ec152c48068be3b8d9279ed20fd708fdeeb9a9c10688af371865c61d729"
+}

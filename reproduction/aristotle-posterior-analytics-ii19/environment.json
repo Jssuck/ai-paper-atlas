@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": "standard library only",
+  "notebook_execution": "sequential exec in a new Python process; not a Jupyter kernel"
+}

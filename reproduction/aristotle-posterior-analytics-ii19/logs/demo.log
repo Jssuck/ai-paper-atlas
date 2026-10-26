@@ -1,0 +1,117 @@
+Command: python3 run_all.py
+{
+  "scope": "Modern finite-domain teaching model; no nous, probability, or historical psychology validation.",
+  "examples": {
+    "no_observation": {
+      "domain_size": 3,
+      "observation_count": 0,
+      "covered_count": 0,
+      "unseen_count": 3,
+      "compatible_count": 8,
+      "universal_true_count": 1,
+      "universal_false_count": 7,
+      "status": "underdetermined"
+    },
+    "hundred_repeats": {
+      "domain_size": 3,
+      "observation_count": 100,
+      "covered_count": 1,
+      "unseen_count": 2,
+      "compatible_count": 4,
+      "universal_true_count": 1,
+      "universal_false_count": 3,
+      "status": "underdetermined"
+    },
+    "two_distinct_positive": {
+      "domain_size": 3,
+      "observation_count": 2,
+      "covered_count": 2,
+      "unseen_count": 1,
+      "compatible_count": 2,
+      "universal_true_count": 1,
+      "universal_false_count": 1,
+      "status": "underdetermined"
+    },
+    "finite_domain_covered": {
+      "domain_size": 3,
+      "observation_count": 3,
+      "covered_count": 3,
+      "unseen_count": 0,
+      "compatible_count": 1,
+      "universal_true_count": 1,
+      "universal_false_count": 0,
+      "status": "certified_finite_domain"
+    },
+    "counterexample": {
+      "domain_size": 3,
+      "observation_count": 2,
+      "covered_count": 2,
+      "unseen_count": 1,
+      "compatible_count": 2,
+      "universal_true_count": 0,
+      "universal_false_count": 2,
+      "status": "refuted"
+    },
+    "empty_domain": {
+      "domain_size": 0,
+      "observation_count": 0,
+      "covered_count": 0,
+      "unseen_count": 0,
+      "compatible_count": 1,
+      "universal_true_count": 1,
+      "universal_false_count": 0,
+      "status": "certified_finite_domain"
+    },
+    "opposite_completions": [
+      {
+        "a": true,
+        "b": false
+      },
+      {
+        "a": true,
+        "b": true
+      }
+    ],
+    "given_class_groups": {
+      "X": {
+        "memory_count": 3,
+        "objects": [
+          "a",
+          "b"
+        ]
+      }
+    }
+  },
+  "oracle": {
+    "max_domain_size": 5,
+    "observation_maps": 364,
+    "candidate_checks": 9331,
+    "mismatches": 0,
+    "by_size": [
+      {
+        "domain_size": 0,
+        "observation_maps": 1
+      },
+      {
+        "domain_size": 1,
+        "observation_maps": 3
+      },
+      {
+        "domain_size": 2,
+        "observation_maps": 9
+      },
+      {
+        "domain_size": 3,
+        "observation_maps": 27
+      },
+      {
+        "domain_size": 4,
+        "observation_maps": 81
+      },
+      {
+        "domain_size": 5,
+        "observation_maps": 243
+      }
+    ]
+  }
+}

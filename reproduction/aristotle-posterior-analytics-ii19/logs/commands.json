@@ -1,0 +1,18 @@
+[
+  {
+    "command": "python3 -m unittest -v test_model",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 -O -m unittest -v test_model",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 -OO -m unittest -v test_model",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 run_notebook.py",
+    "exit_code": 0
+  }
+]
