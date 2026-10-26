@@ -1,0 +1,33 @@
+test_bad_coordinate (test_geometry.GeometryTests.test_bad_coordinate) ... ok
+test_base_c (test_geometry.GeometryTests.test_base_c) ... ok
+test_beyond_base (test_geometry.GeometryTests.test_beyond_base) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_coincident_baseline (test_geometry.GeometryTests.test_coincident_baseline) ... ok
+test_dimension (test_geometry.GeometryTests.test_dimension) ... ok
+test_endpoint_b (test_geometry.GeometryTests.test_endpoint_b) ... ok
+test_endpoint_c (test_geometry.GeometryTests.test_endpoint_c) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_identities (test_geometry.GeometryTests.test_identities) ... ok
+test_mirror (test_geometry.GeometryTests.test_mirror) ... ok
+test_negative_side (test_geometry.GeometryTests.test_negative_side) ... ok
+test_one_on_base (test_geometry.GeometryTests.test_one_on_base) ... ok
+test_reflect_bad_base (test_geometry.GeometryTests.test_reflect_bad_base) ... ok
+test_reflect_horizontal (test_geometry.GeometryTests.test_reflect_horizontal) ... ok
+test_reflect_oblique (test_geometry.GeometryTests.test_reflect_oblique) ... ok
+test_reflect_twice (test_geometry.GeometryTests.test_reflect_twice) ... ok
+test_reflect_vertical (test_geometry.GeometryTests.test_reflect_vertical) ... ok
+test_reversal (test_geometry.GeometryTests.test_reversal) ... ok
+test_string (test_geometry.GeometryTests.test_string) ... ok
+test_translated (test_geometry.GeometryTests.test_translated) ... ok
+test_vacuity (test_geometry.GeometryTests.test_vacuity) ... ok
+test_valid (test_geometry.GeometryTests.test_valid) ... ok
+test_vertical (test_geometry.GeometryTests.test_vertical) ... ok
+test_wrong_a (test_geometry.GeometryTests.test_wrong_a) ... ok
+test_wrong_b (test_geometry.GeometryTests.test_wrong_b) ... ok
+test_wrong_correspondence (test_geometry.GeometryTests.test_wrong_correspondence) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.002s
+
+OK

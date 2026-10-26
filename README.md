@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.6：等角为何迫使对边相等？](papers/ancient/euclid-elements-i6.zh-CN.md)，重建严格截取、SAS对应与真部分反证，区分逆命题和现代解析证书，附精确实跑及独立双审。
+最新补读：[《几何原本》I.7：两个距离，为什么还要说“同侧”？](papers/ancient/euclid-elements-i7.zh-CN.md)，拆解原图角链与后世内嵌补证，明确对应、同侧和唯一性边界，附精确实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -144,6 +144,7 @@
 | 约公元前300年（作品时代估计；实读Heath1908及Fitzpatrick2008双语版） | [Euclid几何原本I.4精读](papers/ancient/euclid-elements-i4.zh-CN.md) | AI推理前史补读：叠合许可、SAS、内积证书与反射边界 | 深读v1 · 完整I.4及基础评论，非整卷 |
 | 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.5精读](papers/ancient/euclid-elements-i5.zh-CN.md) | 数学前史补读：等腰底角、两次SAS、点序与角消去 | 深读v1 · 完整I.5两项结论及原证明 |
 | 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.6精读](papers/ancient/euclid-elements-i6.zh-CN.md) | 数学前史补读：逆命题、严格截取、SAS对应与真部分反证 | 深读v1 · 完整I.6及隐含点序边界 |
+| 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.7精读](papers/ancient/euclid-elements-i7.zh-CN.md) | 数学前史补读：对应双距离、严格同侧、图形分情况与唯一性 | 深读v1 · 完整I.7及译注补充边界 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1368,3 +1369,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 最新补读：Euclid《几何原本》I.6
 
 [深读正文](papers/ancient/euclid-elements-i6.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i6.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i6.source-audit.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i6/independent-review.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i6/README.md)。完整原反证，区分几何逆命题、I.3截取和I.4对应；真部分论证的次序背景明确标注。30测试三模式，2112三角形、220严格截取、505三边因子；5代码单元Notebook标准库compile/exec非内核。有限运行不证明一般定理；仅本单元完成，既有暂缓项仍未完成。
+
+
+## 最新补读：Euclid《几何原本》I.7
+
+[深读正文](papers/ancient/euclid-elements-i7.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i7.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i7.source-audit.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i7/technical-review.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i7/README.md)。区分原文角链、后世内嵌补证与现代坐标模型；对应端点、严格同侧、相异顶点及存在/唯一性不混淆。28测试三模式，2500候选对、100镜像检查；5代码单元Notebook标准库compile/exec非内核。有限运行不证明一般定理；仅本单元完成，既有暂缓项仍未完成。

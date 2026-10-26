@@ -1,0 +1,51 @@
+{
+  "candidate_pairs": 2500,
+  "equal_distance_pairs": 130,
+  "strict_same_side_premise_pairs": 88,
+  "distinct_equal_distance_pairs": 30,
+  "identity_or_implication_violations": 0,
+  "reflection_checks": 100,
+  "reflection_errors": 0,
+  "negative_examples": {
+    "mirror": {
+      "equal_a": true,
+      "equal_b": true,
+      "same_side": false,
+      "premises": false,
+      "conclusion": false,
+      "implication": true
+    },
+    "wrong_a": {
+      "equal_a": false,
+      "equal_b": false,
+      "same_side": true,
+      "premises": false,
+      "conclusion": false,
+      "implication": true
+    },
+    "wrong_b": {
+      "equal_a": true,
+      "equal_b": false,
+      "same_side": true,
+      "premises": false,
+      "conclusion": false,
+      "implication": true
+    },
+    "swapped_correspondence": {
+      "equal_a": false,
+      "equal_b": false,
+      "same_side": true,
+      "premises": false,
+      "conclusion": false,
+      "implication": true
+    },
+    "on_baseline": {
+      "equal_a": false,
+      "equal_b": false,
+      "same_side": false,
+      "premises": false,
+      "conclusion": false,
+      "implication": true
+    }
+  }
+}

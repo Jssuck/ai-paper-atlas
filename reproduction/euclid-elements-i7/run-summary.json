@@ -1,0 +1,51 @@
+{
+  "jobs": [
+    {
+      "command": "python3 -m unittest -v test_geometry",
+      "exit_code": 0,
+      "seconds": 0.071902,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": "python3 run_examples.py",
+      "exit_code": 0,
+      "seconds": 0.168105,
+      "log": "logs/examples-normal.log"
+    },
+    {
+      "command": "python3 -O -m unittest -v test_geometry",
+      "exit_code": 0,
+      "seconds": 0.193362,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": "python3 -O run_examples.py",
+      "exit_code": 0,
+      "seconds": 0.236777,
+      "log": "logs/examples-O.log"
+    },
+    {
+      "command": "python3 -OO -m unittest -v test_geometry",
+      "exit_code": 0,
+      "seconds": 0.197801,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": "python3 -OO run_examples.py",
+      "exit_code": 0,
+      "seconds": 0.206288,
+      "log": "logs/examples-OO.log"
+    },
+    {
+      "command": "python3 verify_notebook.py",
+      "exit_code": 0,
+      "log": "logs/notebook.log"
+    }
+  ],
+  "notebook": {
+    "code_cells": 5,
+    "method": "Python standard-library compile/exec",
+    "jupyter_kernel": false,
+    "status": "passed"
+  }
+}
