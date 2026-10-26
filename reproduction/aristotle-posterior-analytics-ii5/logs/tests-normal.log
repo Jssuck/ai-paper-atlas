@@ -1,0 +1,29 @@
+test_atom_relative (test_model.Tests.test_atom_relative) ... ok
+test_bad_choice (test_model.Tests.test_bad_choice) ... ok
+test_bad_path_target (test_model.Tests.test_bad_path_target) ... ok
+test_bad_provenance (test_model.Tests.test_bad_provenance) ... ok
+test_bad_size (test_model.Tests.test_bad_size) ... ok
+test_eliminate (test_model.Tests.test_eliminate) ... ok
+test_empty_not_atom (test_model.Tests.test_empty_not_atom) ... ok
+test_empty_target_vacuous (test_model.Tests.test_empty_target_vacuous) ... ok
+test_empty_universe (test_model.Tests.test_empty_universe) ... ok
+test_enumeration (test_model.Tests.test_enumeration) ... ok
+test_gap (test_model.Tests.test_gap) ... ok
+test_gap_conclusion (test_model.Tests.test_gap_conclusion) ... ok
+test_limit (test_model.Tests.test_limit) ... ok
+test_no_essence (test_model.Tests.test_no_essence) ... ok
+test_omissions (test_model.Tests.test_omissions) ... ok
+test_outside_parent (test_model.Tests.test_outside_parent) ... ok
+test_outside_predicate (test_model.Tests.test_outside_predicate) ... ok
+test_overlap (test_model.Tests.test_overlap) ... ok
+test_overlap_elimination_valid (test_model.Tests.test_overlap_elimination_valid) ... ok
+test_partition (test_model.Tests.test_partition) ... ok
+test_partition_does_not_select (test_model.Tests.test_partition_does_not_select) ... ok
+test_path (test_model.Tests.test_path) ... ok
+test_redundant (test_model.Tests.test_redundant) ... ok
+test_subsets (test_model.Tests.test_subsets) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.009s
+
+OK

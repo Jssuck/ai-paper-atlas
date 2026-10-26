@@ -1,0 +1,15 @@
+cell 1 OK
+partition: {'within': True, 'covers': True, 'disjoint': True}
+without branch evidence: {'premises': False, 'conclusion': False, 'violation': False}
+with exclusion: {'premises': True, 'conclusion': True, 'violation': False}
+cell 2 OK
+path: {'steps': [{'within': True, 'covers': True, 'disjoint': True, 'target_in_parent': True, 'target_in_selected': True, 'choice': 'left', 'provenance': 'observation'}, {'within': True, 'covers': True, 'disjoint': True, 'target_in_parent': True, 'target_in_selected': True, 'choice': 'left', 'provenance': 'assumption'}], 'endpoint': [0], 'extensional_certificate': True, 'essence_certified': False}
+full, omit last, skip middle: [0] [0, 1] [0, 2]
+redundant addition same extension: True
+cell 3 OK
+old vocabulary: True
+new vocabulary: False
+empty cell: False
+cell 4 OK
+{'max_n': 3, 'models': 4369, 'partitions_with_target': 156, 'selection_failures': 71, 'elimination_cases': 156, 'elimination_violations': 0, 'oracle_mismatches': 0, 'empty_target_models': 585}
+Executed 4 plain Python cells with stdlib exec; NOT a Jupyter kernel.

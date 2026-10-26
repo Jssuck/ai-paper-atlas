@@ -1,0 +1,8 @@
+Working directory: reproduction/aristotle-posterior-analytics-ii5/
+python run_all.py > logs/run.log
+python -m unittest -v test_model > logs/tests-normal.log 2>&1
+python -O -m unittest -v test_model > logs/tests-O.log 2>&1
+python -OO -m unittest -v test_model > logs/tests-OO.log 2>&1
+python run_notebook.py > logs/notebook.log
+All commands completed with exit code 0 on 2026-10-26 UTC.
+Notebook executor: standard-library sequential exec, not a Jupyter kernel.

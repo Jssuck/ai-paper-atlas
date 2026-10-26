@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "dependencies": "Python standard library only",
+  "notebook_execution": "Sequential exec, not a Jupyter kernel",
+  "scaffold": "Existing repository notebook structure reused; installed helper path absent; no installation"
+}

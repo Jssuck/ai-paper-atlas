@@ -1,0 +1,66 @@
+{
+  "enumeration": {
+    "max_n": 3,
+    "models": 4369,
+    "partitions_with_target": 156,
+    "selection_failures": 71,
+    "elimination_cases": 156,
+    "elimination_violations": 0,
+    "oracle_mismatches": 0,
+    "empty_target_models": 585
+  },
+  "examples": {
+    "partition_without_selection": {
+      "premises": false,
+      "conclusion": false,
+      "violation": false
+    },
+    "coverage_gap": {
+      "premises": false,
+      "conclusion": false,
+      "violation": false
+    },
+    "path": {
+      "steps": [
+        {
+          "within": true,
+          "covers": true,
+          "disjoint": true,
+          "target_in_parent": true,
+          "target_in_selected": true,
+          "choice": "left",
+          "provenance": "observation"
+        },
+        {
+          "within": true,
+          "covers": true,
+          "disjoint": true,
+          "target_in_parent": true,
+          "target_in_selected": true,
+          "choice": "left",
+          "provenance": "assumption"
+        }
+      ],
+      "endpoint": [
+        0
+      ],
+      "extensional_certificate": true,
+      "essence_certified": false
+    },
+    "formula_full": [
+      0
+    ],
+    "omit_last": [
+      0,
+      1
+    ],
+    "skip_middle": [
+      0,
+      2
+    ],
+    "redundant_addition_same_extension": true,
+    "relative_atom_before_new_predicate": true,
+    "relative_atom_after_new_predicate": false
+  },
+  "scope": "Finite extensional teaching model; not essence or scientific knowledge."
+}
