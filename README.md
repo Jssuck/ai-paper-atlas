@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.13：相邻角为什么等于两直角？](papers/ancient/euclid-elements-i13.zh-CN.md)，拆解辅助垂线、共同细分与射线点序，区分原证和现代角量/向量模型，附精确实跑、Notebook及独立双审。
+最新补读：[《几何原本》I.14：两角合为两直角，为什么还需要异侧条件？](papers/ancient/euclid-elements-i14.zh-CN.md)，拆解逆命题、辅助延长线、公设4与同减反证，区分角量证据和方向识别，附精确实跑、Notebook及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -151,6 +151,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.11精读](papers/ancient/euclid-elements-i11.zh-CN.md) | AI推理前史补读：线上点立垂线、等距截取、三边等角与直角定义、点序及端点延长 | 深读v1 · 含精确证书、实跑附件与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.12精读](papers/ancient/euclid-elements-i12.zh-CN.md) | AI推理前史补读：线外作垂线、圆线交点存在、弦中点与辅助选择无关性 | 深读v1 · 原证/现代补证分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.13精读](papers/ancient/euclid-elements-i13.zh-CN.md) | AI推理前史补读：相邻角和、共同细分、辅助对象与位置条件 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.14精读](papers/ancient/euclid-elements-i14.zh-CN.md) | AI推理前史补读：逆命题、异侧条件、角量相消与方向唯一性 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1406,3 +1407,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 最新补读：Euclid《几何原本》I.13
 
 [深读正文](papers/ancient/euclid-elements-i13.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i13.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i13.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i13.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i13/README.md)。完整I.13及Heath翻译注；明确原证同加/相等传递、角量与射线点序、现代旋转模型的边界。28测试三模式、360正证书/16负证书/66角量分拆，Notebook6格标准库compile/exec非kernel；有限运行不替代一般证明。仅本单元完成，不计I.14、全书或AI前史穷尽；既有暂缓项未变。
+
+
+## Euclid《几何原本》I.14 补读附件
+
+[深读正文](papers/ancient/euclid-elements-i14.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i14.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i14.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i14.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i14/README.md)。完整I.14及Heath相关评论；明确公设4、同减、异侧与半平面次序，现代旋转对不冒充原证。有限实跑不替代一般证明，Notebook为标准库compile/exec非kernel；仅本单元完成，不计后续命题、全书或AI前史穷尽，既有暂缓项未变。

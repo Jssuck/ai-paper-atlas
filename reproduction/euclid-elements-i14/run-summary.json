@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-27T07:42:16.147735+00:00",
+  "completed_at_utc": "2026-10-27T07:42:17.169755+00:00",
+  "commands": [
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.152992+00:00",
+      "duration_seconds": 0.13534863397944719,
+      "exit_code": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.288602+00:00",
+      "duration_seconds": 0.055467917991336435,
+      "exit_code": 0,
+      "log": "logs/examples-normal.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.344515+00:00",
+      "duration_seconds": 0.25126767400070094,
+      "exit_code": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.596083+00:00",
+      "duration_seconds": 0.11455838297843002,
+      "exit_code": 0,
+      "log": "logs/examples-O.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.711134+00:00",
+      "duration_seconds": 0.2514818130002823,
+      "exit_code": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:16.962859+00:00",
+      "duration_seconds": 0.11508915101876482,
+      "exit_code": 0,
+      "log": "logs/examples-OO.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "create_notebook.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:17.078552+00:00",
+      "duration_seconds": 0.029883788985898718,
+      "exit_code": 0,
+      "log": "logs/notebook-create.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify_notebook.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T07:42:17.108693+00:00",
+      "duration_seconds": 0.06068656200659461,
+      "exit_code": 0,
+      "log": "logs/notebook-execute.log"
+    }
+  ],
+  "tests_per_mode": 31,
+  "positive_certificates_per_mode": 180,
+  "negative_certificates_per_mode": 16,
+  "optimization_results_identical": true,
+  "no_bare_assert_in_checked_sources": true,
+  "notebook_code_cells": 6
+}

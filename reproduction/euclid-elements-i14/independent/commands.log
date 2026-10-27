@@ -1,0 +1,9 @@
+cwd: reproduction/euclid-elements-i14
+python3 test_geometry.py > independent/tests-normal.log 2>&1
+exit_code=0
+python3 -O test_geometry.py > independent/tests-O.log 2>&1
+exit_code=0
+python3 -OO test_geometry.py > independent/tests-OO.log 2>&1
+exit_code=0
+python3 independent/check.py > independent/results.json
+exit_code=0

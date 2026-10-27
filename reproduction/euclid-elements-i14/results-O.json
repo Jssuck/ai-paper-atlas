@@ -1,0 +1,94 @@
+{
+  "positive_certificates": 180,
+  "negative_certificates": 16,
+  "rational_turn_inputs": 128,
+  "positive_replay": "passed",
+  "negative_rejection": "passed",
+  "same_side_counterexample": {
+    "inputs": {
+      "B": [
+        "0",
+        "0"
+      ],
+      "A": [
+        "1",
+        "0"
+      ],
+      "C": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "-1",
+        "1"
+      ]
+    },
+    "side_crosses": [
+      "1",
+      "1"
+    ],
+    "angle_pairs": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "-1",
+        "1"
+      ]
+    ],
+    "angle_product": [
+      "-2",
+      "0"
+    ],
+    "opposite_sides": false,
+    "supplementary": true,
+    "conclusion_cross": "2",
+    "conclusion_dot": "0",
+    "opposite_rays": false
+  },
+  "coincident_right_counterexample": {
+    "inputs": {
+      "B": [
+        "0",
+        "0"
+      ],
+      "A": [
+        "1",
+        "0"
+      ],
+      "C": [
+        "0",
+        "1"
+      ],
+      "D": [
+        "0",
+        "2"
+      ]
+    },
+    "side_crosses": [
+      "1",
+      "2"
+    ],
+    "angle_pairs": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "angle_product": [
+      "-2",
+      "0"
+    ],
+    "opposite_sides": false,
+    "supplementary": true,
+    "conclusion_cross": "0",
+    "conclusion_dot": "2",
+    "opposite_rays": false
+  },
+  "limitations": "finite teaching checks, not a general theorem proof or historical formalization"
+}

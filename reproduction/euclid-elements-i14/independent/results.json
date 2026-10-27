@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "exact_configurations": 1768,
+  "valid_implications": 140,
+  "tampered_certificates": 420,
+  "rational_angle_inputs": 484,
+  "type_substitutions_rejected": 7,
+  "notebook_cells_replayed": 6,
+  "notebook_outputs_match": true,
+  "kernel_used": false
+}

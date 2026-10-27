@@ -1,0 +1,39 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -OO test_geometry.py
+test_algebra (__main__.GeometryTests.test_algebra) ... ok
+test_angle_converse (__main__.GeometryTests.test_angle_converse) ... ok
+test_angle_side (__main__.GeometryTests.test_angle_side) ... ok
+test_angle_zero (__main__.GeometryTests.test_angle_zero) ... ok
+test_bad_vector (__main__.GeometryTests.test_bad_vector) ... ok
+test_binding (__main__.GeometryTests.test_binding) ... ok
+test_bool (__main__.GeometryTests.test_bool) ... ok
+test_bool_integer_confusion (__main__.GeometryTests.test_bool_integer_confusion) ... ok
+test_certificate_extra (__main__.GeometryTests.test_certificate_extra) ... ok
+test_certificate_missing (__main__.GeometryTests.test_certificate_missing) ... ok
+test_certificate_replay (__main__.GeometryTests.test_certificate_replay) ... ok
+test_collinear_common (__main__.GeometryTests.test_collinear_common) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_fraction_scale (__main__.GeometryTests.test_fraction_scale) ... ok
+test_missing_sum (__main__.GeometryTests.test_missing_sum) ... ok
+test_negative_batch (__main__.GeometryTests.test_negative_batch) ... ok
+test_ninety_overlap (__main__.GeometryTests.test_ninety_overlap) ... ok
+test_non_finite_json (__main__.GeometryTests.test_non_finite_json) ... ok
+test_non_json_tuple (__main__.GeometryTests.test_non_json_tuple) ... ok
+test_positive_batch (__main__.GeometryTests.test_positive_batch) ... ok
+test_reflection (__main__.GeometryTests.test_reflection) ... ok
+test_right_overlap (__main__.GeometryTests.test_right_overlap) ... ok
+test_rotation (__main__.GeometryTests.test_rotation) ... ok
+test_same_side (__main__.GeometryTests.test_same_side) ... ok
+test_same_side_sum (__main__.GeometryTests.test_same_side_sum) ... ok
+test_scale (__main__.GeometryTests.test_scale) ... ok
+test_sixty_one_twenty (__main__.GeometryTests.test_sixty_one_twenty) ... ok
+test_translation (__main__.GeometryTests.test_translation) ... ok
+test_zero_c (__main__.GeometryTests.test_zero_c) ... ok
+test_zero_common (__main__.GeometryTests.test_zero_common) ... ok
+test_zero_d (__main__.GeometryTests.test_zero_d) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.051s
+
+OK
+
+exit_code=0
