@@ -1,0 +1,40 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -OO test_geometry.py
+test_all_cases (__main__.Tests.test_all_cases) ... ok
+test_all_invalid (__main__.Tests.test_all_invalid) ... ok
+test_angle_symmetry (__main__.Tests.test_angle_symmetry) ... ok
+test_bool_input (__main__.Tests.test_bool_input) ... ok
+test_bool_int_result (__main__.Tests.test_bool_int_result) ... ok
+test_extra_claim (__main__.Tests.test_extra_claim) ... ok
+test_float_input (__main__.Tests.test_float_input) ... ok
+test_input_binding (__main__.Tests.test_input_binding) ... ok
+test_int_bool_version (__main__.Tests.test_int_bool_version) ... ok
+test_ledger (__main__.Tests.test_ledger) ... ok
+test_ledger_bool (__main__.Tests.test_ledger_bool) ... ok
+test_ledger_degenerate (__main__.Tests.test_ledger_degenerate) ... ok
+test_ledger_missing_premise (__main__.Tests.test_ledger_missing_premise) ... ok
+test_missing_claim (__main__.Tests.test_missing_claim) ... ok
+test_mutate_angle (__main__.Tests.test_mutate_angle) ... ok
+test_nan_claim (__main__.Tests.test_nan_claim) ... ok
+test_noncollinear (__main__.Tests.test_noncollinear) ... ok
+test_nonstring_key (__main__.Tests.test_nonstring_key) ... ok
+test_numeric_string_binding (__main__.Tests.test_numeric_string_binding) ... ok
+test_obtuse (__main__.Tests.test_obtuse) ... ok
+test_one_reversal_not_equal (__main__.Tests.test_one_reversal_not_equal) ... ok
+test_opposite_scale (__main__.Tests.test_opposite_scale) ... ok
+test_positive_scaling (__main__.Tests.test_positive_scaling) ... ok
+test_rational (__main__.Tests.test_rational) ... ok
+test_right_angle (__main__.Tests.test_right_angle) ... ok
+test_roundtrip (__main__.Tests.test_roundtrip) ... ok
+test_same_ray (__main__.Tests.test_same_ray) ... ok
+test_scale_binding (__main__.Tests.test_scale_binding) ... ok
+test_simultaneous_reversal (__main__.Tests.test_simultaneous_reversal) ... ok
+test_tuple_claim (__main__.Tests.test_tuple_claim) ... ok
+test_zero_point (__main__.Tests.test_zero_point) ... ok
+test_zero_ray (__main__.Tests.test_zero_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.040s
+
+OK
+
+exit_code=0
