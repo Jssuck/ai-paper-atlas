@@ -70,7 +70,7 @@ $$
 
 $$
 \begin{array}{c|c|c}
-\text{临时角关系}&\text{在 H 下的后果}&\text{与 c\gt f 的冲突}\\
+\text{临时角关系}&\text{在 H 下的后果}&\text{与严格底差的冲突}\\
 \alpha=\beta&c=f\quad(\mathrm{I.4})&\text{严格大于排除相等}\\
 \alpha\lt\beta&c\lt f\quad(\mathrm{I.24})&\text{严格次序不能双向}\\
 \alpha\gt\beta&\text{唯一未排除项}&\text{结论}

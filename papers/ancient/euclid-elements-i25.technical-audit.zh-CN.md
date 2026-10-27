@@ -43,7 +43,7 @@ Notebook 的执行计数保持 null，单元元数据记录 compile/exec 顺序�
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `euclid-elements-i25.zh-CN.md` | `ab98f5495021c457e2740bac96fac867dc3032d23ae6502da708e6a2e27c163a` |
+| `euclid-elements-i25.zh-CN.md` | `eed11be832d221a491dce456b5a3fdddb5df0ac7a27eb87694737a4313dfaef9` |
 | `cases.py` | `25a1dda30cea4bb9617ca735b2dedd606d9d6647977b7f67f9ecb9845bde9d61` |
 | `create_notebook.py` | `de3a00c519ed628cd56a869bd08326420ba71a32ab7834b9eb960f0a2cb86b32` |
 | `geometry.py` | `7635bf540249486be3b6786c63a3f1816e56457b378cd8c7b168110151eaf473` |
@@ -52,3 +52,5 @@ Notebook 的执行计数保持 null，单元元数据记录 compile/exec 顺序�
 | `technical_probe.py` | `20fec45992e0bb7dd1e1c24ccea186d8f8d835556e0dd47c27c1ebe74f3ac131` |
 | `test_geometry.py` | `ccef3e8d57ced52c35897f6c60248c7456892031324739b33c9a5f8dfaaef3fe` |
 | `verify_notebook.py` | `bd543eaa855fe994a28e9351f6bd0aaed0ac580e9b63acdfa65baca5860a3130` |
+
+发布显示复核修订：仅将分支表表头的文字模式中不适用的比较指令改为“与严格底差的冲突”，数学前提与分支未变。通过逆向替换恢复旧SHA-256确认唯一字节差异，已按新正文重绑。
