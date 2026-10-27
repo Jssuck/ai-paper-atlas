@@ -11,7 +11,7 @@
 - **对读版本：** Richard Fitzpatrick，*Euclid’s Elements of Geometry*，2008 revised and corrected edition，第 15 页希英对照。希腊文本基于 Heiberg 1883–1885 年版。[PDF 入口](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf)。这是现代编辑与译本，不是 Euclid 亲笔稿。
 - **年代与传本：** [Clay 历史档案](https://www.claymath.org/library/historical/euclid/index.html) 区分约公元前 300 年的作品与公元 888 年的 D’Orville 301 抄本。抄本年代、译本年代和命题年代不能混成一个数字。
 
-下文明确区分：**【原文】**传世命题及其证明；**【古注／译者评论】**Heath 所述 Proclus 等材料；**【教学重构】**补足输入条件、顺序关系和现代坐标论证；**【分析推论】**与程序证书、自动推理的类比；**【真实实跑】**本仓库代码及日志。古注经 Heath 转述，不宣称已校读 Proclus 希腊原著。
+下文明确区分：【原文】传世命题及其证明；【古注／译者评论】Heath 所述 Proclus 等材料；【教学重构】补足输入条件、顺序关系和现代坐标论证；【分析推论】与程序证书、自动推理的类比；【真实实跑】本仓库代码及日志。古注经 Heath 转述，不宣称已校读 Proclus 希腊原著。
 
 [来源台账](euclid-elements-i9.sources.zh-CN.md) 给出主张与页码；[来源审查](euclid-elements-i9.source-audit.zh-CN.md)、[技术审查](euclid-elements-i9.technical-audit.zh-CN.md) 分别检查文本忠实性和数学／实现。
 
@@ -95,7 +95,7 @@ D 在 AB 方向，E 在 AC 方向；当 AF 已知位于角 BAC 内部时，这�
 本节是【教学重构】，独立采用欧氏平面向量与平方距离，不冒充古代尺规步骤。它既补证内部性，也解释坏分支。令 A 为原点，将 D、E 的位置向量记作 d、e，且：
 
 $$
-\|d\|=\|e\|=r\gt0,
+\lVert d\rVert=\lVert e\rVert=r\gt0,
 \qquad d\ne e,\quad d\ne-e.
 $$
 
@@ -108,7 +108,7 @@ $$
 于是 d=m+n、e=m−n，且直接展开可得：
 
 $$
-m\cdot n=\frac{\|d\|^2-\|e\|^2}{4}=0.
+m\cdot n=\frac{\lVert d\rVert^2-\lVert e\rVert^2}{4}=0.
 $$
 
 排除零角和平角保证 m、n 都非零。这里坐标轴沿 m、n 是**分析已有配置**，不表示在作图前就拥有角平分线。若把“先沿平分线摆正图形”当作实际构造的第一步，就循环了。
@@ -118,20 +118,20 @@ $$
 等边顶点 f 满足与 d、e 的距离相等。两平方距离相减：
 
 $$
-\|f-d\|^2-\|f-e\|^2=-4\cdot(f\cdot n)=0.
+\lVert f-d\rVert^2-\lVert f-e\rVert^2=-4\cdot(f\cdot n)=0.
 $$
 
 所以 f 与 n 垂直。在二维且 m 非零时，f=t m。再要求等边边长等于底边长度：
 
 $$
-\|f-d\|^2=(t-1)^2\|m\|^2+\|n\|^2
-=\|d-e\|^2=4\|n\|^2.
+\lVert f-d\rVert^2=(t-1)^2\lVert m\rVert^2+\lVert n\rVert^2
+=\lVert d-e\rVert^2=4\lVert n\rVert^2.
 $$
 
 因此：
 
 $$
-t=1\pm\sqrt{3}\frac{\|n\|}{\|m\|}.
+t=1\pm\sqrt{3}\frac{\lVert n\rVert}{\lVert m\rVert}.
 $$
 
 两个解正对应两个等边顶点。直线 DE 上点的 m 方向系数为 1，A 的系数为 0。选异于 A 的一侧，就是选 t 大于 1 的正号解，而不是凭屏幕“上面／下面”判断：旋转画布后上下会变，半平面关系不变。
@@ -147,7 +147,7 @@ $$
 两个系数都严格为正。对非反向的不同射线，正线性组合落在其凸角内部。因此 f 非零，AF 是内部射线。还可以检查：
 
 $$
-f\cdot d=f\cdot e=t\|m\|^2\gt0.
+f\cdot d=f\cdot e=t\lVert m\rVert^2\gt0.
 $$
 
 结合 d、e 等长，余弦表达给出两夹角相等。这是坐标版本的核验；原文仍然是通过 I.8 得到角相等。一般有效性由上述推导支持，不能由若干浮点图或有限测试替代。

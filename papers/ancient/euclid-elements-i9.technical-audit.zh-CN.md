@@ -6,7 +6,7 @@
 
 | 对象 | SHA256 |
 |---|---|
-| [中文深读](euclid-elements-i9.zh-CN.md) | `276995001b3bbb1ba3be68ac3b8fee0e95c49704148d464f6ff1a9b3ee65d002` |
+| [中文深读](euclid-elements-i9.zh-CN.md) | `6304e8971a422229c5bfda39494ef3b985156e2da5c02fd45d865c14889d8138` |
 | [geometry.py](../../reproduction/euclid-elements-i9/geometry.py) | `c10d812c93bb2dc09f5572639d7f94f90da3a09e86b0f2618ab195f4f0912112` |
 | [test_geometry.py](../../reproduction/euclid-elements-i9/test_geometry.py) | `82d48ed75d41dd236dc4cd17ca20827791343f16505a2cf32d49c097f59b1b46` |
 | [run_examples.py](../../reproduction/euclid-elements-i9/run_examples.py) | `f21303ba07ed21af013e854c61850ec545df2f61e04a185333b18c7d87631ea5` |
@@ -44,6 +44,6 @@
 
 ## 修订与剩余限制
 
-审查建议已落实：正文将 Notebook 执行方式从条件式改为本次实际方式，并用显式乘号替代一处易受渲染影响的间距写法。没有发现尚未修复的数学或程序阻塞。
+审查建议已落实：正文将 Notebook 执行方式从条件式改为本次实际方式，并用显式乘号替代一处易受渲染影响的间距写法。另核验显示层更正：范数改用显式左右双竖线命令，五类标签去除粗体标记。逆向恢复这两类排版变更所得 SHA256 与上一审查版本完全一致；核心源码和 Notebook 哈希未变，因此未虚称新增测试重跑。没有发现尚未修复的数学或程序阻塞。
 
 本审查不代替来源版本审查，也不声称已完成 GitHub 页面视觉核验；页面公式显示与远端文件完整性须由发布环节另外检查。独立副本重跑与额外交叉检查均已终结，没有待回收的测试进程。
