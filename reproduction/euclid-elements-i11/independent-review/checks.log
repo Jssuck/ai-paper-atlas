@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "independent_positive_cases": 864,
+  "negative_cases": 12,
+  "field_arithmetic_cases": 1156,
+  "coordinate_mutations": 18,
+  "notebook_cells_reexecuted_with_output_match": 6,
+  "notebook_method": "standard-library compile/exec; not a Jupyter kernel",
+  "finite_checks_not_general_proof": true
+}

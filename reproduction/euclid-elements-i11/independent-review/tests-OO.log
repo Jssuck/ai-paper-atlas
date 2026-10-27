@@ -1,0 +1,36 @@
+$ python3 -OO test_geometry.py
+test_cut_scale_same_line (__main__.GeometryTests.test_cut_scale_same_line) ... ok
+test_degenerate_line (__main__.GeometryTests.test_degenerate_line) ... ok
+test_endpoint_extension (__main__.GeometryTests.test_endpoint_extension) ... ok
+test_equal_distance_not_adjacent (__main__.GeometryTests.test_equal_distance_not_adjacent) ... ok
+test_examples (__main__.GeometryTests.test_examples) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_interior_exact (__main__.GeometryTests.test_interior_exact) ... ok
+test_invalid_branches (__main__.GeometryTests.test_invalid_branches) ... ok
+test_invalid_certificate (__main__.GeometryTests.test_invalid_certificate) ... ok
+test_invalid_coordinate_types (__main__.GeometryTests.test_invalid_coordinate_types) ... ok
+test_invalid_h_types (__main__.GeometryTests.test_invalid_h_types) ... ok
+test_irrational_input (__main__.GeometryTests.test_irrational_input) ... ok
+test_large_cut_extensions (__main__.GeometryTests.test_large_cut_extensions) ... ok
+test_large_translation_small_gap (__main__.GeometryTests.test_large_translation_small_gap) ... ok
+test_negatives (__main__.GeometryTests.test_negatives) ... ok
+test_nonpositive_h (__main__.GeometryTests.test_nonpositive_h) ... ok
+test_oblique (__main__.GeometryTests.test_oblique) ... ok
+test_off_line (__main__.GeometryTests.test_off_line) ... ok
+test_opposite_rays_same_line (__main__.GeometryTests.test_opposite_rays_same_line) ... ok
+test_other_endpoint_extension (__main__.GeometryTests.test_other_endpoint_extension) ... ok
+test_outside_C (__main__.GeometryTests.test_outside_C) ... ok
+test_parameter (__main__.GeometryTests.test_parameter) ... ok
+test_perpendicular_not_full_construction (__main__.GeometryTests.test_perpendicular_not_full_construction) ... ok
+test_q3_field (__main__.GeometryTests.test_q3_field) ... ok
+test_q3_sign_near_cancellation (__main__.GeometryTests.test_q3_sign_near_cancellation) ... ok
+test_reverse_line (__main__.GeometryTests.test_reverse_line) ... ok
+test_tiny_large_exact (__main__.GeometryTests.test_tiny_large_exact) ... ok
+test_unequal_cuts_equilateral_not_perpendicular (__main__.GeometryTests.test_unequal_cuts_equilateral_not_perpendicular) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.013s
+
+OK
+
+exit_code=0

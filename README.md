@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.10：等距点为什么还不一定是中点](papers/ancient/euclid-elements-i10.zh-CN.md)，拆解等边构造、角平分与边角边，以及交点内部性与唯一性，附精确构造证书、真实日志、Notebook 及独立双审。
+最新补读：[《几何原本》I.11：从等边构造到直角，为什么点序不能省略](papers/ancient/euclid-elements-i11.zh-CN.md)，拆解等距截取、三边等角与直角定义，区分端点延长、两条射线和唯一垂直直线，附精确证书、真实日志、Notebook 及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -148,6 +148,7 @@
 | 约公元前300年（前史补读；实读1908/2008版本） | [Euclid《几何原本》I.8精读](papers/ancient/euclid-elements-i8.zh-CN.md) | 演绎与约束前史：三边对应、叠合同侧、夹角相等与现代等距证书 | 深读v1 · 原证与重构分层、真实实跑及独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.9精读](papers/ancient/euclid-elements-i9.zh-CN.md) | AI推理前史补读：角平分构造、异侧选择、内部射线与退化证书 | 深读v1 · 原文/古注分层、精确教学核验与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.10精读](papers/ancient/euclid-elements-i10.zh-CN.md) | AI推理前史补读：线段二等分、角平分依赖、交点内部性与唯一中点 | 深读v1 · 原证/现代补证分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.11精读](papers/ancient/euclid-elements-i11.zh-CN.md) | AI推理前史补读：线上点立垂线、等距截取、三边等角与直角定义、点序及端点延长 | 深读v1 · 含精确证书、实跑附件与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1392,3 +1393,4 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 最新补读：Euclid《几何原本》I.10
 
 新增 [I.10 深读](papers/ancient/euclid-elements-i10.zh-CN.md)，完整核读 Heath 印刷267页正文及268页评论、Fitzpatrick15–16页。区分原文依次调用 I.1、I.9、I.4 的证明、现代交点内部性补证与真实精确证书核验；等距不等于在线段上的中点，辅助两支也不等于输出不唯一。[来源台账](papers/ancient/euclid-elements-i10.sources.zh-CN.md)、[来源审查](papers/ancient/euclid-elements-i10.source-audit.zh-CN.md)、[技术审查](papers/ancient/euclid-elements-i10.technical-audit.zh-CN.md)及[复现与Notebook](reproduction/euclid-elements-i10/README.md)给出可复查证据。有限实跑不证明一般定理；只完成本阅读单元，不把古代构造称为现代AI论文。
+
