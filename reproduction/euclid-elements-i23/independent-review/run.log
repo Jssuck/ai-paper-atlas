@@ -1,0 +1,11 @@
+$ python3 independent-review/check.py
+started_at_utc=2026-10-27T17:40:45.883722+00:00
+{
+  "method": "independent Q(sqrt(d)) coordinate arithmetic; no use of geometry dot/cross/sub or supplied checks for geometric truth",
+  "positive_cases": 2976,
+  "tampered_certificates_rejected": 21,
+  "input_rebinding_rejections": 2,
+  "finite_check_not_general_proof": true,
+  "geometry_sha256": "1fe89f6a41fab7030b273b2cf6cfb7067c7ceb46b7b6c16373ae5408f4ac4986"
+}
+exit_code=0

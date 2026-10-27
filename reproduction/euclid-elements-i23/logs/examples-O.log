@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O run_examples.py
+{"irrational_scale_certificates": 126, "negative_inputs": 14, "orientation_reversing_certificates": 72, "positive_certificates": 144}
+
+exit_code=0
