@@ -1,0 +1,54 @@
+{
+  "completed_at_utc": "2026-10-27T12:42:33.449603+00:00",
+  "python": "3.12.14",
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-i18",
+      "exit_code": 0,
+      "log": "independent-review/tests-normal.log"
+    },
+    {
+      "argv": [
+        "python",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-i18",
+      "exit_code": 0,
+      "log": "independent-review/tests-O.log"
+    },
+    {
+      "argv": [
+        "python",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-i18",
+      "exit_code": 0,
+      "log": "independent-review/tests-OO.log"
+    },
+    {
+      "argv": [
+        "python",
+        "independent-review/check.py"
+      ],
+      "cwd": "reproduction/euclid-elements-i18",
+      "exit_code": 0,
+      "log": "independent-review/check.log"
+    }
+  ],
+  "article_sha256": "4a6cbe775cd9bdf60985a3d1d3a5674483601673a6cb4b37c7249e18f7cdd027"
+}

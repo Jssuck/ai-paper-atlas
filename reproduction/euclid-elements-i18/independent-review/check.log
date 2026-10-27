@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "counts": {
+    "configurations": 144,
+    "mutations": 1152,
+    "arithmetic": 243,
+    "angle_pairs": 2304,
+    "notebook_cells": 6
+  },
+  "numeric_diagnostic_precision": 80,
+  "notebook_kernel": false
+}

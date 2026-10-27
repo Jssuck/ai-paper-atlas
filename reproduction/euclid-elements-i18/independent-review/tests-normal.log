@@ -1,0 +1,37 @@
+test_01_positive (test_geometry.GeometryTests.test_01_positive) ... ok
+test_02_all_cases (test_geometry.GeometryTests.test_02_all_cases) ... ok
+test_03_negative (test_geometry.GeometryTests.test_03_negative) ... ok
+test_04_irrational (test_geometry.GeometryTests.test_04_irrational) ... ok
+test_05_rational (test_geometry.GeometryTests.test_05_rational) ... ok
+test_06_input_binding (test_geometry.GeometryTests.test_06_input_binding) ... ok
+test_07_t_tamper (test_geometry.GeometryTests.test_07_t_tamper) ... ok
+test_08_d_tamper (test_geometry.GeometryTests.test_08_d_tamper) ... ok
+test_09_check_tamper (test_geometry.GeometryTests.test_09_check_tamper) ... ok
+test_10_bool_to_int (test_geometry.GeometryTests.test_10_bool_to_int) ... ok
+test_11_tuple (test_geometry.GeometryTests.test_11_tuple) ... ok
+test_12_nan (test_geometry.GeometryTests.test_12_nan) ... ok
+test_13_extra (test_geometry.GeometryTests.test_13_extra) ... ok
+test_14_missing (test_geometry.GeometryTests.test_14_missing) ... ok
+test_15_bool_input (test_geometry.GeometryTests.test_15_bool_input) ... ok
+test_16_float_input (test_geometry.GeometryTests.test_16_float_input) ... ok
+test_17_quadratic_input (test_geometry.GeometryTests.test_17_quadratic_input) ... ok
+test_18_q_square (test_geometry.GeometryTests.test_18_q_square) ... ok
+test_19_q_div (test_geometry.GeometryTests.test_19_q_div) ... ok
+test_20_q_sign_positive (test_geometry.GeometryTests.test_20_q_sign_positive) ... ok
+test_21_q_sign_negative (test_geometry.GeometryTests.test_21_q_sign_negative) ... ok
+test_22_q_sign_large (test_geometry.GeometryTests.test_22_q_sign_large) ... ok
+test_23_q_rational_reduce (test_geometry.GeometryTests.test_23_q_rational_reduce) ... ok
+test_24_mixed_radicals (test_geometry.GeometryTests.test_24_mixed_radicals) ... ok
+test_25_zero_div (test_geometry.GeometryTests.test_25_zero_div) ... ok
+test_26_zero_angle (test_geometry.GeometryTests.test_26_zero_angle) ... ok
+test_27_straight_angle (test_geometry.GeometryTests.test_27_straight_angle) ... ok
+test_28_acute (test_geometry.GeometryTests.test_28_acute) ... ok
+test_29_obtuse (test_geometry.GeometryTests.test_29_obtuse) ... ok
+test_30_equal_angle (test_geometry.GeometryTests.test_30_equal_angle) ... ok
+test_31_zero_ray (test_geometry.GeometryTests.test_31_zero_ray) ... ok
+test_32_negative_radicand (test_geometry.GeometryTests.test_32_negative_radicand) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.764s
+
+OK

@@ -1,0 +1,40 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -OO test_geometry.py
+test_01_positive (__main__.GeometryTests.test_01_positive) ... ok
+test_02_all_cases (__main__.GeometryTests.test_02_all_cases) ... ok
+test_03_negative (__main__.GeometryTests.test_03_negative) ... ok
+test_04_irrational (__main__.GeometryTests.test_04_irrational) ... ok
+test_05_rational (__main__.GeometryTests.test_05_rational) ... ok
+test_06_input_binding (__main__.GeometryTests.test_06_input_binding) ... ok
+test_07_t_tamper (__main__.GeometryTests.test_07_t_tamper) ... ok
+test_08_d_tamper (__main__.GeometryTests.test_08_d_tamper) ... ok
+test_09_check_tamper (__main__.GeometryTests.test_09_check_tamper) ... ok
+test_10_bool_to_int (__main__.GeometryTests.test_10_bool_to_int) ... ok
+test_11_tuple (__main__.GeometryTests.test_11_tuple) ... ok
+test_12_nan (__main__.GeometryTests.test_12_nan) ... ok
+test_13_extra (__main__.GeometryTests.test_13_extra) ... ok
+test_14_missing (__main__.GeometryTests.test_14_missing) ... ok
+test_15_bool_input (__main__.GeometryTests.test_15_bool_input) ... ok
+test_16_float_input (__main__.GeometryTests.test_16_float_input) ... ok
+test_17_quadratic_input (__main__.GeometryTests.test_17_quadratic_input) ... ok
+test_18_q_square (__main__.GeometryTests.test_18_q_square) ... ok
+test_19_q_div (__main__.GeometryTests.test_19_q_div) ... ok
+test_20_q_sign_positive (__main__.GeometryTests.test_20_q_sign_positive) ... ok
+test_21_q_sign_negative (__main__.GeometryTests.test_21_q_sign_negative) ... ok
+test_22_q_sign_large (__main__.GeometryTests.test_22_q_sign_large) ... ok
+test_23_q_rational_reduce (__main__.GeometryTests.test_23_q_rational_reduce) ... ok
+test_24_mixed_radicals (__main__.GeometryTests.test_24_mixed_radicals) ... ok
+test_25_zero_div (__main__.GeometryTests.test_25_zero_div) ... ok
+test_26_zero_angle (__main__.GeometryTests.test_26_zero_angle) ... ok
+test_27_straight_angle (__main__.GeometryTests.test_27_straight_angle) ... ok
+test_28_acute (__main__.GeometryTests.test_28_acute) ... ok
+test_29_obtuse (__main__.GeometryTests.test_29_obtuse) ... ok
+test_30_equal_angle (__main__.GeometryTests.test_30_equal_angle) ... ok
+test_31_zero_ray (__main__.GeometryTests.test_31_zero_ray) ... ok
+test_32_negative_radicand (__main__.GeometryTests.test_32_negative_radicand) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.797s
+
+OK
+
+exit_code=0

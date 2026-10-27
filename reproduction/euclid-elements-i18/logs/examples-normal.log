@@ -1,0 +1,93 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python run_examples.py
+{
+  "positive_certificates": 180,
+  "irrational_cuts": 144,
+  "negative_inputs": 14,
+  "example": {
+    "schema": "euclid-i18-v1",
+    "input": {
+      "A": [
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        }
+      ],
+      "B": [
+        {
+          "a": "1",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "1",
+          "b": "0",
+          "radicand": "0"
+        }
+      ],
+      "C": [
+        {
+          "a": "4",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        }
+      ]
+    },
+    "t": {
+      "a": "0",
+      "b": "1",
+      "radicand": "1/8"
+    },
+    "D": [
+      {
+        "a": "0",
+        "b": "4",
+        "radicand": "1/8"
+      },
+      {
+        "a": "0",
+        "b": "0",
+        "radicand": "0"
+      }
+    ],
+    "BD_cone_coefficients": [
+      {
+        "a": "1",
+        "b": "-1",
+        "radicand": "1/8"
+      },
+      {
+        "a": "0",
+        "b": "1",
+        "radicand": "1/8"
+      }
+    ],
+    "checks": {
+      "cut_parameter_positive": true,
+      "cut_parameter_below_one": true,
+      "AD_equals_AB": true,
+      "D_on_AC": true,
+      "D_strictly_between_A_C": true,
+      "BD_positive_cone_identity": true,
+      "ABD_nondegenerate": true,
+      "DBC_nondegenerate": true,
+      "base_angles_equal_modern_check": true,
+      "exterior_angle_strict_modern_check": true,
+      "proper_angle_part_modern_check": true,
+      "conclusion_modern_check": true
+    }
+  },
+  "scope": "finite rational-input tests, not a general proof"
+}
+
+exit_code=0
