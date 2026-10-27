@@ -1,0 +1,223 @@
+{
+  "positive_count": 252,
+  "negative_count": 6,
+  "negative_cases": {
+    "same_side_equal_ordinary_angles": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "2",
+        "0"
+      ],
+      "A": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "1",
+        "1"
+      ]
+    },
+    "opposite_side_unequal_angles": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "2",
+        "0"
+      ],
+      "A": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "2",
+        "-1"
+      ]
+    },
+    "supplementary_not_equal": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "2",
+        "0"
+      ],
+      "A": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "3",
+        "-1"
+      ]
+    },
+    "zero_transversal": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "0",
+        "0"
+      ],
+      "A": [
+        "1",
+        "1"
+      ],
+      "D": [
+        "-1",
+        "-1"
+      ]
+    },
+    "zero_ray": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "2",
+        "0"
+      ],
+      "A": [
+        "0",
+        "0"
+      ],
+      "D": [
+        "1",
+        "-1"
+      ]
+    },
+    "coincident_lines": {
+      "E": [
+        "0",
+        "0"
+      ],
+      "F": [
+        "2",
+        "0"
+      ],
+      "A": [
+        "1",
+        "0"
+      ],
+      "D": [
+        "3",
+        "0"
+      ]
+    }
+  },
+  "rejected": [
+    "same_side_equal_ordinary_angles",
+    "opposite_side_unequal_angles",
+    "supplementary_not_equal",
+    "zero_transversal",
+    "zero_ray",
+    "coincident_lines"
+  ],
+  "examples": [
+    {
+      "schema": 1,
+      "input": {
+        "A": [
+          "-3",
+          "1"
+        ],
+        "D": [
+          "7/2",
+          "-1/2"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ]
+      },
+      "input_sha256": "dfe13cd831b6be25c2a5cf16b4afeb37d15f12b17e6c275b53be6cd59cfb10e4",
+      "angle_keys": [
+        "-3",
+        "-3"
+      ],
+      "transversal_side_determinants": [
+        "2",
+        "-1"
+      ],
+      "direction_determinant": "0",
+      "opposite_scale": "1/2",
+      "conclusion": "distinct coplanar lines EA and FD do not intersect"
+    },
+    {
+      "schema": 1,
+      "input": {
+        "A": [
+          "0",
+          "1"
+        ],
+        "D": [
+          "2",
+          "-1/2"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ]
+      },
+      "input_sha256": "363504e8f11ea4426e54a763894be175ba2723cf8c8608c745c72e939cadfb52",
+      "angle_keys": [
+        "0",
+        "0"
+      ],
+      "transversal_side_determinants": [
+        "2",
+        "-1"
+      ],
+      "direction_determinant": "0",
+      "opposite_scale": "1/2",
+      "conclusion": "distinct coplanar lines EA and FD do not intersect"
+    },
+    {
+      "schema": 1,
+      "input": {
+        "A": [
+          "1",
+          "1"
+        ],
+        "D": [
+          "3/2",
+          "-1/2"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ]
+      },
+      "input_sha256": "2cd324c7c980bda7ee7399062508aefbc649ea8c3163d90139325dd3ed734327",
+      "angle_keys": [
+        "1",
+        "1"
+      ],
+      "transversal_side_determinants": [
+        "2",
+        "-1"
+      ],
+      "direction_determinant": "0",
+      "opposite_scale": "1/2",
+      "conclusion": "distinct coplanar lines EA and FD do not intersect"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "commands": [
+    {
+      "command": "python3 technical_probe.py",
+      "exit_code": 0,
+      "output": "technical-probe.json"
+    },
+    {
+      "command": "python3 -O technical_probe.py",
+      "exit_code": 0,
+      "output": "logs/technical-O.txt"
+    },
+    {
+      "command": "python3 -OO technical_probe.py",
+      "exit_code": 0,
+      "output": "logs/technical-OO.txt"
+    }
+  ],
+  "files_sha256": {
+    "geometry.py": "f9cfbd1984dcd7535679537b9a901168375d701f15494a5438277f82c85887a4",
+    "test_geometry.py": "c0ac52b2e35605aa963b0aebc0e578aa9baa33afc4daab171ad48aef9ea215e4",
+    "cases.py": "14293a24aa0426fb3735e1388188269fc661bb47a200803b0d198e01a53d7e61",
+    "verify_notebook.py": "305147db0161a58e05c4f817816b342b6a6213bf849d6418e06e83556503301e",
+    "technical_probe.py": "f7357d271b4d8b275d8529127d27b145d2249ef907a5ea045d1d0e1bc5c508a8"
+  },
+  "method_note": "Initial reviewer output equality check was overly strict about unittest elapsed time; after limiting normalization to that duration field, six-cell output content matched. No geometry code was changed."
+}

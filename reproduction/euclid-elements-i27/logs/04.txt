@@ -1,0 +1,6 @@
+$ python3 run_examples.py
+exit_code=0
+STDOUT
+{"positive_count": 252, "negative_count": 6}
+
+STDERR

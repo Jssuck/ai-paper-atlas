@@ -1,0 +1,39 @@
+$ python3 -O -m unittest -v test_geometry
+exit_code=0
+STDOUT
+
+STDERR
+test_acute_sign (test_geometry.Checks.test_acute_sign) ... ok
+test_all_negative_families (test_geometry.Checks.test_all_negative_families) ... ok
+test_all_positive_families (test_geometry.Checks.test_all_positive_families) ... ok
+test_bad_input_fields (test_geometry.Checks.test_bad_input_fields) ... ok
+test_bool_coordinate_in_certificate (test_geometry.Checks.test_bool_coordinate_in_certificate) ... ok
+test_bool_schema (test_geometry.Checks.test_bool_schema) ... ok
+test_canonical_fraction (test_geometry.Checks.test_canonical_fraction) ... ok
+test_coordinate_types (test_geometry.Checks.test_coordinate_types) ... ok
+test_extra_certificate_field (test_geometry.Checks.test_extra_certificate_field) ... ok
+test_extra_input_field (test_geometry.Checks.test_extra_input_field) ... ok
+test_float_schema (test_geometry.Checks.test_float_schema) ... ok
+test_input_binding (test_geometry.Checks.test_input_binding) ... ok
+test_invalid_expected_input (test_geometry.Checks.test_invalid_expected_input) ... ok
+test_missing_certificate_field (test_geometry.Checks.test_missing_certificate_field) ... ok
+test_mutated_angle (test_geometry.Checks.test_mutated_angle) ... ok
+test_mutated_conclusion (test_geometry.Checks.test_mutated_conclusion) ... ok
+test_mutated_scale (test_geometry.Checks.test_mutated_scale) ... ok
+test_mutated_side (test_geometry.Checks.test_mutated_side) ... ok
+test_no_alias (test_geometry.Checks.test_no_alias) ... ok
+test_non_json_tuple (test_geometry.Checks.test_non_json_tuple) ... ok
+test_noncanonical_rationals (test_geometry.Checks.test_noncanonical_rationals) ... ok
+test_nonobject_certificate (test_geometry.Checks.test_nonobject_certificate) ... ok
+test_nonobject_input (test_geometry.Checks.test_nonobject_input) ... ok
+test_obtuse_sign (test_geometry.Checks.test_obtuse_sign) ... ok
+test_point_shape (test_geometry.Checks.test_point_shape) ... ok
+test_rehashed_different_input (test_geometry.Checks.test_rehashed_different_input) ... ok
+test_right_angle (test_geometry.Checks.test_right_angle) ... ok
+test_strict_type_recursive (test_geometry.Checks.test_strict_type_recursive) ... ok
+test_string_schema (test_geometry.Checks.test_string_schema) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.038s
+
+OK

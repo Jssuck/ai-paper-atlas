@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "independent finite rational families and mutations; notebook compile/exec, not kernel",
+  "counts": {
+    "positive_inputs": 1488,
+    "negative_inputs": 992,
+    "certificate_attacks": 179,
+    "input_attacks": 80,
+    "notebook_cells_reexecuted": 6
+  },
+  "geometry_sha256": "f9cfbd1984dcd7535679537b9a901168375d701f15494a5438277f82c85887a4"
+}
