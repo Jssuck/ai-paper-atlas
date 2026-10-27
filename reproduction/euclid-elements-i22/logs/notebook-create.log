@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python create_notebook.py
+created tutorial: six code cells
+
+exit_code=0

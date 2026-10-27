@@ -1,0 +1,44 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O test_geometry.py
+test_345 (__main__.GeometryTests.test_345) ... ok
+test_all_cases (__main__.GeometryTests.test_all_cases) ... ok
+test_bool_int (__main__.GeometryTests.test_bool_int) ... ok
+test_contained (__main__.GeometryTests.test_contained) ... ok
+test_equilateral (__main__.GeometryTests.test_equilateral) ... ok
+test_external_tangent (__main__.GeometryTests.test_external_tangent) ... ok
+test_extra_key (__main__.GeometryTests.test_extra_key) ... ok
+test_factorization (__main__.GeometryTests.test_factorization) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_fraction_strings (__main__.GeometryTests.test_fraction_strings) ... ok
+test_height (__main__.GeometryTests.test_height) ... ok
+test_input_binding (__main__.GeometryTests.test_input_binding) ... ok
+test_int_bool (__main__.GeometryTests.test_int_bool) ... ok
+test_internal_tangent (__main__.GeometryTests.test_internal_tangent) ... ok
+test_intersect (__main__.GeometryTests.test_intersect) ... ok
+test_json_roundtrip (__main__.GeometryTests.test_json_roundtrip) ... ok
+test_mirrors (__main__.GeometryTests.test_mirrors) ... ok
+test_missing_key (__main__.GeometryTests.test_missing_key) ... ok
+test_nan (__main__.GeometryTests.test_nan) ... ok
+test_near_degenerate (__main__.GeometryTests.test_near_degenerate) ... ok
+test_negative_inputs (__main__.GeometryTests.test_negative_inputs) ... ok
+test_orientation (__main__.GeometryTests.test_orientation) ... ok
+test_outside_projection (__main__.GeometryTests.test_outside_projection) ... ok
+test_quad_fields (__main__.GeometryTests.test_quad_fields) ... ok
+test_quad_invalid (__main__.GeometryTests.test_quad_invalid) ... ok
+test_quad_nonrational (__main__.GeometryTests.test_quad_nonrational) ... ok
+test_quad_product (__main__.GeometryTests.test_quad_product) ... ok
+test_quad_square (__main__.GeometryTests.test_quad_square) ... ok
+test_reordered_keys (__main__.GeometryTests.test_reordered_keys) ... ok
+test_scale (__main__.GeometryTests.test_scale) ... ok
+test_separate (__main__.GeometryTests.test_separate) ... ok
+test_sign_binding (__main__.GeometryTests.test_sign_binding) ... ok
+test_tamper_coordinate (__main__.GeometryTests.test_tamper_coordinate) ... ok
+test_tamper_distance (__main__.GeometryTests.test_tamper_distance) ... ok
+test_tamper_radicand (__main__.GeometryTests.test_tamper_radicand) ... ok
+test_tuple (__main__.GeometryTests.test_tuple) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.115s
+
+OK
+
+exit_code=0

@@ -1,0 +1,112 @@
+{
+  "positive_certificates": 444,
+  "negative_inputs": 15,
+  "irrational_height_certificates": 408,
+  "examples": {
+    "3_4_5": {
+      "schema_version": 1,
+      "input": {
+        "a": "3",
+        "b": "4",
+        "c": "5"
+      },
+      "orientation": 1,
+      "F": [
+        "0",
+        "0"
+      ],
+      "G": [
+        "5",
+        "0"
+      ],
+      "K": {
+        "x": "9/5",
+        "y": {
+          "coefficient": "1",
+          "radicand": "144/25"
+        }
+      },
+      "height_squared": "144/25",
+      "factorized_height_squared": "144/25",
+      "squared_distances": {
+        "FK": "9",
+        "GK": "16",
+        "FG": "25"
+      },
+      "strict_triangle": true,
+      "noncollinear": true
+    },
+    "equilateral": {
+      "schema_version": 1,
+      "input": {
+        "a": "1",
+        "b": "1",
+        "c": "1"
+      },
+      "orientation": 1,
+      "F": [
+        "0",
+        "0"
+      ],
+      "G": [
+        "1",
+        "0"
+      ],
+      "K": {
+        "x": "1/2",
+        "y": {
+          "coefficient": "1",
+          "radicand": "3/4"
+        }
+      },
+      "height_squared": "3/4",
+      "factorized_height_squared": "3/4",
+      "squared_distances": {
+        "FK": "1",
+        "GK": "1",
+        "FG": "1"
+      },
+      "strict_triangle": true,
+      "noncollinear": true
+    },
+    "outside_base_projection": {
+      "schema_version": 1,
+      "input": {
+        "a": "2",
+        "b": "4",
+        "c": "3"
+      },
+      "orientation": 1,
+      "F": [
+        "0",
+        "0"
+      ],
+      "G": [
+        "3",
+        "0"
+      ],
+      "K": {
+        "x": "-1/2",
+        "y": {
+          "coefficient": "1",
+          "radicand": "15/4"
+        }
+      },
+      "height_squared": "15/4",
+      "factorized_height_squared": "15/4",
+      "squared_distances": {
+        "FK": "4",
+        "GK": "16",
+        "FG": "9"
+      },
+      "strict_triangle": true,
+      "noncollinear": true
+    }
+  },
+  "boundary_classes": [
+    "external_tangent_degenerate",
+    "internal_tangent_degenerate",
+    "separate",
+    "contained"
+  ]
+}
