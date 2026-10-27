@@ -1,0 +1,41 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O test_geometry.py
+test_area_not_monotone (__main__.GeometryTests.test_area_not_monotone) ... ok
+test_article_examples (__main__.GeometryTests.test_article_examples) ... ok
+test_boolean_tamper (__main__.GeometryTests.test_boolean_tamper) ... ok
+test_changed_gap (__main__.GeometryTests.test_changed_gap) ... ok
+test_close_angles (__main__.GeometryTests.test_close_angles) ... ok
+test_collinear (__main__.GeometryTests.test_collinear) ... ok
+test_configuration_tamper (__main__.GeometryTests.test_configuration_tamper) ... ok
+test_duplicate_keys (__main__.GeometryTests.test_duplicate_keys) ... ok
+test_equal_angle_boundary (__main__.GeometryTests.test_equal_angle_boundary) ... ok
+test_exact_example (__main__.GeometryTests.test_exact_example) ... ok
+test_extra_field (__main__.GeometryTests.test_extra_field) ... ok
+test_float_tamper (__main__.GeometryTests.test_float_tamper) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_inf (__main__.GeometryTests.test_inf) ... ok
+test_input_copy (__main__.GeometryTests.test_input_copy) ... ok
+test_inside (__main__.GeometryTests.test_inside) ... ok
+test_invalid (__main__.GeometryTests.test_invalid) ... ok
+test_json_roundtrip (__main__.GeometryTests.test_json_roundtrip) ... ok
+test_missing_field (__main__.GeometryTests.test_missing_field) ... ok
+test_monotone (__main__.GeometryTests.test_monotone) ... ok
+test_nan (__main__.GeometryTests.test_nan) ... ok
+test_near_pi (__main__.GeometryTests.test_near_pi) ... ok
+test_near_zero (__main__.GeometryTests.test_near_zero) ... ok
+test_nested_bool (__main__.GeometryTests.test_nested_bool) ... ok
+test_not_dict (__main__.GeometryTests.test_not_dict) ... ok
+test_outside (__main__.GeometryTests.test_outside) ... ok
+test_point_tamper (__main__.GeometryTests.test_point_tamper) ... ok
+test_reflection (__main__.GeometryTests.test_reflection) ... ok
+test_reversed_angle (__main__.GeometryTests.test_reversed_angle) ... ok
+test_scale (__main__.GeometryTests.test_scale) ... ok
+test_type_equality (__main__.GeometryTests.test_type_equality) ... ok
+test_unit (__main__.GeometryTests.test_unit) ... ok
+test_wrong_input (__main__.GeometryTests.test_wrong_input) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.046s
+
+OK
+
+exit_code=0

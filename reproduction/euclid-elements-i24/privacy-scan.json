@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "files_scanned": 26,
+  "checks": [
+    "secret_token",
+    "private_path",
+    "private_conversation",
+    "private_key"
+  ],
+  "hits": [],
+  "limitations": "heuristic scan plus manual review; not a comprehensive secret detector"
+}

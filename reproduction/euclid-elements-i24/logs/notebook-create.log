@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python create_notebook.py
+created tutorial with six code cells; stdlib scaffold fallback
+
+exit_code=0

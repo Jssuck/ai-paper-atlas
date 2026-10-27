@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.23：复制一个角，为什么“有三角形”还不够？](papers/ancient/euclid-elements-i23.zh-CN.md)，拆解指定位置的构造、I.22 与 I.8 的依赖、基射线与镜像选择，附精确证书、真实 Notebook 实跑及独立双审。
+最新补读：[《几何原本》I.24：夹角越大，对边越长——图上漏掉的两种情形怎么办？](papers/ancient/euclid-elements-i24.zh-CN.md)，重建外部、共线、内部三型，核对短边修补、角平分替代证与面积反例，附精确证书、真实 Notebook 实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -161,6 +161,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.21精读](papers/ancient/euclid-elements-i21.zh-CN.md) | AI推理前史补读：内部折线长度与夹角、共同端点、点序与证据链 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.22精读](papers/ancient/euclid-elements-i22.zh-CN.md) | AI推理前史补读：三边可构造条件、圆连续性、退化边界与镜像唯一性 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.23精读](papers/ancient/euclid-elements-i23.zh-CN.md) | AI推理前史补读：角复制、指定位置构造、三边对应、目标射线与镜像侧向 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.24精读](papers/ancient/euclid-elements-i24.zh-CN.md) | AI推理前史补读：两边夹角不等式、三型穷尽、角内部与证书类型安全 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1463,3 +1464,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Euclid《几何原本》I.23 可运行附件
 
 [深读正文](papers/ancient/euclid-elements-i23.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i23.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i23.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i23.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i23/README.md)。完整 I.23 与 Heath 定位修补评论，严格区分三边存在、指定位置、正向基射线和镜像侧向。32 测试三模式、144 正例/14 非法输入；Notebook 6 格标准库 compile/exec 非 kernel。有限运行不替代一般证明；仅本单元完成，不计后续命题或前史穷尽，既有暂缓项未变。
+
+
+## Euclid《几何原本》I.24 可运行附件
+
+[深读正文](papers/ancient/euclid-elements-i24.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i24.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i24.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i24.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i24/README.md)。完整 I.24 与 Heath 图形分支评论，严格区分原证、补全、现代坐标和真实实跑；不用 I.25 循环证明。33 测试三模式、300 正证书/21 非法输入；Notebook 6 格标准库 compile/exec 非 kernel。有限运行不替代一般证明；仅本单元完成，不计后续命题或前史穷尽，既有暂缓项未变。

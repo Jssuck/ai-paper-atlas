@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "independent_intersection_cases": 9750,
+  "configuration_counts": {
+    "inside": 724,
+    "outside": 8994,
+    "collinear": 32
+  },
+  "integer_leaf_type_attacks_rejected": 72,
+  "additional_JSON_attacks_rejected": 3,
+  "method": "exact ray-edge intersection, separate distance expansion, recursive leaf mutation",
+  "finite_scope_only": true
+}
