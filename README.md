@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.25：底边更长，为什么夹角就必须更大？](papers/ancient/euclid-elements-i25.zh-CN.md)，拆解 I.4 等角排除、I.24 反序排除与三分背景，核对转录角名差异，附精确证书、真实 Notebook 实跑及独立双审。
+最新补读：[《几何原本》I.26：两角一边，为什么足以确定一个三角形？](papers/ancient/euclid-elements-i26.zh-CN.md)，逐步重建夹边与对边两案，核 I.4、I.16 的不同矛盾路线，附精确证书、真实 Notebook 实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -163,6 +163,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.23精读](papers/ancient/euclid-elements-i23.zh-CN.md) | AI推理前史补读：角复制、指定位置构造、三边对应、目标射线与镜像侧向 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.24精读](papers/ancient/euclid-elements-i24.zh-CN.md) | AI推理前史补读：两边夹角不等式、三型穷尽、角内部与证书类型安全 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.25精读](papers/ancient/euclid-elements-i25.zh-CN.md) | AI推理前史补读：逆命题、固定假设、三分排除与精确证书 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.26精读](papers/ancient/euclid-elements-i26.zh-CN.md) | AI推理前史补读：两角一边、对应关系、截取反证与精确证书 | 深读v1 · 两案原证/现代模型分层、实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1475,3 +1476,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Euclid《几何原本》I.25 可运行附件
 
 [深读正文](papers/ancient/euclid-elements-i25.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i25.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i25.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i25.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i25/README.md)。完整 I.25、Heath 逻辑评论与后世直接证的边界；I.4 等角与 I.24 反序排除不混同自动取逆。29 测试三模式、250 正证书；Notebook 6 格标准库 compile/exec 非 kernel。有限运行不替代一般证明；仅本单元完成，不计后续命题或前史穷尽，既有暂缓项未变。
+
+
+## 《几何原本》I.26：两角一边与对应关系
+
+[深读正文](papers/ancient/euclid-elements-i26.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i26.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i26.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i26.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i26/README.md)。完整 I.26 夹边/对边两案，I.4、真子角与 I.16 外角路线分开重建；不循环调用 I.32。29 测试三模式、216 精确正例/4 类负例；Notebook 6 格标准库 compile/exec 非 kernel。有限运行不替代一般证明；仅本单元完成，不计后续命题或前史穷尽，既有暂缓项未变。

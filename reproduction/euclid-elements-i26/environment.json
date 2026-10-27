@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform_system": "Linux",
+  "dependencies": "Python standard library only",
+  "timestamp_utc": "2026-10-27T20:40:20.827673+00:00",
+  "notebook_execution": "compile/exec, not Jupyter kernel"
+}

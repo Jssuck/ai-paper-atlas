@@ -1,0 +1,28 @@
+{
+  "method": "independent finite rational oracle and adversarial field mutations; not general proof",
+  "python": "3.12.14",
+  "positive_cases": 576,
+  "scaled_cases_rejected": 576,
+  "invalid_input_rejection_method": "make_certificate must raise ValueError; independent of certificate comparison",
+  "certificate_and_input_attacks_rejected": 758,
+  "angle_sign_classes": [
+    -1,
+    0,
+    1
+  ],
+  "article_SSA_counterexample": {
+    "known_squared_edges": [
+      25,
+      10
+    ],
+    "remaining_squared_edges": [
+      25,
+      9
+    ]
+  },
+  "article_wrong_side_counterexample": "verified",
+  "tiny_exact_perturbation": "rejected",
+  "all_checks_passed": true,
+  "source_sha256": "d00fbb675cde8b37bd2bddbd9b14a1ba48ce0dbbcea59405d29032037e9c2467",
+  "geometry_sha256": "45a5764d1eb8784a17b1f105e63caddd9c67b34b1421e221e4d52e0b5cc67dee"
+}

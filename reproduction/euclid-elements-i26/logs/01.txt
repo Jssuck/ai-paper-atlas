@@ -1,0 +1,37 @@
+$ python -m unittest -v test_geometry
+test_all_216 (test_geometry.GeometryTests.test_all_216) ... ok
+test_bad_branch (test_geometry.GeometryTests.test_bad_branch) ... ok
+test_bad_dimensions (test_geometry.GeometryTests.test_bad_dimensions) ... ok
+test_boolean_coordinate (test_geometry.GeometryTests.test_boolean_coordinate) ... ok
+test_branch_binding (test_geometry.GeometryTests.test_branch_binding) ... ok
+test_certificate_input_tamper (test_geometry.GeometryTests.test_certificate_input_tamper) ... ok
+test_duplicate_vertex (test_geometry.GeometryTests.test_duplicate_vertex) ... ok
+test_extra_certificate_field (test_geometry.GeometryTests.test_extra_certificate_field) ... ok
+test_extra_input_field (test_geometry.GeometryTests.test_extra_input_field) ... ok
+test_four_negative_models (test_geometry.GeometryTests.test_four_negative_models) ... ok
+test_included_example (test_geometry.GeometryTests.test_included_example) ... ok
+test_index_bool (test_geometry.GeometryTests.test_index_bool) ... ok
+test_missing_certificate_field (test_geometry.GeometryTests.test_missing_certificate_field) ... ok
+test_missing_input_field (test_geometry.GeometryTests.test_missing_input_field) ... ok
+test_no_alias (test_geometry.GeometryTests.test_no_alias) ... ok
+test_no_floating_tolerance (test_geometry.GeometryTests.test_no_floating_tolerance) ... ok
+test_noncanonical_fraction (test_geometry.GeometryTests.test_noncanonical_fraction) ... ok
+test_numeric_coordinates (test_geometry.GeometryTests.test_numeric_coordinates) ... ok
+test_obtuse_key (test_geometry.GeometryTests.test_obtuse_key) ... ok
+test_opposite_example (test_geometry.GeometryTests.test_opposite_example) ... ok
+test_other_valid_input_certificate_rejected (test_geometry.GeometryTests.test_other_valid_input_certificate_rejected) ... ok
+test_repeated_deterministic (test_geometry.GeometryTests.test_repeated_deterministic) ... ok
+test_schema_bool (test_geometry.GeometryTests.test_schema_bool) ... ok
+test_ssa_counterexample_is_genuine (test_geometry.GeometryTests.test_ssa_counterexample_is_genuine) ... ok
+test_strict_structures (test_geometry.GeometryTests.test_strict_structures) ... ok
+test_tampered_angle (test_geometry.GeometryTests.test_tampered_angle) ... ok
+test_tampered_claim (test_geometry.GeometryTests.test_tampered_claim) ... ok
+test_tampered_hash (test_geometry.GeometryTests.test_tampered_hash) ... ok
+test_tampered_length (test_geometry.GeometryTests.test_tampered_length) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.058s
+
+OK
+
+exit_code=0

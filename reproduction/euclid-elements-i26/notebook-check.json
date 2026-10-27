@@ -1,0 +1,36 @@
+{
+  "execution": "standard-library compile/exec in shared namespace; not Jupyter kernel or nbformat validation",
+  "cells_executed": 6,
+  "cells": [
+    {
+      "cell": 1,
+      "completed": true,
+      "stdout": "精确有理坐标；不调用浮点三角函数\n"
+    },
+    {
+      "cell": 2,
+      "completed": true,
+      "stdout": "[['3/4', '0', '4/3'], ['3/4', '0', '4/3']]\n[['9', '16', '25'], ['9', '16', '25']]\nTrue\n"
+    },
+    {
+      "cell": 3,
+      "completed": true,
+      "stdout": "0\nTrue\n"
+    },
+    {
+      "cell": 4,
+      "completed": true,
+      "stdout": "{'cases': 216, 'accepted': 216}\n"
+    },
+    {
+      "cell": 5,
+      "completed": true,
+      "stdout": "angles_without_equal_side : specified corresponding side must agree\nwrong_correspondence : corresponding B/E and C/F angles must agree\ndegenerate : degenerate triangle\nssa_not_two_angles : corresponding B/E and C/F angles must agree\n"
+    },
+    {
+      "cell": 6,
+      "completed": true,
+      "stdout": "bool schema accepted: False\ndifferent input accepted: False\n"
+    }
+  ]
+}

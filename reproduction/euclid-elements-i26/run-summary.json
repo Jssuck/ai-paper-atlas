@@ -1,0 +1,61 @@
+[
+  {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "-v",
+      "test_geometry"
+    ],
+    "exit_code": 0,
+    "log": "logs/01.txt"
+  },
+  {
+    "command": [
+      "python",
+      "-O",
+      "-m",
+      "unittest",
+      "-v",
+      "test_geometry"
+    ],
+    "exit_code": 0,
+    "log": "logs/02.txt"
+  },
+  {
+    "command": [
+      "python",
+      "-OO",
+      "-m",
+      "unittest",
+      "-v",
+      "test_geometry"
+    ],
+    "exit_code": 0,
+    "log": "logs/03.txt"
+  },
+  {
+    "command": [
+      "python",
+      "run_examples.py"
+    ],
+    "exit_code": 0,
+    "log": "logs/04.txt"
+  },
+  {
+    "command": [
+      "python",
+      "create_notebook.py"
+    ],
+    "exit_code": 0,
+    "log": "logs/05.txt"
+  },
+  {
+    "command": [
+      "python",
+      "verify_notebook.py"
+    ],
+    "exit_code": 0,
+    "log": "logs/06.txt"
+  }
+]

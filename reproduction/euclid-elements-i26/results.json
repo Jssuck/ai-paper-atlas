@@ -1,0 +1,271 @@
+{
+  "scope": "finite rational-coordinate model, not proof of the general theorem",
+  "positive_cases": 216,
+  "accepted": 216,
+  "examples": [
+    {
+      "schema": 1,
+      "input": {
+        "side_case": "included",
+        "triangle_1": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "10",
+            "3"
+          ],
+          [
+            "10",
+            "0"
+          ],
+          [
+            "6",
+            "0"
+          ]
+        ]
+      },
+      "input_sha256": "469e1a32a08c44bdffdef6f8ea7e900b2c9664b0cb94258a8dc1b3604b5f505e",
+      "angle_keys": [
+        [
+          "3/4",
+          "0",
+          "4/3"
+        ],
+        [
+          "3/4",
+          "0",
+          "4/3"
+        ]
+      ],
+      "squared_sides_AB_BC_AC": [
+        [
+          "9",
+          "16",
+          "25"
+        ],
+        [
+          "9",
+          "16",
+          "25"
+        ]
+      ],
+      "given_edge_index": 1,
+      "conclusion": "three corresponding sides and remaining angles equal"
+    },
+    {
+      "schema": 1,
+      "input": {
+        "side_case": "opposite",
+        "triangle_1": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "10",
+            "3"
+          ],
+          [
+            "10",
+            "0"
+          ],
+          [
+            "6",
+            "0"
+          ]
+        ]
+      },
+      "input_sha256": "a3e69aa26317be4bce68141b9f51abb0a26ca0e8051e846d9193f1f1a621cda1",
+      "angle_keys": [
+        [
+          "3/4",
+          "0",
+          "4/3"
+        ],
+        [
+          "3/4",
+          "0",
+          "4/3"
+        ]
+      ],
+      "squared_sides_AB_BC_AC": [
+        [
+          "9",
+          "16",
+          "25"
+        ],
+        [
+          "9",
+          "16",
+          "25"
+        ]
+      ],
+      "given_edge_index": 0,
+      "conclusion": "three corresponding sides and remaining angles equal"
+    }
+  ],
+  "negative_cases": {
+    "angles_without_equal_side": {
+      "input": {
+        "triangle_1": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "0",
+            "6"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "8",
+            "0"
+          ]
+        ],
+        "side_case": "included"
+      },
+      "rejected": true,
+      "reason": "specified corresponding side must agree"
+    },
+    "wrong_correspondence": {
+      "input": {
+        "triangle_1": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "3"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "side_case": "included"
+      },
+      "rejected": true,
+      "reason": "corresponding B/E and C/F angles must agree"
+    },
+    "degenerate": {
+      "input": {
+        "triangle_1": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "side_case": "included"
+      },
+      "rejected": true,
+      "reason": "degenerate triangle"
+    },
+    "ssa_not_two_angles": {
+      "input": {
+        "triangle_1": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "6",
+            "0"
+          ],
+          [
+            "9/5",
+            "12/5"
+          ]
+        ],
+        "triangle_2": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "6",
+            "0"
+          ],
+          [
+            "63/25",
+            "84/25"
+          ]
+        ],
+        "side_case": "opposite"
+      },
+      "rejected": true,
+      "reason": "corresponding B/E and C/F angles must agree"
+    }
+  }
+}
