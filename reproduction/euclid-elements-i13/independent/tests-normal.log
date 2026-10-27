@@ -1,0 +1,33 @@
+test_a_at_b (__main__.GeometryTests.test_a_at_b) ... ok
+test_a_on_line (__main__.GeometryTests.test_a_on_line) ... ok
+test_after (__main__.GeometryTests.test_after) ... ok
+test_all_finite (__main__.GeometryTests.test_all_finite) ... ok
+test_angle_count (__main__.GeometryTests.test_angle_count) ... ok
+test_before (__main__.GeometryTests.test_before) ... ok
+test_bool (__main__.GeometryTests.test_bool) ... ok
+test_extra_field (__main__.GeometryTests.test_extra_field) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_half_turn (__main__.GeometryTests.test_half_turn) ... ok
+test_input_binding (__main__.GeometryTests.test_input_binding) ... ok
+test_negative_set (__main__.GeometryTests.test_negative_set) ... ok
+test_not_line (__main__.GeometryTests.test_not_line) ... ok
+test_product_identity (__main__.GeometryTests.test_product_identity) ... ok
+test_reflection (__main__.GeometryTests.test_reflection) ... ok
+test_reflex_turn (__main__.GeometryTests.test_reflex_turn) ... ok
+test_right (__main__.GeometryTests.test_right) ... ok
+test_same_ray (__main__.GeometryTests.test_same_ray) ... ok
+test_sample (__main__.GeometryTests.test_sample) ... ok
+test_string (__main__.GeometryTests.test_string) ... ok
+test_translation (__main__.GeometryTests.test_translation) ... ok
+test_turn_after (__main__.GeometryTests.test_turn_after) ... ok
+test_turn_before (__main__.GeometryTests.test_turn_before) ... ok
+test_turn_right (__main__.GeometryTests.test_turn_right) ... ok
+test_wrong_dimension (__main__.GeometryTests.test_wrong_dimension) ... ok
+test_zero_c (__main__.GeometryTests.test_zero_c) ... ok
+test_zero_d (__main__.GeometryTests.test_zero_d) ... ok
+test_zero_turn (__main__.GeometryTests.test_zero_turn) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.139s
+
+OK

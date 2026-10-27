@@ -1,0 +1,47 @@
+{
+  "python_version": "3.12.14",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "test_geometry.py"
+      ],
+      "started_at_utc": "2026-10-27T06:42:06.244309+00:00",
+      "elapsed_seconds": 0.20532205898780376,
+      "exit_code": 0,
+      "log": "tests-normal.log"
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "test_geometry.py"
+      ],
+      "started_at_utc": "2026-10-27T06:42:06.449650+00:00",
+      "elapsed_seconds": 0.3870317639957648,
+      "exit_code": 0,
+      "log": "tests-O.log"
+    },
+    {
+      "command": [
+        "python",
+        "-OO",
+        "test_geometry.py"
+      ],
+      "started_at_utc": "2026-10-27T06:42:06.836702+00:00",
+      "elapsed_seconds": 0.35404494099202566,
+      "exit_code": 0,
+      "log": "tests-OO.log"
+    },
+    {
+      "command": [
+        "python",
+        "independent/check.py"
+      ],
+      "started_at_utc": "2026-10-27T06:42:07.190768+00:00",
+      "elapsed_seconds": 0.12551625701598823,
+      "exit_code": 0,
+      "log": "check.log"
+    }
+  ]
+}

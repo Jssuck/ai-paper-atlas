@@ -1,0 +1,32 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python run_examples.py
+{
+  "positive_certificates": 360,
+  "negative_certificates": 16,
+  "ray_order_counts": {
+    "after_perpendicular": 144,
+    "right": 72,
+    "before_perpendicular": 144
+  },
+  "angle_partition_cases": 66,
+  "negative_labels": [
+    "orientation",
+    "first_rotation",
+    "second_rotation",
+    "rotation_product",
+    "expected_product",
+    "auxiliary_ray",
+    "perpendicular_dot",
+    "ray_order_case",
+    "conclusion",
+    "base_opposition",
+    "inputs",
+    "extra field",
+    "missing field",
+    "changed independent input",
+    "same-direction base",
+    "collinear standing ray"
+  ],
+  "boundary": "Finite rational examples; algebra and angle axioms provide the general reasoning, not this count."
+}
+
+exit_code=0
