@@ -1,0 +1,58 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O run_examples.py
+{
+  "positive_certificates": 648,
+  "negative_certificates": 16,
+  "negative_names": [
+    "wrong_center",
+    "wrong_radius",
+    "E_moved_off_line",
+    "G_moved_along_line",
+    "coincident_intersections",
+    "not_midpoint",
+    "H_off_line",
+    "perpendicular_only_wrong_circle",
+    "malformed_point",
+    "transplanted_C",
+    "transplanted_D",
+    "C_on_line",
+    "D_on_line",
+    "same_side_D",
+    "zero_line",
+    "different_line"
+  ],
+  "example": {
+    "E": [
+      "(2)+(1)*sqrt(11)",
+      "0"
+    ],
+    "G": [
+      "(2)+(-1)*sqrt(11)",
+      "0"
+    ],
+    "H": [
+      "2",
+      "0"
+    ],
+    "radius_squared": "20",
+    "foot_line_parameter": "2",
+    "facts": {
+      "center_bound_to_C": true,
+      "radius_bound_to_CD": true,
+      "E_on_line": true,
+      "G_on_line": true,
+      "distinct_intersections": true,
+      "E_on_prescribed_circle": true,
+      "G_on_prescribed_circle": true,
+      "H_is_midpoint": true,
+      "H_on_line": true,
+      "H_between_E_G": true,
+      "equal_half_chords": true,
+      "CH_nonzero": true,
+      "nondegenerate_triangle": true,
+      "perpendicular_modern_check": true
+    }
+  },
+  "scope": "Rational input families only; finite execution does not prove the general theorem."
+}
+
+exit_code=0

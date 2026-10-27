@@ -1,0 +1,33 @@
+test_chord_label_swap (__main__.Construction.test_chord_label_swap) ... ok
+test_conclusion_is_not_certificate (__main__.Construction.test_conclusion_is_not_certificate) ... ok
+test_d_change_same_foot (__main__.Construction.test_d_change_same_foot) ... ok
+test_endpoint_swap (__main__.Construction.test_endpoint_swap) ... ok
+test_facts (__main__.Construction.test_facts) ... ok
+test_finite_negative_family (__main__.Construction.test_finite_negative_family) ... ok
+test_finite_positive_family (__main__.Construction.test_finite_positive_family) ... ok
+test_irrational_intersections (__main__.Construction.test_irrational_intersections) ... ok
+test_on_line_c (__main__.Construction.test_on_line_c) ... ok
+test_on_line_d (__main__.Construction.test_on_line_d) ... ok
+test_outside_original_segment (__main__.Construction.test_outside_original_segment) ... ok
+test_rational_foot (__main__.Construction.test_rational_foot) ... ok
+test_rational_square_root_case (__main__.Construction.test_rational_square_root_case) ... ok
+test_same_side_d (__main__.Construction.test_same_side_d) ... ok
+test_tangent_model_not_accepted (__main__.Construction.test_tangent_model_not_accepted) ... ok
+test_vertical_line (__main__.Construction.test_vertical_line) ... ok
+test_zero_line (__main__.Construction.test_zero_line) ... ok
+test_division (__main__.ExactArithmetic.test_division) ... ok
+test_float_reject (__main__.ExactArithmetic.test_float_reject) ... ok
+test_mixed_field_reject (__main__.ExactArithmetic.test_mixed_field_reject) ... ok
+test_negative_radicand_reject (__main__.ExactArithmetic.test_negative_radicand_reject) ... ok
+test_nonsquare_multiply (__main__.ExactArithmetic.test_nonsquare_multiply) ... ok
+test_sign_cancellation (__main__.ExactArithmetic.test_sign_cancellation) ... ok
+test_sign_large_rational (__main__.ExactArithmetic.test_sign_large_rational) ... ok
+test_sign_zero (__main__.ExactArithmetic.test_sign_zero) ... ok
+test_square_reduction (__main__.ExactArithmetic.test_square_reduction) ... ok
+test_zero_division (__main__.ExactArithmetic.test_zero_division) ... ok
+test_zero_radicand (__main__.ExactArithmetic.test_zero_radicand) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.130s
+
+OK
