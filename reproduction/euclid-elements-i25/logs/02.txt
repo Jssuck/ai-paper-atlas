@@ -1,0 +1,37 @@
+$ python -O -m unittest -v test_geometry
+test_all_leaf_mutations (test_geometry.Checks.test_all_leaf_mutations) ... ok
+test_bad_json (test_geometry.Checks.test_bad_json) ... ok
+test_bool_dot (test_geometry.Checks.test_bool_dot) ... ok
+test_certificate_extra (test_geometry.Checks.test_certificate_extra) ... ok
+test_certificate_missing (test_geometry.Checks.test_certificate_missing) ... ok
+test_certificate_number_bool (test_geometry.Checks.test_certificate_number_bool) ... ok
+test_certificate_tamper (test_geometry.Checks.test_certificate_tamper) ... ok
+test_collinear (test_geometry.Checks.test_collinear) ... ok
+test_duplicate (test_geometry.Checks.test_duplicate) ... ok
+test_equal (test_geometry.Checks.test_equal) ... ok
+test_example (test_geometry.Checks.test_example) ... ok
+test_extra_input (test_geometry.Checks.test_extra_input) ... ok
+test_float (test_geometry.Checks.test_float) ... ok
+test_grid (test_geometry.Checks.test_grid) ... ok
+test_impossible (test_geometry.Checks.test_impossible) ... ok
+test_json_roundtrip (test_geometry.Checks.test_json_roundtrip) ... ok
+test_lemma (test_geometry.Checks.test_lemma) ... ok
+test_missing_input (test_geometry.Checks.test_missing_input) ... ok
+test_nan (test_geometry.Checks.test_nan) ... ok
+test_negative_dots (test_geometry.Checks.test_negative_dots) ... ok
+test_negative_side (test_geometry.Checks.test_negative_side) ... ok
+test_noncanonical (test_geometry.Checks.test_noncanonical) ... ok
+test_replay_wrong_input (test_geometry.Checks.test_replay_wrong_input) ... ok
+test_reverse (test_geometry.Checks.test_reverse) ... ok
+test_same_sum_different_sides (test_geometry.Checks.test_same_sum_different_sides) ... ok
+test_schema (test_geometry.Checks.test_schema) ... ok
+test_side_mismatch (test_geometry.Checks.test_side_mismatch) ... ok
+test_swap_flag (test_geometry.Checks.test_swap_flag) ... ok
+test_zero_side (test_geometry.Checks.test_zero_side) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.025s
+
+OK
+
+exit_code=0

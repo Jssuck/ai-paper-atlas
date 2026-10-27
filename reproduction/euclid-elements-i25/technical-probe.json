@@ -1,0 +1,11 @@
+{
+  "coordinate_pairs": 1296,
+  "relations": {
+    "greater": 576,
+    "equal": 144,
+    "less": 576
+  },
+  "positive_certificates": 576,
+  "rejected_attacks": 87,
+  "method": "independent rational coordinates via positive half-angle parameter, explicit squared distances; finite only"
+}
