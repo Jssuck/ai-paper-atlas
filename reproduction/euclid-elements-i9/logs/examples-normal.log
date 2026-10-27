@@ -1,0 +1,105 @@
+$ python3 run_examples.py
+{
+  "positive_certificates": 1536,
+  "canonical_parameter_pairs": 64,
+  "translations": 3,
+  "quarter_turns": 4,
+  "endpoint_orders": 2,
+  "same_side_branch_cases": {
+    "same_side_internal": {
+      "F": [
+        "(2)+(-1)*sqrt(3)",
+        "0"
+      ],
+      "checks": {
+        "nondegenerate_angle": true,
+        "equal_cut_lengths": true,
+        "equilateral": true,
+        "opposite_side": false,
+        "nonzero_output_ray": true,
+        "strictly_inside": true,
+        "equal_angles": true
+      }
+    },
+    "same_side_zero": {
+      "F": [
+        "0",
+        "0"
+      ],
+      "checks": {
+        "nondegenerate_angle": true,
+        "equal_cut_lengths": true,
+        "equilateral": true,
+        "opposite_side": false,
+        "nonzero_output_ray": false,
+        "strictly_inside": false,
+        "equal_angles": false
+      }
+    },
+    "same_side_external": {
+      "F": [
+        "(1)+(-1)*sqrt(3)",
+        "0"
+      ],
+      "checks": {
+        "nondegenerate_angle": true,
+        "equal_cut_lengths": true,
+        "equilateral": true,
+        "opposite_side": false,
+        "nonzero_output_ray": true,
+        "strictly_inside": false,
+        "equal_angles": true
+      }
+    }
+  },
+  "additional_rejected_certificates": {
+    "outward_ray": {
+      "nondegenerate_angle": true,
+      "equal_cut_lengths": true,
+      "equilateral": false,
+      "opposite_side": false,
+      "nonzero_output_ray": true,
+      "strictly_inside": false,
+      "equal_angles": true
+    },
+    "unequal_cuts": {
+      "nondegenerate_angle": true,
+      "equal_cut_lengths": false,
+      "equilateral": false,
+      "opposite_side": true,
+      "nonzero_output_ray": true,
+      "strictly_inside": true,
+      "equal_angles": true
+    },
+    "coincident_cuts": {
+      "nondegenerate_angle": false,
+      "equal_cut_lengths": true,
+      "equilateral": false,
+      "opposite_side": false,
+      "nonzero_output_ray": true,
+      "strictly_inside": false,
+      "equal_angles": true
+    },
+    "collinear_angle": {
+      "nondegenerate_angle": false,
+      "equal_cut_lengths": true,
+      "equilateral": false,
+      "opposite_side": false,
+      "nonzero_output_ray": true,
+      "strictly_inside": false,
+      "equal_angles": true
+    },
+    "arbitrary_point": {
+      "nondegenerate_angle": true,
+      "equal_cut_lengths": true,
+      "equilateral": false,
+      "opposite_side": true,
+      "nonzero_output_ray": true,
+      "strictly_inside": true,
+      "equal_angles": false
+    }
+  },
+  "scope": "finite exact teaching checks, not a proof of the general theorem"
+}
+
+exit_code=0
