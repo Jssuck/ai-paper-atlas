@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "new_configurations": 84,
+  "independent_invalid_inputs_rejected": 12,
+  "tampering_and_binding_rejections": 840,
+  "exact_integer_square_sum_oracle": 6561,
+  "radical_special_cases": 4,
+  "decimal_angle_pairs_visited": 2304,
+  "decimal_angle_comparisons_checked": 2264,
+  "decimal_near_ties_not_decided": 40,
+  "notebook_cells_replayed": 6,
+  "notebook_kernel_used": false,
+  "numerical_diagnostics_not_general_proof": true
+}

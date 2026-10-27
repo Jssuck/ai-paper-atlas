@@ -1,0 +1,39 @@
+test_E (test_geometry.Tests.test_E) ... ok
+test_angle_acute_obtuse (test_geometry.Tests.test_angle_acute_obtuse) ... ok
+test_angle_equal (test_geometry.Tests.test_angle_equal) ... ok
+test_angle_obtuse (test_geometry.Tests.test_angle_obtuse) ... ok
+test_bool_integer (test_geometry.Tests.test_bool_integer) ... ok
+test_checks (test_geometry.Tests.test_checks) ... ok
+test_extra (test_geometry.Tests.test_extra) ... ok
+test_factor (test_geometry.Tests.test_factor) ... ok
+test_false_check (test_geometry.Tests.test_false_check) ... ok
+test_integer_float (test_geometry.Tests.test_integer_float) ... ok
+test_json_roundtrip (test_geometry.Tests.test_json_roundtrip) ... ok
+test_length_invalid (test_geometry.Tests.test_length_invalid) ... ok
+test_length_irrational_equal (test_geometry.Tests.test_length_irrational_equal) ... ok
+test_length_irrational_order (test_geometry.Tests.test_length_irrational_order) ... ok
+test_length_rational (test_geometry.Tests.test_length_rational) ... ok
+test_length_reverse (test_geometry.Tests.test_length_reverse) ... ok
+test_length_swapped (test_geometry.Tests.test_length_swapped) ... ok
+test_length_tiny_gap (test_geometry.Tests.test_length_tiny_gap) ... ok
+test_length_zero (test_geometry.Tests.test_length_zero) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_nan (test_geometry.Tests.test_nan) ... ok
+test_near_boundary (test_geometry.Tests.test_near_boundary) ... ok
+test_negative (test_geometry.Tests.test_negative) ... ok
+test_positive (test_geometry.Tests.test_positive) ... ok
+test_reflection (test_geometry.Tests.test_reflection) ... ok
+test_scaling (test_geometry.Tests.test_scaling) ... ok
+test_squared_grid (test_geometry.Tests.test_squared_grid) ... ok
+test_tamper_coordinate (test_geometry.Tests.test_tamper_coordinate) ... ok
+test_tamper_factor (test_geometry.Tests.test_tamper_factor) ... ok
+test_tamper_squared (test_geometry.Tests.test_tamper_squared) ... ok
+test_translation (test_geometry.Tests.test_translation) ... ok
+test_tuple (test_geometry.Tests.test_tuple) ... ok
+test_wrong_input (test_geometry.Tests.test_wrong_input) ... ok
+test_zero_ray (test_geometry.Tests.test_zero_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.124s
+
+OK

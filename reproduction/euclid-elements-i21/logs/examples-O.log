@@ -1,0 +1,132 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O run_examples.py
+{
+  "positive_certificates": 120,
+  "negative_inputs": 12,
+  "checks_per_certificate": 14,
+  "type_tampering_rejected": 120,
+  "example": {
+    "schema": "euclid-i21-teaching-v1",
+    "input": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      [
+        [
+          -3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "E": [
+      [
+        9,
+        4
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    "barycentric": [
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        9,
+        28
+      ]
+    ],
+    "extension_factor": [
+      7,
+      4
+    ],
+    "squared_lengths": {
+      "AB": [
+        25,
+        1
+      ],
+      "AC": [
+        32,
+        1
+      ],
+      "BD": [
+        10,
+        1
+      ],
+      "CD": [
+        17,
+        1
+      ],
+      "AE": [
+        81,
+        8
+      ],
+      "EC": [
+        49,
+        8
+      ],
+      "BE": [
+        245,
+        8
+      ],
+      "DE": [
+        45,
+        8
+      ]
+    },
+    "checks": {
+      "strict_interior": true,
+      "A_E_C_order": true,
+      "B_D_E_order": true,
+      "AC_decomposition": true,
+      "BE_decomposition": true,
+      "I20_AB_AE_gt_BE": true,
+      "I20_EC_DE_gt_CD": true,
+      "outer_gt_bridge": true,
+      "bridge_gt_inner": true,
+      "outer_gt_inner": true,
+      "I16_BDC_gt_CED": true,
+      "CED_equals_CEB": true,
+      "I16_CEB_gt_BAC": true,
+      "BDC_gt_BAC": true
+    }
+  }
+}
+
+exit_code=0

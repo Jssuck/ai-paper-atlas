@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python create_notebook.py
+{"created": "teaching.zh-CN.ipynb", "code_cells": 6}
+
+exit_code=0

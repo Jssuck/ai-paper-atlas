@@ -1,0 +1,42 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O test_geometry.py
+test_E (__main__.Tests.test_E) ... ok
+test_angle_acute_obtuse (__main__.Tests.test_angle_acute_obtuse) ... ok
+test_angle_equal (__main__.Tests.test_angle_equal) ... ok
+test_angle_obtuse (__main__.Tests.test_angle_obtuse) ... ok
+test_bool_integer (__main__.Tests.test_bool_integer) ... ok
+test_checks (__main__.Tests.test_checks) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_factor (__main__.Tests.test_factor) ... ok
+test_false_check (__main__.Tests.test_false_check) ... ok
+test_integer_float (__main__.Tests.test_integer_float) ... ok
+test_json_roundtrip (__main__.Tests.test_json_roundtrip) ... ok
+test_length_invalid (__main__.Tests.test_length_invalid) ... ok
+test_length_irrational_equal (__main__.Tests.test_length_irrational_equal) ... ok
+test_length_irrational_order (__main__.Tests.test_length_irrational_order) ... ok
+test_length_rational (__main__.Tests.test_length_rational) ... ok
+test_length_reverse (__main__.Tests.test_length_reverse) ... ok
+test_length_swapped (__main__.Tests.test_length_swapped) ... ok
+test_length_tiny_gap (__main__.Tests.test_length_tiny_gap) ... ok
+test_length_zero (__main__.Tests.test_length_zero) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_nan (__main__.Tests.test_nan) ... ok
+test_near_boundary (__main__.Tests.test_near_boundary) ... ok
+test_negative (__main__.Tests.test_negative) ... ok
+test_positive (__main__.Tests.test_positive) ... ok
+test_reflection (__main__.Tests.test_reflection) ... ok
+test_scaling (__main__.Tests.test_scaling) ... ok
+test_squared_grid (__main__.Tests.test_squared_grid) ... ok
+test_tamper_coordinate (__main__.Tests.test_tamper_coordinate) ... ok
+test_tamper_factor (__main__.Tests.test_tamper_factor) ... ok
+test_tamper_squared (__main__.Tests.test_tamper_squared) ... ok
+test_translation (__main__.Tests.test_translation) ... ok
+test_tuple (__main__.Tests.test_tuple) ... ok
+test_wrong_input (__main__.Tests.test_wrong_input) ... ok
+test_zero_ray (__main__.Tests.test_zero_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.115s
+
+OK
+
+exit_code=0
