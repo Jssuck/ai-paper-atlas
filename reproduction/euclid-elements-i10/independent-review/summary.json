@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "independent_checks.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T02:51:40.126637+00:00",
+      "duration_seconds": 1.0321387309813872,
+      "exit_code": 0,
+      "log": "independent-normal.log"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "independent_checks.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T02:51:41.159019+00:00",
+      "duration_seconds": 1.081346688006306,
+      "exit_code": 0,
+      "log": "independent-O.log"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-OO",
+        "independent_checks.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T02:51:42.240577+00:00",
+      "duration_seconds": 1.0043972140119877,
+      "exit_code": 0,
+      "log": "independent-OO.log"
+    }
+  ],
+  "same_results_except_optimization_flag": true,
+  "counts_per_mode": {
+    "new_rational_certificates": 512,
+    "general_non_midpoint_intersections": 120,
+    "independent_interval_sign_cases": 1881,
+    "independent_field_pairs": 200,
+    "new_negative_certificates": 16,
+    "angle_sign_direction_checks": 4,
+    "explicit_rejection_paths": 8,
+    "notebook_code_cells_inspected": 6
+  },
+  "source_sha256": {
+    "cases.py": "3a4921412780d33ab7089d826c01b2001fe72bd0c55b08e76483babf05b5b705",
+    "create_notebook.py": "ccbd6618d7ada7f350ece479fd9835f9243cf5d6f04906f438a31d2b1a662ffd",
+    "geometry.py": "436aad275c5a14472fbd54938016ebab184ee771bed4361177d8fdf41e8a162c",
+    "run_all.py": "b2fe28df044f9c67ad9ed9fc3f6b1a65660d6708fee55e276e18d626b3987376",
+    "run_examples.py": "a5c2980d48a2292ad0e1cbd01b2886a3deb128039d4f28f8ae225ed6924c0edf",
+    "test_geometry.py": "a965685434f79deaa7ac269727e217552df5545304c4b6f31bf861cb8685e836",
+    "verify_notebook.py": "4a26a33e9fc3ae1148c418ccfd3ce73de725a7cd67d45d3d49369a7d8d9ac397"
+  },
+  "independent_checks_sha256": "93ada5b390da9b4776da9d8f2e1617107faf9f43c22daaf1ff574b3f5e946cd4",
+  "scope": "finite implementation audit; no Jupyter kernel or browser execution"
+}

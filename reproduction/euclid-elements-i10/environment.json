@@ -1,0 +1,13 @@
+{
+  "python_version": "3.12.14",
+  "implementation": "CPython",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies_used": "Python standard library only; no dependencies installed",
+  "optional_packages_detected_not_used": {
+    "nbformat": false,
+    "nbclient": false,
+    "ipykernel": false
+  },
+  "notebook_executor": "standard-library compile/exec; no Jupyter kernel or browser execution"
+}

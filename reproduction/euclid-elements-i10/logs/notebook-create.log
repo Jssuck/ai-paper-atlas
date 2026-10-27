@@ -1,0 +1,4 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 create_notebook.py
+{"created": "teaching.zh-CN.ipynb", "code_cells": 6, "scaffold": "standard-library scaffold; no dependencies installed"}
+
+exit_code=0

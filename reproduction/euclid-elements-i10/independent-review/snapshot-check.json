@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "independent_author_entrypoint_started_at_utc": "2026-10-27T02:50:49.320627+00:00",
+  "independent_author_entrypoint_completed_at_utc": "2026-10-27T02:50:55.743168+00:00",
+  "commands_executed": 8,
+  "all_exit_codes_zero": true,
+  "tests_per_mode": 25,
+  "positive_certificates_per_mode": 720,
+  "negative_certificates_per_mode": 12,
+  "notebook_code_cells": 6,
+  "files_exactly_matched": {
+    "results-normal.json": {
+      "published_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b",
+      "independent_rerun_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b"
+    },
+    "results-O.json": {
+      "published_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b",
+      "independent_rerun_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b"
+    },
+    "results-OO.json": {
+      "published_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b",
+      "independent_rerun_sha256": "a5a76661cf4d18d0499d8b03c9c49e33d3f2ac08a610d22871d60041960d725b"
+    },
+    "teaching.zh-CN.ipynb": {
+      "published_sha256": "777cb838d2f4f85779cdab0958832b737cf29d2907f6e9c8e6a44d0d928f495a",
+      "independent_rerun_sha256": "777cb838d2f4f85779cdab0958832b737cf29d2907f6e9c8e6a44d0d928f495a"
+    },
+    "notebook-check.json": {
+      "published_sha256": "ac9dcdff98d4b108e0bfe1e8904235994a9553d251e830a9fe45d84be91a231e",
+      "independent_rerun_sha256": "ac9dcdff98d4b108e0bfe1e8904235994a9553d251e830a9fe45d84be91a231e"
+    }
+  },
+  "method": "Copied final author sources into a separate audit directory and reran run_all.py; compared deterministic output bytes. Timing logs are expected to differ."
+}

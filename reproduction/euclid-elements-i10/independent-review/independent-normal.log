@@ -1,0 +1,181 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 independent_checks.py
+{
+  "status": "passed",
+  "counts": {
+    "new_rational_certificates": 512,
+    "general_non_midpoint_intersections": 120,
+    "independent_interval_sign_cases": 1881,
+    "independent_field_pairs": 200,
+    "new_negative_certificates": 16,
+    "angle_sign_direction_checks": 4,
+    "explicit_rejection_paths": 8,
+    "notebook_code_cells_inspected": 6
+  },
+  "negative_failed_predicates": {
+    "off_line_equidistant_3_4": [
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "intersection_collinear_AB"
+    ],
+    "reverse_branch_label_only": [
+      "I1_branch_matches"
+    ],
+    "wrong_C_with_correct_D": [
+      "I1_branch_matches",
+      "I1_equilateral",
+      "I9_equal_positive_cuts",
+      "I9_equal_angles",
+      "intersection_on_claimed_ray",
+      "I4_equal_CA_CB",
+      "I4_equal_included_angles",
+      "I4_SAS_premises"
+    ],
+    "same_side_F_equals_C": [
+      "I9_opposite_side",
+      "I9_nonzero_ray",
+      "I9_strictly_inside",
+      "I9_equal_angles",
+      "intersection_unique_lines",
+      "intersection_on_claimed_ray"
+    ],
+    "wrong_F": [
+      "I9_equilateral_on_AB",
+      "I9_equal_angles",
+      "intersection_on_claimed_ray"
+    ],
+    "wrong_D": [
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "I4_equal_included_angles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "negative_s": [
+      "intersection_on_claimed_ray",
+      "intersection_positive_ray_parameter"
+    ],
+    "wrong_t": [
+      "intersection_on_claimed_segment"
+    ],
+    "endpoint_A": [
+      "intersection_on_claimed_ray",
+      "intersection_strict_segment_parameter",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "endpoint_B": [
+      "intersection_on_claimed_ray",
+      "intersection_strict_segment_parameter",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "outside_segment": [
+      "intersection_on_claimed_ray",
+      "intersection_strict_segment_parameter",
+      "I4_equal_included_angles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "bool_branch": [
+      "certificate_format",
+      "I1_branch_matches",
+      "I1_equilateral",
+      "I9_equal_positive_cuts",
+      "I9_equilateral_on_AB",
+      "I9_opposite_side",
+      "I9_nonzero_ray",
+      "I9_strictly_inside",
+      "I9_equal_angles",
+      "intersection_unique_lines",
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "intersection_collinear_AB",
+      "intersection_positive_ray_parameter",
+      "intersection_strict_segment_parameter",
+      "I4_equal_CA_CB",
+      "I4_common_positive_CD",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "float_parameter": [
+      "certificate_format",
+      "I1_branch_matches",
+      "I1_equilateral",
+      "I9_equal_positive_cuts",
+      "I9_equilateral_on_AB",
+      "I9_opposite_side",
+      "I9_nonzero_ray",
+      "I9_strictly_inside",
+      "I9_equal_angles",
+      "intersection_unique_lines",
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "intersection_collinear_AB",
+      "intersection_positive_ray_parameter",
+      "intersection_strict_segment_parameter",
+      "I4_equal_CA_CB",
+      "I4_common_positive_CD",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "missing_certificate": [
+      "certificate_format",
+      "I1_branch_matches",
+      "I1_equilateral",
+      "I9_equal_positive_cuts",
+      "I9_equilateral_on_AB",
+      "I9_opposite_side",
+      "I9_nonzero_ray",
+      "I9_strictly_inside",
+      "I9_equal_angles",
+      "intersection_unique_lines",
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "intersection_collinear_AB",
+      "intersection_positive_ray_parameter",
+      "intersection_strict_segment_parameter",
+      "I4_equal_CA_CB",
+      "I4_common_positive_CD",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ],
+    "mapping_not_certificate": [
+      "certificate_format",
+      "I1_branch_matches",
+      "I1_equilateral",
+      "I9_equal_positive_cuts",
+      "I9_equilateral_on_AB",
+      "I9_opposite_side",
+      "I9_nonzero_ray",
+      "I9_strictly_inside",
+      "I9_equal_angles",
+      "intersection_unique_lines",
+      "intersection_on_claimed_ray",
+      "intersection_on_claimed_segment",
+      "intersection_collinear_AB",
+      "intersection_positive_ray_parameter",
+      "intersection_strict_segment_parameter",
+      "I4_equal_CA_CB",
+      "I4_common_positive_CD",
+      "I4_equal_included_angles",
+      "I4_nondegenerate_triangles",
+      "I4_SAS_premises",
+      "conclusion_AD_equals_DB"
+    ]
+  },
+  "optimization": 0,
+  "bare_assert_locations": [],
+  "scope": "independent finite audit; not formal proof or Jupyter kernel execution"
+}
+
+exit_code=0
