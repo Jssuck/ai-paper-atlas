@@ -1,0 +1,33 @@
+$ python3 -O run_examples.py
+{
+  "grid": "integer coordinates -1..1; first vertex (0,0)",
+  "nondegenerate_ordered_triangles": 48,
+  "ordered_pairs": 2304,
+  "accepted_equal_ordered_sides": 384,
+  "det_plus_one": 192,
+  "det_minus_one": 192,
+  "rejected_side_mismatch": 1920,
+  "two_side_counterexample": {
+    "source_squares": [
+      "9",
+      "16",
+      "25"
+    ],
+    "target_squares": [
+      "9",
+      "16",
+      "53/5"
+    ],
+    "source_angle_signature": [
+      "0",
+      "0"
+    ],
+    "target_angle_signature": [
+      "1",
+      "9/25"
+    ]
+  },
+  "scope": "finite rational teaching checks, not a general proof or historical superposition implementation"
+}
+
+exit_code=0

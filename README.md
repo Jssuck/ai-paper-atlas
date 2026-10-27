@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.7：两个距离，为什么还要说“同侧”？](papers/ancient/euclid-elements-i7.zh-CN.md)，拆解原图角链与后世内嵌补证，明确对应、同侧和唯一性边界，附精确实跑及独立双审。
+最新补读：[《几何原本》I.8：三条边怎样约束一个角？](papers/ancient/euclid-elements-i8.zh-CN.md)，拆解叠合与同侧依赖、固定对应和反射边界，附精确Gram等距证书实跑、Notebook及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -145,6 +145,7 @@
 | 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.5精读](papers/ancient/euclid-elements-i5.zh-CN.md) | 数学前史补读：等腰底角、两次SAS、点序与角消去 | 深读v1 · 完整I.5两项结论及原证明 |
 | 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.6精读](papers/ancient/euclid-elements-i6.zh-CN.md) | 数学前史补读：逆命题、严格截取、SAS对应与真部分反证 | 深读v1 · 完整I.6及隐含点序边界 |
 | 约公元前300年（作品年代估计；实读1908/2008版本） | [《几何原本》I.7精读](papers/ancient/euclid-elements-i7.zh-CN.md) | 数学前史补读：对应双距离、严格同侧、图形分情况与唯一性 | 深读v1 · 完整I.7及译注补充边界 |
+| 约公元前300年（前史补读；实读1908/2008版本） | [Euclid《几何原本》I.8精读](papers/ancient/euclid-elements-i8.zh-CN.md) | 演绎与约束前史：三边对应、叠合同侧、夹角相等与现代等距证书 | 深读v1 · 原证与重构分层、真实实跑及独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1374,3 +1375,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 最新补读：Euclid《几何原本》I.7
 
 [深读正文](papers/ancient/euclid-elements-i7.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i7.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i7.source-audit.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i7/technical-review.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i7/README.md)。区分原文角链、后世内嵌补证与现代坐标模型；对应端点、严格同侧、相异顶点及存在/唯一性不混淆。28测试三模式，2500候选对、100镜像检查；5代码单元Notebook标准库compile/exec非内核。有限运行不证明一般定理；仅本单元完成，既有暂缓项仍未完成。
+
+
+## 最新补读：Euclid《几何原本》I.8
+
+[深读正文](papers/ancient/euclid-elements-i8.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i8.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i8.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i8.technical-audit.zh-CN.md) · [源码与真实日志](reproduction/euclid-elements-i8/README.md)。固定对应三边与原命题夹角结论；区分叠合、同侧补显、反射与现代Gram等距证书。25测试三模式，2304配对、384证书（保向/反向各192）；5代码格Notebook标准库compile/exec非内核。有限运行不证明一般定理；仅本单元完成，既有暂缓项仍未完成。

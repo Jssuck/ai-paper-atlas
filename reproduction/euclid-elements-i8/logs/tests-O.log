@@ -1,0 +1,33 @@
+$ python3 -O test_geometry.py
+test_acute_obtuse_sign (__main__.GeometryTests.test_acute_obtuse_sign) ... ok
+test_bad_matrix (__main__.GeometryTests.test_bad_matrix) ... ok
+test_bad_translation (__main__.GeometryTests.test_bad_translation) ... ok
+test_bool_rejected (__main__.GeometryTests.test_bool_rejected) ... ok
+test_degenerate_source (__main__.GeometryTests.test_degenerate_source) ... ok
+test_degenerate_target (__main__.GeometryTests.test_degenerate_target) ... ok
+test_fixed_correspondence (__main__.GeometryTests.test_fixed_correspondence) ... ok
+test_float_rejected (__main__.GeometryTests.test_float_rejected) ... ok
+test_fraction_rotation (__main__.GeometryTests.test_fraction_rotation) ... ok
+test_gram (__main__.GeometryTests.test_gram) ... ok
+test_identity (__main__.GeometryTests.test_identity) ... ok
+test_large_exact (__main__.GeometryTests.test_large_exact) ... ok
+test_map (__main__.GeometryTests.test_map) ... ok
+test_polarization (__main__.GeometryTests.test_polarization) ... ok
+test_reflection (__main__.GeometryTests.test_reflection) ... ok
+test_repeated_vertex (__main__.GeometryTests.test_repeated_vertex) ... ok
+test_reverse_certificate (__main__.GeometryTests.test_reverse_certificate) ... ok
+test_right_angle (__main__.GeometryTests.test_right_angle) ... ok
+test_rotation (__main__.GeometryTests.test_rotation) ... ok
+test_rotation_orientation (__main__.GeometryTests.test_rotation_orientation) ... ok
+test_side_order (__main__.GeometryTests.test_side_order) ... ok
+test_top_angle (__main__.GeometryTests.test_top_angle) ... ok
+test_two_sides_insufficient (__main__.GeometryTests.test_two_sides_insufficient) ... ok
+test_wrong_vertex_count (__main__.GeometryTests.test_wrong_vertex_count) ... ok
+test_zero_arm (__main__.GeometryTests.test_zero_arm) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.003s
+
+OK
+
+exit_code=0
