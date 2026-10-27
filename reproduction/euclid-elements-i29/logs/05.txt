@@ -1,0 +1,6 @@
+COMMAND: python3 create_notebook.py
+EXIT: 0
+STDOUT:
+created six-code-cell tutorial
+
+STDERR:

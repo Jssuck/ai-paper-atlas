@@ -1,0 +1,61 @@
+COMMAND: python3 run_examples.py
+EXIT: 0
+STDOUT:
+{
+  "positive_inputs": 336,
+  "negative_inputs_directly_rejected": 8,
+  "example": {
+    "schema": 1,
+    "input": {
+      "B": [
+        "2",
+        "1"
+      ],
+      "D": [
+        "4",
+        "0"
+      ],
+      "G": [
+        "0",
+        "1"
+      ],
+      "H": [
+        "1",
+        "0"
+      ]
+    },
+    "input_sha256": "787b7cc4f72e2b1fc9bda483adacec178ff2966a5bbf8d891ddd192671c473ef",
+    "model": "rational Euclidean plane; not an axiomatic proof",
+    "side_determinants": [
+      "2",
+      "3"
+    ],
+    "positive_scale": "3/2",
+    "angles": {
+      "AGH": {
+        "cos_sign": -1,
+        "cos_squared": "1/2"
+      },
+      "GHD": {
+        "cos_sign": -1,
+        "cos_squared": "1/2"
+      },
+      "EGB": {
+        "cos_sign": -1,
+        "cos_squared": "1/2"
+      },
+      "BGH": {
+        "cos_sign": 1,
+        "cos_squared": "1/2"
+      }
+    },
+    "conclusions": {
+      "alternate_equal": true,
+      "corresponding_equal": true,
+      "interior_supplementary": true
+    }
+  },
+  "scope": "finite rational Euclidean examples, not a proof or independence test"
+}
+
+STDERR:

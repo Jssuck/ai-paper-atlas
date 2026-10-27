@@ -1,0 +1,6 @@
+COMMAND: python3 verify_notebook.py
+EXIT: 0
+STDOUT:
+{"code_cells_executed": 6, "method": "standard-library compile/exec; not Jupyter kernel", "success": true}
+
+STDERR:

@@ -1,0 +1,42 @@
+COMMAND: python3 -OO -m unittest -v test_geometry
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_all_negative_direct (test_geometry.GeometryTests.test_all_negative_direct) ... ok
+test_all_positive (test_geometry.GeometryTests.test_all_positive) ... ok
+test_bad_coordinate_bool (test_geometry.GeometryTests.test_bad_coordinate_bool) ... ok
+test_bad_coordinate_decimal (test_geometry.GeometryTests.test_bad_coordinate_decimal) ... ok
+test_bad_coordinate_empty (test_geometry.GeometryTests.test_bad_coordinate_empty) ... ok
+test_bad_coordinate_float (test_geometry.GeometryTests.test_bad_coordinate_float) ... ok
+test_bad_coordinate_integer (test_geometry.GeometryTests.test_bad_coordinate_integer) ... ok
+test_bad_coordinate_leading_zero (test_geometry.GeometryTests.test_bad_coordinate_leading_zero) ... ok
+test_bad_coordinate_none (test_geometry.GeometryTests.test_bad_coordinate_none) ... ok
+test_bad_coordinate_space (test_geometry.GeometryTests.test_bad_coordinate_space) ... ok
+test_bad_coordinate_unreduced (test_geometry.GeometryTests.test_bad_coordinate_unreduced) ... ok
+test_bad_coordinate_zero_div (test_geometry.GeometryTests.test_bad_coordinate_zero_div) ... ok
+test_bad_expected (test_geometry.GeometryTests.test_bad_expected) ... ok
+test_bad_shape_extra (test_geometry.GeometryTests.test_bad_shape_extra) ... ok
+test_bad_shape_missing (test_geometry.GeometryTests.test_bad_shape_missing) ... ok
+test_bad_shape_short (test_geometry.GeometryTests.test_bad_shape_short) ... ok
+test_bad_shape_tuple (test_geometry.GeometryTests.test_bad_shape_tuple) ... ok
+test_bool_integer_distinct (test_geometry.GeometryTests.test_bool_integer_distinct) ... ok
+test_certificate_list (test_geometry.GeometryTests.test_certificate_list) ... ok
+test_certificate_none (test_geometry.GeometryTests.test_certificate_none) ... ok
+test_conclusion_integer (test_geometry.GeometryTests.test_conclusion_integer) ... ok
+test_example (test_geometry.GeometryTests.test_example) ... ok
+test_extra_field (test_geometry.GeometryTests.test_extra_field) ... ok
+test_float_rejected (test_geometry.GeometryTests.test_float_rejected) ... ok
+test_hash_tamper (test_geometry.GeometryTests.test_hash_tamper) ... ok
+test_missing_field (test_geometry.GeometryTests.test_missing_field) ... ok
+test_nested_tamper (test_geometry.GeometryTests.test_nested_tamper) ... ok
+test_rebind (test_geometry.GeometryTests.test_rebind) ... ok
+test_right_angles (test_geometry.GeometryTests.test_right_angles) ... ok
+test_scale_tamper (test_geometry.GeometryTests.test_scale_tamper) ... ok
+test_tuple_list_distinct (test_geometry.GeometryTests.test_tuple_list_distinct) ... ok
+test_zero_ray_angle (test_geometry.GeometryTests.test_zero_ray_angle) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.086s
+
+OK
