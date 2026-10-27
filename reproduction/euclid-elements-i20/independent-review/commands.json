@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-27T14:49:25.405299+00:00",
+  "python_version": "3.12.14",
+  "working_directory": "reproduction/euclid-elements-i20",
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "tests-normal.log",
+      "log_sha256": "367aa04a6bcd0ff8e1abd39a1fac3f92d4309cb970107835a05e568786253e34"
+    },
+    {
+      "argv": [
+        "python",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "tests-O.log",
+      "log_sha256": "d9e9dca710ae79eb3dfc1525709ee61c0557065587c358ff627a84458b3bd700"
+    },
+    {
+      "argv": [
+        "python",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "tests-OO.log",
+      "log_sha256": "0aa206c3d60caaf2f071639c653a8a4f4b8ae6105cd3b247d6867dacc6ce1987"
+    },
+    {
+      "argv": [
+        "python",
+        "independent-review/check.py"
+      ],
+      "exit_code": 0,
+      "log": "check.log",
+      "log_sha256": "4ef06ee80048e5534e970a607be36d20f3f2fe984956891ebe6bb9c84609f10f"
+    }
+  ],
+  "note": "Commands truly rerun by independent reviewer; recorded after completion; notebook replay does not modify supplied notebook."
+}

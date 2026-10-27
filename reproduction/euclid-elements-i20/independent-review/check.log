@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "counts": {
+    "configurations": 182,
+    "tamper_or_binding": 1820,
+    "quadratic": 245,
+    "sum_oracle": 4225,
+    "angle_diagnostic": 576,
+    "notebook_cells": 6
+  },
+  "notebook_executor": "independent standard-library compile/exec",
+  "jupyter_kernel_used": false,
+  "numeric_diagnostics": "Decimal 70 digits and atan2 finite comparisons; not general proof"
+}

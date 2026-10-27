@@ -1,0 +1,44 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python test_geometry.py
+test_all_negative (__main__.TestGeometry.test_all_negative) ... ok
+test_all_positive (__main__.TestGeometry.test_all_positive) ... ok
+test_angle_zero_ray (__main__.TestGeometry.test_angle_zero_ray) ... ok
+test_bad_coordinate (__main__.TestGeometry.test_bad_coordinate) ... ok
+test_bool_float (__main__.TestGeometry.test_bool_float) ... ok
+test_bool_integer (__main__.TestGeometry.test_bool_integer) ... ok
+test_check_tampering (__main__.TestGeometry.test_check_tampering) ... ok
+test_collinear_equality (__main__.TestGeometry.test_collinear_equality) ... ok
+test_extra_key (__main__.TestGeometry.test_extra_key) ... ok
+test_float_coordinate (__main__.TestGeometry.test_float_coordinate) ... ok
+test_input_binding (__main__.TestGeometry.test_input_binding) ... ok
+test_irrational_input (__main__.TestGeometry.test_irrational_input) ... ok
+test_large (__main__.TestGeometry.test_large) ... ok
+test_missing_key (__main__.TestGeometry.test_missing_key) ... ok
+test_nan (__main__.TestGeometry.test_nan) ... ok
+test_near_collinear (__main__.TestGeometry.test_near_collinear) ... ok
+test_negative_scale (__main__.TestGeometry.test_negative_scale) ... ok
+test_none (__main__.TestGeometry.test_none) ... ok
+test_nonrational (__main__.TestGeometry.test_nonrational) ... ok
+test_other_degenerate_sums (__main__.TestGeometry.test_other_degenerate_sums) ... ok
+test_permutations (__main__.TestGeometry.test_permutations) ... ok
+test_positive_scale (__main__.TestGeometry.test_positive_scale) ... ok
+test_quadratic_sign (__main__.TestGeometry.test_quadratic_sign) ... ok
+test_rational_inputs (__main__.TestGeometry.test_rational_inputs) ... ok
+test_reflection (__main__.TestGeometry.test_reflection) ... ok
+test_rotation (__main__.TestGeometry.test_rotation) ... ok
+test_sample_D (__main__.TestGeometry.test_sample_D) ... ok
+test_sample_ratio (__main__.TestGeometry.test_sample_ratio) ... ok
+test_sum_domain (__main__.TestGeometry.test_sum_domain) ... ok
+test_sum_exact_boundary (__main__.TestGeometry.test_sum_exact_boundary) ... ok
+test_sum_types (__main__.TestGeometry.test_sum_types) ... ok
+test_tampered_D (__main__.TestGeometry.test_tampered_D) ... ok
+test_translation (__main__.TestGeometry.test_translation) ... ok
+test_tuple (__main__.TestGeometry.test_tuple) ... ok
+test_wrong_shape (__main__.TestGeometry.test_wrong_shape) ... ok
+test_zero_equality (__main__.TestGeometry.test_zero_equality) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.789s
+
+OK
+
+exit_code=0

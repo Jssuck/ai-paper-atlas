@@ -1,0 +1,41 @@
+test_all_negative (test_geometry.TestGeometry.test_all_negative) ... ok
+test_all_positive (test_geometry.TestGeometry.test_all_positive) ... ok
+test_angle_zero_ray (test_geometry.TestGeometry.test_angle_zero_ray) ... ok
+test_bad_coordinate (test_geometry.TestGeometry.test_bad_coordinate) ... ok
+test_bool_float (test_geometry.TestGeometry.test_bool_float) ... ok
+test_bool_integer (test_geometry.TestGeometry.test_bool_integer) ... ok
+test_check_tampering (test_geometry.TestGeometry.test_check_tampering) ... ok
+test_collinear_equality (test_geometry.TestGeometry.test_collinear_equality) ... ok
+test_extra_key (test_geometry.TestGeometry.test_extra_key) ... ok
+test_float_coordinate (test_geometry.TestGeometry.test_float_coordinate) ... ok
+test_input_binding (test_geometry.TestGeometry.test_input_binding) ... ok
+test_irrational_input (test_geometry.TestGeometry.test_irrational_input) ... ok
+test_large (test_geometry.TestGeometry.test_large) ... ok
+test_missing_key (test_geometry.TestGeometry.test_missing_key) ... ok
+test_nan (test_geometry.TestGeometry.test_nan) ... ok
+test_near_collinear (test_geometry.TestGeometry.test_near_collinear) ... ok
+test_negative_scale (test_geometry.TestGeometry.test_negative_scale) ... ok
+test_none (test_geometry.TestGeometry.test_none) ... ok
+test_nonrational (test_geometry.TestGeometry.test_nonrational) ... ok
+test_other_degenerate_sums (test_geometry.TestGeometry.test_other_degenerate_sums) ... ok
+test_permutations (test_geometry.TestGeometry.test_permutations) ... ok
+test_positive_scale (test_geometry.TestGeometry.test_positive_scale) ... ok
+test_quadratic_sign (test_geometry.TestGeometry.test_quadratic_sign) ... ok
+test_rational_inputs (test_geometry.TestGeometry.test_rational_inputs) ... ok
+test_reflection (test_geometry.TestGeometry.test_reflection) ... ok
+test_rotation (test_geometry.TestGeometry.test_rotation) ... ok
+test_sample_D (test_geometry.TestGeometry.test_sample_D) ... ok
+test_sample_ratio (test_geometry.TestGeometry.test_sample_ratio) ... ok
+test_sum_domain (test_geometry.TestGeometry.test_sum_domain) ... ok
+test_sum_exact_boundary (test_geometry.TestGeometry.test_sum_exact_boundary) ... ok
+test_sum_types (test_geometry.TestGeometry.test_sum_types) ... ok
+test_tampered_D (test_geometry.TestGeometry.test_tampered_D) ... ok
+test_translation (test_geometry.TestGeometry.test_translation) ... ok
+test_tuple (test_geometry.TestGeometry.test_tuple) ... ok
+test_wrong_shape (test_geometry.TestGeometry.test_wrong_shape) ... ok
+test_zero_equality (test_geometry.TestGeometry.test_zero_equality) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.710s
+
+OK

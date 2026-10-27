@@ -1,0 +1,94 @@
+{
+  "positive_certificates": 128,
+  "negative_inputs": 12,
+  "nonrational_extension_parameters": 96,
+  "sample": {
+    "schema": "euclid-i20-v1",
+    "input": {
+      "A": [
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        }
+      ],
+      "B": [
+        {
+          "a": "3",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        }
+      ],
+      "C": [
+        {
+          "a": "0",
+          "b": "0",
+          "radicand": "0"
+        },
+        {
+          "a": "4",
+          "b": "0",
+          "radicand": "0"
+        }
+      ]
+    },
+    "t": {
+      "a": "4/3",
+      "b": "0",
+      "radicand": "0"
+    },
+    "D": [
+      {
+        "a": "-4",
+        "b": "0",
+        "radicand": "0"
+      },
+      {
+        "a": "0",
+        "b": "0",
+        "radicand": "0"
+      }
+    ],
+    "CA_cone_coefficients": [
+      {
+        "a": "4/7",
+        "b": "0",
+        "radicand": "0"
+      },
+      {
+        "a": "3/7",
+        "b": "0",
+        "radicand": "0"
+      }
+    ],
+    "checks": {
+      "t_positive": true,
+      "AD_equals_AC": true,
+      "B_A_D_collinear": true,
+      "A_strictly_between_B_D": true,
+      "CA_positive_cone": true,
+      "DAC_nondegenerate": true,
+      "DBC_nondegenerate": true,
+      "base_angles_equal_modern_check": true,
+      "strict_angle_part_modern_check": true,
+      "same_D_ray_modern_check": true,
+      "larger_angle_modern_check": true,
+      "DB_greater_BC_modern_check": true,
+      "concatenation_squared_identity": true,
+      "AB_plus_AC_greater_BC": true,
+      "AB_plus_BC_greater_AC": true,
+      "AC_plus_BC_greater_AB": true
+    }
+  },
+  "degenerate_equality_1_plus_2_gt_3": false
+}
