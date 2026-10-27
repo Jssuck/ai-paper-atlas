@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "counts": {
+    "configurations": 330,
+    "certificates": 126,
+    "tamper_or_binding": 1134,
+    "angle_diagnostics": 400,
+    "affine_intersections": 168,
+    "abstract_flag_cases": 8,
+    "notebook_cells": 6
+  },
+  "diagnostic_float_is_not_proof": true,
+  "kernel_used": false
+}

@@ -1,0 +1,39 @@
+test_acute (test_geometry.Tests.test_acute) ... ok
+test_angle_independent (test_geometry.Tests.test_angle_independent) ... ok
+test_binding (test_geometry.Tests.test_binding) ... ok
+test_branch_tamper (test_geometry.Tests.test_branch_tamper) ... ok
+test_equal (test_geometry.Tests.test_equal) ... ok
+test_example (test_geometry.Tests.test_example) ... ok
+test_extra (test_geometry.Tests.test_extra) ... ok
+test_flag_int (test_geometry.Tests.test_flag_int) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_nan (test_geometry.Tests.test_nan) ... ok
+test_negative (test_geometry.Tests.test_negative) ... ok
+test_nested_bool (test_geometry.Tests.test_nested_bool) ... ok
+test_no_equal (test_geometry.Tests.test_no_equal) ... ok
+test_no_reverse (test_geometry.Tests.test_no_reverse) ... ok
+test_no_total (test_geometry.Tests.test_no_total) ... ok
+test_non_json (test_geometry.Tests.test_non_json) ... ok
+test_obtuse (test_geometry.Tests.test_obtuse) ... ok
+test_obtuse_triangle (test_geometry.Tests.test_obtuse_triangle) ... ok
+test_positive (test_geometry.Tests.test_positive) ... ok
+test_rational (test_geometry.Tests.test_rational) ... ok
+test_reflected (test_geometry.Tests.test_reflected) ... ok
+test_relation_bool (test_geometry.Tests.test_relation_bool) ... ok
+test_reverse (test_geometry.Tests.test_reverse) ... ok
+test_right (test_geometry.Tests.test_right) ... ok
+test_roundtrip (test_geometry.Tests.test_roundtrip) ... ok
+test_scaling (test_geometry.Tests.test_scaling) ... ok
+test_schema_bool (test_geometry.Tests.test_schema_bool) ... ok
+test_schema_float (test_geometry.Tests.test_schema_float) ... ok
+test_straight_angle (test_geometry.Tests.test_straight_angle) ... ok
+test_total (test_geometry.Tests.test_total) ... ok
+test_translation (test_geometry.Tests.test_translation) ... ok
+test_tuple (test_geometry.Tests.test_tuple) ... ok
+test_zero_angle (test_geometry.Tests.test_zero_angle) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.016s
+
+OK

@@ -1,0 +1,68 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -OO run_examples.py
+{
+  "positive_certificates": 87,
+  "negative_inputs": 12,
+  "total_order_result": [
+    "greater"
+  ],
+  "without_totality": [
+    "greater",
+    "incomparable"
+  ],
+  "without_I5": [
+    "equal",
+    "greater"
+  ],
+  "without_I18": [
+    "less",
+    "greater"
+  ],
+  "example": {
+    "schema": 1,
+    "observation": {
+      "input": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "4"
+        ]
+      ],
+      "signed_double_area": "12",
+      "AB_squared": "9",
+      "AC_squared": "16",
+      "beta_dot": "9",
+      "gamma_dot": "16",
+      "angle_relation": 1,
+      "side_relation": 1,
+      "cot_difference_numerator": "-7",
+      "identity_residual": "0"
+    },
+    "premise": "beta > gamma",
+    "excluded": [
+      {
+        "side": "equal",
+        "source": "I.5",
+        "prediction": "beta = gamma"
+      },
+      {
+        "side": "less",
+        "source": "I.18 with labels exchanged",
+        "prediction": "beta < gamma"
+      }
+    ],
+    "remaining": [
+      "greater"
+    ],
+    "conclusion": "AC > AB",
+    "scope": "exact rational coordinate model plus separately stated order abstraction"
+  }
+}
+
+exit_code=0

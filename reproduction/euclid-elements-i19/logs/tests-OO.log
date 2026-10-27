@@ -1,0 +1,42 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -OO test_geometry.py
+test_acute (__main__.Tests.test_acute) ... ok
+test_angle_independent (__main__.Tests.test_angle_independent) ... ok
+test_binding (__main__.Tests.test_binding) ... ok
+test_branch_tamper (__main__.Tests.test_branch_tamper) ... ok
+test_equal (__main__.Tests.test_equal) ... ok
+test_example (__main__.Tests.test_example) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_flag_int (__main__.Tests.test_flag_int) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_nan (__main__.Tests.test_nan) ... ok
+test_negative (__main__.Tests.test_negative) ... ok
+test_nested_bool (__main__.Tests.test_nested_bool) ... ok
+test_no_equal (__main__.Tests.test_no_equal) ... ok
+test_no_reverse (__main__.Tests.test_no_reverse) ... ok
+test_no_total (__main__.Tests.test_no_total) ... ok
+test_non_json (__main__.Tests.test_non_json) ... ok
+test_obtuse (__main__.Tests.test_obtuse) ... ok
+test_obtuse_triangle (__main__.Tests.test_obtuse_triangle) ... ok
+test_positive (__main__.Tests.test_positive) ... ok
+test_rational (__main__.Tests.test_rational) ... ok
+test_reflected (__main__.Tests.test_reflected) ... ok
+test_relation_bool (__main__.Tests.test_relation_bool) ... ok
+test_reverse (__main__.Tests.test_reverse) ... ok
+test_right (__main__.Tests.test_right) ... ok
+test_roundtrip (__main__.Tests.test_roundtrip) ... ok
+test_scaling (__main__.Tests.test_scaling) ... ok
+test_schema_bool (__main__.Tests.test_schema_bool) ... ok
+test_schema_float (__main__.Tests.test_schema_float) ... ok
+test_straight_angle (__main__.Tests.test_straight_angle) ... ok
+test_total (__main__.Tests.test_total) ... ok
+test_translation (__main__.Tests.test_translation) ... ok
+test_tuple (__main__.Tests.test_tuple) ... ok
+test_zero_angle (__main__.Tests.test_zero_angle) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.016s
+
+OK
+
+exit_code=0
