@@ -1,0 +1,94 @@
+$ python3 run_examples.py
+exit_code=0
+STDOUT
+{
+  "positive_count": 672,
+  "negative_count": 12,
+  "negative_names": [
+    "corresponding:wrong_side_equal_angles",
+    "corresponding:supplement_not_equal",
+    "corresponding:near_parallel",
+    "corresponding:same_intersection",
+    "corresponding:zero_ray",
+    "corresponding:ray_on_transversal",
+    "interior_sum:wrong_side_equal_angles",
+    "interior_sum:supplement_not_equal",
+    "interior_sum:near_parallel",
+    "interior_sum:same_intersection",
+    "interior_sum:zero_ray",
+    "interior_sum:ray_on_transversal"
+  ],
+  "hand_examples": {
+    "corresponding": {
+      "schema": 1,
+      "input": {
+        "B": [
+          "1",
+          "1"
+        ],
+        "D": [
+          "3",
+          "1"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ],
+        "case": "corresponding"
+      },
+      "input_sha256": "919c24c1644ee568e38add8cc0766772d31edde63e9ca8fdc37083a4d11e64ab",
+      "angle_keys": [
+        "-1",
+        "-1"
+      ],
+      "transversal_side_determinants": [
+        "2",
+        "2"
+      ],
+      "direction_determinant": "0",
+      "same_scale": "1",
+      "conclusion": "distinct coplanar lines EB and FD do not intersect"
+    },
+    "interior_sum": {
+      "schema": 1,
+      "input": {
+        "B": [
+          "1",
+          "1"
+        ],
+        "D": [
+          "3",
+          "1"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ],
+        "case": "interior_sum"
+      },
+      "input_sha256": "62cdc6856e1ca772c23c5c869a0edf50a61feed74cb0dfd9f917e5661c9f0a85",
+      "angle_keys": [
+        "1",
+        "-1"
+      ],
+      "transversal_side_determinants": [
+        "2",
+        "2"
+      ],
+      "direction_determinant": "0",
+      "same_scale": "1",
+      "conclusion": "distinct coplanar lines EB and FD do not intersect"
+    }
+  },
+  "limitation": "Finite rational Euclidean-coordinate checks do not prove the general proposition."
+}
+
+STDERR
