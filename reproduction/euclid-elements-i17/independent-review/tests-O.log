@@ -1,0 +1,39 @@
+test_all_pairs (test_geometry.Checks.test_all_pairs) ... ok
+test_bad_json (test_geometry.Checks.test_bad_json) ... ok
+test_bool_schema (test_geometry.Checks.test_bool_schema) ... ok
+test_changed_flag (test_geometry.Checks.test_changed_flag) ... ok
+test_extra (test_geometry.Checks.test_extra) ... ok
+test_finite (test_geometry.Checks.test_finite) ... ok
+test_float_schema (test_geometry.Checks.test_float_schema) ... ok
+test_input_binding (test_geometry.Checks.test_input_binding) ... ok
+test_invalid_00 (test_geometry.Checks.test_invalid_00) ... ok
+test_invalid_01 (test_geometry.Checks.test_invalid_01) ... ok
+test_invalid_02 (test_geometry.Checks.test_invalid_02) ... ok
+test_invalid_03 (test_geometry.Checks.test_invalid_03) ... ok
+test_invalid_04 (test_geometry.Checks.test_invalid_04) ... ok
+test_invalid_05 (test_geometry.Checks.test_invalid_05) ... ok
+test_invalid_06 (test_geometry.Checks.test_invalid_06) ... ok
+test_invalid_07 (test_geometry.Checks.test_invalid_07) ... ok
+test_invalid_08 (test_geometry.Checks.test_invalid_08) ... ok
+test_invalid_09 (test_geometry.Checks.test_invalid_09) ... ok
+test_invalid_10 (test_geometry.Checks.test_invalid_10) ... ok
+test_invalid_11 (test_geometry.Checks.test_invalid_11) ... ok
+test_ledger (test_geometry.Checks.test_ledger) ... ok
+test_ledger_bad_right (test_geometry.Checks.test_ledger_bad_right) ... ok
+test_ledger_bool (test_geometry.Checks.test_ledger_bool) ... ok
+test_ledger_equality (test_geometry.Checks.test_ledger_equality) ... ok
+test_ledger_false_supplement (test_geometry.Checks.test_ledger_false_supplement) ... ok
+test_ledger_scale (test_geometry.Checks.test_ledger_scale) ... ok
+test_missing (test_geometry.Checks.test_missing) ... ok
+test_orientation (test_geometry.Checks.test_orientation) ... ok
+test_pair_witness (test_geometry.Checks.test_pair_witness) ... ok
+test_permutation (test_geometry.Checks.test_permutation) ... ok
+test_rational (test_geometry.Checks.test_rational) ... ok
+test_sample (test_geometry.Checks.test_sample) ... ok
+test_translation (test_geometry.Checks.test_translation) ... ok
+test_wrong_number (test_geometry.Checks.test_wrong_number) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.028s
+
+OK

@@ -1,0 +1,90 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O run_examples.py
+{
+  "positive_certificates": 120,
+  "pair_checks": 360,
+  "negative_inputs": 12,
+  "angle_ledgers": 63,
+  "sample": {
+    "schema": 1,
+    "input": {
+      "A": [
+        "1",
+        "2"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "3",
+        "0"
+      ]
+    },
+    "oriented_double_area": "6",
+    "pairs": {
+      "AB": {
+        "alpha": [
+          "2",
+          "6"
+        ],
+        "beta": [
+          "3",
+          "6"
+        ],
+        "external_at_second": [
+          "-3",
+          "6"
+        ],
+        "external_minus_remote_sine_numerator": "30",
+        "pair_sum_sine_numerator": "30",
+        "external_gt_remote": true,
+        "pair_sum_lt_two_right_angles": true
+      },
+      "BC": {
+        "alpha": [
+          "3",
+          "6"
+        ],
+        "beta": [
+          "6",
+          "6"
+        ],
+        "external_at_second": [
+          "-6",
+          "6"
+        ],
+        "external_minus_remote_sine_numerator": "54",
+        "pair_sum_sine_numerator": "54",
+        "external_gt_remote": true,
+        "pair_sum_lt_two_right_angles": true
+      },
+      "CA": {
+        "alpha": [
+          "6",
+          "6"
+        ],
+        "beta": [
+          "2",
+          "6"
+        ],
+        "external_at_second": [
+          "-2",
+          "6"
+        ],
+        "external_minus_remote_sine_numerator": "48",
+        "pair_sum_sine_numerator": "48",
+        "external_gt_remote": true,
+        "pair_sum_lt_two_right_angles": true
+      }
+    },
+    "conclusion": "All three pairs have sum strictly below two right angles in this rational Euclidean model."
+  },
+  "ledger": {
+    "sum": "1",
+    "two_right_angles": "2",
+    "strict_gap": "1",
+    "conclusion": true
+  }
+}
+
+exit_code=0

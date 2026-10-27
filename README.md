@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.16：外角为什么更大，图上“在里面”又由谁保证？](papers/ancient/euclid-elements-i16.zh-CN.md)，拆解两次SAS角复制、严格内部关系与点序，区分原证、坐标补证和曲面边界，附精确实跑、Notebook及独立双审。
+最新补读：[《几何原本》I.17：两角之和为什么严格小于两直角？](papers/ancient/euclid-elements-i17.zh-CN.md)，拆解外角严格界、同加保序与已知总量，区分成对约束和三角形总角和，附精确实跑、Notebook及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -154,6 +154,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.14精读](papers/ancient/euclid-elements-i14.zh-CN.md) | AI推理前史补读：逆命题、异侧条件、角量相消与方向唯一性 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.15精读](papers/ancient/euclid-elements-i15.zh-CN.md) | AI推理前史补读：对顶角、公共量消去、方向条件与推论传本 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.16精读](papers/ancient/euclid-elements-i16.zh-CN.md) | AI推理前史补读：外角严格不等式、辅助构造、角内部与空间假设 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.17精读](papers/ancient/euclid-elements-i17.zh-CN.md) | AI推理前史补读：任两角的严格界、加法保序、局部约束与唯一性 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1424,3 +1425,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Euclid《几何原本》I.16 附件
 
 [深读正文](papers/ancient/euclid-elements-i16.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i16.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i16.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i16.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i16/README.md)。完整I.16及Heath相关评论，区分两次SAS、严格角内部、整体大于部分与后续外角和等式；Fitzpatrick脚注角名差别不无声改写。有限实跑不替代一般证明，Notebook为标准库compile/exec非kernel。仅本单元完成，不计后续命题、全书或AI前史穷尽，既有暂缓项未变。
+
+
+## Euclid《几何原本》I.17 附件
+
+[深读正文](papers/ancient/euclid-elements-i17.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i17.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i17.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i17.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i17/README.md)。完整I.17及Heath相关评论；不循环引用I.32，区分同加相等与严格保序、任意两角与三角形总角和、Proclus替代证明及垂线唯一性。有限实跑不替代一般证明，Notebook为标准库compile/exec非kernel。仅本单元完成，不计后续命题、全书或AI前史穷尽，既有暂缓项未变。
