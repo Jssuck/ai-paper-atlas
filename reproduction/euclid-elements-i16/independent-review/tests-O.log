@@ -1,0 +1,44 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O test_geometry.py
+test_all_invalid (__main__.GeometryTests.test_all_invalid) ... ok
+test_all_positive (__main__.GeometryTests.test_all_positive) ... ok
+test_boundary_not_inside (__main__.GeometryTests.test_boundary_not_inside) ... ok
+test_coefficients (__main__.GeometryTests.test_coefficients) ... ok
+test_dict_order_irrelevant (__main__.GeometryTests.test_dict_order_irrelevant) ... ok
+test_exact_points (__main__.GeometryTests.test_exact_points) ... ok
+test_input_bound (__main__.GeometryTests.test_input_bound) ... ok
+test_inside_ccw (__main__.GeometryTests.test_inside_ccw) ... ok
+test_inside_cw (__main__.GeometryTests.test_inside_cw) ... ok
+test_json_float (__main__.GeometryTests.test_json_float) ... ok
+test_json_tuple (__main__.GeometryTests.test_json_tuple) ... ok
+test_json_types (__main__.GeometryTests.test_json_types) ... ok
+test_large_exact (__main__.GeometryTests.test_large_exact) ... ok
+test_no_extra_payload (__main__.GeometryTests.test_no_extra_payload) ... ok
+test_opposite_acute_obtuse (__main__.GeometryTests.test_opposite_acute_obtuse) ... ok
+test_opposite_not_inside (__main__.GeometryTests.test_opposite_not_inside) ... ok
+test_rationals (__main__.GeometryTests.test_rationals) ... ok
+test_reflection (__main__.GeometryTests.test_reflection) ... ok
+test_right_angle (__main__.GeometryTests.test_right_angle) ... ok
+test_rotation (__main__.GeometryTests.test_rotation) ... ok
+test_straight_wedge_rejected (__main__.GeometryTests.test_straight_wedge_rejected) ... ok
+test_tamper_check_false (__main__.GeometryTests.test_tamper_check_false) ... ok
+test_tamper_check_integer (__main__.GeometryTests.test_tamper_check_integer) ... ok
+test_tamper_coefficient (__main__.GeometryTests.test_tamper_coefficient) ... ok
+test_tamper_conclusion (__main__.GeometryTests.test_tamper_conclusion) ... ok
+test_tamper_extra_field (__main__.GeometryTests.test_tamper_extra_field) ... ok
+test_tamper_input_change (__main__.GeometryTests.test_tamper_input_change) ... ok
+test_tamper_missing_field (__main__.GeometryTests.test_tamper_missing_field) ... ok
+test_tamper_point_F (__main__.GeometryTests.test_tamper_point_F) ... ok
+test_tamper_point_N (__main__.GeometryTests.test_tamper_point_N) ... ok
+test_tamper_schema_bool (__main__.GeometryTests.test_tamper_schema_bool) ... ok
+test_tamper_schema_float (__main__.GeometryTests.test_tamper_schema_float) ... ok
+test_tamper_tuple_point (__main__.GeometryTests.test_tamper_tuple_point) ... ok
+test_translation (__main__.GeometryTests.test_translation) ... ok
+test_very_flat (__main__.GeometryTests.test_very_flat) ... ok
+test_zero_angle_ray (__main__.GeometryTests.test_zero_angle_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.259s
+
+OK
+
+exit_code=0

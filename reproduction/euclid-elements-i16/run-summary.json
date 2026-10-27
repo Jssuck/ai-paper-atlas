@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-27T10:35:30.717324+00:00",
+  "completed_at_utc": "2026-10-27T10:35:32.617948+00:00",
+  "commands": [
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:30.722679+00:00",
+      "duration_seconds": 0.28277456102659926,
+      "exit_code": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:31.005704+00:00",
+      "duration_seconds": 0.1568497009575367,
+      "exit_code": 0,
+      "log": "logs/examples-normal.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:31.163365+00:00",
+      "duration_seconds": 0.4225219329819083,
+      "exit_code": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:31.586149+00:00",
+      "duration_seconds": 0.1965032900334336,
+      "exit_code": 0,
+      "log": "logs/examples-O.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "test_geometry.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:31.783756+00:00",
+      "duration_seconds": 0.4406431459938176,
+      "exit_code": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-OO",
+        "run_examples.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:32.224842+00:00",
+      "duration_seconds": 0.2096499499748461,
+      "exit_code": 0,
+      "log": "logs/examples-OO.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "create_notebook.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:32.434951+00:00",
+      "duration_seconds": 0.02318048704182729,
+      "exit_code": 0,
+      "log": "logs/notebook-create.log"
+    },
+    {
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_notebook.py"
+      ],
+      "cwd": ".",
+      "started_at_utc": "2026-10-27T10:35:32.458326+00:00",
+      "duration_seconds": 0.15921111399075016,
+      "exit_code": 0,
+      "log": "logs/notebook-execute.log"
+    }
+  ],
+  "tests_per_mode": 36,
+  "positive_certificates_per_mode": 180,
+  "negative_inputs_per_mode": 16,
+  "optimization_results_identical": true,
+  "no_bare_assert_in_checked_sources": true,
+  "notebook_code_cells": 6
+}

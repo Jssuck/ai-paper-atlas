@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "independent_configurations": 300,
+  "tamper_checks": 2400,
+  "wedge_checks": 512,
+  "angle_equality_checks": 256,
+  "notebook_cells_replayed": 6,
+  "notebook_kernel_used": false,
+  "finite_checks_not_general_proof": true
+}
