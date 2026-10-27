@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "status": "verifying",
-  "active_paper": {
-    "id": "euclid-elements-i11",
-    "stage": "publication_verification",
-    "updated_at": "2026-10-27T03:48:40.243701+00:00"
-  },
+  "status": "idle",
+  "active_paper": null,
   "last_completed": {
-    "id": "euclid-elements-i10",
+    "id": "euclid-elements-i11",
     "stage": "completed",
-    "updated_at": "2026-10-27T03:02:58.774Z"
+    "updated_at": "2026-10-27T03:53:20.795Z"
   },
   "deferred_papers": [
     {
@@ -24,5 +20,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-27T03:48:40.243701+00:00"
+  "updated_at": "2026-10-27T03:53:20.795Z"
 }
