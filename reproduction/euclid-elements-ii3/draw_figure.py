@@ -1,0 +1,20 @@
+from pathlib import Path
+svg='''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="570" viewBox="0 0 760 570" role="img" aria-labelledby="title desc">
+<title id="title">Euclid II.3: rectangle AE equals rectangle AD plus square CE</title>
+<desc id="desc">A C B lie along the bottom with AC two and CB four. F D E lie above, at height four. The right region CDEB is a square, the whole AFEB is a six by four rectangle.</desc>
+<rect width="760" height="570" fill="#fff"/>
+<text x="380" y="40" text-anchor="middle" font-family="sans-serif" font-size="24">II.3: whole rectangle = rectangle + square</text>
+<rect x="100" y="110" width="160" height="320" fill="#dbeafe"/>
+<rect x="260" y="110" width="320" height="320" fill="#dcfce7"/>
+<path d="M100 430 V110 H580 V430 Z M260 110 V430" fill="none" stroke="#111827" stroke-width="3"/>
+<g font-family="sans-serif" font-size="24" fill="#111827">
+<text x="86" y="462">A</text><text x="250" y="462">C</text><text x="573" y="462">B</text>
+<text x="86" y="97">F</text><text x="250" y="97">D</text><text x="573" y="97">E</text>
+<text x="180" y="240" text-anchor="middle">AD</text><text x="180" y="275" text-anchor="middle">2 × 4 = 8</text>
+<text x="420" y="240" text-anchor="middle">CE = DB</text><text x="420" y="275" text-anchor="middle">4 × 4 = 16</text>
+<text x="180" y="495" text-anchor="middle">AC = 2</text><text x="420" y="495" text-anchor="middle">CB = 4</text>
+<text x="605" y="280">BE = 4</text>
+<text x="380" y="545" text-anchor="middle">AE: 6 × 4 = 24 = 8 + 16</text>
+</g><path d="M100 410 H120 V430 M260 410 H280 V430 M560 430 V410 H580" fill="none" stroke="#374151" stroke-width="1.5"/>
+</svg>'''
+Path('figures').mkdir(exist_ok=True);Path('figures/partition.svg').write_text(svg+'\n');print('wrote original figures/partition.svg; integer example AB=6, AC=2, CB=4')

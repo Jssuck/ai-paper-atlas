@@ -1,0 +1,13 @@
+$ python create_notebook.py
+{'AE': '24', 'AD': '8', 'CE': '16'}
+{'A': ('0', '0'), 'B': ('6', '0'), 'C': ('2', '0'), 'D': ('2', '4'), 'E': ('6', '4'), 'F': ('0', '4')}
+accepted: True
+{'AE': '15', 'AD': '6', 'CE': '9'}
+{'AE': '24', 'AD': '8', 'CE': '16'}
+area equality: True
+certificate accepted: False
+rejected: height must equal CB, not AB or AC
+Finite cases do not prove the general theorem.
+code_cells_executed=5; kernel_started=false; execution_count=null
+
+exit_code=0

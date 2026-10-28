@@ -1,0 +1,29 @@
+$ python -O -m unittest test_geometry -v
+test_all_labels_bound (test_geometry.GeometryTests.test_all_labels_bound) ... ok
+test_area_orientation (test_geometry.GeometryTests.test_area_orientation) ... ok
+test_bad_parameter_type (test_geometry.GeometryTests.test_bad_parameter_type) ... ok
+test_cert_container (test_geometry.GeometryTests.test_cert_container) ... ok
+test_determinism (test_geometry.GeometryTests.test_determinism) ... ok
+test_equal_sum_not_enough (test_geometry.GeometryTests.test_equal_sum_not_enough) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_input_rebinding (test_geometry.GeometryTests.test_input_rebinding) ... ok
+test_invalid_inputs (test_geometry.GeometryTests.test_invalid_inputs) ... ok
+test_keys (test_geometry.GeometryTests.test_keys) ... ok
+test_known (test_geometry.GeometryTests.test_known) ... ok
+test_list_coordinates (test_geometry.GeometryTests.test_list_coordinates) ... ok
+test_not_ii2 (test_geometry.GeometryTests.test_not_ii2) ... ok
+test_point_coordinates (test_geometry.GeometryTests.test_point_coordinates) ... ok
+test_points_container (test_geometry.GeometryTests.test_points_container) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_region_container (test_geometry.GeometryTests.test_region_container) ... ok
+test_regions_bound (test_geometry.GeometryTests.test_regions_bound) ... ok
+test_rotated (test_geometry.GeometryTests.test_rotated) ... ok
+test_swapped_square (test_geometry.GeometryTests.test_swapped_square) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.024s
+
+OK
+
+exit_code=0

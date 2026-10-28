@@ -1,0 +1,6 @@
+{
+  "method": "stdlib compile/exec in fresh namespace",
+  "code_cells": 5,
+  "outputs_match": true,
+  "kernel_started": false
+}
