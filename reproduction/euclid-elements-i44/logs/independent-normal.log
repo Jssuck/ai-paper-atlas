@@ -1,0 +1,3 @@
+$ python  independent_check.py
+{"independent_checks": 7636, "invalid_inputs": 52, "result": "PASS", "scope": "finite rational coordinate, directed ray, angle, dissection and rejection audit", "valid_cases": 270}
+exit_code=0

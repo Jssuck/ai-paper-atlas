@@ -1,0 +1,29 @@
+$ python -m unittest -v test_geometry
+test_acute (test_geometry.GeometryTests.test_acute) ... ok
+test_area (test_geometry.GeometryTests.test_area) ... ok
+test_area_not_congruence (test_geometry.GeometryTests.test_area_not_congruence) ... ok
+test_example (test_geometry.GeometryTests.test_example) ... ok
+test_extra_point (test_geometry.GeometryTests.test_extra_point) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_invalid (test_geometry.GeometryTests.test_invalid) ... ok
+test_missing (test_geometry.GeometryTests.test_missing) ... ok
+test_no_assert_dependency (test_geometry.GeometryTests.test_no_assert_dependency) ... ok
+test_obtuse (test_geometry.GeometryTests.test_obtuse) ... ok
+test_outer_diagonal (test_geometry.GeometryTests.test_outer_diagonal) ... ok
+test_output_independent_b (test_geometry.GeometryTests.test_output_independent_b) ... ok
+test_prescribed_base (test_geometry.GeometryTests.test_prescribed_base) ... ok
+test_ray_order (test_geometry.GeometryTests.test_ray_order) ... ok
+test_reverse_ray (test_geometry.GeometryTests.test_reverse_ray) ... ok
+test_right (test_geometry.GeometryTests.test_right) ... ok
+test_scale_direction (test_geometry.GeometryTests.test_scale_direction) ... ok
+test_swapped_labels (test_geometry.GeometryTests.test_swapped_labels) ... ok
+test_tampered_K (test_geometry.GeometryTests.test_tampered_K) ... ok
+test_wrong_side (test_geometry.GeometryTests.test_wrong_side) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.054s
+
+OK
+
+exit_code=0

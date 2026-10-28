@@ -1,0 +1,4 @@
+$ python run_examples.py
+{"valid": 72, "invalid": 12, "all_verified": true}
+
+exit_code=0

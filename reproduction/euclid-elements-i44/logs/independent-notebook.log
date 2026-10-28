@@ -1,0 +1,3 @@
+$ python verify_notebook.py
+{"code_cells": 5, "replay_matches": true, "method": "fresh namespace stdlib compile/exec, not Jupyter kernel"}
+exit_code=0
