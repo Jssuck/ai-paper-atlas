@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-28T17:46:16.951810+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "article_sha256": "288db6230d05d3f839fb86b3e859dea14ea897d6e2a06b364b656bfdda75b086",
+  "checker_sha256": "0d445c7e83cd1f771f38871691e9854a8886eb0d17238f4e7204ec16c06b5280",
+  "commands": [
+    "python independent_check.py",
+    "python -O independent_check.py",
+    "python -OO independent_check.py",
+    "python -m unittest -v test_geometry",
+    "python -O -m unittest -v test_geometry",
+    "python -OO -m unittest -v test_geometry",
+    "python verify_notebook.py"
+  ],
+  "all_exit_codes": 0,
+  "logs": {
+    "independent-O.log": "9bff1da3795971d41b4988d1e43b8de2aa10825c793720214322b812f0903a4e",
+    "independent-OO.log": "9bff1da3795971d41b4988d1e43b8de2aa10825c793720214322b812f0903a4e",
+    "independent-normal.log": "9bff1da3795971d41b4988d1e43b8de2aa10825c793720214322b812f0903a4e",
+    "independent-notebook.log": "fe44fd5b8deb8702cb925d00219daa246e90963969d01bee27298ce12a79eb33",
+    "independent-tests-O.log": "c753fa47f716ff32aed4a5fbb3e5a808df40632f24ac46d8871aee191b6e0310",
+    "independent-tests-OO.log": "3683f53eb8b8b27c67c22ce6c3205a3137f19ab447ed859146f338254d2f2bd7",
+    "independent-tests-normal.log": "1c7c22900c210e2563eacb5b5066efa5a2e89d9b0387a38e8129f400790a7028"
+  }
+}

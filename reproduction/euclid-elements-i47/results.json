@@ -1,0 +1,62 @@
+{
+  "valid_cases": 72,
+  "invalid_direct_rejections": 12,
+  "example_points": {
+    "A": [
+      "0",
+      "0"
+    ],
+    "B": [
+      "3",
+      "0"
+    ],
+    "C": [
+      "0",
+      "4"
+    ],
+    "D": [
+      "7",
+      "3"
+    ],
+    "E": [
+      "4",
+      "7"
+    ],
+    "F": [
+      "3",
+      "-3"
+    ],
+    "G": [
+      "0",
+      "-3"
+    ],
+    "H": [
+      "-4",
+      "0"
+    ],
+    "K": [
+      "-4",
+      "4"
+    ],
+    "M": [
+      "48/25",
+      "36/25"
+    ],
+    "L": [
+      "148/25",
+      "111/25"
+    ]
+  },
+  "example_areas": {
+    "AB_square": "9",
+    "AC_square": "16",
+    "BC_square": "25",
+    "left_rectangle": "9",
+    "right_rectangle": "16",
+    "ABD": "9/2",
+    "FBC": "9/2",
+    "ACE": "8",
+    "KCB": "8"
+  },
+  "scope": "finite rational-coordinate checks, not a general proof"
+}

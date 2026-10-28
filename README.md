@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.46：正方形不是画出来就算证明](papers/ancient/euclid-elements-i46.zh-CN.md)，分开重建等边与直角两组规格，补明两侧选择与非退化，附精确实跑及独立双审。
+最新补读：[《几何原本》I.47：勾股关系怎样由面积证据接成](papers/ancient/euclid-elements-i47.zh-CN.md)，完整展开两侧全等与倍积链，区分原证明、传说与坐标核验，附精确实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -184,6 +184,7 @@
 | 约公元前300年（作品背景；实读1908/2008版） | [Euclid《几何原本》I.44精读](papers/ancient/euclid-elements-i44.zh-CN.md) | AI推理前史补读：指定底边、交点存在与约束验证 | 深读v1 · 原证/精确模型分层、真实实跑与独立双审 |
 | 约公元前300年（作品背景；实读1908/2008版） | [Euclid《几何原本》I.45精读](papers/ancient/euclid-elements-i45.zh-CN.md) | AI推理前史补读：接口拼接、区域分割与有限归纳 | 深读v1 · 原证/推广/精确模型分层、真实实跑与独立双审 |
 | 约公元前300年（作品背景；实读1908/2008版） | [Euclid《几何原本》I.46精读](papers/ancient/euclid-elements-i46.zh-CN.md) | AI推理前史补读：生成与验证、等边直角及非退化条件 | 深读v1 · 原证/精确模型分层、真实实跑与独立双审 |
+| 约公元前300年（作品背景；实读1908/2008版） | [Euclid《几何原本》I.47精读](papers/ancient/euclid-elements-i47.zh-CN.md) | AI推理前史补读：全等对应、面积转移与证据接合 | 深读v1 · 原证/模型/历史推测分层、真实实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1596,3 +1597,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Euclid I.46 篇可运行附件
 
 [中文深读](papers/ancient/euclid-elements-i46.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-i46/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i46/technical-review.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i46/README.md)。完整I.46及Heath的Proclus评论，区分原构造与后世等积讨论；逐步重建等边、四直角和定义闭合，补明交点与辅助线延长。21单测三模式、48合法有理例及12非法直接拒绝；Notebook五格标准库compile/exec和回放，非kernel。有限运行不代替一般证明，不反用I.47；仅本单元完成，既有暂缓项不变。
+
+
+## Euclid I.47 篇可运行附件
+
+[中文深读](papers/ancient/euclid-elements-i47.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-i47/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i47/technical-review.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i47/README.md)。完整I.47及Heath相关历史评论，区分晚期归属、译注推测与原证；更正对应边次序，展开两侧I.4/I.41链，明确M为新增标签。21单测三模式、72合法有理例及12非法直接拒绝；Notebook五格标准库compile/exec和回放，非kernel。不以待证平方和筛选输入，有限检查不代替一般证明；仅本单元完成，既有暂缓项不变。

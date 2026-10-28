@@ -1,0 +1,26 @@
+test_01_valid (test_geometry.GeometryTests.test_01_valid) ... ok
+test_02_family (test_geometry.GeometryTests.test_02_family) ... ok
+test_03_invalid (test_geometry.GeometryTests.test_03_invalid) ... ok
+test_04_areas (test_geometry.GeometryTests.test_04_areas) ... ok
+test_05_sas_left (test_geometry.GeometryTests.test_05_sas_left) ... ok
+test_06_sas_right (test_geometry.GeometryTests.test_06_sas_right) ... ok
+test_07_wrong_point (test_geometry.GeometryTests.test_07_wrong_point) ... ok
+test_08_missing (test_geometry.GeometryTests.test_08_missing) ... ok
+test_09_extra (test_geometry.GeometryTests.test_09_extra) ... ok
+test_10_swap_fg (test_geometry.GeometryTests.test_10_swap_fg) ... ok
+test_11_swap_hk (test_geometry.GeometryTests.test_11_swap_hk) ... ok
+test_12_inward_ab (test_geometry.GeometryTests.test_12_inward_ab) ... ok
+test_13_inward_ac (test_geometry.GeometryTests.test_13_inward_ac) ... ok
+test_14_inward_bc (test_geometry.GeometryTests.test_14_inward_bc) ... ok
+test_15_foot_endpoint (test_geometry.GeometryTests.test_15_foot_endpoint) ... ok
+test_16_float_certificate (test_geometry.GeometryTests.test_16_float_certificate) ... ok
+test_17_bool_certificate (test_geometry.GeometryTests.test_17_bool_certificate) ... ok
+test_18_different_input (test_geometry.GeometryTests.test_18_different_input) ... ok
+test_19_invalid_certificate (test_geometry.GeometryTests.test_19_invalid_certificate) ... ok
+test_20_mirror (test_geometry.GeometryTests.test_20_mirror) ... ok
+test_21_no_triples_needed (test_geometry.GeometryTests.test_21_no_triples_needed) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.032s
+
+OK
