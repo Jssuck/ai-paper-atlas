@@ -1,0 +1,6 @@
+COMMAND: python3 create_notebook.py
+EXIT: 0
+STDOUT:
+6 code cells executed with stdlib compile/exec (not kernel)
+
+STDERR:

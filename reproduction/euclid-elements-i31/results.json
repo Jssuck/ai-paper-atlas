@@ -1,0 +1,64 @@
+{
+  "positive_count": 1008,
+  "negative_count": 10,
+  "negative_labels": [
+    "zero_line",
+    "D_off_line",
+    "D_equals_C",
+    "A_on_line",
+    "zero_E",
+    "wrong_side",
+    "wrong_angle",
+    "zero_F",
+    "F_not_extension",
+    "F_same_ray"
+  ],
+  "example": {
+    "schema": 1,
+    "input": {
+      "A": [
+        "0",
+        "1"
+      ],
+      "B": [
+        "-1",
+        "0"
+      ],
+      "C": [
+        "1",
+        "0"
+      ],
+      "D": [
+        "0",
+        "0"
+      ],
+      "E": [
+        "-1",
+        "1"
+      ],
+      "F": [
+        "1",
+        "1"
+      ]
+    },
+    "input_sha256": "af8b77cd20146d731d8af514bc6130ab770d02ca0a9bad6a32bb0075d6ac3c20",
+    "angle": {
+      "dot_EAD": "0",
+      "dot_ADC": "0",
+      "norm2_AE": "1",
+      "norm2_AD": "1",
+      "norm2_DC": "1"
+    },
+    "side_product": "-1",
+    "scales": {
+      "t": "1",
+      "u": "1"
+    },
+    "conclusion": {
+      "parallel_cross": "0",
+      "distinct_line_cross": "2",
+      "A_between_E_F": true
+    }
+  },
+  "scope": "finite rational-coordinate tests, not a general proof"
+}

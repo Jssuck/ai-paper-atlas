@@ -1,0 +1,37 @@
+COMMAND: python3 -OO test_geometry.py
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_D_outside_segment (__main__.Tests.test_D_outside_segment) ... ok
+test_altered_digest (__main__.Tests.test_altered_digest) ... ok
+test_altered_scale (__main__.Tests.test_altered_scale) ... ok
+test_conclusion_int (__main__.Tests.test_conclusion_int) ... ok
+test_extra_certificate (__main__.Tests.test_extra_certificate) ... ok
+test_missing_certificate (__main__.Tests.test_missing_certificate) ... ok
+test_negative_A_on_line (__main__.Tests.test_negative_A_on_line) ... ok
+test_negative_D_equals_C (__main__.Tests.test_negative_D_equals_C) ... ok
+test_negative_D_off_line (__main__.Tests.test_negative_D_off_line) ... ok
+test_negative_F_not_extension (__main__.Tests.test_negative_F_not_extension) ... ok
+test_negative_F_same_ray (__main__.Tests.test_negative_F_same_ray) ... ok
+test_negative_wrong_angle (__main__.Tests.test_negative_wrong_angle) ... ok
+test_negative_wrong_side (__main__.Tests.test_negative_wrong_side) ... ok
+test_negative_zero_E (__main__.Tests.test_negative_zero_E) ... ok
+test_negative_zero_F (__main__.Tests.test_negative_zero_F) ... ok
+test_negative_zero_line (__main__.Tests.test_negative_zero_line) ... ok
+test_positive_family (__main__.Tests.test_positive_family) ... ok
+test_rebinding (__main__.Tests.test_rebinding) ... ok
+test_scales (__main__.Tests.test_scales) ... ok
+test_schema_bool (__main__.Tests.test_schema_bool) ... ok
+test_type_bool (__main__.Tests.test_type_bool) ... ok
+test_type_float (__main__.Tests.test_type_float) ... ok
+test_type_int (__main__.Tests.test_type_int) ... ok
+test_type_nan (__main__.Tests.test_type_nan) ... ok
+test_type_ratio (__main__.Tests.test_type_ratio) ... ok
+test_type_space (__main__.Tests.test_type_space) ... ok
+test_type_zero_den (__main__.Tests.test_type_zero_den) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.310s
+
+OK
