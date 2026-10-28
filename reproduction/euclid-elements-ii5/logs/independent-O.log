@@ -1,0 +1,11 @@
+command: python -O independent_check.py
+{
+  "external_valid": 240,
+  "area_comparisons": 2400,
+  "tamper_rejections": 8400,
+  "invalid_rejections": 57,
+  "notebook_code_cells": 5,
+  "notebook_outputs_match": true,
+  "kernel_started": false
+}
+exit_code: 0

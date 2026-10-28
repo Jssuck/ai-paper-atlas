@@ -1,0 +1,28 @@
+$ python -OO -m unittest test_geometry -v
+test_bad_certificate_point (test_geometry.Tests.test_bad_certificate_point) ... ok
+test_bad_container (test_geometry.Tests.test_bad_container) ... ok
+test_bool (test_geometry.Tests.test_bool) ... ok
+test_default (test_geometry.Tests.test_default) ... ok
+test_endpoint (test_geometry.Tests.test_endpoint) ... ok
+test_external (test_geometry.Tests.test_external) ... ok
+test_extra_field (test_geometry.Tests.test_extra_field) ... ok
+test_float (test_geometry.Tests.test_float) ... ok
+test_fraction (test_geometry.Tests.test_fraction) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_missing_field (test_geometry.Tests.test_missing_field) ... ok
+test_point_tamper (test_geometry.Tests.test_point_tamper) ... ok
+test_rectangle (test_geometry.Tests.test_rectangle) ... ok
+test_reverse_regions (test_geometry.Tests.test_reverse_regions) ... ok
+test_rhombus (test_geometry.Tests.test_rhombus) ... ok
+test_string (test_geometry.Tests.test_string) ... ok
+test_verifier_inputs (test_geometry.Tests.test_verifier_inputs) ... ok
+test_whole_translate (test_geometry.Tests.test_whole_translate) ... ok
+test_wrong_diagonal (test_geometry.Tests.test_wrong_diagonal) ... ok
+test_zero_basis (test_geometry.Tests.test_zero_basis) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.034s
+
+OK
+
+exit_code=0
