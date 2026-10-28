@@ -1,0 +1,37 @@
+COMMAND: python3 test_geometry.py
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_all_negative (__main__.Tests.test_all_negative) ... ok
+test_all_positive (__main__.Tests.test_all_positive) ... ok
+test_alternate_one (__main__.Tests.test_alternate_one) ... ok
+test_alternate_two (__main__.Tests.test_alternate_two) ... ok
+test_area (__main__.Tests.test_area) ... ok
+test_bad_string (__main__.Tests.test_bad_string) ... ok
+test_bool (__main__.Tests.test_bool) ... ok
+test_cert_bool (__main__.Tests.test_cert_bool) ... ok
+test_cert_extra (__main__.Tests.test_cert_extra) ... ok
+test_cert_int (__main__.Tests.test_cert_int) ... ok
+test_cert_missing (__main__.Tests.test_cert_missing) ... ok
+test_cert_tamper (__main__.Tests.test_cert_tamper) ... ok
+test_example (__main__.Tests.test_example) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_fraction (__main__.Tests.test_fraction) ... ok
+test_input_binding (__main__.Tests.test_input_binding) ... ok
+test_lengths (__main__.Tests.test_lengths) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_nan (__main__.Tests.test_nan) ... ok
+test_opposite_one (__main__.Tests.test_opposite_one) ... ok
+test_opposite_two (__main__.Tests.test_opposite_two) ... ok
+test_reflection (__main__.Tests.test_reflection) ... ok
+test_round_trip (__main__.Tests.test_round_trip) ... ok
+test_scale (__main__.Tests.test_scale) ... ok
+test_side (__main__.Tests.test_side) ... ok
+test_tuple (__main__.Tests.test_tuple) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.377s
+
+OK

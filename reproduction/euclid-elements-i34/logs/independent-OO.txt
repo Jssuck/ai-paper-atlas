@@ -1,0 +1,1 @@
+{"article_sha256": "df9d0212f8b1989e95a1d596223897a72b1a98e02323c47a7e1dc6258f7382a0", "counts": {"certificate_attacks": 749, "illegal_geometry": 23811, "illegal_inputs": 206, "positive": 2976}, "notebook_cells": 6, "notebook_method": "stdlib compile/exec; not kernel", "optimization": 2, "review": "I.34 independent probe", "status": "passed"}

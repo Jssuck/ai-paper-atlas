@@ -1,0 +1,6 @@
+COMMAND: python3 run_examples.py
+EXIT: 0
+STDOUT:
+{"positive_cases": 576, "negative_cases": 9}
+
+STDERR:
