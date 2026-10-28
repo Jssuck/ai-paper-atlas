@@ -1,0 +1,37 @@
+COMMAND: python3 -OO test_geometry.py
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_area_attack (__main__.Tests.test_area_attack) ... ok
+test_backward (__main__.Tests.test_backward) ... ok
+test_bad_point (__main__.Tests.test_bad_point) ... ok
+test_bad_root (__main__.Tests.test_bad_root) ... ok
+test_bad_scalar (__main__.Tests.test_bad_scalar) ... ok
+test_bool_cert (__main__.Tests.test_bool_cert) ... ok
+test_coincidence (__main__.Tests.test_coincidence) ... ok
+test_empty_cert (__main__.Tests.test_empty_cert) ... ok
+test_example (__main__.Tests.test_example) ... ok
+test_extra_cert (__main__.Tests.test_extra_cert) ... ok
+test_extra_key (__main__.Tests.test_extra_key) ... ok
+test_family (__main__.Tests.test_family) ... ok
+test_fraction (__main__.Tests.test_fraction) ... ok
+test_halves (__main__.Tests.test_halves) ... ok
+test_height_sign (__main__.Tests.test_height_sign) ... ok
+test_input_attack (__main__.Tests.test_input_attack) ... ok
+test_missing_cert (__main__.Tests.test_missing_cert) ... ok
+test_missing_key (__main__.Tests.test_missing_key) ... ok
+test_negative_direct (__main__.Tests.test_negative_direct) ... ok
+test_nonjson_cert (__main__.Tests.test_nonjson_cert) ... ok
+test_number_cert (__main__.Tests.test_number_cert) ... ok
+test_parallel (__main__.Tests.test_parallel) ... ok
+test_rebind (__main__.Tests.test_rebind) ... ok
+test_translation_rebind (__main__.Tests.test_translation_rebind) ... ok
+test_tuple_cert (__main__.Tests.test_tuple_cert) ... ok
+test_vertex_attack (__main__.Tests.test_vertex_attack) ... ok
+test_vertices (__main__.Tests.test_vertices) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.228s
+
+OK

@@ -1,0 +1,63 @@
+{
+  "positive_inputs": 672,
+  "negative_inputs_directly_rejected": 9,
+  "branches": {
+    "backward": 288,
+    "coincident": 96,
+    "forward": 288
+  },
+  "example": {
+    "schema": "euclid-i37-exact-v1",
+    "input": {
+      "A": [
+        "1",
+        "3"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "4",
+        "0"
+      ],
+      "D": [
+        "9",
+        "3"
+      ]
+    },
+    "base_squared": "16",
+    "signed_double_triangle_area": "12",
+    "vertices": {
+      "E": [
+        "-3",
+        "3"
+      ],
+      "F": [
+        "13",
+        "3"
+      ]
+    },
+    "parallel_checks": {
+      "BE_CA": "0",
+      "CF_BD": "0",
+      "AE_BC": "0",
+      "DF_BC": "0"
+    },
+    "area": {
+      "ABC": "6",
+      "DBC": "6",
+      "EBCA": "12",
+      "DBCF": "12"
+    },
+    "halves": {
+      "AB_diagonal_ABC": "6",
+      "AB_diagonal_EBA": "6",
+      "DC_diagonal_DBC": "6",
+      "DC_diagonal_DCF": "6"
+    },
+    "top_shift": "2",
+    "top_case": "forward"
+  },
+  "scope": "finite rational coordinate teaching checks; not general proof"
+}

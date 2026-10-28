@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.36：底边不在原处，怎样把等积问题接回已知定理？](papers/ancient/euclid-elements-i36.zh-CN.md)，重建辅助平行四边形与两次I.35接口，附精确实跑和独立双审。
+最新补读：[《几何原本》I.37：先比较整体，再比较一半](papers/ancient/euclid-elements-i37.zh-CN.md)，重建同底三角形的补图、等积与二分依赖，附精确实跑和独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -174,6 +174,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.34精读](papers/ancient/euclid-elements-i34.zh-CN.md) | AI推理前史补读：边角对应、区域二分、全等与等积的区别 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.35精读](papers/ancient/euclid-elements-i35.zh-CN.md) | AI推理前史补读：区域消去、图形分支、等积与全等的区别 | 深读v1 · 原证/补证分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.36精读](papers/ancient/euclid-elements-i36.zh-CN.md) | AI推理前史补读：等底转同底、辅助对象、两次定理复用 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.37精读](papers/ancient/euclid-elements-i37.zh-CN.md) | AI推理前史补读：同底三角形、补成整体、等量之半与文本边界 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1540,3 +1541,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《几何原本》I.36：等底转同底的中介构造
 
 [深读正文](papers/ancient/euclid-elements-i36.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i36.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i36.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i36.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i36/README.md)。完整I.36及Heath评论；明确I.34等边、I.33同向连接、两次I.35共享BC/EH，覆盖重合/交叠边界。27测试三模式、1176正输入/10负输入；Notebook六格标准库compile/exec非kernel。有限实跑不替代一般证明；仅本单元完成，既有暂缓项不变。
+
+
+## Euclid I.37：同底三角形的整体与半量
+
+[深读正文](papers/ancient/euclid-elements-i37.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i37.sources.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-i37/SOURCE-REVIEW.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-i37/technical-review.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i37/README.md)。完整I.37与Heath相关评论；I.31补图、I.35比较整体、I.34二分及半量规则，区分A=D和E=F的线名边界。27单测三模式、672正输入/9类负输入；独立每模式2980项检查三模式通过。Notebook六格标准库compile/exec非kernel。有限实跑不替代一般证明；仅本单元完成，既有暂缓项不变。
