@@ -1,0 +1,37 @@
+COMMAND: python3 test_geometry.py
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_changed_product (__main__.Tests.test_changed_product) ... ok
+test_conclusion_int (__main__.Tests.test_conclusion_int) ... ok
+test_digest (__main__.Tests.test_digest) ... ok
+test_example (__main__.Tests.test_example) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_negative_A_equals_B (__main__.Tests.test_negative_A_equals_B) ... ok
+test_negative_B_equals_C (__main__.Tests.test_negative_B_equals_C) ... ok
+test_negative_D_backwards (__main__.Tests.test_negative_D_backwards) ... ok
+test_negative_D_equals_C (__main__.Tests.test_negative_D_equals_C) ... ok
+test_negative_D_off_line (__main__.Tests.test_negative_D_off_line) ... ok
+test_negative_E_equals_C (__main__.Tests.test_negative_E_equals_C) ... ok
+test_negative_E_not_parallel (__main__.Tests.test_negative_E_not_parallel) ... ok
+test_negative_E_opposite (__main__.Tests.test_negative_E_opposite) ... ok
+test_negative_collinear (__main__.Tests.test_negative_collinear) ... ok
+test_obtuse (__main__.Tests.test_obtuse) ... ok
+test_positive_family (__main__.Tests.test_positive_family) ... ok
+test_rebinding (__main__.Tests.test_rebinding) ... ok
+test_reflection (__main__.Tests.test_reflection) ... ok
+test_schema_bool (__main__.Tests.test_schema_bool) ... ok
+test_type_bool (__main__.Tests.test_type_bool) ... ok
+test_type_float (__main__.Tests.test_type_float) ... ok
+test_type_int (__main__.Tests.test_type_int) ... ok
+test_type_nan (__main__.Tests.test_type_nan) ... ok
+test_type_ratio (__main__.Tests.test_type_ratio) ... ok
+test_type_space (__main__.Tests.test_type_space) ... ok
+test_type_zero_den (__main__.Tests.test_type_zero_den) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.201s
+
+OK

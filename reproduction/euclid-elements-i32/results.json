@@ -1,0 +1,92 @@
+{
+  "positive_count": 576,
+  "negative_count": 9,
+  "negative_labels": [
+    "A_equals_B",
+    "B_equals_C",
+    "collinear",
+    "D_equals_C",
+    "D_backwards",
+    "D_off_line",
+    "E_equals_C",
+    "E_opposite",
+    "E_not_parallel"
+  ],
+  "example": {
+    "schema": 1,
+    "input": {
+      "A": [
+        "0",
+        "1"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "2",
+        "0"
+      ],
+      "D": [
+        "4",
+        "0"
+      ],
+      "E": [
+        "2",
+        "1"
+      ]
+    },
+    "input_sha256": "4805dd84eb182cbfd3fb7ae524b4ee0a6e7b558d44320fdb9f96612db2ea7a0e",
+    "area_cross": "2",
+    "scales": {
+      "extension": "1",
+      "parallel_ray": "1"
+    },
+    "angles": {
+      "A": [
+        "1",
+        "2"
+      ],
+      "B": [
+        "0",
+        "2"
+      ],
+      "C": [
+        "4",
+        "2"
+      ],
+      "ACE": [
+        "1",
+        "2"
+      ],
+      "ECD": [
+        "0",
+        "2"
+      ],
+      "ACD": [
+        "-4",
+        "2"
+      ]
+    },
+    "products": {
+      "A_plus_B": [
+        "-4",
+        "2"
+      ],
+      "split_exterior": [
+        "-4",
+        "2"
+      ],
+      "A_plus_B_plus_C": [
+        "-20",
+        "0"
+      ]
+    },
+    "conclusion": {
+      "ray_inside_exterior": true,
+      "exterior_equals_A_plus_B": true,
+      "triangle_sum_two_right_angles": true
+    }
+  },
+  "scope": "finite rational-coordinate tests, not a general proof"
+}
