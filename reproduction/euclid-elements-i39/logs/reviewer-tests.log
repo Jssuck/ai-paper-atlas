@@ -1,0 +1,24 @@
+$ python test_geometry.py
+test_all_leaf_tampering (__main__.GeometryTests.test_all_leaf_tampering) ... ok
+test_extra_missing_fields (__main__.GeometryTests.test_extra_missing_fields) ... ok
+test_finite_positives (__main__.GeometryTests.test_finite_positives) ... ok
+test_full_input_binding (__main__.GeometryTests.test_full_input_binding) ... ok
+test_inner (__main__.GeometryTests.test_inner) ... ok
+test_input_shape (__main__.GeometryTests.test_input_shape) ... ok
+test_invalid_cert_containers (__main__.GeometryTests.test_invalid_cert_containers) ... ok
+test_invalid_geometry_direct (__main__.GeometryTests.test_invalid_geometry_direct) ... ok
+test_json_roundtrip (__main__.GeometryTests.test_json_roundtrip) ... ok
+test_no_assumption_from_empty_certificate (__main__.GeometryTests.test_no_assumption_from_empty_certificate) ... ok
+test_normalized_coordinates (__main__.GeometryTests.test_normalized_coordinates) ... ok
+test_outer (__main__.GeometryTests.test_outer) ... ok
+test_same_area_other_side_counterexample (__main__.GeometryTests.test_same_area_other_side_counterexample) ... ok
+test_scalar_invalid (__main__.GeometryTests.test_scalar_invalid) ... ok
+test_scalar_valid (__main__.GeometryTests.test_scalar_valid) ... ok
+test_type_attacks (__main__.GeometryTests.test_type_attacks) ... ok
+test_zero_auxiliary_segment (__main__.GeometryTests.test_zero_auxiliary_segment) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.045s
+
+OK
+exit_code=0

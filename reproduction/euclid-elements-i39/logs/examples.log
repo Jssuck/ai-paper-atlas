@@ -1,0 +1,8 @@
+$ python run_examples.py
+Finite positives: 180
+Direct invalid-geometry rejections: 7
+inner t=1/2 {'ABC': '4', 'DBC': '8', 'EBC': '4', 'EDC': '4'}
+outer t=2 {'ABC': '4', 'DBC': '2', 'EBC': '4', 'EDC': '2'}
+equal t=1 {'ABC': '4', 'DBC': '4', 'EBC': '4', 'EDC': '0'}
+
+exit_code=0

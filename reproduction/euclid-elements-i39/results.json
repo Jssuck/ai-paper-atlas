@@ -1,0 +1,212 @@
+{
+  "scope": "finite modern rational teaching checks; not a general proof",
+  "positive_count": 180,
+  "negative_rejections": [
+    {
+      "case": "zero base",
+      "reason": "zero base"
+    },
+    {
+      "case": "degenerate A",
+      "reason": "degenerate triangle"
+    },
+    {
+      "case": "degenerate D",
+      "reason": "degenerate triangle"
+    },
+    {
+      "case": "opposite side",
+      "reason": "apexes must lie on same side"
+    },
+    {
+      "case": "coincident apex",
+      "reason": "coincident apexes do not determine line AD"
+    },
+    {
+      "case": "unequal inner",
+      "reason": "unequal areas: I.39 premise fails"
+    },
+    {
+      "case": "unequal outer",
+      "reason": "unequal areas: I.39 premise fails"
+    }
+  ],
+  "example": {
+    "schema": "euclid-i39-certificate-v1",
+    "trace": {
+      "schema": "euclid-i39-trace-v1",
+      "input": {
+        "A": [
+          "1",
+          "2"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "3",
+          "2"
+        ]
+      },
+      "t": "1",
+      "E": [
+        "3",
+        "2"
+      ],
+      "branch": "equal",
+      "signed_double_area": {
+        "ABC": "8",
+        "DBC": "8"
+      },
+      "area": {
+        "ABC": "4",
+        "DBC": "4",
+        "EBC": "4",
+        "EDC": "0"
+      },
+      "cross": {
+        "BC_AE": "0",
+        "BC_AD": "0"
+      },
+      "whole": "equal",
+      "part": "equal"
+    },
+    "conclusion": "AD parallel BC"
+  },
+  "branches": [
+    {
+      "schema": "euclid-i39-trace-v1",
+      "input": {
+        "A": [
+          "1",
+          "2"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "3",
+          "4"
+        ]
+      },
+      "t": "1/2",
+      "E": [
+        "3/2",
+        "2"
+      ],
+      "branch": "inner",
+      "signed_double_area": {
+        "ABC": "8",
+        "DBC": "16"
+      },
+      "area": {
+        "ABC": "4",
+        "DBC": "8",
+        "EBC": "4",
+        "EDC": "4"
+      },
+      "cross": {
+        "BC_AE": "0",
+        "BC_AD": "8"
+      },
+      "whole": "DBC",
+      "part": "EBC"
+    },
+    {
+      "schema": "euclid-i39-trace-v1",
+      "input": {
+        "A": [
+          "1",
+          "2"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "3",
+          "1"
+        ]
+      },
+      "t": "2",
+      "E": [
+        "6",
+        "2"
+      ],
+      "branch": "outer",
+      "signed_double_area": {
+        "ABC": "8",
+        "DBC": "4"
+      },
+      "area": {
+        "ABC": "4",
+        "DBC": "2",
+        "EBC": "4",
+        "EDC": "2"
+      },
+      "cross": {
+        "BC_AE": "0",
+        "BC_AD": "-4"
+      },
+      "whole": "EBC",
+      "part": "DBC"
+    },
+    {
+      "schema": "euclid-i39-trace-v1",
+      "input": {
+        "A": [
+          "1",
+          "2"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "3",
+          "2"
+        ]
+      },
+      "t": "1",
+      "E": [
+        "3",
+        "2"
+      ],
+      "branch": "equal",
+      "signed_double_area": {
+        "ABC": "8",
+        "DBC": "8"
+      },
+      "area": {
+        "ABC": "4",
+        "DBC": "4",
+        "EBC": "4",
+        "EDC": "0"
+      },
+      "cross": {
+        "BC_AE": "0",
+        "BC_AD": "0"
+      },
+      "whole": "equal",
+      "part": "equal"
+    }
+  ]
+}

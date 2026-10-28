@@ -1,0 +1,70 @@
+[
+  {
+    "command": "python independent_check.py",
+    "exit_code": 0,
+    "log": "logs/independent.log",
+    "result": {
+      "binding_attacks": 216,
+      "branch_cases": 432,
+      "certificate_attacks": 401,
+      "checks": 4325,
+      "invalid_geometry": 439,
+      "invalid_schema": 25,
+      "optimize": 0,
+      "positive_cases": 216,
+      "status": "PASS"
+    }
+  },
+  {
+    "command": "python test_geometry.py",
+    "exit_code": 0,
+    "log": "logs/reviewer-tests.log"
+  },
+  {
+    "command": "python -O independent_check.py",
+    "exit_code": 0,
+    "log": "logs/independent-O.log",
+    "result": {
+      "binding_attacks": 216,
+      "branch_cases": 432,
+      "certificate_attacks": 401,
+      "checks": 4325,
+      "invalid_geometry": 439,
+      "invalid_schema": 25,
+      "optimize": 1,
+      "positive_cases": 216,
+      "status": "PASS"
+    }
+  },
+  {
+    "command": "python -O test_geometry.py",
+    "exit_code": 0,
+    "log": "logs/reviewer-tests-O.log"
+  },
+  {
+    "command": "python -OO independent_check.py",
+    "exit_code": 0,
+    "log": "logs/independent-OO.log",
+    "result": {
+      "binding_attacks": 216,
+      "branch_cases": 432,
+      "certificate_attacks": 401,
+      "checks": 4325,
+      "invalid_geometry": 439,
+      "invalid_schema": 25,
+      "optimize": 2,
+      "positive_cases": 216,
+      "status": "PASS"
+    }
+  },
+  {
+    "command": "python -OO test_geometry.py",
+    "exit_code": 0,
+    "log": "logs/reviewer-tests-OO.log"
+  },
+  {
+    "method": "independent fresh namespace compile/exec; not Jupyter kernel",
+    "code_cells": 5,
+    "stdout_exact": true
+  }
+]

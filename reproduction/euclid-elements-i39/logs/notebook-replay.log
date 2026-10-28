@@ -1,0 +1,4 @@
+$ python verify_notebook.py
+{"code_cells": 5, "all_stdout_matches": true, "method": "fresh namespace compile/exec, not kernel"}
+
+exit_code=0

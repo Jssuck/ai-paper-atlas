@@ -1,0 +1,3 @@
+$ python -OO independent_check.py
+{"binding_attacks": 216, "branch_cases": 432, "certificate_attacks": 401, "checks": 4325, "invalid_geometry": 439, "invalid_schema": 25, "optimize": 2, "positive_cases": 216, "status": "PASS"}
+exit_code=0
