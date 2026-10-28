@@ -1,0 +1,69 @@
+COMMAND: python3 run_examples.py
+EXIT: 0
+STDOUT:
+{
+  "positive_inputs": 396,
+  "negative_inputs": 9,
+  "branches": {
+    "separated": 180,
+    "touching": 72,
+    "overlapping": 108,
+    "identical": 36
+  },
+  "example": {
+    "schema": "euclid-i35-exact-v1",
+    "input": {
+      "A": [
+        "0",
+        "3"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "4",
+        "0"
+      ],
+      "D": [
+        "4",
+        "3"
+      ],
+      "E": [
+        "8",
+        "3"
+      ],
+      "F": [
+        "12",
+        "3"
+      ]
+    },
+    "signed_shift": "2",
+    "base_squared": "16",
+    "determinant": "12",
+    "area": {
+      "ABCD": "12",
+      "EBCF": "12"
+    },
+    "cut": {
+      "normalized_shift": "2",
+      "swapped": "no",
+      "triangle_EAB": "12",
+      "triangle_FDC": "12",
+      "case": "separated",
+      "G": [
+        "4",
+        "3/2"
+      ],
+      "G_on_BE_cross": "0",
+      "G_on_DC_cross": "0",
+      "removed_DGE": "3",
+      "added_GBC": "3",
+      "first_reassembled": "12",
+      "second_reassembled": "12"
+    }
+  },
+  "scope": "finite rational coordinate model, not a general proof"
+}
+
+STDERR:

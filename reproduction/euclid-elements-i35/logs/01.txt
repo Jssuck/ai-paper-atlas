@@ -1,0 +1,37 @@
+COMMAND: python3 test_geometry.py
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_bad_length (__main__.Tests.test_bad_length) ... ok
+test_cases (__main__.Tests.test_cases) ... ok
+test_cert_type_0 (__main__.Tests.test_cert_type_0) ... ok
+test_cert_type_1 (__main__.Tests.test_cert_type_1) ... ok
+test_cert_type_2 (__main__.Tests.test_cert_type_2) ... ok
+test_cert_type_3 (__main__.Tests.test_cert_type_3) ... ok
+test_cert_type_4 (__main__.Tests.test_cert_type_4) ... ok
+test_cert_type_5 (__main__.Tests.test_cert_type_5) ... ok
+test_coordinate_tamper (__main__.Tests.test_coordinate_tamper) ... ok
+test_cut_tamper (__main__.Tests.test_cut_tamper) ... ok
+test_example (__main__.Tests.test_example) ... ok
+test_extra_cert (__main__.Tests.test_extra_cert) ... ok
+test_extra_input (__main__.Tests.test_extra_input) ... ok
+test_input_type_0 (__main__.Tests.test_input_type_0) ... ok
+test_input_type_1 (__main__.Tests.test_input_type_1) ... ok
+test_input_type_2 (__main__.Tests.test_input_type_2) ... ok
+test_input_type_3 (__main__.Tests.test_input_type_3) ... ok
+test_input_type_4 (__main__.Tests.test_input_type_4) ... ok
+test_input_type_5 (__main__.Tests.test_input_type_5) ... ok
+test_input_type_6 (__main__.Tests.test_input_type_6) ... ok
+test_json_roundtrip (__main__.Tests.test_json_roundtrip) ... ok
+test_missing_cert (__main__.Tests.test_missing_cert) ... ok
+test_missing_input (__main__.Tests.test_missing_input) ... ok
+test_negative_geometry (__main__.Tests.test_negative_geometry) ... ok
+test_positive_family (__main__.Tests.test_positive_family) ... ok
+test_rebinding (__main__.Tests.test_rebinding) ... ok
+test_tuple_point (__main__.Tests.test_tuple_point) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.147s
+
+OK
