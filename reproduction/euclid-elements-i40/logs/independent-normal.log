@@ -1,0 +1,25 @@
+$ python independent_check.py
+{
+  "status": "PASS",
+  "counts": {
+    "positive_certificate": 168,
+    "independent_area": 168,
+    "intersection": 168,
+    "apex_semantics": 168,
+    "input_rebinding": 168,
+    "branch_intersection": 336,
+    "branch_order": 336,
+    "strict_partition": 336,
+    "illegal_geometry_direct": 346,
+    "bad_scalar_direct": 14,
+    "bad_schema_direct": 5,
+    "certificate_subtree_attack": 360,
+    "certificate_key_attack": 36,
+    "cycle_rejection": 1,
+    "auxiliary_coincidence": 2
+  },
+  "total_explicit_checks": 2612,
+  "distinct_positive_inputs": 168,
+  "note": "Categories reuse inputs; counts are checks, not disjoint samples."
+}
+exit_code=0

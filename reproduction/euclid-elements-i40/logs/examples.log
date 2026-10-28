@@ -1,0 +1,4 @@
+$ python run_examples.py
+{"legal_cases": 168, "coincident_apex_cases": 84, "illegal_cases_rejected": 9}
+
+exit_code=0

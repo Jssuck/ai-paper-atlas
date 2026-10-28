@@ -1,0 +1,28 @@
+$ python -O test_geometry.py
+test_affine_shear (__main__.GeometryTests.test_affine_shear) ... ok
+test_bad_container (__main__.GeometryTests.test_bad_container) ... ok
+test_bad_point (__main__.GeometryTests.test_bad_point) ... ok
+test_bad_scalar (__main__.GeometryTests.test_bad_scalar) ... ok
+test_batch (__main__.GeometryTests.test_batch) ... ok
+test_bool_numeric_certificate (__main__.GeometryTests.test_bool_numeric_certificate) ... ok
+test_coincident (__main__.GeometryTests.test_coincident) ... ok
+test_each_input_coordinate_binding (__main__.GeometryTests.test_each_input_coordinate_binding) ... ok
+test_example (__main__.GeometryTests.test_example) ... ok
+test_extra_certificate_field (__main__.GeometryTests.test_extra_certificate_field) ... ok
+test_field_mutation (__main__.GeometryTests.test_field_mutation) ... ok
+test_fraction (__main__.GeometryTests.test_fraction) ... ok
+test_inner (__main__.GeometryTests.test_inner) ... ok
+test_input_binding (__main__.GeometryTests.test_input_binding) ... ok
+test_invalid_geometry_direct (__main__.GeometryTests.test_invalid_geometry_direct) ... ok
+test_json_roundtrip (__main__.GeometryTests.test_json_roundtrip) ... ok
+test_outer (__main__.GeometryTests.test_outer) ... ok
+test_representations (__main__.GeometryTests.test_representations) ... ok
+test_same_base (__main__.GeometryTests.test_same_base) ... ok
+test_trace_invalid (__main__.GeometryTests.test_trace_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.037s
+
+OK
+
+exit_code=0
