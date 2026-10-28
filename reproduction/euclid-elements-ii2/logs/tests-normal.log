@@ -1,0 +1,37 @@
+$ python -m unittest test_geometry -v
+test_01_basic (test_geometry.GeometryTests.test_01_basic) ... ok
+test_02_equal_split (test_geometry.GeometryTests.test_02_equal_split) ... ok
+test_03_rotated (test_geometry.GeometryTests.test_03_rotated) ... ok
+test_04_reflection (test_geometry.GeometryTests.test_04_reflection) ... ok
+test_05_fractional (test_geometry.GeometryTests.test_05_fractional) ... ok
+test_06_grid (test_geometry.GeometryTests.test_06_grid) ... ok
+test_07_nonorthogonal (test_geometry.GeometryTests.test_07_nonorthogonal) ... ok
+test_08_unequal (test_geometry.GeometryTests.test_08_unequal) ... ok
+test_09_zero (test_geometry.GeometryTests.test_09_zero) ... ok
+test_10_start (test_geometry.GeometryTests.test_10_start) ... ok
+test_11_end (test_geometry.GeometryTests.test_11_end) ... ok
+test_12_outside (test_geometry.GeometryTests.test_12_outside) ... ok
+test_13_float (test_geometry.GeometryTests.test_13_float) ... ok
+test_14_boolean (test_geometry.GeometryTests.test_14_boolean) ... ok
+test_15_badpoint (test_geometry.GeometryTests.test_15_badpoint) ... ok
+test_16_wrong_F (test_geometry.GeometryTests.test_16_wrong_F) ... ok
+test_17_wrong_C (test_geometry.GeometryTests.test_17_wrong_C) ... ok
+test_18_swap_equal_area (test_geometry.GeometryTests.test_18_swap_equal_area) ... ok
+test_19_duplicate_tile (test_geometry.GeometryTests.test_19_duplicate_tile) ... ok
+test_20_reverse_tile (test_geometry.GeometryTests.test_20_reverse_tile) ... ok
+test_21_missing (test_geometry.GeometryTests.test_21_missing) ... ok
+test_22_extra (test_geometry.GeometryTests.test_22_extra) ... ok
+test_23_bad_square (test_geometry.GeometryTests.test_23_bad_square) ... ok
+test_24_invalid_certificate (test_geometry.GeometryTests.test_24_invalid_certificate) ... ok
+test_25_not_segment_squares (test_geometry.GeometryTests.test_25_not_segment_squares) ... ok
+test_26_shoelace (test_geometry.GeometryTests.test_26_shoelace) ... ok
+test_27_invalid_input_verifier (test_geometry.GeometryTests.test_27_invalid_input_verifier) ... ok
+test_28_wrong_binding (test_geometry.GeometryTests.test_28_wrong_binding) ... ok
+test_29_bad_points_container (test_geometry.GeometryTests.test_29_bad_points_container) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.016s
+
+OK
+
+exit_code=0

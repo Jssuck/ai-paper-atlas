@@ -1,0 +1,40 @@
+{
+  "executed_at_utc": "2026-10-28T20:37:45.862376+00:00",
+  "commands": [
+    {
+      "command": "python -m unittest test_geometry -v",
+      "exit_code": 0,
+      "log": "logs/tests-normal.log"
+    },
+    {
+      "command": "python -O -m unittest test_geometry -v",
+      "exit_code": 0,
+      "log": "logs/tests-O.log"
+    },
+    {
+      "command": "python -OO -m unittest test_geometry -v",
+      "exit_code": 0,
+      "log": "logs/tests-OO.log"
+    },
+    {
+      "command": "python run_examples.py",
+      "exit_code": 0,
+      "log": "logs/examples.log"
+    },
+    {
+      "command": "python create_notebook.py",
+      "exit_code": 0,
+      "log": "logs/notebook-execute.log"
+    },
+    {
+      "command": "python verify_notebook.py",
+      "exit_code": 0,
+      "log": "logs/notebook-replay.log"
+    },
+    {
+      "command": "python draw_figure.py",
+      "exit_code": 0,
+      "log": "logs/figure.log"
+    }
+  ]
+}

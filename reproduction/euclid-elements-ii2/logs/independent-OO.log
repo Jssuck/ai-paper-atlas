@@ -1,0 +1,3 @@
+$ python -OO independent_check.py
+{'valid_configurations': 90, 'rejected_mutations': 819, 'exact_arithmetic': True, 'scope': 'finite modern coordinate cross-check'}
+exit_code=0
