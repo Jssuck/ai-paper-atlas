@@ -1,0 +1,88 @@
+{
+  "positive_inputs": 1176,
+  "negative_inputs": 10,
+  "branch_pairs": {
+    "separated/separated": 96,
+    "separated/touching": 96,
+    "separated/overlapping": 96,
+    "separated/identical": 48,
+    "touching/separated": 96,
+    "touching/touching": 96,
+    "touching/overlapping": 96,
+    "touching/identical": 48,
+    "overlapping/separated": 96,
+    "overlapping/touching": 96,
+    "overlapping/overlapping": 96,
+    "overlapping/identical": 48,
+    "identical/separated": 48,
+    "identical/touching": 48,
+    "identical/overlapping": 48,
+    "identical/identical": 24
+  },
+  "example": {
+    "schema": "euclid-i36-exact-v1",
+    "input": {
+      "A": [
+        "0",
+        "3"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "4",
+        "0"
+      ],
+      "D": [
+        "4",
+        "3"
+      ],
+      "E": [
+        "8",
+        "3"
+      ],
+      "F": [
+        "6",
+        "0"
+      ],
+      "G": [
+        "10",
+        "0"
+      ],
+      "H": [
+        "12",
+        "3"
+      ]
+    },
+    "base_squared": "16",
+    "determinant": "12",
+    "area": {
+      "ABCD": "12",
+      "EFGH": "12",
+      "EBCH": "12"
+    },
+    "bridge": {
+      "EH_equals_BC_vector": [
+        "4",
+        "0"
+      ],
+      "BE_equals_CH_vector": [
+        "8",
+        "3"
+      ],
+      "CH_vector": [
+        "8",
+        "3"
+      ],
+      "BE_CH_cross": "0",
+      "first_I35_shared_base": "BC",
+      "second_I35_shared_base": "EH",
+      "upper_shift": "2",
+      "lower_shift": "3/2",
+      "upper_case": "separated",
+      "lower_case": "separated"
+    }
+  },
+  "scope": "finite rational coordinate model, not a general proof"
+}

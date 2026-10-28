@@ -1,0 +1,11 @@
+import json,io,contextlib
+codes=["from geometry import make_certificate, verify_certificate\nfrom cases import EXAMPLE, build, positives, negatives\nc = make_certificate(EXAMPLE)\nprint(c['area'])", "print(c['bridge'])", "for t in [0, '1/2', 1, 2, -2]:\n    q = make_certificate(build(t))\n    print(t, q['bridge']['lower_case'], q['area'])", "bad = dict(EXAMPLE)\nbad['E'] = [8,4]\ntry:\n    make_certificate(bad)\nexcept ValueError as e:\n    print('直接拒绝:', str(e))\nelse:\n    raise RuntimeError('negative accepted')", "n = 0\nfor d in positives():\n    if not verify_certificate(d, make_certificate(d)):\n        raise RuntimeError('failed')\n    n += 1\nm = 0\nfor d in negatives():\n    try:\n        make_certificate(d)\n    except ValueError:\n        m += 1\n    else:\n        raise RuntimeError('negative accepted')\nprint('正例/直接拒绝负例:', n, m)", "import copy\nbad = copy.deepcopy(c)\nbad['area']['ABCD'] = True\nprint('布尔攻击通过:', verify_certificate(EXAMPLE,bad))\nshift = {k:[x+1 for x in v] for k,v in EXAMPLE.items()}\nprint('移绑通过:', verify_certificate(shift,c))\nprint('有限实跑不证明一般定理；compile/exec非kernel。')"]
+texts=['# I.36 等底与共同桥梁\n\n现代有理坐标教学，六代码格标准库compile/exec非kernel。', '## 1 等底与同平行线', '## 2 桥接平行四边形\nEBCH分别共享BC与EH，不是两次共享BC。', '## 3 支持线上的位移\n重叠、相接、分离与重合均允许。', '## 4 几何反例\n更改上支持线不能继续用定理。', '## 5 有限精确输入族', '## 6 证书安全与边界']
+cells=[{'cell_type':'markdown','metadata':{},'source':texts[0].splitlines(True)}];ns={}
+for i,code in enumerate(codes,1):
+ cells.append({'cell_type':'markdown','metadata':{},'source':texts[i].splitlines(True)})
+ out=io.StringIO()
+ with contextlib.redirect_stdout(out):exec(compile(code,'cell-'+str(i),'exec'),ns)
+ cells.append({'cell_type':'code','metadata':{},'execution_count':i,'source':code.splitlines(True),'outputs':[{'output_type':'stream','name':'stdout','text':out.getvalue().splitlines(True)}]})
+nb={'nbformat':4,'nbformat_minor':5,'metadata':{'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python'},'execution_method':'stdlib compile/exec, not kernel','scaffold_note':'skill helper absent; standard-library builder used'},'cells':cells}
+open('teaching.zh-CN.ipynb','w').write(json.dumps(nb,ensure_ascii=False,indent=2)+'\n');print('Executed 6 code cells using compile/exec, not kernel')

@@ -1,0 +1,6 @@
+COMMAND: python3 verify_notebook.py
+EXIT: 0
+STDOUT:
+{"code_cells": 6, "outputs_match": true, "method": "stdlib compile/exec, not kernel"}
+
+STDERR:
