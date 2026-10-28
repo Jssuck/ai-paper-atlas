@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<rect width="1200" height="470" fill="white"/>
+<style>text{font-family:sans-serif;font-size:16px} .label{font-size:15px;font-weight:bold}</style>
+<text x="60" y="38" font-size="22">I.43: K on AC</text>
+<polygon points="60.0,350.0 204.0,350.0 204.0,278.0 60.0,278.0" fill="#eeeeee" stroke="#394553" stroke-width="2"/>
+<polygon points="204.0,278.0 492.0,278.0 492.0,134.0 204.0,134.0" fill="#eeeeee" stroke="#394553" stroke-width="2"/>
+<polygon points="204.0,350.0 492.0,350.0 492.0,278.0 204.0,278.0" fill="#91c8ed" stroke="#394553" stroke-width="2"/>
+<polygon points="60.0,278.0 204.0,278.0 204.0,134.0 60.0,134.0" fill="#f2bf89" stroke="#394553" stroke-width="2"/>
+<line x1="60.0" y1="350.0" x2="492.0" y2="134.0" stroke="#bc3333" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="60.0" cy="350.0" r="3" fill="#111"/><text class="label" x="43.0" y="372.0">A</text>
+<circle cx="492.0" cy="350.0" r="3" fill="#111"/><text class="label" x="499.0" y="372.0">B</text>
+<circle cx="492.0" cy="134.0" r="3" fill="#111"/><text class="label" x="499.0" y="126.0">C</text>
+<circle cx="60.0" cy="134.0" r="3" fill="#111"/><text class="label" x="43.0" y="126.0">D</text>
+<circle cx="204.0" cy="350.0" r="3" fill="#111"/><text class="label" x="211.0" y="372.0">E</text>
+<circle cx="492.0" cy="278.0" r="3" fill="#111"/><text class="label" x="499.0" y="270.0">G</text>
+<circle cx="204.0" cy="134.0" r="3" fill="#111"/><text class="label" x="211.0" y="126.0">F</text>
+<circle cx="60.0" cy="278.0" r="3" fill="#111"/><text class="label" x="43.0" y="270.0">H</text>
+<circle cx="204.0" cy="278.0" r="3" fill="#111"/><text class="label" x="211.0" y="270.0">K</text>
+<text x="60" y="410">Blue EBGK: 4; orange HKFD: 4</text>
+<text x="60" y="438">Equal area, not congruent (4 x 1 vs 2 x 2)</text>
+<text x="650" y="38" font-size="22">Not I.43: K off AC</text>
+<polygon points="650.0,350.0 794.0,350.0 794.0,206.0 650.0,206.0" fill="#eeeeee" stroke="#394553" stroke-width="2"/>
+<polygon points="794.0,206.0 1082.0,206.0 1082.0,134.0 794.0,134.0" fill="#eeeeee" stroke="#394553" stroke-width="2"/>
+<polygon points="794.0,350.0 1082.0,350.0 1082.0,206.0 794.0,206.0" fill="#91c8ed" stroke="#394553" stroke-width="2"/>
+<polygon points="650.0,206.0 794.0,206.0 794.0,134.0 650.0,134.0" fill="#f2bf89" stroke="#394553" stroke-width="2"/>
+<line x1="650.0" y1="350.0" x2="1082.0" y2="134.0" stroke="#bc3333" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="650.0" cy="350.0" r="3" fill="#111"/><text class="label" x="633.0" y="372.0">A</text>
+<circle cx="1082.0" cy="350.0" r="3" fill="#111"/><text class="label" x="1089.0" y="372.0">B</text>
+<circle cx="1082.0" cy="134.0" r="3" fill="#111"/><text class="label" x="1089.0" y="126.0">C</text>
+<circle cx="650.0" cy="134.0" r="3" fill="#111"/><text class="label" x="633.0" y="126.0">D</text>
+<circle cx="794.0" cy="350.0" r="3" fill="#111"/><text class="label" x="801.0" y="372.0">E</text>
+<circle cx="1082.0" cy="206.0" r="3" fill="#111"/><text class="label" x="1089.0" y="198.0">G</text>
+<circle cx="794.0" cy="134.0" r="3" fill="#111"/><text class="label" x="801.0" y="126.0">F</text>
+<circle cx="650.0" cy="206.0" r="3" fill="#111"/><text class="label" x="633.0" y="198.0">H</text>
+<circle cx="794.0" cy="206.0" r="3" fill="#111"/><text class="label" x="801.0" y="198.0">K</text>
+<text x="650" y="410">Blue EBGK: 8; orange HKFD: 2</text>
+<text x="650" y="438">Fails diagonal condition; certificate rejected</text>
+</svg>

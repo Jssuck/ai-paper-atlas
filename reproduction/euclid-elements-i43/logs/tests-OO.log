@@ -1,0 +1,29 @@
+$ python -OO -m unittest -v test_geometry
+test_all_illegal (test_geometry.Tests.test_all_illegal) ... ok
+test_all_legal (test_geometry.Tests.test_all_legal) ... ok
+test_bool_certificate (test_geometry.Tests.test_bool_certificate) ... ok
+test_boundary_end (test_geometry.Tests.test_boundary_end) ... ok
+test_boundary_start (test_geometry.Tests.test_boundary_start) ... ok
+test_diagonal_small_areas (test_geometry.Tests.test_diagonal_small_areas) ... ok
+test_dissection (test_geometry.Tests.test_dissection) ... ok
+test_example (test_geometry.Tests.test_example) ... ok
+test_extra_certificate (test_geometry.Tests.test_extra_certificate) ... ok
+test_forged_area (test_geometry.Tests.test_forged_area) ... ok
+test_forged_point (test_geometry.Tests.test_forged_point) ... ok
+test_half (test_geometry.Tests.test_half) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_negative_orientation (test_geometry.Tests.test_negative_orientation) ... ok
+test_not_congruent (test_geometry.Tests.test_not_congruent) ... ok
+test_off_diagonal (test_geometry.Tests.test_off_diagonal) ... ok
+test_rebind (test_geometry.Tests.test_rebind) ... ok
+test_scale (test_geometry.Tests.test_scale) ... ok
+test_shear (test_geometry.Tests.test_shear) ... ok
+test_tiny_internal (test_geometry.Tests.test_tiny_internal) ... ok
+test_translation (test_geometry.Tests.test_translation) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.028s
+
+OK
+
+exit_code=0

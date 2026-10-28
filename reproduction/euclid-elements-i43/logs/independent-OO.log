@@ -1,0 +1,4 @@
+$ python -OO independent_check.py
+{"independent_checks": 4055, "independent_valid_cases": 70, "invalid_cases_directly_rejected": 13, "notebook_code_cells": 5, "result": "PASS"}
+
+exit_code=0

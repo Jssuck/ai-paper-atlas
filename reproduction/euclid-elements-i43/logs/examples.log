@@ -1,0 +1,85 @@
+$ python run_examples.py
+{
+  "legal_count": 50,
+  "illegal_rejected": 13,
+  "example": {
+    "input": {
+      "A": [
+        "0",
+        "0"
+      ],
+      "B": [
+        "6",
+        "0"
+      ],
+      "C": [
+        "6",
+        "3"
+      ],
+      "D": [
+        "0",
+        "3"
+      ],
+      "K": [
+        "2",
+        "1"
+      ]
+    },
+    "points": {
+      "A": [
+        "0",
+        "0"
+      ],
+      "B": [
+        "6",
+        "0"
+      ],
+      "C": [
+        "6",
+        "3"
+      ],
+      "D": [
+        "0",
+        "3"
+      ],
+      "E": [
+        "2",
+        "0"
+      ],
+      "G": [
+        "6",
+        "1"
+      ],
+      "F": [
+        "2",
+        "3"
+      ],
+      "H": [
+        "0",
+        "1"
+      ],
+      "K": [
+        "2",
+        "1"
+      ]
+    },
+    "t": "1/3",
+    "areas": {
+      "ABCD": "18",
+      "ABC": "9",
+      "ACD": "9",
+      "AEKH": "2",
+      "KGCF": "8",
+      "AEK": "1",
+      "AHK": "1",
+      "KGC": "4",
+      "KFC": "4",
+      "EBGK": "4",
+      "HKFD": "4"
+    },
+    "scope": "internal rational affine model"
+  },
+  "limitation": "finite rational cases do not prove the theorem"
+}
+
+exit_code=0
