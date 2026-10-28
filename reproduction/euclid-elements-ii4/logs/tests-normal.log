@@ -1,0 +1,26 @@
+$ python -m unittest test_geometry -v
+test_area_equal_shift_impostor (test_geometry.GeometryTests.test_area_equal_shift_impostor) ... ok
+test_bad_point (test_geometry.GeometryTests.test_bad_point) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_diagonal (test_geometry.GeometryTests.test_diagonal) ... ok
+test_each_shifted_point (test_geometry.GeometryTests.test_each_shifted_point) ... ok
+test_endpoints (test_geometry.GeometryTests.test_endpoints) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_integer (test_geometry.GeometryTests.test_integer) ... ok
+test_missing_field (test_geometry.GeometryTests.test_missing_field) ... ok
+test_missing_point (test_geometry.GeometryTests.test_missing_point) ... ok
+test_rectangle_not_square (test_geometry.GeometryTests.test_rectangle_not_square) ... ok
+test_reversed_region (test_geometry.GeometryTests.test_reversed_region) ... ok
+test_rhombus_not_square (test_geometry.GeometryTests.test_rhombus_not_square) ... ok
+test_string (test_geometry.GeometryTests.test_string) ... ok
+test_swapped_squares (test_geometry.GeometryTests.test_swapped_squares) ... ok
+test_zero_side (test_geometry.GeometryTests.test_zero_side) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.026s
+
+OK
+
+exit_code=0

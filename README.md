@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》II.3：选定哪一段，就必须保留哪一块正方形](papers/ancient/euclid-elements-ii3.zh-CN.md)，重建分段正方形、整体矩形与CE/DB区域别名，附精确实跑及独立双审。
+最新补读：[《几何原本》II.4：两个小正方形与两块余形，怎样拼回整体](papers/ancient/euclid-elements-ii4.zh-CN.md)，重建对角线定位、正方形资格与四区覆盖，附精确实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -189,6 +189,7 @@
 | 约公元前300年（作品背景；实读1908/2008版本） | [Euclid《几何原本》II.1精读](papers/ancient/euclid-elements-ii1.zh-CN.md) | AI推理前史补读：共同高、矩形分割、覆盖证书与分配律解释边界 | 深读v1 · 完整命题及定义上下文、精确复现 |
 | 约公元前300年（作品背景；实读1908/2008版本） | [Euclid《几何原本》II.2精读](papers/ancient/euclid-elements-ii2.zh-CN.md) | AI推理前史补读：正方形分割、区域命名、整体与分段及特例证明边界 | 深读v1 · 完整命题与相邻评论、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.3精读](papers/ancient/euclid-elements-ii3.zh-CN.md) | AI前史补读：选定分段、矩形扩展与正方形区域别名 | 深读v1 · 原证及后注分层、精确实跑与独立双审 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.4精读](papers/ancient/euclid-elements-ii4.zh-CN.md) | AI推理前史补读：小平方资格、对角线余形、四区覆盖与传本推论边界 | 深读v1 · 完整命题与相关评论、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1624,3 +1625,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### Euclid《几何原本》II.3：分段平方与整体矩形
 
 [中文深读](papers/ancient/euclid-elements-ii3.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii3/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii3/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii3/README.md)。完整II.3及Heath相关评论；区分整体矩形与所选段正方形、CE/DB同区域别名，原证/现代坐标/后世平方差延伸分层。21单测三模式（网格项64构形），独立120有效、360面积对照和2273非法或篡改拒绝三模式；Notebook五格标准库compile/exec及回放，非kernel。有限运行不代替一般证明；仅本单元完成，既有暂缓项不变。
+
+### Euclid《几何原本》II.4：小平方资格与对角线余形
+
+[中文深读](papers/ancient/euclid-elements-ii4.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii4/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii4/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii4/README.md)。完整II.4及Heath相关评论，区分BD对角线、小方块等边与直角、余形等积和四区覆盖；传本推论与现代代数解释另标。18单测三模式（网格项64构形）；独立每模式240外部构形、1200面积对照、6480篡改与42非法输入拒绝。Notebook五格标准库compile/exec及回放，非kernel；有限实跑不替代一般证明。仅本单元完成，既有暂缓项不变。

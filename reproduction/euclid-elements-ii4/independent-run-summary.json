@@ -1,0 +1,44 @@
+{
+  "executed_at_utc": "2026-10-28T22:43:11.746150+00:00",
+  "commands": [
+    {
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 1200,
+        "rejected_inputs": 42,
+        "rejected_mutations": 6480,
+        "result": "passed",
+        "scope": "finite independent coordinate and mutation audit; not general proof",
+        "valid_certificates": 240
+      },
+      "log": "logs/independent-normal.log"
+    },
+    {
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 1200,
+        "rejected_inputs": 42,
+        "rejected_mutations": 6480,
+        "result": "passed",
+        "scope": "finite independent coordinate and mutation audit; not general proof",
+        "valid_certificates": 240
+      },
+      "log": "logs/independent-O.log"
+    },
+    {
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 1200,
+        "rejected_inputs": 42,
+        "rejected_mutations": 6480,
+        "result": "passed",
+        "scope": "finite independent coordinate and mutation audit; not general proof",
+        "valid_certificates": 240
+      },
+      "log": "logs/independent-OO.log"
+    }
+  ]
+}
