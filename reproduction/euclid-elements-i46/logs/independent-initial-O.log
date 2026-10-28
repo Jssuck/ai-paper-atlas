@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "independent_check.py", line 36, in <module>
+    check(not g.verify(A,B,s,bad),'perturbed '+key)
+  File "independent_check.py", line 10, in check
+    if not v: raise RuntimeError(label)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: perturbed C

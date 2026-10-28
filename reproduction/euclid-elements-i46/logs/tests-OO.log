@@ -1,0 +1,29 @@
+$ python -OO -m unittest -v test_geometry
+test_C_arbitrary_beyond (test_geometry.Tests.test_C_arbitrary_beyond) ... ok
+test_C_equal_D (test_geometry.Tests.test_C_equal_D) ... ok
+test_C_not_perpendicular (test_geometry.Tests.test_C_not_perpendicular) ... ok
+test_C_wrong_ray (test_geometry.Tests.test_C_wrong_ray) ... ok
+test_area (test_geometry.Tests.test_area) ... ok
+test_certificate_bool (test_geometry.Tests.test_certificate_bool) ... ok
+test_certificate_scalar (test_geometry.Tests.test_certificate_scalar) ... ok
+test_certificate_shape (test_geometry.Tests.test_certificate_shape) ... ok
+test_crossed_pairing (test_geometry.Tests.test_crossed_pairing) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_illegal (test_geometry.Tests.test_illegal) ... ok
+test_known (test_geometry.Tests.test_known) ... ok
+test_mirror_rejected_for_side (test_geometry.Tests.test_mirror_rejected_for_side) ... ok
+test_opposite_side (test_geometry.Tests.test_opposite_side) ... ok
+test_point_float (test_geometry.Tests.test_point_float) ... ok
+test_rectangle_not_square (test_geometry.Tests.test_rectangle_not_square) ... ok
+test_rhombus_not_square (test_geometry.Tests.test_rhombus_not_square) ... ok
+test_rotated (test_geometry.Tests.test_rotated) ... ok
+test_verifier_input_validation (test_geometry.Tests.test_verifier_input_validation) ... ok
+test_wrong_base (test_geometry.Tests.test_wrong_base) ... ok
+test_wrong_intersection (test_geometry.Tests.test_wrong_intersection) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.005s
+
+OK
+
+exit_code=0
