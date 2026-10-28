@@ -1,0 +1,64 @@
+{
+  "executed_at_utc": "2026-10-28T00:37:18.786014+00:00",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "logs/01.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "logs/02.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "exit_code": 0,
+      "log": "logs/03.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "run_examples.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/04.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "create_notebook.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/05.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "verify_notebook.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/06.txt"
+    }
+  ]
+}

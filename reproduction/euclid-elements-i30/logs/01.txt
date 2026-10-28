@@ -1,0 +1,37 @@
+COMMAND: python3 -m unittest -v test_geometry
+EXIT: 0
+STDOUT:
+
+STDERR:
+test_antiparallel (test_geometry.GeometryTests.test_antiparallel) ... ok
+test_attack_00 (test_geometry.GeometryTests.test_attack_00) ... ok
+test_attack_01 (test_geometry.GeometryTests.test_attack_01) ... ok
+test_attack_02 (test_geometry.GeometryTests.test_attack_02) ... ok
+test_attack_03 (test_geometry.GeometryTests.test_attack_03) ... ok
+test_attack_04 (test_geometry.GeometryTests.test_attack_04) ... ok
+test_attack_05 (test_geometry.GeometryTests.test_attack_05) ... ok
+test_attack_06 (test_geometry.GeometryTests.test_attack_06) ... ok
+test_attack_07 (test_geometry.GeometryTests.test_attack_07) ... ok
+test_attack_08 (test_geometry.GeometryTests.test_attack_08) ... ok
+test_attack_09 (test_geometry.GeometryTests.test_attack_09) ... ok
+test_attack_10 (test_geometry.GeometryTests.test_attack_10) ... ok
+test_attack_11 (test_geometry.GeometryTests.test_attack_11) ... ok
+test_attack_12 (test_geometry.GeometryTests.test_attack_12) ... ok
+test_example (test_geometry.GeometryTests.test_example) ... ok
+test_extra_field (test_geometry.GeometryTests.test_extra_field) ... ok
+test_family (test_geometry.GeometryTests.test_family) ... ok
+test_intersections (test_geometry.GeometryTests.test_intersections) ... ok
+test_negative_geometry (test_geometry.GeometryTests.test_negative_geometry) ... ok
+test_no_alias (test_geometry.GeometryTests.test_no_alias) ... ok
+test_points (test_geometry.GeometryTests.test_points) ... ok
+test_rational (test_geometry.GeometryTests.test_rational) ... ok
+test_rebinding (test_geometry.GeometryTests.test_rebinding) ... ok
+test_root (test_geometry.GeometryTests.test_root) ... ok
+test_scalar_types (test_geometry.GeometryTests.test_scalar_types) ... ok
+test_verifier_invalid (test_geometry.GeometryTests.test_verifier_invalid) ... ok
+test_vertical (test_geometry.GeometryTests.test_vertical) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.174s
+
+OK

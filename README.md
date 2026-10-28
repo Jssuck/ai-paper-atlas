@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》I.29：从不相交到角相等，新增的前提在哪里？](papers/ancient/euclid-elements-i29.zh-CN.md)，重建第五公设反证与两方向补显，区分Playfair替代、欧氏坐标模型和真实实跑，附独立双审。
+最新补读：[《几何原本》I.30：平行关系为何能够传递，哪些条件不能删？](papers/ancient/euclid-elements-i30.zh-CN.md)，重建两次I.29与I.27的组合，区分严格平行、重合与空间不相交，附精确复现和独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -167,6 +167,7 @@
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.27精读](papers/ancient/euclid-elements-i27.zh-CN.md) | AI推理前史补读：局部等角、双向无交点、外角反证与充分条件 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.28精读](papers/ancient/euclid-elements-i28.zh-CN.md) | AI推理前史补读：输入归约、对顶角、角量消去与位置条件 | 深读v1 · 两案原证、精确实跑与独立双审 |
 | 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.29精读](papers/ancient/euclid-elements-i29.zh-CN.md) | AI推理前史补读：逆命题成本、第五公设、方向分支与公理依赖 | 深读v1 · 原证/替代证分层、精确实跑与独立双审 |
+| 约公元前300年（作品年代；实读1908/2008版本） | [Euclid《几何原本》I.30精读](papers/ancient/euclid-elements-i30.zh-CN.md) | AI推理前史补读：中介量组合、公理依赖、互异条件与关系传递 | 深读v1 · 原证/现代模型分层、精确实跑与独立双审 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1499,3 +1500,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《几何原本》I.29：第五公设与平行角性质
 
 [深读正文](papers/ancient/euclid-elements-i29.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i29.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i29.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i29.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i29/README.md)。完整I.29与Heath相关评论；明确第五公设入口、两方向不等分支及三结论复用，保留版本疑误。32测试三模式、336正输入/8负输入；Notebook六格标准库compile/exec非kernel。有限实跑不替代一般证明；仅本单元完成，既有暂缓项不变。
+
+
+## 《几何原本》I.30：共同平行与关系边界
+
+[深读正文](papers/ancient/euclid-elements-i30.zh-CN.md) · [来源台账](papers/ancient/euclid-elements-i30.sources.zh-CN.md) · [独立来源审查](papers/ancient/euclid-elements-i30.source-audit.zh-CN.md) · [独立技术审查](papers/ancient/euclid-elements-i30.technical-audit.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-i30/README.md)。完整I.30及Heath评论；明确两个角角色、第五公设的间接依赖与重合边界。27测试三模式、896正输入/8负输入；Notebook六格标准库compile/exec非kernel。有限实跑不替代一般证明；仅本单元完成，既有暂缓项不变。
