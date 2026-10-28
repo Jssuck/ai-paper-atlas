@@ -114,7 +114,7 @@ $$
 在一般坐标核验中，可写：
 
 $$
-S_i=(t_i-t_{i-1})\,|\det(u,v)|,\qquad
+S_i=(t_i-t_{i-1}) \cdot |\det(u,v)|,\qquad
 \sum_{i=1}^{n}S_i=|\det(u,v)|.
 $$
 
