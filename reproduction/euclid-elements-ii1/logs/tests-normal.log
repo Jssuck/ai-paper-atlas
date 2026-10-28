@@ -1,0 +1,29 @@
+$ python -m unittest test_geometry -v
+test_area_not_enough (test_geometry.Geometry.test_area_not_enough) ... ok
+test_bool_certificate (test_geometry.Geometry.test_bool_certificate) ... ok
+test_duplicate_tile (test_geometry.Geometry.test_duplicate_tile) ... ok
+test_extra_key (test_geometry.Geometry.test_extra_key) ... ok
+test_float_certificate (test_geometry.Geometry.test_float_certificate) ... ok
+test_invalid_family (test_geometry.Geometry.test_invalid_family) ... ok
+test_many_cuts (test_geometry.Geometry.test_many_cuts) ... ok
+test_missing_key (test_geometry.Geometry.test_missing_key) ... ok
+test_missing_tile (test_geometry.Geometry.test_missing_tile) ... ok
+test_no_cut (test_geometry.Geometry.test_no_cut) ... ok
+test_nonperpendicular_near (test_geometry.Geometry.test_nonperpendicular_near) ... ok
+test_original (test_geometry.Geometry.test_original) ... ok
+test_reverse_tiles (test_geometry.Geometry.test_reverse_tiles) ... ok
+test_shift_lower (test_geometry.Geometry.test_shift_lower) ... ok
+test_shift_upper (test_geometry.Geometry.test_shift_upper) ... ok
+test_tile_coordinates (test_geometry.Geometry.test_tile_coordinates) ... ok
+test_tiny (test_geometry.Geometry.test_tiny) ... ok
+test_valid_family (test_geometry.Geometry.test_valid_family) ... ok
+test_wrong_cuts_binding (test_geometry.Geometry.test_wrong_cuts_binding) ... ok
+test_wrong_input_binding (test_geometry.Geometry.test_wrong_input_binding) ... ok
+test_wrong_winding (test_geometry.Geometry.test_wrong_winding) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.034s
+
+OK
+
+exit_code=0

@@ -1,0 +1,4 @@
+$ python run_examples.py
+{"valid_cases": 96, "invalid_cases_rejected": 16, "original_three_parts": {"whole_area": "12", "tile_areas": ["2", "4", "6"], "tiles": 3}, "slanted_example": {"whole_area": "25", "tile_areas": ["5", "10", "10"], "tiles": 3}, "scope": "finite rational geometry; no proof of universal theorem"}
+
+exit_code=0
