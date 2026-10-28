@@ -1,0 +1,21 @@
+$ python run_examples.py
+{
+  "valid_cases": 72,
+  "invalid_directly_rejected": 12,
+  "example_3_4": {
+    "AB_squared": "9",
+    "AC_squared": "16",
+    "BC_squared": "25",
+    "AD_squared": "9",
+    "DC_squared": "25",
+    "BAC_dot": "0",
+    "DAC_dot": "0",
+    "D": [
+      "-3",
+      "0"
+    ]
+  },
+  "finite_tests_are_not_general_proof": true
+}
+
+exit_code=0

@@ -1,0 +1,7 @@
+$ python independent_check.py
+Independent Cartesian enumeration: 2401 rational input triples
+Accepted exact premise cases: 192
+Rejected other cases: 2209
+All accepted certificates verified; no perpendicular-family preselection.
+Finite enumeration does not prove the general theorem.
+exit_code=0

@@ -1,0 +1,29 @@
+$ python -O -m unittest test_geometry -v
+test_D (test_geometry.Tests.test_D) ... ok
+test_basic (test_geometry.Tests.test_basic) ... ok
+test_bool_certificate (test_geometry.Tests.test_bool_certificate) ... ok
+test_extra (test_geometry.Tests.test_extra) ... ok
+test_family (test_geometry.Tests.test_family) ... ok
+test_float_certificate (test_geometry.Tests.test_float_certificate) ... ok
+test_invalid (test_geometry.Tests.test_invalid) ... ok
+test_irrational_sqrt (test_geometry.Tests.test_irrational_sqrt) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_near_right_rejected (test_geometry.Tests.test_near_right_rejected) ... ok
+test_negative_sqrt (test_geometry.Tests.test_negative_sqrt) ... ok
+test_no_certificate (test_geometry.Tests.test_no_certificate) ... ok
+test_nonhorizontal (test_geometry.Tests.test_nonhorizontal) ... ok
+test_origin_D (test_geometry.Tests.test_origin_D) ... ok
+test_rational_sqrt (test_geometry.Tests.test_rational_sqrt) ... ok
+test_same_side (test_geometry.Tests.test_same_side) ... ok
+test_side_chain (test_geometry.Tests.test_side_chain) ... ok
+test_sqrt_bool (test_geometry.Tests.test_sqrt_bool) ... ok
+test_swap (test_geometry.Tests.test_swap) ... ok
+test_tamper (test_geometry.Tests.test_tamper) ... ok
+test_wrong_args (test_geometry.Tests.test_wrong_args) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.012s
+
+OK
+
+exit_code=0
