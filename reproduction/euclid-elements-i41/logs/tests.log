@@ -1,0 +1,27 @@
+test_area (test_geometry.GeometryTests.test_area) ... ok
+test_bad_string (test_geometry.GeometryTests.test_bad_string) ... ok
+test_batch (test_geometry.GeometryTests.test_batch) ... ok
+test_boolean_certificate (test_geometry.GeometryTests.test_boolean_certificate) ... ok
+test_cycle (test_geometry.GeometryTests.test_cycle) ... ok
+test_end_a (test_geometry.GeometryTests.test_end_a) ... ok
+test_end_d (test_geometry.GeometryTests.test_end_d) ... ok
+test_extra_certificate (test_geometry.GeometryTests.test_extra_certificate) ... ok
+test_extra_input (test_geometry.GeometryTests.test_extra_input) ... ok
+test_inside (test_geometry.GeometryTests.test_inside) ... ok
+test_invalid_direct (test_geometry.GeometryTests.test_invalid_direct) ... ok
+test_invalid_verifier (test_geometry.GeometryTests.test_invalid_verifier) ... ok
+test_missing_input (test_geometry.GeometryTests.test_missing_input) ... ok
+test_normalization (test_geometry.GeometryTests.test_normalization) ... ok
+test_number_certificate (test_geometry.GeometryTests.test_number_certificate) ... ok
+test_original (test_geometry.GeometryTests.test_original) ... ok
+test_outside (test_geometry.GeometryTests.test_outside) ... ok
+test_rebind (test_geometry.GeometryTests.test_rebind) ... ok
+test_schema (test_geometry.GeometryTests.test_schema) ... ok
+test_tamper_area (test_geometry.GeometryTests.test_tamper_area) ... ok
+test_tamper_chain (test_geometry.GeometryTests.test_tamper_chain) ... ok
+test_tuple_point (test_geometry.GeometryTests.test_tuple_point) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.028s
+
+OK

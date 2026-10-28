@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="500" viewBox="0 0 1440 500"><rect width="1440" height="500" fill="#fff"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#17233a}.line{stroke:#718096;stroke-width:2}.quad{fill:#d6ebff;stroke:#245b91;stroke-width:3}.tri{fill:#edbe5b;fill-opacity:.45;stroke:#a96700;stroke-width:3}</style><text x="30" y="40" font-size="25">I.41: one base BC, one parallel strip, area(ABCD) = 2 area(EBC)</text>
+<text x="30" y="90" font-size="22">E inside AD</text>
+<line x1="25" y1="150" x2="455" y2="150" class="line" stroke-dasharray="8 5"/>
+<line x1="25" y1="330" x2="455" y2="330" class="line"/>
+<polygon points="135,150 65,330 345,330 415,150" class="quad"/>
+<polygon points="275.0,150 65,330 345,330" class="tri"/>
+<line x1="135" y1="150" x2="345" y2="330" stroke="#245b91" stroke-dasharray="6 4" stroke-width="2"/>
+<circle cx="135" cy="150" r="4" fill="#17233a"/><text x="127" y="138" font-size="19">A</text>
+<circle cx="65" cy="330" r="4" fill="#17233a"/><text x="57" y="356" font-size="19">B</text>
+<circle cx="345" cy="330" r="4" fill="#17233a"/><text x="337" y="356" font-size="19">C</text>
+<circle cx="415" cy="150" r="4" fill="#17233a"/><text x="407" y="138" font-size="19">D</text>
+<circle cx="275.0" cy="150" r="4" fill="#17233a"/><text x="267.0" y="138" font-size="19">E</text>
+<text x="30" y="407" font-size="18">Parallelogram area: 12; triangle area: 6</text>
+<text x="510" y="90" font-size="22">E outside AD</text>
+<line x1="505" y1="150" x2="935" y2="150" class="line" stroke-dasharray="8 5"/>
+<line x1="505" y1="330" x2="935" y2="330" class="line"/>
+<polygon points="558,150 515,330 687,330 730,150" class="quad"/>
+<polygon points="902,150 515,330 687,330" class="tri"/>
+<line x1="558" y1="150" x2="687" y2="330" stroke="#245b91" stroke-dasharray="6 4" stroke-width="2"/>
+<circle cx="558" cy="150" r="4" fill="#17233a"/><text x="550" y="138" font-size="19">A</text>
+<circle cx="515" cy="330" r="4" fill="#17233a"/><text x="507" y="356" font-size="19">B</text>
+<circle cx="687" cy="330" r="4" fill="#17233a"/><text x="679" y="356" font-size="19">C</text>
+<circle cx="730" cy="150" r="4" fill="#17233a"/><text x="722" y="138" font-size="19">D</text>
+<circle cx="902" cy="150" r="4" fill="#17233a"/><text x="894" y="138" font-size="19">E</text>
+<text x="510" y="407" font-size="18">Parallelogram area: 12; triangle area: 6</text>
+<text x="990" y="90" font-size="22">E = A boundary</text>
+<line x1="985" y1="150" x2="1415" y2="150" class="line" stroke-dasharray="8 5"/>
+<line x1="985" y1="330" x2="1415" y2="330" class="line"/>
+<polygon points="1095,150 1025,330 1305,330 1375,150" class="quad"/>
+<polygon points="1095,150 1025,330 1305,330" class="tri"/>
+<line x1="1095" y1="150" x2="1305" y2="330" stroke="#245b91" stroke-dasharray="6 4" stroke-width="2"/>
+<circle cx="1095" cy="150" r="4" fill="#17233a"/><text x="1087" y="138" font-size="19">A=E</text>
+<circle cx="1025" cy="330" r="4" fill="#17233a"/><text x="1017" y="356" font-size="19">B</text>
+<circle cx="1305" cy="330" r="4" fill="#17233a"/><text x="1297" y="356" font-size="19">C</text>
+<circle cx="1375" cy="150" r="4" fill="#17233a"/><text x="1367" y="138" font-size="19">D</text>
+<text x="990" y="407" font-size="18">Parallelogram area: 12; triangle area: 6</text>
+<text x="30" y="467" font-size="17">Original teaching coordinates: B=(0,0), C=(4,0), A=(1,3), D=(5,3). Dashed diagonal: AC.</text></svg>

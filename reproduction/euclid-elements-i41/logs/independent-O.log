@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "optimization": 1,
+  "valid_geometries": 420,
+  "trapezoid_geometries": 36,
+  "checks": 5992,
+  "categories": {
+    "valid_certificate": 420,
+    "canonical_binding": 420,
+    "parameter": 420,
+    "position": 420,
+    "independent_shoelace": 1680,
+    "ratio": 420,
+    "equal_area_rebinding": 420,
+    "opposite_side": 420,
+    "off_line": 420,
+    "wrong_fourth": 420,
+    "article_numbers": 10,
+    "trapezoid_extension": 180,
+    "coordinate_type": 18,
+    "point_type": 9,
+    "top_schema": 11,
+    "degenerate": 3,
+    "certificate_subtree": 279,
+    "certificate_missing_key": 16,
+    "certificate_extra_key": 3,
+    "certificate_cycle": 1,
+    "certificate_alias_tamper": 1,
+    "normalization": 1
+  },
+  "scope": "Independent finite audit, not a general theorem proof."
+}

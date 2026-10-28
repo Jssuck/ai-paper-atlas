@@ -1,0 +1,11 @@
+{
+  "scope": "finite rational teaching examples, not a general proof",
+  "valid_count": 180,
+  "positions": {
+    "outside AD": 72,
+    "E=A": 36,
+    "inside AD": 36,
+    "E=D": 36
+  },
+  "invalid_count": 10
+}

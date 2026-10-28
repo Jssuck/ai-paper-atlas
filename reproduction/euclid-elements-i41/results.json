@@ -1,0 +1,255 @@
+{
+  "scope": "finite rational teaching examples, not a general proof",
+  "valid_count": 180,
+  "positions": {
+    "outside AD": 72,
+    "E=A": 36,
+    "inside AD": 36,
+    "E=D": 36
+  },
+  "invalid_count": 10,
+  "rejected": [
+    {
+      "label": "zero base",
+      "reason": "zero base BC"
+    },
+    {
+      "label": "flat upper",
+      "reason": "degenerate parallelogram"
+    },
+    {
+      "label": "wrong fourth vertex",
+      "reason": "ABCD is not the specified parallelogram"
+    },
+    {
+      "label": "off upper line",
+      "reason": "E is not on upper supporting line AD"
+    },
+    {
+      "label": "opposite height, same unsigned ratio",
+      "reason": "E is not on upper supporting line AD"
+    },
+    {
+      "label": "base apex",
+      "reason": "E is not on upper supporting line AD"
+    },
+    {
+      "label": "crossed relabelling",
+      "reason": "ABCD is not the specified parallelogram"
+    },
+    {
+      "label": "float coordinate",
+      "reason": "coordinate must be integer or canonical rational string"
+    },
+    {
+      "label": "boolean coordinate",
+      "reason": "coordinate must be integer or canonical rational string"
+    },
+    {
+      "label": "noncanonical fraction",
+      "reason": "coordinate must be integer or canonical rational string"
+    }
+  ],
+  "hand_examples": {
+    "-2": {
+      "schema": "euclid-i41-v1",
+      "points": {
+        "A": [
+          "1",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "5",
+          "3"
+        ],
+        "E": [
+          "-7",
+          "3"
+        ]
+      },
+      "upper_parameter": "-2",
+      "upper_position": "outside AD",
+      "double_areas": {
+        "ABC": "12",
+        "ACD": "12",
+        "EBC": "12",
+        "ABCD": "24"
+      },
+      "chain": [
+        "I.37: area ABC = area EBC",
+        "I.34: area ABC = area ACD",
+        "partition: area ABCD = area ABC + area ACD",
+        "substitution: area ABCD = 2 * area EBC"
+      ],
+      "model_note": "Modern rational coordinates check instances; chain labels are not a formal proof kernel."
+    },
+    "0": {
+      "schema": "euclid-i41-v1",
+      "points": {
+        "A": [
+          "1",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "5",
+          "3"
+        ],
+        "E": [
+          "1",
+          "3"
+        ]
+      },
+      "upper_parameter": "0",
+      "upper_position": "E=A",
+      "double_areas": {
+        "ABC": "12",
+        "ACD": "12",
+        "EBC": "12",
+        "ABCD": "24"
+      },
+      "chain": [
+        "I.37: area ABC = area EBC",
+        "I.34: area ABC = area ACD",
+        "partition: area ABCD = area ABC + area ACD",
+        "substitution: area ABCD = 2 * area EBC"
+      ],
+      "model_note": "Modern rational coordinates check instances; chain labels are not a formal proof kernel."
+    },
+    "1/2": {
+      "schema": "euclid-i41-v1",
+      "points": {
+        "A": [
+          "1",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "5",
+          "3"
+        ],
+        "E": [
+          "3",
+          "3"
+        ]
+      },
+      "upper_parameter": "1/2",
+      "upper_position": "inside AD",
+      "double_areas": {
+        "ABC": "12",
+        "ACD": "12",
+        "EBC": "12",
+        "ABCD": "24"
+      },
+      "chain": [
+        "I.37: area ABC = area EBC",
+        "I.34: area ABC = area ACD",
+        "partition: area ABCD = area ABC + area ACD",
+        "substitution: area ABCD = 2 * area EBC"
+      ],
+      "model_note": "Modern rational coordinates check instances; chain labels are not a formal proof kernel."
+    },
+    "1": {
+      "schema": "euclid-i41-v1",
+      "points": {
+        "A": [
+          "1",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "5",
+          "3"
+        ],
+        "E": [
+          "5",
+          "3"
+        ]
+      },
+      "upper_parameter": "1",
+      "upper_position": "E=D",
+      "double_areas": {
+        "ABC": "12",
+        "ACD": "12",
+        "EBC": "12",
+        "ABCD": "24"
+      },
+      "chain": [
+        "I.37: area ABC = area EBC",
+        "I.34: area ABC = area ACD",
+        "partition: area ABCD = area ABC + area ACD",
+        "substitution: area ABCD = 2 * area EBC"
+      ],
+      "model_note": "Modern rational coordinates check instances; chain labels are not a formal proof kernel."
+    },
+    "3": {
+      "schema": "euclid-i41-v1",
+      "points": {
+        "A": [
+          "1",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "4",
+          "0"
+        ],
+        "D": [
+          "5",
+          "3"
+        ],
+        "E": [
+          "13",
+          "3"
+        ]
+      },
+      "upper_parameter": "3",
+      "upper_position": "outside AD",
+      "double_areas": {
+        "ABC": "12",
+        "ACD": "12",
+        "EBC": "12",
+        "ABCD": "24"
+      },
+      "chain": [
+        "I.37: area ABC = area EBC",
+        "I.34: area ABC = area ACD",
+        "partition: area ABCD = area ABC + area ACD",
+        "substitution: area ABCD = 2 * area EBC"
+      ],
+      "model_note": "Modern rational coordinates check instances; chain labels are not a formal proof kernel."
+    }
+  }
+}
