@@ -1,0 +1,28 @@
+test_F_equals_A (test_geometry.ConstructionTests.test_F_equals_A) ... ok
+test_G_equals_A (test_geometry.ConstructionTests.test_G_equals_A) ... ok
+test_altered_area (test_geometry.ConstructionTests.test_altered_area) ... ok
+test_altered_point (test_geometry.ConstructionTests.test_altered_point) ... ok
+test_bool_tamper (test_geometry.ConstructionTests.test_bool_tamper) ... ok
+test_exact_fraction (test_geometry.ConstructionTests.test_exact_fraction) ... ok
+test_example (test_geometry.ConstructionTests.test_example) ... ok
+test_extra_certificate_field (test_geometry.ConstructionTests.test_extra_certificate_field) ... ok
+test_invalid_direct (test_geometry.ConstructionTests.test_invalid_direct) ... ok
+test_invalid_verifier (test_geometry.ConstructionTests.test_invalid_verifier) ... ok
+test_missing_certificate (test_geometry.ConstructionTests.test_missing_certificate) ... ok
+test_negative_height (test_geometry.ConstructionTests.test_negative_height) ... ok
+test_no_input_mutation (test_geometry.ConstructionTests.test_no_input_mutation) ... ok
+test_nonserializable (test_geometry.ConstructionTests.test_nonserializable) ... ok
+test_obtuse (test_geometry.ConstructionTests.test_obtuse) ... ok
+test_rebind_same_area (test_geometry.ConstructionTests.test_rebind_same_area) ... ok
+test_reverse_base (test_geometry.ConstructionTests.test_reverse_base) ... ok
+test_right_angle (test_geometry.ConstructionTests.test_right_angle) ... ok
+test_scaled_direction (test_geometry.ConstructionTests.test_scaled_direction) ... ok
+test_singular_input_type (test_geometry.ConstructionTests.test_singular_input_type) ... ok
+test_small_angle (test_geometry.ConstructionTests.test_small_angle) ... ok
+test_valid_grid (test_geometry.ConstructionTests.test_valid_grid) ... ok
+test_wrong_ray (test_geometry.ConstructionTests.test_wrong_ray) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.030s
+
+OK

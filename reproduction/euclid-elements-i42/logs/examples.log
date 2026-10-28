@@ -1,0 +1,105 @@
+{
+  "valid_count": 129,
+  "invalid_rejected_count": 12,
+  "invalid": [
+    {
+      "case": "collinear",
+      "reason": "triangle is degenerate"
+    },
+    {
+      "case": "equal base endpoints",
+      "reason": "triangle is degenerate"
+    },
+    {
+      "case": "zero vector",
+      "reason": "given angle must be nonzero and nonstraight"
+    },
+    {
+      "case": "straight angle",
+      "reason": "given angle must be nonzero and nonstraight"
+    },
+    {
+      "case": "zero angle",
+      "reason": "given angle must be nonzero and nonstraight"
+    },
+    {
+      "case": "wrong side",
+      "reason": "copied angle ray must lie on the A side of BC"
+    },
+    {
+      "case": "float coordinate",
+      "reason": "coordinates must be int or Fraction, not bool/float"
+    },
+    {
+      "case": "boolean coordinate",
+      "reason": "coordinates must be int or Fraction, not bool/float"
+    },
+    {
+      "case": "string coordinate",
+      "reason": "coordinates must be int or Fraction, not bool/float"
+    },
+    {
+      "case": "wrong dimension",
+      "reason": "point/vector must have two exact coordinates"
+    },
+    {
+      "case": "extra field",
+      "reason": "exact input fields A B C u required"
+    },
+    {
+      "case": "missing field",
+      "reason": "exact input fields A B C u required"
+    }
+  ],
+  "example": {
+    "kind": "euclid-i42-rational-v1",
+    "input": {
+      "A": [
+        "1",
+        "3"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "4",
+        "0"
+      ],
+      "u": [
+        "1",
+        "1"
+      ]
+    },
+    "points": {
+      "E": [
+        "2",
+        "0"
+      ],
+      "F": [
+        "5",
+        "3"
+      ],
+      "G": [
+        "7",
+        "3"
+      ]
+    },
+    "parameter_t": "3",
+    "double_areas": {
+      "ABC": "12",
+      "ABE": "6",
+      "AEC": "6",
+      "FECG": "12"
+    },
+    "chain": [
+      "I.10: BE = EC",
+      "I.38: area(ABE) = area(AEC)",
+      "partition: area(ABC) = 2 area(AEC)",
+      "I.41: area(FECG) = 2 area(AEC)",
+      "common value: area(FECG) = area(ABC)"
+    ],
+    "scope": "exact rational model only; not a general Euclidean proof"
+  },
+  "limits": "Finite exact rational checks do not prove the general theorem."
+}

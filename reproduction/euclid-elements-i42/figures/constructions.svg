@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="390" viewBox="0 0 1260 390"><rect width="1260" height="390" fill="#faf9f5"/><style>text{font-family:Arial,sans-serif;font-size:17px} .small{font-size:14px}</style>
+<text x="25" y="35">Obtuse: F = A</text>
+<polygon points="100.0,95.0 135.0,260.0 205.0,260.0 170.0,95.0" fill="#b7dbf2" stroke="#17628e" stroke-width="2"/>
+<polygon points="100.0,95.0 65.0,260.0 205.0,260.0" fill="#f0c76a" fill-opacity="0.45" stroke="#946b0a" stroke-width="2"/>
+<line x1="30" y1="95" x2="385" y2="95" stroke="#999" stroke-dasharray="5 4"/>
+<circle cx="100.0" cy="95.0" r="3" fill="#263442"/><text x="95.0" y="83.0">A = F</text>
+<circle cx="65.0" cy="260.0" r="3" fill="#263442"/><text x="60.0" y="284.0">B</text>
+<circle cx="205.0" cy="260.0" r="3" fill="#263442"/><text x="200.0" y="284.0">C</text>
+<circle cx="135.0" cy="260.0" r="3" fill="#263442"/><text x="130.0" y="284.0">E</text>
+<circle cx="170.0" cy="95.0" r="3" fill="#263442"/><text x="165.0" y="83.0">G</text>
+<text x="25" y="325" class="small">B=(0,0), C=(4,0), A=(1,3), E=(2,0)</text><text x="25" y="350" class="small">area(ABC) = area(FECG) = 6</text>
+<text x="445" y="35">Right angle</text>
+<polygon points="555.0,95.0 555.0,260.0 625.0,260.0 625.0,95.0" fill="#b7dbf2" stroke="#17628e" stroke-width="2"/>
+<polygon points="520.0,95.0 485.0,260.0 625.0,260.0" fill="#f0c76a" fill-opacity="0.45" stroke="#946b0a" stroke-width="2"/>
+<line x1="450" y1="95" x2="805" y2="95" stroke="#999" stroke-dasharray="5 4"/>
+<circle cx="520.0" cy="95.0" r="3" fill="#263442"/><text x="515.0" y="83.0">A</text>
+<circle cx="485.0" cy="260.0" r="3" fill="#263442"/><text x="480.0" y="284.0">B</text>
+<circle cx="625.0" cy="260.0" r="3" fill="#263442"/><text x="620.0" y="284.0">C</text>
+<circle cx="555.0" cy="260.0" r="3" fill="#263442"/><text x="550.0" y="284.0">E</text>
+<circle cx="555.0" cy="95.0" r="3" fill="#263442"/><text x="550.0" y="83.0">F</text>
+<circle cx="625.0" cy="95.0" r="3" fill="#263442"/><text x="620.0" y="83.0">G</text>
+<text x="445" y="325" class="small">B=(0,0), C=(4,0), A=(1,3), E=(2,0)</text><text x="445" y="350" class="small">area(ABC) = area(FECG) = 6</text>
+<text x="865" y="35">Acute: F beyond A</text>
+<polygon points="1080.0,95.0 975.0,260.0 1045.0,260.0 1150.0,95.0" fill="#b7dbf2" stroke="#17628e" stroke-width="2"/>
+<polygon points="940.0,95.0 905.0,260.0 1045.0,260.0" fill="#f0c76a" fill-opacity="0.45" stroke="#946b0a" stroke-width="2"/>
+<line x1="870" y1="95" x2="1225" y2="95" stroke="#999" stroke-dasharray="5 4"/>
+<circle cx="940.0" cy="95.0" r="3" fill="#263442"/><text x="935.0" y="83.0">A</text>
+<circle cx="905.0" cy="260.0" r="3" fill="#263442"/><text x="900.0" y="284.0">B</text>
+<circle cx="1045.0" cy="260.0" r="3" fill="#263442"/><text x="1040.0" y="284.0">C</text>
+<circle cx="975.0" cy="260.0" r="3" fill="#263442"/><text x="970.0" y="284.0">E</text>
+<circle cx="1080.0" cy="95.0" r="3" fill="#263442"/><text x="1075.0" y="83.0">F</text>
+<circle cx="1150.0" cy="95.0" r="3" fill="#263442"/><text x="1145.0" y="83.0">G</text>
+<text x="865" y="325" class="small">B=(0,0), C=(4,0), A=(1,3), E=(2,0)</text><text x="865" y="350" class="small">area(ABC) = area(FECG) = 6</text>
+</svg>
