@@ -1,0 +1,710 @@
+{
+  "scope": "finite modern rational checks, not a general proof",
+  "positive_count": 360,
+  "rejected_geometry_count": 8,
+  "example": {
+    "schema": "euclid-i38-exact-v1",
+    "input": {
+      "A": [
+        "0",
+        "3"
+      ],
+      "B": [
+        "0",
+        "0"
+      ],
+      "C": [
+        "2",
+        "0"
+      ],
+      "D": [
+        "4",
+        "3"
+      ],
+      "E": [
+        "6",
+        "0"
+      ],
+      "F": [
+        "8",
+        "0"
+      ]
+    },
+    "base_squared": "4",
+    "base_direction": "same",
+    "signed_double_areas": {
+      "ABC": "6",
+      "DEF": "6"
+    },
+    "vertices": {
+      "G": [
+        "-2",
+        "3"
+      ],
+      "H": [
+        "6",
+        "3"
+      ]
+    },
+    "parallel_checks": {
+      "BG_CA": "0",
+      "FH_DE": "0",
+      "GA_BC": "0",
+      "DH_EF": "0"
+    },
+    "area": {
+      "ABC": "3",
+      "DEF": "3",
+      "GBCA": "6",
+      "DEFH": "6"
+    },
+    "halves": {
+      "AB_ABC": "3",
+      "AB_GBA": "3",
+      "DF_DEF": "3",
+      "DF_DFH": "3"
+    },
+    "coincidences": {
+      "A_D": "no",
+      "G_H": "no"
+    }
+  },
+  "boundary_examples": {
+    "same_base": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "0",
+          "0"
+        ],
+        "F": [
+          "2",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "same",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "6",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "no",
+        "G_H": "no"
+      }
+    },
+    "reverse_equal_base": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "4",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "opposite",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "-6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "2",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "no",
+        "G_H": "no"
+      }
+    },
+    "same_vertex": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "0",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "same",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "2",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "yes",
+        "G_H": "no"
+      }
+    },
+    "same_G_H": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "-4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "same",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "-2",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "no",
+        "G_H": "yes"
+      }
+    },
+    "B_equals_F": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "-2",
+          "0"
+        ],
+        "F": [
+          "0",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "same",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "6",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "no",
+        "G_H": "no"
+      }
+    },
+    "overlapping_bases": {
+      "schema": "euclid-i38-exact-v1",
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "1",
+          "0"
+        ],
+        "F": [
+          "3",
+          "0"
+        ]
+      },
+      "base_squared": "4",
+      "base_direction": "same",
+      "signed_double_areas": {
+        "ABC": "6",
+        "DEF": "6"
+      },
+      "vertices": {
+        "G": [
+          "-2",
+          "3"
+        ],
+        "H": [
+          "6",
+          "3"
+        ]
+      },
+      "parallel_checks": {
+        "BG_CA": "0",
+        "FH_DE": "0",
+        "GA_BC": "0",
+        "DH_EF": "0"
+      },
+      "area": {
+        "ABC": "3",
+        "DEF": "3",
+        "GBCA": "6",
+        "DEFH": "6"
+      },
+      "halves": {
+        "AB_ABC": "3",
+        "AB_GBA": "3",
+        "DF_DEF": "3",
+        "DF_DFH": "3"
+      },
+      "coincidences": {
+        "A_D": "no",
+        "G_H": "no"
+      }
+    }
+  },
+  "rejections": [
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "0",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "zero base"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "6",
+          "0"
+        ]
+      },
+      "reason": "zero base"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "1"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "bases must share one support line"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "9",
+          "0"
+        ]
+      },
+      "reason": "base lengths differ"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "0"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "triangle ABC degenerate"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "-3"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "A and D must share the same non-base parallel"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "4"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "A and D must share the same non-base parallel"
+    },
+    {
+      "input": {
+        "A": [
+          "0",
+          "3"
+        ],
+        "B": [
+          "0",
+          "0"
+        ],
+        "C": [
+          "2",
+          "0"
+        ],
+        "D": [
+          "4",
+          "0"
+        ],
+        "E": [
+          "6",
+          "0"
+        ],
+        "F": [
+          "8",
+          "0"
+        ]
+      },
+      "reason": "A and D must share the same non-base parallel"
+    }
+  ]
+}

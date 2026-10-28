@@ -1,0 +1,40 @@
+$ python -O test_geometry.py
+test_B_equals_F (__main__.GeometryTests.test_B_equals_F) ... ok
+test_base_slide_binding (__main__.GeometryTests.test_base_slide_binding) ... ok
+test_bool (__main__.GeometryTests.test_bool) ... ok
+test_bool_certificate (__main__.GeometryTests.test_bool_certificate) ... ok
+test_certificate_none (__main__.GeometryTests.test_certificate_none) ... ok
+test_container (__main__.GeometryTests.test_container) ... ok
+test_decimal_string (__main__.GeometryTests.test_decimal_string) ... ok
+test_denominator_zero (__main__.GeometryTests.test_denominator_zero) ... ok
+test_endpoint_reversal_binding (__main__.GeometryTests.test_endpoint_reversal_binding) ... ok
+test_every_leaf_tamper (__main__.GeometryTests.test_every_leaf_tamper) ... ok
+test_example (__main__.GeometryTests.test_example) ... ok
+test_extra_certificate_field (__main__.GeometryTests.test_extra_certificate_field) ... ok
+test_extra_key (__main__.GeometryTests.test_extra_key) ... ok
+test_finite_family (__main__.GeometryTests.test_finite_family) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_fraction_object (__main__.GeometryTests.test_fraction_object) ... ok
+test_geometry_negatives (__main__.GeometryTests.test_geometry_negatives) ... ok
+test_integer_string (__main__.GeometryTests.test_integer_string) ... ok
+test_key_order_irrelevant (__main__.GeometryTests.test_key_order_irrelevant) ... ok
+test_missing_certificate_field (__main__.GeometryTests.test_missing_certificate_field) ... ok
+test_missing_key (__main__.GeometryTests.test_missing_key) ... ok
+test_noncanonical_ratio (__main__.GeometryTests.test_noncanonical_ratio) ... ok
+test_none (__main__.GeometryTests.test_none) ... ok
+test_point_length (__main__.GeometryTests.test_point_length) ... ok
+test_point_tuple (__main__.GeometryTests.test_point_tuple) ... ok
+test_reversed_base (__main__.GeometryTests.test_reversed_base) ... ok
+test_same_G_H (__main__.GeometryTests.test_same_G_H) ... ok
+test_same_base (__main__.GeometryTests.test_same_base) ... ok
+test_same_vertex (__main__.GeometryTests.test_same_vertex) ... ok
+test_translation_binding (__main__.GeometryTests.test_translation_binding) ... ok
+test_vertex_slide_binding (__main__.GeometryTests.test_vertex_slide_binding) ... ok
+test_whitespace (__main__.GeometryTests.test_whitespace) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.139s
+
+OK
+
+exit_code=0

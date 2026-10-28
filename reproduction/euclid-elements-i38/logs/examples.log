@@ -1,0 +1,6 @@
+$ python run_examples.py
+Positive certificates: 360
+Invalid geometries rejected: 8
+Example areas: {'ABC': '3', 'DEF': '3', 'GBCA': '6', 'DEFH': '6'}
+
+exit_code=0

@@ -1,0 +1,32 @@
+[
+  {
+    "command": "python test_geometry.py",
+    "log": "logs/tests.log",
+    "exit_code": 0
+  },
+  {
+    "command": "python -O test_geometry.py",
+    "log": "logs/tests-O.log",
+    "exit_code": 0
+  },
+  {
+    "command": "python -OO test_geometry.py",
+    "log": "logs/tests-OO.log",
+    "exit_code": 0
+  },
+  {
+    "command": "python run_examples.py",
+    "log": "logs/examples.log",
+    "exit_code": 0
+  },
+  {
+    "command": "python create_notebook.py",
+    "log": "logs/notebook-build.log",
+    "exit_code": 0
+  },
+  {
+    "command": "python verify_notebook.py",
+    "log": "logs/notebook-replay.log",
+    "exit_code": 0
+  }
+]
