@@ -1,0 +1,6 @@
+COMMAND: python3 create_notebook.py
+EXIT: 0
+STDOUT:
+Executed six code cells with compile/exec; no kernel started
+
+STDERR:

@@ -1,0 +1,61 @@
+{
+  "positive_inputs": 360,
+  "negative_inputs": 10,
+  "hand_example": {
+    "schema": "euclid-i33-exact-v1",
+    "input": {
+      "A": [
+        "0",
+        "0"
+      ],
+      "B": [
+        "3",
+        "0"
+      ],
+      "C": [
+        "1",
+        "2"
+      ],
+      "D": [
+        "4",
+        "2"
+      ]
+    },
+    "premises": {
+      "AB": [
+        "3",
+        "0"
+      ],
+      "CD": [
+        "3",
+        "0"
+      ],
+      "AB_squared": "9",
+      "CD_squared": "9",
+      "base_cross": "0",
+      "base_dot": "9",
+      "support_cross": "6"
+    },
+    "sas": {
+      "BC_squared": "8",
+      "included_dot_ABC": "6",
+      "included_dot_DCB": "6"
+    },
+    "conclusion": {
+      "AC_vector": [
+        "1",
+        "2"
+      ],
+      "BD_vector": [
+        "1",
+        "2"
+      ],
+      "AC_squared": "5",
+      "BD_squared": "5",
+      "connector_cross": "0",
+      "connector_dot": "5",
+      "connector_support_cross": "-6"
+    }
+  },
+  "scope": "finite rational-coordinate tests, not proof of general theorem"
+}

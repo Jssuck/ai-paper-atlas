@@ -1,0 +1,3 @@
+COMMAND: python3  independent_probe.py
+{"certificate_attacks": 512, "invalid_geometry": 9792, "invalid_inputs": 167, "passed": true, "positive": 1632, "scope": "finite independent exact tests, not general proof"}
+EXIT: 0

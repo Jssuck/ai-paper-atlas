@@ -1,0 +1,34 @@
+COMMAND: python3 -OO test_geometry.py
+test_all_positive (__main__.TestGeometry.test_all_positive) ... ok
+test_bad_point (__main__.TestGeometry.test_bad_point) ... ok
+test_bad_rational (__main__.TestGeometry.test_bad_rational) ... ok
+test_certificate_cycle (__main__.TestGeometry.test_certificate_cycle) ... ok
+test_equivalent_rational_input (__main__.TestGeometry.test_equivalent_rational_input) ... ok
+test_extra (__main__.TestGeometry.test_extra) ... ok
+test_false_conclusion (__main__.TestGeometry.test_false_conclusion) ... ok
+test_hand (__main__.TestGeometry.test_hand) ... ok
+test_input_binding (__main__.TestGeometry.test_input_binding) ... ok
+test_missing (__main__.TestGeometry.test_missing) ... ok
+test_negative_00 (__main__.TestGeometry.test_negative_00) ... ok
+test_negative_01 (__main__.TestGeometry.test_negative_01) ... ok
+test_negative_02 (__main__.TestGeometry.test_negative_02) ... ok
+test_negative_03 (__main__.TestGeometry.test_negative_03) ... ok
+test_negative_04 (__main__.TestGeometry.test_negative_04) ... ok
+test_negative_05 (__main__.TestGeometry.test_negative_05) ... ok
+test_negative_06 (__main__.TestGeometry.test_negative_06) ... ok
+test_negative_07 (__main__.TestGeometry.test_negative_07) ... ok
+test_negative_08 (__main__.TestGeometry.test_negative_08) ... ok
+test_negative_09 (__main__.TestGeometry.test_negative_09) ... ok
+test_nested_binding (__main__.TestGeometry.test_nested_binding) ... ok
+test_non_dict (__main__.TestGeometry.test_non_dict) ... ok
+test_reject_certificate_for_invalid_input (__main__.TestGeometry.test_reject_certificate_for_invalid_input) ... ok
+test_reorder_keys (__main__.TestGeometry.test_reorder_keys) ... ok
+test_reverse_both (__main__.TestGeometry.test_reverse_both) ... ok
+test_scalar_mutations (__main__.TestGeometry.test_scalar_mutations) ... ok
+test_tuple_certificate (__main__.TestGeometry.test_tuple_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.095s
+
+OK
+EXIT: 0
