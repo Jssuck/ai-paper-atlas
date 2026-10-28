@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-28T15:36:54.673761+00:00",
+  "runs": [
+    {
+      "command": "python -m unittest -v test_geometry",
+      "exit_code": 0
+    },
+    {
+      "command": "python -O -m unittest -v test_geometry",
+      "exit_code": 0
+    },
+    {
+      "command": "python -OO -m unittest -v test_geometry",
+      "exit_code": 0
+    },
+    {
+      "command": "python run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python create_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python draw_figure.py",
+      "exit_code": 0
+    }
+  ]
+}

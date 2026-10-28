@@ -1,0 +1,28 @@
+$ python -OO -m unittest -v test_geometry
+test_area (test_geometry.Tests.test_area) ... ok
+test_area_tamper (test_geometry.Tests.test_area_tamper) ... ok
+test_bad_schema (test_geometry.Tests.test_bad_schema) ... ok
+test_boolean_certificate (test_geometry.Tests.test_boolean_certificate) ... ok
+test_extra_key (test_geometry.Tests.test_extra_key) ... ok
+test_fraction_vertices (test_geometry.Tests.test_fraction_vertices) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_integer_certificate (test_geometry.Tests.test_integer_certificate) ... ok
+test_invalid_direct (test_geometry.Tests.test_invalid_direct) ... ok
+test_invalid_verify (test_geometry.Tests.test_invalid_verify) ... ok
+test_missing_key (test_geometry.Tests.test_missing_key) ... ok
+test_obtuse (test_geometry.Tests.test_obtuse) ... ok
+test_overlap_tamper (test_geometry.Tests.test_overlap_tamper) ... ok
+test_point_tamper (test_geometry.Tests.test_point_tamper) ... ok
+test_reference (test_geometry.Tests.test_reference) ... ok
+test_reverse (test_geometry.Tests.test_reverse) ... ok
+test_same_ray (test_geometry.Tests.test_same_ray) ... ok
+test_vertical (test_geometry.Tests.test_vertical) ... ok
+test_wrong_angle (test_geometry.Tests.test_wrong_angle) ... ok
+test_wrong_height (test_geometry.Tests.test_wrong_height) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.023s
+
+OK
+
+exit_code=0

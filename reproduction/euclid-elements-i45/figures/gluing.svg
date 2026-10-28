@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390"><rect width="1000" height="390" fill="white"/><g font-family="sans-serif" font-size="18">
+<text x="30" y="35">I.45: diagonal decomposition and shared-edge gluing</text>
+<polygon points="65.0,300.0 285.0,300.0 340.0,135.0 65.0,190.0" fill="#eef4fa" stroke="#21364d" stroke-width="2"/>
+<polygon points="65.0,300.0 285.0,300.0 65.0,190.0" fill="#d5e9f9" stroke="#21364d"/>
+<text x="57" y="324">A</text>
+<text x="277" y="324">B</text>
+<text x="332" y="123">C</text>
+<text x="57" y="178">D</text>
+<text x="100" y="250">4</text>
+<text x="220" y="205">7</text>
+<text x="55" y="355">[ABD] + [DBC] = 11</text>
+<polygon points="520.0,300.0 578.0,184.0 694.0,184.0 636.0,300.0" fill="#d5e9f9" stroke="#21364d" stroke-width="2"/>
+<polygon points="636.0,300.0 694.0,184.0 897.0,184.0 839.0,300.0" fill="#ffe3c0" stroke="#21364d" stroke-width="2"/>
+<text x="515.0" y="324.0">K</text>
+<text x="573.0" y="172.0">F</text>
+<text x="689.0" y="172.0">G</text>
+<text x="631.0" y="324.0">H</text>
+<text x="892.0" y="172.0">L</text>
+<text x="834.0" y="324.0">M</text>
+<text x="600" y="250">4</text>
+<text x="770" y="250">7</text>
+<text x="500" y="355">K-H-M and F-G-L; common edge HG</text>
+</g></svg>
