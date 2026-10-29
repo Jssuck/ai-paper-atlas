@@ -1,0 +1,37 @@
+[
+  {
+    "name": "tests-normal",
+    "command": "python -B test_geometry.py",
+    "exit_code": 0
+  },
+  {
+    "name": "tests-O",
+    "command": "python -B -O test_geometry.py",
+    "exit_code": 0
+  },
+  {
+    "name": "tests-OO",
+    "command": "python -B -OO test_geometry.py",
+    "exit_code": 0
+  },
+  {
+    "name": "examples",
+    "command": "python -B run_examples.py",
+    "exit_code": 0
+  },
+  {
+    "name": "notebook-create",
+    "command": "python -B create_notebook.py",
+    "exit_code": 0
+  },
+  {
+    "name": "notebook-execute",
+    "command": "python -B verify_notebook.py",
+    "exit_code": 0
+  },
+  {
+    "name": "figure",
+    "command": "python -B draw_figure.py",
+    "exit_code": 0
+  }
+]

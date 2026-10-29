@@ -1,0 +1,3 @@
+COMMAND: python -B draw_figure.py
+Wrote original two-panel SVG with equal coordinate scales.
+EXIT_CODE: 0

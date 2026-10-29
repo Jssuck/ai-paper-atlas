@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480"><rect width="1000" height="480" fill="white"/><style>text{font:16px sans-serif;fill:#172b4d}.title{font-size:20px;font-weight:bold}</style>
+<text class="title" x="45" y="35">Midpoint: EF perpendicular to AB</text><circle cx="260" cy="265" r="160" fill="#f0f6ff" stroke="#546e9c" stroke-width="2"/>
+<line x1="164" y1="137" x2="356" y2="137" stroke="#1565c0" stroke-width="4"/>
+<line x1="260" y1="265" x2="260" y2="137" stroke="#c74e25" stroke-width="3"/>
+<line x1="260" y1="265" x2="164" y2="137" stroke="#8590a0" stroke-width="2"/>
+<line x1="260" y1="265" x2="356" y2="137" stroke="#8590a0" stroke-width="2"/>
+<circle cx="260" cy="265" r="4" fill="#172b4d"/><text x="238" y="285">E</text>
+<circle cx="164" cy="137" r="4" fill="#172b4d"/><text x="142" y="129">A</text>
+<circle cx="356" cy="137" r="4" fill="#172b4d"/><text x="364" y="129">B</text>
+<circle cx="260" cy="137" r="4" fill="#172b4d"/><text x="265" y="125">F</text>
+<path d="M260,149 h12 v-12" fill="none" stroke="#c74e25" stroke-width="2"/>
+<text x="100" y="455">AF = FB = 3; EF = 4</text>
+<text class="title" x="525" y="35">Oblique: neither property holds</text><circle cx="740" cy="265" r="160" fill="#f0f6ff" stroke="#546e9c" stroke-width="2"/>
+<line x1="644" y1="137" x2="836" y2="137" stroke="#1565c0" stroke-width="4"/>
+<line x1="740" y1="265" x2="772" y2="137" stroke="#c74e25" stroke-width="3"/>
+<line x1="740" y1="265" x2="644" y2="137" stroke="#8590a0" stroke-width="2"/>
+<line x1="740" y1="265" x2="836" y2="137" stroke="#8590a0" stroke-width="2"/>
+<circle cx="740" cy="265" r="4" fill="#172b4d"/><text x="718" y="285">E</text>
+<circle cx="644" cy="137" r="4" fill="#172b4d"/><text x="622" y="129">A</text>
+<circle cx="836" cy="137" r="4" fill="#172b4d"/><text x="844" y="129">B</text>
+<circle cx="772" cy="137" r="4" fill="#172b4d"/><text x="777" y="125">F</text>
+<text x="580" y="455">AF = 4, FB = 2; EF dot AB = 6</text>
+</svg>

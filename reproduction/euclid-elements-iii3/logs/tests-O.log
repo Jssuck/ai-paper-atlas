@@ -1,0 +1,31 @@
+COMMAND: python -B -O test_geometry.py
+test_bad_certificate (__main__.Tests.test_bad_certificate) ... ok
+test_bool (__main__.Tests.test_bool) ... ok
+test_bool_integer_alias (__main__.Tests.test_bool_integer_alias) ... ok
+test_diameter (__main__.Tests.test_diameter) ... ok
+test_endpoint (__main__.Tests.test_endpoint) ... ok
+test_exterior (__main__.Tests.test_exterior) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_forged_field (__main__.Tests.test_forged_field) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_identity (__main__.Tests.test_identity) ... ok
+test_list_not_canonical (__main__.Tests.test_list_not_canonical) ... ok
+test_midpoint (__main__.Tests.test_midpoint) ... ok
+test_missing_extra (__main__.Tests.test_missing_extra) ... ok
+test_noncollinear (__main__.Tests.test_noncollinear) ... ok
+test_not_on_circle (__main__.Tests.test_not_on_circle) ... ok
+test_oblique (__main__.Tests.test_oblique) ... ok
+test_radius (__main__.Tests.test_radius) ... ok
+test_rational (__main__.Tests.test_rational) ... ok
+test_reverse (__main__.Tests.test_reverse) ... ok
+test_right (__main__.Tests.test_right) ... ok
+test_same_endpoints (__main__.Tests.test_same_endpoints) ... ok
+test_shape (__main__.Tests.test_shape) ... ok
+test_zero_other (__main__.Tests.test_zero_other) ... ok
+test_zero_vector (__main__.Tests.test_zero_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.101s
+
+OK
+EXIT_CODE: 0

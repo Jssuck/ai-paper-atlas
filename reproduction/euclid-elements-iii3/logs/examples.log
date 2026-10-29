@@ -1,0 +1,10 @@
+COMMAND: python -B run_examples.py
+midpoint AF2= 9 BF2= 9 dot= 0 branch= midpoint-and-right verified= True
+oblique AF2= 16 BF2= 4 dot= 6 branch= neither verified= True
+quarter AF2= 9/4 BF2= 81/4 dot= -9 branch= neither verified= True
+translated AF2= 36 BF2= 36 dot= 0 branch= midpoint-and-right verified= True
+diameter excluded counterexample: F=E=(0,0), A=(-5,0), B=(5,0), line direction=(1,1); bisects=True, perpendicular= False
+off-center counterexample: vertical x=1 cuts chord y=4 at F=(1,4); perpendicular= True AF2=16 BF2=4; line misses E=(0,0)
+zero-direction rejection: zero vector has no perpendicular direction
+grid: 900 midpoints: 60 non-midpoints: 840
+EXIT_CODE: 0
