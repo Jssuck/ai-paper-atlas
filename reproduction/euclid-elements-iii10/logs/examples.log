@@ -1,0 +1,9 @@
+$ python run_examples.py
+{"classification": {"count": 2, "direction": ["6", "0"], "discriminant": "2304", "distance_squared": "36", "foot": ["3", "0"], "kind": "secant", "radical_constant": "36"}, "example": "two-rational", "rational_points": [["3", "4"], ["3", "-4"]]}
+{"classification": {"count": 2, "direction": ["1", "0"], "discriminant": "3", "distance_squared": "1", "foot": ["1/2", "0"], "kind": "secant", "radical_constant": "1"}, "example": "two-irrational", "rational_points": null}
+{"classification": {"count": 1, "direction": ["2", "0"], "discriminant": "0", "distance_squared": "4", "foot": ["1", "0"], "kind": "tangent", "radical_constant": "4"}, "example": "external-tangent", "rational_points": [["1", "0"]]}
+{"classification": {"count": 1, "direction": ["3", "0"], "discriminant": "0", "distance_squared": "9", "foot": ["5", "0"], "kind": "tangent", "radical_constant": "30"}, "example": "internal-tangent", "rational_points": [["5", "0"]]}
+{"classification": {"count": 0, "direction": ["3", "0"], "discriminant": "-45", "distance_squared": "9", "foot": ["3/2", "0"], "kind": "disjoint", "radical_constant": "9"}, "example": "disjoint", "rational_points": []}
+{"classification": {"count": null, "kind": "coincident"}, "example": "coincident", "rational_points": null}
+
+returncode=0

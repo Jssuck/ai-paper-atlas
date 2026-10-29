@@ -1,0 +1,14 @@
+$ python -OO technical_check.py
+{
+  "result": "PASS",
+  "counts": {
+    "distance_oracle_cases": 10404,
+    "rational_points_backsubstituted": 1496,
+    "constructed_common_chords": 441,
+    "three_point_permutations": 6,
+    "invalid_inputs": 22
+  },
+  "scope": "finite independent checks; not a general proof"
+}
+
+returncode=0

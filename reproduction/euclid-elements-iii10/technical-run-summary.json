@@ -1,0 +1,26 @@
+[
+  {
+    "command": "python technical_check.py",
+    "returncode": 0
+  },
+  {
+    "command": "python verify_notebook.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -O technical_check.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -O verify_notebook.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO technical_check.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO verify_notebook.py",
+    "returncode": 0
+  }
+]

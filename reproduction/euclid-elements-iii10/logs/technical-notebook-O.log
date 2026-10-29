@@ -1,0 +1,4 @@
+$ python -O verify_notebook.py
+PASS: 5 cells replayed read-only via compile/exec, outputs identical; not kernel.
+
+returncode=0

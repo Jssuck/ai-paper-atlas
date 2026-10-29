@@ -1,0 +1,29 @@
+$ python -OO -m unittest -v test_geometry
+test_bad_numbers (test_geometry.Tests.test_bad_numbers) ... ok
+test_bad_shapes (test_geometry.Tests.test_bad_shapes) ... ok
+test_coincident (test_geometry.Tests.test_coincident) ... ok
+test_collinear (test_geometry.Tests.test_collinear) ... ok
+test_concentric (test_geometry.Tests.test_concentric) ... ok
+test_duplicates (test_geometry.Tests.test_duplicates) ... ok
+test_external_disjoint (test_geometry.Tests.test_external_disjoint) ... ok
+test_external_tangent (test_geometry.Tests.test_external_tangent) ... ok
+test_false_common (test_geometry.Tests.test_false_common) ... ok
+test_family_600 (test_geometry.Tests.test_family_600) ... ok
+test_internal_disjoint (test_geometry.Tests.test_internal_disjoint) ... ok
+test_internal_tangent (test_geometry.Tests.test_internal_tangent) ... ok
+test_irrational (test_geometry.Tests.test_irrational) ... ok
+test_near_tangent (test_geometry.Tests.test_near_tangent) ... ok
+test_nonpositive (test_geometry.Tests.test_nonpositive) ... ok
+test_small_scale (test_geometry.Tests.test_small_scale) ... ok
+test_symmetry (test_geometry.Tests.test_symmetry) ... ok
+test_three_points (test_geometry.Tests.test_three_points) ... ok
+test_two_points (test_geometry.Tests.test_two_points) ... ok
+test_vertical (test_geometry.Tests.test_vertical) ... ok
+test_wrong_point_count (test_geometry.Tests.test_wrong_point_count) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.036s
+
+OK
+
+returncode=0
