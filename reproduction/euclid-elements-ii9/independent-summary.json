@@ -1,0 +1,65 @@
+{
+  "executed_at_utc": "2026-10-29T03:43:48.023143+00:00",
+  "commands": [
+    {
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-normal.log",
+      "result": {
+        "counts": {
+          "certificates": 240,
+          "invalid_rejections": 84,
+          "normalized_cases": 480,
+          "right_angles": 1440,
+          "route_comparisons": 960,
+          "square_comparisons": 2640,
+          "tamper_rejections": 8880
+        },
+        "external_certificate_generation": "independent intersection and affine map; no construct call",
+        "limits": "finite rational checks, not general proof; no Jupyter kernel",
+        "mode": "normal",
+        "status": "passed"
+      }
+    },
+    {
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-O.log",
+      "result": {
+        "counts": {
+          "certificates": 240,
+          "invalid_rejections": 84,
+          "normalized_cases": 480,
+          "right_angles": 1440,
+          "route_comparisons": 960,
+          "square_comparisons": 2640,
+          "tamper_rejections": 8880
+        },
+        "external_certificate_generation": "independent intersection and affine map; no construct call",
+        "limits": "finite rational checks, not general proof; no Jupyter kernel",
+        "mode": "-O",
+        "status": "passed"
+      }
+    },
+    {
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-OO.log",
+      "result": {
+        "counts": {
+          "certificates": 240,
+          "invalid_rejections": 84,
+          "normalized_cases": 480,
+          "right_angles": 1440,
+          "route_comparisons": 960,
+          "square_comparisons": 2640,
+          "tamper_rejections": 8880
+        },
+        "external_certificate_generation": "independent intersection and affine map; no construct call",
+        "limits": "finite rational checks, not general proof; no Jupyter kernel",
+        "mode": "-OO",
+        "status": "passed"
+      }
+    }
+  ]
+}

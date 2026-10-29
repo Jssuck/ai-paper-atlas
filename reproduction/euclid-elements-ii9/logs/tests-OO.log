@@ -1,0 +1,28 @@
+$ python -OO -m unittest test_geometry -v
+test_bad_certificate (test_geometry.GeometryTests.test_bad_certificate) ... ok
+test_bad_coordinate (test_geometry.GeometryTests.test_bad_coordinate) ... ok
+test_basis (test_geometry.GeometryTests.test_basis) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_default (test_geometry.GeometryTests.test_default) ... ok
+test_endpoint (test_geometry.GeometryTests.test_endpoint) ... ok
+test_exterior (test_geometry.GeometryTests.test_exterior) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_labels (test_geometry.GeometryTests.test_labels) ... ok
+test_left_normalization (test_geometry.GeometryTests.test_left_normalization) ... ok
+test_midpoint (test_geometry.GeometryTests.test_midpoint) ... ok
+test_negative_h (test_geometry.GeometryTests.test_negative_h) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_rotation (test_geometry.GeometryTests.test_rotation) ... ok
+test_routes (test_geometry.GeometryTests.test_routes) ... ok
+test_scale (test_geometry.GeometryTests.test_scale) ... ok
+test_tamper (test_geometry.GeometryTests.test_tamper) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.024s
+
+OK
+
+exit_code=0

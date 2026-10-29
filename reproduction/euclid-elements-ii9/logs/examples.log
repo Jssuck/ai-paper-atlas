@@ -1,0 +1,7 @@
+$ python run_examples.py
+h=5 signed displacement=2 swapped=False AD=7 DB=3 squared sum=58 both routes=58
+h=5 signed displacement=-2 swapped=True AD=3 DB=7 squared sum=58 both routes=58
+h=5/2 signed displacement=1/3 swapped=False AD=17/6 DB=13/6 squared sum=229/18 both routes=229/18
+h=8 signed displacement=7 swapped=False AD=15 DB=1 squared sum=226 both routes=226
+
+exit_code=0
