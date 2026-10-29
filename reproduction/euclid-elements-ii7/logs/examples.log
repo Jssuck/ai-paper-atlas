@@ -1,0 +1,8 @@
+$ python run_examples.py
+{"a": "3", "b": "2", "areas": {"AG": "6", "GE": "6", "CF": "4", "DG": "9", "AF": "10", "CE": "10", "gnomon": "16", "whole": "25"}}
+{"a": "2", "b": "3", "areas": {"AG": "6", "GE": "6", "CF": "9", "DG": "4", "AF": "15", "CE": "15", "gnomon": "21", "whole": "25"}}
+{"a": "2/3", "b": "5/7", "areas": {"AG": "10/21", "GE": "10/21", "CF": "25/49", "DG": "4/9", "AF": "145/147", "CE": "145/147", "gnomon": "215/147", "whole": "841/441"}}
+{"a": "3", "b": "2", "areas": {"AG": "150", "GE": "150", "CF": "100", "DG": "225", "AF": "250", "CE": "250", "gnomon": "400", "whole": "625"}}
+4 examples passed; finite arithmetic audits do not prove the general theorem
+
+exit_code=0

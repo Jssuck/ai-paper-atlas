@@ -1,0 +1,28 @@
+$ python -OO -m unittest test_geometry -v
+test_bad_point (test_geometry.Tests.test_bad_point) ... ok
+test_bool (test_geometry.Tests.test_bool) ... ok
+test_bool_certificate (test_geometry.Tests.test_bool_certificate) ... ok
+test_complements (test_geometry.Tests.test_complements) ... ok
+test_default (test_geometry.Tests.test_default) ... ok
+test_equal_cut (test_geometry.Tests.test_equal_cut) ... ok
+test_float (test_geometry.Tests.test_float) ... ok
+test_fraction (test_geometry.Tests.test_fraction) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_negative (test_geometry.Tests.test_negative) ... ok
+test_overlap (test_geometry.Tests.test_overlap) ... ok
+test_reflected (test_geometry.Tests.test_reflected) ... ok
+test_rotated_scaled (test_geometry.Tests.test_rotated_scaled) ... ok
+test_schema (test_geometry.Tests.test_schema) ... ok
+test_skew_basis (test_geometry.Tests.test_skew_basis) ... ok
+test_tamper (test_geometry.Tests.test_tamper) ... ok
+test_unequal_basis (test_geometry.Tests.test_unequal_basis) ... ok
+test_zero (test_geometry.Tests.test_zero) ... ok
+test_zero_basis (test_geometry.Tests.test_zero_basis) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.023s
+
+OK
+
+exit_code=0

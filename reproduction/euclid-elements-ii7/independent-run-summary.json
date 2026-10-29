@@ -1,0 +1,53 @@
+{
+  "executed_at_utc": "2026-10-29T01:42:29.069601+00:00",
+  "runs": [
+    {
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-normal.log",
+      "result": {
+        "status": "passed",
+        "counts": {
+          "external_certificates": 240,
+          "area_comparisons": 1920,
+          "tampering_rejected": 8880,
+          "invalid_inputs_rejected": 83,
+          "overlap_checks": 720
+        },
+        "limits": "Finite rational audit; not a general proof or independently axiomatized geometry system."
+      }
+    },
+    {
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-O.log",
+      "result": {
+        "status": "passed",
+        "counts": {
+          "external_certificates": 240,
+          "area_comparisons": 1920,
+          "tampering_rejected": 8880,
+          "invalid_inputs_rejected": 83,
+          "overlap_checks": 720
+        },
+        "limits": "Finite rational audit; not a general proof or independently axiomatized geometry system."
+      }
+    },
+    {
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-OO.log",
+      "result": {
+        "status": "passed",
+        "counts": {
+          "external_certificates": 240,
+          "area_comparisons": 1920,
+          "tampering_rejected": 8880,
+          "invalid_inputs_rejected": 83,
+          "overlap_checks": 720
+        },
+        "limits": "Finite rational audit; not a general proof or independently axiomatized geometry system."
+      }
+    }
+  ]
+}

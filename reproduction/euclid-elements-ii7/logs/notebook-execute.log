@@ -1,0 +1,22 @@
+$ python create_notebook.py
+cell 1:
+{'A': (Fraction(0, 1), Fraction(0, 1)), 'B': (Fraction(5, 1), Fraction(0, 1)), 'C': (Fraction(3, 1), Fraction(0, 1)), 'D': (Fraction(0, 1), Fraction(5, 1)), 'E': (Fraction(5, 1), Fraction(5, 1)), 'F': (Fraction(5, 1), Fraction(2, 1)), 'G': (Fraction(3, 1), Fraction(2, 1)), 'H': (Fraction(0, 1), Fraction(2, 1)), 'N': (Fraction(3, 1), Fraction(5, 1))}
+
+cell 2:
+AG= 6 GE= 6 CF= 4
+AF= 10 CE= 10
+
+cell 3:
+sum 20 union 16 overlap 4
+whole+CF 29 2AF+DG 29
+
+cell 4:
+{'AG': '10/21', 'GE': '10/21', 'CF': '25/49', 'DG': '4/9', 'AF': '145/147', 'CE': '145/147', 'gnomon': '215/147', 'whole': '841/441'}
+scaled whole 625
+
+cell 5:
+rejected: construction differs
+
+5 code cells executed with compile/exec; no kernel started
+
+exit_code=0

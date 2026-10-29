@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "counts": {
+    "external_certificates": 240,
+    "area_comparisons": 1920,
+    "tampering_rejected": 8880,
+    "invalid_inputs_rejected": 83,
+    "overlap_checks": 720
+  },
+  "limits": "Finite rational audit; not a general proof or independently axiomatized geometry system."
+}

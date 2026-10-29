@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》II.6：把线段向外延长，为什么仍能补成平方](papers/ancient/euclid-elements-ii6.zh-CN.md)，重建曲尺形面积转移、半段平方与外延二次问题，附精确实跑及独立双审。
+最新补读：[《几何原本》II.7：两块矩形重叠，为什么要多算一个平方](papers/ancient/euclid-elements-ii7.zh-CN.md)，重建余形等积、重叠计数与差平方关系，附精确实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -192,6 +192,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.4精读](papers/ancient/euclid-elements-ii4.zh-CN.md) | AI推理前史补读：小平方资格、对角线余形、四区覆盖与传本推论边界 | 深读v1 · 完整命题与相关评论、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.5精读](papers/ancient/euclid-elements-ii5.zh-CN.md) | AI推理前史补读：中点参照、曲尺形等积转移、平方差与输入边界 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.6精读](papers/ancient/euclid-elements-ii6.zh-CN.md) | AI推理前史补读：外延线段、曲尺形转移、补方与二次构造的对象身份 | 深读v1 · 完整命题与评注分层、精确复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.7精读](papers/ancient/euclid-elements-ii7.zh-CN.md) | AI推理前史补读：重叠条带、面积重数、平方资格与区域别名 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1640,3 +1641,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## Euclid《几何原本》II.6 补读附件
 
 [中文深读](papers/ancient/euclid-elements-ii6.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii6/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii6/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii6/README.md)。完整II.6及Heath评注，重建AL=CH=HF、同加CM的曲尺形转移、DM=DB与LG正方形资格；校对Joyce Guide线段名并区分二次构造和Pappus逆向的证据层级。20单测三模式（64构形网格）；独立每模式240外部证书、2160面积对照、8400篡改和83非法输入拒绝。Notebook五格标准库compile/exec及回放，非kernel；有限实跑不替代一般证明。仅本单元完成，既有暂缓项不变。
+
+## Euclid《几何原本》II.7 补读附件
+
+[中文深读](papers/ancient/euclid-elements-ii7.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii7/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii7/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii7/README.md)。完整II.7及Heath差平方评论，重建AG=GE、同加CF、两条带面积和的重叠补偿与DG平方资格；区分CF/BG区域别名、等分合法和退化边界。20单测三模式（64构形网格）、四算例；独立每模式240证书、1920面积对照、720重叠/并集/结论核对、8880篡改及83非法拒绝。Notebook五格标准库compile/exec及回放，非kernel。有限实跑不替代一般证明。仅本单元完成，既有暂缓项不变。
