@@ -1,0 +1,150 @@
+{
+  "examples": {
+    "external": {
+      "schema": "euclid-iii6-rational-v1",
+      "center1": [
+        "0",
+        "0"
+      ],
+      "radius1": "2",
+      "center2": [
+        "5",
+        "0"
+      ],
+      "radius2": "3",
+      "classification": "external_tangent",
+      "center_distance_squared": "25",
+      "same_center": false,
+      "contact": [
+        "2",
+        "0"
+      ],
+      "contact_distance1_squared": "4",
+      "contact_distance2_squared": "9",
+      "radical_normal": [
+        "5",
+        "0"
+      ],
+      "radical_offset": "10",
+      "unique_contact": true
+    },
+    "internal": {
+      "schema": "euclid-iii6-rational-v1",
+      "center1": [
+        "0",
+        "0"
+      ],
+      "radius1": "5",
+      "center2": [
+        "3",
+        "0"
+      ],
+      "radius2": "2",
+      "classification": "internal_tangent",
+      "center_distance_squared": "9",
+      "same_center": false,
+      "contact": [
+        "5",
+        "0"
+      ],
+      "contact_distance1_squared": "25",
+      "contact_distance2_squared": "4",
+      "radical_normal": [
+        "3",
+        "0"
+      ],
+      "radical_offset": "15",
+      "unique_contact": true
+    },
+    "internal_swapped": {
+      "schema": "euclid-iii6-rational-v1",
+      "center1": [
+        "3",
+        "0"
+      ],
+      "radius1": "2",
+      "center2": [
+        "0",
+        "0"
+      ],
+      "radius2": "5",
+      "classification": "internal_tangent",
+      "center_distance_squared": "9",
+      "same_center": false,
+      "contact": [
+        "5",
+        "0"
+      ],
+      "contact_distance1_squared": "4",
+      "contact_distance2_squared": "25",
+      "radical_normal": [
+        "-3",
+        "0"
+      ],
+      "radical_offset": "-15",
+      "unique_contact": true
+    },
+    "oblique_external": {
+      "schema": "euclid-iii6-rational-v1",
+      "center1": [
+        "1",
+        "-2"
+      ],
+      "radius1": "2",
+      "center2": [
+        "14/5",
+        "2/5"
+      ],
+      "radius2": "1",
+      "classification": "external_tangent",
+      "center_distance_squared": "9",
+      "same_center": false,
+      "contact": [
+        "11/5",
+        "-2/5"
+      ],
+      "contact_distance1_squared": "4",
+      "contact_distance2_squared": "1",
+      "radical_normal": [
+        "9/5",
+        "12/5"
+      ],
+      "radical_offset": "3",
+      "unique_contact": true
+    },
+    "oblique_internal": {
+      "schema": "euclid-iii6-rational-v1",
+      "center1": [
+        "1",
+        "-2"
+      ],
+      "radius1": "5",
+      "center2": [
+        "14/5",
+        "2/5"
+      ],
+      "radius2": "2",
+      "classification": "internal_tangent",
+      "center_distance_squared": "9",
+      "same_center": false,
+      "contact": [
+        "4",
+        "2"
+      ],
+      "contact_distance1_squared": "25",
+      "contact_distance2_squared": "4",
+      "radical_normal": [
+        "9/5",
+        "12/5"
+      ],
+      "radical_offset": "12",
+      "unique_contact": true
+    }
+  },
+  "controls": {
+    "crossing": "two_intersections",
+    "coincident": "coincident",
+    "concentric": "concentric_disjoint"
+  },
+  "grid_count": 600
+}

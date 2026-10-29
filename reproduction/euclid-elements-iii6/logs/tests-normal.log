@@ -1,0 +1,29 @@
+test_bad_point (test_geometry.TestGeometry.test_bad_point) ... ok
+test_bad_rational (test_geometry.TestGeometry.test_bad_rational) ... ok
+test_bool (test_geometry.TestGeometry.test_bool) ... ok
+test_bool_integer (test_geometry.TestGeometry.test_bool_integer) ... ok
+test_coincident (test_geometry.TestGeometry.test_coincident) ... ok
+test_concentric (test_geometry.TestGeometry.test_concentric) ... ok
+test_containment (test_geometry.TestGeometry.test_containment) ... ok
+test_crossing (test_geometry.TestGeometry.test_crossing) ... ok
+test_external (test_geometry.TestGeometry.test_external) ... ok
+test_external_disjoint (test_geometry.TestGeometry.test_external_disjoint) ... ok
+test_extra_missing (test_geometry.TestGeometry.test_extra_missing) ... ok
+test_float (test_geometry.TestGeometry.test_float) ... ok
+test_grid (test_geometry.TestGeometry.test_grid) ... ok
+test_internal (test_geometry.TestGeometry.test_internal) ... ok
+test_json_roundtrip (test_geometry.TestGeometry.test_json_roundtrip) ... ok
+test_malformed (test_geometry.TestGeometry.test_malformed) ... ok
+test_negative_radius (test_geometry.TestGeometry.test_negative_radius) ... ok
+test_oblique_external (test_geometry.TestGeometry.test_oblique_external) ... ok
+test_oblique_internal (test_geometry.TestGeometry.test_oblique_internal) ... ok
+test_radical_line (test_geometry.TestGeometry.test_radical_line) ... ok
+test_reject_non_tangent (test_geometry.TestGeometry.test_reject_non_tangent) ... ok
+test_swapped (test_geometry.TestGeometry.test_swapped) ... ok
+test_tamper_each_field (test_geometry.TestGeometry.test_tamper_each_field) ... ok
+test_zero_radius (test_geometry.TestGeometry.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.115s
+
+OK
