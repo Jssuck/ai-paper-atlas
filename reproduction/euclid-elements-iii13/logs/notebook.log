@@ -1,0 +1,23 @@
+$ python create_notebook.py
+executed cell 1
+outer radius: 5
+executed cell 2
+{'kind': 'external', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+executed cell 3
+{'kind': 'internal', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+True
+executed cell 4
+{'midpoint': (Fraction(3, 1), Fraction(0, 1)), 'strict_squared_gap': Fraction(16, 1)}
+proper containment: False
+executed cell 5
+external {'kind': 'external', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+internal {'kind': 'internal', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+vertical {'kind': 'external', 'point': (Fraction(0, 1), Fraction(5, 1)), 'unique_candidate': (Fraction(0, 1), Fraction(5, 1))}
+two intersections midpoint {'midpoint': (Fraction(3, 1), Fraction(0, 1)), 'strict_squared_gap': Fraction(16, 1)}
+crossing external rejected: interiors overlap
+crossing internal rejected: proper containment required
+coincident rejected: proper containment required
+coincident distinct common points: True True
+5 code cells executed; not a Jupyter kernel
+
+returncode=0

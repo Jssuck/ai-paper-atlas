@@ -1,0 +1,37 @@
+$ python -OO -m unittest -v test_geometry
+grid: 432 contact configurations, 864 circle-order certificates
+test_bad_circle (test_geometry.TestGeometry.test_bad_circle) ... ok
+test_bool_coordinate (test_geometry.TestGeometry.test_bool_coordinate) ... ok
+test_bool_radius (test_geometry.TestGeometry.test_bool_radius) ... ok
+test_chord (test_geometry.TestGeometry.test_chord) ... ok
+test_chord_coincident_valid (test_geometry.TestGeometry.test_chord_coincident_valid) ... ok
+test_coincident (test_geometry.TestGeometry.test_coincident) ... ok
+test_coincident_rejected (test_geometry.TestGeometry.test_coincident_rejected) ... ok
+test_concentric (test_geometry.TestGeometry.test_concentric) ... ok
+test_dimension (test_geometry.TestGeometry.test_dimension) ... ok
+test_duplicate_chord (test_geometry.TestGeometry.test_duplicate_chord) ... ok
+test_equal_external (test_geometry.TestGeometry.test_equal_external) ... ok
+test_external (test_geometry.TestGeometry.test_external) ... ok
+test_float_radius (test_geometry.TestGeometry.test_float_radius) ... ok
+test_grid (test_geometry.TestGeometry.test_grid) ... ok
+test_internal (test_geometry.TestGeometry.test_internal) ... ok
+test_intersections (test_geometry.TestGeometry.test_intersections) ... ok
+test_kind (test_geometry.TestGeometry.test_kind) ... ok
+test_negative (test_geometry.TestGeometry.test_negative) ... ok
+test_separate (test_geometry.TestGeometry.test_separate) ... ok
+test_strict_containment (test_geometry.TestGeometry.test_strict_containment) ... ok
+test_swap (test_geometry.TestGeometry.test_swap) ... ok
+test_tiny_gap (test_geometry.TestGeometry.test_tiny_gap) ... ok
+test_tiny_overlap (test_geometry.TestGeometry.test_tiny_overlap) ... ok
+test_two_points_not_external (test_geometry.TestGeometry.test_two_points_not_external) ... ok
+test_two_points_not_internal (test_geometry.TestGeometry.test_two_points_not_internal) ... ok
+test_wrong_chord (test_geometry.TestGeometry.test_wrong_chord) ... ok
+test_wrong_witness (test_geometry.TestGeometry.test_wrong_witness) ... ok
+test_zero (test_geometry.TestGeometry.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.061s
+
+OK
+
+returncode=0

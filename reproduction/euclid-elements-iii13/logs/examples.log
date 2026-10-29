@@ -1,0 +1,11 @@
+$ python run_examples.py
+external {'kind': 'external', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+internal {'kind': 'internal', 'point': (Fraction(5, 1), Fraction(0, 1)), 'unique_candidate': (Fraction(5, 1), Fraction(0, 1))}
+vertical {'kind': 'external', 'point': (Fraction(0, 1), Fraction(5, 1)), 'unique_candidate': (Fraction(0, 1), Fraction(5, 1))}
+two intersections midpoint {'midpoint': (Fraction(3, 1), Fraction(0, 1)), 'strict_squared_gap': Fraction(16, 1)}
+crossing external rejected: interiors overlap
+crossing internal rejected: proper containment required
+coincident rejected: proper containment required
+coincident distinct common points: True True
+
+returncode=0

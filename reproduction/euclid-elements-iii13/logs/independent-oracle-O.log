@@ -1,0 +1,7 @@
+command: python -O independent_check.py
+returncode: 0
+stdout:
+{"candidate_tests": 351360, "chord_checks": 128, "circle_pairs": 3904, "contact_order_checks": 240, "invalid_inputs": 15, "tamper_rejections": 720}
+independent finite exact audit passed
+
+stderr:
