@@ -1,0 +1,38 @@
+$ python -O -m unittest -v test_geometry
+grid: 405 chords; 18225 ordered comparisons; 36 diameters
+test_bad_point (test_geometry.GeometryTests.test_bad_point) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_bool_tamper (test_geometry.GeometryTests.test_bool_tamper) ... ok
+test_diameter_bound (test_geometry.GeometryTests.test_diameter_bound) ... ok
+test_diameter_strict (test_geometry.GeometryTests.test_diameter_strict) ... ok
+test_diameters_tie (test_geometry.GeometryTests.test_diameters_tie) ... ok
+test_different_radii_counterexample (test_geometry.GeometryTests.test_different_radii_counterexample) ... ok
+test_equal_endpoints (test_geometry.GeometryTests.test_equal_endpoints) ... ok
+test_equal_tie (test_geometry.GeometryTests.test_equal_tie) ... ok
+test_extra (test_geometry.GeometryTests.test_extra) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_foot (test_geometry.GeometryTests.test_foot) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_longer_nearer (test_geometry.GeometryTests.test_longer_nearer) ... ok
+test_midpoint (test_geometry.GeometryTests.test_midpoint) ... ok
+test_missing (test_geometry.GeometryTests.test_missing) ... ok
+test_negative_radius (test_geometry.GeometryTests.test_negative_radius) ... ok
+test_off_circle (test_geometry.GeometryTests.test_off_circle) ... ok
+test_pythagoras (test_geometry.GeometryTests.test_pythagoras) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_reverse (test_geometry.GeometryTests.test_reverse) ... ok
+test_scaling (test_geometry.GeometryTests.test_scaling) ... ok
+test_shorter_farther (test_geometry.GeometryTests.test_shorter_farther) ... ok
+test_tamper (test_geometry.GeometryTests.test_tamper) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_validate (test_geometry.GeometryTests.test_validate) ... ok
+test_zero_distance (test_geometry.GeometryTests.test_zero_distance) ... ok
+test_zero_radius (test_geometry.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.091s
+
+OK
+
+exit_code=0

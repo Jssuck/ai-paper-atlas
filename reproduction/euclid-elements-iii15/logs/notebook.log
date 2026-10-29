@@ -1,0 +1,23 @@
+$ python create_notebook.py
+executed cell 1
+length squared: 64 distance squared: 9
+executed cell 2
+foot: (Fraction(0, 1), Fraction(3, 1)) parameter: 1/2
+half squared + distance squared: 25
+executed cell 3
+1 -1 True
+-1 1 True
+executed cell 4
+100 100 0 True
+0
+executed cell 5
+longer-nearer length order 1 distance order -1 reversal True
+diameter length order 1 distance order -1 reversal True
+equal-diameters length order 0 distance order 0 reversal True
+opposite-sides length order 1 distance order -1 reversal True
+different-radii counterexample: 64 4 distance squares 9 0
+rejected: distinct chord endpoints required
+rejected: both endpoints must lie on circle
+5 code cells executed; not a Jupyter kernel
+
+returncode=0

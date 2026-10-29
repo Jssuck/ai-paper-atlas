@@ -1,0 +1,5 @@
+$ python -OO independent_check.py
+{"angle_configurations": 9, "chords": 594, "comparisons": 39204, "invalid_rejections": 15, "nearest_decompositions": 2970, "reversals": 594, "tamper_rejections": 7128}
+PASS: finite independent oracle, not a general proof
+
+exit_code=0

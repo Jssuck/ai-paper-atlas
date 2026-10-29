@@ -1,0 +1,10 @@
+$ python run_examples.py
+longer-nearer length order 1 distance order -1 reversal True
+diameter length order 1 distance order -1 reversal True
+equal-diameters length order 0 distance order 0 reversal True
+opposite-sides length order 1 distance order -1 reversal True
+different-radii counterexample: 64 4 distance squares 9 0
+rejected: distinct chord endpoints required
+rejected: both endpoints must lie on circle
+
+exit_code=0
