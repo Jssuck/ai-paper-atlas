@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="570" viewBox="0 0 760 570">
+<rect width="760" height="570" fill="#fafcff"/><g font-family="sans-serif" fill="#17324d">
+<text x="36" y="36" font-size="23">III.7 — distances from an interior point</text>
+<text x="36" y="65" font-size="15">O=(0,0), r=5, F=(2,0), P=(3,4), H=(3,-4)</text>
+<circle cx="310" cy="300" r="200" fill="#e9f1fa" stroke="#2c5b83" stroke-width="2"/>
+<path d="M110 300H510" stroke="#777" stroke-width="2"/>
+<path d="M390 300L430 140 M390 300L430 460" stroke="#b05a25" stroke-width="3"/>
+<path d="M430 140V460" stroke="#8c9fac" stroke-dasharray="5 5"/>
+<path d="M310 300L430 140" stroke="#5e8b6e" stroke-width="2"/>
+<g fill="#17324d"><circle cx="310" cy="300" r="4"/><circle cx="390" cy="300" r="4"/><circle cx="110" cy="300" r="4"/><circle cx="510" cy="300" r="4"/><circle cx="430" cy="140" r="4"/><circle cx="430" cy="460" r="4"/></g>
+<g font-size="19"><text x="288" y="325">O</text><text x="375" y="325">F</text><text x="82" y="306">A</text><text x="520" y="306">D</text><text x="437" y="134">P</text><text x="437" y="478">H</text></g>
+<g font-size="17"><text x="550" y="180">FD² = 9</text><text x="550" y="212">FP² = FH² = 17</text><text x="550" y="244">FA² = 49</text><text x="550" y="350">9 &lt; 17 &lt; 49</text></g>
+<text x="36" y="545" font-size="14">Original teaching diagram. Equal scale; not a reproduction of the historical figure.</text>
+</g></svg>

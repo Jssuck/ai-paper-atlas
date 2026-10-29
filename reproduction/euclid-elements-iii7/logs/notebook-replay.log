@@ -1,0 +1,15 @@
+cell 1: passed
+['2', '0'] ['5', '0'] ['-5', '0']
+9 17 49
+cell 2: passed
+['3', '-4'] 17
+8 32
+cell 3: passed
+{'projection_q_minus_p': '6', 'distance_p_squared_minus_q_squared': '24', 'p_longer': True}
+cell 4: passed
+0 require 0 < offset < radius
+5 require 0 < offset < radius
+6 require 0 < offset < radius
+cell 5: passed
+finite configurations 504
+integer pretending to be boolean False

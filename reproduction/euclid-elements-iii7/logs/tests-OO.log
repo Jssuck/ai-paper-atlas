@@ -1,0 +1,29 @@
+test_boundary (test_geometry.GeometryTests.test_boundary) ... ok
+test_center (test_geometry.GeometryTests.test_center) ... ok
+test_compare (test_geometry.GeometryTests.test_compare) ... ok
+test_compare_reverse (test_geometry.GeometryTests.test_compare_reverse) ... ok
+test_duplicate (test_geometry.GeometryTests.test_duplicate) ... ok
+test_examples (test_geometry.GeometryTests.test_examples) ... ok
+test_extrema (test_geometry.GeometryTests.test_extrema) ... ok
+test_extreme_rejected (test_geometry.GeometryTests.test_extreme_rejected) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_identity (test_geometry.GeometryTests.test_identity) ... ok
+test_inexact (test_geometry.GeometryTests.test_inexact) ... ok
+test_malformed (test_geometry.GeometryTests.test_malformed) ... ok
+test_margins (test_geometry.GeometryTests.test_margins) ... ok
+test_mirror (test_geometry.GeometryTests.test_mirror) ... ok
+test_mirror_twice (test_geometry.GeometryTests.test_mirror_twice) ... ok
+test_negative_radius (test_geometry.GeometryTests.test_negative_radius) ... ok
+test_nonunit (test_geometry.GeometryTests.test_nonunit) ... ok
+test_off_circle (test_geometry.GeometryTests.test_off_circle) ... ok
+test_opposite_semicircle (test_geometry.GeometryTests.test_opposite_semicircle) ... ok
+test_outside (test_geometry.GeometryTests.test_outside) ... ok
+test_simple (test_geometry.GeometryTests.test_simple) ... ok
+test_tamper (test_geometry.GeometryTests.test_tamper) ... ok
+test_type_sensitive (test_geometry.GeometryTests.test_type_sensitive) ... ok
+test_zero_axis (test_geometry.GeometryTests.test_zero_axis) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.145s
+
+OK

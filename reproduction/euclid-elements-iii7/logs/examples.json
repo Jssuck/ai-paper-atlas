@@ -1,0 +1,225 @@
+{
+  "certificates": {
+    "simple": {
+      "schema": 1,
+      "input": {
+        "center": [
+          "0",
+          "0"
+        ],
+        "radius": "5",
+        "offset": "2",
+        "axis": [
+          "1",
+          "0"
+        ],
+        "point": [
+          "3",
+          "4"
+        ]
+      },
+      "interior_point": [
+        "2",
+        "0"
+      ],
+      "farthest": [
+        "-5",
+        "0"
+      ],
+      "nearest": [
+        "5",
+        "0"
+      ],
+      "mirror": [
+        "3",
+        "-4"
+      ],
+      "projection": "3",
+      "distance_squared": "17",
+      "mirror_distance_squared": "17",
+      "minimum_squared": "9",
+      "maximum_squared": "49",
+      "above_minimum": "8",
+      "below_maximum": "32",
+      "distinct_mirror": true
+    },
+    "upper": {
+      "schema": 1,
+      "input": {
+        "center": [
+          "0",
+          "0"
+        ],
+        "radius": "5",
+        "offset": "2",
+        "axis": [
+          "1",
+          "0"
+        ],
+        "point": [
+          "-3",
+          "4"
+        ]
+      },
+      "interior_point": [
+        "2",
+        "0"
+      ],
+      "farthest": [
+        "-5",
+        "0"
+      ],
+      "nearest": [
+        "5",
+        "0"
+      ],
+      "mirror": [
+        "-3",
+        "-4"
+      ],
+      "projection": "-3",
+      "distance_squared": "41",
+      "mirror_distance_squared": "41",
+      "minimum_squared": "9",
+      "maximum_squared": "49",
+      "above_minimum": "32",
+      "below_maximum": "8",
+      "distinct_mirror": true
+    },
+    "lower": {
+      "schema": 1,
+      "input": {
+        "center": [
+          "0",
+          "0"
+        ],
+        "radius": "5",
+        "offset": "2",
+        "axis": [
+          "1",
+          "0"
+        ],
+        "point": [
+          "3",
+          "-4"
+        ]
+      },
+      "interior_point": [
+        "2",
+        "0"
+      ],
+      "farthest": [
+        "-5",
+        "0"
+      ],
+      "nearest": [
+        "5",
+        "0"
+      ],
+      "mirror": [
+        "3",
+        "4"
+      ],
+      "projection": "3",
+      "distance_squared": "17",
+      "mirror_distance_squared": "17",
+      "minimum_squared": "9",
+      "maximum_squared": "49",
+      "above_minimum": "8",
+      "below_maximum": "32",
+      "distinct_mirror": true
+    },
+    "near_center": {
+      "schema": 1,
+      "input": {
+        "center": [
+          "0",
+          "0"
+        ],
+        "radius": "5",
+        "offset": "1/100",
+        "axis": [
+          "1",
+          "0"
+        ],
+        "point": [
+          "0",
+          "5"
+        ]
+      },
+      "interior_point": [
+        "1/100",
+        "0"
+      ],
+      "farthest": [
+        "-5",
+        "0"
+      ],
+      "nearest": [
+        "5",
+        "0"
+      ],
+      "mirror": [
+        "0",
+        "-5"
+      ],
+      "projection": "0",
+      "distance_squared": "250001/10000",
+      "mirror_distance_squared": "250001/10000",
+      "minimum_squared": "249001/10000",
+      "maximum_squared": "251001/10000",
+      "above_minimum": "1/10",
+      "below_maximum": "1/10",
+      "distinct_mirror": true
+    },
+    "rotated": {
+      "schema": 1,
+      "input": {
+        "center": [
+          "1",
+          "-2"
+        ],
+        "radius": "5",
+        "offset": "2",
+        "axis": [
+          "3/5",
+          "4/5"
+        ],
+        "point": [
+          "-2/5",
+          "14/5"
+        ]
+      },
+      "interior_point": [
+        "11/5",
+        "-2/5"
+      ],
+      "farthest": [
+        "-2",
+        "-6"
+      ],
+      "nearest": [
+        "4",
+        "2"
+      ],
+      "mirror": [
+        "6",
+        "-2"
+      ],
+      "projection": "3",
+      "distance_squared": "17",
+      "mirror_distance_squared": "17",
+      "minimum_squared": "9",
+      "maximum_squared": "49",
+      "above_minimum": "8",
+      "below_maximum": "32",
+      "distinct_mirror": true
+    }
+  },
+  "ordering": {
+    "projection_q_minus_p": "6",
+    "distance_p_squared_minus_q_squared": "24",
+    "p_longer": true
+  },
+  "finite_grid": 504
+}

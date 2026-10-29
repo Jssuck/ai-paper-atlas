@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.6：相切不共心，为什么不必先证明只有一个接点](papers/ancient/euclid-elements-iii6.zh-CN.md)，拆解原证严格点序与后续命题循环风险，分层推导内外切精确证书，附真实实跑与独立双审。
+最新补读：[《几何原本》III.7：最长最短之外，等距为什么只有一对](papers/ancient/euclid-elements-iii7.zh-CN.md)，分离极值、同半圆排序与非极值等距伙伴，补明F角到圆心角的排序接口，附精确证书、真实实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -206,6 +206,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.4精读](papers/ancient/euclid-elements-iii4.zh-CN.md) | AI推理前史补读：合取否定、逆否桥步、独立约束与退化边界 | 深读v1 · 完整反证、精确算例与证书复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.5精读](papers/ancient/euclid-elements-iii5.zh-CN.md) | AI推理前史补读：公共见证、对象同一、严格次序与消元必要条件 | 深读v1 · 完整反证、现代补证与精确证书复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.6精读](papers/ancient/euclid-elements-iii6.zh-CN.md) | AI推理前史补读：相切、严格点序、弱前提与避免循环 | 深读v1 · 原证、编辑争议与内外切精确证书复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.7精读](papers/ancient/euclid-elements-iii7.zh-CN.md) | AI推理前史补读：极值、排序接口、构造与解数边界 | 深读v1 · 原证缺口、现代补证与有理镜像证书复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1719,3 +1720,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 补读：Euclid《几何原本》III.6
 
 [中文深读](papers/ancient/euclid-elements-iii6.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii6/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii6/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii6/README.md)。完整III.6原证与Heath关于插入词、辅助方向及III.13循环风险的编辑讨论；现代内外切判据、接点存在唯一性与原证分层。24单测三模式，每模式600构形、5命名证书及3关系对照；五格Notebook compile/exec与回放，非kernel。重合与同心不同半径分支明确，有限测试不代替一般证明。本单元完成，既有暂缓不变。
+
+## 《几何原本》III.7：极值、排序与等距伙伴
+
+[中文深读](papers/ancient/euclid-elements-iii7.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii7/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii7/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii7/README.md)。完整III.7及Heath/Fitzpatrick角序缺口评注；区分原证、现代方向角补证与两解代数分类。24单测三模式，各504构形、五命名例及同半圆排序；五格Notebook compile/exec及回放，非kernel。中心与极值例外明确，有限有理测试不证明全实数定理。本单元完成，既有暂缓不变。
