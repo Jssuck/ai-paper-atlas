@@ -1,0 +1,9 @@
+$ python independent_check.py
+PASS manually assembled independent a=1 certificate
+PASS independent similarity/reflection certificates: 12
+PASS point corruption rejections: 9
+PASS sign grid: 3721 ; exact near-cancellation convergents: 60
+PASS field inverses: 3
+SCOPE: fixed algebraic construction regression; not a general geometric theorem prover.
+
+exit_code=0

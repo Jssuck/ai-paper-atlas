@@ -1,0 +1,28 @@
+$ python -OO -m unittest test_geometry -v
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_default (test_geometry.GeometryTests.test_default) ... ok
+test_exact_sign (test_geometry.GeometryTests.test_exact_sign) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_missing_point (test_geometry.GeometryTests.test_missing_point) ... ok
+test_negative_length (test_geometry.GeometryTests.test_negative_length) ... ok
+test_negative_root (test_geometry.GeometryTests.test_negative_root) ... ok
+test_nonexact_point (test_geometry.GeometryTests.test_nonexact_point) ... ok
+test_point_tampering (test_geometry.GeometryTests.test_point_tampering) ... ok
+test_radical_inverse (test_geometry.GeometryTests.test_radical_inverse) ... ok
+test_radical_square (test_geometry.GeometryTests.test_radical_square) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_scale (test_geometry.GeometryTests.test_scale) ... ok
+test_skew (test_geometry.GeometryTests.test_skew) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_unequal (test_geometry.GeometryTests.test_unequal) ... ok
+test_zero_basis (test_geometry.GeometryTests.test_zero_basis) ... ok
+test_zero_length (test_geometry.GeometryTests.test_zero_length) ... ok
+test_zero_sign (test_geometry.GeometryTests.test_zero_sign) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.143s
+
+OK
+
+exit_code=0

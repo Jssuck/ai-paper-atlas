@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》II.10：先证明延长线会相交，再让两个平方和汇合](papers/ancient/euclid-elements-ii10.zh-CN.md)，重建第五公设的相交保证、四次I.47与边径数符号翻转，附精确实跑及独立双审。
+最新补读：[《几何原本》II.11：用两次面积消去构造一个无理分点](papers/ancient/euclid-elements-ii11.zh-CN.md)，重建内点保证、II.6与I.47双消去及精确根式证书，附真实实跑和独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -196,6 +196,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.8精读](papers/ancient/euclid-elements-ii8.zh-CN.md) | AI推理前史补读：两组等积、区域配对、九格覆盖与别名检查 | 深读v1 · 完整命题与两种替代证法分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.9精读](papers/ancient/euclid-elements-ii9.zh-CN.md) | AI推理前史补读：半直角资格、四次勾股、公共证书与左右规范化 | 深读v1 · 完整命题与替代证明分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.10精读](papers/ancient/euclid-elements-ii10.zh-CN.md) | AI推理前史补读：外延相交资格、四次勾股、共同证书与边径递推 | 深读v1 · 完整命题与历史评注分层、精确复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.11精读](papers/ancient/euclid-elements-ii11.zh-CN.md) | AI推理前史补读：内点构造、两次面积消去、根式与证书范围 | 深读v1 · 完整命题与历史评注分层、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1663,3 +1664,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 补读：Euclid《几何原本》II.10
 
 [中文深读](papers/ancient/euclid-elements-ii10.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii10/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii10/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii10/README.md)。完整II.10与Heath历史评注分层；重建第五公设保证相交、DG=DB、GF=EF及四次I.47汇合到AG的两路证明；纠正边径递推跨图变量混用。20单测三模式、64构形网格与四算例；独立每模式240外部证书、2640平方、1440直角、1200等长桥、960路线、3420非法或篡改拒绝及64行递推。Notebook五格标准库compile/exec与回放，非kernel。有限实跑不替代一般证明；本单元完成，既有暂缓不变。
+
+
+## 补读：Euclid《几何原本》II.11
+
+[中文深读](papers/ancient/euclid-elements-ii11.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii11/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii11/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii11/README.md)。完整II.11与Heath评注分层；补明内点与射线选择，逐步重建II.6、I.47及共同AK的两次消去，区分黄金比例后见解释。精确Q(√5)，20单测三模式、64构形网格与四算例；独立手写证书、12变换、9点篡改、3721符号及60近抵消案例。Notebook五格标准库compile/exec与回放，非kernel。固定解析构型回归非通用证明器；有限实跑不代替一般证明。本单元完成，既有暂缓不变。

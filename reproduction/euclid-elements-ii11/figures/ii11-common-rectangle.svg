@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="780" viewBox="0 0 700 780">
+<rect width="700" height="780" fill="white"/>
+<text x="45" y="35" font-size="22" font-family="sans-serif">II.11: subtract the same rectangle AK</text>
+<polygon points="130.000,89.868 340.132,89.868 340.132,300.000 130.000,300.000" fill="#bbdefb" stroke="#273449" stroke-width="2"/>
+<polygon points="130.000,300.000 340.132,300.000 340.132,640.000 130.000,640.000" fill="#e4e7eb" stroke="#273449" stroke-width="2"/>
+<polygon points="340.132,300.000 470.000,300.000 470.000,640.000 340.132,640.000" fill="#ffe0b2" stroke="#273449" stroke-width="2"/>
+<line x1="130" y1="470.0" x2="470" y2="300" stroke="#667" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="130" y1="89.86844382503574" x2="130" y2="640" stroke="#667" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="130" cy="300" r="3" fill="#172331"/><text x="105" y="291" font-size="20" font-family="sans-serif">A</text>
+<circle cx="470" cy="300" r="3" fill="#172331"/><text x="480" y="291" font-size="20" font-family="sans-serif">B</text>
+<circle cx="130" cy="640" r="3" fill="#172331"/><text x="105" y="662" font-size="20" font-family="sans-serif">C</text>
+<circle cx="470" cy="640" r="3" fill="#172331"/><text x="480" y="662" font-size="20" font-family="sans-serif">D</text>
+<circle cx="130" cy="470.0" r="3" fill="#172331"/><text x="105" y="475.0" font-size="20" font-family="sans-serif">E</text>
+<circle cx="130" cy="89.86844382503574" r="3" fill="#172331"/><text x="105" y="81.86844382503574" font-size="20" font-family="sans-serif">F</text>
+<circle cx="340.13155617496426" cy="89.86844382503574" r="3" fill="#172331"/><text x="350.13155617496426" y="81.86844382503574" font-size="20" font-family="sans-serif">G</text>
+<circle cx="340.13155617496426" cy="300" r="3" fill="#172331"/><text x="347.13155617496426" y="290" font-size="20" font-family="sans-serif">H</text>
+<circle cx="340.13155617496426" cy="640" r="3" fill="#172331"/><text x="347.13155617496426" y="662" font-size="20" font-family="sans-serif">K</text>
+<text x="185" y="190" font-size="18" font-family="sans-serif">FH = x²</text>
+<text x="180" y="475" font-size="18" font-family="sans-serif">AK = ax</text>
+<text x="355" y="475" font-size="18" font-family="sans-serif">HD = a(a-x)</text>
+<text x="45" y="705" font-size="18" font-family="sans-serif">FK = AD; remove AK from both.</text>
+<text x="45" y="738" font-size="18" font-family="sans-serif">Drawing rounded; algebraic checks use exact Q(sqrt(5)).</text>
+</svg>
