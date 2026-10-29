@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" role="img" aria-labelledby="title desc">
+<title id="title">III.9：三点等距与直径中点分支</title><desc id="desc">左图为半径五圆上的三个点与两条弦的垂直平分线，交点是圆心。右图的第一条弦是直径，候选圆心等于弦中点，但垂直平分线仍是确定的直线。</desc>
+<rect width="1000" height="490" fill="#fff"/>
+<g font-family="sans-serif" fill="#172b4d"><text x="35" y="35" font-size="22">三点等距：两条垂直平分线确定圆心</text><text x="535" y="35" font-size="22">直径分支：D = E，不用零向量定线</text></g>
+<g fill="none" stroke-width="2">
+<circle cx="245" cy="240" r="150" stroke="#334155"/><circle cx="745" cy="240" r="150" stroke="#334155"/>
+<path d="M395 240 L245 90 L155 360" stroke="#2563eb"/><path d="M595 240 L895 240 L745 90" stroke="#2563eb"/>
+<path d="M120 365 L370 115 M80 185 L410 295" stroke="#d97706" stroke-dasharray="7 5"/>
+<path d="M745 65 L745 415 M620 365 L870 115" stroke="#d97706" stroke-dasharray="7 5"/>
+<path d="M245 240 L395 240 M745 240 L745 90" stroke="#64748b"/>
+</g>
+<g fill="#172b4d"><circle cx="395" cy="240" r="4"/><circle cx="245" cy="90" r="4"/><circle cx="155" cy="360" r="4"/><circle cx="245" cy="240" r="5"/><circle cx="320" cy="165" r="4"/><circle cx="200" cy="225" r="4"/><circle cx="595" cy="240" r="4"/><circle cx="895" cy="240" r="4"/><circle cx="745" cy="90" r="4"/><circle cx="745" cy="240" r="5"/></g>
+<g font-family="sans-serif" fill="#172b4d" font-size="17"><text x="400" y="235">A(5,0)</text><text x="250" y="80">B(0,5)</text><text x="80" y="385">C(−3,−4)</text><text x="250" y="260">D(0,0)</text><text x="328" y="164">E</text><text x="177" y="222">F</text><text x="535" y="265">A(−5,0)</text><text x="883" y="267">B(5,0)</text><text x="752" y="80">C(0,5)</text><text x="752" y="260">D = E</text><text x="70" y="440">蓝：弦；橙虚线：弦的垂直平分线；半径 = 5</text><text x="550" y="440">AB 方向 (10,0) 非零；垂直平分线 x = 0</text></g>
+</svg>

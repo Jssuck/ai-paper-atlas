@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.8：同一条视线，为什么一段变长而另一段变短](papers/ancient/euclid-elements-iii8.zh-CN.md)，分离外点射线的近远分支，补明内部折线条件与切点两种计数，附精确证书、真实实跑与独立双审。
+最新补读：[《几何原本》III.9：三条等长线，为什么足以认出圆心](papers/ancient/euclid-elements-iii9.zh-CN.md)，重建两条独立垂分线的唯一交点，补齐零长度辅助线分支，区分精确识别与数值稳定性，附真实实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -208,6 +208,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.6精读](papers/ancient/euclid-elements-iii6.zh-CN.md) | AI推理前史补读：相切、严格点序、弱前提与避免循环 | 深读v1 · 原证、编辑争议与内外切精确证书复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.7精读](papers/ancient/euclid-elements-iii7.zh-CN.md) | AI推理前史补读：极值、排序接口、构造与解数边界 | 深读v1 · 原证缺口、现代补证与有理镜像证书复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.8精读](papers/ancient/euclid-elements-iii8.zh-CN.md) | AI推理前史补读：近远分支、内部条件、视角排序与两种解数 | 深读v1 · 原证缺口、现代补证与有理割线证书复现 |
+| 公元前约300年（实读1908/2008版本） | [Euclid《几何原本》III.9精读](papers/ancient/euclid-elements-iii9.zh-CN.md) | 数学前史补读：三点等距、垂分线独立性、退化补证与稳定性边界 | 深读v1 · 完整III.9及Heath评注 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1730,3 +1731,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《几何原本》III.8：同射线的两个距离分支
 
 [中文深读](papers/ancient/euclid-elements-iii8.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii8/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii8/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii8/README.md)。完整III.8及Heath/Fitzpatrick评注；补近远分支角序、I.21内部性，区分射线重根与全圆等距伙伴。30单测三模式，各1071参数构形；242分支样本与236相邻排序比较；五格Notebook compile/exec及只读回放，非kernel。精确有理证书不实现一般实数求交，不以有限实跑证明一般定理。本单元完成，既有暂缓不变。
+
+## 《几何原本》III.9：三个等距点与唯一圆心
+
+[中文深读](papers/ancient/euclid-elements-iii9.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii9/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii9/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii9/README.md)。完整III.9及Heath/Fitzpatrick对照，补辅助线为零时的垂线构造，区分三点外心与给定圆认证。24单测三模式，各600精确构形，五算例；五格Notebook compile/exec及只读回放，非kernel。独立技术审查另测点序、镜像与篡改；有限证书不替代一般证明。本单元完成，既有暂缓不变。

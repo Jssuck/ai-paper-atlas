@@ -1,0 +1,7 @@
+$ python technical_check.py
+{
+  "permutation_similarity_certificates": 24,
+  "epsilon_family_cases": 4,
+  "result": "PASS"
+}
+returncode=0

@@ -1,0 +1,32 @@
+$ python -OO -m unittest -v test_geometry
+test_bad_fraction (test_geometry.GeometryTests.test_bad_fraction) ... ok
+test_bisectors (test_geometry.GeometryTests.test_bisectors) ... ok
+test_bool_coordinate (test_geometry.GeometryTests.test_bool_coordinate) ... ok
+test_center (test_geometry.GeometryTests.test_center) ... ok
+test_collinear (test_geometry.GeometryTests.test_collinear) ... ok
+test_diameter_zero_direction (test_geometry.GeometryTests.test_diameter_zero_direction) ... ok
+test_duplicate (test_geometry.GeometryTests.test_duplicate) ... ok
+test_equidistance (test_geometry.GeometryTests.test_equidistance) ... ok
+test_extra_missing (test_geometry.GeometryTests.test_extra_missing) ... ok
+test_float_coordinate (test_geometry.GeometryTests.test_float_coordinate) ... ok
+test_grid_600 (test_geometry.GeometryTests.test_grid_600) ... ok
+test_known_circle (test_geometry.GeometryTests.test_known_circle) ... ok
+test_malformed (test_geometry.GeometryTests.test_malformed) ... ok
+test_obtuse_external_center (test_geometry.GeometryTests.test_obtuse_external_center) ... ok
+test_point_shapes (test_geometry.GeometryTests.test_point_shapes) ... ok
+test_schema_bool_tamper (test_geometry.GeometryTests.test_schema_bool_tamper) ... ok
+test_second_diameter (test_geometry.GeometryTests.test_second_diameter) ... ok
+test_tamper_fields (test_geometry.GeometryTests.test_tamper_fields) ... ok
+test_triangle_shapes (test_geometry.GeometryTests.test_triangle_shapes) ... ok
+test_two_equal_insufficient (test_geometry.GeometryTests.test_two_equal_insufficient) ... ok
+test_verify (test_geometry.GeometryTests.test_verify) ... ok
+test_wrong_candidate (test_geometry.GeometryTests.test_wrong_candidate) ... ok
+test_wrong_circle (test_geometry.GeometryTests.test_wrong_circle) ... ok
+test_zero_radius (test_geometry.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.126s
+
+OK
+
+returncode=0

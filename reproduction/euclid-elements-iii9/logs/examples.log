@@ -1,0 +1,280 @@
+$ python run_examples.py
+{
+  "ordinary": {
+    "schema": 1,
+    "points": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "candidate": [
+      "0",
+      "0"
+    ],
+    "center": [
+      "0",
+      "0"
+    ],
+    "radius_squared": "25",
+    "midpoints": [
+      [
+        "5/2",
+        "5/2"
+      ],
+      [
+        "-3/2",
+        "1/2"
+      ]
+    ],
+    "bisector_normals": [
+      [
+        "-5",
+        "5"
+      ],
+      [
+        "-3",
+        "-9"
+      ]
+    ],
+    "bisector_residuals": [
+      "0",
+      "0"
+    ],
+    "determinant": "60",
+    "zero_midpoint_directions": [
+      false,
+      false
+    ]
+  },
+  "diameter": {
+    "schema": 1,
+    "points": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "candidate": [
+      "0",
+      "0"
+    ],
+    "center": [
+      "0",
+      "0"
+    ],
+    "radius_squared": "25",
+    "midpoints": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-5/2",
+        "5/2"
+      ]
+    ],
+    "bisector_normals": [
+      [
+        "-10",
+        "0"
+      ],
+      [
+        "5",
+        "5"
+      ]
+    ],
+    "bisector_residuals": [
+      "0",
+      "0"
+    ],
+    "determinant": "-50",
+    "zero_midpoint_directions": [
+      true,
+      false
+    ]
+  },
+  "translated": {
+    "schema": 1,
+    "points": [
+      [
+        "7",
+        "3"
+      ],
+      [
+        "2",
+        "8"
+      ],
+      [
+        "-1",
+        "-1"
+      ]
+    ],
+    "candidate": [
+      "2",
+      "3"
+    ],
+    "center": [
+      "2",
+      "3"
+    ],
+    "radius_squared": "25",
+    "midpoints": [
+      [
+        "9/2",
+        "11/2"
+      ],
+      [
+        "1/2",
+        "7/2"
+      ]
+    ],
+    "bisector_normals": [
+      [
+        "-5",
+        "5"
+      ],
+      [
+        "-3",
+        "-9"
+      ]
+    ],
+    "bisector_residuals": [
+      "0",
+      "0"
+    ],
+    "determinant": "60",
+    "zero_midpoint_directions": [
+      false,
+      false
+    ]
+  },
+  "rational": {
+    "schema": 1,
+    "points": [
+      [
+        "5/2",
+        "0"
+      ],
+      [
+        "0",
+        "5/2"
+      ],
+      [
+        "-3/2",
+        "-2"
+      ]
+    ],
+    "candidate": [
+      "0",
+      "0"
+    ],
+    "center": [
+      "0",
+      "0"
+    ],
+    "radius_squared": "25/4",
+    "midpoints": [
+      [
+        "5/4",
+        "5/4"
+      ],
+      [
+        "-3/4",
+        "1/4"
+      ]
+    ],
+    "bisector_normals": [
+      [
+        "-5/2",
+        "5/2"
+      ],
+      [
+        "-3/2",
+        "-9/2"
+      ]
+    ],
+    "bisector_residuals": [
+      "0",
+      "0"
+    ],
+    "determinant": "15",
+    "zero_midpoint_directions": [
+      false,
+      false
+    ]
+  },
+  "obtuse_external": {
+    "schema": 1,
+    "points": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "4",
+        "0"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "candidate": [
+      "2",
+      "-1"
+    ],
+    "center": [
+      "2",
+      "-1"
+    ],
+    "radius_squared": "5",
+    "midpoints": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5/2",
+        "1/2"
+      ]
+    ],
+    "bisector_normals": [
+      [
+        "4",
+        "0"
+      ],
+      [
+        "-3",
+        "1"
+      ]
+    ],
+    "bisector_residuals": [
+      "0",
+      "0"
+    ],
+    "determinant": "4",
+    "zero_midpoint_directions": [
+      false,
+      false
+    ]
+  }
+}
+
+returncode=0
