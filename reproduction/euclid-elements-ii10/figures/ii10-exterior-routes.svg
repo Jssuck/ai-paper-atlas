@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+<title id="title">II.10: two routes to AG squared</title>
+<desc id="desc">A C B D are collinear. E is above C, F above D, G below D. E B G are collinear. The auxiliary right triangles AEG and ADG share AG.</desc>
+<rect width="720" height="520" fill="#fff"/>
+<text x="30" y="32" font-family="sans-serif" font-size="21">II.10: extend AB beyond B to D</text>
+<polygon points="85,285 280,90 605,415" fill="#b8d9ff" opacity="0.42"/>
+<polygon points="85,285 605,285 605,415" fill="#ffe2b5" opacity="0.42"/>
+<line x1="85.0" y1="285.0" x2="605.0" y2="285.0" stroke="#334155" stroke-width="2"/>
+<line x1="280.0" y1="285.0" x2="280.0" y2="90.0" stroke="#334155" stroke-width="2"/>
+<line x1="280.0" y1="90.0" x2="605.0" y2="90.0" stroke="#334155" stroke-width="2"/>
+<line x1="605.0" y1="90.0" x2="605.0" y2="415.0" stroke="#334155" stroke-width="2"/>
+<line x1="85.0" y1="285.0" x2="280.0" y2="90.0" stroke="#2563eb" stroke-width="3"/>
+<line x1="280.0" y1="90.0" x2="605.0" y2="415.0" stroke="#2563eb" stroke-width="3"/>
+<line x1="85.0" y1="285.0" x2="605.0" y2="415.0" stroke="#b45309" stroke-width="3"/>
+<polyline points="292,285 292,273 280,273" fill="none" stroke="#475569" stroke-width="1.4"/>
+<polyline points="593,90 593,102 605,102" fill="none" stroke="#475569" stroke-width="1.4"/>
+<polyline points="593,285 593,297 605,297" fill="none" stroke="#475569" stroke-width="1.4"/>
+<polyline points="272,98 280,106 288,98" fill="none" stroke="#475569" stroke-width="1.4"/>
+<circle cx="85.0" cy="285.0" r="3.8" fill="#0f172a"/><text x="65.0" y="303.0" font-family="sans-serif" font-size="19">A</text>
+<circle cx="475.0" cy="285.0" r="3.8" fill="#0f172a"/><text x="468.0" y="309.0" font-family="sans-serif" font-size="19">B</text>
+<circle cx="280.0" cy="285.0" r="3.8" fill="#0f172a"/><text x="272.0" y="309.0" font-family="sans-serif" font-size="19">C</text>
+<circle cx="605.0" cy="285.0" r="3.8" fill="#0f172a"/><text x="615.0" y="293.0" font-family="sans-serif" font-size="19">D</text>
+<circle cx="280.0" cy="90.0" r="3.8" fill="#0f172a"/><text x="263.0" y="77.0" font-family="sans-serif" font-size="19">E</text>
+<circle cx="605.0" cy="90.0" r="3.8" fill="#0f172a"/><text x="615.0" y="84.0" font-family="sans-serif" font-size="19">F</text>
+<circle cx="605.0" cy="415.0" r="3.8" fill="#0f172a"/><text x="615.0" y="430.0" font-family="sans-serif" font-size="19">G</text>
+<text x="30" y="470" font-family="sans-serif" font-size="17">h = 3, t = 2; AE² = 18, EG² = 50, AG² = 68</text>
+<text x="30" y="496" font-family="sans-serif" font-size="16">AD² + DB² = 64 + 4 = 2(9 + 25)</text>
+</svg>

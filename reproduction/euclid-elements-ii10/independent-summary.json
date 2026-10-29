@@ -1,0 +1,81 @@
+{
+  "runs": [
+    {
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-normal.log",
+      "result": {
+        "counts": {
+          "EB_extension": 240,
+          "FD_extension": 240,
+          "configurations": 240,
+          "equal_length_bridges": 1200,
+          "first_eight": 1,
+          "point_order": 240,
+          "pythagorean_routes": 960,
+          "recurrence_invariant": 64,
+          "recurrence_rows": 64,
+          "rejections": 3420,
+          "right_angles": 1440,
+          "squared_lengths": 2640,
+          "target": 240
+        },
+        "optimization": 0,
+        "scope": "finite rational certificates; not a general theorem proof",
+        "status": "passed"
+      }
+    },
+    {
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-O.log",
+      "result": {
+        "counts": {
+          "EB_extension": 240,
+          "FD_extension": 240,
+          "configurations": 240,
+          "equal_length_bridges": 1200,
+          "first_eight": 1,
+          "point_order": 240,
+          "pythagorean_routes": 960,
+          "recurrence_invariant": 64,
+          "recurrence_rows": 64,
+          "rejections": 3420,
+          "right_angles": 1440,
+          "squared_lengths": 2640,
+          "target": 240
+        },
+        "optimization": 1,
+        "scope": "finite rational certificates; not a general theorem proof",
+        "status": "passed"
+      }
+    },
+    {
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-OO.log",
+      "result": {
+        "counts": {
+          "EB_extension": 240,
+          "FD_extension": 240,
+          "configurations": 240,
+          "equal_length_bridges": 1200,
+          "first_eight": 1,
+          "point_order": 240,
+          "pythagorean_routes": 960,
+          "recurrence_invariant": 64,
+          "recurrence_rows": 64,
+          "rejections": 3420,
+          "right_angles": 1440,
+          "squared_lengths": 2640,
+          "target": 240
+        },
+        "optimization": 2,
+        "scope": "finite rational certificates; not a general theorem proof",
+        "status": "passed"
+      }
+    }
+  ],
+  "runner": "Python subprocess, completed real executions",
+  "notebook": "Separate compile/exec verification, not Jupyter kernel"
+}

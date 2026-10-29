@@ -1,0 +1,28 @@
+$ python -m unittest test_geometry -v
+test_bad_basis (test_geometry.GeometryTests.test_bad_basis) ... ok
+test_bad_certificate (test_geometry.GeometryTests.test_bad_certificate) ... ok
+test_bad_scalars (test_geometry.GeometryTests.test_bad_scalars) ... ok
+test_bad_vectors (test_geometry.GeometryTests.test_bad_vectors) ... ok
+test_certificate_scalar_types (test_geometry.GeometryTests.test_certificate_scalar_types) ... ok
+test_default (test_geometry.GeometryTests.test_default) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_labels (test_geometry.GeometryTests.test_labels) ... ok
+test_large_extension (test_geometry.GeometryTests.test_large_extension) ... ok
+test_point_tamper (test_geometry.GeometryTests.test_point_tamper) ... ok
+test_recurrence (test_geometry.GeometryTests.test_recurrence) ... ok
+test_recurrence_domain (test_geometry.GeometryTests.test_recurrence_domain) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_rotation (test_geometry.GeometryTests.test_rotation) ... ok
+test_routes (test_geometry.GeometryTests.test_routes) ... ok
+test_scaled_basis (test_geometry.GeometryTests.test_scaled_basis) ... ok
+test_tiny_extension (test_geometry.GeometryTests.test_tiny_extension) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_zero_negative (test_geometry.GeometryTests.test_zero_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.027s
+
+OK
+
+exit_code=0
