@@ -1,0 +1,48 @@
+{
+  "executed_at_utc": "2026-10-29T02:43:54.685485+00:00",
+  "python_version": "3.12.14",
+  "runs": [
+    {
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-normal.log",
+      "result": {
+        "external_certificates": 240,
+        "independent_region_area_comparisons": 3360,
+        "tampered_certificates_rejected": 40080,
+        "invalid_parameters_rejected": 49,
+        "production_constructor_used_for_external_certificates": false,
+        "status": "passed",
+        "scope": "finite exact rational teaching checks; not a general proof"
+      }
+    },
+    {
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-O.log",
+      "result": {
+        "external_certificates": 240,
+        "independent_region_area_comparisons": 3360,
+        "tampered_certificates_rejected": 40080,
+        "invalid_parameters_rejected": 49,
+        "production_constructor_used_for_external_certificates": false,
+        "status": "passed",
+        "scope": "finite exact rational teaching checks; not a general proof"
+      }
+    },
+    {
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "log": "logs/independent-OO.log",
+      "result": {
+        "external_certificates": 240,
+        "independent_region_area_comparisons": 3360,
+        "tampered_certificates_rejected": 40080,
+        "invalid_parameters_rejected": 49,
+        "production_constructor_used_for_external_certificates": false,
+        "status": "passed",
+        "scope": "finite exact rational teaching checks; not a general proof"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+$ python run_examples.py
+a= 3 b= 2 AK= 10 four AK= 40 OH= 9 whole= 49
+a= 2 b= 2 AK= 8 four AK= 32 OH= 4 whole= 36
+a= 1 b= 4 AK= 20 four AK= 80 OH= 1 whole= 81
+a= 2/3 b= 5/7 AK= 145/147 four AK= 580/147 OH= 4/9 whole= 1936/441
+Four finite examples; not a general proof.
+
+exit_code=0

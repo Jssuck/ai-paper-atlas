@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="620" viewBox="0 0 850 620">
+<rect width="850" height="620" fill="white"/>
+<title>Elements II.8: eight cells and a completing square</title>
+<polygon points="265,60 395,60 395,190 265,190" fill="#c8ddf0" stroke="#333" stroke-width="1.5"/>
+<polygon points="395,60 525,60 525,190 395,190" fill="#c8ddf0" stroke="#333" stroke-width="1.5"/>
+<polygon points="265,190 395,190 395,320 265,320" fill="#c8ddf0" stroke="#333" stroke-width="1.5"/>
+<polygon points="395,190 525,190 525,320 395,320" fill="#c8ddf0" stroke="#333" stroke-width="1.5"/>
+<polygon points="70,60 265,60 265,190 70,190" fill="#f8d6ad" stroke="#333" stroke-width="1.5"/>
+<polygon points="70,190 265,190 265,320 70,320" fill="#f8d6ad" stroke="#333" stroke-width="1.5"/>
+<polygon points="265,320 395,320 395,515 265,515" fill="#f8d6ad" stroke="#333" stroke-width="1.5"/>
+<polygon points="395,320 525,320 525,515 395,515" fill="#f8d6ad" stroke="#333" stroke-width="1.5"/>
+<polygon points="70,320 265,320 265,515 70,515" fill="#d5edce" stroke="#333" stroke-width="1.5"/>
+<line x1="70" y1="515" x2="525" y2="60" stroke="#555" stroke-width="2"/>
+<text x="47" y="52" font-family="sans-serif" font-size="18">A</text>
+<text x="273" y="52" font-family="sans-serif" font-size="18">C</text>
+<text x="403" y="52" font-family="sans-serif" font-size="18">B</text>
+<text x="533" y="52" font-family="sans-serif" font-size="18">D</text>
+<text x="47" y="182" font-family="sans-serif" font-size="18">M</text>
+<text x="273" y="182" font-family="sans-serif" font-size="18">G</text>
+<text x="403" y="182" font-family="sans-serif" font-size="18">K</text>
+<text x="533" y="182" font-family="sans-serif" font-size="18">N</text>
+<text x="47" y="312" font-family="sans-serif" font-size="18">O</text>
+<text x="273" y="312" font-family="sans-serif" font-size="18">Q</text>
+<text x="403" y="312" font-family="sans-serif" font-size="18">R</text>
+<text x="533" y="312" font-family="sans-serif" font-size="18">P</text>
+<text x="47" y="539" font-family="sans-serif" font-size="18">E</text>
+<text x="273" y="539" font-family="sans-serif" font-size="18">H</text>
+<text x="403" y="539" font-family="sans-serif" font-size="18">L</text>
+<text x="533" y="539" font-family="sans-serif" font-size="18">F</text>
+<rect x="570" y="120" width="20" height="20" fill="#c8ddf0"/><text x="600" y="137" font-family="sans-serif" font-size="16">CK = KD = GR = RN = 4</text>
+<rect x="570" y="185" width="20" height="20" fill="#f8d6ad"/><text x="600" y="202" font-family="sans-serif" font-size="16">AG = MQ = QL = RF = 6</text>
+<rect x="570" y="250" width="20" height="20" fill="#d5edce"/><text x="600" y="267" font-family="sans-serif" font-size="16">OH = 9</text>
+<text x="570" y="365" font-family="sans-serif" font-size="17">AK = 10; eight cells = 40</text>
+<text x="570" y="400" font-family="sans-serif" font-size="17">40 + 9 = 49</text>
+<text x="70" y="580" font-family="sans-serif" font-size="17">a = AC = 3; b = BC = BD = 2. Diagonal ED passes Q and K.</text>
+</svg>

@@ -1,0 +1,22 @@
+$ python create_notebook.py
+cell 1:
+{'A': (Fraction(0, 1), Fraction(0, 1)), 'C': (Fraction(3, 1), Fraction(0, 1)), 'B': (Fraction(5, 1), Fraction(0, 1)), 'D': (Fraction(7, 1), Fraction(0, 1)), 'M': (Fraction(0, 1), Fraction(2, 1)), 'G': (Fraction(3, 1), Fraction(2, 1)), 'K': (Fraction(5, 1), Fraction(2, 1)), 'N': (Fraction(7, 1), Fraction(2, 1)), 'O': (Fraction(0, 1), Fraction(4, 1)), 'Q': (Fraction(3, 1), Fraction(4, 1)), 'R': (Fraction(5, 1), Fraction(4, 1)), 'P': (Fraction(7, 1), Fraction(4, 1)), 'E': (Fraction(0, 1), Fraction(7, 1)), 'H': (Fraction(3, 1), Fraction(7, 1)), 'L': (Fraction(5, 1), Fraction(7, 1)), 'F': (Fraction(7, 1), Fraction(7, 1))}
+
+cell 2:
+{'CK': '4', 'KD': '4', 'GR': '4', 'RN': '4'}
+
+cell 3:
+{'AG': '6', 'MQ': '6', 'QL': '6', 'RF': '6'}
+gnomon 40 four AK 40
+plus OH 49 whole 49
+
+cell 4:
+rational whole 1936/441
+scaled whole 1225
+
+cell 5:
+rejected: point Q violates construction
+
+5 cells executed using compile/exec; no kernel started
+
+exit_code=0
