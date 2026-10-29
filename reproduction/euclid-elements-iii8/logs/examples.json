@@ -1,0 +1,103 @@
+{
+  "finite_configurations": 1071,
+  "branch_samples": {
+    "r=5,d=13,near": 14,
+    "r=5,d=13,far": 67,
+    "r=5,d=6,near": 7,
+    "r=5,d=6,far": 74,
+    "r=3,d=5,near": 10,
+    "r=3,d=5,far": 70
+  },
+  "adjacent_branch_comparisons": 236,
+  "near_example": {
+    "r": "5",
+    "d": "13",
+    "point": [
+      "3",
+      "4"
+    ],
+    "squared_distance": "116",
+    "identity": "116",
+    "minimum_squared": "64",
+    "maximum_squared": "324",
+    "branch": "near",
+    "horizon": "14",
+    "mirror": [
+      "3",
+      "-4"
+    ],
+    "distinct_mirror": true,
+    "equal_point_count": 2
+  },
+  "far_positive_x_counterexample": {
+    "r": "5",
+    "d": "6",
+    "point": [
+      "3",
+      "4"
+    ],
+    "squared_distance": "25",
+    "identity": "25",
+    "minimum_squared": "1",
+    "maximum_squared": "121",
+    "branch": "far",
+    "horizon": "-7",
+    "mirror": [
+      "3",
+      "-4"
+    ],
+    "distinct_mirror": true,
+    "equal_point_count": 2
+  },
+  "same_ray_secant": {
+    "a": "116",
+    "b": "-260",
+    "c": "144",
+    "parameters": [
+      "1",
+      "36/29"
+    ],
+    "points": [
+      [
+        "3",
+        "4"
+      ],
+      [
+        "17/29",
+        "144/29"
+      ]
+    ],
+    "squared_lengths": [
+      "116",
+      "5184/29"
+    ],
+    "tangent": false
+  },
+  "same_ray_slope": "2/5",
+  "equal_shell_116": {
+    "x": "3",
+    "y_squared": "16",
+    "count": 2
+  },
+  "tangent": {
+    "r": "3",
+    "d": "5",
+    "point": [
+      "9/5",
+      "12/5"
+    ],
+    "squared_distance": "16",
+    "identity": "16",
+    "minimum_squared": "4",
+    "maximum_squared": "64",
+    "branch": "tangent",
+    "horizon": "0",
+    "mirror": [
+      "9/5",
+      "-12/5"
+    ],
+    "distinct_mirror": true,
+    "equal_point_count": 2
+  },
+  "scope": "finite exact rational checks; not a general theorem proof"
+}

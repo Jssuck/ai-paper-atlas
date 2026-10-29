@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+<title id="title">Euclid III.8: near and far intersections</title>
+<desc id="desc">Original coordinate diagram for radius 5 and external point D=(13,0). K=(4,3) and E=(-7/5,24/5) share a ray. T is the upper tangent point. The exposed near arc is shorter than a semicircle.</desc>
+<rect width="760" height="500" fill="#f8fafc"/>
+<text x="34" y="40" font-family="sans-serif" font-size="24" fill="#132a43">III.8 · One ray, two branches</text>
+<text x="34" y="70" font-family="sans-serif" font-size="16" fill="#475569">r = 5, D = (13, 0) · original teaching diagram</text>
+<circle cx="240" cy="300" r="115" fill="#e9eff7" stroke="#355a78" stroke-width="3"/>
+<path d="M 284.23 193.85 A 115 115 0 0 1 284.23 406.15" fill="none" stroke="#0b817e" stroke-width="6"/>
+<path d="M 125 300 L 539 300" stroke="#64748b" stroke-width="2"/>
+<path d="M 539 300 L 207.8 189.6" stroke="#c2511b" stroke-width="3"/>
+<path d="M 539 300 L 284.23 193.85 M 539 300 L 284.23 406.15" stroke="#8d6cba" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M 240 300 L 284.23 193.85 M 284.23 193.85 L 284.23 406.15" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 5"/>
+<g fill="#132a43"><circle cx="240" cy="300" r="4"/><circle cx="539" cy="300" r="5"/><circle cx="125" cy="300" r="4"/><circle cx="355" cy="300" r="4"/></g>
+<g fill="#c2511b"><circle cx="332" cy="231" r="5"/><circle cx="207.8" cy="189.6" r="5"/></g>
+<g fill="#8d6cba"><circle cx="284.23" cy="193.85" r="5"/><circle cx="284.23" cy="406.15" r="5"/></g>
+<g font-family="sans-serif" font-size="20" fill="#132a43"><text x="222" y="327">M</text><text x="547" y="305">D</text><text x="105" y="325">A</text><text x="360" y="325">G</text><text x="338" y="224">K</text><text x="189" y="180">E</text><text x="289" y="180">T</text><text x="289" y="431">T′</text></g>
+<text x="450" y="160" font-family="sans-serif" font-size="17" fill="#0b817e">Green: exposed near arc</text>
+<text x="450" y="185" font-family="sans-serif" font-size="17" fill="#c2511b">K near · E far</text>
+<text x="450" y="210" font-family="sans-serif" font-size="17" fill="#8d6cba">Dashed: tangent boundary</text>
+<text x="34" y="470" font-family="sans-serif" font-size="17" fill="#475569">Boundary: x = r²/d = 25/13, not x = 0</text>
+</svg>

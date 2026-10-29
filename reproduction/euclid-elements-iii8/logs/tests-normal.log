@@ -1,0 +1,35 @@
+test_axis_secant (test_geometry.GeometryTests.test_axis_secant) ... ok
+test_bool_rejected (test_geometry.GeometryTests.test_bool_rejected) ... ok
+test_boolean_tampering (test_geometry.GeometryTests.test_boolean_tampering) ... ok
+test_boundary_rejected (test_geometry.GeometryTests.test_boundary_rejected) ... ok
+test_center_rejected (test_geometry.GeometryTests.test_center_rejected) ... ok
+test_extra_key (test_geometry.GeometryTests.test_extra_key) ... ok
+test_far (test_geometry.GeometryTests.test_far) ... ok
+test_farthest (test_geometry.GeometryTests.test_farthest) ... ok
+test_float_rejected (test_geometry.GeometryTests.test_float_rejected) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_interior_rejected (test_geometry.GeometryTests.test_interior_rejected) ... ok
+test_mirror (test_geometry.GeometryTests.test_mirror) ... ok
+test_near (test_geometry.GeometryTests.test_near) ... ok
+test_nearest (test_geometry.GeometryTests.test_nearest) ... ok
+test_not_near_semicircle (test_geometry.GeometryTests.test_not_near_semicircle) ... ok
+test_off_circle (test_geometry.GeometryTests.test_off_circle) ... ok
+test_positive_x_far (test_geometry.GeometryTests.test_positive_x_far) ... ok
+test_projection (test_geometry.GeometryTests.test_projection) ... ok
+test_radius_rejected (test_geometry.GeometryTests.test_radius_rejected) ... ok
+test_same_ray_two_distances (test_geometry.GeometryTests.test_same_ray_two_distances) ... ok
+test_secant_known (test_geometry.GeometryTests.test_secant_known) ... ok
+test_shell_above (test_geometry.GeometryTests.test_shell_above) ... ok
+test_shell_below (test_geometry.GeometryTests.test_shell_below) ... ok
+test_shell_max (test_geometry.GeometryTests.test_shell_max) ... ok
+test_shell_min (test_geometry.GeometryTests.test_shell_min) ... ok
+test_shell_negative (test_geometry.GeometryTests.test_shell_negative) ... ok
+test_shell_two (test_geometry.GeometryTests.test_shell_two) ... ok
+test_tampering (test_geometry.GeometryTests.test_tampering) ... ok
+test_tangent (test_geometry.GeometryTests.test_tangent) ... ok
+test_tangent_secant (test_geometry.GeometryTests.test_tangent_secant) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.150s
+
+OK

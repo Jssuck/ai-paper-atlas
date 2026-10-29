@@ -1,0 +1,42 @@
+[
+  {
+    "command": "python3 --version",
+    "returncode": 0,
+    "output": "logs/python-version.log"
+  },
+  {
+    "command": "python3 -m unittest -v test_geometry",
+    "returncode": 0,
+    "output": "logs/tests-normal.log"
+  },
+  {
+    "command": "python3 -O -m unittest -v test_geometry",
+    "returncode": 0,
+    "output": "logs/tests-O.log"
+  },
+  {
+    "command": "python3 -OO -m unittest -v test_geometry",
+    "returncode": 0,
+    "output": "logs/tests-OO.log"
+  },
+  {
+    "command": "python3 run_examples.py",
+    "returncode": 0,
+    "output": "logs/examples.json"
+  },
+  {
+    "command": "python3 create_notebook.py",
+    "returncode": 0,
+    "output": "logs/notebook-create.log"
+  },
+  {
+    "command": "python3 verify_notebook.py",
+    "returncode": 0,
+    "output": "logs/notebook-execute.log"
+  },
+  {
+    "command": "python3 verify_notebook.py --read-only",
+    "returncode": 0,
+    "output": "logs/notebook-replay.log"
+  }
+]
