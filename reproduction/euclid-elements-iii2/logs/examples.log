@@ -1,0 +1,8 @@
+COMMAND: python -B run_examples.py
+ordinary midpoint : E= ('0', '4') distance_squared= 16 gap= 9 branch= strict-interior verified= True
+quarter chord : E= ('-3/2', '4') distance_squared= 73/4 gap= 27/4 branch= strict-interior verified= True
+diameter center : E= ('0', '0') distance_squared= 0 gap= 25 branch= center verified= True
+endpoint : E= ('-3', '4') distance_squared= 25 gap= 0 branch= endpoint verified= True
+translated scaled : E= ('2', '-5/3') distance_squared= 16/9 gap= 1 branch= strict-interior verified= True
+Finite examples verify this implementation, not the general theorem.
+EXIT_CODE: 0

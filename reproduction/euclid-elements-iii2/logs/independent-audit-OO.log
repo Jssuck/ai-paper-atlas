@@ -1,0 +1,15 @@
+COMMAND: python -B -OO independent_audit.py
+{
+  "checks": {
+    "certificates": 1188,
+    "invalid_inputs": 54,
+    "malformed_records": 68,
+    "manual_examples": 8,
+    "mutations": 17820,
+    "notebook_cells": 5
+  },
+  "limitations": "finite exact rational cases; no general theorem certification",
+  "notebook_method": "read-only standard-library compile/exec; not kernel",
+  "status": "passed"
+}
+EXIT_CODE: 0

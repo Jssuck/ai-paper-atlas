@@ -1,0 +1,30 @@
+COMMAND: python -B test_geometry.py
+test_coincident (__main__.GeometryTests.test_coincident) ... ok
+test_diameter_center (__main__.GeometryTests.test_diameter_center) ... ok
+test_diameter_other (__main__.GeometryTests.test_diameter_other) ... ok
+test_endpoints (__main__.GeometryTests.test_endpoints) ... ok
+test_extrapolation (__main__.GeometryTests.test_extrapolation) ... ok
+test_gap (__main__.GeometryTests.test_gap) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_identity (__main__.GeometryTests.test_identity) ... ok
+test_midpoint (__main__.GeometryTests.test_midpoint) ... ok
+test_nonpositive (__main__.GeometryTests.test_nonpositive) ... ok
+test_point_types (__main__.GeometryTests.test_point_types) ... ok
+test_radius_bool (__main__.GeometryTests.test_radius_bool) ... ok
+test_rotation (__main__.GeometryTests.test_rotation) ... ok
+test_scalar_types (__main__.GeometryTests.test_scalar_types) ... ok
+test_scaling (__main__.GeometryTests.test_scaling) ... ok
+test_schema (__main__.GeometryTests.test_schema) ... ok
+test_small_gap_exact (__main__.GeometryTests.test_small_gap_exact) ... ok
+test_tampered_branch (__main__.GeometryTests.test_tampered_branch) ... ok
+test_tampered_fields (__main__.GeometryTests.test_tampered_fields) ... ok
+test_translation (__main__.GeometryTests.test_translation) ... ok
+test_typed_certificate (__main__.GeometryTests.test_typed_certificate) ... ok
+test_verified (__main__.GeometryTests.test_verified) ... ok
+test_wrong_circle (__main__.GeometryTests.test_wrong_circle) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.096s
+
+OK
+EXIT_CODE: 0

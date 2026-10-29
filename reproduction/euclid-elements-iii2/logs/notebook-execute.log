@@ -1,0 +1,16 @@
+COMMAND: python -B verify_notebook.py
+cell 1: passed
+E = (Fraction(0, 1), Fraction(4, 1)) distance squared = 16 gap = 9
+cell 2: passed
+identity: True
+strict gap: True verified: True
+cell 3: passed
+branch = center distance squared = 0 gap = 25
+cell 4: passed
+t = 0 branch = endpoint gap = 0
+t = 1 branch = endpoint gap = 0
+cell 5: passed
+forged gap accepted: False
+ValueError parameter must belong to the closed segment
+TypeError expected int or Fraction, excluding bool and float
+EXIT_CODE: 0

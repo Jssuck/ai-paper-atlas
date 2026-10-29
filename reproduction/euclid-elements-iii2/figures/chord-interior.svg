@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="470" viewBox="0 0 820 470">
+<rect width="820" height="470" fill="white"/><g font-family="sans-serif" fill="#172b4d">
+<text x="24" y="30" font-size="22">Euclid III.2 — an actual chord and its interior</text>
+<circle cx="230" cy="245" r="180" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<path d="M122 101 L230 245 L338 101" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<path d="M122 101 L338 101" stroke="#d97706" stroke-width="5"/>
+<path d="M230 245 L230 101" stroke="#16a34a" stroke-width="3"/>
+<g fill="#172b4d"><circle cx="122" cy="101" r="5"/><circle cx="338" cy="101" r="5"/><circle cx="230" cy="245" r="5"/><circle cx="230" cy="101" r="5"/></g>
+<g font-size="17"><text x="81" y="87">A=(-3,4)</text><text x="315" y="87">B=(3,4)</text><text x="242" y="122">E=(0,4)</text><text x="242" y="263">D=(0,0)</text></g>
+<g font-size="18"><text x="460" y="125">Radius squared: 25</text><text x="460" y="165">DE squared: 16</text><text x="460" y="205">Gap: 25 - 16 = 9</text><text x="460" y="265">A and B lie on the boundary.</text><text x="460" y="305">Open chord points lie inside.</text><text x="460" y="345">The midpoint E is not D here.</text></g>
+<text x="24" y="452" font-size="14">Teaching coordinates; the reductio's impossible exterior chord is intentionally not drawn.</text>
+</g></svg>

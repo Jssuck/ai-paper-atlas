@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.1：圆心存在，不等于已经找到圆心](papers/ancient/euclid-elements-iii1.zh-CN.md)，从弦中点与垂线逐步定位唯一圆心，补齐线上候选、直径分支和交点前提，并附精确实跑与独立双审。
+最新补读：[《几何原本》III.2：弦为什么不能跑到圆外](papers/ancient/euclid-elements-iii2.zh-CN.md)，重建外点反证与圆周分支，补齐直径退化，并以精确平方余量核验严格内点条件，附真实实跑及独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -201,6 +201,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.13精读](papers/ancient/euclid-elements-ii13.zh-CN.md) | AI推理前史补读：内投影、平方差、前提域与分支证明 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.14精读](papers/ancient/euclid-elements-ii14.zh-CN.md) | AI推理前史补读：等积化方、半圆见证、分支资格与平方根表示 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.1精读](papers/ancient/euclid-elements-iii1.zh-CN.md) | AI推理前史补读：圆心构造、存在与唯一、点序分支及约束认证 | 深读v1 · 完整命题与推论、评注分层、精确复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.2精读](papers/ancient/euclid-elements-iii2.zh-CN.md) | AI推理前史补读：弦内点、严格性、反证与退化分支 | 深读v1 · 完整命题、评注分层、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1691,3 +1692,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### Euclid《几何原本》III.1：圆心构造
 
 [中文深读](papers/ancient/euclid-elements-iii1.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii1/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii1/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii1/README.md)。完整命题及推论，区分原文、Heath评注与教学补证；补齐共线候选、唯一性、直径零射线和交点存在前提，并校正译注交叉引用。23单测三模式、240组构形、5算例；Notebook五格实际compile/exec及独立回放，非kernel。恢复接口不接收已知圆心；不实现任意求交，不以四点认证未知圆周，不以有限实跑证明一般定理。本单元完成，既有暂缓不变。
+
+### Euclid《几何原本》III.2：圆弦的严格内部
+
+[中文深读](papers/ancient/euclid-elements-iii2.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii2/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii2/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii2/README.md)。完整III.2与Heath评注分层，重建I.5/I.16/I.19链、补圆周分支和直径零射线，区分开线段、端点与延长线。23单测三模式、每模式900网格及5算例；Notebook五格compile/exec与独立回放，非kernel。有限有理证书不替代一般证明，不实现一般求交或未知圆周认证。本单元完成，既有暂缓不变。
