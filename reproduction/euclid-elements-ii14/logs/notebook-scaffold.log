@@ -1,0 +1,3 @@
+COMMAND: python -B create_notebook.py
+Notebook scaffold: 5 code cells; standard-library fallback, not installed helper.
+EXIT_CODE: 0

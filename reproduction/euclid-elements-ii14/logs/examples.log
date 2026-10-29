@@ -1,0 +1,12 @@
+COMMAND: python -B run_examples.py
+integer square area : semicircle area = 36 side² = 36
+irrational side : semicircle area = 2 side² = 2
+equal rectangle : already_square area = 9 side² = 9
+rational sides : semicircle area = 1 side² = 1
+swapped : semicircle area = 36 side² = 36
+tiny positive : semicircle area = 1/100000 side² = 1/100000
+near equal : semicircle area = 1000000000000000000000000000001/1000000000000000000000000000000 side² = 1000000000000000000000000000001/1000000000000000000000000000000
+extreme ratio : semicircle area = 1 side² = 1
+sqrt(2), 16 bisections: 11585/8192 <= sqrt(2) <= 46341/32768 width = 1/32768
+PASS: 8 named examples and 1 root enclosure; finite checks, not a theorem proof.
+EXIT_CODE: 0

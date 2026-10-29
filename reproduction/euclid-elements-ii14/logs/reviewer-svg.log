@@ -1,0 +1,3 @@
+PASS: rectangle 360x160 and square 240x240, equal areas 57600 px²; same 40 px/unit.
+PASS: B,G,E,F,H coordinates; midpoint radius 260 px and circle membership.
+Fixed-example XML metric check, not a general construction verifier.

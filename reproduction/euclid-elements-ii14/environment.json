@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "dependencies": "Python standard library only",
+  "notebook_execution": "compile/exec, not Jupyter kernel",
+  "scaffold": "installed skill read; local helper unavailable; fallback JSON generator"
+}

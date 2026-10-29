@@ -1,0 +1,30 @@
+[
+  {
+    "step": "tests-normal",
+    "exit_code": 0
+  },
+  {
+    "step": "tests-O",
+    "exit_code": 0
+  },
+  {
+    "step": "tests-OO",
+    "exit_code": 0
+  },
+  {
+    "step": "examples",
+    "exit_code": 0
+  },
+  {
+    "step": "figure",
+    "exit_code": 0
+  },
+  {
+    "step": "notebook-scaffold",
+    "exit_code": 0
+  },
+  {
+    "step": "notebook-replay",
+    "exit_code": 0
+  }
+]

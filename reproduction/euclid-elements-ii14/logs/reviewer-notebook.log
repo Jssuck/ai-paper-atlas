@@ -1,0 +1,6 @@
+CELL 1: saved output equals fresh compile/exec output
+CELL 2: saved output equals fresh compile/exec output
+CELL 3: saved output equals fresh compile/exec output
+CELL 4: saved output equals fresh compile/exec output
+CELL 5: saved output equals fresh compile/exec output
+PASS: five read-only cell replays; no Jupyter kernel started.

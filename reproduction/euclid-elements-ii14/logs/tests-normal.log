@@ -1,0 +1,30 @@
+COMMAND: python -B -m unittest -v test_geometry
+test_equal_branch (test_geometry.ConstructionTests.test_equal_branch) ... ok
+test_extreme_ratio (test_geometry.ConstructionTests.test_extreme_ratio) ... ok
+test_grid (test_geometry.ConstructionTests.test_grid) ... ok
+test_invalid_lengths (test_geometry.ConstructionTests.test_invalid_lengths) ... ok
+test_irrational_side (test_geometry.ConstructionTests.test_irrational_side) ... ok
+test_near_equal (test_geometry.ConstructionTests.test_near_equal) ... ok
+test_nonpositive (test_geometry.ConstructionTests.test_nonpositive) ... ok
+test_order_and_circle (test_geometry.ConstructionTests.test_order_and_circle) ... ok
+test_rational (test_geometry.ConstructionTests.test_rational) ... ok
+test_scaling (test_geometry.ConstructionTests.test_scaling) ... ok
+test_swapped (test_geometry.ConstructionTests.test_swapped) ... ok
+test_tiny_area (test_geometry.ConstructionTests.test_tiny_area) ... ok
+test_unequal_integer (test_geometry.ConstructionTests.test_unequal_integer) ... ok
+test_wrong_arithmetic_mean (test_geometry.ConstructionTests.test_wrong_arithmetic_mean) ... ok
+test_wrong_half_difference_as_side (test_geometry.ConstructionTests.test_wrong_half_difference_as_side) ... ok
+test_wrong_total_semicircle (test_geometry.ConstructionTests.test_wrong_total_semicircle) ... ok
+test_exact_root (test_geometry.RootTests.test_exact_root) ... ok
+test_false_interval (test_geometry.RootTests.test_false_interval) ... ok
+test_initial_bracket (test_geometry.RootTests.test_initial_bracket) ... ok
+test_invalid_radicand (test_geometry.RootTests.test_invalid_radicand) ... ok
+test_invalid_steps (test_geometry.RootTests.test_invalid_steps) ... ok
+test_no_float_endpoints (test_geometry.RootTests.test_no_float_endpoints) ... ok
+test_width_bound (test_geometry.RootTests.test_width_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.010s
+
+OK
+EXIT_CODE: 0

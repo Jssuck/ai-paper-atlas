@@ -1,0 +1,22 @@
+COMMAND: python -B verify_notebook.py
+CELL 1: PASS
+semicircle area = 36 EH² = 36
+CELL 2: PASS
+II.5: 36 + 25/4 = 169/4
+I.47: 36 + 25/4 = 169/4
+checks: {'II5': True, 'I47': True, 'equal_area': True, 'strict_intersection': True, 'order': True}
+CELL 3: PASS
+{'branch': 'already_square', 'L': Fraction(7, 3), 'S': Fraction(7, 3), 'area': Fraction(49, 9), 'side_squared': Fraction(49, 9), 'side': Fraction(7, 3), 'checks': {'square_area': True}}
+swap invariant: True
+CELL 4: PASS
+11585/8192 <= sqrt(2) <= 46341/32768
+width = 1/32768 postcondition: True
+CELL 5: PASS
+extreme ratio: 1
+wrong GE²: 25/4 != 36
+ValueError a must be strictly positive
+ValueError a must be strictly positive
+TypeError a must be int or Fraction, not bool or approximate input
+TypeError a must be int or Fraction, not bool or approximate input
+PASS: 5 code cells; compile/exec replay, not kernel execution.
+EXIT_CODE: 0
