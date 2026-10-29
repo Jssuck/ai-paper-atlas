@@ -1,0 +1,19 @@
+command: python  independent_check.py
+Python 3.12.14
+{
+  "status": "pass",
+  "checks": {
+    "independent_certificates": 900,
+    "diameter_certificates": 180,
+    "independent_radius_comparisons": 3600,
+    "independent_geometry_comparisons": 2700,
+    "tampered_certificates_rejected": 12600,
+    "genuine_reflection_certificates": 180,
+    "invalid_recovery_rejected": 106,
+    "malformed_certificates_rejected": 130,
+    "collinear_noncenter_counterexamples": 8,
+    "extreme_exact_cases": 2
+  },
+  "scope": "Exact rational supplied-point model; not circle-intersection, image recognition, or a general proof."
+}
+exit_code: 0

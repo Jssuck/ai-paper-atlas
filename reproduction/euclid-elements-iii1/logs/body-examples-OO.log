@@ -1,0 +1,8 @@
+command: python -OO body_examples_check.py
+Python 3.12.14
+{
+  "status": "pass",
+  "groups": 10,
+  "scope": "Article sections 7.1–7.4 and parallel-chord counterexample; finite checks only."
+}
+exit_code: 0

@@ -1,0 +1,15 @@
+COMMAND: python -B verify_notebook.py
+cell 1: passed
+D = (Fraction(0, 1), Fraction(4, 1)) F = (Fraction(0, 1), Fraction(0, 1)) radius squared = 25
+cell 2: passed
+radii squared: [Fraction(25, 1), Fraction(25, 1), Fraction(25, 1), Fraction(25, 1)]
+D is not center: True certificate: True
+cell 3: passed
+diameter D = F: True
+cell 4: passed
+transformed F = (Fraction(3, 1), Fraction(-7, 1)) radius squared = 25
+cell 5: passed
+wrong center accepted: False
+ValueError four supplied points must lie on the recovered circle
+TypeError coordinates must be int or Fraction, not bool/float
+EXIT_CODE: 0

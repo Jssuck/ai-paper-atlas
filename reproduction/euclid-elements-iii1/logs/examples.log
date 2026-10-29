@@ -1,0 +1,7 @@
+COMMAND: python -B run_examples.py
+upper chord D= (Fraction(0, 1), Fraction(4, 1)) F= (Fraction(0, 1), Fraction(0, 1)) radius_squared= 25 branch= non-diameter valid= True
+diameter D= (Fraction(0, 1), Fraction(0, 1)) F= (Fraction(0, 1), Fraction(0, 1)) radius_squared= 25 branch= diameter valid= True
+lower chord D= (Fraction(0, 1), Fraction(-4, 1)) F= (Fraction(0, 1), Fraction(0, 1)) radius_squared= 25 branch= non-diameter valid= True
+rotated translated D= (Fraction(-1, 5), Fraction(-23, 5)) F= (Fraction(3, 1), Fraction(-7, 1)) radius_squared= 25 branch= non-diameter valid= True
+small negative scale D= (Fraction(1, 2), Fraction(-8, 3)) F= (Fraction(1, 2), Fraction(-4, 3)) radius_squared= 25/9 branch= non-diameter valid= True
+EXIT_CODE: 0

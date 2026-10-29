@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》II.14：把面积变成一条可构造的边](papers/ancient/euclid-elements-ii14.zh-CN.md)，接合I.45、II.5与I.47，区分等边退化分支、正根表示及一般直线形归约边界，并附精确实跑与独立双审。
+最新补读：[《几何原本》III.1：圆心存在，不等于已经找到圆心](papers/ancient/euclid-elements-iii1.zh-CN.md)，从弦中点与垂线逐步定位唯一圆心，补齐线上候选、直径分支和交点前提，并附精确实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -200,6 +200,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.12精读](papers/ancient/euclid-elements-ii12.zh-CN.md) | AI推理前史补读：外投影、共同高度、两次勾股与严格差额 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.13精读](papers/ancient/euclid-elements-ii13.zh-CN.md) | AI推理前史补读：内投影、平方差、前提域与分支证明 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.14精读](papers/ancient/euclid-elements-ii14.zh-CN.md) | AI推理前史补读：等积化方、半圆见证、分支资格与平方根表示 | 深读v1 · 完整命题与评注分层、精确复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.1精读](papers/ancient/euclid-elements-iii1.zh-CN.md) | AI推理前史补读：圆心构造、存在与唯一、点序分支及约束认证 | 深读v1 · 完整命题与推论、评注分层、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1685,3 +1686,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 补读：Euclid《几何原本》II.14
 
 [中文深读](papers/ancient/euclid-elements-ii14.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii14/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii14/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii14/README.md)。完整II.14与Heath评注分层；以I.45的等积矩形为输入，重建II.5、半径、I.47和等量消去，保留等边直接完成分支。23单测三模式、400有理矩形网格、8算例与根区间；Notebook五格标准库compile/exec与独立只读回放，非kernel。不声称实现任意多边形I.45构造或用有限实跑证明一般定理。本单元完成，既有暂缓不变。
+
+
+### Euclid《几何原本》III.1：圆心构造
+
+[中文深读](papers/ancient/euclid-elements-iii1.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii1/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii1/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii1/README.md)。完整命题及推论，区分原文、Heath评注与教学补证；补齐共线候选、唯一性、直径零射线和交点存在前提，并校正译注交叉引用。23单测三模式、240组构形、5算例；Notebook五格实际compile/exec及独立回放，非kernel。恢复接口不接收已知圆心；不实现任意求交，不以四点认证未知圆周，不以有限实跑证明一般定理。本单元完成，既有暂缓不变。

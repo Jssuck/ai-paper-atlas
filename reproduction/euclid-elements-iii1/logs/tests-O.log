@@ -1,0 +1,30 @@
+COMMAND: python -B -O test_geometry.py
+test_bool_tamper (__main__.GeometryTests.test_bool_tamper) ... ok
+test_coordinate_types (__main__.GeometryTests.test_coordinate_types) ... ok
+test_d_endpoint (__main__.GeometryTests.test_d_endpoint) ... ok
+test_d_outside (__main__.GeometryTests.test_d_outside) ... ok
+test_diameter (__main__.GeometryTests.test_diameter) ... ok
+test_extreme_exact (__main__.GeometryTests.test_extreme_exact) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_lower (__main__.GeometryTests.test_lower) ... ok
+test_malformed_certificate (__main__.GeometryTests.test_malformed_certificate) ... ok
+test_non_diameter (__main__.GeometryTests.test_non_diameter) ... ok
+test_not_circular (__main__.GeometryTests.test_not_circular) ... ok
+test_not_collinear (__main__.GeometryTests.test_not_collinear) ... ok
+test_not_perpendicular (__main__.GeometryTests.test_not_perpendicular) ... ok
+test_point_shape (__main__.GeometryTests.test_point_shape) ... ok
+test_repeated_a (__main__.GeometryTests.test_repeated_a) ... ok
+test_repeated_c (__main__.GeometryTests.test_repeated_c) ... ok
+test_swapped_ab (__main__.GeometryTests.test_swapped_ab) ... ok
+test_swapped_ce (__main__.GeometryTests.test_swapped_ce) ... ok
+test_transform_invalid (__main__.GeometryTests.test_transform_invalid) ... ok
+test_wrong_branch (__main__.GeometryTests.test_wrong_branch) ... ok
+test_wrong_center (__main__.GeometryTests.test_wrong_center) ... ok
+test_wrong_midpoint (__main__.GeometryTests.test_wrong_midpoint) ... ok
+test_wrong_radius (__main__.GeometryTests.test_wrong_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.043s
+
+OK
+EXIT_CODE: 0

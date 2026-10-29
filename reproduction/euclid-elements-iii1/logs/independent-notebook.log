@@ -1,0 +1,14 @@
+command: python -B independent_notebook.py
+Python 3.12.14
+cell 1: pass; saved stdout matches
+cell 2: pass; saved stdout matches
+cell 3: pass; saved stdout matches
+cell 4: pass; saved stdout matches
+cell 5: pass; saved stdout matches
+{
+  "code_cells": 5,
+  "status": "pass",
+  "method": "independent standard-library compile/exec; no Jupyter kernel",
+  "notebook_sha256": "38db86b8b5903dbb371df9b5471446bd291c3c2c2f2e87dc99aab38c7751fa4a"
+}
+exit_code: 0

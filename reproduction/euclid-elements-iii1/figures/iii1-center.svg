@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500">
+<rect width="920" height="500" fill="#fff"/>
+<style>text{font:16px sans-serif;fill:#182d42}.label{font-weight:bold}</style>
+<text x="30" y="30">Euclid III.1: two midpoints, one recovered center</text>
+<circle cx="240" cy="260" r="180" fill="#edf6fc" stroke="#1d5274" stroke-width="2"/>
+<path d="M132,116 L348,116 M240,80 L240,440" fill="none" stroke="#c05c25" stroke-width="2.5"/>
+<circle cx="132" cy="116" r="4" fill="#182d42"/><text class="label" x="109" y="108">A</text>
+<circle cx="348" cy="116" r="4" fill="#182d42"/><text class="label" x="357" y="108">B</text>
+<circle cx="240" cy="80" r="4" fill="#182d42"/><text class="label" x="249" y="72">C</text>
+<circle cx="240" cy="440" r="4" fill="#182d42"/><text class="label" x="249" y="458">E</text>
+<circle cx="240" cy="260" r="4" fill="#182d42"/><text class="label" x="250" y="282">F</text>
+<circle cx="240" cy="116" r="4" fill="#182d42"/><text class="label" x="250" y="107">D</text>
+<path d="M252,116 v12 h-12" fill="none" stroke="#1d5274"/>
+<text x="60" y="480">Non-diameter branch: D differs from F</text>
+<circle cx="690" cy="260" r="180" fill="#edf6fc" stroke="#1d5274" stroke-width="2"/>
+<path d="M510,260 L870,260 M690,80 L690,440" fill="none" stroke="#c05c25" stroke-width="2.5"/>
+<circle cx="510" cy="260" r="4" fill="#182d42"/><text class="label" x="487" y="252">A</text>
+<circle cx="870" cy="260" r="4" fill="#182d42"/><text class="label" x="879" y="252">B</text>
+<circle cx="690" cy="80" r="4" fill="#182d42"/><text class="label" x="699" y="72">C</text>
+<circle cx="690" cy="440" r="4" fill="#182d42"/><text class="label" x="699" y="458">E</text>
+<circle cx="690" cy="260" r="4" fill="#182d42"/><text class="label" x="700" y="282">D = F</text>
+<path d="M702,260 v12 h-12" fill="none" stroke="#1d5274"/>
+<text x="510" y="480">Diameter branch: D = F</text>
+</svg>
