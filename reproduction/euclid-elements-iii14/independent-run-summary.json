@@ -1,0 +1,50 @@
+[
+  {
+    "command": "python -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "command": "python run_examples.py",
+    "returncode": 0
+  },
+  {
+    "command": "python verify_notebook.py",
+    "returncode": 0
+  },
+  {
+    "command": "python independent_check.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -O -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "command": "python -O run_examples.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -O verify_notebook.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -O independent_check.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO run_examples.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO verify_notebook.py",
+    "returncode": 0
+  },
+  {
+    "command": "python -OO independent_check.py",
+    "returncode": 0
+  }
+]

@@ -1,0 +1,10 @@
+$ python -O run_examples.py
+equal opposite-side length squared: 64 64 distance squared: 9 9 equivalence: True
+unequal length squared: 64 36 distance squared: 9 16 equivalence: True
+two diameters length squared: 100 100 distance squared: 0 0 equivalence: True
+one diameter length squared: 100 64 distance squared: 0 9 equivalence: True
+different radii counterexample: 64 64 9 0
+degenerate rejected: distinct chord endpoints required
+off-circle rejected: both endpoints must lie on circle
+
+returncode=0

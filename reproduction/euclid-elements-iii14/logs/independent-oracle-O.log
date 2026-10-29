@@ -1,0 +1,5 @@
+$ python -O independent_check.py
+{"chords": 405, "comparisons": 18225, "invalid": 15, "nearest_checks": 2025, "reversals": 405, "tampers": 4860}
+finite independent oracle passed; not a general theorem proof
+
+returncode=0

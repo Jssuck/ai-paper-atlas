@@ -1,0 +1,23 @@
+$ python create_notebook.py
+executed cell 1
+{'a': (Fraction(-4, 1), Fraction(3, 1)), 'b': (Fraction(4, 1), Fraction(3, 1)), 'foot': (Fraction(0, 1), Fraction(3, 1)), 'projection_parameter': Fraction(1, 2), 'length2': Fraction(64, 1), 'distance2': Fraction(9, 1), 'half_length2': Fraction(16, 1), 'radius2': Fraction(25, 1), 'diameter': False}
+executed cell 2
+projection parameter: 1/2
+half chord squared + distance squared: 25
+executed cell 3
+True True True
+False False True
+executed cell 4
+foot: (Fraction(0, 1), Fraction(0, 1)) distance squared: 0
+True
+executed cell 5
+equal opposite-side length squared: 64 64 distance squared: 9 9 equivalence: True
+unequal length squared: 64 36 distance squared: 9 16 equivalence: True
+two diameters length squared: 100 100 distance squared: 0 0 equivalence: True
+one diameter length squared: 100 64 distance squared: 0 9 equivalence: True
+different radii counterexample: 64 64 9 0
+degenerate rejected: distinct chord endpoints required
+off-circle rejected: both endpoints must lie on circle
+5 code cells executed; not a Jupyter kernel
+
+returncode=0

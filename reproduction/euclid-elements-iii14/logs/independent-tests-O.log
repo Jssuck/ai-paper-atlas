@@ -1,0 +1,37 @@
+$ python -O -m unittest -v test_geometry
+grid: 324 chords; 11664 ordered comparisons
+test_bad_point (test_geometry.GeometryTests.test_bad_point) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_cross_circle_counterexample (test_geometry.GeometryTests.test_cross_circle_counterexample) ... ok
+test_diameters (test_geometry.GeometryTests.test_diameters) ... ok
+test_equal (test_geometry.GeometryTests.test_equal) ... ok
+test_equal_circle_translation (test_geometry.GeometryTests.test_equal_circle_translation) ... ok
+test_equal_endpoints (test_geometry.GeometryTests.test_equal_endpoints) ... ok
+test_extra (test_geometry.GeometryTests.test_extra) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_foot (test_geometry.GeometryTests.test_foot) ... ok
+test_fraction (test_geometry.GeometryTests.test_fraction) ... ok
+test_full_length (test_geometry.GeometryTests.test_full_length) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_missing (test_geometry.GeometryTests.test_missing) ... ok
+test_negative_radius (test_geometry.GeometryTests.test_negative_radius) ... ok
+test_off_circle (test_geometry.GeometryTests.test_off_circle) ... ok
+test_one_diameter (test_geometry.GeometryTests.test_one_diameter) ... ok
+test_parameter (test_geometry.GeometryTests.test_parameter) ... ok
+test_pythagoras (test_geometry.GeometryTests.test_pythagoras) ... ok
+test_reflected (test_geometry.GeometryTests.test_reflected) ... ok
+test_reverse (test_geometry.GeometryTests.test_reverse) ... ok
+test_scaled (test_geometry.GeometryTests.test_scaled) ... ok
+test_tamper (test_geometry.GeometryTests.test_tamper) ... ok
+test_translated (test_geometry.GeometryTests.test_translated) ... ok
+test_unequal (test_geometry.GeometryTests.test_unequal) ... ok
+test_validate (test_geometry.GeometryTests.test_validate) ... ok
+test_zero_distance (test_geometry.GeometryTests.test_zero_distance) ... ok
+test_zero_radius (test_geometry.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.037s
+
+OK
+
+returncode=0
