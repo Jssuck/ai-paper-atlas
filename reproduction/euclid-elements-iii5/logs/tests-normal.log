@@ -1,0 +1,29 @@
+test_bool_confusion (test_geometry.GeometryTests.test_bool_confusion) ... ok
+test_canonical_strings (test_geometry.GeometryTests.test_canonical_strings) ... ok
+test_coincident (test_geometry.GeometryTests.test_coincident) ... ok
+test_concentric_disjoint (test_geometry.GeometryTests.test_concentric_disjoint) ... ok
+test_crossing_lower (test_geometry.GeometryTests.test_crossing_lower) ... ok
+test_crossing_upper (test_geometry.GeometryTests.test_crossing_upper) ... ok
+test_exact_types (test_geometry.GeometryTests.test_exact_types) ... ok
+test_external_tangent (test_geometry.GeometryTests.test_external_tangent) ... ok
+test_extra_missing (test_geometry.GeometryTests.test_extra_missing) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_input_tampering (test_geometry.GeometryTests.test_input_tampering) ... ok
+test_internal_tangent (test_geometry.GeometryTests.test_internal_tangent) ... ok
+test_malformed (test_geometry.GeometryTests.test_malformed) ... ok
+test_no_common_point (test_geometry.GeometryTests.test_no_common_point) ... ok
+test_nonconcentric_not_sufficient (test_geometry.GeometryTests.test_nonconcentric_not_sufficient) ... ok
+test_point_on_first_only (test_geometry.GeometryTests.test_point_on_first_only) ... ok
+test_point_on_second_only (test_geometry.GeometryTests.test_point_on_second_only) ... ok
+test_point_shape (test_geometry.GeometryTests.test_point_shape) ... ok
+test_positive_radius (test_geometry.GeometryTests.test_positive_radius) ... ok
+test_rational_radius_squared (test_geometry.GeometryTests.test_rational_radius_squared) ... ok
+test_relation_coincident (test_geometry.GeometryTests.test_relation_coincident) ... ok
+test_swap_symmetry (test_geometry.GeometryTests.test_swap_symmetry) ... ok
+test_tampered_scalar (test_geometry.GeometryTests.test_tampered_scalar) ... ok
+test_transform_controls (test_geometry.GeometryTests.test_transform_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.093s
+
+OK

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480">
+<rect width="1000" height="480" fill="#fafaf8"/>
+<style>text{font-family:Arial,sans-serif;fill:#172536;font-size:17px}.title{font-size:23px;font-weight:bold}.small{font-size:14px}</style>
+<text x="30" y="35" class="title">Euclid III.5: a common point is not a common center</text>
+<circle cx="139" cy="240" r="110" fill="none" stroke="#127e8b" stroke-width="3"/>
+<circle cx="271" cy="240" r="110" fill="none" stroke="#c05632" stroke-width="3"/>
+<circle cx="139" cy="240" r="4" fill="#172536"/>
+<text x="145" y="232" class="small">O1</text>
+<circle cx="271" cy="240" r="4" fill="#172536"/>
+<text x="277" y="232" class="small">O2</text>
+<circle cx="205" cy="152" r="4" fill="#172536"/>
+<text x="211" y="144" class="small">P=(0,4)</text>
+<circle cx="205" cy="328" r="4" fill="#172536"/>
+<text x="211" y="348" class="small">Q=(0,-4)</text>
+<text x="62" y="400">Distinct circles, two common points</text>
+<circle cx="480" cy="240" r="45" fill="none" stroke="#127e8b" stroke-width="3"/>
+<circle cx="570" cy="240" r="45" fill="none" stroke="#c05632" stroke-width="3"/>
+<circle cx="480" cy="240" r="4" fill="#172536"/>
+<text x="486" y="232" class="small">O1</text>
+<circle cx="570" cy="240" r="4" fill="#172536"/>
+<text x="576" y="232" class="small">O2</text>
+<circle cx="525" cy="240" r="4" fill="#172536"/>
+<text x="520" y="222" class="small">P</text>
+<text x="438" y="400">One common point</text>
+<circle cx="820" cy="240" r="92" fill="none" stroke="#127e8b" stroke-width="3"/>
+<circle cx="820" cy="240" r="92" fill="none" stroke="#c05632" stroke-width="3" stroke-dasharray="9 7"/>
+<circle cx="820" cy="240" r="4" fill="#172536"/>
+<text x="826" y="232" class="small">O1=O2</text>
+<circle cx="875.2" cy="166.4" r="4" fill="#172536"/>
+<text x="881.2" y="158.4" class="small">P</text>
+<text x="724" y="400">Coincident: distinctness fails</text>
+<text x="30" y="450" class="small">First panel: radius 5, centers (-3,0),(3,0). Other panels use independent scales. Exact tests do not measure this drawing.</text></svg>

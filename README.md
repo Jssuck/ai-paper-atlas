@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.4：不能互相平分，不等于谁也不能被平分](papers/ancient/euclid-elements-iii4.zh-CN.md)，重建反证与逆否桥步，分清同时平分、仅一弦平分和直径边界，附精确实跑与独立双审。
+最新补读：[《几何原本》III.5：共享一个点，为什么不能共享圆心](papers/ancient/euclid-elements-iii5.zh-CN.md)，拆解半径等式与严格点序，区分不同圆、重合和公共点证书，附精确实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -204,6 +204,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.2精读](papers/ancient/euclid-elements-iii2.zh-CN.md) | AI推理前史补读：弦内点、严格性、反证与退化分支 | 深读v1 · 完整命题、评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.3精读](papers/ancient/euclid-elements-iii3.zh-CN.md) | AI推理前史补读：部分逆命题、全等接口、非零方向与条件认证 | 深读v1 · 完整双向证明、评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.4精读](papers/ancient/euclid-elements-iii4.zh-CN.md) | AI推理前史补读：合取否定、逆否桥步、独立约束与退化边界 | 深读v1 · 完整反证、精确算例与证书复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.5精读](papers/ancient/euclid-elements-iii5.zh-CN.md) | AI推理前史补读：公共见证、对象同一、严格次序与消元必要条件 | 深读v1 · 完整反证、现代补证与精确证书复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1708,3 +1709,7 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 补读：Euclid《几何原本》III.4
 
 [中文深读](papers/ancient/euclid-elements-iii4.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii4/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii4/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii4/README.md)。完整III.4原证与同侧射线教学补足，区分“不同时平分”与“都不平分”，补逆否中的直径中点桥步。24单测三模式、每模式600构形及5算例；Notebook五格compile/exec与独立回放，非kernel。实现有理非平行直线求交和有限证书核查，不实现一般圆线求交；小实验不代替一般证明。本单元完成，既有暂缓不变。
+
+## 补读：Euclid《几何原本》III.5
+
+[中文深读](papers/ancient/euclid-elements-iii5.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii5/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii5/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii5/README.md)。完整III.5原证，明确不同圆和E—F—G严格点序；现代等距集合补证与平方距离消元分层。24单测三模式，每模式600构形、5命名证书及2关系对照；五格Notebook compile/exec与回放，非kernel。公共点证书不判交切类型，不从异心断言相交；有限测试不代替一般证明。本单元完成，既有暂缓不变。

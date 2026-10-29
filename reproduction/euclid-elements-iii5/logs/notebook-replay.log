@@ -1,0 +1,15 @@
+cell 1: passed
+distinct-common-point 36
+cell 2: passed
+crossing_lower distinct-common-point 0 0
+external_tangent distinct-common-point 4 4
+internal_tangent distinct-common-point 30 30
+cell 3: passed
+coincident True False
+concentric-disjoint
+different-centers-unresolved
+cell 4: passed
+original True
+bool replaced by integer False
+cell 5: passed
+verified finite configurations 600
