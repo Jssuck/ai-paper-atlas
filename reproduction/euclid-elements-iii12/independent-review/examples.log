@@ -1,0 +1,14 @@
+$ python run_examples.py
+horizontal {'common_boundary': True, 'interiors_disjoint': True, 'distance2': Fraction(25, 1), 'radius_sum2': Fraction(25, 1), 'cross': Fraction(0, 1), 'projection': Fraction(15, 1), 'strictly_between': True} candidate (Fraction(3, 1), Fraction(0, 1))
+translated rotated {'common_boundary': True, 'interiors_disjoint': True, 'distance2': Fraction(25, 1), 'radius_sum2': Fraction(25, 1), 'cross': Fraction(0, 1), 'projection': Fraction(15, 1), 'strictly_between': True} candidate (Fraction(19, 5), Fraction(-3, 5))
+equal radii vertical {'common_boundary': True, 'interiors_disjoint': True, 'distance2': Fraction(16, 1), 'radius_sum2': Fraction(16, 1), 'cross': Fraction(0, 1), 'projection': Fraction(8, 1), 'strictly_between': True} candidate (Fraction(0, 1), Fraction(2, 1))
+reflected {'common_boundary': True, 'interiors_disjoint': True, 'distance2': Fraction(25, 1), 'radius_sum2': Fraction(25, 1), 'cross': Fraction(0, 1), 'projection': Fraction(15, 1), 'strictly_between': True} candidate (Fraction(-3, 1), Fraction(0, 1))
+secant secant
+expected rejection: disk interiors overlap
+internal internal_tangent
+expected rejection: disk interiors overlap
+separate separate
+expected rejection: not a common boundary point
+grid configurations: 960 each checked in both circle orders
+
+returncode=0

@@ -1,0 +1,23 @@
+$ python independent-review/check.py
+{
+  "accepted_integer_candidates": 36,
+  "candidate_checks": 94864,
+  "classes": {
+    "coincident": 4,
+    "concentric_disjoint": 12,
+    "external_tangent": 72,
+    "internal_tangent": 48,
+    "secant": 1008,
+    "separate": 712,
+    "strictly_nested": 80
+  },
+  "classification_pairs": 1936,
+  "invalid_inputs_rejected": 15,
+  "mutated_contacts_rejected": 216,
+  "prose_examples_checked": 4,
+  "result": "PASS",
+  "scope": "finite exact rational checks, not a proof",
+  "swapped_external_contacts": 72
+}
+
+returncode=0

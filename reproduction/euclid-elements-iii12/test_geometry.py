@@ -1,0 +1,49 @@
+import unittest
+from fractions import Fraction as Q
+from geometry import Circle,relation,verify_contact,contact_candidate,interiors_disjoint,grid,distance2
+class GeometryTests(unittest.TestCase):
+    def setUp(self):self.a=Circle((0,0),3);self.b=Circle((5,0),2)
+    def test_horizontal(self):self.assertTrue(verify_contact(self.a,self.b,(3,0))['strictly_between'])
+    def test_candidate(self):self.assertEqual(contact_candidate(self.a,self.b),(3,0))
+    def test_swap(self):self.assertEqual(contact_candidate(self.b,self.a),(3,0))
+    def test_rotation_translation(self):
+        a=Circle((2,-3),3);b=Circle((5,1),2);self.assertTrue(verify_contact(a,b,(Q(19,5),Q(-3,5)))['strictly_between'])
+    def test_equal_radii(self):self.assertTrue(verify_contact(Circle((0,0),2),Circle((0,4),2),(0,2))['strictly_between'])
+    def test_reflection(self):self.assertEqual(contact_candidate(self.a,Circle((-5,0),2)),(-3,0))
+    def test_small_scale(self):
+        s=Q(1,10**50);self.assertTrue(verify_contact(Circle((0,0),3*s),Circle((5*s,0),2*s),(3*s,0))['strictly_between'])
+    def test_grid(self):self.assertEqual(grid(),960)
+    def test_external(self):self.assertEqual(relation(self.a,self.b),'external_tangent')
+    def test_separate(self):self.assertEqual(relation(self.a,Circle((6,0),2)),'separate')
+    def test_secant(self):self.assertEqual(relation(self.a,Circle((4,0),2)),'secant')
+    def test_internal(self):self.assertEqual(relation(self.a,Circle((1,0),2)),'internal_tangent')
+    def test_nested(self):self.assertEqual(relation(self.a,Circle((Q(1,2),0),2)),'strictly_nested')
+    def test_concentric(self):self.assertEqual(relation(self.a,Circle((0,0),2)),'concentric_disjoint')
+    def test_coincident(self):self.assertEqual(relation(self.a,self.a),'coincident')
+    def test_boundary_not_interior(self):self.assertTrue(interiors_disjoint(self.a,self.b))
+    def test_secant_common_point_rejected(self):
+        with self.assertRaises(ValueError):verify_contact(Circle((0,0),5),Circle((6,0),5),(3,4))
+    def test_internal_common_point_rejected(self):
+        with self.assertRaises(ValueError):verify_contact(self.a,Circle((1,0),2),(3,0))
+    def test_separate_point_rejected(self):
+        with self.assertRaises(ValueError):verify_contact(self.a,Circle((6,0),2),(3,0))
+    def test_wrong_point(self):
+        with self.assertRaises(ValueError):verify_contact(self.a,self.b,(0,3))
+    def test_candidate_rejects_internal(self):
+        with self.assertRaises(ValueError):contact_candidate(self.a,Circle((1,0),2))
+    def test_tiny_gap(self):self.assertEqual(relation(self.a,Circle((5+Q(1,10**50),0),2)),'separate')
+    def test_tiny_overlap(self):self.assertEqual(relation(self.a,Circle((5-Q(1,10**50),0),2)),'secant')
+    def test_zero_radius(self):
+        with self.assertRaises(ValueError):Circle((0,0),0)
+    def test_negative_radius(self):
+        with self.assertRaises(ValueError):Circle((0,0),-1)
+    def test_float_radius(self):
+        with self.assertRaises(TypeError):Circle((0,0),1.0)
+    def test_bool_radius(self):
+        with self.assertRaises(TypeError):Circle((0,0),True)
+    def test_float_coordinate(self):
+        with self.assertRaises(TypeError):Circle((0.0,0),1)
+    def test_bad_dimension(self):
+        with self.assertRaises(ValueError):Circle((0,0,0),1)
+    def test_exact_distance(self):self.assertEqual(distance2((0,0),(Q(3,5),Q(4,5))),1)
+if __name__=='__main__':unittest.main()

@@ -1,0 +1,38 @@
+$ python -OO -m unittest -v test_geometry
+test_bad_dimension (test_geometry.GeometryTests.test_bad_dimension) ... ok
+test_bool_radius (test_geometry.GeometryTests.test_bool_radius) ... ok
+test_boundary_not_interior (test_geometry.GeometryTests.test_boundary_not_interior) ... ok
+test_candidate (test_geometry.GeometryTests.test_candidate) ... ok
+test_candidate_rejects_internal (test_geometry.GeometryTests.test_candidate_rejects_internal) ... ok
+test_coincident (test_geometry.GeometryTests.test_coincident) ... ok
+test_concentric (test_geometry.GeometryTests.test_concentric) ... ok
+test_equal_radii (test_geometry.GeometryTests.test_equal_radii) ... ok
+test_exact_distance (test_geometry.GeometryTests.test_exact_distance) ... ok
+test_external (test_geometry.GeometryTests.test_external) ... ok
+test_float_coordinate (test_geometry.GeometryTests.test_float_coordinate) ... ok
+test_float_radius (test_geometry.GeometryTests.test_float_radius) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_horizontal (test_geometry.GeometryTests.test_horizontal) ... ok
+test_internal (test_geometry.GeometryTests.test_internal) ... ok
+test_internal_common_point_rejected (test_geometry.GeometryTests.test_internal_common_point_rejected) ... ok
+test_negative_radius (test_geometry.GeometryTests.test_negative_radius) ... ok
+test_nested (test_geometry.GeometryTests.test_nested) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_rotation_translation (test_geometry.GeometryTests.test_rotation_translation) ... ok
+test_secant (test_geometry.GeometryTests.test_secant) ... ok
+test_secant_common_point_rejected (test_geometry.GeometryTests.test_secant_common_point_rejected) ... ok
+test_separate (test_geometry.GeometryTests.test_separate) ... ok
+test_separate_point_rejected (test_geometry.GeometryTests.test_separate_point_rejected) ... ok
+test_small_scale (test_geometry.GeometryTests.test_small_scale) ... ok
+test_swap (test_geometry.GeometryTests.test_swap) ... ok
+test_tiny_gap (test_geometry.GeometryTests.test_tiny_gap) ... ok
+test_tiny_overlap (test_geometry.GeometryTests.test_tiny_overlap) ... ok
+test_wrong_point (test_geometry.GeometryTests.test_wrong_point) ... ok
+test_zero_radius (test_geometry.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.123s
+
+OK
+
+returncode=0

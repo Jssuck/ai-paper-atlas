@@ -1,0 +1,32 @@
+[
+  {
+    "name": "tests",
+    "command": "python -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "name": "tests-O",
+    "command": "python -O -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "name": "tests-OO",
+    "command": "python -OO -m unittest -v test_geometry",
+    "returncode": 0
+  },
+  {
+    "name": "examples",
+    "command": "python run_examples.py",
+    "returncode": 0
+  },
+  {
+    "name": "notebook",
+    "command": "python create_notebook.py",
+    "returncode": 0
+  },
+  {
+    "name": "notebook-replay",
+    "command": "python verify_notebook.py",
+    "returncode": 0
+  }
+]

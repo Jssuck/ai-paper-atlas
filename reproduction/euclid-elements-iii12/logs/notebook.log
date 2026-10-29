@@ -1,0 +1,9 @@
+$ python create_notebook.py
+cell 1 executed
+cell 2 executed
+cell 3 executed
+cell 4 executed
+cell 5 executed
+5 code cells saved; non-kernel execution
+
+returncode=0
