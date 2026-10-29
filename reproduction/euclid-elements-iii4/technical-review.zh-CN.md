@@ -28,9 +28,13 @@ Notebook五格顺序compile/exec的独立只读重放与保存stdout完全一致
 
 ## 4 审查绑定
 
-- `papers/ancient/euclid-elements-iii4.zh-CN.md`：`3d48e95fd93ca3dd5b7efe0f58bf04625e04e85a87109dcb46c3f556719c8ea3`
+- `papers/ancient/euclid-elements-iii4.zh-CN.md`：`f8169a29ca2e74dfc9313e1f52a1ec06728b4e68f7981d3132debb1fd9e04ced`
 - `reproduction/euclid-elements-iii4/geometry.py`：`ce5454fbd863e47353225b4b1c90e6828ac818f7ca53fc4dda7da65fafc9be9e`
 - `reproduction/euclid-elements-iii4/test_geometry.py`：`926e95cbe60cef6288eac091c6be0c691b165404dc81cede1fe80bddd4d52894`
 - `reproduction/euclid-elements-iii4/teaching.zh-CN.ipynb`：`4035a261126a362c552dec66efabd0068ba303dced81f449c7edf6a5dedac7aa`
 - `reproduction/euclid-elements-iii4/README.md`：`5072d49aecadc1f5040c66793c17258a0dee3e68d5ef9f2364fbe0fb695514b4`
 - `reproduction/euclid-elements-iii4/independent_check.py`：`e0d1ca9da11093404a5291f5fa2edef88fe34ae4550adabc5b5eaad8dfcb110b`
+
+## 5 显示格式修正复核
+
+最终正文第6节将矩阵写法改为两条标量线性方程，避免Markdown处理矩阵换行转义。已逐式复核：两行系数仍为v、w，行列式仍为Δ=v_xw_y−v_yw_x，Δ非零推出e=0；与原数学论证等价，未修改源码、算例或实验结果。以上正文哈希绑定此修正版；GitHub实际显示由发布验收另行核查。

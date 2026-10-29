@@ -116,12 +116,10 @@ $$
 
 第一式不是神秘公式：把C=m+v/2、A=m−v/2代入，两项共同的平方与四分之一长度项抵消，留下中点偏移与弦方向的点积。另一条弦同理。
 
-若E同时是两个中点，则m=n=E，得到e·v=e·w=0。把v、w作为矩阵的两行，有：
+若E同时是两个中点，则m=n=E，得到e·v=e·w=0。把v、w作为矩阵的两行，其方程逐行写为：
 
 $$
-\begin{pmatrix}v_x&v_y\\w_x&w_y\end{pmatrix}
-\begin{pmatrix}e_x\\e_y\end{pmatrix}
-=\begin{pmatrix}0\\0\end{pmatrix},\qquad
+v_x e_x+v_y e_y=0,\quad w_x e_x+w_y e_y=0,\qquad
 \Delta=v_xw_y-v_yw_x\ne0
 \quad\Longrightarrow\quad e=0.
 $$
