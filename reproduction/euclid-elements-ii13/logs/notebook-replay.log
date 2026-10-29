@@ -1,0 +1,24 @@
+COMMAND: python -B verify_notebook.py
+CELL 1: PASS
+original-domain interior D = (Fraction(2, 1), Fraction(0, 1)) t = 2/5
+CELL 2: PASS
+II.7: 29 = 29
+add AD²: 16
+II.13: 45 = 25 + 20
+{'perpendicular': True, 'II7_algebra': True, 'I47_AB': True, 'I47_AC': True, 'II13': True}
+CELL 3: PASS
+BC² = 2 BD² = 2 BC·BD = 2
+CELL 4: PASS
+all acute original-domain interior t= 2/5 gap= 20
+right C modern-extension at-C t= 1 gap= 50
+obtuse C modern-extension beyond-C t= 7/5 gap= 70
+obtuse A modern-extension interior t= 2/5 gap= 20
+CELL 5: PASS
+tiny projection positive: True
+ValueError selected angle B must be strictly acute
+ValueError selected angle B must be strictly acute
+ValueError nondegenerate triangle required
+TypeError coordinates must be integers or Fractions, not bool/float
+TypeError coordinates must be integers or Fractions, not bool/float
+PASS: 5 code cells; compile/exec replay, not kernel execution.
+EXIT_CODE: 0

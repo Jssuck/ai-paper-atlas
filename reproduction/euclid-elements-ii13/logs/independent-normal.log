@@ -1,0 +1,6 @@
+INTEGER_GRID {'grid_rejected': 1441, 'grid_accepted': 960} total 2401
+RATIONAL_TRANSFORMS 144
+HAND_CERTIFICATES 6
+EXACT_BOUNDARIES 12
+INVALID_TYPES 81
+PASS independent exact checks; optimize= 0

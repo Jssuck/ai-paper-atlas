@@ -1,0 +1,30 @@
+COMMAND: python -B -OO -m unittest -v test_geometry
+test_01_original_interior (test_geometry.ExactGeometryTests.test_01_original_interior) ... ok
+test_02_beyond_c (test_geometry.ExactGeometryTests.test_02_beyond_c) ... ok
+test_03_at_c (test_geometry.ExactGeometryTests.test_03_at_c) ... ok
+test_04_obtuse_a_interior_is_extension (test_geometry.ExactGeometryTests.test_04_obtuse_a_interior_is_extension) ... ok
+test_05_right_a_is_extension (test_geometry.ExactGeometryTests.test_05_right_a_is_extension) ... ok
+test_06_strict_rejects_obtuse_a (test_geometry.ExactGeometryTests.test_06_strict_rejects_obtuse_a) ... ok
+test_07_strict_rejects_endpoint (test_geometry.ExactGeometryTests.test_07_strict_rejects_endpoint) ... ok
+test_08_strict_rejects_external (test_geometry.ExactGeometryTests.test_08_strict_rejects_external) ... ok
+test_09_right_b_rejected (test_geometry.ExactGeometryTests.test_09_right_b_rejected) ... ok
+test_10_obtuse_b_rejected (test_geometry.ExactGeometryTests.test_10_obtuse_b_rejected) ... ok
+test_11_collinear_rejected (test_geometry.ExactGeometryTests.test_11_collinear_rejected) ... ok
+test_12_coincident_rejected (test_geometry.ExactGeometryTests.test_12_coincident_rejected) ... ok
+test_13_bool_rejected (test_geometry.ExactGeometryTests.test_13_bool_rejected) ... ok
+test_14_float_rejected (test_geometry.ExactGeometryTests.test_14_float_rejected) ... ok
+test_15_bad_shape_rejected (test_geometry.ExactGeometryTests.test_15_bad_shape_rejected) ... ok
+test_16_tiny_positive_projection (test_geometry.ExactGeometryTests.test_16_tiny_positive_projection) ... ok
+test_17_translation (test_geometry.ExactGeometryTests.test_17_translation) ... ok
+test_18_rational_rotation (test_geometry.ExactGeometryTests.test_18_rational_rotation) ... ok
+test_19_scale_and_reflection (test_geometry.ExactGeometryTests.test_19_scale_and_reflection) ... ok
+test_20_irrational_lengths_rational_product (test_geometry.ExactGeometryTests.test_20_irrational_lengths_rational_product) ... ok
+test_21_many_rational_triangles (test_geometry.ExactGeometryTests.test_21_many_rational_triangles) ... ok
+test_22_projection_and_pythagoras (test_geometry.ExactGeometryTests.test_22_projection_and_pythagoras) ... ok
+test_23_strict_flag_type (test_geometry.ExactGeometryTests.test_23_strict_flag_type) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.004s
+
+OK
+EXIT_CODE: 0

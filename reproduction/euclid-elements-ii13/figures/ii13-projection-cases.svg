@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Euclid II.13: projection cases and square-area difference</title>
+<desc id="desc">Three triangles with B acute: all-acute interior foot, foot at C, and foot beyond C. Bars show BC squared plus BA squared equals AC squared plus twice BC times BD.</desc>
+<rect width="1200" height="630" fill="#f7f9fc"/>
+<style>text{font-family:Arial,sans-serif;fill:#182d43} .h{font-size:19px;font-weight:bold}.small{font-size:15px}.label{font-size:17px}.base{stroke:#263d52;stroke-width:2;fill:none}.tri{stroke:#184b81;stroke-width:3;fill:#dceafa;fill-opacity:.6}.alt{stroke:#c04a2a;stroke-width:2;stroke-dasharray:6 5}</style>
+<text x="28" y="36" font-size="26" font-weight="bold">Euclid II.13 · the square-area shortfall</text>
+<text x="28" y="65" class="label">BC² + BA² = AC² + 2BC·BD     |     B is strictly acute in every panel</text>
+<text x="28" y="105" class="h">Interior foot · original domain</text>
+<text x="28" y="130" class="small">All three angles acute; t = 2/5</text>
+<path class="tri" d="M28,330 L108,170 L228,330 Z"/>
+<path class="base" d="M28,330 H338"/>
+<path class="alt" d="M108,170 V330"/>
+<path class="base" d="M98,330 v-10 h10"/>
+<text x="102" y="158" class="label">A</text>
+<text x="23" y="354" class="label">B</text>
+<text x="223" y="354" class="label">C</text>
+<text x="103" y="354" class="label">D</text>
+<text x="28" y="385" class="label">BC² + BA² = 45</text>
+<rect x="28" y="397" width="162.0" height="22" fill="#184b81"/>
+<text x="28" y="452" class="label">AC² (25) + 2BC·BD (20)</text>
+<rect x="28" y="465" width="90.0" height="22" fill="#739fc7"/>
+<rect x="118.0" y="465" width="72.0" height="22" fill="#d76b40"/>
+<text x="423" y="105" class="h">Foot at C · modern extension</text>
+<text x="423" y="130" class="small">Angle C right; t = 1</text>
+<path class="tri" d="M423,330 L623,210 L623,330 Z"/>
+<path class="base" d="M423,330 H733"/>
+<path class="alt" d="M623,210 V330"/>
+<path class="base" d="M613,330 v-10 h10"/>
+<text x="617" y="198" class="label">A</text>
+<text x="418" y="354" class="label">B</text>
+<text x="608" y="354" class="label">C=D</text>
+<text x="423" y="385" class="label">BC² + BA² = 59</text>
+<rect x="423" y="397" width="212.4" height="22" fill="#184b81"/>
+<text x="423" y="452" class="label">AC² (9) + 2BC·BD (50)</text>
+<rect x="423" y="465" width="32.4" height="22" fill="#739fc7"/>
+<rect x="455.4" y="465" width="180.0" height="22" fill="#d76b40"/>
+<text x="818" y="105" class="h">Beyond C · modern extension</text>
+<text x="818" y="130" class="small">Angle C obtuse; t = 7/5</text>
+<path class="tri" d="M818,330 L1098,210 L1018,330 Z"/>
+<path class="base" d="M818,330 H1128"/>
+<path class="alt" d="M1098,210 V330"/>
+<path class="base" d="M1088,330 v-10 h10"/>
+<text x="1092" y="198" class="label">A</text>
+<text x="813" y="354" class="label">B</text>
+<text x="1013" y="354" class="label">C</text>
+<text x="1093" y="354" class="label">D</text>
+<text x="818" y="385" class="label">BC² + BA² = 83</text>
+<rect x="818" y="397" width="298.8" height="22" fill="#184b81"/>
+<text x="818" y="452" class="label">AC² (13) + 2BC·BD (70)</text>
+<rect x="818" y="465" width="46.800000000000004" height="22" fill="#739fc7"/>
+<rect x="864.8" y="465" width="252.0" height="22" fill="#d76b40"/>
+<text x="28" y="540" class="label">All area bars use the same scale. Orange = 2BC·BD, not triangle area.</text>
+<text x="28" y="570" class="small">Original proof (interior division): II.7 → add AD² → I.47 twice. Other panels illustrate a modern algebraic extension.</text>
+<text x="28" y="596" class="small">Interior foot alone does not imply all angles acute. Diagram coordinates: B=(0,0), C=(5,0); A=(2,4), (5,3), (7,3).</text>
+</svg>

@@ -1,0 +1,11 @@
+table acute: exact match
+table obtuse A: exact match
+table right C: exact match
+table obtuse C: exact match
+table right B: correct rejection
+table obtuse B: correct rejection
+collinear: correct rejection
+zero base: correct rejection
+tiny full acute: exact match
+exercise 4: exact match
+PASS: 10 article input cases; 2 wrong-segment arithmetic comparisons.

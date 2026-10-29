@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》II.12：钝角多出的面积从哪里来](papers/ancient/euclid-elements-ii12.zh-CN.md)，重建外垂足位置、II.4与两次I.47的衔接，纠正辅助网页公式并附精确实跑和独立双审。
+最新补读：[《几何原本》II.13：锐角少掉的面积与定理的适用范围](papers/ancient/euclid-elements-ii13.zh-CN.md)，重建II.7与两次I.47，区分全锐原域、所选锐角推广及端点退化，并附精确实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -198,6 +198,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.10精读](papers/ancient/euclid-elements-ii10.zh-CN.md) | AI推理前史补读：外延相交资格、四次勾股、共同证书与边径递推 | 深读v1 · 完整命题与历史评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.11精读](papers/ancient/euclid-elements-ii11.zh-CN.md) | AI推理前史补读：内点构造、两次面积消去、根式与证书范围 | 深读v1 · 完整命题与历史评注分层、精确复现 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.12精读](papers/ancient/euclid-elements-ii12.zh-CN.md) | AI推理前史补读：外投影、共同高度、两次勾股与严格差额 | 深读v1 · 完整命题与评注分层、精确复现 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》II.13精读](papers/ancient/euclid-elements-ii13.zh-CN.md) | AI推理前史补读：内投影、平方差、前提域与分支证明 | 深读v1 · 完整命题与评注分层、精确复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1674,3 +1675,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 补读：Euclid《几何原本》II.12
 
 [中文深读](papers/ancient/euclid-elements-ii12.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii12/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii12/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii12/README.md)。完整II.12与Heath评注分层；补明外垂足位置，逐步重建II.4、同加DB平方与两次I.47，区分现代余弦、网页Guide修正和Heron逆命题。精确有理坐标，20单测三模式、250构形网格、五算例；Notebook五格标准库compile/exec与回放，非kernel。有限实现检验非一般证明或通用证明器。本单元完成，既有暂缓不变。
+
+
+## 补读：Euclid《几何原本》II.13
+
+[中文深读](papers/ancient/euclid-elements-ii13.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-ii13/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-ii13/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-ii13/README.md)。完整II.13与Heath评注分层；重建II.7、同加AD平方与两次I.47，严格区分全锐原域、所选锐角推广及内足/端点/外足分支。精确有理坐标，23单测三模式、54构形遍历、四算例；Notebook五格标准库compile/exec与独立只读回放，非kernel。有限实现检验不替代一般证明。本单元完成，既有暂缓不变。

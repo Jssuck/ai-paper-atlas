@@ -1,0 +1,10 @@
+COMMAND: python -B run_examples.py
+acute triangle: domain=original-domain case=interior t=2/5 D=(Fraction(2, 1), Fraction(0, 1))
+  BC²+BA²=45; AC²=25; 2BC·BD=20; checks=True
+foot at C: domain=modern-extension case=at-C t=1 D=(Fraction(5, 1), Fraction(0, 1))
+  BC²+BA²=59; AC²=9; 2BC·BD=50; checks=True
+foot beyond C: domain=modern-extension case=beyond-C t=7/5 D=(Fraction(7, 1), Fraction(0, 1))
+  BC²+BA²=83; AC²=13; 2BC·BD=70; checks=True
+interior but obtuse A: domain=modern-extension case=interior t=2/5 D=(Fraction(2, 1), Fraction(0, 1))
+  BC²+BA²=30; AC²=10; 2BC·BD=20; checks=True
+EXIT_CODE: 0
