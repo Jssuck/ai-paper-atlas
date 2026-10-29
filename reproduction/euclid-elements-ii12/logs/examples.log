@@ -1,0 +1,9 @@
+$ python run_examples.py
+integer: AB2=13, AC2=25, BC2=58, correction=20
+fractional: AB2=169/225, AC2=9/4, BC2=3601/900, correction=1
+below-line: AB2=13, AC2=25, BC2=58, correction=20
+small-excess: AB2=1000001/1000000, AC2=1, BC2=2002001/1000000, correction=1/500
+irrational-lengths: AC2=2, AD2=2, AC_times_AD=2
+finite examples are not a proof of the general theorem
+
+exit_code=0

@@ -1,0 +1,93 @@
+$ python -m unittest test_geometry -v
+test_acute_rejected (test_geometry.GeometryTests.test_acute_rejected) ... ok
+test_bad_point_rejected (test_geometry.GeometryTests.test_bad_point_rejected) ... ok
+test_collinear_rejected (test_geometry.GeometryTests.test_collinear_rejected) ... ok
+test_float_bool_string_rejected (test_geometry.GeometryTests.test_float_bool_string_rejected) ... ok
+test_fractional_example (test_geometry.GeometryTests.test_fractional_example) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_height_does_not_change_excess (test_geometry.GeometryTests.test_height_does_not_change_excess) ... ok
+test_huge_exact (test_geometry.GeometryTests.test_huge_exact) ... ok
+test_integer_example (test_geometry.GeometryTests.test_integer_example) ... ok
+test_irrational_length_product (test_geometry.GeometryTests.test_irrational_length_product) ... ok
+test_missing_double_counterexample (test_geometry.GeometryTests.test_missing_double_counterexample) ... ok
+test_rational_rotation (test_geometry.GeometryTests.test_rational_rotation) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_repeated_base_rejected (test_geometry.GeometryTests.test_repeated_base_rejected) ... ok
+test_right_boundary_rejected (test_geometry.GeometryTests.test_right_boundary_rejected) ... ok
+test_scale (test_geometry.GeometryTests.test_scale) ... ok
+test_tiny_positive_excess (test_geometry.GeometryTests.test_tiny_positive_excess) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_wrong_sign_counterexample (test_geometry.GeometryTests.test_wrong_sign_counterexample) ... ok
+test_zero_negative_dimensions (test_geometry.GeometryTests.test_zero_negative_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.016s
+
+OK
+exit_code=0
+$ python independent_check.py
+{"accepted_obtuse": 960, "article_hand_examples": 3, "illegal_type_rejections": 69, "integer_point_pairs": 2401, "method": "finite side-square and shoelace oracle; not a universal proof", "near_right_exact_cases": 3, "rejected_nondomain": 1441, "transformed_rational_cases": 216}
+exit_code=0
+$ python -O -m unittest test_geometry -v
+test_acute_rejected (test_geometry.GeometryTests.test_acute_rejected) ... ok
+test_bad_point_rejected (test_geometry.GeometryTests.test_bad_point_rejected) ... ok
+test_collinear_rejected (test_geometry.GeometryTests.test_collinear_rejected) ... ok
+test_float_bool_string_rejected (test_geometry.GeometryTests.test_float_bool_string_rejected) ... ok
+test_fractional_example (test_geometry.GeometryTests.test_fractional_example) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_height_does_not_change_excess (test_geometry.GeometryTests.test_height_does_not_change_excess) ... ok
+test_huge_exact (test_geometry.GeometryTests.test_huge_exact) ... ok
+test_integer_example (test_geometry.GeometryTests.test_integer_example) ... ok
+test_irrational_length_product (test_geometry.GeometryTests.test_irrational_length_product) ... ok
+test_missing_double_counterexample (test_geometry.GeometryTests.test_missing_double_counterexample) ... ok
+test_rational_rotation (test_geometry.GeometryTests.test_rational_rotation) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_repeated_base_rejected (test_geometry.GeometryTests.test_repeated_base_rejected) ... ok
+test_right_boundary_rejected (test_geometry.GeometryTests.test_right_boundary_rejected) ... ok
+test_scale (test_geometry.GeometryTests.test_scale) ... ok
+test_tiny_positive_excess (test_geometry.GeometryTests.test_tiny_positive_excess) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_wrong_sign_counterexample (test_geometry.GeometryTests.test_wrong_sign_counterexample) ... ok
+test_zero_negative_dimensions (test_geometry.GeometryTests.test_zero_negative_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.015s
+
+OK
+exit_code=0
+$ python -O independent_check.py
+{"accepted_obtuse": 960, "article_hand_examples": 3, "illegal_type_rejections": 69, "integer_point_pairs": 2401, "method": "finite side-square and shoelace oracle; not a universal proof", "near_right_exact_cases": 3, "rejected_nondomain": 1441, "transformed_rational_cases": 216}
+exit_code=0
+$ python -OO -m unittest test_geometry -v
+test_acute_rejected (test_geometry.GeometryTests.test_acute_rejected) ... ok
+test_bad_point_rejected (test_geometry.GeometryTests.test_bad_point_rejected) ... ok
+test_collinear_rejected (test_geometry.GeometryTests.test_collinear_rejected) ... ok
+test_float_bool_string_rejected (test_geometry.GeometryTests.test_float_bool_string_rejected) ... ok
+test_fractional_example (test_geometry.GeometryTests.test_fractional_example) ... ok
+test_grid (test_geometry.GeometryTests.test_grid) ... ok
+test_height_does_not_change_excess (test_geometry.GeometryTests.test_height_does_not_change_excess) ... ok
+test_huge_exact (test_geometry.GeometryTests.test_huge_exact) ... ok
+test_integer_example (test_geometry.GeometryTests.test_integer_example) ... ok
+test_irrational_length_product (test_geometry.GeometryTests.test_irrational_length_product) ... ok
+test_missing_double_counterexample (test_geometry.GeometryTests.test_missing_double_counterexample) ... ok
+test_rational_rotation (test_geometry.GeometryTests.test_rational_rotation) ... ok
+test_reflection (test_geometry.GeometryTests.test_reflection) ... ok
+test_repeated_base_rejected (test_geometry.GeometryTests.test_repeated_base_rejected) ... ok
+test_right_boundary_rejected (test_geometry.GeometryTests.test_right_boundary_rejected) ... ok
+test_scale (test_geometry.GeometryTests.test_scale) ... ok
+test_tiny_positive_excess (test_geometry.GeometryTests.test_tiny_positive_excess) ... ok
+test_translation (test_geometry.GeometryTests.test_translation) ... ok
+test_wrong_sign_counterexample (test_geometry.GeometryTests.test_wrong_sign_counterexample) ... ok
+test_zero_negative_dimensions (test_geometry.GeometryTests.test_zero_negative_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.015s
+
+OK
+exit_code=0
+$ python -OO independent_check.py
+{"accepted_obtuse": 960, "article_hand_examples": 3, "illegal_type_rejections": 69, "integer_point_pairs": 2401, "method": "finite side-square and shoelace oracle; not a universal proof", "near_right_exact_cases": 3, "rejected_nondomain": 1441, "transformed_rational_cases": 216}
+exit_code=0
+$ python verify_notebook.py
+{"code_cells": 5, "outputs_match": true, "method": "fresh namespace compile/exec", "kernel_started": false}
+exit_code=0
