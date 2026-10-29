@@ -1,0 +1,29 @@
+test_01_examples (test_geometry.Tests.test_01_examples) ... ok
+test_02_neither (test_geometry.Tests.test_02_neither) ... ok
+test_03_single (test_geometry.Tests.test_03_single) ... ok
+test_04_reverse (test_geometry.Tests.test_04_reverse) ... ok
+test_05_one_diameter (test_geometry.Tests.test_05_one_diameter) ... ok
+test_06_two_diameters (test_geometry.Tests.test_06_two_diameters) ... ok
+test_07_expected_E (test_geometry.Tests.test_07_expected_E) ... ok
+test_08_expected_parameters (test_geometry.Tests.test_08_expected_parameters) ... ok
+test_09_scalar_float (test_geometry.Tests.test_09_scalar_float) ... ok
+test_10_scalar_bool (test_geometry.Tests.test_10_scalar_bool) ... ok
+test_11_scalar_bad (test_geometry.Tests.test_11_scalar_bad) ... ok
+test_12_scalar_canonical (test_geometry.Tests.test_12_scalar_canonical) ... ok
+test_13_point (test_geometry.Tests.test_13_point) ... ok
+test_14_radius (test_geometry.Tests.test_14_radius) ... ok
+test_15_offcircle (test_geometry.Tests.test_15_offcircle) ... ok
+test_16_zerochord (test_geometry.Tests.test_16_zerochord) ... ok
+test_17_parallel (test_geometry.Tests.test_17_parallel) ... ok
+test_18_endpoint (test_geometry.Tests.test_18_endpoint) ... ok
+test_19_tamper (test_geometry.Tests.test_19_tamper) ... ok
+test_20_bool_integer (test_geometry.Tests.test_20_bool_integer) ... ok
+test_21_extra_missing (test_geometry.Tests.test_21_extra_missing) ... ok
+test_22_transform (test_geometry.Tests.test_22_transform) ... ok
+test_23_grid (test_geometry.Tests.test_23_grid) ... ok
+test_24_residuals (test_geometry.Tests.test_24_residuals) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.131s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "method": "independent exact line-equation intersection and midpoint arithmetic; finite checks only",
+  "valid_certificates": 630,
+  "theorem_scope": 465,
+  "both_midpoints": 18,
+  "tampered_rejected": 13230,
+  "invalid_inputs_rejected": 68,
+  "malformed_certificates_rejected": 29,
+  "manual_checks": 7,
+  "passed": true
+}

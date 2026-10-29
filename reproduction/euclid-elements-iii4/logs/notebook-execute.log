@@ -1,0 +1,21 @@
+cell 1: passed
+named examples: 5
+all valid: True
+cell 2: passed
+E: ['0', '3']
+parameters: 1/2 5/13
+midpoints: True False
+original domain: True
+cell 3: passed
+direction determinant: -104/5
+center residuals: 0 -39/5
+EB squared: 10
+ED squared: 128/5
+cell 4: passed
+both midpoints: True
+at center: True
+original domain: False
+cell 5: passed
+finite cases: 600
+valid: True
+both-midpoint cases: 120

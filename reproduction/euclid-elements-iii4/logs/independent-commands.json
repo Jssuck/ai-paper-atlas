@@ -1,0 +1,40 @@
+{
+  "python": "3.12.14",
+  "commands": [
+    {
+      "command": "python3 independent_check.py",
+      "output": "logs/independent-normal.json",
+      "returncode": 0
+    },
+    {
+      "command": "python3 -m unittest -v test_geometry",
+      "output": "logs/review-tests-normal.log",
+      "returncode": 0
+    },
+    {
+      "command": "python3 -O independent_check.py",
+      "output": "logs/independent-O.json",
+      "returncode": 0
+    },
+    {
+      "command": "python3 -O -m unittest -v test_geometry",
+      "output": "logs/review-tests-O.log",
+      "returncode": 0
+    },
+    {
+      "command": "python3 -OO independent_check.py",
+      "output": "logs/independent-OO.json",
+      "returncode": 0
+    },
+    {
+      "command": "python3 -OO -m unittest -v test_geometry",
+      "output": "logs/review-tests-OO.log",
+      "returncode": 0
+    },
+    {
+      "command": "python3 verify_notebook.py --read-only",
+      "output": "logs/review-notebook.log",
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "examples": {
+    "neither_midpoint": {
+      "input": {
+        "O": [
+          "0",
+          "0"
+        ],
+        "r2": "25",
+        "A": [
+          "-4",
+          "3"
+        ],
+        "C": [
+          "4",
+          "3"
+        ],
+        "B": [
+          "3",
+          "4"
+        ],
+        "D": [
+          "3",
+          "-4"
+        ]
+      },
+      "E": [
+        "3",
+        "3"
+      ],
+      "t": "7/8",
+      "u": "1/8",
+      "det": "-64",
+      "dot_v": "24",
+      "dot_w": "-24",
+      "midpoint_AC": false,
+      "midpoint_BD": false,
+      "diameter_AC": false,
+      "diameter_BD": false,
+      "theorem_applies": true,
+      "both_midpoints": false,
+      "at_center": false
+    },
+    "only_AC_midpoint": {
+      "input": {
+        "O": [
+          "0",
+          "0"
+        ],
+        "r2": "25",
+        "A": [
+          "-4",
+          "3"
+        ],
+        "C": [
+          "4",
+          "3"
+        ],
+        "B": [
+          "3",
+          "4"
+        ],
+        "D": [
+          "-24/5",
+          "7/5"
+        ]
+      },
+      "E": [
+        "0",
+        "3"
+      ],
+      "t": "1/2",
+      "u": "5/13",
+      "det": "-104/5",
+      "dot_v": "0",
+      "dot_w": "-39/5",
+      "midpoint_AC": true,
+      "midpoint_BD": false,
+      "diameter_AC": false,
+      "diameter_BD": false,
+      "theorem_applies": true,
+      "both_midpoints": false,
+      "at_center": false
+    },
+    "only_BD_midpoint": {
+      "input": {
+        "O": [
+          "0",
+          "0"
+        ],
+        "r2": "25",
+        "A": [
+          "3",
+          "4"
+        ],
+        "C": [
+          "-24/5",
+          "7/5"
+        ],
+        "B": [
+          "-4",
+          "3"
+        ],
+        "D": [
+          "4",
+          "3"
+        ]
+      },
+      "E": [
+        "0",
+        "3"
+      ],
+      "t": "5/13",
+      "u": "1/2",
+      "det": "104/5",
+      "dot_v": "-39/5",
+      "dot_w": "0",
+      "midpoint_AC": false,
+      "midpoint_BD": true,
+      "diameter_AC": false,
+      "diameter_BD": false,
+      "theorem_applies": true,
+      "both_midpoints": false,
+      "at_center": false
+    },
+    "one_diameter": {
+      "input": {
+        "O": [
+          "0",
+          "0"
+        ],
+        "r2": "25",
+        "A": [
+          "-4",
+          "3"
+        ],
+        "C": [
+          "4",
+          "3"
+        ],
+        "B": [
+          "0",
+          "5"
+        ],
+        "D": [
+          "0",
+          "-5"
+        ]
+      },
+      "E": [
+        "0",
+        "3"
+      ],
+      "t": "1/2",
+      "u": "1/5",
+      "det": "-80",
+      "dot_v": "0",
+      "dot_w": "-30",
+      "midpoint_AC": true,
+      "midpoint_BD": false,
+      "diameter_AC": false,
+      "diameter_BD": true,
+      "theorem_applies": false,
+      "both_midpoints": false,
+      "at_center": false
+    },
+    "two_diameters": {
+      "input": {
+        "O": [
+          "0",
+          "0"
+        ],
+        "r2": "25",
+        "A": [
+          "-5",
+          "0"
+        ],
+        "C": [
+          "5",
+          "0"
+        ],
+        "B": [
+          "3",
+          "4"
+        ],
+        "D": [
+          "-3",
+          "-4"
+        ]
+      },
+      "E": [
+        "0",
+        "0"
+      ],
+      "t": "1/2",
+      "u": "1/2",
+      "det": "-80",
+      "dot_v": "0",
+      "dot_w": "0",
+      "midpoint_AC": true,
+      "midpoint_BD": true,
+      "diameter_AC": true,
+      "diameter_BD": true,
+      "theorem_applies": false,
+      "both_midpoints": true,
+      "at_center": true
+    }
+  },
+  "grid_count": 600,
+  "both_midpoints": 120,
+  "original_domain": 360,
+  "scope": "finite rational teaching instances, not a general proof"
+}
