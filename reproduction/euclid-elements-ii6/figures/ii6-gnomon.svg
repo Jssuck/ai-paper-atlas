@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500">
+<rect width="700" height="500" fill="white"/>
+<text x="35" y="35" font-size="22" font-family="sans-serif">II.6 | a = 3, b = 2</text>
+<polygon points="75.0,410.0 261.0,410.0 261.0,286.0 75.0,286.0" fill="#ffe8b5" stroke="#22334a" stroke-width="2"/>
+<polygon points="261.0,410.0 447.0,410.0 447.0,286.0 261.0,286.0" fill="#ffe8b5" stroke="#22334a" stroke-width="2"/>
+<polygon points="447.0,410.0 571.0,410.0 571.0,286.0 447.0,286.0" fill="#cfeaf5" stroke="#22334a" stroke-width="2"/>
+<polygon points="447.0,286.0 571.0,286.0 571.0,100.0 447.0,100.0" fill="#ffe8b5" stroke="#22334a" stroke-width="2"/>
+<polygon points="261.0,286.0 447.0,286.0 447.0,100.0 261.0,100.0" fill="#dfebd2" stroke="#22334a" stroke-width="2"/>
+<line x1="75.0" y1="410.0" x2="571.0" y2="410.0" stroke="#26374a" stroke-width="2"/>
+<line x1="571.0" y1="410.0" x2="261.0" y2="100.0" stroke="#26374a" stroke-width="2"/>
+<circle cx="75.0" cy="410.0" r="3" fill="#182b44"/><text x="59.0" y="432.0" font-family="sans-serif" font-size="18">A</text>
+<circle cx="261.0" cy="410.0" r="3" fill="#182b44"/><text x="245.0" y="432.0" font-family="sans-serif" font-size="18">C</text>
+<circle cx="447.0" cy="410.0" r="3" fill="#182b44"/><text x="431.0" y="432.0" font-family="sans-serif" font-size="18">B</text>
+<circle cx="571.0" cy="410.0" r="3" fill="#182b44"/><text x="555.0" y="432.0" font-family="sans-serif" font-size="18">D</text>
+<circle cx="261.0" cy="100.0" r="3" fill="#182b44"/><text x="242.0" y="92.0" font-family="sans-serif" font-size="18">E</text>
+<circle cx="571.0" cy="100.0" r="3" fill="#182b44"/><text x="552.0" y="92.0" font-family="sans-serif" font-size="18">F</text>
+<circle cx="447.0" cy="100.0" r="3" fill="#182b44"/><text x="428.0" y="92.0" font-family="sans-serif" font-size="18">G</text>
+<circle cx="447.0" cy="286.0" r="3" fill="#182b44"/><text x="428.0" y="278.0" font-family="sans-serif" font-size="18">H</text>
+<circle cx="75.0" cy="286.0" r="3" fill="#182b44"/><text x="56.0" y="278.0" font-family="sans-serif" font-size="18">K</text>
+<circle cx="261.0" cy="286.0" r="3" fill="#182b44"/><text x="242.0" y="278.0" font-family="sans-serif" font-size="18">L</text>
+<circle cx="571.0" cy="286.0" r="3" fill="#182b44"/><text x="552.0" y="278.0" font-family="sans-serif" font-size="18">M</text>
+<text x="150" y="355" text-anchor="middle" font-family="sans-serif" font-size="17">AL = 6</text>
+<text x="335" y="355" text-anchor="middle" font-family="sans-serif" font-size="17">CH = 6</text>
+<text x="510" y="355" text-anchor="middle" font-family="sans-serif" font-size="17">DM = 4</text>
+<text x="510" y="205" text-anchor="middle" font-family="sans-serif" font-size="17">HF = 6</text>
+<text x="335" y="205" text-anchor="middle" font-family="sans-serif" font-size="17">LG = 9</text>
+<text x="35" y="475" font-size="17" font-family="sans-serif">AM = CM + HF = 16; 16 + LG = 25. H lies on DE.</text></svg>

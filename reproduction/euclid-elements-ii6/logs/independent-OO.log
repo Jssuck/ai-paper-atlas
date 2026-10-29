@@ -1,0 +1,4 @@
+$ python -OO independent_check.py
+{"area_comparisons": 2160, "invalid_inputs_rejected": 83, "status": "passed", "tampered_certificates_rejected": 8400, "valid_configurations": 240}
+
+exit_code=0

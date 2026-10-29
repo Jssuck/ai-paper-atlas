@@ -1,0 +1,28 @@
+$ python -OO -m unittest test_geometry -v
+test_01_default (test_geometry.GeometryTests.test_01_default) ... ok
+test_02_grid (test_geometry.GeometryTests.test_02_grid) ... ok
+test_03_fraction (test_geometry.GeometryTests.test_03_fraction) ... ok
+test_04_rotation (test_geometry.GeometryTests.test_04_rotation) ... ok
+test_05_reflection (test_geometry.GeometryTests.test_05_reflection) ... ok
+test_06_translation (test_geometry.GeometryTests.test_06_translation) ... ok
+test_07_a_zero (test_geometry.GeometryTests.test_07_a_zero) ... ok
+test_08_b_zero (test_geometry.GeometryTests.test_08_b_zero) ... ok
+test_09_negative (test_geometry.GeometryTests.test_09_negative) ... ok
+test_10_float (test_geometry.GeometryTests.test_10_float) ... ok
+test_11_boolean (test_geometry.GeometryTests.test_11_boolean) ... ok
+test_12_basis (test_geometry.GeometryTests.test_12_basis) ... ok
+test_13_oblique (test_geometry.GeometryTests.test_13_oblique) ... ok
+test_14_unequal (test_geometry.GeometryTests.test_14_unequal) ... ok
+test_15_tamper_all (test_geometry.GeometryTests.test_15_tamper_all) ... ok
+test_16_missing (test_geometry.GeometryTests.test_16_missing) ... ok
+test_17_extra (test_geometry.GeometryTests.test_17_extra) ... ok
+test_18_schema (test_geometry.GeometryTests.test_18_schema) ... ok
+test_19_bad_point (test_geometry.GeometryTests.test_19_bad_point) ... ok
+test_20_shoelace (test_geometry.GeometryTests.test_20_shoelace) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.026s
+
+OK
+
+exit_code=0

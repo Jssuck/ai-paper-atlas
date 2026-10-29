@@ -1,0 +1,23 @@
+$ python create_notebook.py
+cell 1:
+a=3, b=2; A-C-B-D
+{'A': (Fraction(0, 1), Fraction(0, 1)), 'C': (Fraction(3, 1), Fraction(0, 1)), 'B': (Fraction(6, 1), Fraction(0, 1)), 'D': (Fraction(8, 1), Fraction(0, 1)), 'E': (Fraction(3, 1), Fraction(5, 1)), 'F': (Fraction(8, 1), Fraction(5, 1)), 'G': (Fraction(6, 1), Fraction(5, 1)), 'H': (Fraction(6, 1), Fraction(2, 1)), 'K': (Fraction(0, 1), Fraction(2, 1)), 'L': (Fraction(3, 1), Fraction(2, 1)), 'M': (Fraction(8, 1), Fraction(2, 1))}
+
+cell 2:
+AL 6
+CH 6
+HF 6
+
+cell 3:
+AM 16 gnomon 16
+16 + 9 = 25
+
+cell 4:
+215/147 + 4/9 = 841/441
+
+cell 5:
+rejected: construction coordinates differ
+
+5 code cells executed with compile/exec; no kernel started
+
+exit_code=0

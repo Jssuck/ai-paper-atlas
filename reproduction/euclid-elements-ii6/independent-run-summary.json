@@ -1,0 +1,44 @@
+{
+  "executed_at_utc": "2026-10-29T00:43:39.338156+00:00",
+  "runs": [
+    {
+      "mode": "normal",
+      "command": "python independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 2160,
+        "invalid_inputs_rejected": 83,
+        "status": "passed",
+        "tampered_certificates_rejected": 8400,
+        "valid_configurations": 240
+      },
+      "log": "logs/independent-normal.log"
+    },
+    {
+      "mode": "O",
+      "command": "python -O independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 2160,
+        "invalid_inputs_rejected": 83,
+        "status": "passed",
+        "tampered_certificates_rejected": 8400,
+        "valid_configurations": 240
+      },
+      "log": "logs/independent-O.log"
+    },
+    {
+      "mode": "OO",
+      "command": "python -OO independent_check.py",
+      "exit_code": 0,
+      "result": {
+        "area_comparisons": 2160,
+        "invalid_inputs_rejected": 83,
+        "status": "passed",
+        "tampered_certificates_rejected": 8400,
+        "valid_configurations": 240
+      },
+      "log": "logs/independent-OO.log"
+    }
+  ]
+}
