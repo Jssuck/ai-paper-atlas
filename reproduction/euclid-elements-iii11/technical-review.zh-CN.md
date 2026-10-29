@@ -4,10 +4,12 @@
 
 在下列明确范围内通过。审查者没有编写正文或 `geometry.py`，独立读取完整正文、实现、作者测试、运行说明和 Notebook，并另写外部核验脚本；不是仅复述作者的通过结果。此处不表示人类专家认证、证明助理形式认证或 GitHub 页面渲染认证。
 
-- [正文](../../papers/ancient/euclid-elements-iii11.zh-CN.md)最终 SHA256：`167363982705b41436dc3a05f2d1a8492ac9f73118956b4314d7b0895a2fb190`。
+- [正文](../../papers/ancient/euclid-elements-iii11.zh-CN.md)最终 SHA256：`9ec27d7c93e3fc463f251e1a8ba5a5711df17f747bb0274ecd354a90c9ded8a3`。
 - [模型](geometry.py) SHA256：`bd93dcbf184335a99b0e74f874b8788a71dec70f5239f7c51593a360737cb64f`。
 - [作者测试](test_geometry.py) SHA256：`9ac954a4496d94cf4fd163498a02df1c43fe7eb3dfa3d651b06a962249e5d5fa`。
 - [Notebook](teaching.zh-CN.ipynb) SHA256：`78ae6ec5d217529ade85ca2a4cc0c15b0377bad1ce95341f0a9a5309c0a965d0`。
+
+排版复核：最终正文仅删除第三个展示公式末端重复的点序标签，保留位置公式及相邻段的严格点序说明。已通过逆向还原并匹配上一审查版本 SHA256，确认无其他正文变更。此次仅重新绑定正文，不声称重新执行测试；以下真实运行证据对应未变的代码与 Notebook。
 
 ## 数学核验
 
