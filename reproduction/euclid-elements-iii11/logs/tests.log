@@ -1,0 +1,34 @@
+$ python -m unittest -v test_geometry
+test_01_contact (test_geometry.GeometryTests.test_01_contact) ... ok
+test_02_candidate (test_geometry.GeometryTests.test_02_candidate) ... ok
+test_03_internal (test_geometry.GeometryTests.test_03_internal) ... ok
+test_04_external (test_geometry.GeometryTests.test_04_external) ... ok
+test_05_secant (test_geometry.GeometryTests.test_05_secant) ... ok
+test_06_separate (test_geometry.GeometryTests.test_06_separate) ... ok
+test_07_nested (test_geometry.GeometryTests.test_07_nested) ... ok
+test_08_concentric (test_geometry.GeometryTests.test_08_concentric) ... ok
+test_09_coincident (test_geometry.GeometryTests.test_09_coincident) ... ok
+test_10_zero (test_geometry.GeometryTests.test_10_zero) ... ok
+test_11_negative (test_geometry.GeometryTests.test_11_negative) ... ok
+test_12_float (test_geometry.GeometryTests.test_12_float) ... ok
+test_13_bool (test_geometry.GeometryTests.test_13_bool) ... ok
+test_14_shape (test_geometry.GeometryTests.test_14_shape) ... ok
+test_15_wrong_point (test_geometry.GeometryTests.test_15_wrong_point) ... ok
+test_16_opposite (test_geometry.GeometryTests.test_16_opposite) ... ok
+test_17_reversed (test_geometry.GeometryTests.test_17_reversed) ... ok
+test_18_equal_radius (test_geometry.GeometryTests.test_18_equal_radius) ... ok
+test_19_external_rejected (test_geometry.GeometryTests.test_19_external_rejected) ... ok
+test_20_secant_rejected (test_geometry.GeometryTests.test_20_secant_rejected) ... ok
+test_21_containment (test_geometry.GeometryTests.test_21_containment) ... ok
+test_22_symmetric_relation (test_geometry.GeometryTests.test_22_symmetric_relation) ... ok
+test_23_rotated (test_geometry.GeometryTests.test_23_rotated) ... ok
+test_24_grid (test_geometry.GeometryTests.test_24_grid) ... ok
+test_25_candidate_rejects (test_geometry.GeometryTests.test_25_candidate_rejects) ... ok
+test_26_no_epsilon (test_geometry.GeometryTests.test_26_no_epsilon) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.058s
+
+OK
+
+returncode=0

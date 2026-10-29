@@ -1,0 +1,9 @@
+$ python3 independent_notebook.py
+code cell 1 source executed and saved stdout matched
+code cell 2 source executed and saved stdout matched
+code cell 3 source executed and saved stdout matched
+code cell 4 source executed and saved stdout matched
+code cell 5 source executed and saved stdout matched
+notebook sha256: 78ae6ec5d217529ade85ca2a4cc0c15b0377bad1ce95341f0a9a5309c0a965d0
+PASS: 5 cells; read-only compile/exec; no Jupyter kernel or full schema validation claimed
+returncode=0

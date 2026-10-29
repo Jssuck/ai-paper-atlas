@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.10：两个圆为何不可能共享第三个点](papers/ancient/euclid-elements-iii10.zh-CN.md)，重建共同弦的独立约束，区分存在、唯一与对象同一，附精确交点分类、真实实跑和独立双审。
+最新补读：[《几何原本》III.11：内切接点与连心线方向](papers/ancient/euclid-elements-iii11.zh-CN.md)，重建三角不等式反证，补全图示次序与共线分支，区分古典接触、现代内含和精确证书，附真实实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -210,6 +210,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.8精读](papers/ancient/euclid-elements-iii8.zh-CN.md) | AI推理前史补读：近远分支、内部条件、视角排序与两种解数 | 深读v1 · 原证缺口、现代补证与有理割线证书复现 |
 | 公元前约300年（实读1908/2008版本） | [Euclid《几何原本》III.9精读](papers/ancient/euclid-elements-iii9.zh-CN.md) | 数学前史补读：三点等距、垂分线独立性、退化补证与稳定性边界 | 深读v1 · 完整III.9及Heath评注 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.10精读](papers/ancient/euclid-elements-iii10.zh-CN.md) | AI推理前史补读：公共约束、交点存在唯一、对象同一与精确分类 | 深读v1 · 原证与另证前提审查、坐标重构与实跑 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [Euclid《几何原本》III.11精读](papers/ancient/euclid-elements-iii11.zh-CN.md) | AI推理前史补读：内切、连心射线、图示假设与等号方向 | 深读v1 · 原证与编辑补证分层、现代模型与实跑 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1741,3 +1742,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ## 《几何原本》III.10：两个圆的第三个公共点
 
 [中文深读](papers/ancient/euclid-elements-iii10.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii10/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii10/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii10/README.md)。完整III.10及Heath/Fitzpatrick对照；补垂分线存在与不同性，核III.9另证位置条件，区分几何原证与根轴消元。21单测三模式，各600精确实例，6算例；五格Notebook compile/exec及回放，非kernel。重合、相切和无理交点明确分支，有限实跑不替代一般证明。本单元完成，既有暂缓不变。
+
+
+## 《几何原本》III.11：内切接点与连心线方向
+
+[中文深读](papers/ancient/euclid-elements-iii11.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii11/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii11/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii11/README.md)。完整III.11与Heath/Camerer评注分层；重建I.20反证、补方向/次序/共线/D=H分支，现代内含与距离差等价、等号方向逐步证明。26单测三模式，各600构形，4合法及3拒绝例；五格Notebook compile/exec及独立回放，非kernel。有限有理核验不替代一般证明。本单元完成，既有暂缓不变。

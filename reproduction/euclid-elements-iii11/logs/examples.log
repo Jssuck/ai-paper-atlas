@@ -1,0 +1,14 @@
+$ python run_examples.py
+horizontal {'common_boundary': True, 'disk_inclusion': True, 'center_distance2': Fraction(9, 1), 'radius_gap2': Fraction(9, 1), 'cross': Fraction(0, 1), 'forward_dot': Fraction(15, 1), 'beyond_inner_center': True}
+translated_rotated {'common_boundary': True, 'disk_inclusion': True, 'center_distance2': Fraction(9, 1), 'radius_gap2': Fraction(9, 1), 'cross': Fraction(0, 1), 'forward_dot': Fraction(15, 1), 'beyond_inner_center': True}
+reflected {'common_boundary': True, 'disk_inclusion': True, 'center_distance2': Fraction(9, 1), 'radius_gap2': Fraction(9, 1), 'cross': Fraction(0, 1), 'forward_dot': Fraction(15, 1), 'beyond_inner_center': True}
+rational_scale {'common_boundary': True, 'disk_inclusion': True, 'center_distance2': Fraction(9, 49), 'radius_gap2': Fraction(9, 49), 'cross': Fraction(0, 1), 'forward_dot': Fraction(15, 49), 'beyond_inner_center': True}
+secant_noncollinear relation= secant
+expected rejection: outer radius must be strictly greater
+external relation= external_tangent
+expected rejection: inner disk not contained
+wrong_boundary relation= internal_tangent
+expected rejection: not a common boundary point
+grid certificates: 600
+
+returncode=0

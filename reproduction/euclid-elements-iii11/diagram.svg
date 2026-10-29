@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+<title id="title">III.11：内切接点与反证三角形</title><desc id="desc">左图大圆心O，小圆心C，接点T，点序O、C、T；右图只是非共线三角形的反事实示意，不是满足内切条件的两圆。</desc>
+<rect width="1000" height="420" fill="#fafcff"/>
+<g font-family="sans-serif" fill="#15283e">
+<text x="30" y="35" font-size="21">A. 合法内切构形（R=5，r=2）</text>
+<circle cx="205" cy="220" r="155" fill="#eaf3ff" stroke="#245f9d" stroke-width="3"/>
+<circle cx="298" cy="220" r="62" fill="#d5f5e5" stroke="#21865e" stroke-width="3"/>
+<path d="M 205 220 L 390 220" stroke="#192d45" stroke-width="2"/>
+<g fill="#192d45"><circle cx="205" cy="220" r="4"/><circle cx="298" cy="220" r="4"/><circle cx="360" cy="220" r="5"/></g>
+<text x="193" y="247" font-size="18">O</text><text x="291" y="247" font-size="18">C</text><text x="355" y="247" font-size="18">T</text>
+<text x="220" y="206" font-size="16">d=3</text><text x="315" y="206" font-size="16">r=2</text>
+<text x="60" y="401" font-size="17">OC + CT = OT；接点位于 O→C 的延长线上</text>
+<path d="M 490 50 L 490 400" stroke="#bdc9d7"/>
+<text x="520" y="35" font-size="21">B. 非共线假设（仅反证三角形）</text>
+<path d="M 560 290 L 760 290 L 855 130 Z" fill="#fff2e0" stroke="#9c6030" stroke-width="3"/>
+<circle cx="560" cy="290" r="4"/><circle cx="760" cy="290" r="4"/><circle cx="855" cy="130" r="4"/>
+<text x="549" y="318" font-size="18">O</text><text x="754" y="318" font-size="18">C</text><text x="863" y="128" font-size="18">A</text>
+<text x="640" y="315" font-size="17">d</text><text x="810" y="220" font-size="17">r</text><text x="681" y="190" font-size="17">R</text>
+<text x="535" y="355" font-size="17">I.20 给 d+r &gt; R；圆盘内含却给 d+r ≤ R。</text>
+<text x="535" y="386" font-size="17">两者矛盾；右图不是实际内切圆的构形。</text>
+</g></svg>

@@ -1,0 +1,16 @@
+$ python3 -OO external_checks.py
+{
+  "checks": {
+    "boundary_candidates": 32448,
+    "external_certificates": 648,
+    "invalid_inputs_rejected": 10,
+    "point_mutations_rejected": 3240,
+    "radical_axis_pairs": 6084,
+    "radius_order_rejections": 1296,
+    "tiny_gap_certificates": 4
+  },
+  "python_optimization": 2,
+  "result": "PASS",
+  "scope": "finite independent audit; not a general proof"
+}
+returncode=0

@@ -1,0 +1,9 @@
+$ python verify_notebook.py
+cell 1 stdout matches
+cell 2 stdout matches
+cell 3 stdout matches
+cell 4 stdout matches
+cell 5 stdout matches
+read-only replay passed; non-kernel execution
+
+returncode=0
