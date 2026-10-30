@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-30T03:35:42.233653+00:00",
+  "tests_per_mode": 28,
+  "grid_per_mode": {
+    "configurations": 432,
+    "inward_rays": 216,
+    "outward_rays": 216,
+    "power_values": 2160
+  },
+  "notebook_code_cells": 5,
+  "notebook_method": "stdlib compile/exec, not kernel",
+  "runs": [
+    {
+      "mode": "normal",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    }
+  ]
+}

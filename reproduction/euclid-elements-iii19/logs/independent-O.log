@@ -1,0 +1,61 @@
+$ python -O independent-check.py
+coordinate-oracle configurations: 1152
+tampered field certificates rejected: 5760
+malformed certificates rejected: 8
+invalid premise sets rejected: 4
+article parameter cases: 3; distinct opposite contact midpoint: passed
+finite exact checks only; not a proof assistant
+exit_code=0
+$ python -O test_geometry.py
+test_bool (__main__.Tests.test_bool) ... ok
+test_bool_parameter (__main__.Tests.test_bool_parameter) ... ok
+test_extra_key (__main__.Tests.test_extra_key) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_fraction (__main__.Tests.test_fraction) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_inward (__main__.Tests.test_inward) ... ok
+test_missing_key (__main__.Tests.test_missing_key) ... ok
+test_negative_radius (__main__.Tests.test_negative_radius) ... ok
+test_normal_scaled (__main__.Tests.test_normal_scaled) ... ok
+test_numeric_ray (__main__.Tests.test_numeric_ray) ... ok
+test_off_circle (__main__.Tests.test_off_circle) ... ok
+test_outward (__main__.Tests.test_outward) ... ok
+test_ray (__main__.Tests.test_ray) ... ok
+test_rotate (__main__.Tests.test_rotate) ... ok
+test_secant (__main__.Tests.test_secant) ... ok
+test_short_point (__main__.Tests.test_short_point) ... ok
+test_tamper_centre (__main__.Tests.test_tamper_centre) ... ok
+test_tamper_norm (__main__.Tests.test_tamper_norm) ... ok
+test_tamper_parameter (__main__.Tests.test_tamper_parameter) ... ok
+test_tamper_power (__main__.Tests.test_tamper_power) ... ok
+test_tamper_ray (__main__.Tests.test_tamper_ray) ... ok
+test_tangent_reversed (__main__.Tests.test_tangent_reversed) ... ok
+test_translate (__main__.Tests.test_translate) ... ok
+test_wrong_normal (__main__.Tests.test_wrong_normal) ... ok
+test_zero_normal (__main__.Tests.test_zero_normal) ... ok
+test_zero_radius (__main__.Tests.test_zero_radius) ... ok
+test_zero_tangent (__main__.Tests.test_zero_tangent) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.061s
+
+OK
+exit_code=0
+$ python -O verify_notebook.py
+cell 1 output matches
+cell 2 output matches
+cell 3 output matches
+cell 4 output matches
+cell 5 output matches
+replayed 5 cells via compile/exec; not Jupyter kernel
+exit_code=0
+$ python -O run_examples.py
+inward {'t': Fraction(1, 1), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': True}
+outward {'t': Fraction(-1, 1), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': False}
+translated {'t': Fraction(1, 2), 'centre_on_line': (Fraction(2, 1), Fraction(-1, 1)), 'tangent_power_coefficient': Fraction(100, 1), 'normal_norm2': Fraction(100, 1), 'ray_reaches_centre': True}
+rational {'t': Fraction(1, 5), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': True}
+secant rejected: line has a strict interior point; not tangent
+wrong normal rejected: candidate is not perpendicular to tangent
+zero normal rejected: nonzero directions required
+grid {'configurations': 432, 'inward_rays': 216, 'outward_rays': 216, 'power_values': 2160}
+exit_code=0

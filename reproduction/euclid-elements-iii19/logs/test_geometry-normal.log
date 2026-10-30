@@ -1,0 +1,36 @@
+$ python test_geometry.py
+test_bool (__main__.Tests.test_bool) ... ok
+test_bool_parameter (__main__.Tests.test_bool_parameter) ... ok
+test_extra_key (__main__.Tests.test_extra_key) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_fraction (__main__.Tests.test_fraction) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_inward (__main__.Tests.test_inward) ... ok
+test_missing_key (__main__.Tests.test_missing_key) ... ok
+test_negative_radius (__main__.Tests.test_negative_radius) ... ok
+test_normal_scaled (__main__.Tests.test_normal_scaled) ... ok
+test_numeric_ray (__main__.Tests.test_numeric_ray) ... ok
+test_off_circle (__main__.Tests.test_off_circle) ... ok
+test_outward (__main__.Tests.test_outward) ... ok
+test_ray (__main__.Tests.test_ray) ... ok
+test_rotate (__main__.Tests.test_rotate) ... ok
+test_secant (__main__.Tests.test_secant) ... ok
+test_short_point (__main__.Tests.test_short_point) ... ok
+test_tamper_centre (__main__.Tests.test_tamper_centre) ... ok
+test_tamper_norm (__main__.Tests.test_tamper_norm) ... ok
+test_tamper_parameter (__main__.Tests.test_tamper_parameter) ... ok
+test_tamper_power (__main__.Tests.test_tamper_power) ... ok
+test_tamper_ray (__main__.Tests.test_tamper_ray) ... ok
+test_tangent_reversed (__main__.Tests.test_tangent_reversed) ... ok
+test_translate (__main__.Tests.test_translate) ... ok
+test_wrong_normal (__main__.Tests.test_wrong_normal) ... ok
+test_zero_normal (__main__.Tests.test_zero_normal) ... ok
+test_zero_radius (__main__.Tests.test_zero_radius) ... ok
+test_zero_tangent (__main__.Tests.test_zero_tangent) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.070s
+
+OK
+
+exit_code=0

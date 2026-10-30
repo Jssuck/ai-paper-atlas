@@ -1,0 +1,9 @@
+$ python verify_notebook.py
+cell 1 output matches
+cell 2 output matches
+cell 3 output matches
+cell 4 output matches
+cell 5 output matches
+replayed 5 cells via compile/exec; not Jupyter kernel
+
+exit_code=0

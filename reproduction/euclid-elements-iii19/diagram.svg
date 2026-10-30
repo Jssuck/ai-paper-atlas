@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520">
+<rect width="880" height="520" fill="#fff"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#8246af" stroke-width="1.5"/></marker></defs>
+<text x="35" y="38" font-family="sans-serif" font-size="23">III.19: a normal LINE passes through the centre</text>
+<circle cx="290" cy="265" r="150" fill="#f0f8ff" stroke="#25659a" stroke-width="3"/>
+<line x1="440" y1="75" x2="440" y2="440" stroke="#149568" stroke-width="4"/>
+<line x1="95" y1="265" x2="790" y2="265" stroke="#9b8ba6" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="440" y1="265" x2="245" y2="265" stroke="#8246af" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="440" y1="265" x2="710" y2="265" stroke="#d87a25" stroke-width="4"/>
+<path d="M422 265 L422 247 L440 247" fill="none" stroke="#333" stroke-width="2"/>
+<circle cx="290" cy="265" r="5" fill="#222"/><circle cx="440" cy="265" r="5" fill="#222"/>
+<g font-family="sans-serif" font-size="18" fill="#222">
+<text x="275" y="293">O</text><text x="445" y="293">C</text>
+<text x="456" y="110">tangent v = (0,1)</text>
+<text x="220" y="232" fill="#8246af">inward w = (-1,0)</text>
+<text x="497" y="245" fill="#b25c10">outward w = (1,0)</text>
+<text x="35" y="465">O = (0,0), C = (3,0), r = 3. Inward: t = 3; outward: t = -3.</text>
+<text x="35" y="496">Both full lines contain O. Only the inward positive ray reaches O.</text>
+</g></svg>

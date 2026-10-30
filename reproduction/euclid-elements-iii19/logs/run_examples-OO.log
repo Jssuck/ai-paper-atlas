@@ -1,0 +1,11 @@
+$ python -OO run_examples.py
+inward {'t': Fraction(1, 1), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': True}
+outward {'t': Fraction(-1, 1), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': False}
+translated {'t': Fraction(1, 2), 'centre_on_line': (Fraction(2, 1), Fraction(-1, 1)), 'tangent_power_coefficient': Fraction(100, 1), 'normal_norm2': Fraction(100, 1), 'ray_reaches_centre': True}
+rational {'t': Fraction(1, 5), 'centre_on_line': (Fraction(0, 1), Fraction(0, 1)), 'tangent_power_coefficient': Fraction(25, 1), 'normal_norm2': Fraction(25, 1), 'ray_reaches_centre': True}
+secant rejected: line has a strict interior point; not tangent
+wrong normal rejected: candidate is not perpendicular to tangent
+zero normal rejected: nonzero directions required
+grid {'configurations': 432, 'inward_rays': 216, 'outward_rays': 216, 'power_values': 2160}
+
+exit_code=0
