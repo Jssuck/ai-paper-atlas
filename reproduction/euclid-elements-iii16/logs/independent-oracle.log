@@ -1,0 +1,4 @@
+$ python independent_check.py
+{"configurations": 1176, "determinant_projection": 1176, "invalid_rejected": 15, "local_epsilon_witnesses": 1122, "narrow_cases": 5, "ray_samples": 4704, "reversals": 1176, "second_roots": 1122, "tamper_rejected": 9408}
+
+returncode=0

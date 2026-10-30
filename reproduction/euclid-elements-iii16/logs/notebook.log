@@ -1,0 +1,27 @@
+$ python create_notebook.py
+executed cell 1
+tangent 0 25
+tangent noncontact power: 4
+executed cell 2
+second: 8/5 (Fraction(24, 5), Fraction(32, 5))
+interior: 4/5 (Fraction(12, 5), Fraction(16, 5)) -16
+executed cell 3
+outward other line parameter: -8/5
+positive parameter power: 65
+executed cell 4
+1 1/2 -1/2
+10 1/101 -1/101
+1000000 1/1000000000001 -1/1000000000001
+executed cell 5
+tangent k= 0 second= None foot= (Fraction(0, 1), Fraction(0, 1)) power= None
+inward k= 20 second= 8/5 foot= (Fraction(12, 5), Fraction(16, 5)) power= -16
+outward k= -20 second= -8/5 foot= (Fraction(-12, 5), Fraction(16, 5)) power= None
+diameter k= 5 second= 10 foot= (Fraction(0, 1), Fraction(5, 1)) power= -25
+narrow 1 interior t= 1/2 power= -1/2
+narrow 10 interior t= 1/101 power= -1/101
+narrow 1000000 interior t= 1/1000000000001 power= -1/1000000000001
+rejected: contact must be on circle
+rejected: nonzero direction required
+5 code cells executed; not a Jupyter kernel
+
+returncode=0

@@ -1,0 +1,62 @@
+[
+  {
+    "command": "python -m unittest -v test_geometry",
+    "returncode": 0,
+    "log": "logs/independent-tests.log"
+  },
+  {
+    "command": "python independent_check.py",
+    "returncode": 0,
+    "log": "logs/independent-oracle.log"
+  },
+  {
+    "command": "python run_examples.py",
+    "returncode": 0,
+    "log": "logs/independent-examples.log"
+  },
+  {
+    "command": "python verify_notebook.py",
+    "returncode": 0,
+    "log": "logs/independent-notebook-replay.log"
+  },
+  {
+    "command": "python -O -m unittest -v test_geometry",
+    "returncode": 0,
+    "log": "logs/independent-tests-O.log"
+  },
+  {
+    "command": "python -O independent_check.py",
+    "returncode": 0,
+    "log": "logs/independent-oracle-O.log"
+  },
+  {
+    "command": "python -O run_examples.py",
+    "returncode": 0,
+    "log": "logs/independent-examples-O.log"
+  },
+  {
+    "command": "python -O verify_notebook.py",
+    "returncode": 0,
+    "log": "logs/independent-notebook-replay-O.log"
+  },
+  {
+    "command": "python -OO -m unittest -v test_geometry",
+    "returncode": 0,
+    "log": "logs/independent-tests-OO.log"
+  },
+  {
+    "command": "python -OO independent_check.py",
+    "returncode": 0,
+    "log": "logs/independent-oracle-OO.log"
+  },
+  {
+    "command": "python -OO run_examples.py",
+    "returncode": 0,
+    "log": "logs/independent-examples-OO.log"
+  },
+  {
+    "command": "python -OO verify_notebook.py",
+    "returncode": 0,
+    "log": "logs/independent-notebook-replay-OO.log"
+  }
+]

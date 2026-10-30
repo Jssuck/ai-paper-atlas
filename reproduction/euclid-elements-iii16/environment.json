@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "dependencies": "Python standard library only",
+  "arithmetic": "fractions.Fraction",
+  "notebook_execution": "compile/exec and read-only replay, not Jupyter kernel",
+  "template": "installed helper absent; local nbformat4 scaffold; no installation"
+}

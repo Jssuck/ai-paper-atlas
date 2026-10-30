@@ -1,0 +1,37 @@
+$ python -OO -m unittest -v test_geometry
+grid: 1728 point-direction configurations; 6912 ray-power checks
+test_after_second (test_geometry.GeometryTests.test_after_second) ... ok
+test_bad_contact (test_geometry.GeometryTests.test_bad_contact) ... ok
+test_bad_point (test_geometry.GeometryTests.test_bad_point) ... ok
+test_bool (test_geometry.GeometryTests.test_bool) ... ok
+test_bool_tamper (test_geometry.GeometryTests.test_bool_tamper) ... ok
+test_certificate (test_geometry.GeometryTests.test_certificate) ... ok
+test_diameter (test_geometry.GeometryTests.test_diameter) ... ok
+test_exact_grid (test_geometry.GeometryTests.test_exact_grid) ... ok
+test_float (test_geometry.GeometryTests.test_float) ... ok
+test_inward (test_geometry.GeometryTests.test_inward) ... ok
+test_missing (test_geometry.GeometryTests.test_missing) ... ok
+test_narrow (test_geometry.GeometryTests.test_narrow) ... ok
+test_narrow_zero (test_geometry.GeometryTests.test_narrow_zero) ... ok
+test_negative_parameter (test_geometry.GeometryTests.test_negative_parameter) ... ok
+test_negative_radius (test_geometry.GeometryTests.test_negative_radius) ... ok
+test_outward (test_geometry.GeometryTests.test_outward) ... ok
+test_outward_power (test_geometry.GeometryTests.test_outward_power) ... ok
+test_projection (test_geometry.GeometryTests.test_projection) ... ok
+test_second (test_geometry.GeometryTests.test_second) ... ok
+test_second_boundary (test_geometry.GeometryTests.test_second_boundary) ... ok
+test_tamper (test_geometry.GeometryTests.test_tamper) ... ok
+test_tangent (test_geometry.GeometryTests.test_tangent) ... ok
+test_tangent_power (test_geometry.GeometryTests.test_tangent_power) ... ok
+test_tangent_reverse (test_geometry.GeometryTests.test_tangent_reverse) ... ok
+test_witness (test_geometry.GeometryTests.test_witness) ... ok
+test_zero_direction (test_geometry.GeometryTests.test_zero_direction) ... ok
+test_zero_parameter (test_geometry.GeometryTests.test_zero_parameter) ... ok
+test_zero_radius (test_geometry.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.382s
+
+OK
+
+returncode=0
