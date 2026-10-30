@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-30T08:45:09.491403+00:00",
+  "tests_per_mode": 28,
+  "grid_per_mode": {
+    "configurations": 39,
+    "placements": 156,
+    "arc_checks": 936,
+    "membership_checks": 6552,
+    "unequal_base_pairs": 39
+  },
+  "notebook_code_cells": 5,
+  "notebook_method": "stdlib compile/exec; NOT Jupyter kernel",
+  "runs": [
+    {
+      "mode": "normal",
+      "script": "create_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "create_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "create_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    }
+  ]
+}

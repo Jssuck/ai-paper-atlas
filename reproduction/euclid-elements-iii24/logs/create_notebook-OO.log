@@ -1,0 +1,4 @@
+$ python -OO create_notebook.py
+5 cells executed by stdlib compile/exec, null counts, NOT kernel
+
+exit_code=0

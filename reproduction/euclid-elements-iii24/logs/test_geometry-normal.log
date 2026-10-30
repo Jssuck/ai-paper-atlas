@@ -1,0 +1,36 @@
+$ python test_geometry.py
+test_align_without_similarity (__main__.GeometryTests.test_align_without_similarity) ... ok
+test_base_negative (__main__.GeometryTests.test_base_negative) ... ok
+test_base_zero (__main__.GeometryTests.test_base_zero) ... ok
+test_bool (__main__.GeometryTests.test_bool) ... ok
+test_boundary (__main__.GeometryTests.test_boundary) ... ok
+test_different_angles (__main__.GeometryTests.test_different_angles) ... ok
+test_endpoint (__main__.GeometryTests.test_endpoint) ... ok
+test_endpoint_swap (__main__.GeometryTests.test_endpoint_swap) ... ok
+test_exact_example (__main__.GeometryTests.test_exact_example) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_frame_inverse (__main__.GeometryTests.test_frame_inverse) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_interior (__main__.GeometryTests.test_interior) ... ok
+test_kind (__main__.GeometryTests.test_kind) ... ok
+test_mirror (__main__.GeometryTests.test_mirror) ... ok
+test_near_not_equal (__main__.GeometryTests.test_near_not_equal) ... ok
+test_nonorthogonal (__main__.GeometryTests.test_nonorthogonal) ... ok
+test_nonunit (__main__.GeometryTests.test_nonunit) ... ok
+test_same_circle_other_side (__main__.GeometryTests.test_same_circle_other_side) ... ok
+test_scale_not_rigid (__main__.GeometryTests.test_scale_not_rigid) ... ok
+test_scale_similar (__main__.GeometryTests.test_scale_similar) ... ok
+test_semicircle_other_side (__main__.GeometryTests.test_semicircle_other_side) ... ok
+test_translation (__main__.GeometryTests.test_translation) ... ok
+test_world_bool (__main__.GeometryTests.test_world_bool) ... ok
+test_world_float (__main__.GeometryTests.test_world_float) ... ok
+test_wrong_arc (__main__.GeometryTests.test_wrong_arc) ... ok
+test_wrong_ray (__main__.GeometryTests.test_wrong_ray) ... ok
+test_zero_slope (__main__.GeometryTests.test_zero_slope) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.354s
+
+OK
+
+exit_code=0

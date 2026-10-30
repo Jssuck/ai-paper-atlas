@@ -1,0 +1,11 @@
+$ python3  independent_checks.py
+{
+  "distance_pairs": 1440,
+  "invalid_cases": 6,
+  "membership_checks": 7200,
+  "non_similar_pairs": 360,
+  "placements": 360,
+  "point_defined_circles": 60,
+  "text_examples": 5
+}
+exit_code=0
