@@ -1,0 +1,9 @@
+$ python -O run_examples.py
+addition arc=minor center=inside central=(Fraction(-3, 5), Fraction(4, 5)) double=(Fraction(-3, 5), Fraction(4, 5)) side_through_center=False base_diameter=False
+subtraction arc=minor center=outside central=(Fraction(4, 5), Fraction(3, 5)) double=(Fraction(4, 5), Fraction(3, 5)) side_through_center=False base_diameter=False
+side_boundary arc=minor center=boundary central=(Fraction(0, 1), Fraction(1, 1)) double=(Fraction(0, 1), Fraction(1, 1)) side_through_center=True base_diameter=False
+base_diameter arc=semicircle center=inside central=(Fraction(-1, 1), Fraction(0, 1)) double=(Fraction(-1, 1), Fraction(0, 1)) side_through_center=False base_diameter=True
+reflex_extension arc=major center=inside central=(Fraction(-3, 5), Fraction(-4, 5)) double=(Fraction(-3, 5), Fraction(-4, 5)) side_through_center=False base_diameter=False
+{'cases': 2160, 'counts': {'arc:major': 390, 'arc:minor': 1578, 'arc:semicircle': 192, 'base_diameter': 192, 'center_location:boundary': 384, 'center_location:inside': 996, 'center_location:outside': 780, 'side_through_center': 384}}
+
+exit_code=0

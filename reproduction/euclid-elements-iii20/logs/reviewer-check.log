@@ -1,0 +1,27 @@
+$ python reviewer-check.py
+PASS independent exact configurations: 2640
+PASS output mutations rejected by independent full-record comparison: 18480
+PASS invalid input rejections: 7
+Oracle: cyclic circle order, rational complex quotient, Gaussian elimination.
+Finite regression audit; not a proof over arbitrary real coordinates.
+PASS read-only notebook replay: 5 code cells; NOT kernel
+PASS SVG XML/static safety: 90 elements; visual browser review separate
+exit_code=0
+$ python -O reviewer-check.py
+PASS independent exact configurations: 2640
+PASS output mutations rejected by independent full-record comparison: 18480
+PASS invalid input rejections: 7
+Oracle: cyclic circle order, rational complex quotient, Gaussian elimination.
+Finite regression audit; not a proof over arbitrary real coordinates.
+PASS read-only notebook replay: 5 code cells; NOT kernel
+PASS SVG XML/static safety: 90 elements; visual browser review separate
+exit_code=0
+$ python -OO reviewer-check.py
+PASS independent exact configurations: 2640
+PASS output mutations rejected by independent full-record comparison: 18480
+PASS invalid input rejections: 7
+Oracle: cyclic circle order, rational complex quotient, Gaussian elimination.
+Finite regression audit; not a proof over arbitrary real coordinates.
+PASS read-only notebook replay: 5 code cells; NOT kernel
+PASS SVG XML/static safety: 90 elements; visual browser review separate
+exit_code=0

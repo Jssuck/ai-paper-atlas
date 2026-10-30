@@ -1,0 +1,24 @@
+$ python -O test_geometry.py
+test_arc_types (__main__.ExactModel.test_arc_types) ... ok
+test_bad_dimension (__main__.ExactModel.test_bad_dimension) ... ok
+test_bool_rejected (__main__.ExactModel.test_bool_rejected) ... ok
+test_central_unit (__main__.ExactModel.test_central_unit) ... ok
+test_duplicates (__main__.ExactModel.test_duplicates) ... ok
+test_examples (__main__.ExactModel.test_examples) ... ok
+test_float_rejected (__main__.ExactModel.test_float_rejected) ... ok
+test_grid (__main__.ExactModel.test_grid) ... ok
+test_off_circle (__main__.ExactModel.test_off_circle) ... ok
+test_parametrization (__main__.ExactModel.test_parametrization) ... ok
+test_positions (__main__.ExactModel.test_positions) ... ok
+test_swap (__main__.ExactModel.test_swap) ... ok
+test_transform_rejected (__main__.ExactModel.test_transform_rejected) ... ok
+test_two_boundaries_differ (__main__.ExactModel.test_two_boundaries_differ) ... ok
+test_wrong_minor_counterexample (__main__.ExactModel.test_wrong_minor_counterexample) ... ok
+test_zero_radius (__main__.ExactModel.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.121s
+
+OK
+
+exit_code=0
