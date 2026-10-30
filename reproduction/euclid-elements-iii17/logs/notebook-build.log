@@ -1,0 +1,27 @@
+executed cell 1
+E (Fraction(0, 1), Fraction(0, 1))
+A (Fraction(5, 1), Fraction(0, 1))
+D (Fraction(3, 1), Fraction(0, 1))
+F (Fraction(3, 1), Fraction(4, 1))
+B (Fraction(9, 5), Fraction(12, 5))
+verified: True
+executed cell 2
+upper: (Fraction(9, 5), Fraction(12, 5)) lower: (Fraction(9, 5), Fraction(-12, 5))
+directions: (Fraction(16, 5), Fraction(-12, 5)) (Fraction(16, 5), Fraction(12, 5))
+executed cell 3
+-2 64 64
+-1 16 16
+0 0 0
+1 16 16
+2 64 64
+executed cell 4
+r,d,side= 3 5 1 kind= exterior B= (Fraction(9, 5), Fraction(12, 5)) verified= True power(t=2)= 64
+r,d,side= 3 5 -1 kind= exterior B= (Fraction(9, 5), Fraction(-12, 5)) verified= True power(t=2)= 64
+r,d,side= 5 13 1 kind= exterior B= (Fraction(25, 13), Fraction(60, 13)) verified= True power(t=2)= 576
+r,d,side= 3 3 1 kind= boundary B= (Fraction(3, 1), Fraction(0, 1)) verified= True power(t=2)= 4
+r,d= 3 2 rejected: interior point: no tangent through it
+r,d= 1 2 rejected: outside rational-square-root implementation domain
+executed cell 5
+{'configurations': 324, 'certificates': 648, 'power_checks': 3240}
+tampered certificate accepted: False
+5 code cells; standard-library execution, not Jupyter kernel

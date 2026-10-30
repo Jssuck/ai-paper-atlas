@@ -1,0 +1,36 @@
+$ python -OO test_geometry.py
+test_axis (__main__.Tests.test_axis) ... ok
+test_bad_scalar (__main__.Tests.test_bad_scalar) ... ok
+test_bool (__main__.Tests.test_bool) ... ok
+test_bool_side (__main__.Tests.test_bool_side) ... ok
+test_boundary (__main__.Tests.test_boundary) ... ok
+test_boundary_power (__main__.Tests.test_boundary_power) ... ok
+test_center (__main__.Tests.test_center) ... ok
+test_coordinates (__main__.Tests.test_coordinates) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_inner (__main__.Tests.test_inner) ... ok
+test_irrational (__main__.Tests.test_irrational) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_negative_distance (__main__.Tests.test_negative_distance) ... ok
+test_negative_radius (__main__.Tests.test_negative_radius) ... ok
+test_negative_sqrt (__main__.Tests.test_negative_sqrt) ... ok
+test_reflection (__main__.Tests.test_reflection) ... ok
+test_rotation (__main__.Tests.test_rotation) ... ok
+test_scale (__main__.Tests.test_scale) ... ok
+test_side (__main__.Tests.test_side) ... ok
+test_sqrt (__main__.Tests.test_sqrt) ... ok
+test_tamper (__main__.Tests.test_tamper) ... ok
+test_translation (__main__.Tests.test_translation) ... ok
+test_type (__main__.Tests.test_type) ... ok
+test_zero_axis (__main__.Tests.test_zero_axis) ... ok
+test_zero_direction (__main__.Tests.test_zero_direction) ... ok
+test_zero_radius (__main__.Tests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.080s
+
+OK
+
+exit_code=0

@@ -1,0 +1,33 @@
+test_axis (test_geometry.Tests.test_axis) ... ok
+test_bad_scalar (test_geometry.Tests.test_bad_scalar) ... ok
+test_bool (test_geometry.Tests.test_bool) ... ok
+test_bool_side (test_geometry.Tests.test_bool_side) ... ok
+test_boundary (test_geometry.Tests.test_boundary) ... ok
+test_boundary_power (test_geometry.Tests.test_boundary_power) ... ok
+test_center (test_geometry.Tests.test_center) ... ok
+test_coordinates (test_geometry.Tests.test_coordinates) ... ok
+test_extra (test_geometry.Tests.test_extra) ... ok
+test_float (test_geometry.Tests.test_float) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_inner (test_geometry.Tests.test_inner) ... ok
+test_irrational (test_geometry.Tests.test_irrational) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_negative_distance (test_geometry.Tests.test_negative_distance) ... ok
+test_negative_radius (test_geometry.Tests.test_negative_radius) ... ok
+test_negative_sqrt (test_geometry.Tests.test_negative_sqrt) ... ok
+test_reflection (test_geometry.Tests.test_reflection) ... ok
+test_rotation (test_geometry.Tests.test_rotation) ... ok
+test_scale (test_geometry.Tests.test_scale) ... ok
+test_side (test_geometry.Tests.test_side) ... ok
+test_sqrt (test_geometry.Tests.test_sqrt) ... ok
+test_tamper (test_geometry.Tests.test_tamper) ... ok
+test_translation (test_geometry.Tests.test_translation) ... ok
+test_type (test_geometry.Tests.test_type) ... ok
+test_zero_axis (test_geometry.Tests.test_zero_axis) ... ok
+test_zero_direction (test_geometry.Tests.test_zero_direction) ... ok
+test_zero_radius (test_geometry.Tests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.094s
+
+OK
