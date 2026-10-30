@@ -1,0 +1,35 @@
+Command: python -O -m unittest -v test_geometry
+Exit code: 0
+STDOUT:
+
+STDERR:
+test_bool (test_geometry.Tests.test_bool) ... ok
+test_bool_certificate (test_geometry.Tests.test_bool_certificate) ... ok
+test_circle (test_geometry.Tests.test_circle) ... ok
+test_extra (test_geometry.Tests.test_extra) ... ok
+test_fields (test_geometry.Tests.test_fields) ... ok
+test_float (test_geometry.Tests.test_float) ... ok
+test_grid (test_geometry.Tests.test_grid) ... ok
+test_kind (test_geometry.Tests.test_kind) ... ok
+test_missing (test_geometry.Tests.test_missing) ... ok
+test_negative_radius (test_geometry.Tests.test_negative_radius) ... ok
+test_non_dict (test_geometry.Tests.test_non_dict) ... ok
+test_oblique (test_geometry.Tests.test_oblique) ... ok
+test_point_tamper (test_geometry.Tests.test_point_tamper) ... ok
+test_radial (test_geometry.Tests.test_radial) ... ok
+test_reverse (test_geometry.Tests.test_reverse) ... ok
+test_rotation (test_geometry.Tests.test_rotation) ... ok
+test_scaling (test_geometry.Tests.test_scaling) ... ok
+test_second_crossing (test_geometry.Tests.test_second_crossing) ... ok
+test_shape (test_geometry.Tests.test_shape) ... ok
+test_string (test_geometry.Tests.test_string) ... ok
+test_tangent (test_geometry.Tests.test_tangent) ... ok
+test_tangent_powers (test_geometry.Tests.test_tangent_powers) ... ok
+test_translation (test_geometry.Tests.test_translation) ... ok
+test_zero_direction (test_geometry.Tests.test_zero_direction) ... ok
+test_zero_radius (test_geometry.Tests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.058s
+
+OK

@@ -1,0 +1,6 @@
+Command: python -OO independent_check.py
+Exit code: 0
+STDOUT:
+{"configurations": 720, "interior": 648, "invalid_rejected": 17, "power_decompositions": 3600, "reversal": 720, "scaling": 1440, "second_boundary": 648, "tamper_rejected": 6480, "tangent": 72}
+
+STDERR:

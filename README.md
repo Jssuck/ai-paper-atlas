@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.17：怎样从圆外一点构造切线](papers/ancient/euclid-elements-iii17.zh-CN.md)，重建同心辅助圆与I.4直角转移，分清外点、圆上点及有理实现边界，附精确实跑和独立双审。
+最新补读：[《几何原本》III.18：为什么接点半径必垂直于切线](papers/ancient/euclid-elements-iii18.zh-CN.md)，重建反证和隐含点序，以严格内部见证检验非垂直方向，附精确实跑与独立双审。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -217,6 +217,7 @@
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [《几何原本》III.15精读](papers/ancient/euclid-elements-iii15.zh-CN.md) | AI推理前史补读：直径最大、弦长反向次序、辅助对象与角序缺口 | 深读v1 · 一般证明、逆向边界与精确实跑 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [《几何原本》III.16精读](papers/ancient/euclid-elements-iii16.zh-CN.md) | AI推理前史补读：切线、内部见证、局部量词与曲线角 | 深读v1 · 原证点序、历史层次与精确实跑 |
 | 约公元前300年（作品传统年代；实读1908/2008版本） | [《几何原本》III.17精读](papers/ancient/euclid-elements-iii17.zh-CN.md) | AI推理前史补读：切线构造、全等对应、可行域与退化输出 | 深读v1 · 原构造、现代排他证明与精确实跑 |
+| 约公元前300年（作品传统年代；实读1908/2008版本） | [《几何原本》III.18精读](papers/ancient/euclid-elements-iii18.zh-CN.md) | AI推理前史补读：必要条件、垂足、严格点序与内部见证 | 深读v1 · 原证补足、现代反证与精确实跑 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
@@ -1775,3 +1776,8 @@ I.23另附[独立代码审查](reproduction/aristotle-prior-analytics-i23/CODE_R
 ### 《几何原本》III.17 附件
 
 [中文深读](papers/ancient/euclid-elements-iii17.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii17/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii17/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii17/README.md)。完整III.17与Heath评注分层；补求交存在、I.4对应、圆上非零方向和恰两条排他证明，不提前调用III.31。28单测三模式，各324构形648证书3240幂值；五格Notebook compile/exec及只读回放，非kernel。有理实现范围不是几何可行域，有限实跑不替代一般证明；本单元完成，既有暂缓不变。
+
+
+### 《几何原本》III.18 附件
+
+[中文深读](papers/ancient/euclid-elements-iii18.zh-CN.md) · [独立来源审查](reproduction/euclid-elements-iii18/source-review.zh-CN.md) · [独立技术审查](reproduction/euclid-elements-iii18/technical-review.zh-CN.md) · [复现、Notebook与真实日志](reproduction/euclid-elements-iii18/README.md)。完整III.18与Heath部分逆向评注分层；补G的外部性与F—B—G点序，不把垂直预设为相切定义。25单测三模式，各360构形1800幂值，含72切线及288严格内部见证；五格Notebook compile/exec及只读回放，非kernel。有限实跑不代替一般证明；本单元完成，既有暂缓不变。

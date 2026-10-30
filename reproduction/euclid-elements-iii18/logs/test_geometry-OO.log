@@ -1,0 +1,33 @@
+$ python -OO test_geometry.py
+test_bool (__main__.Tests.test_bool) ... ok
+test_bool_certificate (__main__.Tests.test_bool_certificate) ... ok
+test_circle (__main__.Tests.test_circle) ... ok
+test_extra (__main__.Tests.test_extra) ... ok
+test_fields (__main__.Tests.test_fields) ... ok
+test_float (__main__.Tests.test_float) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_kind (__main__.Tests.test_kind) ... ok
+test_missing (__main__.Tests.test_missing) ... ok
+test_negative_radius (__main__.Tests.test_negative_radius) ... ok
+test_non_dict (__main__.Tests.test_non_dict) ... ok
+test_oblique (__main__.Tests.test_oblique) ... ok
+test_point_tamper (__main__.Tests.test_point_tamper) ... ok
+test_radial (__main__.Tests.test_radial) ... ok
+test_reverse (__main__.Tests.test_reverse) ... ok
+test_rotation (__main__.Tests.test_rotation) ... ok
+test_scaling (__main__.Tests.test_scaling) ... ok
+test_second_crossing (__main__.Tests.test_second_crossing) ... ok
+test_shape (__main__.Tests.test_shape) ... ok
+test_string (__main__.Tests.test_string) ... ok
+test_tangent (__main__.Tests.test_tangent) ... ok
+test_tangent_powers (__main__.Tests.test_tangent_powers) ... ok
+test_translation (__main__.Tests.test_translation) ... ok
+test_zero_direction (__main__.Tests.test_zero_direction) ... ok
+test_zero_radius (__main__.Tests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.059s
+
+OK
+
+exit_code=0

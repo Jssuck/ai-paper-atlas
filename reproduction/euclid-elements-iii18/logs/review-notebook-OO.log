@@ -1,0 +1,11 @@
+Command: python -OO verify_notebook.py
+Exit code: 0
+STDOUT:
+cell 1 output matches
+cell 2 output matches
+cell 3 output matches
+cell 4 output matches
+cell 5 output matches
+replayed 5 cells via compile/exec; not Jupyter kernel
+
+STDERR:

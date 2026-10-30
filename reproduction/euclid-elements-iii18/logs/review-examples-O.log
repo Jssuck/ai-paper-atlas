@@ -1,0 +1,13 @@
+Command: python -O run_examples.py
+Exit code: 0
+STDOUT:
+tangent q= 0 t= 0 H= (Fraction(3, 1), Fraction(0, 1)) power= 0 verified= True
+oblique q= 3 t= -3/2 H= (Fraction(3, 2), Fraction(-3, 2)) power= -9/2 verified= True
+outward_ray_but_secant_line q= 3 t= -3/5 H= (Fraction(12, 5), Fraction(-6, 5)) power= -9/5 verified= True
+radial q= 3 t= -3 H= (Fraction(0, 1), Fraction(0, 1)) power= -9 verified= True
+zero_radius rejected: positive radius required
+non_boundary rejected: B must lie on circle
+zero_direction rejected: nonzero direction required
+grid: {'configurations': 360, 'tangent': 72, 'interior_witness': 288, 'power_checks': 1800}
+
+STDERR:
