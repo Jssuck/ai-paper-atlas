@@ -1,0 +1,28 @@
+$ python -OO test_geometry.py
+test_bad_side (__main__.Checks.test_bad_side) ... ok
+test_bad_side_inside (__main__.Checks.test_bad_side_inside) ... ok
+test_base_vertex_rejected (__main__.Checks.test_base_vertex_rejected) ... ok
+test_distinct_same_side_not_similar (__main__.Checks.test_distinct_same_side_not_similar) ... ok
+test_equal_rejected (__main__.Checks.test_equal_rejected) ... ok
+test_finite_grid (__main__.Checks.test_finite_grid) ... ok
+test_lower_reflection (__main__.Checks.test_lower_reflection) ... ok
+test_near_equal_exact (__main__.Checks.test_near_equal_exact) ... ok
+test_negative_cot_obtuse (__main__.Checks.test_negative_cot_obtuse) ... ok
+test_order (__main__.Checks.test_order) ... ok
+test_point_on_circle (__main__.Checks.test_point_on_circle) ... ok
+test_positive_cot_acute (__main__.Checks.test_positive_cot_acute) ... ok
+test_reflection_is_similar_and_congruent_not_unequal (__main__.Checks.test_reflection_is_similar_and_congruent_not_unequal) ... ok
+test_reversed_rejected (__main__.Checks.test_reversed_rejected) ... ok
+test_same_circle_opposite_not_similar (__main__.Checks.test_same_circle_opposite_not_similar) ... ok
+test_semicircles_similar_congruent (__main__.Checks.test_semicircles_similar_congruent) ... ok
+test_strict_nested (__main__.Checks.test_strict_nested) ... ok
+test_tangent_rejected (__main__.Checks.test_tangent_rejected) ... ok
+test_unit_semicircle (__main__.Checks.test_unit_semicircle) ... ok
+test_zero_ray_rejected (__main__.Checks.test_zero_ray_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.093s
+
+OK
+
+exit_code=0

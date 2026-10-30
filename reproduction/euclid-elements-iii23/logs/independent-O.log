@@ -1,0 +1,12 @@
+$ python3 -O independent_checks.py
+{
+  "arbitrary_rational_points": 180,
+  "mirror_congruence_checks": 180,
+  "ordered_witnesses": 300,
+  "cartesian_membership_checks": 3720,
+  "invalid_cases": 8,
+  "main_text_exact_examples": 3,
+  "result": "PASS",
+  "scope": "finite checks; not a general theorem proof"
+}
+exit_code=0

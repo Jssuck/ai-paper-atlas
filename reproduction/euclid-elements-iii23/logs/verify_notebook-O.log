@@ -1,0 +1,4 @@
+$ python -O verify_notebook.py
+Verified 5 code cells by stdlib compile/exec; NOT kernel execution
+
+exit_code=0

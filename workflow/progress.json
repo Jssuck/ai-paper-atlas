@@ -1,7 +1,11 @@
 {
   "schema_version": 1,
-  "status": "idle",
-  "active_paper": null,
+  "status": "in_progress",
+  "active_paper": {
+    "id": "euclid-elements-iii23",
+    "stage": "publication_verification",
+    "updated_at": "2026-10-30T07:51:45.771686Z"
+  },
   "last_completed": {
     "id": "euclid-elements-iii22",
     "stage": "completed",
@@ -20,5 +24,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-10-30T06:53:23.461348Z"
+  "updated_at": "2026-10-30T07:51:45.771686Z"
 }
