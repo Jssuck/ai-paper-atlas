@@ -1,0 +1,4 @@
+$ python -OO verify_notebook.py
+PASS: 5 code cells compile/exec and saved-output replay; no Jupyter kernel used
+
+exit_code=0

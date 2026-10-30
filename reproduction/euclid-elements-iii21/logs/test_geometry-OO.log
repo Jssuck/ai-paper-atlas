@@ -1,0 +1,26 @@
+$ python -OO test_geometry.py
+test_badpoint (__main__.GeometryTests.test_badpoint) ... ok
+test_bool (__main__.GeometryTests.test_bool) ... ok
+test_chord_reversal (__main__.GeometryTests.test_chord_reversal) ... ok
+test_diameter (__main__.GeometryTests.test_diameter) ... ok
+test_duplicate_chord (__main__.GeometryTests.test_duplicate_chord) ... ok
+test_endpoint_vertex (__main__.GeometryTests.test_endpoint_vertex) ... ok
+test_float (__main__.GeometryTests.test_float) ... ok
+test_grid (__main__.GeometryTests.test_grid) ... ok
+test_major (__main__.GeometryTests.test_major) ... ok
+test_minor (__main__.GeometryTests.test_minor) ... ok
+test_negative_radius (__main__.GeometryTests.test_negative_radius) ... ok
+test_offcircle (__main__.GeometryTests.test_offcircle) ... ok
+test_opposite (__main__.GeometryTests.test_opposite) ... ok
+test_other_radius (__main__.GeometryTests.test_other_radius) ... ok
+test_same_vertex (__main__.GeometryTests.test_same_vertex) ... ok
+test_tamper (__main__.GeometryTests.test_tamper) ... ok
+test_translation_scale (__main__.GeometryTests.test_translation_scale) ... ok
+test_zero_radius (__main__.GeometryTests.test_zero_radius) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.132s
+
+OK
+
+exit_code=0

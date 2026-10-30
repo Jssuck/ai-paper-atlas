@@ -1,0 +1,9 @@
+$ python -OO run_examples.py
+same_major_segment {'sides': (-1, -1), 'cotangents': (Fraction(4, 3), Fraction(4, 3)), 'relation': 'equal', 'diameter': False, 'equal': True}
+same_minor_segment {'sides': (1, 1), 'cotangents': (Fraction(-4, 3), Fraction(-4, 3)), 'relation': 'equal', 'diameter': False, 'equal': True}
+opposite_not_equal {'sides': (1, -1), 'cotangents': (Fraction(-4, 3), Fraction(4, 3)), 'relation': 'supplementary', 'diameter': False, 'equal': False}
+diameter_exception {'sides': (1, -1), 'cotangents': (Fraction(0, 1), Fraction(0, 1)), 'relation': 'supplementary', 'diameter': True, 'equal': True}
+finite rational grid: {'points': 10, 'configurations': 1260, 'same_side': 840, 'opposite_side': 420, 'diameter': 112, 'obtuse': 406}
+Finite exact checks are not a proof for all real circle points.
+
+exit_code=0

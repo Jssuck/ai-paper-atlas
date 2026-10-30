@@ -1,0 +1,4 @@
+$ python make_diagram.py
+diagram.svg: explicit 1200 x 480
+
+exit_code=0
