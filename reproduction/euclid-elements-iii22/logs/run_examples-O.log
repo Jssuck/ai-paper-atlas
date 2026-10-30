@@ -1,0 +1,9 @@
+$ python -O run_examples.py
+square: {'cots': (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)), 'opposite_sums': (Fraction(0, 1), Fraction(0, 1)), 'same_segment': (True, True), 'split_cot': Fraction(0, 1), 'split_matches_D': True, 'triangle_sum': Fraction(0, 1), 'orientation': 1}
+nonrectangular: {'cots': (Fraction(4, 3), Fraction(-1, 1), Fraction(-4, 3), Fraction(1, 1)), 'opposite_sums': (Fraction(0, 1), Fraction(0, 1)), 'same_segment': (True, True), 'split_cot': Fraction(1, 1), 'split_matches_D': True, 'triangle_sum': Fraction(0, 1), 'orientation': 1}
+crossed nonreflex opposite-angle sum (radians): 1.5707963267948966
+crossed rejected: strict convex boundary order required
+exact grid: {'configurations': 2970, 'opposite_pairs': 5940, 'same_segment_equalities': 5940, 'right_angle_configurations': 492, 'obtuse_angle_configurations': 2934}
+independent floating oracle: {'configurations': 2970, 'opposite_pairs': 5940, 'max_absolute_radian_error': 4.440892098500626e-16, 'tolerance': 1e-12}
+
+exit_code=0

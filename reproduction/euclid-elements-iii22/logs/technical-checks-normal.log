@@ -1,0 +1,11 @@
+$ python  technical_checks.py
+{
+  "accepted_ordered_configurations": 840,
+  "rejected_crossed_orders": 1680,
+  "independent_acos_max_error": 8.881784197001252e-16,
+  "converse_algebra_cases": 243,
+  "additional_invalid_inputs": 10,
+  "body_examples": "pass",
+  "scope": "finite independent review checks; not a general proof"
+}
+exit_code=0

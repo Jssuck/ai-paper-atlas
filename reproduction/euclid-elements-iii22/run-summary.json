@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-30T06:42:03.243464+00:00",
+  "tests_per_mode": 20,
+  "grid_per_mode": {
+    "configurations": 2970,
+    "opposite_pairs": 5940,
+    "same_segment_equalities": 5940,
+    "right_angle_configurations": 492,
+    "obtuse_angle_configurations": 2934
+  },
+  "notebook_code_cells": 5,
+  "notebook_method": "stdlib compile/exec and saved-output replay, not kernel",
+  "runs": [
+    {
+      "mode": "normal",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "normal",
+      "script": "independent_oracle.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "O",
+      "script": "independent_oracle.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "test_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "run_examples.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "verify_notebook.py",
+      "exit_code": 0
+    },
+    {
+      "mode": "OO",
+      "script": "independent_oracle.py",
+      "exit_code": 0
+    }
+  ]
+}

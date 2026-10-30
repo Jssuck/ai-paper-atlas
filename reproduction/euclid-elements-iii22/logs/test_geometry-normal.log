@@ -1,0 +1,28 @@
+$ python test_geometry.py
+test_collinear (__main__.Tests.test_collinear) ... ok
+test_crossed (__main__.Tests.test_crossed) ... ok
+test_crossed_counterexample (__main__.Tests.test_crossed_counterexample) ... ok
+test_grid (__main__.Tests.test_grid) ... ok
+test_interior (__main__.Tests.test_interior) ... ok
+test_near_degenerate_exact (__main__.Tests.test_near_degenerate_exact) ... ok
+test_noncyclic (__main__.Tests.test_noncyclic) ... ok
+test_nonrectangular (__main__.Tests.test_nonrectangular) ... ok
+test_oracle (__main__.Tests.test_oracle) ... ok
+test_original_substitutions (__main__.Tests.test_original_substitutions) ... ok
+test_radius (__main__.Tests.test_radius) ... ok
+test_repeated (__main__.Tests.test_repeated) ... ok
+test_reverse (__main__.Tests.test_reverse) ... ok
+test_rotations (__main__.Tests.test_rotations) ... ok
+test_shape (__main__.Tests.test_shape) ... ok
+test_split (__main__.Tests.test_split) ... ok
+test_square (__main__.Tests.test_square) ... ok
+test_translation_scale (__main__.Tests.test_translation_scale) ... ok
+test_triangle (__main__.Tests.test_triangle) ... ok
+test_types (__main__.Tests.test_types) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.398s
+
+OK
+
+exit_code=0
