@@ -7,7 +7,7 @@
 - [正文](../../papers/ancient/euclid-elements-iii20.zh-CN.md) SHA256：`8cfcec4fd5a4a3676de50c957ff31cd896530378d258c13d3fb1b5ac5770d4d0`
 - [geometry.py](geometry.py) SHA256：`8ea9fc23e889229762772f80ecc7aa2a1d2da8b22b578e50f4b001c84b4fbbf2`
 - [Notebook](teaching.zh-CN.ipynb) SHA256：`4a05d2dc923fbc892b2fa1df56029431229e3a806d477e3aa06f7347cdc4c81f`
-- [SVG](diagram.svg) SHA256：`a8556f8eb34212831b4adb32ac4ef515a1d2383ae7a20f76aea80f8815833c79`
+- [SVG](diagram.svg) SHA256：`4e3536d810c10416cf13eeed7eefff9e8924bb495758f7df00b7b830d72ac432`
 - [独立检查源码](reviewer-check.py) SHA256：`0567bb1d5e48f299f54ee2b32d996c3f5ede5cc33bdc3d2dab153c48d6ebe6c2`
 - [独立实跑日志](logs/reviewer-check.log) SHA256：`7df177665f783338bf537693496674c1bd7e656c128fbe832c3fd0669e6dd9e6`
 
@@ -36,3 +36,9 @@
 每模式还只读回放Notebook的5个代码单元，与既存stdout逐一比较，无改写。实际方法是compile/exec，**不是Jupyter kernel**。SVG通过XML解析及静态无脚本、无外链检查，共90个XML元素；生成脚本中浮点只作图，不进入精确断言。实际屏幕可读性仍须单独目视，不能用XML通过替代。
 
 作者的16测试方法、2160构形网格及9项子进程日志与汇总一致；它们与本独立2640构形检查采用不同样本与期望实现。所有数目都是有限有理输入回归覆盖，不是对全体实数的穷举，更不是机器形式化证明一般定理。一般结论仍由正文明确的数学推导承担。
+
+## 展示尺寸修订复核
+
+SVG根元素补充显式width=1140、height=700，以避免预览使用过小默认视口；viewBox、五面板几何、弧线、文字和其余元素均未改变。独立移除新增根属性后，SVG字节的SHA256恰回到原审查值 `a8556f8eb34212831b4adb32ac4ef515a1d2383ae7a20f76aea80f8815833c79`；生成脚本作相同逆变换后也匹配修订前清单。
+
+修订后[生成脚本](make_diagram.py)SHA256为 `f658632b269e4455c977cd969ca721697f7760e2e20326f724ce77f75522b2c1`。三模式独立检查再次真实执行，2640构形、18480变异、7非法输入及5格Notebook回放全部通过，日志字节保持相同。正文和精确模型均未改变，原正文绑定继续有效。该尺寸修订通过静态技术复核；最终GitHub实际显示仍须发布环节目视。
