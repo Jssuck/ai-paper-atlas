@@ -1,0 +1,14 @@
+Python 3.12.14
+test_cross_type_not_equal (test_arcs.Arcs.test_cross_type_not_equal) ... ok
+test_equal_across_origins (test_arcs.Arcs.test_equal_across_origins) ... ok
+test_exhaustive_grid (test_arcs.Arcs.test_exhaustive_grid) ... ok
+test_invalid_input (test_arcs.Arcs.test_invalid_input) ... ok
+test_non_subarc_copy_rejected (test_arcs.Arcs.test_non_subarc_copy_rejected) ... ok
+test_unequal_radius_equal_lengths (test_arcs.Arcs.test_unequal_radius_equal_lengths) ... ok
+test_wraparound_witness (test_arcs.Arcs.test_wraparound_witness) ... ok
+test_wrong_arc_same_endpoints (test_arcs.Arcs.test_wrong_arc_same_endpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.212s
+
+OK
