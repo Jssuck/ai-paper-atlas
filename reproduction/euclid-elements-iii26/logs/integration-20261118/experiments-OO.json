@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-18T20:40:47.550694+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "optimization": 2,
+  "arithmetic": "fractions.Fraction exact; no floating-point equality",
+  "counts": {
+    "arcs": 66,
+    "inscribed_checks": 2664,
+    "mapped_points": 5544,
+    "membership_checks": 5544,
+    "distance_checks": 5544,
+    "unequal_radius_controls": 66
+  },
+  "result": "PASS",
+  "limits": "Finite sample checks only; not a formal proof, not old-run recovery, not remote publication validation."
+}

@@ -1,0 +1,244 @@
+{
+  "paper": "euclid-elements-iii26",
+  "scope": "local integration rerun; existing independent checker rerun, not a newly independent review or remote publication validation",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "completed_at": "2026-11-18T20:40:51.333731+00:00",
+  "source_sha256": {
+    "run_experiments.py": "19c6802b68d960a48c09cfe186ebc1b0dc2e7de8a44f49f886193cad280707c4",
+    "test_geometry.py": "09d7aa09b9f90231b7ae966df3812b568db4a805164ee9f16c2576faba222935",
+    "geometry.py": "42b08724be7737f267f64968696faab56016c0ea8715d7074db40cc7e95abdb2",
+    "audit/technical/independent_checks.py": "8892f2127a2d493ae0d98e8fe6c400b25e576eb7486ce9546906b498a2d78e43"
+  },
+  "commands": [
+    {
+      "kind": "tests",
+      "mode": "normal",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:30.778589+00:00",
+      "duration_seconds": 0.1593,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/tests-normal.log",
+      "stderr": "logs/integration-20261118/tests-normal.stderr",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "04330858c5a3be9385708d393a33bc0f4a1c39cc2eb0c9eb3acb7e06b1cc393a",
+      "tests_passed": 24
+    },
+    {
+      "kind": "experiments",
+      "mode": "normal",
+      "command": [
+        "python3",
+        "-B",
+        "run_experiments.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:30.938174+00:00",
+      "duration_seconds": 1.5873,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/experiments-normal.json",
+      "stderr": "logs/integration-20261118/experiments-normal.stderr",
+      "stdout_sha256": "f626449eca781f4e39458facd9e952fc97d745492f1ef8e658b71f736c656e30",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "arcs": 66,
+        "inscribed_checks": 2664,
+        "mapped_points": 5544,
+        "membership_checks": 5544,
+        "distance_checks": 5544,
+        "unequal_radius_controls": 66
+      }
+    },
+    {
+      "kind": "independent",
+      "mode": "normal",
+      "command": [
+        "python3",
+        "-B",
+        "audit/technical/independent_checks.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:32.526612+00:00",
+      "duration_seconds": 5.2089,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/independent-normal.json",
+      "stderr": "logs/integration-20261118/independent-normal.stderr",
+      "stdout_sha256": "a19fc620984b09ca876b42d546b5c8754ec7e13d5b6b3a7eb990afdffc6aed0f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "lattice_points": 44,
+        "arcs": 1288,
+        "membership": 21536,
+        "inscribed": 9480,
+        "maps": 21536,
+        "distance": 21536,
+        "negative_controls": 1289,
+        "invalid_inputs": 12
+      }
+    },
+    {
+      "kind": "tests",
+      "mode": "O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:37.735881+00:00",
+      "duration_seconds": 0.4164,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/tests-O.log",
+      "stderr": "logs/integration-20261118/tests-O.stderr",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "927b9eaaaa9878d783728c0735500dc32a8d2b7d3bc1e84ae16a8e8e1cce669e",
+      "tests_passed": 24
+    },
+    {
+      "kind": "experiments",
+      "mode": "O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "run_experiments.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:38.152526+00:00",
+      "duration_seconds": 2.4468,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/experiments-O.json",
+      "stderr": "logs/integration-20261118/experiments-O.stderr",
+      "stdout_sha256": "47c163c531d27f3fe2e3318609f7aabc8f09e30f75abcf67ff7025b957ce8077",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "arcs": 66,
+        "inscribed_checks": 2664,
+        "mapped_points": 5544,
+        "membership_checks": 5544,
+        "distance_checks": 5544,
+        "unequal_radius_controls": 66
+      }
+    },
+    {
+      "kind": "independent",
+      "mode": "O",
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "audit/technical/independent_checks.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:40.600060+00:00",
+      "duration_seconds": 4.6591,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/independent-O.json",
+      "stderr": "logs/integration-20261118/independent-O.stderr",
+      "stdout_sha256": "5cf751a357380d86fad2eab45705cfda3f93f779683a9b616c865113b32bc074",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "lattice_points": 44,
+        "arcs": 1288,
+        "membership": 21536,
+        "inscribed": 9480,
+        "maps": 21536,
+        "distance": 21536,
+        "negative_controls": 1289,
+        "invalid_inputs": 12
+      }
+    },
+    {
+      "kind": "tests",
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "-m",
+        "unittest",
+        "-v",
+        "test_geometry"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:45.259447+00:00",
+      "duration_seconds": 0.3929,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/tests-OO.log",
+      "stderr": "logs/integration-20261118/tests-OO.stderr",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "927b9eaaaa9878d783728c0735500dc32a8d2b7d3bc1e84ae16a8e8e1cce669e",
+      "tests_passed": 24
+    },
+    {
+      "kind": "experiments",
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "run_experiments.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:45.652606+00:00",
+      "duration_seconds": 1.9571,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/experiments-OO.json",
+      "stderr": "logs/integration-20261118/experiments-OO.stderr",
+      "stdout_sha256": "91e52ae70c343988b1fddd2588d54108d2e6292d4c9c120247af0f01afa00e3e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "arcs": 66,
+        "inscribed_checks": 2664,
+        "mapped_points": 5544,
+        "membership_checks": 5544,
+        "distance_checks": 5544,
+        "unequal_radius_controls": 66
+      }
+    },
+    {
+      "kind": "independent",
+      "mode": "OO",
+      "command": [
+        "python3",
+        "-B",
+        "-OO",
+        "audit/technical/independent_checks.py"
+      ],
+      "cwd": "reproduction/euclid-elements-iii26",
+      "started_at": "2026-11-18T20:40:47.610147+00:00",
+      "duration_seconds": 3.7182,
+      "exit_code": 0,
+      "stdout": "logs/integration-20261118/independent-OO.json",
+      "stderr": "logs/integration-20261118/independent-OO.stderr",
+      "stdout_sha256": "f91d51321e9b716bb3a35dd910d34d24e6503aa7a19e633146d56bcbdbf3ddfe",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": {
+        "lattice_points": 44,
+        "arcs": 1288,
+        "membership": 21536,
+        "inscribed": 9480,
+        "maps": 21536,
+        "distance": 21536,
+        "negative_controls": 1289,
+        "invalid_inputs": 12
+      }
+    }
+  ],
+  "result": "PASS",
+  "remote_write_performed": false,
+  "github_math_rendering": "NOT_RUN",
+  "general_formal_proof": "NOT_CLAIMED"
+}
