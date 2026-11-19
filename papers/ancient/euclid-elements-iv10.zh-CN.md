@@ -31,9 +31,7 @@
 
 1. **转写等积证书。** 由分割及定长弦得 $AB\cdot BC=BD^2$ 。从外点 $B$ 向小圆看，割线近交点是 $C$ 、远交点是 $A$ ，而 $D$ 在小圆上。用 [III.37 切线逆判定](euclid-elements-iii37.zh-CN.md) 得 $BD$ 在 $D$ 相切。这里不是先从图上认出切线，再用 III.36 从切线推出数值。
 2. **把切线翻译成角。** 用 [III.32](euclid-elements-iii32.zh-CN.md) 的切线弦定理，取切点射线 $DB$ 与弦 $DC$ 组成的角，得 $\angle BDC=\angle DAC$ 。所用是对应的交替圆弓形；若把 $DB$ 倒向延长，得到的是补角，不能当作同一个结论。 $A$ 与 $B$ 在直线 $CD$ 的两侧： $A,C,B$ 严格有序，且 $D$ 不在 $AB$ 上。
-3. **用同一个角和连接两个三角形。** 由 $DC$ 在夹角内部及 I.32 的外角关系，
-   
-   $ \angle BDA=\angle BDC+\angle CDA  =\angle DAC+\angle CDA=\angle BCD.$
+3. **用同一个角和连接两个三角形。** 由 $DC$ 在夹角内部及 I.32 的外角关系， $\angle BDA=\angle BDC+\angle CDA  =\angle DAC+\angle CDA=\angle BCD$ 。
 
    外角是 $\angle BCD$ ，因为 $CB$ 是 $CA$ 的反向射线；不能把 $\angle ACD$ 当成这里的外角。
 4. **等角换边，再换回等角。** 因为 $AD=AB$ ，I.5 给出 $\angle BDA=\angle DBA=\angle DBC$ （从 $B$ 看， $BA$ 与 $BC$ 同向）。故 $\angle DBC=\angle BCD$ ，I.6 在 $\triangle BCD$ 中给出两者对边 $DC=BD$ 。配合原构造 $BD=AC$ ，再在 $\triangle ACD$ 中用 I.5，得 $\angle CDA=\angle DAC$ 。
