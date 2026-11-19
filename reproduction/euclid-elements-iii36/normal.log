@@ -1,0 +1,19 @@
+Python 3.12.14
++ python secant_tangent.py
+diameter example {'branch': 'diameter', 'product': Fraction(144, 1), 'tangent_squared': Fraction(144, 1), 'half_chord_squared': Fraction(25, 1), 'center_offset_squared': Fraction(0, 1), 'midpoint_to_d_squared': Fraction(169, 1)}
+offset example {'branch': 'offset', 'product': Fraction(9, 1), 'tangent_squared': Fraction(9, 1), 'half_chord_squared': Fraction(16, 1), 'center_offset_squared': Fraction(9, 1), 'midpoint_to_d_squared': Fraction(25, 1)}
+finite sweep (two circle positions/scales): {'diameter': 120, 'offset': 440}
++ python -m unittest -v
+test_b_on_circle_but_not_tangent (test_secant_tangent.SecantTangentTests.test_b_on_circle_but_not_tangent) ... ok
+test_diameter (test_secant_tangent.SecantTangentTests.test_diameter) ... ok
+test_malformed_secant (test_secant_tangent.SecantTangentTests.test_malformed_secant) ... ok
+test_offset (test_secant_tangent.SecantTangentTests.test_offset) ... ok
+test_other_tangent_same_square (test_secant_tangent.SecantTangentTests.test_other_tangent_same_square) ... ok
+test_premise_checks (test_secant_tangent.SecantTangentTests.test_premise_checks) ... ok
+test_similarity (test_secant_tangent.SecantTangentTests.test_similarity) ... ok
+test_sweep (test_secant_tangent.SecantTangentTests.test_sweep) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.134s
+
+OK

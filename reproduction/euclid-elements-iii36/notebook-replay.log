@@ -1,0 +1,9 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+diameter AD × DC = 144 DB² = 144 圆心到弦的距离平方 = 0
+offset AD × DC = 9 DB² = 9 圆心到弦的距离平方 = 9
+cell 2
+拒绝： DB must be tangent at B
+cell 3
+{'diameter': 120, 'offset': 440} total: 560
+Replay completed: 3 code cells
