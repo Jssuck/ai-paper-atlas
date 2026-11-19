@@ -33,10 +33,7 @@
 2. **把切线翻译成角。** 用 [III.32](euclid-elements-iii32.zh-CN.md) 的切线弦定理，取切点射线 $DB$ 与弦 $DC$ 组成的角，得 $\angle BDC=\angle DAC$ 。所用是对应的交替圆弓形；若把 $DB$ 倒向延长，得到的是补角，不能当作同一个结论。 $A$ 与 $B$ 在直线 $CD$ 的两侧： $A,C,B$ 严格有序，且 $D$ 不在 $AB$ 上。
 3. **用同一个角和连接两个三角形。** 由 $DC$ 在夹角内部及 I.32 的外角关系，
    
-   $$
-   \angle BDA=\angle BDC+\angle CDA
-   =\angle DAC+\angle CDA=\angle BCD.
-   $$
+   $ \angle BDA=\angle BDC+\angle CDA  =\angle DAC+\angle CDA=\angle BCD.$
 
    外角是 $\angle BCD$ ，因为 $CB$ 是 $CA$ 的反向射线；不能把 $\angle ACD$ 当成这里的外角。
 4. **等角换边，再换回等角。** 因为 $AD=AB$ ，I.5 给出 $\angle BDA=\angle DBA=\angle DBC$ （从 $B$ 看， $BA$ 与 $BC$ 同向）。故 $\angle DBC=\angle BCD$ ，I.6 在 $\triangle BCD$ 中给出两者对边 $DC=BD$ 。配合原构造 $BD=AC$ ，再在 $\triangle ACD$ 中用 I.5，得 $\angle CDA=\angle DAC$ 。
@@ -58,26 +55,34 @@
 ## 5. 精确算例、反例与最小复现
 
 令 $u=AC/r$ 。归一化后有
+
 $$
 1-u=u^2,\qquad u=\frac{\sqrt5-1}{2},
 $$
+
 另一根 $(-1-\sqrt5)/2<0$ 不是线内分割。因为 $0<u<1$ 且 $BC/r=u^2$ ， $AB/AC=AC/BC=1/u$ 。这是较长段居中的等比，联系 [VI.30 的极中比作法](https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI30.html)。使用“黄金分割”只是现代读法，不把后世命名或美学解说归给欧几里得。
 
 **坐标证书（教学重构）。** 除去平移、方向与尺度，取 $A=(0,0)$ 、 $B=(1,0)$ 、 $C=(u,0)$ 、 $D=(d,h)$ ，以 $h$ 区分两种镜像：
+
 $$
 d^2+h^2=1,\qquad
 (1-d)^2+h^2=u^2,\qquad
 d=1-\frac{u^2}{2}=\frac{1+u}{2},\qquad
 h=\pm\sqrt{1-d^2}.
 $$
+
 从 $0<u<1$ 有 $h^2>0$ 。若 $O$ 是小圆圆心，其横坐标为 $u/2$ （ $AC$ 垂直平分线）。因此不用先计算 $O$ 的纵坐标，就有
+
 $$
 |B-O|^2-|A-O|^2=1-u=u^2=|B-D|^2.
 $$
+
 因为 $|A-O|=|D-O|$ ，展开 $B-O=(B-D)+(D-O)$ 即得 $(B-D)\cdot(D-O)=0$ ：所需切性退化成一个点积证书。这跟 III.37 证明同一性质，但验证方式不同。另一个可交叉检查的证书是
+
 $$
 CD^2=1+u^2-2ud=1-u=u^2.
 $$
+
 可保留 $h$ 或利用 $h^2$ 消去高度，完全不用让浮点阈值决定等式。
 
 **反例一：** 用中点 $u=1/2$ ，仍可做等腰三角形，仍有小圆和大圆，也仍可令 $BD=AC$ 。然而割线积是 $1/2$ ，弦平方是 $1/4$ ；不相切。且 $CD^2=1+1/4-2(1/2)(7/8)=3/8$ ，与 $BD^2=1/4$ 不同。由 §4 的必要条件可知它并非目标角形。
