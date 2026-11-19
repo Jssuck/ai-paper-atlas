@@ -1,0 +1,24 @@
+Python 3.12.14
+$ python -B -OO -m unittest -v
+test_axis_aligned (test_inscribed_circle.InscribedCircleTests.test_axis_aligned) ... ok
+test_both_boundary_orientations (test_inscribed_circle.InscribedCircleTests.test_both_boundary_orientations) ... ok
+test_false_certificate (test_inscribed_circle.InscribedCircleTests.test_false_certificate) ... ok
+test_grid (test_inscribed_circle.InscribedCircleTests.test_grid) ... ok
+test_nonexact_input_rejected (test_inscribed_circle.InscribedCircleTests.test_nonexact_input_rejected) ... ok
+test_nonsquare_rectangle (test_inscribed_circle.InscribedCircleTests.test_nonsquare_rectangle) ... ok
+test_rational_rotated (test_inscribed_circle.InscribedCircleTests.test_rational_rotated) ... ok
+test_zero_side_and_crossed_order (test_inscribed_circle.InscribedCircleTests.test_zero_side_and_crossed_order) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.072s
+
+OK
+$ python -B -OO inscribed_circle.py
+vertices: (('1/2', '-1/3'), ('9/2', '5/3'), ('5/2', '17/3'), ('-3/2', '11/3'))
+center, radius^2: ('3/2', '8/3') 5
+contacts: (('5/2', '2/3'), ('7/2', '11/3'), ('1/2', '14/3'), ('-1/2', '5/3'))
+center-to-side-line distance^2: ('5', '5', '5', '5')
+certificate: True
+rectangle center distances^2: ('1', '4', '1', '4')
+nonsquare rectangle rejected
+grid (certified, zero-side rejected): (360, 3)
