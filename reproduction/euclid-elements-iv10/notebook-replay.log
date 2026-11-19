@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+t 的两个系数: -1/2 1/2
+t 是 AB 的内分比例: True
+等式 1−t=t²: True
+cell 2
+1 {'nondegenerate': True, 'given_circle_and_chord': True, 'split_product': True, 'circumcircle_ACD': True, 'B_outside': True, 'point_power': True, 'tangent_at_D': True, 'equal_BD_CD_AC': True, 'both_base_angles_double': True}
+-1 {'nondegenerate': True, 'given_circle_and_chord': True, 'split_product': True, 'circumcircle_ACD': True, 'B_outside': True, 'point_power': True, 'tangent_at_D': True, 'equal_BD_CD_AC': True, 'both_base_angles_double': True}
+cell 3
+中点反例仍满足弦长条件: True
+中点反例的失败项: ['split_product', 'tangent_at_D', 'equal_BD_CD_AC', 'both_base_angles_double']
+正例与错误内分的案例数: (96, 8)
+Replay completed: 3 code cells

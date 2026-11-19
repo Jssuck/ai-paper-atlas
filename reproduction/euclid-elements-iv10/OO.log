@@ -1,0 +1,15 @@
+Python 3.12.14
+$ python -OO -m unittest -v
+test_equal_chord_does_not_imply_tangency (test_golden_triangle.TriangleTests.test_equal_chord_does_not_imply_tangency) ... ok
+test_exact_grid (test_golden_triangle.TriangleTests.test_exact_grid) ... ok
+test_exact_sign_and_division (test_golden_triangle.TriangleTests.test_exact_sign_and_division) ... ok
+test_float_rejected (test_golden_triangle.TriangleTests.test_float_rejected) ... ok
+test_invalid_inputs (test_golden_triangle.TriangleTests.test_invalid_inputs) ... ok
+test_reflection (test_golden_triangle.TriangleTests.test_reflection) ... ok
+test_scale (test_golden_triangle.TriangleTests.test_scale) ... ok
+test_split_field_identity_and_other_root (test_golden_triangle.TriangleTests.test_split_field_identity_and_other_root) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in <elapsed>
+
+OK
