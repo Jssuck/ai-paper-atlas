@@ -1,0 +1,13 @@
++ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+center two diameters (Fraction(0, 1), Fraction(0, 1)) (Fraction(25, 1), Fraction(25, 1))
+one diameter perpendicular (Fraction(3, 1), Fraction(0, 1)) (Fraction(16, 1), Fraction(16, 1))
+neither diameter (Fraction(3, 1), Fraction(3, 1)) (Fraction(7, 1), Fraction(7, 1))
+cell 2
+outside signed products (Fraction(24, 1), Fraction(24, 1))
+off-circle unsigned products (Fraction(16, 1), Fraction(12, 1))
+cell 3
+16 points per circle; 3640 interior configurations
+diameter count 0/1/2: (2912, 672, 56) ; perpendicular: 110
+Replay completed: 3 code cells

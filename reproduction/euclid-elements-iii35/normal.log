@@ -1,0 +1,22 @@
+Python 3.12.14
++ python  chord_products.py
+center two diameters {'point': (Fraction(0, 1), Fraction(0, 1)), 'iii35_premises': True, 'unsigned_products': (Fraction(25, 1), Fraction(25, 1)), 'directed_products': (Fraction(-25, 1), Fraction(-25, 1)), 'radial_power': Fraction(-25, 1), 'signed_match': True}
+one diameter perpendicular {'point': (Fraction(3, 1), Fraction(0, 1)), 'iii35_premises': True, 'unsigned_products': (Fraction(16, 1), Fraction(16, 1)), 'directed_products': (Fraction(-16, 1), Fraction(-16, 1)), 'radial_power': Fraction(-16, 1), 'signed_match': True}
+neither diameter {'point': (Fraction(3, 1), Fraction(3, 1)), 'iii35_premises': True, 'unsigned_products': (Fraction(7, 1), Fraction(7, 1)), 'directed_products': (Fraction(-7, 1), Fraction(-7, 1)), 'radial_power': Fraction(-7, 1), 'signed_match': True}
+exterior supports {'point': (Fraction(7, 1), Fraction(0, 1)), 'iii35_premises': False, 'unsigned_products': (Fraction(24, 1), Fraction(24, 1)), 'directed_products': (Fraction(24, 1), Fraction(24, 1)), 'radial_power': Fraction(24, 1), 'signed_match': True}
+off-circle endpoint {'point': (Fraction(3, 1), Fraction(0, 1)), 'iii35_premises': False, 'unsigned_products': (Fraction(16, 1), Fraction(12, 1)), 'directed_products': (Fraction(-16, 1), Fraction(-12, 1)), 'radial_power': Fraction(-16, 1), 'signed_match': False}
+points per circle: 16; two circles; interior configurations: 3640
+diameter count 0/1/2: (2912, 672, 56); perpendicular: 110
++ python  -m unittest -v
+test_center (test_chord_products.ChordTests.test_center) ... ok
+test_cyclic_sweep (test_chord_products.ChordTests.test_cyclic_sweep) ... ok
+test_exact_similarity_and_order (test_chord_products.ChordTests.test_exact_similarity_and_order) ... ok
+test_exterior_sign_not_original (test_chord_products.ChordTests.test_exterior_sign_not_original) ... ok
+test_invalid_and_off_circle (test_chord_products.ChordTests.test_invalid_and_off_circle) ... ok
+test_neither_diameter (test_chord_products.ChordTests.test_neither_diameter) ... ok
+test_one_diameter_perpendicular (test_chord_products.ChordTests.test_one_diameter_perpendicular) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.576s
+
+OK
