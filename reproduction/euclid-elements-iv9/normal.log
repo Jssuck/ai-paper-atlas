@@ -1,0 +1,22 @@
+Python 3.12.14
+$ python -B -m unittest -v
+test_grid (test_circumcircle.Tests.test_grid) ... ok
+test_inexact_input (test_circumcircle.Tests.test_inexact_input) ... ok
+test_invalid (test_circumcircle.Tests.test_invalid) ... ok
+test_order_both_orientations (test_circumcircle.Tests.test_order_both_orientations) ... ok
+test_rectangle_extension (test_circumcircle.Tests.test_rectangle_extension) ... ok
+test_rhombus_negative_control (test_circumcircle.Tests.test_rhombus_negative_control) ... ok
+test_rotated (test_circumcircle.Tests.test_rotated) ... ok
+test_wrong_certificate (test_circumcircle.Tests.test_wrong_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.044s
+
+OK
+$ python -B circumcircle.py
+square: (('1/2', '-1/3'), ('9/2', '5/3'), ('5/2', '17/3'), ('-3/2', '11/3'))
+center, radius^2: ('3/2', '8/3') 10
+certificate: True
+nonsquare rectangle center, radius^2: ('2', '1') 5
+rhombus center, vertex distances^2: ('4', '2') ('20', '5', '20', '5')
+grid (certified, zero-side rejected): (360, 3)

@@ -1,0 +1,15 @@
+Python 3.12.14
+$ python -B -O -m unittest -v
+test_grid (test_circumcircle.Tests.test_grid) ... ok
+test_inexact_input (test_circumcircle.Tests.test_inexact_input) ... ok
+test_invalid (test_circumcircle.Tests.test_invalid) ... ok
+test_order_both_orientations (test_circumcircle.Tests.test_order_both_orientations) ... ok
+test_rectangle_extension (test_circumcircle.Tests.test_rectangle_extension) ... ok
+test_rhombus_negative_control (test_circumcircle.Tests.test_rhombus_negative_control) ... ok
+test_rotated (test_circumcircle.Tests.test_rotated) ... ok
+test_wrong_certificate (test_circumcircle.Tests.test_wrong_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.050s
+
+OK
