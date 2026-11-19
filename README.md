@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.29：等弧为什么能定出等长的弦？](papers/ancient/euclid-elements-iii29.zh-CN.md)。重建从等弧到等角再到等弦的证明，附[教学复现、Notebook 与实跑日志](reproduction/euclid-elements-iii29/README.md)。
+最新补读：[《几何原本》III.30：弧的中点为何必须选对一侧？](papers/ancient/euclid-elements-iii30.zh-CN.md)。重建弧二等分构造，附[教学复现、Notebook 与实跑日志](reproduction/euclid-elements-iii30/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -228,6 +228,7 @@
 | 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 译注本） | [《几何原本》III.27精读](papers/ancient/euclid-elements-iii27.zh-CN.md) | AI推理前史补读：等弧推出同类等角、复制角反证与逆命题条件 | 深读v1 · 独立审查与实跑 |
 | 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 1908 译注本） | [《几何原本》III.28精读](papers/ancient/euclid-elements-iii28.zh-CN.md) | AI推理前史补读：等弦定等弧、大小弧配对与直径边界 | 深读v1 · 独立审查与实跑 |
 | 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 1908 译注本） | [《几何原本》III.29精读](papers/ancient/euclid-elements-iii29.zh-CN.md) | AI推理前史补读：等弧定等弦、边角边、补弧与半圆边界 | 深读v1 · 独立审查与实跑 |
+| 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 1908 译注本） | [《几何原本》III.30精读](papers/ancient/euclid-elements-iii30.zh-CN.md) | AI推理前史补读：弧二等分构造、候选选侧与非循环短弧资格 | 深读v1 · 独立审查与实跑 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
