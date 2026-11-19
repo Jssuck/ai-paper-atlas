@@ -1,0 +1,12 @@
++ python -B replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+A,B,C: ((Fraction(0, 1), Fraction(0, 1)), (Fraction(-100, 29), Fraction(40, 29)), (Fraction(-4, 1), Fraction(8, 1)))
+template: (Fraction(9, 8), Fraction(-1, 2), Fraction(5, 2))
+output: (Fraction(9, 8), Fraction(-1, 2), Fraction(5, 2))
+verified: True
+cell 2
+swap B,C verified: False
+cell 3
+{'acute': 128, 'right': 320, 'obtuse': 544, 'degenerate': 258}
+Replay completed: 3 code cells

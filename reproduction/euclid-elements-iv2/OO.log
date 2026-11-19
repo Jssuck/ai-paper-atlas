@@ -1,0 +1,21 @@
+Python 3.12.14
++ python -B -OO inscribed_triangle.py
+obtuse labeled example A,B,C: ((Fraction(0, 1), Fraction(0, 1)), (Fraction(-100, 29), Fraction(40, 29)), (Fraction(-4, 1), Fraction(8, 1)))
+D,E,F angle cotangents: (Fraction(9, 8), Fraction(-1, 2), Fraction(5, 2))
+A,B,C angle cotangents: (Fraction(9, 8), Fraction(-1, 2), Fraction(5, 2))
+valid: True | swap B,C: False
+finite sweep: {'acute': 128, 'right': 320, 'obtuse': 544, 'degenerate': 258}
++ python -B -OO -m unittest -v
+test_degenerate_and_domain (test_inscribed_triangle.InscribedTriangleTests.test_degenerate_and_domain) ... ok
+test_grid (test_inscribed_triangle.InscribedTriangleTests.test_grid) ... ok
+test_obtuse_e (test_inscribed_triangle.InscribedTriangleTests.test_obtuse_e) ... ok
+test_obtuse_f (test_inscribed_triangle.InscribedTriangleTests.test_obtuse_f) ... ok
+test_right (test_inscribed_triangle.InscribedTriangleTests.test_right) ... ok
+test_scaled_same_angles_but_off_circle (test_inscribed_triangle.InscribedTriangleTests.test_scaled_same_angles_but_off_circle) ... ok
+test_tangent_or_outward_ray (test_inscribed_triangle.InscribedTriangleTests.test_tangent_or_outward_ray) ... ok
+test_wrong_label (test_inscribed_triangle.InscribedTriangleTests.test_wrong_label) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.136s
+
+OK
