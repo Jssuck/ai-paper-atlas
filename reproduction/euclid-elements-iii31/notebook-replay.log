@@ -1,0 +1,17 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+Python 3.12.14 | plain compile/exec (no Jupyter kernel)
+cell dot-sign
+major 顶点 P (-5, 0) 点积 48 acute 内接角 53.130102°
+minor 顶点 P (5, 0) 点积 -12 obtuse 内接角 126.869898°
+half 顶点 P (3, 4) 点积 0 right 内接角 90.000000°
+cell limit-rays
+major 切向射线向量 (-4, -3) 点积 -24 现代角 126.869898°
+minor 切向射线向量 (4, 3) 点积 24 现代角 53.130102°
+half 切向射线向量 (0, 5) 点积 0 现代角 90.000000°
+cell convergence
+8 误差 0.124354994547 rad
+64 误差 0.015623728620 rad
+512 误差 0.001953122516 rad
+4096 误差 0.000244140620 rad
+Replay completed: 3 code cells

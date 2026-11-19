@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_exact_grid (test_segment_angles.SegmentAngleTests.test_exact_grid) ... ok
+test_examples_and_tangent_complement (test_segment_angles.SegmentAngleTests.test_examples_and_tangent_complement) ... ok
+test_invalid_input (test_segment_angles.SegmentAngleTests.test_invalid_input) ... ok
+test_one_sided_secants (test_segment_angles.SegmentAngleTests.test_one_sided_secants) ... ok
+test_same_segment_other_vertices (test_segment_angles.SegmentAngleTests.test_same_segment_other_vertices) ... ok
+test_tangent_ray_direction_changes_conclusion (test_segment_angles.SegmentAngleTests.test_tangent_ray_direction_changes_conclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.770s
+
+OK
