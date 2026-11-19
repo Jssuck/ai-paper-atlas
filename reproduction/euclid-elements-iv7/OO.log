@@ -1,0 +1,20 @@
+Python 3.12.14
+$ python -OO -B -m unittest -v
+test_axes_and_contact_order (test_circumscribed_square.CircumscribedSquareTests.test_axes_and_contact_order) ... ok
+test_crossed_and_wrong_size (test_circumscribed_square.CircumscribedSquareTests.test_crossed_and_wrong_size) ... ok
+test_cyclic_start_tracks_radius (test_circumscribed_square.CircumscribedSquareTests.test_cyclic_start_tracks_radius) ... ok
+test_degenerate (test_circumscribed_square.CircumscribedSquareTests.test_degenerate) ... ok
+test_exact_coordinates_only (test_circumscribed_square.CircumscribedSquareTests.test_exact_coordinates_only) ... ok
+test_grid (test_circumscribed_square.CircumscribedSquareTests.test_grid) ... ok
+test_rational_translation_and_irrational_radius (test_circumscribed_square.CircumscribedSquareTests.test_rational_translation_and_irrational_radius) ... ok
+test_rhombus_not_square (test_circumscribed_square.CircumscribedSquareTests.test_rhombus_not_square) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.068s
+
+OK
+$ python -OO -B circumscribed_square.py
+vertices: [('3/2', '8/3'), ('-5/2', '2/3'), ('-1/2', '-10/3'), ('7/2', '-4/3')]
+radius^2, side^2, diagonal^2, area: 5 20 40 20
+nonperpendicular tangencies: sides^2= ('625/4', '625/4', '625/4', '625/4') adjacent dots= ('-375/4', '375/4', '-375/4', '375/4')
+grid (certified, zero-radius rejected): (360, 3)

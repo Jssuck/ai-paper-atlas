@@ -1,0 +1,13 @@
+$ python -B replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+vertices: [('3/2', '8/3'), ('-5/2', '2/3'), ('-1/2', '-10/3'), ('7/2', '-4/3')]
+side^2, adjacency dot, diagonal^2, signed area: ((Fraction(20, 1), Fraction(20, 1), Fraction(20, 1), Fraction(20, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)), (Fraction(40, 1), Fraction(40, 1)), Fraction(20, 1))
+certificate: True
+cell 2
+vertices: [('5', '5/2'), ('-5', '10'), ('-5', '-5/2'), ('5', '-10')]
+side^2, adjacency dot, diagonal^2, signed area: ((Fraction(625, 4), Fraction(625, 4), Fraction(625, 4), Fraction(625, 4)), (Fraction(-375, 4), Fraction(375, 4), Fraction(-375, 4), Fraction(375, 4)), (Fraction(125, 1), Fraction(500, 1)), Fraction(125, 1))
+square certificate: False
+cell 3
+certified: 360 zero-radius rejected: 3
+Replay completed: 3 code cells
