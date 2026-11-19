@@ -1,0 +1,12 @@
+Command: python -B replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+D E F (9/5,12/5) (0,0) (5,0)
+A B C (-4/5,3/5) (0,-1) (3/5,4/5)
+L M N (-1/5,7/5) (-2,-1) (3,-1)
+cell 2
+M 内角两射线向量的点积： -56/9
+退化输入拒绝： require positive parameters and t_e*t_f < 1
+cell 3
+{'acute': 456, 'inadmissible': 816, 'obtuse': 744, 'right': 384}
+Replay completed: 3 code cells

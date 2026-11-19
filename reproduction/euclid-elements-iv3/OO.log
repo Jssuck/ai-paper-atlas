@@ -1,0 +1,20 @@
+Python 3.12.14
+Command: python -B -OO -m unittest -v
+test_grid (test_circumscribed_triangle.CircumscribedTest.test_grid) ... ok
+test_invalid_inputs (test_circumscribed_triangle.CircumscribedTest.test_invalid_inputs) ... ok
+test_near_degeneracy (test_circumscribed_triangle.CircumscribedTest.test_near_degeneracy) ... ok
+test_obtuse_at_d (test_circumscribed_triangle.CircumscribedTest.test_obtuse_at_d) ... ok
+test_obtuse_at_e (test_circumscribed_triangle.CircumscribedTest.test_obtuse_at_e) ... ok
+test_obtuse_at_f (test_circumscribed_triangle.CircumscribedTest.test_obtuse_at_f) ... ok
+test_right_fixture (test_circumscribed_triangle.CircumscribedTest.test_right_fixture) ... ok
+test_rotate_translate_scale (test_circumscribed_triangle.CircumscribedTest.test_rotate_translate_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.419s
+
+OK
+Command: python -B -OO circumscribed_triangle.py
+D E F: (9/5,12/5) (0,0) (5,0)
+A B C: (-4/5,3/5) (0,-1) (3/5,4/5)
+L M N: (-1/5,7/5) (-2,-1) (3,-1)
+grid: {'acute': 456, 'inadmissible': 816, 'obtuse': 744, 'right': 384}
