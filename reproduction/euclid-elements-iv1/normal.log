@@ -1,0 +1,22 @@
+Python 3.12.14
++ python  chord_insertion.py
+R=5, L=6: (Point(x=Fraction(7, 5), y_squared=Fraction(576, 25), sign=-1), Point(x=Fraction(7, 5), y_squared=Fraction(576, 25), sign=1))
+R=1, L=1: (Point(x=Fraction(1, 2), y_squared=Fraction(3, 4), sign=-1), Point(x=Fraction(1, 2), y_squared=Fraction(3, 4), sign=1))
+R=5, L=10: (Point(x=Fraction(-5, 1), y_squared=Fraction(0, 1), sign=0),)
+R=5, L=11: ()
+R=5, L=0: (Point(x=Fraction(5, 1), y_squared=Fraction(0, 1), sign=0),)
+finite sweep: {'zero': 16, 'interior': 304, 'diameter': 16, 'impossible': 80}
++ python  -m unittest -v
+test_diameter (test_chord_insertion.ChordInsertionTests.test_diameter) ... ok
+test_grid (test_chord_insertion.ChordInsertionTests.test_grid) ... ok
+test_impossible (test_chord_insertion.ChordInsertionTests.test_impossible) ... ok
+test_irrational_height (test_chord_insertion.ChordInsertionTests.test_irrational_height) ... ok
+test_parameter_domain (test_chord_insertion.ChordInsertionTests.test_parameter_domain) ... ok
+test_radical_pair (test_chord_insertion.ChordInsertionTests.test_radical_pair) ... ok
+test_reject_malformed_witness (test_chord_insertion.ChordInsertionTests.test_reject_malformed_witness) ... ok
+test_zero_not_chord (test_chord_insertion.ChordInsertionTests.test_zero_not_chord) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.014s
+
+OK

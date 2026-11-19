@@ -1,0 +1,11 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+Point(x=Fraction(1, 2), y_squared=Fraction(3, 4), sign=-1) 两个距离条件均满足: True
+Point(x=Fraction(1, 2), y_squared=Fraction(3, 4), sign=1) 两个距离条件均满足: True
+cell 2
+10 (Point(x=Fraction(-5, 1), y_squared=Fraction(0, 1), sign=0),)
+11 ()
+0 (Point(x=Fraction(5, 1), y_squared=Fraction(0, 1), sign=0),)
+cell 3
+{'zero': 16, 'interior': 304, 'diameter': 16, 'impossible': 80}
+Replay completed: 3 code cells
