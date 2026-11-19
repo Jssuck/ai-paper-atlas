@@ -1,0 +1,9 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+diameter {'branch': 'diameter', 'product': Fraction(144, 1), 'reference': (Fraction(25, 13), Fraction(-60, 13)), 'squared_sides': (Fraction(144, 1), Fraction(25, 1), Fraction(169, 1)), 'candidate_dot': Fraction(0, 1)}
+offset {'branch': 'offset', 'product': Fraction(9, 1), 'reference': (Fraction(40, 17), Fraction(75, 17)), 'squared_sides': (Fraction(9, 1), Fraction(25, 1), Fraction(34, 1)), 'candidate_dot': Fraction(0, 1)}
+cell 2
+拒绝： candidate endpoint B must lie on circle
+cell 3
+{'diameter': 3, 'offset': 524} total: 527
+Replay completed: 3 code cells

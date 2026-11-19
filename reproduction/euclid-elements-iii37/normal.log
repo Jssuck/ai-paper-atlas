@@ -1,0 +1,20 @@
+Python 3.12.14
++ python -B tangent_converse.py
+diameter {'branch': 'diameter', 'product': Fraction(144, 1), 'reference': (Fraction(25, 13), Fraction(-60, 13)), 'squared_sides': (Fraction(144, 1), Fraction(25, 1), Fraction(169, 1)), 'candidate_dot': Fraction(0, 1)}
+offset {'branch': 'offset', 'product': Fraction(9, 1), 'reference': (Fraction(40, 17), Fraction(75, 17)), 'squared_sides': (Fraction(9, 1), Fraction(25, 1), Fraction(34, 1)), 'candidate_dot': Fraction(0, 1)}
+rejected: candidate endpoint B must lie on circle
+finite sweep: {'diameter': 3, 'offset': 524}
++ python -B -m unittest -v
+test_both_contacts (test_tangent_converse.ConverseTest.test_both_contacts) ... ok
+test_diameter (test_tangent_converse.ConverseTest.test_diameter) ... ok
+test_equal_length_off_circle (test_tangent_converse.ConverseTest.test_equal_length_off_circle) ... ok
+test_irrational_reference_out_of_scope (test_tangent_converse.ConverseTest.test_irrational_reference_out_of_scope) ... ok
+test_offset (test_tangent_converse.ConverseTest.test_offset) ... ok
+test_sweep (test_tangent_converse.ConverseTest.test_sweep) ... ok
+test_wrong_order (test_tangent_converse.ConverseTest.test_wrong_order) ... ok
+test_wrong_square (test_tangent_converse.ConverseTest.test_wrong_square) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.084s
+
+OK
