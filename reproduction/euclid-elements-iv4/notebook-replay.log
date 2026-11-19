@@ -1,0 +1,12 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+D = ('1', '1') r = 1
+E = ('1', '0')
+F = ('8/5', '9/5')
+G = ('0', '1')
+cell 2
+obtuse D = ('3', '3/2') r = 3/2
+exact domain limit: irrational side length is outside this exact model
+cell 3
+{'acute': 144, 'right': 144, 'obtuse': 288, 'invalid': 3}
+Replay completed: 3 code cells

@@ -1,0 +1,25 @@
+Python 3.12.14
+python -B -OO -m unittest -v
+test_acute (test_incircle.IncircleTests.test_acute) ... ok
+test_bisector_reconstruction (test_incircle.IncircleTests.test_bisector_reconstruction) ... ok
+test_degenerate (test_incircle.IncircleTests.test_degenerate) ... ok
+test_exact_domain (test_incircle.IncircleTests.test_exact_domain) ... ok
+test_obtuse (test_incircle.IncircleTests.test_obtuse) ... ok
+test_orientation_reversal (test_incircle.IncircleTests.test_orientation_reversal) ... ok
+test_right_and_contact_labels (test_incircle.IncircleTests.test_right_and_contact_labels) ... ok
+test_similarity_grid (test_incircle.IncircleTests.test_similarity_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.281s
+
+OK
+python -B -OO incircle.py
+acute D = (Fraction(6, 1), Fraction(4, 1)) r = 4
+  E/F/G = (Fraction(30, 13), Fraction(72, 13)) (Fraction(6, 1), Fraction(0, 1)) (Fraction(46, 5), Fraction(32, 5))
+right D = (Fraction(1, 1), Fraction(1, 1)) r = 1
+  E/F/G = (Fraction(1, 1), Fraction(0, 1)) (Fraction(8, 5), Fraction(9, 5)) (Fraction(0, 1), Fraction(1, 1))
+obtuse D = (Fraction(3, 1), Fraction(3, 2)) r = 3/2
+  E/F/G = (Fraction(9, 5), Fraction(12, 5)) (Fraction(3, 1), Fraction(0, 1)) (Fraction(57, 13), Fraction(12, 13))
+obtuse_isosceles D = (Fraction(12, 1), Fraction(12, 5)) r = 12/5
+  E/F/G = (Fraction(144, 13), Fraction(60, 13)) (Fraction(12, 1), Fraction(0, 1)) (Fraction(168, 13), Fraction(60, 13))
+grid: {'acute': 144, 'right': 144, 'obtuse': 288, 'invalid': 3}
