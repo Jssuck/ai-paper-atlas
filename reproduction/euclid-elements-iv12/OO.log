@@ -1,0 +1,14 @@
+$ python -OO -m unittest -v
+test_exact_grid (test_tangent_pentagon.TangentPentagonTests.test_exact_grid) ... ok
+test_intersection_solves_both_lines (test_tangent_pentagon.TangentPentagonTests.test_intersection_solves_both_lines) ... ok
+test_invalid_or_parallel_inputs (test_tangent_pentagon.TangentPentagonTests.test_invalid_or_parallel_inputs) ... ok
+test_irregular_controls_are_still_tangent (test_tangent_pentagon.TangentPentagonTests.test_irregular_controls_are_still_tangent) ... ok
+test_reflection_and_scaling (test_tangent_pentagon.TangentPentagonTests.test_reflection_and_scaling) ... ok
+test_touchpoints_are_midpoints_in_regular_case (test_tangent_pentagon.TangentPentagonTests.test_touchpoints_are_midpoints_in_regular_case) ... ok
+test_unit_radical_lengths (test_tangent_pentagon.TangentPentagonTests.test_unit_radical_lengths) ... ok
+test_wrong_order_fools_local_checks (test_tangent_pentagon.TangentPentagonTests.test_wrong_order_fools_local_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in <elapsed>
+
+OK

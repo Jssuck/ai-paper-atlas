@@ -1,0 +1,11 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+{'tangent_lines': True, 'contacts_on_side_segments': True, 'inside_all_tangent_halfplanes': True, 'strict_crossings': 0, 'convex_envelope': True, 'equal_sides': True, 'equal_ordinary_angles': True, 'angles_108': True, 'side_square_formula': True, 'center_distances_formula': True}
+单位圆的顶点距离平方: Q5(a=Fraction(6, 1), b=Fraction(-2, 1))
+cell 2
+星形 {'tangent_lines': True, 'strict_crossings': 5, 'convex_envelope': False, 'equal_sides': True, 'equal_ordinary_angles': True}
+不等距切点 {'tangent_lines': True, 'strict_crossings': 0, 'convex_envelope': True, 'equal_sides': False, 'equal_ordinary_angles': False}
+cell 3
+正例、星形对照、不等距切点对照: (96, 96, 96)
+Replay completed: 3 code cells
