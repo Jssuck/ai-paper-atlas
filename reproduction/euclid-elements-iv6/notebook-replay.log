@@ -1,0 +1,16 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+A B C D: [('5/2', '2/3'), ('-1/2', '5/3'), ('-3/2', '-4/3'), ('3/2', '-7/3')]
+radii_squared ('5', '5', '5', '5')
+sides_squared ('10', '10', '10', '10')
+adjacent_dot ('0', '0', '0', '0')
+diagonals_squared ('20', '20')
+area: 10
+cell 2
+side^2: ('20', '80', '20', '80')
+adjacent dot: ('0', '0', '0', '0')
+diagonal^2: ('100', '100')
+nonsquare rejected: candidate violates IV.6 teaching invariants
+cell 3
+rational grid: accepted=360, zero-radius rejected=3
+Replay completed: 3 code cells

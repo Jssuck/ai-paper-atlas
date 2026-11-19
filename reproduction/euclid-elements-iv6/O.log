@@ -1,0 +1,21 @@
+Python 3.12.14
+$ python -B -O -m unittest -v
+test_axis_aligned_diameters (test_inscribed_square.InscribedSquareTests.test_axis_aligned_diameters) ... ok
+test_crossed_order_of_correct_vertices_is_not_a_square (test_inscribed_square.InscribedSquareTests.test_crossed_order_of_correct_vertices_is_not_a_square) ... ok
+test_cyclic_choice_of_start_rotates_sequence (test_inscribed_square.InscribedSquareTests.test_cyclic_choice_of_start_rotates_sequence) ... ok
+test_grid (test_inscribed_square.InscribedSquareTests.test_grid) ... ok
+test_inexact_and_boolean_rejected (test_inscribed_square.InscribedSquareTests.test_inexact_and_boolean_rejected) ... ok
+test_nonsquare_rectangle_preserves_right_angles (test_inscribed_square.InscribedSquareTests.test_nonsquare_rectangle_preserves_right_angles) ... ok
+test_rational_center_nonsquare_radius_squared (test_inscribed_square.InscribedSquareTests.test_rational_center_nonsquare_radius_squared) ... ok
+test_zero_radius_rejected (test_inscribed_square.InscribedSquareTests.test_zero_radius_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.041s
+
+OK
+$ python -B -O inscribed_square.py
+O: ('1/2', '-1/3')
+A, B, C, D: [('5/2', '2/3'), ('-1/2', '5/3'), ('-3/2', '-4/3'), ('3/2', '-7/3')]
+r^2, side^2, diagonal^2, area: 5 10 20 10
+nonperpendicular control: sides^2= (20, 80, 20, 80) adjacent dot= (0, 0, 0, 0)
+rational grid: accepted=360, zero-radius rejected=3
