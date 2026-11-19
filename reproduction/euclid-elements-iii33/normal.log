@@ -1,0 +1,18 @@
+Python 3.12.14
++ python  segment.py
+acute center ('2', '-3/2') alternate ('56/13', '-32/13') {'unique_configuration_points': True, 'same_circle': True, 'tangent': True, 'alternate_side': True, 'alternate_angle': True, 'same_side': True, 'same_side_supplement': True, 'same_side_equal_iff_right': True}
+right center ('2', '0') alternate ('2', '-2') {'unique_configuration_points': True, 'same_circle': True, 'tangent': True, 'alternate_side': True, 'alternate_angle': True, 'same_side': True, 'same_side_supplement': True, 'same_side_equal_iff_right': True}
+obtuse center ('2', '3/2') alternate ('112/65', '-64/65') {'unique_configuration_points': True, 'same_circle': True, 'tangent': True, 'alternate_side': True, 'alternate_angle': True, 'same_side': True, 'same_side_supplement': True, 'same_side_equal_iff_right': True}
+exact cases: 315 {'acute': 156, 'right': 3, 'obtuse': 156}
++ python  -m unittest -v
+test_invalid_input (test_segment.SegmentTest.test_invalid_input) ... ok
+test_known_special_witness (test_segment.SegmentTest.test_known_special_witness) ... ok
+test_rational_similarity_and_ray_scaling (test_segment.SegmentTest.test_rational_similarity_and_ray_scaling) ... ok
+test_sweep (test_segment.SegmentTest.test_sweep) ... ok
+test_three_branches_and_known_centers (test_segment.SegmentTest.test_three_branches_and_known_centers) ... ok
+test_wrong_arc_detected (test_segment.SegmentTest.test_wrong_arc_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.157s
+
+OK

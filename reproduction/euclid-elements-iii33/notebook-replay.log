@@ -1,0 +1,13 @@
++ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+acute O= (Fraction(2, 1), Fraction(-3, 2)) P= (Fraction(56, 13), Fraction(-32, 13))
+right O= (Fraction(2, 1), Fraction(0, 1)) P= (Fraction(2, 1), Fraction(-2, 1))
+obtuse O= (Fraction(2, 1), Fraction(3, 2)) P= (Fraction(112, 65), Fraction(-64, 65))
+cell 2
+3 alternate_side= False alternate_angle= False
+0 alternate_side= False alternate_angle= True
+-3 alternate_side= False alternate_angle= False
+cell 3
+315 {'acute': 156, 'right': 3, 'obtuse': 156}
+Replay completed: 3 code cells
