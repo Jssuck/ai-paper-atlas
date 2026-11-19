@@ -1,0 +1,14 @@
++ python replay_notebook.py
+Python 3.12.14 | plain compile/exec (no Jupyter kernel)
+cell pairs
+{'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((4, 2), (80, 40)), 'equal': True}
+{'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((-4, 2), (-4, 2)), 'equal': True}
+cell controls
+同侧 {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': False, 'pair': ((4, 2), (-4, 2)), 'equal': False}
+非切线 {'same_circle': True, 'distinct': True, 'tangent': False, 'opposite': True, 'pair': ((14, 2), (80, 40)), 'equal': False}
+直径 {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((0, 10), (0, 50)), 'equal': True}
+直径 {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': False, 'pair': ((0, 10), (0, 50)), 'equal': True}
+cell sweep
+47 points per radius; 8648 triples; 4324 alternate equals
+4324 same-side controls; 4232 unequal; 92 diameter equal
+Replay completed: 3 code cells

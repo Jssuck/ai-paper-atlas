@@ -1,0 +1,23 @@
+Python 3.12.14
++ python -OO alternate_segments.py
+F and A {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((4, 2), (80, 40)), 'equal': True}
+E and C {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((-4, 2), (-4, 2)), 'equal': True}
+F and C, wrong side {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': False, 'pair': ((4, 2), (-4, 2)), 'equal': False}
+non-tangent ray and A {'same_circle': True, 'distinct': True, 'tangent': False, 'opposite': True, 'pair': ((14, 2), (80, 40)), 'equal': False}
+diameter {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((0, 10), (0, 50)), 'equal': True}
+diameter {'same_circle': True, 'distinct': True, 'tangent': True, 'opposite': True, 'pair': ((0, 10), (0, 50)), 'equal': True}
+points per radius: 47; radii: 2; tested triples (D,P,T): 8648
+alternate-side equal: 4324; of these diameter cases: 92
+same-side controls: 4324; unequal: 4232; diameter equal: 92
++ python -OO -m unittest -v
+test_both_tangent_rays (test_alternate_segments.AlternateSegmentsTest.test_both_tangent_rays) ... ok
+test_diameter_exception (test_alternate_segments.AlternateSegmentsTest.test_diameter_exception) ... ok
+test_finite_sweep (test_alternate_segments.AlternateSegmentsTest.test_finite_sweep) ... ok
+test_predicates_do_not_treat_degeneracy_as_proof (test_alternate_segments.AlternateSegmentsTest.test_predicates_do_not_treat_degeneracy_as_proof) ... ok
+test_rational_similarity_and_reflection (test_alternate_segments.AlternateSegmentsTest.test_rational_similarity_and_reflection) ... ok
+test_same_side_and_non_tangent (test_alternate_segments.AlternateSegmentsTest.test_same_side_and_non_tangent) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.502s
+
+OK
