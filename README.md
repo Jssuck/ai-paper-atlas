@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》III.27：等弧为什么能反推出等角？](papers/ancient/euclid-elements-iii27.zh-CN.md)。重建逆命题的复制角与严格子弧反证，附[教学复现、Notebook 与实跑日志](reproduction/euclid-elements-iii27/README.md)。
+最新补读：[《几何原本》III.28：等长的弦如何确定两条弧](papers/ancient/euclid-elements-iii28.zh-CN.md)。先由三边定角证明小弧相等，再以全周求余弧，附[教学复现、Notebook 与实跑日志](reproduction/euclid-elements-iii28/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -226,6 +226,7 @@
 | 约公元前300年（前史补读；实读1908/2008版本） | [《几何原本》III.24精读](papers/ancient/euclid-elements-iii24.zh-CN.md) | AI推理前史补读：等底叠合、选侧保持、三分支依赖与相等/重合边界 | 深读v1 · 完整命题及独立双审/实跑 |
 | 约公元前300年（前史补读；实读2008修订版） | [《几何原本》III.26精读](papers/ancient/euclid-elements-iii26.zh-CN.md) | AI推理前史补读：同类等角、等弦、相似弓形与余弧 | 深读v1 · 独立审查与实跑 |
 | 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 译注本） | [《几何原本》III.27精读](papers/ancient/euclid-elements-iii27.zh-CN.md) | AI推理前史补读：等弧推出同类等角、复制角反证与逆命题条件 | 深读v1 · 独立审查与实跑 |
+| 约公元前300年（前史补读；实读 Fitzpatrick 2008 修订版与 Heath 1908 译注本） | [《几何原本》III.28精读](papers/ancient/euclid-elements-iii28.zh-CN.md) | AI推理前史补读：等弦定等弧、大小弧配对与直径边界 | 深读v1 · 独立审查与实跑 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
