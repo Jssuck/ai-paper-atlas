@@ -1,0 +1,14 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -OO -m unittest -v
+test_diameter_tie (test_chords.ChordTests.test_diameter_tie) ... ok
+test_grid_angles_from_raw_endpoints (test_chords.ChordTests.test_grid_angles_from_raw_endpoints) ... ok
+test_grid_exact_chord_and_center_geometry (test_chords.ChordTests.test_grid_exact_chord_and_center_geometry) ... ok
+test_invalid_endpoints (test_chords.ChordTests.test_invalid_endpoints) ... ok
+test_polylines_are_numerical_not_exact_lengths (test_chords.ChordTests.test_polylines_are_numerical_not_exact_lengths) ... ok
+test_unequal_radii_break_both_arc_lengths (test_chords.ChordTests.test_unequal_radii_break_both_arc_lengths) ... ok
+test_wrong_matching (test_chords.ChordTests.test_wrong_matching) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.489s
+
+OK
