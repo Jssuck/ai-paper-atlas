@@ -1,0 +1,14 @@
+$ python -OO -m unittest -v
+test_all_orders_of_one_vertex_set (test_pentagon.PentagonTests.test_all_orders_of_one_vertex_set) ... ok
+test_exact_grid (test_pentagon.PentagonTests.test_exact_grid) ... ok
+test_reflection_and_scale (test_pentagon.PentagonTests.test_reflection_and_scale) ... ok
+test_rejected_inputs (test_pentagon.PentagonTests.test_rejected_inputs) ... ok
+test_rejected_point_lists (test_pentagon.PentagonTests.test_rejected_point_lists) ... ok
+test_rotation_polynomial_and_closure (test_pentagon.PentagonTests.test_rotation_polynomial_and_closure) ... ok
+test_source_triangle_and_bisectors (test_pentagon.PentagonTests.test_source_triangle_and_bisectors) ... ok
+test_star_fools_ordinary_angle_and_chord_checks (test_pentagon.PentagonTests.test_star_fools_ordinary_angle_and_chord_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in <elapsed>
+
+OK

@@ -1,0 +1,11 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+{'apex_36': True, 'both_bases_72': True, 'interior_bisectors_CE_DB': True, 'five_equal_inscribed_angles': True}
+cell 2
+边界：绕数、交叉数、108°判定 1 0 True
+cell 3
+星形：等弦、等普通角 True True
+星形：绕数、交叉数、正五边形判定 2 5 False
+精确网格的正例数、星形对照数 (96, 96)
+Replay completed: 3 code cells
