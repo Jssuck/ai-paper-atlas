@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_grid_angle_split (test_bisect_arc.ArcBisectorTests.test_grid_angle_split) ... ok
+test_grid_geometric_witness (test_bisect_arc.ArcBisectorTests.test_grid_geometric_witness) ... ok
+test_invalid_input (test_bisect_arc.ArcBisectorTests.test_invalid_input) ... ok
+test_minor_and_major_same_endpoints (test_bisect_arc.ArcBisectorTests.test_minor_and_major_same_endpoints) ... ok
+test_rational_chord_midpoint (test_bisect_arc.ArcBisectorTests.test_rational_chord_midpoint) ... ok
+test_semicircles_require_direction (test_bisect_arc.ArcBisectorTests.test_semicircles_require_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.397s
+
+OK
