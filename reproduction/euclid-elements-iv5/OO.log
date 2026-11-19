@@ -1,0 +1,19 @@
+Python 3.12.14
+$ python -B -OO -m unittest -v
+test_acute (test_circumcircle.CircumcircleTests.test_acute) ... ok
+test_duplicates_collinear_and_float (test_circumcircle.CircumcircleTests.test_duplicates_collinear_and_float) ... ok
+test_grid (test_circumcircle.CircumcircleTests.test_grid) ... ok
+test_irrational_radius_squared_exact (test_circumcircle.CircumcircleTests.test_irrational_radius_squared_exact) ... ok
+test_nearly_collinear_nonzero_is_not_rejected (test_circumcircle.CircumcircleTests.test_nearly_collinear_nonzero_is_not_rejected) ... ok
+test_obtuse_center_beyond_opposite_side (test_circumcircle.CircumcircleTests.test_obtuse_center_beyond_opposite_side) ... ok
+test_rational_similarity_with_reflection (test_circumcircle.CircumcircleTests.test_rational_similarity_with_reflection) ... ok
+test_right_labels_and_finite_midpoint (test_circumcircle.CircumcircleTests.test_right_labels_and_finite_midpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.123s
+
+OK
+$ python -B -OO circumcircle.py
+fixed-origin grid; 276 base pairs; labeled cases=1656
+{'acute': 192, 'right': 480, 'obtuse': 816, 'degenerate': 168}
+right-label counts (A, B, C): (160, 160, 160)

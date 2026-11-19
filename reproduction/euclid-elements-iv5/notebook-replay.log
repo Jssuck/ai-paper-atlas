@@ -1,0 +1,16 @@
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+acute inside ('2', '1') 5
+right on_side ('2', '3/2') 25/4
+obtuse outside ('2', '-1') 5
+cell 2
+right on_side ('1/2', '1/2') 1/2
+right vertex: B | weights: ('1/2', '0', '1/2')
+right on_side ('1/2', '1/2') 1/2
+right vertex: C | weights: ('1/2', '1/2', '0')
+cell 3
+obtuse outside ('1', '-9999/200') 100020001/40000
+rejected: three noncollinear vertices are required
+{'acute': 192, 'right': 480, 'obtuse': 816, 'degenerate': 168}
+right-label counts (A, B, C): (160, 160, 160)
+Replay completed: 3 code cells
