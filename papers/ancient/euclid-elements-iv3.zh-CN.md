@@ -32,9 +32,7 @@ $$
 3. 在 $A,B,C$ 处作切线。原文的点序是 $L,A,M$ 、 $M,B,N$ 、 $N,C,L$ 。令过 $A,B$ 的切线交在 $M$ 、过 $B,C$ 的交在 $N$ 、过 $C,A$ 的交在 $L$ 。切线能形成这三条边的论证见第 4 节。每条切线与该处半径垂直。
 4. 四边形 $AMBK$ 可分成两个三角形；四内角之和为 $2\pi$ 。在 $A,B$ 各扣掉一个直角，留下 $\angle AKB+\angle AMB=\pi$ 。与第 1、2 步配合：
    
-   $$
-   \angle AMB=\pi-\angle AKB=\pi-\angle DEG=\angle DEF .
-   $$
+   $\angle AMB=\pi-\angle AKB=\pi-\angle DEG=\angle DEF$ 。
    
    $A$ 在边 $ML$ 内， $B$ 在边 $MN$ 内，所以 $\angle AMB$ 就是 $M$ 的内角。对 $B,N,C,K$ 同理， $\angle LNB=\angle DFE$ ，其中 $B$ 在 $NM$ 上。最后借 I.32 得 $\angle MLN=\angle EDF$ 。
 5. 圆在三边内侧并在各边上相切；输出是 $LMN$ 。这既需要角匹配，也需要第 4 节的几何位置，不能只拿三个角的无标签数值列表代替。
