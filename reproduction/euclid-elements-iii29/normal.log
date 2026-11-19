@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_equal_selected_arc_pairs (test_arcs_to_chords.ArcChordTests.test_equal_selected_arc_pairs) ... ok
+test_exact_axis_cases (test_arcs_to_chords.ArcChordTests.test_exact_axis_cases) ... ok
+test_out_of_scope (test_arcs_to_chords.ArcChordTests.test_out_of_scope) ... ok
+test_translation_and_negative_start_are_wrapped (test_arcs_to_chords.ArcChordTests.test_translation_and_negative_start_are_wrapped) ... ok
+test_turn_sign_and_major_selection (test_arcs_to_chords.ArcChordTests.test_turn_sign_and_major_selection) ... ok
+test_unequal_radii_counterexample (test_arcs_to_chords.ArcChordTests.test_unequal_radii_counterexample) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK

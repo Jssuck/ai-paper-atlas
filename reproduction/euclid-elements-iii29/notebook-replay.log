@@ -1,0 +1,15 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+Python 3.12.14 | plain compile/exec (no Jupyter kernel)
+cell two-arcs
+弧扫过 3/8 圈：坐标 c² = [9.483926562, 9.483926562]，半角公式 c² = 9.483926562
+弧扫过 1/2 圈：坐标 c² = [11.111111111, 11.111111111]，半角公式 c² = 11.111111111
+弧扫过 5/8 圈：坐标 c² = [9.483926562, 9.483926562]，半角公式 c² = 9.483926562
+cell exact-axis
+扫角（圈） 1/4 精确弦长平方 2
+扫角（圈） 1/2 精确弦长平方 4
+扫角（圈） 3/4 精确弦长平方 2
+cell unequal-radii
+半径 1 扫角（圈） 1/2 弧长 / 2π 1/2 精确弦长平方 4
+半径 2 扫角（圈） 1/4 弧长 / 2π 1/2 精确弦长平方 8
+Replay completed: 3 code cells
