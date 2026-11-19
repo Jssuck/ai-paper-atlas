@@ -1,0 +1,12 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+两条角平分线找回中心: True
+cell 2
+{'inside_every_halfplane': True, 'feet_strictly_inside_sides': True, 'perpendicular_feet': True, 'all_feet_midpoints': True, 'equal_positive_distance_squares': True}
+内切半径平方的两个系数: 3/8 1/8
+cell 3
+垂足在边段上、五边等距: True False
+垂足在边段上、五边等距: True False
+正例、扰动、偏心的精确例数: (96, 96, 96)
+Replay completed: 3 code cells

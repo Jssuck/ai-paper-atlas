@@ -1,0 +1,14 @@
+$ python -OO -m unittest -v
+test_exact_grid (test_incircle.IncircleTests.test_exact_grid) ... ok
+test_outside_foot_and_invalid_input (test_incircle.IncircleTests.test_outside_foot_and_invalid_input) ... ok
+test_same_two_rays_are_insufficient (test_incircle.IncircleTests.test_same_two_rays_are_insufficient) ... ok
+test_source_ray_orientation (test_incircle.IncircleTests.test_source_ray_orientation) ... ok
+test_tangent_radius_square (test_incircle.IncircleTests.test_tangent_radius_square) ... ok
+test_translation_and_mirror (test_incircle.IncircleTests.test_translation_and_mirror) ... ok
+test_wrong_center_perpendicular_is_insufficient (test_incircle.IncircleTests.test_wrong_center_perpendicular_is_insufficient) ... ok
+test_wrong_order_and_degenerate_points_rejected (test_incircle.IncircleTests.test_wrong_order_and_degenerate_points_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in <elapsed>
+
+OK
