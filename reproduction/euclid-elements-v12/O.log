@@ -1,0 +1,16 @@
+$ python -O -m unittest -v
+test_bounded_false_negative (test_ratio_sums.RatioSumTest.test_bounded_false_negative) ... ok
+test_common_exact (test_ratio_sums.RatioSumTest.test_common_exact) ... ok
+test_exact_fraction_inputs (test_ratio_sums.RatioSumTest.test_exact_fraction_inputs) ... ok
+test_grid (test_ratio_sums.RatioSumTest.test_grid) ... ok
+test_masked_counterexample (test_ratio_sums.RatioSumTest.test_masked_counterexample) ... ok
+test_nonempty_and_variable_length (test_ratio_sums.RatioSumTest.test_nonempty_and_variable_length) ... ok
+test_reject_invalid_numbers (test_ratio_sums.RatioSumTest.test_reject_invalid_numbers) ... ok
+test_three_cases (test_ratio_sums.RatioSumTest.test_three_cases) ... ok
+test_type_rules (test_ratio_sums.RatioSumTest.test_type_rules) ... ok
+test_weighted_not_simple_mean (test_ratio_sums.RatioSumTest.test_weighted_not_simple_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.947s
+
+OK
