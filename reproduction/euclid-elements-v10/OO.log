@@ -1,0 +1,16 @@
+$ python -OO -m unittest -v
+test_finite_no_evidence (test_order_witness.V10.test_finite_no_evidence) ... ok
+test_first_greater_alone_not_enough (test_order_witness.V10.test_first_greater_alone_not_enough) ... ok
+test_fixed_antecedent_equality (test_order_witness.V10.test_fixed_antecedent_equality) ... ok
+test_fixed_consequent_equality (test_order_witness.V10.test_fixed_consequent_equality) ... ok
+test_illegal_inputs (test_order_witness.V10.test_illegal_inputs) ... ok
+test_kind_validation (test_order_witness.V10.test_kind_validation) ... ok
+test_no_witness_for_equal_or_opposite (test_order_witness.V10.test_no_witness_for_equal_or_opposite) ... ok
+test_rational_mesh_soundness (test_order_witness.V10.test_rational_mesh_soundness) ... ok
+test_strict_sandwich_supports_both (test_order_witness.V10.test_strict_sandwich_supports_both) ... ok
+test_swapping_multipliers_not_invariant_for_weak_witness (test_order_witness.V10.test_swapping_multipliers_not_invariant_for_weak_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.485s
+
+OK
