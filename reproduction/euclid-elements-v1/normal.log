@@ -1,0 +1,21 @@
+$ python --version
+Python 3.12.14
+$ python equimultiples.py
+factor / rows / columns: 3 2 3
+sum of one column / total: 4 12
+grid (valid groupings, differing factors rejected): (162, 162)
+$ python -m unittest -v
+test_aggregate_converse_fails (test_equimultiples.V1Tests.test_aggregate_converse_fails) ... ok
+test_copy_grid (test_equimultiples.V1Tests.test_copy_grid) ... ok
+test_domain (test_equimultiples.V1Tests.test_domain) ... ok
+test_empty_and_mismatched_lengths (test_equimultiples.V1Tests.test_empty_and_mismatched_lengths) ... ok
+test_no_mixed_sum (test_equimultiples.V1Tests.test_no_mixed_sum) ... ok
+test_noninteger_and_equal (test_equimultiples.V1Tests.test_noninteger_and_equal) ... ok
+test_one_pair (test_equimultiples.V1Tests.test_one_pair) ... ok
+test_pair_types (test_equimultiples.V1Tests.test_pair_types) ... ok
+test_regression_grid (test_equimultiples.V1Tests.test_regression_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in <elapsed>
+
+OK

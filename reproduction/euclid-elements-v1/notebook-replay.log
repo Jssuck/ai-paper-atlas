@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+行: [['3/2', '3/2', '3/2'], ['5/2', '5/2', '5/2']]
+列: [['3/2', '5/2'], ['3/2', '5/2'], ['3/2', '5/2']]
+份数、总长度、基量总长度: 3 12 4
+cell 2
+成对层面的倍数: 3
+不能混加: addition needs a nonempty homogeneous list
+cell 3
+只看总量之比: 4
+倍数证书被拒绝: multiplicities differ
+合法分组与错倍数拒绝: (162, 162)
+Replay completed: 3 code cells
