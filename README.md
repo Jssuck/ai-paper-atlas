@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》V.13：换成相同的比，为什么同一份“大于”证据还能用？](papers/ancient/euclid-elements-v13.zh-CN.md)。用同一组整倍比较搬运严格比序的见证，附[教学复现与实跑日志](reproduction/euclid-elements-v13/README.md)。
+最新补读：[《几何原本》V.14：已知两对量同比，怎样把前项的次序传给后项？](papers/ancient/euclid-elements-v14.zh-CN.md)。重建从原量大小到比序、再回到原量的三步推理，附[教学复现与实跑日志](reproduction/euclid-elements-v14/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -267,6 +267,7 @@
 | 约公元前 300 年（传统年代） | [《几何原本》V.11 精读](papers/ancient/euclid-elements-v11.zh-CN.md) | 数学与形式推理前史补读：同比传递与共享探针 | 深读 v1 · 三类量、比较对齐、有限误判 · [教学复现](reproduction/euclid-elements-v11/README.md) |
 | 约公元前 300 年（传统年代） | [《几何原本》V.12 精读](papers/ancient/euclid-elements-v12.zh-CN.md) | 数学与形式推理前史补读：同比在配对求和下保持 | 深读 v1 · 整倍比较、加权平均与逆命题反例 · [教学复现](reproduction/euclid-elements-v12/README.md) |
 | 约公元前 300 年（传统年代） | [《几何原本》V.13 精读](papers/ancient/euclid-elements-v13.zh-CN.md) | 数学与形式推理前史补读：如何在严格比序中替换同比 | 深读 v1 · 同一整倍见证、边界等号与有限搜索 · [教学复现](reproduction/euclid-elements-v13/README.md) |
+| 约公元前 300 年（传统年代） | [《几何原本》V.14 精读](papers/ancient/euclid-elements-v14.zh-CN.md) | 数学与形式推理前史补读：同比中对应项的次序 | 深读 v1 · 三步比序链、等号补证和整倍可比性 · [教学复现](reproduction/euclid-elements-v14/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
