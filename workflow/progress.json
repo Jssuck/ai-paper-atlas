@@ -3,9 +3,9 @@
   "status": "idle",
   "active_paper": null,
   "last_completed": {
-    "id": "euclid-elements-v3",
+    "id": "euclid-elements-v4",
     "stage": "completed",
-    "updated_at": "2026-11-20T07:44:01.578Z"
+    "updated_at": "2026-11-20T08:35:58.340Z"
   },
   "deferred_papers": [
     {
@@ -20,5 +20,5 @@
       "failure_reason": "additional_authorization_required"
     }
   ],
-  "updated_at": "2026-11-20T07:44:01.578Z"
+  "updated_at": "2026-11-20T08:35:58.340Z"
 }
