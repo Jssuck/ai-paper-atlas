@@ -1,0 +1,12 @@
+$ python replay_notebook.py
+code cell 1
+(1, 1) (1, 1, 0)
+(4, 5) (1, 1, -1)
+code cell 2
+wrong direction: False
+upper endpoint: False
+code cell 3
+cap 20: None
+cap 60: (51, 52)
+exact: (100, 101) 1 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

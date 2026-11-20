@@ -1,0 +1,26 @@
+$ python --version
+Python 3.12.14
+$ python ratio_witness.py
+transport: (1, 1) (1, 1, 0)
+transport: (4, 5) (1, 1, -1)
+equality at the high endpoint is not a witness: False
+reverse direction at (1, 1): False
+bounded close witness (cap 20): None
+bounded close witness (cap 60): (51, 52)
+exact close witness: (100, 101) (1, 0)
+$ python -m unittest -v
+test_bad_equal_premise (test_ratio_witness.WitnessTests.test_bad_equal_premise) ... ok
+test_bad_witness_premise (test_ratio_witness.WitnessTests.test_bad_witness_premise) ... ok
+test_direction (test_ratio_witness.WitnessTests.test_direction) ... ok
+test_exact_fractions (test_ratio_witness.WitnessTests.test_exact_fractions) ... ok
+test_finite_window_is_not_verdict (test_ratio_witness.WitnessTests.test_finite_window_is_not_verdict) ... ok
+test_grid (test_ratio_witness.WitnessTests.test_grid) ... ok
+test_invalid_inputs (test_ratio_witness.WitnessTests.test_invalid_inputs) ... ok
+test_lower_equality (test_ratio_witness.WitnessTests.test_lower_equality) ... ok
+test_lower_strict (test_ratio_witness.WitnessTests.test_lower_strict) ... ok
+test_upper_equality_not_witness (test_ratio_witness.WitnessTests.test_upper_equality_not_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.165s
+
+OK
