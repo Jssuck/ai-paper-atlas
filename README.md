@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》IV.16：怎样用三角形与五边形，构作正十五边形？](papers/ancient/euclid-elements-iv16.zh-CN.md)。从同向弧差到逐弦闭合，附[精确教学复现、Notebook 与实跑日志](reproduction/euclid-elements-iv16/README.md)。
+最新补读：[《几何原本》V 定义 1–7：不先做除法，怎样判断两个比相同？](papers/ancient/euclid-elements-v-definitions-1-7.zh-CN.md)。区分整数测度、同比全称条件与较大比的见证，附[精确教学复现、Notebook 与实跑日志](reproduction/euclid-elements-v-definitions-1-7/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -252,6 +252,7 @@
 | 约公元前 300 年（作品传统年代；实读 1908、2008 版本） | [欧几里得《几何原本》IV.14 精读](papers/ancient/euclid-elements-iv14.zh-CN.md) | AI 数学前史补读：角平分线传播、外接圆、三点唯一性与五点检验 | 深读 v1 · 完整命题及精确教学复现 |
 | 约公元前 300 年（作品传统年代；实读 1908、2008 版本） | [欧几里得《几何原本》IV.15 精读](papers/ancient/euclid-elements-iv15.zh-CN.md) | AI 数学前史补读：等半径辅助圆、等弧与正六边形证书 | 深读 v1 · 完整主命题、三项推论及精确教学复现 |
 | 约公元前 300 年（作品传统年代；实读 1908、2008 版本） | [欧几里得《几何原本》IV.16 精读](papers/ancient/euclid-elements-iv16.zh-CN.md) | AI 数学前史补读：弧差二等分、逐弦闭合与圆周邻接 | 深读 v1 · 完整主命题、两段附论及精确教学复现 |
+| 约公元前 300 年（作品传统年代；实读 1908、2008 版本） | [欧几里得《几何原本》V 定义 1–7 精读](papers/ancient/euclid-elements-v-definitions-1-7.zh-CN.md) | AI 数学前史补读：不可公度量、同比、方向见证与有限漏检 | 深读 v1 · 定义 1–7、相关评注与精确教学复现 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
