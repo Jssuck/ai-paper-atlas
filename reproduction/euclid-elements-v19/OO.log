@@ -1,0 +1,15 @@
+$ python -OO -B -m unittest -v
+test_fraction_noninteger_case (test_ratio_remainders.RemainderTests.test_fraction_noninteger_case) ... ok
+test_grid_independent_expected (test_ratio_remainders.RemainderTests.test_grid_independent_expected) ... ok
+test_invalid_kind_inside_porism_pair (test_ratio_remainders.RemainderTests.test_invalid_kind_inside_porism_pair) ... ok
+test_invalid_numbers (test_ratio_remainders.RemainderTests.test_invalid_numbers) ... ok
+test_main_exact (test_ratio_remainders.RemainderTests.test_main_exact) ... ok
+test_main_rejects_mixed (test_ratio_remainders.RemainderTests.test_main_rejects_mixed) ... ok
+test_porism_mixed (test_ratio_remainders.RemainderTests.test_porism_mixed) ... ok
+test_unmatched_premises (test_ratio_remainders.RemainderTests.test_unmatched_premises) ... ok
+test_zero_and_negative_remainders (test_ratio_remainders.RemainderTests.test_zero_and_negative_remainders) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.194s
+
+OK

@@ -1,0 +1,13 @@
+$ python -B replay_notebook.py
+code cell 1
+whole scale: 2/3 removed scale: 2/3
+code cell 2
+V.16 5/2 5/2
+V.17 3/2 3/2
+V.16 2/3 2/3
+V.11 2/3 2/3
+code cell 3
+V.17 3/2 3/2
+inverse 2/3 2/3
+V.18 5/3 5/3
+Executed 3 cells with stdlib, not a Jupyter kernel.
