@@ -1,0 +1,13 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+两批倍数、合计倍数: 2 3 5
+两列总量: 15/2 25/2
+cell 2
+两列总量: 6 6
+拒绝: unequal counts within the row
+cell 3
+两列合计对各自基量: 4 4
+拒绝: expected a strict integer multiple
+合法组合与错配拒绝: (144, 135)
+Replay completed: 3 code cells

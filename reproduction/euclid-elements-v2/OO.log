@@ -1,0 +1,16 @@
+$ python -OO -m unittest -v
+test_column_types (test_equimultiple_sum.V2Tests.test_column_types) ... ok
+test_compensating_converse (test_equimultiple_sum.V2Tests.test_compensating_converse) ... ok
+test_distinct_counts (test_equimultiple_sum.V2Tests.test_distinct_counts) ... ok
+test_equal_fractional_ratios_are_not_integer_multiple_hypotheses (test_equimultiple_sum.V2Tests.test_equal_fractional_ratios_are_not_integer_multiple_hypotheses) ... ok
+test_exact_values (test_equimultiple_sum.V2Tests.test_exact_values) ... ok
+test_grid (test_equimultiple_sum.V2Tests.test_grid) ... ok
+test_row_arity (test_equimultiple_sum.V2Tests.test_row_arity) ... ok
+test_same_count_allowed (test_equimultiple_sum.V2Tests.test_same_count_allowed) ... ok
+test_strict_and_positive (test_equimultiple_sum.V2Tests.test_strict_and_positive) ... ok
+test_valid_first_cannot_mask_wrong_second (test_equimultiple_sum.V2Tests.test_valid_first_cannot_mask_wrong_second) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in <elapsed>
+
+OK
