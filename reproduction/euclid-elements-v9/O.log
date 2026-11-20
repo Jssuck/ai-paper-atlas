@@ -1,0 +1,17 @@
+$ python -O -m unittest -v
+test_a_larger (test_equality_probes.V9.test_a_larger) ... ok
+test_b_larger (test_equality_probes.V9.test_b_larger) ... ok
+test_equal_returns_none (test_equality_probes.V9.test_equal_returns_none) ... ok
+test_finite_false_positive (test_equality_probes.V9.test_finite_false_positive) ... ok
+test_identical_three_signs (test_equality_probes.V9.test_identical_three_signs) ... ok
+test_invalid_multiplier_or_bound (test_equality_probes.V9.test_invalid_multiplier_or_bound) ... ok
+test_mixed_kind_rejected_even_when_equal (test_equality_probes.V9.test_mixed_kind_rejected_even_when_equal) ... ok
+test_nonlength_homogeneous (test_equality_probes.V9.test_nonlength_homogeneous) ... ok
+test_nonpositive_or_inexact_magnitude (test_equality_probes.V9.test_nonpositive_or_inexact_magnitude) ... ok
+test_rational_mesh (test_equality_probes.V9.test_rational_mesh) ... ok
+test_weak_witness_also_refutes_v5 (test_equality_probes.V9.test_weak_witness_also_refutes_v5) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.150s
+
+OK

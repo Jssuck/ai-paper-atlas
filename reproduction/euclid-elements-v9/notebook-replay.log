@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+有限窗口 20： None
+扩大到 51： (50, 51)
+cell 2
+Countercertificate(larger='a', m=101, n=103, forward=(1, -1), reverse=(-1, 1))
+Countercertificate(larger='b', m=101, n=103, forward=(-1, 1), reverse=(1, -1))
+cell 3
+(1, 2) ((-1, -1), (1, 1))
+(2, 2) ((0, 0), (0, 0))
+(3, 2) ((1, 1), (-1, -1))
+相等时无区分证书： None
+Replay completed: 3 code cells
