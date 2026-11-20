@@ -1,0 +1,14 @@
+$ python -O -m unittest -v
+test_circumcenter_not_in_acute_wedge (test_circumcircle.CircumcircleTests.test_circumcenter_not_in_acute_wedge) ... ok
+test_cyclic_nonregular (test_circumcircle.CircumcircleTests.test_cyclic_nonregular) ... ok
+test_exact_grid (test_circumcircle.CircumcircleTests.test_exact_grid) ... ok
+test_radii_differ (test_circumcircle.CircumcircleTests.test_radii_differ) ... ok
+test_reject_collinear_triple (test_circumcircle.CircumcircleTests.test_reject_collinear_triple) ... ok
+test_reject_crossed_order (test_circumcircle.CircumcircleTests.test_reject_crossed_order) ... ok
+test_reject_repeated_points (test_circumcircle.CircumcircleTests.test_reject_repeated_points) ... ok
+test_worked_moved_a (test_circumcircle.CircumcircleTests.test_worked_moved_a) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in <elapsed>
+
+OK
