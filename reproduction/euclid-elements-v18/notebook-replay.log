@@ -1,0 +1,19 @@
+$ python -B replay_notebook.py
+code cell 1
+c=4 d=6: candidate=6 remainder=4 signs(g-d,rest-c)=(0, 0) premise=True
+c=3 d=7: candidate=6 remainder=4 signs(g-d,rest-c)=(-1, 1) premise=False
+c=5 d=5: candidate=6 remainder=4 signs(g-d,rest-c)=(1, -1) premise=False
+m=3 k=2: ProbeTrace(joint_signs=(1, 1), separated_signs=None)
+m=3 k=3: ProbeTrace(joint_signs=(1, 1), separated_signs=None)
+m=3 k=4: ProbeTrace(joint_signs=(1, 1), separated_signs=(1, 1))
+m=3 k=5: ProbeTrace(joint_signs=(0, 0), separated_signs=(0, 0))
+m=3 k=6: ProbeTrace(joint_signs=(-1, -1), separated_signs=(-1, -1))
+code cell 2
+candidate and remaining area: 6 4
+code cell 3
+2 (1, 1) None
+3 (1, 1) None
+4 (1, 1) (1, 1)
+5 (0, 0) (0, 0)
+6 (-1, -1) (-1, -1)
+Executed 3 cells with stdlib, not a Jupyter kernel.

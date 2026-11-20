@@ -1,0 +1,26 @@
+$ python -V
+Python 3.12.14
+$ python -B -m unittest -v
+test_both_strict_branches_are_failed_premises (test_ratio_composition.CompositionTests.test_both_strict_branches_are_failed_premises) ... ok
+test_exact_fourth_candidate_with_different_kinds (test_ratio_composition.CompositionTests.test_exact_fourth_candidate_with_different_kinds) ... ok
+test_floats_and_booleans_rejected (test_ratio_composition.CompositionTests.test_floats_and_booleans_rejected) ... ok
+test_grid_against_independent_integer_formula (test_ratio_composition.CompositionTests.test_grid_against_independent_integer_formula) ... ok
+test_illegal_probe_rejected (test_ratio_composition.CompositionTests.test_illegal_probe_rejected) ... ok
+test_kind_must_match_within_pair (test_ratio_composition.CompositionTests.test_kind_must_match_within_pair) ... ok
+test_nonpositive_magnitudes_rejected (test_ratio_composition.CompositionTests.test_nonpositive_magnitudes_rejected) ... ok
+test_probe_at_and_below_boundary (test_ratio_composition.CompositionTests.test_probe_at_and_below_boundary) ... ok
+test_shifted_probe_covers_all_signs (test_ratio_composition.CompositionTests.test_shifted_probe_covers_all_signs) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.096s
+
+OK
+$ python -B ratio_composition.py
+c=4 d=6: candidate=6 remainder=4 signs(g-d,rest-c)=(0, 0) premise=True
+c=3 d=7: candidate=6 remainder=4 signs(g-d,rest-c)=(-1, 1) premise=False
+c=5 d=5: candidate=6 remainder=4 signs(g-d,rest-c)=(1, -1) premise=False
+m=3 k=2: ProbeTrace(joint_signs=(1, 1), separated_signs=None)
+m=3 k=3: ProbeTrace(joint_signs=(1, 1), separated_signs=None)
+m=3 k=4: ProbeTrace(joint_signs=(1, 1), separated_signs=(1, 1))
+m=3 k=5: ProbeTrace(joint_signs=(0, 0), separated_signs=(0, 0))
+m=3 k=6: ProbeTrace(joint_signs=(-1, -1), separated_signs=(-1, -1))
