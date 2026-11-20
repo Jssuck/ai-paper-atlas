@@ -1,0 +1,13 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+内层、外层、合计: 2 3 6
+两列总量: 9 15
+cell 2
+两列最终倍数: 6 6
+拒绝: unequal counts within the stage
+cell 3
+外层两列: 5/2 5/2
+拒绝: expected a strict integer multiple
+有效组合与换序拒绝: (144, 108)
+Replay completed: 3 code cells

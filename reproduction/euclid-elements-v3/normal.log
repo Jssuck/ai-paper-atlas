@@ -1,0 +1,22 @@
+$ python --version
+Python 3.12.14
+$ python nested_multiples.py
+inner / outer / flattened: 2 3 6
+column totals: 9 15
+grid (valid nestings, phase swaps rejected): (144, 108)
+$ python -m unittest -v
+test_distinct_phase_counts (test_nested_multiples.V3Tests.test_distinct_phase_counts) ... ok
+test_domain_and_arity (test_nested_multiples.V3Tests.test_domain_and_arity) ... ok
+test_fractional_coordinates (test_nested_multiples.V3Tests.test_fractional_coordinates) ... ok
+test_fractional_inner_despite_integer_total (test_nested_multiples.V3Tests.test_fractional_inner_despite_integer_total) ... ok
+test_fractional_outer_despite_integer_total (test_nested_multiples.V3Tests.test_fractional_outer_despite_integer_total) ... ok
+test_grid (test_nested_multiples.V3Tests.test_grid) ... ok
+test_outer_mismatch_after_inner_success (test_nested_multiples.V3Tests.test_outer_mismatch_after_inner_success) ... ok
+test_same_counts_allowed (test_nested_multiples.V3Tests.test_same_counts_allowed) ... ok
+test_swapped_phases_same_product (test_nested_multiples.V3Tests.test_swapped_phases_same_product) ... ok
+test_types (test_nested_multiples.V3Tests.test_types) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in <elapsed>
+
+OK
