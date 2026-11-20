@@ -1,0 +1,16 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+基比、二重比、三重比、普通双倍: 3/2 9/4 27/8 3
+cell 2
+composition 5/2
+separation 1/2
+inverse 2/3
+conversion 3
+cell 3
+换序: False | 端点比: ('6', '6')
+错误配对: link ratios do not match in the specified order
+换序: True | 端点比: ('6', '6')
+错误配对: link ratios do not match in the specified order
+有效连接和错配拒绝: (128, 56)
+Replay completed: 3 code cells

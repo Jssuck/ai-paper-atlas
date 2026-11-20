@@ -1,0 +1,17 @@
+$ python -O -m unittest -v
+test_aligned_and_perturbed (test_ratio_ops.RatioOperationsTests.test_aligned_and_perturbed) ... ok
+test_aligned_multi_link_and_invalid_chains (test_ratio_ops.RatioOperationsTests.test_aligned_multi_link_and_invalid_chains) ... ok
+test_alternate_cross_kind_rejected (test_ratio_ops.RatioOperationsTests.test_alternate_cross_kind_rejected) ... ok
+test_correspondence_and_alternate (test_ratio_ops.RatioOperationsTests.test_correspondence_and_alternate) ... ok
+test_duplicate_and_triplicate (test_ratio_ops.RatioOperationsTests.test_duplicate_and_triplicate) ... ok
+test_equal_link_ratios_allow_both_patterns (test_ratio_ops.RatioOperationsTests.test_equal_link_ratios_allow_both_patterns) ... ok
+test_grid (test_ratio_ops.RatioOperationsTests.test_grid) ... ok
+test_inverse_and_conversion_are_distinct (test_ratio_ops.RatioOperationsTests.test_inverse_and_conversion_are_distinct) ... ok
+test_positive_exact_domain (test_ratio_ops.RatioOperationsTests.test_positive_exact_domain) ... ok
+test_power_domain_and_arity (test_ratio_ops.RatioOperationsTests.test_power_domain_and_arity) ... ok
+test_subtraction_needs_positive_excess (test_ratio_ops.RatioOperationsTests.test_subtraction_needs_positive_excess) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in <elapsed>
+
+OK
