@@ -1,0 +1,16 @@
+$ python -OO -m unittest -v
+test_equal (test_ratio_scaling.RatioScalingTests.test_equal) ... ok
+test_factor_one (test_ratio_scaling.RatioScalingTests.test_factor_one) ... ok
+test_greater (test_ratio_scaling.RatioScalingTests.test_greater) ... ok
+test_grid (test_ratio_scaling.RatioScalingTests.test_grid) ... ok
+test_invalid_magnitude (test_ratio_scaling.RatioScalingTests.test_invalid_magnitude) ... ok
+test_invalid_multiplier (test_ratio_scaling.RatioScalingTests.test_invalid_multiplier) ... ok
+test_less (test_ratio_scaling.RatioScalingTests.test_less) ... ok
+test_mismatched_factors (test_ratio_scaling.RatioScalingTests.test_mismatched_factors) ... ok
+test_partition (test_ratio_scaling.RatioScalingTests.test_partition) ... ok
+test_rational (test_ratio_scaling.RatioScalingTests.test_rational) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.042s
+
+OK
