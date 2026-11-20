@@ -1,0 +1,14 @@
+$ python -B replay_notebook.py
+code cell 1
+x,y=2,3 (length); z,w=4,6 (area)
+p=1 q=1: compared wholes 5:6 | 10:12 -> remainders 2:3 | 4:6; signs=(-1, -1)
+p=3 q=2: compared wholes 15:15 | 30:30 -> remainders 6:6 | 12:12; signs=(0, 0)
+p=2 q=1: compared wholes 10:9 | 20:18 -> remainders 4:3 | 8:6; signs=(1, 1)
+whole quotients: 5/3, 5/3; remainder quotients: 2/3, 2/3
+code cell 2
+whole signs: (0, 0)
+canceled terms: ('9 length', '18 area')
+remainder signs: (0, 0)
+code cell 3
+rejected: hypothesis (x+y):y ~ (z+w):w is false
+Executed 3 cells with stdlib, not a Jupyter kernel.

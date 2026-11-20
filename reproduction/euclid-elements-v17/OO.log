@@ -1,0 +1,23 @@
+$ python -V
+Python 3.12.14
+$ python -OO -B -m unittest -v
+test_finite_grid_against_independent_threshold (test_ratio_separation.V17Tests.test_finite_grid_against_independent_threshold) ... ok
+test_fraction_inputs (test_ratio_separation.V17Tests.test_fraction_inputs) ... ok
+test_invalid_hypothesis (test_ratio_separation.V17Tests.test_invalid_hypothesis) ... ok
+test_invalid_magnitude (test_ratio_separation.V17Tests.test_invalid_magnitude) ... ok
+test_invalid_probes (test_ratio_separation.V17Tests.test_invalid_probes) ... ok
+test_mismatch_within_pair (test_ratio_separation.V17Tests.test_mismatch_within_pair) ... ok
+test_mixed_kinds_allowed_across_pairs (test_ratio_separation.V17Tests.test_mixed_kinds_allowed_across_pairs) ... ok
+test_three_signs_and_exact_compared_pairs (test_ratio_separation.V17Tests.test_three_signs_and_exact_compared_pairs) ... ok
+test_unmatched_cancellation_can_change_sign (test_ratio_separation.V17Tests.test_unmatched_cancellation_can_change_sign) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.251s
+
+OK
+$ python -OO -B ratio_separation.py
+x,y=2,3 (length); z,w=4,6 (area)
+p=1 q=1: compared wholes 5:6 | 10:12 -> remainders 2:3 | 4:6; signs=(-1, -1)
+p=3 q=2: compared wholes 15:15 | 30:30 -> remainders 6:6 | 12:12; signs=(0, 0)
+p=2 q=1: compared wholes 10:9 | 20:18 -> remainders 4:3 | 8:6; signs=(1, 1)
+whole quotients: 5/3, 5/3; remainder quotients: 2/3, 2/3
