@@ -1,0 +1,17 @@
+$ python -OO -m unittest -v
+test_bounded_search_can_miss (test_witness.V8Tests.test_bounded_search_can_miss) ... ok
+test_choose_first_multiple_strictly_beyond (test_witness.V8Tests.test_choose_first_multiple_strictly_beyond) ... ok
+test_different_kinds_across_homogeneous_ratios (test_witness.V8Tests.test_different_kinds_across_homogeneous_ratios) ... ok
+test_equal_and_reversed_are_not_constructor_inputs (test_witness.V8Tests.test_equal_and_reversed_are_not_constructor_inputs) ... ok
+test_invalid_magnitudes (test_witness.V8Tests.test_invalid_magnitudes) ... ok
+test_invalid_probe_parameters (test_witness.V8Tests.test_invalid_probe_parameters) ... ok
+test_mix_kinds_within_ratio_is_rejected (test_witness.V8Tests.test_mix_kinds_within_ratio_is_rejected) ... ok
+test_rational_grid (test_witness.V8Tests.test_rational_grid) ... ok
+test_strict_first_comparison_cannot_be_equal (test_witness.V8Tests.test_strict_first_comparison_cannot_be_equal) ... ok
+test_three_gap_branches (test_witness.V8Tests.test_three_gap_branches) ... ok
+test_weak_second_comparison_may_be_equal (test_witness.V8Tests.test_weak_second_comparison_may_be_equal) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.085s
+
+OK

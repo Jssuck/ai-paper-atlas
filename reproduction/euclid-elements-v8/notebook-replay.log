@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+gap<smaller 3 3 15 21 24
+gap=smaller 2 2 10 14 20
+gap>smaller 3 4 9 28 30
+cell 2
+(1, 0) True
+(0, -1) False
+cell 3
+20 None
+52 (51, 52)
+construction 101 103
+Replay completed: 3 code cells
