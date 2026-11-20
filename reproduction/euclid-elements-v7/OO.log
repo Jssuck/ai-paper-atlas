@@ -1,0 +1,16 @@
+$ python -OO -m unittest -v
+test_distinct_objects_same_magnitude (test_equal_ratio_probes.RatioTests.test_distinct_objects_same_magnitude) ... ok
+test_equal_forward (test_equal_ratio_probes.RatioTests.test_equal_forward) ... ok
+test_equal_reverse (test_equal_ratio_probes.RatioTests.test_equal_reverse) ... ok
+test_exact_witness_both_directions (test_equal_ratio_probes.RatioTests.test_exact_witness_both_directions) ... ok
+test_greater_forward (test_equal_ratio_probes.RatioTests.test_greater_forward) ... ok
+test_grid (test_equal_ratio_probes.RatioTests.test_grid) ... ok
+test_invalid_domains (test_equal_ratio_probes.RatioTests.test_invalid_domains) ... ok
+test_less_forward (test_equal_ratio_probes.RatioTests.test_less_forward) ... ok
+test_mismatch_premise (test_equal_ratio_probes.RatioTests.test_mismatch_premise) ... ok
+test_no_witness_in_finite_grid (test_equal_ratio_probes.RatioTests.test_no_witness_in_finite_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests (elapsed time omitted)
+
+OK

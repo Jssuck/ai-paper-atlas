@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+(1, 1) ((-1, -1), (1, 1))
+(3, 2) ((0, 0), (1, 1))
+(2, 1) ((1, 1), (1, 1))
+(2, 3) ((-1, -1), (0, 0))
+cell 2
+8 × 8 网格内的区别见证: []
+构造见证: (16, 17, (0, -1))
+交换下标的反向见证: (0, 1)
+cell 3
+探针对数与覆盖符号: (1152, (-1, 0, 1))
+Replay completed: 3 code cells
