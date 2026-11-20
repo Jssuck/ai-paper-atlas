@@ -1,0 +1,21 @@
+$ python --version
+Python 3.12.14
+$ python polygon15.py
+half arc: 1/15 | step: 1 | orbit: 15
+walk: (3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, 1, 2, 3)
+exact grid (regular, opposite-side, missing return): (30, 30, 30)
+$ python -m unittest -v
+test_all_grid_controls (test_polygon15.PolygonTests.test_all_grid_controls) ... ok
+test_cyclotomic_field (test_polygon15.PolygonTests.test_cyclotomic_field) ... ok
+test_early_closure (test_polygon15.PolygonTests.test_early_closure) ... ok
+test_euclid_walk (test_polygon15.PolygonTests.test_euclid_walk) ... ok
+test_exact_scale (test_polygon15.PolygonTests.test_exact_scale) ... ok
+test_major_arc_outside_model (test_polygon15.PolygonTests.test_major_arc_outside_model) ... ok
+test_opposite_side (test_polygon15.PolygonTests.test_opposite_side) ... ok
+test_source_arcs (test_polygon15.PolygonTests.test_source_arcs) ... ok
+test_wrong_order_and_missing_return (test_polygon15.PolygonTests.test_wrong_order_and_missing_return) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in <elapsed>
+
+OK

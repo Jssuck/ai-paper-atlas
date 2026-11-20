@@ -1,0 +1,13 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+三角形弧 − 五边形弧: 2/15
+半弧: 1/15 | 从 B 出发: (3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, 1, 2, 3)
+边长平方（按 1,z,…,z^7 的系数）: (1, -1, 1, -1, 1, 0, -1, 1)
+正十五边形: True
+cell 2
+错侧半弧: 4/15 | 证书: Certificate(closed=True, distinct=True, boundary_order=False, equal_sides=True, equal_angles=True)
+同侧大弧的一半: 13/30 | 不是原命题步幅
+cell 3
+正例、错侧、缺最后返回: (30, 30, 30)
+Replay completed: 3 code cells
