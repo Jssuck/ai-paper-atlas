@@ -1,0 +1,11 @@
+$ python replay_notebook.py
+code cell 1
+(9, 6, 6, 4) ((1, 1), ((1, 1), (1, 0, 1), (4, 6, 6)))
+(6, 4, 9, 6) ((-1, -1), ((1, 1), (1, 0, 1), (4, 6, 6)))
+(6, 4, 6, 4) ((0, 0), None)
+code cell 2
+False None ((25, 26), (-1, 0))
+code cell 3
+same ratio: True
+order rejected: these comparisons need one common kind and unit
+Executed 3 cells with stdlib, not a Jupyter kernel.

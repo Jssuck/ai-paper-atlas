@@ -1,0 +1,16 @@
+$ python -OO -m unittest -v
+test_bounded_not_decision (test_ratio_order.OrderTests.test_bounded_not_decision) ... ok
+test_equal (test_ratio_order.OrderTests.test_equal) ... ok
+test_exhaustive_grid (test_ratio_order.OrderTests.test_exhaustive_grid) ... ok
+test_fraction (test_ratio_order.OrderTests.test_fraction) ... ok
+test_greater (test_ratio_order.OrderTests.test_greater) ... ok
+test_less (test_ratio_order.OrderTests.test_less) ... ok
+test_no_bad_numbers (test_ratio_order.OrderTests.test_no_bad_numbers) ... ok
+test_not_proportion (test_ratio_order.OrderTests.test_not_proportion) ... ok
+test_types (test_ratio_order.OrderTests.test_types) ... ok
+test_wrong_probe_and_orientation (test_ratio_order.OrderTests.test_wrong_probe_and_orientation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.008s
+
+OK
