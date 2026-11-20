@@ -1,0 +1,23 @@
+$ python --version
+Python 3.12.14
+$ python ratio_alternation.py
+A,B,C,D = 2,3,4,6 (same kind)
+m=1 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(-1, -1)
+m=2 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(0, 0)
+m=3 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(1, 1)
+$ python -m unittest -v
+test_bad_magnitudes (test_ratio_alternation.AlternationTests.test_bad_magnitudes) ... ok
+test_finite_grid_against_oracle (test_ratio_alternation.AlternationTests.test_finite_grid_against_oracle) ... ok
+test_fraction_and_regrouping (test_ratio_alternation.AlternationTests.test_fraction_and_regrouping) ... ok
+test_ill_typed_cross_pairs (test_ratio_alternation.AlternationTests.test_ill_typed_cross_pairs) ... ok
+test_ill_typed_within_pair (test_ratio_alternation.AlternationTests.test_ill_typed_within_pair) ... ok
+test_incompatible_comparison (test_ratio_alternation.AlternationTests.test_incompatible_comparison) ... ok
+test_invalid_probes (test_ratio_alternation.AlternationTests.test_invalid_probes) ... ok
+test_nonproportional_input (test_ratio_alternation.AlternationTests.test_nonproportional_input) ... ok
+test_three_branches (test_ratio_alternation.AlternationTests.test_three_branches) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.140s
+
+OK
+finite grid: 4096 profiles; signs -1/0/+1: 1792/512/1792

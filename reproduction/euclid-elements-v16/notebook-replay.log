@@ -1,0 +1,12 @@
+$ python replay_notebook.py
+code cell 1
+A,B,C,D = 2,3,4,6 (same kind)
+m=1 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(-1, -1)
+m=2 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(0, 0)
+m=3 n=1; original=2/3 ~ 2/3; scaled=2/3 ~ 2/3; alternating=1/2 ~ 1/2; signs=(1, 1)
+code cell 2
+alternate ratios and signs: ((Fraction(1, 2), Fraction(1, 2)), (0, 0))
+code cell 3
+legal internal ratios: 2/3 2/3
+refused: alternation requires the same kind across both pairs
+Executed 3 cells with stdlib, not a Jupyter kernel.
