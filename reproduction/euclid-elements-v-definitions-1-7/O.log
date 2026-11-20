@@ -1,0 +1,16 @@
+$ python -O -m unittest -v
+test_def4_strict_witnesses (test_ratio.RatioTests.test_def4_strict_witnesses) ... ok
+test_exact_signs (test_ratio.RatioTests.test_exact_signs) ... ok
+test_finite_agreement_rational (test_ratio.RatioTests.test_finite_agreement_rational) ... ok
+test_finite_agreement_surd (test_ratio.RatioTests.test_finite_agreement_surd) ... ok
+test_kind_check (test_ratio.RatioTests.test_kind_check) ... ok
+test_part_and_multiple (test_ratio.RatioTests.test_part_and_multiple) ... ok
+test_positive_domain (test_ratio.RatioTests.test_positive_domain) ... ok
+test_proportional_irrationals (test_ratio.RatioTests.test_proportional_irrationals) ... ok
+test_rational_grid_independent_cross_product (test_ratio.RatioTests.test_rational_grid_independent_cross_product) ... ok
+test_reject_float (test_ratio.RatioTests.test_reject_float) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in <elapsed>
+
+OK

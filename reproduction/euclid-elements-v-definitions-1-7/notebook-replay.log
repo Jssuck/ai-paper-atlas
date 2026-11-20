@@ -1,0 +1,15 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+√2 measure of 2: None
+√2 measure of 4√2: 4
+strict multipliers: (2, 1)
+cell 2
+N=6: None
+N=7: (5, 7, 1, 0)
+directional witness: (5, 7, 1, 0)
+cell 3
+100 None None
+101 (100, 101, 0, -1) None
+102 (100, 101, 0, -1) (101, 102, 1, 0)
+Replay completed: 3 code cells
