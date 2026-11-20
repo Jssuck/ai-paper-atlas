@@ -1,0 +1,17 @@
+$ python -OO -m unittest -v
+test_all_three_signs (test_ratio_chains.V11.test_all_three_signs) ... ok
+test_bounded_false_agreement (test_ratio_chains.V11.test_bounded_false_agreement) ... ok
+test_cross_kind_ratios_allowed (test_ratio_chains.V11.test_cross_kind_ratios_allowed) ... ok
+test_equal_endpoints_not_all_equal (test_ratio_chains.V11.test_equal_endpoints_not_all_equal) ... ok
+test_false_left_or_right_premise (test_ratio_chains.V11.test_false_left_or_right_premise) ... ok
+test_mismatch_at_equality_boundary (test_ratio_chains.V11.test_mismatch_at_equality_boundary) ... ok
+test_multiplier_must_be_common (test_ratio_chains.V11.test_multiplier_must_be_common) ... ok
+test_positive_exact_inputs (test_ratio_chains.V11.test_positive_exact_inputs) ... ok
+test_positive_integral_probes (test_ratio_chains.V11.test_positive_integral_probes) ... ok
+test_rational_grid_against_division_oracle (test_ratio_chains.V11.test_rational_grid_against_division_oracle) ... ok
+test_within_pair_kind_rejected (test_ratio_chains.V11.test_within_pair_kind_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.483s
+
+OK
