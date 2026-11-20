@@ -1,0 +1,15 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+整体、被扣、余量的次数: 4 3 1 unit
+两列余量: 2/3 5/4
+构造重建的全量: 8/3 5
+整体、被扣、余量的次数: 7 3 4 strict
+两列余量: 8/3 5
+构造重建的全量: 14/3 35/4
+cell 2
+错配案例的余量: 4 6
+拒绝: counts differ across matched columns
+cell 3
+网格（单位分支、严格倍量分支、错配拒绝）: (54, 135, 189)
+Replay completed: 3 code cells

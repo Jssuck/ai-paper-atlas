@@ -1,0 +1,17 @@
+$ python -OO -m unittest -v
+test_compensating_errors (test_difference_counts.DifferenceTests.test_compensating_errors) ... ok
+test_cut_only_mismatch (test_difference_counts.DifferenceTests.test_cut_only_mismatch) ... ok
+test_grid (test_difference_counts.DifferenceTests.test_grid) ... ok
+test_non_integer (test_difference_counts.DifferenceTests.test_non_integer) ... ok
+test_nonproper (test_difference_counts.DifferenceTests.test_nonproper) ... ok
+test_one_is_not_input_multiple (test_difference_counts.DifferenceTests.test_one_is_not_input_multiple) ... ok
+test_preserved_kind (test_difference_counts.DifferenceTests.test_preserved_kind) ... ok
+test_rebuilt_wholes (test_difference_counts.DifferenceTests.test_rebuilt_wholes) ... ok
+test_strict (test_difference_counts.DifferenceTests.test_strict) ... ok
+test_type_checks (test_difference_counts.DifferenceTests.test_type_checks) ... ok
+test_unit (test_difference_counts.DifferenceTests.test_unit) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests (elapsed time omitted)
+
+OK
