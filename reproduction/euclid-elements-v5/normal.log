@@ -1,0 +1,25 @@
+$ python --version
+Python 3.12.14
+$ python remainder_multiples.py
+factor: 3
+original auxiliary / rebuilt small whole: 3 5
+addition-only auxiliary / rebuilt large whole: 9 15
+large / small remainders: 9 3
+grid (valid, mismatched parts rejected): (72, 72)
+$ python -m unittest -v
+test_addition_only_round_trip (test_remainder_multiples.V5Tests.test_addition_only_round_trip) ... ok
+test_all_four_must_be_same_kind (test_remainder_multiples.V5Tests.test_all_four_must_be_same_kind) ... ok
+test_equal_or_excessive_removed_part (test_remainder_multiples.V5Tests.test_equal_or_excessive_removed_part) ... ok
+test_factor_one_out_of_scope (test_remainder_multiples.V5Tests.test_factor_one_out_of_scope) ... ok
+test_fractional_magnitudes (test_remainder_multiples.V5Tests.test_fractional_magnitudes) ... ok
+test_grid (test_remainder_multiples.V5Tests.test_grid) ... ok
+test_noninteger_common_factor (test_remainder_multiples.V5Tests.test_noninteger_common_factor) ... ok
+test_nonpositive_or_inexact_input (test_remainder_multiples.V5Tests.test_nonpositive_or_inexact_input) ... ok
+test_original_round_trip (test_remainder_multiples.V5Tests.test_original_round_trip) ... ok
+test_unequal_factors (test_remainder_multiples.V5Tests.test_unequal_factors) ... ok
+test_worked_example (test_remainder_multiples.V5Tests.test_worked_example) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in <elapsed>
+
+OK

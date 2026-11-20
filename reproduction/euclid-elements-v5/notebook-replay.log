@@ -1,0 +1,15 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+共同倍数: 3
+原证：小余量候选及重建小全量: 3 5
+加法路线：大余量候选及重建大全量: 9 15
+两个余量: 9 3
+cell 2
+(15, 5, 4, 2) 拒绝: wholes and parts must share a strict integer factor
+(15, 5, 15, 5) 拒绝: removed quantities must be proper parts
+(6, 4, 3, 2) 拒绝: wholes and parts must share a strict integer factor
+cell 3
+分数取值、整数倍数: 5/2 1/2 5
+网格（有效、错配拒绝）: (72, 72)
+Replay completed: 3 code cells
