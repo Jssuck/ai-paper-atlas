@@ -1,0 +1,19 @@
+$ python --version
+Python 3.12.14
+$ python hexagon.py
+Exact grid (regular, altered auxiliary radius, swapped order): (96, 96, 96)
+$ python -m unittest -v
+test_algebraic_scope_is_not_intersection_existence (test_hexagon.HexagonTests.test_algebraic_scope_is_not_intersection_existence) ... ok
+test_auxiliary_intersections_and_antipodes (test_hexagon.HexagonTests.test_auxiliary_intersections_and_antipodes) ... ok
+test_certificate_rejects_repeated_vertex (test_hexagon.HexagonTests.test_certificate_rejects_repeated_vertex) ... ok
+test_degenerate_auxiliary_or_input_circle (test_hexagon.HexagonTests.test_degenerate_auxiliary_or_input_circle) ... ok
+test_grid (test_hexagon.HexagonTests.test_grid) ... ok
+test_nonaxis_direction_and_radius (test_hexagon.HexagonTests.test_nonaxis_direction_and_radius) ... ok
+test_swap_preserves_point_set_not_polygon (test_hexagon.HexagonTests.test_swap_preserves_point_set_not_polygon) ... ok
+test_wrong_radius_can_permute_a_regular_point_set (test_hexagon.HexagonTests.test_wrong_radius_can_permute_a_regular_point_set) ... ok
+test_wrong_radius_keeps_vertices_on_circle (test_hexagon.HexagonTests.test_wrong_radius_keeps_vertices_on_circle) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in <elapsed>
+
+OK

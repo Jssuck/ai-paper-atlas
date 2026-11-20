@@ -1,0 +1,14 @@
+$ python replay_notebook.py
+3.12.14 | plain compile/exec (no Jupyter kernel)
+cell 1
+A,B,C,D,E,F: [('-1', '0'), ('-1/2', '-1/2'), ('1/2', '-1/2'), ('1', '0'), ('1/2', '1/2'), ('-1/2', '1/2')]
+all edge squares: ['25', '25', '25', '25', '25', '25']
+all interior angle dot products: ['-25/2', '-25/2', '-25/2', '-25/2', '-25/2', '-25/2']
+regular: True
+cell 2
+wrong radius, on circle: True | regular: False
+normalized edge squares: ['12/19', '676/361', '12/19', '12/19', '676/361', '12/19']
+same point set: True | ordered: False
+cell 3
+exact grid (regular, wrong radius, swapped order): (96, 96, 96)
+Replay completed: 3 code cells
