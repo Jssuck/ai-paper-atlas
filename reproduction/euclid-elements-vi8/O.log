@@ -1,0 +1,15 @@
+Python 3.12.14
+$ python -O -B -m unittest -v
+test_15_20_25_example (test_ratio_chains.TestVI8.test_15_20_25_example) ... ok
+test_degenerate (test_ratio_chains.TestVI8.test_degenerate) ... ok
+test_floats_not_silently_accepted (test_ratio_chains.TestVI8.test_floats_not_silently_accepted) ... ok
+test_matrix (test_ratio_chains.TestVI8.test_matrix) ... configurations, mirrors, similarity pairs, identities = (216, 108, 648, 648)
+ok
+test_right_isosceles_and_vertex_swap (test_ratio_chains.TestVI8.test_right_isosceles_and_vertex_swap) ... ok
+test_sign_kept (test_ratio_chains.TestVI8.test_sign_kept) ... ok
+test_wrong_vertex_with_interior_perpendicular (test_ratio_chains.TestVI8.test_wrong_vertex_with_interior_perpendicular) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.110s
+
+OK

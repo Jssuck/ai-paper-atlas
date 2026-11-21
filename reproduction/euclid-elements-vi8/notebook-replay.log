@@ -1,0 +1,12 @@
+Python 3.12.14
+$ python -B replay_notebook.py
+code cell 1
+D, t = (Fraction(48, 5), Fraction(36, 5)) 9/25
+same angles and side scale for each pair: ((True, True), (True, True), (True, True))
+each squared identity: ((Fraction(20736, 1), Fraction(20736, 1)), (Fraction(50625, 1), Fraction(50625, 1)), (Fraction(160000, 1), Fraction(160000, 1)))
+code cell 2
+Oblique triangle, interior foot: (Fraction(48, 17), Fraction(12, 17))
+AD² and BD·DC: 144/17 42/17
+code cell 3
+configurations, mirrors, similarity pairs, identities = (216, 108, 648, 648)
+Executed 3 cells with stdlib, not a Jupyter kernel.
