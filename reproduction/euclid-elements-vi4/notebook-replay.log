@@ -1,0 +1,13 @@
+Python 3.12.14
+Command: python -B replay_notebook.py
+code cell 1
+F = (Fraction(0, 1), Fraction(15, 2)) 两组平行 = (True, True) 两组等长 = (True, True)
+code cell 2
+BA/AF, BC/CE, FD/DE: 2/3 2/3 2/3
+第一次与第二次换项及 V.22 得到的同侧比: 3/4 4/5 3/5
+code cell 3
+单独镜像仍等角? True
+改变 D 后仍等角? False
+构造前提: require B–C–E and A,D on same side
+精确网格配置数: 216
+Executed 3 cells with stdlib, not a Jupyter kernel.
