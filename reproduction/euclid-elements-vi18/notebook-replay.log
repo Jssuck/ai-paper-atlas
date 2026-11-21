@@ -1,0 +1,9 @@
+Python 3.12.14
+$ python3 replay_notebook.py
+code cell 1
+G, H via matrix: (Fraction(-7, 2), Fraction(5, 2)) (Fraction(-2, 1), Fraction(11, 2))
+code cell 2
+G, H via rays: (Fraction(-7, 2), Fraction(5, 2)) (Fraction(-2, 1), Fraction(11, 2))
+code cell 3
+oriented determinants: 27 -27
+Executed 3 cells with stdlib, not a Jupyter kernel.
