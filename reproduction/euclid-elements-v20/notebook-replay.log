@@ -1,0 +1,12 @@
++ python -B replay_notebook.py
+code cell 1
+左组 A:B, C:B = 3/2, 3/4
+右组 D:E, F:E = 3/2, 3/4
+端点的共同次序：+1
+code cell 2
+(6, 4, 6) / (12, 8, 12): +0
+(3, 4, 6) / (6, 8, 12): -1
+code cell 3
+(12, 8, 15): second adjacent ratio does not match
+(12, 20, 15): first adjacent ratio does not match
+Executed 3 cells with stdlib, not a Jupyter kernel.

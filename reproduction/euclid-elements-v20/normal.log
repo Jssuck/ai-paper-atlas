@@ -1,0 +1,23 @@
++ python -V
+Python 3.12.14
++ python -B -m unittest -v
+test_equal (test_ratio_chains.ChainTests.test_equal) ... ok
+test_exhaustive_integer_cross_product_oracle (test_ratio_chains.ChainTests.test_exhaustive_integer_cross_product_oracle) ... ok
+test_first_edge_needed (test_ratio_chains.ChainTests.test_first_edge_needed) ... ok
+test_kind_guard (test_ratio_chains.ChainTests.test_kind_guard) ... ok
+test_less (test_ratio_chains.ChainTests.test_less) ... ok
+test_more (test_ratio_chains.ChainTests.test_more) ... ok
+test_positive_and_exact_guard (test_ratio_chains.ChainTests.test_positive_and_exact_guard) ... ok
+test_rational_constructive_grid (test_ratio_chains.ChainTests.test_rational_constructive_grid) ... ok
+test_second_edge_needed (test_ratio_chains.ChainTests.test_second_edge_needed) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.222s
+
+OK
++ python -B ratio_chains.py
+(6, 4, 3) / (12, 8, 6): middle-based ratios (3/2, 3/4) and (3/2, 3/4); sign +1
+(6, 4, 6) / (12, 8, 12): middle-based ratios (3/2, 3/2) and (3/2, 3/2); sign +0
+(3, 4, 6) / (6, 8, 12): middle-based ratios (3/4, 3/2) and (3/4, 3/2); sign -1
+(12, 8, 15): rejected (second adjacent ratio does not match); endpoints 12 < 15
+(12, 20, 15): rejected (first adjacent ratio does not match); endpoints 12 < 15

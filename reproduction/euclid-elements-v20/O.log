@@ -1,0 +1,18 @@
++ set -x
++ python -V
+Python 3.12.14
++ python -O -B -m unittest -v
+test_equal (test_ratio_chains.ChainTests.test_equal) ... ok
+test_exhaustive_integer_cross_product_oracle (test_ratio_chains.ChainTests.test_exhaustive_integer_cross_product_oracle) ... ok
+test_first_edge_needed (test_ratio_chains.ChainTests.test_first_edge_needed) ... ok
+test_kind_guard (test_ratio_chains.ChainTests.test_kind_guard) ... ok
+test_less (test_ratio_chains.ChainTests.test_less) ... ok
+test_more (test_ratio_chains.ChainTests.test_more) ... ok
+test_positive_and_exact_guard (test_ratio_chains.ChainTests.test_positive_and_exact_guard) ... ok
+test_rational_constructive_grid (test_ratio_chains.ChainTests.test_rational_constructive_grid) ... ok
+test_second_edge_needed (test_ratio_chains.ChainTests.test_second_edge_needed) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.252s
+
+OK
