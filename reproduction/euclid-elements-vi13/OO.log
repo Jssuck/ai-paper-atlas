@@ -1,0 +1,16 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+PYTHONDONTWRITEBYTECODE=1 python -OO -m unittest -v
+test_equal_lengths_midpoint (test_ratio_chains.TestMeanProportional.test_equal_lengths_midpoint) ... ok
+test_exact_grid_and_reflection (test_ratio_chains.TestMeanProportional.test_exact_grid_and_reflection) ... ok
+test_forbid_uncontrolled_coercion (test_ratio_chains.TestMeanProportional.test_forbid_uncontrolled_coercion) ... ok
+test_fraction_square (test_ratio_chains.TestMeanProportional.test_fraction_square) ... ok
+test_integer_square (test_ratio_chains.TestMeanProportional.test_integer_square) ... ok
+test_irrational_height (test_ratio_chains.TestMeanProportional.test_irrational_height) ... ok
+test_nonsquare_denominator (test_ratio_chains.TestMeanProportional.test_nonsquare_denominator) ... ok
+test_wrong_intersection_and_wrong_mean (test_ratio_chains.TestMeanProportional.test_wrong_intersection_and_wrong_mean) ... ok
+test_zero_and_negative_lengths (test_ratio_chains.TestMeanProportional.test_zero_and_negative_lengths) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.022s
+
+OK

@@ -1,0 +1,9 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+PYTHONDONTWRITEBYTECODE=1 python replay_notebook.py
+code cell 1
+center x=7/2, radius=25/2, BD²=144, BD=12
+code cell 2
+BD²=2, rational height=None, right-angle dot=0
+code cell 3
+top x=7/2, top distance²=337/2, correct BD²=144
+Executed 3 cells with stdlib, not a Jupyter kernel.
