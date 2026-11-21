@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python3 -m unittest -v
+test_arithmetic_mean_is_not_geometric_mean (test_ratio_chains.VI17Tests.test_arithmetic_mean_is_not_geometric_mean) ... ok
+test_equal (test_ratio_chains.VI17Tests.test_equal) ... ok
+test_exact_grid (test_ratio_chains.VI17Tests.test_exact_grid) ... ok
+test_extremes_swap_not_middle_swap (test_ratio_chains.VI17Tests.test_extremes_swap_not_middle_swap) ... ok
+test_nonexact_rejected (test_ratio_chains.VI17Tests.test_nonexact_rejected) ... ok
+test_nonpositive_rejected_each_position (test_ratio_chains.VI17Tests.test_nonpositive_rejected_each_position) ... ok
+test_rational_roots (test_ratio_chains.VI17Tests.test_rational_roots) ... ok
+test_translation_and_orientation (test_ratio_chains.VI17Tests.test_translation_and_orientation) ... ok
+test_unequal (test_ratio_chains.VI17Tests.test_unequal) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.079s
+
+OK

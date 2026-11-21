@@ -1,0 +1,13 @@
+Python 3.12.14
+$ python3 replay_notebook.py
+code cell 1
+ratios: 3/4 3/4
+areas: 144 144
+code cell 2
+arithmetic candidate areas: 144 625/4
+proportional: False equal area: False
+code cell 3
+rational middle of 2/3 and 3/8: 1/2
+rational middle of 1 and 2: None
+the positive geometric mean still exists; its square is 2
+Executed 3 cells with stdlib, not a Jupyter kernel.
