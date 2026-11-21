@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python -O -B -m unittest -v
+test_degenerate (test_ratio_chains.VI10.test_degenerate) ... ok
+test_example (test_ratio_chains.VI10.test_example) ... ok
+test_more_cuts (test_ratio_chains.VI10.test_more_cuts) ... ok
+test_nonrational_off_line (test_ratio_chains.VI10.test_nonrational_off_line) ... ok
+test_off_parallel (test_ratio_chains.VI10.test_off_parallel) ... ok
+test_reverse_order_and_duplicates (test_ratio_chains.VI10.test_reverse_order_and_duplicates) ... ok
+test_sweep (test_ratio_chains.VI10.test_sweep) ... ok
+test_wrong_auxiliary_line (test_ratio_chains.VI10.test_wrong_auxiliary_line) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.170s
+
+OK
+configurations, opposite orientation = (1008, 504)

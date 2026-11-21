@@ -1,0 +1,11 @@
+Python 3.12.14
+$ python -B replay_notebook.py
+code cell 1
+F, G, H, K: (Fraction(4, 1), Fraction(0, 1)) (Fraction(10, 1), Fraction(0, 1)) (Fraction(8, 1), Fraction(2, 1)) (Fraction(12, 1), Fraction(2, 1))
+ratio groups: ((Fraction(2, 3), Fraction(2, 3), Fraction(2, 3)), (Fraction(3, 2), Fraction(3, 2)))
+code cell 2
+Rejected: lost required parallelism
+code cell 3
+affine example: ((Fraction(4, 1), Fraction(0, 1)), (Fraction(10, 1), Fraction(0, 1)))
+configurations, opposite orientation = (1008, 504)
+Executed 3 cells with stdlib, not a Jupyter kernel.
