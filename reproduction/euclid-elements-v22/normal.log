@@ -1,0 +1,18 @@
+Python 3.12.14
+test_base_case (test_ratio_chains.TestV22.test_base_case) ... ok
+test_constructive_fraction_grid (test_ratio_chains.TestV22.test_constructive_fraction_grid) ... ok
+test_endpoints_can_match_despite_bad_middle (test_ratio_chains.TestV22.test_endpoints_can_match_despite_bad_middle) ... ok
+test_exhaustive_small_integer_triples (test_ratio_chains.TestV22.test_exhaustive_small_integer_triples) ... ok
+test_longer_chain (test_ratio_chains.TestV22.test_longer_chain) ... ok
+test_perturbed_is_not_ordered (test_ratio_chains.TestV22.test_perturbed_is_not_ordered) ... ok
+test_reject_bad_scales_or_lengths (test_ratio_chains.TestV22.test_reject_bad_scales_or_lengths) ... ok
+test_reject_mixed_kind_or_bad_magnitude (test_ratio_chains.TestV22.test_reject_mixed_kind_or_bad_magnitude) ... ok
+test_three_signs_at_length_four (test_ratio_chains.TestV22.test_three_signs_at_length_four) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.270s
+
+OK
+(1, 5, 3, 7) (1, 1)
+(1, 5, 3, 8) (0, 0)
+(1, 5, 3, 9) (-1, -1)

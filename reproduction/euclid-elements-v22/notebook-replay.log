@@ -1,0 +1,8 @@
+Python 3.12.14
+code cell 1
+((8, 'length'), (4, 'length'), (2, 'length'), (1, 'length')) ((12, 'area'), (6, 'area'), (3, 'area'), (Fraction(3, 2), 'area'))
+code cell 2
+((1, 1), (0, 0), (-1, -1))
+code cell 3
+adjacent ratios do not match in order
+Executed 3 cells with stdlib, not a Jupyter kernel.
