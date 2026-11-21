@@ -1,0 +1,21 @@
+Python 3.12.14
+test_distinguishes_ordered_from_perturbed_hypotheses (test_ratio_chains.ChainTests.test_distinguishes_ordered_from_perturbed_hypotheses) ... ok
+test_each_perturbed_pair_needed_for_order (test_ratio_chains.ChainTests.test_each_perturbed_pair_needed_for_order) ... ok
+test_equal (test_ratio_chains.ChainTests.test_equal) ... ok
+test_exhaustive_integer_cross_product_oracle (test_ratio_chains.ChainTests.test_exhaustive_integer_cross_product_oracle) ... ok
+test_greater (test_ratio_chains.ChainTests.test_greater) ... ok
+test_kind_guard (test_ratio_chains.ChainTests.test_kind_guard) ... ok
+test_less (test_ratio_chains.ChainTests.test_less) ... ok
+test_positive_and_exact_guard (test_ratio_chains.ChainTests.test_positive_and_exact_guard) ... ok
+test_rational_constructive_grid (test_ratio_chains.ChainTests.test_rational_constructive_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.248s
+
+OK
+(6, 4, 3) / (8, 6, 4): A:B,C:B = (3/2, 3/4); E:F,E:D = (3/2, 3/4); sign +1
+(6, 4, 6) / (8, 12, 8): A:B,C:B = (3/2, 3/2); E:F,E:D = (3/2, 3/2); sign +0
+(3, 4, 6) / (4, 6, 8): A:B,C:B = (3/4, 3/2); E:F,E:D = (3/4, 3/2); sign -1
+(3, 6, 4): rejected (second perturbed pair B:C / D:E does not match); D–F order -1
+(8, 6, 10): rejected (first perturbed pair A:B / E:F does not match); D–F order -1
+(12, 8, 6): rejected (first perturbed pair A:B / E:F does not match); D–F order +1

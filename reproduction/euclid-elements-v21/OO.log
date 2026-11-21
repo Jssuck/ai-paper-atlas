@@ -1,0 +1,14 @@
+test_distinguishes_ordered_from_perturbed_hypotheses (test_ratio_chains.ChainTests.test_distinguishes_ordered_from_perturbed_hypotheses) ... ok
+test_each_perturbed_pair_needed_for_order (test_ratio_chains.ChainTests.test_each_perturbed_pair_needed_for_order) ... ok
+test_equal (test_ratio_chains.ChainTests.test_equal) ... ok
+test_exhaustive_integer_cross_product_oracle (test_ratio_chains.ChainTests.test_exhaustive_integer_cross_product_oracle) ... ok
+test_greater (test_ratio_chains.ChainTests.test_greater) ... ok
+test_kind_guard (test_ratio_chains.ChainTests.test_kind_guard) ... ok
+test_less (test_ratio_chains.ChainTests.test_less) ... ok
+test_positive_and_exact_guard (test_ratio_chains.ChainTests.test_positive_and_exact_guard) ... ok
+test_rational_constructive_grid (test_ratio_chains.ChainTests.test_rational_constructive_grid) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.253s
+
+OK

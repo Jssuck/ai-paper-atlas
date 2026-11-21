@@ -1,0 +1,12 @@
+code cell 1
+左组 A:B, C:B = 3/2, 3/4
+右组 E:F, E:D = 3/2, 3/4
+共同端点次序：+1
+code cell 2
+(6, 4, 6) / (8, 12, 8): +0
+(3, 4, 6) / (4, 6, 8): -1
+code cell 3
+(3, 6, 4): second perturbed pair B:C / D:E does not match
+(8, 6, 10): first perturbed pair A:B / E:F does not match
+(12, 8, 6): first perturbed pair A:B / E:F does not match
+Executed 3 cells with stdlib, not a Jupyter kernel.
