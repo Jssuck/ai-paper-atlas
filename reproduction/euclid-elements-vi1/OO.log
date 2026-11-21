@@ -1,0 +1,16 @@
+Python 3.12.14
+Command: python -B -OO -m unittest -v
+test_comparison_three_branches (test_ratio_chains.VI1Tests.test_comparison_three_branches) ... ok
+test_domain (test_ratio_chains.VI1Tests.test_domain) ... ok
+test_exact_irrational_probes (test_ratio_chains.VI1Tests.test_exact_irrational_probes) ... ok
+test_exact_signed_determinant (test_ratio_chains.VI1Tests.test_exact_signed_determinant) ... ok
+test_fan_reconstructs_whole (test_ratio_chains.VI1Tests.test_fan_reconstructs_whole) ... ok
+test_integer_grid_against_independent_oracle (test_ratio_chains.VI1Tests.test_integer_grid_against_independent_oracle) ... ok
+test_original_multipliers_independent (test_ratio_chains.VI1Tests.test_original_multipliers_independent) ... ok
+test_unequal_height_reverses_first_comparison (test_ratio_chains.VI1Tests.test_unequal_height_reverses_first_comparison) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.066s
+
+OK
+grid: 1024 same-height (a,b,h,m,n) tuples
