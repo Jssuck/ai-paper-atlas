@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VI.15：一对角相等时，怎样用两组边比判定三角形等积？](papers/ancient/euclid-elements-vi15.zh-CN.md)。核对公共辅助三角形、正反命题与补角边界，附[教学复现与实跑日志](reproduction/euclid-elements-vi15/README.md)。
+最新补读：[《几何原本》VI.16：为什么四个长度成比例，等价于两块交叉配对的矩形等积？](papers/ancient/euclid-elements-vi16.zh-CN.md)。核对外项、内项与 VI.14 的双向依赖，附[教学复现与实跑日志](reproduction/euclid-elements-vi16/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -294,6 +294,7 @@
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.13](papers/ancient/euclid-elements-vi13.zh-CN.md) | AI 数学与形式推理前史补读：半圆作图、几何平均与平方证书 | 深读 · [教学复现](reproduction/euclid-elements-vi13/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.14](papers/ancient/euclid-elements-vi14.zh-CN.md) | AI 数学与形式推理前史补读：等角面积、共享辅助图与反向边比 | 深读 · [教学复现](reproduction/euclid-elements-vi14/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.15](papers/ancient/euclid-elements-vi15.zh-CN.md) | AI 数学与形式推理前史补读：三角形等积、交叉边比与补角边界 | 深读 · [教学复现](reproduction/euclid-elements-vi15/README.md) |
+| 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.16](papers/ancient/euclid-elements-vi16.zh-CN.md) | AI 数学与形式推理前史补读：四项比例、交叉配对与矩形等积 | 深读 · [教学复现](reproduction/euclid-elements-vi16/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
