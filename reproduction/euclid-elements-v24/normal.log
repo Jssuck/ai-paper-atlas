@@ -1,0 +1,16 @@
+Python 3.12.14
+Command: python -B -m unittest -v
+test_bad_domain (test_ratio_chains.V24Tests.test_bad_domain) ... ok
+test_distinct_denominator_failure (test_ratio_chains.V24Tests.test_distinct_denominator_failure) ... ok
+test_exact_fraction (test_ratio_chains.V24Tests.test_exact_fraction) ... ok
+test_integer_grid (test_ratio_chains.V24Tests.test_integer_grid) ... ok
+test_missing_first_premise (test_ratio_chains.V24Tests.test_missing_first_premise) ... ok
+test_missing_second_premise (test_ratio_chains.V24Tests.test_missing_second_premise) ... ok
+test_named_trace (test_ratio_chains.V24Tests.test_named_trace) ... ok
+test_non_archimedean_boundary (test_ratio_chains.V24Tests.test_non_archimedean_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.057s
+
+OK
+grid: 15625 integer sextuples, 157 satisfy both premises
