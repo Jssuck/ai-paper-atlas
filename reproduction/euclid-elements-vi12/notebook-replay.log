@@ -1,0 +1,11 @@
+Python 3.12.14
+$ python -B replay_notebook.py
+code cell 1
+{'D': (Fraction(0, 1), Fraction(0, 1)), 'G': (Fraction(4, 1), Fraction(0, 1)), 'E': (Fraction(10, 1), Fraction(0, 1)), 'H': (Fraction(0, 1), Fraction(8, 1)), 'F': (Fraction(0, 1), Fraction(20, 1))}
+HF = 12
+code cell 2
+HF with GE=4: 8
+Rejected: given or copied lengths do not match
+code cell 3
+configurations, reflected = (1536, 768)
+Executed 3 cells with stdlib, not a Jupyter kernel.
