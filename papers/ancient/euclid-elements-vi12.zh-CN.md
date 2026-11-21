@@ -44,7 +44,7 @@ $$
 
 $$
 \det(F-E,H-G)
-=\det\bigl((c+x)v-(a+b)u,\;cv-au\bigr)
+=\det\bigl((c+x)v-(a+b)u, cv-au\bigr)
 =(ax-bc)\det(u,v)=0 .
 $$
 
