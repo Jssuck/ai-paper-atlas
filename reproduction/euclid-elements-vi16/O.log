@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python3 -O -m unittest -v
+test_exact_grid (test_ratio_chains.VI16Tests.test_exact_grid) ... ok
+test_false (test_ratio_chains.VI16Tests.test_false) ... ok
+test_forbid_inexact_or_non_numeric_length (test_ratio_chains.VI16Tests.test_forbid_inexact_or_non_numeric_length) ... ok
+test_roles (test_ratio_chains.VI16Tests.test_roles) ... ok
+test_true_nonidentical_rectangles (test_ratio_chains.VI16Tests.test_true_nonidentical_rectangles) ... ok
+test_vertex_orientation_and_translation (test_ratio_chains.VI16Tests.test_vertex_orientation_and_translation) ... ok
+test_wrong_pairing_false_negative (test_ratio_chains.VI16Tests.test_wrong_pairing_false_negative) ... ok
+test_wrong_pairing_false_positive (test_ratio_chains.VI16Tests.test_wrong_pairing_false_positive) ... ok
+test_zero_and_negative_each_position (test_ratio_chains.VI16Tests.test_zero_and_negative_each_position) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.166s
+
+OK

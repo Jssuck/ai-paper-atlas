@@ -1,0 +1,14 @@
+Python 3.12.14
+$ python3 replay_notebook.py
+code cell 1
+ratios: 3/2 3/2
+rectangle areas: 36 36
+proportional and equal area: True True
+code cell 2
+ratios: 3/2 4/3
+rectangle areas: 36 32
+wrong pair products for proportional example: 54 24
+code cell 3
+rational areas: 3/2 3/2
+zero rejected: length must be positive
+Executed 3 cells with stdlib, not a Jupyter kernel.
