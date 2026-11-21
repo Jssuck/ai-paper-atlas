@@ -1,0 +1,11 @@
+Python 3.12.14
+$ python3 replay_notebook.py
+code cell 1
+ABC, ADE, BAD: 6 6 4
+code cell 2
+area ratios: 3/2 3/2
+crossed side ratios: 3/2 3/2
+code cell 3
+equal side ratios, areas: 6 24/5
+equal areas, side ratios: 3/2 15/8
+Executed 3 cells with stdlib, not a Jupyter kernel.

@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python3 -OO -m unittest -v
+test_common_transform_scales_area_only (test_ratio_chains.TestVI15.test_common_transform_scales_area_only) ... ok
+test_drop_equal_angle_ratios_necessity_fails (test_ratio_chains.TestVI15.test_drop_equal_angle_ratios_necessity_fails) ... ok
+test_drop_equal_angle_ratios_sufficiency_fails (test_ratio_chains.TestVI15.test_drop_equal_angle_ratios_sufficiency_fails) ... ok
+test_independent_shoelace_and_squared_lengths_1024_cases (test_ratio_chains.TestVI15.test_independent_shoelace_and_squared_lengths_1024_cases) ... ok
+test_named_vertices (test_ratio_chains.TestVI15.test_named_vertices) ... ok
+test_non_equal_and_order (test_ratio_chains.TestVI15.test_non_equal_and_order) ... ok
+test_oblique_example (test_ratio_chains.TestVI15.test_oblique_example) ... ok
+test_reject_degenerate_or_inexact_inputs (test_ratio_chains.TestVI15.test_reject_degenerate_or_inexact_inputs) ... ok
+test_reject_non_positive_coefficients (test_ratio_chains.TestVI15.test_reject_non_positive_coefficients) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.075s
+
+OK
