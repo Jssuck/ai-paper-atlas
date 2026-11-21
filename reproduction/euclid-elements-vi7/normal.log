@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python -B -m unittest -v
+test_acute_shape (test_ratio_chains.TestVI7.test_acute_shape) ... ok
+test_invalid (test_ratio_chains.TestVI7.test_invalid) ... ok
+test_no_positive_root (test_ratio_chains.TestVI7.test_no_positive_root) ... ok
+test_obtuse_reflected_shape (test_ratio_chains.TestVI7.test_obtuse_reflected_shape) ... ok
+test_only_acute_root (test_ratio_chains.TestVI7.test_only_acute_root) ... ok
+test_opposite_branch_counterexample (test_ratio_chains.TestVI7.test_opposite_branch_counterexample) ... ok
+test_sweep (test_ratio_chains.TestVI7.test_sweep) ... same branch, opposite branch, right subset, no-root inputs = (504, 432, 72, 12)
+ok
+test_tangent_right (test_ratio_chains.TestVI7.test_tangent_right) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.082s
+
+OK
