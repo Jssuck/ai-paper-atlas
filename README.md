@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VI.9：不用刻度，怎样截出一条线段的三分之一？](papers/ancient/euclid-elements-vi9.zh-CN.md)。从辅助射线和平行线复原比例构造，附[教学复现与实跑日志](reproduction/euclid-elements-vi9/README.md)。
+最新补读：[《几何原本》VI.10：怎样把不等长的分段原样按比例搬过去？](papers/ancient/euclid-elements-vi10.zh-CN.md)。对读两次比例证明与仿射参数核对，附[教学复现与实跑日志](reproduction/euclid-elements-vi10/README.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -288,6 +288,7 @@
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.7](papers/ancient/euclid-elements-vi7.zh-CN.md) | AI 数学与形式推理前史补读：非夹角相似、锐钝分支与直角边界 | 深读 · [教学复现](reproduction/euclid-elements-vi7/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.8](papers/ancient/euclid-elements-vi8.zh-CN.md) | AI 数学与形式推理前史补读：斜边高、三组相似与几何平均 | 深读 · [教学复现](reproduction/euclid-elements-vi8/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.9](papers/ancient/euclid-elements-vi9.zh-CN.md) | AI 数学与形式推理前史补读：平行分段、三分之一及整数推广 | 深读 · [教学复现](reproduction/euclid-elements-vi9/README.md) |
+| 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.10](papers/ancient/euclid-elements-vi10.zh-CN.md) | AI 数学与形式推理前史补读：相似分段、端点对应与仿射参数 | 深读 · [教学复现](reproduction/euclid-elements-vi10/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
