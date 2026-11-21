@@ -1,0 +1,15 @@
+Python 3.12.14
+Command: python -B -OO -m unittest -v
+test_bad_domains (test_ratio_chains.PerturbedTests.test_bad_domains) ... ok
+test_finite_probe_can_miss (test_ratio_chains.PerturbedTests.test_finite_probe_can_miss) ... ok
+test_premises_not_optional (test_ratio_chains.PerturbedTests.test_premises_not_optional) ... ok
+test_rational_input (test_ratio_chains.PerturbedTests.test_rational_input) ... ok
+test_small_integer_grid (test_ratio_chains.PerturbedTests.test_small_integer_grid) ... ok
+test_three_branches_and_labels (test_ratio_chains.PerturbedTests.test_three_branches_and_labels) ... ok
+test_wrong_scale (test_ratio_chains.PerturbedTests.test_wrong_scale) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.081s
+
+OK
+grid: 4096 six-tuples, 70 satisfy premises, 1120 valid multiplier probes
