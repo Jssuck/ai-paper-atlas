@@ -1,0 +1,14 @@
+Python 3.12.14
+Command: python -B -O -m unittest -v
+test_domain (test_ratio_chains.VI2Tests.test_domain) ... ok
+test_fractional_coordinates (test_ratio_chains.VI2Tests.test_fractional_coordinates) ... ok
+test_grid (test_ratio_chains.VI2Tests.test_grid) ... ok
+test_nonparallel_and_inverting_one_ratio (test_ratio_chains.VI2Tests.test_nonparallel_and_inverting_one_ratio) ... ok
+test_outside_unsigned_converse_fails (test_ratio_chains.VI2Tests.test_outside_unsigned_converse_fails) ... ok
+test_parallel (test_ratio_chains.VI2Tests.test_parallel) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.027s
+
+OK
+grid: 486 interior probes (54 parallel, 432 nonparallel)

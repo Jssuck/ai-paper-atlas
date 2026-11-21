@@ -1,0 +1,14 @@
+Python 3.12.14
+Command: python -B replay_notebook.py
+code cell 1
+线段比 / 面积比: ('2', '2') ('2', '2')
+两倍面积 ADE、BDE、CDE: ('1', '2', '2')
+方向行列式: 0
+code cell 2
+原比值: 2 1/2 ；倒置第二比值: 2
+方向行列式: 3
+code cell 3
+比值: ('1/2', '1/2')
+两倍面积 ADE、BDE、CDE: ('12', '6', '6')
+侧值 B、C: ('-6', '6') ；方向行列式: 12
+Executed 3 cells with stdlib, not a Jupyter kernel.
