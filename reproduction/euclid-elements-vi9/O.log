@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python -O -B -m unittest -v
+test_certificate_rejects_noninterior (test_ratio_chains.TestVI9.test_certificate_rejects_noninterior) ... ok
+test_degenerate_base_or_ray (test_ratio_chains.TestVI9.test_degenerate_base_or_ray) ... ok
+test_equal_steps_not_arbitrary (test_ratio_chains.TestVI9.test_equal_steps_not_arbitrary) ... ok
+test_not_proper_fraction (test_ratio_chains.TestVI9.test_not_proper_fraction) ... ok
+test_off_parallel (test_ratio_chains.TestVI9.test_off_parallel) ... ok
+test_original_third (test_ratio_chains.TestVI9.test_original_third) ... ok
+test_sweep (test_ratio_chains.TestVI9.test_sweep) ... configurations, positive side, negative side = (1008, 504, 504)
+ok
+test_vertical_base (test_ratio_chains.TestVI9.test_vertical_base) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.075s
+
+OK
