@@ -1,0 +1,10 @@
+Python 3.12.14
+$ python -B replay_notebook.py
+code cell 1
+G = (Fraction(29, 2), Fraction(0, 1)) DG², DF², GF² = (Fraction(81, 4), 36, Fraction(225, 4))
+G = (Fraction(11, 2), Fraction(0, 1)) DG², DF², GF² = (Fraction(81, 4), 36, Fraction(225, 4))
+code cell 2
+Rejected: unequal included angles
+code cell 3
+configurations, mirrored inputs, certificates = (288, 144, 576)
+Executed 3 cells with stdlib, not a Jupyter kernel.

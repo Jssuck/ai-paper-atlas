@@ -1,0 +1,15 @@
+Python 3.12.14
+$ python -B -m unittest -v
+test_cosine_sign (test_ratio_chains.TestVI6.test_cosine_sign) ... ok
+test_degenerate (test_ratio_chains.TestVI6.test_degenerate) ... ok
+test_nonincluded_angle_ambiguity (test_ratio_chains.TestVI6.test_nonincluded_angle_ambiguity) ... ok
+test_sweep (test_ratio_chains.TestVI6.test_sweep) ... configurations, mirrored inputs, certificates = (288, 144, 576)
+ok
+test_witnesses_both_sides (test_ratio_chains.TestVI6.test_witnesses_both_sides) ... ok
+test_wrong_included_angle (test_ratio_chains.TestVI6.test_wrong_included_angle) ... ok
+test_wrong_ratio (test_ratio_chains.TestVI6.test_wrong_ratio) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.081s
+
+OK
