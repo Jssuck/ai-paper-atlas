@@ -1,0 +1,16 @@
+Python 3.12.14
+Command: python -B -m unittest -v
+test_classical_trace (test_ratio_chains.V25Tests.test_classical_trace) ... ok
+test_degenerate_ties (test_ratio_chains.V25Tests.test_degenerate_ties) ... ok
+test_equal_middle_terms_am_gm (test_ratio_chains.V25Tests.test_equal_middle_terms_am_gm) ... ok
+test_exact_integer_grid (test_ratio_chains.V25Tests.test_exact_integer_grid) ... ok
+test_exact_parameters (test_ratio_chains.V25Tests.test_exact_parameters) ... ok
+test_invalid_domain (test_ratio_chains.V25Tests.test_invalid_domain) ... ok
+test_labels_and_false_converse (test_ratio_chains.V25Tests.test_labels_and_false_converse) ... ok
+test_non_archimedean_boundary (test_ratio_chains.V25Tests.test_non_archimedean_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.093s
+
+OK
+grid: 20736 integer quadruples, 39 strictly admissible

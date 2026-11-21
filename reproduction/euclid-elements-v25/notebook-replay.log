@@ -1,0 +1,18 @@
+Python 3.12.14
+Command: python -B replay_notebook.py
+code cell 1
+copied_parts ('8', '4')
+remainders ('4', '2')
+equal_addends ('12', '12')
+sums ('16', '14')
+common ratio 2 gap 2
+code cell 2
+parameters ('24', '12', '8', '4') factored gap 8 trace gap 8
+AM–GM sample 1/2
+degenerate (4, 4, 2, 2) sum gap 0
+degenerate (4, 2, 4, 2) sum gap 0
+code cell 3
+1 2 (-1, -1, -1)
+1 1 (1, 1, -1)
+3 2 (1, 1, 1)
+Executed 3 cells with stdlib, not a Jupyter kernel.
