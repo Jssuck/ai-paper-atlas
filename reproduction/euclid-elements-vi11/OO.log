@@ -1,0 +1,16 @@
+Python 3.12.14
+$ python -OO -B -m unittest -v
+test_bad_inputs (test_ratio_chains.TestVI11.test_bad_inputs) ... ok
+test_equal_lengths (test_ratio_chains.TestVI11.test_equal_lengths) ... ok
+test_original (test_ratio_chains.TestVI11.test_original) ... ok
+test_reflection (test_ratio_chains.TestVI11.test_reflection) ... ok
+test_swapping_lengths (test_ratio_chains.TestVI11.test_swapping_lengths) ... ok
+test_sweep (test_ratio_chains.TestVI11.test_sweep) ... configurations, reflected = (576, 288)
+ok
+test_wrong_copy (test_ratio_chains.TestVI11.test_wrong_copy) ... ok
+test_wrong_intersection (test_ratio_chains.TestVI11.test_wrong_intersection) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.052s
+
+OK

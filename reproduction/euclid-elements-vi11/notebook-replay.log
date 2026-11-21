@@ -1,0 +1,15 @@
+Python 3.12.14
+$ python -B replay_notebook.py
+code cell 1
+D, E: ((Fraction(10, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(15, 1)))
+CE²: 81
+ratio squares: (Fraction(4, 9), Fraction(4, 9))
+passed: True
+code cell 2
+D, E: ((Fraction(8, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(12, 1)))
+CE²: 36
+ratio squares: (Fraction(1, 1), Fraction(1, 1))
+passed: False
+code cell 3
+configurations, reflected = (576, 288)
+Executed 3 cells with stdlib, not a Jupyter kernel.
