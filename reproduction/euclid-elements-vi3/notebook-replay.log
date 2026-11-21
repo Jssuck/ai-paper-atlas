@@ -1,0 +1,9 @@
+Python 3.12.14
+Command: python -B replay_notebook.py
+code cell 1
+D: (Fraction(12, 1), Fraction(12, 1)) BD/DC: 3/4 AB/AC: 3/4 内角平分: True E: (Fraction(-28, 1), Fraction(0, 1))
+code cell 2
+Q: (Fraction(9, 1), Fraction(16, 1)) BQ/QC: 4/3 余弦差乘 AQ: -7
+code cell 3
+P: (Fraction(84, 1), Fraction(-84, 1)) BP/PC: 3/4 内点: False 外角平分线所在直线: True
+Executed 3 cells with stdlib, not a Jupyter kernel.

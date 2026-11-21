@@ -1,0 +1,15 @@
+Python 3.12.14
+Command: python -B -O -m unittest -v
+test_auxiliary_construction (test_ratio_chains.VI3Tests.test_auxiliary_construction) ... ok
+test_domains (test_ratio_chains.VI3Tests.test_domains) ... ok
+test_external_unsigned_counterexample (test_ratio_chains.VI3Tests.test_external_unsigned_counterexample) ... ok
+test_grid (test_ratio_chains.VI3Tests.test_grid) ... ok
+test_interior_bisector (test_ratio_chains.VI3Tests.test_interior_bisector) ... ok
+test_transposed_ratio (test_ratio_chains.VI3Tests.test_transposed_ratio) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.069s
+
+OK
+Command: python -B -O ratio_chains.py
+grid: 1224 interior probes (45 true, 1179 false)
