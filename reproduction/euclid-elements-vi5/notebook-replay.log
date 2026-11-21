@@ -1,0 +1,11 @@
+Python 3.12.14
+Command: python -B replay_notebook.py
+code cell 1
+G: ('10', '9/2')
+三个缩放因子平方: ('9/4', '9/4', '9/4')
+code cell 2
+反射图同侧、三边相等、对应角相等: False True True
+少一边的反例，三个比例平方: ('9/4', '9/4', '477/500')
+code cell 3
+配置数: 216
+Executed 3 cells with stdlib, not a Jupyter kernel.

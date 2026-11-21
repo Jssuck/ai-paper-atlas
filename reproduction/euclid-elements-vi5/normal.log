@@ -1,0 +1,15 @@
+Python 3.12.14
+Command: python -B -m unittest -v
+test_bad_correspondence (test_ratio_chains.VI5Tests.test_bad_correspondence) ... ok
+test_common_base (test_ratio_chains.VI5Tests.test_common_base) ... ok
+test_domain_guard (test_ratio_chains.VI5Tests.test_domain_guard) ... ok
+test_grid (test_ratio_chains.VI5Tests.test_grid) ... ok
+test_reflection (test_ratio_chains.VI5Tests.test_reflection) ... ok
+test_third_side_needed (test_ratio_chains.VI5Tests.test_third_side_needed) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.039s
+
+OK
+Command: python -B ratio_chains.py
+grid: 216 exact configurations (both placements)
