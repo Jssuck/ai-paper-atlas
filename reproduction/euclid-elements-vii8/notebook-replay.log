@@ -1,0 +1,15 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+GH 与端点 10 (0, 5, 10)
+各切点、局部余段、合并 (3, 8) (2, 2) 4
+三种比例 ('2/3', '2/3', '2/3')
+code cell 2
+每段余比 ('1/3', '1/3')
+单位组件情形 Witness(m=2, n=3, u=2, v=1, endpoints=(0, 2, 4), cuts=(1, 3), leftovers=(1, 1))
+code cell 3
+失配通常不能保比 ('2/3', '1/2', '4/3')
+(10, 15, 6, 12) ValueError
+(10, 15, 10, 15) ValueError
+(4, 6, 1, 3) ValueError
+Executed 3 cells with stdlib, not a Jupyter kernel.
