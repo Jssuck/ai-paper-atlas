@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+D,E (Fraction(3, 1), Fraction(-4, 1)) (Fraction(9, 1), Fraction(-4, 1))
+向量 BC, CE (3, -2) (Fraction(6, 1), Fraction(-4, 1))
+{'pairs_parallel': (True, True), 'pairs_codirected': (True, True), 'length_ratio': True, 'det': Fraction(0, 1), 'straight_on': True}
+code cell 2
+方向 (-1, 1) D,E (Fraction(3, 1), Fraction(4, 1)) (Fraction(9, 1), Fraction(4, 1)) {'pairs_parallel': (True, True), 'pairs_codirected': (False, True), 'length_ratio': True, 'det': Fraction(24, 1), 'straight_on': False}
+方向 (-1, -1) D,E (Fraction(3, 1), Fraction(4, 1)) (Fraction(-3, 1), Fraction(4, 1)) {'pairs_parallel': (True, True), 'pairs_codirected': (False, False), 'length_ratio': True, 'det': Fraction(0, 1), 'straight_on': False}
+code cell 3
+只保留比例 {'pairs_parallel': (False, False), 'pairs_codirected': (False, False), 'length_ratio': True, 'det': 26, 'straight_on': False}
+Executed 3 cells with stdlib, not a Jupyter kernel.

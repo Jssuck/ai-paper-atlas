@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_exact_grid (test_straight_on.StraightOnTests.test_exact_grid) ... ok
+test_one_reversal_is_noncollinear (test_straight_on.StraightOnTests.test_one_reversal_is_noncollinear) ... ok
+test_ratios_alone_without_parallelism (test_straight_on.StraightOnTests.test_ratios_alone_without_parallelism) ... ok
+test_reject_degenerate (test_straight_on.StraightOnTests.test_reject_degenerate) ... ok
+test_two_reversals_overlap (test_straight_on.StraightOnTests.test_two_reversals_overlap) ... ok
+test_worked (test_straight_on.StraightOnTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+OK
