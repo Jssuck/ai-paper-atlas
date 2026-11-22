@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VII.2：为什么最后的非零项是最大公因数？](papers/ancient/euclid-elements-vii2.zh-CN.md)。从末项向前重组、从原数向后传递，区分共同因数与最大性，附[教学复现与实跑日志](reproduction/euclid-elements-vii2/README.md)、[原典核对](reproduction/euclid-elements-vii2/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii2/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VII.3：三个数的公因数，为什么可以先合并两个？](papers/ancient/euclid-elements-vii3.zh-CN.md)。用前两数的最大公因数保留全部共同因数，并区分三者共用因数和两两不互素，附[教学复现与实跑日志](reproduction/euclid-elements-vii3/README.md)、[原典核对](reproduction/euclid-elements-vii3/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii3/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -314,6 +314,7 @@
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.33](papers/ancient/euclid-elements-vi33.zh-CN.md) | AI 数学与形式推理前史补读：等圆弧与角、倍量比较和累计量 | 深读 · [教学复现](reproduction/euclid-elements-vi33/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.1](papers/ancient/euclid-elements-vii1.zh-CN.md) | AI 数学与形式推理前史补读：交替相减、整除传递与互素判据 | 深读 · [教学复现](reproduction/euclid-elements-vii1/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.2](papers/ancient/euclid-elements-vii2.zh-CN.md) | AI 数学与形式推理前史补读：最大公因数、双向整除和倍数证书 | 深读 · [教学复现](reproduction/euclid-elements-vii2/README.md) |
+| 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.3](papers/ancient/euclid-elements-vii3.zh-CN.md) | AI 数学与形式推理前史补读：三数公度、两支构造与可组合不变量 | 深读 · [教学复现](reproduction/euclid-elements-vii3/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
