@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_independent_side_and_area_paths (test_triangle_areas.AreaRatioTests.test_independent_side_and_area_paths) ... ok
+test_nonsimilar_counterexample (test_triangle_areas.AreaRatioTests.test_nonsimilar_counterexample) ... ok
+test_reject_degenerate_construction_inputs (test_triangle_areas.AreaRatioTests.test_reject_degenerate_construction_inputs) ... ok
+test_short_equal_long_third_point (test_triangle_areas.AreaRatioTests.test_short_equal_long_third_point) ... ok
+test_squared_base_area_ratio_does_not_imply_similarity (test_triangle_areas.AreaRatioTests.test_squared_base_area_ratio_does_not_imply_similarity) ... ok
+test_worked_construction (test_triangle_areas.AreaRatioTests.test_worked_construction) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.031s
+
+OK

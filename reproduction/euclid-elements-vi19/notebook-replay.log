@@ -1,0 +1,17 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+G = ('9', '0')
+ABC, DEF, ABG 面积 = ['6', '27/2', '27/2']
+ABC : DEF = 4/9
+code cell 2
+EF/BC = 1/2 G = ('1', '0')
+EF/BC = 1 G = ('4', '0')
+EF/BC = 3/2 G = ('9', '0')
+镜像有向二倍面积 = -27 普通面积 = 27/2
+code cell 3
+面积比 DEF′/ABC = 3/2
+平方底比 = 9/4
+面积比恰好等于平方底比 = 9/4
+但对应边 DE²/AB² = 81/40
+Executed 3 cells with stdlib, not a Jupyter kernel.
