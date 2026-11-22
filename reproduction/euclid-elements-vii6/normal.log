@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_different_reduced_denominator (test_same_parts.SamePartsTests.test_different_reduced_denominator) ... ok
+test_different_reduced_numerator (test_same_parts.SamePartsTests.test_different_reduced_numerator) ... ok
+test_exact_grid (test_same_parts.SamePartsTests.test_exact_grid) ... ok
+test_invalid_input (test_same_parts.SamePartsTests.test_invalid_input) ... ok
+test_unit_components_and_unit_fraction_distinct (test_same_parts.SamePartsTests.test_unit_components_and_unit_fraction_distinct) ... ok
+test_worked (test_same_parts.SamePartsTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.062s
+
+OK

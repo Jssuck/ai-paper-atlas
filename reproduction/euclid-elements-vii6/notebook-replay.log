@@ -1,0 +1,14 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+份数与整体份数 2 3
+逐份配对 ((4, 5), (4, 5)) ((4, 5), (4, 5), (4, 5))
+部分与整体 (8, 10, 18) (12, 15, 27)
+code cell 2
+两组组件大小 1 5
+相同比 ('2/3', '2/3', '2/3')
+code cell 3
+(6, 15, 9, 15) ('2/5', '3/5', '1/2') ValueError
+(8, 12, 6, 15) ('2/3', '2/5', '14/27') ValueError
+(3, 12, 5, 20) ('1/4', '1/4', '1/4') ValueError
+Executed 3 cells with stdlib, not a Jupyter kernel.
