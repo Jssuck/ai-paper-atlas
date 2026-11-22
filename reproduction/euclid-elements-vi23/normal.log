@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_degenerate_rejected (test_compound_areas.CompoundAreaTests.test_degenerate_rejected) ... ok
+test_equal_absolute_sine_modern_extension (test_compound_areas.CompoundAreaTests.test_equal_absolute_sine_modern_extension) ... ok
+test_mixed_transfer_and_chain_grid (test_compound_areas.CompoundAreaTests.test_mixed_transfer_and_chain_grid) ... ok
+test_unequal_sine_breaks_side_product (test_compound_areas.CompoundAreaTests.test_unequal_sine_breaks_side_product) ... ok
+test_worked (test_compound_areas.CompoundAreaTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
