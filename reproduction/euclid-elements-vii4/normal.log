@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_grid_against_fraction_and_divisors (test_part_or_parts.PartsTests.test_grid_against_fraction_and_divisors) ... ok
+test_invalid (test_part_or_parts.PartsTests.test_invalid) ... ok
+test_noncanonical_refinements (test_part_or_parts.PartsTests.test_noncanonical_refinements) ... ok
+test_proof_branches (test_part_or_parts.PartsTests.test_proof_branches) ... ok
+test_unit_is_modern_extension (test_part_or_parts.PartsTests.test_unit_is_modern_extension) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK

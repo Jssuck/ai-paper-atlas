@@ -1,0 +1,14 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+(5, 8) Parts(step=1, count=5, whole_count=8, branch='coprime-units')
+(4, 12) Parts(step=4, count=1, whole_count=3, branch='measures-whole')
+(6, 15) Parts(step=3, count=2, whole_count=5, branch='common-measure')
+code cell 2
+所有共同量数 (1, 2, 3, 6)
+各单位的份数 [(12, 18), (6, 9), (4, 6), (2, 3)]
+最简表示 Parts(step=6, count=2, whole_count=3, branch='common-measure')
+code cell 3
+现代处理 Parts(step=1, count=1, whole_count=8, branch='initial-unit')
+古域拒绝 unit is not an ancient number
+Executed 3 cells with stdlib, not a Jupyter kernel.
