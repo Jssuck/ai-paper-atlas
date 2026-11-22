@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_angle_alone_does_not_force_equal_scales (test_same_diagonal.SameDiagonalTests.test_angle_alone_does_not_force_equal_scales) ... ok
+test_degenerate_or_noninterior (test_same_diagonal.SameDiagonalTests.test_degenerate_or_noninterior) ... ok
+test_equal_area_does_not_force_same_diagonal (test_same_diagonal.SameDiagonalTests.test_equal_area_does_not_force_same_diagonal) ... ok
+test_exact_collinearity_and_ratio_grid (test_same_diagonal.SameDiagonalTests.test_exact_collinearity_and_ratio_grid) ... ok
+test_worked (test_same_diagonal.SameDiagonalTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.019s
+
+OK
