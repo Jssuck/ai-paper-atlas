@@ -1,0 +1,16 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+G,C,F,D 的坐标 (-15, 0, 9, 24)
+EB,CG,GF,FD 5 15 24 15
+GF-CD 0 扣除同一个 CF 后 15 15
+code cell 2
+(8, 24, 3, 9) ('1/3', '1/3', '1/3')
+(8, 24, 3, 12) ('1/3', '1/4', '5/12')
+(3, 9, 2, 6) ('1/3', '1/3', '1/3')
+code cell 3
+EB 恰为单位 1
+(8, 24, 0, 0) ValueError
+(8, 24, 8, 24) ValueError
+(3, 9, 1, 3) ValueError
+Executed 3 cells with stdlib, not a Jupyter kernel.

@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -OO -m unittest -v
+test_grid_construct_match_cancel (test_subtract_same_part.SubtractionTests.test_grid_construct_match_cancel) ... ok
+test_mismatched_unit_fractions (test_subtract_same_part.SubtractionTests.test_mismatched_unit_fractions) ... ok
+test_residue_unit_not_input_unit (test_subtract_same_part.SubtractionTests.test_residue_unit_not_input_unit) ... ok
+test_worked (test_subtract_same_part.SubtractionTests.test_worked) ... ok
+test_zero_full_and_invalid (test_subtract_same_part.SubtractionTests.test_zero_full_and_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.018s
+
+OK
