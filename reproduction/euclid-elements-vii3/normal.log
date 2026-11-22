@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_direct_branch (test_three_measures.ThreeMeasureTests.test_direct_branch) ... ok
+test_independent_oracle_and_two_way_grid (test_three_measures.ThreeMeasureTests.test_independent_oracle_and_two_way_grid) ... ok
+test_order_can_change_branch_not_measure (test_three_measures.ThreeMeasureTests.test_order_can_change_branch_not_measure) ... ok
+test_pairwise_non_coprime_is_insufficient (test_three_measures.ThreeMeasureTests.test_pairwise_non_coprime_is_insufficient) ... ok
+test_reduce_branch (test_three_measures.ThreeMeasureTests.test_reduce_branch) ... ok
+test_unit_equal_and_invalid_inputs (test_three_measures.ThreeMeasureTests.test_unit_equal_and_invalid_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.112s
+
+OK
