@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+A 与垂足 (Fraction(9, 5), Fraction(12, 5)) (Fraction(9, 5), Fraction(0, 1))
+正方形面积 ('9', '16', '25')
+code cell 2
+单位模板面积 51/80 边上三块 ('459/80', '51/5', '255/16')
+两腿图形对斜边图形的面积比 9/25 16/25 相加等于斜边图形 True
+code cell 3
+斜边改作三角形，面积 25/2
+非直角且同模板，腿上面积和与对边面积 153/20 51/5
+Executed 3 cells with stdlib, not a Jupyter kernel.
