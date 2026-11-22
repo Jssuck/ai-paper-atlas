@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_exact_coordinates_and_transfer_grid (test_excess.OvershootTests.test_exact_coordinates_and_transfer_grid) ... ok
+test_invalid_input (test_excess.OvershootTests.test_invalid_input) ... ok
+test_no_deficit_style_upper_bound (test_excess.OvershootTests.test_no_deficit_style_upper_bound) ... ok
+test_radical_and_root_branches (test_excess.OvershootTests.test_radical_and_root_branches) ... ok
+test_worked (test_excess.OvershootTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK

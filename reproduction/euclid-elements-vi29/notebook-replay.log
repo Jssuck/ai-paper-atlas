@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+半底、扩大后的底、超长 5 7 2
+实算应用面积 48
+code cell 2
+原角、两块补形、超出角 ['50', '20', '20', '8']
+大图面积 98 扣除原角 48
+code cell 3
+有理例的两代数根 2 -12
+另一例的平方证书 99/2 有理超长 None
+常数项与根项系数 (Fraction(49, 1), Fraction(0, 1))
+Executed 3 cells with stdlib, not a Jupyter kernel.
