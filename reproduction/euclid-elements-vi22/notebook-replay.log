@@ -1,0 +1,17 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+面积 (Fraction(4, 1), Fraction(9, 1), Fraction(8, 1), Fraction(18, 1)) 两对面积比 4/9 4/9
+两条第三比例线 9/2 9
+code cell 2
+应作第四线 6 作出的同类图形面积 18
+第四底 5 是否给出所需面积比 False
+第四底 6 是否给出所需面积比 True
+第四底 7 是否给出所需面积比 False
+code cell 3
+两对面积成比例 True
+把第二个三角形斜边 10 错当对应底 False
+底成比例、对内不再相似，则面积成比例？ False
+对内不相似时可以面积成比例 True
+但底不成比例 False
+Executed 3 cells with stdlib, not a Jupyter kernel.

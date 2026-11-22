@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_both_directions_in_grid (test_proportional_figures.ProportionsTests.test_both_directions_in_grid) ... ok
+test_nonsimilar_figures_break_both_directions (test_proportional_figures.ProportionsTests.test_nonsimilar_figures_break_both_directions) ... ok
+test_positive_domain (test_proportional_figures.ProportionsTests.test_positive_domain) ... ok
+test_worked_pair_families (test_proportional_figures.ProportionsTests.test_worked_pair_families) ... ok
+test_wrong_corresponding_base (test_proportional_figures.ProportionsTests.test_wrong_corresponding_base) ... ok
+test_wrong_fourth_is_rejected_by_area_ratio (test_proportional_figures.ProportionsTests.test_wrong_fourth_is_rejected_by_area_ratio) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.035s
+
+OK
