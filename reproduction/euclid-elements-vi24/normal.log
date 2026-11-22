@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -m unittest -v
+test_grid_determinants_and_shape (test_diagonal_cells.DiagonalCellTests.test_grid_determinants_and_shape) ... ok
+test_off_diagonal_marked_correspondence (test_diagonal_cells.DiagonalCellTests.test_off_diagonal_marked_correspondence) ... ok
+test_reject_degenerate_shapes_and_endpoint_cuts (test_diagonal_cells.DiagonalCellTests.test_reject_degenerate_shapes_and_endpoint_cuts) ... ok
+test_shifted_intersection (test_diagonal_cells.DiagonalCellTests.test_shifted_intersection) ... ok
+test_worked_example (test_diagonal_cells.DiagonalCellTests.test_worked_example) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

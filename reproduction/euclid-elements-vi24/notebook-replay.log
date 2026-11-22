@@ -1,0 +1,14 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+整图及四块面积 ['24', '8/3', '32/3', '16/3', '16/3']
+对角交点 (Fraction(8, 3), Fraction(4, 3))
+code cell 2
+起角格 对应两轴平方比 ['1/9', '1/9']
+对角格 对应两轴平方比 ['4/9', '4/9']
+非对角格一 对应两轴平方比 ['4/9', '1/9']
+非对角格二 对应两轴平方比 ['1/9', '4/9']
+code cell 3
+偏离对角线的交点 (Fraction(3, 1), Fraction(2, 1))
+原起角格和对角格仍按标记轴相似？ False False
+Executed 3 cells with stdlib, not a Jupyter kernel.
