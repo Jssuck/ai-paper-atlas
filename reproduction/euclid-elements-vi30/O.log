@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_exact_coordinate_grid (test_extreme_mean.ExtremeMeanTests.test_exact_coordinate_grid) ... ok
+test_exact_sign_distinguishes_close_values (test_extreme_mean.ExtremeMeanTests.test_exact_sign_distinguishes_close_values) ... ok
+test_reject_nonpositive (test_extreme_mean.ExtremeMeanTests.test_reject_nonpositive) ... ok
+test_ten (test_extreme_mean.ExtremeMeanTests.test_ten) ... ok
+test_wrong_branch_and_swapping (test_extreme_mean.ExtremeMeanTests.test_wrong_branch_and_swapping) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+OK
