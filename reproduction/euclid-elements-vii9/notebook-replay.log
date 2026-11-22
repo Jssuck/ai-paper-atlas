@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(4, 12, 12, 36) PairedRows(n=3, kind='part', m=1, k=3, local_measure=4, pooled_measure=12)
+(6, 18, 10, 30) PairedRows(n=3, kind='parts', m=3, k=5, local_measure=2, pooled_measure=6)
+code cell 2
+part 1/3 1/3
+parts 3/5 3/5
+code cell 3
+rejected: both smaller numbers must be the same proper unit part ; ratios: 3/5 9/20
+Executed 3 cells with stdlib, not a Jupyter kernel.
