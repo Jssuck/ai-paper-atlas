@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+扇形各块二倍面积 ['16', '12', '11'] 整体二倍面积 39
+扇形各块二倍面积 ['36', '27', '99/4'] 整体二倍面积 351/4
+整体面积比（目标/原图） 9/4
+code cell 2
+M,N ('20/7', '8/7') ('65/7', '9/7')
+第二组交点 ('80/23', '60/23') ('163/23', '51/23')
+code cell 3
+带符号二倍面积 [16, -4, 8]
+符号和 20 绝对值和 28
+Executed 3 cells with stdlib, not a Jupyter kernel.

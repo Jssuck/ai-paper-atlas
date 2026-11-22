@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -OO -m unittest -v
+test_area_ratio_does_not_imply_similarity (test_polygon_areas.PolygonRatioTests.test_area_ratio_does_not_imply_similarity) ... ok
+test_concave_anchor_warning (test_polygon_areas.PolygonRatioTests.test_concave_anchor_warning) ... ok
+test_grid_piecewise_and_whole_invariant (test_polygon_areas.PolygonRatioTests.test_grid_piecewise_and_whole_invariant) ... ok
+test_original_proof_two_junctions (test_polygon_areas.PolygonRatioTests.test_original_proof_two_junctions) ... ok
+test_reject_nonproper_crossing (test_polygon_areas.PolygonRatioTests.test_reject_nonproper_crossing) ... ok
+test_worked_fans (test_polygon_areas.PolygonRatioTests.test_worked_fans) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+OK
