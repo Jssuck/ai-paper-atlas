@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_copy_pools_and_fraction_grid (test_same_part.SamePartTests.test_copy_pools_and_fraction_grid) ... ok
+test_invalid_distinct_inputs (test_same_part.SamePartTests.test_invalid_distinct_inputs) ... ok
+test_same_nonunit_fraction_is_not_hypothesis (test_same_part.SamePartTests.test_same_nonunit_fraction_is_not_hypothesis) ... ok
+test_unequal_denominators (test_same_part.SamePartTests.test_unequal_denominators) ... ok
+test_unit_precedes_modern_extension (test_same_part.SamePartTests.test_unit_precedes_modern_extension) ... ok
+test_worked (test_same_part.SamePartTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.048s
+
+OK
