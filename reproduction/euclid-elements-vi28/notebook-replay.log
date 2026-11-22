@@ -1,0 +1,12 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B replay_notebook.py
+code cell 1
+目标 32 平方间距 9 缺块底 (Fraction(2, 1), Fraction(8, 1)) 实算面积 [Fraction(32, 1), Fraction(32, 1)]
+目标 50 平方间距 0 缺块底 (Fraction(5, 1),) 实算面积 [Fraction(50, 1)]
+code cell 2
+小块、两补形、另一角块的面积 ['18', '12', '12', '8']
+曲尺形面积 32
+code cell 3
+平方间距 1/2 是否有有理解 False
+两个分支的常数项和根项系数 [(Fraction(49, 1), Fraction(0, 1)), (Fraction(49, 1), Fraction(0, 1))]
+Executed 3 cells with stdlib, not a Jupyter kernel.

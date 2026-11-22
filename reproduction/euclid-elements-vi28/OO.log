@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -OO -m unittest -v
+test_diagonal_cells_complements_and_gnomon (test_apply_deficit.DeficitApplicationTests.test_diagonal_cells_complements_and_gnomon) ... ok
+test_irrational_exact_certificate (test_apply_deficit.DeficitApplicationTests.test_irrational_exact_certificate) ... ok
+test_maximum_unique_cut (test_apply_deficit.DeficitApplicationTests.test_maximum_unique_cut) ... ok
+test_rational_grid (test_apply_deficit.DeficitApplicationTests.test_rational_grid) ... ok
+test_reject_impossible_or_degenerate (test_apply_deficit.DeficitApplicationTests.test_reject_impossible_or_degenerate) ... ok
+test_worked (test_apply_deficit.DeficitApplicationTests.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK
