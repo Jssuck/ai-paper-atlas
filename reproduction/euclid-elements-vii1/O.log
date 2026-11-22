@@ -1,0 +1,13 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Command: python -B -O -m unittest -v
+test_cost_separates_subtractions_from_batches (test_mutual_primes.MutualPrimesTests.test_cost_separates_subtractions_from_batches) ... ok
+test_exact_division_examples (test_mutual_primes.MutualPrimesTests.test_exact_division_examples) ... ok
+test_grid_and_divisor_oracle (test_mutual_primes.MutualPrimesTests.test_grid_and_divisor_oracle) ... ok
+test_invalid (test_mutual_primes.MutualPrimesTests.test_invalid) ... ok
+test_units_and_equal_inputs_are_modern_extension (test_mutual_primes.MutualPrimesTests.test_units_and_equal_inputs_are_modern_extension) ... ok
+test_worked_trace (test_mutual_primes.MutualPrimesTests.test_worked_trace) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.061s
+
+OK
