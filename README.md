@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VI.31：勾股关系为什么也适用于相似图形？](papers/ancient/euclid-elements-vi31.zh-CN.md)。从投影连比走到面积和，补明比例合并条件，附[教学复现与实跑日志](reproduction/euclid-elements-vi31/README.md)、[原典核对](reproduction/euclid-elements-vi31/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vi31/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VI.32：相似三角形怎样接成一条直线？](papers/ancient/euclid-elements-vi32.zh-CN.md)。核对角的次序与边的方向，区分顺接、重叠与不共线，附[教学复现与实跑日志](reproduction/euclid-elements-vi32/README.md)、[原典核对](reproduction/euclid-elements-vi32/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vi32/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -310,6 +310,7 @@
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.29](papers/ancient/euclid-elements-vi29.zh-CN.md) | AI 数学与形式推理前史补读：同形超出块、共对角线与正根 | 深读 · [教学复现](reproduction/euclid-elements-vi29/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.30](papers/ancient/euclid-elements-vi30.zh-CN.md) | AI 数学与形式推理前史补读：超出正方形、等面积反比与极中比分割 | 深读 · [教学复现](reproduction/euclid-elements-vi30/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.31](papers/ancient/euclid-elements-vi31.zh-CN.md) | AI 数学与形式推理前史补读：投影比例、相似面积和比例聚合 | 深读 · [教学复现](reproduction/euclid-elements-vi31/README.md) |
+| 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VI.32](papers/ancient/euclid-elements-vi32.zh-CN.md) | AI 数学与形式推理前史补读：有向平行、异侧邻角与顺序共线 | 深读 · [教学复现](reproduction/euclid-elements-vi32/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
