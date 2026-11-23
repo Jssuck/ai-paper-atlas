@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_fixture (test_commute_products.TestCommute.test_fixture) ... ok
+test_grid (test_commute_products.TestCommute.test_grid) ... Exact grid: 361
+ok
+test_historical_domain (test_commute_products.TestCommute.test_historical_domain) ... ok
+test_measure_controls (test_commute_products.TestCommute.test_measure_controls) ... ok
+test_modern_boundary (test_commute_products.TestCommute.test_modern_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK

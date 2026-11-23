@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(a=3, b=4, ab=12, ba=12, first_measure_count=3, transferred_measure_count=4, second_measure_count=4)
+code cell 2
+cells: 12
+code cell 3
+rejected: not the claimed exact measure count
+modern: (4, 4) (0, 0)
+Executed 3 cells with stdlib, not a Jupyter kernel.
