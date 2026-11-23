@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(products=(12, 18), swapped=(12, 18), measure_counts=(3, 3), internal=(1, 3), ratio=(2, 3))
+code cell 2
+product ratio: 2/3
+code cell 3
+same ratio but wrong scale: 2/3
+rejected: products do not have the specified common multiplicand
+Executed 3 cells with stdlib, not a Jupyter kernel.
