@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+largest (84, 42, 21, 7)
+smallest (84, 2)
+middle (84, 12, 4, 2)
+code cell 2
+terminal divisor: 7 ; count: 12
+code cell 3
+1 rejected: a given number must be an integer greater than one
+13 rejected: a composite start is required
+Executed 3 cells with stdlib, not a Jupyter kernel.
