@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+35, 12, 5: (7, 1)
+code cell 2
+Transfer(divisions=(2, 2, 3), a_over_d=4)
+code cell 3
+common(4,9): [] common(12,9): [3]
+rejected: A and B must be coprime
+Executed 3 cells with stdlib, not a Jupyter kernel.
