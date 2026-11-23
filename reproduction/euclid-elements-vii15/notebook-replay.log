@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Y cuts: (0, 4, 8, 12) X cuts: (0, 3, 6, 9, 12)
+code cell 2
+two counts: 3 4
+code cell 3
+rejected: Y must measure Z as many times as the unit measures X
+modern X=1: (0, 1, 2, 3, 4)
+Executed 3 cells with stdlib, not a Jupyter kernel.

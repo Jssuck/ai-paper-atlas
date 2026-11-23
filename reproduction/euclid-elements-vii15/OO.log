@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_grid (test_unit_measures.TestMeasure.test_grid) ... Exact grid: 289
+ok
+test_modern_boundary (test_unit_measures.TestMeasure.test_modern_boundary) ... ok
+test_residual_and_wrong_count (test_unit_measures.TestMeasure.test_residual_and_wrong_count) ... ok
+test_types_and_zero (test_unit_measures.TestMeasure.test_types_and_zero) ... ok
+test_worked (test_unit_measures.TestMeasure.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
