@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+D: 72
+code cell 2
+Trace(d=80, e=5, f=16, least_pair=(5, 8), scale=2)
+code cell 3
+8 10 35 product gcd: 5
+rejected: A and B must each be coprime to C
+8 9 14 product gcd: 2
+rejected: A and B must each be coprime to C
+Executed 3 cells with stdlib, not a Jupyter kernel.

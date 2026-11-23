@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_grid (test_coprime_product.TestProduct.test_grid) ... Exact grid: 1331 triples, 488 theorem cases, 346 witnesses
+ok
+test_invalid (test_coprime_product.TestProduct.test_invalid) ... ok
+test_remove_premises (test_coprime_product.TestProduct.test_remove_premises) ... ok
+test_unit_edges (test_coprime_product.TestProduct.test_unit_edges) ... ok
+test_worked (test_coprime_product.TestProduct.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
