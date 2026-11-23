@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(4, 6, 10) (10, 15, 25) Trace(adjacent=((2, 3), (3, 5)), vertical=((2, 5), (2, 5), (2, 5)), shared=(2, 5), endpoints=(2, 5))
+(4, 6, 10, 14) (10, 15, 25, 35) Trace(adjacent=((2, 3), (3, 5), (5, 7)), vertical=((2, 5), (2, 5), (2, 5), (2, 5)), shared=(2, 5), endpoints=(2, 7))
+code cell 2
+endpoint: 2/7
+code cell 3
+endpoint ratios: 2/5 2/5
+rejected: adjacent ratios disagree at step 1
+Executed 3 cells with stdlib, not a Jupyter kernel.
