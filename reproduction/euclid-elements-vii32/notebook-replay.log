@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Certificate(branch='prime-itself', prime=13, path=(13,))
+Certificate(branch='VII.31', prime=7, path=(84, 42, 21, 7))
+code cell 2
+Certificate(branch='VII.31', prime=7, path=(84, 42, 21, 7))
+Certificate(branch='VII.31', prime=2, path=(84, 2))
+code cell 3
+rejected: a given number must be an integer greater than one
+Executed 3 cells with stdlib, not a Jupyter kernel.
