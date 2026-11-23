@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+((4, 12), (5, 15), (7, 21)) Trace(ratio_counts=(1, 3), branch='VII.5', prefixes=((4, 12), (9, 27), (16, 48)), total=(16, 48))
+((2, 3), (6, 9), (8, 12)) Trace(ratio_counts=(2, 3), branch='VII.6', prefixes=((2, 3), (8, 12), (16, 24)), total=(16, 24))
+code cell 2
+aggregate: (16, 24) ratio: 2/3
+code cell 3
+crossed, total: (10, 20) local ratios: ['1/3', '3/4']
+rejected: original pairs must all have the same reduced counts
+Executed 3 cells with stdlib, not a Jupyter kernel.
