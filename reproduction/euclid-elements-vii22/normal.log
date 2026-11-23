@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_any_measure (test_least_coprime.TestLeast.test_any_measure) ... ok
+test_coprime_composites (test_least_coprime.TestLeast.test_coprime_composites) ... ok
+test_grid (test_least_coprime.TestLeast.test_grid) ... Exact grid: 289 pairs, 109 nonunit certificates, 63 unit boundaries
+ok
+test_invalid (test_least_coprime.TestLeast.test_invalid) ... ok
+test_unit_boundary (test_least_coprime.TestLeast.test_unit_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK

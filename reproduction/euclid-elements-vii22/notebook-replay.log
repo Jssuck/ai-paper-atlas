@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(measure=2, smaller=(9, 15))
+Witness(measure=6, smaller=(3, 5))
+code cell 2
+8:15: ((8, 15), True)
+code cell 3
+modern 3:6: ((1, 2), False)
+bounded model: unit quotient falls outside the historical-number model
+Executed 3 cells with stdlib, not a Jupyter kernel.
