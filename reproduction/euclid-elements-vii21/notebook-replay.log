@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+8:15: Diagnostic(least=(8, 15), count=1, coprime=True)
+16:30: Diagnostic(least=(8, 15), count=2, coprime=False)
+code cell 2
+common divisor: 2
+code cell 3
+candidate count: 2 ; diagnostic: Diagnostic(least=(2, 3), count=6, coprime=False)
+Executed 3 cells with stdlib, not a Jupyter kernel.
