@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_grid (test_alternate_remainders.TestSubtract.test_grid) ... Exact grid: {'VII.7': 324, 'VII.8': 792}
+ok
+test_invalid (test_alternate_remainders.TestSubtract.test_invalid) ... ok
+test_units (test_alternate_remainders.TestSubtract.test_units) ... ok
+test_vii7 (test_alternate_remainders.TestSubtract.test_vii7) ... ok
+test_vii8 (test_alternate_remainders.TestSubtract.test_vii8) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
