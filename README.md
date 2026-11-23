@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VII.11：什么样的同时扣除不改变比例？](papers/ancient/euclid-elements-vii11.zh-CN.md)。重建定义 20 与两类相减如何衔接，附[教学复现与实跑日志](reproduction/euclid-elements-vii11/README.md)、[原典核对](reproduction/euclid-elements-vii11/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii11/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VII.12：为什么同比的数对可以分别加总？](papers/ancient/euclid-elements-vii12.zh-CN.md)。重建同份合并与任意有限配对的推理，附[教学复现与实跑日志](reproduction/euclid-elements-vii12/README.md)、[原典核对](reproduction/euclid-elements-vii12/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii12/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -323,6 +323,7 @@
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.9](papers/ancient/euclid-elements-vii9.zh-CN.md) | AI 数学与形式推理前史补读：同一单份、跨组配对与交更比较 | 深读 · [教学复现](reproduction/euclid-elements-vii9/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.10](papers/ancient/euclid-elements-vii10.zh-CN.md) | AI 数学与形式推理前史补读：多份拆为单份、交更比较与配对汇总 | 深读 · [教学复现](reproduction/euclid-elements-vii10/README.md) |
 | 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.11](papers/ancient/euclid-elements-vii11.zh-CN.md) | AI 数学与形式推理前史补读：数比例、同份扣除与余量关系 | 深读 · [教学复现](reproduction/euclid-elements-vii11/README.md) |
+| 约公元前 300 年（实读 1908 / 2008 版） | [欧几里得《几何原本》VII.12](papers/ancient/euclid-elements-vii12.zh-CN.md) | AI 数学与形式推理前史补读：数比例、对应前后项与分列加总 | 深读 · [教学复现](reproduction/euclid-elements-vii12/README.md) |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
