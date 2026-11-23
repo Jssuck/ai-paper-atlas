@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_composites (test_prime_nondivisor.TestPrime.test_composites) ... ok
+test_grid (test_prime_nondivisor.TestPrime.test_grid) ... Exact grid: 841 pairs, 247 theorem cases, 43 prime-divisor witnesses
+ok
+test_unit_boundary (test_prime_nondivisor.TestPrime.test_unit_boundary) ... ok
+test_witness (test_prime_nondivisor.TestPrime.test_witness) ... ok
+test_worked (test_prime_nondivisor.TestPrime.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+7, 15: Trace(common_measure=1, remainder=1, coprime=True)
+code cell 2
+7 measures 14: 2
+rejected: P must not measure N
+code cell 3
+6 9 Trace(common_measure=3, remainder=3, coprime=False)
+8 15 Trace(common_measure=1, remainder=7, coprime=True)
+Executed 3 cells with stdlib, not a Jupyter kernel.
