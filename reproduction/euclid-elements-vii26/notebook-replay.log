@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Step(factors=(45, 75), against=26, product=3375)
+Step(factors=(45, 75), against=77, product=3375)
+Step(factors=(26, 77), against=3375, product=2002)
+code cell 2
+products: 3375 2002 ; 1144 equals second product: False
+code cell 3
+common measure: {3}
+rejected: a cross-group pair is not coprime
+Executed 3 cells with stdlib, not a Jupyter kernel.
