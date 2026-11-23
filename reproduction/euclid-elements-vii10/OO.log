@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_exact_grid (test_alternate_same_parts.TestCompare.test_exact_grid) ... Exact grid: {'VII.5': 374, 'VII.6': 616}
+ok
+test_invalid_premises (test_alternate_same_parts.TestCompare.test_invalid_premises) ... ok
+test_parts_branch (test_alternate_same_parts.TestCompare.test_parts_branch) ... ok
+test_scope (test_alternate_same_parts.TestCompare.test_scope) ... ok
+test_unit_branch (test_alternate_same_parts.TestCompare.test_unit_branch) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

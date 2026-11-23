@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(8, 12, 16, 24) Proof(m=2, n=3, g=4, h=8, comparison=(1, 2), aggregation='VII.5')
+(8, 12, 20, 30) Proof(m=2, n=3, g=4, h=10, comparison=(2, 5), aggregation='VII.6')
+code cell 2
+VII.5 1/2
+VII.6 2/5
+code cell 3
+rejected: the two given ratios must be the same proper non-unit fraction ; ratios: 2/5 3/8
+Executed 3 cells with stdlib, not a Jupyter kernel.
