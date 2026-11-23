@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(factor_slots=(8, 8), reference=15, square=64)
+code cell 2
+common(8,8): [2, 4, 8] common(64,15): []
+code cell 3
+common(36,15): [3]
+rejected: each factor must be coprime to B
+Executed 3 cells with stdlib, not a Jupyter kernel.
