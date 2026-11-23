@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+ordered square witnesses: ((64, 15), (64, 225), (8, 225))
+cross pairs: ((8, 15), (8, 225), (64, 15), (64, 225))
+code cell 2
+cubes: (512, 3375)
+code cell 3
+rejected: square step needs a coprime base and reference ; cube gcd: 27
+Executed 3 cells with stdlib, not a Jupyter kernel.
