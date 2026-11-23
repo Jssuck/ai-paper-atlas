@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_fixtures (test_alternate_ratio.TestAlternate.test_fixtures) ... ok
+test_grid (test_alternate_ratio.TestAlternate.test_grid) ... Exact grid: [(('VII.10', 'part'), 70), (('VII.10', 'parts'), 224), (('VII.9', 'part'), 35), (('VII.9', 'parts'), 112)]
+ok
+test_mismatch_and_scope (test_alternate_ratio.TestAlternate.test_mismatch_and_scope) ... ok
+test_modern_direction_changes (test_alternate_ratio.TestAlternate.test_modern_direction_changes) ... ok
+test_modern_equalities (test_alternate_ratio.TestAlternate.test_modern_equalities) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK

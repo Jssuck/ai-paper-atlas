@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(4, 8, 12, 24) Alternation(incoming=(1, 2), crossed=(1, 3), route='VII.9', crossed_kind='part')
+(6, 12, 10, 20) Alternation(incoming=(1, 2), crossed=(3, 5), route='VII.9', crossed_kind='parts')
+(4, 6, 12, 18) Alternation(incoming=(2, 3), crossed=(1, 3), route='VII.10', crossed_kind='part')
+(8, 12, 20, 30) Alternation(incoming=(2, 3), crossed=(2, 5), route='VII.10', crossed_kind='parts')
+code cell 2
+crossed: 2/5 reversed: 5/2 5/2
+code cell 3
+rejected: input ratios disagree ; crossed: 2/5 3/8
+Executed 3 cells with stdlib, not a Jupyter kernel.
