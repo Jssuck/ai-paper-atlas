@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_false_least (test_least_ratio.TestLeast.test_false_least) ... ok
+test_grid (test_least_ratio.TestLeast.test_grid) ... Exact grid: 400
+ok
+test_least_count (test_least_ratio.TestLeast.test_least_count) ... ok
+test_scope (test_least_ratio.TestLeast.test_scope) ... ok
+test_unit_diagnostic (test_least_ratio.TestLeast.test_unit_diagnostic) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK

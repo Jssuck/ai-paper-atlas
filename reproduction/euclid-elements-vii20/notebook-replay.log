@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(block=(2, 3), scales=(5, 8), prefixes=((2, 3), (4, 6), (6, 9), (8, 12), (10, 15)), is_least=False, fraction_counts=(5, 8), historical_block=(2, 3))
+side-to-side ratios: 5/8 5/8
+code cell 2
+Trace(block=(2, 3), scales=(1, 8), prefixes=((2, 3),), is_least=True, fraction_counts=(1, 8), historical_block=None)
+91:143: ((7, 11), 13)
+one-part, nonminimal: Trace(block=(2, 3), scales=(4, 8), prefixes=((2, 3), (4, 6), (6, 9), (8, 12)), is_least=False, fraction_counts=(1, 2), historical_block=None)
+historical block: (4, 6)
+code cell 3
+unit allowed: (1, 2) ; unit excluded: (2, 4)
+remainders for 2:4: 1 2
+Executed 3 cells with stdlib, not a Jupyter kernel.
