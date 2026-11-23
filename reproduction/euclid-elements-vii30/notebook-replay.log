@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(product=210, product_quotient=30, divides=(False, True), witness=Witness(ratio=(7, 15), compared=(14, 30), scale=2))
+code cell 2
+scale: 2 swapped: (True, False) both: (True, True)
+code cell 3
+remainders: 0 4 3
+rejected: P must be prime
+Executed 3 cells with stdlib, not a Jupyter kernel.
