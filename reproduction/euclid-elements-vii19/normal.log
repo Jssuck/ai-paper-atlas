@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_equal (test_cross_products.TestCross.test_equal) ... ok
+test_equal_reverse_boundaries (test_cross_products.TestCross.test_equal_reverse_boundaries) ... ok
+test_grid (test_cross_products.TestCross.test_grid) ... Exact grid: {True: 209, False: 6352}
+ok
+test_unequal (test_cross_products.TestCross.test_unequal) ... ok
+test_zero_denominator_does_not_define_ratios (test_cross_products.TestCross.test_zero_denominator_does_not_define_ratios) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.071s
+
+OK
