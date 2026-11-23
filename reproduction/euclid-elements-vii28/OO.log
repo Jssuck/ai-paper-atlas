@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_examples (test_coprime_sum.TestSum.test_examples) ... ok
+test_grid (test_coprime_sum.TestSum.test_grid) ... Exact grid: 361 pairs, 212 nonunit common-measure witnesses
+ok
+test_invalid_witness (test_coprime_sum.TestSum.test_invalid_witness) ... ok
+test_scope (test_coprime_sum.TestSum.test_scope) ... ok
+test_transport (test_coprime_sum.TestSum.test_transport) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
