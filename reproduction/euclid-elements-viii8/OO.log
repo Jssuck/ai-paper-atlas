@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_endpoints_do_not_determine_length (test_transfer_geometric_chain.TestTransfer.test_endpoints_do_not_determine_length) ... ok
+test_grid (test_transfer_geometric_chain.TestTransfer.test_grid) ... Exact grid: 912
+ok
+test_scope (test_transfer_geometric_chain.TestTransfer.test_scope) ... ok
+test_worked (test_transfer_geometric_chain.TestTransfer.test_worked) ... ok
+test_wrong_endpoint_data (test_transfer_geometric_chain.TestTransfer.test_wrong_endpoint_data) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
