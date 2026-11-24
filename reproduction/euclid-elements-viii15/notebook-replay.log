@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(squares=(16, 48, 144), cubes=(64, 192, 576, 1728), growth=(3, 1), side_count=3, adjacent_counts=(3, 3, 3), endpoint_count=27)
+recovered side count: 3
+code cell 2
+Trace(squares=(16, 24, 36), cubes=(64, 96, 144, 216), growth=(3, 2), side_count=None, adjacent_counts=(None, None, None), endpoint_count=None) exact endpoint ratio: 27/8
+code cell 3
+Trace(squares=(4, 12, 36), cubes=(8, 24, 72, 216), growth=(3, 1), side_count=3, adjacent_counts=(3, 3, 3), endpoint_count=27) G mod A: 4
+Executed 3 cells with stdlib, not a Jupyter kernel.
