@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_counterexamples_and_boundaries (test_square_means.SquareMeansTests.test_counterexamples_and_boundaries) ... ok
+test_independent_merged_multiple_oracle (test_square_means.SquareMeansTests.test_independent_merged_multiple_oracle) ... ok
+test_invalid (test_square_means.SquareMeansTests.test_invalid) ... ok
+test_side_grid (test_square_means.SquareMeansTests.test_side_grid) ... ok
+test_source_construction (test_square_means.SquareMeansTests.test_source_construction) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+1296 ordered endpoint pairs (1..36); 90 with a mean.
+196 ordered side pairs (2..15), including equal sides.

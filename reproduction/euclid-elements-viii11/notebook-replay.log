@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(16, 24, 36) 2/3 4/9 True
+code cell 2
+(8, 18) 12
+(4, 10) None
+(49, 49) 49
+(1, 49) 7
+code cell 3
+90 / 1296 ordered pairs have a positive integer mean
+Executed 3 cells with stdlib, not a Jupyter kernel.
