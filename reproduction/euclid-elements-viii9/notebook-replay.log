@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(8, 12, 18, 27) Trace(growth=Fraction(3, 2), scale=1, unit_chains=((1, 2, 4, 8), (1, 3, 9, 27)))
+code cell 2
+integer roots: (2, 3)
+code cell 3
+(16, 24, 36, 54) Trace(growth=Fraction(3, 2), scale=2, unit_chains=None) (None, None)
+(64, 96, 144, 216) Trace(growth=Fraction(3, 2), scale=8, unit_chains=None) (4, 6)
+Executed 3 cells with stdlib, not a Jupyter kernel.
