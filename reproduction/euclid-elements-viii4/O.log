@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_endpoint_control (test_ratio_chain_gluing.TestGluing.test_endpoint_control) ... ok
+test_examples (test_ratio_chain_gluing.TestGluing.test_examples) ... ok
+test_grid (test_ratio_chain_gluing.TestGluing.test_grid) ... Exact grid: 729 chains; bridge steps with/without resizing: 464 994
+ok
+test_reverse_unreduced (test_ratio_chain_gluing.TestGluing.test_reverse_unreduced) ... ok
+test_scope (test_ratio_chain_gluing.TestGluing.test_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.039s
+
+OK

@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(terms=(10, 15, 21, 28), steps=(Step(bridge=15, prefix_scale=5, pair_scale=3, prefix=(10, 15, 21)), Step(bridge=21, prefix_scale=1, pair_scale=7, prefix=(10, 15, 21, 28))))
+Trace(terms=(40, 60, 84, 105), steps=(Step(bridge=15, prefix_scale=5, pair_scale=3, prefix=(10, 15, 21)), Step(bridge=84, prefix_scale=4, pair_scale=21, prefix=(40, 60, 84, 105))))
+code cell 2
+(40, 60, 84, 105)
+code cell 3
+(6, 10, 15) endpoint gcd: 3
+Executed 3 cells with stdlib, not a Jupyter kernel.
