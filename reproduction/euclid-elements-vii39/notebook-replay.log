@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(whole=60, parts=(15, 10, 6))
+code cell 2
+parts sum: 31 whole: 60
+product candidate: Trace(whole=240, parts=(60, 40, 24))
+code cell 3
+rejected: missing named part with denominator 4
+Executed 3 cells with stdlib, not a Jupyter kernel.
