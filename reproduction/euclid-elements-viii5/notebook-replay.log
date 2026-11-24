@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(raw=(60, 90, 126), primitive=(10, 15, 21), common_measure=6, endpoint_order=-1)
+code cell 2
+Trace(raw=(60, 140, 126), primitive=(30, 70, 63), common_measure=2, endpoint_order=-1)
+Trace(raw=(60, 84, 126), primitive=(10, 14, 21), common_measure=6, endpoint_order=-1)
+code cell 3
+Trace(raw=(12, 18, 12), primitive=(2, 3, 2), common_measure=6, endpoint_order=0)
+modern unit: Trace(raw=(3, 6, 8), primitive=(3, 6, 8), common_measure=1, endpoint_order=-1)
+Executed 3 cells with stdlib, not a Jupyter kernel.

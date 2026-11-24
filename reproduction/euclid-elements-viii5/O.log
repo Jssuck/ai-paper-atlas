@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_equal_and_reverse (test_factor_interpolation.TestInterpolate.test_equal_and_reverse) ... ok
+test_example (test_factor_interpolation.TestInterpolate.test_example) ... ok
+test_grid (test_factor_interpolation.TestInterpolate.test_grid) ... Exact grid: 1296 factor quadruples, endpoint orders: {-1: 611, 0: 74, 1: 611}
+ok
+test_scope (test_factor_interpolation.TestInterpolate.test_scope) ... ok
+test_swapped_matching (test_factor_interpolation.TestInterpolate.test_swapped_matching) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.055s
+
+OK
