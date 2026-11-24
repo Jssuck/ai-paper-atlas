@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+12 18 Trace(branch='noncoprime', measure=6, least_ratio=(2, 3), multiple=36)
+8 15 Trace(branch='coprime', measure=1, least_ratio=(8, 15), multiple=120)
+code cell 2
+72: ((4, 6), 2)
+code cell 3
+Trace(branch='noncoprime', measure=12, least_ratio=(1, 1), multiple=12)
+Trace(branch='noncoprime', measure=6, least_ratio=(1, 3), multiple=18)
+rejected: number is not a common multiple
+Executed 3 cells with stdlib, not a Jupyter kernel.
