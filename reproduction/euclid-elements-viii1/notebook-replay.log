@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(8, 12, 18, 27) Trace(adjacent=Fraction(3, 2), endpoint_measure=1, least_by_vii33=(8, 12, 18, 27), enters_viii1=True)
+(16, 24, 36, 54) Trace(adjacent=Fraction(3, 2), endpoint_measure=2, least_by_vii33=(8, 12, 18, 27), enters_viii1=False)
+code cell 2
+(27, 18, 12, 8) Trace(adjacent=Fraction(2, 3), endpoint_measure=1, least_by_vii33=(27, 18, 12, 8), enters_viii1=True)
+(5, 5, 5) Trace(adjacent=Fraction(1, 1), endpoint_measure=5, least_by_vii33=(1, 1, 1), enters_viii1=False)
+code cell 3
+rejected: adjacent ratios must all be equal
+Executed 3 cells with stdlib, not a Jupyter kernel.
