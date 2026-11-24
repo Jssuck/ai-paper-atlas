@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VII.37：3 能量尽 12，为什么 12 的三分之一是 4？](papers/ancient/euclid-elements-vii37.zh-CN.md)。重建从整除次数到同名部分的证明，附[教学复现与实跑日志](reproduction/euclid-elements-vii37/README.md)、[原典核对](reproduction/euclid-elements-vii37/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii37/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VII.38：一个数的三分之一是整数，为什么原数能被 3 整除？](papers/ancient/euclid-elements-vii38.zh-CN.md)。重建从同名整数份额到整除的证明，附[教学复现与实跑日志](reproduction/euclid-elements-vii38/README.md)、[原典核对](reproduction/euclid-elements-vii38/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-vii38/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -349,6 +349,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.35 精读](papers/ancient/euclid-elements-vii35.zh-CN.md) | AI 数学前史补读：公倍数的余数闭包、最小性与约束归并 | 深读 v2 · 完整余数反证，含复现、反例与独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.36 精读](papers/ancient/euclid-elements-vii36.zh-CN.md) | AI 数学前史补读：三数最小公倍数、整除传递与约束归并 | 深读 v2 · 两分支完整，含复现、反例与独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.37 精读](papers/ancient/euclid-elements-vii37.zh-CN.md) | AI 数学前史补读：整除、等次度量换位与单位分数部分 | 深读 v2 · 含见证构造、边界对照与独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.38 精读](papers/ancient/euclid-elements-vii38.zh-CN.md) | AI 数学前史补读：单位分数份额、等次换位与整除见证 | 深读 v2 · 含完整证明、反例、复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
