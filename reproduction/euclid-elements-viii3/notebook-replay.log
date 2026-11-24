@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(8, 12, 18, 27) Trace(ratio=Fraction(2, 3), least_chain=(8, 12, 18, 27), is_least=True, endpoint_measure=1)
+(16, 24, 36, 54) Trace(ratio=Fraction(2, 3), least_chain=(8, 12, 18, 27), is_least=False, endpoint_measure=2)
+code cell 2
+(1, 3, 9, 27) Trace(ratio=Fraction(1, 3), least_chain=(1, 3, 9, 27), is_least=True, endpoint_measure=1)
+(27, 9, 3, 1) Trace(ratio=Fraction(3, 1), least_chain=(27, 9, 3, 1), is_least=True, endpoint_measure=1)
+(9, 27, 81) Trace(ratio=Fraction(1, 3), least_chain=(1, 3, 9), is_least=False, endpoint_measure=9)
+code cell 3
+(8, 12, 18, 27)
+Executed 3 cells with stdlib, not a Jupyter kernel.
