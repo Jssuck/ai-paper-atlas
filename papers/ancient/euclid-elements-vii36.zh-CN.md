@@ -29,7 +29,7 @@
 
 ## 4. 原文两支逐步重建
 
-先由 VII.34 得 $`D=\operatorname{lcm}(A,B)`$。以第三数 C 能否度量 D 分支，这和 VII.34 按两数是否互素分支不同。
+先由 VII.34 得 $`D=\mathrm{lcm}(A,B)`$。以第三数 C 能否度量 D 分支，这和 VII.34 按两数是否互素分支不同。
 
 **第一支：C 度量 D（Heath pp.339–340）。**
 
@@ -49,7 +49,7 @@
 
 ## 5. 教学重构：把合并不变量写成等价式
 
-固定 $`a,b,c`$，取 $`d=\operatorname{lcm}(a,b)`$，令 $`n`$ 为任意正整数。VII.35 给出“从共同倍数到 d 的倍数”；反方向由整除传递。于是：
+固定 $`a,b,c`$，取 $`d=\mathrm{lcm}(a,b)`$，令 $`n`$ 为任意正整数。VII.35 给出“从共同倍数到 d 的倍数”；反方向由整除传递。于是：
 
 $$
 (a\mid n\ \land\ b\mid n\ \land\ c\mid n)
@@ -60,7 +60,7 @@ $$
 对左到右，看前两个条件即得 $`d\mid n`$，第三个条件不变。对右到左，由 $`a\mid d`$、$`b\mid d`$ 以及 $`d\mid n`$ 得回前两个条件。由于两端对每个正整数等价，可行集合相同，最小值必相同。因此
 
 $$
-\operatorname{lcm}(a,b,c)=\operatorname{lcm}(\operatorname{lcm}(a,b),c).
+\mathrm{lcm}(a,b,c)=\mathrm{lcm}(\mathrm{lcm}(a,b),c).
 $$
 
 若 $`c\mid d`$，右端就是 d；否则还须取新的共同倍数，不能停在 d。这个统一推导用的是现代符号，把两支的共同结构提取了出来，不是另一个原文译本。
