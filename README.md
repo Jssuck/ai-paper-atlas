@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VIII.11：平方数之间为什么能插入一个整数比例中项？](papers/ancient/euclid-elements-viii11.zh-CN.md)。逐步构造比例中项，区分平方比与两倍，并给出整数域反例，附[教学复现与实跑日志](reproduction/euclid-elements-viii11/README.md)、[原典核对](reproduction/euclid-elements-viii11/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii11/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VIII.12：两个立方数之间，怎样插入两个等比中项？](papers/ancient/euclid-elements-viii12.zh-CN.md)。从平方层传递相邻比到立方链，核对 Joyce 电子版一处误写，附[教学复现与实跑日志](reproduction/euclid-elements-viii12/README.md)、[原典核对](reproduction/euclid-elements-viii12/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii12/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -362,6 +362,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.9 精读](papers/ancient/euclid-elements-viii9.zh-CN.md) | AI 数学前史补读：互素端点、单位链与同次整数幂 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.10 精读](papers/ancient/euclid-elements-viii10.zh-CN.md) | AI 数学前史补读：等长单位链、反向配对与比例中项 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.11 精读](papers/ancient/euclid-elements-viii11.zh-CN.md) | AI 数学前史补读：整数比例中项、平方比与整数域边界 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.12 精读](papers/ancient/euclid-elements-viii12.zh-CN.md) | AI 数学前史补读：立方链、两中项与约分判别 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
