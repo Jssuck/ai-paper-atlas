@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(bases=(2, 3), terms=(4, 6, 9))
+Trace(bases=(2, 3), terms=(8, 12, 18, 27))
+code cell 2
+raw powers: (16, 24, 36) least: (4, 6, 9)
+code cell 3
+Trace(bases=(1, 2), terms=(1, 2, 4))
+Trace(bases=(1, 1), terms=(1, 1, 1, 1))
+Executed 3 cells with stdlib, not a Jupyter kernel.
