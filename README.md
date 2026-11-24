@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VIII.1：等比整数链的两端互质，为什么整条链不能再缩小？](papers/ancient/euclid-elements-viii1.zh-CN.md)。重建从首尾比到最小性的反证，附[教学复现与实跑日志](reproduction/euclid-elements-viii1/README.md)、[原典核对](reproduction/euclid-elements-viii1/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii1/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VIII.2：给定比例和项数，怎样造出最小的等比整数链？](papers/ancient/euclid-elements-viii2.zh-CN.md)。重建三项、四项构造与任意项通式，附[教学复现与实跑日志](reproduction/euclid-elements-viii2/README.md)、[原典核对](reproduction/euclid-elements-viii2/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii2/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -352,6 +352,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.38 精读](papers/ancient/euclid-elements-vii38.zh-CN.md) | AI 数学前史补读：单位分数份额、等次换位与整除见证 | 深读 v2 · 含完整证明、反例、复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VII.39 精读](papers/ancient/euclid-elements-vii39.zh-CN.md) | AI 数学前史补读：同时存在的单位分数部分与最小公倍数 | 深读 v2 · 含构造、最小性反证、复现和独立核对 |
 | 约公元前 300 年（作品年代范围；转入卷 VIII，实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.1 精读](papers/ancient/euclid-elements-viii1.zh-CN.md) | AI 数学前史补读：固定邻比、端点互质与整数链最小性 | 深读 v2 · 含逐步反证、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.2 精读](papers/ancient/euclid-elements-viii2.zh-CN.md) | AI 数学前史补读：最小等比整数链的构造与认证 | 深读 v2 · 含三项四项原证、系论、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
