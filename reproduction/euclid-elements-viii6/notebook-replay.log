@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(24, 12, 6, 3) Trace(growth=Fraction(1, 2), antecedent=True, forward=((0, 1, False), (0, 2, False), (0, 3, False), (1, 2, False), (1, 3, False), (2, 3, False)))
+(8, 12, 18, 27) Trace(growth=Fraction(3, 2), antecedent=True, forward=((0, 1, False), (0, 2, False), (0, 3, False), (1, 2, False), (1, 3, False), (2, 3, False)))
+(5, 15, 45, 135) Trace(growth=Fraction(3, 1), antecedent=False, forward=((0, 1, True), (0, 2, True), (0, 3, True), (1, 2, True), (1, 3, True), (2, 3, True)))
+code cell 2
+backward measures in all six pairs
+code cell 3
+rejected: adjacent ratios differ
+Executed 3 cells with stdlib, not a Jupyter kernel.

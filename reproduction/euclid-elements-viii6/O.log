@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_ascending (test_forward_measure.TestForwardMeasure.test_ascending) ... ok
+test_descending (test_forward_measure.TestForwardMeasure.test_descending) ... ok
+test_grid (test_forward_measure.TestForwardMeasure.test_grid) ... Exact grid: 276 chains; antecedent false/true: [72, 204] forward pairs: 2346
+ok
+test_invalid (test_forward_measure.TestForwardMeasure.test_invalid) ... ok
+test_modern (test_forward_measure.TestForwardMeasure.test_modern) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
