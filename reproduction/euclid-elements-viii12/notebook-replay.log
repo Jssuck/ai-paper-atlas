@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+square bridge: (4, 6, 9) ; cube chain: (8, 12, 18, 27)
+code cell 2
+Trace(sides=(2, 3), squares=(4, 6, 9), scale=2, chain=(16, 24, 36, 54))
+code cell 3
+4 16 None
+27 1 Trace(sides=(3, 1), squares=(9, 3, 1), scale=1, chain=(27, 9, 3, 1))
+7 7 Trace(sides=(1, 1), squares=(1, 1, 1), scale=7, chain=(7, 7, 7, 7))
+Executed 3 cells with stdlib, not a Jupyter kernel.

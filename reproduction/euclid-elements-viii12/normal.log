@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_big_integer (test_cube_means.TestMeans.test_big_integer) ... ok
+test_bridge (test_cube_means.TestMeans.test_bridge) ... ok
+test_examples (test_cube_means.TestMeans.test_examples) ... ok
+test_grid (test_cube_means.TestMeans.test_grid) ... Exact grid: 1600 ordered pairs; 54 succeed, 1546 fail
+ok
+test_modern_scope (test_cube_means.TestMeans.test_modern_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK
