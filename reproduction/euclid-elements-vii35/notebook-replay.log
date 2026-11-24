@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+least step: Trace(quotient=3, remainder=0, remainder_counts=(0, 0))
+code cell 2
+nonleast step: Trace(quotient=1, remainder=36, remainder_counts=(3, 2))
+code cell 3
+raw division: (1, 14)
+rejected: step and target must both be common multiples
+Executed 3 cells with stdlib, not a Jupyter kernel.

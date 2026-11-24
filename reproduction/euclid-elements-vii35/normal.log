@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_exact (test_common_multiple_remainder.TestRemainder.test_exact) ... ok
+test_grid (test_common_multiple_remainder.TestRemainder.test_grid) ... Exact grid: 196 pairs, 870 least-step checks, 6188 positive nonleast-step remainders
+ok
+test_invalid (test_common_multiple_remainder.TestRemainder.test_invalid) ... ok
+test_modern_unit (test_common_multiple_remainder.TestRemainder.test_modern_unit) ... ok
+test_nonleast (test_common_multiple_remainder.TestRemainder.test_nonleast) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+OK
