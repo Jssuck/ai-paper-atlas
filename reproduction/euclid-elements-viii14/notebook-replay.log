@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(bridge=(16, 48, 144), reduced_growth=(3, 1), side_count=3, bridge_count=3, square_count=9)
+recovered side count: 3
+code cell 2
+12 4 Trace(bridge=(144, 48, 16), reduced_growth=(1, 3), side_count=None, bridge_count=None, square_count=None)
+6 9 Trace(bridge=(36, 54, 81), reduced_growth=(3, 2), side_count=None, bridge_count=None, square_count=None)
+4 10 Trace(bridge=(16, 40, 100), reduced_growth=(5, 2), side_count=None, bridge_count=None, square_count=None)
+2 3 Trace(bridge=(4, 6, 9), reduced_growth=(3, 2), side_count=None, bridge_count=None, square_count=None)
+code cell 3
+unit: Trace(bridge=(1, 3, 9), reduced_growth=(3, 1), side_count=3, bridge_count=3, square_count=9)
+equal: Trace(bridge=(49, 49, 49), reduced_growth=(1, 1), side_count=1, bridge_count=1, square_count=1)
+Executed 3 cells with stdlib, not a Jupyter kernel.

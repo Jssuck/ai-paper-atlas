@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_big (test_square_divisibility.TestSquares.test_big) ... ok
+test_grid (test_square_divisibility.TestSquares.test_grid) ... Exact grid: 1600 side pairs, 158 measure, 1442 do not
+ok
+test_noninteger (test_square_divisibility.TestSquares.test_noninteger) ... ok
+test_positive_and_reverse (test_square_divisibility.TestSquares.test_positive_and_reverse) ... ok
+test_scope (test_square_divisibility.TestSquares.test_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
