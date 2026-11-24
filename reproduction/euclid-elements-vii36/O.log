@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_bad_shortcuts (test_three_number_lcm.TestThree.test_bad_shortcuts) ... ok
+test_branches (test_three_number_lcm.TestThree.test_branches) ... ok
+test_grid (test_three_number_lcm.TestThree.test_grid) ... Exact grid: {'already measured': 469, 'second construction': 862} common multiple transfers: 8665
+ok
+test_permutations_and_nesting (test_three_number_lcm.TestThree.test_permutations_and_nesting) ... ok
+test_scope (test_three_number_lcm.TestThree.test_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.102s
+
+OK

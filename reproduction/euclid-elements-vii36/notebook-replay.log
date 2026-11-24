@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(12, 18, 9) Trace(pair_multiple=36, result=36, branch='already measured')
+(6, 10, 14) Trace(pair_multiple=30, result=210, branch='second construction')
+code cell 2
+420 counts: (14, 2)
+code cell 3
+maximum pairwise: 70
+triple product divided by whole gcd: 420
+Executed 3 cells with stdlib, not a Jupyter kernel.
