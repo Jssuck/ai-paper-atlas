@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(bridge=(36, 54, 81), side_remainder=3, square_remainder=9, denominators=(2, 4), branches_triggered=(True, True))
+code cell 2
+(4, 12) Trace(bridge=(16, 48, 144), side_remainder=0, square_remainder=0, denominators=(1, 1), branches_triggered=(False, False))
+(12, 4) Trace(bridge=(144, 48, 16), side_remainder=4, square_remainder=16, denominators=(3, 9), branches_triggered=(True, True))
+code cell 3
+(2, 4)
+Executed 3 cells with stdlib, not a Jupyter kernel.
