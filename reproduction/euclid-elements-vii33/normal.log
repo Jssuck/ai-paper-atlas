@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_arbitrary_length_and_order (test_primitive_ratio.TestPrimitive.test_arbitrary_length_and_order) ... ok
+test_boundaries (test_primitive_ratio.TestPrimitive.test_boundaries) ... ok
+test_grid (test_primitive_ratio.TestPrimitive.test_grid) ... Exact grid: 1548 tuples; scale 1 / scaled: [1400, 148]
+ok
+test_main (test_primitive_ratio.TestPrimitive.test_main) ... ok
+test_wrong_candidate (test_primitive_ratio.TestPrimitive.test_wrong_candidate) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.068s
+
+OK
