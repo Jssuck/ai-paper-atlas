@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+2 PowerChain(local=((16, 24, 36), (36, 54, 81)), stitched=(16, 24, 36, 54, 81), extracted=(16, 36, 81))
+3 PowerChain(local=((64, 96, 144, 216), (216, 324, 486, 729)), stitched=(64, 96, 144, 216, 324, 486, 729), extracted=(64, 216, 729))
+code cell 2
+(512, 1728, 5832, 19683)
+code cell 3
+rejected: adjacent ratios differ
+Executed 3 cells with stdlib, not a Jupyter kernel.
