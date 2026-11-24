@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Part(divisor=3, quotient=4, reversed_count=3)
+Part(divisor=4, quotient=3, reversed_count=4)
+code cell 2
+block counts: 4 3
+code cell 3
+rejected: need exact measurement with a nonunit count by default ; (4, 2)
+modern quotient one: Part(divisor=12, quotient=1, reversed_count=12)
+Executed 3 cells with stdlib, not a Jupyter kernel.
