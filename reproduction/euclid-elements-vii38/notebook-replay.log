@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(part_cuts=(0, 4, 8, 12), transferred_cuts=(0, 3, 6, 9, 12), unit_count=4, transferred_count=4)
+code cell 2
+counts: (4, 4)
+code cell 3
+rejected: B must be precisely the C-th part of A
+modern unit: Trace(part_cuts=(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), transferred_cuts=(0, 12), unit_count=1, transferred_count=1)
+Executed 3 cells with stdlib, not a Jupyter kernel.

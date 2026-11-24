@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_example (test_recover_measure.TestMeasure.test_example) ... ok
+test_grid (test_recover_measure.TestMeasure.test_grid) ... Exact grid: 12167 triples, 37 accepted, 12130 rejected
+ok
+test_invalid (test_recover_measure.TestMeasure.test_invalid) ... ok
+test_mismatch (test_recover_measure.TestMeasure.test_mismatch) ... ok
+test_modern_boundary (test_recover_measure.TestMeasure.test_modern_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+OK
