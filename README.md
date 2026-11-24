@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》VIII.7：首项能整除末项，为什么也能整除第二项？](papers/ancient/euclid-elements-viii7.zh-CN.md)。区分已有等比链的整除与待构造的端点问题，附[教学复现与实跑日志](reproduction/euclid-elements-viii7/README.md)、[原典核对](reproduction/euclid-elements-viii7/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii7/technical-review.zh-CN.md)。
+最新补读：[《几何原本》VIII.8：端点比相同，怎样搬过去一整条等比链？](papers/ancient/euclid-elements-viii8.zh-CN.md)。用最小列与同一整数倍搬运比例中项，附[教学复现与实跑日志](reproduction/euclid-elements-viii8/README.md)、[原典核对](reproduction/euclid-elements-viii8/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-viii8/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -358,6 +358,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.5 精读](papers/ancient/euclid-elements-viii5.zh-CN.md) | AI 数学前史补读：平面数、混合积、边比复合与最小整数链 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.6 精读](papers/ancient/euclid-elements-viii6.zh-CN.md) | AI 数学前史补读：恒比、正向整除、最小链与非单位条件 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.7 精读](papers/ancient/euclid-elements-viii7.zh-CN.md) | AI 数学前史补读：首末整除、逆否与端点幂判据 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》VIII.8 精读](papers/ancient/euclid-elements-viii8.zh-CN.md) | AI 数学前史补读：同比端点、互素最小列与整数缩放 | 深读 v2 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
