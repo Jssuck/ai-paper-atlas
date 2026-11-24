@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_example (test_join_unit_chains.TestJoin.test_example) ... ok
+test_grid (test_join_unit_chains.TestJoin.test_grid) ... Exact grid: 196 chains, 120 default-domain chains
+ok
+test_malformed (test_join_unit_chains.TestJoin.test_malformed) ... ok
+test_modern (test_join_unit_chains.TestJoin.test_modern) ... ok
+test_swapped (test_join_unit_chains.TestJoin.test_swapped) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK

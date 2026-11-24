@@ -1,0 +1,9 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(mixed=(64, 96, 144, 216), growth=Fraction(3, 2), endpoint_measure=8)
+code cell 2
+(Fraction(64, 1), Fraction(96, 1), Fraction(144, 1), Fraction(216, 1))
+code cell 3
+rejected: need equal lengths and at least one mean
+Executed 3 cells with stdlib, not a Jupyter kernel.
