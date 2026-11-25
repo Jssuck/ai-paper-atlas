@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_exact_cubed_ratio_grid (test_solid_factorization.TestSolids.test_exact_cubed_ratio_grid) ... Endpoint cube-ratio grid: 10000 ordered pairs, 140 with two means, 9860 without
+ok
+test_invalid (test_solid_factorization.TestSolids.test_invalid) ... ok
+test_modern_boundaries (test_solid_factorization.TestSolids.test_modern_boundaries) ... ok
+test_original_witness (test_solid_factorization.TestSolids.test_original_witness) ... ok
+test_reversed_and_primitive (test_solid_factorization.TestSolids.test_reversed_and_primitive) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+OK
