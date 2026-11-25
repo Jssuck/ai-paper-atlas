@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Naive scale: 1/4
+Forward: SquareTrace(primitive=(4, 6, 9), scale=1, middle=6, roots=(2, 3))
+Reverse: SquareTrace(primitive=(9, 6, 4), scale=1, middle=6, roots=(3, 2))
+code cell 2
+Matched ratio without square A: A, C and D must be squares
+code cell 3
+Modern unit: SquareTrace(primitive=(1, 2, 4), scale=1, middle=2, roots=(1, 2))
+Modern equality: SquareTrace(primitive=(1, 1, 1), scale=9, middle=9, roots=(3, 3))
+Executed 3 cells with stdlib, not a Jupyter kernel.

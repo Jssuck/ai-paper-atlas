@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_bounded_grid (test_transfer_square.TestTransferSquare.test_bounded_grid) ... Grid: 200 accepted, 1008 ratio matches without square A, 638792 ratio mismatches
+ok
+test_fractional_naive_scale_and_reverse (test_transfer_square.TestTransferSquare.test_fractional_naive_scale_and_reverse) ... ok
+test_large_exact (test_transfer_square.TestTransferSquare.test_large_exact) ... ok
+test_modern_boundaries_and_invalid_inputs (test_transfer_square.TestTransferSquare.test_modern_boundaries_and_invalid_inputs) ... ok
+test_wrong_ratio_and_missing_square (test_transfer_square.TestTransferSquare.test_wrong_ratio_and_missing_square) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.917s
+
+OK
