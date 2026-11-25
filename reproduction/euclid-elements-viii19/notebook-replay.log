@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+K,M,L: (8, 12, 18) A,N,O,B: (48, 72, 108, 162) step: 3/2
+code cell 2
+Endpoint ratio: 27/8
+Scale cubed: 27/8
+Reversed: (162, 108, 72, 48)
+code cell 3
+Same endpoints, mismatched factors: corresponding factors must be proportional
+Modern unit boundary: (6, 12, 24, 48)
+Executed 3 cells with stdlib, not a Jupyter kernel.
