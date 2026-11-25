@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(8, 216) QuotientTrace(source=(64, 96, 144, 216), target=(8, 12, 18, 27), root=3, modern_unit=False)
+(27, 216) QuotientTrace(source=(729, 486, 324, 216), target=(27, 18, 12, 8), root=2, modern_unit=False)
+(8, 64) QuotientTrace(source=(64, 64, 64, 64), target=(8, 8, 8, 8), root=2, modern_unit=False)
+code cell 2
+Both cubes, rejected: A must divide C exactly
+code cell 3
+Modern unit: QuotientTrace(source=(64, 32, 16, 8), target=(8, 4, 2, 1), root=1, modern_unit=True)
+Executed 3 cells with stdlib, not a Jupyter kernel.

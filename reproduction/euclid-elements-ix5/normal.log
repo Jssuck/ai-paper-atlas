@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_examples (test_cube_quotient.TestCubeQuotient.test_examples) ... ok
+test_grid (test_cube_quotient.TestCubeQuotient.test_grid) ... Grid: 14 accepted; 22 cube pairs with noninteger quotient; 46620 noncube pairs
+ok
+test_large (test_cube_quotient.TestCubeQuotient.test_large) ... ok
+test_modern_boundary (test_cube_quotient.TestCubeQuotient.test_modern_boundary) ... ok
+test_rejected (test_cube_quotient.TestCubeQuotient.test_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.091s
+
+OK
