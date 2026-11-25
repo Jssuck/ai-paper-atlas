@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》IX.6：为什么一个数的平方是立方，它自己也是立方？](papers/ancient/euclid-elements-ix6.zh-CN.md)。辨析整数中项迁移、判据方向与显式立方边，附[教学复现与实跑日志](reproduction/euclid-elements-ix6/README.md)、[原典记录](reproduction/euclid-elements-ix6/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix6/technical-review.zh-CN.md)。
+最新补读：[《几何原本》IX.7：一个合数乘上另一个数，第三条边从哪里来？](papers/ancient/euclid-elements-ix7.zh-CN.md)。从量度构造三条整数边，区分立体数、立方数和单位，附[教学复现与实跑日志](reproduction/euclid-elements-ix7/README.md)、[原典记录](reproduction/euclid-elements-ix7/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix7/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -384,6 +384,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.4 精读](papers/ancient/euclid-elements-ix4.zh-CN.md) | AI 数学前史补读：两个立方数的乘积、辅助立方与整数中项迁移 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.5 精读](papers/ancient/euclid-elements-ix5.zh-CN.md) | AI 数学前史补读：立方商、整除前提与中项反向迁移 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.6 精读](papers/ancient/euclid-elements-ix6.zh-CN.md) | AI 数学前史补读：平方为立方、中项迁移及首末项反向传递 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.7 精读](papers/ancient/euclid-elements-ix7.zh-CN.md) | AI 数学前史补读：合数、三个非单位因子与立体数构造 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
