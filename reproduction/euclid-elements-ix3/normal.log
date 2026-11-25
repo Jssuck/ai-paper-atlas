@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_bounded_grid (test_cube_self_product.TestCubeSelfProduct.test_bounded_grid) ... Grid: 21 cubes with cube-square witness; 9979 noncubes rejected
+ok
+test_invalid (test_cube_self_product.TestCubeSelfProduct.test_invalid) ... ok
+test_large_exact (test_cube_self_product.TestCubeSelfProduct.test_large_exact) ... ok
+test_modern_unit (test_cube_self_product.TestCubeSelfProduct.test_modern_unit) ... ok
+test_worked (test_cube_self_product.TestCubeSelfProduct.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.022s
+
+OK

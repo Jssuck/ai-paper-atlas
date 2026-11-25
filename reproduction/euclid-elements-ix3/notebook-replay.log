@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+8 CubeSquareTrace(unit_chain=(1, 2, 4, 8), scaled_chain=(8, 16, 32, 64), root=4, modern_unit=False)
+27 CubeSquareTrace(unit_chain=(1, 3, 9, 27), scaled_chain=(27, 81, 243, 729), root=9, modern_unit=False)
+code cell 2
+2 rejected: A must be a cube
+code cell 3
+Modern unit extension: CubeSquareTrace(unit_chain=(1, 1, 1, 1), scaled_chain=(1, 1, 1, 1), root=1, modern_unit=True)
+Executed 3 cells with stdlib, not a Jupyter kernel.
