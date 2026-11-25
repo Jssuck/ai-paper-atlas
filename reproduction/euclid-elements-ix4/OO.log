@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_equality_and_modern_unit (test_cube_product.TestCubeProduct.test_equality_and_modern_unit) ... ok
+test_grid (test_cube_product.TestCubeProduct.test_grid) ... Grid: 36 accepted; 100 rejected despite cube product; 46520 rejected with noncube product
+ok
+test_large_exact (test_cube_product.TestCubeProduct.test_large_exact) ... ok
+test_rejects_noncube_even_if_product_is_cube (test_cube_product.TestCubeProduct.test_rejects_noncube_even_if_product_is_cube) ... ok
+test_worked_and_descending (test_cube_product.TestCubeProduct.test_worked_and_descending) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.096s
+
+OK
