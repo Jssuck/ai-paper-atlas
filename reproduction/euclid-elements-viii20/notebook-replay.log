@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Worked factors: Factorization(d=3, e=5, f=6, g=10)
+Measuring products: (18, 30, 30, 50)
+code cell 2
+Paired factor ratios: 3/5 3/5
+Reversed: Factorization(d=5, e=3, f=10, g=6)
+Modern equal boundary: Factorization(d=1, e=1, f=12, g=12)
+code cell 3
+Exact endpoint-square test: True
+Reject wrong mean: the middle term must be a mean proportional
+Executed 3 cells with stdlib, not a Jupyter kernel.
