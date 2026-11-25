@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Nonsquare areas: SquareRatio(chain=(12, 18, 27), primitive=(4, 6, 9), scale=3, roots=(2, 3))
+Reversed: SquareRatio(chain=(27, 18, 12), primitive=(9, 6, 4), scale=3, roots=(3, 2))
+code cell 2
+Equal area does not certify these sides: corresponding sides are not proportional
+code cell 3
+Modern unit: SquareRatio(chain=(2, 6, 18), primitive=(1, 3, 9), scale=2, roots=(1, 3))
+Modern equality: SquareRatio(chain=(12, 12, 12), primitive=(1, 1, 1), scale=12, roots=(1, 1))
+Executed 3 cells with stdlib, not a Jupyter kernel.

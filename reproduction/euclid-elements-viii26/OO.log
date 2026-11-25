@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_bounded_oracle (test_square_ratio.TestSquareRatio.test_bounded_oracle) ... Grid: 20736 ordered quadruples; 432 proportional; 20304 rejected
+ok
+test_equal_area_is_not_a_witness (test_square_ratio.TestSquareRatio.test_equal_area_is_not_a_witness) ... ok
+test_invalid_inputs (test_square_ratio.TestSquareRatio.test_invalid_inputs) ... ok
+test_modern_boundaries (test_square_ratio.TestSquareRatio.test_modern_boundaries) ... ok
+test_nonsquare_areas_and_reverse (test_square_ratio.TestSquareRatio.test_nonsquare_areas_and_reverse) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.062s
+
+OK
