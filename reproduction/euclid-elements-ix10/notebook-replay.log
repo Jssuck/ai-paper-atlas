@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Nonsquare base 8: [(1, 0), (2, 8), (3, 0), (4, 64), (5, 0), (6, 512)]
+Noncube base 4: [(1, 0), (2, 0), (3, 4), (4, 0), (5, 0), (6, 16)]
+code cell 2
+64, degree 2 : base already has the selected power property
+64, degree 3 : base already has the selected power property
+code cell 3
+4 is not a fourth power: True
+4² is a fourth power: True
+Executed 3 cells with stdlib, not a Jupyter kernel.

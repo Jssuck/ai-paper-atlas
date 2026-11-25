@@ -1,0 +1,7 @@
+# IX.10 原典与交叉引用
+
+- [Heath 1908 卷 II](https://commons.wikimedia.org/wiki/File%3AThe_thirteen_books_of_Euclid%27s_Elements_Volume_II.pdf)，印页 393–395，实核扫描 PDF 物理页 406–408。393 页左缘受裁，用 Fitzpatrick 的设题核补。394 页反证分别假设 C 为平方、D 为立方；395 页先接完立方支，之后是 Heath 的符号提纲和校勘说明。Heath 将平方支中相似平面数一段列入括号，转述 Heiberg 的疑问，并以 VIII.24 取代作为建议读法；他明指出 VIII.24、25 在这里第一、第二项互换，可用同样推理。这里报告编辑说明，不立新勘误；读到的材料未另见影响该论证的适用正式勘误。
+- [Fitzpatrick 希英本](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf#page=260)，印页 260 下段至 261 的 IX.11 标题之前。保留相似平面数的句子，英文把它旁注为 VIII.26，逆向性质由 Heath 和 Joyce 明标。立方传递标 VII.13、VIII.25，最后回到 IX.6。两支末尾都是概括性的类似推广。
+- [Clay 希英对照](https://www.claymath.org/library/historical/euclid/files/elem.9.10.html)：页首短英语题句只示平方支；双栏题句两支都有。英语正文止于排除 D 为立方，希文之后仍有立方其余项“类似”的收尾。[Joyce 文本](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX10.html)含完整两支；末尾 Guide 是现代编者评语。
+- 前驱：[IX.8](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX8.html) 保证位置；[VIII.24](https://mathcs.clarku.edu/~djoyce/elements/bookVIII/propVIII24.html) 与 [VIII.25](https://mathcs.clarku.edu/~djoyce/elements/bookVIII/propVIII25.html) 负责同类幂的比例传递；[VIII.26](https://mathcs.clarku.edu/~djoyce/elements/bookVIII/propVIII26.html) 正文方向从相似到平方之比；[IX.6](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX6.html) 负责从自乘的立方倒推原数。历史联系取自这些文本引用，不主张传播路线或后世影响已被全部考定。
+- [深读](../../papers/ancient/euclid-elements-ix10.zh-CN.md) 属原创中文解析；指数阐释、一般余数补证、唯一分解和合数次数是教学或现代分析，不发布扫描或全文翻译。
