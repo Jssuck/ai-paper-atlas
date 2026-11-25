@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Forward: PlaneTrace(product=400, lifted_chain=(2500, 1000, 400), middle=20, scale=2, roots=(5, 2), factors=((5, 10), (2, 4)))
+Reverse: PlaneTrace(product=400, lifted_chain=(64, 160, 400), middle=20, scale=2, roots=(2, 5), factors=((2, 4), (5, 10)))
+code cell 2
+60 rejected: endpoint product must be a square
+code cell 3
+Modern unit: PlaneTrace(product=9, lifted_chain=(1, 3, 9), middle=3, scale=1, roots=(1, 3), factors=((1, 1), (3, 3)))
+Modern equality: PlaneTrace(product=144, lifted_chain=(144, 144, 144), middle=12, scale=12, roots=(1, 1), factors=((1, 12), (1, 12)))
+Executed 3 cells with stdlib, not a Jupyter kernel.
