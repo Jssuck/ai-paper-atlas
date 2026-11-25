@@ -1,0 +1,17 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Term(position=1, exponent=0, value=1, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=True, actual_cube=True)
+Term(position=2, exponent=1, value=2, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=False, actual_cube=False)
+Term(position=3, exponent=2, value=4, guaranteed_square_root=2, guaranteed_cube_root=None, actual_square=True, actual_cube=False)
+Term(position=4, exponent=3, value=8, guaranteed_square_root=None, guaranteed_cube_root=2, actual_square=False, actual_cube=True)
+Term(position=5, exponent=4, value=16, guaranteed_square_root=4, guaranteed_cube_root=None, actual_square=True, actual_cube=False)
+Term(position=6, exponent=5, value=32, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=False, actual_cube=False)
+Term(position=7, exponent=6, value=64, guaranteed_square_root=8, guaranteed_cube_root=4, actual_square=True, actual_cube=True)
+code cell 2
+4 Term(position=2, exponent=1, value=4, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=True, actual_cube=False)
+8 Term(position=2, exponent=1, value=8, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=False, actual_cube=True)
+64 Term(position=2, exponent=1, value=64, guaranteed_square_root=None, guaranteed_cube_root=None, actual_square=True, actual_cube=True)
+code cell 3
+Rejected unit base: expected integer base >= 2 and length >= 1
+Executed 3 cells with stdlib, not a Jupyter kernel.

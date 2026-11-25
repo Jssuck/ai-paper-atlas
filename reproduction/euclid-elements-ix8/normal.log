@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_boundary_and_invalid (test_power_positions.TestPowerPositions.test_boundary_and_invalid) ... ok
+test_extra_powers (test_power_positions.TestPowerPositions.test_extra_powers) ... ok
+test_finite_grid (test_power_positions.TestPowerPositions.test_finite_grid) ... Grid: 756 nonunit terms; guaranteed square/cube/both 378/252/126; actual square/cube 420/276
+ok
+test_large_exact (test_power_positions.TestPowerPositions.test_large_exact) ... ok
+test_unit_and_first_common_position (test_power_positions.TestPowerPositions.test_unit_and_first_common_position) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
