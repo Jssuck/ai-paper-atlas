@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Worked: CubeRatio(chain=(48, 72, 108, 162), primitive=(8, 12, 18, 27), scale=6, roots=(2, 3))
+Reversed: CubeRatio(chain=(162, 108, 72, 48), primitive=(27, 18, 12, 8), scale=6, roots=(3, 2))
+code cell 2
+Equal volume does not certify these factors: corresponding sides are not proportional
+code cell 3
+Modern unit: CubeRatio(chain=(6, 12, 24, 48), primitive=(1, 2, 4, 8), scale=6, roots=(1, 2))
+Modern equality: CubeRatio(chain=(48, 48, 48, 48), primitive=(1, 1, 1, 1), scale=48, roots=(1, 1))
+Executed 3 cells with stdlib, not a Jupyter kernel.
