@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Square: PowerChain(terms=(4, 16, 64, 256, 1024, 4096), roots=(2, 4, 8, 16, 32, 64))
+Cube: PowerChain(terms=(8, 64, 512, 4096, 32768, 262144), roots=(2, 4, 8, 16, 32, 64))
+code cell 2
+Short cubic chain: PowerChain(terms=(8, 64), roots=(2, 4))
+Shifted starts do not guarantee powers: (4, 8, 16) (8, 16, 32)
+code cell 3
+(1, 3, 2) rejected: expected integer base >= 2 and length >= 1
+(2, 3, 3) rejected: the first nonunit term must be the indicated power
+Executed 3 cells with stdlib, not a Jupyter kernel.

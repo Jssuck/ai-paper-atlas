@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_grid (test_all_power_terms.TestPowerChain.test_grid) ... Grid: 280 accepted chains (1540 certified terms); 9940 rejected
+ok
+test_invalid_domain_and_large_exact (test_all_power_terms.TestPowerChain.test_invalid_domain_and_large_exact) ... ok
+test_missing_premise (test_all_power_terms.TestPowerChain.test_missing_premise) ... ok
+test_short_lengths (test_all_power_terms.TestPowerChain.test_short_lengths) ... ok
+test_square_and_cube_examples (test_all_power_terms.TestPowerChain.test_square_and_cube_examples) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
