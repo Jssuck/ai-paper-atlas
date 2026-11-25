@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_domain (test_cube_nondivisibility.TestCubeNonmeasurement.test_domain) ... ok
+test_grid (test_cube_nondivisibility.TestCubeNonmeasurement.test_grid) ... Exact grid: 1600; 1442 triggered and 158 vacuous in each branch
+ok
+test_remainders_are_not_cubes (test_cube_nondivisibility.TestCubeNonmeasurement.test_remainders_are_not_cubes) ... ok
+test_vacuous_and_direction (test_cube_nondivisibility.TestCubeNonmeasurement.test_vacuous_and_direction) ... ok
+test_worked (test_cube_nondivisibility.TestCubeNonmeasurement.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
