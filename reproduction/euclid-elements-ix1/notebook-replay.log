@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Plane and lifted chains: (18, 12, 8) (324, 216, 144)
+Root and reversed: 12 ProductTrace(plane_chain=(8, 12, 18), lifted_chain=(64, 96, 144), root=12)
+code cell 2
+144 square? True rejected: corresponding sides are not proportional
+60 square? False rejected: corresponding sides are not proportional
+code cell 3
+Modern unit: ProductTrace(plane_chain=(2, 6, 18), lifted_chain=(4, 12, 36), root=6)
+Modern equality: ProductTrace(plane_chain=(18, 18, 18), lifted_chain=(324, 324, 324), root=18)
+Executed 3 cells with stdlib, not a Jupyter kernel.

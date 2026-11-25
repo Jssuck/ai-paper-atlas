@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_bad_witnesses (test_square_product.TestSquareProduct.test_bad_witnesses) ... ok
+test_grid (test_square_product.TestSquareProduct.test_grid) ... Grid: 432 certified; 1264 rejected square products; 19040 rejected nonsquare products
+ok
+test_modern_boundaries_and_invalid_inputs (test_square_product.TestSquareProduct.test_modern_boundaries_and_invalid_inputs) ... ok
+test_reverse_and_joint_side_swap (test_square_product.TestSquareProduct.test_reverse_and_joint_side_swap) ... ok
+test_worked (test_square_product.TestSquareProduct.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.067s
+
+OK
