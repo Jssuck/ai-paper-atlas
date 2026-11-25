@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_bounded_oracle (test_cube_endpoints.TestCubeEndpoints.test_bounded_oracle) ... Endpoint grid: 36 cube starts, 290 noncube starts with integer means, 46330 without two integer means
+ok
+test_large_exact (test_cube_endpoints.TestCubeEndpoints.test_large_exact) ... ok
+test_middle_terms_need_not_be_cubes (test_cube_endpoints.TestCubeEndpoints.test_middle_terms_need_not_be_cubes) ... ok
+test_missing_premise (test_cube_endpoints.TestCubeEndpoints.test_missing_premise) ... ok
+test_modern_boundaries_and_invalid_input (test_cube_endpoints.TestCubeEndpoints.test_modern_boundaries_and_invalid_input) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.136s
+
+OK
