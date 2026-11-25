@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_boundaries (test_similar_plane.TestPlane.test_boundaries) ... ok
+test_grid (test_similar_plane.TestPlane.test_grid) ... Exact grid: 4096 quadruples; 160 similar, 3936 nonsimilar
+ok
+test_integer_mean_does_not_fix_factor_pairs (test_similar_plane.TestPlane.test_integer_mean_does_not_fix_factor_pairs) ... ok
+test_invalid (test_similar_plane.TestPlane.test_invalid) ... ok
+test_worked (test_similar_plane.TestPlane.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK

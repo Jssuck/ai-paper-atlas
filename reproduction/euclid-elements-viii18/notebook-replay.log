@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace(chain=(24, 36, 54), alternate_middle=36, growth=Fraction(3, 2))
+Trace(chain=(54, 36, 24), alternate_middle=36, growth=Fraction(2, 3))
+code cell 2
+mean: 36 ; endpoint ratio: 9/4
+code cell 3
+integer mean: 24 ; invalid mixed product: 32
+rejected: paired factors are not similar
+Executed 3 cells with stdlib, not a Jupyter kernel.
