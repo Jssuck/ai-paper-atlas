@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+4,6,9 -> (2, 3)
+9,6,4 -> (3, 2)
+code cell 2
+(8, 12, 18) rejected: the first term must be a square
+(4, 5, 9) rejected: the three terms must be in continued proportion
+code cell 3
+Modern unit: (1, 3)
+Modern equal: (4, 4)
+Executed 3 cells with stdlib, not a Jupyter kernel.
