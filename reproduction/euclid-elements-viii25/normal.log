@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_bounded_grid (test_transfer_cube.TestCubeRatioTransfer.test_bounded_grid) ... Grid: 48 accepted; 652 matching ratio without cube A; 359300 ratio mismatches
+ok
+test_fractional_naive_scale_and_reverse (test_transfer_cube.TestCubeRatioTransfer.test_fractional_naive_scale_and_reverse) ... ok
+test_large_exact (test_transfer_cube.TestCubeRatioTransfer.test_large_exact) ... ok
+test_missing_cube_and_wrong_ratio (test_transfer_cube.TestCubeRatioTransfer.test_missing_cube_and_wrong_ratio) ... ok
+test_modern_boundaries_and_invalid_input (test_transfer_cube.TestCubeRatioTransfer.test_modern_boundaries_and_invalid_input) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.082s
+
+OK

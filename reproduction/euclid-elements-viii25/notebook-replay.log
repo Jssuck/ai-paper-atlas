@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Naive scale: 1/8
+Forward: CubeTrace(primitive=(8, 12, 18, 27), scale=1, means=(12, 18), roots=(2, 3))
+Reverse: CubeTrace(primitive=(27, 18, 12, 8), scale=1, means=(18, 12), roots=(3, 2))
+code cell 2
+Same ratio, no cube A: A, C and D must be cubes
+code cell 3
+Modern unit: CubeTrace(primitive=(1, 2, 4, 8), scale=1, means=(2, 4), roots=(1, 2))
+Modern equality: CubeTrace(primitive=(1, 1, 1, 1), scale=8, means=(8, 8), roots=(2, 2))
+Executed 3 cells with stdlib, not a Jupyter kernel.
