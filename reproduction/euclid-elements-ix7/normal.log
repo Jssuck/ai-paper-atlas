@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_exhaustive_oracle (test_solid_product.TestSolidProduct.test_exhaustive_oracle) ... Grid: 620 certified; 220 solid outside hypothesis; 121 nonsolid
+ok
+test_fixtures (test_solid_product.TestSolidProduct.test_fixtures) ... ok
+test_invalid (test_solid_product.TestSolidProduct.test_invalid) ... ok
+test_sufficient_not_necessary (test_solid_product.TestSolidProduct.test_sufficient_not_necessary) ... ok
+test_two_primes_cannot_produce_three_nonunit_factors (test_solid_product.TestSolidProduct.test_two_primes_cannot_produce_three_nonunit_factors) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK

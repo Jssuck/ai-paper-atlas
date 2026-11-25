@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(4, 3) SolidTrace(factors=(2, 2, 3), product=12, cube=False)
+(4, 2) SolidTrace(factors=(2, 2, 2), product=8, cube=True)
+(25, 7) SolidTrace(factors=(5, 5, 7), product=175, cube=False)
+code cell 2
+(3, 4) outside hypothesis: the first factor A must be composite
+(2, 3) outside hypothesis: the first factor A must be composite
+(4, 1) outside hypothesis: A and B must be integers greater than one
+code cell 3
+3*4 has a different witness: 12
+2*3 and 4*1 are below the minimum 3-factor product 8: (6, 4)
+Executed 3 cells with stdlib, not a Jupyter kernel.
