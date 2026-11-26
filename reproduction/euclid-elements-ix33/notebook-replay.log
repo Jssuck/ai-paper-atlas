@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+18 witness: OddHalf(odd_divisor=9, even_count=2)
+18 factor counts: (((3, 6), (9, 2)), ())
+code cell 2
+2 ((), ())
+4 ((), ((2, 2),))
+12 (((3, 4),), ((2, 6), (6, 2)))
+9 ((), ())
+code cell 3
+2 excluded: expected a nonunit even input with nonunit odd half
+12 excluded: the whole must be even and its half odd
+9 excluded: the whole must be even and its half odd
+Executed 3 cells with stdlib, not a Jupyter kernel.

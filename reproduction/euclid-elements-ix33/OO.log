@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_independent_product_grouping (test_odd_half.TestOddHalf.test_independent_product_grouping) ... Grid: 255 values; 63 mixed-only witnesses; 237 mixed pairs; 280 even-even pairs
+ok
+test_large_exact_witness (test_odd_half.TestOddHalf.test_large_exact_witness) ... ok
+test_mixed_and_even_even_can_coexist (test_odd_half.TestOddHalf.test_mixed_and_even_even_can_coexist) ... ok
+test_unit_and_false_premises (test_odd_half.TestOddHalf.test_unit_and_false_premises) ... ok
+test_worked (test_odd_half.TestOddHalf.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
