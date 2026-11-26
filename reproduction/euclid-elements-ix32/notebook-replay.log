@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Dyad then three doublings: [2, 4, 8, 16]
+code cell 2
+2 Classification(doublings=0, odd_core=1, even_pairs=(), odd_factor_pairs=())
+4 Classification(doublings=1, odd_core=1, even_pairs=((2, 2),), odd_factor_pairs=())
+8 Classification(doublings=2, odd_core=1, even_pairs=((2, 4),), odd_factor_pairs=())
+12 Classification(doublings=1, odd_core=3, even_pairs=((2, 6),), odd_factor_pairs=((3, 4),))
+9 Classification(doublings=0, odd_core=9, even_pairs=(), odd_factor_pairs=((3, 3),))
+code cell 3
+4 even-times-even only: True
+8 even-times-even only: True
+12 even-times-even only: False
+Executed 3 cells with stdlib, not a Jupyter kernel.

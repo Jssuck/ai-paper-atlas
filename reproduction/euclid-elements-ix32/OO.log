@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_boundary_and_controls (test_dyad_doubling.TestDyadDoubling.test_boundary_and_controls) ... ok
+test_bounded_product_oracle (test_dyad_doubling.TestDyadDoubling.test_bounded_product_oracle) ... Grid: 255 values; 485 nonunit pairs; 7 even-times-even only
+ok
+test_doubling (test_dyad_doubling.TestDyadDoubling.test_doubling) ... ok
+test_invalid (test_dyad_doubling.TestDyadDoubling.test_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
