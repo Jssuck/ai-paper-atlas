@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_boundaries (test_odd_product.TestOddProduct.test_boundaries) ... ok
+test_even_substitutions (test_odd_product.TestOddProduct.test_even_substitutions) ... ok
+test_independent_grid (test_odd_product.TestOddProduct.test_independent_grid) ... Grid: 4096 pairs; 961 accepted; 3135 rejected; 31713 copy steps
+ok
+test_large_exact (test_odd_product.TestOddProduct.test_large_exact) ... ok
+test_worked (test_odd_product.TestOddProduct.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
