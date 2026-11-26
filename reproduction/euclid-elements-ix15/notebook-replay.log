@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Primitive example: SumCertificate(chain=(4, 6, 9), sums=(15, 13, 10), common_divisors=(1, 1, 1), modern_unit=False)
+code cell 2
+Modern reduction: (2, SumCertificate(chain=(4, 6, 9), sums=(15, 13, 10), common_divisors=(1, 1, 1), modern_unit=False))
+Original scaled gcds: [2, 2, 2]
+code cell 3
+Modern unit: SumCertificate(chain=(1, 1, 1), sums=(2, 2, 2), common_divisors=(1, 1, 1), modern_unit=True)
+Nongeometric triple rejected: expected three positive integers in continued proportion
+Executed 3 cells with stdlib, not a Jupyter kernel.

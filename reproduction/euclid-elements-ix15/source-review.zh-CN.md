@@ -1,0 +1,7 @@
+# IX.15 原典核对
+
+- [Heath 1908 英译卷 II](https://commons.wikimedia.org/wiki/File%3AThe_thirteen_books_of_Euclid%27s_Elements_Volume_II.pdf)：印页 404–405，扫描物理页 417–418。404 写出 DE、EF、DF 对应的构造和相邻项之和的第一种证明；405 简述对称情形，第三种先平方后连续两次分离。证毕之后的 Commandinus 反证比较是译注，不是欧几里得正文的步骤。
+- [Fitzpatrick 希英本](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf#page=266)：印页及扫描页 266–267。希文 ΔΕ、ΕΖ、ΔΖ 对应英译 DE、EF、DF；英译跨页句仍是两端之和与中项互素。括句重述平方保持互素，另有局部方括字 εἰσι。267 页的译注以 αβ 的整除等价提示第一次分离；中文深读把同一推理明确用于 αβ 的每个因子，得到公因子集合不变。不从方括号推断作者或年代；所查读本未见需另应用的正式勘误。
+- [Clay 希英页](https://www.claymath.org/library/historical/euclid/files/elem.9.15.html)与 [Joyce 读本](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX15.html)支持三条结论和两个减法步骤。Joyce Guide 将两次减法并为一次减去中项的两倍；这是等价说明，不是正文的逐次安排。
+- 依赖：[VIII.2](https://mathcs.clarku.edu/~djoyce/elements/bookVIII/propVIII2.html)（最简连比构造与两端为平方）、[VII.22](https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII22.html)（最简数对互素）、[VII.28](https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII28.html)（和与两加数互素）、[VII.24](https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII24.html)及 [VII.25](https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII25.html)（乘积、平方保持互素）、[II.3](https://mathcs.clarku.edu/~djoyce/elements/bookII/propII3.html)与 [II.4](https://mathcs.clarku.edu/~djoyce/elements/bookII/propII4.html)（矩形分解和完全平方）。这里的「分离」不把它误写成比例命题 V.17；现代重建为减去公因子检验中另一输入的倍数。
+- [中文深读](../../papers/ancient/euclid-elements-ix15.zh-CN.md)中的一般整数尺度、单位边界和非等比反例与原证分开；只发布原创分析和链接。

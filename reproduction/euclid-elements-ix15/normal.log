@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_grid (test_coprime_sums.TestCoprimeSums.test_grid) ... Grid: 46656 ordered triples; 90 geometric (67 nonminimal); 270 primitive sum checks
+ok
+test_large_exact (test_coprime_sums.TestCoprimeSums.test_large_exact) ... ok
+test_modern_units_and_bad_inputs (test_coprime_sums.TestCoprimeSums.test_modern_units_and_bad_inputs) ... ok
+test_nonminimal_and_nongeometric (test_coprime_sums.TestCoprimeSums.test_nonminimal_and_nongeometric) ... ok
+test_worked_and_reverse (test_coprime_sums.TestCoprimeSums.test_worked_and_reverse) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.122s
+
+OK
