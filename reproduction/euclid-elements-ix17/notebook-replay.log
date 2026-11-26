@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Forward: 81/2
+Reverse: 16/3
+code cell 2
+Scaled noncoprime chain: (16, 24, 36, 54) extends to 81
+code cell 3
+Modern boundary: (1, 2, 4) 8
+Modern boundary: (4, 2, 1) 1/2
+Modern boundary: (7, 7, 7) 7
+Executed 3 cells with stdlib, not a Jupyter kernel.
