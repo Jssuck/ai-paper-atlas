@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Worked: OddDifference(stripped=6, even_intermediate=12, difference=11, half_without_unit=5, unit_boundary=False)
+code cell 2
+Counting pairs after 7+1: [10, 12, 14, 16, 18]
+Modern unit output: OddDifference(stripped=2, even_intermediate=2, difference=1, half_without_unit=0, unit_boundary=True)
+code cell 3
+(8, 1) modern difference: 7 excluded: expected even A > odd B >= 3
+(8, 9) modern difference: -1 excluded: expected even A > odd B >= 3
+(8, 8) modern difference: 0 excluded: expected even A > odd B >= 3
+Executed 3 cells with stdlib, not a Jupyter kernel.
