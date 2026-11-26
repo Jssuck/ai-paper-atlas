@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Proper nonunit divisors of 81: (3, 9, 27)
+Witness for 27: (3, (27, 9, 3, 1))
+code cell 2
+Empty interior for 7: ()
+1 excluded endpoint: expected a proper nonunit divisor of p**n
+81 excluded endpoint: expected a proper nonunit divisor of p**n
+code cell 3
+Remainder 6² divided by 4: 0
+Composite base rejected: base must be prime
+Executed 3 cells with stdlib, not a Jupyter kernel.

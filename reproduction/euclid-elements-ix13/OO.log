@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_composite_base_control (test_prime_power_divisors.TestPrimePowerDivisors.test_composite_base_control) ... ok
+test_endpoints_and_invalid (test_prime_power_divisors.TestPrimePowerDivisors.test_endpoints_and_invalid) ... ok
+test_large_exact_trace (test_prime_power_divisors.TestPrimePowerDivisors.test_large_exact_trace) ... ok
+test_paired_search_oracle (test_prime_power_divisors.TestPrimePowerDivisors.test_paired_search_oracle) ... Grid: 48 prime powers; 21127 paired divisor probes; 120 extraction certificates
+ok
+test_worked (test_prime_power_divisors.TestPrimePowerDivisors.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
