@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+2 3 Measurement(earlier=9, later=27, count=3, neighbor_count=3)
+2 5 Measurement(earlier=9, later=243, count=27, neighbor_count=3)
+code cell 2
+Nonunit-start ratios: ['3/2', '3/2', '3/2']
+12 divided by 8: (1, 4)
+code cell 3
+Unit index excluded: expected integers q>=2 and 1<=i<j
+Executed 3 cells with stdlib, not a Jupyter kernel.

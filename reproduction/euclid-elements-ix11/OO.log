@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_adjacent_and_far (test_measures_later.TestMeasurement.test_adjacent_and_far) ... ok
+test_boundaries (test_measures_later.TestMeasurement.test_boundaries) ... ok
+test_grid (test_measures_later.TestMeasurement.test_grid) ... Grid: 4158 exact earlier/later pairs, all divisible
+ok
+test_integer_chain_without_unity (test_measures_later.TestMeasurement.test_integer_chain_without_unity) ... ok
+test_large (test_measures_later.TestMeasurement.test_large) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
