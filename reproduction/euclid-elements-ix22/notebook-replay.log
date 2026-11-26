@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Constructed halves: Witness(residual_halves=(1, 2, 3, 4), unit_pairs=2, total_half=12, total=24)
+code cell 2
+Paired original terms: [(3, 5, 8), (7, 9, 16)]
+code cell 3
+(3, 5, 7) excluded: expected an even count of at least two terms
+(1, 3) excluded: expected odd integer terms at least 3
+() excluded: expected an even count of at least two terms
+(-3, 7) excluded: expected odd integer terms at least 3
+(2, 4) excluded: expected odd integer terms at least 3
+Executed 3 cells with stdlib, not a Jupyter kernel.
