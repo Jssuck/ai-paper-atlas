@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Forward: Measure(square=36, quotient=9, remainder=0, witness=9, modern_unit=False) witness: 9
+code cell 2
+Noncoprime failure: (6, 4) Measure(square=16, quotient=2, remainder=4, witness=None, modern_unit=False)
+Noncoprime failure: (6, 10) Measure(square=100, quotient=16, remainder=4, witness=None, modern_unit=False)
+code cell 3
+Modern unit: (1, 4) Measure(square=16, quotient=16, remainder=0, witness=16, modern_unit=True)
+Modern unit: (4, 1) Measure(square=1, quotient=0, remainder=1, witness=None, modern_unit=True)
+Modern unit: (1, 1) Measure(square=1, quotient=1, remainder=0, witness=1, modern_unit=True)
+Nonunit inputs, modern unit output: Measure(square=4, quotient=1, remainder=0, witness=1, modern_unit=False) 1
+Executed 3 cells with stdlib, not a Jupyter kernel.
