@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Three copies of eight: Witness(copies=3, term=8, half_total=12, total=24)
+code cell 2
+Equal halves at each step: [(4, 8), (8, 16), (12, 24)]
+code cell 3
+(4, 8) modern product: 32 excluded: expected an odd count A >= 3 and even term B >= 2
+(8, 3) modern product: 24 excluded: expected an odd count A >= 3 and even term B >= 2
+(1, 8) modern product: 8 excluded: expected an odd count A >= 3 and even term B >= 2
+(0, 8) modern product: 0 excluded: expected an odd count A >= 3 and even term B >= 2
+(3, 0) modern product: 0 excluded: expected an odd count A >= 3 and even term B >= 2
+Executed 3 cells with stdlib, not a Jupyter kernel.

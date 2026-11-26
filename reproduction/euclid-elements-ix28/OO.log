@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_even_count_and_swapped (test_even_product.TestProduct.test_even_count_and_swapped) ... ok
+test_grid (test_even_product.TestProduct.test_grid) ... Grid: 4096 ordered pairs; 992 accepted; 3104 rejected; 32736 copy steps
+ok
+test_large_summand (test_even_product.TestProduct.test_large_summand) ... ok
+test_units_and_zero (test_even_product.TestProduct.test_units_and_zero) ... ok
+test_worked (test_even_product.TestProduct.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
