@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(3, 5, 7) Witness(prefix_half=4, last_half=3, total_half_without_unit=7, total=15)
+(7, 5, 3) Witness(prefix_half=6, last_half=1, total_half_without_unit=7, total=15)
+code cell 2
+Independent direct sum: 15
+Pair prefix, then include even remainder and unit: (8, 6, 1)
+code cell 3
+Trivial single term: 5
+(5,) outside implementation: expected an odd count of at least three terms
+() outside implementation: expected an odd count of at least three terms
+(1, 3, 5) outside implementation: expected odd integer terms at least 3
+Executed 3 cells with stdlib, not a Jupyter kernel.
