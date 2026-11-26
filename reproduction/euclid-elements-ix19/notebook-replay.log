@@ -1,0 +1,16 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(4, 6, 9) Fourth(continued=True, coprime_endpoints=True, quotient=13, remainder=2, witness=None, auxiliary=Fraction(81, 4))
+(8, 12, 18) Fourth(continued=True, coprime_endpoints=False, quotient=27, remainder=0, witness=27, auxiliary=Fraction(81, 2))
+(2, 4, 3) Fourth(continued=False, coprime_endpoints=True, quotient=6, remainder=0, witness=6, auxiliary=Fraction(9, 2))
+(6, 4, 9) Fourth(continued=False, coprime_endpoints=False, quotient=6, remainder=0, witness=6, auxiliary=Fraction(27, 2))
+(6, 5, 9) Fourth(continued=False, coprime_endpoints=False, quotient=7, remainder=3, witness=None, auxiliary=Fraction(27, 2))
+(12, 18, 27) Fourth(continued=True, coprime_endpoints=False, quotient=40, remainder=6, witness=None, auxiliary=Fraction(243, 4))
+code cell 2
+Integral fourth, fractional auxiliary: 6 9/2
+B/C and D/E: 4/3 4/3
+code cell 3
+Modern unit input: Fourth(continued=False, coprime_endpoints=True, quotient=12, remainder=0, witness=12, auxiliary=Fraction(9, 1))
+Modern unit output: Fourth(continued=False, coprime_endpoints=False, quotient=1, remainder=0, witness=1, auxiliary=Fraction(3, 2))
+Executed 3 cells with stdlib, not a Jupyter kernel.

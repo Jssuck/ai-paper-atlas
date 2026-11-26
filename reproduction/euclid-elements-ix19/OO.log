@@ -1,0 +1,17 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_auxiliary_need_not_be_integer (test_fourth_proportional.TestFourth.test_auxiliary_need_not_be_integer) ... ok
+test_bounded_additive_oracle (test_fourth_proportional.TestFourth.test_bounded_additive_oracle) ... Grid: 4913 triples, 73840 additive probes
+continued=True, coprime=True: 0 found, 4 absent
+continued=True, coprime=False: 24 found, 3 absent
+continued=False, coprime=True: 383 found, 2469 absent
+continued=False, coprime=False: 1043 found, 987 absent
+ok
+test_four_cases (test_fourth_proportional.TestFourth.test_four_cases) ... ok
+test_order_and_large (test_fourth_proportional.TestFourth.test_order_and_large) ... ok
+test_unit_and_invalid (test_fourth_proportional.TestFourth.test_unit_and_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.021s
+
+OK
