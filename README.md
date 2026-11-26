@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》IX.26：两个奇数减去同一个单位，为什么差不变？](papers/ancient/euclid-elements-ix26.zh-CN.md)。同去单位而保持余段，再用偶减偶，附[教学复现与实跑日志](reproduction/euclid-elements-ix26/README.md)、[原典记录](reproduction/euclid-elements-ix26/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix26/technical-review.zh-CN.md)。
+最新补读：[《几何原本》IX.27：奇数减偶数，为什么先取走的单位要加回？](papers/ancient/euclid-elements-ix27.zh-CN.md)。从被减数预取单位，偶减偶后再补回，附[教学复现与实跑日志](reproduction/euclid-elements-ix27/README.md)、[原典记录](reproduction/euclid-elements-ix27/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix27/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -404,6 +404,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.24 精读](papers/ancient/euclid-elements-ix24.zh-CN.md) | AI 数学前史补读：偶数差、正余段与半数见证 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.25 精读](papers/ancient/euclid-elements-ix25.zh-CN.md) | AI 数学前史补读：偶减奇、补扣一个单位与单位余量边界 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.26 精读](papers/ancient/euclid-elements-ix26.zh-CN.md) | AI 数学前史补读：奇减奇、共去单位与平移保差 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.27 精读](papers/ancient/euclid-elements-ix27.zh-CN.md) | AI 数学前史补读：奇减偶、补回单位与零中间差 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
