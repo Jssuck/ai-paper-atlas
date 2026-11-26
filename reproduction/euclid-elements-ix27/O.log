@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_independent_grid (test_odd_even_difference.TestOddEvenDifference.test_independent_grid) ... Grid: 4096 pairs; 496 witnesses (31 unit outputs); 3600 rejected; 4960 pair increments
+ok
+test_invalid (test_odd_even_difference.TestOddEvenDifference.test_invalid) ... ok
+test_large (test_odd_even_difference.TestOddEvenDifference.test_large) ... ok
+test_unit_boundary (test_odd_even_difference.TestOddEvenDifference.test_unit_boundary) ... ok
+test_worked (test_odd_even_difference.TestOddEvenDifference.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK

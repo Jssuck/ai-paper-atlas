@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+19 minus 8: OddDifference(stripped=18, even_intermediate=10, difference=11, half_without_unit=5, unit_boundary=False)
+code cell 2
+Baseline pair count: [11, 13, 15, 17, 19]
+Modern unit outcome: OddDifference(stripped=2, even_intermediate=0, difference=1, half_without_unit=0, unit_boundary=True)
+code cell 3
+(3, 4) rejected: expected odd A > even B >= 2
+(3, 0) rejected: expected odd A > even B >= 2
+(7, 7) rejected: expected odd A > even B >= 2
+Executed 3 cells with stdlib, not a Jupyter kernel.
