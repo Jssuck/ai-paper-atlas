@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_common_divisor_transport_outside_original_premise (test_doubling_coprime.TestDoubling.test_common_divisor_transport_outside_original_premise) ... ok
+test_coprime (test_doubling_coprime.TestDoubling.test_coprime) ... ok
+test_even_counterexample (test_doubling_coprime.TestDoubling.test_even_counterexample) ... ok
+test_grid (test_doubling_coprime.TestDoubling.test_grid) ... Grid: 1953 odd/nonunit pairs; 1577 coprime; 376 noncoprime; 451 transported divisors
+ok
+test_invalid (test_doubling_coprime.TestDoubling.test_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK

@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Doubling 8: 16
+Common divisors before and after: () ()
+code cell 2
+Modern extension: (3, 5, 15) (3, 5, 15)
+15 measures 30 this many times: 2
+code cell 3
+Even-A counterexample: () (2,)
+Excluded: expected odd A >= 3 and B >= 2
+Executed 3 cells with stdlib, not a Jupyter kernel.
