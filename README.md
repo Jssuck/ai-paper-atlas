@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》IX.33：一半是奇数，为什么排除了偶数乘偶数？](papers/ancient/euclid-elements-ix33.zh-CN.md)。用奇半数给出混合拆法，再折半排除偶乘偶，附[教学复现与实跑日志](reproduction/euclid-elements-ix33/README.md)、[原典记录](reproduction/euclid-elements-ix33/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix33/technical-review.zh-CN.md)。
+最新补读：[《几何原本》IX.34：反复折半，如何找出两种奇偶拆法？](papers/ancient/euclid-elements-ix34.zh-CN.md)。用偶半数与连续折半构造两种因子对，附[教学复现与实跑日志](reproduction/euclid-elements-ix34/README.md)、[原典记录](reproduction/euclid-elements-ix34/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-ix34/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -411,6 +411,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.31 精读](papers/ancient/euclid-elements-ix31.zh-CN.md) | AI 数学前史补读：互素、公因子见证与加倍 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.32 精读](papers/ancient/euclid-elements-ix32.zh-CN.md) | AI 数学前史补读：二幂、偶乘偶与因子完备性 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.33 精读](papers/ancient/euclid-elements-ix33.zh-CN.md) | AI 数学前史补读：奇半数、偶奇混合与排他反证 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》IX.34 精读](papers/ancient/euclid-elements-ix34.zh-CN.md) | AI 数学前史补读：连续折半、奇部与两种因子见证 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
