@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_composite_and_multiplicity_controls (test_prime_descent.TestDescent.test_composite_and_multiplicity_controls) ... ok
+test_grid (test_prime_descent.TestDescent.test_grid) ... Grid: 816 certificates, 3672 witnessed stages, 8256 nondividing primes rejected
+ok
+test_missing_and_invalid_premises (test_prime_descent.TestDescent.test_missing_and_invalid_premises) ... ok
+test_single_and_large (test_prime_descent.TestDescent.test_single_and_large) ... ok
+test_worked (test_prime_descent.TestDescent.test_worked) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+OK

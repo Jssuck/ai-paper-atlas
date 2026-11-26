@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Trace: (Stage(exponent=3, power=1728, quotient=576), Stage(exponent=2, power=144, quotient=48), Stage(exponent=1, power=12, quotient=4))
+code cell 2
+(12, 3, 5) rejected: candidate does not divide the given term
+(6, 2, 4) rejected: candidate must be prime
+code cell 3
+Composite divisor diagnostic: (9, 0) (1, 2)
+Prime 2 survives but its extra copy does not: (Stage(exponent=2, power=36, quotient=18), Stage(exponent=1, power=6, quotient=3))
+Executed 3 cells with stdlib, not a Jupyter kernel.
