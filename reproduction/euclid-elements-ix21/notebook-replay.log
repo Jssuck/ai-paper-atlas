@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Two equal halves: EvenSum(term_halves=(1, 2, 3), half_total=6, total=12)
+Single even term: EvenSum(term_halves=(1,), half_total=1, total=2)
+code cell 2
+Mixed/non-even: (2, 3) total 5 rejected: every term must be a positive even integer
+Mixed/non-even: (3, 5) total 8 rejected: every term must be a positive even integer
+Mixed/non-even: (2, 3, 5) total 10 rejected: every term must be a positive even integer
+code cell 3
+Modern boundary: () rejected: expected a nonempty list
+Modern boundary: (0, 2) rejected: every term must be a positive even integer
+Modern boundary: (-2, 6) rejected: every term must be a positive even integer
+Executed 3 cells with stdlib, not a Jupyter kernel.
