@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Least multiple: 30
+Repeated input: 30
+Successful removal: 30
+code cell 2
+Least value has no external-prime witness: p does not divide the candidate
+code cell 3
+Nonleast with the same prime support: 60
+Composite contrast, lcm(4,6): 12
+Executed 3 cells with stdlib, not a Jupyter kernel.

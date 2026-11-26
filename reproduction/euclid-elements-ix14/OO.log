@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_bounded_oracle (test_prime_lcm.TestPrimeLCM.test_bounded_oracle) ... Grid: 340 ordered lists, 17704 scan candidates, 820 removals, 820 least-value rejections
+ok
+test_examples (test_prime_lcm.TestPrimeLCM.test_examples) ... ok
+test_invalid_and_composite_boundaries (test_prime_lcm.TestPrimeLCM.test_invalid_and_composite_boundaries) ... ok
+test_no_foreign_prime_does_not_imply_minimality (test_prime_lcm.TestPrimeLCM.test_no_foreign_prime_does_not_imply_minimality) ... ok
+test_removal (test_prime_lcm.TestPrimeLCM.test_removal) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK
