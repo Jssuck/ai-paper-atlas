@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+3 measures 24 and its half: Witness(quotient=8, half_dividend=12, half_quotient=4)
+Half quotient is unity: Witness(quotient=2, half_dividend=5, half_quotient=1)
+code cell 2
+Independent exact comparison: 0 0
+Even divisor counterexample: 0 2
+code cell 3
+(4, 12) excluded: expected odd divisor >= 3 and even dividend >= 2
+(3, 10) excluded: the divisor must measure the dividend exactly
+(1, 8) excluded: expected odd divisor >= 3 and even dividend >= 2
+Executed 3 cells with stdlib, not a Jupyter kernel.
