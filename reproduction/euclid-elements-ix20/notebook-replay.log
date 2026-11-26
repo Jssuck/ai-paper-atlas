@@ -1,0 +1,9 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Prime branch: Extension(given=(2, 3, 5), multiple=30, next_number=31, new_prime=31, cofactor=1)
+code cell 2
+Composite branch, first six primes: Extension(given=(2, 3, 5, 7, 11, 13), multiple=30030, next_number=30031, new_prime=59, cofactor=509)
+code cell 3
+New prime may be smaller than maximum: Extension(given=(3, 7), multiple=21, next_number=22, new_prime=2, cofactor=11)
+Executed 3 cells with stdlib, not a Jupyter kernel.
