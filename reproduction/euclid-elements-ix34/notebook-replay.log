@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+12 Witness(halving_chain=(12, 6, 3), even_pair=(6, 2), odd_divisor_pair=(3, 4), reversed_mixed_pair=(4, 3))
+24 Witness(halving_chain=(24, 12, 6, 3), even_pair=(12, 2), odd_divisor_pair=(3, 8), reversed_mixed_pair=(8, 3))
+code cell 2
+16 excluded: powers of two have no nonunit odd divisor
+18 excluded: expected an even integer whose half is even
+2 excluded: expected an even integer whose half is even
+9 excluded: expected an even integer whose half is even
+code cell 3
+divisor, count, product: 12 2 24
+divisor, count, product: 3 8 24
+divisor, count, product: 8 3 24
+Executed 3 cells with stdlib, not a Jupyter kernel.
