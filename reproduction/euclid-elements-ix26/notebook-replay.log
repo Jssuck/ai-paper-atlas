@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Worked: Witness(even_residuals=(18, 8), even_halves=(9, 4), half=5, difference=10)
+Minimum: Witness(even_residuals=(4, 2), even_halves=(2, 1), half=1, difference=2)
+code cell 2
+Independent pair count from 9 to 19: [11, 13, 15, 17, 19]
+code cell 3
+(9, 9) modern result: 0 excluded: expected odd integers A > B >= 3
+(9, 19) modern result: -10 excluded: expected odd integers A > B >= 3
+(3, 1) modern result: 2 excluded: expected odd integers A > B >= 3
+Executed 3 cells with stdlib, not a Jupyter kernel.

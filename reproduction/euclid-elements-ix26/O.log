@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_large_exact (test_odd_pair_difference.TestDifference.test_large_exact) ... ok
+test_modern_boundaries (test_odd_pair_difference.TestDifference.test_modern_boundaries) ... ok
+test_paired_counting_oracle (test_odd_pair_difference.TestDifference.test_paired_counting_oracle) ... Grid: 4096 ordered pairs; 465 witnesses; 3631 rejected; 4960 pair increments
+ok
+test_worked_and_minimum (test_odd_pair_difference.TestDifference.test_worked_and_minimum) ... ok
+test_wrong_parity_and_type (test_odd_pair_difference.TestDifference.test_wrong_parity_and_type) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
