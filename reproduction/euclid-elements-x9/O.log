@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_examples (test_ratio_witness.TestX9.test_examples) ... ok
+test_grid (test_ratio_witness.TestX9.test_grid) ... Grid: 6400 ordered pairs; length commensurable=224, square-only=6176
+ok
+test_invalid_and_large (test_ratio_witness.TestX9.test_invalid_and_large) ... ok
+test_scaling (test_ratio_witness.TestX9.test_scaling) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.021s
+
+OK
