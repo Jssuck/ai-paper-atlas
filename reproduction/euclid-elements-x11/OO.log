@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_equal_irrational (test_ratio_witness.TestX11.test_equal_irrational) ... ok
+test_grid (test_ratio_witness.TestX11.test_grid) ... Grid: 4096 ordered representatives; witnesses=180; neither=3916
+ok
+test_pair_local_witnesses (test_ratio_witness.TestX11.test_pair_local_witnesses) ... ok
+test_unequal_or_invalid (test_ratio_witness.TestX11.test_unequal_or_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.029s
+
+OK

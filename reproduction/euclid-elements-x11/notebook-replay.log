@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(squared_ratio=Fraction(9, 4), counts=(3, 2), left_measure=Fraction(2, 1), right_measure=Fraction(5, 1))
+Witness(squared_ratio=Fraction(2, 1), counts=None, left_measure=None, right_measure=None)
+code cell 2
+the ordered ratios are not equal
+code cell 3
+Grid: 4096 ordered representatives; witnesses=180; neither=3916
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
