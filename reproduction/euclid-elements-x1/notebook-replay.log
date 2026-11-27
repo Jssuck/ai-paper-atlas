@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Three reference pieces: Audit(reference_count=3, dyadic_steps=2, first_below=2)
+code cell 2
+Allow exact halving: Audit(reference_count=3, dyadic_steps=2, first_below=2)
+code cell 3
+Monotone only, never at or below 5: [Fraction(6, 1), Fraction(11, 2), Fraction(21, 4), Fraction(41, 8), Fraction(81, 16), Fraction(161, 32)]
+Rejected: each new remainder must be less than half, or optionally at most half
+Executed 3 cells with stdlib, not a Jupyter kernel.

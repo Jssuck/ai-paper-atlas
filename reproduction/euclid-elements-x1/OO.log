@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B -u -OO -m unittest -v
+test_diagram_and_mixed_cuts (test_shrinking_remainder.TestRemainders.test_diagram_and_mixed_cuts) ... ok
+test_exact_half_and_threshold_equality (test_shrinking_remainder.TestRemainders.test_exact_half_and_threshold_equality) ... ok
+test_example_and_generator (test_shrinking_remainder.TestRemainders.test_example_and_generator) ... ok
+test_grid (test_shrinking_remainder.TestRemainders.test_grid) ... Grid: 992 strict chains, 496 equality chains, 14880 remainders
+ok
+test_monotone_not_sufficient_and_types (test_shrinking_remainder.TestRemainders.test_monotone_not_sufficient_and_types) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.110s
+
+OK
