@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_complete_bounded_grid (test_perfect_number.TestPerfectNumber.test_complete_bounded_grid) ... Grid: 19 exponents; 7 prime sums; 12 composite sums; 125 proper divisors; 469312 paired probes
+ok
+test_composite_sum (test_perfect_number.TestPerfectNumber.test_composite_sum) ... ok
+test_domain (test_perfect_number.TestPerfectNumber.test_domain) ... ok
+test_smallest (test_perfect_number.TestPerfectNumber.test_smallest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.038s
+
+OK

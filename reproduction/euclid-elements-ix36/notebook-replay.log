@@ -1,0 +1,14 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+2 Witness(chain=(1, 2), mersenne=3, number=6, pure_powers=(1, 2), mixed_powers=(3,))
+3 Witness(chain=(1, 2, 4), mersenne=7, number=28, pure_powers=(1, 2, 4), mixed_powers=(7, 14))
+5 Witness(chain=(1, 2, 4, 8, 16), mersenne=31, number=496, pure_powers=(1, 2, 4, 8, 16), mixed_powers=(31, 62, 124, 248))
+7 Witness(chain=(1, 2, 4, 8, 16, 32, 64), mersenne=127, number=8128, pure_powers=(1, 2, 4, 8, 16, 32, 64), mixed_powers=(127, 254, 508, 1016, 2032, 4064))
+code cell 2
+p=13: 8191 33550336 sum of ladders: 33550336
+code cell 3
+4 excluded: the geometric sum must be prime
+11 excluded: the geometric sum must be prime
+1 excluded: expected integer exponent in 2..20
+Executed 3 cells with stdlib, not a Jupyter kernel.
