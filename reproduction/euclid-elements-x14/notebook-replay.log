@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(remainder_square_ratio=Fraction(16, 25), remainder_to_larger_ratio=Fraction(4, 5))
+Witness(remainder_square_ratio=Fraction(5, 9), remainder_to_larger_ratio=None)
+code cell 2
+scale squared = 2; both normalized: 16/25 16/25
+code cell 3
+Grid: 3968 ordered scale combinations; both commensurable=176; neither=3792
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
