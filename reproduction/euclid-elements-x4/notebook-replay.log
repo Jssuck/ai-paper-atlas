@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Direct: Certificate(pair_measure=Fraction(3, 10), measure=Fraction(3, 10), branch='direct', counts=(7, 3, 2))
+Delayed: Certificate(pair_measure=Fraction(3, 10), measure=Fraction(1, 10), branch='delayed', counts=(21, 9, 4))
+code cell 2
+(6, 10, 15) Certificate(pair_measure=Fraction(2, 1), measure=Fraction(1, 1), branch='delayed', counts=(6, 10, 15))
+(6, 15, 10) Certificate(pair_measure=Fraction(3, 1), measure=Fraction(1, 1), branch='delayed', counts=(6, 15, 10))
+(10, 6, 15) Certificate(pair_measure=Fraction(2, 1), measure=Fraction(1, 1), branch='delayed', counts=(10, 6, 15))
+(10, 15, 6) Certificate(pair_measure=Fraction(5, 1), measure=Fraction(1, 1), branch='delayed', counts=(10, 15, 6))
+(15, 6, 10) Certificate(pair_measure=Fraction(3, 1), measure=Fraction(1, 1), branch='delayed', counts=(15, 6, 10))
+(15, 10, 6) Certificate(pair_measure=Fraction(5, 1), measure=Fraction(1, 1), branch='delayed', counts=(15, 10, 6))
+code cell 3
+Independent enumeration: [Fraction(1, 10)]
+Executed 3 cells with stdlib, not a Jupyter kernel.
