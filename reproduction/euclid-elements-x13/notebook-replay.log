@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+A/B=1/2; A/C=None; B/C=None
+A/B=1/2; A/C=None; B/C=None
+code cell 2
+1/√2=None; √2/2=None; 1/2=1/2
+code cell 3
+Grid: 13824 ordered triples; admissible=1026; rejected=12798
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
