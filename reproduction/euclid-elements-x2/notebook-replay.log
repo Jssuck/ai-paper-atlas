@@ -1,0 +1,10 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Rational quotients: [1, 2, 2, 2, 2, 2] last remainder: 0
+code cell 2
+Symbolic quotients: [1, 2, 2, 2, 2, 2, 2] last remainder coefficients: (-239, 169)
+code cell 3
+Common measure (rational): 1/70
+Two-index strict inequalities: [True, True, True, True, True]
+Executed 3 cells with stdlib, not a Jupyter kernel.

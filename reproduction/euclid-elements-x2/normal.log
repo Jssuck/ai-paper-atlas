@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_bad_domain_and_equality (test_reciprocal_subtraction.TestReciprocal.test_bad_domain_and_equality) ... ok
+test_rational_grid (test_reciprocal_subtraction.TestReciprocal.test_rational_grid) ... Grid: 946 rational pairs; 2336 divisions; 1390 positive two-index contractions
+ok
+test_same_digits (test_reciprocal_subtraction.TestReciprocal.test_same_digits) ... ok
+test_symbolic_identity (test_reciprocal_subtraction.TestReciprocal.test_symbolic_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.026s
+
+OK
