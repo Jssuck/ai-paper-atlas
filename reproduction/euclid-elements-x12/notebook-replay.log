@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(product_counts=(18, 27, 12), product_measure=Fraction(1, 1), primitive_counts=(6, 9, 4), primitive_measure=Fraction(3, 1))
+A,C,B: (Fraction(18, 1), Fraction(27, 1), Fraction(12, 1))
+Witness(product_counts=(18, 27, 12), product_measure=Fraction(1, 6), primitive_counts=(6, 9, 4), primitive_measure=Fraction(1, 2))
+A,C,B: (Fraction(3, 1), Fraction(9, 2), Fraction(2, 1))
+code cell 2
+Witness(product_counts=(12, 27, 18), product_measure=Fraction(1, 1), primitive_counts=(4, 9, 6), primitive_measure=Fraction(3, 1))
+code cell 3
+Grid: 4096 ordered representatives; no reduction=3422; reduced=674
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
