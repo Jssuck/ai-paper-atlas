@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness: RatioWitness(measure=Fraction(3, 10), counts=(7, 3))
+code cell 2
+(1, 3) signs: (-1, -1)
+(3, 7) signs: (0, 0)
+(1, 2) signs: (1, 1)
+code cell 3
+Subdivided: RatioWitness(measure=Fraction(3, 40), counts=(28, 12))
+Scaled: RatioWitness(measure=Fraction(39, 10), counts=(7, 3))
+Rejected incompatible measure: the proposed measure must divide both magnitudes
+Executed 3 cells with stdlib, not a Jupyter kernel.
