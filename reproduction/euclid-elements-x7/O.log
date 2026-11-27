@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_grid (test_ratio_witness.TestComparison.test_grid) ... Grid: 16384 pairs per case; sqrt2 relative to m/n below/equal/above = 5774/0/10610; positive-control equalities = 42
+ok
+test_invalid (test_ratio_witness.TestComparison.test_invalid) ... ok
+test_rescaled (test_ratio_witness.TestComparison.test_rescaled) ... ok
+test_sign_controls (test_ratio_witness.TestComparison.test_sign_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.228s
+
+OK
