@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+3/2: floors=(1, 1) ratio=None A=None
+25/36: floors=(5, 6) ratio=5/6 A=5
+25/36: floors=(5, 6) ratio=5/6 A=5
+4/9: floors=(2, 3) ratio=2/3 A=4
+code cell 2
+[(1, 3, 4), (1, 2, 4)]
+code cell 3
+Grid: 4096 ordered pairs; rational=180, irrational=3916
+Grid test: PASS
+Executed 3 cells with stdlib, not a Jupyter kernel.
