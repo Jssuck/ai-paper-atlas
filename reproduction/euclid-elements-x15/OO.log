@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_grid (test_ratio_witness.TestX15.test_grid) ... Grid: 3072 witness triples; maximal=1941; nonmaximal=1131
+ok
+test_invalid (test_ratio_witness.TestX15.test_invalid) ... ok
+test_nonmaximal_witness (test_ratio_witness.TestX15.test_nonmaximal_witness) ... ok
+test_orientation (test_ratio_witness.TestX15.test_orientation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.053s
+
+OK
