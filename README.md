@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》X.11：公度状态可以随比例传递吗？](papers/ancient/euclid-elements-x11.zh-CN.md)。展开等比下的见证传递，区分相同状态和相同量尺，附[教学复现与实跑日志](reproduction/euclid-elements-x11/README.md)、[原典记录](reproduction/euclid-elements-x11/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-x11/technical-review.zh-CN.md)。
+最新补读：[《几何原本》X.12：两对各有量尺，怎样合成一把？](papers/ancient/euclid-elements-x12.zh-CN.md)。展开共享中项的数比合成，区分端点公量与三项公量，附[教学复现与实跑日志](reproduction/euclid-elements-x12/README.md)、[原典记录](reproduction/euclid-elements-x12/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-x12/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -425,6 +425,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.9 精读](papers/ancient/euclid-elements-x9.zh-CN.md) | AI 数学前史补读：二重比、长度与平方的两种公度 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；传本 X.10 有插入争议；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.10 精读](papers/ancient/euclid-elements-x10.zh-CN.md) | AI 数学前史补读：中比例项、四次根与两种不可公度 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.11 精读](papers/ancient/euclid-elements-x11.zh-CN.md) | AI 数学前史补读：等比、整数见证与成对量尺 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.12 精读](papers/ancient/euclid-elements-x12.zh-CN.md) | AI 数学前史补读：比例合成、整数见证与共同量尺 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
