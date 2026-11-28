@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+(2,8): Witness(length_ratio=Fraction(1, 2), area_ratio=Fraction(4, 1), area_counts=(4, 1), measure_in_reference_squares=Fraction(1, 1))
+(2,3): Witness(length_ratio=None, area_ratio=None, area_counts=None, measure_in_reference_squares=None)
+code cell 2
+(2/9,8/9): Witness(length_ratio=Fraction(1, 2), area_ratio=Fraction(4, 9), area_counts=(4, 9), measure_in_reference_squares=Fraction(1, 9))
+reference doubled: Witness(length_ratio=Fraction(1, 2), area_ratio=Fraction(1, 1), area_counts=(1, 1), measure_in_reference_squares=Fraction(1, 1))
+code cell 3
+Grid: 20736 ordered input pairs; both rational=1696; neither=19040
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

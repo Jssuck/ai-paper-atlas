@@ -1,0 +1,7 @@
+# X.19 原典核对
+
+- [Heath 1908 卷 III，命题正文](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/019/)：印刷页 47 开题、作平方并用等长换边，p. 48 给比例、两面积可公度和结论。AB 为两图形的公共底边；图中点 C 在垂直边 BD 上（交换两边可使 AB 不短于 BC；一般比例仍成立），两面积 DA 与 AC 分别以 BD 与 BC 为高。由 AB 与 BC 长度可公度、AB＝BD 得 BD 与 BC 长度可公度，VI.1 给出 BD∶BC＝DA∶AC，再以 X.11 将可公度性传到面积对。DA 是有理直线 AB 上的正方形，故依 X.定义4 相对于指定基准平方是有理面积；AC 与 DA 可公度，所以同理。Joyce 把作正方形另显注为 I.46。X.19 没有四分之一面积、亏缺正方形、两边不等或互相仅平方可公度等条件。
+- [Heath p. 48 评注](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/019/commentary.html)：明确引录题头异文“κατά τινα τῶν προειρημένων τρόπων”（以此前述及的某种方式）。若修饰“长度可公度”，Heath 指出没有多种长度可公度方式；Billingsley 改接“有理”，即各直线与基准可按长度或仅按平方可公度，Heath 认为希腊词序不利于此读法。Heath 沿 August 删该措辞，认为它指向可疑且非证明所需的前置术语引理；Heiberg 放入附录的是与该引理相连的另一条后加文字，不宜据此说 Heiberg 也移走整个引理。Heath 把术语引理作为方括号段置于 X.18 之后、X.19 之前（p. 47）；评注的现代代数表达是另层证据，不是原命题正文。
+- [Fitzpatrick 希英对照本](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf) pp. 300–301：X.18 结语和该命题脚注之后直接排 X.19，不排前置引理；题头希腊、英语均无争议措辞。p. 300 最后两行起证明，p. 301 画图、完成推导和套语收束。这里不把 X.18 脚注的四分之一公式借给 X.19。
+- [Clay 希英对照](https://www.claymath.org/library/historical/euclid/files/elem.10.19.html)：希腊题头保留异文，证明首句仅说长度可公度，没有复述额外措辞；英语题头不译该措辞，正文到 AC 有理和定义编号为止，希腊另有形式结语。该页不载前置术语引理。对照证实这是见证文本的取舍，不是一个增加了证明假设的更新版定理。
+- [Joyce 的正文与 Guide](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX19.html)：在同页先单列引理，再排无争议措辞的本命题，末尾有完整结语。引理比较每条线与同一个指定的有理基准，正文则额外假设两条给定边之间长度可公度，两个比较对象不能换用。Guide 重复连了两次 X.定义 I.3；面积判据应以正文明确链接的 I.4 为准。Guide 标出 X.25 为后续用例，属编辑导读。
