@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+a=2, b=3: Witness(c_fourth=Fraction(6, 1), d_fourth=Fraction(27, 2), d_over_c_squared=Fraction(3, 2), rectangle_area=Fraction(3, 1))
+product fourth: 81 81
+a=3, b=2: Witness(c_fourth=Fraction(6, 1), d_fourth=Fraction(8, 3), d_over_c_squared=Fraction(2, 3), rectangle_area=Fraction(2, 1))
+product fourth: 16 16
+a=2/3, b=8/5: Witness(c_fourth=Fraction(16, 15), d_fourth=Fraction(768, 125), d_over_c_squared=Fraction(12, 5), rectangle_area=Fraction(8, 5))
+product fourth: 4096/625 4096/625
+code cell 2
+input ratio of squared lengths must not be a rational square
+code cell 3
+Grid: 4096 ordered representatives; constructed=3640; rejected=456
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

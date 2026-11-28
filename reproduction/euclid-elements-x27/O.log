@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B -O -m unittest -v
+test_examples (test_ratio_witness.TestX27.test_examples) ... ok
+test_grid (test_ratio_witness.TestX27.test_grid) ... Grid: 4096 ordered representatives; constructed=3640; rejected=456
+ok
+test_invalid (test_ratio_witness.TestX27.test_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.047s
+
+OK
