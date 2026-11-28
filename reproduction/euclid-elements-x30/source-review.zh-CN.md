@@ -1,0 +1,8 @@
+# X.30 原典核对
+
+- [Heath 1908 卷 III 正文，印页 68–69](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/030/)：以正有理线 AB 为半圆直径，取平方整数 CE、ED，其**和** CD 非平方。由 X.6 系论指定 AB²∶AF²＝CD∶CE。希文弧上点 Ζ 对英文 F；独立数字图 C–E–D 中 CD＝CE＋ED。X.29 用的是平方数的差非平方，两设定不可互换。
+- 此处原证略写 AB、AF 是仅平方公度的有理线，明确回用前题的推理：平方比有理，而 CD 非平方、CE 是平方，故其商不是有理平方。由 III.31、I.47 有 BF²＝AB²−AF²，经 V.19 系论换余得 CD∶DE＝AB²∶BF²。CD 同样不能与平方数 DE 形成两平方之比，所以由 X.9 得 BF 与 AB 长度不公度。差用的是 BF²；AF² 对应第一次选的比例。CE、ED 正，故 AF、BF 均严格介于 0 与 AB 之间。
+- [Heath 评注，印页 69](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/030/commentary.html)以 CE＝m²、ED＝n² 得 AF/AB＝1/√(1＋(n/m)²)。[Fitzpatrick 希英本](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf#page=313)正文跨印页 313–314，图在 313，314 的代数脚注令 k＝√(DE/CE)，同样是 n/m；代数参数不是原证所用语言。
+- [Clay 希英页](https://www.claymath.org/library/historical/euclid/files/elem.10.30.html)英文题头重复 is greater，希文与其他英译没有这种重字；英语到实质结论，希文另给最后全命题重述与收束。[Joyce 正文与 Guide](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX30.html)正文正确指出补差边 BF 与 AB 的长度不公度，但导读末句说 AB、AF；这是前题也满足的关系，不能当作本题区别。其 X.29.Lem.2 链到 X.29 网页之前单列的引理 II；Heath、Fitzpatrick 与 Clay 把该整数引理排在 X.28 后。
+- [X.28 后的整数引理 II](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/028/commentary.html)构造两个平方数而和非平方。现代简证：取正整数 U＞V 同奇偶且 UV 是平方，并取半差 a＝(U−V)/2≥2，令 b＝(U＋V)/2。设 S＝UV＋(a−1)²，则 b²−S＝2a−1＞0，S−(b−1)²＝2V＞0，故 S 位于连续两个整数平方之间；a≥2 保证参与相加的另一平方正。这是对引理构造的简化验证，不归为原文步骤。
+- **现代范围。** 若 (AB/u)²＝13，取 m＝2、n＝3，则 (AF/u)²＝4、(BF/u)²＝9；相对于 AB 的两比都无理。就任意正平方比 r＝AF²/AB²∈(0,1) 而言，可以写 r＝m²/(m²＋n²) 当且仅当 r/(1−r) 为有理平方；要另保留原构造的和非平方条件，可同时检验 r 非平方。r＝2/5 的 r 与 1−r 均非平方，符合两长度不公度的结果，但 r/(1−r)＝2/3 非平方，不能由该整数比例输入表示。

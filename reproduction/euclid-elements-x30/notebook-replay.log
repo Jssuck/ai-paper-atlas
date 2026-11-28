@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(l_squared=Fraction(1, 5), g_squared=Fraction(4, 5), l_over_h_squared=Fraction(1, 5), g_over_h_squared=Fraction(4, 5)) reconstructed h: 1
+Witness(l_squared=Fraction(3, 4), g_squared=Fraction(3, 4), l_over_h_squared=Fraction(1, 2), g_over_h_squared=Fraction(1, 2)) reconstructed h: 3/2
+Witness(l_squared=Fraction(8, 5), g_squared=Fraction(2, 5), l_over_h_squared=Fraction(4, 5), g_over_h_squared=Fraction(1, 5)) reconstructed h: 2
+code cell 2
+sum of squared legs must not be an integer square
+code cell 3
+Grid: 4096 ordered leg pairs; accepted=4022; square controls=74
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
