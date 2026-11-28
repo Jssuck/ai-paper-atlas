@@ -1,0 +1,8 @@
+# X.29 原典核对
+
+- [Heath 1908 卷 III，正文印页 66–67](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/029/)：取正有理线 AB 和平方数 CD、DE，使其正差 CE 非整数平方；数字示意图中 E 在 C、D 之间，故 CD＝CE＋DE。DC 与 CD 指同一数字长度，不是改用另一个数；数字图并非三角形的一部分。AB 上的半圆 AFB 取 AF²∶AB²＝CE∶CD，连接 FB。
+- 选 AF 所用平方比例见 X.6 系论。其正平方严格小于 AB²，因 0＜CE＜CD；现代构造核查可令 F 为以 A 为圆心、AF 为半径的圆与直径为 AB 的上半圆之交，交点不在端点。III.31 给 AFB 为直角，I.47 给 AF²＋BF²＝AB²。X.6、X.定义4 确认 AF 有理；若 CD∶CE 是两整数平方之比，则整数 CE 本身会是平方（因 CD 是平方且整数的有理平方根必为整数），故 X.9 确认 AB 与 AF 不按长公度。
+- **换余比例。** 从 CD∶CE＝AB²∶AF² 由 V.19 系论的 convertendo 得 CD∶(CD−CE)＝AB²∶(AB²−AF²)，即 CD∶DE＝AB²∶BF²。不是把原比取倒数。此处 CD、DE 都是平方，X.9 表明 BF 与 AB 按长公度；两块正方形的面积差是 BF²，而不是 AF² 或正线长 BF。
+- [X.28 后整数引理 I](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/028/commentary.html#lemma-i)的末支给出所需的非平方正差：取同奇偶、不相似的平面数 U＞V，令 m＝(U＋V)/2，n＝(U−V)/2，则 m²−n²＝UV 不是平方。取 6、2 可得到 16、4 及非平方差 12。X.29 只需引理 I 的这一末支，而非开头的平方和构造，也非引理 II。Heath、Fitzpatrick 与 Clay 在 X.28 后排两引理，[Joyce](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX29.html)将两引理放在 X.29 同页的主命题之前；Joyce 的导读大篇幅讲平方和的数论应用，不应据此改变 X.29 的依赖。
+- [Fitzpatrick 希英本](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf#page=312)正文跨印页 312–313，图置于 312，上方三角形顶点希文 Ζ 对英语 F；p. 313 脚注令参数为 √(DE/CD)。[Clay 希英页](https://www.claymath.org/library/historical/euclid/files/elem.10.29.html)希文完整；英语到实质的平方差结论，未显示希文最后的整体收束。[Heath 印页 68 评注](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/029/commentary.html)另以 m²、n² 用代数说明长度倍率 n/m 和 √(1−(n/m)²)，不是原证符号。
+- **现代逆向。** 对任一合法大线 H、小线 L 和差平方边 G，G²＝H²−L²，故长度公度条件给 q＝G/H 为 0＜q＜1 的有理数；仅平方公度使 1−q² 非有理平方。反之，取任意卷十有理正线 H 和满足这些条件的 q，L＝H√(1−q²)、G＝qH 正好给所求。将 q 写成 n/m，整数平方输入即 m²、n²；m²−n²＝m²(1−q²) 为非平方正整数。这个遍历所有可行对象的说法是现代参数化，不是古文另行声称唯一性。
