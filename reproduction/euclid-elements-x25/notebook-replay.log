@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+q=2, k=2, b=1: Witness(width_squares=(Fraction(2, 1), Fraction(4, 1), Fraction(8, 1)), area_squared=Fraction(4, 1), area_rational=True)
+q=2, k=3, b=2: Witness(width_squares=(Fraction(1, 1), Fraction(3, 1), Fraction(9, 1)), area_squared=Fraction(6, 1), area_rational=False)
+q=2/3, k=3/2, b=4/5: Witness(width_squares=(Fraction(5, 6), Fraction(5, 4), Fraction(15, 8)), area_squared=Fraction(1, 1), area_rational=True)
+code cell 2
+both q and k must be nonsquares
+both q and k must be nonsquares
+code cell 3
+Grid: 4096 ordered inputs; rational area=576; irrational area=1024; excluded=2496
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

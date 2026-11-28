@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B -m unittest -v
+test_examples (test_ratio_witness.TestX25.test_examples) ... ok
+test_grid (test_ratio_witness.TestX25.test_grid) ... Grid: 4096 ordered inputs; rational area=576; irrational area=1024; excluded=2496
+ok
+test_invalid (test_ratio_witness.TestX25.test_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.032s
+
+OK
