@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+L=3, S=2: Witness(gap_squared=Fraction(5, 1), ratios=None)
+L=5, S=4: Witness(gap_squared=Fraction(9, 1), ratios=(Fraction(4, 1), Fraction(5, 1), Fraction(5, 2), Fraction(5, 3)))
+code cell 2
+scaled control: Witness(gap_squared=Fraction(81, 4), ratios=(Fraction(4, 1), Fraction(5, 1), Fraction(5, 2), Fraction(5, 3)))
+code cell 3
+Grid: 2016 integer inputs; four rational ratios=54; none=1962
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
