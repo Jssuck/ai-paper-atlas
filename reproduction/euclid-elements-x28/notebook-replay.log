@@ -1,0 +1,17 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(d_fourth=Fraction(2, 1), e_fourth=Fraction(9, 2), e_over_d_squared=Fraction(3, 2), rectangle_area_squared=Fraction(3, 1))
+product fourth: 9 9
+Witness(d_fourth=Fraction(3, 1), e_fourth=Fraction(4, 3), e_over_d_squared=Fraction(2, 3), rectangle_area_squared=Fraction(2, 1))
+product fourth: 4 4
+Witness(d_fourth=Fraction(2, 9), e_fourth=Fraction(1, 2), e_over_d_squared=Fraction(3, 2), rectangle_area_squared=Fraction(1, 3))
+product fourth: 1/9 1/9
+code cell 2
+A:B must be incommensurable in length
+A:C must be incommensurable in length
+B:C must be incommensurable in length
+code cell 3
+Grid: 4096 ordered representatives; constructed=1344; excluded=2752
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
