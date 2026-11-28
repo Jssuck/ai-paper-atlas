@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+a=4, r=6: Witness(breadth_per_base=Fraction(3, 2), breadth_squared=Fraction(9, 1), counts=(3, 2), measure_per_base=Fraction(1, 2))
+a=2, r=3/2: Witness(breadth_per_base=Fraction(3, 4), breadth_squared=Fraction(9, 8), counts=(3, 4), measure_per_base=Fraction(1, 4))
+code cell 2
+scaled both by 2: Witness(breadth_per_base=Fraction(3, 4), breadth_squared=Fraction(9, 4), counts=(3, 4), measure_per_base=Fraction(1, 4))
+code cell 3
+Grid: 4096 constructed rectangles; integral breadth/base=1280; other rational=2816
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

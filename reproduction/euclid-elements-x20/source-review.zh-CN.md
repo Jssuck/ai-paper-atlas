@@ -1,0 +1,6 @@
+# X.20 原典核对
+
+- [Heath 1908 卷 III，印页 49](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/020/)及[原页影像](https://raw.githubusercontent.com/geometor/euclid/main/resources/heath/volume_III/book_x/propositions/0053.png)：题述是把有理面积施作于有理线，宽有理且与底按长公度。证明首段保留“一如前述任一种方式”，修饰的是底边 AB 的有理性，不是说两边按长公度存在若干种方式。勿误套 X.19 题头中的删节。
+- 图把矩形 AC 与正方形 AD 画在公共边 AB 两侧；AC、DA 是图形名，不是拿两条对角线相比。DB 与 BC 沿同一直线、从 B 指向两侧，作为底边时共高 AB；DB 等于正方形另一边 BA，但 BC 不预设与 DB 相等。由 VI.1 得 DA∶AC＝DB∶BC，X.11 传递公度性，再以 DB＝BA 得 AB 与 BC 按长公度。正方形有理用 X.定义4；最终从 AB 有理且 BC 与之按长公度得 BC 有理，可用 X.定义3 与长度公度蕴含平方公度解释（Fitzpatrick 显标定义3，Joyce 另补标作平方 I.46）。两面积均与基准平方公度，因此彼此公度；可借 X.12 展开，勿把它写成 Heath 此处的显注。
+- [Fitzpatrick 希英对照本](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf)，印页 301–302：301 页题述、图形和作正方形；302 页比例链、两条结论和结语。希文和英语证明开头均不录“再依前述某种方式”。[Clay 希英对照](https://www.claymath.org/library/historical/euclid/files/elem.10.20.html)希文在证明开头保留该语，英文亦译出；两种正文均到最后实质结论，希文另有套语。题述本身未增加这一语句。
+- [Heath 同页评注](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/020/commentary.html)称它是上题逆向，并用有理面积等于底边平方的有理倍来解释；[Joyce 正文及 Guide](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX20.html)也保留证明首段措辞，称逆向关系被面积施作步骤遮住了。准确的现代比较是：固定一条相对于同一标准的有理线作矩形边，则矩形面积有理当且仅当另一边与它按长公度（公度时另一边也有理）。这不意味着由有理面积一项便足以推出任意两边有理。Joyce 的中间句在 therefore 之前多出孤立 C，不影响几何读法。
