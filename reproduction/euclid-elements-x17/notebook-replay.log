@@ -1,0 +1,11 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+B=5,A=4: Witness(gap_squared=Fraction(9, 1), parts=(Fraction(1, 1), Fraction(4, 1)))
+B=3,A=2: Witness(gap_squared=Fraction(5, 1), parts=None)
+code cell 2
+sum: 5 product: 4 gap square: 9
+code cell 3
+Grid: 2016 strict integer pairs; rational parts=54; irrational parts=1962
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

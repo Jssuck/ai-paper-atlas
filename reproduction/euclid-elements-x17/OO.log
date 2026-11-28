@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B -OO -m unittest -v
+test_examples (test_ratio_witness.TestX17.test_examples) ... ok
+test_grid (test_ratio_witness.TestX17.test_grid) ... Grid: 2016 strict integer pairs; rational parts=54; irrational parts=1962
+ok
+test_invalid (test_ratio_witness.TestX17.test_invalid) ... ok
+test_reverse_from_constructed_parts (test_ratio_witness.TestX17.test_reverse_from_constructed_parts) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.013s
+
+OK
