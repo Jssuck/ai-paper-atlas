@@ -1,6 +1,6 @@
 # AI Paper Atlas · AI 论文历史精读
 
-最新补读：[《几何原本》X.24：怎样用一块正方形判定矩形的面积类型？](papers/ancient/euclid-elements-x24.zh-CN.md)。用共高比例传递公度，再由面积系论判定中项；对照仅平方公度的反例，附[教学复现与实跑日志](reproduction/euclid-elements-x24/README.md)、[原典记录](reproduction/euclid-elements-x24/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-x24/technical-review.zh-CN.md)。
+最新补读：[《几何原本》X.25：同样仅平方公度，为什么一个矩形有理、另一个中项？](papers/ancient/euclid-elements-x25.zh-CN.md)。把面积搬到同底矩形，以比例中项判定有理、中项两个分支，附[教学复现与实跑日志](reproduction/euclid-elements-x25/README.md)、[原典记录](reproduction/euclid-elements-x25/source-review.zh-CN.md)和[独立技术核对](reproduction/euclid-elements-x25/technical-review.zh-CN.md)。
 
 从人工智能的思想与数学前史出发，沿时间线逐篇阅读、解释和核验研究文献。目标是对不同方向、作者与影响力的论文采用一致的阅读标准，而非只整理名作。
 
@@ -438,6 +438,7 @@
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.22 精读](papers/ancient/euclid-elements-x22.zh-CN.md) | AI 数学前史补读：全底施作、中项线平方与宽底不公度 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.23 精读](papers/ancient/euclid-elements-x23.zh-CN.md) | AI 数学前史补读：同底施作、中项面积与平方类保持 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.24 精读](papers/ancient/euclid-elements-x24.zh-CN.md) | AI 数学前史补读：共高比例、中项面积与长度公度 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
+| 约公元前 300 年（作品年代范围；实读 Heath 1908 与 Fitzpatrick 希英本） | [《几何原本》X.25 精读](papers/ancient/euclid-elements-x25.zh-CN.md) | AI 数学前史补读：同底三宽、比例中项与面积分类 | 深读 v1 · 含逐步证明、精确复现和独立核对 |
 | 1690（首版题名印年） | [Locke理解论II.XI精读](papers/1690/locke-understanding-ii11.zh-CN.md) | AI认知前史回填：辨别、比较、组合、抽象与能力归属的证据 | 深读v1 · 完整68–72五页、17节及两项正式勘误 |
 | 1710（实际首版） | [Berkeley原理导论精读](papers/1710/berkeley-principles-introduction.zh-CN.md) | AI表征与推理前史回填：一般符号、证明依赖、定义及语言作用 | 深读v1 · 完整1–39页、25节与版本边界 |
 | 1768（原信署1761-02-14） | [Euler第CII信精读](papers/1768/euler-letter-cii.zh-CN.md) | AI前史回填：一般观念、四类命题与圆域表示 | 深读v1 · 完整书信章节95–100及六图块 |
