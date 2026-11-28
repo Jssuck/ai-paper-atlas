@@ -1,0 +1,8 @@
+# X.33 原典核查：从斜边的投影得到两种面积
+
+- [Heath，1908 年第 III 卷印页 75–77](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/033/)；[评注印页 77–78](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/033/commentary.html)。主文先援引 X.30 取两条有理线，再用 VI.28 作亏方矩形；X.18 专门判定斜边的两个投影长度不公度。三条结论分开证：共高矩形加投影恒等式传递不公度；I.47 则证两直角边的平方和为有理的斜边平方；原输入矩形按 X.21 为中项，其一半按 X.23 附段仍为中项，恰等于输出矩形。评注将作图解释为和积方程，另列三类根式；这是 Heath 的分析，不是古证符号。
+- [Fitzpatrick 希英对照本第 317–318 页](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf#page=317)。p. 317 先结束独立的投影引理，再开始 X.33，p. 318 收完正文。方括号中的「两条」不改数学；Fitzpatrick 注标 X.11 说明从投影长度比到平方面积比仍然不公度，注标 X.6 说明两面积比是数比。它们是显式的现代编注定位，不等于 Heath 主段也印了这些编号。希文顶点为 Z（Ζ），英译用 F。
+- [Clay 对照页](https://www.claymath.org/library/historical/euclid/files/elem.10.33.html)的希文含最后的结论；英语在重申平方和为有理处截止，无最后重陈。先读[前一页的独立引理](https://www.claymath.org/library/historical/euclid/files/elem.10.32.html)，不要把它当 X.32 主证的一步。引理中的相似三角形给出斜边乘相应投影等于直角边平方、两投影的乘积等于高的平方，以及斜边乘高等于两直角边乘积。Fitzpatrick p. 317 希文比例第一项为 ΒΑ，而其英文作 BD；Clay 与 Joyce 这里用 BD，与两投影的几何意义相符。这个字母差异发生在引理，不影响 X.33 主证。只记录读本差异，不推测源流。
+- [Joyce 排版](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX33.html)把引理放在本页主命题之前；两处「Proposition 33」标题之间的引理有自己的证明和证毕。主证由 AE、EB 换到 AF、FB 的平方时，第二个等积关系误用一般比例连接语；其他三本与引理均明确是 AB×BE 等于 BF²，不是另一个比例前件。Joyce 的 [X.39](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX39.html)与 [X.76](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX76.html)正文均链接至 X.33，分别取满足这三条性质的两线之和及较大线减较小线，命名各自所得的无理线。本次只核对这种依赖，并未精读后两条。
+
+设输入长为 L、M，L>M>0，参考长度为 u，且 a=(L/u)²、b=(M/u)²。几何和积方程为 AE+EB=L、AE×EB=M²/4。它有两个镜像的内点解，互换输出两直角边而不改三项性质。由投影乘 L，输出两边的平方除以 u²分别是 (a±√(a(a−b)))/2，平方和为 a，矩形面积平方除以 u⁴为 ab/4。输入两线仅平方公度意味着 b/a 为非平方；X.30 所需的第二条件，即 (a−b)/a 非平方，才负责输出平方之间的不公度。此计算用于核校原证，并非古代原文计算或尺度约定。

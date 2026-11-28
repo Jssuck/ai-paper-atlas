@@ -1,0 +1,17 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(radicand=Fraction(7, 9), center=Fraction(9, 2), coefficient=Fraction(9, 2), sum_squares=Fraction(9, 1), rectangle_squared=Fraction(9, 2))
+product: 9/2
+Witness(radicand=Fraction(7, 9), center=Fraction(3, 4), coefficient=Fraction(3, 4), sum_squares=Fraction(3, 2), rectangle_squared=Fraction(1, 8))
+product: 1/8
+Witness(radicand=Fraction(1, 2), center=Fraction(1, 1), coefficient=Fraction(1, 1), sum_squares=Fraction(2, 1), rectangle_squared=Fraction(1, 2))
+product: 1/2
+code cell 2
+(4, 1) both k and 1−k must be nonsquares
+(4, 3) both k and 1−k must be nonsquares
+(25, 9) both k and 1−k must be nonsquares
+code cell 3
+Grid: 2016; accepted=1904; only k square=54; only 1-k square=54; both square=4
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
