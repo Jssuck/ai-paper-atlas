@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+q=6, h=2: Witness(rectangle_area_squared=Fraction(24, 1), square_over_rectangle=Fraction(1, 2), equivalent_side_fourth=Fraction(24, 1))
+q=6, h=1/2: Witness(rectangle_area_squared=Fraction(3, 2), square_over_rectangle=Fraction(2, 1), equivalent_side_fourth=Fraction(3, 2))
+q=16/15, h=9/4: Witness(rectangle_area_squared=Fraction(27, 5), square_over_rectangle=Fraction(4, 9), equivalent_side_fourth=Fraction(27, 5))
+code cell 2
+16/15 16/15
+code cell 3
+Grid: 4096 ordered inputs; accepted=3328; square controls=768
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
