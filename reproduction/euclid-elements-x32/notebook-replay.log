@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+Witness(d_fourth=Fraction(75, 1), e_fourth=Fraction(1323, 25), area_squared=Fraction(63, 1), e_over_d_squared=Fraction(21, 25), gap_ratio_squared=Fraction(4, 25), gap_commensurable=True)
+product fourth agrees: True
+Witness(d_fourth=Fraction(6, 1), e_fourth=Fraction(3, 2), area_squared=Fraction(3, 1), e_over_d_squared=Fraction(1, 2), gap_ratio_squared=Fraction(1, 2), gap_commensurable=False)
+product fourth agrees: True
+code cell 2
+A:B must be length-incommensurable
+code cell 3
+Grid: 4096; gap commensurable=86; gap incommensurable=1282; rejected=2728
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
