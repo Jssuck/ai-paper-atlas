@@ -1,0 +1,7 @@
+# X.31 原典核对
+
+- [Heath 1908 卷 III 正文，印页 69–70](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/031/)由 X.29 选取仅平方公度的有理正线 A＞B，且平方差的方边与 A 按长公度。作 C²＝AB、CD＝B²（此处 AB、CD 为所围矩形的面积）。X.21 认定 C 中项；第二个等积式同时给出所求矩形的有理面积。
+- 同高转换两次：第一对面积以 B 作共同高，A∶B＝AB∶B²；第二对面积以 C 作共同高，C²∶CD＝C∶D。以等积连接得 A∶B＝C∶D。它们都可按 VI.1 解释；[Heath 评注](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/031/commentary.html)称 X.21 后的比例引理，Fitzpatrick 标作 X.21 lem.，[Joyce](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX31.html)标作 X.22.Lem，指同一引理的不同编排与比例读法。X.11 直接保持按长不公度，平方比的保持可用 VI.22 解释；D 的中项性需 X.23 附段（或面积系论），不可只套需按长公度的主命题。
+- 同比还给 C＞D。若 U、V 分别为两对平方差的方边，则 V/C＝U/A（两个正比的平方同为 1−B²/A²），对应 X.14 双向保持差方边的长度公度性质。正文标题及展开的分支用 X.29；末句另用 X.30 的输入取得**长度不公度**分支，同一构造保持该否定性质。这正是 [Joyce X.34](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX34.html) 开头标作 X.31 ad fin. 的调用；这里只定位调用，不重建后题。
+- Heath 评注印页 70–71 分别整理两分支，给出四段 A、C、B、D 的连比。X.27 也用同样两面积关系得到有理矩形，本题额外控制的是差方边相对大边的长度公度状态。[Fitzpatrick 希英本](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf#page=314)跨印页 314–315，p. 314 有图，p. 315 保留末句并用两条脚注分别写 X.29 型与 X.30 型根式。[Clay 希英页](https://www.claymath.org/library/historical/euclid/files/elem.10.31.html)希文有末句，英语停在公度分支结论；Joyce 正文同 Heath、Fitzpatrick 一样完整呈现两分支。
+- **现代坐标复核：** 以 u 为单位，记 a、b 为 A、B 的平方坐标，k＝b/a。输出 C、D 的四次幂坐标分别是 ab、b³/a，矩形面积坐标 R＝b。a＝25、b＝21 时，两个四次幂为 525 与 9261/25，k＝21/25，差方边对大边比为 2/5；a＝2、b＝1 时，四次幂为 2、1/2，k＝1/2，差方边比为 1/√2。反向给定 R＞0 有理及 0＜k＜1 为有理非平方，可取 b＝R、a＝R/k，正输出唯一。1−k 是有理平方时对应主分支，否则对应末句分支；这种全域参数化是现代解释，不是古文的唯一性主张，也不要求每个合法起始比都由 X.30 的特定整数构造得到。
