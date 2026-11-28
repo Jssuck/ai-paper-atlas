@@ -1,0 +1,15 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+k=1/2: Witness(center_squared=Fraction(2, 1), offset_squared=Fraction(1, 1), sum_squared=Fraction(8, 1), rectangle_area=Fraction(1, 1), cross_term_squared=Fraction(8, 1), cross_term_rational=False, offset_rational=True)
+positive area squared: 1
+k=2/5: Witness(center_squared=Fraction(5, 2), offset_squared=Fraction(3, 2), sum_squared=Fraction(10, 1), rectangle_area=Fraction(1, 1), cross_term_squared=Fraction(15, 1), cross_term_rational=False, offset_rational=False)
+positive area squared: 1
+code cell 2
+1/4 k and 1−k must both be nonsquares
+3/4 k and 1−k must both be nonsquares
+9/25 k and 1−k must both be nonsquares
+code cell 3
+Grid: 2016; accepted=1904; excluded=112; rational offset=104; irrational offset=1800
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.

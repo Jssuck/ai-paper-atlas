@@ -1,0 +1,8 @@
+# X.34 原典核查
+
+- [Heath 1908，第 III 卷印页 78–79 正文](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/034/)从 X.31 末尾取两条仅平方公度的中项线。两线围成有理面积，而大线平方超出小线平方的差具有一个与大线长度不公度的方边。在小线 BC 上取中点 E，VI.28 在斜边 AB 上得到矩形 AF×FB，使它等于 BE²；X.18 使两个投影 AF、FB 长度不公度。从 F 作垂线到半圆顶点 D。
+- 投影恒等式把共高矩形 AB×AF 和 AB×BF 换为 AD² 和 DB²，X.11 所用的比例传递从而给出平方不公度。前置投影引理由 [Clay 列在 X.32 后](https://www.claymath.org/library/historical/euclid/files/elem.10.32.html)，[Joyce 放在 X.33 页开头](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX33.html)，Fitzpatrick 记为 X.32 的引理。按 III.31 和 I.47，平方和等于 AB²；由于 AB 是中项线，AB² 是中项面积。正文直接用 BC 为 DF 的两倍；补足计算是 DF²=AF×FB=BE²，且 BE=BC/2。斜边乘高等于两直角边乘积，故输出矩形为原有理矩形的一半，依 X.6 与有理面积公度，仍是有理面积。
+- [Fitzpatrick 希英对照印页 319–320](https://farside.ph.utexas.edu/books/Euclid/Elements.pdf#page=319)在最后一页结束主证并给长度倍数脚注。正文希文高足用 Ζ，英语用 F，顶点 D 不变。[Clay 希英对照](https://www.claymath.org/library/historical/euclid/files/elem.10.34.html)希文完整收束，英语结束于得到矩形有理，没有再复述三项输出。[Joyce X.34](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX34.html)完整保留结论与证明完毕，但用了 BE² 而未写「取 E 为 BC 中点」；其他三本保留此步骤。它的 [X.40](https://mathcs.clarku.edu/~djoyce/elements/bookX/propX40.html)正文明确链回 X.34，把满足同一组三条条件的两线相加。这里仅核对其依赖。
+- [Heath 评注印页 79–80](https://geometor.github.io/euclid/heath/volume_III/book_x/propositions/034/commentary.html)写出斜边参数 ρ/(1+t²)^(1/4) 和输出长度根式，其中输出前因子以 ρ 为尺度。Fitzpatrick p. 320 的 † 脚注把形如 √[(√(1+t²)±t)/(2(1+t²))] 的两系数写成乘 AB；两系数平方和却为 1/√(1+t²)，而投影引理与 I.47 要求其为 1。按 Heath 的参数，这两系数可乘 ρ；若用 AB 作单位，改用根式分母 2√(1+t²)。仅记录版本中的尺度不一致，不推测编辑意图。
+
+现代校核：设大、小线长为 H、L，参考线为 u，令 R=HL/u² 为正有理数，k=(L/H)²，且 k 与 1−k 都非有理平方，0<k<1。两输出边平方之和除以 u² 等于 H²/u²=R/√k，满足中项面积判据；乘积除以 u² 为 R/2；其平方之比为 (1+√(1−k))/(1−√(1−k)) 或倒数，依然无理。这个表达不把现代量纲符号归给古希腊文本。
