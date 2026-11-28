@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+k=4: Witness(length_premise=True, b_side_fourth=Fraction(96, 1), ed_squared=Fraction(3, 1), df_squared=Fraction(48, 1), ed_over_df=Fraction(1, 4))
+k=2: Witness(length_premise=False, b_side_fourth=Fraction(24, 1), ed_squared=Fraction(3, 1), df_squared=Fraction(12, 1), ed_over_df=Fraction(1, 2))
+code cell 2
+Witness(length_premise=True, b_side_fourth=Fraction(27, 5), ed_squared=Fraction(8, 5), df_squared=Fraction(81, 10), ed_over_df=Fraction(4, 9))
+squared areas: 16/15 27/5
+code cell 3
+Grid: 46656; length premise=8064; porism-only=28224; rejected=10368
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
