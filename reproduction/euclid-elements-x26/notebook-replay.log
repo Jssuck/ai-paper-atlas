@@ -1,0 +1,13 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+WidthSquare(constant=Fraction(3, 1), radical_coefficient=Fraction(2, 1), radicand=Fraction(2, 1))
+WidthSquare(constant=Fraction(29, 12), radical_coefficient=Fraction(1, 1), radicand=Fraction(3, 2))
+code cell 2
+p=8, q=2: 2
+p=3, q=2: WidthSquare(constant=Fraction(5, 1), radical_coefficient=Fraction(-2, 1), radicand=Fraction(6, 1))
+code cell 3
+Certificate grid: 192 positive nonzero radical coefficients
+Pair grid: 148 nonsquares; 10878 ordered strict pairs; rational nonsquare d²=370; radical d²=10508
+Tests run: 2; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
