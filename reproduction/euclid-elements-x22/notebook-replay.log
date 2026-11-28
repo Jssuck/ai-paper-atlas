@@ -1,0 +1,12 @@
+Python 3.12.14
+python3 -B replay_notebook.py
+code cell 1
+q=6, b=2: Witness(width_squared=Fraction(3, 1), width_to_base_squared=Fraction(3, 2)) equal area: True
+q=6, b=4: Witness(width_squared=Fraction(3, 2), width_to_base_squared=Fraction(3, 8)) equal area: True
+q=16/15, b=2/3: Witness(width_squared=Fraction(8, 5), width_to_base_squared=Fraction(12, 5)) equal area: True
+code cell 2
+q must not be a rational square
+code cell 3
+Grid: 4096 ordered inputs; accepted=3328; square controls rejected=768
+Tests run: 1; failures: 0; errors: 0
+Executed 3 cells with stdlib, not a Jupyter kernel.
